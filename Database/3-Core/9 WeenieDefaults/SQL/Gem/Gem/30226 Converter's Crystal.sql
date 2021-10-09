@@ -33,11 +33,11 @@ VALUES (30226,   1, 'Converter''s Crystal') /* Name */
      , (30226,  20, 'Converter''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30226,   1,   33554809) /* Setup */
-     , (30226,   3,  536870932) /* SoundTable */
-     , (30226,   6,   67111919) /* PaletteBase */
-     , (30226,   8,  100686697) /* Icon */
-     , (30226,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30226,   1, 0x02000179) /* Setup */
+     , (30226,   3, 0x20000014) /* SoundTable */
+     , (30226,   6, 0x04000BEF) /* PaletteBase */
+     , (30226,   8, 0x06005B69) /* Icon */
+     , (30226,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30226,  28,       3724) /* Spell - ManaConvertMasteryRare */
-     , (30226,  50,  100686673) /* IconOverlay */
-     , (30226,  52,  100686604) /* IconUnderlay */;
+     , (30226,  50, 0x06005B51) /* IconOverlay */
+     , (30226,  52, 0x06005B0C) /* IconUnderlay */;

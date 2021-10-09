@@ -19,8 +19,8 @@ VALUES (44362,   1, 'Bundle of Greater Deadly Armor Piercing Arrowheads') /* Nam
      , (44362,  20, 'Bundles of Greater Deadly Armor Piercing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44362,   1,   33555958) /* Setup */
-     , (44362,   3,  536870932) /* SoundTable */
-     , (44362,   8,  100672669) /* Icon */
-     , (44362,  22,  872415275) /* PhysicsEffectTable */
-     , (44362,  50,  100689661) /* IconOverlay */;
+VALUES (44362,   1, 0x020005F6) /* Setup */
+     , (44362,   3, 0x20000014) /* SoundTable */
+     , (44362,   8, 0x0600249D) /* Icon */
+     , (44362,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44362,  50, 0x060066FD) /* IconOverlay */;

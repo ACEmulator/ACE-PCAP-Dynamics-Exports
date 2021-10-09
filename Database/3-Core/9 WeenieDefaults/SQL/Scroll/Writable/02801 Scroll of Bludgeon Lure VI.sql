@@ -23,7 +23,7 @@ VALUES (2801,   1, 'Scroll of Bludgeon Lure VI') /* Name */
 Decreases a shield or piece of armor''s resistance to bludgeoning damage by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2801,   1,   33554826) /* Setup */
-     , (2801,   8,  100676665) /* Icon */
-     , (2801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2801,   1, 0x0200018A) /* Setup */
+     , (2801,   8, 0x06003439) /* Icon */
+     , (2801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2801,  28,       1510) /* Spell - BludgeonLure6 */;

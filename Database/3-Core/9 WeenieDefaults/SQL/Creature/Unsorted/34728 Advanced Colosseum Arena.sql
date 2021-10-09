@@ -27,11 +27,11 @@ VALUES (34728,   1, 'Advanced Colosseum Arena') /* Name */
      , (34728,  16, 'You must be level 80 or greater to use this portal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34728,   1,   33560145) /* Setup */
-     , (34728,   2,  150995311) /* MotionTable */
-     , (34728,   3,  536870932) /* SoundTable */
-     , (34728,   8,  100677070) /* Icon */;
+VALUES (34728,   1, 0x02001651) /* Setup */
+     , (34728,   2, 0x0900016F) /* MotionTable */
+     , (34728,   3, 0x20000014) /* SoundTable */
+     , (34728,   8, 0x060035CE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34728, 8040, 11469112, 49.1829, 4.27901, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34728, 8040, 0x00AF0138, 49.1829, 4.27901, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0138 [49.182900 4.279010 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

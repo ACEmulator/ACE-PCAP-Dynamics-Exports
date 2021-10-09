@@ -47,13 +47,13 @@ VALUES (43051,   1, 'Knorr Academy Greaves') /* Name */
      , (43051,  16, 'Knorr Academy Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43051,   1,   33554641) /* Setup */
-     , (43051,   3,  536870932) /* SoundTable */
-     , (43051,   6,   67108990) /* PaletteBase */
-     , (43051,   8,  100691418) /* Icon */
-     , (43051,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43051,   1, 0x020000D1) /* Setup */
+     , (43051,   3, 0x20000014) /* SoundTable */
+     , (43051,   6, 0x0400007E) /* PaletteBase */
+     , (43051,   8, 0x06006DDA) /* Icon */
+     , (43051,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43051,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43051,  2108,      2)  /* Impenetrability7 */
-     , (43051,  6101,      2)  /* CantripWillpower4 */;
+VALUES (43051,  6101,      2)  /* CantripWillpower4 */
+     , (43051,  2108,      2)  /* Impenetrability7 */;

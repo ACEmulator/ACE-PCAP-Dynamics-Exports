@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45973,   1, 'Seasoned Explorer Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45973,   1,   33554788) /* Setup */
-     , (45973,   3,  536870932) /* SoundTable */
-     , (45973,   8,  100667360) /* Icon */
-     , (45973,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45973,   1, 0x02000164) /* Setup */
+     , (45973,   3, 0x20000014) /* SoundTable */
+     , (45973,   8, 0x06000FE0) /* Icon */
+     , (45973,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45973, 8040, 3583574052, 74.8708, 191.7805, 292.8813, 0.3815872, -0.4946718, -0.682117, -0.3800098) /* PCAPRecordedLocation */
+VALUES (45973, 8040, 0xD5990024, 74.8708, 191.7805, 292.8813, 0.381587, -0.494672, -0.682117, -0.38001) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990024 [74.870800 191.780500 292.881300] 0.381587 -0.494672 -0.682117 -0.380010 */;

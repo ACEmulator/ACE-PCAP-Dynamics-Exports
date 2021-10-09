@@ -22,7 +22,7 @@ VALUES (31336,   1, 'Fake Niffis Pearl') /* Name */
      , (31336,  16, 'This Niffis Pearl is almost indistinguishable from a real one.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31336,   1,   33558259) /* Setup */
-     , (31336,   3,  536870932) /* SoundTable */
-     , (31336,   8,  100674116) /* Icon */
-     , (31336,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31336,   1, 0x02000EF3) /* Setup */
+     , (31336,   3, 0x20000014) /* SoundTable */
+     , (31336,   8, 0x06002A44) /* Icon */
+     , (31336,  22, 0x3400002B) /* PhysicsEffectTable */;

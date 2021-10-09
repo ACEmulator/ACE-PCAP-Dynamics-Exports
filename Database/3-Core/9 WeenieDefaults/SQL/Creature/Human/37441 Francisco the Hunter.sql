@@ -30,19 +30,19 @@ VALUES (37441,   1, 'Francisco the Hunter') /* Name */
      , (37441,   5, 'Hunter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37441,   1,   33554433) /* Setup */
-     , (37441,   2,  150994945) /* MotionTable */
-     , (37441,   3,  536870913) /* SoundTable */
-     , (37441,   8,  100667446) /* Icon */
-     , (37441,   9,   83890508) /* EyesTexture */
-     , (37441,  10,   83890557) /* NoseTexture */
-     , (37441,  11,   83890638) /* MouthTexture */
-     , (37441,  15,   67116989) /* HairPalette */
-     , (37441,  16,   67109564) /* EyesPalette */
-     , (37441,  17,   67115908) /* SkinPalette */;
+VALUES (37441,   1, 0x02000001) /* Setup */
+     , (37441,   2, 0x09000001) /* MotionTable */
+     , (37441,   3, 0x20000001) /* SoundTable */
+     , (37441,   8, 0x06001036) /* Icon */
+     , (37441,   9, 0x0500114C) /* EyesTexture */
+     , (37441,  10, 0x0500117D) /* NoseTexture */
+     , (37441,  11, 0x050011CE) /* MouthTexture */
+     , (37441,  15, 0x04001FBD) /* HairPalette */
+     , (37441,  16, 0x040002BC) /* EyesPalette */
+     , (37441,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37441, 8040, 1240465455, 136.845, 163.086, 170.005, 0.988486, 0, 0, 0.151311) /* PCAPRecordedLocation */
+VALUES (37441, 8040, 0x49F0002F, 136.845, 163.086, 170.005, 0.988486, 0, 0, 0.151311) /* PCAPRecordedLocation */
 /* @teleloc 0x49F0002F [136.845000 163.086000 170.005000] 0.988486 0.000000 0.000000 0.151311 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

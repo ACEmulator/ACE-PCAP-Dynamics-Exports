@@ -31,7 +31,7 @@ VALUES (42490,   1, 'Enchanted Mana Stone') /* Name */
      , (42490,  16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42490,   1,   33555641) /* Setup */
-     , (42490,   3,  536870932) /* SoundTable */
-     , (42490,   8,  100676308) /* Icon */
-     , (42490,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42490,   1, 0x020004B9) /* Setup */
+     , (42490,   3, 0x20000014) /* SoundTable */
+     , (42490,   8, 0x060032D4) /* Icon */
+     , (42490,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7566,   1, 'Ravenous Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7566,   1,   33556656) /* Setup */
-     , (7566,   3,  536870932) /* SoundTable */
-     , (7566,   8,  100668875) /* Icon */
-     , (7566,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7566,   1, 0x020008B0) /* Setup */
+     , (7566,   3, 0x20000014) /* SoundTable */
+     , (7566,   8, 0x060015CB) /* Icon */
+     , (7566,  22, 0x3400002B) /* PhysicsEffectTable */;

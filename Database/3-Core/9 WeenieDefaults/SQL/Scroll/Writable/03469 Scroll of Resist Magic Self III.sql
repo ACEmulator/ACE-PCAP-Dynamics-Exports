@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3469,   1, 'Scroll of Resist Magic Self III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3469,   1,   33554826) /* Setup */
-     , (3469,   8,  100676465) /* Icon */
-     , (3469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3469,   1, 0x0200018A) /* Setup */
+     , (3469,   8, 0x06003371) /* Icon */
+     , (3469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3469,  28,        276) /* Spell - MagicResistanceSelf3 */;

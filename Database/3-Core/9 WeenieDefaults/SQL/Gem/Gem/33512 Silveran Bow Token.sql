@@ -21,11 +21,11 @@ VALUES (33512,   1, 'Silveran Bow Token') /* Name */
      , (33512,  16, 'This token represents a Silveran Bow.  You may only pick up one Silveran weapon token.  Turn it in to the Whispering Blade Chamberlain to receive your reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33512,   1,   33559991) /* Setup */
-     , (33512,   3,  536870932) /* SoundTable */
-     , (33512,   8,  100688965) /* Icon */
-     , (33512,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33512,   1, 0x020015B7) /* Setup */
+     , (33512,   3, 0x20000014) /* SoundTable */
+     , (33512,   8, 0x06006445) /* Icon */
+     , (33512,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33512, 8040, 8454451, 92.5, -39.75, 0.9464999, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (33512, 8040, 0x00810133, 92.5, -39.75, 0.9465, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00810133 [92.500000 -39.750000 0.946500] 0.707107 0.000000 0.000000 -0.707107 */;

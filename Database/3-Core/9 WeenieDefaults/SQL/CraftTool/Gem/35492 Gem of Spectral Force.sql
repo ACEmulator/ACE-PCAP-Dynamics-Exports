@@ -29,8 +29,8 @@ VALUES (35492,   1, 'Gem of Spectral Force') /* Name */
      , (35492,  16, 'A gem imbued with spectral energy. An angry red core can be seen swirling within.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35492,   1,   33554809) /* Setup */
-     , (35492,   3,  536870932) /* SoundTable */
-     , (35492,   6,   67111919) /* PaletteBase */
-     , (35492,   8,  100689504) /* Icon */
-     , (35492,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35492,   1, 0x02000179) /* Setup */
+     , (35492,   3, 0x20000014) /* SoundTable */
+     , (35492,   6, 0x04000BEF) /* PaletteBase */
+     , (35492,   8, 0x06006660) /* Icon */
+     , (35492,  22, 0x3400002B) /* PhysicsEffectTable */;

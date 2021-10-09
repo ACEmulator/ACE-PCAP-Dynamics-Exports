@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45976,   1, 'Amateur Explorer Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45976,   1,   33556683) /* Setup */
-     , (45976,   3,  536870932) /* SoundTable */
-     , (45976,   6,   67108990) /* PaletteBase */
-     , (45976,   8,  100691119) /* Icon */
-     , (45976,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45976,   1, 0x020008CB) /* Setup */
+     , (45976,   3, 0x20000014) /* SoundTable */
+     , (45976,   6, 0x0400007E) /* PaletteBase */
+     , (45976,   8, 0x06006CAF) /* Icon */
+     , (45976,  22, 0x3400002B) /* PhysicsEffectTable */;

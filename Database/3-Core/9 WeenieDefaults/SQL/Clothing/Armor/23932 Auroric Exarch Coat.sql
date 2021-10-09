@@ -44,21 +44,21 @@ VALUES (23932,   1, 'Auroric Exarch Coat') /* Name */
      , (23932,  25, 'Little Lovebird') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23932,   1,   33554644) /* Setup */
-     , (23932,   3,  536870932) /* SoundTable */
-     , (23932,   6,   67108990) /* PaletteBase */
-     , (23932,   8,  100674125) /* Icon */
-     , (23932,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23932,   1, 0x020000D4) /* Setup */
+     , (23932,   3, 0x20000014) /* SoundTable */
+     , (23932,   6, 0x0400007E) /* PaletteBase */
+     , (23932,   8, 0x06002A4D) /* Icon */
+     , (23932,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23932,   664,      2)  /* ManaMasteryOther6 */
+VALUES (23932,  2948,      2)  /* HieroWardGreat */
+     , (23932,  2377,      2)  /* AnnihilationVision */
      , (23932,   908,      2)  /* LeadershipMasteryOther5 */
+     , (23932,  2960,      2)  /* BludgeoningDurance */
+     , (23932,  2961,      2)  /* PiercingDurance */
+     , (23932,  2962,      2)  /* SlashingDurance */
+     , (23932,   664,      2)  /* ManaMasteryOther6 */
      , (23932,  2350,      2)  /* DecayDurance */
      , (23932,  2351,      2)  /* ConsumptionDurance */
      , (23932,  2352,      2)  /* StasisDurance */
-     , (23932,  2353,      2)  /* StimulationDurance */
-     , (23932,  2377,      2)  /* AnnihilationVision */
-     , (23932,  2948,      2)  /* HieroWardGreat */
-     , (23932,  2960,      2)  /* BludgeoningDurance */
-     , (23932,  2961,      2)  /* PiercingDurance */
-     , (23932,  2962,      2)  /* SlashingDurance */;
+     , (23932,  2353,      2)  /* StimulationDurance */;

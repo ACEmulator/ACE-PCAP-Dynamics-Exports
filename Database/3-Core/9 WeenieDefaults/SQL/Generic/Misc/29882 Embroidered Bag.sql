@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29882,   1, 'Embroidered Bag') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29882,   1,   33554769) /* Setup */
-     , (29882,   3,  536870932) /* SoundTable */
-     , (29882,   8,  100671838) /* Icon */
-     , (29882,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29882,   1, 0x02000151) /* Setup */
+     , (29882,   3, 0x20000014) /* SoundTable */
+     , (29882,   8, 0x0600215E) /* Icon */
+     , (29882,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,6 +24,6 @@ VALUES (44945,   1, 'Volatile Strength To Coordination Gem') /* Name */
      , (44945,  14, 'Use this gem to transfer up to 10 points of your Strength into your Coordination. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44945,   1,   33558087) /* Setup */
-     , (44945,   6,   67111919) /* PaletteBase */
-     , (44945,   8,  100673957) /* Icon */;
+VALUES (44945,   1, 0x02000E47) /* Setup */
+     , (44945,   6, 0x04000BEF) /* PaletteBase */
+     , (44945,   8, 0x060029A5) /* Icon */;

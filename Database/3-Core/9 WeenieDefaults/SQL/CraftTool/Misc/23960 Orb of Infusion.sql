@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23960,   1, 'Orb of Infusion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23960,   1,   33554669) /* Setup */
-     , (23960,   3,  536870932) /* SoundTable */
-     , (23960,   6,   67111928) /* PaletteBase */
-     , (23960,   8,  100674146) /* Icon */
-     , (23960,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23960,   1, 0x020000ED) /* Setup */
+     , (23960,   3, 0x20000014) /* SoundTable */
+     , (23960,   6, 0x04000BF8) /* PaletteBase */
+     , (23960,   8, 0x06002A62) /* Icon */
+     , (23960,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23960, 8040, 1682113250, 34.5, -120, -4.975, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (23960, 8040, 0x644302E2, 34.5, -120, -4.975, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x644302E2 [34.500000 -120.000000 -4.975000] 0.707107 0.000000 0.000000 -0.707107 */;

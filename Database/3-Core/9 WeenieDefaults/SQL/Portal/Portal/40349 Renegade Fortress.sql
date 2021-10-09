@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40349,   1, 'Renegade Fortress') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40349,   1,   33555925) /* Setup */
-     , (40349,   2,  150994947) /* MotionTable */
-     , (40349,   8,  100667499) /* Icon */;
+VALUES (40349,   1, 0x020005D5) /* Setup */
+     , (40349,   2, 0x09000003) /* MotionTable */
+     , (40349,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40349, 8040, 760873226, 74.2434, 116.79, -10.463, 0.4396421, 0, 0, -0.8981731) /* PCAPRecordedLocation */
+VALUES (40349, 8040, 0x2D5A010A, 74.2434, 116.79, -10.463, 0.439642, 0, 0, -0.898173) /* PCAPRecordedLocation */
 /* @teleloc 0x2D5A010A [74.243400 116.790000 -10.463000] 0.439642 0.000000 0.000000 -0.898173 */;

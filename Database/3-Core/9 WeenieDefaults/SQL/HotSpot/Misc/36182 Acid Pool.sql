@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36182,   1, 'Acid Pool') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36182,   1,   33558460) /* Setup */
-     , (36182,   3,  536870932) /* SoundTable */
-     , (36182,   6,   67114510) /* PaletteBase */
-     , (36182,   8,  100674882) /* Icon */;
+VALUES (36182,   1, 0x02000FBC) /* Setup */
+     , (36182,   3, 0x20000014) /* SoundTable */
+     , (36182,   6, 0x0400160E) /* PaletteBase */
+     , (36182,   8, 0x06002D42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36182, 8040, 12321030, 25.70588, -9.031445, -36, -0.8896, 0, 0, -0.4567405) /* PCAPRecordedLocation */
+VALUES (36182, 8040, 0x00BC0106, 25.70588, -9.031445, -36, -0.8896, 0, 0, -0.456741) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0106 [25.705880 -9.031445 -36.000000] -0.889600 0.000000 0.000000 -0.456741 */;

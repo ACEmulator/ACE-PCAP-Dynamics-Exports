@@ -47,13 +47,13 @@ VALUES (29909,   1, 'Badlands Siraluun Okane') /* Name */
      , (29909,  16, 'A beautifully detailed okane crafted from the claw of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29909,   1,   33559109) /* Setup */
-     , (29909,   3,  536870932) /* SoundTable */
-     , (29909,   8,  100677336) /* Icon */
-     , (29909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29909,   1, 0x02001245) /* Setup */
+     , (29909,   3, 0x20000014) /* SoundTable */
+     , (29909,   8, 0x060036D8) /* Icon */
+     , (29909,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29909,  1592,      2)  /* HeartSeekerSelf6 */
-     , (29909,  1604,      2)  /* DefenderSelf5 */
+VALUES (29909,  1604,      2)  /* DefenderSelf5 */
      , (29909,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29909,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (29909,  1624,      2)  /* SwiftKillerSelf3 */
+     , (29909,  1592,      2)  /* HeartSeekerSelf6 */;

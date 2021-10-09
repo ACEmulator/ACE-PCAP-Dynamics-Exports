@@ -29,20 +29,20 @@ VALUES (4202,   1, 'Grilhud the Hermit') /* Name */
      , (4202,   5, 'Enchanter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4202,   1,   33554510) /* Setup */
-     , (4202,   2,  150994945) /* MotionTable */
-     , (4202,   3,  536870914) /* SoundTable */
-     , (4202,   6,   67108990) /* PaletteBase */
-     , (4202,   8,  100667446) /* Icon */
-     , (4202,   9,   83890276) /* EyesTexture */
-     , (4202,  10,   83890310) /* NoseTexture */
-     , (4202,  11,   83890319) /* MouthTexture */
-     , (4202,  15,   67117021) /* HairPalette */
-     , (4202,  16,   67110063) /* EyesPalette */
-     , (4202,  17,   67110056) /* SkinPalette */;
+VALUES (4202,   1, 0x0200004E) /* Setup */
+     , (4202,   2, 0x09000001) /* MotionTable */
+     , (4202,   3, 0x20000002) /* SoundTable */
+     , (4202,   6, 0x0400007E) /* PaletteBase */
+     , (4202,   8, 0x06001036) /* Icon */
+     , (4202,   9, 0x05001064) /* EyesTexture */
+     , (4202,  10, 0x05001086) /* NoseTexture */
+     , (4202,  11, 0x0500108F) /* MouthTexture */
+     , (4202,  15, 0x04001FDD) /* HairPalette */
+     , (4202,  16, 0x040004AF) /* EyesPalette */
+     , (4202,  17, 0x040004A8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4202, 8040, 2844655872, 105.938, 51.2434, 19.66, -0.982785, 0, 0, 0.184753) /* PCAPRecordedLocation */
+VALUES (4202, 8040, 0xA98E0100, 105.938, 51.2434, 19.66, -0.982785, 0, 0, 0.184753) /* PCAPRecordedLocation */
 /* @teleloc 0xA98E0100 [105.938000 51.243400 19.660000] -0.982785 0.000000 0.000000 0.184753 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

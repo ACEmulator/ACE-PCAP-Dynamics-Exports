@@ -22,6 +22,6 @@ VALUES (36681,   1, 'Staff of Clarity') /* Name */
      , (36681,  16, 'When you must strike, do not leave room for a return blow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36681,   1,   33557010) /* Setup */
-     , (36681,   8,  100671492) /* Icon */
-     , (36681,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36681,   1, 0x02000A12) /* Setup */
+     , (36681,   8, 0x06002004) /* Icon */
+     , (36681,  22, 0x3400002B) /* PhysicsEffectTable */;

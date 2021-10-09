@@ -32,11 +32,11 @@ VALUES (45360,   1, 'Rogue''s Crystal') /* Name */
      , (45360,  20, 'Rogue''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45360,   1,   33554809) /* Setup */
-     , (45360,   3,  536870932) /* SoundTable */
-     , (45360,   6,   67111919) /* PaletteBase */
-     , (45360,   8,  100686697) /* Icon */
-     , (45360,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45360,   1, 0x02000179) /* Setup */
+     , (45360,   3, 0x20000014) /* SoundTable */
+     , (45360,   6, 0x04000BEF) /* PaletteBase */
+     , (45360,   8, 0x06005B69) /* Icon */
+     , (45360,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45360,  28,       5909) /* Spell - SneakAttackMasteryRare */
-     , (45360,  50,  100692247) /* IconOverlay */
-     , (45360,  52,  100686604) /* IconUnderlay */;
+     , (45360,  50, 0x06007117) /* IconOverlay */
+     , (45360,  52, 0x06005B0C) /* IconUnderlay */;

@@ -20,9 +20,9 @@ VALUES (34176,   1, 'Adept''s Gem of Piercing Protection') /* Name */
      , (34176,  20, 'Adept''s Gems of Piercing Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34176,   1,   33554809) /* Setup */
-     , (34176,   3,  536870932) /* SoundTable */
-     , (34176,   6,   67111919) /* PaletteBase */
-     , (34176,   8,  100674441) /* Icon */
-     , (34176,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34176,   1, 0x02000179) /* Setup */
+     , (34176,   3, 0x20000014) /* SoundTable */
+     , (34176,   6, 0x04000BEF) /* PaletteBase */
+     , (34176,   8, 0x06002B89) /* Icon */
+     , (34176,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34176,  28,       2160) /* Spell - PiercingProtectionOther7 */;

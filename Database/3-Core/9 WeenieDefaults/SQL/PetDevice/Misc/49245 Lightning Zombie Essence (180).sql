@@ -38,10 +38,10 @@ VALUES (49245,   1, 'Lightning Zombie Essence (180)') /* Name */
      , (49245,  14, 'Use this essence to summon or dismiss your Lightning Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49245,   1,   33554817) /* Setup */
-     , (49245,   3,  536870932) /* SoundTable */
-     , (49245,   6,   67111919) /* PaletteBase */
-     , (49245,   8,  100667942) /* Icon */
-     , (49245,  22,  872415275) /* PhysicsEffectTable */
-     , (49245,  50,  100693031) /* IconOverlay */
-     , (49245,  52,  100693024) /* IconUnderlay */;
+VALUES (49245,   1, 0x02000181) /* Setup */
+     , (49245,   3, 0x20000014) /* SoundTable */
+     , (49245,   6, 0x04000BEF) /* PaletteBase */
+     , (49245,   8, 0x06001226) /* Icon */
+     , (49245,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49245,  50, 0x06007427) /* IconOverlay */
+     , (49245,  52, 0x06007420) /* IconUnderlay */;

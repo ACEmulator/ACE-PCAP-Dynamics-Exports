@@ -40,13 +40,13 @@ VALUES (24459,   1, 'Hieromancer''s Gauntlets') /* Name */
      , (24459,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the hieromancer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24459,   1,   33554648) /* Setup */
-     , (24459,   3,  536870932) /* SoundTable */
-     , (24459,   6,   67108990) /* PaletteBase */
-     , (24459,   8,  100674349) /* Icon */
-     , (24459,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24459,   1, 0x020000D8) /* Setup */
+     , (24459,   3, 0x20000014) /* SoundTable */
+     , (24459,   6, 0x0400007E) /* PaletteBase */
+     , (24459,   8, 0x06002B2D) /* Icon */
+     , (24459,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24459,  1456,      2)  /* WillpowerOther6 */
-     , (24459,  1485,      2)  /* Impenetrability5 */
+VALUES (24459,  1485,      2)  /* Impenetrability5 */
+     , (24459,  1456,      2)  /* WillpowerOther6 */
      , (24459,  2812,      2)  /* ModerateWarMagicAptitude */;

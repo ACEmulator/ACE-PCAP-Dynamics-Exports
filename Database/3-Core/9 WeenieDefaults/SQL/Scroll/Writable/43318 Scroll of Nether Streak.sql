@@ -23,7 +23,7 @@ VALUES (43318,   1, 'Scroll of Nether Streak') /* Name */
 Sends a bolt of nether streaking towards the target. The bolt does 10-27 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43318,   1,   33554826) /* Setup */
-     , (43318,   8,  100691569) /* Icon */
-     , (43318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43318,   1, 0x0200018A) /* Setup */
+     , (43318,   8, 0x06006E71) /* Icon */
+     , (43318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43318,  28,       5357) /* Spell - NetherStreak1 */;

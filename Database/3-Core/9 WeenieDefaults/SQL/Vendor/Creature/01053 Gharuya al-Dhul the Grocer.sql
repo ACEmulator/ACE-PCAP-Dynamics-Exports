@@ -34,20 +34,20 @@ VALUES (1053,   1, 'Gharuya al-Dhul the Grocer') /* Name */
      , (1053,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1053,   1,   33554510) /* Setup */
-     , (1053,   2,  150994945) /* MotionTable */
-     , (1053,   3,  536870914) /* SoundTable */
-     , (1053,   6,   67108990) /* PaletteBase */
-     , (1053,   8,  100667446) /* Icon */
-     , (1053,   9,   83890278) /* EyesTexture */
-     , (1053,  10,   83890290) /* NoseTexture */
-     , (1053,  11,   83890343) /* MouthTexture */
-     , (1053,  15,   67117074) /* HairPalette */
-     , (1053,  16,   67110062) /* EyesPalette */
-     , (1053,  17,   67109550) /* SkinPalette */;
+VALUES (1053,   1, 0x0200004E) /* Setup */
+     , (1053,   2, 0x09000001) /* MotionTable */
+     , (1053,   3, 0x20000002) /* SoundTable */
+     , (1053,   6, 0x0400007E) /* PaletteBase */
+     , (1053,   8, 0x06001036) /* Icon */
+     , (1053,   9, 0x05001066) /* EyesTexture */
+     , (1053,  10, 0x05001072) /* NoseTexture */
+     , (1053,  11, 0x050010A7) /* MouthTexture */
+     , (1053,  15, 0x04002012) /* HairPalette */
+     , (1053,  16, 0x040004AE) /* EyesPalette */
+     , (1053,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1053, 8040, 2535588102, 102.05, 64.265, 102.005, 0.7535634, 0, 0, -0.6573753) /* PCAPRecordedLocation */
+VALUES (1053, 8040, 0x97220106, 102.05, 64.265, 102.005, 0.753563, 0, 0, -0.657375) /* PCAPRecordedLocation */
 /* @teleloc 0x97220106 [102.050000 64.265000 102.005000] 0.753563 0.000000 0.000000 -0.657375 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

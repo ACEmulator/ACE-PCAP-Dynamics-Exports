@@ -50,12 +50,12 @@ VALUES (35551,   1, 'Bloodletter') /* Name */
      , (35551,  16, 'This spear bears the design of the broadhead infantry spears often used by the legions of Viamont.  It is endowed with a suite of spells that make it a truly devastating melee weapon.  However, the magic is so powerful and so strange, the spear seems to be on the verge of imploding, and the chaotic magic contained within it seems to make it resist any form of human enchantment. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551,   1,   33559320) /* Setup */
-     , (35551,   3,  536870932) /* SoundTable */
-     , (35551,   6,   67115560) /* PaletteBase */
-     , (35551,   8,  100686986) /* Icon */
-     , (35551,  22,  872415275) /* PhysicsEffectTable */
-     , (35551,  52,  100689403) /* IconUnderlay */
+VALUES (35551,   1, 0x02001318) /* Setup */
+     , (35551,   3, 0x20000014) /* SoundTable */
+     , (35551,   6, 0x04001A28) /* PaletteBase */
+     , (35551,   8, 0x06005C8A) /* Icon */
+     , (35551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35551,  52, 0x060065FB) /* IconUnderlay */
      , (35551,  55,       2070) /* ProcSpell - HarmOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

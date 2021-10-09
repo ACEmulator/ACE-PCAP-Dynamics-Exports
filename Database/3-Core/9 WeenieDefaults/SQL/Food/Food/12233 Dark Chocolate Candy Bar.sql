@@ -29,12 +29,12 @@ VALUES (12233,   1, 'Dark Chocolate Candy Bar') /* Name */
      , (12233,  20, 'Dark Chocolate Candy Bars') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12233,   1,   33555677) /* Setup */
-     , (12233,   3,  536870932) /* SoundTable */
-     , (12233,   6,   67111919) /* PaletteBase */
-     , (12233,   8,  100672208) /* Icon */
-     , (12233,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12233,   1, 0x020004DD) /* Setup */
+     , (12233,   3, 0x20000014) /* SoundTable */
+     , (12233,   6, 0x04000BEF) /* PaletteBase */
+     , (12233,   8, 0x060022D0) /* Icon */
+     , (12233,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12233, 8040, 23855555, 61.35859, -38.5591, 0.0115507, 0.08071556, 0, 0, -0.9967372) /* PCAPRecordedLocation */
+VALUES (12233, 8040, 0x016C01C3, 61.35859, -38.5591, 0.011551, 0.080716, 0, 0, -0.996737) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [61.358590 -38.559100 0.011551] 0.080716 0.000000 0.000000 -0.996737 */;

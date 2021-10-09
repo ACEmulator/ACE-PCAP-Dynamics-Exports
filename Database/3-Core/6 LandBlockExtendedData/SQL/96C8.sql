@@ -25,11 +25,11 @@ VALUES (0x796C8004,  4179, 0x96C80039, 171.3707, 16.68284, 119.6898, 1, 0, 0, 0,
 /* @teleloc 0x96C80039 [171.370700 16.682840 119.689800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796C8005,  9019, 0x96C80039, 170.3771, 16.57006, 119.6898, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
+VALUES (0x796C8005,  9019, 0x96C80039, 170.3771, 16.57006, 119.6898, 0.642788, 0, 0, -0.766044,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
 /* @teleloc 0x96C80039 [170.377100 16.570060 119.689800] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796C8006,  9097, 0x96C80039, 173.7103, 17.35096, 119.6898, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Ursuin Head */
+VALUES (0x796C8006,  9097, 0x96C80039, 173.7103, 17.35096, 119.6898, 0.965926, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Ursuin Head */
 /* @teleloc 0x96C80039 [173.710300 17.350960 119.689800] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

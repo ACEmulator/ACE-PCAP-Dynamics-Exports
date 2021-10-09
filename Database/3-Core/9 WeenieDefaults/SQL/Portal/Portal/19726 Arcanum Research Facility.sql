@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19726,   1, 'Arcanum Research Facility') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19726,   1,   33555923) /* Setup */
-     , (19726,   2,  150994947) /* MotionTable */
-     , (19726,   8,  100667499) /* Icon */;
+VALUES (19726,   1, 0x020005D3) /* Setup */
+     , (19726,   2, 0x09000003) /* MotionTable */
+     , (19726,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19726, 8040, 2273706007, 64.888, 144.346, 153.937, -0.2330209, 0, 0, -0.9724717) /* PCAPRecordedLocation */
+VALUES (19726, 8040, 0x87860017, 64.888, 144.346, 153.937, -0.233021, 0, 0, -0.972472) /* PCAPRecordedLocation */
 /* @teleloc 0x87860017 [64.888000 144.346000 153.937000] -0.233021 0.000000 0.000000 -0.972472 */;

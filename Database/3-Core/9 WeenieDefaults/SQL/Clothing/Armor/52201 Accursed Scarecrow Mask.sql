@@ -32,7 +32,7 @@ VALUES (52201,   1, 'Accursed Scarecrow Mask') /* Name */
      , (52201,  16, 'A hollowed out pumpkin that, oddly enough, fits right over your head!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52201,   1,   33557361) /* Setup */
-     , (52201,   3,  536870932) /* SoundTable */
-     , (52201,   8,  100672162) /* Icon */
-     , (52201,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52201,   1, 0x02000B71) /* Setup */
+     , (52201,   3, 0x20000014) /* SoundTable */
+     , (52201,   8, 0x060022A2) /* Icon */
+     , (52201,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,11 +34,11 @@ VALUES (21373,   1, 'Martine''s Mask') /* Name */
      , (21373,  15, 'A broken virindi mask. Flesh seems to be seared to the interior of the mask.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21373,   1,   33557948) /* Setup */
-     , (21373,   3,  536870932) /* SoundTable */
-     , (21373,   8,  100673481) /* Icon */
-     , (21373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21373,   1, 0x02000DBC) /* Setup */
+     , (21373,   3, 0x20000014) /* SoundTable */
+     , (21373,   8, 0x060027C9) /* Icon */
+     , (21373,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21373, 8040, 3133538325, 60.1925, 106.603, 382.7099, -0.422618, 0, 0, -0.906308) /* PCAPRecordedLocation */
+VALUES (21373, 8040, 0xBAC60015, 60.1925, 106.603, 382.7099, -0.422618, 0, 0, -0.906308) /* PCAPRecordedLocation */
 /* @teleloc 0xBAC60015 [60.192500 106.603000 382.709900] -0.422618 0.000000 0.000000 -0.906308 */;

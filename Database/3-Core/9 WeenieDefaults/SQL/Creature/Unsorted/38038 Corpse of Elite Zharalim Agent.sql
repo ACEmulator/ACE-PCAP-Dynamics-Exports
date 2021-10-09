@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38038,   1, 'Corpse of Elite Zharalim Agent') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38038,   1,   33554433) /* Setup */
-     , (38038,   2,  150995360) /* MotionTable */
-     , (38038,   3,  536870913) /* SoundTable */
-     , (38038,   6,   67108990) /* PaletteBase */
-     , (38038,   8,  100667504) /* Icon */
-     , (38038,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (38038,   1, 0x02000001) /* Setup */
+     , (38038,   2, 0x090001A0) /* MotionTable */
+     , (38038,   3, 0x20000001) /* SoundTable */
+     , (38038,   6, 0x0400007E) /* PaletteBase */
+     , (38038,   8, 0x06001070) /* Icon */
+     , (38038,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38038, 8040, 14287124, 2.85448, -200.1589, -17.995, -0.5720666, 0, 0, -0.8202072) /* PCAPRecordedLocation */
+VALUES (38038, 8040, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.572067, 0, 0, -0.820207) /* PCAPRecordedLocation */
 /* @teleloc 0x00DA0114 [2.854480 -200.158900 -17.995000] -0.572067 0.000000 0.000000 -0.820207 */;

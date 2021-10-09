@@ -23,13 +23,13 @@ VALUES (3949,   1, 'Letter of Request ') /* Name */
      , (3949,   8, 'Naqib of Suntik') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3949,   1,   33554773) /* Setup */
-     , (3949,   3,  536870932) /* SoundTable */
-     , (3949,   8,  100667503) /* Icon */
-     , (3949,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3949,   1, 0x02000155) /* Setup */
+     , (3949,   3, 0x20000014) /* SoundTable */
+     , (3949,   8, 0x0600106F) /* Icon */
+     , (3949,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3949, 8040, 2309029889, 18.5375, 9.51834, 95.3811, 0.999775, 0, 0, 0.0211992) /* PCAPRecordedLocation */
+VALUES (3949, 8040, 0x89A10001, 18.5375, 9.51834, 95.3811, 0.999775, 0, 0, 0.021199) /* PCAPRecordedLocation */
 /* @teleloc 0x89A10001 [18.537500 9.518340 95.381100] 0.999775 0.000000 0.000000 0.021199 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

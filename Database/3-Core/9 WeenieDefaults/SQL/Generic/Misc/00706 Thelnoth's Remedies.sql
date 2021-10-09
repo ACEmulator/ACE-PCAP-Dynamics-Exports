@@ -18,9 +18,9 @@ VALUES (706,   1, 'Thelnoth''s Remedies') /* Name */
      , (706,  16, 'Thelnoth''s Remedies - Healing, Potions, and Enhancement Services') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (706,   1,   33555088) /* Setup */
-     , (706,   8,  100668115) /* Icon */;
+VALUES (706,   1, 0x02000290) /* Setup */
+     , (706,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (706, 8040, 2847145999, 36.5961, 157.826, 66.12, 0.920845, 0, 0, 0.389928) /* PCAPRecordedLocation */
+VALUES (706, 8040, 0xA9B4000F, 36.5961, 157.826, 66.12, 0.920845, 0, 0, 0.389928) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4000F [36.596100 157.826000 66.120000] 0.920845 0.000000 0.000000 0.389928 */;

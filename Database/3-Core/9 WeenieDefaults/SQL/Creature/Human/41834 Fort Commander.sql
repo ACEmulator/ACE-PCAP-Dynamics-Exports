@@ -31,20 +31,20 @@ VALUES (41834,   1, 'Fort Commander') /* Name */
      , (41834,   5, 'Palm Fort Commander') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41834,   1,   33554433) /* Setup */
-     , (41834,   2,  150994945) /* MotionTable */
-     , (41834,   3,  536870913) /* SoundTable */
-     , (41834,   6,   67108990) /* PaletteBase */
-     , (41834,   8,  100667377) /* Icon */
-     , (41834,   9,   83890447) /* EyesTexture */
-     , (41834,  10,   83890528) /* NoseTexture */
-     , (41834,  11,   83890630) /* MouthTexture */
-     , (41834,  15,   67117075) /* HairPalette */
-     , (41834,  16,   67110062) /* EyesPalette */
-     , (41834,  17,   67110052) /* SkinPalette */;
+VALUES (41834,   1, 0x02000001) /* Setup */
+     , (41834,   2, 0x09000001) /* MotionTable */
+     , (41834,   3, 0x20000001) /* SoundTable */
+     , (41834,   6, 0x0400007E) /* PaletteBase */
+     , (41834,   8, 0x06000FF1) /* Icon */
+     , (41834,   9, 0x0500110F) /* EyesTexture */
+     , (41834,  10, 0x05001160) /* NoseTexture */
+     , (41834,  11, 0x050011C6) /* MouthTexture */
+     , (41834,  15, 0x04002013) /* HairPalette */
+     , (41834,  16, 0x040004AE) /* EyesPalette */
+     , (41834,  17, 0x040004A4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41834, 8040, 1074528291, 110.572, 67.0799, 0.004999995, -0.3489101, 0, 0, -0.9371562) /* PCAPRecordedLocation */
+VALUES (41834, 8040, 0x400C0023, 110.572, 67.0799, 0.005, -0.34891, 0, 0, -0.937156) /* PCAPRecordedLocation */
 /* @teleloc 0x400C0023 [110.572000 67.079900 0.005000] -0.348910 0.000000 0.000000 -0.937156 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

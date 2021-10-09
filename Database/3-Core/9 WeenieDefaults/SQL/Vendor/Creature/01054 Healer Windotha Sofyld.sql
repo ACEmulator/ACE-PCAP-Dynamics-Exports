@@ -34,20 +34,20 @@ VALUES (1054,   1, 'Healer Windotha Sofyld') /* Name */
      , (1054,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1054,   1,   33554510) /* Setup */
-     , (1054,   2,  150994945) /* MotionTable */
-     , (1054,   3,  536870914) /* SoundTable */
-     , (1054,   6,   67108990) /* PaletteBase */
-     , (1054,   8,  100667446) /* Icon */
-     , (1054,   9,   83890275) /* EyesTexture */
-     , (1054,  10,   83890309) /* NoseTexture */
-     , (1054,  11,   83890353) /* MouthTexture */
-     , (1054,  15,   67116992) /* HairPalette */
-     , (1054,  16,   67109565) /* EyesPalette */
-     , (1054,  17,   67109562) /* SkinPalette */;
+VALUES (1054,   1, 0x0200004E) /* Setup */
+     , (1054,   2, 0x09000001) /* MotionTable */
+     , (1054,   3, 0x20000002) /* SoundTable */
+     , (1054,   6, 0x0400007E) /* PaletteBase */
+     , (1054,   8, 0x06001036) /* Icon */
+     , (1054,   9, 0x05001063) /* EyesTexture */
+     , (1054,  10, 0x05001085) /* NoseTexture */
+     , (1054,  11, 0x050010B1) /* MouthTexture */
+     , (1054,  15, 0x04001FC0) /* HairPalette */
+     , (1054,  16, 0x040002BD) /* EyesPalette */
+     , (1054,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1054, 8040, 2535588161, 137.644, 79.4369, 102.005, -0.746886, 0, 0, -0.6649522) /* PCAPRecordedLocation */
+VALUES (1054, 8040, 0x97220141, 137.644, 79.4369, 102.005, -0.746886, 0, 0, -0.664952) /* PCAPRecordedLocation */
 /* @teleloc 0x97220141 [137.644000 79.436900 102.005000] -0.746886 0.000000 0.000000 -0.664952 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38582,   1, 'Chamber of the High Priest''s First') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38582,   1,   33555925) /* Setup */
-     , (38582,   2,  150994947) /* MotionTable */
-     , (38582,   8,  100667499) /* Icon */;
+VALUES (38582,   1, 0x020005D5) /* Setup */
+     , (38582,   2, 0x09000003) /* MotionTable */
+     , (38582,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38582, 8040, 1024131375, 132, 36, 12.537, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38582, 8040, 0x3D0B012F, 132, 36, 12.537, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x3D0B012F [132.000000 36.000000 12.537000] 1.000000 0.000000 0.000000 0.000000 */;

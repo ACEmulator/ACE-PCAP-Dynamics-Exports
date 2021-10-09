@@ -22,11 +22,11 @@ VALUES (41745,   1, 'Spectral Two Handed Mastery Crystal') /* Name */
      , (41745,  20, 'Spectral Two Handed Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41745,   1,   33557625) /* Setup */
-     , (41745,   3,  536870932) /* SoundTable */
-     , (41745,   8,  100686697) /* Icon */
-     , (41745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41745,   1, 0x02000C79) /* Setup */
+     , (41745,   3, 0x20000014) /* SoundTable */
+     , (41745,   8, 0x06005B69) /* Icon */
+     , (41745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41745,  28,       5023) /* Spell - TwoHandedMasterySpectral */
-     , (41745,  50,  100690691) /* IconOverlay */
-     , (41745,  52,  100686604) /* IconUnderlay */
+     , (41745,  50, 0x06006B03) /* IconOverlay */
+     , (41745,  52, 0x06005B0C) /* IconUnderlay */
      , (41745, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43826,   1, 'Shattered Master Bloodstone Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43826,   1,   33561167) /* Setup */
-     , (43826,   3,  536870932) /* SoundTable */
-     , (43826,   8,  100691499) /* Icon */
-     , (43826,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43826,   1, 0x02001A4F) /* Setup */
+     , (43826,   3, 0x20000014) /* SoundTable */
+     , (43826,   8, 0x06006E2B) /* Icon */
+     , (43826,  22, 0x3400002B) /* PhysicsEffectTable */;

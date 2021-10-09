@@ -45,11 +45,11 @@ VALUES (8488,   1, 'Armet') /* Name */
      , (8488,  16, 'Armet of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8488,   1,   33556856) /* Setup */
-     , (8488,   3,  536870932) /* SoundTable */
-     , (8488,   6,   67108990) /* PaletteBase */
-     , (8488,   8,  100671192) /* Icon */
-     , (8488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8488,   1, 0x02000978) /* Setup */
+     , (8488,   3, 0x20000014) /* SoundTable */
+     , (8488,   6, 0x0400007E) /* PaletteBase */
+     , (8488,   8, 0x06001ED8) /* Icon */
+     , (8488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8488,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

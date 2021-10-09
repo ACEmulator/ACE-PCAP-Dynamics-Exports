@@ -23,11 +23,11 @@ VALUES (2750,   1, 'Scroll of Weakness Other V') /* Name */
 Decreases the target''s Strength by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2750,   1,   33554826) /* Setup */
-     , (2750,   8,  100676474) /* Icon */
-     , (2750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2750,   1, 0x0200018A) /* Setup */
+     , (2750,   8, 0x0600337A) /* Icon */
+     , (2750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2750,  28,       1342) /* Spell - WeaknessOther5 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2750, 8040, 1994981771, 137.2629, 217.0233, 88.88551, 0.9983019, 0, 0, 0.0582515) /* PCAPRecordedLocation */
+VALUES (2750, 8040, 0x76E9018B, 137.2629, 217.0233, 88.88551, 0.998302, 0, 0, 0.058252) /* PCAPRecordedLocation */
 /* @teleloc 0x76E9018B [137.262900 217.023300 88.885510] 0.998302 0.000000 0.000000 0.058252 */;

@@ -32,10 +32,10 @@ VALUES (10977,   1, 'Virindi Implant') /* Name */
      , (10977,  16, 'A reddish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Sahkurea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10977,   1,   33557289) /* Setup */
-     , (10977,   3,  536870932) /* SoundTable */
-     , (10977,   8,  100671871) /* Icon */
-     , (10977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10977,   1, 0x02000B29) /* Setup */
+     , (10977,   3, 0x20000014) /* SoundTable */
+     , (10977,   8, 0x0600217F) /* Icon */
+     , (10977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10977,  28,       2419) /* Spell - PanicAttack */
      , (10977,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 

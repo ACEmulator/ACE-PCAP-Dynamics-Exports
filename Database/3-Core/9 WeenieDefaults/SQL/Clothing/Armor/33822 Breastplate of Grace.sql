@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33822,   1, 'Breastplate of Grace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33822,   1,   33560094) /* Setup */
-     , (33822,   3,  536870932) /* SoundTable */
-     , (33822,   6,   67108990) /* PaletteBase */
-     , (33822,   8,  100668147) /* Icon */
-     , (33822,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33822,   1, 0x0200161E) /* Setup */
+     , (33822,   3, 0x20000014) /* SoundTable */
+     , (33822,   6, 0x0400007E) /* PaletteBase */
+     , (33822,   8, 0x060012F3) /* Icon */
+     , (33822,  22, 0x3400002B) /* PhysicsEffectTable */;

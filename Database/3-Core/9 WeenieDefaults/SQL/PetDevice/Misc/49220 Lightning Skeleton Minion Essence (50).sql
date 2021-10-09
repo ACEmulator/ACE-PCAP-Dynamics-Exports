@@ -36,10 +36,10 @@ VALUES (49220,   1, 'Lightning Skeleton Minion Essence (50)') /* Name */
      , (49220,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49220,   1,   33554817) /* Setup */
-     , (49220,   3,  536870932) /* SoundTable */
-     , (49220,   6,   67111919) /* PaletteBase */
-     , (49220,   8,  100669124) /* Icon */
-     , (49220,  22,  872415275) /* PhysicsEffectTable */
-     , (49220,  50,  100693026) /* IconOverlay */
-     , (49220,  52,  100693024) /* IconUnderlay */;
+VALUES (49220,   1, 0x02000181) /* Setup */
+     , (49220,   3, 0x20000014) /* SoundTable */
+     , (49220,   6, 0x04000BEF) /* PaletteBase */
+     , (49220,   8, 0x060016C4) /* Icon */
+     , (49220,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49220,  50, 0x06007422) /* IconOverlay */
+     , (49220,  52, 0x06007420) /* IconUnderlay */;

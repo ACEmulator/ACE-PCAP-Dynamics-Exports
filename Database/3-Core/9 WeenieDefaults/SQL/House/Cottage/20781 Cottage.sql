@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20781,   1, 'Cottage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20781,   1,   33557058) /* Setup */
-     , (20781,   8,  100671873) /* Icon */
+VALUES (20781,   1, 0x02000A42) /* Setup */
+     , (20781,   8, 0x06002181) /* Icon */
      , (20781,  30,        152) /* PhysicsScript - RestrictionEffectBlue */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20781, 8040, 2977759510, 108.199, 39.0679, 45.9995, -0.577765, 0, 0, 0.8162031) /* PCAPRecordedLocation */
+VALUES (20781, 8040, 0xB17D0116, 108.199, 39.0679, 45.9995, -0.577765, 0, 0, 0.816203) /* PCAPRecordedLocation */
 /* @teleloc 0xB17D0116 [108.199000 39.067900 45.999500] -0.577765 0.000000 0.000000 0.816203 */;

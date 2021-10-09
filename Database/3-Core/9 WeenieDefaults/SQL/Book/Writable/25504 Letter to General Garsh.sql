@@ -18,11 +18,11 @@ VALUES (25504,   1, 'Letter to General Garsh') /* Name */
      , (25504,  16, 'An important looking letter addressed to General Garsh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25504,   1,   33554773) /* Setup */
-     , (25504,   3,  536870932) /* SoundTable */
-     , (25504,   8,  100672829) /* Icon */
-     , (25504,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25504,   1, 0x02000155) /* Setup */
+     , (25504,   3, 0x20000014) /* SoundTable */
+     , (25504,   8, 0x0600253D) /* Icon */
+     , (25504,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25504, 8040, 2724134960, 143.6347, 183.596, 20.079, -0.551001, 0, 0, -0.8345046) /* PCAPRecordedLocation */
+VALUES (25504, 8040, 0xA25F0030, 143.6347, 183.596, 20.079, -0.551001, 0, 0, -0.834505) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0030 [143.634700 183.596000 20.079000] -0.551001 0.000000 0.000000 -0.834505 */;

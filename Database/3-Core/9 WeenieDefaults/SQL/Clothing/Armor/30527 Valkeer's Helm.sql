@@ -49,14 +49,14 @@ VALUES (30527,   1, 'Valkeer''s Helm') /* Name */
      , (30527,  52, 'Core Helm Plating') /* GearPlatingName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30527,   1,   33559428) /* Setup */
-     , (30527,   3,  536870932) /* SoundTable */
-     , (30527,   8,  100686897) /* Icon */
-     , (30527,  22,  872415275) /* PhysicsEffectTable */
-     , (30527,  50,  100691312) /* IconOverlay */
-     , (30527,  52,  100686604) /* IconUnderlay */;
+VALUES (30527,   1, 0x02001384) /* Setup */
+     , (30527,   3, 0x20000014) /* SoundTable */
+     , (30527,   8, 0x06005C31) /* Icon */
+     , (30527,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30527,  50, 0x06006D70) /* IconOverlay */
+     , (30527,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30527,  3964,      2)  /* CANTRIPFOCUS3 */
+VALUES (30527,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
      , (30527,  4407,      2)  /* Impenetrability8 */
-     , (30527,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+     , (30527,  3964,      2)  /* CANTRIPFOCUS3 */;

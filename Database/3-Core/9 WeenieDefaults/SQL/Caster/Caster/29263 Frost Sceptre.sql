@@ -43,21 +43,21 @@ VALUES (29263,   1, 'Frost Sceptre') /* Name */
      , (29263,  16, 'Frost Sceptre of Blades') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29263,   1,   33559227) /* Setup */
-     , (29263,   3,  536870932) /* SoundTable */
-     , (29263,   6,   67115357) /* PaletteBase */
-     , (29263,   8,  100677434) /* Icon */
-     , (29263,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29263,   1, 0x020012BB) /* Setup */
+     , (29263,   3, 0x20000014) /* SoundTable */
+     , (29263,   6, 0x0400195D) /* PaletteBase */
+     , (29263,   8, 0x0600373A) /* Icon */
+     , (29263,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29263,  28,       2128) /* Spell - FlameBolt7 */
-     , (29263,  52,  100676435) /* IconUnderlay */;
+     , (29263,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29263, 8040, 1676148780, 140.2393, 92.04778, 131.929, 0.398897, 0.398897, 0.5838503, 0.5838503) /* PCAPRecordedLocation */
+VALUES (29263, 8040, 0x63E8002C, 140.2393, 92.04778, 131.929, 0.398897, 0.398897, 0.58385, 0.58385) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002C [140.239300 92.047780 131.929000] 0.398897 0.398897 0.583850 0.583850 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29263,    97,      2)  /* WhirlingBlade6 */
      , (29263,  1479,      2)  /* HermeticLinkSelf5 */
-     , (29263,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */
+     , (29263,  5427,      2)  /* CantripVoidMagicAptitude1 */
      , (29263,  3257,      2)  /* SpiritDrinkerSelf5 */
-     , (29263,  5427,      2)  /* CantripVoidMagicAptitude1 */;
+     , (29263,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;

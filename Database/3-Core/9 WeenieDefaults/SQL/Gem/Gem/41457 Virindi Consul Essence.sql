@@ -31,10 +31,10 @@ VALUES (41457,   1, 'Virindi Consul Essence') /* Name */
      , (41457,  16, 'This essence is eternal. Use this essence to increase your Arcane Lore by 40.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41457,   1,   33554809) /* Setup */
-     , (41457,   3,  536870932) /* SoundTable */
-     , (41457,   6,   67111919) /* PaletteBase */
-     , (41457,   8,  100690745) /* Icon */
-     , (41457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41457,   1, 0x02000179) /* Setup */
+     , (41457,   3, 0x20000014) /* SoundTable */
+     , (41457,   6, 0x04000BEF) /* PaletteBase */
+     , (41457,   8, 0x06006B39) /* Icon */
+     , (41457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41457,  28,       5156) /* Spell - DeceptionArcane5 */
      , (41457,  37,         20) /* ItemSkillLimit - Deception */;

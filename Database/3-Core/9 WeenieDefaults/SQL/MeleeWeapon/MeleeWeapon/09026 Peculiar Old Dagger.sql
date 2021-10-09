@@ -36,7 +36,7 @@ VALUES (9026,   1, 'Peculiar Old Dagger') /* Name */
      , (9026,  16, 'An object covered with centuries of accumulated filth. While it is shaped vaguely like a dagger and may be used as such, it doesn''t look like that was its original use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9026,   1,   33554740) /* Setup */
-     , (9026,   3,  536870932) /* SoundTable */
-     , (9026,   8,  100671362) /* Icon */
-     , (9026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9026,   1, 0x02000134) /* Setup */
+     , (9026,   3, 0x20000014) /* SoundTable */
+     , (9026,   8, 0x06001F82) /* Icon */
+     , (9026,  22, 0x3400002B) /* PhysicsEffectTable */;

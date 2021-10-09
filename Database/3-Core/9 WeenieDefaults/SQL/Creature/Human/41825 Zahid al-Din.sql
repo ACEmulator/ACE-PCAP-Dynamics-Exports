@@ -31,20 +31,20 @@ VALUES (41825,   1, 'Zahid al-Din') /* Name */
      , (41825,   5, 'Society Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41825,   1,   33554433) /* Setup */
-     , (41825,   2,  150994945) /* MotionTable */
-     , (41825,   3,  536870913) /* SoundTable */
-     , (41825,   6,   67108990) /* PaletteBase */
-     , (41825,   8,  100667377) /* Icon */
-     , (41825,   9,   83890453) /* EyesTexture */
-     , (41825,  10,   83890534) /* NoseTexture */
-     , (41825,  11,   83890657) /* MouthTexture */
-     , (41825,  15,   67117001) /* HairPalette */
-     , (41825,  16,   67109567) /* EyesPalette */
-     , (41825,  17,   67109555) /* SkinPalette */;
+VALUES (41825,   1, 0x02000001) /* Setup */
+     , (41825,   2, 0x09000001) /* MotionTable */
+     , (41825,   3, 0x20000001) /* SoundTable */
+     , (41825,   6, 0x0400007E) /* PaletteBase */
+     , (41825,   8, 0x06000FF1) /* Icon */
+     , (41825,   9, 0x05001115) /* EyesTexture */
+     , (41825,  10, 0x05001166) /* NoseTexture */
+     , (41825,  11, 0x050011E1) /* MouthTexture */
+     , (41825,  15, 0x04001FC9) /* HairPalette */
+     , (41825,  16, 0x040002BF) /* EyesPalette */
+     , (41825,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41825, 8040, 12059246, 155.433, -32.2921, -17.995, 0.964359, 0, 0, 0.264599) /* PCAPRecordedLocation */
+VALUES (41825, 8040, 0x00B8026E, 155.433, -32.2921, -17.995, 0.964359, 0, 0, 0.264599) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026E [155.433000 -32.292100 -17.995000] 0.964359 0.000000 0.000000 0.264599 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

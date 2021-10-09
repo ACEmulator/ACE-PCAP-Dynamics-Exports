@@ -23,9 +23,9 @@ VALUES (42399,   1, 'Crate of Greater Deadly Blunt Arrowheads') /* Name */
      , (42399,  20, 'Crates of Greater Deadly Blunt Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42399,   1,   33556223) /* Setup */
-     , (42399,   3,  536870932) /* SoundTable */
-     , (42399,   6,   67111928) /* PaletteBase */
-     , (42399,   8,  100690890) /* Icon */
-     , (42399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42399,   1, 0x020006FF) /* Setup */
+     , (42399,   3, 0x20000014) /* SoundTable */
+     , (42399,   6, 0x04000BF8) /* PaletteBase */
+     , (42399,   8, 0x06006BCA) /* Icon */
+     , (42399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42399, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

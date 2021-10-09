@@ -22,10 +22,10 @@ VALUES (41195,   1, 'Apostate Excavation') /* Name */
      , (41195,  16, 'This portal leads to the deeper regions of the Apostate Excavation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41195,   1,   33555925) /* Setup */
-     , (41195,   2,  150994947) /* MotionTable */
-     , (41195,   8,  100667499) /* Icon */;
+VALUES (41195,   1, 0x020005D5) /* Setup */
+     , (41195,   2, 0x09000003) /* MotionTable */
+     , (41195,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41195, 8040, 962593029, 46, 17, -15.663, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41195, 8040, 0x39600105, 46, 17, -15.663, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x39600105 [46.000000 17.000000 -15.663000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -18,9 +18,9 @@ VALUES (6867,   1, 'The Old Campaigner''s Bows') /* Name */
      , (6867,  16, 'The Old Campaigner''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6867,   1,   33555909) /* Setup */
-     , (6867,   8,  100668115) /* Icon */;
+VALUES (6867,   1, 0x020005C5) /* Setup */
+     , (6867,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6867, 8040, 288620579, 114, 67, 43.305, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (6867, 8040, 0x11340023, 114, 67, 43.305, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x11340023 [114.000000 67.000000 43.305000] -0.707107 0.000000 0.000000 -0.707107 */;

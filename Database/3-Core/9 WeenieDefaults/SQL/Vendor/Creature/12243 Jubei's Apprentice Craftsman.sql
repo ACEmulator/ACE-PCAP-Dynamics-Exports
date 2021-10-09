@@ -34,20 +34,20 @@ VALUES (12243,   1, 'Jubei''s Apprentice Craftsman') /* Name */
      , (12243,   5, 'Apprentice Craftsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12243,   1,   33554433) /* Setup */
-     , (12243,   2,  150994945) /* MotionTable */
-     , (12243,   3,  536870913) /* SoundTable */
-     , (12243,   6,   67108990) /* PaletteBase */
-     , (12243,   8,  100667446) /* Icon */
-     , (12243,   9,   83890448) /* EyesTexture */
-     , (12243,  10,   83890544) /* NoseTexture */
-     , (12243,  11,   83890583) /* MouthTexture */
-     , (12243,  15,   67117070) /* HairPalette */
-     , (12243,  16,   67109565) /* EyesPalette */
-     , (12243,  17,   67110049) /* SkinPalette */;
+VALUES (12243,   1, 0x02000001) /* Setup */
+     , (12243,   2, 0x09000001) /* MotionTable */
+     , (12243,   3, 0x20000001) /* SoundTable */
+     , (12243,   6, 0x0400007E) /* PaletteBase */
+     , (12243,   8, 0x06001036) /* Icon */
+     , (12243,   9, 0x05001110) /* EyesTexture */
+     , (12243,  10, 0x05001170) /* NoseTexture */
+     , (12243,  11, 0x05001197) /* MouthTexture */
+     , (12243,  15, 0x0400200E) /* HairPalette */
+     , (12243,  16, 0x040002BD) /* EyesPalette */
+     , (12243,  17, 0x040004A1) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12243, 8040, 3863871746, 181.626, 39.8828, 32.005, -0.8498288, 0, 0, -0.5270588) /* PCAPRecordedLocation */
+VALUES (12243, 8040, 0xE64E0102, 181.626, 39.8828, 32.005, -0.849829, 0, 0, -0.527059) /* PCAPRecordedLocation */
 /* @teleloc 0xE64E0102 [181.626000 39.882800 32.005000] -0.849829 0.000000 0.000000 -0.527059 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

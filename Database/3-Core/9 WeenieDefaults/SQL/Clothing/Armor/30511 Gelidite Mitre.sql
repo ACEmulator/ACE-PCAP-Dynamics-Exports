@@ -53,13 +53,13 @@ VALUES (30511,   1, 'Gelidite Mitre') /* Name */
      , (30511,  16, 'After the destruction of the Great Work, some human mages who followed the  Gelidite agenda returned to Frore in hopes of reviving the project. Finding only shattered fragments of the Great Work, they attempted to rebuild it by using the shards as a foundation. Years later, they had achieved little success, and the project was soon abandoned. Not wanting to waste their efforts, they took the remaining crystals and fashioned great suits of armor. This is one piece of one such suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30511,   1,   33559428) /* Setup */
-     , (30511,   3,  536870932) /* SoundTable */
-     , (30511,   8,  100686863) /* Icon */
-     , (30511,  22,  872415275) /* PhysicsEffectTable */
-     , (30511,  52,  100686604) /* IconUnderlay */;
+VALUES (30511,   1, 0x02001384) /* Setup */
+     , (30511,   3, 0x20000014) /* SoundTable */
+     , (30511,   8, 0x06005C0F) /* Icon */
+     , (30511,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30511,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30511,  3964,      2)  /* CANTRIPFOCUS3 */
+VALUES (30511,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
      , (30511,  4407,      2)  /* Impenetrability8 */
-     , (30511,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+     , (30511,  3964,      2)  /* CANTRIPFOCUS3 */;

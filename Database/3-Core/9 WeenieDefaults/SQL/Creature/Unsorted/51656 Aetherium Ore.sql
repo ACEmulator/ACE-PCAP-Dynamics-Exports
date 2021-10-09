@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51656,   1, 'Aetherium Ore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51656,   1,   33560927) /* Setup */
-     , (51656,   2,  150995147) /* MotionTable */
-     , (51656,   3,  536871001) /* SoundTable */
-     , (51656,   8,  100690568) /* Icon */
-     , (51656,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (51656,   1, 0x0200195F) /* Setup */
+     , (51656,   2, 0x090000CB) /* MotionTable */
+     , (51656,   3, 0x20000059) /* SoundTable */
+     , (51656,   8, 0x06006A88) /* Icon */
+     , (51656,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51656, 8040, 1484128602, 178.195, -183.286, -18, -0.8532678, 0, 0, -0.5214729) /* PCAPRecordedLocation */
+VALUES (51656, 8040, 0x5876015A, 178.195, -183.286, -18, -0.853268, 0, 0, -0.521473) /* PCAPRecordedLocation */
 /* @teleloc 0x5876015A [178.195000 -183.286000 -18.000000] -0.853268 0.000000 0.000000 -0.521473 */;

@@ -34,20 +34,20 @@ VALUES (994,   1, 'Muda bint Qalakh the Tailor') /* Name */
      , (994,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (994,   1,   33554510) /* Setup */
-     , (994,   2,  150994945) /* MotionTable */
-     , (994,   3,  536870914) /* SoundTable */
-     , (994,   6,   67108990) /* PaletteBase */
-     , (994,   8,  100667446) /* Icon */
-     , (994,   9,   83890278) /* EyesTexture */
-     , (994,  10,   83890303) /* NoseTexture */
-     , (994,  11,   83890348) /* MouthTexture */
-     , (994,  15,   67117077) /* HairPalette */
-     , (994,  16,   67110063) /* EyesPalette */
-     , (994,  17,   67109555) /* SkinPalette */;
+VALUES (994,   1, 0x0200004E) /* Setup */
+     , (994,   2, 0x09000001) /* MotionTable */
+     , (994,   3, 0x20000002) /* SoundTable */
+     , (994,   6, 0x0400007E) /* PaletteBase */
+     , (994,   8, 0x06001036) /* Icon */
+     , (994,   9, 0x05001066) /* EyesTexture */
+     , (994,  10, 0x0500107F) /* NoseTexture */
+     , (994,  11, 0x050010AC) /* MouthTexture */
+     , (994,  15, 0x04002015) /* HairPalette */
+     , (994,  16, 0x040004AF) /* EyesPalette */
+     , (994,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (994, 8040, 2156921088, 30.72, 150.24, 124.005, 0.8929787, 0, 0, -0.4500988) /* PCAPRecordedLocation */
+VALUES (994, 8040, 0x80900100, 30.72, 150.24, 124.005, 0.892979, 0, 0, -0.450099) /* PCAPRecordedLocation */
 /* @teleloc 0x80900100 [30.720000 150.240000 124.005000] 0.892979 0.000000 0.000000 -0.450099 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

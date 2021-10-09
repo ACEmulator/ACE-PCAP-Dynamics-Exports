@@ -25,6 +25,6 @@ VALUES (34448,   1, 'Colosseum Vault Key') /* Name */
      , (34448,  16, 'A golden Empyrean key') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34448,   1,   33554784) /* Setup */
-     , (34448,   8,  100689384) /* Icon */
-     , (34448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34448,   1, 0x02000160) /* Setup */
+     , (34448,   8, 0x060065E8) /* Icon */
+     , (34448,  22, 0x3400002B) /* PhysicsEffectTable */;

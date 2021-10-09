@@ -23,7 +23,7 @@ VALUES (37998,   1, 'Inscription of Acid Protection Self') /* Name */
 Reduces damage the caster takes from acid by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37998,   1,   33554826) /* Setup */
-     , (37998,   8,  100676951) /* Icon */
-     , (37998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37998,   1, 0x0200018A) /* Setup */
+     , (37998,   8, 0x06003557) /* Icon */
+     , (37998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37998,  28,       4460) /* Spell - AcidProtectionSelf8 */;

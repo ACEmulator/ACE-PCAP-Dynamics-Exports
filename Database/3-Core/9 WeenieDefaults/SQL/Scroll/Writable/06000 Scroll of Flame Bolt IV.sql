@@ -23,7 +23,7 @@ VALUES (6000,   1, 'Scroll of Flame Bolt IV') /* Name */
 Shoots a bolt of flame at the target.  The bolt does 52-105 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6000,   1,   33554826) /* Setup */
-     , (6000,   8,  100677022) /* Icon */
-     , (6000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6000,   1, 0x0200018A) /* Setup */
+     , (6000,   8, 0x0600359E) /* Icon */
+     , (6000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6000,  28,         83) /* Spell - FlameBolt4 */;

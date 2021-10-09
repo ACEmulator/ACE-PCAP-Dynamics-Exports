@@ -20,5 +20,5 @@ VALUES (37365,   1, 'Quill of Benevolence') /* Name */
      , (37365,  20, 'Quills of Benevolence') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37365,   1,   33559616) /* Setup */
-     , (37365,   8,  100690198) /* Icon */;
+VALUES (37365,   1, 0x02001440) /* Setup */
+     , (37365,   8, 0x06006916) /* Icon */;

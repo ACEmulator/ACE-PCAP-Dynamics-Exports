@@ -29,8 +29,8 @@ VALUES (42518,   1, 'Coalesced Mana') /* Name */
      , (42518,  20, 'Coalesced Mana') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42518,   1,   33557506) /* Setup */
-     , (42518,   3,  536870932) /* SoundTable */
-     , (42518,   6,   67112808) /* PaletteBase */
-     , (42518,   8,  100690901) /* Icon */
-     , (42518,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42518,   1, 0x02000C02) /* Setup */
+     , (42518,   3, 0x20000014) /* SoundTable */
+     , (42518,   6, 0x04000F68) /* PaletteBase */
+     , (42518,   8, 0x06006BD5) /* Icon */
+     , (42518,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36639,   1, 'Crest of Kings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36639,   1,   33557014) /* Setup */
-     , (36639,   3,  536870932) /* SoundTable */
-     , (36639,   8,  100671513) /* Icon */
-     , (36639,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36639,   1, 0x02000A16) /* Setup */
+     , (36639,   3, 0x20000014) /* SoundTable */
+     , (36639,   8, 0x06002019) /* Icon */
+     , (36639,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36639, 8040, 3332964380, 79.85902, 90.94271, 41.926, -0.3950254, -0.6617041, 0.5216623, -0.3660206) /* PCAPRecordedLocation */
+VALUES (36639, 8040, 0xC6A9001C, 79.85902, 90.94271, 41.926, -0.395025, -0.661704, 0.521662, -0.366021) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [79.859020 90.942710 41.926000] -0.395025 -0.661704 0.521662 -0.366021 */;

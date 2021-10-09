@@ -23,7 +23,7 @@ VALUES (41261,   1, 'Scroll of Two Handed Weapon Mastery Self VI') /* Name */
 Increases the caster''s Two Handed Combat skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41261,   1,   33554826) /* Setup */
-     , (41261,   8,  100690644) /* Icon */
-     , (41261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41261,   1, 0x0200018A) /* Setup */
+     , (41261,   8, 0x06006AD4) /* Icon */
+     , (41261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41261,  28,       5104) /* Spell - TwoHandedMasterySelf6 */;

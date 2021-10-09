@@ -36,10 +36,10 @@ VALUES (49388,   1, 'Frost Grievver Essence (80)') /* Name */
      , (49388,  14, 'Use this essence to summon or dismiss your Frost Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49388,   1,   33554817) /* Setup */
-     , (49388,   3,  536870932) /* SoundTable */
-     , (49388,   6,   67111919) /* PaletteBase */
-     , (49388,   8,  100670960) /* Icon */
-     , (49388,  22,  872415275) /* PhysicsEffectTable */
-     , (49388,  50,  100693027) /* IconOverlay */
-     , (49388,  52,  100693024) /* IconUnderlay */;
+VALUES (49388,   1, 0x02000181) /* Setup */
+     , (49388,   3, 0x20000014) /* SoundTable */
+     , (49388,   6, 0x04000BEF) /* PaletteBase */
+     , (49388,   8, 0x06001DF0) /* Icon */
+     , (49388,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49388,  50, 0x06007423) /* IconOverlay */
+     , (49388,  52, 0x06007420) /* IconUnderlay */;

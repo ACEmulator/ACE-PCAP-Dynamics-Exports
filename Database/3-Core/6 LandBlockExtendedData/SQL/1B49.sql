@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1B49;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B49001,  1154, 0x1B490007, 14.38203, 159.285, 71.42879, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x71B49001,  1154, 0x1B490007, 14.38203, 159.285, 71.42879, 0.92388, 0, 0, -0.382684, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x1B490007 [14.382030 159.285000 71.428790] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,11 +9,11 @@ VALUES (0x71B49001, 0x71B49002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36
      , (0x71B49001, 0x71B49003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B49002, 36822, 0x1B490007, 14.38203, 159.285, 71.42879, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
+VALUES (0x71B49002, 36822, 0x1B490007, 14.38203, 159.285, 71.42879, 0.92388, 0, 0, -0.382684,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
 /* @teleloc 0x1B490007 [14.382030 159.285000 71.428790] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B49003, 36823, 0x1B49000B, 40.73724, 64.45669, 60.00455, -0.2122185, 0, 0, -0.9772223,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
+VALUES (0x71B49003, 36823, 0x1B49000B, 40.73724, 64.45669, 60.00455, -0.212219, 0, 0, -0.977222,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
 /* @teleloc 0x1B49000B [40.737240 64.456690 60.004550] -0.212219 0.000000 0.000000 -0.977222 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

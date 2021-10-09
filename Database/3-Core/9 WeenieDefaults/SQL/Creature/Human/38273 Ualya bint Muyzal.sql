@@ -31,20 +31,20 @@ VALUES (38273,   1, 'Ualya bint Muyzal') /* Name */
      , (38273,   5, 'Spawn Pools Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38273,   1,   33554510) /* Setup */
-     , (38273,   2,  150994945) /* MotionTable */
-     , (38273,   3,  536870914) /* SoundTable */
-     , (38273,   6,   67108990) /* PaletteBase */
-     , (38273,   8,  100667446) /* Icon */
-     , (38273,   9,   83890258) /* EyesTexture */
-     , (38273,  10,   83890306) /* NoseTexture */
-     , (38273,  11,   83890340) /* MouthTexture */
-     , (38273,  15,   67117026) /* HairPalette */
-     , (38273,  16,   67109567) /* EyesPalette */
-     , (38273,  17,   67109551) /* SkinPalette */;
+VALUES (38273,   1, 0x0200004E) /* Setup */
+     , (38273,   2, 0x09000001) /* MotionTable */
+     , (38273,   3, 0x20000002) /* SoundTable */
+     , (38273,   6, 0x0400007E) /* PaletteBase */
+     , (38273,   8, 0x06001036) /* Icon */
+     , (38273,   9, 0x05001052) /* EyesTexture */
+     , (38273,  10, 0x05001082) /* NoseTexture */
+     , (38273,  11, 0x050010A4) /* MouthTexture */
+     , (38273,  15, 0x04001FE2) /* HairPalette */
+     , (38273,  16, 0x040002BF) /* EyesPalette */
+     , (38273,  17, 0x040002AF) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38273, 8040, 12059246, 155.9, -34.1528, -17.995, -0.443873, 0, 0, -0.89609) /* PCAPRecordedLocation */
+VALUES (38273, 8040, 0x00B8026E, 155.9, -34.1528, -17.995, -0.443873, 0, 0, -0.89609) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026E [155.900000 -34.152800 -17.995000] -0.443873 0.000000 0.000000 -0.896090 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

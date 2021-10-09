@@ -23,7 +23,7 @@ VALUES (1714,   1, 'Scroll of Leadership Mastery Other') /* Name */
 Increases the target''s Leadership skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1714,   1,   33554826) /* Setup */
-     , (1714,   8,  100676446) /* Icon */
-     , (1714,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1714,   1, 0x0200018A) /* Setup */
+     , (1714,   8, 0x0600335E) /* Icon */
+     , (1714,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1714,  28,        904) /* Spell - LeadershipMasteryOther1 */;

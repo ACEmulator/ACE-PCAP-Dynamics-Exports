@@ -25,7 +25,7 @@ VALUES (35105,   1, 'Pyre Shroud') /* Name */
      , (35105,  15, 'An insubstantial ashen shroud. Though warm to the touch, you can barely tell you are holding anything. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35105,   1,   33554817) /* Setup */
-     , (35105,   3,  536870932) /* SoundTable */
-     , (35105,   8,  100688460) /* Icon */
-     , (35105,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35105,   1, 0x02000181) /* Setup */
+     , (35105,   3, 0x20000014) /* SoundTable */
+     , (35105,   8, 0x0600624C) /* Icon */
+     , (35105,  22, 0x3400002B) /* PhysicsEffectTable */;

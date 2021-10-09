@@ -41,20 +41,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33973,   1, 'Shou-jen Jika-Tabi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33973,   1,   33556683) /* Setup */
-     , (33973,   3,  536870932) /* SoundTable */
-     , (33973,   8,  100689121) /* Icon */
-     , (33973,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33973,   1, 0x020008CB) /* Setup */
+     , (33973,   3, 0x20000014) /* SoundTable */
+     , (33973,   8, 0x060064E1) /* Icon */
+     , (33973,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33973,  2081,      2)  /* QuicknessSelf7 */
+VALUES (33973,  2113,      2)  /* PiercingBane7 */
+     , (33973,  2081,      2)  /* QuicknessSelf7 */
+     , (33973,  2529,      2)  /* CANTRIPSPRINT2 */
      , (33973,  2092,      2)  /* AcidBane7 */
      , (33973,  2094,      2)  /* BladeBane7 */
      , (33973,  2098,      2)  /* BludgeonBane7 */
      , (33973,  2102,      2)  /* FlameBane7 */
      , (33973,  2104,      2)  /* FrostBane7 */
      , (33973,  2108,      2)  /* Impenetrability7 */
-     , (33973,  2110,      2)  /* LightningBane7 */
-     , (33973,  2113,      2)  /* PiercingBane7 */
      , (33973,  2301,      2)  /* SprintSelf7 */
-     , (33973,  2529,      2)  /* CANTRIPSPRINT2 */;
+     , (33973,  2110,      2)  /* LightningBane7 */;

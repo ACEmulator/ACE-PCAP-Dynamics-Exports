@@ -28,13 +28,13 @@ VALUES (33546,   1, 'Asheron''s Servant') /* Name */
      , (33546,   5, 'Guardian of the White Tower') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33546,   1,   33556923) /* Setup */
-     , (33546,   2,  150995087) /* MotionTable */
-     , (33546,   3,  536870998) /* SoundTable */
-     , (33546,   8,  100670274) /* Icon */;
+VALUES (33546,   1, 0x020009BB) /* Setup */
+     , (33546,   2, 0x0900008F) /* MotionTable */
+     , (33546,   3, 0x20000056) /* SoundTable */
+     , (33546,   8, 0x06001B42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33546, 8040, 3583574349, 149.281, 183.532, 383.8075, -0.482454, 0, 0, 0.875921) /* PCAPRecordedLocation */
+VALUES (33546, 8040, 0xD599014D, 149.281, 183.532, 383.8075, -0.482454, 0, 0, 0.875921) /* PCAPRecordedLocation */
 /* @teleloc 0xD599014D [149.281000 183.532000 383.807500] -0.482454 0.000000 0.000000 0.875921 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

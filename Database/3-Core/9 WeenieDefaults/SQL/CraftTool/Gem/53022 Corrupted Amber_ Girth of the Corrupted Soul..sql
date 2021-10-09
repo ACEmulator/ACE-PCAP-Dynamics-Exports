@@ -21,8 +21,8 @@ VALUES (53022,   1, 'Corrupted Amber: Girth of the Corrupted Soul.') /* Name */
      , (53022,  20, 'Corrupted Ambers: Girth of the Corrupted Soul.') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53022,   1,   33554809) /* Setup */
-     , (53022,   3,  536870932) /* SoundTable */
-     , (53022,   6,   67111919) /* PaletteBase */
-     , (53022,   8,  100693326) /* Icon */
-     , (53022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53022,   1, 0x02000179) /* Setup */
+     , (53022,   3, 0x20000014) /* SoundTable */
+     , (53022,   6, 0x04000BEF) /* PaletteBase */
+     , (53022,   8, 0x0600754E) /* Icon */
+     , (53022,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2074,   1, 'Dungeon of Tatters') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2074,   1,   33555923) /* Setup */
-     , (2074,   2,  150994947) /* MotionTable */
-     , (2074,   8,  100667499) /* Icon */;
+VALUES (2074,   1, 0x020005D3) /* Setup */
+     , (2074,   2, 0x09000003) /* MotionTable */
+     , (2074,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2074, 8040, 2972778781, 101.134, 148.806, 29.537, 0.008054696, 0, 0, 0.9999676) /* PCAPRecordedLocation */
+VALUES (2074, 8040, 0xB131011D, 101.134, 148.806, 29.537, 0.008055, 0, 0, 0.999968) /* PCAPRecordedLocation */
 /* @teleloc 0xB131011D [101.134000 148.806000 29.537000] 0.008055 0.000000 0.000000 0.999968 */;

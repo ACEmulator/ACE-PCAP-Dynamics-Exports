@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30913,   1, 'Halaetan Magic Page 8') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30913,   1,   33554773) /* Setup */
-     , (30913,   3,  536870932) /* SoundTable */
-     , (30913,   8,  100668176) /* Icon */
-     , (30913,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30913,   1, 0x02000155) /* Setup */
+     , (30913,   3, 0x20000014) /* SoundTable */
+     , (30913,   8, 0x06001310) /* Icon */
+     , (30913,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (20510,   1, 'Scroll of Challenger''s Legacy') /* Name */
 Decreases the target''s Cooking skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20510,   1,   33554826) /* Setup */
-     , (20510,   8,  100676451) /* Icon */
-     , (20510,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20510,   1, 0x0200018A) /* Setup */
+     , (20510,   8, 0x06003363) /* Icon */
+     , (20510,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20510,  28,       2208) /* Spell - CookingIneptitudeOther7 */;

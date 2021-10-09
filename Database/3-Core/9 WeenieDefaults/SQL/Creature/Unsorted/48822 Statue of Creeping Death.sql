@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48822,   1, 'Statue of Creeping Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48822,   1,   33561259) /* Setup */
-     , (48822,   2,  150994945) /* MotionTable */
-     , (48822,   3,  536870913) /* SoundTable */
-     , (48822,   8,  100667446) /* Icon */;
+VALUES (48822,   1, 0x02001AAB) /* Setup */
+     , (48822,   2, 0x09000001) /* MotionTable */
+     , (48822,   3, 0x20000001) /* SoundTable */
+     , (48822,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48822, 8040, 1482883599, 190, -70, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48822, 8040, 0x5863020F, 190, -70, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5863020F [190.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

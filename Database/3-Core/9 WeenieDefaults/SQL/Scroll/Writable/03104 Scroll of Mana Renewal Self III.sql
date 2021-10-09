@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3104,   1, 'Scroll of Mana Renewal Self III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3104,   1,   33554826) /* Setup */
-     , (3104,   8,  100676939) /* Icon */
-     , (3104,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3104,   1, 0x0200018A) /* Setup */
+     , (3104,   8, 0x0600354B) /* Icon */
+     , (3104,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3104,  28,        214) /* Spell - ManaRenewalSelf3 */;

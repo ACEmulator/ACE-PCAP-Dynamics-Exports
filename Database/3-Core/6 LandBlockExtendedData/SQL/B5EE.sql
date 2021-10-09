@@ -28,5 +28,5 @@ VALUES (0x7B5EE005, 23082, 0xB5EE0035, 165.3732, 109.7795, 177.9323, -0.697662, 
 /* @teleloc 0xB5EE0035 [165.373200 109.779500 177.932300] -0.697662 0.000000 0.000000 0.716427 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B5EE006, 25596, 0xB5EE0006, 0.2205505, 120.2787, 177.4432, -0.9487258, 0, 0, -0.3161004,  True, '2019-02-10 00:00:00'); /* Amethyst Gromnie */
+VALUES (0x7B5EE006, 25596, 0xB5EE0006, 0.220551, 120.2787, 177.4432, -0.948726, 0, 0, -0.3161,  True, '2019-02-10 00:00:00'); /* Amethyst Gromnie */
 /* @teleloc 0xB5EE0006 [0.220551 120.278700 177.443200] -0.948726 0.000000 0.000000 -0.316100 */

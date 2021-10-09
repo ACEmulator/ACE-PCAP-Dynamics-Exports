@@ -19,8 +19,8 @@ VALUES (43148,   1, 'Wrapped Bundle of Gear Blade Slashing Arrowheads') /* Name 
      , (43148,  20, 'Wrapped Bundles of Gear Blade Slashing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43148,   1,   33557030) /* Setup */
-     , (43148,   3,  536870932) /* SoundTable */
-     , (43148,   8,  100672692) /* Icon */
-     , (43148,  22,  872415275) /* PhysicsEffectTable */
-     , (43148,  50,  100691312) /* IconOverlay */;
+VALUES (43148,   1, 0x02000A26) /* Setup */
+     , (43148,   3, 0x20000014) /* SoundTable */
+     , (43148,   8, 0x060024B4) /* Icon */
+     , (43148,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43148,  50, 0x06006D70) /* IconOverlay */;

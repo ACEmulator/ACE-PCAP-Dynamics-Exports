@@ -25,7 +25,7 @@ VALUES (28774,   1, 'Wine Cellar Key') /* Name */
      , (28774,  16, 'A key to Lubziklan al-Luc''s wine cellar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28774,   1,   33554784) /* Setup */
-     , (28774,   3,  536870932) /* SoundTable */
-     , (28774,   8,  100667485) /* Icon */
-     , (28774,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28774,   1, 0x02000160) /* Setup */
+     , (28774,   3, 0x20000014) /* SoundTable */
+     , (28774,   8, 0x0600105D) /* Icon */
+     , (28774,  22, 0x3400002B) /* PhysicsEffectTable */;

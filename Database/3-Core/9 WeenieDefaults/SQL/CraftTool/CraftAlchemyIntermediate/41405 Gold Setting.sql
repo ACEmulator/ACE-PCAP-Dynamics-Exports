@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41405,   1, 'Gold Setting') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41405,   1,   33554817) /* Setup */
-     , (41405,   3,  536870932) /* SoundTable */
-     , (41405,   8,  100690727) /* Icon */
-     , (41405,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41405,   1, 0x02000181) /* Setup */
+     , (41405,   3, 0x20000014) /* SoundTable */
+     , (41405,   8, 0x06006B27) /* Icon */
+     , (41405,  22, 0x3400002B) /* PhysicsEffectTable */;

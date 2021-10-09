@@ -25,7 +25,7 @@ VALUES (33924,   1, 'Baby Thrungus Crate') /* Name */
      , (33924,  14, 'Use this crate to summon or dismiss your Baby Thrungus.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33924,   1,   33554718) /* Setup */
-     , (33924,   3,  536870932) /* SoundTable */
-     , (33924,   8,  100668152) /* Icon */
-     , (33924,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33924,   1, 0x0200011E) /* Setup */
+     , (33924,   3, 0x20000014) /* SoundTable */
+     , (33924,   8, 0x060012F8) /* Icon */
+     , (33924,  22, 0x3400002B) /* PhysicsEffectTable */;

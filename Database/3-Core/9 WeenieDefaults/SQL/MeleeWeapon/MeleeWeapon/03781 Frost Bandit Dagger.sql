@@ -43,11 +43,11 @@ VALUES (3781,   1, 'Frost Bandit Dagger') /* Name */
      , (3781,  16, 'Frost Dagger') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3781,   1,   33555721) /* Setup */
-     , (3781,   3,  536870932) /* SoundTable */
-     , (3781,   8,  100667589) /* Icon */
-     , (3781,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3781,   1, 0x02000509) /* Setup */
+     , (3781,   3, 0x20000014) /* SoundTable */
+     , (3781,   8, 0x060010C5) /* Icon */
+     , (3781,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3781, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (3781, 8040, 0x00070145, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;

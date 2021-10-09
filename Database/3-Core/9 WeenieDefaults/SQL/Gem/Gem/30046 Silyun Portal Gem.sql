@@ -31,9 +31,9 @@ VALUES (30046,   1, 'Silyun Portal Gem') /* Name */
      , (30046,  16, 'Use this gem to summon a short-lived portal to Silyun.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30046,   1,   33556769) /* Setup */
-     , (30046,   3,  536870932) /* SoundTable */
-     , (30046,   6,   67111919) /* PaletteBase */
-     , (30046,   8,  100674858) /* Icon */
-     , (30046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30046,   1, 0x02000921) /* Setup */
+     , (30046,   3, 0x20000014) /* SoundTable */
+     , (30046,   6, 0x04000BEF) /* PaletteBase */
+     , (30046,   8, 0x06002D2A) /* Icon */
+     , (30046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30046,  28,        157) /* Spell - SummonPortal1 */;

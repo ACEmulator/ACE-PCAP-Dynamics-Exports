@@ -48,18 +48,18 @@ VALUES (37224,   1, 'Acid Staff') /* Name */
      , (37224,  40, 'Jons cargohold') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37224,   1,   33560650) /* Setup */
-     , (37224,   3,  536870932) /* SoundTable */
-     , (37224,   6,   67111919) /* PaletteBase */
-     , (37224,   8,  100690005) /* Icon */
-     , (37224,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37224,   1, 0x0200184A) /* Setup */
+     , (37224,   3, 0x20000014) /* SoundTable */
+     , (37224,   6, 0x04000BEF) /* PaletteBase */
+     , (37224,   8, 0x06006855) /* Icon */
+     , (37224,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37224, 8040, 3583574336, 161.026, 153.319, 382.2884, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (37224, 8040, 0xD5990140, 161.026, 153.319, 382.2884, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990140 [161.026000 153.319000 382.288400] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37224,   634,      2)  /* WarMagicMasterySelf6 */
+VALUES (37224,  4451,      2)  /* LightningBolt8 */
      , (37224,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37224,  4451,      2)  /* LightningBolt8 */
-     , (37224,  6124,      2)  /* CantripSummoningProwess3 */;
+     , (37224,  6124,      2)  /* CantripSummoningProwess3 */
+     , (37224,   634,      2)  /* WarMagicMasterySelf6 */;

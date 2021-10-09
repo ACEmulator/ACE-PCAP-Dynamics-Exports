@@ -50,11 +50,11 @@ VALUES (30559,   1, 'Flaming Hatchet') /* Name */
      , (30559,  16, 'Flaming Hatchet of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30559,   1,   33559449) /* Setup */
-     , (30559,   3,  536870932) /* SoundTable */
-     , (30559,   6,   67115558) /* PaletteBase */
-     , (30559,   8,  100686923) /* Icon */
-     , (30559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30559,   1, 0x02001399) /* Setup */
+     , (30559,   3, 0x20000014) /* SoundTable */
+     , (30559,   6, 0x04001A26) /* PaletteBase */
+     , (30559,   8, 0x06005C4B) /* Icon */
+     , (30559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30559,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

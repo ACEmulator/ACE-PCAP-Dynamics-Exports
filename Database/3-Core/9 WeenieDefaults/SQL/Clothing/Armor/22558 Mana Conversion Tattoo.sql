@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22558,   1, 'Mana Conversion Tattoo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22558,   1,   33554641) /* Setup */
-     , (22558,   3,  536870932) /* SoundTable */
-     , (22558,   6,   67108990) /* PaletteBase */
-     , (22558,   8,  100673847) /* Icon */
-     , (22558,  22,  872415275) /* PhysicsEffectTable */
-     , (22558,  50,  100673777) /* IconOverlay */;
+VALUES (22558,   1, 0x020000D1) /* Setup */
+     , (22558,   3, 0x20000014) /* SoundTable */
+     , (22558,   6, 0x0400007E) /* PaletteBase */
+     , (22558,   8, 0x06002937) /* Icon */
+     , (22558,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22558,  50, 0x060028F1) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22558, 8040, 23855554, 58.36778, -31.54819, -0.002499998, 0.6865274, 0, 0, 0.7271039) /* PCAPRecordedLocation */
+VALUES (22558, 8040, 0x016C01C2, 58.36778, -31.54819, -0.0025, 0.686527, 0, 0, 0.727104) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.367780 -31.548190 -0.002500] 0.686527 0.000000 0.000000 0.727104 */;

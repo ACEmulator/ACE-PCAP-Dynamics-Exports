@@ -31,20 +31,20 @@ VALUES (39905,   1, 'Tactical Training Officer') /* Name */
      , (39905,   5, 'Society Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39905,   1,   33554433) /* Setup */
-     , (39905,   2,  150994945) /* MotionTable */
-     , (39905,   3,  536870913) /* SoundTable */
-     , (39905,   6,   67108990) /* PaletteBase */
-     , (39905,   8,  100667377) /* Icon */
-     , (39905,   9,   83890476) /* EyesTexture */
-     , (39905,  10,   83890559) /* NoseTexture */
-     , (39905,  11,   83890645) /* MouthTexture */
-     , (39905,  15,   67116997) /* HairPalette */
-     , (39905,  16,   67110063) /* EyesPalette */
-     , (39905,  17,   67109550) /* SkinPalette */;
+VALUES (39905,   1, 0x02000001) /* Setup */
+     , (39905,   2, 0x09000001) /* MotionTable */
+     , (39905,   3, 0x20000001) /* SoundTable */
+     , (39905,   6, 0x0400007E) /* PaletteBase */
+     , (39905,   8, 0x06000FF1) /* Icon */
+     , (39905,   9, 0x0500112C) /* EyesTexture */
+     , (39905,  10, 0x0500117F) /* NoseTexture */
+     , (39905,  11, 0x050011D5) /* MouthTexture */
+     , (39905,  15, 0x04001FC5) /* HairPalette */
+     , (39905,  16, 0x040004AF) /* EyesPalette */
+     , (39905,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39905, 8040, 15204697, 169.888, -34.0145, 6.005, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (39905, 8040, 0x00E80159, 169.888, -34.0145, 6.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00E80159 [169.888000 -34.014500 6.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

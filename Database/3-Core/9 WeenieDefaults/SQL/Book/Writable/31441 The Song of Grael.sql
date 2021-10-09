@@ -20,10 +20,10 @@ VALUES (31441,   1, 'The Song of Grael') /* Name */
      , (31441,  16, 'A translation of the Song of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31441,   1,   33559593) /* Setup */
-     , (31441,   3,  536870932) /* SoundTable */
-     , (31441,   8,  100687891) /* Icon */
-     , (31441,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31441,   1, 0x02001429) /* Setup */
+     , (31441,   3, 0x20000014) /* SoundTable */
+     , (31441,   8, 0x06006013) /* Icon */
+     , (31441,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31441, 6, 1000);

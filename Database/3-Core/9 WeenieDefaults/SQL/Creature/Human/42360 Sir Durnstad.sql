@@ -30,20 +30,20 @@ VALUES (42360,   1, 'Sir Durnstad') /* Name */
      , (42360,   5, 'Royal Knight') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42360,   1,   33554433) /* Setup */
-     , (42360,   2,  150994945) /* MotionTable */
-     , (42360,   3,  536870913) /* SoundTable */
-     , (42360,   6,   67108990) /* PaletteBase */
-     , (42360,   8,  100667446) /* Icon */
-     , (42360,   9,   83890510) /* EyesTexture */
-     , (42360,  10,   83890558) /* NoseTexture */
-     , (42360,  11,   83890643) /* MouthTexture */
-     , (42360,  15,   67116977) /* HairPalette */
-     , (42360,  16,   67110064) /* EyesPalette */
-     , (42360,  17,   67109562) /* SkinPalette */;
+VALUES (42360,   1, 0x02000001) /* Setup */
+     , (42360,   2, 0x09000001) /* MotionTable */
+     , (42360,   3, 0x20000001) /* SoundTable */
+     , (42360,   6, 0x0400007E) /* PaletteBase */
+     , (42360,   8, 0x06001036) /* Icon */
+     , (42360,   9, 0x0500114E) /* EyesTexture */
+     , (42360,  10, 0x0500117E) /* NoseTexture */
+     , (42360,  11, 0x050011D3) /* MouthTexture */
+     , (42360,  15, 0x04001FB1) /* HairPalette */
+     , (42360,  16, 0x040004B0) /* EyesPalette */
+     , (42360,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42360, 8040, 560988201, 140.903, 13.4105, 178.005, 0.9980534, 0, 0, 0.06236602) /* PCAPRecordedLocation */
+VALUES (42360, 8040, 0x21700029, 140.903, 13.4105, 178.005, 0.998053, 0, 0, 0.062366) /* PCAPRecordedLocation */
 /* @teleloc 0x21700029 [140.903000 13.410500 178.005000] 0.998053 0.000000 0.000000 0.062366 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

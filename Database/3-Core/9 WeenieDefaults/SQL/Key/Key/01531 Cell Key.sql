@@ -22,11 +22,11 @@ VALUES (1531,   1, 'Cell Key') /* Name */
      , (1531,  16, 'This key unlocks cell doors in the Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1531,   1,   33554784) /* Setup */
-     , (1531,   3,  536870932) /* SoundTable */
-     , (1531,   8,  100668435) /* Icon */
-     , (1531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1531,   1, 0x02000160) /* Setup */
+     , (1531,   3, 0x20000014) /* SoundTable */
+     , (1531,   8, 0x06001413) /* Icon */
+     , (1531,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1531, 8040, 2847146009, 93.48009, 15.75177, 94.024, -0.5815747, 0, 0, -0.813493) /* PCAPRecordedLocation */
+VALUES (1531, 8040, 0xA9B40019, 93.48009, 15.75177, 94.024, -0.581575, 0, 0, -0.813493) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [93.480090 15.751770 94.024000] -0.581575 0.000000 0.000000 -0.813493 */;

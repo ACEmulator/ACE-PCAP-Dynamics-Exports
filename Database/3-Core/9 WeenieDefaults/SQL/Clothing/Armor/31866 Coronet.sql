@@ -45,14 +45,14 @@ VALUES (31866,   1, 'Coronet') /* Name */
      , (31866,  16, 'Coronet of Deception') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31866,   1,   33559740) /* Setup */
-     , (31866,   3,  536870932) /* SoundTable */
-     , (31866,   6,   67108990) /* PaletteBase */
-     , (31866,   8,  100688195) /* Icon */
-     , (31866,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31866,   1, 0x020014BC) /* Setup */
+     , (31866,   3, 0x20000014) /* SoundTable */
+     , (31866,   6, 0x0400007E) /* PaletteBase */
+     , (31866,   8, 0x06006143) /* Icon */
+     , (31866,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31866,   855,      2)  /* DeceptionMasterySelf6 */
-     , (31866,  1486,      2)  /* Impenetrability6 */
+VALUES (31866,  1486,      2)  /* Impenetrability6 */
+     , (31866,   855,      2)  /* DeceptionMasterySelf6 */
      , (31866,  2104,      2)  /* FrostBane7 */
      , (31866,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;

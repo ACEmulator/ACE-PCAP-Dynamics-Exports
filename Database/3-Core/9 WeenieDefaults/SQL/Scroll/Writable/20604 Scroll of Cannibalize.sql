@@ -23,7 +23,7 @@ VALUES (20604,   1, 'Scroll of Cannibalize') /* Name */
 Drains one-half of the caster''s Health and gives 175% of that to his/her Mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20604,   1,   33554826) /* Setup */
-     , (20604,   8,  100676943) /* Icon */
-     , (20604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20604,   1, 0x0200018A) /* Setup */
+     , (20604,   8, 0x0600354F) /* Icon */
+     , (20604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20604,  28,       2332) /* Spell - HealthToManaSelf7 */;

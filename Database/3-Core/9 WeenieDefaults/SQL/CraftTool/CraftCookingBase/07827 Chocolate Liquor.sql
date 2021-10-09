@@ -25,7 +25,7 @@ VALUES (7827,   1, 'Chocolate Liquor') /* Name */
      , (7827,  20, 'Vials of Chocolate Liquor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7827,   1,   33555967) /* Setup */
-     , (7827,   3,  536870932) /* SoundTable */
-     , (7827,   8,  100670850) /* Icon */
-     , (7827,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7827,   1, 0x020005FF) /* Setup */
+     , (7827,   3, 0x20000014) /* SoundTable */
+     , (7827,   8, 0x06001D82) /* Icon */
+     , (7827,  22, 0x3400002B) /* PhysicsEffectTable */;

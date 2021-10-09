@@ -21,7 +21,7 @@ VALUES (45384,   1, 'Sneak Attack Gem of Enlightenment') /* Name */
      , (45384,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Sneak Attack skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45384,   1,   33558088) /* Setup */
-     , (45384,   6,   67111919) /* PaletteBase */
-     , (45384,   8,  100673788) /* Icon */
-     , (45384,  50,  100692241) /* IconOverlay */;
+VALUES (45384,   1, 0x02000E48) /* Setup */
+     , (45384,   6, 0x04000BEF) /* PaletteBase */
+     , (45384,   8, 0x060028FC) /* Icon */
+     , (45384,  50, 0x06007111) /* IconOverlay */;

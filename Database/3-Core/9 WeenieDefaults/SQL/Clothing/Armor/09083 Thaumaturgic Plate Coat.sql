@@ -41,15 +41,16 @@ VALUES (9083,   1, 'Thaumaturgic Plate Coat') /* Name */
      , (9083,  25, 'Ragarnok') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9083,   1,   33554644) /* Setup */
-     , (9083,   3,  536870932) /* SoundTable */
-     , (9083,   6,   67108990) /* PaletteBase */
-     , (9083,   8,  100671346) /* Icon */
-     , (9083,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9083,   1, 0x020000D4) /* Setup */
+     , (9083,   3, 0x20000014) /* SoundTable */
+     , (9083,   6, 0x0400007E) /* PaletteBase */
+     , (9083,   8, 0x06001F72) /* Icon */
+     , (9083,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9083,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9083,   664,      2)  /* ManaMasteryOther6 */
+VALUES (9083,  2376,      2)  /* AnnihilationGlimpse */
+     , (9083,   664,      2)  /* ManaMasteryOther6 */
      , (9083,  2349,      2)  /* HieroWard */
      , (9083,  2350,      2)  /* DecayDurance */
      , (9083,  2351,      2)  /* ConsumptionDurance */
@@ -57,5 +58,4 @@ VALUES (9083,   664,      2)  /* ManaMasteryOther6 */
      , (9083,  2353,      2)  /* StimulationDurance */
      , (9083,  2354,      2)  /* PiercingDuranceLess */
      , (9083,  2355,      2)  /* SlashingDuranceLess */
-     , (9083,  2356,      2)  /* BludgeoningDuranceLess */
-     , (9083,  2376,      2)  /* AnnihilationGlimpse */;
+     , (9083,  2356,      2)  /* BludgeoningDuranceLess */;

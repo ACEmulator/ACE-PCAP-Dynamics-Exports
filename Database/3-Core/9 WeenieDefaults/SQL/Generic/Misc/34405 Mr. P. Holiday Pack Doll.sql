@@ -23,7 +23,7 @@ VALUES (34405,   1, 'Mr. P. Holiday Pack Doll') /* Name */
      , (34405,  16, 'A Mr. P. pack doll with a stocking cap on to help keep him warm during the Holiday Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34405,   1,   33560156) /* Setup */
-     , (34405,   2,  150995353) /* MotionTable */
-     , (34405,   8,  100689294) /* Icon */
-     , (34405,  22,  872415410) /* PhysicsEffectTable */;
+VALUES (34405,   1, 0x0200165C) /* Setup */
+     , (34405,   2, 0x09000199) /* MotionTable */
+     , (34405,   8, 0x0600658E) /* Icon */
+     , (34405,  22, 0x340000B2) /* PhysicsEffectTable */;

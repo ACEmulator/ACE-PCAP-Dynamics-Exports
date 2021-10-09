@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37934,   1, 'Inscription of Shock Wave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37934,   1,   33554826) /* Setup */
-     , (37934,   8,  100677008) /* Icon */
-     , (37934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37934,   1, 0x0200018A) /* Setup */
+     , (37934,   8, 0x06003590) /* Icon */
+     , (37934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37934,  28,       4455) /* Spell - ShockWave8 */;

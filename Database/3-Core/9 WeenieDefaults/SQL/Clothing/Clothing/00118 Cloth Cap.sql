@@ -43,13 +43,13 @@ VALUES (118,   1, 'Cloth Cap') /* Name */
      , (118,  16, 'Cloth Cap of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (118,   1,   33554643) /* Setup */
-     , (118,   3,  536870932) /* SoundTable */
-     , (118,   6,   67108990) /* PaletteBase */
-     , (118,   8,  100669167) /* Icon */
-     , (118,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (118,   1, 0x020000D3) /* Setup */
+     , (118,   3, 0x20000014) /* SoundTable */
+     , (118,   6, 0x0400007E) /* PaletteBase */
+     , (118,   8, 0x060016EF) /* Icon */
+     , (118,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (118,   170,      2)  /* RegenerationSelf6 */
-     , (118,  1485,      2)  /* Impenetrability5 */
-     , (118,  1574,      2)  /* PiercingBane6 */;
+VALUES (118,  1485,      2)  /* Impenetrability5 */
+     , (118,  1574,      2)  /* PiercingBane6 */
+     , (118,   170,      2)  /* RegenerationSelf6 */;

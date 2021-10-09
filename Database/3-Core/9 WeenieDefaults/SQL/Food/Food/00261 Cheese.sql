@@ -26,11 +26,11 @@ VALUES (261,   1, 'Cheese') /* Name */
      , (261,  20, 'Hunks of Cheese') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (261,   1,   33554672) /* Setup */
-     , (261,   3,  536870932) /* SoundTable */
-     , (261,   8,  100667458) /* Icon */
-     , (261,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (261,   1, 0x020000F0) /* Setup */
+     , (261,   3, 0x20000014) /* SoundTable */
+     , (261,   8, 0x06001042) /* Icon */
+     , (261,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (261, 8040, 3646488836, 105.8252, 12.32823, 10.024, 0.272208, 0, 0, 0.962238) /* PCAPRecordedLocation */
+VALUES (261, 8040, 0xD9590104, 105.8252, 12.32823, 10.024, 0.272208, 0, 0, 0.962238) /* PCAPRecordedLocation */
 /* @teleloc 0xD9590104 [105.825200 12.328230 10.024000] 0.272208 0.000000 0.000000 0.962238 */;

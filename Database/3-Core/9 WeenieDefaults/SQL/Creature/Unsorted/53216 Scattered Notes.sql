@@ -26,12 +26,12 @@ VALUES (53216,   1, 'Scattered Notes') /* Name */
      , (53216,  16, 'Scattered notes that appear to have magical writing scrawled upon them.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53216,   1,   33554773) /* Setup */
-     , (53216,   2,  150995147) /* MotionTable */
-     , (53216,   3,  536871052) /* SoundTable */
-     , (53216,   8,  100690208) /* Icon */
-     , (53216,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53216,   1, 0x02000155) /* Setup */
+     , (53216,   2, 0x090000CB) /* MotionTable */
+     , (53216,   3, 0x2000008C) /* SoundTable */
+     , (53216,   8, 0x06006920) /* Icon */
+     , (53216,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53216, 8040, 3007905820, 90, 88, 70.1, -0.04361942, 0, 0, -0.9990482) /* PCAPRecordedLocation */
+VALUES (53216, 8040, 0xB349001C, 90, 88, 70.1, -0.043619, 0, 0, -0.999048) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001C [90.000000 88.000000 70.100000] -0.043619 0.000000 0.000000 -0.999048 */;

@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31837,   1, 'Remoran Sand Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31837,   1,   33559700) /* Setup */
-     , (31837,   2,  150995342) /* MotionTable */
-     , (31837,   3,  536871103) /* SoundTable */
-     , (31837,   6,   67116726) /* PaletteBase */
-     , (31837,   8,  100667937) /* Icon */
-     , (31837,  22,  872415414) /* PhysicsEffectTable */;
+VALUES (31837,   1, 0x02001494) /* Setup */
+     , (31837,   2, 0x0900018E) /* MotionTable */
+     , (31837,   3, 0x200000BF) /* SoundTable */
+     , (31837,   6, 0x04001EB6) /* PaletteBase */
+     , (31837,   8, 0x06001221) /* Icon */
+     , (31837,  22, 0x340000B6) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31837, 8040, 3403808770, 4.060265, 25.99493, 4, -0.803749, 0, 0, -0.5949686) /* PCAPRecordedLocation */
+VALUES (31837, 8040, 0xCAE20002, 4.060265, 25.99493, 4, -0.803749, 0, 0, -0.594969) /* PCAPRecordedLocation */
 /* @teleloc 0xCAE20002 [4.060265 25.994930 4.000000] -0.803749 0.000000 0.000000 -0.594969 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

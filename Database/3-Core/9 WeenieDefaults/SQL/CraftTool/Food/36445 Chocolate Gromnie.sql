@@ -34,13 +34,13 @@ VALUES (36445,   1, 'Chocolate Gromnie') /* Name */
      , (36445,  16, 'A festival treat. A little chocolate gromnie that runs in circles. Five second rule applies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36445,   1,   33560398) /* Setup */
-     , (36445,   3,  536870932) /* SoundTable */
-     , (36445,   6,   67109307) /* PaletteBase */
-     , (36445,   8,  100689668) /* Icon */
-     , (36445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36445,   1, 0x0200174E) /* Setup */
+     , (36445,   3, 0x20000014) /* SoundTable */
+     , (36445,   6, 0x040001BB) /* PaletteBase */
+     , (36445,   8, 0x06006704) /* Icon */
+     , (36445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36445,  28,       4206) /* Spell - ChewyCenter */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36445, 8040, 23855555, 60.84425, -38.97301, 0.0004999936, -0.9162901, 0, 0, -0.4005152) /* PCAPRecordedLocation */
+VALUES (36445, 8040, 0x016C01C3, 60.84425, -38.97301, 0.0005, -0.91629, 0, 0, -0.400515) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [60.844250 -38.973010 0.000500] -0.916290 0.000000 0.000000 -0.400515 */;

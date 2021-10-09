@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24453,   1, 'Olthoi Swarm Mutilator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24453,   1,   33557161) /* Setup */
-     , (24453,   2,  150994946) /* MotionTable */
-     , (24453,   3,  536870925) /* SoundTable */
-     , (24453,   6,   67113236) /* PaletteBase */
-     , (24453,   8,  100667623) /* Icon */
-     , (24453,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24453,   1, 0x02000AA9) /* Setup */
+     , (24453,   2, 0x09000002) /* MotionTable */
+     , (24453,   3, 0x2000000D) /* SoundTable */
+     , (24453,   6, 0x04001114) /* PaletteBase */
+     , (24453,   8, 0x060010E7) /* Icon */
+     , (24453,  22, 0x34000021) /* PhysicsEffectTable */
      , (24453,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24453, 8040, 758382646, 159.7145, 132.8653, 68.92789, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24453, 8040, 0x2D340036, 159.7145, 132.8653, 68.92789, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D340036 [159.714500 132.865300 68.927890] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

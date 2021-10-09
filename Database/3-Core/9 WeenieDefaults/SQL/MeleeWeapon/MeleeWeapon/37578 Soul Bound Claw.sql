@@ -53,17 +53,17 @@ VALUES (37578,   1, 'Soul Bound Claw') /* Name */
      , (37578,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37578,   1,   33560571) /* Setup */
-     , (37578,   3,  536870932) /* SoundTable */
-     , (37578,   8,  100673200) /* Icon */
-     , (37578,  22,  872415275) /* PhysicsEffectTable */
-     , (37578,  52,  100689896) /* IconUnderlay */;
+VALUES (37578,   1, 0x020017FB) /* Setup */
+     , (37578,   3, 0x20000014) /* SoundTable */
+     , (37578,   8, 0x060026B0) /* Icon */
+     , (37578,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37578,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37578,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (37578,  2101,      2)  /* DefenderSelf7 */
-     , (37578,  2106,      2)  /* HeartSeekerSelf7 */
-     , (37578,  2116,      2)  /* SwiftKillerSelf7 */
-     , (37578,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+VALUES (37578,  2116,      2)  /* SwiftKillerSelf7 */
      , (37578,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (37578,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (37578,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (37578,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (37578,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37578,  2101,      2)  /* DefenderSelf7 */
+     , (37578,  2106,      2)  /* HeartSeekerSelf7 */;

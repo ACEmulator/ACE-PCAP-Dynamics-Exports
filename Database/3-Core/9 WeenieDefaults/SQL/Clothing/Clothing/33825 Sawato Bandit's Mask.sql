@@ -40,12 +40,12 @@ VALUES (33825,   1, 'Sawato Bandit''s Mask') /* Name */
      , (33825,  15, 'A mask that may assist you in infiltrating the Sawato Bandit''s hideout.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33825,   1,   33554643) /* Setup */
-     , (33825,   3,  536870932) /* SoundTable */
-     , (33825,   6,   67108990) /* PaletteBase */
-     , (33825,   8,  100675490) /* Icon */
-     , (33825,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33825,   1, 0x020000D3) /* Setup */
+     , (33825,   3, 0x20000014) /* SoundTable */
+     , (33825,   6, 0x0400007E) /* PaletteBase */
+     , (33825,   8, 0x06002FA2) /* Icon */
+     , (33825,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33825,  2226,      2)  /* DeceptionMasteryOther7 */
-     , (33825,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */;
+VALUES (33825,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */
+     , (33825,  2226,      2)  /* DeceptionMasteryOther7 */;

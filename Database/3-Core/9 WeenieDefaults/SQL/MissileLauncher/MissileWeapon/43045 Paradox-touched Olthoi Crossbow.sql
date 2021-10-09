@@ -53,17 +53,17 @@ VALUES (43045,   1, 'Paradox-touched Olthoi Crossbow') /* Name */
      , (43045,  16, 'A crossbow, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43045,   1,   33561082) /* Setup */
-     , (43045,   3,  536870932) /* SoundTable */
-     , (43045,   8,  100691349) /* Icon */
-     , (43045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43045,   1, 0x020019FA) /* Setup */
+     , (43045,   3, 0x20000014) /* SoundTable */
+     , (43045,   8, 0x06006D95) /* Icon */
+     , (43045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43045,  55,       1789) /* ProcSpell - ShockwaveRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43045, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (43045, 8040, 0x00070143, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43045,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (43045,  2101,      2)  /* DefenderSelf7 */
-     , (43045,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (43045,  2116,      2)  /* SwiftKillerSelf7 */
+     , (43045,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (43045,  2101,      2)  /* DefenderSelf7 */;

@@ -29,7 +29,7 @@ VALUES (34550,   1, 'Old Nectar') /* Name */
      , (34550,  20, 'Bottles of Old Nectar') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34550,   1,   33554602) /* Setup */
-     , (34550,   3,  536870932) /* SoundTable */
-     , (34550,   8,  100667410) /* Icon */
-     , (34550,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34550,   1, 0x020000AA) /* Setup */
+     , (34550,   3, 0x20000014) /* SoundTable */
+     , (34550,   8, 0x06001012) /* Icon */
+     , (34550,  22, 0x3400002B) /* PhysicsEffectTable */;

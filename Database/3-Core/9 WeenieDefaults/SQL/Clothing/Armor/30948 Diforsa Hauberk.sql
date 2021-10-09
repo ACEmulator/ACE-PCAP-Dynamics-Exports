@@ -44,15 +44,15 @@ VALUES (30948,   1, 'Diforsa Hauberk') /* Name */
      , (30948,  16, 'Diforsa Hauberk') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30948,   1,   33559357) /* Setup */
-     , (30948,   3,  536870932) /* SoundTable */
-     , (30948,   6,   67108990) /* PaletteBase */
-     , (30948,   8,  100686495) /* Icon */
-     , (30948,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30948,   1, 0x0200133D) /* Setup */
+     , (30948,   3, 0x20000014) /* SoundTable */
+     , (30948,   6, 0x0400007E) /* PaletteBase */
+     , (30948,   8, 0x06005A9F) /* Icon */
+     , (30948,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30948,  1485,      2)  /* Impenetrability5 */
-     , (30948,  1515,      2)  /* BludgeonBane5 */
      , (30948,  1551,      2)  /* FlameBane5 */
      , (30948,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */
+     , (30948,  1515,      2)  /* BludgeonBane5 */
      , (30948,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */;

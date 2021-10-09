@@ -51,14 +51,14 @@ VALUES (52733,   1, 'Vortex Thorn') /* Name */
      , (52733,  16, 'A magical throwing thorn that returns to your hand when thrown.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52733,   1,   33561677) /* Setup */
-     , (52733,   3,  536870932) /* SoundTable */
-     , (52733,   8,  100693346) /* Icon */
-     , (52733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52733,   1, 0x02001C4D) /* Setup */
+     , (52733,   3, 0x20000014) /* SoundTable */
+     , (52733,   8, 0x06007562) /* Icon */
+     , (52733,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52733,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (52733,  4400,      2)  /* DefenderSelf8 */
-     , (52733,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (52733,  4417,      2)  /* SwiftKillerSelf8 */
+     , (52733,  6089,      2)  /* CantripBloodThirst4 */
      , (52733,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
-     , (52733,  6089,      2)  /* CantripBloodThirst4 */;
+     , (52733,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (52733,  4400,      2)  /* DefenderSelf8 */;

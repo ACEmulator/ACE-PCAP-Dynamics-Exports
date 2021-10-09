@@ -31,12 +31,12 @@ VALUES (25541,   1, 'Peerless Drudge Charm Necklace') /* Name */
      , (25541,  16, 'A powerful charm crafted by Peerless Drudges. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25541,   1,   33554683) /* Setup */
-     , (25541,   3,  536870932) /* SoundTable */
-     , (25541,   8,  100674485) /* Icon */
-     , (25541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25541,   1, 0x020000FB) /* Setup */
+     , (25541,   3, 0x20000014) /* SoundTable */
+     , (25541,   8, 0x06002BB5) /* Icon */
+     , (25541,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25541,  2008,      2)  /* WarriorsVigor */
-     , (25541,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (25541,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+VALUES (25541,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (25541,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (25541,  2008,      2)  /* WarriorsVigor */;

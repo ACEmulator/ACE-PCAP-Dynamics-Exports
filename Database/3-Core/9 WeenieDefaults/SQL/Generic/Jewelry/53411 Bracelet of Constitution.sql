@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53411,   1, 'Bracelet of Constitution') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53411,   1,   33554680) /* Setup */
-     , (53411,   3,  536870932) /* SoundTable */
-     , (53411,   8,  100693347) /* Icon */
-     , (53411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53411,   1, 0x020000F8) /* Setup */
+     , (53411,   3, 0x20000014) /* SoundTable */
+     , (53411,   8, 0x06007563) /* Icon */
+     , (53411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53411, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

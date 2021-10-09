@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31207,   1, 'Vestiri Life Master Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31207,   1,   33554653) /* Setup */
-     , (31207,   3,  536870932) /* SoundTable */
-     , (31207,   6,   67108990) /* PaletteBase */
-     , (31207,   8,  100685964) /* Icon */
-     , (31207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31207,   1, 0x020000DD) /* Setup */
+     , (31207,   3, 0x20000014) /* SoundTable */
+     , (31207,   6, 0x0400007E) /* PaletteBase */
+     , (31207,   8, 0x0600588C) /* Icon */
+     , (31207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31207, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

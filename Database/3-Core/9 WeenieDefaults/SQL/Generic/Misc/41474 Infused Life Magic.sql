@@ -24,7 +24,7 @@ VALUES (41474,   1, 'Infused Life Magic') /* Name */
      , (41474,  16, 'Using this gem will remove your need to use a focus for Life Magic. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41474,   1,   33554809) /* Setup */
-     , (41474,   3,  536870932) /* SoundTable */
-     , (41474,   8,  100686474) /* Icon */
-     , (41474,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41474,   1, 0x02000179) /* Setup */
+     , (41474,   3, 0x20000014) /* SoundTable */
+     , (41474,   8, 0x06005A8A) /* Icon */
+     , (41474,  22, 0x3400002B) /* PhysicsEffectTable */;

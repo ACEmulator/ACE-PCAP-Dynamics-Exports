@@ -28,7 +28,7 @@ VALUES (48746,   1, 'Aged Legendary Key') /* Name */
      , (48746,  16, 'This key has seen better days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48746,   1,   33554784) /* Setup */
-     , (48746,   3,  536870932) /* SoundTable */
-     , (48746,   8,  100693001) /* Icon */
-     , (48746,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48746,   1, 0x02000160) /* Setup */
+     , (48746,   3, 0x20000014) /* SoundTable */
+     , (48746,   8, 0x06007409) /* Icon */
+     , (48746,  22, 0x3400002B) /* PhysicsEffectTable */;

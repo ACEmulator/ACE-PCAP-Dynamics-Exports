@@ -19,6 +19,6 @@ VALUES (35889,   1, 'Head of the Paradox-touched Olthoi Queen') /* Name */
      , (35889,  16, 'The plaque-mounted head of the Paradox-touched Olthoi Queen, given to you by Ethan Wintermaine for the slaying of said Paradox-touched Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35889,   1,   33560341) /* Setup */
-     , (35889,   3,  536870932) /* SoundTable */
-     , (35889,   8,  100689564) /* Icon */;
+VALUES (35889,   1, 0x02001715) /* Setup */
+     , (35889,   3, 0x20000014) /* SoundTable */
+     , (35889,   8, 0x0600669C) /* Icon */;

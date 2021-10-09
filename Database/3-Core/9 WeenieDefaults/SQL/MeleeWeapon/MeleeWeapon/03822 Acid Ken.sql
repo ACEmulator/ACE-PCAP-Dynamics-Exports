@@ -43,7 +43,7 @@ VALUES (3822,   1, 'Acid Ken') /* Name */
      , (3822,  16, 'Acid Ken') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3822,   1,   33555790) /* Setup */
-     , (3822,   3,  536870932) /* SoundTable */
-     , (3822,   8,  100669016) /* Icon */
-     , (3822,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3822,   1, 0x0200054E) /* Setup */
+     , (3822,   3, 0x20000014) /* SoundTable */
+     , (3822,   8, 0x06001658) /* Icon */
+     , (3822,  22, 0x3400002B) /* PhysicsEffectTable */;

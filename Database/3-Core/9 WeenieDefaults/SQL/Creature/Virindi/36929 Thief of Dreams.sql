@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36929,   1, 'Thief of Dreams') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36929,   1,   33558343) /* Setup */
-     , (36929,   2,  150994984) /* MotionTable */
-     , (36929,   3,  536870930) /* SoundTable */
-     , (36929,   6,   67114250) /* PaletteBase */
-     , (36929,   8,  100674323) /* Icon */
-     , (36929,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (36929,   1, 0x02000F47) /* Setup */
+     , (36929,   2, 0x09000028) /* MotionTable */
+     , (36929,   3, 0x20000012) /* SoundTable */
+     , (36929,   6, 0x0400150A) /* PaletteBase */
+     , (36929,   8, 0x06002B13) /* Icon */
+     , (36929,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36929, 8040, 10945014, 41.41947, -64.6665, 48.029, 0.9956732, 0, 0, 0.09292433) /* PCAPRecordedLocation */
+VALUES (36929, 8040, 0x00A701F6, 41.41947, -64.6665, 48.029, 0.995673, 0, 0, 0.092924) /* PCAPRecordedLocation */
 /* @teleloc 0x00A701F6 [41.419470 -64.666500 48.029000] 0.995673 0.000000 0.000000 0.092924 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39342,   1, 'Eyestalk of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39342,   1,   33560661) /* Setup */
-     , (39342,   2,  150995067) /* MotionTable */
-     , (39342,   3,  536871015) /* SoundTable */
-     , (39342,   8,  100671186) /* Icon */
-     , (39342,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (39342,   1, 0x02001855) /* Setup */
+     , (39342,   2, 0x0900007B) /* MotionTable */
+     , (39342,   3, 0x20000067) /* SoundTable */
+     , (39342,   8, 0x06001ED2) /* Icon */
+     , (39342,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39342, 8040, 1925775389, 95.9, 99.9, 79.64667, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (39342, 8040, 0x72C9001D, 95.9, 99.9, 79.64667, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001D [95.900000 99.900000 79.646670] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

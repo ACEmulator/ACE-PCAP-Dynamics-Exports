@@ -24,7 +24,7 @@ VALUES (51366,   1, 'Prototype Bloodstone Shard') /* Name */
      , (51366,  16, 'A small fragment from the Prototype Bloodstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51366,   1,   33561167) /* Setup */
-     , (51366,   3,  536870932) /* SoundTable */
-     , (51366,   8,  100691499) /* Icon */
-     , (51366,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51366,   1, 0x02001A4F) /* Setup */
+     , (51366,   3, 0x20000014) /* SoundTable */
+     , (51366,   8, 0x06006E2B) /* Icon */
+     , (51366,  22, 0x3400002B) /* PhysicsEffectTable */;

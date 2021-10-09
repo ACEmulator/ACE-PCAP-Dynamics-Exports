@@ -27,12 +27,12 @@ VALUES (14935,   1, 'Cottage') /* Name */
 ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14935,   1,   33557167) /* Setup */
-     , (14935,   2,  150995128) /* MotionTable */
-     , (14935,   8,  100671884) /* Icon */;
+VALUES (14935,   1, 0x02000AAF) /* Setup */
+     , (14935,   2, 0x090000B8) /* MotionTable */
+     , (14935,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14935, 8040, 1436811315, 149.012, 55.3268, 72, 0.707001, 0, 0, -0.707212) /* PCAPRecordedLocation */
+VALUES (14935, 8040, 0x55A40033, 149.012, 55.3268, 72, 0.707001, 0, 0, -0.707212) /* PCAPRecordedLocation */
 /* @teleloc 0x55A40033 [149.012000 55.326800 72.000000] 0.707001 0.000000 0.000000 -0.707212 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

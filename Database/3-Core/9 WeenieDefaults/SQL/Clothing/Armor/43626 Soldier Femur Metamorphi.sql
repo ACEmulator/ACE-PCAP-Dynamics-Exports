@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43626,   1, 'Soldier Femur Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43626,   1,   33554653) /* Setup */
-     , (43626,   3,  536870932) /* SoundTable */
-     , (43626,   6,   67108990) /* PaletteBase */
-     , (43626,   8,  100691614) /* Icon */
-     , (43626,  22,  872415275) /* PhysicsEffectTable */
-     , (43626,  52,  100691611) /* IconUnderlay */
+VALUES (43626,   1, 0x020000DD) /* Setup */
+     , (43626,   3, 0x20000014) /* SoundTable */
+     , (43626,   6, 0x0400007E) /* PaletteBase */
+     , (43626,   8, 0x06006E9E) /* Icon */
+     , (43626,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43626,  52, 0x06006E9B) /* IconUnderlay */
      , (43626, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

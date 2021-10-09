@@ -43,11 +43,11 @@ VALUES (52785,   1, 'Red Society Band') /* Name */
      , (52785,  16, 'A dark black ring set with five rubies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52785,   1,   33554691) /* Setup */
-     , (52785,   3,  536870932) /* SoundTable */
-     , (52785,   6,   67111919) /* PaletteBase */
-     , (52785,   8,  100693312) /* Icon */
-     , (52785,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52785,   1, 0x02000103) /* Setup */
+     , (52785,   3, 0x20000014) /* SoundTable */
+     , (52785,   6, 0x04000BEF) /* PaletteBase */
+     , (52785,   8, 0x06007540) /* Icon */
+     , (52785,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52785,  2666,      2)  /* EssenceGlutton */;

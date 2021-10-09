@@ -23,10 +23,10 @@ VALUES (32515,   1, 'Underminer Notes') /* Name */
      , (32515,  16, 'A letter belonging to the leader of the Underminers at the quarry near Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32515,   1,   33554773) /* Setup */
-     , (32515,   3,  536870932) /* SoundTable */
-     , (32515,   8,  100668176) /* Icon */
-     , (32515,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32515,   1, 0x02000155) /* Setup */
+     , (32515,   3, 0x20000014) /* SoundTable */
+     , (32515,   8, 0x06001310) /* Icon */
+     , (32515,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (32515, 1, 1000);

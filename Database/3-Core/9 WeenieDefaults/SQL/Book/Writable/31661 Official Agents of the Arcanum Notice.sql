@@ -24,10 +24,10 @@ VALUES (31661,   1, 'Official Agents of the Arcanum Notice') /* Name */
      , (31661,  16, 'Give this to Shanrek the Forger at Bandit Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31661,   1,   33554776) /* Setup */
-     , (31661,   3,  536870932) /* SoundTable */
-     , (31661,   8,  100667503) /* Icon */
-     , (31661,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31661,   1, 0x02000158) /* Setup */
+     , (31661,   3, 0x20000014) /* SoundTable */
+     , (31661,   8, 0x0600106F) /* Icon */
+     , (31661,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31661, 1, 1000);

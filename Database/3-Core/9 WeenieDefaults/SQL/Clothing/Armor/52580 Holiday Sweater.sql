@@ -41,14 +41,14 @@ VALUES (52580,   1, 'Holiday Sweater') /* Name */
      , (52580,  16, 'A sweater, knit with care by the Greatmother of Silyun to keep one warm during the festival season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52580,   1,   33559357) /* Setup */
-     , (52580,   3,  536870932) /* SoundTable */
-     , (52580,   8,  100693300) /* Icon */
-     , (52580,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52580,   1, 0x0200133D) /* Setup */
+     , (52580,   3, 0x20000014) /* SoundTable */
+     , (52580,   8, 0x06007534) /* Icon */
+     , (52580,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52580,  4465,      2)  /* ColdProtectionOther8 */
-     , (52580,  6055,      2)  /* CantripInvulnerability4 */
-     , (52580,  6083,      2)  /* CantripFrostWard4 */
+VALUES (52580,  6083,      2)  /* CantripFrostWard4 */
      , (52580,  6101,      2)  /* CantripWillpower4 */
-     , (52580,  6104,      2)  /* CantripEndurance4 */;
+     , (52580,  6104,      2)  /* CantripEndurance4 */
+     , (52580,  6055,      2)  /* CantripInvulnerability4 */
+     , (52580,  4465,      2)  /* ColdProtectionOther8 */;

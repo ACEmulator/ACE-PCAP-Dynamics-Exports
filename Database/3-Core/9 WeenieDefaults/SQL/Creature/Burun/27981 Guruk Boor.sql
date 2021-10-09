@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27981,   1, 'Guruk Boor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27981,   1,   33558749) /* Setup */
-     , (27981,   2,  150995298) /* MotionTable */
-     , (27981,   3,  536871093) /* SoundTable */
-     , (27981,   6,   67115196) /* PaletteBase */
-     , (27981,   8,  100676549) /* Icon */
-     , (27981,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (27981,   1, 0x020010DD) /* Setup */
+     , (27981,   2, 0x09000162) /* MotionTable */
+     , (27981,   3, 0x200000B5) /* SoundTable */
+     , (27981,   6, 0x040018BC) /* PaletteBase */
+     , (27981,   8, 0x060033C5) /* Icon */
+     , (27981,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27981, 8040, 843513920, 175.2417, 178.3522, 106.2276, 0.9063078, 0, 0, -0.4226183) /* PCAPRecordedLocation */
+VALUES (27981, 8040, 0x32470040, 175.2417, 178.3522, 106.2276, 0.906308, 0, 0, -0.422618) /* PCAPRecordedLocation */
 /* @teleloc 0x32470040 [175.241700 178.352200 106.227600] 0.906308 0.000000 0.000000 -0.422618 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

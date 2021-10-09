@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44371,   1, 'Greater Deadly Blunt Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44371,   1,   33558197) /* Setup */
-     , (44371,   3,  536870932) /* SoundTable */
-     , (44371,   8,  100674061) /* Icon */
-     , (44371,  22,  872415275) /* PhysicsEffectTable */
-     , (44371,  50,  100689661) /* IconOverlay */;
+VALUES (44371,   1, 0x02000EB5) /* Setup */
+     , (44371,   3, 0x20000014) /* SoundTable */
+     , (44371,   8, 0x06002A0D) /* Icon */
+     , (44371,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44371,  50, 0x060066FD) /* IconOverlay */;

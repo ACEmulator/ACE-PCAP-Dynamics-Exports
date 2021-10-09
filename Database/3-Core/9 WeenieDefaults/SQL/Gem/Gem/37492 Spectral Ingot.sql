@@ -23,6 +23,6 @@ VALUES (37492,   1, 'Spectral Ingot') /* Name */
      , (37492,  16, 'A ghostly ingot without much weight or substance. It causes a sensation of pins and needles in your hand, as if it were asleep.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37492,   1,   33555677) /* Setup */
-     , (37492,   8,  100689897) /* Icon */
-     , (37492,  52,  100689404) /* IconUnderlay */;
+VALUES (37492,   1, 0x020004DD) /* Setup */
+     , (37492,   8, 0x060067E9) /* Icon */
+     , (37492,  52, 0x060065FC) /* IconUnderlay */;

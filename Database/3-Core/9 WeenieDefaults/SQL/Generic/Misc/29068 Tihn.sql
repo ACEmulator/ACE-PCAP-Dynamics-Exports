@@ -21,7 +21,7 @@ VALUES (29068,   1, 'Tihn') /* Name */
      , (29068,  16, 'A componenet of some alien machine. It appears to be of Empyrean make. Consult Fiun Scorus for more information.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29068,   1,   33554769) /* Setup */
-     , (29068,   3,  536870932) /* SoundTable */
-     , (29068,   8,  100686428) /* Icon */
-     , (29068,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29068,   1, 0x02000151) /* Setup */
+     , (29068,   3, 0x20000014) /* SoundTable */
+     , (29068,   8, 0x06005A5C) /* Icon */
+     , (29068,  22, 0x3400002B) /* PhysicsEffectTable */;

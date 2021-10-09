@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49569,   1, 'Contract for Buried Alive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49569,   1,   33557625) /* Setup */
-     , (49569,   3,  536870932) /* SoundTable */
-     , (49569,   8,  100691926) /* Icon */
-     , (49569,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49569,   1, 0x02000C79) /* Setup */
+     , (49569,   3, 0x20000014) /* SoundTable */
+     , (49569,   8, 0x06006FD6) /* Icon */
+     , (49569,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49569, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

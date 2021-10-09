@@ -23,7 +23,7 @@ VALUES (20502,   1, 'Scroll of Jibril''s Blessing') /* Name */
 Increases the caster''s Armor Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20502,   1,   33554826) /* Setup */
-     , (20502,   8,  100676477) /* Icon */
-     , (20502,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20502,   1, 0x0200018A) /* Setup */
+     , (20502,   8, 0x0600337D) /* Icon */
+     , (20502,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20502,  28,       2197) /* Spell - ArmorExpertiseSelf7 */;

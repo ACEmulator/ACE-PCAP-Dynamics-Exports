@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12161,   1, 'Central Tuatara Plains Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12161,   1,   33555926) /* Setup */
-     , (12161,   2,  150994947) /* MotionTable */
-     , (12161,   8,  100667499) /* Icon */;
+VALUES (12161,   1, 0x020005D6) /* Setup */
+     , (12161,   2, 0x09000003) /* MotionTable */
+     , (12161,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12161, 8040, 1553793051, 77.605, 66.608, 30.445, 0.9652928, 0, 0, -0.26117) /* PCAPRecordedLocation */
+VALUES (12161, 8040, 0x5C9D001B, 77.605, 66.608, 30.445, 0.965293, 0, 0, -0.26117) /* PCAPRecordedLocation */
 /* @teleloc 0x5C9D001B [77.605000 66.608000 30.445000] 0.965293 0.000000 0.000000 -0.261170 */;

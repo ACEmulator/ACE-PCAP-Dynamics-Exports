@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5701,   1, 'The Story of Koji and the Dragon of Power') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5701,   1,   33556013) /* Setup */
-     , (5701,   3,  536870932) /* SoundTable */
-     , (5701,   8,  100668236) /* Icon */
-     , (5701,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5701,   1, 0x0200062D) /* Setup */
+     , (5701,   3, 0x20000014) /* SoundTable */
+     , (5701,   8, 0x0600134C) /* Icon */
+     , (5701,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5701, 8040, 3847094538, 87.635, 82.207, 12, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (5701, 8040, 0xE54E010A, 87.635, 82.207, 12, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E010A [87.635000 82.207000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

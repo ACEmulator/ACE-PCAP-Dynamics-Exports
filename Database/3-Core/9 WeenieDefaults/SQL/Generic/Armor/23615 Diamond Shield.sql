@@ -41,18 +41,18 @@ VALUES (23615,   1, 'Diamond Shield') /* Name */
      , (23615,  16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23615,   1,   33557043) /* Setup */
-     , (23615,   3,  536870932) /* SoundTable */
-     , (23615,   8,  100674092) /* Icon */
-     , (23615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23615,   1, 0x02000A33) /* Setup */
+     , (23615,   3, 0x20000014) /* SoundTable */
+     , (23615,   8, 0x06002A2C) /* Icon */
+     , (23615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23615, 8040, 3967090738, 171.7325, 188.8012, 10.87206, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (23615, 8040, 0xEC750032, 171.7325, 188.8012, 10.87206, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0xEC750032 [171.732500 188.801200 10.872060] 0.403672 0.649030 -0.537349 0.356462 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23615,   249,      2)  /* InvulnerabilitySelf6 */
-     , (23615,  1023,      2)  /* BludgeonProtectionSelf6 */
+VALUES (23615,  1485,      2)  /* Impenetrability5 */
      , (23615,  1114,      2)  /* BladeProtectionSelf6 */
      , (23615,  1138,      2)  /* PiercingProtectionSelf6 */
-     , (23615,  1485,      2)  /* Impenetrability5 */;
+     , (23615,   249,      2)  /* InvulnerabilitySelf6 */
+     , (23615,  1023,      2)  /* BludgeonProtectionSelf6 */;

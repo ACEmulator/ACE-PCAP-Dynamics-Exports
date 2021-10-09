@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35270,   1, 'Spectral Dread') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35270,   1,   33558816) /* Setup */
-     , (35270,   2,  150995302) /* MotionTable */
-     , (35270,   3,  536871094) /* SoundTable */
-     , (35270,   6,   67115251) /* PaletteBase */
-     , (35270,   8,  100676679) /* Icon */;
+VALUES (35270,   1, 0x02001120) /* Setup */
+     , (35270,   2, 0x09000166) /* MotionTable */
+     , (35270,   3, 0x200000B6) /* SoundTable */
+     , (35270,   6, 0x040018F3) /* PaletteBase */
+     , (35270,   8, 0x06003447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35270, 8040, 1210974217, 37.3667, 23.2425, 9.965875, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35270, 8040, 0x482E0009, 37.3667, 23.2425, 9.965875, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0009 [37.366700 23.242500 9.965875] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

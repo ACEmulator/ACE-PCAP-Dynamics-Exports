@@ -25,16 +25,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25864,   1, 'Stalking Margul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25864,   1,   33558554) /* Setup */
-     , (25864,   2,  150995263) /* MotionTable */
-     , (25864,   3,  536871080) /* SoundTable */
-     , (25864,   6,   67114728) /* PaletteBase */
-     , (25864,   8,  100675661) /* Icon */
-     , (25864,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25864,   1, 0x0200101A) /* Setup */
+     , (25864,   2, 0x0900013F) /* MotionTable */
+     , (25864,   3, 0x200000A8) /* SoundTable */
+     , (25864,   6, 0x040016E8) /* PaletteBase */
+     , (25864,   8, 0x0600304D) /* Icon */
+     , (25864,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25864,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25864, 8040, 218693894, 14.6451, 87.4587, 88.26763, -0.2290499, 0, 0, -0.9734147) /* PCAPRecordedLocation */
+VALUES (25864, 8040, 0x0D090106, 14.6451, 87.4587, 88.26763, -0.22905, 0, 0, -0.973415) /* PCAPRecordedLocation */
 /* @teleloc 0x0D090106 [14.645100 87.458700 88.267630] -0.229050 0.000000 0.000000 -0.973415 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

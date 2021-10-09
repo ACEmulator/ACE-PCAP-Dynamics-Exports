@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30518,   1, 'Leather Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30518,   1,   33554647) /* Setup */
-     , (30518,   3,  536870932) /* SoundTable */
-     , (30518,   6,   67108990) /* PaletteBase */
-     , (30518,   8,  100669329) /* Icon */
-     , (30518,  22,  872415275) /* PhysicsEffectTable */
-     , (30518,  52,  100686604) /* IconUnderlay */;
+VALUES (30518,   1, 0x020000D7) /* Setup */
+     , (30518,   3, 0x20000014) /* SoundTable */
+     , (30518,   6, 0x0400007E) /* PaletteBase */
+     , (30518,   8, 0x06001791) /* Icon */
+     , (30518,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30518,  52, 0x06005B0C) /* IconUnderlay */;

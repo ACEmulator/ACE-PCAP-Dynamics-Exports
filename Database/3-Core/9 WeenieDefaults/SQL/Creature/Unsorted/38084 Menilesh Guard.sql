@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38084,   1, 'Menilesh Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38084,   1,   33558541) /* Setup */
-     , (38084,   2,  150994967) /* MotionTable */
-     , (38084,   3,  536870934) /* SoundTable */
-     , (38084,   8,  100667942) /* Icon */
-     , (38084,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (38084,   1, 0x0200100D) /* Setup */
+     , (38084,   2, 0x09000017) /* MotionTable */
+     , (38084,   3, 0x20000016) /* SoundTable */
+     , (38084,   8, 0x06001226) /* Icon */
+     , (38084,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38084, 8040, 15139460, 80, -67, 48.00825, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (38084, 8040, 0x00E70284, 80, -67, 48.00825, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00E70284 [80.000000 -67.000000 48.008250] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

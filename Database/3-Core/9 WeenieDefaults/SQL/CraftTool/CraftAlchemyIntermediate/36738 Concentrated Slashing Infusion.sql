@@ -20,8 +20,8 @@ VALUES (36738,   1, 'Concentrated Slashing Infusion') /* Name */
      , (36738,  20, 'Concentrated Slashing Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36738,   1,   33555965) /* Setup */
-     , (36738,   3,  536870932) /* SoundTable */
-     , (36738,   6,   67111919) /* PaletteBase */
-     , (36738,   8,  100689711) /* Icon */
-     , (36738,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36738,   1, 0x020005FD) /* Setup */
+     , (36738,   3, 0x20000014) /* SoundTable */
+     , (36738,   6, 0x04000BEF) /* PaletteBase */
+     , (36738,   8, 0x0600672F) /* Icon */
+     , (36738,  22, 0x3400002B) /* PhysicsEffectTable */;

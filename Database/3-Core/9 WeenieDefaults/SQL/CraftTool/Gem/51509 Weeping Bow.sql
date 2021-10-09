@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51509,   1, 'Weeping Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51509,   1,   33558292) /* Setup */
-     , (51509,   3,  536870932) /* SoundTable */
-     , (51509,   8,  100674272) /* Icon */
-     , (51509,  22,  872415275) /* PhysicsEffectTable */
-     , (51509,  50,  100667895) /* IconOverlay */;
+VALUES (51509,   1, 0x02000F14) /* Setup */
+     , (51509,   3, 0x20000014) /* SoundTable */
+     , (51509,   8, 0x06002AE0) /* Icon */
+     , (51509,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51509,  50, 0x060011F7) /* IconOverlay */;

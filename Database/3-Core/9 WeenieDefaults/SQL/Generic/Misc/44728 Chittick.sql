@@ -19,5 +19,5 @@ VALUES (44728,   1, 'Chittick') /* Name */
      , (44728,  16, 'The chittick remains a creature of mystery to this day. Little has been discovered about the origin of these creatures or why they arrived on Dereth. One thing that is known, they are a threat at both a distance and close range.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44728,   1,   33561328) /* Setup */
-     , (44728,   8,  100668115) /* Icon */;
+VALUES (44728,   1, 0x02001AF0) /* Setup */
+     , (44728,   8, 0x060012D3) /* Icon */;

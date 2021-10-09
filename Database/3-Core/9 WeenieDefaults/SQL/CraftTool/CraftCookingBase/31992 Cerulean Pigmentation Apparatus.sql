@@ -25,8 +25,8 @@ VALUES (31992,   1, 'Cerulean Pigmentation Apparatus') /* Name */
      , (31992,  20, 'Cerulean Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31992,   1,   33556753) /* Setup */
-     , (31992,   3,  536870932) /* SoundTable */
-     , (31992,   6,   67111919) /* PaletteBase */
-     , (31992,   8,  100688320) /* Icon */
-     , (31992,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31992,   1, 0x02000911) /* Setup */
+     , (31992,   3, 0x20000014) /* SoundTable */
+     , (31992,   6, 0x04000BEF) /* PaletteBase */
+     , (31992,   8, 0x060061C0) /* Icon */
+     , (31992,  22, 0x3400002B) /* PhysicsEffectTable */;

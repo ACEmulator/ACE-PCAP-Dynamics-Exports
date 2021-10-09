@@ -23,7 +23,7 @@ VALUES (20400,   1, 'Scroll of Purge Life Magic Self') /* Name */
 Dispels 3-6 negative Life Magic enchantments of level 5 or lower from the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20400,   1,   33554826) /* Setup */
-     , (20400,   8,  100676935) /* Icon */
-     , (20400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20400,   1, 0x0200018A) /* Setup */
+     , (20400,   8, 0x06003547) /* Icon */
+     , (20400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20400,  28,       1984) /* Spell - DispelLifeBadSelf5 */;

@@ -27,14 +27,14 @@ VALUES (32052,   1, 'Merwart Gurglurg') /* Name */
      , (32052,   5, 'Younger Brother') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32052,   1,   33554490) /* Setup */
-     , (32052,   2,  150994953) /* MotionTable */
-     , (32052,   3,  536870959) /* SoundTable */
-     , (32052,   6,   67109310) /* PaletteBase */
-     , (32052,   8,  100667449) /* Icon */;
+VALUES (32052,   1, 0x0200003A) /* Setup */
+     , (32052,   2, 0x09000009) /* MotionTable */
+     , (32052,   3, 0x2000002F) /* SoundTable */
+     , (32052,   6, 0x040001BE) /* PaletteBase */
+     , (32052,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32052, 8040, 3387097109, 66.1132, 97.4886, 24.0055, -0.0153975, 0, 0, 0.999882) /* PCAPRecordedLocation */
+VALUES (32052, 8040, 0xC9E30015, 66.1132, 97.4886, 24.0055, -0.015398, 0, 0, 0.999882) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30015 [66.113200 97.488600 24.005500] -0.015398 0.000000 0.000000 0.999882 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

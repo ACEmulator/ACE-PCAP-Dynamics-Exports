@@ -27,14 +27,14 @@ VALUES (38970,   1, 'Carenzi Racer') /* Name */
      , (38970,   5, '(2)') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38970,   1,   33558553) /* Setup */
-     , (38970,   2,  150995133) /* MotionTable */
-     , (38970,   3,  536871035) /* SoundTable */
-     , (38970,   8,  100671754) /* Icon */
-     , (38970,  22,  872415377) /* PhysicsEffectTable */;
+VALUES (38970,   1, 0x02001019) /* Setup */
+     , (38970,   2, 0x090000BD) /* MotionTable */
+     , (38970,   3, 0x2000007B) /* SoundTable */
+     , (38970,   8, 0x0600210A) /* Icon */
+     , (38970,  22, 0x34000091) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38970, 8040, 271908916, 158.474, 86.9942, 72, 0.3826834, 0, 0, -0.9238795) /* PCAPRecordedLocation */
+VALUES (38970, 8040, 0x10350034, 158.474, 86.9942, 72, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x10350034 [158.474000 86.994200 72.000000] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

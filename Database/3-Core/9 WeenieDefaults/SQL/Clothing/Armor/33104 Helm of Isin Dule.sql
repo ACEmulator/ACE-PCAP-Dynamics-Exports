@@ -42,10 +42,10 @@ VALUES (33104,   1, 'Helm of Isin Dule') /* Name */
      , (33104,  16, 'A black, crystalline helm created by the Shadow, Isin Dule.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33104,   1,   33559922) /* Setup */
-     , (33104,   3,  536870932) /* SoundTable */
-     , (33104,   8,  100688917) /* Icon */
-     , (33104,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33104,   1, 0x02001572) /* Setup */
+     , (33104,   3, 0x20000014) /* SoundTable */
+     , (33104,   8, 0x06006415) /* Icon */
+     , (33104,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33104,  2066,      2)  /* FocusOther7 */

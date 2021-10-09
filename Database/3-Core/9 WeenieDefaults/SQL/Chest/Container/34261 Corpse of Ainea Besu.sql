@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34261,   1, 'Corpse of Ainea Besu') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34261,   1,   33554510) /* Setup */
-     , (34261,   2,  150995360) /* MotionTable */
-     , (34261,   3,  536871106) /* SoundTable */
-     , (34261,   6,   67108990) /* PaletteBase */
-     , (34261,   8,  100667504) /* Icon */
-     , (34261,  22,  872415342) /* PhysicsEffectTable */;
+VALUES (34261,   1, 0x0200004E) /* Setup */
+     , (34261,   2, 0x090001A0) /* MotionTable */
+     , (34261,   3, 0x200000C2) /* SoundTable */
+     , (34261,   6, 0x0400007E) /* PaletteBase */
+     , (34261,   8, 0x06001070) /* Icon */
+     , (34261,  22, 0x3400006E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34261, 8040, 8782763, 67.2891, -57.0488, 6.005, 0.3963309, 0, 0, -0.9181077) /* PCAPRecordedLocation */
+VALUES (34261, 8040, 0x008603AB, 67.2891, -57.0488, 6.005, 0.396331, 0, 0, -0.918108) /* PCAPRecordedLocation */
 /* @teleloc 0x008603AB [67.289100 -57.048800 6.005000] 0.396331 0.000000 0.000000 -0.918108 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

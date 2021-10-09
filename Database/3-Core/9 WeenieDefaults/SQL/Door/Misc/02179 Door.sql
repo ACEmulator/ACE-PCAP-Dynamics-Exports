@@ -22,12 +22,12 @@ VALUES (2179,   1, 'Door') /* Name */
      , (2179,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2179,   1,   33555073) /* Setup */
-     , (2179,   2,  150994966) /* MotionTable */
-     , (2179,   3,  536870946) /* SoundTable */
-     , (2179,   8,  100668183) /* Icon */
-     , (2179,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2179,   1, 0x02000281) /* Setup */
+     , (2179,   2, 0x09000016) /* MotionTable */
+     , (2179,   3, 0x20000022) /* SoundTable */
+     , (2179,   8, 0x06001317) /* Icon */
+     , (2179,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2179, 8040, 1615331892, 115.25, -110, -2.793968E-09, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (2179, 8040, 0x60480234, 115.25, -110, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x60480234 [115.250000 -110.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;

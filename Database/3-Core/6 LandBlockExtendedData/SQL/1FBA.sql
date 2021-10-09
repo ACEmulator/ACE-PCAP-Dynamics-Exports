@@ -40,7 +40,7 @@ VALUES (0x71FBA002, 11504, 0x1FBA0037, 164.9198, 157.7162, 90.005, 1, 0, 0, 0,  
 /* @teleloc 0x1FBA0037 [164.919800 157.716200 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBA003, 11493, 0x1FBA0036, 167.418, 136.9073, 90, -0.8225864, 0, 0, -0.5686402,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
+VALUES (0x71FBA003, 11493, 0x1FBA0036, 167.418, 136.9073, 90, -0.822586, 0, 0, -0.56864,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
 /* @teleloc 0x1FBA0036 [167.418000 136.907300 90.000000] -0.822586 0.000000 0.000000 -0.568640 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -56,11 +56,11 @@ VALUES (0x71FBA006, 11495, 0x1FBA001F, 91.79932, 156.5695, 91.04745, 1, 0, 0, 0,
 /* @teleloc 0x1FBA001F [91.799320 156.569500 91.047450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBA007, 11493, 0x1FBA0037, 163.5595, 147.3279, 90, -0.3707305, 0, 0, -0.9287405,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
+VALUES (0x71FBA007, 11493, 0x1FBA0037, 163.5595, 147.3279, 90, -0.370731, 0, 0, -0.928741,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
 /* @teleloc 0x1FBA0037 [163.559500 147.327900 90.000000] -0.370731 0.000000 0.000000 -0.928741 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBA008, 11493, 0x1FBA003F, 169.1772, 147.3038, 90, -0.7388486, 0, 0, -0.6738715,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
+VALUES (0x71FBA008, 11493, 0x1FBA003F, 169.1772, 147.3038, 90, -0.738849, 0, 0, -0.673872,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
 /* @teleloc 0x1FBA003F [169.177200 147.303800 90.000000] -0.738849 0.000000 0.000000 -0.673872 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -120,11 +120,11 @@ VALUES (0x71FBA016,  6382, 0x1FBA001E, 87.0566, 134.92, 90.00249, 1, 0, 0, 0,  T
 /* @teleloc 0x1FBA001E [87.056600 134.920000 90.002490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBA017,  6380, 0x1FBA001F, 73.11662, 148.3424, 90.36837, 0.1597959, 0, 0, -0.9871501,  True, '2019-02-10 00:00:00'); /* Scintilla */
+VALUES (0x71FBA017,  6380, 0x1FBA001F, 73.11662, 148.3424, 90.36837, 0.159796, 0, 0, -0.98715,  True, '2019-02-10 00:00:00'); /* Scintilla */
 /* @teleloc 0x1FBA001F [73.116620 148.342400 90.368370] 0.159796 0.000000 0.000000 -0.987150 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBA018,  6380, 0x1FBA0036, 162.5874, 141.2522, 90.0065, -0.5765668, 0, 0, -0.81705,  True, '2019-02-10 00:00:00'); /* Scintilla */
+VALUES (0x71FBA018,  6380, 0x1FBA0036, 162.5874, 141.2522, 90.0065, -0.576567, 0, 0, -0.81705,  True, '2019-02-10 00:00:00'); /* Scintilla */
 /* @teleloc 0x1FBA0036 [162.587400 141.252200 90.006500] -0.576567 0.000000 0.000000 -0.817050 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

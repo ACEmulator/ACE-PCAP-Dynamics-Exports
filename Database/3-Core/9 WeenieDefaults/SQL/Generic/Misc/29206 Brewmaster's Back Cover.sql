@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29206,   1, 'Brewmaster''s Back Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29206,   1,   33559185) /* Setup */
-     , (29206,   3,  536870932) /* SoundTable */
-     , (29206,   8,  100686467) /* Icon */
-     , (29206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29206,   1, 0x02001291) /* Setup */
+     , (29206,   3, 0x20000014) /* SoundTable */
+     , (29206,   8, 0x06005A83) /* Icon */
+     , (29206,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29206, 8040, 131488, 72.8592, -100.328, -6, -0.729213, 0, 0, 0.684287) /* PCAPRecordedLocation */
+VALUES (29206, 8040, 0x000201A0, 72.8592, -100.328, -6, -0.729213, 0, 0, 0.684287) /* PCAPRecordedLocation */
 /* @teleloc 0x000201A0 [72.859200 -100.328000 -6.000000] -0.729213 0.000000 0.000000 0.684287 */;

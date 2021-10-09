@@ -27,7 +27,7 @@ VALUES (34920,   1, 'Inactive Lockpicker''s Golem') /* Name */
      , (34920,  16, 'A stone block with empyrean engravings on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34920,   1,   33554718) /* Setup */
-     , (34920,   3,  536870932) /* SoundTable */
-     , (34920,   8,  100689354) /* Icon */
-     , (34920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34920,   1, 0x0200011E) /* Setup */
+     , (34920,   3, 0x20000014) /* SoundTable */
+     , (34920,   8, 0x060065CA) /* Icon */
+     , (34920,  22, 0x3400002B) /* PhysicsEffectTable */;

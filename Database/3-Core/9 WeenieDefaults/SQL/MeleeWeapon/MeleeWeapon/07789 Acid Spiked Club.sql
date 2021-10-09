@@ -50,14 +50,14 @@ VALUES (7789,   1, 'Acid Spiked Club') /* Name */
      , (7789,  16, 'Acid Spiked Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7789,   1,   33556671) /* Setup */
-     , (7789,   3,  536870932) /* SoundTable */
-     , (7789,   6,   67111919) /* PaletteBase */
-     , (7789,   8,  100670780) /* Icon */
-     , (7789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7789,   1, 0x020008BF) /* Setup */
+     , (7789,   3, 0x20000014) /* SoundTable */
+     , (7789,   6, 0x04000BEF) /* PaletteBase */
+     , (7789,   8, 0x06001D3C) /* Icon */
+     , (7789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7789,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7789,  1591,      2)  /* HeartSeekerSelf5 */
-     , (7789,  1604,      2)  /* DefenderSelf5 */
-     , (7789,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (7789,  1604,      2)  /* DefenderSelf5 */
+     , (7789,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (7789,  1591,      2)  /* HeartSeekerSelf5 */;

@@ -31,20 +31,20 @@ VALUES (38431,   1, 'Ian Foefinder') /* Name */
      , (38431,   5, 'Blessed Moarsman Hunt Taskmaster ') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38431,   1,   33554433) /* Setup */
-     , (38431,   2,  150994945) /* MotionTable */
-     , (38431,   3,  536870913) /* SoundTable */
-     , (38431,   6,   67108990) /* PaletteBase */
-     , (38431,   8,  100667377) /* Icon */
-     , (38431,   9,   83890479) /* EyesTexture */
-     , (38431,  10,   83890557) /* NoseTexture */
-     , (38431,  11,   83890633) /* MouthTexture */
-     , (38431,  15,   67116990) /* HairPalette */
-     , (38431,  16,   67110065) /* EyesPalette */
-     , (38431,  17,   67109560) /* SkinPalette */;
+VALUES (38431,   1, 0x02000001) /* Setup */
+     , (38431,   2, 0x09000001) /* MotionTable */
+     , (38431,   3, 0x20000001) /* SoundTable */
+     , (38431,   6, 0x0400007E) /* PaletteBase */
+     , (38431,   8, 0x06000FF1) /* Icon */
+     , (38431,   9, 0x0500112F) /* EyesTexture */
+     , (38431,  10, 0x0500117D) /* NoseTexture */
+     , (38431,  11, 0x050011C9) /* MouthTexture */
+     , (38431,  15, 0x04001FBE) /* HairPalette */
+     , (38431,  16, 0x040004B1) /* EyesPalette */
+     , (38431,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38431, 8040, 12124782, 155.936, -26.6495, -17.995, 0.0133219, 0, 0, 0.9999112) /* PCAPRecordedLocation */
+VALUES (38431, 8040, 0x00B9026E, 155.936, -26.6495, -17.995, 0.013322, 0, 0, 0.999911) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026E [155.936000 -26.649500 -17.995000] 0.013322 0.000000 0.000000 0.999911 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

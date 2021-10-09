@@ -22,14 +22,14 @@ VALUES (8517,   1, 'Alaidain''s Gem') /* Name */
      , (8517,  16, 'The words upon this gem were scribed by Her Majesty Empress Alaidain upon her return to the lighted lands. In her waning years, she entrusted this gem to the wards of Ithaenc. Only the monarchs of the Seaborne Empire may read these fateful words, spoken by the last King of Dericost as he lay dying before his throne of ice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8517,   1,   33556906) /* Setup */
-     , (8517,   3,  536870932) /* SoundTable */
-     , (8517,   6,   67111919) /* PaletteBase */
-     , (8517,   8,  100671210) /* Icon */
-     , (8517,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8517,   1, 0x020009AA) /* Setup */
+     , (8517,   3, 0x20000014) /* SoundTable */
+     , (8517,   6, 0x04000BEF) /* PaletteBase */
+     , (8517,   8, 0x06001EEA) /* Icon */
+     , (8517,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8517, 8040, 45547842, 1.924, -107.761, -36, 0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
+VALUES (8517, 8040, 0x02B70142, 1.924, -107.761, -36, 0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x02B70142 [1.924000 -107.761000 -36.000000] 0.923879 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

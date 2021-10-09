@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22829,   1, 'Blind Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22829,   1,   33558158) /* Setup */
-     , (22829,   2,  150995089) /* MotionTable */
-     , (22829,   3,  536871000) /* SoundTable */
-     , (22829,   8,  100669125) /* Icon */;
+VALUES (22829,   1, 0x02000E8E) /* Setup */
+     , (22829,   2, 0x09000091) /* MotionTable */
+     , (22829,   3, 0x20000058) /* SoundTable */
+     , (22829,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22829, 8040, 3166240807, 105.932, 148.943, 479.1762, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (22829, 8040, 0xBCB90027, 105.932, 148.943, 479.1762, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xBCB90027 [105.932000 148.943000 479.176200] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

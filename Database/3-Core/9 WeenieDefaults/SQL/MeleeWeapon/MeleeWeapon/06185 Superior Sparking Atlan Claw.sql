@@ -47,15 +47,15 @@ VALUES (6185,   1, 'Superior Sparking Atlan Claw') /* Name */
      , (6185,   8, 'Killerwolf') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6185,   1,   33556360) /* Setup */
-     , (6185,   3,  536870932) /* SoundTable */
-     , (6185,   8,  100670531) /* Icon */
-     , (6185,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6185,   1, 0x02000788) /* Setup */
+     , (6185,   3, 0x20000014) /* SoundTable */
+     , (6185,   8, 0x06001C43) /* Icon */
+     , (6185,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6185,  1069,      2)  /* LightningProtectionSelf4 */
+VALUES (6185,  1603,      2)  /* DefenderSelf4 */
      , (6185,  1352,      2)  /* EnduranceSelf4 */
-     , (6185,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6185,  1603,      2)  /* DefenderSelf4 */
      , (6185,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6185,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6185,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6185,  1069,      2)  /* LightningProtectionSelf4 */
+     , (6185,  1590,      2)  /* HeartSeekerSelf4 */;

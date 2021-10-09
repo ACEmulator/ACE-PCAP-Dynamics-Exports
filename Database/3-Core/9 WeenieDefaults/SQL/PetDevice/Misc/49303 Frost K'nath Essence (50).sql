@@ -38,10 +38,10 @@ VALUES (49303,   1, 'Frost K''nath Essence (50)') /* Name */
      , (49303,  14, 'Use this essence to summon or dismiss your Frost K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49303,   1,   33554817) /* Setup */
-     , (49303,   3,  536870932) /* SoundTable */
-     , (49303,   6,   67111919) /* PaletteBase */
-     , (49303,   8,  100693042) /* Icon */
-     , (49303,  22,  872415275) /* PhysicsEffectTable */
-     , (49303,  50,  100693026) /* IconOverlay */
-     , (49303,  52,  100693024) /* IconUnderlay */;
+VALUES (49303,   1, 0x02000181) /* Setup */
+     , (49303,   3, 0x20000014) /* SoundTable */
+     , (49303,   6, 0x04000BEF) /* PaletteBase */
+     , (49303,   8, 0x06007432) /* Icon */
+     , (49303,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49303,  50, 0x06007422) /* IconOverlay */
+     , (49303,  52, 0x06007420) /* IconUnderlay */;

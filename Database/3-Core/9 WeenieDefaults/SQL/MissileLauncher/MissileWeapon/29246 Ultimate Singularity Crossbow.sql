@@ -53,20 +53,20 @@ VALUES (29246,   1, 'Ultimate Singularity Crossbow') /* Name */
      , (29246,  16, 'Blunt Crossbow of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29246,   1,   33557313) /* Setup */
-     , (29246,   3,  536870932) /* SoundTable */
-     , (29246,   6,   67111919) /* PaletteBase */
-     , (29246,   8,  100672049) /* Icon */
-     , (29246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29246,   1, 0x02000B41) /* Setup */
+     , (29246,   3, 0x20000014) /* SoundTable */
+     , (29246,   6, 0x04000BEF) /* PaletteBase */
+     , (29246,   8, 0x06002231) /* Icon */
+     , (29246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29246,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29246,  52,  100676442) /* IconUnderlay */;
+     , (29246,  52, 0x0600335A) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29246, 8040, 1692860438, 107.103, 86.64, 58.271, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (29246, 8040, 0x64E70016, 107.103, 86.64, 58.271, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64E70016 [107.103000 86.640000 58.271000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29246,  2087,      2)  /* StrengthSelf7 */
+     , (29246,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
      , (29246,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29246,  2101,      2)  /* DefenderSelf7 */
-     , (29246,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;
+     , (29246,  2101,      2)  /* DefenderSelf7 */;

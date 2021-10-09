@@ -27,15 +27,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27899,   1, 'Bleeargh, Mosswart Swamp Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27899,   1,   33557327) /* Setup */
-     , (27899,   2,  150994953) /* MotionTable */
-     , (27899,   3,  536870959) /* SoundTable */
-     , (27899,   6,   67113400) /* PaletteBase */
-     , (27899,   8,  100667449) /* Icon */
-     , (27899,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (27899,   1, 0x02000B4F) /* Setup */
+     , (27899,   2, 0x09000009) /* MotionTable */
+     , (27899,   3, 0x2000002F) /* SoundTable */
+     , (27899,   6, 0x040011B8) /* PaletteBase */
+     , (27899,   8, 0x06001039) /* Icon */
+     , (27899,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27899, 8040, 3027238955, 137.661, 70.5894, 42.0066, -0.338237, 0, 0, -0.941061) /* PCAPRecordedLocation */
+VALUES (27899, 8040, 0xB470002B, 137.661, 70.5894, 42.0066, -0.338237, 0, 0, -0.941061) /* PCAPRecordedLocation */
 /* @teleloc 0xB470002B [137.661000 70.589400 42.006600] -0.338237 0.000000 0.000000 -0.941061 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35615,   1, 'Blessed Spear of the Mosswart Gods') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35615,   1,   33556901) /* Setup */
-     , (35615,   3,  536870932) /* SoundTable */
-     , (35615,   6,   67111919) /* PaletteBase */
-     , (35615,   8,  100671208) /* Icon */
-     , (35615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35615,   1, 0x020009A5) /* Setup */
+     , (35615,   3, 0x20000014) /* SoundTable */
+     , (35615,   6, 0x04000BEF) /* PaletteBase */
+     , (35615,   8, 0x06001EE8) /* Icon */
+     , (35615,  22, 0x3400002B) /* PhysicsEffectTable */;

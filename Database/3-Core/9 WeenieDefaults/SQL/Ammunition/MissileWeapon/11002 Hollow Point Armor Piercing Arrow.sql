@@ -26,11 +26,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11002,   1, 'Hollow Point Armor Piercing Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11002,   1,   33554724) /* Setup */
-     , (11002,   3,  536870932) /* SoundTable */
-     , (11002,   8,  100667622) /* Icon */
-     , (11002,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11002,   1, 0x02000124) /* Setup */
+     , (11002,   3, 0x20000014) /* SoundTable */
+     , (11002,   8, 0x060010E6) /* Icon */
+     , (11002,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11002, 8040, 549060641, 104.0436, 6.465544, 89.9305, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (11002, 8040, 0x20BA0021, 104.0436, 6.465544, 89.9305, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x20BA0021 [104.043600 6.465544 89.930500] 0.707107 0.707107 0.000000 0.000000 */;

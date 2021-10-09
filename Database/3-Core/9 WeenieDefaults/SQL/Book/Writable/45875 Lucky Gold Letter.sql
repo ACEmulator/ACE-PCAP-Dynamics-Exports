@@ -21,10 +21,10 @@ VALUES (45875,   1, 'Lucky Gold Letter') /* Name */
      , (45875,  15, 'A bright gold piece of paper with some writing on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45875,   1,   33556918) /* Setup */
-     , (45875,   3,  536870932) /* SoundTable */
-     , (45875,   8,  100671215) /* Icon */
-     , (45875,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45875,   1, 0x020009B6) /* Setup */
+     , (45875,   3, 0x20000014) /* SoundTable */
+     , (45875,   8, 0x06001EEF) /* Icon */
+     , (45875,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (45875, 1, 1000);

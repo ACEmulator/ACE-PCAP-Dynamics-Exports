@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15885,   1, 'Bronze Quintessence Sickle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15885,   1,   33557067) /* Setup */
-     , (15885,   3,  536870932) /* SoundTable */
-     , (15885,   6,   67111919) /* PaletteBase */
-     , (15885,   8,  100671670) /* Icon */
-     , (15885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15885,   1, 0x02000A4B) /* Setup */
+     , (15885,   3, 0x20000014) /* SoundTable */
+     , (15885,   6, 0x04000BEF) /* PaletteBase */
+     , (15885,   8, 0x060020B6) /* Icon */
+     , (15885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15885,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15885, 8040, 3465871405, 136.375, 96.42433, 19.929, -0.1269481, -0.1269481, -0.6956179, -0.6956179) /* PCAPRecordedLocation */
+VALUES (15885, 8040, 0xCE95002D, 136.375, 96.42433, 19.929, -0.126948, -0.126948, -0.695618, -0.695618) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [136.375000 96.424330 19.929000] -0.126948 -0.126948 -0.695618 -0.695618 */;

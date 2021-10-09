@@ -45,12 +45,12 @@ VALUES (3906,   1, 'Lightning War Hammer') /* Name */
      , (3906,  16, 'Lightning War Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906,   1,   33555829) /* Setup */
-     , (3906,   3,  536870932) /* SoundTable */
-     , (3906,   8,  100669074) /* Icon */
-     , (3906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3906,   1, 0x02000575) /* Setup */
+     , (3906,   3, 0x20000014) /* SoundTable */
+     , (3906,   8, 0x06001692) /* Icon */
+     , (3906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3906,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3906,  1590,      2)  /* HeartSeekerSelf4 */
-     , (3906,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (3906,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (3906,  1590,      2)  /* HeartSeekerSelf4 */;

@@ -37,12 +37,12 @@ VALUES (45535,   1, 'Academy Knife') /* Name */
      , (45535,  15, 'An enhanced knife crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45535,   1,   33554745) /* Setup */
-     , (45535,   3,  536870932) /* SoundTable */
-     , (45535,   6,   67111919) /* PaletteBase */
-     , (45535,   8,  100668947) /* Icon */
-     , (45535,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45535,   1, 0x02000139) /* Setup */
+     , (45535,   3, 0x20000014) /* SoundTable */
+     , (45535,   6, 0x04000BEF) /* PaletteBase */
+     , (45535,   8, 0x06001613) /* Icon */
+     , (45535,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45535, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (45535, 8040, 0x00070145, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;

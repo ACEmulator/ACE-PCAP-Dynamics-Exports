@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48602,   1, 'Frigid Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48602,   1,   33559304) /* Setup */
-     , (48602,   3,  536870932) /* SoundTable */
-     , (48602,   8,  100686574) /* Icon */
-     , (48602,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48602,   1, 0x02001308) /* Setup */
+     , (48602,   3, 0x20000014) /* SoundTable */
+     , (48602,   8, 0x06005AEE) /* Icon */
+     , (48602,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48602, 8040, 32179032, 100.0134, -19.9741, -0.05339998, -0.4839354, -0.4839354, -0.5155643, -0.5155643) /* PCAPRecordedLocation */
+VALUES (48602, 8040, 0x01EB0358, 100.0134, -19.9741, -0.0534, -0.483935, -0.483935, -0.515564, -0.515564) /* PCAPRecordedLocation */
 /* @teleloc 0x01EB0358 [100.013400 -19.974100 -0.053400] -0.483935 -0.483935 -0.515564 -0.515564 */;

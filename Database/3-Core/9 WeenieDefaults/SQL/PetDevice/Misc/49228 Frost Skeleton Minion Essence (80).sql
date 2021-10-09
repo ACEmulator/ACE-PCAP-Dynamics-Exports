@@ -36,10 +36,10 @@ VALUES (49228,   1, 'Frost Skeleton Minion Essence (80)') /* Name */
      , (49228,  14, 'Use this essence to summon or dismiss your Frost Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49228,   1,   33554817) /* Setup */
-     , (49228,   3,  536870932) /* SoundTable */
-     , (49228,   6,   67111919) /* PaletteBase */
-     , (49228,   8,  100669124) /* Icon */
-     , (49228,  22,  872415275) /* PhysicsEffectTable */
-     , (49228,  50,  100693027) /* IconOverlay */
-     , (49228,  52,  100693024) /* IconUnderlay */;
+VALUES (49228,   1, 0x02000181) /* Setup */
+     , (49228,   3, 0x20000014) /* SoundTable */
+     , (49228,   6, 0x04000BEF) /* PaletteBase */
+     , (49228,   8, 0x060016C4) /* Icon */
+     , (49228,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49228,  50, 0x06007423) /* IconOverlay */
+     , (49228,  52, 0x06007420) /* IconUnderlay */;

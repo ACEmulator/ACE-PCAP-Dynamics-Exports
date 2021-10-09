@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31974,   1, 'Causeway Sentinel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31974,   1,   33559702) /* Setup */
-     , (31974,   2,  150995344) /* MotionTable */
-     , (31974,   3,  536870933) /* SoundTable */
-     , (31974,   8,  100667940) /* Icon */
-     , (31974,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (31974,   1, 0x02001496) /* Setup */
+     , (31974,   2, 0x09000190) /* MotionTable */
+     , (31974,   3, 0x20000015) /* SoundTable */
+     , (31974,   8, 0x06001224) /* Icon */
+     , (31974,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31974, 8040, 15728962, 20, -126.581, 0.00999999, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (31974, 8040, 0x00F00142, 20, -126.581, 0.01, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00F00142 [20.000000 -126.581000 0.010000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -25,15 +25,15 @@ VALUES (38943,   1, 'Chief Grogbash') /* Name */
      , (38943,   5, 'Monster Fighter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38943,   1,   33558024) /* Setup */
-     , (38943,   2,  150994951) /* MotionTable */
-     , (38943,   3,  536870917) /* SoundTable */
-     , (38943,   6,   67114021) /* PaletteBase */
-     , (38943,   8,  100667453) /* Icon */
-     , (38943,  22,  872415255) /* PhysicsEffectTable */;
+VALUES (38943,   1, 0x02000E08) /* Setup */
+     , (38943,   2, 0x09000007) /* MotionTable */
+     , (38943,   3, 0x20000005) /* SoundTable */
+     , (38943,   6, 0x04001425) /* PaletteBase */
+     , (38943,   8, 0x0600103D) /* Icon */
+     , (38943,  22, 0x34000017) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38943, 8040, 869924901, 113, 113, 60.00825, -0.3826834, 0, 0, -0.9238796) /* PCAPRecordedLocation */
+VALUES (38943, 8040, 0x33DA0025, 113, 113, 60.00825, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA0025 [113.000000 113.000000 60.008250] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

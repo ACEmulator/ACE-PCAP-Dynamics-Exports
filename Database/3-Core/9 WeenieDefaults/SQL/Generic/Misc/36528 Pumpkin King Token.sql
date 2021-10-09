@@ -21,7 +21,7 @@ VALUES (36528,   1, 'Pumpkin King Token') /* Name */
      , (36528,  16, 'Give this to the Master Arbitrator for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36528,   1,   33554817) /* Setup */
-     , (36528,   3,  536870932) /* SoundTable */
-     , (36528,   8,  100689379) /* Icon */
-     , (36528,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36528,   1, 0x02000181) /* Setup */
+     , (36528,   3, 0x20000014) /* SoundTable */
+     , (36528,   8, 0x060065E3) /* Icon */
+     , (36528,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19188,   1, 'Stonerune Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19188,   1,   33557463) /* Setup */
-     , (19188,   8,  100668115) /* Icon */;
+VALUES (19188,   1, 0x02000BD7) /* Setup */
+     , (19188,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19188, 8040, 2311651347, 63.7003, 68.181, 104.7468, 0.172455, 0, 0, -0.985017) /* PCAPRecordedLocation */
+VALUES (19188, 8040, 0x89C90013, 63.7003, 68.181, 104.7468, 0.172455, 0, 0, -0.985017) /* PCAPRecordedLocation */
 /* @teleloc 0x89C90013 [63.700300 68.181000 104.746800] 0.172455 0.000000 0.000000 -0.985017 */;

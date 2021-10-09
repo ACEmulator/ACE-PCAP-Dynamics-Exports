@@ -17,11 +17,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36073,   1, 'Reflection of Sang Nen-Kai') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36073,   1,   33556769) /* Setup */
-     , (36073,   3,  536870932) /* SoundTable */
-     , (36073,   8,  100689641) /* Icon */
-     , (36073,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36073,   1, 0x02000921) /* Setup */
+     , (36073,   3, 0x20000014) /* SoundTable */
+     , (36073,   8, 0x060066E9) /* Icon */
+     , (36073,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36073, 8040, 10682822, 223.1042, -139.0684, -12.001, 0.9502546, 0, 0, -0.3114742) /* PCAPRecordedLocation */
+VALUES (36073, 8040, 0x00A301C6, 223.1042, -139.0684, -12.001, 0.950255, 0, 0, -0.311474) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301C6 [223.104200 -139.068400 -12.001000] 0.950255 0.000000 0.000000 -0.311474 */;

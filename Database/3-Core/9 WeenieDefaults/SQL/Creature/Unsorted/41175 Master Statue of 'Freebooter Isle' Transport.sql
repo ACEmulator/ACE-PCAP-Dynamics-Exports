@@ -26,12 +26,12 @@ VALUES (41175,   1, 'Master Statue of ''Freebooter Isle'' Transport') /* Name */
      , (41175,  16, 'A statue that transports those who are Masters of their Society to the Ruins of Degar''Alesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41175,   1,   33560834) /* Setup */
-     , (41175,   2,  150995147) /* MotionTable */
-     , (41175,   3,  536871017) /* SoundTable */
-     , (41175,   8,  100675780) /* Icon */
-     , (41175,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (41175,   1, 0x02001902) /* Setup */
+     , (41175,   2, 0x090000CB) /* MotionTable */
+     , (41175,   3, 0x20000069) /* SoundTable */
+     , (41175,   8, 0x060030C4) /* Icon */
+     , (41175,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41175, 8040, 11993749, 112.226, -34.478, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (41175, 8040, 0x00B70295, 112.226, -34.478, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B70295 [112.226000 -34.478000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

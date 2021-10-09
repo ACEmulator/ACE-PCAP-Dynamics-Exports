@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20955,   1, 'Gaerlan''s Diary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20955,   1,   33556929) /* Setup */
-     , (20955,   3,  536870932) /* SoundTable */
-     , (20955,   8,  100673197) /* Icon */
-     , (20955,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20955,   1, 0x020009C1) /* Setup */
+     , (20955,   3, 0x20000014) /* SoundTable */
+     , (20955,   8, 0x060026AD) /* Icon */
+     , (20955,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20955, 8040, 1449132298, 162.12, -72.65132, -29.93046, 0.183057, 0, 0, -0.9831023) /* PCAPRecordedLocation */
+VALUES (20955, 8040, 0x5660010A, 162.12, -72.65132, -29.93046, 0.183057, 0, 0, -0.983102) /* PCAPRecordedLocation */
 /* @teleloc 0x5660010A [162.120000 -72.651320 -29.930460] 0.183057 0.000000 0.000000 -0.983102 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

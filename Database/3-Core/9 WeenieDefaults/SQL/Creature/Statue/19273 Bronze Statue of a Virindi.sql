@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19273,   1, 'Bronze Statue of a Virindi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19273,   1,   33556982) /* Setup */
-     , (19273,   2,  150995192) /* MotionTable */
-     , (19273,   3,  536871052) /* SoundTable */
-     , (19273,   6,   67111346) /* PaletteBase */
-     , (19273,   8,  100667943) /* Icon */
-     , (19273,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (19273,   1, 0x020009F6) /* Setup */
+     , (19273,   2, 0x090000F8) /* MotionTable */
+     , (19273,   3, 0x2000008C) /* SoundTable */
+     , (19273,   6, 0x040009B2) /* PaletteBase */
+     , (19273,   8, 0x06001227) /* Icon */
+     , (19273,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19273, 8040, 1414988175, 109.945, -58.9008, 0.05799997, -0.9999647, 0, 0, 0.008408037) /* PCAPRecordedLocation */
+VALUES (19273, 8040, 0x5457018F, 109.945, -58.9008, 0.058, -0.999965, 0, 0, 0.008408) /* PCAPRecordedLocation */
 /* @teleloc 0x5457018F [109.945000 -58.900800 0.058000] -0.999965 0.000000 0.000000 0.008408 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

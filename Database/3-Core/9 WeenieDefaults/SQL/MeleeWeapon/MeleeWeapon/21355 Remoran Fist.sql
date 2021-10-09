@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21355,   1, 'Remoran Fist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21355,   1,   33559743) /* Setup */
-     , (21355,   3,  536870932) /* SoundTable */
-     , (21355,   6,   67116726) /* PaletteBase */
-     , (21355,   8,  100688309) /* Icon */
-     , (21355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21355,   1, 0x020014BF) /* Setup */
+     , (21355,   3, 0x20000014) /* SoundTable */
+     , (21355,   6, 0x04001EB6) /* PaletteBase */
+     , (21355,   8, 0x060061B5) /* Icon */
+     , (21355,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21355, 8040, 946339864, 69.9406, 171.5199, 43.46352, -0.6751691, -0.6751691, -0.2101113, -0.2101113) /* PCAPRecordedLocation */
+VALUES (21355, 8040, 0x38680018, 69.9406, 171.5199, 43.46352, -0.675169, -0.675169, -0.210111, -0.210111) /* PCAPRecordedLocation */
 /* @teleloc 0x38680018 [69.940600 171.519900 43.463520] -0.675169 -0.675169 -0.210111 -0.210111 */;

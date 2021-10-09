@@ -22,7 +22,7 @@ VALUES (31309,   1, 'Darling''s Collar') /* Name */
      , (31309,  16, 'Darling XIII - Property of Xsao Lann') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31309,   1,   33559602) /* Setup */
-     , (31309,   3,  536870932) /* SoundTable */
-     , (31309,   8,  100687915) /* Icon */
-     , (31309,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31309,   1, 0x02001432) /* Setup */
+     , (31309,   3, 0x20000014) /* SoundTable */
+     , (31309,   8, 0x0600602B) /* Icon */
+     , (31309,  22, 0x3400002B) /* PhysicsEffectTable */;

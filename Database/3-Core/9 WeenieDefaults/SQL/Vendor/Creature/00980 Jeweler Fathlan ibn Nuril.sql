@@ -34,20 +34,20 @@ VALUES (980,   1, 'Jeweler Fathlan ibn Nuril') /* Name */
      , (980,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (980,   1,   33554433) /* Setup */
-     , (980,   2,  150994945) /* MotionTable */
-     , (980,   3,  536870913) /* SoundTable */
-     , (980,   6,   67108990) /* PaletteBase */
-     , (980,   8,  100667446) /* Icon */
-     , (980,   9,   83890487) /* EyesTexture */
-     , (980,  10,   83890555) /* NoseTexture */
-     , (980,  11,   83890620) /* MouthTexture */
-     , (980,  15,   67117002) /* HairPalette */
-     , (980,  16,   67109567) /* EyesPalette */
-     , (980,  17,   67109557) /* SkinPalette */;
+VALUES (980,   1, 0x02000001) /* Setup */
+     , (980,   2, 0x09000001) /* MotionTable */
+     , (980,   3, 0x20000001) /* SoundTable */
+     , (980,   6, 0x0400007E) /* PaletteBase */
+     , (980,   8, 0x06001036) /* Icon */
+     , (980,   9, 0x05001137) /* EyesTexture */
+     , (980,  10, 0x0500117B) /* NoseTexture */
+     , (980,  11, 0x050011BC) /* MouthTexture */
+     , (980,  15, 0x04001FCA) /* HairPalette */
+     , (980,  16, 0x040002BF) /* EyesPalette */
+     , (980,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (980, 8040, 2541420806, 160.08, 188.64, 0.004999995, 0.243615, 0, 0, -0.969872) /* PCAPRecordedLocation */
+VALUES (980, 8040, 0x977B0106, 160.08, 188.64, 0.005, 0.243615, 0, 0, -0.969872) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0106 [160.080000 188.640000 0.005000] 0.243615 0.000000 0.000000 -0.969872 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

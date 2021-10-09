@@ -26,21 +26,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27427,   1, 'Shadow Nightmare Leader') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27427,   1,   33556251) /* Setup */
-     , (27427,   2,  150995091) /* MotionTable */
-     , (27427,   3,  536870914) /* SoundTable */
-     , (27427,   6,   67108990) /* PaletteBase */
-     , (27427,   8,  100670398) /* Icon */
-     , (27427,   9,   83890258) /* EyesTexture */
-     , (27427,  10,   83890291) /* NoseTexture */
-     , (27427,  11,   83890328) /* MouthTexture */
-     , (27427,  15,   67116993) /* HairPalette */
-     , (27427,  16,   67109566) /* EyesPalette */
-     , (27427,  17,   67109559) /* SkinPalette */
-     , (27427,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (27427,   1, 0x0200071B) /* Setup */
+     , (27427,   2, 0x09000093) /* MotionTable */
+     , (27427,   3, 0x20000002) /* SoundTable */
+     , (27427,   6, 0x0400007E) /* PaletteBase */
+     , (27427,   8, 0x06001BBE) /* Icon */
+     , (27427,   9, 0x05001052) /* EyesTexture */
+     , (27427,  10, 0x05001073) /* NoseTexture */
+     , (27427,  11, 0x05001098) /* MouthTexture */
+     , (27427,  15, 0x04001FC1) /* HairPalette */
+     , (27427,  16, 0x040002BE) /* EyesPalette */
+     , (27427,  17, 0x040002B7) /* SkinPalette */
+     , (27427,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27427, 8040, 522846217, 42.7107, 18.8605, 148.0055, -0.403993, 0, 0, -0.914762) /* PCAPRecordedLocation */
+VALUES (27427, 8040, 0x1F2A0009, 42.7107, 18.8605, 148.0055, -0.403993, 0, 0, -0.914762) /* PCAPRecordedLocation */
 /* @teleloc 0x1F2A0009 [42.710700 18.860500 148.005500] -0.403993 0.000000 0.000000 -0.914762 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

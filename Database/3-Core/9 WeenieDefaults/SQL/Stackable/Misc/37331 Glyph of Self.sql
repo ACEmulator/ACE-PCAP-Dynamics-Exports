@@ -19,9 +19,9 @@ VALUES (37331,   1, 'Glyph of Self') /* Name */
      , (37331,  20, 'Glyphs of Self') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37331,   1,   33554809) /* Setup */
-     , (37331,   3,  536870932) /* SoundTable */
-     , (37331,   6,   67111919) /* PaletteBase */
-     , (37331,   8,  100690191) /* Icon */
-     , (37331,  22,  872415275) /* PhysicsEffectTable */
-     , (37331,  50,  100686682) /* IconOverlay */;
+VALUES (37331,   1, 0x02000179) /* Setup */
+     , (37331,   3, 0x20000014) /* SoundTable */
+     , (37331,   6, 0x04000BEF) /* PaletteBase */
+     , (37331,   8, 0x0600690F) /* Icon */
+     , (37331,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37331,  50, 0x06005B5A) /* IconOverlay */;

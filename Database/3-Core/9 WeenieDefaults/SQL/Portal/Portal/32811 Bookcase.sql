@@ -21,9 +21,9 @@ VALUES (32811,   1, 'Bookcase') /* Name */
      , (32811,  16, 'A simple bookcase.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32811,   1,   33554819) /* Setup */
-     , (32811,   8,  100668246) /* Icon */;
+VALUES (32811,   1, 0x02000183) /* Setup */
+     , (32811,   8, 0x06001356) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32811, 8040, 2471166455, 98.8399, 30.3864, -19.6, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (32811, 8040, 0x934B01F7, 98.8399, 30.3864, -19.6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x934B01F7 [98.839900 30.386400 -19.600000] 0.000000 0.000000 0.000000 -1.000000 */;

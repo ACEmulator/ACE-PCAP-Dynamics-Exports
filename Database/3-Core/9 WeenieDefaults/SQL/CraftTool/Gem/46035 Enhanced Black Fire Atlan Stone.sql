@@ -26,8 +26,8 @@ VALUES (46035,   1, 'Enhanced Black Fire Atlan Stone') /* Name */
      , (46035,  14, 'Use this stone on a Blackfire Atlan or Blackfire Isparian weapon or on a piece of Blackfire Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46035,   1,   33556407) /* Setup */
-     , (46035,   3,  536870932) /* SoundTable */
-     , (46035,   6,   67111919) /* PaletteBase */
-     , (46035,   8,  100670494) /* Icon */
-     , (46035,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46035,   1, 0x020007B7) /* Setup */
+     , (46035,   3, 0x20000014) /* SoundTable */
+     , (46035,   6, 0x04000BEF) /* PaletteBase */
+     , (46035,   8, 0x06001C1E) /* Icon */
+     , (46035,  22, 0x3400002B) /* PhysicsEffectTable */;

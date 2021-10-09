@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7934,   1, 'Golem Sanctum Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7934,   1,   33555926) /* Setup */
-     , (7934,   2,  150994947) /* MotionTable */
-     , (7934,   8,  100667499) /* Icon */;
+VALUES (7934,   1, 0x020005D6) /* Setup */
+     , (7934,   2, 0x09000003) /* MotionTable */
+     , (7934,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7934, 8040, 2476408835, 6.81813, 61.97723, 133.3007, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (7934, 8040, 0x939B0003, 6.81813, 61.97723, 133.3007, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0x939B0003 [6.818130 61.977230 133.300700] 0.953717 0.000000 0.000000 -0.300706 */;

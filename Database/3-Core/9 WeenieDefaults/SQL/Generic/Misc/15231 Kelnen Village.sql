@@ -18,9 +18,9 @@ VALUES (15231,   1, 'Kelnen Village') /* Name */
      , (15231,  16, 'Welcome to Kelnen Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15231,   1,   33557463) /* Setup */
-     , (15231,   8,  100668115) /* Icon */;
+VALUES (15231,   1, 0x02000BD7) /* Setup */
+     , (15231,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15231, 8040, 3007643669, 70.0186, 99.7284, 25.83488, 0.628122, 0, 0, 0.778115) /* PCAPRecordedLocation */
+VALUES (15231, 8040, 0xB3450015, 70.0186, 99.7284, 25.83488, 0.628122, 0, 0, 0.778115) /* PCAPRecordedLocation */
 /* @teleloc 0xB3450015 [70.018600 99.728400 25.834880] 0.628122 0.000000 0.000000 0.778115 */;

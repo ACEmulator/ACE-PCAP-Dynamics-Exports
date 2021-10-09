@@ -22,11 +22,11 @@ VALUES (43523,   1, 'Light Falatacot Token of the Aura of Specialization Mastery
      , (43523,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43523,   1,   33557280) /* Setup */
-     , (43523,   3,  536870932) /* SoundTable */
-     , (43523,   8,  100691592) /* Icon */
-     , (43523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43523,   1, 0x02000B20) /* Setup */
+     , (43523,   3, 0x20000014) /* SoundTable */
+     , (43523,   8, 0x06006E88) /* Icon */
+     , (43523,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43523, 8040, 4095213842, 32.8561, 17.081, 170.8417, 0.01774019, 0, 0, 0.9998426) /* PCAPRecordedLocation */
+VALUES (43523, 8040, 0xF4180112, 32.8561, 17.081, 170.8417, 0.01774, 0, 0, 0.999843) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180112 [32.856100 17.081000 170.841700] 0.017740 0.000000 0.000000 0.999843 */;

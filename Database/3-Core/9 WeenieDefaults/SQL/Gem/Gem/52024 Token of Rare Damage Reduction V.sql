@@ -22,11 +22,11 @@ VALUES (52024,   1, 'Token of Rare Damage Reduction V') /* Name */
      , (52024,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52024,   1,   33557280) /* Setup */
-     , (52024,   3,  536870932) /* SoundTable */
-     , (52024,   8,  100691592) /* Icon */
-     , (52024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52024,   1, 0x02000B20) /* Setup */
+     , (52024,   3, 0x20000014) /* SoundTable */
+     , (52024,   8, 0x06006E88) /* Icon */
+     , (52024,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52024, 8040, 3600351238, 4.71251, 135.874, 375.653, -0.0235162, 0, 0, -0.999723) /* PCAPRecordedLocation */
+VALUES (52024, 8040, 0xD6990006, 4.71251, 135.874, 375.653, -0.023516, 0, 0, -0.999723) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990006 [4.712510 135.874000 375.653000] -0.023516 0.000000 0.000000 -0.999723 */;

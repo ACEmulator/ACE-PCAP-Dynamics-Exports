@@ -20,10 +20,10 @@ VALUES (4044,   1, 'Destroyed Stonehold Portal') /* Name */
      , (4044,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4044,   1,   33561060) /* Setup */
-     , (4044,   2,  150995314) /* MotionTable */
-     , (4044,   8,  100667499) /* Icon */;
+VALUES (4044,   1, 0x020019E4) /* Setup */
+     , (4044,   2, 0x09000172) /* MotionTable */
+     , (4044,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4044, 8040, 1558839358, 182.162, 139.079, 14.61034, -0.2778611, 0, 0, 0.9606213) /* PCAPRecordedLocation */
+VALUES (4044, 8040, 0x5CEA003E, 182.162, 139.079, 14.61034, -0.277861, 0, 0, 0.960621) /* PCAPRecordedLocation */
 /* @teleloc 0x5CEA003E [182.162000 139.079000 14.610340] -0.277861 0.000000 0.000000 0.960621 */;

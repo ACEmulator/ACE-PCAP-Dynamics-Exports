@@ -39,11 +39,11 @@ VALUES (8204,   1, 'King''s Helm') /* Name */
      , (8204,  16, 'A finely crafted mask with the features of the legendary high king Pwyll upon it. It is a testament to the skill of its maker -- the features almost look life-like, and it is a comfortable fit on your head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8204,   1,   33556860) /* Setup */
-     , (8204,   3,  536870932) /* SoundTable */
-     , (8204,   8,  100671132) /* Icon */
-     , (8204,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8204,   1, 0x0200097C) /* Setup */
+     , (8204,   3, 0x20000014) /* SoundTable */
+     , (8204,   8, 0x06001E9C) /* Icon */
+     , (8204,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8204,   247,      2)  /* InvulnerabilitySelf4 */
-     , (8204,   325,      2)  /* FinesseWeaponsMasterySelf4 */;
+VALUES (8204,   325,      2)  /* FinesseWeaponsMasterySelf4 */
+     , (8204,   247,      2)  /* InvulnerabilitySelf4 */;

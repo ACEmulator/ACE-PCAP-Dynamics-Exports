@@ -26,7 +26,7 @@ VALUES (35309,   1, 'Tanada Gate Medallion') /* Name */
      , (35309,  15, 'This medallion once belonged to a member of the Tanada clan of Nanjou Shou-Jen.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35309,   1,   33554688) /* Setup */
-     , (35309,   3,  536870932) /* SoundTable */
-     , (35309,   8,  100689464) /* Icon */
-     , (35309,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35309,   1, 0x02000100) /* Setup */
+     , (35309,   3, 0x20000014) /* SoundTable */
+     , (35309,   8, 0x06006638) /* Icon */
+     , (35309,  22, 0x3400002B) /* PhysicsEffectTable */;

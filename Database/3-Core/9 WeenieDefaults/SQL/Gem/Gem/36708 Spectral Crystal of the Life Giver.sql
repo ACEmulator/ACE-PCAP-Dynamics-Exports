@@ -34,10 +34,10 @@ VALUES (36708,   1, 'Spectral Crystal of the Life Giver') /* Name */
      , (36708,  20, 'Spectral Crystals of the Life Giver') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36708,   1,   33554809) /* Setup */
-     , (36708,   3,  536870932) /* SoundTable */
-     , (36708,   8,  100686697) /* Icon */
-     , (36708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36708,   1, 0x02000179) /* Setup */
+     , (36708,   3, 0x20000014) /* SoundTable */
+     , (36708,   8, 0x06005B69) /* Icon */
+     , (36708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36708,  28,       4221) /* Spell - LifeMagicMasterySpectral */
-     , (36708,  50,  100686664) /* IconOverlay */
-     , (36708,  52,  100686604) /* IconUnderlay */;
+     , (36708,  50, 0x06005B48) /* IconOverlay */
+     , (36708,  52, 0x06005B0C) /* IconUnderlay */;

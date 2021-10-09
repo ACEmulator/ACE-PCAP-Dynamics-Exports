@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x90A7;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790A7001,  1154, 0x90A70009, 42.70195, 5.466279, 56.64843, 0.9872615, 0, 0, -0.1591057, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x790A7001,  1154, 0x90A70009, 42.70195, 5.466279, 56.64843, 0.987262, 0, 0, -0.159106, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x90A70009 [42.701950 5.466279 56.648430] 0.987262 0.000000 0.000000 -0.159106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -13,11 +13,11 @@ VALUES (0x790A7001, 0x790A7002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
      , (0x790A7001, 0x790A7007, '2019-02-10 00:00:00') /* High Tumerok (4104) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790A7002,  7128, 0x90A70009, 42.70195, 5.466279, 56.64843, 0.9872615, 0, 0, -0.1591057,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
+VALUES (0x790A7002,  7128, 0x90A70009, 42.70195, 5.466279, 56.64843, 0.987262, 0, 0, -0.159106,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
 /* @teleloc 0x90A70009 [42.701950 5.466279 56.648430] 0.987262 0.000000 0.000000 -0.159106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790A7003,  1758, 0x90A70034, 156.2215, 91.18176, 40.40652, -0.7432857, 0, 0, -0.6689742,  True, '2019-02-10 00:00:00'); /* Shadow */
+VALUES (0x790A7003,  1758, 0x90A70034, 156.2215, 91.18176, 40.40652, -0.743286, 0, 0, -0.668974,  True, '2019-02-10 00:00:00'); /* Shadow */
 /* @teleloc 0x90A70034 [156.221500 91.181760 40.406520] -0.743286 0.000000 0.000000 -0.668974 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

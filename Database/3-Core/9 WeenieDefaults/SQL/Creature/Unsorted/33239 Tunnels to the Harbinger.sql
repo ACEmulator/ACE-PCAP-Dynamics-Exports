@@ -27,11 +27,11 @@ VALUES (33239,   1, 'Tunnels to the Harbinger') /* Name */
      , (33239,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33239,   1,   33556212) /* Setup */
-     , (33239,   2,  150994947) /* MotionTable */
-     , (33239,   3,  536870932) /* SoundTable */
-     , (33239,   8,  100667499) /* Icon */;
+VALUES (33239,   1, 0x020006F4) /* Setup */
+     , (33239,   2, 0x09000003) /* MotionTable */
+     , (33239,   3, 0x20000014) /* SoundTable */
+     , (33239,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33239, 8040, 3111059510, 148.017, 127.047, 9.937, -0.7372773, 0, 0, -0.6755903) /* PCAPRecordedLocation */
+VALUES (33239, 8040, 0xB96F0036, 148.017, 127.047, 9.937, -0.737277, 0, 0, -0.67559) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F0036 [148.017000 127.047000 9.937000] -0.737277 0.000000 0.000000 -0.675590 */;

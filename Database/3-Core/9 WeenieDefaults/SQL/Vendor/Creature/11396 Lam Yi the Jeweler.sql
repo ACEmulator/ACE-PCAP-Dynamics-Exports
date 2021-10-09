@@ -34,20 +34,20 @@ VALUES (11396,   1, 'Lam Yi the Jeweler') /* Name */
      , (11396,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11396,   1,   33554510) /* Setup */
-     , (11396,   2,  150994945) /* MotionTable */
-     , (11396,   3,  536870914) /* SoundTable */
-     , (11396,   6,   67108990) /* PaletteBase */
-     , (11396,   8,  100667446) /* Icon */
-     , (11396,   9,   83890275) /* EyesTexture */
-     , (11396,  10,   83890302) /* NoseTexture */
-     , (11396,  11,   83890355) /* MouthTexture */
-     , (11396,  15,   67116991) /* HairPalette */
-     , (11396,  16,   67110062) /* EyesPalette */
-     , (11396,  17,   67110059) /* SkinPalette */;
+VALUES (11396,   1, 0x0200004E) /* Setup */
+     , (11396,   2, 0x09000001) /* MotionTable */
+     , (11396,   3, 0x20000002) /* SoundTable */
+     , (11396,   6, 0x0400007E) /* PaletteBase */
+     , (11396,   8, 0x06001036) /* Icon */
+     , (11396,   9, 0x05001063) /* EyesTexture */
+     , (11396,  10, 0x0500107E) /* NoseTexture */
+     , (11396,  11, 0x050010B3) /* MouthTexture */
+     , (11396,  15, 0x04001FBF) /* HairPalette */
+     , (11396,  16, 0x040004AE) /* EyesPalette */
+     , (11396,  17, 0x040004AB) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11396, 8040, 397541659, 108.972, 37.0342, 43.705, 0.8546992, 0, 0, -0.5191236) /* PCAPRecordedLocation */
+VALUES (11396, 8040, 0x17B2011B, 108.972, 37.0342, 43.705, 0.854699, 0, 0, -0.519124) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2011B [108.972000 37.034200 43.705000] 0.854699 0.000000 0.000000 -0.519124 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

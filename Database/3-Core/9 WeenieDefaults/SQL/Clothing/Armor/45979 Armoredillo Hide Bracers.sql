@@ -43,16 +43,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45979,   1, 'Armoredillo Hide Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45979,   1,   33554641) /* Setup */
-     , (45979,   3,  536870932) /* SoundTable */
-     , (45979,   6,   67108990) /* PaletteBase */
-     , (45979,   8,  100674975) /* Icon */
-     , (45979,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45979,   1, 0x020000D1) /* Setup */
+     , (45979,   3, 0x20000014) /* SoundTable */
+     , (45979,   6, 0x0400007E) /* PaletteBase */
+     , (45979,   8, 0x06002D9F) /* Icon */
+     , (45979,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45979,  1077,      2)  /* LightningProtectionOther6 */
+VALUES (45979,  5824,      2)  /* RecklessnessMasteryOther6 */
      , (45979,  1486,      2)  /* Impenetrability6 */
-     , (45979,  2607,      2)  /* CANTRIPSTORMBANE1 */
      , (45979,  5800,      2)  /* DualWieldMasteryOther6 */
-     , (45979,  5824,      2)  /* RecklessnessMasteryOther6 */
+     , (45979,  2607,      2)  /* CANTRIPSTORMBANE1 */
+     , (45979,  1077,      2)  /* LightningProtectionOther6 */
      , (45979,  5885,      2)  /* CantripRecklessnessProwess1 */;

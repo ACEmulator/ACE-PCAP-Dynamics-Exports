@@ -23,10 +23,10 @@ VALUES (42149,   1, 'Banderling Camp') /* Name */
      , (42149,  16, 'A portal leading to a location near Edelbar where the Quarter Staff of Fire may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42149,   1,   33554867) /* Setup */
-     , (42149,   2,  150994947) /* MotionTable */
-     , (42149,   8,  100667499) /* Icon */;
+VALUES (42149,   1, 0x020001B3) /* Setup */
+     , (42149,   2, 0x09000003) /* MotionTable */
+     , (42149,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42149, 8040, 2315387300, 39.9348, -40.0149, 0.25273, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (42149, 8040, 0x8A0201A4, 39.9348, -40.0149, 0.25273, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201A4 [39.934800 -40.014900 0.252730] 1.000000 0.000000 0.000000 0.000000 */;

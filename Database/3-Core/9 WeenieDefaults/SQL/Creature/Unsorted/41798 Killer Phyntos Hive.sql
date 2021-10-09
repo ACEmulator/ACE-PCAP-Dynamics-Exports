@@ -23,12 +23,12 @@ VALUES (41798,   1, 'Killer Phyntos Hive') /* Name */
      , (41798,  15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41798,   1,   33558821) /* Setup */
-     , (41798,   2,  150995305) /* MotionTable */
-     , (41798,   3,  536870993) /* SoundTable */
-     , (41798,   8,  100676680) /* Icon */
-     , (41798,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (41798,   1, 0x02001125) /* Setup */
+     , (41798,   2, 0x09000169) /* MotionTable */
+     , (41798,   3, 0x20000051) /* SoundTable */
+     , (41798,   8, 0x06003448) /* Icon */
+     , (41798,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41798, 8040, 4163895339, 124.9879, 54.92248, 71.15677, -0.7794921, 0, 0, -0.6264121) /* PCAPRecordedLocation */
+VALUES (41798, 8040, 0xF830002B, 124.9879, 54.92248, 71.15677, -0.779492, 0, 0, -0.626412) /* PCAPRecordedLocation */
 /* @teleloc 0xF830002B [124.987900 54.922480 71.156770] -0.779492 0.000000 0.000000 -0.626412 */;

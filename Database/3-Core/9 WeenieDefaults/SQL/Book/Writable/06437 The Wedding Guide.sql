@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6437,   1, 'The Wedding Guide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6437,   1,   33554771) /* Setup */
-     , (6437,   3,  536870932) /* SoundTable */
-     , (6437,   8,  100668117) /* Icon */
-     , (6437,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6437,   1, 0x02000153) /* Setup */
+     , (6437,   3, 0x20000014) /* SoundTable */
+     , (6437,   8, 0x060012D5) /* Icon */
+     , (6437,  22, 0x3400002B) /* PhysicsEffectTable */;

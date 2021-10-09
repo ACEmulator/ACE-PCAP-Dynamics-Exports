@@ -34,13 +34,13 @@ VALUES (51787,   1, 'Spirited Bloodlust Guard') /* Name */
      , (51787,  15, 'A necklace crafted by Rinne Gorber fused with a powerful crystal from deep within the Spirited Halls.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51787,   1,   33554689) /* Setup */
-     , (51787,   3,  536870932) /* SoundTable */
-     , (51787,   6,   67111919) /* PaletteBase */
-     , (51787,   8,  100693214) /* Icon */
-     , (51787,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51787,   1, 0x02000101) /* Setup */
+     , (51787,   3, 0x20000014) /* SoundTable */
+     , (51787,   6, 0x04000BEF) /* PaletteBase */
+     , (51787,   8, 0x060074DE) /* Icon */
+     , (51787,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51787,  2665,      2)  /* EssenceSluice */
-     , (51787,  4467,      2)  /* FireProtectionOther8 */
-     , (51787,  6055,      2)  /* CantripInvulnerability4 */;
+VALUES (51787,  6055,      2)  /* CantripInvulnerability4 */
+     , (51787,  2665,      2)  /* EssenceSluice */
+     , (51787,  4467,      2)  /* FireProtectionOther8 */;

@@ -23,7 +23,7 @@ VALUES (37861,   1, 'Inscription of Lightning Protection Self') /* Name */
 Reduces damage the caster takes from Lightning by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37861,   1,   33554826) /* Setup */
-     , (37861,   8,  100676948) /* Icon */
-     , (37861,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37861,   1, 0x0200018A) /* Setup */
+     , (37861,   8, 0x06003554) /* Icon */
+     , (37861,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37861,  28,       4470) /* Spell - LightningProtectionSelf8 */;

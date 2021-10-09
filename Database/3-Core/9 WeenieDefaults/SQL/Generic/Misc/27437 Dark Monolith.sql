@@ -23,5 +23,5 @@ VALUES (27437,   1, 'Dark Monolith') /* Name */
      , (27437,  16, 'A dark obsidian stone. It hums in a low and ominous way.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437,   1,   33558688) /* Setup */
-     , (27437,   8,  100676417) /* Icon */;
+VALUES (27437,   1, 0x020010A0) /* Setup */
+     , (27437,   8, 0x06003341) /* Icon */;

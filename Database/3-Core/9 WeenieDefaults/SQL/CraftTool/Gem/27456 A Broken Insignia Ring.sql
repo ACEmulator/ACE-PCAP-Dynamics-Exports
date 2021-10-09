@@ -29,7 +29,7 @@ VALUES (27456,   1, 'A Broken Insignia Ring') /* Name */
      , (27456,  16, 'A Renegade insignia ring that seems to have been broken in half') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27456,   1,   33554690) /* Setup */
-     , (27456,   3,  536870932) /* SoundTable */
-     , (27456,   8,  100676426) /* Icon */
-     , (27456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27456,   1, 0x02000102) /* Setup */
+     , (27456,   3, 0x20000014) /* SoundTable */
+     , (27456,   8, 0x0600334A) /* Icon */
+     , (27456,  22, 0x3400002B) /* PhysicsEffectTable */;

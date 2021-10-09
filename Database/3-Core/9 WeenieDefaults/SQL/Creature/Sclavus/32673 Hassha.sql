@@ -27,13 +27,13 @@ VALUES (32673,   1, 'Hassha') /* Name */
      , (32673,   5, 'Scholar of Salt and Ash') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32673,   1,   33555608) /* Setup */
-     , (32673,   2,  150995048) /* MotionTable */
-     , (32673,   3,  536870977) /* SoundTable */
-     , (32673,   8,  100669120) /* Icon */;
+VALUES (32673,   1, 0x02000498) /* Setup */
+     , (32673,   2, 0x09000068) /* MotionTable */
+     , (32673,   3, 0x20000041) /* SoundTable */
+     , (32673,   8, 0x060016C0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32673, 8040, 3195142402, 107, 108, 1.2, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32673, 8040, 0xBE720102, 107, 108, 1.2, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBE720102 [107.000000 108.000000 1.200000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

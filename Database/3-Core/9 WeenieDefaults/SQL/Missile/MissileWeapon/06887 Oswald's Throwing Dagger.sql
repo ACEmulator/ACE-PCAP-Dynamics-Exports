@@ -38,11 +38,11 @@ VALUES (6887,   1, 'Oswald''s Throwing Dagger') /* Name */
      , (6887,  16, 'An electric throwing dagger that once belonged to the infamous assassin Oswald.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6887,   1,   33555697) /* Setup */
-     , (6887,   3,  536870932) /* SoundTable */
-     , (6887,   8,  100667590) /* Icon */
-     , (6887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6887,   1, 0x020004F1) /* Setup */
+     , (6887,   3, 0x20000014) /* SoundTable */
+     , (6887,   8, 0x060010C6) /* Icon */
+     , (6887,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6887, 8040, 18809102, 29.95613, -26.50727, 0.1, -0.3026217, 0, 0, -0.9531108) /* PCAPRecordedLocation */
+VALUES (6887, 8040, 0x011F010E, 29.95613, -26.50727, 0.1, -0.302622, 0, 0, -0.953111) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [29.956130 -26.507270 0.100000] -0.302622 0.000000 0.000000 -0.953111 */;

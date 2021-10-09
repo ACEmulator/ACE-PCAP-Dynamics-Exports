@@ -23,7 +23,7 @@ VALUES (5967,   1, 'Scroll of Fletching Ineptitude Other VI') /* Name */
 Decreases the target''s Fletching skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5967,   1,   33554826) /* Setup */
-     , (5967,   8,  100676457) /* Icon */
-     , (5967,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5967,   1, 0x0200018A) /* Setup */
+     , (5967,   8, 0x06003369) /* Icon */
+     , (5967,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5967,  28,       1750) /* Spell - FletchingIneptitudeOther6 */;

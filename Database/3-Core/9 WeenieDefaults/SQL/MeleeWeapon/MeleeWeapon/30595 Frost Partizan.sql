@@ -50,16 +50,16 @@ VALUES (30595,   1, 'Frost Partizan') /* Name */
      , (30595,  16, 'Frost Partizan of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30595,   1,   33559480) /* Setup */
-     , (30595,   3,  536870932) /* SoundTable */
-     , (30595,   6,   67115560) /* PaletteBase */
-     , (30595,   8,  100686985) /* Icon */
-     , (30595,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30595,   1, 0x020013B8) /* Setup */
+     , (30595,   3, 0x20000014) /* SoundTable */
+     , (30595,   6, 0x04001A28) /* PaletteBase */
+     , (30595,   8, 0x06005C89) /* Icon */
+     , (30595,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30595,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30595,  1378,      2)  /* CoordinationSelf6 */
-     , (30595,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (30595,  2116,      2)  /* SwiftKillerSelf7 */
      , (30595,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30595,  1378,      2)  /* CoordinationSelf6 */
      , (30595,  2101,      2)  /* DefenderSelf7 */
-     , (30595,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (30595,  1592,      2)  /* HeartSeekerSelf6 */;

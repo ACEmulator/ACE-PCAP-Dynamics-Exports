@@ -50,13 +50,13 @@ VALUES (27823,   1, 'Bound Singularity Bow') /* Name */
      , (27823,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27823,   1,   33558789) /* Setup */
-     , (27823,   3,  536870932) /* SoundTable */
-     , (27823,   6,   67111919) /* PaletteBase */
-     , (27823,   8,  100676581) /* Icon */
-     , (27823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27823,   1, 0x02001105) /* Setup */
+     , (27823,   3, 0x20000014) /* SoundTable */
+     , (27823,   6, 0x04000BEF) /* PaletteBase */
+     , (27823,   8, 0x060033E5) /* Icon */
+     , (27823,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27823,  1384,      2)  /* CoordinationOther6 */
-     , (27823,  1605,      2)  /* DefenderSelf6 */
-     , (27823,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (27823,  1605,      2)  /* DefenderSelf6 */
+     , (27823,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27823,  1384,      2)  /* CoordinationOther6 */;

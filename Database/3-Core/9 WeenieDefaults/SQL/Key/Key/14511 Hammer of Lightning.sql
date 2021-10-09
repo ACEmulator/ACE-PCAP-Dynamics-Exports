@@ -24,8 +24,8 @@ VALUES (14511,   1, 'Hammer of Lightning') /* Name */
      , (14511,  16, 'A small hammer. The head looks brittle and small as though it could be used in the crafting or collecting of gems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14511,   1,   33557488) /* Setup */
-     , (14511,   3,  536870932) /* SoundTable */
-     , (14511,   6,   67111919) /* PaletteBase */
-     , (14511,   8,  100672499) /* Icon */
-     , (14511,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14511,   1, 0x02000BF0) /* Setup */
+     , (14511,   3, 0x20000014) /* SoundTable */
+     , (14511,   6, 0x04000BEF) /* PaletteBase */
+     , (14511,   8, 0x060023F3) /* Icon */
+     , (14511,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,6 +23,6 @@ VALUES (32802,   1, 'Black Ball') /* Name */
      , (32802,  16, 'A dangerously unstable substance dropped by a black breath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32802,   1,   33559853) /* Setup */
-     , (32802,   6,   67111928) /* PaletteBase */
-     , (32802,   8,  100668730) /* Icon */;
+VALUES (32802,   1, 0x0200152D) /* Setup */
+     , (32802,   6, 0x04000BF8) /* PaletteBase */
+     , (32802,   8, 0x0600153A) /* Icon */;

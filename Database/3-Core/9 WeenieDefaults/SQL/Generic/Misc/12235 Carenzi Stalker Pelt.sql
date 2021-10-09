@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12235,   1, 'Carenzi Stalker Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12235,   1,   33554817) /* Setup */
-     , (12235,   3,  536870932) /* SoundTable */
-     , (12235,   6,   67111919) /* PaletteBase */
-     , (12235,   8,  100671834) /* Icon */
-     , (12235,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12235,   1, 0x02000181) /* Setup */
+     , (12235,   3, 0x20000014) /* SoundTable */
+     , (12235,   6, 0x04000BEF) /* PaletteBase */
+     , (12235,   8, 0x0600215A) /* Icon */
+     , (12235,  22, 0x3400002B) /* PhysicsEffectTable */;

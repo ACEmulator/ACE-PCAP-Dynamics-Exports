@@ -35,20 +35,20 @@ VALUES (1038,   1, 'Buray ibn Tamsa the Blacksmith') /* Name */
      , (1038,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1038,   1,   33554433) /* Setup */
-     , (1038,   2,  150994945) /* MotionTable */
-     , (1038,   3,  536870913) /* SoundTable */
-     , (1038,   6,   67108990) /* PaletteBase */
-     , (1038,   8,  100667446) /* Icon */
-     , (1038,   9,   83890514) /* EyesTexture */
-     , (1038,  10,   83890540) /* NoseTexture */
-     , (1038,  11,   83890607) /* MouthTexture */
-     , (1038,  15,   67117072) /* HairPalette */
-     , (1038,  16,   67110062) /* EyesPalette */
-     , (1038,  17,   67109556) /* SkinPalette */;
+VALUES (1038,   1, 0x02000001) /* Setup */
+     , (1038,   2, 0x09000001) /* MotionTable */
+     , (1038,   3, 0x20000001) /* SoundTable */
+     , (1038,   6, 0x0400007E) /* PaletteBase */
+     , (1038,   8, 0x06001036) /* Icon */
+     , (1038,   9, 0x05001152) /* EyesTexture */
+     , (1038,  10, 0x0500116C) /* NoseTexture */
+     , (1038,  11, 0x050011AF) /* MouthTexture */
+     , (1038,  15, 0x04002010) /* HairPalette */
+     , (1038,  16, 0x040004AE) /* EyesPalette */
+     , (1038,  17, 0x040002B4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1038, 8040, 2103705856, 87.8479, 111.782, 12.005, -0.4243421, 0, 0, -0.905502) /* PCAPRecordedLocation */
+VALUES (1038, 8040, 0x7D640100, 87.8479, 111.782, 12.005, -0.424342, 0, 0, -0.905502) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640100 [87.847900 111.782000 12.005000] -0.424342 0.000000 0.000000 -0.905502 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

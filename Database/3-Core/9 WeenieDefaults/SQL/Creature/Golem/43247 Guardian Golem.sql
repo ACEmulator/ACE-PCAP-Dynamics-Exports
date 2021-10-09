@@ -28,13 +28,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43247,   1, 'Guardian Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43247,   1,   33558367) /* Setup */
-     , (43247,   2,  150994945) /* MotionTable */
-     , (43247,   3,  536870933) /* SoundTable */
-     , (43247,   8,  100674350) /* Icon */;
+VALUES (43247,   1, 0x02000F5F) /* Setup */
+     , (43247,   2, 0x09000001) /* MotionTable */
+     , (43247,   3, 0x20000015) /* SoundTable */
+     , (43247,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43247, 8040, 3147628600, 158.328, 183.323, 35.36633, -0.950534, 0, 0, 0.31062) /* PCAPRecordedLocation */
+VALUES (43247, 8040, 0xBB9D0038, 158.328, 183.323, 35.36633, -0.950534, 0, 0, 0.31062) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9D0038 [158.328000 183.323000 35.366330] -0.950534 0.000000 0.000000 0.310620 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

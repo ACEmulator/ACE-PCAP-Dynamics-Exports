@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8556,   1, 'The History of the Vesayen Isles') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8556,   1,   33559084) /* Setup */
-     , (8556,   3,  536870932) /* SoundTable */
-     , (8556,   6,   67112626) /* PaletteBase */
-     , (8556,   8,  100668117) /* Icon */
-     , (8556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8556,   1, 0x0200122C) /* Setup */
+     , (8556,   3, 0x20000014) /* SoundTable */
+     , (8556,   6, 0x04000EB2) /* PaletteBase */
+     , (8556,   8, 0x060012D5) /* Icon */
+     , (8556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8556, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

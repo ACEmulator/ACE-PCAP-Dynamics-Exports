@@ -18,9 +18,9 @@ VALUES (12647,   1, 'Sanai') /* Name */
      , (12647,  16, 'Welcome to Sanai') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12647,   1,   33557463) /* Setup */
-     , (12647,   8,  100668115) /* Icon */;
+VALUES (12647,   1, 0x02000BD7) /* Setup */
+     , (12647,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12647, 8040, 1754726436, 102.011, 92.0567, 16.50092, 0.751911, 0, 0, 0.659264) /* PCAPRecordedLocation */
+VALUES (12647, 8040, 0x68970024, 102.011, 92.0567, 16.50092, 0.751911, 0, 0, 0.659264) /* PCAPRecordedLocation */
 /* @teleloc 0x68970024 [102.011000 92.056700 16.500920] 0.751911 0.000000 0.000000 0.659264 */;

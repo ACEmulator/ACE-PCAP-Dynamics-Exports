@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24460,   1, 'Finesse Weapons Specialist''s Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24460,   1,   33554648) /* Setup */
-     , (24460,   3,  536870932) /* SoundTable */
-     , (24460,   6,   67108990) /* PaletteBase */
-     , (24460,   8,  100692281) /* Icon */
-     , (24460,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24460,   1, 0x020000D8) /* Setup */
+     , (24460,   3, 0x20000014) /* SoundTable */
+     , (24460,   6, 0x0400007E) /* PaletteBase */
+     , (24460,   8, 0x06007139) /* Icon */
+     , (24460,  22, 0x3400002B) /* PhysicsEffectTable */;

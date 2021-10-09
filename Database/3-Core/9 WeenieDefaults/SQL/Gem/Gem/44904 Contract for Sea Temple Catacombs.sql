@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44904,   1, 'Contract for Sea Temple Catacombs') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44904,   1,   33554773) /* Setup */
-     , (44904,   3,  536870932) /* SoundTable */
-     , (44904,   8,  100691929) /* Icon */
-     , (44904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44904,   1, 0x02000155) /* Setup */
+     , (44904,   3, 0x20000014) /* SoundTable */
+     , (44904,   8, 0x06006FD9) /* Icon */
+     , (44904,  22, 0x3400002B) /* PhysicsEffectTable */;

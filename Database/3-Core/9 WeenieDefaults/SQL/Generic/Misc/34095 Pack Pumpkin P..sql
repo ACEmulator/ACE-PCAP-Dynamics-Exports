@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34095,   1, 'Pack Pumpkin P.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34095,   1,   33560110) /* Setup */
-     , (34095,   2,  150995353) /* MotionTable */
-     , (34095,   8,  100689212) /* Icon */
-     , (34095,  22,  872415410) /* PhysicsEffectTable */;
+VALUES (34095,   1, 0x0200162E) /* Setup */
+     , (34095,   2, 0x09000199) /* MotionTable */
+     , (34095,   8, 0x0600653C) /* Icon */
+     , (34095,  22, 0x340000B2) /* PhysicsEffectTable */;

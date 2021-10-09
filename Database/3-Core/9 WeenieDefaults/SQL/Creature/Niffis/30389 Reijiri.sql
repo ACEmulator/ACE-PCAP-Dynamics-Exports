@@ -29,15 +29,15 @@ VALUES (30389,   1, 'Reijiri') /* Name */
      , (30389,   5, 'The Littlest Niffis') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30389,   1,   33556774) /* Setup */
-     , (30389,   2,  150995286) /* MotionTable */
-     , (30389,   3,  536871010) /* SoundTable */
-     , (30389,   6,   67112937) /* PaletteBase */
-     , (30389,   8,  100670961) /* Icon */
-     , (30389,  22,  872415365) /* PhysicsEffectTable */;
+VALUES (30389,   1, 0x02000926) /* Setup */
+     , (30389,   2, 0x09000156) /* MotionTable */
+     , (30389,   3, 0x20000062) /* SoundTable */
+     , (30389,   6, 0x04000FE9) /* PaletteBase */
+     , (30389,   8, 0x06001DF1) /* Icon */
+     , (30389,  22, 0x34000085) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30389, 8040, 196864, 0, -10, -17.99985, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (30389, 8040, 0x00030100, 0, -10, -17.99985, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x00030100 [0.000000 -10.000000 -17.999850] 0.714421 0.000000 0.000000 -0.699716 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

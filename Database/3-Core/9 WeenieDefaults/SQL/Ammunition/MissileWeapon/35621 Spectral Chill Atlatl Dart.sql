@@ -29,12 +29,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35621,   1, 'Spectral Chill Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35621,   1,   33557599) /* Setup */
-     , (35621,   3,  536870932) /* SoundTable */
-     , (35621,   6,   67111919) /* PaletteBase */
-     , (35621,   8,  100672684) /* Icon */
-     , (35621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35621,   1, 0x02000C5F) /* Setup */
+     , (35621,   3, 0x20000014) /* SoundTable */
+     , (35621,   6, 0x04000BEF) /* PaletteBase */
+     , (35621,   8, 0x060024AC) /* Icon */
+     , (35621,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35621, 8040, 2103705619, 56.69241, 46.98158, 11.929, -0.7029117, -0.7029117, -0.07690962, -0.07690962) /* PCAPRecordedLocation */
+VALUES (35621, 8040, 0x7D640013, 56.69241, 46.98158, 11.929, -0.702912, -0.702912, -0.07691, -0.07691) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [56.692410 46.981580 11.929000] -0.702912 -0.702912 -0.076910 -0.076910 */;

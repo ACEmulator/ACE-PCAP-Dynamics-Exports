@@ -20,7 +20,7 @@ VALUES (0x7B44C003, 52634, 0xB44C0029, 136.1966, 12.47741, 116.005, 1, 0, 0, 0, 
 /* @teleloc 0xB44C0029 [136.196600 12.477410 116.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B44C004, 53348, 0xB44C0031, 161.8896, 14.90278, 116.006, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Vermilion War Gromnie */
+VALUES (0x7B44C004, 53348, 0xB44C0031, 161.8896, 14.90278, 116.006, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Vermilion War Gromnie */
 /* @teleloc 0xB44C0031 [161.889600 14.902780 116.006000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

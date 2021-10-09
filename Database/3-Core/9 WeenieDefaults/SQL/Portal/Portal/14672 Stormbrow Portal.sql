@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14672,   1, 'Stormbrow Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14672,   1,   33554867) /* Setup */
-     , (14672,   2,  150994947) /* MotionTable */
-     , (14672,   8,  100667499) /* Icon */;
+VALUES (14672,   1, 0x020001B3) /* Setup */
+     , (14672,   2, 0x09000003) /* MotionTable */
+     , (14672,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14672, 8040, 2501967912, 114.954, 188.642, 123.2, 0.7723315, 0, 0, -0.6352196) /* PCAPRecordedLocation */
+VALUES (14672, 8040, 0x95210028, 114.954, 188.642, 123.2, 0.772332, 0, 0, -0.63522) /* PCAPRecordedLocation */
 /* @teleloc 0x95210028 [114.954000 188.642000 123.200000] 0.772332 0.000000 0.000000 -0.635220 */;

@@ -25,7 +25,7 @@ VALUES (48918,   1, 'Legendary Token') /* Name */
      , (48918,  16, 'A trophy granted for the completion of any number of legendary tasks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48918,   1,   33554802) /* Setup */
-     , (48918,   3,  536870932) /* SoundTable */
-     , (48918,   8,  100693003) /* Icon */
-     , (48918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48918,   1, 0x02000172) /* Setup */
+     , (48918,   3, 0x20000014) /* SoundTable */
+     , (48918,   8, 0x0600740B) /* Icon */
+     , (48918,  22, 0x3400002B) /* PhysicsEffectTable */;

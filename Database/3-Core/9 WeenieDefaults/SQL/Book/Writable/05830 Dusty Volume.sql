@@ -18,13 +18,13 @@ VALUES (5830,   1, 'Dusty Volume') /* Name */
      , (5830,  16, 'An ancient book dating back thousands of years.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5830,   1,   33554771) /* Setup */
-     , (5830,   3,  536870932) /* SoundTable */
-     , (5830,   8,  100668117) /* Icon */
-     , (5830,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5830,   1, 0x02000153) /* Setup */
+     , (5830,   3, 0x20000014) /* SoundTable */
+     , (5830,   8, 0x060012D5) /* Icon */
+     , (5830,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5830, 8040, 27853081, 60, -67.625, -65.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (5830, 8040, 0x01A90119, 60, -67.625, -65.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01A90119 [60.000000 -67.625000 -65.943000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

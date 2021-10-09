@@ -51,23 +51,23 @@ VALUES (45439,   1, 'Smite') /* Name */
      , (45439,  16, 'When Sir Borlac di Lotila led the knights of the Bull against the Souia-Vey warriors of Vessenjhe, he did so with an ancient weapon at his side - a weapon rumored to be carved from the very bones of the fabled Weyrava. The axe had known many names throughout the years, names both poetic and bloody.  But those names were lost to Sir Borlac. He simply called it Smite, for that is what it did.  Sir Borlac met the Vessenjhe on the plains of northwest of Gharu''n, and though he was well past the prime of his life at that time, he wielded Smite with a ferocity and skill envied by the younger and hardier knights at his side, and single-handedly slew every last Vessenjhe himself... or so the tales say.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45439,   1,   33559322) /* Setup */
-     , (45439,   3,  536870932) /* SoundTable */
-     , (45439,   6,   67111919) /* PaletteBase */
-     , (45439,   8,  100686797) /* Icon */
-     , (45439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45439,   1, 0x0200131A) /* Setup */
+     , (45439,   3, 0x20000014) /* SoundTable */
+     , (45439,   6, 0x04000BEF) /* PaletteBase */
+     , (45439,   8, 0x06005BCD) /* Icon */
+     , (45439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45439,  30,         88) /* PhysicsScript - Create */
-     , (45439,  52,  100686604) /* IconUnderlay */;
+     , (45439,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45439,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (45439,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (45439,  4417,      2)  /* SwiftKillerSelf8 */
      , (45439,  4226,      2)  /* CANTRIPENDURANCE3 */
+     , (45439,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (45439,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
+     , (45439,  4498,      2)  /* RejuvenationSelf8 */
+     , (45439,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (45439,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45439,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45439,  4417,      2)  /* SwiftKillerSelf8 */
-     , (45439,  4498,      2)  /* RejuvenationSelf8 */
-     , (45439,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (45439,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45439,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (45439,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;
+     , (45439,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (45439,  3965,      2)  /* CANTRIPSTRENGTH3 */;

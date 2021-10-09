@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51857,   1, 'Rynthid Ravager''s Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51857,   1,   33561593) /* Setup */
-     , (51857,   3,  536870932) /* SoundTable */
-     , (51857,   8,  100693221) /* Icon */
-     , (51857,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51857,   1, 0x02001BF9) /* Setup */
+     , (51857,   3, 0x20000014) /* SoundTable */
+     , (51857,   8, 0x060074E5) /* Icon */
+     , (51857,  22, 0x3400002B) /* PhysicsEffectTable */;

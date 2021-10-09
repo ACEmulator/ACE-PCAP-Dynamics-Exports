@@ -34,20 +34,20 @@ VALUES (6860,   1, 'Jeweler Daryam ibn Zubed') /* Name */
      , (6860,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6860,   1,   33554433) /* Setup */
-     , (6860,   2,  150994945) /* MotionTable */
-     , (6860,   3,  536870913) /* SoundTable */
-     , (6860,   6,   67108990) /* PaletteBase */
-     , (6860,   8,  100667377) /* Icon */
-     , (6860,   9,   83890454) /* EyesTexture */
-     , (6860,  10,   83890544) /* NoseTexture */
-     , (6860,  11,   83890613) /* MouthTexture */
-     , (6860,  15,   67117071) /* HairPalette */
-     , (6860,  16,   67110062) /* EyesPalette */
-     , (6860,  17,   67109555) /* SkinPalette */;
+VALUES (6860,   1, 0x02000001) /* Setup */
+     , (6860,   2, 0x09000001) /* MotionTable */
+     , (6860,   3, 0x20000001) /* SoundTable */
+     , (6860,   6, 0x0400007E) /* PaletteBase */
+     , (6860,   8, 0x06000FF1) /* Icon */
+     , (6860,   9, 0x05001116) /* EyesTexture */
+     , (6860,  10, 0x05001170) /* NoseTexture */
+     , (6860,  11, 0x050011B5) /* MouthTexture */
+     , (6860,  15, 0x0400200F) /* HairPalette */
+     , (6860,  16, 0x040004AE) /* EyesPalette */
+     , (6860,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6860, 8040, 288620566, 66.773, 129.873, 42.005, 0.6809552, 0, 0, -0.7323251) /* PCAPRecordedLocation */
+VALUES (6860, 8040, 0x11340016, 66.773, 129.873, 42.005, 0.680955, 0, 0, -0.732325) /* PCAPRecordedLocation */
 /* @teleloc 0x11340016 [66.773000 129.873000 42.005000] 0.680955 0.000000 0.000000 -0.732325 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

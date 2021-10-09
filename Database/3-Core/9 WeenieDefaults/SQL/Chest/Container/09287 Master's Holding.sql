@@ -29,13 +29,13 @@ VALUES (9287,   1, 'Master''s Holding') /* Name */
      , (9287,  16, 'A Virindi holding lies here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9287,   1,   33557001) /* Setup */
-     , (9287,   2,  150995121) /* MotionTable */
-     , (9287,   3,  536871023) /* SoundTable */
-     , (9287,   6,   67111346) /* PaletteBase */
-     , (9287,   8,  100671464) /* Icon */
-     , (9287,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9287,   1, 0x02000A09) /* Setup */
+     , (9287,   2, 0x090000B1) /* MotionTable */
+     , (9287,   3, 0x2000006F) /* SoundTable */
+     , (9287,   6, 0x040009B2) /* PaletteBase */
+     , (9287,   8, 0x06001FE8) /* Icon */
+     , (9287,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9287, 8040, 2396061739, 135.584, 52.6721, 277.09, 0.9965695, 0, 0, -0.08276005) /* PCAPRecordedLocation */
+VALUES (9287, 8040, 0x8ED1002B, 135.584, 52.6721, 277.09, 0.99657, 0, 0, -0.08276) /* PCAPRecordedLocation */
 /* @teleloc 0x8ED1002B [135.584000 52.672100 277.090000] 0.996570 0.000000 0.000000 -0.082760 */;

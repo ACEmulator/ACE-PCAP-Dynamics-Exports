@@ -27,12 +27,12 @@ VALUES (53208,   1, 'Guardian of Hickory') /* Name */
      , (53208,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53208,   1,   33558954) /* Setup */
-     , (53208,   2,  150995147) /* MotionTable */
-     , (53208,   3,  536871052) /* SoundTable */
-     , (53208,   8,  100688311) /* Icon */
-     , (53208,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53208,   1, 0x020011AA) /* Setup */
+     , (53208,   2, 0x090000CB) /* MotionTable */
+     , (53208,   3, 0x2000008C) /* SoundTable */
+     , (53208,   8, 0x060061B7) /* Icon */
+     , (53208,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53208, 8040, 3007905820, 82.1, 95.9, 64.6, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (53208, 8040, 0xB349001C, 82.1, 95.9, 64.6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001C [82.100000 95.900000 64.600000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -50,19 +50,19 @@ VALUES (22443,   1, 'Flaming Dirk') /* Name */
      , (22443,  16, 'Flaming Dirk of Dirty Fighting') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22443,   1,   33558093) /* Setup */
-     , (22443,   3,  536870932) /* SoundTable */
-     , (22443,   6,   67111919) /* PaletteBase */
-     , (22443,   8,  100673790) /* Icon */
-     , (22443,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22443,   1, 0x02000E4D) /* Setup */
+     , (22443,   3, 0x20000014) /* SoundTable */
+     , (22443,   6, 0x04000BEF) /* PaletteBase */
+     , (22443,   8, 0x060028FE) /* Icon */
+     , (22443,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22443,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (22443,  50,  100688854) /* IconOverlay */
-     , (22443,  52,  100676438) /* IconUnderlay */;
+     , (22443,  50, 0x060063D6) /* IconOverlay */
+     , (22443,  52, 0x06003356) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22443, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (22443, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22443,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (22443,  5784,      2)  /* DirtyFightingMasterySelf6 */;
+VALUES (22443,  5784,      2)  /* DirtyFightingMasterySelf6 */
+     , (22443,  2096,      2)  /* BloodDrinkerSelf7 */;

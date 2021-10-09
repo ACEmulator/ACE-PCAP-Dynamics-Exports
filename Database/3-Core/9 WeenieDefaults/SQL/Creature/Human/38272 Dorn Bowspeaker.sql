@@ -31,20 +31,20 @@ VALUES (38272,   1, 'Dorn Bowspeaker') /* Name */
      , (38272,   5, 'Shoguth Hunt Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38272,   1,   33554433) /* Setup */
-     , (38272,   2,  150994945) /* MotionTable */
-     , (38272,   3,  536870913) /* SoundTable */
-     , (38272,   6,   67108990) /* PaletteBase */
-     , (38272,   8,  100667446) /* Icon */
-     , (38272,   9,   83890488) /* EyesTexture */
-     , (38272,  10,   83890520) /* NoseTexture */
-     , (38272,  11,   83890568) /* MouthTexture */
-     , (38272,  15,   67117019) /* HairPalette */
-     , (38272,  16,   67110063) /* EyesPalette */
-     , (38272,  17,   67110057) /* SkinPalette */;
+VALUES (38272,   1, 0x02000001) /* Setup */
+     , (38272,   2, 0x09000001) /* MotionTable */
+     , (38272,   3, 0x20000001) /* SoundTable */
+     , (38272,   6, 0x0400007E) /* PaletteBase */
+     , (38272,   8, 0x06001036) /* Icon */
+     , (38272,   9, 0x05001138) /* EyesTexture */
+     , (38272,  10, 0x05001158) /* NoseTexture */
+     , (38272,  11, 0x05001188) /* MouthTexture */
+     , (38272,  15, 0x04001FDB) /* HairPalette */
+     , (38272,  16, 0x040004AF) /* EyesPalette */
+     , (38272,  17, 0x040004A9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38272, 8040, 12059247, 160.654, -38.7607, -17.995, -0.568904, 0, 0, -0.822404) /* PCAPRecordedLocation */
+VALUES (38272, 8040, 0x00B8026F, 160.654, -38.7607, -17.995, -0.568904, 0, 0, -0.822404) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [160.654000 -38.760700 -17.995000] -0.568904 0.000000 0.000000 -0.822404 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

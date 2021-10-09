@@ -27,8 +27,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43955,   1, 'Prismatic Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43955,   1,   33561224) /* Setup */
-     , (43955,   3,  536870932) /* SoundTable */
-     , (43955,   6,   67111919) /* PaletteBase */
-     , (43955,   8,  100691916) /* Icon */
-     , (43955,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43955,   1, 0x02001A88) /* Setup */
+     , (43955,   3, 0x20000014) /* SoundTable */
+     , (43955,   6, 0x04000BEF) /* PaletteBase */
+     , (43955,   8, 0x06006FCC) /* Icon */
+     , (43955,  22, 0x3400002B) /* PhysicsEffectTable */;

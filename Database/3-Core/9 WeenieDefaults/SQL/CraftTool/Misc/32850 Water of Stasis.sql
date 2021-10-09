@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32850,   1, 'Water of Stasis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32850,   1,   33556951) /* Setup */
-     , (32850,   3,  536870932) /* SoundTable */
-     , (32850,   8,  100688824) /* Icon */
-     , (32850,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32850,   1, 0x020009D7) /* Setup */
+     , (32850,   3, 0x20000014) /* SoundTable */
+     , (32850,   8, 0x060063B8) /* Icon */
+     , (32850,  22, 0x3400002B) /* PhysicsEffectTable */;

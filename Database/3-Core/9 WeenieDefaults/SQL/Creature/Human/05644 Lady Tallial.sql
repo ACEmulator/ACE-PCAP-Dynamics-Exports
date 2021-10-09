@@ -29,20 +29,20 @@ VALUES (5644,   1, 'Lady Tallial') /* Name */
      , (5644,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5644,   1,   33554510) /* Setup */
-     , (5644,   2,  150994945) /* MotionTable */
-     , (5644,   3,  536870914) /* SoundTable */
-     , (5644,   6,   67108990) /* PaletteBase */
-     , (5644,   8,  100667446) /* Icon */
-     , (5644,   9,   83890276) /* EyesTexture */
-     , (5644,  10,   83890300) /* NoseTexture */
-     , (5644,  11,   83890328) /* MouthTexture */
-     , (5644,  15,   67117026) /* HairPalette */
-     , (5644,  16,   67109567) /* EyesPalette */
-     , (5644,  17,   67109562) /* SkinPalette */;
+VALUES (5644,   1, 0x0200004E) /* Setup */
+     , (5644,   2, 0x09000001) /* MotionTable */
+     , (5644,   3, 0x20000002) /* SoundTable */
+     , (5644,   6, 0x0400007E) /* PaletteBase */
+     , (5644,   8, 0x06001036) /* Icon */
+     , (5644,   9, 0x05001064) /* EyesTexture */
+     , (5644,  10, 0x0500107C) /* NoseTexture */
+     , (5644,  11, 0x05001098) /* MouthTexture */
+     , (5644,  15, 0x04001FE2) /* HairPalette */
+     , (5644,  16, 0x040002BF) /* EyesPalette */
+     , (5644,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5644, 8040, 2513830206, 82.0511, 106.693, 105.005, -0.119683, 0, 0, -0.992812) /* PCAPRecordedLocation */
+VALUES (5644, 8040, 0x95D6013E, 82.0511, 106.693, 105.005, -0.119683, 0, 0, -0.992812) /* PCAPRecordedLocation */
 /* @teleloc 0x95D6013E [82.051100 106.693000 105.005000] -0.119683 0.000000 0.000000 -0.992812 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

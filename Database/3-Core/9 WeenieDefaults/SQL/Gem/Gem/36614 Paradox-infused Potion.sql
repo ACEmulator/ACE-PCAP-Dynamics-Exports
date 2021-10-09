@@ -27,8 +27,8 @@ VALUES (36614,   1, 'Paradox-infused Potion') /* Name */
      , (36614,  16, 'A large vial of swirling purple fluid.  Even stoppered, a vile smell issues from the vial, and touching it makes your hand spasm in pain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36614,   1,   33555209) /* Setup */
-     , (36614,   3,  536870932) /* SoundTable */
-     , (36614,   6,   67111919) /* PaletteBase */
-     , (36614,   8,  100670735) /* Icon */
-     , (36614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36614,   1, 0x02000309) /* Setup */
+     , (36614,   3, 0x20000014) /* SoundTable */
+     , (36614,   6, 0x04000BEF) /* PaletteBase */
+     , (36614,   8, 0x06001D0F) /* Icon */
+     , (36614,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -47,13 +47,13 @@ VALUES (37217,   1, 'Olthoi Alduressa Coat') /* Name */
      , (37217,  16, 'Olthoi Alduressa Coat of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37217,   1,   33559338) /* Setup */
-     , (37217,   3,  536870932) /* SoundTable */
-     , (37217,   6,   67108990) /* PaletteBase */
-     , (37217,   8,  100690108) /* Icon */
-     , (37217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37217,   1, 0x0200132A) /* Setup */
+     , (37217,   3, 0x20000014) /* SoundTable */
+     , (37217,   6, 0x0400007E) /* PaletteBase */
+     , (37217,   8, 0x060068BC) /* Icon */
+     , (37217,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37217,   193,      2)  /* RejuvenationSelf6 */
-     , (37217,  2108,      2)  /* Impenetrability7 */
-     , (37217,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (37217,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (37217,  2108,      2)  /* Impenetrability7 */;

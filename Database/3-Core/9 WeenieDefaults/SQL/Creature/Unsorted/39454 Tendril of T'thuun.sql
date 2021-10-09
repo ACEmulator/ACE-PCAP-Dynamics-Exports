@@ -18,14 +18,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39454,   1, 'Tendril of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39454,   1,   33560661) /* Setup */
-     , (39454,   2,  150995067) /* MotionTable */
-     , (39454,   3,  536871015) /* SoundTable */
-     , (39454,   8,  100671186) /* Icon */
-     , (39454,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (39454,   1, 0x02001855) /* Setup */
+     , (39454,   2, 0x0900007B) /* MotionTable */
+     , (39454,   3, 0x20000067) /* SoundTable */
+     , (39454,   8, 0x06001ED2) /* Icon */
+     , (39454,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39454, 8040, 1925775397, 110.2161, 102.7454, 78.2432, -0.793353, 0, 0, -0.608761) /* PCAPRecordedLocation */
+VALUES (39454, 8040, 0x72C90025, 110.2161, 102.7454, 78.2432, -0.793353, 0, 0, -0.608761) /* PCAPRecordedLocation */
 /* @teleloc 0x72C90025 [110.216100 102.745400 78.243200] -0.793353 0.000000 0.000000 -0.608761 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

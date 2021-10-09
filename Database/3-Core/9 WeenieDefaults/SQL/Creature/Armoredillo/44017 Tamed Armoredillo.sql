@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44017,   1, 'Tamed Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44017,   1,   33554436) /* Setup */
-     , (44017,   2,  150994972) /* MotionTable */
-     , (44017,   3,  536870915) /* SoundTable */
-     , (44017,   6,   67109301) /* PaletteBase */
-     , (44017,   8,  100667935) /* Icon */
-     , (44017,  22,  872415253) /* PhysicsEffectTable */;
+VALUES (44017,   1, 0x02000004) /* Setup */
+     , (44017,   2, 0x0900001C) /* MotionTable */
+     , (44017,   3, 0x20000003) /* SoundTable */
+     , (44017,   6, 0x040001B5) /* PaletteBase */
+     , (44017,   8, 0x0600121F) /* Icon */
+     , (44017,  22, 0x34000015) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44017, 8040, 2288254988, 38.30267, 93.21041, 2.138552, -0.288855, 0, 0, -0.9573728) /* PCAPRecordedLocation */
+VALUES (44017, 8040, 0x8864000C, 38.30267, 93.21041, 2.138552, -0.288855, 0, 0, -0.957373) /* PCAPRecordedLocation */
 /* @teleloc 0x8864000C [38.302670 93.210410 2.138552] -0.288855 0.000000 0.000000 -0.957373 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

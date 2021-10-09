@@ -26,8 +26,8 @@ VALUES (52876,   1, 'Gromnus Eye') /* Name */
      , (52876,  16, 'A Gromnus Eye plucked from the skull of the Gromnus Champion. Give this item to the Master of the Gauntlet for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52876,   1,   33554817) /* Setup */
-     , (52876,   3,  536870932) /* SoundTable */
-     , (52876,   6,   67111919) /* PaletteBase */
-     , (52876,   8,  100676743) /* Icon */
-     , (52876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52876,   1, 0x02000181) /* Setup */
+     , (52876,   3, 0x20000014) /* SoundTable */
+     , (52876,   6, 0x04000BEF) /* PaletteBase */
+     , (52876,   8, 0x06003487) /* Icon */
+     , (52876,  22, 0x3400002B) /* PhysicsEffectTable */;

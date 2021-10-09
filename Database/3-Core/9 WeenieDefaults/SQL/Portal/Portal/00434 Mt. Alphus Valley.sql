@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (434,   1, 'Mt. Alphus Valley') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (434,   1,   33554867) /* Setup */
-     , (434,   2,  150994947) /* MotionTable */
-     , (434,   8,  100667499) /* Icon */;
+VALUES (434,   1, 0x020001B3) /* Setup */
+     , (434,   2, 0x09000003) /* MotionTable */
+     , (434,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (434, 8040, 2492923943, 105.6, 165.9, 108.737, -0.7253749, 0, 0, -0.688354) /* PCAPRecordedLocation */
+VALUES (434, 8040, 0x94970027, 105.6, 165.9, 108.737, -0.725375, 0, 0, -0.688354) /* PCAPRecordedLocation */
 /* @teleloc 0x94970027 [105.600000 165.900000 108.737000] -0.725375 0.000000 0.000000 -0.688354 */;

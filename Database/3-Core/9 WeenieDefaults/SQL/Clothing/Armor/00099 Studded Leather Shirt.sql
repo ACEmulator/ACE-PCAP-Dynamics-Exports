@@ -34,8 +34,8 @@ VALUES (99,   1, 'Studded Leather Shirt') /* Name */
      , (99,  16, 'Magnificently crafted Gromnie Hide Studded Leather Shirt , set with 2 Fire Opals') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (99,   1,   33554883) /* Setup */
-     , (99,   3,  536870932) /* SoundTable */
-     , (99,   6,   67108990) /* PaletteBase */
-     , (99,   8,  100669640) /* Icon */
-     , (99,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (99,   1, 0x020001C3) /* Setup */
+     , (99,   3, 0x20000014) /* SoundTable */
+     , (99,   6, 0x0400007E) /* PaletteBase */
+     , (99,   8, 0x060018C8) /* Icon */
+     , (99,  22, 0x3400002B) /* PhysicsEffectTable */;

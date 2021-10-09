@@ -34,20 +34,20 @@ VALUES (4682,   1, 'Healer Sunwi') /* Name */
      , (4682,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4682,   1,   33554433) /* Setup */
-     , (4682,   2,  150994945) /* MotionTable */
-     , (4682,   3,  536870913) /* SoundTable */
-     , (4682,   6,   67108990) /* PaletteBase */
-     , (4682,   8,  100667446) /* Icon */
-     , (4682,   9,   83890472) /* EyesTexture */
-     , (4682,  10,   83890536) /* NoseTexture */
-     , (4682,  11,   83890638) /* MouthTexture */
-     , (4682,  15,   67117070) /* HairPalette */
-     , (4682,  16,   67110062) /* EyesPalette */
-     , (4682,  17,   67109554) /* SkinPalette */;
+VALUES (4682,   1, 0x02000001) /* Setup */
+     , (4682,   2, 0x09000001) /* MotionTable */
+     , (4682,   3, 0x20000001) /* SoundTable */
+     , (4682,   6, 0x0400007E) /* PaletteBase */
+     , (4682,   8, 0x06001036) /* Icon */
+     , (4682,   9, 0x05001128) /* EyesTexture */
+     , (4682,  10, 0x05001168) /* NoseTexture */
+     , (4682,  11, 0x050011CE) /* MouthTexture */
+     , (4682,  15, 0x0400200E) /* HairPalette */
+     , (4682,  16, 0x040004AE) /* EyesPalette */
+     , (4682,  17, 0x040002B2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4682, 8040, 2421686588, 123.198, 66.7438, -0.171487, -0.9984943, 0, 0, -0.05485537) /* PCAPRecordedLocation */
+VALUES (4682, 8040, 0x9058013C, 123.198, 66.7438, -0.171487, -0.998494, 0, 0, -0.054855) /* PCAPRecordedLocation */
 /* @teleloc 0x9058013C [123.198000 66.743800 -0.171487] -0.998494 0.000000 0.000000 -0.054855 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

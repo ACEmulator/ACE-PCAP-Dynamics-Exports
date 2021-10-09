@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51365,   1, 'Prototype Bloodstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51365,   1,   33561554) /* Setup */
-     , (51365,   2,  150995096) /* MotionTable */
-     , (51365,   3,  536871001) /* SoundTable */
-     , (51365,   8,  100691499) /* Icon */
-     , (51365,  22,  872415347) /* PhysicsEffectTable */;
+VALUES (51365,   1, 0x02001BD2) /* Setup */
+     , (51365,   2, 0x09000098) /* MotionTable */
+     , (51365,   3, 0x20000059) /* SoundTable */
+     , (51365,   8, 0x06006E2B) /* Icon */
+     , (51365,  22, 0x34000073) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51365, 8040, 1498350108, 240, -120, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51365, 8040, 0x594F021C, 240, -120, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x594F021C [240.000000 -120.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;

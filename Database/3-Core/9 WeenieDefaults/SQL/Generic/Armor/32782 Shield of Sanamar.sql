@@ -42,16 +42,16 @@ VALUES (32782,   1, 'Shield of Sanamar') /* Name */
      , (32782,  16, 'A shield given by Turien di Furza, for valor in the retrieval of the stolen blade, The Sword of Bellenesse, for King Varicci II.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32782,   1,   33559844) /* Setup */
-     , (32782,   3,  536870932) /* SoundTable */
-     , (32782,   8,  100688640) /* Icon */
-     , (32782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32782,   1, 0x02001524) /* Setup */
+     , (32782,   3, 0x20000014) /* SoundTable */
+     , (32782,   8, 0x06006300) /* Icon */
+     , (32782,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32782, 8040, 3135766790, 84.07949, 105.1725, 25.926, 0.3564619, -0.5373489, -0.64903, -0.403672) /* PCAPRecordedLocation */
+VALUES (32782, 8040, 0xBAE80106, 84.07949, 105.1725, 25.926, 0.356462, -0.537349, -0.64903, -0.403672) /* PCAPRecordedLocation */
 /* @teleloc 0xBAE80106 [84.079490 105.172500 25.926000] 0.356462 -0.537349 -0.649030 -0.403672 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32782,   249,      2)  /* InvulnerabilitySelf6 */
-     , (32782,  2108,      2)  /* Impenetrability7 */
-     , (32782,  2663,      2)  /* ModerateStrength */;
+VALUES (32782,  2663,      2)  /* ModerateStrength */
+     , (32782,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32782,  2108,      2)  /* Impenetrability7 */;

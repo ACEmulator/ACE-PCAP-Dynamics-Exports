@@ -18,9 +18,9 @@ VALUES (42866,   1, 'Niffis') /* Name */
      , (42866,  16, 'The eerily floating Niffis cast bizarre shadows across the sands. Strangely beautiful, these creatures are, unfortunately, also aggressive. Their form suggests an affinity for water, yet many of them congregate in deserts, basking in the harsh sun and balancing themselves with their lateral "wings." It is thought the fine-grained Derethian sand may fulfill a function similar to water for the Niffis, a creature obviously saturated with alien and incomprehensible magic. Still, some rare Niffis do appear to seek out water, suggesting these creatures may once have had more humble and ordinary origins. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42866,   1,   33561008) /* Setup */
-     , (42866,   8,  100668115) /* Icon */;
+VALUES (42866,   1, 0x020019B0) /* Setup */
+     , (42866,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42866, 8040, 459065, 55.128, -154.912, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42866, 8040, 0x00070139, 55.128, -154.912, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070139 [55.128000 -154.912000 0.660000] -0.707107 0.000000 0.000000 -0.707107 */;

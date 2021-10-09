@@ -25,6 +25,6 @@ VALUES (39014,   1, 'Pallid Sea Invasion Key') /* Name */
      , (39014,  16, 'An ancient silver key rusted and overgrown with coral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39014,   1,   33554784) /* Setup */
-     , (39014,   8,  100667485) /* Icon */
-     , (39014,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39014,   1, 0x02000160) /* Setup */
+     , (39014,   8, 0x0600105D) /* Icon */
+     , (39014,  22, 0x3400002B) /* PhysicsEffectTable */;

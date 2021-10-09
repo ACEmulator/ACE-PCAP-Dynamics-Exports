@@ -34,20 +34,20 @@ VALUES (5877,   1, 'Surnad the Peddler') /* Name */
      , (5877,   5, 'Peddler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5877,   1,   33554433) /* Setup */
-     , (5877,   2,  150994945) /* MotionTable */
-     , (5877,   3,  536870913) /* SoundTable */
-     , (5877,   6,   67108990) /* PaletteBase */
-     , (5877,   8,  100667446) /* Icon */
-     , (5877,   9,   83890511) /* EyesTexture */
-     , (5877,  10,   83890550) /* NoseTexture */
-     , (5877,  11,   83890627) /* MouthTexture */
-     , (5877,  15,   67116982) /* HairPalette */
-     , (5877,  16,   67110063) /* EyesPalette */
-     , (5877,  17,   67109561) /* SkinPalette */;
+VALUES (5877,   1, 0x02000001) /* Setup */
+     , (5877,   2, 0x09000001) /* MotionTable */
+     , (5877,   3, 0x20000001) /* SoundTable */
+     , (5877,   6, 0x0400007E) /* PaletteBase */
+     , (5877,   8, 0x06001036) /* Icon */
+     , (5877,   9, 0x0500114F) /* EyesTexture */
+     , (5877,  10, 0x05001176) /* NoseTexture */
+     , (5877,  11, 0x050011C3) /* MouthTexture */
+     , (5877,  15, 0x04001FB6) /* HairPalette */
+     , (5877,  16, 0x040004AF) /* EyesPalette */
+     , (5877,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5877, 8040, 3316777218, 182.142, 156.189, 261.205, -0.6719992, 0, 0, -0.7405519) /* PCAPRecordedLocation */
+VALUES (5877, 8040, 0xC5B20102, 182.142, 156.189, 261.205, -0.671999, 0, 0, -0.740552) /* PCAPRecordedLocation */
 /* @teleloc 0xC5B20102 [182.142000 156.189000 261.205000] -0.671999 0.000000 0.000000 -0.740552 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

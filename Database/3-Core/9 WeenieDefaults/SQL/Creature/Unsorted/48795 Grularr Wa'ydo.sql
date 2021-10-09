@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48795,   1, 'Grularr Wa''ydo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48795,   1,   33560943) /* Setup */
-     , (48795,   2,  150995455) /* MotionTable */
-     , (48795,   3,  536870913) /* SoundTable */
-     , (48795,   6,   67108990) /* PaletteBase */
-     , (48795,   8,  100667446) /* Icon */;
+VALUES (48795,   1, 0x0200196F) /* Setup */
+     , (48795,   2, 0x090001FF) /* MotionTable */
+     , (48795,   3, 0x20000001) /* SoundTable */
+     , (48795,   6, 0x0400007E) /* PaletteBase */
+     , (48795,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48795, 8040, 1482817927, 136.038, -140.111, -11.995, 0.69976, 0, 0, -0.714378) /* PCAPRecordedLocation */
+VALUES (48795, 8040, 0x58620187, 136.038, -140.111, -11.995, 0.69976, 0, 0, -0.714378) /* PCAPRecordedLocation */
 /* @teleloc 0x58620187 [136.038000 -140.111000 -11.995000] 0.699760 0.000000 0.000000 -0.714378 */;

@@ -20,9 +20,9 @@ VALUES (5389,   1, 'Festival Stone') /* Name */
      , (5389,  16, 'Rejoice! The Hopeslayer has been defeated, thanks to the efforts of the brave people of Dereth!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5389,   1,   33556034) /* Setup */
-     , (5389,   8,  100670208) /* Icon */;
+VALUES (5389,   1, 0x02000642) /* Setup */
+     , (5389,   8, 0x06001B00) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5389, 8040, 3047292992, 188.074, 186.557, 44, -0.881118, 0, 0, -0.472896) /* PCAPRecordedLocation */
+VALUES (5389, 8040, 0xB5A20040, 188.074, 186.557, 44, -0.881118, 0, 0, -0.472896) /* PCAPRecordedLocation */
 /* @teleloc 0xB5A20040 [188.074000 186.557000 44.000000] -0.881118 0.000000 0.000000 -0.472896 */;

@@ -44,18 +44,18 @@ VALUES (43813,   1, 'Sturdy Bloodstone Wand') /* Name */
      , (43813,  16, 'A wand, crafted from the remains of the shattered Master Bloodstone.  This wand has been reinforced in order to make it easier to wield, but it lost some of its potency in the process.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43813,   1,   33561162) /* Setup */
-     , (43813,   3,  536870932) /* SoundTable */
-     , (43813,   6,   67111919) /* PaletteBase */
-     , (43813,   8,  100672995) /* Icon */
-     , (43813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43813,   1, 0x02001A4A) /* Setup */
+     , (43813,   3, 0x20000014) /* SoundTable */
+     , (43813,   6, 0x04000BEF) /* PaletteBase */
+     , (43813,   8, 0x060025E3) /* Icon */
+     , (43813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43813,  28,       5530) /* Spell - BloodstoneBolt6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43813, 8040, 23855555, 63.69881, -35.44367, 0.4414956, -0.5343401, -0.5343401, -0.4631206, -0.4631206) /* PCAPRecordedLocation */
+VALUES (43813, 8040, 0x016C01C3, 63.69881, -35.44367, 0.441496, -0.53434, -0.53434, -0.463121, -0.463121) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [63.698810 -35.443670 0.441496] -0.534340 -0.534340 -0.463121 -0.463121 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43813,  2101,      2)  /* DefenderSelf7 */
-     , (43813,  2267,      2)  /* LifeMagicMasterySelf7 */
+VALUES (43813,  2267,      2)  /* LifeMagicMasterySelf7 */
+     , (43813,  2101,      2)  /* DefenderSelf7 */
      , (43813,  3259,      2)  /* SpiritDrinkerSelf7 */;

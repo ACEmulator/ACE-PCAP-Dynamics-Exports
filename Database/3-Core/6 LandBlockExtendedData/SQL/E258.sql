@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xE258;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E258001,  1154, 0xE2580011, 57.94468, 12.33165, 10.01, 0.7815406, 0, 0, -0.6238544, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7E258001,  1154, 0xE2580011, 57.94468, 12.33165, 10.01, 0.781541, 0, 0, -0.623854, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xE2580011 [57.944680 12.331650 10.010000] 0.781541 0.000000 0.000000 -0.623854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x7E258001, 0x7E258002, '2019-02-10 00:00:00') /* Russet Rat (4132) */
      , (0x7E258001, 0x7E258005, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E258002,  4132, 0xE2580011, 57.94468, 12.33165, 10.01, 0.7815406, 0, 0, -0.6238544,  True, '2019-02-10 00:00:00'); /* Russet Rat */
+VALUES (0x7E258002,  4132, 0xE2580011, 57.94468, 12.33165, 10.01, 0.781541, 0, 0, -0.623854,  True, '2019-02-10 00:00:00'); /* Russet Rat */
 /* @teleloc 0xE2580011 [57.944680 12.331650 10.010000] 0.781541 0.000000 0.000000 -0.623854 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

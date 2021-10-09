@@ -28,12 +28,12 @@ VALUES (35321,   1, 'Arena One Statue') /* Name */
      , (35321,  16, 'Arena One is currently in use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35321,   1,   33560283) /* Setup */
-     , (35321,   2,  150995147) /* MotionTable */
-     , (35321,   3,  536871052) /* SoundTable */
-     , (35321,   8,  100688311) /* Icon */
-     , (35321,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (35321,   1, 0x020016DB) /* Setup */
+     , (35321,   2, 0x090000CB) /* MotionTable */
+     , (35321,   3, 0x2000008C) /* SoundTable */
+     , (35321,   8, 0x060061B7) /* Icon */
+     , (35321,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35321, 8040, 11469079, 38, 4.4, 0, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35321, 8040, 0x00AF0117, 38, 4.4, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0117 [38.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

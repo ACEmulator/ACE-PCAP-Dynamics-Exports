@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34582,   1, 'Bone Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34582,   1,   33560184) /* Setup */
-     , (34582,   3,  536870932) /* SoundTable */
-     , (34582,   8,  100689317) /* Icon */
-     , (34582,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34582,   1, 0x02001678) /* Setup */
+     , (34582,   3, 0x20000014) /* SoundTable */
+     , (34582,   8, 0x060065A5) /* Icon */
+     , (34582,  22, 0x3400002B) /* PhysicsEffectTable */;

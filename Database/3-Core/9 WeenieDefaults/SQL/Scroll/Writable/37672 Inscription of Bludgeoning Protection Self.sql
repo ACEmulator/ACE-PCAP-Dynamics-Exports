@@ -23,7 +23,7 @@ VALUES (37672,   1, 'Inscription of Bludgeoning Protection Self') /* Name */
 Reduces damage the caster takes from Bludgeoning by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37672,   1,   33554826) /* Setup */
-     , (37672,   8,  100676952) /* Icon */
-     , (37672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37672,   1, 0x0200018A) /* Setup */
+     , (37672,   8, 0x06003558) /* Icon */
+     , (37672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37672,  28,       4464) /* Spell - BludgeonProtectionSelf8 */;

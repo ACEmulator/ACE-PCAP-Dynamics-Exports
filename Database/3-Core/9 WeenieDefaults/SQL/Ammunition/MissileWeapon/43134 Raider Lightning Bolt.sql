@@ -53,12 +53,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43134,   1, 'Raider Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43134,   1,   33555695) /* Setup */
-     , (43134,   3,  536870932) /* SoundTable */
-     , (43134,   6,   67111919) /* PaletteBase */
-     , (43134,   8,  100672656) /* Icon */
-     , (43134,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43134,   1, 0x020004EF) /* Setup */
+     , (43134,   3, 0x20000014) /* SoundTable */
+     , (43134,   6, 0x04000BEF) /* PaletteBase */
+     , (43134,   8, 0x06002490) /* Icon */
+     , (43134,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43134, 8040, 445644850, 165.2688, 31.62195, 67.47214, 0.7070378, 0.7070378, -0.009876399, -0.009876399) /* PCAPRecordedLocation */
+VALUES (43134, 8040, 0x1A900032, 165.2688, 31.62195, 67.47214, 0.707038, 0.707038, -0.009876, -0.009876) /* PCAPRecordedLocation */
 /* @teleloc 0x1A900032 [165.268800 31.621950 67.472140] 0.707038 0.707038 -0.009876 -0.009876 */;

@@ -51,15 +51,15 @@ VALUES (356,   1, 'Tofun') /* Name */
      , (356,  16, 'Tofun of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (356,   1,   33554746) /* Setup */
-     , (356,   3,  536870932) /* SoundTable */
-     , (356,   6,   67111919) /* PaletteBase */
-     , (356,   8,  100668956) /* Icon */
-     , (356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (356,   1, 0x0200013A) /* Setup */
+     , (356,   3, 0x20000014) /* SoundTable */
+     , (356,   6, 0x04000BEF) /* PaletteBase */
+     , (356,   8, 0x0600161C) /* Icon */
+     , (356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (356,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (356, 8040, 3378184483, 104.9926, 67.42153, 11.929, -0.7044223, -0.7044223, -0.06155663, -0.06155663) /* PCAPRecordedLocation */
+VALUES (356, 8040, 0xC95B0123, 104.9926, 67.42153, 11.929, -0.704422, -0.704422, -0.061557, -0.061557) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0123 [104.992600 67.421530 11.929000] -0.704422 -0.704422 -0.061557 -0.061557 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

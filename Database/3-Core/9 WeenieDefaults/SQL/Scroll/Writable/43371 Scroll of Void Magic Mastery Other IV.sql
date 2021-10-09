@@ -23,7 +23,7 @@ VALUES (43371,   1, 'Scroll of Void Magic Mastery Other IV') /* Name */
 Increases the target''s Void Magic skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43371,   1,   33554826) /* Setup */
-     , (43371,   8,  100691548) /* Icon */
-     , (43371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43371,   1, 0x0200018A) /* Setup */
+     , (43371,   8, 0x06006E5C) /* Icon */
+     , (43371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43371,  28,       5406) /* Spell - VoidMagicMasteryOther4 */;

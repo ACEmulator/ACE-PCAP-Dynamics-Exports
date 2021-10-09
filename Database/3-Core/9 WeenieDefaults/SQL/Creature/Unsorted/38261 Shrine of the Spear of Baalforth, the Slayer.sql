@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38261,   1, 'Shrine of the Spear of Baalforth, the Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38261,   1,   33558607) /* Setup */
-     , (38261,   2,  150995279) /* MotionTable */
-     , (38261,   3,  536871052) /* SoundTable */
-     , (38261,   8,  100675788) /* Icon */
-     , (38261,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38261,   1, 0x0200104F) /* Setup */
+     , (38261,   2, 0x0900014F) /* MotionTable */
+     , (38261,   3, 0x2000008C) /* SoundTable */
+     , (38261,   8, 0x060030CC) /* Icon */
+     , (38261,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38261, 8040, 990511141, 108, 108, 2.94674, 0.793598, 0, 0, -0.608443) /* PCAPRecordedLocation */
+VALUES (38261, 8040, 0x3B0A0025, 108, 108, 2.94674, 0.793598, 0, 0, -0.608443) /* PCAPRecordedLocation */
 /* @teleloc 0x3B0A0025 [108.000000 108.000000 2.946740] 0.793598 0.000000 0.000000 -0.608443 */;

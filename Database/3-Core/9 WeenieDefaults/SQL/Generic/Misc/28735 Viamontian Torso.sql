@@ -20,7 +20,7 @@ VALUES (28735,   1, 'Viamontian Torso') /* Name */
      , (28735,  16, 'A human torso. All appendages have been savagely removed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28735,   1,   33554817) /* Setup */
-     , (28735,   3,  536870932) /* SoundTable */
-     , (28735,   8,  100686362) /* Icon */
-     , (28735,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28735,   1, 0x02000181) /* Setup */
+     , (28735,   3, 0x20000014) /* SoundTable */
+     , (28735,   8, 0x06005A1A) /* Icon */
+     , (28735,  22, 0x3400002B) /* PhysicsEffectTable */;

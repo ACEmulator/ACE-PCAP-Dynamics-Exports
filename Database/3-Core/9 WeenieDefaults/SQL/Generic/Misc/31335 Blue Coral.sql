@@ -22,7 +22,7 @@ VALUES (31335,   1, 'Blue Coral') /* Name */
      , (31335,  16, 'A chunk of Blue Coral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31335,   1,   33554817) /* Setup */
-     , (31335,   3,  536870932) /* SoundTable */
-     , (31335,   8,  100687947) /* Icon */
-     , (31335,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31335,   1, 0x02000181) /* Setup */
+     , (31335,   3, 0x20000014) /* SoundTable */
+     , (31335,   8, 0x0600604B) /* Icon */
+     , (31335,  22, 0x3400002B) /* PhysicsEffectTable */;

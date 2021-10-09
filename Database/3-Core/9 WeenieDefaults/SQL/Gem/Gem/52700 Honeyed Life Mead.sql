@@ -31,10 +31,10 @@ VALUES (52700,   1, 'Honeyed Life Mead') /* Name */
      , (52700,  20, 'Bottles of Honeyed Life Mead') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52700,   1,   33554603) /* Setup */
-     , (52700,   3,  536870932) /* SoundTable */
-     , (52700,   6,   67111919) /* PaletteBase */
-     , (52700,   8,  100676320) /* Icon */
-     , (52700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52700,   1, 0x020000AB) /* Setup */
+     , (52700,   3, 0x20000014) /* SoundTable */
+     , (52700,   6, 0x04000BEF) /* PaletteBase */
+     , (52700,   8, 0x060032E0) /* Icon */
+     , (52700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52700,  28,       6170) /* Spell - HoneyedLifeMead */
-     , (52700,  52,  100689805) /* IconUnderlay */;
+     , (52700,  52, 0x0600678D) /* IconUnderlay */;

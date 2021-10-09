@@ -26,14 +26,14 @@ VALUES (41176,   1, 'Master Statue of ''Moarsman City'' Transport') /* Name */
      , (41176,  16, 'A statue that transports those who are Masters of their Society to the city of Nyr''leha.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41176,   1,   33560834) /* Setup */
-     , (41176,   2,  150995147) /* MotionTable */
-     , (41176,   3,  536871017) /* SoundTable */
-     , (41176,   8,  100675780) /* Icon */
-     , (41176,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (41176,   1, 0x02001902) /* Setup */
+     , (41176,   2, 0x090000CB) /* MotionTable */
+     , (41176,   3, 0x20000069) /* SoundTable */
+     , (41176,   8, 0x060030C4) /* Icon */
+     , (41176,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41176, 8040, 11993749, 107.747, -34.4459, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (41176, 8040, 0x00B70295, 107.747, -34.4459, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B70295 [107.747000 -34.445900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

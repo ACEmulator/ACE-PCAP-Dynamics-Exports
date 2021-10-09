@@ -29,20 +29,20 @@ VALUES (5839,   1, 'MacDugal') /* Name */
      , (5839,   5, 'Bandit Captain') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5839,   1,   33554433) /* Setup */
-     , (5839,   2,  150994945) /* MotionTable */
-     , (5839,   3,  536870913) /* SoundTable */
-     , (5839,   6,   67108990) /* PaletteBase */
-     , (5839,   8,  100667446) /* Icon */
-     , (5839,   9,   83890485) /* EyesTexture */
-     , (5839,  10,   83890555) /* NoseTexture */
-     , (5839,  11,   83890643) /* MouthTexture */
-     , (5839,  15,   67116993) /* HairPalette */
-     , (5839,  16,   67110062) /* EyesPalette */
-     , (5839,  17,   67109558) /* SkinPalette */;
+VALUES (5839,   1, 0x02000001) /* Setup */
+     , (5839,   2, 0x09000001) /* MotionTable */
+     , (5839,   3, 0x20000001) /* SoundTable */
+     , (5839,   6, 0x0400007E) /* PaletteBase */
+     , (5839,   8, 0x06001036) /* Icon */
+     , (5839,   9, 0x05001135) /* EyesTexture */
+     , (5839,  10, 0x0500117B) /* NoseTexture */
+     , (5839,  11, 0x050011D3) /* MouthTexture */
+     , (5839,  15, 0x04001FC1) /* HairPalette */
+     , (5839,  16, 0x040004AE) /* EyesPalette */
+     , (5839,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5839, 8040, 3184656683, 165.875, 83.7989, 190.005, -0.694827, 0, 0, 0.719177) /* PCAPRecordedLocation */
+VALUES (5839, 8040, 0xBDD2012B, 165.875, 83.7989, 190.005, -0.694827, 0, 0, 0.719177) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD2012B [165.875000 83.798900 190.005000] -0.694827 0.000000 0.000000 0.719177 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

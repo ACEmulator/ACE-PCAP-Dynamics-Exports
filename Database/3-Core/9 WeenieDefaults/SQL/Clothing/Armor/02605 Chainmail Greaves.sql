@@ -43,13 +43,13 @@ VALUES (2605,   1, 'Chainmail Greaves') /* Name */
      , (2605,  16, 'Chainmail Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2605,   1,   33554641) /* Setup */
-     , (2605,   3,  536870932) /* SoundTable */
-     , (2605,   6,   67108990) /* PaletteBase */
-     , (2605,   8,  100669368) /* Icon */
-     , (2605,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2605,   1, 0x020000D1) /* Setup */
+     , (2605,   3, 0x20000014) /* SoundTable */
+     , (2605,   6, 0x0400007E) /* PaletteBase */
+     , (2605,   8, 0x060017B8) /* Icon */
+     , (2605,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2605,  1486,      2)  /* Impenetrability6 */
-     , (2605,  1527,      2)  /* FrostBane5 */
-     , (2605,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */;
+     , (2605,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */
+     , (2605,  1527,      2)  /* FrostBane5 */;

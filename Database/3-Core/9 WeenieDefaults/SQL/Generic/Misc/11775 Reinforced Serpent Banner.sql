@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11775,   1, 'Reinforced Serpent Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11775,   1,   33557243) /* Setup */
-     , (11775,   3,  536870932) /* SoundTable */
-     , (11775,   8,  100671928) /* Icon */
-     , (11775,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11775,   1, 0x02000AFB) /* Setup */
+     , (11775,   3, 0x20000014) /* SoundTable */
+     , (11775,   8, 0x060021B8) /* Icon */
+     , (11775,  22, 0x3400002B) /* PhysicsEffectTable */;

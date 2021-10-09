@@ -23,7 +23,7 @@ VALUES (28014,   1, 'Scroll of Spirit Loather VI') /* Name */
 Decreases the elemental damage bonus of an elemental magic caster by 6%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28014,   1,   33554826) /* Setup */
-     , (28014,   8,  100676675) /* Icon */
-     , (28014,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28014,   1, 0x0200018A) /* Setup */
+     , (28014,   8, 0x06003443) /* Icon */
+     , (28014,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28014,  28,       3265) /* Spell - SpiritLoather6 */;

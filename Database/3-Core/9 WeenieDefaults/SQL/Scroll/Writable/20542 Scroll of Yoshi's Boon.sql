@@ -23,7 +23,7 @@ VALUES (20542,   1, 'Scroll of Yoshi''s Boon') /* Name */
 Increases the target''s Item Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20542,   1,   33554826) /* Setup */
-     , (20542,   8,  100676477) /* Icon */
-     , (20542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20542,   1, 0x0200018A) /* Setup */
+     , (20542,   8, 0x0600337D) /* Icon */
+     , (20542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20542,  28,       2250) /* Spell - ItemExpertiseOther7 */;

@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46065,   1, 'Major Stinging Atlan Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46065,   1,   33557754) /* Setup */
-     , (46065,   3,  536870932) /* SoundTable */
-     , (46065,   6,   67111919) /* PaletteBase */
-     , (46065,   8,  100673015) /* Icon */
-     , (46065,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46065,   1, 0x02000CFA) /* Setup */
+     , (46065,   3, 0x20000014) /* SoundTable */
+     , (46065,   6, 0x04000BEF) /* PaletteBase */
+     , (46065,   8, 0x060025F7) /* Icon */
+     , (46065,  22, 0x3400002B) /* PhysicsEffectTable */;

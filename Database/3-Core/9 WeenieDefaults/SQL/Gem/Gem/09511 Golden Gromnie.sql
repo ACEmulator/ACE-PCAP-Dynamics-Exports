@@ -23,8 +23,8 @@ VALUES (9511,   1, 'Golden Gromnie') /* Name */
      , (9511,  16, 'An exclusive prize from a gambling den!  The hopping Golden Gromnie is the hippest Pack Monster ever!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9511,   1,   33554487) /* Setup */
-     , (9511,   2,  150995122) /* MotionTable */
-     , (9511,   6,   67109307) /* PaletteBase */
-     , (9511,   8,  100671514) /* Icon */
-     , (9511,  22,  872415260) /* PhysicsEffectTable */;
+VALUES (9511,   1, 0x02000037) /* Setup */
+     , (9511,   2, 0x090000B2) /* MotionTable */
+     , (9511,   6, 0x040001BB) /* PaletteBase */
+     , (9511,   8, 0x0600201A) /* Icon */
+     , (9511,  22, 0x3400001C) /* PhysicsEffectTable */;

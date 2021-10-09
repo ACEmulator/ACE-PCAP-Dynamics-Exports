@@ -46,13 +46,13 @@ VALUES (43141,   1, 'Aegis of the Gold Gear') /* Name */
      , (43141,  16, 'An Aegis, crafted in the Gear Knight style out of a chunk of Aetherium that has been augmented with small amounts of Chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43141,   1,   33561097) /* Setup */
-     , (43141,   3,  536870932) /* SoundTable */
-     , (43141,   8,  100691463) /* Icon */
-     , (43141,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43141,   1, 0x02001A09) /* Setup */
+     , (43141,   3, 0x20000014) /* SoundTable */
+     , (43141,   8, 0x06006E07) /* Icon */
+     , (43141,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43141, 8040, 3465871413, 157.1841, 95.99943, 19.926, 0.4786811, -0.2650957, -0.7998175, -0.2467401) /* PCAPRecordedLocation */
+VALUES (43141, 8040, 0xCE950035, 157.1841, 95.99943, 19.926, 0.478681, -0.265096, -0.799818, -0.24674) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [157.184100 95.999430 19.926000] 0.478681 -0.265096 -0.799818 -0.246740 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

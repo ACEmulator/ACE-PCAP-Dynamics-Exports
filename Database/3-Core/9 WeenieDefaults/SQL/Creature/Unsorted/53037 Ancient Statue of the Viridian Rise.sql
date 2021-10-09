@@ -27,12 +27,12 @@ VALUES (53037,   1, 'Ancient Statue of the Viridian Rise') /* Name */
      , (53037,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53037,   1,   33558954) /* Setup */
-     , (53037,   2,  150995147) /* MotionTable */
-     , (53037,   3,  536871052) /* SoundTable */
-     , (53037,   8,  100688311) /* Icon */
-     , (53037,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53037,   1, 0x020011AA) /* Setup */
+     , (53037,   2, 0x090000CB) /* MotionTable */
+     , (53037,   3, 0x2000008C) /* SoundTable */
+     , (53037,   8, 0x060061B7) /* Icon */
+     , (53037,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53037, 8040, 3007971387, 189.2, 70.3, 117.7667, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (53037, 8040, 0xB34A003B, 189.2, 70.3, 117.7667, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB34A003B [189.200000 70.300000 117.766700] -0.707107 0.000000 0.000000 -0.707107 */;

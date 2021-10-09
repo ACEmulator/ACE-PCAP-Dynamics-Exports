@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8927,   1, 'Scroll of Force Blast V') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8927,   1,   33554826) /* Setup */
-     , (8927,   8,  100677019) /* Icon */
-     , (8927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8927,   1, 0x0200018A) /* Setup */
+     , (8927,   8, 0x0600359B) /* Icon */
+     , (8927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8927,  28,        121) /* Spell - ForceBlast5 */
      , (8927, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

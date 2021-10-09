@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37169,   1, 'Master''s Sentinel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37169,   1,   33555355) /* Setup */
-     , (37169,   2,  150995261) /* MotionTable */
-     , (37169,   3,  536870933) /* SoundTable */
-     , (37169,   8,  100689072) /* Icon */;
+VALUES (37169,   1, 0x0200039B) /* Setup */
+     , (37169,   2, 0x0900013D) /* MotionTable */
+     , (37169,   3, 0x20000015) /* SoundTable */
+     , (37169,   8, 0x060064B0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37169, 8040, 2531000351, 93.5313, 163.307, 302.5968, 0.478564, 0, 0, 0.878053) /* PCAPRecordedLocation */
+VALUES (37169, 8040, 0x96DC001F, 93.5313, 163.307, 302.5968, 0.478564, 0, 0, 0.878053) /* PCAPRecordedLocation */
 /* @teleloc 0x96DC001F [93.531300 163.307000 302.596800] 0.478564 0.000000 0.000000 0.878053 */;

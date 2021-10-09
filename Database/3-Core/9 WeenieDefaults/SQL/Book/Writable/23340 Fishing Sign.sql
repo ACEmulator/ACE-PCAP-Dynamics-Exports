@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23340,   1, 'Fishing Sign') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23340,   1,   33555088) /* Setup */
-     , (23340,   8,  100668115) /* Icon */;
+VALUES (23340,   1, 0x02000290) /* Setup */
+     , (23340,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23340, 8040, 3829202975, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461) /* PCAPRecordedLocation */
+VALUES (23340, 8040, 0xE43D001F, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461) /* PCAPRecordedLocation */
 /* @teleloc 0xE43D001F [75.004200 153.852000 120.000000] 0.913668 0.000000 0.000000 -0.406461 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

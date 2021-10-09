@@ -30,20 +30,20 @@ VALUES (30435,   1, 'Mendica Scarsolo') /* Name */
      , (30435,   5, 'Beggar') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30435,   1,   33554433) /* Setup */
-     , (30435,   2,  150994945) /* MotionTable */
-     , (30435,   3,  536870913) /* SoundTable */
-     , (30435,   6,   67108990) /* PaletteBase */
-     , (30435,   8,  100667377) /* Icon */
-     , (30435,   9,   83890516) /* EyesTexture */
-     , (30435,  10,   83890560) /* NoseTexture */
-     , (30435,  11,   83890640) /* MouthTexture */
-     , (30435,  15,   67117076) /* HairPalette */
-     , (30435,  16,   67110063) /* EyesPalette */
-     , (30435,  17,   67115907) /* SkinPalette */;
+VALUES (30435,   1, 0x02000001) /* Setup */
+     , (30435,   2, 0x09000001) /* MotionTable */
+     , (30435,   3, 0x20000001) /* SoundTable */
+     , (30435,   6, 0x0400007E) /* PaletteBase */
+     , (30435,   8, 0x06000FF1) /* Icon */
+     , (30435,   9, 0x05001154) /* EyesTexture */
+     , (30435,  10, 0x05001180) /* NoseTexture */
+     , (30435,  11, 0x050011D0) /* MouthTexture */
+     , (30435,  15, 0x04002014) /* HairPalette */
+     , (30435,  16, 0x040004AF) /* EyesPalette */
+     , (30435,  17, 0x04001B83) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30435, 8040, 669777957, 99.4314, 113.906, 80.005, -0.608023, 0, 0, -0.793919) /* PCAPRecordedLocation */
+VALUES (30435, 8040, 0x27EC0025, 99.4314, 113.906, 80.005, -0.608023, 0, 0, -0.793919) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0025 [99.431400 113.906000 80.005000] -0.608023 0.000000 0.000000 -0.793919 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33886,   1, 'Abyssal Gateway Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33886,   1,   33555424) /* Setup */
-     , (33886,   3,  536870932) /* SoundTable */
-     , (33886,   8,  100689066) /* Icon */
-     , (33886,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33886,   1, 0x020003E0) /* Setup */
+     , (33886,   3, 0x20000014) /* SoundTable */
+     , (33886,   8, 0x060064AA) /* Icon */
+     , (33886,  22, 0x3400002B) /* PhysicsEffectTable */;

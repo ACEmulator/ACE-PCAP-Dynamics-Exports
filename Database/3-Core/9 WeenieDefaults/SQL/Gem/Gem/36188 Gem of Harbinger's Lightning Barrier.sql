@@ -30,9 +30,9 @@ VALUES (36188,   1, 'Gem of Harbinger''s Lightning Barrier') /* Name */
      , (36188,  20, 'Gems of Harbinger''s Lightning Barrier') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36188,   1,   33554809) /* Setup */
-     , (36188,   3,  536870932) /* SoundTable */
-     , (36188,   6,   67111919) /* PaletteBase */
-     , (36188,   8,  100673905) /* Icon */
-     , (36188,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36188,   1, 0x02000179) /* Setup */
+     , (36188,   3, 0x20000014) /* SoundTable */
+     , (36188,   6, 0x04000BEF) /* PaletteBase */
+     , (36188,   8, 0x06002971) /* Icon */
+     , (36188,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36188,  28,       4192) /* Spell - HarbingerProtectionLightning */;

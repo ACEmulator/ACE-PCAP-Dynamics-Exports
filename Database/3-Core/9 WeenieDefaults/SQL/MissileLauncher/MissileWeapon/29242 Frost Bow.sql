@@ -50,19 +50,19 @@ VALUES (29242,   1, 'Frost Bow') /* Name */
      , (29242,  16, 'Frost Bow of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29242,   1,   33559026) /* Setup */
-     , (29242,   3,  536870932) /* SoundTable */
-     , (29242,   6,   67115373) /* PaletteBase */
-     , (29242,   8,  100677124) /* Icon */
-     , (29242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29242,   1, 0x020011F2) /* Setup */
+     , (29242,   3, 0x20000014) /* SoundTable */
+     , (29242,   6, 0x0400196D) /* PaletteBase */
+     , (29242,   8, 0x06003604) /* Icon */
+     , (29242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29242,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29242,  52,  100676435) /* IconUnderlay */;
+     , (29242,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29242, 8040, 1615200999, 103.4863, -60.10806, 17.93, -0.8734888, 0, 0, -0.4868443) /* PCAPRecordedLocation */
+VALUES (29242, 8040, 0x604602E7, 103.4863, -60.10806, 17.93, -0.873489, 0, 0, -0.486844) /* PCAPRecordedLocation */
 /* @teleloc 0x604602E7 [103.486300 -60.108060 17.930000] -0.873489 0.000000 0.000000 -0.486844 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29242,  1332,      2)  /* StrengthSelf6 */
-     , (29242,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (29242,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (29242,  1332,      2)  /* StrengthSelf6 */
      , (29242,  4663,      2)  /* CANTRIPDEFENDER3 */;

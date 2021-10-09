@@ -18,9 +18,9 @@ VALUES (14686,   1, 'Celcynd Cottages') /* Name */
      , (14686,  16, 'Welcome to Celcynd Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14686,   1,   33557463) /* Setup */
-     , (14686,   8,  100668115) /* Icon */;
+VALUES (14686,   1, 0x02000BD7) /* Setup */
+     , (14686,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14686, 8040, 2347892791, 154.566, 148.61, 2, -0.899942, 0, 0, 0.436009) /* PCAPRecordedLocation */
+VALUES (14686, 8040, 0x8BF20037, 154.566, 148.61, 2, -0.899942, 0, 0, 0.436009) /* PCAPRecordedLocation */
 /* @teleloc 0x8BF20037 [154.566000 148.610000 2.000000] -0.899942 0.000000 0.000000 0.436009 */;

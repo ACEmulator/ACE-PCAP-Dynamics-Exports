@@ -29,7 +29,7 @@ VALUES (44298,   1, 'Broken Stone Tablet') /* Name */
      , (44298,  15, 'A piece of a stone tablet that looks to be broken off of a larger section.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44298,   1,   33561255) /* Setup */
-     , (44298,   3,  536870932) /* SoundTable */
-     , (44298,   8,  100691956) /* Icon */
-     , (44298,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44298,   1, 0x02001AA7) /* Setup */
+     , (44298,   3, 0x20000014) /* SoundTable */
+     , (44298,   8, 0x06006FF4) /* Icon */
+     , (44298,  22, 0x3400002B) /* PhysicsEffectTable */;

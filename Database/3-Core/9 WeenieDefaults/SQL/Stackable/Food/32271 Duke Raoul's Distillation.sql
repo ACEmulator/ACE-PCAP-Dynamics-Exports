@@ -32,10 +32,10 @@ VALUES (32271,   1, 'Duke Raoul''s Distillation') /* Name */
      , (32271,  20, 'Bottles of Duke Raoul''s Distillation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32271,   1,   33559128) /* Setup */
-     , (32271,   3,  536870932) /* SoundTable */
-     , (32271,   8,  100688499) /* Icon */
-     , (32271,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32271,   1, 0x02001258) /* Setup */
+     , (32271,   3, 0x20000014) /* SoundTable */
+     , (32271,   8, 0x06006273) /* Icon */
+     , (32271,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32271,  28,       3862) /* Spell - DukeRaoulPride */
-     , (32271,  50,  100687554) /* IconOverlay */
-     , (32271,  52,  100687547) /* IconUnderlay */;
+     , (32271,  50, 0x06005EC2) /* IconOverlay */
+     , (32271,  52, 0x06005EBB) /* IconUnderlay */;

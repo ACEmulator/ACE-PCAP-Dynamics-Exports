@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCA88;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88001,  1154, 0xCA880008, 23.29206, 170.9676, 11.62339, 0.9996844, 0, 0, -0.02512235, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7CA88001,  1154, 0xCA880008, 23.29206, 170.9676, 11.62339, 0.999684, 0, 0, -0.025122, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xCA880008 [23.292060 170.967600 11.623390] 0.999684 0.000000 0.000000 -0.025122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,23 +12,23 @@ VALUES (0x7CA88001, 0x7CA88002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7CA88001, 0x7CA88006, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88002,  2566, 0xCA880008, 23.29206, 170.9676, 11.62339, 0.9996844, 0, 0, -0.02512235,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+VALUES (0x7CA88002,  2566, 0xCA880008, 23.29206, 170.9676, 11.62339, 0.999684, 0, 0, -0.025122,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xCA880008 [23.292060 170.967600 11.623390] 0.999684 0.000000 0.000000 -0.025122 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88003,  7986, 0xCA88003E, 170.9294, 125.7367, 3.1004, -0.387434, 0, 0, -0.9218974,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
+VALUES (0x7CA88003,  7986, 0xCA88003E, 170.9294, 125.7367, 3.1004, -0.387434, 0, 0, -0.921897,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
 /* @teleloc 0xCA88003E [170.929400 125.736700 3.100400] -0.387434 0.000000 0.000000 -0.921897 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88004,  7985, 0xCA880033, 152.2167, 65.15376, 3.5503, 0.5390762, 0, 0, -0.842257,  True, '2019-02-10 00:00:00'); /* Listris Niffis */
+VALUES (0x7CA88004,  7985, 0xCA880033, 152.2167, 65.15376, 3.5503, 0.539076, 0, 0, -0.842257,  True, '2019-02-10 00:00:00'); /* Listris Niffis */
 /* @teleloc 0xCA880033 [152.216700 65.153760 3.550300] 0.539076 0.000000 0.000000 -0.842257 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88005,  7986, 0xCA88003B, 174.7146, 61.15585, 3.1004, 0.5390762, 0, 0, -0.842257,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
+VALUES (0x7CA88005,  7986, 0xCA88003B, 174.7146, 61.15585, 3.1004, 0.539076, 0, 0, -0.842257,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
 /* @teleloc 0xCA88003B [174.714600 61.155850 3.100400] 0.539076 0.000000 0.000000 -0.842257 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA88006,  7986, 0xCA88003D, 181.5417, 103.3983, 3.1004, -0.387434, 0, 0, -0.9218974,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
+VALUES (0x7CA88006,  7986, 0xCA88003D, 181.5417, 103.3983, 3.1004, -0.387434, 0, 0, -0.921897,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
 /* @teleloc 0xCA88003D [181.541700 103.398300 3.100400] -0.387434 0.000000 0.000000 -0.921897 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

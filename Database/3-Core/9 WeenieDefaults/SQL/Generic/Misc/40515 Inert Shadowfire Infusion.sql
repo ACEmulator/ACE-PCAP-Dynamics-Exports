@@ -22,8 +22,8 @@ VALUES (40515,   1, 'Inert Shadowfire Infusion') /* Name */
      , (40515,  16, 'A small glass flask partially filled with a dark fluid and flakes of what seems to be the crushed remains of a Shadowfire Atlan Stone.  It looks like it could be empowered by adding an infusion into the flask.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40515,   1,   33555965) /* Setup */
-     , (40515,   3,  536870932) /* SoundTable */
-     , (40515,   6,   67111919) /* PaletteBase */
-     , (40515,   8,  100690380) /* Icon */
-     , (40515,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40515,   1, 0x020005FD) /* Setup */
+     , (40515,   3, 0x20000014) /* SoundTable */
+     , (40515,   6, 0x04000BEF) /* PaletteBase */
+     , (40515,   8, 0x060069CC) /* Icon */
+     , (40515,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8467,   1, 'Dread Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8467,   1,   33556893) /* Setup */
-     , (8467,   2,  150995105) /* MotionTable */
-     , (8467,   3,  536871017) /* SoundTable */
-     , (8467,   6,   67113068) /* PaletteBase */
-     , (8467,   8,  100671204) /* Icon */
-     , (8467,  22,  872415369) /* PhysicsEffectTable */
+VALUES (8467,   1, 0x0200099D) /* Setup */
+     , (8467,   2, 0x090000A1) /* MotionTable */
+     , (8467,   3, 0x20000069) /* SoundTable */
+     , (8467,   6, 0x0400106C) /* PaletteBase */
+     , (8467,   8, 0x06001EE4) /* Icon */
+     , (8467,  22, 0x34000089) /* PhysicsEffectTable */
      , (8467,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8467, 8040, 2412838935, 48.54228, 148.7875, 279.6462, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8467, 8040, 0x8FD10017, 48.54228, 148.7875, 279.6462, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8FD10017 [48.542280 148.787500 279.646200] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

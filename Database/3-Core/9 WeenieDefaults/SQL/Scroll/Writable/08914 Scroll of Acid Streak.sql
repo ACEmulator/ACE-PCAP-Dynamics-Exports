@@ -23,7 +23,7 @@ VALUES (8914,   1, 'Scroll of Acid Streak') /* Name */
 Sends a stream of acid streaking towards the target. The stream does 16-31 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8914,   1,   33554826) /* Setup */
-     , (8914,   8,  100677026) /* Icon */
-     , (8914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8914,   1, 0x0200018A) /* Setup */
+     , (8914,   8, 0x060035A2) /* Icon */
+     , (8914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8914,  28,       1790) /* Spell - AcidStreak1 */;

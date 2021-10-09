@@ -27,7 +27,7 @@ VALUES (34084,   1, 'Inanimate Zombie Butler') /* Name */
      , (34084,  16, 'A lifeless corpse with a very tidy butler uniform.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34084,   1,   33554839) /* Setup */
-     , (34084,   6,   67108990) /* PaletteBase */
-     , (34084,   8,  100689203) /* Icon */
-     , (34084,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (34084,   1, 0x02000197) /* Setup */
+     , (34084,   6, 0x0400007E) /* PaletteBase */
+     , (34084,   8, 0x06006533) /* Icon */
+     , (34084,  22, 0x34000028) /* PhysicsEffectTable */;

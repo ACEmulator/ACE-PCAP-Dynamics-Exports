@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51352,   1, 'Freezing Wind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51352,   1,   33557487) /* Setup */
-     , (51352,   2,  150995467) /* MotionTable */
-     , (51352,   3,  536871002) /* SoundTable */
-     , (51352,   8,  100672514) /* Icon */
-     , (51352,  22,  872415344) /* PhysicsEffectTable */;
+VALUES (51352,   1, 0x02000BEF) /* Setup */
+     , (51352,   2, 0x0900020B) /* MotionTable */
+     , (51352,   3, 0x2000005A) /* SoundTable */
+     , (51352,   8, 0x06002402) /* Icon */
+     , (51352,  22, 0x34000070) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51352, 8040, 1483669995, 152.514, -150, 0.006500006, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (51352, 8040, 0x586F01EB, 152.514, -150, 0.0065, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x586F01EB [152.514000 -150.000000 0.006500] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

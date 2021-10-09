@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8963,   1, 'Sword of Lost Hope') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8963,   1,   33556949) /* Setup */
-     , (8963,   3,  536870932) /* SoundTable */
-     , (8963,   6,   67111919) /* PaletteBase */
-     , (8963,   8,  100671325) /* Icon */
-     , (8963,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8963,   1, 0x020009D5) /* Setup */
+     , (8963,   3, 0x20000014) /* SoundTable */
+     , (8963,   6, 0x04000BEF) /* PaletteBase */
+     , (8963,   8, 0x06001F5D) /* Icon */
+     , (8963,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8963, 8040, 2847146017, 106.0034, 13.7125, 93.92901, -0.2387322, -0.2387322, -0.6655877, -0.6655877) /* PCAPRecordedLocation */
+VALUES (8963, 8040, 0xA9B40021, 106.0034, 13.7125, 93.92901, -0.238732, -0.238732, -0.665588, -0.665588) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40021 [106.003400 13.712500 93.929010] -0.238732 -0.238732 -0.665588 -0.665588 */;

@@ -17,8 +17,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33957,   1, 'Crystal of Electric Elemental Essence') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33957,   1,   33556407) /* Setup */
-     , (33957,   3,  536870932) /* SoundTable */
-     , (33957,   6,   67111919) /* PaletteBase */
-     , (33957,   8,  100670492) /* Icon */
-     , (33957,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33957,   1, 0x020007B7) /* Setup */
+     , (33957,   3, 0x20000014) /* SoundTable */
+     , (33957,   6, 0x04000BEF) /* PaletteBase */
+     , (33957,   8, 0x06001C1C) /* Icon */
+     , (33957,  22, 0x3400002B) /* PhysicsEffectTable */;

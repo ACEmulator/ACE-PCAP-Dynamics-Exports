@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (50161,   1, 'Enhanced Shadow Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (50161,   1,   33554648) /* Setup */
-     , (50161,   3,  536870932) /* SoundTable */
-     , (50161,   6,   67108990) /* PaletteBase */
-     , (50161,   8,  100691734) /* Icon */
-     , (50161,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (50161,   1, 0x020000D8) /* Setup */
+     , (50161,   3, 0x20000014) /* SoundTable */
+     , (50161,   6, 0x0400007E) /* PaletteBase */
+     , (50161,   8, 0x06006F16) /* Icon */
+     , (50161,  22, 0x3400002B) /* PhysicsEffectTable */;

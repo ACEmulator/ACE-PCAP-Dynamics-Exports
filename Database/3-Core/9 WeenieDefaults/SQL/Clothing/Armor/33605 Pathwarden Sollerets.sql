@@ -40,12 +40,12 @@ VALUES (33605,   1, 'Pathwarden Sollerets') /* Name */
      , (33605,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33605,   1,   33554654) /* Setup */
-     , (33605,   3,  536870932) /* SoundTable */
-     , (33605,   6,   67108990) /* PaletteBase */
-     , (33605,   8,  100667309) /* Icon */
-     , (33605,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33605,   1, 0x020000DE) /* Setup */
+     , (33605,   3, 0x20000014) /* SoundTable */
+     , (33605,   6, 0x0400007E) /* PaletteBase */
+     , (33605,   8, 0x06000FAD) /* Icon */
+     , (33605,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33605,  1398,      2)  /* QuicknessSelf2 */
-     , (33605,  1482,      2)  /* Impenetrability2 */;
+VALUES (33605,  1482,      2)  /* Impenetrability2 */
+     , (33605,  1398,      2)  /* QuicknessSelf2 */;

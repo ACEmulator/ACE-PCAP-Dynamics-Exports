@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25997,   1, 'The Broken Hall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25997,   1,   33559084) /* Setup */
-     , (25997,   3,  536870932) /* SoundTable */
-     , (25997,   6,   67112626) /* PaletteBase */
-     , (25997,   8,  100675748) /* Icon */
-     , (25997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25997,   1, 0x0200122C) /* Setup */
+     , (25997,   3, 0x20000014) /* SoundTable */
+     , (25997,   6, 0x04000EB2) /* PaletteBase */
+     , (25997,   8, 0x060030A4) /* Icon */
+     , (25997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25997, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

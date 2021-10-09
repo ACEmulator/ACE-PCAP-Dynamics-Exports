@@ -21,6 +21,6 @@ VALUES (34090,   1, 'Scarecrow') /* Name */
      , (34090,  16, 'A rickety looking Scarecrow used to scare monsters away from your house.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34090,   1,   33560111) /* Setup */
-     , (34090,   6,   67112967) /* PaletteBase */
-     , (34090,   8,  100671141) /* Icon */;
+VALUES (34090,   1, 0x0200162F) /* Setup */
+     , (34090,   6, 0x04001007) /* PaletteBase */
+     , (34090,   8, 0x06001EA5) /* Icon */;

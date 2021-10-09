@@ -31,20 +31,20 @@ VALUES (38698,   1, 'Zumaq al-Jaluzi') /* Name */
      , (38698,   5, 'Wight Mage Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38698,   1,   33554510) /* Setup */
-     , (38698,   2,  150994945) /* MotionTable */
-     , (38698,   3,  536870914) /* SoundTable */
-     , (38698,   6,   67108990) /* PaletteBase */
-     , (38698,   8,  100667377) /* Icon */
-     , (38698,   9,   83890255) /* EyesTexture */
-     , (38698,  10,   83890297) /* NoseTexture */
-     , (38698,  11,   83890352) /* MouthTexture */
-     , (38698,  15,   67117075) /* HairPalette */
-     , (38698,  16,   67109567) /* EyesPalette */
-     , (38698,  17,   67109551) /* SkinPalette */;
+VALUES (38698,   1, 0x0200004E) /* Setup */
+     , (38698,   2, 0x09000001) /* MotionTable */
+     , (38698,   3, 0x20000002) /* SoundTable */
+     , (38698,   6, 0x0400007E) /* PaletteBase */
+     , (38698,   8, 0x06000FF1) /* Icon */
+     , (38698,   9, 0x0500104F) /* EyesTexture */
+     , (38698,  10, 0x05001079) /* NoseTexture */
+     , (38698,  11, 0x050010B0) /* MouthTexture */
+     , (38698,  15, 0x04002013) /* HairPalette */
+     , (38698,  16, 0x040002BF) /* EyesPalette */
+     , (38698,  17, 0x040002AF) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38698, 8040, 12059247, 163.398, -41.72474, -17.995, -0.293214, 0, 0, 0.956047) /* PCAPRecordedLocation */
+VALUES (38698, 8040, 0x00B8026F, 163.398, -41.72474, -17.995, -0.293214, 0, 0, 0.956047) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [163.398000 -41.724740 -17.995000] -0.293214 0.000000 0.000000 0.956047 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

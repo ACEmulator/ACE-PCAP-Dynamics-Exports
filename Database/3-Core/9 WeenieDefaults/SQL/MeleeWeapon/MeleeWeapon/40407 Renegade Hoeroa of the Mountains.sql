@@ -53,13 +53,13 @@ VALUES (40407,   1, 'Renegade Hoeroa of the Mountains') /* Name */
      , (40407,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40407,   1,   33557237) /* Setup */
-     , (40407,   3,  536870932) /* SoundTable */
-     , (40407,   8,  100672094) /* Icon */
-     , (40407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40407,   1, 0x02000AF5) /* Setup */
+     , (40407,   3, 0x20000014) /* SoundTable */
+     , (40407,   8, 0x0600225E) /* Icon */
+     , (40407,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40407, 8040, 13501100, 6.992339, -117.7792, -0.07049998, 0.6598416, 0.6598416, -0.2541831, -0.2541831) /* PCAPRecordedLocation */
+VALUES (40407, 8040, 0x00CE02AC, 6.992339, -117.7792, -0.0705, 0.659842, 0.659842, -0.254183, -0.254183) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE02AC [6.992339 -117.779200 -0.070500] 0.659842 0.659842 -0.254183 -0.254183 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

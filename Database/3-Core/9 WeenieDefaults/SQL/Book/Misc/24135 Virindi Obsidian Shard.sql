@@ -21,13 +21,13 @@ VALUES (24135,   1, 'Virindi Obsidian Shard') /* Name */
      , (24135,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24135,   1,   33555391) /* Setup */
-     , (24135,   3,  536870932) /* SoundTable */
-     , (24135,   8,  100671183) /* Icon */
-     , (24135,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24135,   1, 0x020003BF) /* Setup */
+     , (24135,   3, 0x20000014) /* SoundTable */
+     , (24135,   8, 0x06001ECF) /* Icon */
+     , (24135,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24135, 8040, 1531248988, 40, -100, -83.981, -0.914473, 0, 0, 0.404647) /* PCAPRecordedLocation */
+VALUES (24135, 8040, 0x5B45015C, 40, -100, -83.981, -0.914473, 0, 0, 0.404647) /* PCAPRecordedLocation */
 /* @teleloc 0x5B45015C [40.000000 -100.000000 -83.981000] -0.914473 0.000000 0.000000 0.404647 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

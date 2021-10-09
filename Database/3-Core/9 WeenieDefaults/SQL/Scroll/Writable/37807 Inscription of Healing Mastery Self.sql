@@ -23,7 +23,7 @@ VALUES (37807,   1, 'Inscription of Healing Mastery Self') /* Name */
 Increases the caster''s Healing skill by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37807,   1,   33554826) /* Setup */
-     , (37807,   8,  100676459) /* Icon */
-     , (37807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37807,   1, 0x0200018A) /* Setup */
+     , (37807,   8, 0x0600336B) /* Icon */
+     , (37807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37807,  28,       4556) /* Spell - HealingMasterySelf8 */;

@@ -43,11 +43,11 @@ VALUES (67,   1, 'Scalemail Greaves') /* Name */
      , (67,  16, 'Scalemail Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (67,   1,   33554641) /* Setup */
-     , (67,   3,  536870932) /* SoundTable */
-     , (67,   6,   67108990) /* PaletteBase */
-     , (67,   8,  100669387) /* Icon */
-     , (67,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (67,   1, 0x020000D1) /* Setup */
+     , (67,   3, 0x20000014) /* SoundTable */
+     , (67,   6, 0x0400007E) /* PaletteBase */
+     , (67,   8, 0x060017CB) /* Icon */
+     , (67,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (67,  1485,      2)  /* Impenetrability5 */;

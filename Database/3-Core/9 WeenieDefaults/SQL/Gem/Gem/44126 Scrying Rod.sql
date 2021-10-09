@@ -34,7 +34,7 @@ VALUES (44126,   1, 'Scrying Rod') /* Name */
      , (44126,  16, 'This is a scrying rod used to discover the hidden Mu-miyah device.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44126,   1,   33554809) /* Setup */
-     , (44126,   3,  536870932) /* SoundTable */
-     , (44126,   8,  100691953) /* Icon */
-     , (44126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44126,   1, 0x02000179) /* Setup */
+     , (44126,   3, 0x20000014) /* SoundTable */
+     , (44126,   8, 0x06006FF1) /* Icon */
+     , (44126,  22, 0x3400002B) /* PhysicsEffectTable */;

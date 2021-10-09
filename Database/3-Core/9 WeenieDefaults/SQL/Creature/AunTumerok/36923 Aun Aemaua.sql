@@ -27,14 +27,14 @@ VALUES (36923,   1, 'Aun Aemaua') /* Name */
      , (36923,   5, 'Seeker of Dreams') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36923,   1,   33557117) /* Setup */
-     , (36923,   2,  150994945) /* MotionTable */
-     , (36923,   3,  536870931) /* SoundTable */
-     , (36923,   6,   67113280) /* PaletteBase */
-     , (36923,   8,  100671756) /* Icon */;
+VALUES (36923,   1, 0x02000A7D) /* Setup */
+     , (36923,   2, 0x09000001) /* MotionTable */
+     , (36923,   3, 0x20000013) /* SoundTable */
+     , (36923,   6, 0x04001140) /* PaletteBase */
+     , (36923,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36923, 8040, 629211187, 148, 68, 220.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36923, 8040, 0x25810033, 148, 68, 220.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x25810033 [148.000000 68.000000 220.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

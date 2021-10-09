@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38164,   1, 'Blighted Moarsmen Scale') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38164,   1,   33554817) /* Setup */
-     , (38164,   3,  536870932) /* SoundTable */
-     , (38164,   6,   67111919) /* PaletteBase */
-     , (38164,   8,  100689969) /* Icon */
-     , (38164,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38164,   1, 0x02000181) /* Setup */
+     , (38164,   3, 0x20000014) /* SoundTable */
+     , (38164,   6, 0x04000BEF) /* PaletteBase */
+     , (38164,   8, 0x06006831) /* Icon */
+     , (38164,  22, 0x3400002B) /* PhysicsEffectTable */;

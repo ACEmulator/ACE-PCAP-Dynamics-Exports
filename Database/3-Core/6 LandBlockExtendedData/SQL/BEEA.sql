@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xBEEA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA001,  1154, 0xBEEA000F, 40.52869, 164.5423, 16.67608, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7BEEA001,  1154, 0xBEEA000F, 40.52869, 164.5423, 16.67608, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xBEEA000F [40.528690 164.542300 16.676080] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -17,11 +17,11 @@ VALUES (0x7BEEA001, 0x7BEEA002, '2019-02-10 00:00:00') /* Banderling Mangler (73
      , (0x7BEEA001, 0x7BEEA00B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA002,  7333, 0xBEEA000F, 40.52869, 164.5423, 16.67608, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
+VALUES (0x7BEEA002,  7333, 0xBEEA000F, 40.52869, 164.5423, 16.67608, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
 /* @teleloc 0xBEEA000F [40.528690 164.542300 16.676080] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA003,  7088, 0xBEEA0010, 46.1287, 171.1423, 17.36645, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+VALUES (0x7BEEA003,  7088, 0xBEEA0010, 46.1287, 171.1423, 17.36645, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
 /* @teleloc 0xBEEA0010 [46.128700 171.142300 17.366450] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,16 +53,16 @@ VALUES (0x7BEEA00A,  7105, 0xBEEA0005, 5.184632, 103.9537, 16.533, 1, 0, 0, 0,  
 /* @teleloc 0xBEEA0005 [5.184632 103.953700 16.533000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA00B,  4255, 0xBEEA001F, 74.41219, 157.6063, 12.18001, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+VALUES (0x7BEEA00B,  4255, 0xBEEA001F, 74.41219, 157.6063, 12.18001, 0.737277, 0, 0, -0.67559,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
 /* @teleloc 0xBEEA001F [74.412190 157.606300 12.180010] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA00C,  1542, 0xBEEA0010, 42.9287, 169.1423, 17.22597, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BEEA00C,  1542, 0xBEEA0010, 42.9287, 169.1423, 17.22597, 0.999048, 0, 0, -0.043619, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBEEA0010 [42.928700 169.142300 17.225970] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7BEEA00C, 0x7BEEA00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BEEA00D,  4179, 0xBEEA0010, 42.9287, 169.1423, 17.22597, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7BEEA00D,  4179, 0xBEEA0010, 42.9287, 169.1423, 17.22597, 0.999048, 0, 0, -0.043619,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xBEEA0010 [42.928700 169.142300 17.225970] 0.999048 0.000000 0.000000 -0.043619 */

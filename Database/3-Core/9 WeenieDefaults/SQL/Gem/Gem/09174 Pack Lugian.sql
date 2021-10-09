@@ -23,8 +23,8 @@ VALUES (9174,   1, 'Pack Lugian') /* Name */
      , (9174,  16, 'Why get other toys when Pack Lugian could crush them all? Watch how he intimidates the others with his mighty Knuckle-Crush! They will cower before him!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9174,   1,   33554488) /* Setup */
-     , (9174,   2,  150995115) /* MotionTable */
-     , (9174,   6,   67113135) /* PaletteBase */
-     , (9174,   8,  100667447) /* Icon */
-     , (9174,  22,  872415262) /* PhysicsEffectTable */;
+VALUES (9174,   1, 0x02000038) /* Setup */
+     , (9174,   2, 0x090000AB) /* MotionTable */
+     , (9174,   6, 0x040010AF) /* PaletteBase */
+     , (9174,   8, 0x06001037) /* Icon */
+     , (9174,  22, 0x3400001E) /* PhysicsEffectTable */;

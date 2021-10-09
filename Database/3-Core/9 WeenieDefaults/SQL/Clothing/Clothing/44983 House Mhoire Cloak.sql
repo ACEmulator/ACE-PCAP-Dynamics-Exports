@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44983,   1, 'House Mhoire Cloak') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44983,   1,   33561386) /* Setup */
-     , (44983,   3,  536870932) /* SoundTable */
-     , (44983,   8,  100692121) /* Icon */
-     , (44983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44983,   1, 0x02001B2A) /* Setup */
+     , (44983,   3, 0x20000014) /* SoundTable */
+     , (44983,   8, 0x06007099) /* Icon */
+     , (44983,  22, 0x3400002B) /* PhysicsEffectTable */;

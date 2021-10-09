@@ -21,7 +21,7 @@ VALUES (22375,   1, 'Missile Defense Gem of Enlightenment') /* Name */
      , (22375,  14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to specialize the Missile Defense skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22375,   1,   33558088) /* Setup */
-     , (22375,   6,   67111919) /* PaletteBase */
-     , (22375,   8,  100673788) /* Icon */
-     , (22375,  50,  100673779) /* IconOverlay */;
+VALUES (22375,   1, 0x02000E48) /* Setup */
+     , (22375,   6, 0x04000BEF) /* PaletteBase */
+     , (22375,   8, 0x060028FC) /* Icon */
+     , (22375,  50, 0x060028F3) /* IconOverlay */;

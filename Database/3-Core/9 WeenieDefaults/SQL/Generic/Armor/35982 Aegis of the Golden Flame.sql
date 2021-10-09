@@ -49,20 +49,20 @@ VALUES (35982,   1, 'Aegis of the Golden Flame') /* Name */
      , (35982,  16, 'A shield forged from Pure Mana and Flame.  This Aegis is the ultimate expression of the heraldry of the Knights of the Golden Flame upon Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35982,   1,   33560366) /* Setup */
-     , (35982,   3,  536870932) /* SoundTable */
-     , (35982,   8,  100689596) /* Icon */
-     , (35982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35982,   1, 0x0200172E) /* Setup */
+     , (35982,   3, 0x20000014) /* SoundTable */
+     , (35982,   8, 0x060066BC) /* Icon */
+     , (35982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35982,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35982, 8040, 3465871413, 144.0343, 108.8844, 19.926, -0.04990443, -0.8409292, -0.05312179, -0.5362143) /* PCAPRecordedLocation */
+VALUES (35982, 8040, 0xCE950035, 144.0343, 108.8844, 19.926, -0.049904, -0.840929, -0.053122, -0.536214) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [144.034300 108.884400 19.926000] -0.049904 -0.840929 -0.053122 -0.536214 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35982,  2108,      2)  /* Impenetrability7 */
-     , (35982,  2157,      2)  /* FireProtectionSelf7 */
-     , (35982,  2281,      2)  /* MagicResistanceSelf7 */
-     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+VALUES (35982,  2281,      2)  /* MagicResistanceSelf7 */
      , (35982,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
-     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
+     , (35982,  2157,      2)  /* FireProtectionSelf7 */
+     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (35982,  2108,      2)  /* Impenetrability7 */
+     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;

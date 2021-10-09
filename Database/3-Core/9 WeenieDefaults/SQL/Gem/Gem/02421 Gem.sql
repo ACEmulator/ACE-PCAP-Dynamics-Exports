@@ -31,11 +31,11 @@ VALUES (2421,   1, 'Gem') /* Name */
      , (2421,  16, 'Gem of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2421,   1,   33554809) /* Setup */
-     , (2421,   3,  536870932) /* SoundTable */
-     , (2421,   6,   67111919) /* PaletteBase */
-     , (2421,   8,  100674736) /* Icon */
-     , (2421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2421,   1, 0x02000179) /* Setup */
+     , (2421,   3, 0x20000014) /* SoundTable */
+     , (2421,   6, 0x04000BEF) /* PaletteBase */
+     , (2421,   8, 0x06002CB0) /* Icon */
+     , (2421,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2421,  1034,      2)  /* ColdProtectionSelf5 */;

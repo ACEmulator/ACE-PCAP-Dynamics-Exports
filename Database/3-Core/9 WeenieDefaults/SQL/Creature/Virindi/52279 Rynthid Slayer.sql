@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52279,   1, 'Rynthid Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52279,   1,   33561547) /* Setup */
-     , (52279,   2,  150995487) /* MotionTable */
-     , (52279,   3,  536870930) /* SoundTable */
-     , (52279,   6,   67111346) /* PaletteBase */
-     , (52279,   8,  100667943) /* Icon */
-     , (52279,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (52279,   1, 0x02001BCB) /* Setup */
+     , (52279,   2, 0x0900021F) /* MotionTable */
+     , (52279,   3, 0x20000012) /* SoundTable */
+     , (52279,   6, 0x040009B2) /* PaletteBase */
+     , (52279,   8, 0x06001227) /* Icon */
+     , (52279,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52279, 8040, 758186047, 169.2067, 153.7193, 132.029, 0.937139, 0, 0, -0.3489562) /* PCAPRecordedLocation */
+VALUES (52279, 8040, 0x2D31003F, 169.2067, 153.7193, 132.029, 0.937139, 0, 0, -0.348956) /* PCAPRecordedLocation */
 /* @teleloc 0x2D31003F [169.206700 153.719300 132.029000] 0.937139 0.000000 0.000000 -0.348956 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

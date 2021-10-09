@@ -38,7 +38,7 @@ VALUES (46145,   1, 'Isparian Crossbow') /* Name */
      , (46145,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46145,   1,   33557730) /* Setup */
-     , (46145,   3,  536870932) /* SoundTable */
-     , (46145,   8,  100673020) /* Icon */
-     , (46145,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46145,   1, 0x02000CE2) /* Setup */
+     , (46145,   3, 0x20000014) /* SoundTable */
+     , (46145,   8, 0x060025FC) /* Icon */
+     , (46145,  22, 0x3400002B) /* PhysicsEffectTable */;

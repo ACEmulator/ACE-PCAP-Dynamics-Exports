@@ -33,8 +33,8 @@ VALUES (45031,   1, 'Hoary Mattekar Over-robe') /* Name */
      , (45031,  16, 'Rare, lightweight, but warm over-robe crafted from the hide of the elusive Hoary Mattekar, rumored to appear only under certain conditions.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45031,   1,   33554854) /* Setup */
-     , (45031,   3,  536870932) /* SoundTable */
-     , (45031,   6,   67108990) /* PaletteBase */
-     , (45031,   8,  100672057) /* Icon */
-     , (45031,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45031,   1, 0x020001A6) /* Setup */
+     , (45031,   3, 0x20000014) /* SoundTable */
+     , (45031,   6, 0x0400007E) /* PaletteBase */
+     , (45031,   8, 0x06002239) /* Icon */
+     , (45031,  22, 0x3400002B) /* PhysicsEffectTable */;

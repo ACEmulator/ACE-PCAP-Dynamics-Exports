@@ -26,11 +26,11 @@ VALUES (32210,   1, 'Ginger Bread Pumpkin') /* Name */
      , (32210,  16, 'A ginger bread cookie in the shape of a Pumpkin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32210,   1,   33559780) /* Setup */
-     , (32210,   3,  536870932) /* SoundTable */
-     , (32210,   8,  100688421) /* Icon */
-     , (32210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32210,   1, 0x020014E4) /* Setup */
+     , (32210,   3, 0x20000014) /* SoundTable */
+     , (32210,   8, 0x06006225) /* Icon */
+     , (32210,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32210, 8040, 23855555, 57.61984, -43.56475, 0, 0.642212, 0, 0, -0.7665271) /* PCAPRecordedLocation */
+VALUES (32210, 8040, 0x016C01C3, 57.61984, -43.56475, 0, 0.642212, 0, 0, -0.766527) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.619840 -43.564750 0.000000] 0.642212 0.000000 0.000000 -0.766527 */;

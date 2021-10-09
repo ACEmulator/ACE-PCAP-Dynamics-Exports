@@ -19,5 +19,5 @@ VALUES (44749,   1, 'Mite') /* Name */
      , (44749,  16, 'Mites first arrived to Dereth in 5 PY. These small, furry humanoids have since become a growing nuisance on the island. They stand four to five feet tall, and are very quick, clawing and kicking with startling speed. Worse than their bite, however, is their bark; the ear-splitting baying and yelping of Mites has driven more than one adventurer mad. Making their lairs in forests, caves, and abandoned dungeons, they breed at an alarming rate. Sages worry that, unchecked, they could run rampant.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44749,   1,   33561349) /* Setup */
-     , (44749,   8,  100668115) /* Icon */;
+VALUES (44749,   1, 0x02001B05) /* Setup */
+     , (44749,   8, 0x060012D3) /* Icon */;

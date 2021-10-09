@@ -22,7 +22,7 @@ VALUES (31983,   1, 'Unreadable Falatacot Volume') /* Name */
      , (31983,  16, 'An unreadable Falatacot volume found upon the defeated corpse of the Falatacot High Priestess Xik Minru.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31983,   1,   33559593) /* Setup */
-     , (31983,   3,  536870932) /* SoundTable */
-     , (31983,   8,  100688124) /* Icon */
-     , (31983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31983,   1, 0x02001429) /* Setup */
+     , (31983,   3, 0x20000014) /* SoundTable */
+     , (31983,   8, 0x060060FC) /* Icon */
+     , (31983,  22, 0x3400002B) /* PhysicsEffectTable */;

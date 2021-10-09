@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3628,   1, 'The Pit Dungeon Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3628,   1,   33555924) /* Setup */
-     , (3628,   2,  150994947) /* MotionTable */
-     , (3628,   8,  100667499) /* Icon */;
+VALUES (3628,   1, 0x020005D4) /* Setup */
+     , (3628,   2, 0x09000003) /* MotionTable */
+     , (3628,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3628, 8040, 1657733376, 36, 177, 3.592, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (3628, 8040, 0x62CF0100, 36, 177, 3.592, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x62CF0100 [36.000000 177.000000 3.592000] 1.000000 0.000000 0.000000 0.000000 */;

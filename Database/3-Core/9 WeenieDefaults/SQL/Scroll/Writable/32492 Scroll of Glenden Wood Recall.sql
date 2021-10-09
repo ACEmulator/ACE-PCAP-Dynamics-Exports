@@ -26,7 +26,7 @@ VALUES (32492,   1, 'Scroll of Glenden Wood Recall') /* Name */
 Sends the caster to Glenden Wood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32492,   1,   33554826) /* Setup */
-     , (32492,   8,  100676673) /* Icon */
-     , (32492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32492,   1, 0x0200018A) /* Setup */
+     , (32492,   8, 0x06003441) /* Icon */
+     , (32492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32492,  28,       3865) /* Spell - GlendenWoodRecall */;

@@ -23,5 +23,5 @@ VALUES (31381,   1, 'Vestibule Lock') /* Name */
      , (31381,  16, 'An ancient looking Shadow artifact. The distinct pattern on the front of the artifact reminds you of something, but you cannot place what exactly that is.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31381,   1,   33556743) /* Setup */
-     , (31381,   8,  100687954) /* Icon */;
+VALUES (31381,   1, 0x02000907) /* Setup */
+     , (31381,   8, 0x06006052) /* Icon */;

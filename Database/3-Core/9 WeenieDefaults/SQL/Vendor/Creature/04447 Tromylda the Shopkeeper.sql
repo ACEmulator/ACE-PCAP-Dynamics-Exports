@@ -34,20 +34,20 @@ VALUES (4447,   1, 'Tromylda the Shopkeeper') /* Name */
      , (4447,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4447,   1,   33554510) /* Setup */
-     , (4447,   2,  150994945) /* MotionTable */
-     , (4447,   3,  536870914) /* SoundTable */
-     , (4447,   6,   67108990) /* PaletteBase */
-     , (4447,   8,  100667446) /* Icon */
-     , (4447,   9,   83890276) /* EyesTexture */
-     , (4447,  10,   83890317) /* NoseTexture */
-     , (4447,  11,   83890342) /* MouthTexture */
-     , (4447,  15,   67117019) /* HairPalette */
-     , (4447,  16,   67110064) /* EyesPalette */
-     , (4447,  17,   67109562) /* SkinPalette */;
+VALUES (4447,   1, 0x0200004E) /* Setup */
+     , (4447,   2, 0x09000001) /* MotionTable */
+     , (4447,   3, 0x20000002) /* SoundTable */
+     , (4447,   6, 0x0400007E) /* PaletteBase */
+     , (4447,   8, 0x06001036) /* Icon */
+     , (4447,   9, 0x05001064) /* EyesTexture */
+     , (4447,  10, 0x0500108D) /* NoseTexture */
+     , (4447,  11, 0x050010A6) /* MouthTexture */
+     , (4447,  15, 0x04001FDB) /* HairPalette */
+     , (4447,  16, 0x040004B0) /* EyesPalette */
+     , (4447,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4447, 8040, 3145728265, 175.598, 128.992, 44.005, -0.5429179, 0, 0, -0.8397858) /* PCAPRecordedLocation */
+VALUES (4447, 8040, 0xBB800109, 175.598, 128.992, 44.005, -0.542918, 0, 0, -0.839786) /* PCAPRecordedLocation */
 /* @teleloc 0xBB800109 [175.598000 128.992000 44.005000] -0.542918 0.000000 0.000000 -0.839786 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -43,9 +43,9 @@ VALUES (45113,   1, 'Hammer') /* Name */
      , (45113,  16, 'Hammer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45113,   1,   33554767) /* Setup */
-     , (45113,   3,  536870932) /* SoundTable */
-     , (45113,   6,   67111919) /* PaletteBase */
-     , (45113,   8,  100669066) /* Icon */
-     , (45113,  22,  872415275) /* PhysicsEffectTable */
-     , (45113,  52,  100676442) /* IconUnderlay */;
+VALUES (45113,   1, 0x0200014F) /* Setup */
+     , (45113,   3, 0x20000014) /* SoundTable */
+     , (45113,   6, 0x04000BEF) /* PaletteBase */
+     , (45113,   8, 0x0600168A) /* Icon */
+     , (45113,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45113,  52, 0x0600335A) /* IconUnderlay */;

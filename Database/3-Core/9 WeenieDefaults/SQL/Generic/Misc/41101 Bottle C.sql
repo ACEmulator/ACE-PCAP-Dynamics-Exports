@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41101,   1, 'Bottle C') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41101,   1,   33557007) /* Setup */
-     , (41101,   3,  536870932) /* SoundTable */
-     , (41101,   8,  100690539) /* Icon */
-     , (41101,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41101,   1, 0x02000A0F) /* Setup */
+     , (41101,   3, 0x20000014) /* SoundTable */
+     , (41101,   8, 0x06006A6B) /* Icon */
+     , (41101,  22, 0x3400002B) /* PhysicsEffectTable */;

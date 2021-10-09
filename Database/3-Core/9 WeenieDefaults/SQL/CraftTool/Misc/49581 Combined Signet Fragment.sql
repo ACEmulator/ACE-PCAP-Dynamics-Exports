@@ -29,7 +29,7 @@ VALUES (49581,   1, 'Combined Signet Fragment') /* Name */
      , (49581,  15, 'A combined signet fragment that emits both heat and cold.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49581,   1,   33557972) /* Setup */
-     , (49581,   3,  536870932) /* SoundTable */
-     , (49581,   8,  100693245) /* Icon */
-     , (49581,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49581,   1, 0x02000DD4) /* Setup */
+     , (49581,   3, 0x20000014) /* SoundTable */
+     , (49581,   8, 0x060074FD) /* Icon */
+     , (49581,  22, 0x3400002B) /* PhysicsEffectTable */;

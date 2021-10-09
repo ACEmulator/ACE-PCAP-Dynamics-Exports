@@ -27,11 +27,11 @@ VALUES (37050,   1, 'Harmonic Transference Field') /* Name */
      , (37050,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37050,   1,   33560509) /* Setup */
-     , (37050,   2,  150995429) /* MotionTable */
-     , (37050,   3,  536871050) /* SoundTable */
-     , (37050,   8,  100667499) /* Icon */;
+VALUES (37050,   1, 0x020017BD) /* Setup */
+     , (37050,   2, 0x090001E5) /* MotionTable */
+     , (37050,   3, 0x2000008A) /* SoundTable */
+     , (37050,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37050, 8040, 12583325, 80, -100, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37050, 8040, 0x00C0019D, 80, -100, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00C0019D [80.000000 -100.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

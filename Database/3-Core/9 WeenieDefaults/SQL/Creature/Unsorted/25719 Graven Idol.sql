@@ -27,13 +27,13 @@ VALUES (25719,   1, 'Graven Idol') /* Name */
      , (25719,  15, 'A mosswart idol.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25719,   1,   33556892) /* Setup */
-     , (25719,   2,  150995105) /* MotionTable */
-     , (25719,   3,  536871017) /* SoundTable */
-     , (25719,   6,   67113068) /* PaletteBase */
-     , (25719,   8,  100671204) /* Icon */
-     , (25719,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (25719,   1, 0x0200099C) /* Setup */
+     , (25719,   2, 0x090000A1) /* MotionTable */
+     , (25719,   3, 0x20000069) /* SoundTable */
+     , (25719,   6, 0x0400106C) /* PaletteBase */
+     , (25719,   8, 0x06001EE4) /* Icon */
+     , (25719,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25719, 8040, 1582039299, 20, 3.5, -36, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (25719, 8040, 0x5E4C0103, 20, 3.5, -36, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4C0103 [20.000000 3.500000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -23,7 +23,7 @@ VALUES (20401,   1, 'Scroll of Nullify Life Magic Self') /* Name */
 Dispels 3-6 negative Life Magic enchantments of level 6 or lower from the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20401,   1,   33554826) /* Setup */
-     , (20401,   8,  100676935) /* Icon */
-     , (20401,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20401,   1, 0x0200018A) /* Setup */
+     , (20401,   8, 0x06003547) /* Icon */
+     , (20401,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20401,  28,       1990) /* Spell - DispelLifeBadSelf6 */;

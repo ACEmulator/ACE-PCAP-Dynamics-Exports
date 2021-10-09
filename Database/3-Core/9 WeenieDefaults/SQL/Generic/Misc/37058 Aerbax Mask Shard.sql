@@ -23,7 +23,7 @@ VALUES (37058,   1, 'Aerbax Mask Shard') /* Name */
      , (37058,  16, 'A broken shard of Aerbax''s shattered mask. Little tendrils of shadow writhe around it and holding it makes you exceedingly nervous.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37058,   1,   33560507) /* Setup */
-     , (37058,   3,  536870932) /* SoundTable */
-     , (37058,   8,  100689804) /* Icon */
-     , (37058,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37058,   1, 0x020017BB) /* Setup */
+     , (37058,   3, 0x20000014) /* SoundTable */
+     , (37058,   8, 0x0600678C) /* Icon */
+     , (37058,  22, 0x3400002B) /* PhysicsEffectTable */;

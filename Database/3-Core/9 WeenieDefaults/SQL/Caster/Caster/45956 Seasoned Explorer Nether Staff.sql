@@ -41,19 +41,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45956,   1, 'Seasoned Explorer Nether Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45956,   1,   33561137) /* Setup */
-     , (45956,   3,  536870932) /* SoundTable */
-     , (45956,   6,   67111919) /* PaletteBase */
-     , (45956,   8,  100690005) /* Icon */
-     , (45956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45956,   1, 0x02001A31) /* Setup */
+     , (45956,   3, 0x20000014) /* SoundTable */
+     , (45956,   6, 0x04000BEF) /* PaletteBase */
+     , (45956,   8, 0x06006855) /* Icon */
+     , (45956,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45956, 8040, 26084219, 11.736, -150.047, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (45956, 8040, 0x018E037B, 11.736, -150.047, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x018E037B [11.736000 -150.047000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45956,   664,      2)  /* ManaMasteryOther6 */
+VALUES (45956,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (45956,  1605,      2)  /* DefenderSelf6 */
-     , (45956,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
-     , (45956,  3258,      2)  /* SpiritDrinkerSelf6 */
-     , (45956,  5427,      2)  /* CantripVoidMagicAptitude1 */;
+     , (45956,   664,      2)  /* ManaMasteryOther6 */
+     , (45956,  5427,      2)  /* CantripVoidMagicAptitude1 */
+     , (45956,  3258,      2)  /* SpiritDrinkerSelf6 */;

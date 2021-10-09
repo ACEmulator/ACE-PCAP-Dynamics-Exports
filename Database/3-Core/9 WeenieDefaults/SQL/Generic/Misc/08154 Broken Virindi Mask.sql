@@ -21,8 +21,8 @@ VALUES (8154,   1, 'Broken Virindi Mask') /* Name */
      , (8154,  16, 'A broken mask that seems to made out of some sort of strange metal. It was damaged by whoever killed its original owner. Perhaps a friendly Virindi, or a human who studies Virindi, could repair it for you?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8154,   1,   33556827) /* Setup */
-     , (8154,   3,  536870932) /* SoundTable */
-     , (8154,   6,   67108990) /* PaletteBase */
-     , (8154,   8,  100671027) /* Icon */
-     , (8154,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8154,   1, 0x0200095B) /* Setup */
+     , (8154,   3, 0x20000014) /* SoundTable */
+     , (8154,   6, 0x0400007E) /* PaletteBase */
+     , (8154,   8, 0x06001E33) /* Icon */
+     , (8154,  22, 0x3400002B) /* PhysicsEffectTable */;

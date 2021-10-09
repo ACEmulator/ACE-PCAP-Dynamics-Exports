@@ -33,12 +33,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31333,   1, 'Scribe''s Quill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31333,   1,   33559616) /* Setup */
-     , (31333,   3,  536870932) /* SoundTable */
-     , (31333,   8,  100687945) /* Icon */
-     , (31333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31333,   1, 0x02001440) /* Setup */
+     , (31333,   3, 0x20000014) /* SoundTable */
+     , (31333,   8, 0x06006049) /* Icon */
+     , (31333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31333,  37,         29) /* ItemSkillLimit - ArmorTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31333,  2197,      2)  /* ArmorExpertiseSelf7 */
-     , (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */;
+VALUES (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */
+     , (31333,  2197,      2)  /* ArmorExpertiseSelf7 */;

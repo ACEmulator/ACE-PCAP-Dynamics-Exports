@@ -26,8 +26,8 @@ VALUES (6661,   1, 'The Ruby Al-Khur') /* Name */
      , (6661,  16, 'The fifth Crimson Star Ruby, pulsing with magical energy. When attached to the Silifi of Crimson Stars, this Ruby adds a Blood Drinker enchantment to the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6661,   1,   33554809) /* Setup */
-     , (6661,   3,  536870932) /* SoundTable */
-     , (6661,   6,   67111919) /* PaletteBase */
-     , (6661,   8,  100670640) /* Icon */
-     , (6661,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6661,   1, 0x02000179) /* Setup */
+     , (6661,   3, 0x20000014) /* SoundTable */
+     , (6661,   6, 0x04000BEF) /* PaletteBase */
+     , (6661,   8, 0x06001CB0) /* Icon */
+     , (6661,  22, 0x3400002B) /* PhysicsEffectTable */;

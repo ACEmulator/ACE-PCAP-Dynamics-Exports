@@ -23,9 +23,9 @@ VALUES (31606,   1, 'Repugnant Eater Ripper Plaque') /* Name */
      , (31606,  15, 'The owner of this plaque is a verified "Repugnant Eater Ripper"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31606,   1,   33559570) /* Setup */
-     , (31606,   3,  536870932) /* SoundTable */
-     , (31606,   6,   67111919) /* PaletteBase */
-     , (31606,   8,  100677365) /* Icon */
-     , (31606,  22,  872415275) /* PhysicsEffectTable */
-     , (31606,  52,  100687688) /* IconUnderlay */;
+VALUES (31606,   1, 0x02001412) /* Setup */
+     , (31606,   3, 0x20000014) /* SoundTable */
+     , (31606,   6, 0x04000BEF) /* PaletteBase */
+     , (31606,   8, 0x060036F5) /* Icon */
+     , (31606,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31606,  52, 0x06005F48) /* IconUnderlay */;

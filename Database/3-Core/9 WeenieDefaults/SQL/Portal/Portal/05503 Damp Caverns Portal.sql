@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5503,   1, 'Damp Caverns Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5503,   1,   33555922) /* Setup */
-     , (5503,   2,  150994947) /* MotionTable */
-     , (5503,   8,  100667499) /* Icon */;
+VALUES (5503,   1, 0x020005D2) /* Setup */
+     , (5503,   2, 0x09000003) /* MotionTable */
+     , (5503,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5503, 8040, 4149674015, 90.3098, 150.204, 72.92818, -0.7793299, 0, 0, -0.6266139) /* PCAPRecordedLocation */
+VALUES (5503, 8040, 0xF757001F, 90.3098, 150.204, 72.92818, -0.77933, 0, 0, -0.626614) /* PCAPRecordedLocation */
 /* @teleloc 0xF757001F [90.309800 150.204000 72.928180] -0.779330 0.000000 0.000000 -0.626614 */;

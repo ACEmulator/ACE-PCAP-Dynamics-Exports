@@ -51,15 +51,15 @@ VALUES (31792,   1, 'Frost Stick') /* Name */
      , (31792,  16, 'Frost Stick of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31792,   1,   33559647) /* Setup */
-     , (31792,   3,  536870932) /* SoundTable */
-     , (31792,   6,   67116700) /* PaletteBase */
-     , (31792,   8,  100687991) /* Icon */
-     , (31792,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31792,   1, 0x0200145F) /* Setup */
+     , (31792,   3, 0x20000014) /* SoundTable */
+     , (31792,   6, 0x04001E9C) /* PaletteBase */
+     , (31792,   8, 0x06006077) /* Icon */
+     , (31792,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31792,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31792,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31792,  2081,      2)  /* QuicknessSelf7 */
      , (31792,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
+     , (31792,  2081,      2)  /* QuicknessSelf7 */
      , (31792,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;

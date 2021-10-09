@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44878,   1, 'Dapper Suit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44878,   1,   33554854) /* Setup */
-     , (44878,   3,  536870932) /* SoundTable */
-     , (44878,   6,   67108990) /* PaletteBase */
-     , (44878,   8,  100675491) /* Icon */
-     , (44878,  22,  872415275) /* PhysicsEffectTable */
-     , (44878,  50,  100667895) /* IconOverlay */;
+VALUES (44878,   1, 0x020001A6) /* Setup */
+     , (44878,   3, 0x20000014) /* SoundTable */
+     , (44878,   6, 0x0400007E) /* PaletteBase */
+     , (44878,   8, 0x06002FA3) /* Icon */
+     , (44878,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44878,  50, 0x060011F7) /* IconOverlay */;

@@ -35,12 +35,12 @@ VALUES (46940,   1, 'Modified Ring of Intellect') /* Name */
      , (46940,  15, 'An obsidian ring with a precious sapphire set within.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46940,   1,   33554690) /* Setup */
-     , (46940,   3,  536870932) /* SoundTable */
-     , (46940,   6,   67111919) /* PaletteBase */
-     , (46940,   8,  100673499) /* Icon */
-     , (46940,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46940,   1, 0x02000102) /* Setup */
+     , (46940,   3, 0x20000014) /* SoundTable */
+     , (46940,   6, 0x04000BEF) /* PaletteBase */
+     , (46940,   8, 0x060027DB) /* Icon */
+     , (46940,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46940,  4601,      2)  /* ManaMasteryOther8 */
-     , (46940,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+VALUES (46940,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (46940,  4601,      2)  /* ManaMasteryOther8 */;

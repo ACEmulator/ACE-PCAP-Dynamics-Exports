@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32945,   1, 'Prismatic Glyph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32945,   1,   33556438) /* Setup */
-     , (32945,   3,  536870932) /* SoundTable */
-     , (32945,   8,  100688856) /* Icon */
-     , (32945,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32945,   1, 0x020007D6) /* Setup */
+     , (32945,   3, 0x20000014) /* SoundTable */
+     , (32945,   8, 0x060063D8) /* Icon */
+     , (32945,  22, 0x3400002B) /* PhysicsEffectTable */;

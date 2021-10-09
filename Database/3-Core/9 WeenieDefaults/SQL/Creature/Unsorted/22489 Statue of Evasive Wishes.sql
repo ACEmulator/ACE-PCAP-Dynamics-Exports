@@ -27,12 +27,12 @@ VALUES (22489,   1, 'Statue of Evasive Wishes') /* Name */
      , (22489,  15, 'My reward is for those who wish to evade the blows of close combatants.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22489,   1,   33558124) /* Setup */
-     , (22489,   2,  150995147) /* MotionTable */
-     , (22489,   3,  536871052) /* SoundTable */
-     , (22489,   8,  100673831) /* Icon */
-     , (22489,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22489,   1, 0x02000E6C) /* Setup */
+     , (22489,   2, 0x090000CB) /* MotionTable */
+     , (22489,   3, 0x2000008C) /* SoundTable */
+     , (22489,   8, 0x06002927) /* Icon */
+     , (22489,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22489, 8040, 1598292245, 10, -60, -0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22489, 8040, 0x5F440115, 10, -60, -0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5F440115 [10.000000 -60.000000 -0.005000] 1.000000 0.000000 0.000000 0.000000 */;

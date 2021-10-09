@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46513,   1, 'Spectral Bushi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46513,   1,   33561493) /* Setup */
-     , (46513,   2,  150994945) /* MotionTable */
-     , (46513,   3,  536870942) /* SoundTable */
-     , (46513,   6,   67108990) /* PaletteBase */
-     , (46513,   8,  100671323) /* Icon */
-     , (46513,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (46513,   1, 0x02001B95) /* Setup */
+     , (46513,   2, 0x09000001) /* MotionTable */
+     , (46513,   3, 0x2000001E) /* SoundTable */
+     , (46513,   6, 0x0400007E) /* PaletteBase */
+     , (46513,   8, 0x06001F5B) /* Icon */
+     , (46513,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46513, 8040, 1289945092, 14.0664, 74.10921, 60.005, 0.6090904, 0, 0, -0.7931008) /* PCAPRecordedLocation */
+VALUES (46513, 8040, 0x4CE30004, 14.0664, 74.10921, 60.005, 0.60909, 0, 0, -0.793101) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE30004 [14.066400 74.109210 60.005000] 0.609090 0.000000 0.000000 -0.793101 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

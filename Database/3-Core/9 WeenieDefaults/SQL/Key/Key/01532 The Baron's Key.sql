@@ -22,11 +22,11 @@ VALUES (1532,   1, 'The Baron''s Key') /* Name */
      , (1532,  16, 'Using the Baron''s key, you can gain access to the ancient tunnels deep within Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1532,   1,   33554784) /* Setup */
-     , (1532,   3,  536870932) /* SoundTable */
-     , (1532,   8,  100667483) /* Icon */
-     , (1532,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1532,   1, 0x02000160) /* Setup */
+     , (1532,   3, 0x20000014) /* SoundTable */
+     , (1532,   8, 0x0600105B) /* Icon */
+     , (1532,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1532, 8040, 2847146009, 93.48009, 15.75177, 94.024, -0.5815747, 0, 0, -0.813493) /* PCAPRecordedLocation */
+VALUES (1532, 8040, 0xA9B40019, 93.48009, 15.75177, 94.024, -0.581575, 0, 0, -0.813493) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [93.480090 15.751770 94.024000] -0.581575 0.000000 0.000000 -0.813493 */;

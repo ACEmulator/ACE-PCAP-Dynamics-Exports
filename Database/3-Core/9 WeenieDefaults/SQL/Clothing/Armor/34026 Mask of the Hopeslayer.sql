@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34026,   1, 'Mask of the Hopeslayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34026,   1,   33560103) /* Setup */
-     , (34026,   3,  536870932) /* SoundTable */
-     , (34026,   8,  100689128) /* Icon */
-     , (34026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34026,   1, 0x02001627) /* Setup */
+     , (34026,   3, 0x20000014) /* SoundTable */
+     , (34026,   8, 0x060064E8) /* Icon */
+     , (34026,  22, 0x3400002B) /* PhysicsEffectTable */;

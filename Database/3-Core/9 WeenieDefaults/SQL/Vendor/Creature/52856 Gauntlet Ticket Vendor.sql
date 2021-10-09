@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52856,   1, 'Gauntlet Ticket Vendor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52856,   1,   33554433) /* Setup */
-     , (52856,   2,  150994945) /* MotionTable */
-     , (52856,   3,  536870913) /* SoundTable */
-     , (52856,   6,   67108990) /* PaletteBase */
-     , (52856,   8,  100667446) /* Icon */;
+VALUES (52856,   1, 0x02000001) /* Setup */
+     , (52856,   2, 0x09000001) /* MotionTable */
+     , (52856,   3, 0x20000001) /* SoundTable */
+     , (52856,   6, 0x0400007E) /* PaletteBase */
+     , (52856,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52856, 8040, 1500184849, 120, -146.424, 0.004999995, -0.004906559, 0, 0, -0.999988) /* PCAPRecordedLocation */
+VALUES (52856, 8040, 0x596B0111, 120, -146.424, 0.005, -0.004907, 0, 0, -0.999988) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0111 [120.000000 -146.424000 0.005000] -0.004907 0.000000 0.000000 -0.999988 */;

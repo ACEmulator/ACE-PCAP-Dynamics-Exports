@@ -18,9 +18,9 @@ VALUES (2282,   1, 'The True Shot') /* Name */
      , (2282,  16, 'The True Shot') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2282,   1,   33555594) /* Setup */
-     , (2282,   8,  100668115) /* Icon */;
+VALUES (2282,   1, 0x0200048A) /* Setup */
+     , (2282,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2282, 8040, 3378184238, 140.563, 131.317, 15.3086, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2282, 8040, 0xC95B002E, 140.563, 131.317, 15.3086, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B002E [140.563000 131.317000 15.308600] 1.000000 0.000000 0.000000 0.000000 */;

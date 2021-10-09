@@ -47,9 +47,9 @@ VALUES (44855,   1, 'Halved Cloak') /* Name */
      , (44855,  16, 'Halved Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44855,   1,   33561386) /* Setup */
-     , (44855,   3,  536870932) /* SoundTable */
-     , (44855,   8,  100692130) /* Icon */
-     , (44855,  22,  872415275) /* PhysicsEffectTable */
-     , (44855,  50,  100690998) /* IconOverlay */
+VALUES (44855,   1, 0x02001B2A) /* Setup */
+     , (44855,   3, 0x20000014) /* SoundTable */
+     , (44855,   8, 0x060070A2) /* Icon */
+     , (44855,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44855,  50, 0x06006C36) /* IconOverlay */
      , (44855,  55,       5756) /* ProcSpell - CloakMissileDLower */;

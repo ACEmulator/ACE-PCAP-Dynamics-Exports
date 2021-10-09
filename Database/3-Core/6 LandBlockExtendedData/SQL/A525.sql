@@ -21,19 +21,19 @@ VALUES (0x7A525003,  7107, 0xA5250030, 121.2567, 185.1108, 234.9368, 1, 0, 0, 0,
 /* @teleloc 0xA5250030 [121.256700 185.110800 234.936800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A525004,  1757, 0xA5250030, 138.6796, 183.4388, 243.1183, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
+VALUES (0x7A525004,  1757, 0xA5250030, 138.6796, 183.4388, 243.1183, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0xA5250030 [138.679600 183.438800 243.118300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A525005,  4254, 0xA5250030, 141.112, 177.051, 243.5227, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+VALUES (0x7A525005,  4254, 0xA5250030, 141.112, 177.051, 243.5227, 0.887011, 0, 0, -0.461749,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
 /* @teleloc 0xA5250030 [141.112000 177.051000 243.522700] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A525006,  7100, 0xA525001A, 88.82677, 27.04516, 254.6039, 0.8906358, 0, 0, -0.4547173,  True, '2019-02-10 00:00:00'); /* Extas Lugian */
+VALUES (0x7A525006,  7100, 0xA525001A, 88.82677, 27.04516, 254.6039, 0.890636, 0, 0, -0.454717,  True, '2019-02-10 00:00:00'); /* Extas Lugian */
 /* @teleloc 0xA525001A [88.826770 27.045160 254.603900] 0.890636 0.000000 0.000000 -0.454717 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A525007, 24494, 0xA5250012, 50.2056, 25.13001, 270.459, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
+VALUES (0x7A525007, 24494, 0xA5250012, 50.2056, 25.13001, 270.459, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
 /* @teleloc 0xA5250012 [50.205600 25.130010 270.459000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -22,10 +22,10 @@ VALUES (40505,   1, 'Apostate Citadel Mines') /* Name */
      , (40505,  16, 'This portal leads to the mines of the Apostate Citadel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40505,   1,   33555925) /* Setup */
-     , (40505,   2,  150994947) /* MotionTable */
-     , (40505,   8,  100667499) /* Icon */;
+VALUES (40505,   1, 0x020005D5) /* Setup */
+     , (40505,   2, 0x09000003) /* MotionTable */
+     , (40505,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40505, 8040, 692191253, 56.4092, 112.307, 26.61222, 0.9829904, 0, 0, 0.1836571) /* PCAPRecordedLocation */
+VALUES (40505, 8040, 0x29420015, 56.4092, 112.307, 26.61222, 0.98299, 0, 0, 0.183657) /* PCAPRecordedLocation */
 /* @teleloc 0x29420015 [56.409200 112.307000 26.612220] 0.982990 0.000000 0.000000 0.183657 */;

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32966,   1, 'Stone of Yanshi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32966,   1,   33559876) /* Setup */
-     , (32966,   2,  150995355) /* MotionTable */
-     , (32966,   3,  536871052) /* SoundTable */
-     , (32966,   8,  100674798) /* Icon */;
+VALUES (32966,   1, 0x02001544) /* Setup */
+     , (32966,   2, 0x0900019B) /* MotionTable */
+     , (32966,   3, 0x2000008C) /* SoundTable */
+     , (32966,   8, 0x06002CEE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32966, 8040, 3111059485, 83.561, 108.67, 19.2777, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32966, 8040, 0xB96F001D, 83.561, 108.67, 19.2777, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [83.561000 108.670000 19.277700] 1.000000 0.000000 0.000000 0.000000 */;

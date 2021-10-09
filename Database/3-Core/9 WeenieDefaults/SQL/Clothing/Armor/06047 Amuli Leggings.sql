@@ -45,15 +45,15 @@ VALUES (6047,   1, 'Amuli Leggings') /* Name */
      , (6047,  16, 'Amuli Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6047,   1,   33554856) /* Setup */
-     , (6047,   3,  536870932) /* SoundTable */
-     , (6047,   6,   67108990) /* PaletteBase */
-     , (6047,   8,  100670441) /* Icon */
-     , (6047,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6047,   1, 0x020001A8) /* Setup */
+     , (6047,   3, 0x20000014) /* SoundTable */
+     , (6047,   6, 0x0400007E) /* PaletteBase */
+     , (6047,   8, 0x06001BE9) /* Icon */
+     , (6047,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6047,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6047,  2092,      2)  /* AcidBane7 */
-     , (6047,  2108,      2)  /* Impenetrability7 */
-     , (6047,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
-     , (6047,  4409,      2)  /* LightningBane8 */;
+VALUES (6047,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (6047,  2092,      2)  /* AcidBane7 */
+     , (6047,  4409,      2)  /* LightningBane8 */
+     , (6047,  2108,      2)  /* Impenetrability7 */;

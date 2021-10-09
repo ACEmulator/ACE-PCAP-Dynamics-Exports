@@ -53,21 +53,21 @@ VALUES (40517,   1, 'Olthoibane Sword of Lost Light') /* Name */
      , (40517,  25, 'Kromwell') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40517,   1,   33560709) /* Setup */
-     , (40517,   3,  536870932) /* SoundTable */
-     , (40517,   8,  100674513) /* Icon */
-     , (40517,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40517,   1, 0x02001885) /* Setup */
+     , (40517,   3, 0x20000014) /* SoundTable */
+     , (40517,   8, 0x06002BD1) /* Icon */
+     , (40517,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40517, 8040, 23855554, 62.59197, -34.73466, -0.071, -0.5003142, -0.5003142, -0.4996856, -0.4996856) /* PCAPRecordedLocation */
+VALUES (40517, 8040, 0x016C01C2, 62.59197, -34.73466, -0.071, -0.500314, -0.500314, -0.499686, -0.499686) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [62.591970 -34.734660 -0.071000] -0.500314 -0.500314 -0.499686 -0.499686 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40517,  2059,      2)  /* CoordinationSelf7 */
-     , (40517,  2087,      2)  /* StrengthSelf7 */
-     , (40517,  2101,      2)  /* DefenderSelf7 */
-     , (40517,  2106,      2)  /* HeartSeekerSelf7 */
-     , (40517,  2116,      2)  /* SwiftKillerSelf7 */
-     , (40517,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (40517,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40517,  2059,      2)  /* CoordinationSelf7 */
      , (40517,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
-     , (40517,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;
+     , (40517,  2087,      2)  /* StrengthSelf7 */
+     , (40517,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
+     , (40517,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (40517,  2101,      2)  /* DefenderSelf7 */
+     , (40517,  2106,      2)  /* HeartSeekerSelf7 */;

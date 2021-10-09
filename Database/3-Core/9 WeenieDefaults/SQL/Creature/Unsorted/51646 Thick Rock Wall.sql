@@ -22,12 +22,12 @@ VALUES (51646,   1, 'Thick Rock Wall') /* Name */
      , (51646,  16, 'A thick wall of cooled lava blocks the passage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51646,   1,   33560558) /* Setup */
-     , (51646,   2,  150995418) /* MotionTable */
-     , (51646,   3,  536871119) /* SoundTable */
-     , (51646,   8,  100689885) /* Icon */
-     , (51646,  22,  872415325) /* PhysicsEffectTable */;
+VALUES (51646,   1, 0x020017EE) /* Setup */
+     , (51646,   2, 0x090001DA) /* MotionTable */
+     , (51646,   3, 0x200000CF) /* SoundTable */
+     , (51646,   8, 0x060067DD) /* Icon */
+     , (51646,  22, 0x3400005D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51646, 8040, 4181393703, 196.537, 165.258, -118, -0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (51646, 8040, 0xF93B0127, 196.537, 165.258, -118, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0127 [196.537000 165.258000 -118.000000] -0.382683 0.000000 0.000000 -0.923880 */;

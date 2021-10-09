@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34214,   1, 'The Dragon of Power') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34214,   1,   33560112) /* Setup */
-     , (34214,   3,  536870932) /* SoundTable */
-     , (34214,   8,  100689200) /* Icon */
-     , (34214,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34214,   1, 0x02001630) /* Setup */
+     , (34214,   3, 0x20000014) /* SoundTable */
+     , (34214,   8, 0x06006530) /* Icon */
+     , (34214,  22, 0x3400002B) /* PhysicsEffectTable */;

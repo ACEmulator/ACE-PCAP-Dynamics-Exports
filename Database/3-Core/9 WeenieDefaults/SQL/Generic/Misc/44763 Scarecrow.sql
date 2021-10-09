@@ -19,5 +19,5 @@ VALUES (44763,   1, 'Scarecrow') /* Name */
      , (44763,  16, 'Appearing during the autumn season, these manikins of sticks and straw seemed benign enough. . . at first. Believed to have come through the same portals that draw the Isparians to Dereth, many took these Scarecrows for a touching reminder of home. Until, that is, suspicion grew about these pumpkin-headed figures. Were they indeed drawn from the world of Ispar, or simply Virindi-crafted puppets? ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44763,   1,   33561363) /* Setup */
-     , (44763,   8,  100668115) /* Icon */;
+VALUES (44763,   1, 0x02001B13) /* Setup */
+     , (44763,   8, 0x060012D3) /* Icon */;

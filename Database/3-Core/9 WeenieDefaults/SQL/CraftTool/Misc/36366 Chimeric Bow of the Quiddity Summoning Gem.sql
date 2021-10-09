@@ -26,10 +26,10 @@ VALUES (36366,   1, 'Chimeric Bow of the Quiddity Summoning Gem') /* Name */
      , (36366,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as the Chimeric Bow of the Quiddity.  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem. 3 - You must be at least level 120 to wield the weapon summoned by this gem)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36366,   1,   33556769) /* Setup */
-     , (36366,   3,  536870932) /* SoundTable */
-     , (36366,   6,   67111919) /* PaletteBase */
-     , (36366,   8,  100670993) /* Icon */
-     , (36366,  22,  872415275) /* PhysicsEffectTable */
-     , (36366,  50,  100673759) /* IconOverlay */
-     , (36366,  52,  100689403) /* IconUnderlay */;
+VALUES (36366,   1, 0x02000921) /* Setup */
+     , (36366,   3, 0x20000014) /* SoundTable */
+     , (36366,   6, 0x04000BEF) /* PaletteBase */
+     , (36366,   8, 0x06001E11) /* Icon */
+     , (36366,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36366,  50, 0x060028DF) /* IconOverlay */
+     , (36366,  52, 0x060065FB) /* IconUnderlay */;

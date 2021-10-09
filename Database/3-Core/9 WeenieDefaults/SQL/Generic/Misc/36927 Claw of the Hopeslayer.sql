@@ -21,7 +21,7 @@ VALUES (36927,   1, 'Claw of the Hopeslayer') /* Name */
      , (36927,  16, 'This claw belonged to the shade of Bael''Zharon found in the Ithaenc Quiddity Seed dream realm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36927,   1,   33556593) /* Setup */
-     , (36927,   3,  536870932) /* SoundTable */
-     , (36927,   8,  100674292) /* Icon */
-     , (36927,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36927,   1, 0x02000871) /* Setup */
+     , (36927,   3, 0x20000014) /* SoundTable */
+     , (36927,   8, 0x06002AF4) /* Icon */
+     , (36927,  22, 0x3400002B) /* PhysicsEffectTable */;

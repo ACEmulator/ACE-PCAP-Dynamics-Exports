@@ -49,11 +49,11 @@ VALUES (31793,   1, 'Frost Lancet') /* Name */
      , (31793,  16, 'Frost Lancet of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31793,   1,   33559659) /* Setup */
-     , (31793,   3,  536870932) /* SoundTable */
-     , (31793,   6,   67116700) /* PaletteBase */
-     , (31793,   8,  100688071) /* Icon */
-     , (31793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31793,   1, 0x0200146B) /* Setup */
+     , (31793,   3, 0x20000014) /* SoundTable */
+     , (31793,   6, 0x04001E9C) /* PaletteBase */
+     , (31793,   8, 0x060060C7) /* Icon */
+     , (31793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31793,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

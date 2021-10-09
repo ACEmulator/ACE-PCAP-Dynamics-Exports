@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28472,   1, 'Aun Faranua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28472,   1,   33557175) /* Setup */
-     , (28472,   2,  150995136) /* MotionTable */
-     , (28472,   3,  536870931) /* SoundTable */
-     , (28472,   6,   67113280) /* PaletteBase */
-     , (28472,   8,  100671756) /* Icon */;
+VALUES (28472,   1, 0x02000AB7) /* Setup */
+     , (28472,   2, 0x090000C0) /* MotionTable */
+     , (28472,   3, 0x20000013) /* SoundTable */
+     , (28472,   6, 0x04001140) /* PaletteBase */
+     , (28472,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28472, 8040, 498466854, 117.911, 125.846, 120.006, -0.642076, 0, 0, -0.766641) /* PCAPRecordedLocation */
+VALUES (28472, 8040, 0x1DB60026, 117.911, 125.846, 120.006, -0.642076, 0, 0, -0.766641) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB60026 [117.911000 125.846000 120.006000] -0.642076 0.000000 0.000000 -0.766641 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

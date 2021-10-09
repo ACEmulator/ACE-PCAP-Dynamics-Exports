@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24567,   1, 'Quadruple-bladed Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24567,   1,   33558379) /* Setup */
-     , (24567,   3,  536870932) /* SoundTable */
-     , (24567,   8,  100668986) /* Icon */
-     , (24567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24567,   1, 0x02000F6B) /* Setup */
+     , (24567,   3, 0x20000014) /* SoundTable */
+     , (24567,   8, 0x0600163A) /* Icon */
+     , (24567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24567,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24567, 8040, 595656968, 108.8003, 65.00948, 219.832, 0.3101229, 0.3101229, -0.6354713, -0.6354713) /* PCAPRecordedLocation */
+VALUES (24567, 8040, 0x23810108, 108.8003, 65.00948, 219.832, 0.310123, 0.310123, -0.635471, -0.635471) /* PCAPRecordedLocation */
 /* @teleloc 0x23810108 [108.800300 65.009480 219.832000] 0.310123 0.310123 -0.635471 -0.635471 */;

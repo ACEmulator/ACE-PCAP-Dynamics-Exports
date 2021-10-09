@@ -31,12 +31,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45997,   1, 'Seasoned Explorer Bracelet Of Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45997,   1,   33554683) /* Setup */
-     , (45997,   3,  536870932) /* SoundTable */
-     , (45997,   6,   67111919) /* PaletteBase */
-     , (45997,   8,  100675473) /* Icon */
-     , (45997,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45997,   1, 0x020000FB) /* Setup */
+     , (45997,   3, 0x20000014) /* SoundTable */
+     , (45997,   6, 0x04000BEF) /* PaletteBase */
+     , (45997,   8, 0x06002F91) /* Icon */
+     , (45997,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45997,  1384,      2)  /* CoordinationOther6 */
-     , (45997,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+VALUES (45997,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (45997,  1384,      2)  /* CoordinationOther6 */;

@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32748,   1, 'Crystallized Essence of Verdancy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32748,   1,   33559840) /* Setup */
-     , (32748,   3,  536870932) /* SoundTable */
-     , (32748,   8,  100688602) /* Icon */
-     , (32748,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32748,   1, 0x02001520) /* Setup */
+     , (32748,   3, 0x20000014) /* SoundTable */
+     , (32748,   8, 0x060062DA) /* Icon */
+     , (32748,  22, 0x3400002B) /* PhysicsEffectTable */;

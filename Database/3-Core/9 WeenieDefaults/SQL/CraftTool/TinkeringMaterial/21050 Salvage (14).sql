@@ -31,13 +31,13 @@ VALUES (21050,   1, 'Salvage (14)') /* Name */
      , (21050,  15, 'Chips of green garnet material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21050,   1,   33554817) /* Setup */
-     , (21050,   3,  536870932) /* SoundTable */
-     , (21050,   6,   67111919) /* PaletteBase */
-     , (21050,   8,  100673214) /* Icon */
-     , (21050,  22,  872415275) /* PhysicsEffectTable */
-     , (21050,  50,  100673274) /* IconOverlay */;
+VALUES (21050,   1, 0x02000181) /* Setup */
+     , (21050,   3, 0x20000014) /* SoundTable */
+     , (21050,   6, 0x04000BEF) /* PaletteBase */
+     , (21050,   8, 0x060026BE) /* Icon */
+     , (21050,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21050,  50, 0x060026FA) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21050, 8040, 2847146006, 69.11653, 128.4482, 65.9975, 0.7669796, 0, 0, -0.6416715) /* PCAPRecordedLocation */
+VALUES (21050, 8040, 0xA9B40016, 69.11653, 128.4482, 65.9975, 0.76698, 0, 0, -0.641672) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40016 [69.116530 128.448200 65.997500] 0.766980 0.000000 0.000000 -0.641672 */;

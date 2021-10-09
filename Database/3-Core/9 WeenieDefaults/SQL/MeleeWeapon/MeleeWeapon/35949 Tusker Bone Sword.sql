@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35949,   1, 'Tusker Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35949,   1,   33560347) /* Setup */
-     , (35949,   3,  536870932) /* SoundTable */
-     , (35949,   8,  100689574) /* Icon */
-     , (35949,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35949,   1, 0x0200171B) /* Setup */
+     , (35949,   3, 0x20000014) /* SoundTable */
+     , (35949,   8, 0x060066A6) /* Icon */
+     , (35949,  22, 0x3400002B) /* PhysicsEffectTable */;

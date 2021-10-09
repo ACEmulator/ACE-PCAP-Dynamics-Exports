@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44031,   1, 'Dust Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44031,   1,   33561253) /* Setup */
-     , (44031,   2,  150995073) /* MotionTable */
-     , (44031,   3,  536871066) /* SoundTable */
-     , (44031,   8,  100667940) /* Icon */
-     , (44031,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (44031,   1, 0x02001AA5) /* Setup */
+     , (44031,   2, 0x09000081) /* MotionTable */
+     , (44031,   3, 0x2000009A) /* SoundTable */
+     , (44031,   8, 0x06001224) /* Icon */
+     , (44031,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44031, 8040, 2288255005, 83.19913, 118.2589, 49.1893, 0.6700968, 0, 0, -0.7422737) /* PCAPRecordedLocation */
+VALUES (44031, 8040, 0x8864001D, 83.19913, 118.2589, 49.1893, 0.670097, 0, 0, -0.742274) /* PCAPRecordedLocation */
 /* @teleloc 0x8864001D [83.199130 118.258900 49.189300] 0.670097 0.000000 0.000000 -0.742274 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

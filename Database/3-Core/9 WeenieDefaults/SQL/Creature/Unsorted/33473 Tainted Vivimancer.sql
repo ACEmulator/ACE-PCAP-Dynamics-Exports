@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33473,   1, 'Tainted Vivimancer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33473,   1,   33554433) /* Setup */
-     , (33473,   2,  150994945) /* MotionTable */
-     , (33473,   3,  536870913) /* SoundTable */
-     , (33473,   6,   67108990) /* PaletteBase */
-     , (33473,   8,  100670398) /* Icon */
-     , (33473,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33473,   1, 0x02000001) /* Setup */
+     , (33473,   2, 0x09000001) /* MotionTable */
+     , (33473,   3, 0x20000001) /* SoundTable */
+     , (33473,   6, 0x0400007E) /* PaletteBase */
+     , (33473,   8, 0x06001BBE) /* Icon */
+     , (33473,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33473, 8040, 8651074, 189.539, -228.578, -11.9945, -0.9983311, 0, 0, 0.05774941) /* PCAPRecordedLocation */
+VALUES (33473, 8040, 0x00840142, 189.539, -228.578, -11.9945, -0.998331, 0, 0, 0.057749) /* PCAPRecordedLocation */
 /* @teleloc 0x00840142 [189.539000 -228.578000 -11.994500] -0.998331 0.000000 0.000000 0.057749 */;

@@ -23,7 +23,7 @@ VALUES (3493,   1, 'Scroll of Sprint Self II') /* Name */
 Increases the caster''s Run skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3493,   1,   33554826) /* Setup */
-     , (3493,   8,  100676470) /* Icon */
-     , (3493,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3493,   1, 0x0200018A) /* Setup */
+     , (3493,   8, 0x06003376) /* Icon */
+     , (3493,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3493,  28,        983) /* Spell - SprintSelf2 */;

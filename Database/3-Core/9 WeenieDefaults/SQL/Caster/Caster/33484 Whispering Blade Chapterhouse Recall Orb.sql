@@ -39,13 +39,13 @@ VALUES (33484,   1, 'Whispering Blade Chapterhouse Recall Orb') /* Name */
      , (33484,  16, 'A spellcasting orb used to recall to the Whispering Blade Chapterhouse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33484,   1,   33554669) /* Setup */
-     , (33484,   3,  536870932) /* SoundTable */
-     , (33484,   6,   67111928) /* PaletteBase */
-     , (33484,   8,  100668722) /* Icon */
-     , (33484,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33484,   1, 0x020000ED) /* Setup */
+     , (33484,   3, 0x20000014) /* SoundTable */
+     , (33484,   6, 0x04000BF8) /* PaletteBase */
+     , (33484,   8, 0x06001532) /* Icon */
+     , (33484,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33484,  28,       3930) /* Spell - RecallWhisperingBlade */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33484, 8040, 306512128, 92.50031, 169.9679, -5.271, -0.05547893, -0.05547893, -0.704927, -0.704927) /* PCAPRecordedLocation */
+VALUES (33484, 8040, 0x12450100, 92.50031, 169.9679, -5.271, -0.055479, -0.055479, -0.704927, -0.704927) /* PCAPRecordedLocation */
 /* @teleloc 0x12450100 [92.500310 169.967900 -5.271000] -0.055479 -0.055479 -0.704927 -0.704927 */;

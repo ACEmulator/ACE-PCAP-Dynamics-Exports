@@ -18,12 +18,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35008,   1, 'Empyrean Blooded Ritual Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35008,   1,   33560215) /* Setup */
-     , (35008,   2,  150995355) /* MotionTable */
-     , (35008,   3,  536871001) /* SoundTable */
-     , (35008,   8,  100675780) /* Icon */
-     , (35008,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (35008,   1, 0x02001697) /* Setup */
+     , (35008,   2, 0x0900019B) /* MotionTable */
+     , (35008,   3, 0x20000059) /* SoundTable */
+     , (35008,   8, 0x060030C4) /* Icon */
+     , (35008,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35008, 8040, 14942506, 30.0067, -49.9335, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35008, 8040, 0x00E4012A, 30.0067, -49.9335, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [30.006700 -49.933500 -30.000000] 1.000000 0.000000 0.000000 0.000000 */;

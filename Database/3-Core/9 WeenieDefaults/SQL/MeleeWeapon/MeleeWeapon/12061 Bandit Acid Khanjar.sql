@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12061,   1, 'Bandit Acid Khanjar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12061,   1,   33555746) /* Setup */
-     , (12061,   3,  536870932) /* SoundTable */
-     , (12061,   8,  100668936) /* Icon */
-     , (12061,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12061,   1, 0x02000522) /* Setup */
+     , (12061,   3, 0x20000014) /* SoundTable */
+     , (12061,   8, 0x06001608) /* Icon */
+     , (12061,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12061, 8040, 633012233, 31.03952, 18.00847, 134.7599, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (12061, 8040, 0x25BB0009, 31.03952, 18.00847, 134.7599, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x25BB0009 [31.039520 18.008470 134.759900] 0.707107 0.707107 0.000000 0.000000 */;

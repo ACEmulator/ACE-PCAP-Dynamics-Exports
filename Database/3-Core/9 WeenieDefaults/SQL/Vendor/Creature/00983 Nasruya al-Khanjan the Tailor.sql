@@ -34,20 +34,20 @@ VALUES (983,   1, 'Nasruya al-Khanjan the Tailor') /* Name */
      , (983,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (983,   1,   33554510) /* Setup */
-     , (983,   2,  150994945) /* MotionTable */
-     , (983,   3,  536870914) /* SoundTable */
-     , (983,   6,   67108990) /* PaletteBase */
-     , (983,   8,  100667446) /* Icon */
-     , (983,   9,   83890258) /* EyesTexture */
-     , (983,  10,   83890292) /* NoseTexture */
-     , (983,  11,   83890334) /* MouthTexture */
-     , (983,  15,   67117020) /* HairPalette */
-     , (983,  16,   67110062) /* EyesPalette */
-     , (983,  17,   67109552) /* SkinPalette */;
+VALUES (983,   1, 0x0200004E) /* Setup */
+     , (983,   2, 0x09000001) /* MotionTable */
+     , (983,   3, 0x20000002) /* SoundTable */
+     , (983,   6, 0x0400007E) /* PaletteBase */
+     , (983,   8, 0x06001036) /* Icon */
+     , (983,   9, 0x05001052) /* EyesTexture */
+     , (983,  10, 0x05001074) /* NoseTexture */
+     , (983,  11, 0x0500109E) /* MouthTexture */
+     , (983,  15, 0x04001FDC) /* HairPalette */
+     , (983,  16, 0x040004AE) /* EyesPalette */
+     , (983,  17, 0x040002B0) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (983, 8040, 2541420831, 109.064, 150.607, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (983, 8040, 0x977B011F, 109.064, 150.607, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x977B011F [109.064000 150.607000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

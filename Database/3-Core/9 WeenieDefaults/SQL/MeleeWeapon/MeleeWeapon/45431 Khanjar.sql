@@ -51,11 +51,11 @@ VALUES (45431,   1, 'Khanjar') /* Name */
      , (45431,  16, 'Khanjar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45431,   1,   33554744) /* Setup */
-     , (45431,   3,  536870932) /* SoundTable */
-     , (45431,   6,   67111919) /* PaletteBase */
-     , (45431,   8,  100668940) /* Icon */
-     , (45431,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45431,   1, 0x02000138) /* Setup */
+     , (45431,   3, 0x20000014) /* SoundTable */
+     , (45431,   6, 0x04000BEF) /* PaletteBase */
+     , (45431,   8, 0x0600160C) /* Icon */
+     , (45431,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45431,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32702,   1, 'Captain Vietre Lasallia') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32702,   1,   33559125) /* Setup */
-     , (32702,   2,  150995334) /* MotionTable */
-     , (32702,   3,  536871102) /* SoundTable */
-     , (32702,   6,   67115468) /* PaletteBase */
-     , (32702,   8,  100677371) /* Icon */
-     , (32702,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (32702,   1, 0x02001255) /* Setup */
+     , (32702,   2, 0x09000186) /* MotionTable */
+     , (32702,   3, 0x200000BE) /* SoundTable */
+     , (32702,   6, 0x040019CC) /* PaletteBase */
+     , (32702,   8, 0x060036FB) /* Icon */
+     , (32702,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32702, 8040, 1100480801, 165.023, 77.4407, 144.8052, 0.690355, 0, 0, 0.723471) /* PCAPRecordedLocation */
+VALUES (32702, 8040, 0x41980121, 165.023, 77.4407, 144.8052, 0.690355, 0, 0, 0.723471) /* PCAPRecordedLocation */
 /* @teleloc 0x41980121 [165.023000 77.440700 144.805200] 0.690355 0.000000 0.000000 0.723471 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

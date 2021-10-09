@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32358,   1, 'Viamont Staging Area Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32358,   1,   33559158) /* Setup */
-     , (32358,   3,  536870932) /* SoundTable */
-     , (32358,   8,  100686382) /* Icon */
-     , (32358,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32358,   1, 0x02001276) /* Setup */
+     , (32358,   3, 0x20000014) /* SoundTable */
+     , (32358,   8, 0x06005A2E) /* Icon */
+     , (32358,  22, 0x3400002B) /* PhysicsEffectTable */;

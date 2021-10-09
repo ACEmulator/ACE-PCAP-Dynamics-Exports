@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42409,   1, 'Yoroi Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42409,   1,   33554647) /* Setup */
-     , (42409,   3,  536870932) /* SoundTable */
-     , (42409,   6,   67108990) /* PaletteBase */
-     , (42409,   8,  100668146) /* Icon */
-     , (42409,  22,  872415275) /* PhysicsEffectTable */
-     , (42409,  50,  100667895) /* IconOverlay */;
+VALUES (42409,   1, 0x020000D7) /* Setup */
+     , (42409,   3, 0x20000014) /* SoundTable */
+     , (42409,   6, 0x0400007E) /* PaletteBase */
+     , (42409,   8, 0x060012F2) /* Icon */
+     , (42409,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42409,  50, 0x060011F7) /* IconOverlay */;

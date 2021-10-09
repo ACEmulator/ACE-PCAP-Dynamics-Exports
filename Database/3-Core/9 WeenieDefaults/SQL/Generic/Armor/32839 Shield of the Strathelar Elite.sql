@@ -41,15 +41,15 @@ VALUES (32839,   1, 'Shield of the Strathelar Elite') /* Name */
      , (32839,  16, 'A shield bearing the Strathelar coat of arms and enchanted with magic. This is issued to elite soldiers in Queen Elysa''s army, as well as those who have distinguished themselves in service to the crown.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32839,   1,   33559815) /* Setup */
-     , (32839,   3,  536870932) /* SoundTable */
-     , (32839,   8,  100688556) /* Icon */
-     , (32839,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32839,   1, 0x02001507) /* Setup */
+     , (32839,   3, 0x20000014) /* SoundTable */
+     , (32839,   8, 0x060062AC) /* Icon */
+     , (32839,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32839, 8040, 2103705613, 34.40216, 102.7422, 11.926, -0.1770117, -0.8291376, 0.150049, -0.5086089) /* PCAPRecordedLocation */
+VALUES (32839, 8040, 0x7D64000D, 34.40216, 102.7422, 11.926, -0.177012, -0.829138, 0.150049, -0.508609) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [34.402160 102.742200 11.926000] -0.177012 -0.829138 0.150049 -0.508609 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32839,  2108,      2)  /* Impenetrability7 */
-     , (32839,  2937,      2)  /* ModerateImpregnability */;
+VALUES (32839,  2937,      2)  /* ModerateImpregnability */
+     , (32839,  2108,      2)  /* Impenetrability7 */;

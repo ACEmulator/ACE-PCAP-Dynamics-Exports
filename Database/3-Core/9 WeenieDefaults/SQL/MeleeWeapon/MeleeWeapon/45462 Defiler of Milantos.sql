@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45462,   1, 'Defiler of Milantos') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45462,   1,   33559393) /* Setup */
-     , (45462,   3,  536870932) /* SoundTable */
-     , (45462,   6,   67111919) /* PaletteBase */
-     , (45462,   8,  100686769) /* Icon */
-     , (45462,  22,  872415275) /* PhysicsEffectTable */
-     , (45462,  52,  100686604) /* IconUnderlay */;
+VALUES (45462,   1, 0x02001361) /* Setup */
+     , (45462,   3, 0x20000014) /* SoundTable */
+     , (45462,   6, 0x04000BEF) /* PaletteBase */
+     , (45462,   8, 0x06005BB1) /* Icon */
+     , (45462,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45462,  52, 0x06005B0C) /* IconUnderlay */;

@@ -22,12 +22,12 @@ VALUES (36668,   1, 'Sack of Iron') /* Name */
      , (36668,  16, 'Iron smelted in the Lugian Furnaces') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36668,   1,   33554817) /* Setup */
-     , (36668,   3,  536870932) /* SoundTable */
-     , (36668,   6,   67111919) /* PaletteBase */
-     , (36668,   8,  100689651) /* Icon */
-     , (36668,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36668,   1, 0x02000181) /* Setup */
+     , (36668,   3, 0x20000014) /* SoundTable */
+     , (36668,   6, 0x04000BEF) /* PaletteBase */
+     , (36668,   8, 0x060066F3) /* Icon */
+     , (36668,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36668, 8040, 10420534, 80.1457, -76.7894, -42.0025, 0.9210611, 0, 0, 0.3894181) /* PCAPRecordedLocation */
+VALUES (36668, 8040, 0x009F0136, 80.1457, -76.7894, -42.0025, 0.921061, 0, 0, 0.389418) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0136 [80.145700 -76.789400 -42.002500] 0.921061 0.000000 0.000000 0.389418 */;

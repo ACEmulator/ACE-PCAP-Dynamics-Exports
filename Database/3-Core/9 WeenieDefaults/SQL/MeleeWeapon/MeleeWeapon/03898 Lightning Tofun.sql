@@ -51,13 +51,13 @@ VALUES (3898,   1, 'Lightning Tofun') /* Name */
      , (3898,  16, 'Lightning Tofun of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3898,   1,   33555744) /* Setup */
-     , (3898,   3,  536870932) /* SoundTable */
-     , (3898,   6,   67111919) /* PaletteBase */
-     , (3898,   8,  100668958) /* Icon */
-     , (3898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3898,   1, 0x02000520) /* Setup */
+     , (3898,   3, 0x20000014) /* SoundTable */
+     , (3898,   6, 0x04000BEF) /* PaletteBase */
+     , (3898,   8, 0x0600161E) /* Icon */
+     , (3898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3898,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (3898,  52,  100676438) /* IconUnderlay */;
+     , (3898,  52, 0x06003356) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3898,  1616,      2)  /* BloodDrinkerSelf6 */

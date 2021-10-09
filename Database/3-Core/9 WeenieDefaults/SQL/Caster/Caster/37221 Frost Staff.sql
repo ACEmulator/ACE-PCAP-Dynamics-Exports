@@ -63,17 +63,17 @@ VALUES (37221,   1, 'Frost Staff') /* Name */
      , (37221,  40, 'Cynsmith') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37221,   1,   33560654) /* Setup */
-     , (37221,   3,  536870932) /* SoundTable */
-     , (37221,   6,   67111919) /* PaletteBase */
-     , (37221,   8,  100690004) /* Icon */
-     , (37221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37221,   1, 0x0200184E) /* Setup */
+     , (37221,   3, 0x20000014) /* SoundTable */
+     , (37221,   6, 0x04000BEF) /* PaletteBase */
+     , (37221,   8, 0x06006854) /* Icon */
+     , (37221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37221,  28,       4447) /* Spell - FrostBolt8 */
-     , (37221,  50,  100692070) /* IconOverlay */
-     , (37221,  52,  100676440) /* IconUnderlay */;
+     , (37221,  50, 0x06007066) /* IconOverlay */
+     , (37221,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37221, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (37221, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

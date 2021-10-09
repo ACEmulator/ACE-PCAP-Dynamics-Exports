@@ -29,7 +29,7 @@ VALUES (52782,   1, 'Gauntlet Treasure Key') /* Name */
      , (52782,  16, 'A dark silver key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52782,   1,   33554784) /* Setup */
-     , (52782,   3,  536870932) /* SoundTable */
-     , (52782,   8,  100693319) /* Icon */
-     , (52782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52782,   1, 0x02000160) /* Setup */
+     , (52782,   3, 0x20000014) /* SoundTable */
+     , (52782,   8, 0x06007547) /* Icon */
+     , (52782,  22, 0x3400002B) /* PhysicsEffectTable */;

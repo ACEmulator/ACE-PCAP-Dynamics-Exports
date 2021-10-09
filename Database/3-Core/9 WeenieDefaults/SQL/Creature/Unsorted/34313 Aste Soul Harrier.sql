@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34313,   1, 'Aste Soul Harrier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34313,   1,   33555608) /* Setup */
-     , (34313,   2,  150995048) /* MotionTable */
-     , (34313,   3,  536870977) /* SoundTable */
-     , (34313,   8,  100669120) /* Icon */
-     , (34313,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (34313,   1, 0x02000498) /* Setup */
+     , (34313,   2, 0x09000068) /* MotionTable */
+     , (34313,   3, 0x20000041) /* SoundTable */
+     , (34313,   8, 0x060016C0) /* Icon */
+     , (34313,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34313, 8040, 8126772, 67.1591, -29.4207, -18, 0.6883401, 0, 0, 0.7253881) /* PCAPRecordedLocation */
+VALUES (34313, 8040, 0x007C0134, 67.1591, -29.4207, -18, 0.68834, 0, 0, 0.725388) /* PCAPRecordedLocation */
 /* @teleloc 0x007C0134 [67.159100 -29.420700 -18.000000] 0.688340 0.000000 0.000000 0.725388 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

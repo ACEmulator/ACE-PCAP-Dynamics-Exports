@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27455,   1, 'Sealed Lugian Chest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27455,   1,   33558692) /* Setup */
-     , (27455,   2,  150995293) /* MotionTable */
-     , (27455,   3,  536870950) /* SoundTable */
-     , (27455,   8,  100676428) /* Icon */
-     , (27455,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27455,   1, 0x020010A4) /* Setup */
+     , (27455,   2, 0x0900015D) /* MotionTable */
+     , (27455,   3, 0x20000026) /* SoundTable */
+     , (27455,   8, 0x0600334C) /* Icon */
+     , (27455,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27455, 8040, 1648820492, 91.6469, -93.6793, -54, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (27455, 8040, 0x6247010C, 91.6469, -93.6793, -54, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x6247010C [91.646900 -93.679300 -54.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

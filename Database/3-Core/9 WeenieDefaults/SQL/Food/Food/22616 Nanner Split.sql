@@ -25,7 +25,7 @@ VALUES (22616,   1, 'Nanner Split') /* Name */
      , (22616,  15, 'A frozen ice cream treat.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22616,   1,   33554668) /* Setup */
-     , (22616,   3,  536870932) /* SoundTable */
-     , (22616,   8,  100673808) /* Icon */
-     , (22616,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22616,   1, 0x020000EC) /* Setup */
+     , (22616,   3, 0x20000014) /* SoundTable */
+     , (22616,   8, 0x06002910) /* Icon */
+     , (22616,  22, 0x3400002B) /* PhysicsEffectTable */;

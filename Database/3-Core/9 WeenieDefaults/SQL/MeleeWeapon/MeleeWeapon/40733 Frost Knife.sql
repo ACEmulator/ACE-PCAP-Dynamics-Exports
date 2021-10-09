@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40733,   1, 'Frost Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40733,   1,   33555743) /* Setup */
-     , (40733,   3,  536870932) /* SoundTable */
-     , (40733,   8,  100667598) /* Icon */
-     , (40733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40733,   1, 0x0200051F) /* Setup */
+     , (40733,   3, 0x20000014) /* SoundTable */
+     , (40733,   8, 0x060010CE) /* Icon */
+     , (40733,  22, 0x3400002B) /* PhysicsEffectTable */;

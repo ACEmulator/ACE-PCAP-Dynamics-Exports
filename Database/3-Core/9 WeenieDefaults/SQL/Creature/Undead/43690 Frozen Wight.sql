@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43690,   1, 'Frozen Wight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43690,   1,   33561142) /* Setup */
-     , (43690,   2,  150995358) /* MotionTable */
-     , (43690,   3,  536870934) /* SoundTable */
-     , (43690,   6,   67110722) /* PaletteBase */
-     , (43690,   8,  100667942) /* Icon */
-     , (43690,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (43690,   1, 0x02001A36) /* Setup */
+     , (43690,   2, 0x0900019E) /* MotionTable */
+     , (43690,   3, 0x20000016) /* SoundTable */
+     , (43690,   6, 0x04000742) /* PaletteBase */
+     , (43690,   8, 0x06001226) /* Icon */
+     , (43690,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43690, 8040, 2028535825, 50.13562, 22.43065, 106.0082, 0.9595627, 0, 0, -0.2814949) /* PCAPRecordedLocation */
+VALUES (43690, 8040, 0x78E90011, 50.13562, 22.43065, 106.0082, 0.959563, 0, 0, -0.281495) /* PCAPRecordedLocation */
 /* @teleloc 0x78E90011 [50.135620 22.430650 106.008200] 0.959563 0.000000 0.000000 -0.281495 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46845,   1, 'Aura of Heartseeker Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46845,   1,   33554826) /* Setup */
-     , (46845,   8,  100676660) /* Icon */
-     , (46845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46845,   1, 0x0200018A) /* Setup */
+     , (46845,   8, 0x06003434) /* Icon */
+     , (46845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46845,  28,       6007) /* Spell - HeartSeekerOther1 */
      , (46845, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

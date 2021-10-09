@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45448,   1, 'Star of Tukal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45448,   1,   33559378) /* Setup */
-     , (45448,   3,  536870932) /* SoundTable */
-     , (45448,   8,  100686739) /* Icon */
-     , (45448,  22,  872415275) /* PhysicsEffectTable */
-     , (45448,  52,  100686604) /* IconUnderlay */;
+VALUES (45448,   1, 0x02001352) /* Setup */
+     , (45448,   3, 0x20000014) /* SoundTable */
+     , (45448,   8, 0x06005B93) /* Icon */
+     , (45448,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45448,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45448, 8040, 3465871413, 166.7983, 104.8186, 19.929, -0.5656481, -0.5656481, -0.4243139, -0.4243139) /* PCAPRecordedLocation */
+VALUES (45448, 8040, 0xCE950035, 166.7983, 104.8186, 19.929, -0.565648, -0.565648, -0.424314, -0.424314) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [166.798300 104.818600 19.929000] -0.565648 -0.565648 -0.424314 -0.424314 */;

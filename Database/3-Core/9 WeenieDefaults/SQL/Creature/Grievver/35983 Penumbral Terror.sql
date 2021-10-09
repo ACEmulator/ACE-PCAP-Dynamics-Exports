@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35983,   1, 'Penumbral Terror') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35983,   1,   33559621) /* Setup */
-     , (35983,   2,  150995098) /* MotionTable */
-     , (35983,   3,  536871009) /* SoundTable */
-     , (35983,   6,   67112927) /* PaletteBase */
-     , (35983,   8,  100670960) /* Icon */
-     , (35983,  22,  872415331) /* PhysicsEffectTable */
+VALUES (35983,   1, 0x02001445) /* Setup */
+     , (35983,   2, 0x0900009A) /* MotionTable */
+     , (35983,   3, 0x20000061) /* SoundTable */
+     , (35983,   6, 0x04000FDF) /* PaletteBase */
+     , (35983,   8, 0x06001DF0) /* Icon */
+     , (35983,  22, 0x34000063) /* PhysicsEffectTable */
      , (35983,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35983, 8040, 15073968, 70.0096, -24.3523, -12.0024, 0.04577998, 0, 0, -0.9989516) /* PCAPRecordedLocation */
+VALUES (35983, 8040, 0x00E602B0, 70.0096, -24.3523, -12.0024, 0.04578, 0, 0, -0.998952) /* PCAPRecordedLocation */
 /* @teleloc 0x00E602B0 [70.009600 -24.352300 -12.002400] 0.045780 0.000000 0.000000 -0.998952 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

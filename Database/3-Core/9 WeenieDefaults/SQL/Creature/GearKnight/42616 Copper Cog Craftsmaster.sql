@@ -28,14 +28,14 @@ VALUES (42616,   1, 'Copper Cog Craftsmaster') /* Name */
      , (42616,   5, 'Invasion Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42616,   1,   33560859) /* Setup */
-     , (42616,   2,  150995368) /* MotionTable */
-     , (42616,   3,  536870933) /* SoundTable */
-     , (42616,   8,  100674350) /* Icon */
-     , (42616,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (42616,   1, 0x0200191B) /* Setup */
+     , (42616,   2, 0x090001A8) /* MotionTable */
+     , (42616,   3, 0x20000015) /* SoundTable */
+     , (42616,   8, 0x06002B2E) /* Icon */
+     , (42616,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42616, 8040, 561119875, 29.1654, 96.1059, 144.4085, 0.6757092, 0, 0, 0.7371683) /* PCAPRecordedLocation */
+VALUES (42616, 8040, 0x21720283, 29.1654, 96.1059, 144.4085, 0.675709, 0, 0, 0.737168) /* PCAPRecordedLocation */
 /* @teleloc 0x21720283 [29.165400 96.105900 144.408500] 0.675709 0.000000 0.000000 0.737168 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

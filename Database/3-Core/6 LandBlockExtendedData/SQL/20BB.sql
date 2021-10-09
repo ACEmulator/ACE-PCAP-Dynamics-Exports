@@ -66,11 +66,11 @@ VALUES (0x720BB004, 11510, 0x20BB0034, 166.6153, 88.42904, 94.74517, 1, 0, 0, 0,
 /* @teleloc 0x20BB0034 [166.615300 88.429040 94.745170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BB005, 11505, 0x20BB0026, 114.4396, 135.9732, 96.6739, -0.508382, 0, 0, -0.8611317,  True, '2019-02-10 00:00:00'); /* Poacher */
+VALUES (0x720BB005, 11505, 0x20BB0026, 114.4396, 135.9732, 96.6739, -0.508382, 0, 0, -0.861132,  True, '2019-02-10 00:00:00'); /* Poacher */
 /* @teleloc 0x20BB0026 [114.439600 135.973200 96.673900] -0.508382 0.000000 0.000000 -0.861132 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BB006, 11505, 0x20BB0026, 119.5637, 143.7571, 96.02525, 0.1073932, 0, 0, -0.9942166,  True, '2019-02-10 00:00:00'); /* Poacher */
+VALUES (0x720BB006, 11505, 0x20BB0026, 119.5637, 143.7571, 96.02525, 0.107393, 0, 0, -0.994217,  True, '2019-02-10 00:00:00'); /* Poacher */
 /* @teleloc 0x20BB0026 [119.563700 143.757100 96.025250] 0.107393 0.000000 0.000000 -0.994217 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -174,7 +174,7 @@ VALUES (0x720BB01F, 11526, 0x20BB003E, 172.4565, 130.2289, 98.30018, 1, 0, 0, 0,
 /* @teleloc 0x20BB003E [172.456500 130.228900 98.300180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BB020,  6380, 0x20BB0026, 108.8259, 131.558, 97.04333, 0.5284533, 0, 0, -0.8489624,  True, '2019-02-10 00:00:00'); /* Scintilla */
+VALUES (0x720BB020,  6380, 0x20BB0026, 108.8259, 131.558, 97.04333, 0.528453, 0, 0, -0.848962,  True, '2019-02-10 00:00:00'); /* Scintilla */
 /* @teleloc 0x20BB0026 [108.825900 131.558000 97.043330] 0.528453 0.000000 0.000000 -0.848962 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

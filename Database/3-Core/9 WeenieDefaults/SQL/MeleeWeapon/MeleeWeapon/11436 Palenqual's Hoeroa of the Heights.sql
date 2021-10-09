@@ -53,10 +53,10 @@ VALUES (11436,   1, 'Palenqual''s Hoeroa of the Heights') /* Name */
      , (11436,  25, 'Drunken Amazon') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11436,   1,   33557237) /* Setup */
-     , (11436,   3,  536870932) /* SoundTable */
-     , (11436,   8,  100672095) /* Icon */
-     , (11436,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11436,   1, 0x02000AF5) /* Setup */
+     , (11436,   3, 0x20000014) /* SoundTable */
+     , (11436,   8, 0x0600225F) /* Icon */
+     , (11436,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11436,  2439,      2)  /* Rockslide */

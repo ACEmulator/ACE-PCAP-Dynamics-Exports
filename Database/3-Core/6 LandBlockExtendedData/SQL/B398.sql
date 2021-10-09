@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB398;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B398001,  1154, 0xB3980023, 101.0301, 68.88988, 53.7477, 0.8999923, 0, 0, -0.4359058, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B398001,  1154, 0xB3980023, 101.0301, 68.88988, 53.7477, 0.899992, 0, 0, -0.435906, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB3980023 [101.030100 68.889880 53.747700] 0.899992 0.000000 0.000000 -0.435906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -10,15 +10,15 @@ VALUES (0x7B398001, 0x7B398002, '2019-02-10 00:00:00') /* Banderling Striker (73
      , (0x7B398001, 0x7B398004, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B398002,  7345, 0xB3980023, 101.0301, 68.88988, 53.7477, 0.8999923, 0, 0, -0.4359058,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
+VALUES (0x7B398002,  7345, 0xB3980023, 101.0301, 68.88988, 53.7477, 0.899992, 0, 0, -0.435906,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
 /* @teleloc 0xB3980023 [101.030100 68.889880 53.747700] 0.899992 0.000000 0.000000 -0.435906 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B398003,   229, 0xB398001C, 82.48742, 77.63511, 55.60114, -0.5764449, 0, 0, -0.817136,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
+VALUES (0x7B398003,   229, 0xB398001C, 82.48742, 77.63511, 55.60114, -0.576445, 0, 0, -0.817136,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
 /* @teleloc 0xB398001C [82.487420 77.635110 55.601140] -0.576445 0.000000 0.000000 -0.817136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B398004, 21164, 0xB3980038, 161.4332, 186.6254, 75.11697, -0.3717526, 0, 0, -0.9283319,  True, '2019-02-10 00:00:00'); /* Gout */
+VALUES (0x7B398004, 21164, 0xB3980038, 161.4332, 186.6254, 75.11697, -0.371753, 0, 0, -0.928332,  True, '2019-02-10 00:00:00'); /* Gout */
 /* @teleloc 0xB3980038 [161.433200 186.625400 75.116970] -0.371753 0.000000 0.000000 -0.928332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

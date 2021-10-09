@@ -34,20 +34,20 @@ VALUES (698,   1, 'Belthew Shearstone the Jeweler') /* Name */
      , (698,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (698,   1,   33554433) /* Setup */
-     , (698,   2,  150994945) /* MotionTable */
-     , (698,   3,  536870913) /* SoundTable */
-     , (698,   6,   67108990) /* PaletteBase */
-     , (698,   8,  100667446) /* Icon */
-     , (698,   9,   83890445) /* EyesTexture */
-     , (698,  10,   83890560) /* NoseTexture */
-     , (698,  11,   83890614) /* MouthTexture */
-     , (698,  15,   67116980) /* HairPalette */
-     , (698,  16,   67110065) /* EyesPalette */
-     , (698,  17,   67109560) /* SkinPalette */;
+VALUES (698,   1, 0x02000001) /* Setup */
+     , (698,   2, 0x09000001) /* MotionTable */
+     , (698,   3, 0x20000001) /* SoundTable */
+     , (698,   6, 0x0400007E) /* PaletteBase */
+     , (698,   8, 0x06001036) /* Icon */
+     , (698,   9, 0x0500110D) /* EyesTexture */
+     , (698,  10, 0x05001180) /* NoseTexture */
+     , (698,  11, 0x050011B6) /* MouthTexture */
+     , (698,  15, 0x04001FB4) /* HairPalette */
+     , (698,  16, 0x040004B1) /* EyesPalette */
+     , (698,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (698, 8040, 3332964634, 66.0498, 59.6214, 42.005, -0.7436396, 0, 0, -0.6685807) /* PCAPRecordedLocation */
+VALUES (698, 8040, 0xC6A9011A, 66.0498, 59.6214, 42.005, -0.74364, 0, 0, -0.668581) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9011A [66.049800 59.621400 42.005000] -0.743640 0.000000 0.000000 -0.668581 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

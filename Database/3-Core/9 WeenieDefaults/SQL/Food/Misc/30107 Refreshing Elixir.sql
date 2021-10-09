@@ -27,9 +27,9 @@ VALUES (30107,   1, 'Refreshing Elixir') /* Name */
      , (30107,  16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30107,   1,   33554603) /* Setup */
-     , (30107,   3,  536870932) /* SoundTable */
-     , (30107,   6,   67111919) /* PaletteBase */
-     , (30107,   8,  100686619) /* Icon */
-     , (30107,  22,  872415275) /* PhysicsEffectTable */
-     , (30107,  52,  100686604) /* IconUnderlay */;
+VALUES (30107,   1, 0x020000AB) /* Setup */
+     , (30107,   3, 0x20000014) /* SoundTable */
+     , (30107,   6, 0x04000BEF) /* PaletteBase */
+     , (30107,   8, 0x06005B1B) /* Icon */
+     , (30107,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30107,  52, 0x06005B0C) /* IconUnderlay */;

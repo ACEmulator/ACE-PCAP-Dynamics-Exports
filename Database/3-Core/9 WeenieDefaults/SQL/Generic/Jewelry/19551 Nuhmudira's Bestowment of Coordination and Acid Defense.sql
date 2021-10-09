@@ -39,11 +39,11 @@ VALUES (19551,   1, 'Nuhmudira''s Bestowment of Coordination and Acid Defense') 
      , (19551,  25, 'Dave''s not here') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19551,   1,   33554687) /* Setup */
-     , (19551,   3,  536870932) /* SoundTable */
-     , (19551,   6,   67111919) /* PaletteBase */
-     , (19551,   8,  100672963) /* Icon */
-     , (19551,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19551,   1, 0x020000FF) /* Setup */
+     , (19551,   3, 0x20000014) /* SoundTable */
+     , (19551,   6, 0x04000BEF) /* PaletteBase */
+     , (19551,   8, 0x060025C3) /* Icon */
+     , (19551,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19551,   513,      2)  /* AcidProtectionOther5 */

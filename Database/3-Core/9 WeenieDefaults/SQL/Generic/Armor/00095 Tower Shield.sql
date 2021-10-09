@@ -37,12 +37,12 @@ VALUES (95,   1, 'Tower Shield') /* Name */
      , (95,  16, 'Tower Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (95,   1,   33554785) /* Setup */
-     , (95,   3,  536870932) /* SoundTable */
-     , (95,   6,   67111919) /* PaletteBase */
-     , (95,   8,  100668595) /* Icon */
-     , (95,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (95,   1, 0x02000161) /* Setup */
+     , (95,   3, 0x20000014) /* SoundTable */
+     , (95,   6, 0x04000BEF) /* PaletteBase */
+     , (95,   8, 0x060014B3) /* Icon */
+     , (95,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (95, 8040, 459077, 70.0605, -80.0325, -0.07300002, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (95, 8040, 0x00070145, 70.0605, -80.0325, -0.073, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.060500 -80.032500 -0.073000] 0.403672 0.649030 -0.537349 0.356462 */;

@@ -24,7 +24,7 @@ VALUES (53476,   1, 'Daimyo Idah''s Tattered Mask') /* Name */
      , (53476,  15, 'A tattered nanjou mask that once belonged to the spectral Daimyo, Idah.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53476,   1,   33560096) /* Setup */
-     , (53476,   3,  536870932) /* SoundTable */
-     , (53476,   8,  100689101) /* Icon */
-     , (53476,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53476,   1, 0x02001620) /* Setup */
+     , (53476,   3, 0x20000014) /* SoundTable */
+     , (53476,   8, 0x060064CD) /* Icon */
+     , (53476,  22, 0x3400002B) /* PhysicsEffectTable */;

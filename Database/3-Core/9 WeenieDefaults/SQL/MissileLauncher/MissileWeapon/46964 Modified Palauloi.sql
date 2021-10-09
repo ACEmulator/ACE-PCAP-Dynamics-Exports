@@ -50,10 +50,10 @@ VALUES (46964,   1, 'Modified Palauloi') /* Name */
      , (46964,  15, 'A crossbow constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46964,   1,   33557969) /* Setup */
-     , (46964,   3,  536870932) /* SoundTable */
-     , (46964,   8,  100673496) /* Icon */
-     , (46964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46964,   1, 0x02000DD1) /* Setup */
+     , (46964,   3, 0x20000014) /* SoundTable */
+     , (46964,   8, 0x060027D8) /* Icon */
+     , (46964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46964,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

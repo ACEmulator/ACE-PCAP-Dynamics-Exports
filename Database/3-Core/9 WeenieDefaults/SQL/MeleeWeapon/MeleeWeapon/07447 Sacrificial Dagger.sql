@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7447,   1, 'Sacrificial Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7447,   1,   33554744) /* Setup */
-     , (7447,   3,  536870932) /* SoundTable */
-     , (7447,   6,   67111919) /* PaletteBase */
-     , (7447,   8,  100668936) /* Icon */
-     , (7447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7447,   1, 0x02000138) /* Setup */
+     , (7447,   3, 0x20000014) /* SoundTable */
+     , (7447,   6, 0x04000BEF) /* PaletteBase */
+     , (7447,   8, 0x06001608) /* Icon */
+     , (7447,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -40,10 +40,10 @@ VALUES (49288,   1, 'K''nath Y''nda Essence') /* Name */
      , (49288,  14, 'Use this essence to summon or dismiss your K''nath Y''nda.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49288,   1,   33554817) /* Setup */
-     , (49288,   3,  536870932) /* SoundTable */
-     , (49288,   6,   67111919) /* PaletteBase */
-     , (49288,   8,  100693039) /* Icon */
-     , (49288,  22,  872415275) /* PhysicsEffectTable */
-     , (49288,  50,  100693032) /* IconOverlay */
-     , (49288,  52,  100693024) /* IconUnderlay */;
+VALUES (49288,   1, 0x02000181) /* Setup */
+     , (49288,   3, 0x20000014) /* SoundTable */
+     , (49288,   6, 0x04000BEF) /* PaletteBase */
+     , (49288,   8, 0x0600742F) /* Icon */
+     , (49288,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49288,  50, 0x06007428) /* IconOverlay */
+     , (49288,  52, 0x06007420) /* IconUnderlay */;

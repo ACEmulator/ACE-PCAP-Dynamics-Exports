@@ -35,8 +35,8 @@ VALUES (28611,   1, 'Viamontian Laced Boots') /* Name */
      , (28611,  16, 'Viamontian Laced Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28611,   1,   33559325) /* Setup */
-     , (28611,   3,  536870932) /* SoundTable */
-     , (28611,   6,   67108990) /* PaletteBase */
-     , (28611,   8,  100682436) /* Icon */
-     , (28611,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28611,   1, 0x0200131D) /* Setup */
+     , (28611,   3, 0x20000014) /* SoundTable */
+     , (28611,   6, 0x0400007E) /* PaletteBase */
+     , (28611,   8, 0x06004AC4) /* Icon */
+     , (28611,  22, 0x3400002B) /* PhysicsEffectTable */;

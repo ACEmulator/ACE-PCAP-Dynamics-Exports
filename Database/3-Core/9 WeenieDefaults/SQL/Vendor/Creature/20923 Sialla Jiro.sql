@@ -34,20 +34,20 @@ VALUES (20923,   1, 'Sialla Jiro') /* Name */
      , (20923,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20923,   1,   33554510) /* Setup */
-     , (20923,   2,  150994945) /* MotionTable */
-     , (20923,   3,  536870914) /* SoundTable */
-     , (20923,   6,   67108990) /* PaletteBase */
-     , (20923,   8,  100667446) /* Icon */
-     , (20923,   9,   83890243) /* EyesTexture */
-     , (20923,  10,   83890286) /* NoseTexture */
-     , (20923,  11,   83890352) /* MouthTexture */
-     , (20923,  15,   67116993) /* HairPalette */
-     , (20923,  16,   67110063) /* EyesPalette */
-     , (20923,  17,   67110048) /* SkinPalette */;
+VALUES (20923,   1, 0x0200004E) /* Setup */
+     , (20923,   2, 0x09000001) /* MotionTable */
+     , (20923,   3, 0x20000002) /* SoundTable */
+     , (20923,   6, 0x0400007E) /* PaletteBase */
+     , (20923,   8, 0x06001036) /* Icon */
+     , (20923,   9, 0x05001043) /* EyesTexture */
+     , (20923,  10, 0x0500106E) /* NoseTexture */
+     , (20923,  11, 0x050010B0) /* MouthTexture */
+     , (20923,  15, 0x04001FC1) /* HairPalette */
+     , (20923,  16, 0x040004AF) /* EyesPalette */
+     , (20923,  17, 0x040004A0) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20923, 8040, 1449132374, 87.219, -32.699, 0.004999995, 0.8196419, 0, 0, -0.5728762) /* PCAPRecordedLocation */
+VALUES (20923, 8040, 0x56600156, 87.219, -32.699, 0.005, 0.819642, 0, 0, -0.572876) /* PCAPRecordedLocation */
 /* @teleloc 0x56600156 [87.219000 -32.699000 0.005000] 0.819642 0.000000 0.000000 -0.572876 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

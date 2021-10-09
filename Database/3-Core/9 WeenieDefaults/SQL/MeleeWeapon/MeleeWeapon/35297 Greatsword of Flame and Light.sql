@@ -49,14 +49,14 @@ VALUES (35297,   1, 'Greatsword of Flame and Light') /* Name */
      , (35297,  16, 'A sword mostly composed of a white-hot flame. Lightning striking between the free floating metal sections that the flames coalesce around.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35297,   1,   33560276) /* Setup */
-     , (35297,   3,  536870932) /* SoundTable */
-     , (35297,   8,  100689459) /* Icon */
-     , (35297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35297,   1, 0x020016D4) /* Setup */
+     , (35297,   3, 0x20000014) /* SoundTable */
+     , (35297,   8, 0x06006633) /* Icon */
+     , (35297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35297,  55,       3911) /* ProcSpell - RingHarmOther */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35297, 8040, 3583574079, 180.025, 155, 373.939, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (35297, 8040, 0xD599003F, 180.025, 155, 373.939, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [180.025000 155.000000 373.939000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

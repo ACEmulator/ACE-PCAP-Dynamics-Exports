@@ -23,7 +23,7 @@ VALUES (38252,   1, 'Hagrafash Tooth Necklace') /* Name */
      , (38252,  16, 'A necklace made from the teeth of the monstrous Hagrafash. Long ago Hagrafash fed on our people and destroyed our great works. Our people could not fight such a beast as the Hagrafash and they suffered greatly. Then, from among the hunters came a savior, Baalfroth, to whom The Whispering One had bestowed great strength. He went forth and slew the great beast with only his spear.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38252,   1,   33554817) /* Setup */
-     , (38252,   3,  536870932) /* SoundTable */
-     , (38252,   8,  100676759) /* Icon */
-     , (38252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38252,   1, 0x02000181) /* Setup */
+     , (38252,   3, 0x20000014) /* SoundTable */
+     , (38252,   8, 0x06003497) /* Icon */
+     , (38252,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30680,   1, 'Withered Drudge Seraph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30680,   1,   33556445) /* Setup */
-     , (30680,   2,  150994952) /* MotionTable */
-     , (30680,   3,  536870919) /* SoundTable */
-     , (30680,   6,   67112812) /* PaletteBase */
-     , (30680,   8,  100667445) /* Icon */
-     , (30680,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (30680,   1, 0x020007DD) /* Setup */
+     , (30680,   2, 0x09000008) /* MotionTable */
+     , (30680,   3, 0x20000007) /* SoundTable */
+     , (30680,   6, 0x04000F6C) /* PaletteBase */
+     , (30680,   8, 0x06001035) /* Icon */
+     , (30680,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30680, 8040, 504561677, 36.2941, 107.658, -0.44545, -0.991476, 0, 0, -0.130287) /* PCAPRecordedLocation */
+VALUES (30680, 8040, 0x1E13000D, 36.2941, 107.658, -0.44545, -0.991476, 0, 0, -0.130287) /* PCAPRecordedLocation */
 /* @teleloc 0x1E13000D [36.294100 107.658000 -0.445450] -0.991476 0.000000 0.000000 -0.130287 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

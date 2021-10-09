@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6854,   1, 'Claude the Archmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6854,   1,   33560381) /* Setup */
-     , (6854,   2,  150994984) /* MotionTable */
-     , (6854,   3,  536870930) /* SoundTable */
-     , (6854,   6,   67111346) /* PaletteBase */
-     , (6854,   8,  100667943) /* Icon */;
+VALUES (6854,   1, 0x0200173D) /* Setup */
+     , (6854,   2, 0x09000028) /* MotionTable */
+     , (6854,   3, 0x20000012) /* SoundTable */
+     , (6854,   6, 0x040009B2) /* PaletteBase */
+     , (6854,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6854, 8040, 288686336, 15.127, 83.413, 71.729, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (6854, 8040, 0x11350100, 15.127, 83.413, 71.729, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x11350100 [15.127000 83.413000 71.729000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -51,14 +51,14 @@ VALUES (42752,   1, 'Haebrean Greaves') /* Name */
      , (42752,  39, 'Rydia') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42752,   1,   33554641) /* Setup */
-     , (42752,   3,  536870932) /* SoundTable */
-     , (42752,   6,   67108990) /* PaletteBase */
-     , (42752,   8,  100691099) /* Icon */
-     , (42752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42752,   1, 0x020000D1) /* Setup */
+     , (42752,   3, 0x20000014) /* SoundTable */
+     , (42752,   6, 0x0400007E) /* PaletteBase */
+     , (42752,   8, 0x06006C9B) /* Icon */
+     , (42752,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42752,  2108,      2)  /* Impenetrability7 */
-     , (42752,  2113,      2)  /* PiercingBane7 */
+VALUES (42752,  2113,      2)  /* PiercingBane7 */
      , (42752,  4683,      2)  /* CANTRIPALCHEMICALPROWESS3 */
-     , (42752,  6105,      2)  /* CantripFocus4 */;
+     , (42752,  6105,      2)  /* CantripFocus4 */
+     , (42752,  2108,      2)  /* Impenetrability7 */;

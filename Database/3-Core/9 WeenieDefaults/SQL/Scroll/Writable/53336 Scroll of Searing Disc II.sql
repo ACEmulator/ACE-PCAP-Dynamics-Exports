@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53336,   1, 'Scroll of Searing Disc II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53336,   1,   33554826) /* Setup */
-     , (53336,   8,  100677027) /* Icon */
-     , (53336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53336,   1, 0x0200018A) /* Setup */
+     , (53336,   8, 0x060035A3) /* Icon */
+     , (53336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53336,  28,       6189) /* Spell - SearingDiscII */;

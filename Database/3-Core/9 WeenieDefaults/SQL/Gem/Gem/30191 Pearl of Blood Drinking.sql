@@ -33,11 +33,11 @@ VALUES (30191,   1, 'Pearl of Blood Drinking') /* Name */
      , (30191,  20, 'Pearls of Blood Drinking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30191,   1,   33554809) /* Setup */
-     , (30191,   3,  536870932) /* SoundTable */
-     , (30191,   6,   67111919) /* PaletteBase */
-     , (30191,   8,  100686695) /* Icon */
-     , (30191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30191,   1, 0x02000179) /* Setup */
+     , (30191,   3, 0x20000014) /* SoundTable */
+     , (30191,   6, 0x04000BEF) /* PaletteBase */
+     , (30191,   8, 0x06005B67) /* Icon */
+     , (30191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30191,  28,       3688) /* Spell - BloodDrinkerRare */
-     , (30191,  50,  100686635) /* IconOverlay */
-     , (30191,  52,  100686604) /* IconUnderlay */;
+     , (30191,  50, 0x06005B2B) /* IconOverlay */
+     , (30191,  52, 0x06005B0C) /* IconUnderlay */;

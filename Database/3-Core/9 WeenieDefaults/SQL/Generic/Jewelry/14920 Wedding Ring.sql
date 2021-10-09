@@ -29,8 +29,8 @@ VALUES (14920,   1, 'Wedding Ring') /* Name */
      , (14920,  15, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14920,   1,   33554691) /* Setup */
-     , (14920,   3,  536870932) /* SoundTable */
-     , (14920,   6,   67111919) /* PaletteBase */
-     , (14920,   8,  100672699) /* Icon */
-     , (14920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14920,   1, 0x02000103) /* Setup */
+     , (14920,   3, 0x20000014) /* SoundTable */
+     , (14920,   6, 0x04000BEF) /* PaletteBase */
+     , (14920,   8, 0x060024BB) /* Icon */
+     , (14920,  22, 0x3400002B) /* PhysicsEffectTable */;

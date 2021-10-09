@@ -18,9 +18,9 @@ VALUES (2241,   1, 'Supplies') /* Name */
      , (2241,  16, 'Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2241,   1,   33555088) /* Setup */
-     , (2241,   8,  100668115) /* Icon */;
+VALUES (2241,   1, 0x02000290) /* Setup */
+     , (2241,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2241, 8040, 3665100842, 126.856, 40.2376, 18, 0.0128189, 0, 0, 0.999918) /* PCAPRecordedLocation */
+VALUES (2241, 8040, 0xDA75002A, 126.856, 40.2376, 18, 0.012819, 0, 0, 0.999918) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75002A [126.856000 40.237600 18.000000] 0.012819 0.000000 0.000000 0.999918 */;

@@ -25,14 +25,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52285,   1, 'Frost Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52285,   1,   33556439) /* Setup */
-     , (52285,   2,  150995073) /* MotionTable */
-     , (52285,   3,  536871067) /* SoundTable */
-     , (52285,   8,  100667940) /* Icon */
-     , (52285,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (52285,   1, 0x020007D7) /* Setup */
+     , (52285,   2, 0x09000081) /* MotionTable */
+     , (52285,   3, 0x2000009B) /* SoundTable */
+     , (52285,   8, 0x06001224) /* Icon */
+     , (52285,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52285, 8040, 2011693096, 103.91, 168.4349, 119.0569, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52285, 8040, 0x77E80028, 103.91, 168.4349, 119.0569, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x77E80028 [103.910000 168.434900 119.056900] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

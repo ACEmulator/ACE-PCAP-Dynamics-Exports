@@ -20,7 +20,7 @@ VALUES (33718,   1, 'Black Spear of Mukkir Strength') /* Name */
      , (33718,  15, 'A decorative Black Spear, made from the remains of the Broken Black Spear carried by the Mukkir Aspect of Grael.  This spear may be placed on Floor or Yard Hooks, where it can then be used to gain the spells that it casts.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33718,   1,   33560035) /* Setup */
-     , (33718,   3,  536870932) /* SoundTable */
-     , (33718,   8,  100688902) /* Icon */
-     , (33718,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33718,   1, 0x020015E3) /* Setup */
+     , (33718,   3, 0x20000014) /* SoundTable */
+     , (33718,   8, 0x06006406) /* Icon */
+     , (33718,  22, 0x3400002B) /* PhysicsEffectTable */;

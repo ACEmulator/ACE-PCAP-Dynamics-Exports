@@ -34,20 +34,20 @@ VALUES (1387,   1, 'Merchant') /* Name */
      , (1387,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1387,   1,   33554510) /* Setup */
-     , (1387,   2,  150994945) /* MotionTable */
-     , (1387,   3,  536870914) /* SoundTable */
-     , (1387,   6,   67108990) /* PaletteBase */
-     , (1387,   8,  100667446) /* Icon */
-     , (1387,   9,   83890261) /* EyesTexture */
-     , (1387,  10,   83890289) /* NoseTexture */
-     , (1387,  11,   83890358) /* MouthTexture */
-     , (1387,  15,   67117025) /* HairPalette */
-     , (1387,  16,   67109567) /* EyesPalette */
-     , (1387,  17,   67109562) /* SkinPalette */;
+VALUES (1387,   1, 0x0200004E) /* Setup */
+     , (1387,   2, 0x09000001) /* MotionTable */
+     , (1387,   3, 0x20000002) /* SoundTable */
+     , (1387,   6, 0x0400007E) /* PaletteBase */
+     , (1387,   8, 0x06001036) /* Icon */
+     , (1387,   9, 0x05001055) /* EyesTexture */
+     , (1387,  10, 0x05001071) /* NoseTexture */
+     , (1387,  11, 0x050010B6) /* MouthTexture */
+     , (1387,  15, 0x04001FE1) /* HairPalette */
+     , (1387,  16, 0x040002BF) /* EyesPalette */
+     , (1387,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1387, 8040, 2880635138, 81.2478, 107.194, 65.205, 0.5622532, 0, 0, -0.8269652) /* PCAPRecordedLocation */
+VALUES (1387, 8040, 0xABB30102, 81.2478, 107.194, 65.205, 0.562253, 0, 0, -0.826965) /* PCAPRecordedLocation */
 /* @teleloc 0xABB30102 [81.247800 107.194000 65.205000] 0.562253 0.000000 0.000000 -0.826965 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

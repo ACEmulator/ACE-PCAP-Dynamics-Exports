@@ -39,11 +39,11 @@ VALUES (8205,   1, 'Shadow''s Garb') /* Name */
      , (8205,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8205,   1,   33556861) /* Setup */
-     , (8205,   3,  536870932) /* SoundTable */
-     , (8205,   8,  100671133) /* Icon */
-     , (8205,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8205,   1, 0x0200097D) /* Setup */
+     , (8205,   3, 0x20000014) /* SoundTable */
+     , (8205,   8, 0x06001E9D) /* Icon */
+     , (8205,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8205,   247,      2)  /* InvulnerabilitySelf4 */
-     , (8205,   301,      2)  /* LightWeaponsMasterySelf4 */;
+VALUES (8205,   301,      2)  /* LightWeaponsMasterySelf4 */
+     , (8205,   247,      2)  /* InvulnerabilitySelf4 */;

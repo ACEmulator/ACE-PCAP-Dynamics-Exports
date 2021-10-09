@@ -17,32 +17,32 @@ VALUES (0x76DE7002, 23616, 0x6DE70026, 108.3764, 133.5793, 237.1944, 1, 0, 0, 0,
 /* @teleloc 0x6DE70026 [108.376400 133.579300 237.194400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7003, 24277, 0x6DE70007, 18.24686, 152.0788, 223.35, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
+VALUES (0x76DE7003, 24277, 0x6DE70007, 18.24686, 152.0788, 223.35, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
 /* @teleloc 0x6DE70007 [18.246860 152.078800 223.350000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7004,  8138, 0x6DE70011, 71.21275, 13.49016, 210.1272, -0.2631746, 0, 0, -0.9647482,  True, '2019-02-10 00:00:00'); /* Extas Raider */
+VALUES (0x76DE7004,  8138, 0x6DE70011, 71.21275, 13.49016, 210.1272, -0.263175, 0, 0, -0.964748,  True, '2019-02-10 00:00:00'); /* Extas Raider */
 /* @teleloc 0x6DE70011 [71.212750 13.490160 210.127200] -0.263175 0.000000 0.000000 -0.964748 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7005, 36840, 0x6DE70011, 48.83167, 12.41096, 206.2006, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
+VALUES (0x76DE7005, 36840, 0x6DE70011, 48.83167, 12.41096, 206.2006, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
 /* @teleloc 0x6DE70011 [48.831670 12.410960 206.200600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7006, 36844, 0x6DE70011, 56.4379, 17.30128, 208.2829, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
+VALUES (0x76DE7006, 36844, 0x6DE70011, 56.4379, 17.30128, 208.2829, 0.398749, 0, 0, -0.91706,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
 /* @teleloc 0x6DE70011 [56.437900 17.301280 208.282900] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7007,  7981, 0x6DE70019, 84.8795, 2.591919, 209.5032, 0.4651714, 0, 0, -0.8852206,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
+VALUES (0x76DE7007,  7981, 0x6DE70019, 84.8795, 2.591919, 209.5032, 0.465171, 0, 0, -0.885221,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
 /* @teleloc 0x6DE70019 [84.879500 2.591919 209.503200] 0.465171 0.000000 0.000000 -0.885221 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7008,  1542, 0x6DE70007, 19.75334, 157.3914, 223.35, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x76DE7008,  1542, 0x6DE70007, 19.75334, 157.3914, 223.35, 0.999048, 0, 0, -0.043619, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x6DE70007 [19.753340 157.391400 223.350000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x76DE7008, 0x76DE7009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76DE7009,  4179, 0x6DE70007, 19.75334, 157.3914, 223.35, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x76DE7009,  4179, 0x6DE70007, 19.75334, 157.3914, 223.35, 0.999048, 0, 0, -0.043619,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x6DE70007 [19.753340 157.391400 223.350000] 0.999048 0.000000 0.000000 -0.043619 */

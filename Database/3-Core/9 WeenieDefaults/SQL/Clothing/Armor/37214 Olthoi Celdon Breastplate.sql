@@ -46,15 +46,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37214,   1, 'Olthoi Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37214,   1,   33554642) /* Setup */
-     , (37214,   3,  536870932) /* SoundTable */
-     , (37214,   6,   67108990) /* PaletteBase */
-     , (37214,   8,  100674635) /* Icon */
-     , (37214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37214,   1, 0x020000D2) /* Setup */
+     , (37214,   3, 0x20000014) /* SoundTable */
+     , (37214,   6, 0x0400007E) /* PaletteBase */
+     , (37214,   8, 0x06002C4B) /* Icon */
+     , (37214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37214,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37214, 8040, 23855473, 21.8771, -61.83859, -0.004999995, -0.1638941, 0, 0, -0.9864779) /* PCAPRecordedLocation */
+VALUES (37214, 8040, 0x016C0171, 21.8771, -61.83859, -0.005, -0.163894, 0, 0, -0.986478) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [21.877100 -61.838590 -0.005000] -0.163894 0.000000 0.000000 -0.986478 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

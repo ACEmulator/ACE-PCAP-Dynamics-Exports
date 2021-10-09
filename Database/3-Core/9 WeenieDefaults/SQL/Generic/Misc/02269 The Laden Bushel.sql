@@ -18,9 +18,9 @@ VALUES (2269,   1, 'The Laden Bushel') /* Name */
      , (2269,  16, 'The Laden Bushel') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2269,   1,   33555088) /* Setup */
-     , (2269,   8,  100668115) /* Icon */;
+VALUES (2269,   1, 0x02000290) /* Setup */
+     , (2269,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2269, 8040, 3443589159, 101.685, 151.995, 54, 0.999944, 0, 0, -0.0105486) /* PCAPRecordedLocation */
+VALUES (2269, 8040, 0xCD410027, 101.685, 151.995, 54, 0.999944, 0, 0, -0.010549) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410027 [101.685000 151.995000 54.000000] 0.999944 0.000000 0.000000 -0.010549 */;

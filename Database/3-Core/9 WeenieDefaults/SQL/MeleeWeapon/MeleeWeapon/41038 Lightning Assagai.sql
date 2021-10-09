@@ -50,15 +50,15 @@ VALUES (41038,   1, 'Lightning Assagai') /* Name */
      , (41038,  16, 'Lightning Assagai of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41038,   1,   33560873) /* Setup */
-     , (41038,   3,  536870932) /* SoundTable */
-     , (41038,   6,   67115558) /* PaletteBase */
-     , (41038,   8,  100690630) /* Icon */
-     , (41038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41038,   1, 0x02001929) /* Setup */
+     , (41038,   3, 0x20000014) /* SoundTable */
+     , (41038,   6, 0x04001A26) /* PaletteBase */
+     , (41038,   8, 0x06006AC6) /* Icon */
+     , (41038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41038,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41038,  1605,      2)  /* DefenderSelf6 */
+     , (41038,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
      , (41038,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41038,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41038,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+     , (41038,  2106,      2)  /* HeartSeekerSelf7 */;

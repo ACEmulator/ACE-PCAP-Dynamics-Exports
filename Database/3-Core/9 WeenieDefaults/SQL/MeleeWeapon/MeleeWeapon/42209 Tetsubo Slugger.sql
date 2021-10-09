@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42209,   1, 'Tetsubo Slugger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42209,   1,   33560728) /* Setup */
-     , (42209,   3,  536870932) /* SoundTable */
-     , (42209,   6,   67116700) /* PaletteBase */
-     , (42209,   8,  100690501) /* Icon */
-     , (42209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42209,   1, 0x02001898) /* Setup */
+     , (42209,   3, 0x20000014) /* SoundTable */
+     , (42209,   6, 0x04001E9C) /* PaletteBase */
+     , (42209,   8, 0x06006A45) /* Icon */
+     , (42209,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42209, 8040, 2103705613, 33.14976, 103.4668, 11.929, 0.3347458, 0.3347458, -0.6228525, -0.6228525) /* PCAPRecordedLocation */
+VALUES (42209, 8040, 0x7D64000D, 33.14976, 103.4668, 11.929, 0.334746, 0.334746, -0.622853, -0.622853) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [33.149760 103.466800 11.929000] 0.334746 0.334746 -0.622853 -0.622853 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

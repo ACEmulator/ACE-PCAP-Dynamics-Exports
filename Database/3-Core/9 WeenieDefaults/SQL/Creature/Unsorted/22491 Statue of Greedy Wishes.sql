@@ -27,12 +27,12 @@ VALUES (22491,   1, 'Statue of Greedy Wishes') /* Name */
      , (22491,  15, 'Warning: My reward will fill you to the brim.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22491,   1,   33558124) /* Setup */
-     , (22491,   2,  150995147) /* MotionTable */
-     , (22491,   3,  536871052) /* SoundTable */
-     , (22491,   8,  100673831) /* Icon */
-     , (22491,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22491,   1, 0x02000E6C) /* Setup */
+     , (22491,   2, 0x090000CB) /* MotionTable */
+     , (22491,   3, 0x2000008C) /* SoundTable */
+     , (22491,   8, 0x06002927) /* Icon */
+     , (22491,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22491, 8040, 1598292264, 20, -40, -0.004999995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (22491, 8040, 0x5F440128, 20, -40, -0.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5F440128 [20.000000 -40.000000 -0.005000] 0.707107 0.000000 0.000000 -0.707107 */;

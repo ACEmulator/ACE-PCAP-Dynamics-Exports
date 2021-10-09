@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36176,   1, 'Pillar of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36176,   1,   33560372) /* Setup */
-     , (36176,   2,  150995290) /* MotionTable */
-     , (36176,   3,  536871001) /* SoundTable */
-     , (36176,   8,  100672514) /* Icon */
-     , (36176,  22,  872415389) /* PhysicsEffectTable */;
+VALUES (36176,   1, 0x02001734) /* Setup */
+     , (36176,   2, 0x0900015A) /* MotionTable */
+     , (36176,   3, 0x20000059) /* SoundTable */
+     , (36176,   8, 0x06002402) /* Icon */
+     , (36176,  22, 0x3400009D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36176, 8040, 12321031, 29.75291, -16.42773, -36.00335, -0.8896, 0, 0, -0.4567405) /* PCAPRecordedLocation */
+VALUES (36176, 8040, 0x00BC0107, 29.75291, -16.42773, -36.00335, -0.8896, 0, 0, -0.456741) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0107 [29.752910 -16.427730 -36.003350] -0.889600 0.000000 0.000000 -0.456741 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

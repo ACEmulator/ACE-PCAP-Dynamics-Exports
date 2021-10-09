@@ -45,12 +45,12 @@ VALUES (52787,   1, 'Brown Society Locket') /* Name */
      , (52787,  16, 'A necklace set with vibrant gemstones of red and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52787,   1,   33554680) /* Setup */
-     , (52787,   3,  536870932) /* SoundTable */
-     , (52787,   6,   67111919) /* PaletteBase */
-     , (52787,   8,  100693314) /* Icon */
-     , (52787,  22,  872415275) /* PhysicsEffectTable */
-     , (52787,  52,  100686604) /* IconUnderlay */;
+VALUES (52787,   1, 0x020000F8) /* Setup */
+     , (52787,   3, 0x20000014) /* SoundTable */
+     , (52787,   6, 0x04000BEF) /* PaletteBase */
+     , (52787,   8, 0x06007542) /* Icon */
+     , (52787,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52787,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52787,  6080,      2)  /* CantripAcidWard4 */

@@ -35,14 +35,14 @@ VALUES (2031,   1, 'Branith''s Staff') /* Name */
      , (2031,  16, 'A simple but functional sunstone casting staff.  There are suspicious scorch marks on one end.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2031,   1,   33558283) /* Setup */
-     , (2031,   3,  536870932) /* SoundTable */
-     , (2031,   8,  100674234) /* Icon */
-     , (2031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2031,   1, 0x02000F0B) /* Setup */
+     , (2031,   3, 0x20000014) /* SoundTable */
+     , (2031,   8, 0x06002ABA) /* Icon */
+     , (2031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2031,  28,       2742) /* Spell - FlameArc4 */
      , (2031,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2031,   215,      2)  /* ManaRenewalSelf4 */
-     , (2031,   632,      2)  /* WarMagicMasterySelf4 */
-     , (2031,   656,      2)  /* ManaMasterySelf4 */;
+VALUES (2031,   656,      2)  /* ManaMasterySelf4 */
+     , (2031,   215,      2)  /* ManaRenewalSelf4 */
+     , (2031,   632,      2)  /* WarMagicMasterySelf4 */;

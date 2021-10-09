@@ -33,8 +33,8 @@ VALUES (42667,   1, 'Top Hat') /* Name */
      , (42667,  15, 'A finely crafted Top Hat that can be tailored with other items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42667,   1,   33560948) /* Setup */
-     , (42667,   3,  536870932) /* SoundTable */
-     , (42667,   6,   67108990) /* PaletteBase */
-     , (42667,   8,  100688217) /* Icon */
-     , (42667,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42667,   1, 0x02001974) /* Setup */
+     , (42667,   3, 0x20000014) /* SoundTable */
+     , (42667,   6, 0x0400007E) /* PaletteBase */
+     , (42667,   8, 0x06006159) /* Icon */
+     , (42667,  22, 0x3400002B) /* PhysicsEffectTable */;

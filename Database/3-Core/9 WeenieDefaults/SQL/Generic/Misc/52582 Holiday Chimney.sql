@@ -20,11 +20,11 @@ VALUES (52582,   1, 'Holiday Chimney') /* Name */
      , (52582,  15, 'A Holiday Chimney. It appears to be currently occupied. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52582,   1,   33561640) /* Setup */
-     , (52582,   3,  536870932) /* SoundTable */
-     , (52582,   8,  100693293) /* Icon */
-     , (52582,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52582,   1, 0x02001C28) /* Setup */
+     , (52582,   3, 0x20000014) /* SoundTable */
+     , (52582,   8, 0x0600752D) /* Icon */
+     , (52582,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52582, 8040, 23855548, 54.2211, -27.82343, 0, 0.0852944, 0, 0, -0.9963558) /* PCAPRecordedLocation */
+VALUES (52582, 8040, 0x016C01BC, 54.2211, -27.82343, 0, 0.085294, 0, 0, -0.996356) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.221100 -27.823430 0.000000] 0.085294 0.000000 0.000000 -0.996356 */;

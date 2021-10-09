@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43573,   1, 'Olthoi Tunnel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43573,   1,   33554867) /* Setup */
-     , (43573,   2,  150994947) /* MotionTable */
-     , (43573,   6,   67109370) /* PaletteBase */
-     , (43573,   8,  100667499) /* Icon */;
+VALUES (43573,   1, 0x020001B3) /* Setup */
+     , (43573,   2, 0x09000003) /* MotionTable */
+     , (43573,   6, 0x040001FA) /* PaletteBase */
+     , (43573,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43573, 8040, 2585854210, 59.8415, 117.138, 90.33701, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43573, 8040, 0x9A210102, 59.8415, 117.138, 90.33701, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9A210102 [59.841500 117.138000 90.337010] 1.000000 0.000000 0.000000 0.000000 */;

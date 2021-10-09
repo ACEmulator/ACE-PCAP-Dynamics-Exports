@@ -51,13 +51,13 @@ VALUES (31765,   1, 'Acid Lugian Hammer') /* Name */
      , (31765,  16, 'Acid Lugian Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31765,   1,   33559673) /* Setup */
-     , (31765,   3,  536870932) /* SoundTable */
-     , (31765,   6,   67116700) /* PaletteBase */
-     , (31765,   8,  100688030) /* Icon */
-     , (31765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31765,   1, 0x02001479) /* Setup */
+     , (31765,   3, 0x20000014) /* SoundTable */
+     , (31765,   6, 0x04001E9C) /* PaletteBase */
+     , (31765,   8, 0x0600609E) /* Icon */
+     , (31765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31765,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31765,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */;
+VALUES (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
+     , (31765,  2096,      2)  /* BloodDrinkerSelf7 */;

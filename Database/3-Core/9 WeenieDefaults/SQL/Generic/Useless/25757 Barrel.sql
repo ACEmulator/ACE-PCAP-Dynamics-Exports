@@ -19,11 +19,11 @@ VALUES (25757,   1, 'Barrel') /* Name */
      , (25757,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25757,   1,   33554597) /* Setup */
-     , (25757,   3,  536870932) /* SoundTable */
-     , (25757,   8,  100675552) /* Icon */
-     , (25757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25757,   1, 0x020000A5) /* Setup */
+     , (25757,   3, 0x20000014) /* SoundTable */
+     , (25757,   8, 0x06002FE0) /* Icon */
+     , (25757,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25757, 8040, 23855554, 57.03552, -28.00603, 0, 0.9959922, 0, 0, -0.08944029) /* PCAPRecordedLocation */
+VALUES (25757, 8040, 0x016C01C2, 57.03552, -28.00603, 0, 0.995992, 0, 0, -0.08944) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.035520 -28.006030 0.000000] 0.995992 0.000000 0.000000 -0.089440 */;

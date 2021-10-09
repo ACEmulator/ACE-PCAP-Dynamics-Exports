@@ -44,8 +44,8 @@ VALUES (40621,   1, 'Flaming Spadone') /* Name */
      , (40621,  16, 'Flaming Spadone') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40621,   1,   33560719) /* Setup */
-     , (40621,   3,  536870932) /* SoundTable */
-     , (40621,   6,   67115557) /* PaletteBase */
-     , (40621,   8,  100690808) /* Icon */
-     , (40621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40621,   1, 0x0200188F) /* Setup */
+     , (40621,   3, 0x20000014) /* SoundTable */
+     , (40621,   6, 0x04001A25) /* PaletteBase */
+     , (40621,   8, 0x06006B78) /* Icon */
+     , (40621,  22, 0x3400002B) /* PhysicsEffectTable */;

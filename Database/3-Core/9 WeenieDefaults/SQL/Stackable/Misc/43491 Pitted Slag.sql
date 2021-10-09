@@ -25,7 +25,7 @@ VALUES (43491,   1, 'Pitted Slag') /* Name */
      , (43491,  16, 'The slag that is left from the acid bath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43491,   1,   33554802) /* Setup */
-     , (43491,   3,  536870932) /* SoundTable */
-     , (43491,   8,  100691627) /* Icon */
-     , (43491,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43491,   1, 0x02000172) /* Setup */
+     , (43491,   3, 0x20000014) /* SoundTable */
+     , (43491,   8, 0x06006EAB) /* Icon */
+     , (43491,  22, 0x3400002B) /* PhysicsEffectTable */;

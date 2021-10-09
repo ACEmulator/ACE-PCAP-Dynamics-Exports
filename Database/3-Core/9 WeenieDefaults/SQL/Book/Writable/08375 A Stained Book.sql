@@ -21,13 +21,13 @@ VALUES (8375,   1, 'A Stained Book') /* Name */
      , (8375,  16, 'A plain, thin book of some years'' age.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8375,   1,   33554772) /* Setup */
-     , (8375,   3,  536870932) /* SoundTable */
-     , (8375,   8,  100668117) /* Icon */
-     , (8375,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8375,   1, 0x02000154) /* Setup */
+     , (8375,   3, 0x20000014) /* SoundTable */
+     , (8375,   8, 0x060012D5) /* Icon */
+     , (8375,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8375, 8040, 46924042, 42.7614, -36.8864, 0.06344, 0.9971888, 0, 0, -0.07492998) /* PCAPRecordedLocation */
+VALUES (8375, 8040, 0x02CC010A, 42.7614, -36.8864, 0.06344, 0.997189, 0, 0, -0.07493) /* PCAPRecordedLocation */
 /* @teleloc 0x02CC010A [42.761400 -36.886400 0.063440] 0.997189 0.000000 0.000000 -0.074930 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

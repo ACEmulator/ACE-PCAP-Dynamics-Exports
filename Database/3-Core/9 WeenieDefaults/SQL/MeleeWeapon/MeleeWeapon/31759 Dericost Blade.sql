@@ -44,13 +44,13 @@ VALUES (31759,   1, 'Dericost Blade') /* Name */
      , (31759,  16, 'Dericost Blade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31759,   1,   33559637) /* Setup */
-     , (31759,   3,  536870932) /* SoundTable */
-     , (31759,   6,   67116700) /* PaletteBase */
-     , (31759,   8,  100688005) /* Icon */
-     , (31759,  22,  872415275) /* PhysicsEffectTable */
-     , (31759,  52,  100676443) /* IconUnderlay */;
+VALUES (31759,   1, 0x02001455) /* Setup */
+     , (31759,   3, 0x20000014) /* SoundTable */
+     , (31759,   6, 0x04001E9C) /* PaletteBase */
+     , (31759,   8, 0x06006085) /* Icon */
+     , (31759,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31759,  52, 0x0600335B) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31759, 8040, 2847146026, 135.888, 38.01053, 93.92976, 0.7004877, 0.7004877, 0.09652442, 0.09652442) /* PCAPRecordedLocation */
+VALUES (31759, 8040, 0xA9B4002A, 135.888, 38.01053, 93.92976, 0.700488, 0.700488, 0.096524, 0.096524) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [135.888000 38.010530 93.929760] 0.700488 0.700488 0.096524 0.096524 */;

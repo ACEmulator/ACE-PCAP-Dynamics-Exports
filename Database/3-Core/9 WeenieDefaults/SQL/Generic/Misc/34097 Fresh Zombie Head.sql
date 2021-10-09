@@ -19,7 +19,7 @@ VALUES (34097,   1, 'Fresh Zombie Head') /* Name */
      , (34097,  14, 'Turn this item into Ungrim in Glendenwood.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34097,   1,   33557363) /* Setup */
-     , (34097,   3,  536870932) /* SoundTable */
-     , (34097,   8,  100672172) /* Icon */
-     , (34097,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34097,   1, 0x02000B73) /* Setup */
+     , (34097,   3, 0x20000014) /* SoundTable */
+     , (34097,   8, 0x060022AC) /* Icon */
+     , (34097,  22, 0x3400002B) /* PhysicsEffectTable */;

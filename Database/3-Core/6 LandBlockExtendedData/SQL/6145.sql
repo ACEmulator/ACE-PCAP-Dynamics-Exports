@@ -49,7 +49,7 @@ VALUES (0x76145040,  4451, 0x614501FC, 70, -154.75, -18, 1, 0, 0, 0, False, '201
 /* @teleloc 0x614501FC [70.000000 -154.750000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145042,  4451, 0x61450202, 70, -165.25, -18, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145042,  4451, 0x61450202, 70, -165.25, -18, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450202 [70.000000 -165.250000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -97,7 +97,7 @@ VALUES (0x76145061,  4451, 0x61450248, 90, -154.75, -12, 1, 0, 0, 0, False, '201
 /* @teleloc 0x61450248 [90.000000 -154.750000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145063,  4451, 0x6145024E, 90, -165.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145063,  4451, 0x6145024E, 90, -165.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145024E [90.000000 -165.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -117,19 +117,19 @@ VALUES (0x76145068,  4451, 0x6145025A, 110, -114.75, -12, 1, 0, 0, 0, False, '20
 /* @teleloc 0x6145025A [110.000000 -114.750000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614506C,  4451, 0x6145026C, 120, -125.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7614506C,  4451, 0x6145026C, 120, -125.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145026C [120.000000 -125.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614506E,  4451, 0x61450271, 120, -145.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7614506E,  4451, 0x61450271, 120, -145.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450271 [120.000000 -145.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614506F,  4451, 0x61450281, 130, -145.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7614506F,  4451, 0x61450281, 130, -145.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450281 [130.000000 -145.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145071,  4451, 0x61450292, 150, -145.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145071,  4451, 0x61450292, 150, -145.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450292 [150.000000 -145.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -137,11 +137,11 @@ VALUES (0x76145072,  4451, 0x61450293, 160, -114.75, -12, 1, 0, 0, 0, False, '20
 /* @teleloc 0x61450293 [160.000000 -114.750000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145074,  4451, 0x61450299, 160, -125.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145074,  4451, 0x61450299, 160, -125.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450299 [160.000000 -125.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145076,  4451, 0x6145029E, 160, -145.25, -12, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145076,  4451, 0x6145029E, 160, -145.25, -12, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145029E [160.000000 -145.250000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -185,7 +185,7 @@ VALUES (0x76145086,  4451, 0x614502E7, 245.25, -180, -12, 0.707107, 0, 0, -0.707
 /* @teleloc 0x614502E7 [245.250000 -180.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145088,  4451, 0x614502ED, 110, -165.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145088,  4451, 0x614502ED, 110, -165.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x614502ED [110.000000 -165.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -221,7 +221,7 @@ VALUES (0x76145098,  4451, 0x6145032D, 190, -144.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x6145032D [190.000000 -144.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145099,  4451, 0x61450333, 190, -155.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x76145099,  4451, 0x61450333, 190, -155.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450333 [190.000000 -155.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -229,7 +229,7 @@ VALUES (0x7614509A,  4451, 0x61450334, 190, -184.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x61450334 [190.000000 -184.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614509B,  4451, 0x6145033A, 190, -195.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7614509B,  4451, 0x6145033A, 190, -195.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145033A [190.000000 -195.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -237,7 +237,7 @@ VALUES (0x7614509C,  4451, 0x6145033B, 200, -144.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x6145033B [200.000000 -144.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614509E,  4451, 0x61450341, 200, -155.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7614509E,  4451, 0x61450341, 200, -155.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450341 [200.000000 -155.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -245,7 +245,7 @@ VALUES (0x7614509F,  4451, 0x61450342, 200, -184.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x61450342 [200.000000 -184.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450A1,  4451, 0x61450348, 200, -195.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x761450A1,  4451, 0x61450348, 200, -195.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450348 [200.000000 -195.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -253,7 +253,7 @@ VALUES (0x761450A2,  4451, 0x61450349, 210, -144.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x61450349 [210.000000 -144.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450A3,  4451, 0x6145034F, 210, -155.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x761450A3,  4451, 0x6145034F, 210, -155.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145034F [210.000000 -155.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -261,11 +261,11 @@ VALUES (0x761450A4,  4451, 0x61450350, 210, -184.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x61450350 [210.000000 -184.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450A5,  4451, 0x61450356, 210, -195.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x761450A5,  4451, 0x61450356, 210, -195.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450356 [210.000000 -195.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450A7,  4451, 0x6145035D, 220, -155.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x761450A7,  4451, 0x6145035D, 220, -155.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x6145035D [220.000000 -155.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -273,7 +273,7 @@ VALUES (0x761450A8,  4451, 0x6145035E, 220, -184.75, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x6145035E [220.000000 -184.750000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450AA,  4451, 0x61450364, 220, -195.25, -6, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x761450AA,  4451, 0x61450364, 220, -195.25, -6, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x61450364 [220.000000 -195.250000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -285,7 +285,7 @@ VALUES (0x761450AC,  4451, 0x61450366, 225.25, -190, -6, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x61450366 [225.250000 -190.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450AF,  6122, 0x61450118, 30, -180, -24, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x761450AF,  6122, 0x61450118, 30, -180, -24, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x61450118 [30.000000 -180.000000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -293,7 +293,7 @@ VALUES (0x761450B0,  6122, 0x61450120, 40, -100, -24, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x61450120 [40.000000 -100.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450B1,  6122, 0x61450121, 40, -110, -24, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x761450B1,  6122, 0x61450121, 40, -110, -24, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x61450121 [40.000000 -110.000000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -305,7 +305,7 @@ VALUES (0x761450B3,  6122, 0x61450153, 60, -100, -24, 0.707107, 0, 0, -0.707107,
 /* @teleloc 0x61450153 [60.000000 -100.000000 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450B4,  6122, 0x61450154, 60, -110, -24, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x761450B4,  6122, 0x61450154, 60, -110, -24, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x61450154 [60.000000 -110.000000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -325,7 +325,7 @@ VALUES (0x761450B8,  6122, 0x614501A1, 130, -50, -24, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x614501A1 [130.000000 -50.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450B9,  6122, 0x614501A2, 130, -60, -24, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x761450B9,  6122, 0x614501A2, 130, -60, -24, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x614501A2 [130.000000 -60.000000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -337,7 +337,7 @@ VALUES (0x761450BB,  6122, 0x614501C3, 50, -120, -18, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x614501C3 [50.000000 -120.000000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450BC,  6122, 0x614501EA, 60, -120, -18, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x761450BC,  6122, 0x614501EA, 60, -120, -18, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x614501EA [60.000000 -120.000000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1163,11 +1163,11 @@ VALUES (0x761450E1, 23990, 0x614502FE, 131.1716, -132.8304, -6.269218, 1, 0, 0, 
 /* @teleloc 0x614502FE [131.171600 -132.830400 -6.269218] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450E2, 24453, 0x614502F6, 121.3153, -165.1039, -6, -0.9685724, 0, 0, -0.2487317,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450E2, 24453, 0x614502F6, 121.3153, -165.1039, -6, -0.968572, 0, 0, -0.248732,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502F6 [121.315300 -165.103900 -6.000000] -0.968572 0.000000 0.000000 -0.248732 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450E3, 23990, 0x614502F7, 119.7337, -174.8263, -6.016, -0.8197571, 0, 0, -0.5727113,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450E3, 23990, 0x614502F7, 119.7337, -174.8263, -6.016, -0.819757, 0, 0, -0.572711,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614502F7 [119.733700 -174.826300 -6.016000] -0.819757 0.000000 0.000000 -0.572711 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1183,15 +1183,15 @@ VALUES (0x761450E6, 24453, 0x61450307, 141.8032, -144.8007, -6, 1, 0, 0, 0,  Tru
 /* @teleloc 0x61450307 [141.803200 -144.800700 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450E7, 24453, 0x61450311, 145.0331, -151.791, -6, -0.06281239, 0, 0, -0.9980254,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450E7, 24453, 0x61450311, 145.0331, -151.791, -6, -0.062812, 0, 0, -0.998025,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450311 [145.033100 -151.791000 -6.000000] -0.062812 0.000000 0.000000 -0.998025 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450E8, 24453, 0x614502E9, 109.2719, -158.3982, -6, -0.8369238, 0, 0, -0.5473195,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450E8, 24453, 0x614502E9, 109.2719, -158.3982, -6, -0.836924, 0, 0, -0.54732,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502E9 [109.271900 -158.398200 -6.000000] -0.836924 0.000000 0.000000 -0.547320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450E9, 23990, 0x61450304, 138.3836, -142.9999, -6.016, -0.9256376, 0, 0, -0.3784113,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450E9, 23990, 0x61450304, 138.3836, -142.9999, -6.016, -0.925638, 0, 0, -0.378411,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450304 [138.383600 -142.999900 -6.016000] -0.925638 0.000000 0.000000 -0.378411 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1219,11 +1219,11 @@ VALUES (0x761450EF, 24453, 0x61450259, 99.26111, -186.7542, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450259 [99.261110 -186.754200 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F0, 24453, 0x614502ED, 111.2418, -167.1088, -6, 0.8033264, 0, 0, -0.595539,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450F0, 24453, 0x614502ED, 111.2418, -167.1088, -6, 0.803326, 0, 0, -0.595539,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502ED [111.241800 -167.108800 -6.000000] 0.803326 0.000000 0.000000 -0.595539 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F1, 24453, 0x614502EC, 110.3594, -164.6392, -6, -0.9995214, 0, 0, 0.03093574,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450F1, 24453, 0x614502EC, 110.3594, -164.6392, -6, -0.999521, 0, 0, 0.030936,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502EC [110.359400 -164.639200 -6.000000] -0.999521 0.000000 0.000000 0.030936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1231,19 +1231,19 @@ VALUES (0x761450F2, 24453, 0x61450249, 90.14818, -163.5715, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450249 [90.148180 -163.571500 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F3, 23990, 0x61450249, 91.2943, -161.6207, -12.016, -0.9958283, 0, 0, -0.09124626,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450F3, 23990, 0x61450249, 91.2943, -161.6207, -12.016, -0.995828, 0, 0, -0.091246,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450249 [91.294300 -161.620700 -12.016000] -0.995828 0.000000 0.000000 -0.091246 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F4, 23990, 0x61450249, 90.63412, -156.6257, -12.016, -0.9172403, 0, 0, -0.3983343,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450F4, 23990, 0x61450249, 90.63412, -156.6257, -12.016, -0.91724, 0, 0, -0.398334,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450249 [90.634120 -156.625700 -12.016000] -0.917240 0.000000 0.000000 -0.398334 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F5, 24453, 0x61450249, 89.88739, -157.4964, -12, -0.8999481, 0, 0, -0.4359971,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450F5, 24453, 0x61450249, 89.88739, -157.4964, -12, -0.899948, 0, 0, -0.435997,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450249 [89.887390 -157.496400 -12.000000] -0.899948 0.000000 0.000000 -0.435997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F6, 24453, 0x6145024E, 91.20746, -165.8156, -12, -0.1584757, 0, 0, -0.9873629,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450F6, 24453, 0x6145024E, 91.20746, -165.8156, -12, -0.158476, 0, 0, -0.987363,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145024E [91.207460 -165.815600 -12.000000] -0.158476 0.000000 0.000000 -0.987363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1251,15 +1251,15 @@ VALUES (0x761450F7, 24453, 0x6145024A, 90.98086, -164.5594, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145024A [90.980860 -164.559400 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F8, 23990, 0x614501FD, 69.67217, -156.3254, -18.016, -0.8465675, 0, 0, -0.5322815,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450F8, 23990, 0x614501FD, 69.67217, -156.3254, -18.016, -0.846568, 0, 0, -0.532282,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501FD [69.672170 -156.325400 -18.016000] -0.846568 0.000000 0.000000 -0.532282 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450F9, 23990, 0x61450343, 198.8272, -192.8671, -6.016, 0.4368877, 0, 0, -0.899516,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761450F9, 23990, 0x61450343, 198.8272, -192.8671, -6.016, 0.436888, 0, 0, -0.899516,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450343 [198.827200 -192.867100 -6.016000] 0.436888 0.000000 0.000000 -0.899516 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450FA, 24453, 0x61450337, 194.7505, -189.6915, -6, 0.3406689, 0, 0, -0.9401833,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450FA, 24453, 0x61450337, 194.7505, -189.6915, -6, 0.340669, 0, 0, -0.940183,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450337 [194.750500 -189.691500 -6.000000] 0.340669 0.000000 0.000000 -0.940183 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1267,7 +1267,7 @@ VALUES (0x761450FB, 23990, 0x61450259, 100.8379, -186.2684, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x61450259 [100.837900 -186.268400 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761450FC, 24453, 0x61450334, 191.4771, -182.9086, -6, -0.9904166, 0, 0, -0.1381124,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761450FC, 24453, 0x61450334, 191.4771, -182.9086, -6, -0.990417, 0, 0, -0.138112,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450334 [191.477100 -182.908600 -6.000000] -0.990417 0.000000 0.000000 -0.138112 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1415,7 +1415,7 @@ VALUES (0x76145120, 23990, 0x6145032C, 178.0841, -191.1198, -6.016, 1, 0, 0, 0, 
 /* @teleloc 0x6145032C [178.084100 -191.119800 -6.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145121, 24453, 0x61450314, 163.0694, -181.3056, -6, 0.7092069, 0, 0, -0.7050004,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145121, 24453, 0x61450314, 163.0694, -181.3056, -6, 0.709207, 0, 0, -0.705,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450314 [163.069400 -181.305600 -6.000000] 0.709207 0.000000 0.000000 -0.705000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1523,7 +1523,7 @@ VALUES (0x7614513B, 24453, 0x6145021D, 133.1851, -85.52, -18, 1, 0, 0, 0,  True,
 /* @teleloc 0x6145021D [133.185100 -85.520000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614513C, 24453, 0x6145027D, 130.8965, -138.5026, -12, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614513C, 24453, 0x6145027D, 130.8965, -138.5026, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145027D [130.896500 -138.502600 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1543,7 +1543,7 @@ VALUES (0x76145140, 24453, 0x6145026D, 115.7765, -138.609, -12, 1, 0, 0, 0,  Tru
 /* @teleloc 0x6145026D [115.776500 -138.609000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145141, 24453, 0x61450281, 128.9436, -147.1054, -12, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145141, 24453, 0x61450281, 128.9436, -147.1054, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450281 [128.943600 -147.105400 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1571,15 +1571,15 @@ VALUES (0x76145147, 23990, 0x61450285, 143.7248, -140.4119, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x61450285 [143.724800 -140.411900 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145148, 24453, 0x61450285, 136.8973, -141.7291, -12, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145148, 24453, 0x61450285, 136.8973, -141.7291, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450285 [136.897300 -141.729100 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145149, 23990, 0x61450285, 136.1253, -139.8127, -12.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145149, 23990, 0x61450285, 136.1253, -139.8127, -12.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450285 [136.125300 -139.812700 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614514A, 23990, 0x61450285, 138.9866, -140.8569, -12.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614514A, 23990, 0x61450285, 138.9866, -140.8569, -12.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450285 [138.986600 -140.856900 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1663,15 +1663,15 @@ VALUES (0x7614515E, 23990, 0x614502A9, 176.4135, -118.4891, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x614502A9 [176.413500 -118.489100 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614515F, 24453, 0x614502F9, 121.7119, -184.3004, -6, -0.8455468, 0, 0, -0.5339013,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614515F, 24453, 0x614502F9, 121.7119, -184.3004, -6, -0.845547, 0, 0, -0.533901,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502F9 [121.711900 -184.300400 -6.000000] -0.845547 0.000000 0.000000 -0.533901 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145160, 24453, 0x61450321, 166.0689, -180.7544, -6, 0.7177453, 0, 0, -0.6963058,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145160, 24453, 0x61450321, 166.0689, -180.7544, -6, 0.717745, 0, 0, -0.696306,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450321 [166.068900 -180.754400 -6.000000] 0.717745 0.000000 0.000000 -0.696306 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145161, 24453, 0x61450318, 166.0853, -159.9958, -6, 0.888245, 0, 0, -0.4593701,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145161, 24453, 0x61450318, 166.0853, -159.9958, -6, 0.888245, 0, 0, -0.45937,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450318 [166.085300 -159.995800 -6.000000] 0.888245 0.000000 0.000000 -0.459370 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1683,7 +1683,7 @@ VALUES (0x76145163, 23990, 0x61450299, 159.8449, -126.788, -12.016, 1, 0, 0, 0, 
 /* @teleloc 0x61450299 [159.844900 -126.788000 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145164, 24453, 0x6145027D, 133.8595, -139.7684, -12, 0.4089985, 0, 0, -0.9125351,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145164, 24453, 0x6145027D, 133.8595, -139.7684, -12, 0.408999, 0, 0, -0.912535,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145027D [133.859500 -139.768400 -12.000000] 0.408999 0.000000 0.000000 -0.912535 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1835,7 +1835,7 @@ VALUES (0x76145189, 24453, 0x614502A6, 170.7868, -138.6718, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x614502A6 [170.786800 -138.671800 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614518A, 24453, 0x6145028E, 148.8901, -141.3441, -12, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614518A, 24453, 0x6145028E, 148.8901, -141.3441, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145028E [148.890100 -141.344100 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1851,7 +1851,7 @@ VALUES (0x7614518D, 23990, 0x6145029A, 160.1565, -139.1937, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x6145029A [160.156500 -139.193700 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614518E, 24453, 0x61450286, 135.1324, -138.2342, -12, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614518E, 24453, 0x61450286, 135.1324, -138.2342, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450286 [135.132400 -138.234200 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1863,7 +1863,7 @@ VALUES (0x76145190, 23990, 0x6145027D, 130.8559, -138.2182, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x6145027D [130.855900 -138.218200 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145191, 23990, 0x6145027D, 129.4146, -141.0664, -12.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145191, 23990, 0x6145027D, 129.4146, -141.0664, -12.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145027D [129.414600 -141.066400 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1903,11 +1903,11 @@ VALUES (0x7614519A, 24453, 0x61450294, 160.5031, -118.3513, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450294 [160.503100 -118.351300 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614519B, 23990, 0x61450284, 141.3817, -133.3656, -12.89458, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614519B, 23990, 0x61450284, 141.3817, -133.3656, -12.89458, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450284 [141.381700 -133.365600 -12.894580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614519C, 24453, 0x61450284, 141.2656, -132.021, -12.02264, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614519C, 24453, 0x61450284, 141.2656, -132.021, -12.02264, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450284 [141.265600 -132.021000 -12.022640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1923,7 +1923,7 @@ VALUES (0x7614519F, 24453, 0x614502FE, 129.5936, -131.4922, -8.01826, 1, 0, 0, 0
 /* @teleloc 0x614502FE [129.593600 -131.492200 -8.018260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451A0, 24453, 0x6145031C, 165.1636, -158.7329, -6, 0.2014681, 0, 0, -0.979495,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451A0, 24453, 0x6145031C, 165.1636, -158.7329, -6, 0.201468, 0, 0, -0.979495,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145031C [165.163600 -158.732900 -6.000000] 0.201468 0.000000 0.000000 -0.979495 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2027,27 +2027,27 @@ VALUES (0x761451B9, 24453, 0x6145019C, 119.9736, -37.12304, -24, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145019C [119.973600 -37.123040 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BA, 24453, 0x614501A6, 140.2796, -11.24223, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451BA, 24453, 0x614501A6, 140.2796, -11.24223, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [140.279600 -11.242230 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BB, 24453, 0x614501A6, 143.4438, -9.196901, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451BB, 24453, 0x614501A6, 143.4438, -9.196901, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [143.443800 -9.196901 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BC, 24453, 0x614501A5, 135.6977, -9.531871, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451BC, 24453, 0x614501A5, 135.6977, -9.531871, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A5 [135.697700 -9.531871 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BD, 24453, 0x614501B0, 152.4202, -0.5397894, -24, -0.741019, 0, 0, -0.671484,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451BD, 24453, 0x614501B0, 152.4202, -0.539789, -24, -0.741019, 0, 0, -0.671484,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B0 [152.420200 -0.539789 -24.000000] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BE, 24453, 0x614501B4, 156.4454, -0.03866059, -23.93678, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451BE, 24453, 0x614501B4, 156.4454, -0.038661, -23.93678, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B4 [156.445400 -0.038661 -23.936780] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451BF, 23990, 0x614501A7, 141.2539, -16.7686, -24.016, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451BF, 23990, 0x614501A7, 141.2539, -16.7686, -24.016, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501A7 [141.253900 -16.768600 -24.016000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2055,27 +2055,27 @@ VALUES (0x761451C0, 24450, 0x614501A7, 141.8716, -18.13942, -24, 0, 0, 0, -1,  T
 /* @teleloc 0x614501A7 [141.871600 -18.139420 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C1, 24453, 0x614501A7, 140.5894, -18.98127, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451C1, 24453, 0x614501A7, 140.5894, -18.98127, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A7 [140.589400 -18.981270 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C2, 23990, 0x614501B2, 145.3979, -18.6082, -24.016, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451C2, 23990, 0x614501B2, 145.3979, -18.6082, -24.016, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501B2 [145.397900 -18.608200 -24.016000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C3, 24453, 0x614501B1, 147.6104, -8.546596, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451C3, 24453, 0x614501B1, 147.6104, -8.546596, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B1 [147.610400 -8.546596 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C4, 23990, 0x614501B1, 153.7486, -13.84486, -24.016, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451C4, 23990, 0x614501B1, 153.7486, -13.84486, -24.016, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501B1 [153.748600 -13.844860 -24.016000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C5, 24453, 0x614501B1, 145.9339, -6.488406, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451C5, 24453, 0x614501B1, 145.9339, -6.488406, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B1 [145.933900 -6.488406 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451C6, 23990, 0x614501B1, 145.7727, -11.61958, -24.016, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451C6, 23990, 0x614501B1, 145.7727, -11.61958, -24.016, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501B1 [145.772700 -11.619580 -24.016000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2099,35 +2099,35 @@ VALUES (0x761451CB, 24453, 0x61450227, 137.1979, -92.27496, -18, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450227 [137.197900 -92.274960 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451CC, 24453, 0x6145022E, 136.3128, -119.4047, -18, -0.9834328, 0, 0, -0.181273,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451CC, 24453, 0x6145022E, 136.3128, -119.4047, -18, -0.983433, 0, 0, -0.181273,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145022E [136.312800 -119.404700 -18.000000] -0.983433 0.000000 0.000000 -0.181273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451CD, 24453, 0x6145022E, 142.2616, -123.5347, -18, 0.9432632, 0, 0, -0.3320459,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451CD, 24453, 0x6145022E, 142.2616, -123.5347, -18, 0.943263, 0, 0, -0.332046,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145022E [142.261600 -123.534700 -18.000000] 0.943263 0.000000 0.000000 -0.332046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451CE, 23990, 0x61450229, 140.7243, -107.9045, -18.016, 0.7555348, 0, 0, -0.6551086,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451CE, 23990, 0x61450229, 140.7243, -107.9045, -18.016, 0.755535, 0, 0, -0.655109,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450229 [140.724300 -107.904500 -18.016000] 0.755535 0.000000 0.000000 -0.655109 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451CF, 24453, 0x61450229, 139.327, -114.1014, -18, -0.9970612, 0, 0, -0.07660949,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451CF, 24453, 0x61450229, 139.327, -114.1014, -18, -0.997061, 0, 0, -0.076609,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450229 [139.327000 -114.101400 -18.000000] -0.997061 0.000000 0.000000 -0.076609 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451D0, 24453, 0x6145021E, 132.9441, -110.3846, -18, -0.8064727, 0, 0, -0.5912713,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451D0, 24453, 0x6145021E, 132.9441, -110.3846, -18, -0.806473, 0, 0, -0.591271,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145021E [132.944100 -110.384600 -18.000000] -0.806473 0.000000 0.000000 -0.591271 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451D1, 24453, 0x61450236, 146.9983, -110.5254, -18, -0.8073658, 0, 0, -0.5900512,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451D1, 24453, 0x61450236, 146.9983, -110.5254, -18, -0.807366, 0, 0, -0.590051,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450236 [146.998300 -110.525400 -18.000000] -0.807366 0.000000 0.000000 -0.590051 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451D2, 23990, 0x61450236, 147.0495, -111.7662, -18.016, -0.8467507, 0, 0, -0.5319898,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451D2, 23990, 0x61450236, 147.0495, -111.7662, -18.016, -0.846751, 0, 0, -0.53199,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450236 [147.049500 -111.766200 -18.016000] -0.846751 0.000000 0.000000 -0.531990 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451D3, 24453, 0x61450228, 138.4401, -104.8926, -18, -0.9951691, 0, 0, 0.09817542,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451D3, 24453, 0x61450228, 138.4401, -104.8926, -18, -0.995169, 0, 0, 0.098175,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450228 [138.440100 -104.892600 -18.000000] -0.995169 0.000000 0.000000 0.098175 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2179,15 +2179,15 @@ VALUES (0x761451DF, 23990, 0x6145019C, 118.4595, -36.60947, -24.016, 1, 0, 0, 0,
 /* @teleloc 0x6145019C [118.459500 -36.609470 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E0, 24453, 0x614501A6, 144.2402, -5.726961, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451E0, 24453, 0x614501A6, 144.2402, -5.726961, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [144.240200 -5.726961 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E1, 23990, 0x614501A6, 143.4661, -14.15391, -24.016, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451E1, 23990, 0x614501A6, 143.4661, -14.15391, -24.016, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501A6 [143.466100 -14.153910 -24.016000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E2, 24453, 0x614501A6, 139.9701, -5.145179, -23.89562, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451E2, 24453, 0x614501A6, 139.9701, -5.145179, -23.89562, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [139.970100 -5.145179 -23.895620] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2195,15 +2195,15 @@ VALUES (0x761451E3, 24450, 0x614501B0, 154.5995, -0.84966, -24, 0, 0, 0, -1,  Tr
 /* @teleloc 0x614501B0 [154.599500 -0.849660 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E4, 23990, 0x614501B0, 146.2811, -0.6078445, -24.016, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451E4, 23990, 0x614501B0, 146.2811, -0.607845, -24.016, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501B0 [146.281100 -0.607845 -24.016000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E5, 24453, 0x614501B0, 150.6342, -4.278258, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451E5, 24453, 0x614501B0, 150.6342, -4.278258, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B0 [150.634200 -4.278258 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451E6, 24453, 0x614501A7, 144.0795, -20.2245, -23.77888, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451E6, 24453, 0x614501A7, 144.0795, -20.2245, -23.77888, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A7 [144.079500 -20.224500 -23.778880] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2219,7 +2219,7 @@ VALUES (0x761451E9, 24453, 0x614501B2, 154.7554, -20.51781, -23.60289, -0.741019
 /* @teleloc 0x614501B2 [154.755400 -20.517810 -23.602890] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451EA, 23990, 0x614501B2, 149.2021, -18.08947, -24.016, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761451EA, 23990, 0x614501B2, 149.2021, -18.08947, -24.016, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501B2 [149.202100 -18.089470 -24.016000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2227,7 +2227,7 @@ VALUES (0x761451EB, 23990, 0x614501B1, 152.737, -10.39766, -24.016, -0.741019, 0
 /* @teleloc 0x614501B1 [152.737000 -10.397660 -24.016000] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761451EC, 24453, 0x614501B6, 156.6825, -18.81713, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761451EC, 24453, 0x614501B6, 156.6825, -18.81713, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B6 [156.682500 -18.817130 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2539,11 +2539,11 @@ VALUES (0x76145239, 24453, 0x614502BE, 221.206, -195.6775, -12.3201, 1, 0, 0, 0,
 /* @teleloc 0x614502BE [221.206000 -195.677500 -12.320100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614523A, 24453, 0x6145023E, 219.7243, -212.3448, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614523A, 24453, 0x6145023E, 219.7243, -212.3448, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145023E [219.724300 -212.344800 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614523B, 23990, 0x6145023E, 216.2831, -209.3062, -17.49766, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614523B, 23990, 0x6145023E, 216.2831, -209.3062, -17.49766, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145023E [216.283100 -209.306200 -17.497660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2555,7 +2555,7 @@ VALUES (0x7614523D, 24453, 0x6145023E, 222.9244, -214.6453, -18, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145023E [222.924400 -214.645300 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614523E, 10915, 0x6145023E, 220.459, -213.545, -17.99505, 0.492474, 0, 0, -0.8703271,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
+VALUES (0x7614523E, 10915, 0x6145023E, 220.459, -213.545, -17.99505, 0.492474, 0, 0, -0.870327,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
 /* @teleloc 0x6145023E [220.459000 -213.545000 -17.995050] 0.492474 0.000000 0.000000 -0.870327 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2563,11 +2563,11 @@ VALUES (0x7614523F, 23990, 0x6145023E, 218.8109, -209.5274, -18.016, 1, 0, 0, 0,
 /* @teleloc 0x6145023E [218.810900 -209.527400 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145240, 10915, 0x6145023E, 224.05, -214.22, -17.99505, 0.7666929, 0, 0, -0.642014,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
+VALUES (0x76145240, 10915, 0x6145023E, 224.05, -214.22, -17.99505, 0.766693, 0, 0, -0.642014,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
 /* @teleloc 0x6145023E [224.050000 -214.220000 -17.995050] 0.766693 0.000000 0.000000 -0.642014 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145241, 10915, 0x6145023E, 217.803, -212.981, -17.99505, 0.8638029, 0, 0, -0.5038299,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
+VALUES (0x76145241, 10915, 0x6145023E, 217.803, -212.981, -17.99505, 0.863803, 0, 0, -0.50383,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
 /* @teleloc 0x6145023E [217.803000 -212.981000 -17.995050] 0.863803 0.000000 0.000000 -0.503830 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2575,7 +2575,7 @@ VALUES (0x76145242, 24453, 0x6145023B, 212.2615, -212.9576, -18, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145023B [212.261500 -212.957600 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145243, 10915, 0x6145023B, 213.4174, -214.4945, -17.99505, 0.7656296, 0, 0, -0.6432817,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
+VALUES (0x76145243, 10915, 0x6145023B, 213.4174, -214.4945, -17.99505, 0.76563, 0, 0, -0.643282,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
 /* @teleloc 0x6145023B [213.417400 -214.494500 -17.995050] 0.765630 0.000000 0.000000 -0.643282 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2587,7 +2587,7 @@ VALUES (0x76145245, 10915, 0x6145023C, 214.814, -215.147, -17.99505, 0.955458, 0
 /* @teleloc 0x6145023C [214.814000 -215.147000 -17.995050] 0.955458 0.000000 0.000000 -0.295127 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145246, 10915, 0x6145023C, 214.7094, -219.7243, -17.99505, -0.7953791, 0, 0, -0.6061122,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
+VALUES (0x76145246, 10915, 0x6145023C, 214.7094, -219.7243, -17.99505, -0.795379, 0, 0, -0.606112,  True, '2019-02-10 00:00:00'); /* Olthoi Grub */
 /* @teleloc 0x6145023C [214.709400 -219.724300 -17.995050] -0.795379 0.000000 0.000000 -0.606112 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2611,15 +2611,15 @@ VALUES (0x7614524B, 24453, 0x614502AC, 206.1631, -178.172, -12, 1, 0, 0, 0,  Tru
 /* @teleloc 0x614502AC [206.163100 -178.172000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614524C, 24453, 0x61450241, 225.402, -218.3018, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614524C, 24453, 0x61450241, 225.402, -218.3018, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450241 [225.402000 -218.301800 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614524D, 23990, 0x61450241, 229.779, -216.0573, -18.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614524D, 23990, 0x61450241, 229.779, -216.0573, -18.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450241 [229.779000 -216.057300 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614524E, 24453, 0x61450241, 229.476, -217.2146, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614524E, 24453, 0x61450241, 229.476, -217.2146, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450241 [229.476000 -217.214600 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2639,7 +2639,7 @@ VALUES (0x76145252, 23990, 0x614502AA, 203.5685, -181.2719, -12.016, 1, 0, 0, 0,
 /* @teleloc 0x614502AA [203.568500 -181.271900 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145253, 24453, 0x6145023F, 222.8529, -215.7801, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145253, 24453, 0x6145023F, 222.8529, -215.7801, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145023F [222.852900 -215.780100 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2835,7 +2835,7 @@ VALUES (0x76145283, 24453, 0x614502A7, 168.1379, -135.2217, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x614502A7 [168.137900 -135.221700 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145284, 23990, 0x6145029A, 155.8951, -140.0467, -12.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145284, 23990, 0x6145029A, 155.8951, -140.0467, -12.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145029A [155.895100 -140.046700 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2867,7 +2867,7 @@ VALUES (0x7614528B, 24453, 0x61450261, 111.8749, -137.4095, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450261 [111.874900 -137.409500 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614528C, 24453, 0x61450284, 138.5946, -131.5381, -13.9907, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614528C, 24453, 0x61450284, 138.5946, -131.5381, -13.9907, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450284 [138.594600 -131.538100 -13.990700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2887,7 +2887,7 @@ VALUES (0x76145290, 24453, 0x61450260, 110.4816, -125.523, -12, 1, 0, 0, 0,  Tru
 /* @teleloc 0x61450260 [110.481600 -125.523000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145291, 23990, 0x61450267, 120.7204, -122.3686, -12.016, -0.9754908, 0, 0, -0.2200401,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145291, 23990, 0x61450267, 120.7204, -122.3686, -12.016, -0.975491, 0, 0, -0.22004,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450267 [120.720400 -122.368600 -12.016000] -0.975491 0.000000 0.000000 -0.220040 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2895,7 +2895,7 @@ VALUES (0x76145292, 23990, 0x61450228, 140.9526, -103.2799, -18.016, 1, 0, 0, 0,
 /* @teleloc 0x61450228 [140.952600 -103.279900 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145293, 24453, 0x6145029A, 164.233, -139.2716, -12, -0.9548513, 0, 0, -0.2970842,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145293, 24453, 0x6145029A, 164.233, -139.2716, -12, -0.954851, 0, 0, -0.297084,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145029A [164.233000 -139.271600 -12.000000] -0.954851 0.000000 0.000000 -0.297084 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2951,23 +2951,23 @@ VALUES (0x761452A0, 23990, 0x61450196, 119.0459, -21.46588, -24.016, 1, 0, 0, 0,
 /* @teleloc 0x61450196 [119.045900 -21.465880 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A1, 23990, 0x614501A6, 144.9918, -9.501575, -24.016, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452A1, 23990, 0x614501A6, 144.9918, -9.501575, -24.016, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501A6 [144.991800 -9.501575 -24.016000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A2, 24453, 0x614501A6, 143.5779, -11.5131, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452A2, 24453, 0x614501A6, 143.5779, -11.5131, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [143.577900 -11.513100 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A3, 23990, 0x614501A6, 142.6904, -8.896468, -24.016, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452A3, 23990, 0x614501A6, 142.6904, -8.896468, -24.016, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501A6 [142.690400 -8.896468 -24.016000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A4, 24453, 0x614501A6, 142.8345, -13.62037, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452A4, 24453, 0x614501A6, 142.8345, -13.62037, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A6 [142.834500 -13.620370 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A5, 24453, 0x614501B0, 146.7135, 0.2735299, -23.74946, -0.741019, 0, 0, -0.671484,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452A5, 24453, 0x614501B0, 146.7135, 0.27353, -23.74946, -0.741019, 0, 0, -0.671484,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B0 [146.713500 0.273530 -23.749460] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2979,7 +2979,7 @@ VALUES (0x761452A7, 24450, 0x614501B4, 157.731, -3.571413, -24, 0, 0, 0, -1,  Tr
 /* @teleloc 0x614501B4 [157.731000 -3.571413 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452A8, 24453, 0x61450226, 139.9248, -84.80764, -18.029, -0.9584593, 0, 0, -0.2852294,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452A8, 24453, 0x61450226, 139.9248, -84.80764, -18.029, -0.958459, 0, 0, -0.285229,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450226 [139.924800 -84.807640 -18.029000] -0.958459 0.000000 0.000000 -0.285229 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -2987,19 +2987,19 @@ VALUES (0x761452A9, 23990, 0x614501A7, 143.8398, -19.99864, -23.91477, -0.741019
 /* @teleloc 0x614501A7 [143.839800 -19.998640 -23.914770] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452AA, 24453, 0x614501B2, 145.6524, -15.50595, -24, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452AA, 24453, 0x614501B2, 145.6524, -15.50595, -24, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B2 [145.652400 -15.505950 -24.000000] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452AB, 24453, 0x614501B1, 148.9225, -13.80996, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452AB, 24453, 0x614501B1, 148.9225, -13.80996, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B1 [148.922500 -13.809960 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452AC, 24453, 0x614501B1, 153.8542, -14.85378, -24, 0.8510369, 0, 0, 0.5251059,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452AC, 24453, 0x614501B1, 153.8542, -14.85378, -24, 0.851037, 0, 0, 0.525106,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B1 [153.854200 -14.853780 -24.000000] 0.851037 0.000000 0.000000 0.525106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452AD, 24453, 0x614501B1, 150.8722, -5.099765, -24, 0.9813985, 0, 0, -0.1919819,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452AD, 24453, 0x614501B1, 150.8722, -5.099765, -24, 0.981399, 0, 0, -0.191982,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B1 [150.872200 -5.099765 -24.000000] 0.981399 0.000000 0.000000 -0.191982 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3007,15 +3007,15 @@ VALUES (0x761452AE, 23990, 0x614501B6, 156.4433, -20.47227, -23.6306, -0.741019,
 /* @teleloc 0x614501B6 [156.443300 -20.472270 -23.630600] -0.741019 0.000000 0.000000 -0.671484 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452AF, 24453, 0x614501B5, 159.8662, -10.15328, -23.99384, -0.7509229, 0, 0, -0.6603899,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452AF, 24453, 0x614501B5, 159.8662, -10.15328, -23.99384, -0.750923, 0, 0, -0.66039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501B5 [159.866200 -10.153280 -23.993840] -0.750923 0.000000 0.000000 -0.660390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452B0, 24453, 0x614501A0, 125.6185, -38.51382, -24, -0.9999738, 0, 0, -0.00723037,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452B0, 24453, 0x614501A0, 125.6185, -38.51382, -24, -0.999974, 0, 0, -0.00723,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501A0 [125.618500 -38.513820 -24.000000] -0.999974 0.000000 0.000000 -0.007230 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452B1, 24453, 0x6145025B, 108.3697, -121.2122, -12, -0.5819486, 0, 0, -0.8132256,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452B1, 24453, 0x6145025B, 108.3697, -121.2122, -12, -0.581949, 0, 0, -0.813226,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145025B [108.369700 -121.212200 -12.000000] -0.581949 0.000000 0.000000 -0.813226 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3023,7 +3023,7 @@ VALUES (0x761452B2, 23990, 0x614502FE, 128.6896, -133.6541, -6.721491, 1, 0, 0, 
 /* @teleloc 0x614502FE [128.689600 -133.654100 -6.721491] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452B3, 24453, 0x6145025E, 110.1649, -115.6545, -12, 0.3321528, 0, 0, -0.9432256,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452B3, 24453, 0x6145025E, 110.1649, -115.6545, -12, 0.332153, 0, 0, -0.943226,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145025E [110.164900 -115.654500 -12.000000] 0.332153 0.000000 0.000000 -0.943226 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3031,7 +3031,7 @@ VALUES (0x761452B4, 24453, 0x6145026D, 121.8635, -144.3016, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145026D [121.863500 -144.301600 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452B5, 23990, 0x6145028E, 146.7043, -142.5604, -12.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452B5, 23990, 0x6145028E, 146.7043, -142.5604, -12.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145028E [146.704300 -142.560400 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3103,15 +3103,15 @@ VALUES (0x761452C6, 23990, 0x61450249, 93.73646, -158.239, -12.016, 1, 0, 0, 0, 
 /* @teleloc 0x61450249 [93.736460 -158.239000 -12.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452C7, 24453, 0x614501FD, 69.36848, -157.8439, -18, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452C7, 24453, 0x614501FD, 69.36848, -157.8439, -18, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501FD [69.368480 -157.843900 -18.000000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452C8, 24453, 0x614501FD, 69.65352, -163.8539, -18, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452C8, 24453, 0x614501FD, 69.65352, -163.8539, -18, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501FD [69.653520 -163.853900 -18.000000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452C9, 23990, 0x614501FD, 71.70194, -163.8775, -18.016, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452C9, 23990, 0x614501FD, 71.70194, -163.8775, -18.016, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501FD [71.701940 -163.877500 -18.016000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3191,11 +3191,11 @@ VALUES (0x761452DC, 24453, 0x61450252, 96.63161, -181.0337, -12, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450252 [96.631610 -181.033700 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452DD, 24453, 0x614501FC, 71.85791, -153.5846, -18, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452DD, 24453, 0x614501FC, 71.85791, -153.5846, -18, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501FC [71.857910 -153.584600 -18.000000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452DE, 23990, 0x614501F6, 61.2493, -165.7872, -18.016, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452DE, 23990, 0x614501F6, 61.2493, -165.7872, -18.016, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501F6 [61.249300 -165.787200 -18.016000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3203,7 +3203,7 @@ VALUES (0x761452DF, 23990, 0x614501ED, 59.30573, -151.1161, -18.016, 1, 0, 0, 0,
 /* @teleloc 0x614501ED [59.305730 -151.116100 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452E0, 24453, 0x614501CE, 51.86484, -151.05, -18, 0.7210299, 0, 0, 0.6929039,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452E0, 24453, 0x614501CE, 51.86484, -151.05, -18, 0.72103, 0, 0, 0.692904,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501CE [51.864840 -151.050000 -18.000000] 0.721030 0.000000 0.000000 0.692904 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3287,7 +3287,7 @@ VALUES (0x761452F4, 23990, 0x614501DA, 49.3499, -192.2112, -18.016, 1, 0, 0, 0, 
 /* @teleloc 0x614501DA [49.349900 -192.211200 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452F5, 24453, 0x614501EA, 56.23069, -122.5882, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452F5, 24453, 0x614501EA, 56.23069, -122.5882, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501EA [56.230690 -122.588200 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3295,15 +3295,15 @@ VALUES (0x761452F6, 24453, 0x614501EA, 61.84753, -115.7056, -18, 1, 0, 0, 0,  Tr
 /* @teleloc 0x614501EA [61.847530 -115.705600 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452F7, 24453, 0x614501C3, 50.72667, -124.3638, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452F7, 24453, 0x614501C3, 50.72667, -124.3638, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501C3 [50.726670 -124.363800 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452F8, 24453, 0x614501C3, 54.79861, -124.0734, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452F8, 24453, 0x614501C3, 54.79861, -124.0734, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501C3 [54.798610 -124.073400 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452F9, 24453, 0x614501C3, 49.50951, -119.6754, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452F9, 24453, 0x614501C3, 49.50951, -119.6754, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501C3 [49.509510 -119.675400 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3315,7 +3315,7 @@ VALUES (0x761452FB, 23990, 0x614501C3, 46.78562, -118.8901, -18.016, 1, 0, 0, 0,
 /* @teleloc 0x614501C3 [46.785620 -118.890100 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452FC, 24453, 0x614501DF, 51.1213, -204.0354, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x761452FC, 24453, 0x614501DF, 51.1213, -204.0354, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501DF [51.121300 -204.035400 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3327,7 +3327,7 @@ VALUES (0x761452FE, 24453, 0x614501BB, 38.73563, -123.3421, -18, 1, 0, 0, 0,  Tr
 /* @teleloc 0x614501BB [38.735630 -123.342100 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x761452FF, 23990, 0x61450154, 62.95255, -107.8135, -24.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x761452FF, 23990, 0x61450154, 62.95255, -107.8135, -24.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450154 [62.952550 -107.813500 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3351,15 +3351,15 @@ VALUES (0x76145304, 23990, 0x61450154, 64.01754, -112.4183, -24.016, 1, 0, 0, 0,
 /* @teleloc 0x61450154 [64.017540 -112.418300 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145305, 23990, 0x614501E4, 52.95628, -207.0899, -18.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145305, 23990, 0x614501E4, 52.95628, -207.0899, -18.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501E4 [52.956280 -207.089900 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145306, 24453, 0x614501E4, 49.11006, -207.6689, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145306, 24453, 0x614501E4, 49.11006, -207.6689, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501E4 [49.110060 -207.668900 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145307, 24453, 0x614501E6, 54.76766, -209.7927, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145307, 24453, 0x614501E6, 54.76766, -209.7927, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501E6 [54.767660 -209.792700 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3383,7 +3383,7 @@ VALUES (0x7614530C, 24453, 0x61450121, 39.72042, -113.7188, -24, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450121 [39.720420 -113.718800 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614530D, 23990, 0x61450153, 62.33402, -103.1913, -24.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614530D, 23990, 0x61450153, 62.33402, -103.1913, -24.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450153 [62.334020 -103.191300 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3447,11 +3447,11 @@ VALUES (0x7614531C, 24453, 0x6145013A, 49.67614, -109.3152, -24, 1, 0, 0, 0,  Tr
 /* @teleloc 0x6145013A [49.676140 -109.315200 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614531D, 24453, 0x614502EE, 105.8806, -178.2164, -11.38525, 0.998715, 0, 0, -0.05067931,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614531D, 24453, 0x614502EE, 105.8806, -178.2164, -11.38525, 0.998715, 0, 0, -0.050679,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614502EE [105.880600 -178.216400 -11.385250] 0.998715 0.000000 0.000000 -0.050679 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614531E, 23990, 0x614501C1, 41.59441, -210.8036, -19.95731, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614531E, 23990, 0x614501C1, 41.59441, -210.8036, -19.95731, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x614501C1 [41.594410 -210.803600 -19.957310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3463,7 +3463,7 @@ VALUES (0x76145320, 23990, 0x61450138, 36.87359, -199.0069, -24.016, 1, 0, 0, 0,
 /* @teleloc 0x61450138 [36.873590 -199.006900 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145321, 24453, 0x61450132, 37.66703, -188.5386, -24, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145321, 24453, 0x61450132, 37.66703, -188.5386, -24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450132 [37.667030 -188.538600 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3531,15 +3531,15 @@ VALUES (0x76145331, 24453, 0x61450161, 63.19011, -180.8172, -24, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450161 [63.190110 -180.817200 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145332, 24453, 0x61450161, 59.11848, -180.5848, -24, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145332, 24453, 0x61450161, 59.11848, -180.5848, -24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450161 [59.118480 -180.584800 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145333, 23990, 0x61450151, 54.42213, -171.7777, -24.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145333, 23990, 0x61450151, 54.42213, -171.7777, -24.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450151 [54.422130 -171.777700 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145334, 24453, 0x6145014A, 46.02877, -161.2798, -24, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145334, 24453, 0x6145014A, 46.02877, -161.2798, -24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145014A [46.028770 -161.279800 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3547,7 +3547,7 @@ VALUES (0x76145335, 23990, 0x6145014A, 53.06852, -157.2013, -24.016, 1, 0, 0, 0,
 /* @teleloc 0x6145014A [53.068520 -157.201300 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145336, 23990, 0x61450130, 41.78564, -175.4167, -24.016, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145336, 23990, 0x61450130, 41.78564, -175.4167, -24.016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450130 [41.785640 -175.416700 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3599,11 +3599,11 @@ VALUES (0x76145342, 23990, 0x61450123, 38.62549, -124.194, -24.016, 1, 0, 0, 0, 
 /* @teleloc 0x61450123 [38.625490 -124.194000 -24.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145343, 24453, 0x61450179, 88.35227, -164.6777, -24, 0.9998238, 0, 0, 0.01877191,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145343, 24453, 0x61450179, 88.35227, -164.6777, -24, 0.999824, 0, 0, 0.018772,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450179 [88.352270 -164.677700 -24.000000] 0.999824 0.000000 0.000000 0.018772 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145344, 23990, 0x61450178, 87.95363, -161.539, -24.016, 0.972481, 0, 0, 0.2329822,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145344, 23990, 0x61450178, 87.95363, -161.539, -24.016, 0.972481, 0, 0, 0.232982,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450178 [87.953630 -161.539000 -24.016000] 0.972481 0.000000 0.000000 0.232982 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3615,67 +3615,67 @@ VALUES (0x76145346, 24453, 0x61450178, 87.76987, -157.1361, -24, 1, 0, 0, 0,  Tr
 /* @teleloc 0x61450178 [87.769870 -157.136100 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145347, 24453, 0x61450177, 89.33827, -150.9271, -24, 0.9729782, 0, 0, -0.2308971,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145347, 24453, 0x61450177, 89.33827, -150.9271, -24, 0.972978, 0, 0, -0.230897,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450177 [89.338270 -150.927100 -24.000000] 0.972978 0.000000 0.000000 -0.230897 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145348, 23990, 0x61450177, 86.79506, -152.8561, -24.016, 0.8407289, 0, 0, -0.5414563,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145348, 23990, 0x61450177, 86.79506, -152.8561, -24.016, 0.840729, 0, 0, -0.541456,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450177 [86.795060 -152.856100 -24.016000] 0.840729 0.000000 0.000000 -0.541456 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145349, 23990, 0x6145015D, 57.0792, -161.6353, -24.016, -0.9934638, 0, 0, -0.1141478,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145349, 23990, 0x6145015D, 57.0792, -161.6353, -24.016, -0.993464, 0, 0, -0.114148,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145015D [57.079200 -161.635300 -24.016000] -0.993464 0.000000 0.000000 -0.114148 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534A, 24453, 0x6145012E, 37.23081, -180.2427, -24, -0.9812938, 0, 0, -0.1925163,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614534A, 24453, 0x6145012E, 37.23081, -180.2427, -24, -0.981294, 0, 0, -0.192516,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145012E [37.230810 -180.242700 -24.000000] -0.981294 0.000000 0.000000 -0.192516 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534B, 24453, 0x61450118, 30.01454, -183.9517, -24, -0.7812504, 0, 0, -0.6242177,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614534B, 24453, 0x61450118, 30.01454, -183.9517, -24, -0.78125, 0, 0, -0.624218,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450118 [30.014540 -183.951700 -24.000000] -0.781250 0.000000 0.000000 -0.624218 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534C, 24453, 0x61450118, 28.83901, -180.6802, -24, -0.846378, 0, 0, -0.5325826,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614534C, 24453, 0x61450118, 28.83901, -180.6802, -24, -0.846378, 0, 0, -0.532583,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450118 [28.839010 -180.680200 -24.000000] -0.846378 0.000000 0.000000 -0.532583 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534D, 23990, 0x61450118, 34.3818, -183.3017, -24.016, -0.8827127, 0, 0, -0.4699132,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614534D, 23990, 0x61450118, 34.3818, -183.3017, -24.016, -0.882713, 0, 0, -0.469913,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450118 [34.381800 -183.301700 -24.016000] -0.882713 0.000000 0.000000 -0.469913 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534E, 23990, 0x61450118, 30.48858, -180.4919, -24.016, -0.9128699, 0, 0, -0.4082506,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614534E, 23990, 0x61450118, 30.48858, -180.4919, -24.016, -0.91287, 0, 0, -0.408251,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450118 [30.488580 -180.491900 -24.016000] -0.912870 0.000000 0.000000 -0.408251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614534F, 24453, 0x61450118, 33.75622, -180.9463, -24, -0.8267118, 0, 0, -0.5626256,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x7614534F, 24453, 0x61450118, 33.75622, -180.9463, -24, -0.826712, 0, 0, -0.562626,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450118 [33.756220 -180.946300 -24.000000] -0.826712 0.000000 0.000000 -0.562626 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145350, 24453, 0x61450118, 31.54216, -177.2292, -24, -0.8921408, 0, 0, -0.4517574,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145350, 24453, 0x61450118, 31.54216, -177.2292, -24, -0.892141, 0, 0, -0.451757,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450118 [31.542160 -177.229200 -24.000000] -0.892141 0.000000 0.000000 -0.451757 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145351, 24453, 0x61450118, 25.85462, -177.1393, -24, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145351, 24453, 0x61450118, 25.85462, -177.1393, -24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450118 [25.854620 -177.139300 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145352, 23990, 0x6145015B, 55.95689, -140.6931, -24.016, -0.9463134, 0, 0, -0.3232506,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145352, 23990, 0x6145015B, 55.95689, -140.6931, -24.016, -0.946313, 0, 0, -0.323251,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x6145015B [55.956890 -140.693100 -24.016000] -0.946313 0.000000 0.000000 -0.323251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145353, 23990, 0x61450119, 26.41154, -190.1232, -24.016, -0.6004043, 0, 0, -0.7996966,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145353, 23990, 0x61450119, 26.41154, -190.1232, -24.016, -0.600404, 0, 0, -0.799697,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450119 [26.411540 -190.123200 -24.016000] -0.600404 0.000000 0.000000 -0.799697 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145354, 23990, 0x61450126, 40.0992, -139.837, -24.016, -0.9267186, 0, 0, -0.3757561,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x76145354, 23990, 0x61450126, 40.0992, -139.837, -24.016, -0.926719, 0, 0, -0.375756,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450126 [40.099200 -139.837000 -24.016000] -0.926719 0.000000 0.000000 -0.375756 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145355, 24453, 0x61450125, 41.68275, -125.1206, -24, 0.9998761, 0, 0, -0.01574292,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145355, 24453, 0x61450125, 41.68275, -125.1206, -24, 0.999876, 0, 0, -0.015743,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450125 [41.682750 -125.120600 -24.000000] 0.999876 0.000000 0.000000 -0.015743 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145356, 24453, 0x61450117, 24.16523, -190.8312, -24, -0.798123, 0, 0, -0.6024946,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145356, 24453, 0x61450117, 24.16523, -190.8312, -24, -0.798123, 0, 0, -0.602495,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450117 [24.165230 -190.831200 -24.000000] -0.798123 0.000000 0.000000 -0.602495 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3683,15 +3683,15 @@ VALUES (0x76145357, 24453, 0x61450117, 18.6712, -188.1395, -24, 1, 0, 0, 0,  Tru
 /* @teleloc 0x61450117 [18.671200 -188.139500 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145358, 24453, 0x61450155, 58.85778, -122.9194, -24, 0.9632464, 0, 0, 0.2686194,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145358, 24453, 0x61450155, 58.85778, -122.9194, -24, 0.963246, 0, 0, 0.268619,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x61450155 [58.857780 -122.919400 -24.000000] 0.963246 0.000000 0.000000 0.268619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145359, 24453, 0x6145013A, 49.49654, -113.1001, -24, -0.9998277, 0, 0, -0.01855926,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145359, 24453, 0x6145013A, 49.49654, -113.1001, -24, -0.999828, 0, 0, -0.018559,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x6145013A [49.496540 -113.100100 -24.000000] -0.999828 0.000000 0.000000 -0.018559 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614535A, 23990, 0x61450154, 63.7405, -110.0248, -24.016, 0.9496337, 0, 0, -0.3133621,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
+VALUES (0x7614535A, 23990, 0x61450154, 63.7405, -110.0248, -24.016, 0.949634, 0, 0, -0.313362,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Eviscerator */
 /* @teleloc 0x61450154 [63.740500 -110.024800 -24.016000] 0.949634 0.000000 0.000000 -0.313362 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -3715,5 +3715,5 @@ VALUES (0x7614535F, 23990, 0x614501EA, 61.43989, -120.7552, -18.016, 1, 0, 0, 0,
 /* @teleloc 0x614501EA [61.439890 -120.755200 -18.016000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76145360, 24453, 0x614501BA, 43.26413, -112.765, -18, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
+VALUES (0x76145360, 24453, 0x614501BA, 43.26413, -112.765, -18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x614501BA [43.264130 -112.765000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */

@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32589,   1, 'Damaged Shadow Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32589,   1,   33559809) /* Setup */
-     , (32589,   3,  536870932) /* SoundTable */
-     , (32589,   8,  100688543) /* Icon */
-     , (32589,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32589,   1, 0x02001501) /* Setup */
+     , (32589,   3, 0x20000014) /* SoundTable */
+     , (32589,   8, 0x0600629F) /* Icon */
+     , (32589,  22, 0x3400002B) /* PhysicsEffectTable */;

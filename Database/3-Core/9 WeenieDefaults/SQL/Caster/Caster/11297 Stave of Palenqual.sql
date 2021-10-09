@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11297,   1, 'Stave of Palenqual') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11297,   1,   33557232) /* Setup */
-     , (11297,   3,  536870932) /* SoundTable */
-     , (11297,   8,  100671868) /* Icon */
-     , (11297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11297,   1, 0x02000AF0) /* Setup */
+     , (11297,   3, 0x20000014) /* SoundTable */
+     , (11297,   8, 0x0600217C) /* Icon */
+     , (11297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11297,  28,       1836) /* Spell - FrostStrike */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11297, 8040, 23855554, 56.4298, -28.17509, -0.071, -0.01077783, -0.01077783, -0.7070246, -0.7070246) /* PCAPRecordedLocation */
+VALUES (11297, 8040, 0x016C01C2, 56.4298, -28.17509, -0.071, -0.010778, -0.010778, -0.707025, -0.707025) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.429800 -28.175090 -0.071000] -0.010778 -0.010778 -0.707025 -0.707025 */;

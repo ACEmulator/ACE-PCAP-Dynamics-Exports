@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41587,   1, 'Silver Scope Lesser Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41587,   1,   33560844) /* Setup */
-     , (41587,   2,  150995368) /* MotionTable */
-     , (41587,   3,  536871123) /* SoundTable */
-     , (41587,   8,  100674350) /* Icon */
-     , (41587,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41587,   1, 0x0200190C) /* Setup */
+     , (41587,   2, 0x090001A8) /* MotionTable */
+     , (41587,   3, 0x200000D3) /* SoundTable */
+     , (41587,   8, 0x06002B2E) /* Icon */
+     , (41587,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41587, 8040, 2287009816, 59.9815, 180.053, 46.5189, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (41587, 8040, 0x88510018, 59.9815, 180.053, 46.5189, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x88510018 [59.981500 180.053000 46.518900] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

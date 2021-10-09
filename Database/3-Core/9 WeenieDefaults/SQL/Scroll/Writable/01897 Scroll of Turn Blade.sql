@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1897,   1, 'Scroll of Turn Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1897,   1,   33554826) /* Setup */
-     , (1897,   8,  100676677) /* Icon */
-     , (1897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1897,   1, 0x0200018A) /* Setup */
+     , (1897,   8, 0x06003445) /* Icon */
+     , (1897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1897,  28,       1593) /* Spell - TurnBlade1 */
      , (1897, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

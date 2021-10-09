@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1543,   1, 'Colier Mine Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1543,   1,   33554867) /* Setup */
-     , (1543,   2,  150994947) /* MotionTable */
-     , (1543,   8,  100667499) /* Icon */;
+VALUES (1543,   1, 0x020001B3) /* Setup */
+     , (1543,   2, 0x09000003) /* MotionTable */
+     , (1543,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1543, 8040, 28180891, 56.6352, -60.1898, -18.063, 0.7337301, 0, 0, -0.679441) /* PCAPRecordedLocation */
+VALUES (1543, 8040, 0x01AE019B, 56.6352, -60.1898, -18.063, 0.73373, 0, 0, -0.679441) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE019B [56.635200 -60.189800 -18.063000] 0.733730 0.000000 0.000000 -0.679441 */;

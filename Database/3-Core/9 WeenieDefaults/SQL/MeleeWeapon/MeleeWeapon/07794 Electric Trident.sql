@@ -49,11 +49,11 @@ VALUES (7794,   1, 'Electric Trident') /* Name */
      , (7794,  16, 'Electric Trident of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7794,   1,   33556668) /* Setup */
-     , (7794,   3,  536870932) /* SoundTable */
-     , (7794,   6,   67111919) /* PaletteBase */
-     , (7794,   8,  100670762) /* Icon */
-     , (7794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7794,   1, 0x020008BC) /* Setup */
+     , (7794,   3, 0x20000014) /* SoundTable */
+     , (7794,   6, 0x04000BEF) /* PaletteBase */
+     , (7794,   8, 0x06001D2A) /* Icon */
+     , (7794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7794,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

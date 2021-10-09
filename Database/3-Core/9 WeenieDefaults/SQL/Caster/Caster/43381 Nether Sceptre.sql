@@ -43,19 +43,19 @@ VALUES (43381,   1, 'Nether Sceptre') /* Name */
      , (43381,  16, 'Nether Sceptre of Curse Weakness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43381,   1,   33561138) /* Setup */
-     , (43381,   3,  536870932) /* SoundTable */
-     , (43381,   6,   67115357) /* PaletteBase */
-     , (43381,   8,  100677436) /* Icon */
-     , (43381,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43381,   1, 0x02001A32) /* Setup */
+     , (43381,   3, 0x20000014) /* SoundTable */
+     , (43381,   6, 0x0400195D) /* PaletteBase */
+     , (43381,   8, 0x0600373C) /* Icon */
+     , (43381,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43381,  28,       5385) /* Spell - CurseWeakness7 */
-     , (43381,  52,  100676440) /* IconUnderlay */;
+     , (43381,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43381, 8040, 23855555, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (43381, 8040, 0x016C01C3, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43381,  1480,      2)  /* HermeticLinkSelf6 */
-     , (43381,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
-     , (43381,  5383,      2)  /* CurseWeakness5 */;
+VALUES (43381,  5383,      2)  /* CurseWeakness5 */
+     , (43381,  1480,      2)  /* HermeticLinkSelf6 */
+     , (43381,  2249,      2)  /* ItemEnchantmentMasterySelf7 */;

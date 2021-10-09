@@ -34,20 +34,20 @@ VALUES (1056,   1, 'Uthab ibn Yafij the Scribe') /* Name */
      , (1056,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1056,   1,   33554433) /* Setup */
-     , (1056,   2,  150994945) /* MotionTable */
-     , (1056,   3,  536870913) /* SoundTable */
-     , (1056,   6,   67108990) /* PaletteBase */
-     , (1056,   8,  100667446) /* Icon */
-     , (1056,   9,   83890485) /* EyesTexture */
-     , (1056,  10,   83890538) /* NoseTexture */
-     , (1056,  11,   83890607) /* MouthTexture */
-     , (1056,  15,   67117024) /* HairPalette */
-     , (1056,  16,   67109567) /* EyesPalette */
-     , (1056,  17,   67109557) /* SkinPalette */;
+VALUES (1056,   1, 0x02000001) /* Setup */
+     , (1056,   2, 0x09000001) /* MotionTable */
+     , (1056,   3, 0x20000001) /* SoundTable */
+     , (1056,   6, 0x0400007E) /* PaletteBase */
+     , (1056,   8, 0x06001036) /* Icon */
+     , (1056,   9, 0x05001135) /* EyesTexture */
+     , (1056,  10, 0x0500116A) /* NoseTexture */
+     , (1056,  11, 0x050011AF) /* MouthTexture */
+     , (1056,  15, 0x04001FE0) /* HairPalette */
+     , (1056,  16, 0x040002BF) /* EyesPalette */
+     , (1056,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1056, 8040, 2535588137, 108.26, 113.36, 102.005, -0.02879381, 0, 0, -0.9995854) /* PCAPRecordedLocation */
+VALUES (1056, 8040, 0x97220129, 108.26, 113.36, 102.005, -0.028794, 0, 0, -0.999585) /* PCAPRecordedLocation */
 /* @teleloc 0x97220129 [108.260000 113.360000 102.005000] -0.028794 0.000000 0.000000 -0.999585 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

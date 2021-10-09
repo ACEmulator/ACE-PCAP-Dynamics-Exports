@@ -1,14 +1,14 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xAB9C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AB9C001,  1154, 0xAB9C0039, 189.9441, 13.31713, 80.22202, 0.9292994, 0, 0, -0.3693274, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7AB9C001,  1154, 0xAB9C0039, 189.9441, 13.31713, 80.22202, 0.929299, 0, 0, -0.369327, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xAB9C0039 [189.944100 13.317130 80.222020] 0.929299 0.000000 0.000000 -0.369327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7AB9C001, 0x7AB9C002, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AB9C002, 28879, 0xAB9C0039, 189.9441, 13.31713, 80.22202, 0.9292994, 0, 0, -0.3693274,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
+VALUES (0x7AB9C002, 28879, 0xAB9C0039, 189.9441, 13.31713, 80.22202, 0.929299, 0, 0, -0.369327,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
 /* @teleloc 0xAB9C0039 [189.944100 13.317130 80.222020] 0.929299 0.000000 0.000000 -0.369327 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

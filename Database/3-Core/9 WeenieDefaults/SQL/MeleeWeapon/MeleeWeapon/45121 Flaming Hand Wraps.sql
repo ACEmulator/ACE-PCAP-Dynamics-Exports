@@ -51,16 +51,16 @@ VALUES (45121,   1, 'Flaming Hand Wraps') /* Name */
      , (45121,  16, 'Flaming Hand Wraps of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45121,   1,   33561413) /* Setup */
-     , (45121,   3,  536870932) /* SoundTable */
-     , (45121,   6,   67115556) /* PaletteBase */
-     , (45121,   8,  100692309) /* Icon */
-     , (45121,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45121,   1, 0x02001B45) /* Setup */
+     , (45121,   3, 0x20000014) /* SoundTable */
+     , (45121,   6, 0x04001A24) /* PaletteBase */
+     , (45121,   8, 0x06007155) /* Icon */
+     , (45121,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45121,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45121,  52,  100676441) /* IconUnderlay */;
+     , (45121,  52, 0x06003359) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45121,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (45121,  4707,      2)  /* CANTRIPPERSONATTUNEMENT3 */
+     , (45121,  2096,      2)  /* BloodDrinkerSelf7 */
      , (45121,  4400,      2)  /* DefenderSelf8 */
-     , (45121,  4707,      2)  /* CANTRIPPERSONATTUNEMENT3 */
      , (45121,  5810,      2)  /* DualWieldMasterySelf8 */;

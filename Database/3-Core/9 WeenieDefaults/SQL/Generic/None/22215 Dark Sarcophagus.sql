@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22215,   1, 'Dark Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22215,   1,   33554638) /* Setup */
-     , (22215,   8,  100668103) /* Icon */;
+VALUES (22215,   1, 0x020000CE) /* Setup */
+     , (22215,   8, 0x060012C7) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22215, 8040, 1448149340, 20, -170, -60, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22215, 8040, 0x5651015C, 20, -170, -60, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5651015C [20.000000 -170.000000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */;

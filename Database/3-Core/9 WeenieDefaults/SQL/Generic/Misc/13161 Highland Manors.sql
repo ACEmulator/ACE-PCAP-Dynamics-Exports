@@ -18,9 +18,9 @@ VALUES (13161,   1, 'Highland Manors') /* Name */
      , (13161,  16, 'Welcome to Highland Manors') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13161,   1,   33557463) /* Setup */
-     , (13161,   8,  100668115) /* Icon */;
+VALUES (13161,   1, 0x02000BD7) /* Setup */
+     , (13161,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13161, 8040, 2496528420, 111.113, 92.2976, 220, 0.671593, 0, 0, 0.74092) /* PCAPRecordedLocation */
+VALUES (13161, 8040, 0x94CE0024, 111.113, 92.2976, 220, 0.671593, 0, 0, 0.74092) /* PCAPRecordedLocation */
 /* @teleloc 0x94CE0024 [111.113000 92.297600 220.000000] 0.671593 0.000000 0.000000 0.740920 */;

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11764,   1, 'Reedshark Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11764,   1,   33557239) /* Setup */
-     , (11764,   3,  536870932) /* SoundTable */
-     , (11764,   8,  100671891) /* Icon */
-     , (11764,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11764,   1, 0x02000AF7) /* Setup */
+     , (11764,   3, 0x20000014) /* SoundTable */
+     , (11764,   8, 0x06002193) /* Icon */
+     , (11764,  22, 0x3400002B) /* PhysicsEffectTable */;

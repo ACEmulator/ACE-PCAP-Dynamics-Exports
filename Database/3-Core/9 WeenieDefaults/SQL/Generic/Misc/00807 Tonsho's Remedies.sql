@@ -18,9 +18,9 @@ VALUES (807,   1, 'Tonsho''s Remedies') /* Name */
      , (807,  16, 'Tonsho''s Remedies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (807,   1,   33555088) /* Setup */
-     , (807,   8,  100668115) /* Icon */;
+VALUES (807,   1, 0x02000290) /* Setup */
+     , (807,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (807, 8040, 3845259313, 156.84, 21.96, 28.08, -0.199368, 0, 0, 0.979925) /* PCAPRecordedLocation */
+VALUES (807, 8040, 0xE5320031, 156.84, 21.96, 28.08, -0.199368, 0, 0, 0.979925) /* PCAPRecordedLocation */
 /* @teleloc 0xE5320031 [156.840000 21.960000 28.080000] -0.199368 0.000000 0.000000 0.979925 */;

@@ -41,11 +41,11 @@ VALUES (6005,   1, 'Koujia Sleeves') /* Name */
      , (6005,  16, 'Koujia Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6005,   1,   33554655) /* Setup */
-     , (6005,   3,  536870932) /* SoundTable */
-     , (6005,   6,   67108990) /* PaletteBase */
-     , (6005,   8,  100670468) /* Icon */
-     , (6005,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6005,   1, 0x020000DF) /* Setup */
+     , (6005,   3, 0x20000014) /* SoundTable */
+     , (6005,   6, 0x0400007E) /* PaletteBase */
+     , (6005,   8, 0x06001C04) /* Icon */
+     , (6005,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6005,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

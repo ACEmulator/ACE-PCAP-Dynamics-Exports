@@ -38,13 +38,13 @@ VALUES (11998,   1, 'Virindi Inquisitor''s Mask') /* Name */
      , (11998,  16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11998,   1,   33556827) /* Setup */
-     , (11998,   3,  536870932) /* SoundTable */
-     , (11998,   6,   67108990) /* PaletteBase */
-     , (11998,   8,  100672106) /* Icon */
-     , (11998,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11998,   1, 0x0200095B) /* Setup */
+     , (11998,   3, 0x20000014) /* SoundTable */
+     , (11998,   6, 0x0400007E) /* PaletteBase */
+     , (11998,   8, 0x0600226A) /* Icon */
+     , (11998,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11998,   248,      2)  /* InvulnerabilitySelf5 */
+VALUES (11998,  1483,      2)  /* Impenetrability3 */
      , (11998,  1311,      2)  /* ArmorSelf5 */
-     , (11998,  1483,      2)  /* Impenetrability3 */;
+     , (11998,   248,      2)  /* InvulnerabilitySelf5 */;

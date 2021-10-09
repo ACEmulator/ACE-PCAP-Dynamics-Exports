@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2339,   1, 'Forking Trail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2339,   1,   33554867) /* Setup */
-     , (2339,   2,  150994947) /* MotionTable */
-     , (2339,   8,  100667499) /* Icon */;
+VALUES (2339,   1, 0x020001B3) /* Setup */
+     , (2339,   2, 0x09000003) /* MotionTable */
+     , (2339,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2339, 8040, 2485977108, 50.6279, 85.8023, 136.5678, 0.4244182, 0, 0, -0.9054663) /* PCAPRecordedLocation */
+VALUES (2339, 8040, 0x942D0014, 50.6279, 85.8023, 136.5678, 0.424418, 0, 0, -0.905466) /* PCAPRecordedLocation */
 /* @teleloc 0x942D0014 [50.627900 85.802300 136.567800] 0.424418 0.000000 0.000000 -0.905466 */;

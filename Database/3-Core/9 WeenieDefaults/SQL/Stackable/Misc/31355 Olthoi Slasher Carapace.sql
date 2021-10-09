@@ -24,7 +24,7 @@ VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
      , (31355,  16, 'The pristine carapace of an Olthoi Slasher.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31355,   1,   33554817) /* Setup */
-     , (31355,   3,  536870932) /* SoundTable */
-     , (31355,   8,  100687695) /* Icon */
-     , (31355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31355,   1, 0x02000181) /* Setup */
+     , (31355,   3, 0x20000014) /* SoundTable */
+     , (31355,   8, 0x06005F4F) /* Icon */
+     , (31355,  22, 0x3400002B) /* PhysicsEffectTable */;

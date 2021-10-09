@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33574,   1, 'Relic Alduressa Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33574,   1,   33560015) /* Setup */
-     , (33574,   3,  536870932) /* SoundTable */
-     , (33574,   8,  100686214) /* Icon */
-     , (33574,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33574,   1, 0x020015CF) /* Setup */
+     , (33574,   3, 0x20000014) /* SoundTable */
+     , (33574,   8, 0x06005986) /* Icon */
+     , (33574,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -30,14 +30,14 @@ VALUES (48742,   1, 'Legendary Magic Chest') /* Name */
      , (48742,  16, 'A chest containing the highest quality magic items. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48742,   1,   33558324) /* Setup */
-     , (48742,   2,  150995235) /* MotionTable */
-     , (48742,   3,  536870945) /* SoundTable */
-     , (48742,   8,  100674256) /* Icon */
-     , (48742,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48742,   1, 0x02000F34) /* Setup */
+     , (48742,   2, 0x09000123) /* MotionTable */
+     , (48742,   3, 0x20000021) /* SoundTable */
+     , (48742,   8, 0x06002AD0) /* Icon */
+     , (48742,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48742, 8040, 1994981783, 117.27, 333.844, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48742, 8040, 0x76E90197, 117.27, 333.844, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x76E90197 [117.270000 333.844000 94.800000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

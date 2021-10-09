@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53410,   1, 'Radiant Blood Gauntlet Writ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53410,   1,   33556750) /* Setup */
-     , (53410,   3,  536870932) /* SoundTable */
-     , (53410,   6,   67111919) /* PaletteBase */
-     , (53410,   8,  100667503) /* Icon */
-     , (53410,  22,  872415275) /* PhysicsEffectTable */
-     , (53410,  50,  100690173) /* IconOverlay */
+VALUES (53410,   1, 0x0200090E) /* Setup */
+     , (53410,   3, 0x20000014) /* SoundTable */
+     , (53410,   6, 0x04000BEF) /* PaletteBase */
+     , (53410,   8, 0x0600106F) /* Icon */
+     , (53410,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53410,  50, 0x060068FD) /* IconOverlay */
      , (53410, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

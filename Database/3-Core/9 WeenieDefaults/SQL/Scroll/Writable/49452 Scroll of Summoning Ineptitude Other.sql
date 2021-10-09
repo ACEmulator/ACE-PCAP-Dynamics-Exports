@@ -23,7 +23,7 @@ VALUES (49452,   1, 'Scroll of Summoning Ineptitude Other') /* Name */
 Decreases the target''s Summoning skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49452,   1,   33554826) /* Setup */
-     , (49452,   8,  100693008) /* Icon */
-     , (49452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49452,   1, 0x0200018A) /* Setup */
+     , (49452,   8, 0x06007410) /* Icon */
+     , (49452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49452,  28,       6129) /* Spell - SummoningIneptitudeOther1 */;

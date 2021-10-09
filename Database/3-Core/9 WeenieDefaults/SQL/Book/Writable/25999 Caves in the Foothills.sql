@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25999,   1, 'Caves in the Foothills') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25999,   1,   33559084) /* Setup */
-     , (25999,   3,  536870932) /* SoundTable */
-     , (25999,   6,   67112626) /* PaletteBase */
-     , (25999,   8,  100675770) /* Icon */
-     , (25999,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25999,   1, 0x0200122C) /* Setup */
+     , (25999,   3, 0x20000014) /* SoundTable */
+     , (25999,   6, 0x04000EB2) /* PaletteBase */
+     , (25999,   8, 0x060030BA) /* Icon */
+     , (25999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25999, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

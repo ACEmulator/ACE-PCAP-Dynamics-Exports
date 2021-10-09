@@ -41,7 +41,7 @@ VALUES (45424,   1, 'Flaming Dagger') /* Name */
      , (45424,  16, 'Flaming Dagger') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45424,   1,   33555716) /* Setup */
-     , (45424,   3,  536870932) /* SoundTable */
-     , (45424,   8,  100668876) /* Icon */
-     , (45424,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45424,   1, 0x02000504) /* Setup */
+     , (45424,   3, 0x20000014) /* SoundTable */
+     , (45424,   8, 0x060015CC) /* Icon */
+     , (45424,  22, 0x3400002B) /* PhysicsEffectTable */;

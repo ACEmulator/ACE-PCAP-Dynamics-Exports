@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xA950;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A950001,  1154, 0xA9500030, 135.0945, 190.5366, 32.01, -0.6019849, 0, 0, -0.7985075, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7A950001,  1154, 0xA9500030, 135.0945, 190.5366, 32.01, -0.601985, 0, 0, -0.798508, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xA9500030 [135.094500 190.536600 32.010000] -0.601985 0.000000 0.000000 -0.798508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,7 +12,7 @@ VALUES (0x7A950001, 0x7A950002, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7A950001, 0x7A950006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A950002,   194, 0xA9500030, 135.0945, 190.5366, 32.01, -0.6019849, 0, 0, -0.7985075,  True, '2019-02-10 00:00:00'); /* Copper Golem */
+VALUES (0x7A950002,   194, 0xA9500030, 135.0945, 190.5366, 32.01, -0.601985, 0, 0, -0.798508,  True, '2019-02-10 00:00:00'); /* Copper Golem */
 /* @teleloc 0xA9500030 [135.094500 190.536600 32.010000] -0.601985 0.000000 0.000000 -0.798508 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -28,7 +28,7 @@ VALUES (0x7A950005,   222, 0xA950001D, 94.03617, 103.7471, 30.0014, 1, 0, 0, 0, 
 /* @teleloc 0xA950001D [94.036170 103.747100 30.001400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A950006, 28552, 0xA9500028, 116.5615, 188.9675, 31.985, -0.6019849, 0, 0, -0.7985075,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
+VALUES (0x7A950006, 28552, 0xA9500028, 116.5615, 188.9675, 31.985, -0.601985, 0, 0, -0.798508,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
 /* @teleloc 0xA9500028 [116.561500 188.967500 31.985000] -0.601985 0.000000 0.000000 -0.798508 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

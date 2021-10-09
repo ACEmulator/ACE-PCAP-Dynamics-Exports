@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24495,   1, 'Gotrok Juggernaut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24495,   1,   33557003) /* Setup */
-     , (24495,   2,  150994950) /* MotionTable */
-     , (24495,   3,  536870922) /* SoundTable */
-     , (24495,   6,   67113158) /* PaletteBase */
-     , (24495,   8,  100667447) /* Icon */
-     , (24495,  22,  872415262) /* PhysicsEffectTable */;
+VALUES (24495,   1, 0x02000A0B) /* Setup */
+     , (24495,   2, 0x09000006) /* MotionTable */
+     , (24495,   3, 0x2000000A) /* SoundTable */
+     , (24495,   6, 0x040010C6) /* PaletteBase */
+     , (24495,   8, 0x06001037) /* Icon */
+     , (24495,  22, 0x3400001E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24495, 8040, 1835295, 39.7182, -19.4935, 0.00999999, -0.525207, 0, 0, -0.850975) /* PCAPRecordedLocation */
+VALUES (24495, 8040, 0x001C011F, 39.7182, -19.4935, 0.01, -0.525207, 0, 0, -0.850975) /* PCAPRecordedLocation */
 /* @teleloc 0x001C011F [39.718200 -19.493500 0.010000] -0.525207 0.000000 0.000000 -0.850975 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

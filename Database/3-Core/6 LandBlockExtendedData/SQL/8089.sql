@@ -38,7 +38,7 @@ VALUES (0x78089007,   226, 0x8089002C, 140.825, 88.41222, 280.0061, 1, 0, 0, 0, 
 /* @teleloc 0x8089002C [140.825000 88.412220 280.006100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78089008,   195, 0x8089003A, 190.9823, 46.34338, 304.2556, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+VALUES (0x78089008,   195, 0x8089003A, 190.9823, 46.34338, 304.2556, 0.173648, 0, 0, -0.984808,  True, '2019-02-10 00:00:00'); /* Granite Golem */
 /* @teleloc 0x8089003A [190.982300 46.343380 304.255600] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27812,   1, 'Life Magic Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27812,   1,   33556792) /* Setup */
-     , (27812,   2,  150995101) /* MotionTable */
-     , (27812,   3,  536871013) /* SoundTable */
-     , (27812,   8,  100671140) /* Icon */;
+VALUES (27812,   1, 0x02000938) /* Setup */
+     , (27812,   2, 0x0900009D) /* MotionTable */
+     , (27812,   3, 0x20000065) /* SoundTable */
+     , (27812,   8, 0x06001EA4) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27812, 8040, 44237058, -1.00818, -21.444, 0.002499998, 0.563807, 0, 0, -0.825906) /* PCAPRecordedLocation */
+VALUES (27812, 8040, 0x02A30102, -1.00818, -21.444, 0.0025, 0.563807, 0, 0, -0.825906) /* PCAPRecordedLocation */
 /* @teleloc 0x02A30102 [-1.008180 -21.444000 0.002500] 0.563807 0.000000 0.000000 -0.825906 */;

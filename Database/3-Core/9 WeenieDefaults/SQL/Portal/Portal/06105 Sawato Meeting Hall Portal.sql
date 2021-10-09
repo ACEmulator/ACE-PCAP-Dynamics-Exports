@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6105,   1, 'Sawato Meeting Hall Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6105,   1,   33554867) /* Setup */
-     , (6105,   2,  150994947) /* MotionTable */
-     , (6105,   8,  100667499) /* Icon */;
+VALUES (6105,   1, 0x020001B3) /* Setup */
+     , (6105,   2, 0x09000003) /* MotionTable */
+     , (6105,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6105, 8040, 3378184565, 107.712, 160.154, 13.937, 0.9994265, 0, 0, 0.03386312) /* PCAPRecordedLocation */
+VALUES (6105, 8040, 0xC95B0175, 107.712, 160.154, 13.937, 0.999427, 0, 0, 0.033863) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0175 [107.712000 160.154000 13.937000] 0.999427 0.000000 0.000000 0.033863 */;

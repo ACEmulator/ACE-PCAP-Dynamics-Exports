@@ -82,7 +82,7 @@ VALUES (0x70E0400F, 25876, 0x0E040020, 90.9888, 174.5288, 22.07707, 1, 0, 0, 0, 
 /* @teleloc 0x0E040020 [90.988800 174.528800 22.077070] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E04010, 25883, 0x0E040020, 91.19659, 190.3013, 20.0075, -0.9604317, 0, 0, -0.2785156,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
+VALUES (0x70E04010, 25883, 0x0E040020, 91.19659, 190.3013, 20.0075, -0.960432, 0, 0, -0.278516,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
 /* @teleloc 0x0E040020 [91.196590 190.301300 20.007500] -0.960432 0.000000 0.000000 -0.278516 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -90,13 +90,13 @@ VALUES (0x70E04011, 25876, 0x0E040020, 75.26954, 169.1948, 20.34618, 1, 0, 0, 0,
 /* @teleloc 0x0E040020 [75.269540 169.194800 20.346180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E04012, 25857, 0x0E040020, 72.12431, 176.9921, 20.029, -0.9604317, 0, 0, -0.2785156,  True, '2019-02-10 00:00:00'); /* Desecrated Doll */
+VALUES (0x70E04012, 25857, 0x0E040020, 72.12431, 176.9921, 20.029, -0.960432, 0, 0, -0.278516,  True, '2019-02-10 00:00:00'); /* Desecrated Doll */
 /* @teleloc 0x0E040020 [72.124310 176.992100 20.029000] -0.960432 0.000000 0.000000 -0.278516 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E04013, 25879, 0x0E040020, 93.97324, 190.4024, 29.0075, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */
+VALUES (0x70E04013, 25879, 0x0E040020, 93.97324, 190.4024, 29.0075, 0.996195, 0, 0, -0.087156,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */
 /* @teleloc 0x0E040020 [93.973240 190.402400 29.007500] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E04014, 25857, 0x0E040020, 90.04186, 188.3864, 29.0075, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Desecrated Doll */
+VALUES (0x70E04014, 25857, 0x0E040020, 90.04186, 188.3864, 29.0075, 0.819152, 0, 0, -0.573577,  True, '2019-02-10 00:00:00'); /* Desecrated Doll */
 /* @teleloc 0x0E040020 [90.041860 188.386400 29.007500] 0.819152 0.000000 0.000000 -0.573577 */

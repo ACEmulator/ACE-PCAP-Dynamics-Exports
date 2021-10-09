@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33286,   1, 'Tormented Imperial Consort') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33286,   1,   33558814) /* Setup */
-     , (33286,   2,  150994967) /* MotionTable */
-     , (33286,   3,  536870934) /* SoundTable */
-     , (33286,   6,   67115246) /* PaletteBase */
-     , (33286,   8,  100676639) /* Icon */
-     , (33286,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (33286,   1, 0x0200111E) /* Setup */
+     , (33286,   2, 0x09000017) /* MotionTable */
+     , (33286,   3, 0x20000016) /* SoundTable */
+     , (33286,   6, 0x040018EE) /* PaletteBase */
+     , (33286,   8, 0x0600341F) /* Icon */
+     , (33286,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33286, 8040, 13501408, 60, -160, 12.01362, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33286, 8040, 0x00CE03E0, 60, -160, 12.01362, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE03E0 [60.000000 -160.000000 12.013620] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

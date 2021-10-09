@@ -31,12 +31,12 @@ VALUES (25540,   1, 'Cabalist Charm Necklace') /* Name */
      , (25540,  16, 'A powerful charm crafted by Drudge Cabalists. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25540,   1,   33554683) /* Setup */
-     , (25540,   3,  536870932) /* SoundTable */
-     , (25540,   8,  100674480) /* Icon */
-     , (25540,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25540,   1, 0x020000FB) /* Setup */
+     , (25540,   3, 0x20000014) /* SoundTable */
+     , (25540,   8, 0x06002BB0) /* Icon */
+     , (25540,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25540,  2012,      2)  /* WizardsIntellect */
-     , (25540,  2581,      2)  /* CANTRIPFOCUS1 */
-     , (25540,  2584,      2)  /* CANTRIPWILLPOWER1 */;
+VALUES (25540,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (25540,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (25540,  2012,      2)  /* WizardsIntellect */;

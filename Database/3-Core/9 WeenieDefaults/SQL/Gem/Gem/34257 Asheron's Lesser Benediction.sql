@@ -33,8 +33,8 @@ VALUES (34257,   1, 'Asheron''s Lesser Benediction') /* Name */
      , (34257,  16, 'This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34257,   1,   33554809) /* Setup */
-     , (34257,   3,  536870932) /* SoundTable */
-     , (34257,   8,  100683150) /* Icon */
-     , (34257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34257,   1, 0x02000179) /* Setup */
+     , (34257,   3, 0x20000014) /* SoundTable */
+     , (34257,   8, 0x06004D8E) /* Icon */
+     , (34257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34257,  28,       4024) /* Spell - AsheronsLesserBenediction */;

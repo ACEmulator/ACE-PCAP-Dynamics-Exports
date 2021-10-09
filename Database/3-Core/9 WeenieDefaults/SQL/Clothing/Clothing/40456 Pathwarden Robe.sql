@@ -40,15 +40,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40456,   1, 'Pathwarden Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40456,   1,   33559315) /* Setup */
-     , (40456,   3,  536870932) /* SoundTable */
-     , (40456,   6,   67108990) /* PaletteBase */
-     , (40456,   8,  100687434) /* Icon */
-     , (40456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40456,   1, 0x02001313) /* Setup */
+     , (40456,   3, 0x20000014) /* SoundTable */
+     , (40456,   6, 0x0400007E) /* PaletteBase */
+     , (40456,   8, 0x06005E4A) /* Icon */
+     , (40456,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40456,  1328,      2)  /* StrengthSelf2 */
-     , (40456,  1350,      2)  /* EnduranceSelf2 */
+VALUES (40456,  1350,      2)  /* EnduranceSelf2 */
+     , (40456,  1482,      2)  /* Impenetrability2 */
      , (40456,  1422,      2)  /* FocusSelf2 */
      , (40456,  1446,      2)  /* WillpowerSelf2 */
-     , (40456,  1482,      2)  /* Impenetrability2 */;
+     , (40456,  1328,      2)  /* StrengthSelf2 */;

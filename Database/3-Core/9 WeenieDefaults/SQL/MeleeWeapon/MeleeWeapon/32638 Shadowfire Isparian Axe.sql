@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32638,   1, 'Shadowfire Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32638,   1,   33559827) /* Setup */
-     , (32638,   3,  536870932) /* SoundTable */
-     , (32638,   6,   67111919) /* PaletteBase */
-     , (32638,   8,  100688559) /* Icon */
-     , (32638,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32638,   1, 0x02001513) /* Setup */
+     , (32638,   3, 0x20000014) /* SoundTable */
+     , (32638,   6, 0x04000BEF) /* PaletteBase */
+     , (32638,   8, 0x060062AF) /* Icon */
+     , (32638,  22, 0x3400002B) /* PhysicsEffectTable */;

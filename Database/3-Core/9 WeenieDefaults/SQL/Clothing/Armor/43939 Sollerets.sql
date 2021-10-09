@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43939,   1, 'Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43939,   1,   33554654) /* Setup */
-     , (43939,   3,  536870932) /* SoundTable */
-     , (43939,   6,   67108990) /* PaletteBase */
-     , (43939,   8,  100669244) /* Icon */
-     , (43939,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43939,   1, 0x020000DE) /* Setup */
+     , (43939,   3, 0x20000014) /* SoundTable */
+     , (43939,   6, 0x0400007E) /* PaletteBase */
+     , (43939,   8, 0x0600173C) /* Icon */
+     , (43939,  22, 0x3400002B) /* PhysicsEffectTable */;

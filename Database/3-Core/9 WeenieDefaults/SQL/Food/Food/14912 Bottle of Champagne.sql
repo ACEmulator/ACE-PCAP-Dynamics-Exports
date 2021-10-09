@@ -23,8 +23,8 @@ VALUES (14912,   1, 'Bottle of Champagne') /* Name */
      , (14912,  20, 'Bottles of Champagne') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14912,   1,   33554961) /* Setup */
-     , (14912,   3,  536870932) /* SoundTable */
-     , (14912,   6,   67111919) /* PaletteBase */
-     , (14912,   8,  100672707) /* Icon */
-     , (14912,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14912,   1, 0x02000211) /* Setup */
+     , (14912,   3, 0x20000014) /* SoundTable */
+     , (14912,   6, 0x04000BEF) /* PaletteBase */
+     , (14912,   8, 0x060024C3) /* Icon */
+     , (14912,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,8 +29,8 @@ VALUES (35491,   1, 'Maelstrom of Souls Gem') /* Name */
      , (35491,  16, 'A gem that draws its power from doomed souls. Deep within the gem a maelstrom of elements can be seen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35491,   1,   33554809) /* Setup */
-     , (35491,   3,  536870932) /* SoundTable */
-     , (35491,   6,   67111919) /* PaletteBase */
-     , (35491,   8,  100689503) /* Icon */
-     , (35491,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35491,   1, 0x02000179) /* Setup */
+     , (35491,   3, 0x20000014) /* SoundTable */
+     , (35491,   6, 0x04000BEF) /* PaletteBase */
+     , (35491,   8, 0x0600665F) /* Icon */
+     , (35491,  22, 0x3400002B) /* PhysicsEffectTable */;

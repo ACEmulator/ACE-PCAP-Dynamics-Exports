@@ -26,21 +26,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31280,   1, 'Twisted Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31280,   1,   33556251) /* Setup */
-     , (31280,   2,  150995091) /* MotionTable */
-     , (31280,   3,  536870914) /* SoundTable */
-     , (31280,   6,   67108990) /* PaletteBase */
-     , (31280,   8,  100670398) /* Icon */
-     , (31280,   9,   83890284) /* EyesTexture */
-     , (31280,  10,   83890315) /* NoseTexture */
-     , (31280,  11,   83890354) /* MouthTexture */
-     , (31280,  15,   67117024) /* HairPalette */
-     , (31280,  16,   67109565) /* EyesPalette */
-     , (31280,  17,   67109561) /* SkinPalette */
-     , (31280,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (31280,   1, 0x0200071B) /* Setup */
+     , (31280,   2, 0x09000093) /* MotionTable */
+     , (31280,   3, 0x20000002) /* SoundTable */
+     , (31280,   6, 0x0400007E) /* PaletteBase */
+     , (31280,   8, 0x06001BBE) /* Icon */
+     , (31280,   9, 0x0500106C) /* EyesTexture */
+     , (31280,  10, 0x0500108B) /* NoseTexture */
+     , (31280,  11, 0x050010B2) /* MouthTexture */
+     , (31280,  15, 0x04001FE0) /* HairPalette */
+     , (31280,  16, 0x040002BD) /* EyesPalette */
+     , (31280,  17, 0x040002B9) /* SkinPalette */
+     , (31280,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31280, 8040, 5636894, 173.735, -189.442, -5.9935, 0.444313, 0, 0, 0.895872) /* PCAPRecordedLocation */
+VALUES (31280, 8040, 0x0056031E, 173.735, -189.442, -5.9935, 0.444313, 0, 0, 0.895872) /* PCAPRecordedLocation */
 /* @teleloc 0x0056031E [173.735000 -189.442000 -5.993500] 0.444313 0.000000 0.000000 0.895872 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

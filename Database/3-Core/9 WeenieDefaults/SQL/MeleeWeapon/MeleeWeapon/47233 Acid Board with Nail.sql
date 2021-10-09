@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47233,   1, 'Acid Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47233,   1,   33559657) /* Setup */
-     , (47233,   3,  536870932) /* SoundTable */
-     , (47233,   6,   67116700) /* PaletteBase */
-     , (47233,   8,  100688084) /* Icon */
-     , (47233,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47233,   1, 0x02001469) /* Setup */
+     , (47233,   3, 0x20000014) /* SoundTable */
+     , (47233,   6, 0x04001E9C) /* PaletteBase */
+     , (47233,   8, 0x060060D4) /* Icon */
+     , (47233,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47233, 8040, 2442919964, 89.16954, 94.47063, 146.8356, -0.5366213, -0.3584985, -0.4234763, -0.6357549) /* PCAPRecordedLocation */
+VALUES (47233, 8040, 0x919C001C, 89.16954, 94.47063, 146.8356, -0.536621, -0.358499, -0.423476, -0.635755) /* PCAPRecordedLocation */
 /* @teleloc 0x919C001C [89.169540 94.470630 146.835600] -0.536621 -0.358499 -0.423476 -0.635755 */;

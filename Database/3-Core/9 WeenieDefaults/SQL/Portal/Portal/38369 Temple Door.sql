@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38369,   1, 'Temple Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38369,   1,   33560143) /* Setup */
-     , (38369,   8,  100677070) /* Icon */;
+VALUES (38369,   1, 0x0200164F) /* Setup */
+     , (38369,   8, 0x060035CE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38369, 8040, 974192677, 97, 108, 32, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (38369, 8040, 0x3A110025, 97, 108, 32, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x3A110025 [97.000000 108.000000 32.000000] -0.707107 0.000000 0.000000 -0.707107 */;

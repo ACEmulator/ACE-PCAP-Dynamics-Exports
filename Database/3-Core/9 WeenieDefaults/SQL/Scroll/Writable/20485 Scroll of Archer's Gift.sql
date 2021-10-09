@@ -23,7 +23,7 @@ VALUES (20485,   1, 'Scroll of Archer''s Gift') /* Name */
 Increases damage the target takes from Piercing by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20485,   1,   33554826) /* Setup */
-     , (20485,   8,  100676953) /* Icon */
-     , (20485,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20485,   1, 0x0200018A) /* Setup */
+     , (20485,   8, 0x06003559) /* Icon */
+     , (20485,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20485,  28,       2174) /* Spell - PiercingVulnerabilityOther7 */;

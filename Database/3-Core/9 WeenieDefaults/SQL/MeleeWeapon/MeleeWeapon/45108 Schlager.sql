@@ -48,11 +48,11 @@ VALUES (45108,   1, 'Schlager') /* Name */
      , (45108,  16, 'Schlager of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45108,   1,   33561441) /* Setup */
-     , (45108,   3,  536870932) /* SoundTable */
-     , (45108,   6,   67111919) /* PaletteBase */
-     , (45108,   8,  100692307) /* Icon */
-     , (45108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45108,   1, 0x02001B61) /* Setup */
+     , (45108,   3, 0x20000014) /* SoundTable */
+     , (45108,   6, 0x04000BEF) /* PaletteBase */
+     , (45108,   8, 0x06007153) /* Icon */
+     , (45108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45108,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

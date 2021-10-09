@@ -22,7 +22,7 @@ VALUES (32014,   1, 'Aurulent Key') /* Name */
      , (32014,  15, 'A glittering gold key found upon the corpse of Priestess Xik Minru.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32014,   1,   33554784) /* Setup */
-     , (32014,   3,  536870932) /* SoundTable */
-     , (32014,   8,  100676957) /* Icon */
-     , (32014,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32014,   1, 0x02000160) /* Setup */
+     , (32014,   3, 0x20000014) /* SoundTable */
+     , (32014,   8, 0x0600355D) /* Icon */
+     , (32014,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11300,   1, 'Stave of Palenqual') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11300,   1,   33557232) /* Setup */
-     , (11300,   3,  536870932) /* SoundTable */
-     , (11300,   8,  100671868) /* Icon */
-     , (11300,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11300,   1, 0x02000AF0) /* Setup */
+     , (11300,   3, 0x20000014) /* SoundTable */
+     , (11300,   8, 0x0600217C) /* Icon */
+     , (11300,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11300, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (11300, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;

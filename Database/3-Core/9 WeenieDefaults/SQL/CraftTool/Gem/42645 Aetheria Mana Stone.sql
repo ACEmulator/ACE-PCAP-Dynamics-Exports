@@ -26,7 +26,7 @@ VALUES (42645,   1, 'Aetheria Mana Stone') /* Name */
      , (42645,  16, 'An specially enhanced mana stone used to bathe Coalesced Aetheria in mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42645,   1,   33556407) /* Setup */
-     , (42645,   3,  536870932) /* SoundTable */
-     , (42645,   8,  100690958) /* Icon */
-     , (42645,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42645,   1, 0x020007B7) /* Setup */
+     , (42645,   3, 0x20000014) /* SoundTable */
+     , (42645,   8, 0x06006C0E) /* Icon */
+     , (42645,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,21 +36,21 @@ VALUES (38575,   1, 'Eldrytch Web Quartermaster') /* Name */
      , (38575,   5, 'Society Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38575,   1,   33554433) /* Setup */
-     , (38575,   2,  150994945) /* MotionTable */
-     , (38575,   3,  536870913) /* SoundTable */
-     , (38575,   6,   67108990) /* PaletteBase */
-     , (38575,   8,  100667446) /* Icon */
-     , (38575,   9,   83890487) /* EyesTexture */
-     , (38575,  10,   83890537) /* NoseTexture */
-     , (38575,  11,   83890575) /* MouthTexture */
-     , (38575,  15,   67116994) /* HairPalette */
-     , (38575,  16,   67110063) /* EyesPalette */
-     , (38575,  17,   67109555) /* SkinPalette */
+VALUES (38575,   1, 0x02000001) /* Setup */
+     , (38575,   2, 0x09000001) /* MotionTable */
+     , (38575,   3, 0x20000001) /* SoundTable */
+     , (38575,   6, 0x0400007E) /* PaletteBase */
+     , (38575,   8, 0x06001036) /* Icon */
+     , (38575,   9, 0x05001137) /* EyesTexture */
+     , (38575,  10, 0x05001169) /* NoseTexture */
+     , (38575,  11, 0x0500118F) /* MouthTexture */
+     , (38575,  15, 0x04001FC2) /* HairPalette */
+     , (38575,  16, 0x040004AF) /* EyesPalette */
+     , (38575,  17, 0x040002B3) /* SkinPalette */
      , (38575,  57,      38237) /* AlternateCurrency - Eldrytch Web Trade Token */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38575, 8040, 12059243, 136.482, -36.1501, -17.995, 0.6996499, 0, 0, -0.7144859) /* PCAPRecordedLocation */
+VALUES (38575, 8040, 0x00B8026B, 136.482, -36.1501, -17.995, 0.69965, 0, 0, -0.714486) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026B [136.482000 -36.150100 -17.995000] 0.699650 0.000000 0.000000 -0.714486 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

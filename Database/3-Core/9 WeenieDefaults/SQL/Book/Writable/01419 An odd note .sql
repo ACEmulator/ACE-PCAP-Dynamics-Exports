@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1419,   1, 'An odd note ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1419,   1,   33554773) /* Setup */
-     , (1419,   3,  536870932) /* SoundTable */
-     , (1419,   8,  100668176) /* Icon */
-     , (1419,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1419,   1, 0x02000155) /* Setup */
+     , (1419,   3, 0x20000014) /* SoundTable */
+     , (1419,   8, 0x06001310) /* Icon */
+     , (1419,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1419, 8040, 3629383742, 176.1934, 139.4412, 23.01638, 0.9023157, 0, 0, 0.4310758) /* PCAPRecordedLocation */
+VALUES (1419, 8040, 0xD854003E, 176.1934, 139.4412, 23.01638, 0.902316, 0, 0, 0.431076) /* PCAPRecordedLocation */
 /* @teleloc 0xD854003E [176.193400 139.441200 23.016380] 0.902316 0.000000 0.000000 0.431076 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

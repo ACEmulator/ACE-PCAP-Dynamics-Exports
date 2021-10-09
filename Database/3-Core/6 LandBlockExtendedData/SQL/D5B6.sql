@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xD5B6;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5B6001,  1154, 0xD5B6001E, 80.18889, 142.3457, -0.0934, 0.5022395, 0, 0, -0.8647286, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7D5B6001,  1154, 0xD5B6001E, 80.18889, 142.3457, -0.0934, 0.50224, 0, 0, -0.864729, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xD5B6001E [80.188890 142.345700 -0.093400] 0.502240 0.000000 0.000000 -0.864729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -13,11 +13,11 @@ VALUES (0x7D5B6001, 0x7D5B6002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427
      , (0x7D5B6001, 0x7D5B6007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5B6002,  8427, 0xD5B6001E, 80.18889, 142.3457, -0.0934, 0.5022395, 0, 0, -0.8647286,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
+VALUES (0x7D5B6002,  8427, 0xD5B6001E, 80.18889, 142.3457, -0.0934, 0.50224, 0, 0, -0.864729,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xD5B6001E [80.188890 142.345700 -0.093400] 0.502240 0.000000 0.000000 -0.864729 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5B6003,  1630, 0xD5B60027, 116.8093, 164.9581, 0.007499993, 0.5022395, 0, 0, -0.8647286,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+VALUES (0x7D5B6003,  1630, 0xD5B60027, 116.8093, 164.9581, 0.0075, 0.50224, 0, 0, -0.864729,  True, '2019-02-10 00:00:00'); /* Lich Lord */
 /* @teleloc 0xD5B60027 [116.809300 164.958100 0.007500] 0.502240 0.000000 0.000000 -0.864729 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x7D5B6006,   226, 0xD5B60020, 92.75423, 169.636, 3.126398, 1, 0, 0, 0, 
 /* @teleloc 0xD5B60020 [92.754230 169.636000 3.126398] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D5B6007,  1761, 0xD5B6001F, 90.96107, 158.8702, 0.002499998, 0.5022395, 0, 0, -0.8647286,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
+VALUES (0x7D5B6007,  1761, 0xD5B6001F, 90.96107, 158.8702, 0.0025, 0.50224, 0, 0, -0.864729,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
 /* @teleloc 0xD5B6001F [90.961070 158.870200 0.002500] 0.502240 0.000000 0.000000 -0.864729 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

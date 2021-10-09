@@ -21,11 +21,11 @@ VALUES (5141,   1, 'VIEW CONTROLS ') /* Name */
      , (5141,  16, 'Double-click this sign to read it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5141,   1,   33556014) /* Setup */
-     , (5141,   8,  100668115) /* Icon */;
+VALUES (5141,   1, 0x0200062E) /* Setup */
+     , (5141,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5141, 8040, 2248343985, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414) /* PCAPRecordedLocation */
+VALUES (5141, 8040, 0x860301B1, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414) /* PCAPRecordedLocation */
 /* @teleloc 0x860301B1 [22.009700 -29.362500 0.000000] 0.711769 0.000000 0.000000 -0.702414 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

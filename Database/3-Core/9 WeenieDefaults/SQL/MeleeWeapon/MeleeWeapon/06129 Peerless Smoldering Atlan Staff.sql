@@ -46,16 +46,16 @@ VALUES (6129,   1, 'Peerless Smoldering Atlan Staff') /* Name */
      , (6129,   8, 'Makosa''') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6129,   1,   33556373) /* Setup */
-     , (6129,   3,  536870932) /* SoundTable */
-     , (6129,   6,   67111919) /* PaletteBase */
-     , (6129,   8,  100670565) /* Icon */
-     , (6129,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6129,   1, 0x02000795) /* Setup */
+     , (6129,   3, 0x20000014) /* SoundTable */
+     , (6129,   6, 0x04000BEF) /* PaletteBase */
+     , (6129,   8, 0x06001C65) /* Icon */
+     , (6129,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6129,  1092,      2)  /* FireProtectionSelf4 */
-     , (6129,  1330,      2)  /* StrengthSelf4 */
-     , (6129,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6129,  1603,      2)  /* DefenderSelf4 */
+VALUES (6129,  1603,      2)  /* DefenderSelf4 */
+     , (6129,  1092,      2)  /* FireProtectionSelf4 */
      , (6129,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6129,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6129,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6129,  1330,      2)  /* StrengthSelf4 */
+     , (6129,  1590,      2)  /* HeartSeekerSelf4 */;

@@ -18,9 +18,9 @@ VALUES (12601,   1, 'Evensong Settlement') /* Name */
      , (12601,  16, 'Welcome to Evensong Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12601,   1,   33557463) /* Setup */
-     , (12601,   8,  100668115) /* Icon */;
+VALUES (12601,   1, 0x02000BD7) /* Setup */
+     , (12601,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12601, 8040, 2998075421, 73.9772, 97.7888, 116, 0.912588, 0, 0, -0.40888) /* PCAPRecordedLocation */
+VALUES (12601, 8040, 0xB2B3001D, 73.9772, 97.7888, 116, 0.912588, 0, 0, -0.40888) /* PCAPRecordedLocation */
 /* @teleloc 0xB2B3001D [73.977200 97.788800 116.000000] 0.912588 0.000000 0.000000 -0.408880 */;

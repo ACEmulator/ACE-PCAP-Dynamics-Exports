@@ -50,15 +50,15 @@ VALUES (30605,   1, 'Acid Stiletto') /* Name */
      , (30605,  16, 'Acid Stiletto of Dual Wield Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30605,   1,   33559491) /* Setup */
-     , (30605,   3,  536870932) /* SoundTable */
-     , (30605,   6,   67116417) /* PaletteBase */
-     , (30605,   8,  100687012) /* Icon */
-     , (30605,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30605,   1, 0x020013C3) /* Setup */
+     , (30605,   3, 0x20000014) /* SoundTable */
+     , (30605,   6, 0x04001D81) /* PaletteBase */
+     , (30605,   8, 0x06005CA4) /* Icon */
+     , (30605,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30605,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30605,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (30605,  5808,      2)  /* DualWieldMasterySelf6 */
+     , (30605,  2096,      2)  /* BloodDrinkerSelf7 */
      , (30605,  2101,      2)  /* DefenderSelf7 */
-     , (30605,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */
-     , (30605,  5808,      2)  /* DualWieldMasterySelf6 */;
+     , (30605,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */;

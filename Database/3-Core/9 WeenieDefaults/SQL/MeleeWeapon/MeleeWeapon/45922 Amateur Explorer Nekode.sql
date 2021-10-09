@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45922,   1, 'Amateur Explorer Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45922,   1,   33555996) /* Setup */
-     , (45922,   3,  536870932) /* SoundTable */
-     , (45922,   6,   67111919) /* PaletteBase */
-     , (45922,   8,  100670031) /* Icon */
-     , (45922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45922,   1, 0x0200061C) /* Setup */
+     , (45922,   3, 0x20000014) /* SoundTable */
+     , (45922,   6, 0x04000BEF) /* PaletteBase */
+     , (45922,   8, 0x06001A4F) /* Icon */
+     , (45922,  22, 0x3400002B) /* PhysicsEffectTable */;

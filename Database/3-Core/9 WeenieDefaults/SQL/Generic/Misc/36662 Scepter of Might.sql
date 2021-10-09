@@ -22,11 +22,11 @@ VALUES (36662,   1, 'Scepter of Might') /* Name */
      , (36662,  16, 'A large carved scepter, it is made from both stone and gems.  It seems to refract light, magnifying the multifaceted gems into miniature suns.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36662,   1,   33557013) /* Setup */
-     , (36662,   6,   67111919) /* PaletteBase */
-     , (36662,   8,  100671509) /* Icon */
-     , (36662,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36662,   1, 0x02000A15) /* Setup */
+     , (36662,   6, 0x04000BEF) /* PaletteBase */
+     , (36662,   8, 0x06002015) /* Icon */
+     , (36662,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36662, 8040, 10420582, 99.9838, -90.0364, -40.895, -0.9899926, 0, 0, 0.141119) /* PCAPRecordedLocation */
+VALUES (36662, 8040, 0x009F0166, 99.9838, -90.0364, -40.895, -0.989993, 0, 0, 0.141119) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0166 [99.983800 -90.036400 -40.895000] -0.989993 0.000000 0.000000 0.141119 */;

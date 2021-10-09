@@ -25,12 +25,12 @@ VALUES (33965,   1, 'Tipped Pack Cow') /* Name */
      , (33965,  16, 'No matter how hard you try you can''t seem to get this pack cow to stand up.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33965,   1,   33554438) /* Setup */
-     , (33965,   2,  150995375) /* MotionTable */
-     , (33965,   6,   67116472) /* PaletteBase */
-     , (33965,   8,  100667444) /* Icon */
-     , (33965,  22,  872415256) /* PhysicsEffectTable */;
+VALUES (33965,   1, 0x02000006) /* Setup */
+     , (33965,   2, 0x090001AF) /* MotionTable */
+     , (33965,   6, 0x04001DB8) /* PaletteBase */
+     , (33965,   8, 0x06001034) /* Icon */
+     , (33965,  22, 0x34000018) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33965, 8040, 3583574079, 185.7503, 161.0828, 374.0018, -0.8788, 0, 0, -0.4771903) /* PCAPRecordedLocation */
+VALUES (33965, 8040, 0xD599003F, 185.7503, 161.0828, 374.0018, -0.8788, 0, 0, -0.47719) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [185.750300 161.082800 374.001800] -0.878800 0.000000 0.000000 -0.477190 */;

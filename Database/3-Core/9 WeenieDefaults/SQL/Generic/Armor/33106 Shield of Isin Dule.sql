@@ -42,20 +42,20 @@ VALUES (33106,   1, 'Shield of Isin Dule') /* Name */
      , (33106,  16, 'A shadowy shield with surprising strength. As you attempt to push your finger through the shadowy substance it becomes increasingly resistant to your push.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33106,   1,   33559923) /* Setup */
-     , (33106,   3,  536870932) /* SoundTable */
-     , (33106,   8,  100688919) /* Icon */
-     , (33106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33106,   1, 0x02001573) /* Setup */
+     , (33106,   3, 0x20000014) /* SoundTable */
+     , (33106,   8, 0x06006417) /* Icon */
+     , (33106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33106,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33106, 8040, 4116250685, 188.1141, 110.5527, 19.926, 0.5236117, 0.3217716, -0.778747, 0.125885) /* PCAPRecordedLocation */
+VALUES (33106, 8040, 0xF559003D, 188.1141, 110.5527, 19.926, 0.523612, 0.321772, -0.778747, 0.125885) /* PCAPRecordedLocation */
 /* @teleloc 0xF559003D [188.114100 110.552700 19.926000] 0.523612 0.321772 -0.778747 0.125885 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33106,  2102,      2)  /* FlameBane7 */
-     , (33106,  2108,      2)  /* Impenetrability7 */
-     , (33106,  2110,      2)  /* LightningBane7 */
-     , (33106,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (33106,  2243,      2)  /* ImpregnabilitySelf7 */
      , (33106,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (33106,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */;
+     , (33106,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
+     , (33106,  2102,      2)  /* FlameBane7 */
+     , (33106,  2108,      2)  /* Impenetrability7 */
+     , (33106,  2110,      2)  /* LightningBane7 */;

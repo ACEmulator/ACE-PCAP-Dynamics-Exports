@@ -44,7 +44,7 @@ VALUES (45432,   1, 'Acid Khanjar') /* Name */
      , (45432,  16, 'Acid Khanjar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45432,   1,   33555746) /* Setup */
-     , (45432,   3,  536870932) /* SoundTable */
-     , (45432,   8,  100668942) /* Icon */
-     , (45432,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45432,   1, 0x02000522) /* Setup */
+     , (45432,   3, 0x20000014) /* SoundTable */
+     , (45432,   8, 0x0600160E) /* Icon */
+     , (45432,  22, 0x3400002B) /* PhysicsEffectTable */;

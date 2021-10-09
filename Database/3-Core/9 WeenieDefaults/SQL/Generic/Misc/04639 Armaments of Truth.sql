@@ -18,9 +18,9 @@ VALUES (4639,   1, 'Armaments of Truth') /* Name */
      , (4639,  16, 'Armaments of Truth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4639,   1,   33555909) /* Setup */
-     , (4639,   8,  100668115) /* Icon */;
+VALUES (4639,   1, 0x020005C5) /* Setup */
+     , (4639,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4639, 8040, 2421686310, 106.632, 131.355, 9.55, 0.9990006, 0, 0, 0.04469688) /* PCAPRecordedLocation */
+VALUES (4639, 8040, 0x90580026, 106.632, 131.355, 9.55, 0.999001, 0, 0, 0.044697) /* PCAPRecordedLocation */
 /* @teleloc 0x90580026 [106.632000 131.355000 9.550000] 0.999001 0.000000 0.000000 0.044697 */;

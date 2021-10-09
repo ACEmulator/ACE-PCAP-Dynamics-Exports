@@ -48,14 +48,14 @@ VALUES (53307,   1, 'Stormwood Atlatl') /* Name */
      , (53307,  16, 'An atlatl imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53307,   1,   33561662) /* Setup */
-     , (53307,   3,  536870932) /* SoundTable */
-     , (53307,   8,  100693333) /* Icon */
-     , (53307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53307,   1, 0x02001C3E) /* Setup */
+     , (53307,   3, 0x20000014) /* SoundTable */
+     , (53307,   8, 0x06007555) /* Icon */
+     , (53307,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53307,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (53307,  4400,      2)  /* DefenderSelf8 */
-     , (53307,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (53307,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53307,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
      , (53307,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (53307,  6044,      2)  /* CantripMissileWeaponsAptitude4 */;
+     , (53307,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (53307,  4400,      2)  /* DefenderSelf8 */;

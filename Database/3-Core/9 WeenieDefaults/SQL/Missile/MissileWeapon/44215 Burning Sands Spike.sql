@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44215,   1, 'Burning Sands Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44215,   1,   33558221) /* Setup */
-     , (44215,   3,  536870932) /* SoundTable */
-     , (44215,   8,  100674063) /* Icon */
-     , (44215,  22,  872415275) /* PhysicsEffectTable */
-     , (44215,  50,  100691935) /* IconOverlay */;
+VALUES (44215,   1, 0x02000ECD) /* Setup */
+     , (44215,   3, 0x20000014) /* SoundTable */
+     , (44215,   8, 0x06002A0F) /* Icon */
+     , (44215,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44215,  50, 0x06006FDF) /* IconOverlay */;

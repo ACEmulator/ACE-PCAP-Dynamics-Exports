@@ -28,12 +28,12 @@ VALUES (22257,   1, 'Fishing Hole') /* Name */
      , (22257,  15, 'An inviting pool of quiet water.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22257,   1,   33558285) /* Setup */
-     , (22257,   2,  150995234) /* MotionTable */
-     , (22257,   3,  536870913) /* SoundTable */
-     , (22257,   6,   67114203) /* PaletteBase */
-     , (22257,   8,  100674239) /* Icon */;
+VALUES (22257,   1, 0x02000F0D) /* Setup */
+     , (22257,   2, 0x09000122) /* MotionTable */
+     , (22257,   3, 0x20000001) /* SoundTable */
+     , (22257,   6, 0x040014DB) /* PaletteBase */
+     , (22257,   8, 0x06002ABF) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22257, 8040, 3829202967, 55.5603, 150.727, 119.55, 0.133484, 0, 0, -0.991051) /* PCAPRecordedLocation */
+VALUES (22257, 8040, 0xE43D0017, 55.5603, 150.727, 119.55, 0.133484, 0, 0, -0.991051) /* PCAPRecordedLocation */
 /* @teleloc 0xE43D0017 [55.560300 150.727000 119.550000] 0.133484 0.000000 0.000000 -0.991051 */;

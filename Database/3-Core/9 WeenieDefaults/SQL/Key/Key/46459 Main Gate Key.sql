@@ -30,7 +30,7 @@ VALUES (46459,   1, 'Main Gate Key') /* Name */
      , (46459,  16, 'A key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46459,   1,   33554784) /* Setup */
-     , (46459,   3,  536870932) /* SoundTable */
-     , (46459,   8,  100670621) /* Icon */
-     , (46459,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46459,   1, 0x02000160) /* Setup */
+     , (46459,   3, 0x20000014) /* SoundTable */
+     , (46459,   8, 0x06001C9D) /* Icon */
+     , (46459,  22, 0x3400002B) /* PhysicsEffectTable */;

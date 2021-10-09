@@ -27,12 +27,12 @@ VALUES (38113,   1, 'Creeping Blight Banner of the Spire') /* Name */
      , (38113,  16, 'A banner, erected by the Creeping Blight, to show their control of the local area.  Those who have both joined one of the Societies and shunned Asheron''s Protection may contest this claim.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38113,   1,   33560561) /* Setup */
-     , (38113,   2,  150995147) /* MotionTable */
-     , (38113,   3,  536871017) /* SoundTable */
-     , (38113,   8,  100689891) /* Icon */
-     , (38113,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (38113,   1, 0x020017F1) /* Setup */
+     , (38113,   2, 0x090000CB) /* MotionTable */
+     , (38113,   3, 0x20000069) /* SoundTable */
+     , (38113,   8, 0x060067E3) /* Icon */
+     , (38113,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38113, 8040, 2665807906, 107.232, 41.9728, 92, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38113, 8040, 0x9EE50022, 107.232, 41.9728, 92, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9EE50022 [107.232000 41.972800 92.000000] 1.000000 0.000000 0.000000 0.000000 */;

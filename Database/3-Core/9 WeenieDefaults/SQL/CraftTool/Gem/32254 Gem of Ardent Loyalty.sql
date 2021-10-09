@@ -29,8 +29,8 @@ VALUES (32254,   1, 'Gem of Ardent Loyalty') /* Name */
      , (32254,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with very potent Melee Defense and Loyalty Spells that will affect the wearer. The armor will then only be wearable by the crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32254,   1,   33554809) /* Setup */
-     , (32254,   3,  536870932) /* SoundTable */
-     , (32254,   6,   67111919) /* PaletteBase */
-     , (32254,   8,  100688417) /* Icon */
-     , (32254,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32254,   1, 0x02000179) /* Setup */
+     , (32254,   3, 0x20000014) /* SoundTable */
+     , (32254,   6, 0x04000BEF) /* PaletteBase */
+     , (32254,   8, 0x06006221) /* Icon */
+     , (32254,  22, 0x3400002B) /* PhysicsEffectTable */;

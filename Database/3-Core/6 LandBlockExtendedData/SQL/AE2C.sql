@@ -42,15 +42,15 @@ VALUES (0x7AE2C007,  4179, 0xAE2C0020, 85.91561, 186.6232, 253.4231, 1, 0, 0, 0,
 /* @teleloc 0xAE2C0020 [85.915610 186.623200 253.423100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AE2C008,  9019, 0xAE2C0020, 86.75655, 186.1399, 253.3595, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
+VALUES (0x7AE2C008,  9019, 0xAE2C0020, 86.75655, 186.1399, 253.3595, 0.642788, 0, 0, -0.766044,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
 /* @teleloc 0xAE2C0020 [86.756550 186.139900 253.359500] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AE2C009,  9061, 0xAE2C0020, 83.44689, 187.1343, 253.0969, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Hasina's Mortar and Pestle */
+VALUES (0x7AE2C009,  9061, 0xAE2C0020, 83.44689, 187.1343, 253.0969, 0.965926, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Hasina's Mortar and Pestle */
 /* @teleloc 0xAE2C0020 [83.446890 187.134300 253.096900] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AE2C00A,  9016, 0xAE2C0020, 87.43151, 184.2661, 253.2829, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Hasina's Alembic */
+VALUES (0x7AE2C00A,  9016, 0xAE2C0020, 87.43151, 184.2661, 253.2829, 0.422618, 0, 0, -0.906308,  True, '2019-02-10 00:00:00'); /* Hasina's Alembic */
 /* @teleloc 0xAE2C0020 [87.431510 184.266100 253.282900] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

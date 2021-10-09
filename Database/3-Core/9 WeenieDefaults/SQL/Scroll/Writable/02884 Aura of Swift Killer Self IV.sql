@@ -23,7 +23,7 @@ VALUES (2884,   1, 'Aura of Swift Killer Self IV') /* Name */
 Improves a weapon''s speed by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2884,   1,   33554826) /* Setup */
-     , (2884,   8,  100676676) /* Icon */
-     , (2884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2884,   1, 0x0200018A) /* Setup */
+     , (2884,   8, 0x06003444) /* Icon */
+     , (2884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2884,  28,       1625) /* Spell - SwiftKillerSelf4 */;

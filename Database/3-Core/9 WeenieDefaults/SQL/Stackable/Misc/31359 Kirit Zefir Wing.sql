@@ -24,7 +24,7 @@ VALUES (31359,   1, 'Kirit Zefir Wing') /* Name */
      , (31359,  16, 'A delicate wing from a Kirit Zefir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31359,   1,   33554817) /* Setup */
-     , (31359,   3,  536870932) /* SoundTable */
-     , (31359,   8,  100687709) /* Icon */
-     , (31359,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31359,   1, 0x02000181) /* Setup */
+     , (31359,   3, 0x20000014) /* SoundTable */
+     , (31359,   8, 0x06005F5D) /* Icon */
+     , (31359,  22, 0x3400002B) /* PhysicsEffectTable */;

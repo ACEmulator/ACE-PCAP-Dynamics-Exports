@@ -27,14 +27,14 @@ VALUES (28698,   1, 'Fiun Rehlyun') /* Name */
      , (28698,   5, 'Augmentation Trainer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28698,   1,   33559124) /* Setup */
-     , (28698,   2,  150994945) /* MotionTable */
-     , (28698,   3,  536870913) /* SoundTable */
-     , (28698,   6,   67115466) /* PaletteBase */
-     , (28698,   8,  100677369) /* Icon */;
+VALUES (28698,   1, 0x02001254) /* Setup */
+     , (28698,   2, 0x09000001) /* MotionTable */
+     , (28698,   3, 0x20000001) /* SoundTable */
+     , (28698,   6, 0x040019CA) /* PaletteBase */
+     , (28698,   8, 0x060036F9) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28698, 8040, 955711499, 36.701, 51.1241, -0.08952004, 0.999974, 0, 0, -0.0071452) /* PCAPRecordedLocation */
+VALUES (28698, 8040, 0x38F7000B, 36.701, 51.1241, -0.08952, 0.999974, 0, 0, -0.007145) /* PCAPRecordedLocation */
 /* @teleloc 0x38F7000B [36.701000 51.124100 -0.089520] 0.999974 0.000000 0.000000 -0.007145 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

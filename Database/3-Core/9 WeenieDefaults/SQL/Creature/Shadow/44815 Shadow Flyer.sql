@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44815,   1, 'Shadow Flyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44815,   1,   33561289) /* Setup */
-     , (44815,   2,  150995049) /* MotionTable */
-     , (44815,   3,  536870975) /* SoundTable */
-     , (44815,   6,   67109305) /* PaletteBase */
-     , (44815,   8,  100669123) /* Icon */
-     , (44815,  22,  872415351) /* PhysicsEffectTable */;
+VALUES (44815,   1, 0x02001AC9) /* Setup */
+     , (44815,   2, 0x09000069) /* MotionTable */
+     , (44815,   3, 0x2000003F) /* SoundTable */
+     , (44815,   6, 0x040001B9) /* PaletteBase */
+     , (44815,   8, 0x060016C3) /* Icon */
+     , (44815,  22, 0x34000077) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44815, 8040, 4133158968, 162.4371, 177.1411, 20.011, 0.999748, 0, 0, 0.0224479) /* PCAPRecordedLocation */
+VALUES (44815, 8040, 0xF65B0038, 162.4371, 177.1411, 20.011, 0.999748, 0, 0, 0.022448) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0038 [162.437100 177.141100 20.011000] 0.999748 0.000000 0.000000 0.022448 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

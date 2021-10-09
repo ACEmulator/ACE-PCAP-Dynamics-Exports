@@ -50,15 +50,15 @@ VALUES (360,   1, 'Yag') /* Name */
      , (360,  16, 'Yag of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (360,   1,   33554729) /* Setup */
-     , (360,   3,  536870932) /* SoundTable */
-     , (360,   6,   67111919) /* PaletteBase */
-     , (360,   8,  100668826) /* Icon */
-     , (360,  22,  872415275) /* PhysicsEffectTable */
+VALUES (360,   1, 0x02000129) /* Setup */
+     , (360,   3, 0x20000014) /* SoundTable */
+     , (360,   6, 0x04000BEF) /* PaletteBase */
+     , (360,   8, 0x0600159A) /* Icon */
+     , (360,  22, 0x3400002B) /* PhysicsEffectTable */
      , (360,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (360, 8040, 2471690299, 190.047, 61.42869, 13.13612, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (360, 8040, 0x9353003B, 190.047, 61.42869, 13.13612, 0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x9353003B [190.047000 61.428690 13.136120] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

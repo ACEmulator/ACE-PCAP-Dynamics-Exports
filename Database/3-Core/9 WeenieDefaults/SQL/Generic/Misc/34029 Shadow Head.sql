@@ -19,7 +19,7 @@ VALUES (34029,   1, 'Shadow Head') /* Name */
      , (34029,  16, 'The gauzy, almost insubstantial head of a Shadow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34029,   1,   33559845) /* Setup */
-     , (34029,   3,  536870932) /* SoundTable */
-     , (34029,   8,  100689130) /* Icon */
-     , (34029,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34029,   1, 0x02001525) /* Setup */
+     , (34029,   3, 0x20000014) /* SoundTable */
+     , (34029,   8, 0x060064EA) /* Icon */
+     , (34029,  22, 0x3400002B) /* PhysicsEffectTable */;

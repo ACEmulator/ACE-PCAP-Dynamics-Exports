@@ -31,10 +31,10 @@ VALUES (29511,   1, 'Medallion of the Red Bull') /* Name */
      , (29511,  16, 'A medallion embossed with the design of the Red Bull of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29511,   1,   33554680) /* Setup */
-     , (29511,   3,  536870932) /* SoundTable */
-     , (29511,   8,  100686514) /* Icon */
-     , (29511,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29511,   1, 0x020000F8) /* Setup */
+     , (29511,   3, 0x20000014) /* SoundTable */
+     , (29511,   8, 0x06005AB2) /* Icon */
+     , (29511,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29511,  1311,      2)  /* ArmorSelf5 */

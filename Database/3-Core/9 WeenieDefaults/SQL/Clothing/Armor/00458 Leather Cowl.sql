@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (458,   1, 'Leather Cowl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (458,   1,   33554653) /* Setup */
-     , (458,   3,  536870932) /* SoundTable */
-     , (458,   6,   67108990) /* PaletteBase */
-     , (458,   8,  100667323) /* Icon */
-     , (458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (458,   1, 0x020000DD) /* Setup */
+     , (458,   3, 0x20000014) /* SoundTable */
+     , (458,   6, 0x0400007E) /* PaletteBase */
+     , (458,   8, 0x06000FBB) /* Icon */
+     , (458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (458, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23999,   1, 'Diamond Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23999,   1,   33558367) /* Setup */
-     , (23999,   2,  150994945) /* MotionTable */
-     , (23999,   3,  536870933) /* SoundTable */
-     , (23999,   8,  100674350) /* Icon */;
+VALUES (23999,   1, 0x02000F5F) /* Setup */
+     , (23999,   2, 0x09000001) /* MotionTable */
+     , (23999,   3, 0x20000015) /* SoundTable */
+     , (23999,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23999, 8040, 1665401102, 10, -47.5, 0.00999999, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (23999, 8040, 0x6344010E, 10, -47.5, 0.01, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x6344010E [10.000000 -47.500000 0.010000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41551,   1, 'Iron Blade Overseer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41551,   1,   33560865) /* Setup */
-     , (41551,   2,  150995368) /* MotionTable */
-     , (41551,   3,  536871123) /* SoundTable */
-     , (41551,   8,  100674350) /* Icon */
-     , (41551,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41551,   1, 0x02001921) /* Setup */
+     , (41551,   2, 0x090001A8) /* MotionTable */
+     , (41551,   3, 0x200000D3) /* SoundTable */
+     , (41551,   8, 0x06002B2E) /* Icon */
+     , (41551,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41551, 8040, 561184800, 75.10499, 185.674, 152.5352, 0.9121372, 0, 0, -0.4098851) /* PCAPRecordedLocation */
+VALUES (41551, 8040, 0x21730020, 75.10499, 185.674, 152.5352, 0.912137, 0, 0, -0.409885) /* PCAPRecordedLocation */
 /* @teleloc 0x21730020 [75.104990 185.674000 152.535200] 0.912137 0.000000 0.000000 -0.409885 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

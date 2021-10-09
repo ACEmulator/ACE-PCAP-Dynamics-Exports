@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29444,   1, 'Corcima Castle Copper Ward Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29444,   1,   33556769) /* Setup */
-     , (29444,   3,  536870932) /* SoundTable */
-     , (29444,   6,   67111919) /* PaletteBase */
-     , (29444,   8,  100672368) /* Icon */
-     , (29444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29444,   1, 0x02000921) /* Setup */
+     , (29444,   3, 0x20000014) /* SoundTable */
+     , (29444,   6, 0x04000BEF) /* PaletteBase */
+     , (29444,   8, 0x06002370) /* Icon */
+     , (29444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29444,  28,        157) /* Spell - SummonPortal1 */;

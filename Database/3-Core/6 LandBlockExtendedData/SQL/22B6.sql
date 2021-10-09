@@ -63,7 +63,7 @@ VALUES (0x722B600B, 11510, 0x22B60003, 10.8107, 48.07521, 80.01327, 1, 0, 0, 0, 
 /* @teleloc 0x22B60003 [10.810700 48.075210 80.013270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722B600C, 11510, 0x22B60003, 0.8612413, 49.01083, 80.05384, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Itealuan */
+VALUES (0x722B600C, 11510, 0x22B60003, 0.861241, 49.01083, 80.05384, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Itealuan */
 /* @teleloc 0x22B60003 [0.861241 49.010830 80.053840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

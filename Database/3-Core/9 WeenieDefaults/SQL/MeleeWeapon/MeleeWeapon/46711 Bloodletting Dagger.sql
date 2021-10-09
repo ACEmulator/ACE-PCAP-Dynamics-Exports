@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46711,   1, 'Bloodletting Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46711,   1,   33560633) /* Setup */
-     , (46711,   3,  536870932) /* SoundTable */
-     , (46711,   6,   67114956) /* PaletteBase */
-     , (46711,   8,  100675921) /* Icon */
-     , (46711,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46711,   1, 0x02001839) /* Setup */
+     , (46711,   3, 0x20000014) /* SoundTable */
+     , (46711,   6, 0x040017CC) /* PaletteBase */
+     , (46711,   8, 0x06003151) /* Icon */
+     , (46711,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46711, 8040, 1467023787, 89.975, 0.0002101982, -36.068, -0.002972677, -0.002972677, -0.7071005, -0.7071005) /* PCAPRecordedLocation */
+VALUES (46711, 8040, 0x577101AB, 89.975, 0.00021, -36.068, -0.002973, -0.002973, -0.707101, -0.707101) /* PCAPRecordedLocation */
 /* @teleloc 0x577101AB [89.975000 0.000210 -36.068000] -0.002973 -0.002973 -0.707101 -0.707101 */;

@@ -53,12 +53,12 @@ VALUES (45410,   1, 'Frost Yaoji') /* Name */
      , (45410,  40, 'Jadefire') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45410,   1,   33555810) /* Setup */
-     , (45410,   3,  536870932) /* SoundTable */
-     , (45410,   8,  100669076) /* Icon */
-     , (45410,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45410,   1, 0x02000562) /* Setup */
+     , (45410,   3, 0x20000014) /* SoundTable */
+     , (45410,   8, 0x06001694) /* Icon */
+     , (45410,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45410,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45410,  52,  100676435) /* IconUnderlay */;
+     , (45410,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45410,  2081,      2)  /* QuicknessSelf7 */

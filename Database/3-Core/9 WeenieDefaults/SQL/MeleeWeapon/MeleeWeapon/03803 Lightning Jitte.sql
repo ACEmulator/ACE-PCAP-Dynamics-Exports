@@ -51,10 +51,10 @@ VALUES (3803,   1, 'Lightning Jitte') /* Name */
      , (3803,  16, 'Lightning Jitte of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3803,   1,   33555753) /* Setup */
-     , (3803,   3,  536870932) /* SoundTable */
-     , (3803,   8,  100668896) /* Icon */
-     , (3803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3803,   1, 0x02000529) /* Setup */
+     , (3803,   3, 0x20000014) /* SoundTable */
+     , (3803,   8, 0x060015E0) /* Icon */
+     , (3803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3803,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

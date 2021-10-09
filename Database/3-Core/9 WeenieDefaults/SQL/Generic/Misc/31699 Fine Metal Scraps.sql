@@ -14,7 +14,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31699,   1, 'Fine Metal Scraps') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31699,   1,   33554817) /* Setup */
-     , (31699,   3,  536870932) /* SoundTable */
-     , (31699,   8,  100687785) /* Icon */
-     , (31699,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31699,   1, 0x02000181) /* Setup */
+     , (31699,   3, 0x20000014) /* SoundTable */
+     , (31699,   8, 0x06005FA9) /* Icon */
+     , (31699,  22, 0x3400002B) /* PhysicsEffectTable */;

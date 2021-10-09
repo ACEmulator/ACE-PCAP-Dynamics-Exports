@@ -51,14 +51,14 @@ VALUES (3901,   1, 'Acid Tungi') /* Name */
      , (3901,  16, 'Acid Tungi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3901,   1,   33555801) /* Setup */
-     , (3901,   3,  536870932) /* SoundTable */
-     , (3901,   8,  100669064) /* Icon */
-     , (3901,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3901,   1, 0x02000559) /* Setup */
+     , (3901,   3, 0x20000014) /* SoundTable */
+     , (3901,   8, 0x06001688) /* Icon */
+     , (3901,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3901,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3901,  1401,      2)  /* QuicknessSelf5 */
+VALUES (3901,  2578,      2)  /* CANTRIPARMOR1 */
      , (3901,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3901,  2578,      2)  /* CANTRIPARMOR1 */
+     , (3901,  1401,      2)  /* QuicknessSelf5 */
      , (3901,  5885,      2)  /* CantripRecklessnessProwess1 */;

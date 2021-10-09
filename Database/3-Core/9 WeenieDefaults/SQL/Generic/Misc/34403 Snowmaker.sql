@@ -23,6 +23,6 @@ VALUES (34403,   1, 'Snowmaker') /* Name */
      , (34403,  16, 'A strange device that creates snow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34403,   1,   33560160) /* Setup */
-     , (34403,   2,  150995386) /* MotionTable */
-     , (34403,   8,  100677402) /* Icon */;
+VALUES (34403,   1, 0x02001660) /* Setup */
+     , (34403,   2, 0x090001BA) /* MotionTable */
+     , (34403,   8, 0x0600371A) /* Icon */;

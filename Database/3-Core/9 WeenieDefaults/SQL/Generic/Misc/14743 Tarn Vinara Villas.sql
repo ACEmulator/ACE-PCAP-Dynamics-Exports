@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14743,   1, 'Tarn Vinara Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14743,   1,   33557463) /* Setup */
-     , (14743,   8,  100668115) /* Icon */;
+VALUES (14743,   1, 0x02000BD7) /* Setup */
+     , (14743,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14743, 8040, 1604452389, 108.217, 108.22, 42, 0.704958, 0, 0, 0.709249) /* PCAPRecordedLocation */
+VALUES (14743, 8040, 0x5FA20025, 108.217, 108.22, 42, 0.704958, 0, 0, 0.709249) /* PCAPRecordedLocation */
 /* @teleloc 0x5FA20025 [108.217000 108.220000 42.000000] 0.704958 0.000000 0.000000 0.709249 */;

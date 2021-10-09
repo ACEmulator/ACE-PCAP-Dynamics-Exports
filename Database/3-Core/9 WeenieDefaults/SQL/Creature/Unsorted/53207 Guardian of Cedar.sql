@@ -27,12 +27,12 @@ VALUES (53207,   1, 'Guardian of Cedar') /* Name */
      , (53207,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53207,   1,   33558954) /* Setup */
-     , (53207,   2,  150995147) /* MotionTable */
-     , (53207,   3,  536871052) /* SoundTable */
-     , (53207,   8,  100688311) /* Icon */
-     , (53207,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53207,   1, 0x020011AA) /* Setup */
+     , (53207,   2, 0x090000CB) /* MotionTable */
+     , (53207,   3, 0x2000008C) /* SoundTable */
+     , (53207,   8, 0x060061B7) /* Icon */
+     , (53207,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53207, 8040, 3007905820, 91.5, 92.9, 66.7, -0.258819, 0, 0, -0.9659258) /* PCAPRecordedLocation */
+VALUES (53207, 8040, 0xB349001C, 91.5, 92.9, 66.7, -0.258819, 0, 0, -0.965926) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001C [91.500000 92.900000 66.700000] -0.258819 0.000000 0.000000 -0.965926 */;

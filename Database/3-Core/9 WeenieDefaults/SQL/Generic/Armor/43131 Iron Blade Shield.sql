@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43131,   1, 'Iron Blade Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43131,   1,   33561095) /* Setup */
-     , (43131,   3,  536870932) /* SoundTable */
-     , (43131,   8,  100691460) /* Icon */
-     , (43131,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43131,   1, 0x02001A07) /* Setup */
+     , (43131,   3, 0x20000014) /* SoundTable */
+     , (43131,   8, 0x06006E04) /* Icon */
+     , (43131,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43131, 8040, 462356520, 112.0378, 183.638, 92.50661, -0.2942244, -0.7686478, 0.345202, -0.4510524) /* PCAPRecordedLocation */
+VALUES (43131, 8040, 0x1B8F0028, 112.0378, 183.638, 92.50661, -0.294224, -0.768648, 0.345202, -0.451052) /* PCAPRecordedLocation */
 /* @teleloc 0x1B8F0028 [112.037800 183.638000 92.506610] -0.294224 -0.768648 0.345202 -0.451052 */;

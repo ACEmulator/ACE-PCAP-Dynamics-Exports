@@ -35,8 +35,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24619,   1, 'Fine Olthoi Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24619,   1,   33554648) /* Setup */
-     , (24619,   3,  536870932) /* SoundTable */
-     , (24619,   6,   67108990) /* PaletteBase */
-     , (24619,   8,  100674576) /* Icon */
-     , (24619,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24619,   1, 0x020000D8) /* Setup */
+     , (24619,   3, 0x20000014) /* SoundTable */
+     , (24619,   6, 0x0400007E) /* PaletteBase */
+     , (24619,   8, 0x06002C10) /* Icon */
+     , (24619,  22, 0x3400002B) /* PhysicsEffectTable */;

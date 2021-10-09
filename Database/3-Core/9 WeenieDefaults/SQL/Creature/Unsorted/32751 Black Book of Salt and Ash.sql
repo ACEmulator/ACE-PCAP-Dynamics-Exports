@@ -27,11 +27,11 @@ VALUES (32751,   1, 'Black Book of Salt and Ash') /* Name */
      , (32751,  15, 'The Black Book of Salt and Ash seems to thrum with dark energy, and its pages rattle very faintly, as if eager to spring loose from their binding...') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32751,   1,   33557594) /* Setup */
-     , (32751,   2,  150995261) /* MotionTable */
-     , (32751,   3,  536870933) /* SoundTable */
-     , (32751,   8,  100688623) /* Icon */;
+VALUES (32751,   1, 0x02000C5A) /* Setup */
+     , (32751,   2, 0x0900013D) /* MotionTable */
+     , (32751,   3, 0x20000015) /* SoundTable */
+     , (32751,   8, 0x060062EF) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32751, 8040, 8979194, 210, -210, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (32751, 8040, 0x008902FA, 210, -210, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x008902FA [210.000000 -210.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

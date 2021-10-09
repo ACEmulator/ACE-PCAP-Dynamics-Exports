@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25714,   1, 'Open Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25714,   1,   33554772) /* Setup */
-     , (25714,   2,  150995147) /* MotionTable */
-     , (25714,   3,  536870932) /* SoundTable */
-     , (25714,   8,  100668117) /* Icon */
-     , (25714,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25714,   1, 0x02000154) /* Setup */
+     , (25714,   2, 0x090000CB) /* MotionTable */
+     , (25714,   3, 0x20000014) /* SoundTable */
+     , (25714,   8, 0x060012D5) /* Icon */
+     , (25714,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25714, 8040, 4062314791, 106.5049, 86.81335, 18.93, -0.57143, 0, 0, -0.820651) /* PCAPRecordedLocation */
+VALUES (25714, 8040, 0xF2220127, 106.5049, 86.81335, 18.93, -0.57143, 0, 0, -0.820651) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220127 [106.504900 86.813350 18.930000] -0.571430 0.000000 0.000000 -0.820651 */;

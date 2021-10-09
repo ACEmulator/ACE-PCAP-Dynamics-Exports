@@ -20,6 +20,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11758,   1, 'Hafted Gromnie Banner with Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11758,   1,   33557255) /* Setup */
-     , (11758,   8,  100671913) /* Icon */
-     , (11758,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11758,   1, 0x02000B07) /* Setup */
+     , (11758,   8, 0x060021A9) /* Icon */
+     , (11758,  22, 0x3400002B) /* PhysicsEffectTable */;

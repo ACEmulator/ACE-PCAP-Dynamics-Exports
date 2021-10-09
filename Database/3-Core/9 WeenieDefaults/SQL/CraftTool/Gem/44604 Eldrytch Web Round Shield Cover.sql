@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44604,   1, 'Eldrytch Web Round Shield Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44604,   1,   33556223) /* Setup */
-     , (44604,   3,  536870932) /* SoundTable */
-     , (44604,   6,   67111928) /* PaletteBase */
-     , (44604,   8,  100692036) /* Icon */
-     , (44604,  22,  872415275) /* PhysicsEffectTable */
-     , (44604,  50,  100667895) /* IconOverlay */
+VALUES (44604,   1, 0x020006FF) /* Setup */
+     , (44604,   3, 0x20000014) /* SoundTable */
+     , (44604,   6, 0x04000BF8) /* PaletteBase */
+     , (44604,   8, 0x06007044) /* Icon */
+     , (44604,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44604,  50, 0x060011F7) /* IconOverlay */
      , (44604, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

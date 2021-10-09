@@ -41,15 +41,15 @@ VALUES (52247,   1, 'Idol of the Recluse') /* Name */
      , (52247,  16, 'An idol depicting the ancient Mu-miyah Recluse. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52247,   1,   33561621) /* Setup */
-     , (52247,   6,   67108990) /* PaletteBase */
-     , (52247,   8,  100669122) /* Icon */
+VALUES (52247,   1, 0x02001C15) /* Setup */
+     , (52247,   6, 0x0400007E) /* PaletteBase */
+     , (52247,   8, 0x060016C2) /* Icon */
      , (52247,  28,       3203) /* Spell - DispelAllBadOther7NoManaCon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52247, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (52247, 8040, 0xF418000D, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52247,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
-     , (52247,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
+VALUES (52247,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
+     , (52247,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */;

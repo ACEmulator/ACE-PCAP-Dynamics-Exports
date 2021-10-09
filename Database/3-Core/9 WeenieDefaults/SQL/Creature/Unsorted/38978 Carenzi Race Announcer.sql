@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38978,   1, 'Carenzi Race Announcer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38978,   1,   33554510) /* Setup */
-     , (38978,   2,  150994945) /* MotionTable */
-     , (38978,   3,  536871121) /* SoundTable */
-     , (38978,   6,   67108990) /* PaletteBase */
-     , (38978,   8,  100667446) /* Icon */;
+VALUES (38978,   1, 0x0200004E) /* Setup */
+     , (38978,   2, 0x09000001) /* MotionTable */
+     , (38978,   3, 0x200000D1) /* SoundTable */
+     , (38978,   6, 0x0400007E) /* PaletteBase */
+     , (38978,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38978, 8040, 271908916, 166.852, 93.22, 72.005, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38978, 8040, 0x10350034, 166.852, 93.22, 72.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x10350034 [166.852000 93.220000 72.005000] 0.000000 0.000000 0.000000 -1.000000 */;

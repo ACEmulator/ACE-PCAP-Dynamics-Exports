@@ -18,9 +18,9 @@ VALUES (705,   1, 'Fispur''s Foodstuffs') /* Name */
      , (705,  16, 'Fispur''s Foodstuffs') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (705,   1,   33555088) /* Setup */
-     , (705,   8,  100668115) /* Icon */;
+VALUES (705,   1, 0x02000290) /* Setup */
+     , (705,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (705, 8040, 2847146010, 83.0935, 34.4459, 94.08, 0.926529, 0, 0, 0.376224) /* PCAPRecordedLocation */
+VALUES (705, 8040, 0xA9B4001A, 83.0935, 34.4459, 94.08, 0.926529, 0, 0, 0.376224) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4001A [83.093500 34.445900 94.080000] 0.926529 0.000000 0.000000 0.376224 */;

@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9025,   1, 'Zairente''s Cooking Pot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9025,   1,   33555972) /* Setup */
-     , (9025,   3,  536870932) /* SoundTable */
-     , (9025,   8,  100669994) /* Icon */
-     , (9025,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9025,   1, 0x02000604) /* Setup */
+     , (9025,   3, 0x20000014) /* SoundTable */
+     , (9025,   8, 0x06001A2A) /* Icon */
+     , (9025,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9025, 8040, 1964310531, 15.0636, 51.56231, 34.82271, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (9025, 8040, 0x75150003, 15.0636, 51.56231, 34.82271, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x75150003 [15.063600 51.562310 34.822710] 0.965926 0.000000 0.000000 -0.258819 */;

@@ -44,8 +44,8 @@ VALUES (45101,   1, 'Lightning Epee') /* Name */
      , (45101,  16, 'Lightning Epee') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45101,   1,   33561438) /* Setup */
-     , (45101,   3,  536870932) /* SoundTable */
-     , (45101,   6,   67111919) /* PaletteBase */
-     , (45101,   8,  100692289) /* Icon */
-     , (45101,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45101,   1, 0x02001B5E) /* Setup */
+     , (45101,   3, 0x20000014) /* SoundTable */
+     , (45101,   6, 0x04000BEF) /* PaletteBase */
+     , (45101,   8, 0x06007141) /* Icon */
+     , (45101,  22, 0x3400002B) /* PhysicsEffectTable */;

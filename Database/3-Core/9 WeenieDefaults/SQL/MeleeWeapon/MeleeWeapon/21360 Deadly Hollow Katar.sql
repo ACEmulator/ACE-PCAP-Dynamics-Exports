@@ -45,11 +45,11 @@ VALUES (21360,   1, 'Deadly Hollow Katar') /* Name */
      , (21360,  16, 'A katar crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21360,   1,   33556648) /* Setup */
-     , (21360,   3,  536870932) /* SoundTable */
-     , (21360,   8,  100668925) /* Icon */
-     , (21360,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21360,   1, 0x020008A8) /* Setup */
+     , (21360,   3, 0x20000014) /* SoundTable */
+     , (21360,   8, 0x060015FD) /* Icon */
+     , (21360,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21360, 8040, 2847146009, 80.1312, 9.842095, 93.92901, 0.6794669, 0.6794669, -0.1957671, -0.1957671) /* PCAPRecordedLocation */
+VALUES (21360, 8040, 0xA9B40019, 80.1312, 9.842095, 93.92901, 0.679467, 0.679467, -0.195767, -0.195767) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [80.131200 9.842095 93.929010] 0.679467 0.679467 -0.195767 -0.195767 */;

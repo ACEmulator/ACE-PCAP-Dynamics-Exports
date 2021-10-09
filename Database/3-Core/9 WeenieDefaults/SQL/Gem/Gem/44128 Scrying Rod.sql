@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44128,   1, 'Scrying Rod') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44128,   1,   33554809) /* Setup */
-     , (44128,   3,  536870932) /* SoundTable */
-     , (44128,   8,  100691953) /* Icon */
-     , (44128,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44128,   1, 0x02000179) /* Setup */
+     , (44128,   3, 0x20000014) /* SoundTable */
+     , (44128,   8, 0x06006FF1) /* Icon */
+     , (44128,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,12 +27,12 @@ VALUES (28964,   1, 'Bust of Emperor Kellin II') /* Name */
      , (28964,  16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28964,   1,   33558984) /* Setup */
-     , (28964,   2,  150995147) /* MotionTable */
-     , (28964,   3,  536871052) /* SoundTable */
-     , (28964,   8,  100677073) /* Icon */
-     , (28964,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28964,   1, 0x020011C8) /* Setup */
+     , (28964,   2, 0x090000CB) /* MotionTable */
+     , (28964,   3, 0x2000008C) /* SoundTable */
+     , (28964,   8, 0x060035D1) /* Icon */
+     , (28964,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28964, 8040, 26542783, 210.5, -229.5, 0, 0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
+VALUES (28964, 8040, 0x019502BF, 210.5, -229.5, 0, 0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x019502BF [210.500000 -229.500000 0.000000] 0.923879 0.000000 0.000000 -0.382684 */;

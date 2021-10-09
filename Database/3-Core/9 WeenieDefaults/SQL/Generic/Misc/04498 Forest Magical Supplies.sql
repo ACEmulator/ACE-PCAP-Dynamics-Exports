@@ -18,9 +18,9 @@ VALUES (4498,   1, 'Forest Magical Supplies') /* Name */
      , (4498,  16, 'Forest Magical Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4498,   1,   33555594) /* Setup */
-     , (4498,   8,  100668115) /* Icon */;
+VALUES (4498,   1, 0x0200048A) /* Setup */
+     , (4498,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4498, 8040, 3678076948, 68.3232, 82.51, 29.7199, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4498, 8040, 0xDB3B0014, 68.3232, 82.51, 29.7199, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xDB3B0014 [68.323200 82.510000 29.719900] 1.000000 0.000000 0.000000 0.000000 */;

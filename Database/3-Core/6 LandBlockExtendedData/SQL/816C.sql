@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x816C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7816C001,  1154, 0x816C002C, 134.3327, 88.07863, 14.0025, -0.9900216, 0, 0, -0.1409158, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7816C001,  1154, 0x816C002C, 134.3327, 88.07863, 14.0025, -0.990022, 0, 0, -0.140916, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x816C002C [134.332700 88.078630 14.002500] -0.990022 0.000000 0.000000 -0.140916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,11 +12,11 @@ VALUES (0x7816C001, 0x7816C002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760
      , (0x7816C001, 0x7816C006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7816C002,  1760, 0x816C002C, 134.3327, 88.07863, 14.0025, -0.9900216, 0, 0, -0.1409158,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
+VALUES (0x7816C002,  1760, 0x816C002C, 134.3327, 88.07863, 14.0025, -0.990022, 0, 0, -0.140916,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
 /* @teleloc 0x816C002C [134.332700 88.078630 14.002500] -0.990022 0.000000 0.000000 -0.140916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7816C003,  1760, 0x816C001B, 77.86271, 63.54462, 15.61615, 0.9577684, 0, 0, -0.2875406,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
+VALUES (0x7816C003,  1760, 0x816C001B, 77.86271, 63.54462, 15.61615, 0.957768, 0, 0, -0.287541,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
 /* @teleloc 0x816C001B [77.862710 63.544620 15.616150] 0.957768 0.000000 0.000000 -0.287541 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

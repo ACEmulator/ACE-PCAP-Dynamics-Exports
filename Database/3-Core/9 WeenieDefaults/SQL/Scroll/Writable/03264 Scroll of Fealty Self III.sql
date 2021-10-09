@@ -23,7 +23,7 @@ VALUES (3264,   1, 'Scroll of Fealty Self III') /* Name */
 Increases the caster''s Loyalty skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3264,   1,   33554826) /* Setup */
-     , (3264,   8,  100676446) /* Icon */
-     , (3264,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3264,   1, 0x0200018A) /* Setup */
+     , (3264,   8, 0x0600335E) /* Icon */
+     , (3264,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3264,  28,        948) /* Spell - FealtySelf3 */;

@@ -37,10 +37,10 @@ VALUES (49269,   1, 'Lightning Elemental Essence (80)') /* Name */
      , (49269,  14, 'Use this essence to summon or dismiss your Lightning Elemental.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49269,   1,   33554817) /* Setup */
-     , (49269,   3,  536870932) /* SoundTable */
-     , (49269,   6,   67111919) /* PaletteBase */
-     , (49269,   8,  100670581) /* Icon */
-     , (49269,  22,  872415275) /* PhysicsEffectTable */
-     , (49269,  50,  100693027) /* IconOverlay */
-     , (49269,  52,  100693024) /* IconUnderlay */;
+VALUES (49269,   1, 0x02000181) /* Setup */
+     , (49269,   3, 0x20000014) /* SoundTable */
+     , (49269,   6, 0x04000BEF) /* PaletteBase */
+     , (49269,   8, 0x06001C75) /* Icon */
+     , (49269,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49269,  50, 0x06007423) /* IconOverlay */
+     , (49269,  52, 0x06007420) /* IconUnderlay */;

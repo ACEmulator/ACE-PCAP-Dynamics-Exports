@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37798,   1, 'Inscription of Frost Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37798,   1,   33554826) /* Setup */
-     , (37798,   8,  100677016) /* Icon */
-     , (37798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37798,   1, 0x0200018A) /* Setup */
+     , (37798,   8, 0x06003598) /* Icon */
+     , (37798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37798,  28,       4447) /* Spell - FrostBolt8 */;

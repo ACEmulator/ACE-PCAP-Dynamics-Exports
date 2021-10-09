@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32456,   1, 'Cooking Warden of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32456,   1,   33555352) /* Setup */
-     , (32456,   2,  150995147) /* MotionTable */
-     , (32456,   3,  536871052) /* SoundTable */
-     , (32456,   8,  100667624) /* Icon */
-     , (32456,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (32456,   1, 0x02000398) /* Setup */
+     , (32456,   2, 0x090000CB) /* MotionTable */
+     , (32456,   3, 0x2000008C) /* SoundTable */
+     , (32456,   8, 0x060010E8) /* Icon */
+     , (32456,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32456, 8040, 3600351240, 14.9, 170.5, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32456, 8040, 0xD6990008, 14.9, 170.5, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990008 [14.900000 170.500000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */;

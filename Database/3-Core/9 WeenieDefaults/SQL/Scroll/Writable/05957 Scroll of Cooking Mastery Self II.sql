@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5957,   1, 'Scroll of Cooking Mastery Self II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5957,   1,   33554826) /* Setup */
-     , (5957,   8,  100676451) /* Icon */
-     , (5957,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5957,   1, 0x0200018A) /* Setup */
+     , (5957,   8, 0x06003363) /* Icon */
+     , (5957,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5957,  28,       1716) /* Spell - CookingMasterySelf2 */
      , (5957, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

@@ -25,11 +25,11 @@ VALUES (36679,   1, 'Crest of Kings') /* Name */
      , (36679,  16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36679,   1,   33557014) /* Setup */
-     , (36679,   3,  536870932) /* SoundTable */
-     , (36679,   8,  100671513) /* Icon */
-     , (36679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36679,   1, 0x02000A16) /* Setup */
+     , (36679,   3, 0x20000014) /* SoundTable */
+     , (36679,   8, 0x06002019) /* Icon */
+     , (36679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36679, 8040, 10420536, 81.5813, -89.3369, -41.5975, -0.8597906, 0, 0, -0.5106468) /* PCAPRecordedLocation */
+VALUES (36679, 8040, 0x009F0138, 81.5813, -89.3369, -41.5975, -0.859791, 0, 0, -0.510647) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0138 [81.581300 -89.336900 -41.597500] -0.859791 0.000000 0.000000 -0.510647 */;

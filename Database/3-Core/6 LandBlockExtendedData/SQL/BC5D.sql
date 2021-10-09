@@ -1,14 +1,14 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xBC5D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BC5D001,  1154, 0xBC5D0100, 14.5429, 108.675, -0.3344997, 0.705208, 0, 0, -0.709, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7BC5D001,  1154, 0xBC5D0100, 14.5429, 108.675, -0.3345, 0.705208, 0, 0, -0.709, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xBC5D0100 [14.542900 108.675000 -0.334500] 0.705208 0.000000 0.000000 -0.709000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7BC5D001, 0x7BC5D002, '2019-02-10 00:00:00') /* Ka'hiri (43404) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BC5D002, 43404, 0xBC5D0100, 14.5429, 108.675, -0.3344997, 0.705208, 0, 0, -0.709,  True, '2019-02-10 00:00:00'); /* Ka'hiri */
+VALUES (0x7BC5D002, 43404, 0xBC5D0100, 14.5429, 108.675, -0.3345, 0.705208, 0, 0, -0.709,  True, '2019-02-10 00:00:00'); /* Ka'hiri */
 /* @teleloc 0xBC5D0100 [14.542900 108.675000 -0.334500] 0.705208 0.000000 0.000000 -0.709000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

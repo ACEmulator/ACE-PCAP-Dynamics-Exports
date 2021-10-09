@@ -26,9 +26,9 @@ VALUES (52969,   1, 'Corrupted Amber Shard') /* Name */
      , (52969,  20, 'Corrupter Amber Shards') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52969,   1,   33554809) /* Setup */
-     , (52969,   3,  536870932) /* SoundTable */
-     , (52969,   6,   67111919) /* PaletteBase */
-     , (52969,   8,  100693328) /* Icon */
-     , (52969,  22,  872415275) /* PhysicsEffectTable */
-     , (52969,  52,  100689825) /* IconUnderlay */;
+VALUES (52969,   1, 0x02000179) /* Setup */
+     , (52969,   3, 0x20000014) /* SoundTable */
+     , (52969,   6, 0x04000BEF) /* PaletteBase */
+     , (52969,   8, 0x06007550) /* Icon */
+     , (52969,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52969,  52, 0x060067A1) /* IconUnderlay */;

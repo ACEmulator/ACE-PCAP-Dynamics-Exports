@@ -47,19 +47,19 @@ VALUES (33111,   1, 'Red Rune Silveran Atlatl') /* Name */
      , (33111,  15, 'An atlatl crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33111,   1,   33559963) /* Setup */
-     , (33111,   3,  536870932) /* SoundTable */
-     , (33111,   8,  100688936) /* Icon */
-     , (33111,  22,  872415275) /* PhysicsEffectTable */
-     , (33111,  50,  100688915) /* IconOverlay */;
+VALUES (33111,   1, 0x0200159B) /* Setup */
+     , (33111,   3, 0x20000014) /* SoundTable */
+     , (33111,   8, 0x06006428) /* Icon */
+     , (33111,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33111,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33111, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (33111, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33111,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33111,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33111,  2059,      2)  /* CoordinationSelf7 */
      , (33111,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33111,  2101,      2)  /* DefenderSelf7 */
-     , (33111,  2116,      2)  /* SwiftKillerSelf7 */
      , (33111,  2687,      2)  /* ModerateBowAptitude */;

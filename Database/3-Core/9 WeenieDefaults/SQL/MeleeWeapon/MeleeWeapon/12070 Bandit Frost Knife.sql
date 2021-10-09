@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12070,   1, 'Bandit Frost Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12070,   1,   33555743) /* Setup */
-     , (12070,   3,  536870932) /* SoundTable */
-     , (12070,   8,  100668946) /* Icon */
-     , (12070,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12070,   1, 0x0200051F) /* Setup */
+     , (12070,   3, 0x20000014) /* SoundTable */
+     , (12070,   8, 0x06001612) /* Icon */
+     , (12070,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12070, 8040, 447873060, 101.667, 79.40929, 21.01864, 0.6553179, 0.6553179, -0.2656283, -0.2656283) /* PCAPRecordedLocation */
+VALUES (12070, 8040, 0x1AB20024, 101.667, 79.40929, 21.01864, 0.655318, 0.655318, -0.265628, -0.265628) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB20024 [101.667000 79.409290 21.018640] 0.655318 0.655318 -0.265628 -0.265628 */;

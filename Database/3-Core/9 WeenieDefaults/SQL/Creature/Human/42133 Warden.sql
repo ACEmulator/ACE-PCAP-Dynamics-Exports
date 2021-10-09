@@ -29,20 +29,20 @@ VALUES (42133,   1, 'Warden') /* Name */
      , (42133,   5, 'Portal Warden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42133,   1,   33554510) /* Setup */
-     , (42133,   2,  150994945) /* MotionTable */
-     , (42133,   3,  536870914) /* SoundTable */
-     , (42133,   6,   67108990) /* PaletteBase */
-     , (42133,   8,  100667446) /* Icon */
-     , (42133,   9,   83890241) /* EyesTexture */
-     , (42133,  10,   83890317) /* NoseTexture */
-     , (42133,  11,   83890349) /* MouthTexture */
-     , (42133,  15,   67117069) /* HairPalette */
-     , (42133,  16,   67110062) /* EyesPalette */
-     , (42133,  17,   67110055) /* SkinPalette */;
+VALUES (42133,   1, 0x0200004E) /* Setup */
+     , (42133,   2, 0x09000001) /* MotionTable */
+     , (42133,   3, 0x20000002) /* SoundTable */
+     , (42133,   6, 0x0400007E) /* PaletteBase */
+     , (42133,   8, 0x06001036) /* Icon */
+     , (42133,   9, 0x05001041) /* EyesTexture */
+     , (42133,  10, 0x0500108D) /* NoseTexture */
+     , (42133,  11, 0x050010AD) /* MouthTexture */
+     , (42133,  15, 0x0400200D) /* HairPalette */
+     , (42133,  16, 0x040004AE) /* EyesPalette */
+     , (42133,  17, 0x040004A7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42133, 8040, 2315387348, 76.1567, -51.4552, 0.004999995, 0.5495298, 0, 0, -0.8354741) /* PCAPRecordedLocation */
+VALUES (42133, 8040, 0x8A0201D4, 76.1567, -51.4552, 0.005, 0.54953, 0, 0, -0.835474) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201D4 [76.156700 -51.455200 0.005000] 0.549530 0.000000 0.000000 -0.835474 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

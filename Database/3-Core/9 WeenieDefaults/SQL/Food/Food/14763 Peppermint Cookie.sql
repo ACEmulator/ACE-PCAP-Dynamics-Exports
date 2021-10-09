@@ -26,11 +26,11 @@ VALUES (14763,   1, 'Peppermint Cookie') /* Name */
      , (14763,  20, 'Peppermint Cookies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14763,   1,   33556032) /* Setup */
-     , (14763,   3,  536870932) /* SoundTable */
-     , (14763,   8,  100672542) /* Icon */
-     , (14763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14763,   1, 0x02000640) /* Setup */
+     , (14763,   3, 0x20000014) /* SoundTable */
+     , (14763,   8, 0x0600241E) /* Icon */
+     , (14763,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14763, 8040, 23855554, 58.58966, -27.34599, 0, -0.5735505, 0, 0, -0.8191702) /* PCAPRecordedLocation */
+VALUES (14763, 8040, 0x016C01C2, 58.58966, -27.34599, 0, -0.573551, 0, 0, -0.81917) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.589660 -27.345990 0.000000] -0.573551 0.000000 0.000000 -0.819170 */;

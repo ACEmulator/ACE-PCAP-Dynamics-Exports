@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14306,   1, 'West Baishi Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14306,   1,   33557463) /* Setup */
-     , (14306,   8,  100668115) /* Icon */;
+VALUES (14306,   1, 0x02000BD7) /* Setup */
+     , (14306,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14306, 8040, 3326148643, 105.556, 66.3744, 65.5312, -0.989957, 0, 0, -0.141367) /* PCAPRecordedLocation */
+VALUES (14306, 8040, 0xC6410023, 105.556, 66.3744, 65.5312, -0.989957, 0, 0, -0.141367) /* PCAPRecordedLocation */
 /* @teleloc 0xC6410023 [105.556000 66.374400 65.531200] -0.989957 0.000000 0.000000 -0.141367 */;

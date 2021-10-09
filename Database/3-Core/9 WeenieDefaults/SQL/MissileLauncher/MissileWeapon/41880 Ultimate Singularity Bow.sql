@@ -53,18 +53,18 @@ VALUES (41880,   1, 'Ultimate Singularity Bow') /* Name */
      , (41880,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41880,   1,   33557312) /* Setup */
-     , (41880,   3,  536870932) /* SoundTable */
-     , (41880,   6,   67111919) /* PaletteBase */
-     , (41880,   8,  100672042) /* Icon */
-     , (41880,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41880,   1, 0x02000B40) /* Setup */
+     , (41880,   3, 0x20000014) /* SoundTable */
+     , (41880,   6, 0x04000BEF) /* PaletteBase */
+     , (41880,   8, 0x0600222A) /* Icon */
+     , (41880,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41880, 8040, 3465871396, 115.2396, 93.90144, 19.93, -0.4367307, 0, 0, -0.8995923) /* PCAPRecordedLocation */
+VALUES (41880, 8040, 0xCE950024, 115.2396, 93.90144, 19.93, -0.436731, 0, 0, -0.899592) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950024 [115.239600 93.901440 19.930000] -0.436731 0.000000 0.000000 -0.899592 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41880,  2058,      2)  /* CoordinationOther7 */
+     , (41880,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (41880,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41880,  2101,      2)  /* DefenderSelf7 */
-     , (41880,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (41880,  2101,      2)  /* DefenderSelf7 */;

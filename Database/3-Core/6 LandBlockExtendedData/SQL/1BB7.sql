@@ -148,7 +148,7 @@ VALUES (0x71BB7017, 11520, 0x1BB7000D, 27.59465, 114.6126, 92.30555, 1, 0, 0, 0,
 /* @teleloc 0x1BB7000D [27.594650 114.612600 92.305550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71BB7018, 11517, 0x1BB70005, 0.3155642, 116.118, 92.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
+VALUES (0x71BB7018, 11517, 0x1BB70005, 0.315564, 116.118, 92.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
 /* @teleloc 0x1BB70005 [0.315564 116.118000 92.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

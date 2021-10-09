@@ -50,13 +50,13 @@ VALUES (40636,   1, 'Acid Tetsubo') /* Name */
      , (40636,  16, 'Acid Tetsubo of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40636,   1,   33560729) /* Setup */
-     , (40636,   3,  536870932) /* SoundTable */
-     , (40636,   6,   67116700) /* PaletteBase */
-     , (40636,   8,  100690501) /* Icon */
-     , (40636,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40636,   1, 0x02001899) /* Setup */
+     , (40636,   3, 0x20000014) /* SoundTable */
+     , (40636,   6, 0x04001E9C) /* PaletteBase */
+     , (40636,   8, 0x06006A45) /* Icon */
+     , (40636,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40636,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40636,  1375,      2)  /* CoordinationSelf3 */
-     , (40636,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (40636,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (40636,  1375,      2)  /* CoordinationSelf3 */;

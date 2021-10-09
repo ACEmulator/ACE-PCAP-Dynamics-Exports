@@ -23,7 +23,7 @@ VALUES (20567,   1, 'Scroll of Inefficient Investment') /* Name */
 Decreases the target''s Mana Conversion skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20567,   1,   33554826) /* Setup */
-     , (20567,   8,  100676466) /* Icon */
-     , (20567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20567,   1, 0x0200018A) /* Setup */
+     , (20567,   8, 0x06003372) /* Icon */
+     , (20567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20567,  28,       2284) /* Spell - ManaIneptitudeOther7 */;

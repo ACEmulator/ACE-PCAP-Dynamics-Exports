@@ -35,8 +35,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44863,   1, 'Rynthid Energy Tentacles') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44863,   1,   33561386) /* Setup */
-     , (44863,   3,  536870932) /* SoundTable */
-     , (44863,   8,  100693225) /* Icon */
-     , (44863,  22,  872415275) /* PhysicsEffectTable */
-     , (44863,  50,  100667895) /* IconOverlay */;
+VALUES (44863,   1, 0x02001B2A) /* Setup */
+     , (44863,   3, 0x20000014) /* SoundTable */
+     , (44863,   8, 0x060074E9) /* Icon */
+     , (44863,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44863,  50, 0x060011F7) /* IconOverlay */;

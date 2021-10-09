@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11540,   1, 'Armored Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11540,   1,   33556836) /* Setup */
-     , (11540,   2,  150994956) /* MotionTable */
-     , (11540,   3,  536870929) /* SoundTable */
-     , (11540,   6,   67113007) /* PaletteBase */
-     , (11540,   8,  100667443) /* Icon */
-     , (11540,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (11540,   1, 0x02000964) /* Setup */
+     , (11540,   2, 0x0900000C) /* MotionTable */
+     , (11540,   3, 0x20000011) /* SoundTable */
+     , (11540,   6, 0x0400102F) /* PaletteBase */
+     , (11540,   8, 0x06001033) /* Icon */
+     , (11540,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11540, 8040, 4067295275, 136.7861, 69.28873, -0.8868001, -0.7736908, 0, 0, -0.6335633) /* PCAPRecordedLocation */
+VALUES (11540, 8040, 0xF26E002B, 136.7861, 69.28873, -0.8868, -0.773691, 0, 0, -0.633563) /* PCAPRecordedLocation */
 /* @teleloc 0xF26E002B [136.786100 69.288730 -0.886800] -0.773691 0.000000 0.000000 -0.633563 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

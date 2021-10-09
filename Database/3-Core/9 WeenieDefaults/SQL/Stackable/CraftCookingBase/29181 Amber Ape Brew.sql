@@ -25,8 +25,8 @@ VALUES (29181,   1, 'Amber Ape Brew') /* Name */
      , (29181,  20, 'Amber Ape Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29181,   1,   33559154) /* Setup */
-     , (29181,   3,  536870932) /* SoundTable */
-     , (29181,   8,  100686464) /* Icon */
-     , (29181,  22,  872415275) /* PhysicsEffectTable */
-     , (29181,  50,  100687554) /* IconOverlay */;
+VALUES (29181,   1, 0x02001272) /* Setup */
+     , (29181,   3, 0x20000014) /* SoundTable */
+     , (29181,   8, 0x06005A80) /* Icon */
+     , (29181,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29181,  50, 0x06005EC2) /* IconOverlay */;

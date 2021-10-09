@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2608,   1, 'Jibrit Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2608,   1,   33555610) /* Setup */
-     , (2608,   2,  150995049) /* MotionTable */
-     , (2608,   3,  536870975) /* SoundTable */
-     , (2608,   6,   67109305) /* PaletteBase */
-     , (2608,   8,  100669123) /* Icon */
-     , (2608,  22,  872415279) /* PhysicsEffectTable */;
+VALUES (2608,   1, 0x0200049A) /* Setup */
+     , (2608,   2, 0x09000069) /* MotionTable */
+     , (2608,   3, 0x2000003F) /* SoundTable */
+     , (2608,   6, 0x040001B9) /* PaletteBase */
+     , (2608,   8, 0x060016C3) /* Icon */
+     , (2608,  22, 0x3400002F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2608, 8040, 3830186002, 50.69649, 39.45112, 23.5213, -0.9743326, 0, 0, -0.225113) /* PCAPRecordedLocation */
+VALUES (2608, 8040, 0xE44C0012, 50.69649, 39.45112, 23.5213, -0.974333, 0, 0, -0.225113) /* PCAPRecordedLocation */
 /* @teleloc 0xE44C0012 [50.696490 39.451120 23.521300] -0.974333 0.000000 0.000000 -0.225113 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

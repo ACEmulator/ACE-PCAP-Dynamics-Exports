@@ -34,20 +34,20 @@ VALUES (843,   1, 'Tailor Ma Shih') /* Name */
      , (843,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (843,   1,   33554510) /* Setup */
-     , (843,   2,  150994945) /* MotionTable */
-     , (843,   3,  536870914) /* SoundTable */
-     , (843,   6,   67108990) /* PaletteBase */
-     , (843,   8,  100667446) /* Icon */
-     , (843,   9,   83890242) /* EyesTexture */
-     , (843,  10,   83890311) /* NoseTexture */
-     , (843,  11,   83890344) /* MouthTexture */
-     , (843,  15,   67117026) /* HairPalette */
-     , (843,  16,   67109565) /* EyesPalette */
-     , (843,  17,   67110052) /* SkinPalette */;
+VALUES (843,   1, 0x0200004E) /* Setup */
+     , (843,   2, 0x09000001) /* MotionTable */
+     , (843,   3, 0x20000002) /* SoundTable */
+     , (843,   6, 0x0400007E) /* PaletteBase */
+     , (843,   8, 0x06001036) /* Icon */
+     , (843,   9, 0x05001042) /* EyesTexture */
+     , (843,  10, 0x05001087) /* NoseTexture */
+     , (843,  11, 0x050010A8) /* MouthTexture */
+     , (843,  15, 0x04001FE2) /* HairPalette */
+     , (843,  16, 0x040002BD) /* EyesPalette */
+     , (843,  17, 0x040004A4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (843, 8040, 3663003906, 138.36, 178.8, 21.605, -0.6851829, 0, 0, -0.728371) /* PCAPRecordedLocation */
+VALUES (843, 8040, 0xDA550102, 138.36, 178.8, 21.605, -0.685183, 0, 0, -0.728371) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550102 [138.360000 178.800000 21.605000] -0.685183 0.000000 0.000000 -0.728371 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

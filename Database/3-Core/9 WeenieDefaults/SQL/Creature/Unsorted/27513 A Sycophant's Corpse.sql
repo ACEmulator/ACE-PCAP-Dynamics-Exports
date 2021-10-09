@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27513,   1, 'A Sycophant''s Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27513,   1,   33554433) /* Setup */
-     , (27513,   2,  150995287) /* MotionTable */
-     , (27513,   3,  536870913) /* SoundTable */
-     , (27513,   6,   67108990) /* PaletteBase */
-     , (27513,   8,  100667504) /* Icon */;
+VALUES (27513,   1, 0x02000001) /* Setup */
+     , (27513,   2, 0x09000157) /* MotionTable */
+     , (27513,   3, 0x20000001) /* SoundTable */
+     , (27513,   6, 0x0400007E) /* PaletteBase */
+     , (27513,   8, 0x06001070) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27513, 8040, 3984654363, 80.4026, 60.1336, 1.982734, 0.931476, 0, 0, -0.363803) /* PCAPRecordedLocation */
+VALUES (27513, 8040, 0xED81001B, 80.4026, 60.1336, 1.982734, 0.931476, 0, 0, -0.363803) /* PCAPRecordedLocation */
 /* @teleloc 0xED81001B [80.402600 60.133600 1.982734] 0.931476 0.000000 0.000000 -0.363803 */;

@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36090,   1, 'Panumbris Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36090,   1,   33556251) /* Setup */
-     , (36090,   2,  150995091) /* MotionTable */
-     , (36090,   3,  536870914) /* SoundTable */
-     , (36090,   6,   67108990) /* PaletteBase */
-     , (36090,   8,  100670398) /* Icon */
-     , (36090,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (36090,   1, 0x0200071B) /* Setup */
+     , (36090,   2, 0x09000093) /* MotionTable */
+     , (36090,   3, 0x20000002) /* SoundTable */
+     , (36090,   6, 0x0400007E) /* PaletteBase */
+     , (36090,   8, 0x06001BBE) /* Icon */
+     , (36090,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36090, 8040, 10682636, 252.5, -189.432, -35.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (36090, 8040, 0x00A3010C, 252.5, -189.432, -35.995, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3010C [252.500000 -189.432000 -35.995000] -0.707107 0.000000 0.000000 -0.707107 */;

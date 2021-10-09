@@ -23,13 +23,13 @@ VALUES (30492,   1, 'Letter to Ryndya') /* Name */
      , (30492,  16, 'A very old, torn and stained letter, penned in a hasty hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30492,   1,   33554773) /* Setup */
-     , (30492,   3,  536870932) /* SoundTable */
-     , (30492,   8,  100668176) /* Icon */
-     , (30492,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30492,   1, 0x02000155) /* Setup */
+     , (30492,   3, 0x20000014) /* SoundTable */
+     , (30492,   8, 0x06001310) /* Icon */
+     , (30492,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30492, 8040, 23200061, 32.8556, -152.551, 6.079, 0.4084879, 0, 0, -0.9127637) /* PCAPRecordedLocation */
+VALUES (30492, 8040, 0x0162013D, 32.8556, -152.551, 6.079, 0.408488, 0, 0, -0.912764) /* PCAPRecordedLocation */
 /* @teleloc 0x0162013D [32.855600 -152.551000 6.079000] 0.408488 0.000000 0.000000 -0.912764 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

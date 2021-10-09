@@ -25,7 +25,7 @@ VALUES (41982,   1, 'Rytheran''s Jeweled Ring') /* Name */
      , (41982,  15, 'This sparkling ring appears encrusted with jewels, but its form wavers before your eyes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41982,   1,   33554690) /* Setup */
-     , (41982,   3,  536870932) /* SoundTable */
-     , (41982,   8,  100676414) /* Icon */
-     , (41982,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41982,   1, 0x02000102) /* Setup */
+     , (41982,   3, 0x20000014) /* SoundTable */
+     , (41982,   8, 0x0600333E) /* Icon */
+     , (41982,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15773,   1, 'Ruined Amulet of the Arm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15773,   1,   33554680) /* Setup */
-     , (15773,   3,  536870932) /* SoundTable */
-     , (15773,   6,   67111919) /* PaletteBase */
-     , (15773,   8,  100672818) /* Icon */
-     , (15773,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15773,   1, 0x020000F8) /* Setup */
+     , (15773,   3, 0x20000014) /* SoundTable */
+     , (15773,   6, 0x04000BEF) /* PaletteBase */
+     , (15773,   8, 0x06002532) /* Icon */
+     , (15773,  22, 0x3400002B) /* PhysicsEffectTable */;

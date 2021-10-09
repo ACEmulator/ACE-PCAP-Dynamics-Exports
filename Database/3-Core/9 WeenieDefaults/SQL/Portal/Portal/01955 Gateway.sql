@@ -24,10 +24,10 @@ VALUES (1955,   1, 'Gateway') /* Name */
      , (1955,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1955,   1,   33556212) /* Setup */
-     , (1955,   2,  150994947) /* MotionTable */
-     , (1955,   8,  100667499) /* Icon */;
+VALUES (1955,   1, 0x020006F4) /* Setup */
+     , (1955,   2, 0x09000003) /* MotionTable */
+     , (1955,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1955, 8040, 3409772585, 139.7829, 22.91368, 176.2991, 0.3420202, 0, 0, -0.9396926) /* PCAPRecordedLocation */
+VALUES (1955, 8040, 0xCB3D0029, 139.7829, 22.91368, 176.2991, 0.34202, 0, 0, -0.939693) /* PCAPRecordedLocation */
 /* @teleloc 0xCB3D0029 [139.782900 22.913680 176.299100] 0.342020 0.000000 0.000000 -0.939693 */;

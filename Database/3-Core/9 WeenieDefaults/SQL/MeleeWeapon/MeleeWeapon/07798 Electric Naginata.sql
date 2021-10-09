@@ -48,11 +48,11 @@ VALUES (7798,   1, 'Electric Naginata') /* Name */
      , (7798,  16, 'Electric Naginata of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7798,   1,   33556664) /* Setup */
-     , (7798,   3,  536870932) /* SoundTable */
-     , (7798,   6,   67111919) /* PaletteBase */
-     , (7798,   8,  100670781) /* Icon */
-     , (7798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7798,   1, 0x020008B8) /* Setup */
+     , (7798,   3, 0x20000014) /* SoundTable */
+     , (7798,   6, 0x04000BEF) /* PaletteBase */
+     , (7798,   8, 0x06001D3D) /* Icon */
+     , (7798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7798,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

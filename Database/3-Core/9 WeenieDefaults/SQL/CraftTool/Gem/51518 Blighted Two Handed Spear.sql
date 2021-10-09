@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51518,   1, 'Blighted Two Handed Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51518,   1,   33560674) /* Setup */
-     , (51518,   3,  536870932) /* SoundTable */
-     , (51518,   8,  100690751) /* Icon */
-     , (51518,  22,  872415275) /* PhysicsEffectTable */
-     , (51518,  50,  100667895) /* IconOverlay */;
+VALUES (51518,   1, 0x02001862) /* Setup */
+     , (51518,   3, 0x20000014) /* SoundTable */
+     , (51518,   8, 0x06006B3F) /* Icon */
+     , (51518,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51518,  50, 0x060011F7) /* IconOverlay */;

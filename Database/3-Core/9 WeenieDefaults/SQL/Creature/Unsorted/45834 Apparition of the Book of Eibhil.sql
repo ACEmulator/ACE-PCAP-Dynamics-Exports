@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45834,   1, 'Apparition of the Book of Eibhil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45834,   1,   33559572) /* Setup */
-     , (45834,   2,  150995339) /* MotionTable */
-     , (45834,   3,  536870932) /* SoundTable */
-     , (45834,   8,  100687849) /* Icon */
-     , (45834,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (45834,   1, 0x02001414) /* Setup */
+     , (45834,   2, 0x0900018B) /* MotionTable */
+     , (45834,   3, 0x20000014) /* SoundTable */
+     , (45834,   8, 0x06005FE9) /* Icon */
+     , (45834,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45834, 8040, 1498285258, 93.02869, -92.1291, -54, 0.7660444, 0, 0, -0.6427876) /* PCAPRecordedLocation */
+VALUES (45834, 8040, 0x594E04CA, 93.02869, -92.1291, -54, 0.766044, 0, 0, -0.642788) /* PCAPRecordedLocation */
 /* @teleloc 0x594E04CA [93.028690 -92.129100 -54.000000] 0.766044 0.000000 0.000000 -0.642788 */;

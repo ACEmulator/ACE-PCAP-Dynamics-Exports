@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44608,   1, 'Radiant Blood Round Shield Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44608,   1,   33556223) /* Setup */
-     , (44608,   3,  536870932) /* SoundTable */
-     , (44608,   6,   67111928) /* PaletteBase */
-     , (44608,   8,  100692037) /* Icon */
-     , (44608,  22,  872415275) /* PhysicsEffectTable */
-     , (44608,  50,  100667895) /* IconOverlay */
+VALUES (44608,   1, 0x020006FF) /* Setup */
+     , (44608,   3, 0x20000014) /* SoundTable */
+     , (44608,   6, 0x04000BF8) /* PaletteBase */
+     , (44608,   8, 0x06007045) /* Icon */
+     , (44608,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44608,  50, 0x060011F7) /* IconOverlay */
      , (44608, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

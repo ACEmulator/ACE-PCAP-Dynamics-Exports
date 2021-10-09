@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7604,   1, 'Yellow Jewel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7604,   1,   33554809) /* Setup */
-     , (7604,   3,  536870932) /* SoundTable */
-     , (7604,   6,   67111919) /* PaletteBase */
-     , (7604,   8,  100670756) /* Icon */
-     , (7604,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7604,   1, 0x02000179) /* Setup */
+     , (7604,   3, 0x20000014) /* SoundTable */
+     , (7604,   6, 0x04000BEF) /* PaletteBase */
+     , (7604,   8, 0x06001D24) /* Icon */
+     , (7604,  22, 0x3400002B) /* PhysicsEffectTable */;

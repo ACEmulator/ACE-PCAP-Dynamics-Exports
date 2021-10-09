@@ -34,21 +34,21 @@ VALUES (43910,   1, 'Absalom Sarraf') /* Name */
      , (43910,   5, 'Alternate Currency Exchanger') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43910,   1,   33554433) /* Setup */
-     , (43910,   2,  150994945) /* MotionTable */
-     , (43910,   3,  536870913) /* SoundTable */
-     , (43910,   6,   67108990) /* PaletteBase */
-     , (43910,   8,  100667446) /* Icon */
-     , (43910,   9,   83890505) /* EyesTexture */
-     , (43910,  10,   83890538) /* NoseTexture */
-     , (43910,  11,   83890605) /* MouthTexture */
-     , (43910,  15,   67116996) /* HairPalette */
-     , (43910,  16,   67110063) /* EyesPalette */
-     , (43910,  17,   67109556) /* SkinPalette */
+VALUES (43910,   1, 0x02000001) /* Setup */
+     , (43910,   2, 0x09000001) /* MotionTable */
+     , (43910,   3, 0x20000001) /* SoundTable */
+     , (43910,   6, 0x0400007E) /* PaletteBase */
+     , (43910,   8, 0x06001036) /* Icon */
+     , (43910,   9, 0x05001149) /* EyesTexture */
+     , (43910,  10, 0x0500116A) /* NoseTexture */
+     , (43910,  11, 0x050011AD) /* MouthTexture */
+     , (43910,  15, 0x04001FC4) /* HairPalette */
+     , (43910,  16, 0x040004AF) /* EyesPalette */
+     , (43910,  17, 0x040002B4) /* SkinPalette */
      , (43910,  57,      43901) /* AlternateCurrency - Promissory Note */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43910, 8040, 2140078346, 147.424, 106.118, 124.005, -0.2472147, 0, 0, -0.9689607) /* PCAPRecordedLocation */
+VALUES (43910, 8040, 0x7F8F010A, 147.424, 106.118, 124.005, -0.247215, 0, 0, -0.968961) /* PCAPRecordedLocation */
 /* @teleloc 0x7F8F010A [147.424000 106.118000 124.005000] -0.247215 0.000000 0.000000 -0.968961 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

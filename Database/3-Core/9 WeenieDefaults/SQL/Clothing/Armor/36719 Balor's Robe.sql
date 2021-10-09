@@ -39,13 +39,13 @@ VALUES (36719,   1, 'Balor''s Robe') /* Name */
      , (36719,  16, 'A lovingly crafted robe. It''s white fur glistens with protective magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36719,   1,   33554854) /* Setup */
-     , (36719,   3,  536870932) /* SoundTable */
-     , (36719,   6,   67108990) /* PaletteBase */
-     , (36719,   8,  100672462) /* Icon */
-     , (36719,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36719,   1, 0x020001A6) /* Setup */
+     , (36719,   3, 0x20000014) /* SoundTable */
+     , (36719,   6, 0x0400007E) /* PaletteBase */
+     , (36719,   8, 0x060023CE) /* Icon */
+     , (36719,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36719,  2155,      2)  /* ColdProtectionSelf7 */
-     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */
-     , (36719,  4018,      2)  /* Permafrost */;
+     , (36719,  4018,      2)  /* Permafrost */
+     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */;

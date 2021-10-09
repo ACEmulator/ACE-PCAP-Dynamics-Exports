@@ -22,11 +22,11 @@ VALUES (2469,   1, 'Small Beer') /* Name */
      , (2469,  20, 'Mugs of Beer') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2469,   1,   33554664) /* Setup */
-     , (2469,   3,  536870932) /* SoundTable */
-     , (2469,   8,  100668124) /* Icon */
-     , (2469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2469,   1, 0x020000E8) /* Setup */
+     , (2469,   3, 0x20000014) /* SoundTable */
+     , (2469,   8, 0x060012DC) /* Icon */
+     , (2469,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2469, 8040, 3583574079, 186.7354, 153.6832, 374.02, -0.9872027, 0, 0, -0.1594705) /* PCAPRecordedLocation */
+VALUES (2469, 8040, 0xD599003F, 186.7354, 153.6832, 374.02, -0.987203, 0, 0, -0.159471) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [186.735400 153.683200 374.020000] -0.987203 0.000000 0.000000 -0.159471 */;

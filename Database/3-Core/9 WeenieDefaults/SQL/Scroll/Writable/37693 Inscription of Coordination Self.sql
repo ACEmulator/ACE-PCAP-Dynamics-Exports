@@ -23,7 +23,7 @@ VALUES (37693,   1, 'Inscription of Coordination Self') /* Name */
 Increases the caster''s Coordination by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37693,   1,   33554826) /* Setup */
-     , (37693,   8,  100676452) /* Icon */
-     , (37693,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37693,   1, 0x0200018A) /* Setup */
+     , (37693,   8, 0x06003364) /* Icon */
+     , (37693,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37693,  28,       4297) /* Spell - CoordinationSelf8 */;

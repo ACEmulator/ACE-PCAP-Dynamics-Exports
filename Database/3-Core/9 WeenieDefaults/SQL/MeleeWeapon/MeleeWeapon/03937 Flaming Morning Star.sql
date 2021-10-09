@@ -50,15 +50,15 @@ VALUES (3937,   1, 'Flaming Morning Star') /* Name */
      , (3937,  16, 'Flaming Morning Star of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3937,   1,   33555755) /* Setup */
-     , (3937,   3,  536870932) /* SoundTable */
-     , (3937,   6,   67111919) /* PaletteBase */
-     , (3937,   8,  100668965) /* Icon */
-     , (3937,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3937,   1, 0x0200052B) /* Setup */
+     , (3937,   3, 0x20000014) /* SoundTable */
+     , (3937,   6, 0x04000BEF) /* PaletteBase */
+     , (3937,   8, 0x06001625) /* Icon */
+     , (3937,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3937,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3937,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3937,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (3937,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3937,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
-     , (3937,  6127,      2)  /* CantripSummoningProwess1 */;
+     , (3937,  6127,      2)  /* CantripSummoningProwess1 */
+     , (3937,  1591,      2)  /* HeartSeekerSelf5 */;

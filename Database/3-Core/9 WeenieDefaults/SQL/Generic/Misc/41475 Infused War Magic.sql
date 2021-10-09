@@ -24,7 +24,7 @@ VALUES (41475,   1, 'Infused War Magic') /* Name */
      , (41475,  16, 'Using this gem will remove your need to use a focus for War Magic. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41475,   1,   33554809) /* Setup */
-     , (41475,   3,  536870932) /* SoundTable */
-     , (41475,   8,  100686474) /* Icon */
-     , (41475,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41475,   1, 0x02000179) /* Setup */
+     , (41475,   3, 0x20000014) /* SoundTable */
+     , (41475,   8, 0x06005A8A) /* Icon */
+     , (41475,  22, 0x3400002B) /* PhysicsEffectTable */;

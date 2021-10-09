@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43413,   1, 'Voltaic Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43413,   1,   33556644) /* Setup */
-     , (43413,   2,  150995073) /* MotionTable */
-     , (43413,   3,  536870933) /* SoundTable */
-     , (43413,   8,  100667940) /* Icon */
-     , (43413,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (43413,   1, 0x020008A4) /* Setup */
+     , (43413,   2, 0x09000081) /* MotionTable */
+     , (43413,   3, 0x20000015) /* SoundTable */
+     , (43413,   8, 0x06001224) /* Icon */
+     , (43413,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43413, 8040, 1447559484, 190, -80, -11.99, 0.7316888, 0, 0, 0.6816388) /* PCAPRecordedLocation */
+VALUES (43413, 8040, 0x5648013C, 190, -80, -11.99, 0.731689, 0, 0, 0.681639) /* PCAPRecordedLocation */
 /* @teleloc 0x5648013C [190.000000 -80.000000 -11.990000] 0.731689 0.000000 0.000000 0.681639 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

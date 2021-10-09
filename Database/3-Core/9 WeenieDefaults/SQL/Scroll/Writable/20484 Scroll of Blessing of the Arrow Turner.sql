@@ -23,7 +23,7 @@ VALUES (20484,   1, 'Scroll of Blessing of the Arrow Turner') /* Name */
 Reduces damage the caster takes from Piercing by 65%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20484,   1,   33554826) /* Setup */
-     , (20484,   8,  100676953) /* Icon */
-     , (20484,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20484,   1, 0x0200018A) /* Setup */
+     , (20484,   8, 0x06003559) /* Icon */
+     , (20484,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20484,  28,       2161) /* Spell - PiercingProtectionSelf7 */;

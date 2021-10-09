@@ -31,9 +31,9 @@ VALUES (21058,   1, 'Salvaged  (31)') /* Name */
      , (21058,  15, 'Chips of lavender jade material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21058,   1,   33554817) /* Setup */
-     , (21058,   3,  536870932) /* SoundTable */
-     , (21058,   6,   67111919) /* PaletteBase */
-     , (21058,   8,  100673214) /* Icon */
-     , (21058,  22,  872415275) /* PhysicsEffectTable */
-     , (21058,  50,  100673282) /* IconOverlay */;
+VALUES (21058,   1, 0x02000181) /* Setup */
+     , (21058,   3, 0x20000014) /* SoundTable */
+     , (21058,   6, 0x04000BEF) /* PaletteBase */
+     , (21058,   8, 0x060026BE) /* Icon */
+     , (21058,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21058,  50, 0x06002702) /* IconOverlay */;

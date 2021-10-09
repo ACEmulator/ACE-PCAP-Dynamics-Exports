@@ -21,7 +21,7 @@ VALUES (25319,   1, 'Alloy Contraption') /* Name */
      , (25319,  16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25319,   1,   33558439) /* Setup */
-     , (25319,   3,  536870932) /* SoundTable */
-     , (25319,   8,  100674839) /* Icon */
-     , (25319,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25319,   1, 0x02000FA7) /* Setup */
+     , (25319,   3, 0x20000014) /* SoundTable */
+     , (25319,   8, 0x06002D17) /* Icon */
+     , (25319,  22, 0x3400002B) /* PhysicsEffectTable */;

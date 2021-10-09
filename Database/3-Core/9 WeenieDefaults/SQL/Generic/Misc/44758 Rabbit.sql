@@ -19,5 +19,5 @@ VALUES (44758,   1, 'Rabbit') /* Name */
      , (44758,  16, 'Usually found in brown and black, most rabbits found in Dereth are peaceful.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44758,   1,   33561358) /* Setup */
-     , (44758,   8,  100668115) /* Icon */;
+VALUES (44758,   1, 0x02001B0E) /* Setup */
+     , (44758,   8, 0x060012D3) /* Icon */;

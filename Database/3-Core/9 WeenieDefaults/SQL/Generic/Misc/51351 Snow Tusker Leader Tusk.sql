@@ -22,7 +22,7 @@ VALUES (51351,   1, 'Snow Tusker Leader Tusk') /* Name */
      , (51351,  15, 'A tusk plucked from a dead Snow Tusker Leader. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51351,   1,   33557838) /* Setup */
-     , (51351,   3,  536870932) /* SoundTable */
-     , (51351,   8,  100673056) /* Icon */
-     , (51351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51351,   1, 0x02000D4E) /* Setup */
+     , (51351,   3, 0x20000014) /* SoundTable */
+     , (51351,   8, 0x06002620) /* Icon */
+     , (51351,  22, 0x3400002B) /* PhysicsEffectTable */;

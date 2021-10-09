@@ -31,9 +31,9 @@ VALUES (20981,   1, 'Salvaged  (100)') /* Name */
      , (20981,  15, 'A strip of armoredillo hide material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20981,   1,   33554817) /* Setup */
-     , (20981,   3,  536870932) /* SoundTable */
-     , (20981,   6,   67111919) /* PaletteBase */
-     , (20981,   8,  100673219) /* Icon */
-     , (20981,  22,  872415275) /* PhysicsEffectTable */
-     , (20981,  50,  100673224) /* IconOverlay */;
+VALUES (20981,   1, 0x02000181) /* Setup */
+     , (20981,   3, 0x20000014) /* SoundTable */
+     , (20981,   6, 0x04000BEF) /* PaletteBase */
+     , (20981,   8, 0x060026C3) /* Icon */
+     , (20981,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20981,  50, 0x060026C8) /* IconOverlay */;

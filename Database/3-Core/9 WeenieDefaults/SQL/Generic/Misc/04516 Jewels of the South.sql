@@ -18,9 +18,9 @@ VALUES (4516,   1, 'Jewels of the South') /* Name */
      , (4516,  16, 'Jewels of the South') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4516,   1,   33555594) /* Setup */
-     , (4516,   8,  100668115) /* Icon */;
+VALUES (4516,   1, 0x0200048A) /* Setup */
+     , (4516,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4516, 8040, 3862757382, 11.0631, 140.267, 99.175, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4516, 8040, 0xE63D0006, 11.0631, 140.267, 99.175, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D0006 [11.063100 140.267000 99.175000] -0.707107 0.000000 0.000000 -0.707107 */;

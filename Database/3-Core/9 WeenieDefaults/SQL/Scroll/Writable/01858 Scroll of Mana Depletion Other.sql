@@ -23,7 +23,7 @@ VALUES (1858,   1, 'Scroll of Mana Depletion Other') /* Name */
 Decreases target''s natural mana rate by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1858,   1,   33554826) /* Setup */
-     , (1858,   8,  100676939) /* Icon */
-     , (1858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1858,   1, 0x0200018A) /* Setup */
+     , (1858,   8, 0x0600354B) /* Icon */
+     , (1858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1858,  28,        218) /* Spell - ManaDepletionOther1 */;

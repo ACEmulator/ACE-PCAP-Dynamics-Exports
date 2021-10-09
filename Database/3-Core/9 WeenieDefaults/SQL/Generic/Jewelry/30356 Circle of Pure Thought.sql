@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30356,   1, 'Circle of Pure Thought') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30356,   1,   33554683) /* Setup */
-     , (30356,   3,  536870932) /* SoundTable */
-     , (30356,   6,   67111919) /* PaletteBase */
-     , (30356,   8,  100686818) /* Icon */
-     , (30356,  22,  872415275) /* PhysicsEffectTable */
-     , (30356,  52,  100686604) /* IconUnderlay */;
+VALUES (30356,   1, 0x020000FB) /* Setup */
+     , (30356,   3, 0x20000014) /* SoundTable */
+     , (30356,   6, 0x04000BEF) /* PaletteBase */
+     , (30356,   8, 0x06005BE2) /* Icon */
+     , (30356,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30356,  52, 0x06005B0C) /* IconUnderlay */;

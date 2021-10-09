@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35147,   1, 'Olthoi Larvae') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35147,   1,   33558333) /* Setup */
-     , (35147,   2,  150995238) /* MotionTable */
-     , (35147,   3,  536871068) /* SoundTable */
-     , (35147,   6,   67114236) /* PaletteBase */
-     , (35147,   8,  100674298) /* Icon */
-     , (35147,  22,  872415265) /* PhysicsEffectTable */
+VALUES (35147,   1, 0x02000F3D) /* Setup */
+     , (35147,   2, 0x09000126) /* MotionTable */
+     , (35147,   3, 0x2000009C) /* SoundTable */
+     , (35147,   6, 0x040014FC) /* PaletteBase */
+     , (35147,   8, 0x06002AFA) /* Icon */
+     , (35147,  22, 0x34000021) /* PhysicsEffectTable */
      , (35147,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35147, 8040, 11534674, 29.29501, -836.2616, 0.11105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35147, 8040, 0x00B00152, 29.29501, -836.2616, 0.11105, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00152 [29.295010 -836.261600 0.111050] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

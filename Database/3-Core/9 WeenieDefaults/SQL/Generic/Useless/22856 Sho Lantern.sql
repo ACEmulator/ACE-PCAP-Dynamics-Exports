@@ -19,11 +19,11 @@ VALUES (22856,   1, 'Sho Lantern') /* Name */
      , (22856,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22856,   1,   33556250) /* Setup */
-     , (22856,   3,  536870932) /* SoundTable */
-     , (22856,   8,  100673914) /* Icon */
-     , (22856,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22856,   1, 0x0200071A) /* Setup */
+     , (22856,   3, 0x20000014) /* SoundTable */
+     , (22856,   8, 0x0600297A) /* Icon */
+     , (22856,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22856, 8040, 3465871413, 166.8741, 99.04528, 20, -0.8399443, 0, 0, 0.5426726) /* PCAPRecordedLocation */
+VALUES (22856, 8040, 0xCE950035, 166.8741, 99.04528, 20, -0.839944, 0, 0, 0.542673) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [166.874100 99.045280 20.000000] -0.839944 0.000000 0.000000 0.542673 */;

@@ -26,11 +26,11 @@ VALUES (28975,   1, 'Portrait of Geraine IV') /* Name */
      , (28975,  16, 'A portrait of Geraine IV. It is a masterpiece. Hevk Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28975,   1,   33558986) /* Setup */
-     , (28975,   2,  150995312) /* MotionTable */
-     , (28975,   3,  536870930) /* SoundTable */
-     , (28975,   8,  100677076) /* Icon */;
+VALUES (28975,   1, 0x020011CA) /* Setup */
+     , (28975,   2, 0x09000170) /* MotionTable */
+     , (28975,   3, 0x20000012) /* SoundTable */
+     , (28975,   8, 0x060035D4) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28975, 8040, 26542830, 252.118, -227.172, 0, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
+VALUES (28975, 8040, 0x019502EE, 252.118, -227.172, 0, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x019502EE [252.118000 -227.172000 0.000000] 0.382683 0.000000 0.000000 -0.923880 */;

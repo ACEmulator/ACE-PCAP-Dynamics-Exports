@@ -34,20 +34,20 @@ VALUES (4445,   1, 'Dafrida the Tailor') /* Name */
      , (4445,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4445,   1,   33554510) /* Setup */
-     , (4445,   2,  150994945) /* MotionTable */
-     , (4445,   3,  536870914) /* SoundTable */
-     , (4445,   6,   67108990) /* PaletteBase */
-     , (4445,   8,  100667446) /* Icon */
-     , (4445,   9,   83890255) /* EyesTexture */
-     , (4445,  10,   83890306) /* NoseTexture */
-     , (4445,  11,   83890356) /* MouthTexture */
-     , (4445,  15,   67117000) /* HairPalette */
-     , (4445,  16,   67110062) /* EyesPalette */
-     , (4445,  17,   67109559) /* SkinPalette */;
+VALUES (4445,   1, 0x0200004E) /* Setup */
+     , (4445,   2, 0x09000001) /* MotionTable */
+     , (4445,   3, 0x20000002) /* SoundTable */
+     , (4445,   6, 0x0400007E) /* PaletteBase */
+     , (4445,   8, 0x06001036) /* Icon */
+     , (4445,   9, 0x0500104F) /* EyesTexture */
+     , (4445,  10, 0x05001082) /* NoseTexture */
+     , (4445,  11, 0x050010B4) /* MouthTexture */
+     , (4445,  15, 0x04001FC8) /* HairPalette */
+     , (4445,  16, 0x040004AE) /* EyesPalette */
+     , (4445,  17, 0x040002B7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4445, 8040, 3212837150, 81.8333, 60.4282, 46.005, -0.5354041, 0, 0, -0.844596) /* PCAPRecordedLocation */
+VALUES (4445, 8040, 0xBF80011E, 81.8333, 60.4282, 46.005, -0.535404, 0, 0, -0.844596) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80011E [81.833300 60.428200 46.005000] -0.535404 0.000000 0.000000 -0.844596 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

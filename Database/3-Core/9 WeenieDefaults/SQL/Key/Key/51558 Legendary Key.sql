@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51558,   1, 'Legendary Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51558,   1,   33554784) /* Setup */
-     , (51558,   3,  536870932) /* SoundTable */
-     , (51558,   8,  100693001) /* Icon */
-     , (51558,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51558,   1, 0x02000160) /* Setup */
+     , (51558,   3, 0x20000014) /* SoundTable */
+     , (51558,   8, 0x06007409) /* Icon */
+     , (51558,  22, 0x3400002B) /* PhysicsEffectTable */;

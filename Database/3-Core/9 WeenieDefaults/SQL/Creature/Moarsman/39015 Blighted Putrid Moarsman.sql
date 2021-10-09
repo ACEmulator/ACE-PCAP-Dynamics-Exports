@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39015,   1, 'Blighted Putrid Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39015,   1,   33556882) /* Setup */
-     , (39015,   2,  150995104) /* MotionTable */
-     , (39015,   3,  536871018) /* SoundTable */
-     , (39015,   6,   67112872) /* PaletteBase */
-     , (39015,   8,  100671185) /* Icon */
-     , (39015,  22,  872415337) /* PhysicsEffectTable */
+VALUES (39015,   1, 0x02000992) /* Setup */
+     , (39015,   2, 0x090000A0) /* MotionTable */
+     , (39015,   3, 0x2000006A) /* SoundTable */
+     , (39015,   6, 0x04000FA8) /* PaletteBase */
+     , (39015,   8, 0x06001ED1) /* Icon */
+     , (39015,  22, 0x34000069) /* PhysicsEffectTable */
      , (39015,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39015, 8040, 1105002763, 28, 63, 5.1066, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (39015, 8040, 0x41DD010B, 28, 63, 5.1066, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x41DD010B [28.000000 63.000000 5.106600] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

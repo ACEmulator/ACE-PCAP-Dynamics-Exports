@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33971,   1, 'Parasitic Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33971,   1,   33556698) /* Setup */
-     , (33971,   2,  150995098) /* MotionTable */
-     , (33971,   3,  536871009) /* SoundTable */
-     , (33971,   6,   67112927) /* PaletteBase */
-     , (33971,   8,  100670960) /* Icon */
-     , (33971,  22,  872415364) /* PhysicsEffectTable */
+VALUES (33971,   1, 0x020008DA) /* Setup */
+     , (33971,   2, 0x0900009A) /* MotionTable */
+     , (33971,   3, 0x20000061) /* SoundTable */
+     , (33971,   6, 0x04000FDF) /* PaletteBase */
+     , (33971,   8, 0x06001DF0) /* Icon */
+     , (33971,  22, 0x34000084) /* PhysicsEffectTable */
      , (33971,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33971, 8040, 13697532, 119.339, -152.294, -30.00135, 0.8116408, 0, 0, -0.5841569) /* PCAPRecordedLocation */
+VALUES (33971, 8040, 0x00D101FC, 119.339, -152.294, -30.00135, 0.811641, 0, 0, -0.584157) /* PCAPRecordedLocation */
 /* @teleloc 0x00D101FC [119.339000 -152.294000 -30.001350] 0.811641 0.000000 0.000000 -0.584157 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

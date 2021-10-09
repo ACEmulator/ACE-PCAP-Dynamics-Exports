@@ -20,10 +20,10 @@ VALUES (1025,   1, 'Destroyed Portal to Rithwic') /* Name */
      , (1025,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1025,   1,   33561060) /* Setup */
-     , (1025,   2,  150995314) /* MotionTable */
-     , (1025,   8,  100667499) /* Icon */;
+VALUES (1025,   1, 0x020019E4) /* Setup */
+     , (1025,   2, 0x09000172) /* MotionTable */
+     , (1025,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1025, 8040, 29950210, 70, -174.75, -72.20983, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1025, 8040, 0x01C90102, 70, -174.75, -72.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01C90102 [70.000000 -174.750000 -72.209830] 0.000000 0.000000 0.000000 -1.000000 */;

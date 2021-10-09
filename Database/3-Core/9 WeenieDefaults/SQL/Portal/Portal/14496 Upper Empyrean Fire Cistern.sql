@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14496,   1, 'Upper Empyrean Fire Cistern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14496,   1,   33555926) /* Setup */
-     , (14496,   2,  150994947) /* MotionTable */
-     , (14496,   8,  100667499) /* Icon */;
+VALUES (14496,   1, 0x020005D6) /* Setup */
+     , (14496,   2, 0x09000003) /* MotionTable */
+     , (14496,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14496, 8040, 1383072011, 32.8377, -90.0127, -48.063, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (14496, 8040, 0x5270010B, 32.8377, -90.0127, -48.063, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x5270010B [32.837700 -90.012700 -48.063000] 0.714421 0.000000 0.000000 -0.699716 */;

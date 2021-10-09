@@ -28,7 +28,7 @@ VALUES (0x79ED2004,     3, 0x9ED20100, 83.31504, 44.11973, 246.8, 0.080137, 0, 0
 /* @teleloc 0x9ED20100 [83.315040 44.119730 246.800000] 0.080137 0.000000 0.000000 -0.996784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED2005,   212, 0x9ED2000C, 24.07387, 93.52882, 244.3573, -0.4889593, 0, 0, -0.8723066,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
+VALUES (0x79ED2005,   212, 0x9ED2000C, 24.07387, 93.52882, 244.3573, -0.488959, 0, 0, -0.872307,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
 /* @teleloc 0x9ED2000C [24.073870 93.528820 244.357300] -0.488959 0.000000 0.000000 -0.872307 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -40,24 +40,24 @@ VALUES (0x79ED2007,     3, 0x9ED2001A, 91.6082, 26.99889, 252, -0.93879, 0, 0, 0
 /* @teleloc 0x9ED2001A [91.608200 26.998890 252.000000] -0.938790 0.000000 0.000000 0.344490 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED2008,     3, 0x9ED2001A, 81.86143, 44.54683, 252, -0.8099697, 0, 0, 0.5864717,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+VALUES (0x79ED2008,     3, 0x9ED2001A, 81.86143, 44.54683, 252, -0.80997, 0, 0, 0.586472,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
 /* @teleloc 0x9ED2001A [81.861430 44.546830 252.000000] -0.809970 0.000000 0.000000 0.586472 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED2009,     3, 0x9ED20022, 97.24938, 37.90105, 252, -0.5388749, 0, 0, 0.8423858,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+VALUES (0x79ED2009,     3, 0x9ED20022, 97.24938, 37.90105, 252, -0.538875, 0, 0, 0.842386,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
 /* @teleloc 0x9ED20022 [97.249380 37.901050 252.000000] -0.538875 0.000000 0.000000 0.842386 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED200A, 24960, 0x9ED2003D, 187.8676, 101.1031, 254.9978, -0.7116815, 0, 0, -0.7025023,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
+VALUES (0x79ED200A, 24960, 0x9ED2003D, 187.8676, 101.1031, 254.9978, -0.711682, 0, 0, -0.702502,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
 /* @teleloc 0x9ED2003D [187.867600 101.103100 254.997800] -0.711682 0.000000 0.000000 -0.702502 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED200B,  1542, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.9068685, 0, 0, -0.4214137, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79ED200B,  1542, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.906869, 0, 0, -0.421414, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9ED2003D [187.679900 118.524200 250.805900] -0.906869 0.000000 0.000000 -0.421414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x79ED200B, 0x79ED200C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ED200C,  8648, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.9068685, 0, 0, -0.4214137,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
+VALUES (0x79ED200C,  8648, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.906869, 0, 0, -0.421414,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
 /* @teleloc 0x9ED2003D [187.679900 118.524200 250.805900] -0.906869 0.000000 0.000000 -0.421414 */

@@ -32,16 +32,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3748,   1, 'White Virindi Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3748,   1,   33558228) /* Setup */
-     , (3748,   3,  536870932) /* SoundTable */
-     , (3748,   6,   67111919) /* PaletteBase */
-     , (3748,   8,  100670152) /* Icon */
-     , (3748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3748,   1, 0x02000ED4) /* Setup */
+     , (3748,   3, 0x20000014) /* SoundTable */
+     , (3748,   6, 0x04000BEF) /* PaletteBase */
+     , (3748,   8, 0x06001AC8) /* Icon */
+     , (3748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3748,  28,         80) /* Spell - LightningBolt6 */
      , (3748,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3748, 8040, 18809106, 37.54044, -25.35332, 0.08000001, -0.7261729, 0, 0, -0.6875122) /* PCAPRecordedLocation */
+VALUES (3748, 8040, 0x011F0112, 37.54044, -25.35332, 0.08, -0.726173, 0, 0, -0.687512) /* PCAPRecordedLocation */
 /* @teleloc 0x011F0112 [37.540440 -25.353320 0.080000] -0.726173 0.000000 0.000000 -0.687512 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

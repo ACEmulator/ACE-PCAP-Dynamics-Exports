@@ -20,7 +20,7 @@ VALUES (28733,   1, 'Gharu''ndim Arm') /* Name */
      , (28733,  16, 'A severed arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28733,   1,   33554817) /* Setup */
-     , (28733,   3,  536870932) /* SoundTable */
-     , (28733,   8,  100686360) /* Icon */
-     , (28733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28733,   1, 0x02000181) /* Setup */
+     , (28733,   3, 0x20000014) /* SoundTable */
+     , (28733,   8, 0x06005A18) /* Icon */
+     , (28733,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (29267,   1, 'Quick Learner') /* Name */
      , (29267,  16, 'Using this gem will grant you 5% extra experience for each creature you kill.  This does not affect experience received from quests or killing other players.  This extra experience is shared with Fellowships and Allegiances as normal.  This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29267,   1,   33554809) /* Setup */
-     , (29267,   3,  536870932) /* SoundTable */
-     , (29267,   8,  100686474) /* Icon */
-     , (29267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29267,   1, 0x02000179) /* Setup */
+     , (29267,   3, 0x20000014) /* SoundTable */
+     , (29267,   8, 0x06005A8A) /* Icon */
+     , (29267,  22, 0x3400002B) /* PhysicsEffectTable */;

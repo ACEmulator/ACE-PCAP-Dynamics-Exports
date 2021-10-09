@@ -19,9 +19,9 @@ VALUES (42796,   1, 'Eastham') /* Name */
      , (42796,  16, 'Eastham is an Aluvian town located on the coast along the road connecting Arwic to Rithwic. It is also the closest human settlement to Asheron''s Island, which for many years was closed to outsiders. Now however, one need only stroll over to the windmill to find a permanent portal to the Empyrean''s isle and his castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42796,   1,   33560992) /* Setup */
-     , (42796,   8,  100668115) /* Icon */;
+VALUES (42796,   1, 0x020019A0) /* Setup */
+     , (42796,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42796, 8040, 459090, 84.8927, -19.995, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42796, 8040, 0x00070152, 84.8927, -19.995, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070152 [84.892700 -19.995000 3.014000] -0.707107 0.000000 0.000000 -0.707107 */;

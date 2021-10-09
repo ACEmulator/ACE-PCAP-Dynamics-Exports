@@ -39,12 +39,12 @@ VALUES (7571,   1, 'Hollow Staff') /* Name */
      , (7571,  16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7571,   1,   33556647) /* Setup */
-     , (7571,   3,  536870932) /* SoundTable */
-     , (7571,   6,   67111919) /* PaletteBase */
-     , (7571,   8,  100669105) /* Icon */
-     , (7571,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7571,   1, 0x020008A7) /* Setup */
+     , (7571,   3, 0x20000014) /* SoundTable */
+     , (7571,   6, 0x04000BEF) /* PaletteBase */
+     , (7571,   8, 0x060016B1) /* Icon */
+     , (7571,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7571, 8040, 2847146009, 84.02469, 8.429422, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (7571, 8040, 0xA9B40019, 84.02469, 8.429422, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 8.429422 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11760,   1, 'Hafted Reedshark Banner with Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11760,   1,   33557261) /* Setup */
-     , (11760,   8,  100671915) /* Icon */
-     , (11760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11760,   1, 0x02000B0D) /* Setup */
+     , (11760,   8, 0x060021AB) /* Icon */
+     , (11760,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11760, 8040, 2724134960, 143.2928, 185.7377, 19.929, -0.06241114, -0.06241114, -0.7043471, -0.7043471) /* PCAPRecordedLocation */
+VALUES (11760, 8040, 0xA25F0030, 143.2928, 185.7377, 19.929, -0.062411, -0.062411, -0.704347, -0.704347) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0030 [143.292800 185.737700 19.929000] -0.062411 -0.062411 -0.704347 -0.704347 */;

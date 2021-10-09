@@ -41,8 +41,8 @@ VALUES (30557,   1, 'Acid Hatchet') /* Name */
      , (30557,  16, 'Acid Hatchet') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30557,   1,   33559451) /* Setup */
-     , (30557,   3,  536870932) /* SoundTable */
-     , (30557,   6,   67115558) /* PaletteBase */
-     , (30557,   8,  100686923) /* Icon */
-     , (30557,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30557,   1, 0x0200139B) /* Setup */
+     , (30557,   3, 0x20000014) /* SoundTable */
+     , (30557,   6, 0x04001A26) /* PaletteBase */
+     , (30557,   8, 0x06005C4B) /* Icon */
+     , (30557,  22, 0x3400002B) /* PhysicsEffectTable */;

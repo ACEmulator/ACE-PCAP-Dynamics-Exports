@@ -18,9 +18,9 @@ VALUES (639,   1, 'Chirurgeon') /* Name */
      , (639,  16, 'Chirurgeon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (639,   1,   33555088) /* Setup */
-     , (639,   8,  100668115) /* Icon */;
+VALUES (639,   1, 0x02000290) /* Setup */
+     , (639,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (639, 8040, 3465871401, 133.173, 11.5176, 20, -0.385101, 0, 0, 0.922875) /* PCAPRecordedLocation */
+VALUES (639, 8040, 0xCE950029, 133.173, 11.5176, 20, -0.385101, 0, 0, 0.922875) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950029 [133.173000 11.517600 20.000000] -0.385101 0.000000 0.000000 0.922875 */;

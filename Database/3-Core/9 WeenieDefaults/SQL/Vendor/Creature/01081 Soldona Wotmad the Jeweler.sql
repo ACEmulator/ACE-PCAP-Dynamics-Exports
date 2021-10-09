@@ -34,20 +34,20 @@ VALUES (1081,   1, 'Soldona Wotmad the Jeweler') /* Name */
      , (1081,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1081,   1,   33554510) /* Setup */
-     , (1081,   2,  150994945) /* MotionTable */
-     , (1081,   3,  536870914) /* SoundTable */
-     , (1081,   6,   67108990) /* PaletteBase */
-     , (1081,   8,  100667446) /* Icon */
-     , (1081,   9,   83890280) /* EyesTexture */
-     , (1081,  10,   83890291) /* NoseTexture */
-     , (1081,  11,   83890346) /* MouthTexture */
-     , (1081,  15,   67117019) /* HairPalette */
-     , (1081,  16,   67109564) /* EyesPalette */
-     , (1081,  17,   67109562) /* SkinPalette */;
+VALUES (1081,   1, 0x0200004E) /* Setup */
+     , (1081,   2, 0x09000001) /* MotionTable */
+     , (1081,   3, 0x20000002) /* SoundTable */
+     , (1081,   6, 0x0400007E) /* PaletteBase */
+     , (1081,   8, 0x06001036) /* Icon */
+     , (1081,   9, 0x05001068) /* EyesTexture */
+     , (1081,  10, 0x05001073) /* NoseTexture */
+     , (1081,  11, 0x050010AA) /* MouthTexture */
+     , (1081,  15, 0x04001FDB) /* HairPalette */
+     , (1081,  16, 0x040002BC) /* EyesPalette */
+     , (1081,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1081, 8040, 3381395721, 112.927, 173.357, 22.005, -0.875886, 0, 0, -0.482518) /* PCAPRecordedLocation */
+VALUES (1081, 8040, 0xC98C0109, 112.927, 173.357, 22.005, -0.875886, 0, 0, -0.482518) /* PCAPRecordedLocation */
 /* @teleloc 0xC98C0109 [112.927000 173.357000 22.005000] -0.875886 0.000000 0.000000 -0.482518 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

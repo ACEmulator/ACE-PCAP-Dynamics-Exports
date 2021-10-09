@@ -27,11 +27,11 @@ VALUES (23511,   1, 'Spear of the Given Heart') /* Name */
      , (23511,  16, 'A spear floats before a stone obelisk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23511,   1,   33558182) /* Setup */
-     , (23511,   2,  150995231) /* MotionTable */
-     , (23511,   3,  536870932) /* SoundTable */
-     , (23511,   8,  100669005) /* Icon */;
+VALUES (23511,   1, 0x02000EA6) /* Setup */
+     , (23511,   2, 0x0900011F) /* MotionTable */
+     , (23511,   3, 0x20000014) /* SoundTable */
+     , (23511,   8, 0x0600164D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23511, 8040, 2840789248, 85.0429, 107.848, 119.4871, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (23511, 8040, 0xA9530100, 85.0429, 107.848, 119.4871, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xA9530100 [85.042900 107.848000 119.487100] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -25,7 +25,7 @@ VALUES (52970,   1, 'Viridian Essence') /* Name */
      , (52970,  15, 'A mote of Deru life magic used to power the gates in the Viridian Rise. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52970,   1,   33561540) /* Setup */
-     , (52970,   3,  536870932) /* SoundTable */
-     , (52970,   8,  100671683) /* Icon */
-     , (52970,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52970,   1, 0x02001BC4) /* Setup */
+     , (52970,   3, 0x20000014) /* SoundTable */
+     , (52970,   8, 0x060020C3) /* Icon */
+     , (52970,  22, 0x3400002B) /* PhysicsEffectTable */;

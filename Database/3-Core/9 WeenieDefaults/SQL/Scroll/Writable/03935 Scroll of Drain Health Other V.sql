@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3935,   1, 'Scroll of Drain Health Other V') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3935,   1,   33554826) /* Setup */
-     , (3935,   8,  100676934) /* Icon */
-     , (3935,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3935,   1, 0x0200018A) /* Setup */
+     , (3935,   8, 0x06003546) /* Icon */
+     , (3935,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3935,  28,       1241) /* Spell - DrainHealth5 */;

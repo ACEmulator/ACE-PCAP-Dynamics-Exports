@@ -179,11 +179,11 @@ VALUES (0x7070A023, 25863, 0x070A0030, 134.0689, 182.471, 68.0931, 1, 0, 0, 0,  
 /* @teleloc 0x070A0030 [134.068900 182.471000 68.093100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7070A024, 25866, 0x070A0030, 134.7078, 179.6817, 77.26546, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
+VALUES (0x7070A024, 25866, 0x070A0030, 134.7078, 179.6817, 77.26546, 0.996195, 0, 0, -0.087156,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
 /* @teleloc 0x070A0030 [134.707800 179.681700 77.265460] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7070A025, 25852, 0x070A0030, 130.3078, 180.0817, 77.26546, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Ravager */
+VALUES (0x7070A025, 25852, 0x070A0030, 130.3078, 180.0817, 77.26546, 0.819152, 0, 0, -0.573577,  True, '2019-02-10 00:00:00'); /* Ravager */
 /* @teleloc 0x070A0030 [130.307800 180.081700 77.265460] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

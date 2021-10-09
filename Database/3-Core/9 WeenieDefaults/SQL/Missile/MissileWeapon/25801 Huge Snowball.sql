@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25801,   1, 'Huge Snowball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25801,   1,   33556225) /* Setup */
-     , (25801,   3,  536870932) /* SoundTable */
-     , (25801,   6,   67111928) /* PaletteBase */
-     , (25801,   8,  100670281) /* Icon */
-     , (25801,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25801,   1, 0x02000701) /* Setup */
+     , (25801,   3, 0x20000014) /* SoundTable */
+     , (25801,   6, 0x04000BF8) /* PaletteBase */
+     , (25801,   8, 0x06001B49) /* Icon */
+     , (25801,  22, 0x3400002B) /* PhysicsEffectTable */;

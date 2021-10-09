@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44868,   1, 'Gurog Torso with a Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44868,   1,   33561390) /* Setup */
-     , (44868,   3,  536870932) /* SoundTable */
-     , (44868,   8,  100692168) /* Icon */
-     , (44868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44868,   1, 0x02001B2E) /* Setup */
+     , (44868,   3, 0x20000014) /* SoundTable */
+     , (44868,   8, 0x060070C8) /* Icon */
+     , (44868,  22, 0x3400002B) /* PhysicsEffectTable */;

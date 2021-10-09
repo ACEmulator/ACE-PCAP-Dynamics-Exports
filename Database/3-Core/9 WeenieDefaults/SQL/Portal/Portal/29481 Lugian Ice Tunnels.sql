@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29481,   1, 'Lugian Ice Tunnels') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29481,   1,   33555925) /* Setup */
-     , (29481,   2,  150994947) /* MotionTable */
-     , (29481,   8,  100667499) /* Icon */;
+VALUES (29481,   1, 0x020005D5) /* Setup */
+     , (29481,   2, 0x09000003) /* MotionTable */
+     , (29481,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29481, 8040, 1089732657, 155, 15, 1.937, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
+VALUES (29481, 8040, 0x40F40031, 155, 15, 1.937, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x40F40031 [155.000000 15.000000 1.937000] 0.923880 0.000000 0.000000 -0.382683 */;

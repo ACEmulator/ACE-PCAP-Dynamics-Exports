@@ -36,8 +36,8 @@ VALUES (28605,   1, 'Beret') /* Name */
      , (28605,  16, 'Beret') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28605,   1,   33559323) /* Setup */
-     , (28605,   3,  536870932) /* SoundTable */
-     , (28605,   6,   67108990) /* PaletteBase */
-     , (28605,   8,  100682314) /* Icon */
-     , (28605,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28605,   1, 0x0200131B) /* Setup */
+     , (28605,   3, 0x20000014) /* SoundTable */
+     , (28605,   6, 0x0400007E) /* PaletteBase */
+     , (28605,   8, 0x06004A4A) /* Icon */
+     , (28605,  22, 0x3400002B) /* PhysicsEffectTable */;

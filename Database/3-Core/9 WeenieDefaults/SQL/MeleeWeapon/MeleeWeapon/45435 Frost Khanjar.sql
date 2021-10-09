@@ -49,12 +49,12 @@ VALUES (45435,   1, 'Frost Khanjar') /* Name */
      , (45435,  16, 'Frost Khanjar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45435,   1,   33555734) /* Setup */
-     , (45435,   3,  536870932) /* SoundTable */
-     , (45435,   8,  100668943) /* Icon */
-     , (45435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45435,   1, 0x02000516) /* Setup */
+     , (45435,   3, 0x20000014) /* SoundTable */
+     , (45435,   8, 0x0600160F) /* Icon */
+     , (45435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45435,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (45435,  52,  100676435) /* IconUnderlay */;
+     , (45435,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45435,  1615,      2)  /* BloodDrinkerSelf5 */

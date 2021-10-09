@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5995,   1, 'Scroll of Alchemy Mastery Self IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5995,   1,   33554826) /* Setup */
-     , (5995,   8,  100676480) /* Icon */
-     , (5995,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5995,   1, 0x0200018A) /* Setup */
+     , (5995,   8, 0x06003380) /* Icon */
+     , (5995,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5995,  28,       1766) /* Spell - AlchemyMasterySelf4 */;

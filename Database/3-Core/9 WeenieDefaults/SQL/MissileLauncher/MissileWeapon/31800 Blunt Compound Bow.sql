@@ -54,19 +54,19 @@ VALUES (31800,   1, 'Blunt Compound Bow') /* Name */
      , (31800,  40, 'El''Lorme Deepriver') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31800,   1,   33559689) /* Setup */
-     , (31800,   3,  536870932) /* SoundTable */
-     , (31800,   6,   67116700) /* PaletteBase */
-     , (31800,   8,  100688049) /* Icon */
-     , (31800,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31800,   1, 0x02001489) /* Setup */
+     , (31800,   3, 0x20000014) /* SoundTable */
+     , (31800,   6, 0x04001E9C) /* PaletteBase */
+     , (31800,   8, 0x060060B1) /* Icon */
+     , (31800,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31800,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (31800,  52,  100676442) /* IconUnderlay */;
+     , (31800,  52, 0x0600335A) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31800, 8040, 1676148781, 138.4701, 99.26065, 130.8415, -0.9856097, 0, 0, -0.1690374) /* PCAPRecordedLocation */
+VALUES (31800, 8040, 0x63E8002D, 138.4701, 99.26065, 130.8415, -0.98561, 0, 0, -0.169037) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002D [138.470100 99.260650 130.841500] -0.985610 0.000000 0.000000 -0.169037 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31800,  1605,      2)  /* DefenderSelf6 */
-     , (31800,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31800,  2061,      2)  /* EnduranceSelf7 */;
+     , (31800,  2061,      2)  /* EnduranceSelf7 */
+     , (31800,  1616,      2)  /* BloodDrinkerSelf6 */;

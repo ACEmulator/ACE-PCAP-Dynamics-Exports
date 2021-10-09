@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15257,   1, 'Sonpay') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15257,   1,   33557463) /* Setup */
-     , (15257,   8,  100668115) /* Icon */;
+VALUES (15257,   1, 0x02000BD7) /* Setup */
+     , (15257,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15257, 8040, 2873622565, 97.361, 112.787, 25.54633, -0.681298, 0, 0, 0.732006) /* PCAPRecordedLocation */
+VALUES (15257, 8040, 0xAB480025, 97.361, 112.787, 25.54633, -0.681298, 0, 0, 0.732006) /* PCAPRecordedLocation */
 /* @teleloc 0xAB480025 [97.361000 112.787000 25.546330] -0.681298 0.000000 0.000000 0.732006 */;

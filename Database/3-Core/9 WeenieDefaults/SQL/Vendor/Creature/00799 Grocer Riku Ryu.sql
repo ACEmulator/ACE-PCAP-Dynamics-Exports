@@ -34,20 +34,20 @@ VALUES (799,   1, 'Grocer Riku Ryu') /* Name */
      , (799,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (799,   1,   33554510) /* Setup */
-     , (799,   2,  150994945) /* MotionTable */
-     , (799,   3,  536870914) /* SoundTable */
-     , (799,   6,   67108990) /* PaletteBase */
-     , (799,   8,  100667446) /* Icon */
-     , (799,   9,   83890275) /* EyesTexture */
-     , (799,  10,   83890294) /* NoseTexture */
-     , (799,  11,   83890324) /* MouthTexture */
-     , (799,  15,   67117026) /* HairPalette */
-     , (799,  16,   67109565) /* EyesPalette */
-     , (799,  17,   67110053) /* SkinPalette */;
+VALUES (799,   1, 0x0200004E) /* Setup */
+     , (799,   2, 0x09000001) /* MotionTable */
+     , (799,   3, 0x20000002) /* SoundTable */
+     , (799,   6, 0x0400007E) /* PaletteBase */
+     , (799,   8, 0x06001036) /* Icon */
+     , (799,   9, 0x05001063) /* EyesTexture */
+     , (799,  10, 0x05001076) /* NoseTexture */
+     , (799,  11, 0x05001094) /* MouthTexture */
+     , (799,  15, 0x04001FE2) /* HairPalette */
+     , (799,  16, 0x040002BD) /* EyesPalette */
+     , (799,  17, 0x040004A5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (799, 8040, 3845259531, 139.881, 38.25, 29.605, -0.8512692, 0, 0, -0.5247292) /* PCAPRecordedLocation */
+VALUES (799, 8040, 0xE532010B, 139.881, 38.25, 29.605, -0.851269, 0, 0, -0.524729) /* PCAPRecordedLocation */
 /* @teleloc 0xE532010B [139.881000 38.250000 29.605000] -0.851269 0.000000 0.000000 -0.524729 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

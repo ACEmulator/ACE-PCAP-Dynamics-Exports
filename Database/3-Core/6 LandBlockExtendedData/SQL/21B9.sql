@@ -259,7 +259,7 @@ VALUES (0x721B902D, 11510, 0x21B90001, 14.6862, 13.76723, 90.007, 1, 0, 0, 0,  T
 /* @teleloc 0x21B90001 [14.686200 13.767230 90.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x721B902E, 11495, 0x21B90001, 0.2585754, 5.782695, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+VALUES (0x721B902E, 11495, 0x21B90001, 0.258575, 5.782695, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
 /* @teleloc 0x21B90001 [0.258575 5.782695 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

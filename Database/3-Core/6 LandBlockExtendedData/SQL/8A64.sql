@@ -18,5 +18,5 @@ VALUES (0x78A64003,   949, 0x8A64003A, 184.3776, 31.95476, 17.95381, 1, 0, 0, 0,
 /* @teleloc 0x8A64003A [184.377600 31.954760 17.953810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78A64004,   232, 0x8A640040, 175.7647, 170.318, 13.35794, -0.8867154, 0, 0, -0.4623158,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
+VALUES (0x78A64004,   232, 0x8A640040, 175.7647, 170.318, 13.35794, -0.886715, 0, 0, -0.462316,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
 /* @teleloc 0x8A640040 [175.764700 170.318000 13.357940] -0.886715 0.000000 0.000000 -0.462316 */

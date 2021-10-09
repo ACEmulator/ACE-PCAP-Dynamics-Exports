@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44347,   1, 'Filinuvekta Emissary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44347,   1,   33554510) /* Setup */
-     , (44347,   2,  150994967) /* MotionTable */
-     , (44347,   3,  536870934) /* SoundTable */
-     , (44347,   6,   67108990) /* PaletteBase */
-     , (44347,   8,  100674805) /* Icon */
-     , (44347,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (44347,   1, 0x0200004E) /* Setup */
+     , (44347,   2, 0x09000017) /* MotionTable */
+     , (44347,   3, 0x20000016) /* SoundTable */
+     , (44347,   6, 0x0400007E) /* PaletteBase */
+     , (44347,   8, 0x06002CF5) /* Icon */
+     , (44347,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44347, 8040, 2271543315, 66.91045, 71.8768, 52.2506, 0.9994836, 0, 0, 0.03213119) /* PCAPRecordedLocation */
+VALUES (44347, 8040, 0x87650013, 66.91045, 71.8768, 52.2506, 0.999484, 0, 0, 0.032131) /* PCAPRecordedLocation */
 /* @teleloc 0x87650013 [66.910450 71.876800 52.250600] 0.999484 0.000000 0.000000 0.032131 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

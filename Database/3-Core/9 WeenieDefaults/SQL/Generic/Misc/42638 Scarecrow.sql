@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42638,   1, 'Scarecrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42638,   1,   33556871) /* Setup */
-     , (42638,   6,   67112967) /* PaletteBase */
-     , (42638,   8,  100671141) /* Icon */;
+VALUES (42638,   1, 0x02000987) /* Setup */
+     , (42638,   6, 0x04001007) /* PaletteBase */
+     , (42638,   8, 0x06001EA5) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42638, 8040, 3011575840, 87.8195, 174.353, 24, 0.5073249, 0, 0, -0.8617548) /* PCAPRecordedLocation */
+VALUES (42638, 8040, 0xB3810020, 87.8195, 174.353, 24, 0.507325, 0, 0, -0.861755) /* PCAPRecordedLocation */
 /* @teleloc 0xB3810020 [87.819500 174.353000 24.000000] 0.507325 0.000000 0.000000 -0.861755 */;

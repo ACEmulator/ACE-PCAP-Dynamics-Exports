@@ -25,12 +25,12 @@ VALUES (6055,   1, 'Cracked Shard') /* Name */
      , (6055,  16, 'A cracked piece of crystalline shard, full of tiny flaws.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6055,   1,   33554809) /* Setup */
-     , (6055,   3,  536870932) /* SoundTable */
-     , (6055,   6,   67111919) /* PaletteBase */
-     , (6055,   8,  100670633) /* Icon */
-     , (6055,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6055,   1, 0x02000179) /* Setup */
+     , (6055,   3, 0x20000014) /* SoundTable */
+     , (6055,   6, 0x04000BEF) /* PaletteBase */
+     , (6055,   8, 0x06001CA9) /* Icon */
+     , (6055,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6055, 8040, 23855549, 54.61966, -35.54309, -0.001000002, -0.8012115, 0, 0, -0.5983812) /* PCAPRecordedLocation */
+VALUES (6055, 8040, 0x016C01BD, 54.61966, -35.54309, -0.001, -0.801212, 0, 0, -0.598381) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.619660 -35.543090 -0.001000] -0.801212 0.000000 0.000000 -0.598381 */;

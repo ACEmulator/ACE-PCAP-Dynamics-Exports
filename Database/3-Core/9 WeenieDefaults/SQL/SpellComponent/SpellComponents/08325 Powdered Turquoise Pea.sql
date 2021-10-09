@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8325,   1, 'Powdered Turquoise Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8325,   1,   33555208) /* Setup */
-     , (8325,   3,  536870932) /* SoundTable */
-     , (8325,   6,   67111919) /* PaletteBase */
-     , (8325,   8,  100671069) /* Icon */
-     , (8325,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8325,   1, 0x02000308) /* Setup */
+     , (8325,   3, 0x20000014) /* SoundTable */
+     , (8325,   6, 0x04000BEF) /* PaletteBase */
+     , (8325,   8, 0x06001E5D) /* Icon */
+     , (8325,  22, 0x3400002B) /* PhysicsEffectTable */;

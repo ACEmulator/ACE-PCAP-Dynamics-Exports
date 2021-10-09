@@ -31,8 +31,8 @@ VALUES (32758,   1, 'Prismatic Oil') /* Name */
      , (32758,  16, 'A clear vial of viscous oil with prismatic colors spinning in it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32758,   1,   33555965) /* Setup */
-     , (32758,   3,  536870932) /* SoundTable */
-     , (32758,   6,   67111919) /* PaletteBase */
-     , (32758,   8,  100672867) /* Icon */
-     , (32758,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32758,   1, 0x020005FD) /* Setup */
+     , (32758,   3, 0x20000014) /* SoundTable */
+     , (32758,   6, 0x04000BEF) /* PaletteBase */
+     , (32758,   8, 0x06002563) /* Icon */
+     , (32758,  22, 0x3400002B) /* PhysicsEffectTable */;

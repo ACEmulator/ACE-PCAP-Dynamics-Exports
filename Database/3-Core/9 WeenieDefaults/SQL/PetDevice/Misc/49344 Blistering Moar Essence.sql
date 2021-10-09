@@ -39,10 +39,10 @@ VALUES (49344,   1, 'Blistering Moar Essence') /* Name */
      , (49344,  14, 'Use this essence to summon or dismiss your Blistering Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49344,   1,   33554817) /* Setup */
-     , (49344,   3,  536870932) /* SoundTable */
-     , (49344,   6,   67111919) /* PaletteBase */
-     , (49344,   8,  100693034) /* Icon */
-     , (49344,  22,  872415275) /* PhysicsEffectTable */
-     , (49344,  50,  100693032) /* IconOverlay */
-     , (49344,  52,  100693024) /* IconUnderlay */;
+VALUES (49344,   1, 0x02000181) /* Setup */
+     , (49344,   3, 0x20000014) /* SoundTable */
+     , (49344,   6, 0x04000BEF) /* PaletteBase */
+     , (49344,   8, 0x0600742A) /* Icon */
+     , (49344,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49344,  50, 0x06007428) /* IconOverlay */
+     , (49344,  52, 0x06007420) /* IconUnderlay */;

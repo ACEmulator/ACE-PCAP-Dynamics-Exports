@@ -15,15 +15,15 @@ VALUES (0x75421002, 23566, 0x54210021, 104.8296, 7.029056, 70.34902, 1, 0, 0, 0,
 /* @teleloc 0x54210021 [104.829600 7.029056 70.349020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75421003, 10810, 0x5421003F, 177.7924, 166.191, 76.30094, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Rampager */
+VALUES (0x75421003, 10810, 0x5421003F, 177.7924, 166.191, 76.30094, 0.887011, 0, 0, -0.461749,  True, '2019-02-10 00:00:00'); /* Rampager */
 /* @teleloc 0x5421003F [177.792400 166.191000 76.300940] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75421004,  7184, 0x5421003F, 179.3924, 158.3526, 75.36766, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+VALUES (0x75421004,  7184, 0x5421003F, 179.3924, 158.3526, 75.36766, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
 /* @teleloc 0x5421003F [179.392400 158.352600 75.367660] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75421005,  7112, 0x54210010, 45.90329, 183.1283, 68, 0.8626235, 0, 0, -0.5058465,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
+VALUES (0x75421005,  7112, 0x54210010, 45.90329, 183.1283, 68, 0.862624, 0, 0, -0.505847,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
 /* @teleloc 0x54210010 [45.903290 183.128300 68.000000] 0.862624 0.000000 0.000000 -0.505847 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

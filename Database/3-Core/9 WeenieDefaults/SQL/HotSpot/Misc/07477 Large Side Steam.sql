@@ -18,10 +18,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7477,   1, 'Large Side Steam') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7477,   1,   33556691) /* Setup */
-     , (7477,   3,  536870994) /* SoundTable */
-     , (7477,   8,  100667465) /* Icon */;
+VALUES (7477,   1, 0x020008D3) /* Setup */
+     , (7477,   3, 0x20000052) /* SoundTable */
+     , (7477,   8, 0x06001049) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7477, 8040, 2429616139, 45.88936, 71.28786, 277.6, 0.9413882, 0, 0, -0.3373251) /* PCAPRecordedLocation */
+VALUES (7477, 8040, 0x90D1000B, 45.88936, 71.28786, 277.6, 0.941388, 0, 0, -0.337325) /* PCAPRecordedLocation */
 /* @teleloc 0x90D1000B [45.889360 71.287860 277.600000] 0.941388 0.000000 0.000000 -0.337325 */;

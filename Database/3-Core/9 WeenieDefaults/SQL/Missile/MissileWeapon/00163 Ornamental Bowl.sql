@@ -49,11 +49,11 @@ VALUES (163,   1, 'Ornamental Bowl') /* Name */
      , (163,  16, 'Ornamental Bowl of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (163,   1,   33554929) /* Setup */
-     , (163,   3,  536871012) /* SoundTable */
-     , (163,   6,   67111092) /* PaletteBase */
-     , (163,   8,  100668613) /* Icon */
-     , (163,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (163,   1, 0x020001F1) /* Setup */
+     , (163,   3, 0x20000064) /* SoundTable */
+     , (163,   6, 0x040008B4) /* PaletteBase */
+     , (163,   8, 0x060014C5) /* Icon */
+     , (163,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (163,  1376,      2)  /* CoordinationSelf4 */;

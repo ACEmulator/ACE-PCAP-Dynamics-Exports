@@ -60,7 +60,7 @@ VALUES (0x7040D004, 25887, 0x040D001D, 75.51751, 97.45222, 94.97697, 1, 0, 0, 0,
 /* @teleloc 0x040D001D [75.517510 97.452220 94.976970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7040D005, 25877, 0x040D0001, 0.0006573796, 15.40202, 75.98202, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Contagion Rat */
+VALUES (0x7040D005, 25877, 0x040D0001, 0.000657, 15.40202, 75.98202, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Contagion Rat */
 /* @teleloc 0x040D0001 [0.000657 15.402020 75.982020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -180,7 +180,7 @@ VALUES (0x7040D022, 31402, 0x040D0032, 167.6497, 34.16645, 92.18263, 1, 0, 0, 0,
 /* @teleloc 0x040D0032 [167.649700 34.166450 92.182630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7040D023, 25861, 0x040D0002, 0.1709747, 31.45405, 110.901, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Graal Margul */
+VALUES (0x7040D023, 25861, 0x040D0002, 0.170975, 31.45405, 110.901, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Graal Margul */
 /* @teleloc 0x040D0002 [0.170975 31.454050 110.901000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

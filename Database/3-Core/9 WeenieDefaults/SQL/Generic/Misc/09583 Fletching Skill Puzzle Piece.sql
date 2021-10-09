@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9583,   1, 'Fletching Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9583,   1,   33554680) /* Setup */
-     , (9583,   3,  536870932) /* SoundTable */
-     , (9583,   8,  100671543) /* Icon */
-     , (9583,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9583,   1, 0x020000F8) /* Setup */
+     , (9583,   3, 0x20000014) /* SoundTable */
+     , (9583,   8, 0x06002037) /* Icon */
+     , (9583,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9583, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

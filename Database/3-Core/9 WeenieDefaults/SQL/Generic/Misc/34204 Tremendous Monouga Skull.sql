@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34204,   1, 'Tremendous Monouga Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34204,   1,   33560122) /* Setup */
-     , (34204,   3,  536870932) /* SoundTable */
-     , (34204,   8,  100689221) /* Icon */
-     , (34204,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34204,   1, 0x0200163A) /* Setup */
+     , (34204,   3, 0x20000014) /* SoundTable */
+     , (34204,   8, 0x06006545) /* Icon */
+     , (34204,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,12 +27,12 @@ VALUES (53209,   1, 'Guardian of Maple') /* Name */
      , (53209,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53209,   1,   33558954) /* Setup */
-     , (53209,   2,  150995147) /* MotionTable */
-     , (53209,   3,  536871052) /* SoundTable */
-     , (53209,   8,  100688311) /* Icon */
-     , (53209,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53209,   1, 0x020011AA) /* Setup */
+     , (53209,   2, 0x090000CB) /* MotionTable */
+     , (53209,   3, 0x2000008C) /* SoundTable */
+     , (53209,   8, 0x060061B7) /* Icon */
+     , (53209,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53209, 8040, 3007905820, 72.5, 92.4, 61.9, 0.2588191, 0, 0, -0.9659258) /* PCAPRecordedLocation */
+VALUES (53209, 8040, 0xB349001C, 72.5, 92.4, 61.9, 0.258819, 0, 0, -0.965926) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001C [72.500000 92.400000 61.900000] 0.258819 0.000000 0.000000 -0.965926 */;

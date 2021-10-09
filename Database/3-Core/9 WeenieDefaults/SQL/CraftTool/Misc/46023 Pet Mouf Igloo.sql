@@ -27,7 +27,7 @@ VALUES (46023,   1, 'Pet Mouf Igloo') /* Name */
      , (46023,  16, 'A small igloo that the cookie loving pet penguin Mouf lives in. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46023,   1,   33560149) /* Setup */
-     , (46023,   3,  536870932) /* SoundTable */
-     , (46023,   8,  100689285) /* Icon */
-     , (46023,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46023,   1, 0x02001655) /* Setup */
+     , (46023,   3, 0x20000014) /* SoundTable */
+     , (46023,   8, 0x06006585) /* Icon */
+     , (46023,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,7 +21,7 @@ VALUES (22363,   1, 'Item Tinkering Gem of Enlightenment') /* Name */
      , (22363,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to train the Item Tinkering skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22363,   1,   33558088) /* Setup */
-     , (22363,   6,   67111919) /* PaletteBase */
-     , (22363,   8,  100673788) /* Icon */
-     , (22363,  50,  100673768) /* IconOverlay */;
+VALUES (22363,   1, 0x02000E48) /* Setup */
+     , (22363,   6, 0x04000BEF) /* PaletteBase */
+     , (22363,   8, 0x060028FC) /* Icon */
+     , (22363,  50, 0x060028E8) /* IconOverlay */;

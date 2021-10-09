@@ -19,9 +19,9 @@ VALUES (29112,   1, 'Glorious Lager') /* Name */
      , (29112,  20, 'Bottles of Glorious Lager') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29112,   1,   33559127) /* Setup */
-     , (29112,   3,  536870932) /* SoundTable */
-     , (29112,   8,  100686472) /* Icon */
-     , (29112,  22,  872415275) /* PhysicsEffectTable */
-     , (29112,  50,  100687548) /* IconOverlay */
-     , (29112,  52,  100687547) /* IconUnderlay */;
+VALUES (29112,   1, 0x02001257) /* Setup */
+     , (29112,   3, 0x20000014) /* SoundTable */
+     , (29112,   8, 0x06005A88) /* Icon */
+     , (29112,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29112,  50, 0x06005EBC) /* IconOverlay */
+     , (29112,  52, 0x06005EBB) /* IconUnderlay */;

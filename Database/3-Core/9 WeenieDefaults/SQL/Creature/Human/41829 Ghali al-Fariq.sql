@@ -31,20 +31,20 @@ VALUES (41829,   1, 'Ghali al-Fariq') /* Name */
      , (41829,   5, 'Society Contractor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41829,   1,   33554433) /* Setup */
-     , (41829,   2,  150994945) /* MotionTable */
-     , (41829,   3,  536870913) /* SoundTable */
-     , (41829,   6,   67108990) /* PaletteBase */
-     , (41829,   8,  100667377) /* Icon */
-     , (41829,   9,   83890484) /* EyesTexture */
-     , (41829,  10,   83890555) /* NoseTexture */
-     , (41829,  11,   83890654) /* MouthTexture */
-     , (41829,  15,   67117020) /* HairPalette */
-     , (41829,  16,   67110063) /* EyesPalette */
-     , (41829,  17,   67109551) /* SkinPalette */;
+VALUES (41829,   1, 0x02000001) /* Setup */
+     , (41829,   2, 0x09000001) /* MotionTable */
+     , (41829,   3, 0x20000001) /* SoundTable */
+     , (41829,   6, 0x0400007E) /* PaletteBase */
+     , (41829,   8, 0x06000FF1) /* Icon */
+     , (41829,   9, 0x05001134) /* EyesTexture */
+     , (41829,  10, 0x0500117B) /* NoseTexture */
+     , (41829,  11, 0x050011DE) /* MouthTexture */
+     , (41829,  15, 0x04001FDC) /* HairPalette */
+     , (41829,  16, 0x040004AF) /* EyesPalette */
+     , (41829,  17, 0x040002AF) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41829, 8040, 12124780, 153.555, -31.8394, -17.995, 0.8067039, 0, 0, -0.5909559) /* PCAPRecordedLocation */
+VALUES (41829, 8040, 0x00B9026C, 153.555, -31.8394, -17.995, 0.806704, 0, 0, -0.590956) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026C [153.555000 -31.839400 -17.995000] 0.806704 0.000000 0.000000 -0.590956 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

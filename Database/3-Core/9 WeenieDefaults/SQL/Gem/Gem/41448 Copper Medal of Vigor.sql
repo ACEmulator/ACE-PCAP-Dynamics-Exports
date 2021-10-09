@@ -27,8 +27,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41448,   1, 'Copper Medal of Vigor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41448,   1,   33554802) /* Setup */
-     , (41448,   3,  536870932) /* SoundTable */
-     , (41448,   8,  100690739) /* Icon */
-     , (41448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41448,   1, 0x02000172) /* Setup */
+     , (41448,   3, 0x20000014) /* SoundTable */
+     , (41448,   8, 0x06006B33) /* Icon */
+     , (41448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41448,  28,       5128) /* Spell - AnswerOfLoyaltyStam1 */;

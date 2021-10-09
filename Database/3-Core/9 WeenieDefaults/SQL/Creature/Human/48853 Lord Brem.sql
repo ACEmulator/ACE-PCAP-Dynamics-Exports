@@ -31,21 +31,21 @@ VALUES (48853,   1, 'Lord Brem') /* Name */
      , (48853,   5, 'Royal Knight Mage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48853,   1,   33561110) /* Setup */
-     , (48853,   2,  150995470) /* MotionTable */
-     , (48853,   3,  536870913) /* SoundTable */
-     , (48853,   6,   67108990) /* PaletteBase */
-     , (48853,   8,  100667446) /* Icon */
-     , (48853,   9,   83890494) /* EyesTexture */
-     , (48853,  10,   83890553) /* NoseTexture */
-     , (48853,  11,   83890662) /* MouthTexture */
-     , (48853,  15,   67116994) /* HairPalette */
-     , (48853,  16,   67116855) /* EyesPalette */
-     , (48853,  17,   67115906) /* SkinPalette */
-     , (48853,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (48853,   1, 0x02001A16) /* Setup */
+     , (48853,   2, 0x0900020E) /* MotionTable */
+     , (48853,   3, 0x20000001) /* SoundTable */
+     , (48853,   6, 0x0400007E) /* PaletteBase */
+     , (48853,   8, 0x06001036) /* Icon */
+     , (48853,   9, 0x0500113E) /* EyesTexture */
+     , (48853,  10, 0x05001179) /* NoseTexture */
+     , (48853,  11, 0x050011E6) /* MouthTexture */
+     , (48853,  15, 0x04001FC2) /* HairPalette */
+     , (48853,  16, 0x04001F37) /* EyesPalette */
+     , (48853,  17, 0x04001B82) /* SkinPalette */
+     , (48853,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48853, 8040, 1239679019, 121.145, 61.7922, 12.006, -0.508359, 0, 0, 0.861145) /* PCAPRecordedLocation */
+VALUES (48853, 8040, 0x49E4002B, 121.145, 61.7922, 12.006, -0.508359, 0, 0, 0.861145) /* PCAPRecordedLocation */
 /* @teleloc 0x49E4002B [121.145000 61.792200 12.006000] -0.508359 0.000000 0.000000 0.861145 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

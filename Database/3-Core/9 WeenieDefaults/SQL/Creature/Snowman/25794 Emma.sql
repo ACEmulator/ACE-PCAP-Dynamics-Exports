@@ -28,13 +28,13 @@ VALUES (25794,   1, 'Emma') /* Name */
      , (25794,   5, 'Mother') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25794,   1,   33558520) /* Setup */
-     , (25794,   2,  150995088) /* MotionTable */
-     , (25794,   3,  536871000) /* SoundTable */
-     , (25794,   8,  100669125) /* Icon */;
+VALUES (25794,   1, 0x02000FF8) /* Setup */
+     , (25794,   2, 0x09000090) /* MotionTable */
+     , (25794,   3, 0x20000058) /* SoundTable */
+     , (25794,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25794, 8040, 2670264590, 11.9911, 126.915, 290, 0.9621962, 0, 0, -0.272357) /* PCAPRecordedLocation */
+VALUES (25794, 8040, 0x9F29010E, 11.9911, 126.915, 290, 0.962196, 0, 0, -0.272357) /* PCAPRecordedLocation */
 /* @teleloc 0x9F29010E [11.991100 126.915000 290.000000] 0.962196 0.000000 0.000000 -0.272357 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -19,8 +19,8 @@ VALUES (33959,   1, 'Crystal of Fiery Elemental Essence') /* Name */
      , (33959,  16, 'A crystal of Fiery Elemental Essence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33959,   1,   33556407) /* Setup */
-     , (33959,   3,  536870932) /* SoundTable */
-     , (33959,   6,   67111919) /* PaletteBase */
-     , (33959,   8,  100670496) /* Icon */
-     , (33959,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33959,   1, 0x020007B7) /* Setup */
+     , (33959,   3, 0x20000014) /* SoundTable */
+     , (33959,   6, 0x04000BEF) /* PaletteBase */
+     , (33959,   8, 0x06001C20) /* Icon */
+     , (33959,  22, 0x3400002B) /* PhysicsEffectTable */;

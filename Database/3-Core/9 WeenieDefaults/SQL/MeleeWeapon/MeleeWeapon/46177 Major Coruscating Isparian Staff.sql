@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46177,   1, 'Major Coruscating Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46177,   1,   33556372) /* Setup */
-     , (46177,   3,  536870932) /* SoundTable */
-     , (46177,   6,   67111919) /* PaletteBase */
-     , (46177,   8,  100672937) /* Icon */
-     , (46177,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46177,   1, 0x02000794) /* Setup */
+     , (46177,   3, 0x20000014) /* SoundTable */
+     , (46177,   6, 0x04000BEF) /* PaletteBase */
+     , (46177,   8, 0x060025A9) /* Icon */
+     , (46177,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46177, 8040, 3332964380, 81.45073, 89.90695, 41.929, -0.2880872, -0.2880872, -0.6457598, -0.6457598) /* PCAPRecordedLocation */
+VALUES (46177, 8040, 0xC6A9001C, 81.45073, 89.90695, 41.929, -0.288087, -0.288087, -0.64576, -0.64576) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [81.450730 89.906950 41.929000] -0.288087 -0.288087 -0.645760 -0.645760 */;

@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11486,   1, 'Kithless Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11486,   1,   33557059) /* Setup */
-     , (11486,   2,  150995131) /* MotionTable */
-     , (11486,   3,  536871034) /* SoundTable */
-     , (11486,   6,   67113247) /* PaletteBase */
-     , (11486,   8,  100671751) /* Icon */
-     , (11486,  22,  872415376) /* PhysicsEffectTable */;
+VALUES (11486,   1, 0x02000A43) /* Setup */
+     , (11486,   2, 0x090000BB) /* MotionTable */
+     , (11486,   3, 0x2000007A) /* SoundTable */
+     , (11486,   6, 0x0400111F) /* PaletteBase */
+     , (11486,   8, 0x06002107) /* Icon */
+     , (11486,  22, 0x34000090) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11486, 8040, 548929554, 54.12389, 34.41125, 89.98801, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11486, 8040, 0x20B80012, 54.12389, 34.41125, 89.98801, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x20B80012 [54.123890 34.411250 89.988010] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

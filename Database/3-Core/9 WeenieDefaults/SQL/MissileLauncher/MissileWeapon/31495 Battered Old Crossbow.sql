@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31495,   1, 'Battered Old Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31495,   1,   33559590) /* Setup */
-     , (31495,   3,  536870932) /* SoundTable */
-     , (31495,   8,  100687873) /* Icon */
-     , (31495,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31495,   1, 0x02001426) /* Setup */
+     , (31495,   3, 0x20000014) /* SoundTable */
+     , (31495,   8, 0x06006001) /* Icon */
+     , (31495,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31495,  1604,      2)  /* DefenderSelf5 */

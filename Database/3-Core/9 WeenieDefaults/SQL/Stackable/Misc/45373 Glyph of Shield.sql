@@ -19,9 +19,9 @@ VALUES (45373,   1, 'Glyph of Shield') /* Name */
      , (45373,  20, 'Glyphs of Shield') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45373,   1,   33554809) /* Setup */
-     , (45373,   3,  536870932) /* SoundTable */
-     , (45373,   6,   67111919) /* PaletteBase */
-     , (45373,   8,  100690191) /* Icon */
-     , (45373,  22,  872415275) /* PhysicsEffectTable */
-     , (45373,  50,  100692246) /* IconOverlay */;
+VALUES (45373,   1, 0x02000179) /* Setup */
+     , (45373,   3, 0x20000014) /* SoundTable */
+     , (45373,   6, 0x04000BEF) /* PaletteBase */
+     , (45373,   8, 0x0600690F) /* Icon */
+     , (45373,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45373,  50, 0x06007116) /* IconOverlay */;

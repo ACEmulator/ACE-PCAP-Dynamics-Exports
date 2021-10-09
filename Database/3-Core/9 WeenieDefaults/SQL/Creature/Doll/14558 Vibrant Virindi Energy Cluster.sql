@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14558,   1, 'Vibrant Virindi Energy Cluster') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14558,   1,   33557522) /* Setup */
-     , (14558,   2,  150994984) /* MotionTable */
-     , (14558,   3,  536871022) /* SoundTable */
-     , (14558,   8,  100672521) /* Icon */
-     , (14558,  22,  872415373) /* PhysicsEffectTable */
+VALUES (14558,   1, 0x02000C12) /* Setup */
+     , (14558,   2, 0x09000028) /* MotionTable */
+     , (14558,   3, 0x2000006E) /* SoundTable */
+     , (14558,   8, 0x06002409) /* Icon */
+     , (14558,  22, 0x3400008D) /* PhysicsEffectTable */
      , (14558,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14558, 8040, 1382810496, 129.9174, -96.17555, -11.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (14558, 8040, 0x526C0380, 129.9174, -96.17555, -11.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x526C0380 [129.917400 -96.175550 -11.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

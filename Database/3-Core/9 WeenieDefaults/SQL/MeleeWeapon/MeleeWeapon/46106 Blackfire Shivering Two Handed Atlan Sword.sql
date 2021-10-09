@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46106,   1, 'Blackfire Shivering Two Handed Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46106,   1,   33556385) /* Setup */
-     , (46106,   3,  536870932) /* SoundTable */
-     , (46106,   6,   67111919) /* PaletteBase */
-     , (46106,   8,  100692938) /* Icon */
-     , (46106,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46106,   1, 0x020007A1) /* Setup */
+     , (46106,   3, 0x20000014) /* SoundTable */
+     , (46106,   6, 0x04000BEF) /* PaletteBase */
+     , (46106,   8, 0x060073CA) /* Icon */
+     , (46106,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46106, 8040, 760283138, 192.0249, 22.30174, -0.071, -0.706676, -0.706676, -0.02467764, -0.02467764) /* PCAPRecordedLocation */
+VALUES (46106, 8040, 0x2D510002, 192.0249, 22.30174, -0.071, -0.706676, -0.706676, -0.024678, -0.024678) /* PCAPRecordedLocation */
 /* @teleloc 0x2D510002 [192.024900 22.301740 -0.071000] -0.706676 -0.706676 -0.024678 -0.024678 */;

@@ -30,7 +30,7 @@ VALUES (35561,   1, 'Virindi Message Shard') /* Name */
      , (35561,  16, 'A message shard retrieved from the corpse of the Virindi Archivist.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35561,   1,   33555391) /* Setup */
-     , (35561,   3,  536870932) /* SoundTable */
-     , (35561,   8,  100671395) /* Icon */
-     , (35561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35561,   1, 0x020003BF) /* Setup */
+     , (35561,   3, 0x20000014) /* SoundTable */
+     , (35561,   8, 0x06001FA3) /* Icon */
+     , (35561,  22, 0x3400002B) /* PhysicsEffectTable */;

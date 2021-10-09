@@ -27,7 +27,7 @@ VALUES (34196,   1, 'White Anniversary Sparkler') /* Name */
      , (34196,  16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34196,   1,   33560120) /* Setup */
-     , (34196,   3,  536870932) /* SoundTable */
-     , (34196,   8,  100689217) /* Icon */
-     , (34196,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34196,   1, 0x02001638) /* Setup */
+     , (34196,   3, 0x20000014) /* SoundTable */
+     , (34196,   8, 0x06006541) /* Icon */
+     , (34196,  22, 0x3400002B) /* PhysicsEffectTable */;

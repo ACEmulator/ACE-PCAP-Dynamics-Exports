@@ -40,16 +40,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28815,   1, 'Kul''dir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28815,   1,   33559347) /* Setup */
-     , (28815,   3,  536870932) /* SoundTable */
-     , (28815,   8,  100686387) /* Icon */
-     , (28815,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28815,   1, 0x02001333) /* Setup */
+     , (28815,   3, 0x20000014) /* SoundTable */
+     , (28815,   8, 0x06005A33) /* Icon */
+     , (28815,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28815, 8040, 1240465455, 136.9125, 163.0731, 169.926, 0.3450876, 0.722864, -0.4329566, 0.4134378) /* PCAPRecordedLocation */
+VALUES (28815, 8040, 0x49F0002F, 136.9125, 163.0731, 169.926, 0.345088, 0.722864, -0.432957, 0.413438) /* PCAPRecordedLocation */
 /* @teleloc 0x49F0002F [136.912500 163.073100 169.926000] 0.345088 0.722864 -0.432957 0.413438 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28815,   246,      2)  /* InvulnerabilitySelf3 */
-     , (28815,  1091,      2)  /* FireProtectionSelf3 */
-     , (28815,  1483,      2)  /* Impenetrability3 */;
+VALUES (28815,  1091,      2)  /* FireProtectionSelf3 */
+     , (28815,  1483,      2)  /* Impenetrability3 */
+     , (28815,   246,      2)  /* InvulnerabilitySelf3 */;

@@ -24,8 +24,8 @@ VALUES (24470,   1, 'Harker''s Head') /* Name */
      , (24470,  16, 'This head once belonged to the Simulacra Harker who has been terrorizing the inhabitants of Martine''s Retreat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24470,   1,   33554817) /* Setup */
-     , (24470,   3,  536870932) /* SoundTable */
-     , (24470,   6,   67111919) /* PaletteBase */
-     , (24470,   8,  100674333) /* Icon */
-     , (24470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24470,   1, 0x02000181) /* Setup */
+     , (24470,   3, 0x20000014) /* SoundTable */
+     , (24470,   6, 0x04000BEF) /* PaletteBase */
+     , (24470,   8, 0x06002B1D) /* Icon */
+     , (24470,  22, 0x3400002B) /* PhysicsEffectTable */;

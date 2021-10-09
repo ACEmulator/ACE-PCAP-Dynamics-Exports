@@ -18,9 +18,9 @@ VALUES (42995,   1, 'Fort Tethana') /* Name */
      , (42995,  16, 'An Aluvian outpost located within the Dires, Fort Tethana has been plagued with attacks from renegades. At one point the commander at Tethana reached out to the Viamontians in search of assistance. Instead of receiving help, the commander was turned mad and hope of the fort ever being freed seemed lost. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42995,   1,   33561065) /* Setup */
-     , (42995,   8,  100668115) /* Icon */;
+VALUES (42995,   1, 0x020019E9) /* Setup */
+     , (42995,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42995, 8040, 459070, 70, -5.10151, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42995, 8040, 0x0007013E, 70, -5.10151, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007013E [70.000000 -5.101510 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;

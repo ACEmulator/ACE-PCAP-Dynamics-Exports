@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3869,   1, 'Acid Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3869,   1,   33555775) /* Setup */
-     , (3869,   3,  536870932) /* SoundTable */
-     , (3869,   8,  100668164) /* Icon */
-     , (3869,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3869,   1, 0x0200053F) /* Setup */
+     , (3869,   3, 0x20000014) /* SoundTable */
+     , (3869,   8, 0x06001304) /* Icon */
+     , (3869,  22, 0x3400002B) /* PhysicsEffectTable */;

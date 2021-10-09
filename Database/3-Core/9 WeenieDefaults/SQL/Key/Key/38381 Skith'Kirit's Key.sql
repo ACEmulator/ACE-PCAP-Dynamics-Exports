@@ -24,11 +24,11 @@ VALUES (38381,   1, 'Skith''Kirit''s Key') /* Name */
      , (38381,  16, 'An old, intricate silver key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38381,   1,   33554784) /* Setup */
-     , (38381,   3,  536870932) /* SoundTable */
-     , (38381,   8,  100670820) /* Icon */
-     , (38381,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38381,   1, 0x02000160) /* Setup */
+     , (38381,   3, 0x20000014) /* SoundTable */
+     , (38381,   8, 0x06001D64) /* Icon */
+     , (38381,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38381, 8040, 12255859, 26.6362, -73.3618, -11.976, 0.03200149, 0, 0, 0.9994878) /* PCAPRecordedLocation */
+VALUES (38381, 8040, 0x00BB0273, 26.6362, -73.3618, -11.976, 0.032001, 0, 0, 0.999488) /* PCAPRecordedLocation */
 /* @teleloc 0x00BB0273 [26.636200 -73.361800 -11.976000] 0.032001 0.000000 0.000000 0.999488 */;

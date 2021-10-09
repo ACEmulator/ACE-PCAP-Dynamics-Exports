@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9037,   1, 'Exarch Plate Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9037,   1,   33554647) /* Setup */
-     , (9037,   3,  536870932) /* SoundTable */
-     , (9037,   6,   67108990) /* PaletteBase */
-     , (9037,   8,  100671350) /* Icon */
-     , (9037,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9037,   1, 0x020000D7) /* Setup */
+     , (9037,   3, 0x20000014) /* SoundTable */
+     , (9037,   6, 0x0400007E) /* PaletteBase */
+     , (9037,   8, 0x06001F76) /* Icon */
+     , (9037,  22, 0x3400002B) /* PhysicsEffectTable */;

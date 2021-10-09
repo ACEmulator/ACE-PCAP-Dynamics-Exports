@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19291,   1, 'Bronze Statue of a Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19291,   1,   33554487) /* Setup */
-     , (19291,   2,  150995184) /* MotionTable */
-     , (19291,   3,  536871052) /* SoundTable */
-     , (19291,   6,   67109307) /* PaletteBase */
-     , (19291,   8,  100667938) /* Icon */
-     , (19291,  22,  872415384) /* PhysicsEffectTable */
+VALUES (19291,   1, 0x02000037) /* Setup */
+     , (19291,   2, 0x090000F0) /* MotionTable */
+     , (19291,   3, 0x2000008C) /* SoundTable */
+     , (19291,   6, 0x040001BB) /* PaletteBase */
+     , (19291,   8, 0x06001222) /* Icon */
+     , (19291,  22, 0x34000098) /* PhysicsEffectTable */
      , (19291,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19291, 8040, 1415184728, 39.2578, -62.253, 6.0065, 0.8206493, 0, 0, 0.5714322) /* PCAPRecordedLocation */
+VALUES (19291, 8040, 0x545A0158, 39.2578, -62.253, 6.0065, 0.820649, 0, 0, 0.571432) /* PCAPRecordedLocation */
 /* @teleloc 0x545A0158 [39.257800 -62.253000 6.006500] 0.820649 0.000000 0.000000 0.571432 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

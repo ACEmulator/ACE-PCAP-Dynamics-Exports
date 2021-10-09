@@ -23,7 +23,7 @@ VALUES (3509,   1, 'Scroll of Light Weapon Mastery Self III') /* Name */
 Increases the caster''s Light Weapons skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3509,   1,   33554826) /* Setup */
-     , (3509,   8,  100692249) /* Icon */
-     , (3509,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3509,   1, 0x0200018A) /* Setup */
+     , (3509,   8, 0x06007119) /* Icon */
+     , (3509,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3509,  28,        300) /* Spell - LightWeaponsMasterySelf3 */;

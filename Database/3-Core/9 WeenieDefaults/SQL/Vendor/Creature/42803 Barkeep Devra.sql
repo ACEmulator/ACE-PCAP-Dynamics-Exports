@@ -34,20 +34,20 @@ VALUES (42803,   1, 'Barkeep Devra') /* Name */
      , (42803,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42803,   1,   33554510) /* Setup */
-     , (42803,   2,  150994945) /* MotionTable */
-     , (42803,   3,  536870914) /* SoundTable */
-     , (42803,   6,   67108990) /* PaletteBase */
-     , (42803,   8,  100667446) /* Icon */
-     , (42803,   9,   83890263) /* EyesTexture */
-     , (42803,  10,   83890316) /* NoseTexture */
-     , (42803,  11,   83890338) /* MouthTexture */
-     , (42803,  15,   67117073) /* HairPalette */
-     , (42803,  16,   67110062) /* EyesPalette */
-     , (42803,  17,   67109557) /* SkinPalette */;
+VALUES (42803,   1, 0x0200004E) /* Setup */
+     , (42803,   2, 0x09000001) /* MotionTable */
+     , (42803,   3, 0x20000002) /* SoundTable */
+     , (42803,   6, 0x0400007E) /* PaletteBase */
+     , (42803,   8, 0x06001036) /* Icon */
+     , (42803,   9, 0x05001057) /* EyesTexture */
+     , (42803,  10, 0x0500108C) /* NoseTexture */
+     , (42803,  11, 0x050010A2) /* MouthTexture */
+     , (42803,  15, 0x04002011) /* HairPalette */
+     , (42803,  16, 0x040004AE) /* EyesPalette */
+     , (42803,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42803, 8040, 459028, 16.8735, -70.6118, 0.004999995, 0.08937132, 0, 0, -0.9959984) /* PCAPRecordedLocation */
+VALUES (42803, 8040, 0x00070114, 16.8735, -70.6118, 0.005, 0.089371, 0, 0, -0.995998) /* PCAPRecordedLocation */
 /* @teleloc 0x00070114 [16.873500 -70.611800 0.005000] 0.089371 0.000000 0.000000 -0.995998 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -19,9 +19,9 @@ VALUES (37367,   1, 'Glyph of Light Weapons') /* Name */
      , (37367,  20, 'Glyphs of Light Weapons') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37367,   1,   33554809) /* Setup */
-     , (37367,   3,  536870932) /* SoundTable */
-     , (37367,   6,   67111919) /* PaletteBase */
-     , (37367,   8,  100690191) /* Icon */
-     , (37367,  22,  872415275) /* PhysicsEffectTable */
-     , (37367,  50,  100692242) /* IconOverlay */;
+VALUES (37367,   1, 0x02000179) /* Setup */
+     , (37367,   3, 0x20000014) /* SoundTable */
+     , (37367,   6, 0x04000BEF) /* PaletteBase */
+     , (37367,   8, 0x0600690F) /* Icon */
+     , (37367,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37367,  50, 0x06007112) /* IconOverlay */;

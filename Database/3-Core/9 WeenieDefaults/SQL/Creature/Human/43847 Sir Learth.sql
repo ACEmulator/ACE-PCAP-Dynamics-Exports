@@ -31,21 +31,21 @@ VALUES (43847,   1, 'Sir Learth') /* Name */
      , (43847,   5, 'Royal Knight Mage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43847,   1,   33561110) /* Setup */
-     , (43847,   2,  150994945) /* MotionTable */
-     , (43847,   3,  536870913) /* SoundTable */
-     , (43847,   6,   67108990) /* PaletteBase */
-     , (43847,   8,  100667446) /* Icon */
-     , (43847,   9,   83890515) /* EyesTexture */
-     , (43847,  10,   83890559) /* NoseTexture */
-     , (43847,  11,   83890632) /* MouthTexture */
-     , (43847,  15,   67117022) /* HairPalette */
-     , (43847,  16,   67116856) /* EyesPalette */
-     , (43847,  17,   67116962) /* SkinPalette */
-     , (43847,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (43847,   1, 0x02001A16) /* Setup */
+     , (43847,   2, 0x09000001) /* MotionTable */
+     , (43847,   3, 0x20000001) /* SoundTable */
+     , (43847,   6, 0x0400007E) /* PaletteBase */
+     , (43847,   8, 0x06001036) /* Icon */
+     , (43847,   9, 0x05001153) /* EyesTexture */
+     , (43847,  10, 0x0500117F) /* NoseTexture */
+     , (43847,  11, 0x050011C8) /* MouthTexture */
+     , (43847,  15, 0x04001FDE) /* HairPalette */
+     , (43847,  16, 0x04001F38) /* EyesPalette */
+     , (43847,  17, 0x04001FA2) /* SkinPalette */
+     , (43847,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43847, 8040, 2062024706, 5.40527, 36.104, 120.006, -0.3392268, 0, 0, -0.9407046) /* PCAPRecordedLocation */
+VALUES (43847, 8040, 0x7AE80002, 5.40527, 36.104, 120.006, -0.339227, 0, 0, -0.940705) /* PCAPRecordedLocation */
 /* @teleloc 0x7AE80002 [5.405270 36.104000 120.006000] -0.339227 0.000000 0.000000 -0.940705 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

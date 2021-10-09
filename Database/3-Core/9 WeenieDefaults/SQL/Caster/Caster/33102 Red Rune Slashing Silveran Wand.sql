@@ -45,20 +45,20 @@ VALUES (33102,   1, 'Red Rune Slashing Silveran Wand') /* Name */
      , (33102,  16, 'A spellcasting wand crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33102,   1,   33559921) /* Setup */
-     , (33102,   3,  536870932) /* SoundTable */
-     , (33102,   8,  100688910) /* Icon */
-     , (33102,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33102,   1, 0x02001571) /* Setup */
+     , (33102,   3, 0x20000014) /* SoundTable */
+     , (33102,   8, 0x0600640E) /* Icon */
+     , (33102,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33102,  28,       2146) /* Spell - WhirlingBlade7 */
      , (33102,  37,         34) /* ItemSkillLimit - WarMagic */
-     , (33102,  50,  100688915) /* IconOverlay */;
+     , (33102,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33102, 8040, 3583574080, 176.975, 1.21, 373.4248, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (33102, 8040, 0xD5990040, 176.975, 1.21, 373.4248, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [176.975000 1.210000 373.424800] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33102,  2101,      2)  /* DefenderSelf7 */
-     , (33102,  2117,      2)  /* HermeticLinkSelf7 */
-     , (33102,  2812,      2)  /* ModerateWarMagicAptitude */
-     , (33102,  3259,      2)  /* SpiritDrinkerSelf7 */;
+VALUES (33102,  2117,      2)  /* HermeticLinkSelf7 */
+     , (33102,  2101,      2)  /* DefenderSelf7 */
+     , (33102,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (33102,  2812,      2)  /* ModerateWarMagicAptitude */;

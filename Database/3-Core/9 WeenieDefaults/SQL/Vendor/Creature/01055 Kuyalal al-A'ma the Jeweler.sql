@@ -34,20 +34,20 @@ VALUES (1055,   1, 'Kuyalal al-A''ma the Jeweler') /* Name */
      , (1055,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1055,   1,   33554433) /* Setup */
-     , (1055,   2,  150994945) /* MotionTable */
-     , (1055,   3,  536870913) /* SoundTable */
-     , (1055,   6,   67108990) /* PaletteBase */
-     , (1055,   8,  100667446) /* Icon */
-     , (1055,   9,   83890516) /* EyesTexture */
-     , (1055,  10,   83890536) /* NoseTexture */
-     , (1055,  11,   83890608) /* MouthTexture */
-     , (1055,  15,   67117073) /* HairPalette */
-     , (1055,  16,   67109567) /* EyesPalette */
-     , (1055,  17,   67109550) /* SkinPalette */;
+VALUES (1055,   1, 0x02000001) /* Setup */
+     , (1055,   2, 0x09000001) /* MotionTable */
+     , (1055,   3, 0x20000001) /* SoundTable */
+     , (1055,   6, 0x0400007E) /* PaletteBase */
+     , (1055,   8, 0x06001036) /* Icon */
+     , (1055,   9, 0x05001154) /* EyesTexture */
+     , (1055,  10, 0x05001168) /* NoseTexture */
+     , (1055,  11, 0x050011B0) /* MouthTexture */
+     , (1055,  15, 0x04002011) /* HairPalette */
+     , (1055,  16, 0x040002BF) /* EyesPalette */
+     , (1055,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1055, 8040, 2535588127, 102.88, 106.78, 102.005, 0.8206509, 0, 0, -0.5714299) /* PCAPRecordedLocation */
+VALUES (1055, 8040, 0x9722011F, 102.88, 106.78, 102.005, 0.820651, 0, 0, -0.57143) /* PCAPRecordedLocation */
 /* @teleloc 0x9722011F [102.880000 106.780000 102.005000] 0.820651 0.000000 0.000000 -0.571430 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

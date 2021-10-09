@@ -21,7 +21,7 @@ VALUES (22356,   1, 'Assess Creature Gem of Enlightenment') /* Name */
      , (22356,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Assess Creature skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22356,   1,   33558088) /* Setup */
-     , (22356,   6,   67111919) /* PaletteBase */
-     , (22356,   8,  100673788) /* Icon */
-     , (22356,  50,  100673756) /* IconOverlay */;
+VALUES (22356,   1, 0x02000E48) /* Setup */
+     , (22356,   6, 0x04000BEF) /* PaletteBase */
+     , (22356,   8, 0x060028FC) /* Icon */
+     , (22356,  50, 0x060028DC) /* IconOverlay */;

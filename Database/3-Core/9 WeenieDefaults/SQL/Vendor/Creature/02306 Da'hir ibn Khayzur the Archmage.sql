@@ -34,20 +34,20 @@ VALUES (2306,   1, 'Da''hir ibn Khayzur the Archmage') /* Name */
      , (2306,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2306,   1,   33554433) /* Setup */
-     , (2306,   2,  150994945) /* MotionTable */
-     , (2306,   3,  536870913) /* SoundTable */
-     , (2306,   6,   67108990) /* PaletteBase */
-     , (2306,   8,  100667446) /* Icon */
-     , (2306,   9,   83890516) /* EyesTexture */
-     , (2306,  10,   83890561) /* NoseTexture */
-     , (2306,  11,   83890624) /* MouthTexture */
-     , (2306,  15,   67117077) /* HairPalette */
-     , (2306,  16,   67110062) /* EyesPalette */
-     , (2306,  17,   67109556) /* SkinPalette */;
+VALUES (2306,   1, 0x02000001) /* Setup */
+     , (2306,   2, 0x09000001) /* MotionTable */
+     , (2306,   3, 0x20000001) /* SoundTable */
+     , (2306,   6, 0x0400007E) /* PaletteBase */
+     , (2306,   8, 0x06001036) /* Icon */
+     , (2306,   9, 0x05001154) /* EyesTexture */
+     , (2306,  10, 0x05001181) /* NoseTexture */
+     , (2306,  11, 0x050011C0) /* MouthTexture */
+     , (2306,  15, 0x04002015) /* HairPalette */
+     , (2306,  16, 0x040004AE) /* EyesPalette */
+     , (2306,  17, 0x040002B4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2306, 8040, 2541420844, 100.191, 153.928, 3.205, -0.965528, 0, 0, -0.2602994) /* PCAPRecordedLocation */
+VALUES (2306, 8040, 0x977B012C, 100.191, 153.928, 3.205, -0.965528, 0, 0, -0.260299) /* PCAPRecordedLocation */
 /* @teleloc 0x977B012C [100.191000 153.928000 3.205000] -0.965528 0.000000 0.000000 -0.260299 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

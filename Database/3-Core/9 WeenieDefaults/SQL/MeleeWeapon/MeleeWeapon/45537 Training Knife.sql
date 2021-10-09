@@ -36,12 +36,12 @@ VALUES (45537,   1, 'Training Knife') /* Name */
      , (45537,  15, 'A basic knife forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45537,   1,   33554745) /* Setup */
-     , (45537,   3,  536870932) /* SoundTable */
-     , (45537,   6,   67111919) /* PaletteBase */
-     , (45537,   8,  100668954) /* Icon */
-     , (45537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45537,   1, 0x02000139) /* Setup */
+     , (45537,   3, 0x20000014) /* SoundTable */
+     , (45537,   6, 0x04000BEF) /* PaletteBase */
+     , (45537,   8, 0x0600161A) /* Icon */
+     , (45537,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45537, 8040, 2847146026, 135.7315, 39.39323, 93.92901, -0.5143753, -0.5143753, -0.4851989, -0.4851989) /* PCAPRecordedLocation */
+VALUES (45537, 8040, 0xA9B4002A, 135.7315, 39.39323, 93.92901, -0.514375, -0.514375, -0.485199, -0.485199) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [135.731500 39.393230 93.929010] -0.514375 -0.514375 -0.485199 -0.485199 */;

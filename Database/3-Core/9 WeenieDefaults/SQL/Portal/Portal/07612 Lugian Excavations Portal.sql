@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7612,   1, 'Lugian Excavations Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7612,   1,   33554867) /* Setup */
-     , (7612,   2,  150994947) /* MotionTable */
-     , (7612,   8,  100667499) /* Icon */;
+VALUES (7612,   1, 0x020001B3) /* Setup */
+     , (7612,   2, 0x09000003) /* MotionTable */
+     , (7612,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7612, 8040, 3474915378, 161.676, 31.6362, 193.2097, 0.9888912, 0, 0, 0.148641) /* PCAPRecordedLocation */
+VALUES (7612, 8040, 0xCF1F0032, 161.676, 31.6362, 193.2097, 0.988891, 0, 0, 0.148641) /* PCAPRecordedLocation */
 /* @teleloc 0xCF1F0032 [161.676000 31.636200 193.209700] 0.988891 0.000000 0.000000 0.148641 */;

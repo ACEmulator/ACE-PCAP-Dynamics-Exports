@@ -37,17 +37,17 @@ VALUES (12147,   1, 'Asteliary Orb') /* Name */
      , (12147,  16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12147,   1,   33557353) /* Setup */
-     , (12147,   3,  536870932) /* SoundTable */
-     , (12147,   8,  100672138) /* Icon */
-     , (12147,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12147,   1, 0x02000B69) /* Setup */
+     , (12147,   3, 0x20000014) /* SoundTable */
+     , (12147,   8, 0x0600228A) /* Icon */
+     , (12147,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12147,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12147, 8040, 23855549, 48.52699, -40.50022, -0.071, 0.6651305, 0.6651305, -0.240003, -0.240003) /* PCAPRecordedLocation */
+VALUES (12147, 8040, 0x016C01BD, 48.52699, -40.50022, -0.071, 0.665131, 0.665131, -0.240003, -0.240003) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [48.526990 -40.500220 -0.071000] 0.665131 0.665131 -0.240003 -0.240003 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12147,   658,      2)  /* ManaMasterySelf6 */
-     , (12147,  1426,      2)  /* FocusSelf6 */
+VALUES (12147,  1426,      2)  /* FocusSelf6 */
+     , (12147,   658,      2)  /* ManaMasterySelf6 */
      , (12147,  1450,      2)  /* WillpowerSelf6 */;

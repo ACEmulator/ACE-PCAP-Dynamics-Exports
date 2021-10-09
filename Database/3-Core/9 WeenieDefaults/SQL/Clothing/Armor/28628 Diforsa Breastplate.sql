@@ -44,11 +44,11 @@ VALUES (28628,   1, 'Diforsa Breastplate') /* Name */
      , (28628,  16, 'Diforsa Breastplate of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28628,   1,   33559337) /* Setup */
-     , (28628,   3,  536870932) /* SoundTable */
-     , (28628,   6,   67108990) /* PaletteBase */
-     , (28628,   8,  100686194) /* Icon */
-     , (28628,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28628,   1, 0x02001329) /* Setup */
+     , (28628,   3, 0x20000014) /* SoundTable */
+     , (28628,   6, 0x0400007E) /* PaletteBase */
+     , (28628,   8, 0x06005972) /* Icon */
+     , (28628,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28628,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -23,7 +23,7 @@ VALUES (2135,   1, 'Scroll of Flame Volley III') /* Name */
 Shoots three bolts of flame toward the target. Each bolt does 15-31 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2135,   1,   33554826) /* Setup */
-     , (2135,   8,  100677022) /* Icon */
-     , (2135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2135,   1, 0x0200018A) /* Setup */
+     , (2135,   8, 0x0600359E) /* Icon */
+     , (2135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2135,  28,        143) /* Spell - FlameVolley3 */;

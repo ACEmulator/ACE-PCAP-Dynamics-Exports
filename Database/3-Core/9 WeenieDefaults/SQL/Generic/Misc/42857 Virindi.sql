@@ -18,9 +18,9 @@ VALUES (42857,   1, 'Virindi') /* Name */
      , (42857,  16, 'The Virindi are a mysterious race of levitating beings shrouded by heavy cloaks. Their faces -- if they have faces at all -- are concealed by grotesque, white masks. No one has seen a Virindi without its cloak or mask. Little is known of their intentions, but they are very powerful and capricious, and are potent magic-users. They also wield fearsome sickles, swinging them with unnatural speed. Most reported sightings thus far have been in the Direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42857,   1,   33560999) /* Setup */
-     , (42857,   8,  100668115) /* Icon */;
+VALUES (42857,   1, 0x020019A7) /* Setup */
+     , (42857,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42857, 8040, 459119, 104.94, -84.8751, 0.66, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42857, 8040, 0x0007016F, 104.94, -84.8751, 0.66, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016F [104.940000 -84.875100 0.660000] 0.000000 0.000000 0.000000 -1.000000 */;

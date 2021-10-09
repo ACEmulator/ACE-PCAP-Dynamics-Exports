@@ -29,7 +29,7 @@ VALUES (44295,   1, 'Ancient Tablet of the Crystal Amulet (Level 180+)') /* Name
      , (44295,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal amulet. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44295,   1,   33554773) /* Setup */
-     , (44295,   3,  536870932) /* SoundTable */
-     , (44295,   8,  100691959) /* Icon */
-     , (44295,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44295,   1, 0x02000155) /* Setup */
+     , (44295,   3, 0x20000014) /* SoundTable */
+     , (44295,   8, 0x06006FF7) /* Icon */
+     , (44295,  22, 0x3400002B) /* PhysicsEffectTable */;

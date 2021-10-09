@@ -40,10 +40,10 @@ VALUES (49295,   1, 'K''nath T''soct Essence') /* Name */
      , (49295,  14, 'Use this essence to summon or dismiss your K''nath T''soct.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49295,   1,   33554817) /* Setup */
-     , (49295,   3,  536870932) /* SoundTable */
-     , (49295,   6,   67111919) /* PaletteBase */
-     , (49295,   8,  100693040) /* Icon */
-     , (49295,  22,  872415275) /* PhysicsEffectTable */
-     , (49295,  50,  100693032) /* IconOverlay */
-     , (49295,  52,  100693024) /* IconUnderlay */;
+VALUES (49295,   1, 0x02000181) /* Setup */
+     , (49295,   3, 0x20000014) /* SoundTable */
+     , (49295,   6, 0x04000BEF) /* PaletteBase */
+     , (49295,   8, 0x06007430) /* Icon */
+     , (49295,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49295,  50, 0x06007428) /* IconOverlay */
+     , (49295,  52, 0x06007420) /* IconUnderlay */;

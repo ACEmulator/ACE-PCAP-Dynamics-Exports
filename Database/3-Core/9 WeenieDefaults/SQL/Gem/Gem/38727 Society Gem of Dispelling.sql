@@ -35,9 +35,9 @@ VALUES (38727,   1, 'Society Gem of Dispelling') /* Name */
      , (38727,  20, 'Society Gems of Dispelling') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38727,   1,   33554809) /* Setup */
-     , (38727,   3,  536870932) /* SoundTable */
-     , (38727,   6,   67111919) /* PaletteBase */
-     , (38727,   8,  100671405) /* Icon */
-     , (38727,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38727,   1, 0x02000179) /* Setup */
+     , (38727,   3, 0x20000014) /* SoundTable */
+     , (38727,   6, 0x04000BEF) /* PaletteBase */
+     , (38727,   8, 0x06001FAD) /* Icon */
+     , (38727,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38727,  28,       4331) /* Spell - DispelAllBadSelf8 */;

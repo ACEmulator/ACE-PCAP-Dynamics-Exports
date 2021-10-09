@@ -33,12 +33,12 @@ VALUES (44282,   1, 'Bracelet of Coordination') /* Name */
      , (44282,  16, 'This bracelet increases coordination.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44282,   1,   33554683) /* Setup */
-     , (44282,   3,  536870932) /* SoundTable */
-     , (44282,   6,   67111919) /* PaletteBase */
-     , (44282,   8,  100668625) /* Icon */
-     , (44282,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44282,   1, 0x020000FB) /* Setup */
+     , (44282,   3, 0x20000014) /* SoundTable */
+     , (44282,   6, 0x04000BEF) /* PaletteBase */
+     , (44282,   8, 0x060014D1) /* Icon */
+     , (44282,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44282,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (44282,  4296,      2)  /* CoordinationOther8 */;
+VALUES (44282,  4296,      2)  /* CoordinationOther8 */
+     , (44282,  3963,      2)  /* CANTRIPCOORDINATION3 */;

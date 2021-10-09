@@ -18,9 +18,9 @@ VALUES (12629,   1, 'Mountain Keep Cottages') /* Name */
      , (12629,  16, 'Welcome to Mountain Keep Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12629,   1,   33557463) /* Setup */
-     , (12629,   8,  100668115) /* Icon */;
+VALUES (12629,   1, 0x02000BD7) /* Setup */
+     , (12629,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12629, 8040, 2881355811, 119.942, 62.4604, 98.79497, 0.999977, 0, 0, -0.00675095) /* PCAPRecordedLocation */
+VALUES (12629, 8040, 0xABBE0023, 119.942, 62.4604, 98.79497, 0.999977, 0, 0, -0.006751) /* PCAPRecordedLocation */
 /* @teleloc 0xABBE0023 [119.942000 62.460400 98.794970] 0.999977 0.000000 0.000000 -0.006751 */;

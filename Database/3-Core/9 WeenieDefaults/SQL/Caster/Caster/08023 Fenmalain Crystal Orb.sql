@@ -37,18 +37,18 @@ VALUES (8023,   1, 'Fenmalain Crystal Orb') /* Name */
      , (8023,  16, 'An orb imbued with the power of the Fenmalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8023,   1,   33556767) /* Setup */
-     , (8023,   3,  536870932) /* SoundTable */
-     , (8023,   6,   67111928) /* PaletteBase */
-     , (8023,   8,  100670984) /* Icon */
-     , (8023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8023,   1, 0x0200091F) /* Setup */
+     , (8023,   3, 0x20000014) /* SoundTable */
+     , (8023,   6, 0x04000BF8) /* PaletteBase */
+     , (8023,   8, 0x06001E08) /* Icon */
+     , (8023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8023,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8023, 8040, 19202318, 29.6261, -26.55624, -0.071, 0.427867, 0.427867, -0.5629652, -0.5629652) /* PCAPRecordedLocation */
+VALUES (8023, 8040, 0x0125010E, 29.6261, -26.55624, -0.071, 0.427867, 0.427867, -0.562965, -0.562965) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [29.626100 -26.556240 -0.071000] 0.427867 0.427867 -0.562965 -0.562965 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8023,   558,      2)  /* CreatureEnchantmentMasterySelf2 */
-     , (8023,   583,      2)  /* ItemEnchantmentMasterySelf3 */
-     , (8023,  2011,      2)  /* WizardsLesserIntellect */;
+VALUES (8023,   583,      2)  /* ItemEnchantmentMasterySelf3 */
+     , (8023,  2011,      2)  /* WizardsLesserIntellect */
+     , (8023,   558,      2)  /* CreatureEnchantmentMasterySelf2 */;

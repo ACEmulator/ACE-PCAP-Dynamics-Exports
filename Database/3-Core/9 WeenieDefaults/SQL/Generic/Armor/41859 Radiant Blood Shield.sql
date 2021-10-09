@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41859,   1, 'Radiant Blood Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41859,   1,   33560665) /* Setup */
-     , (41859,   3,  536870932) /* SoundTable */
-     , (41859,   8,  100690261) /* Icon */
-     , (41859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41859,   1, 0x02001859) /* Setup */
+     , (41859,   3, 0x20000014) /* SoundTable */
+     , (41859,   8, 0x06006955) /* Icon */
+     , (41859,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41859, 8040, 2315452797, 83.00128, -136.9161, -0.07400001, 0.3564619, -0.5373489, -0.64903, -0.403672) /* PCAPRecordedLocation */
+VALUES (41859, 8040, 0x8A03017D, 83.00128, -136.9161, -0.074, 0.356462, -0.537349, -0.64903, -0.403672) /* PCAPRecordedLocation */
 /* @teleloc 0x8A03017D [83.001280 -136.916100 -0.074000] 0.356462 -0.537349 -0.649030 -0.403672 */;

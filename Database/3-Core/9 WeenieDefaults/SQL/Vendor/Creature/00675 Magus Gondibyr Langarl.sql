@@ -34,20 +34,20 @@ VALUES (675,   1, 'Magus Gondibyr Langarl') /* Name */
      , (675,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (675,   1,   33554433) /* Setup */
-     , (675,   2,  150994945) /* MotionTable */
-     , (675,   3,  536870913) /* SoundTable */
-     , (675,   6,   67108990) /* PaletteBase */
-     , (675,   8,  100667446) /* Icon */
-     , (675,   9,   83890510) /* EyesTexture */
-     , (675,  10,   83890518) /* NoseTexture */
-     , (675,  11,   83890655) /* MouthTexture */
-     , (675,  15,   67117002) /* HairPalette */
-     , (675,  16,   67109565) /* EyesPalette */
-     , (675,  17,   67109561) /* SkinPalette */;
+VALUES (675,   1, 0x02000001) /* Setup */
+     , (675,   2, 0x09000001) /* MotionTable */
+     , (675,   3, 0x20000001) /* SoundTable */
+     , (675,   6, 0x0400007E) /* PaletteBase */
+     , (675,   8, 0x06001036) /* Icon */
+     , (675,   9, 0x0500114E) /* EyesTexture */
+     , (675,  10, 0x05001156) /* NoseTexture */
+     , (675,  11, 0x050011DF) /* MouthTexture */
+     , (675,  15, 0x04001FCA) /* HairPalette */
+     , (675,  16, 0x040002BD) /* EyesPalette */
+     , (675,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (675, 8040, 3181314304, 35.5068, 130.93, 40.005, -0.0617111, 0, 0, -0.9980941) /* PCAPRecordedLocation */
+VALUES (675, 8040, 0xBD9F0100, 35.5068, 130.93, 40.005, -0.061711, 0, 0, -0.998094) /* PCAPRecordedLocation */
 /* @teleloc 0xBD9F0100 [35.506800 130.930000 40.005000] -0.061711 0.000000 0.000000 -0.998094 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -41,13 +41,13 @@ VALUES (4196,   1, 'Flaming Nekode') /* Name */
      , (4196,  16, 'Flaming Nekode') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4196,   1,   33555989) /* Setup */
-     , (4196,   3,  536870932) /* SoundTable */
-     , (4196,   8,  100670035) /* Icon */
-     , (4196,  22,  872415275) /* PhysicsEffectTable */
-     , (4196,  50,  100688854) /* IconOverlay */
-     , (4196,  52,  100676438) /* IconUnderlay */;
+VALUES (4196,   1, 0x02000615) /* Setup */
+     , (4196,   3, 0x20000014) /* SoundTable */
+     , (4196,   8, 0x06001A53) /* Icon */
+     , (4196,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4196,  50, 0x060063D6) /* IconOverlay */
+     , (4196,  52, 0x06003356) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4196, 8040, 2847146009, 83.97531, 7.103911, 93.92901, -0.05547891, -0.05547891, -0.704927, -0.704927) /* PCAPRecordedLocation */
+VALUES (4196, 8040, 0xA9B40019, 83.97531, 7.103911, 93.92901, -0.055479, -0.055479, -0.704927, -0.704927) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [83.975310 7.103911 93.929010] -0.055479 -0.055479 -0.704927 -0.704927 */;

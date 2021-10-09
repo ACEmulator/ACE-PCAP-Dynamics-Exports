@@ -30,20 +30,20 @@ VALUES (30438,   1, 'Fratellone Ribellarista') /* Name */
      , (30438,   5, 'Townsperson') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30438,   1,   33554433) /* Setup */
-     , (30438,   2,  150994945) /* MotionTable */
-     , (30438,   3,  536870913) /* SoundTable */
-     , (30438,   6,   67108990) /* PaletteBase */
-     , (30438,   8,  100667377) /* Icon */
-     , (30438,   9,   83890514) /* EyesTexture */
-     , (30438,  10,   83890555) /* NoseTexture */
-     , (30438,  11,   83890658) /* MouthTexture */
-     , (30438,  15,   67117080) /* HairPalette */
-     , (30438,  16,   67110064) /* EyesPalette */
-     , (30438,  17,   67115902) /* SkinPalette */;
+VALUES (30438,   1, 0x02000001) /* Setup */
+     , (30438,   2, 0x09000001) /* MotionTable */
+     , (30438,   3, 0x20000001) /* SoundTable */
+     , (30438,   6, 0x0400007E) /* PaletteBase */
+     , (30438,   8, 0x06000FF1) /* Icon */
+     , (30438,   9, 0x05001152) /* EyesTexture */
+     , (30438,  10, 0x0500117B) /* NoseTexture */
+     , (30438,  11, 0x050011E2) /* MouthTexture */
+     , (30438,  15, 0x04002018) /* HairPalette */
+     , (30438,  16, 0x040004B0) /* EyesPalette */
+     , (30438,  17, 0x04001B7E) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30438, 8040, 653000750, 137.161, 126.489, 80.005, -0.571666, 0, 0, -0.820487) /* PCAPRecordedLocation */
+VALUES (30438, 8040, 0x26EC002E, 137.161, 126.489, 80.005, -0.571666, 0, 0, -0.820487) /* PCAPRecordedLocation */
 /* @teleloc 0x26EC002E [137.161000 126.489000 80.005000] -0.571666 0.000000 0.000000 -0.820487 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

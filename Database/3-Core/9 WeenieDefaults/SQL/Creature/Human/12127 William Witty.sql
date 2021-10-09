@@ -29,20 +29,20 @@ VALUES (12127,   1, 'William Witty') /* Name */
      , (12127,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12127,   1,   33554433) /* Setup */
-     , (12127,   2,  150994945) /* MotionTable */
-     , (12127,   3,  536870913) /* SoundTable */
-     , (12127,   6,   67108990) /* PaletteBase */
-     , (12127,   8,  100667446) /* Icon */
-     , (12127,   9,   83890507) /* EyesTexture */
-     , (12127,  10,   83890554) /* NoseTexture */
-     , (12127,  11,   83890570) /* MouthTexture */
-     , (12127,  15,   67117025) /* HairPalette */
-     , (12127,  16,   67110063) /* EyesPalette */
-     , (12127,  17,   67109561) /* SkinPalette */;
+VALUES (12127,   1, 0x02000001) /* Setup */
+     , (12127,   2, 0x09000001) /* MotionTable */
+     , (12127,   3, 0x20000001) /* SoundTable */
+     , (12127,   6, 0x0400007E) /* PaletteBase */
+     , (12127,   8, 0x06001036) /* Icon */
+     , (12127,   9, 0x0500114B) /* EyesTexture */
+     , (12127,  10, 0x0500117A) /* NoseTexture */
+     , (12127,  11, 0x0500118A) /* MouthTexture */
+     , (12127,  15, 0x04001FE1) /* HairPalette */
+     , (12127,  16, 0x040004AF) /* EyesPalette */
+     , (12127,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12127, 8040, 3229548802, 31.1085, 150.694, 47.205, -0.520591, 0, 0, -0.853806) /* PCAPRecordedLocation */
+VALUES (12127, 8040, 0xC07F0102, 31.1085, 150.694, 47.205, -0.520591, 0, 0, -0.853806) /* PCAPRecordedLocation */
 /* @teleloc 0xC07F0102 [31.108500 150.694000 47.205000] -0.520591 0.000000 0.000000 -0.853806 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

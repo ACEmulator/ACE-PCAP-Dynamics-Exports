@@ -52,10 +52,10 @@ VALUES (11421,   1, 'Palenqual''s Okane of the Vortex') /* Name */
      , (11421,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421,   1,   33557234) /* Setup */
-     , (11421,   3,  536870932) /* SoundTable */
-     , (11421,   8,  100672078) /* Icon */
-     , (11421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11421,   1, 0x02000AF2) /* Setup */
+     , (11421,   3, 0x20000014) /* SoundTable */
+     , (11421,   8, 0x0600224E) /* Icon */
+     , (11421,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11421,  2438,      2)  /* RockslideLesser */

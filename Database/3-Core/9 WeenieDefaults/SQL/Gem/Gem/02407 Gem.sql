@@ -31,11 +31,11 @@ VALUES (2407,   1, 'Gem') /* Name */
      , (2407,  16, 'Gem of Blade Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2407,   1,   33554809) /* Setup */
-     , (2407,   3,  536870932) /* SoundTable */
-     , (2407,   6,   67111919) /* PaletteBase */
-     , (2407,   8,  100674717) /* Icon */
-     , (2407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2407,   1, 0x02000179) /* Setup */
+     , (2407,   3, 0x20000014) /* SoundTable */
+     , (2407,   6, 0x04000BEF) /* PaletteBase */
+     , (2407,   8, 0x06002C9D) /* Icon */
+     , (2407,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2407,  1113,      2)  /* BladeProtectionSelf5 */;

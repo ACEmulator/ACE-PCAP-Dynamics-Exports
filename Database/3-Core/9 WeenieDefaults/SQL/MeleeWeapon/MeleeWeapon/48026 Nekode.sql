@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48026,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48026,   1,   33555996) /* Setup */
-     , (48026,   3,  536870932) /* SoundTable */
-     , (48026,   6,   67111919) /* PaletteBase */
-     , (48026,   8,  100670027) /* Icon */
-     , (48026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48026,   1, 0x0200061C) /* Setup */
+     , (48026,   3, 0x20000014) /* SoundTable */
+     , (48026,   6, 0x04000BEF) /* PaletteBase */
+     , (48026,   8, 0x06001A4B) /* Icon */
+     , (48026,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48026, 8040, 151715843, 9.541153, 52.79573, 15.9305, -0.706632, -0.706632, -0.02590732, -0.02590732) /* PCAPRecordedLocation */
+VALUES (48026, 8040, 0x090B0003, 9.541153, 52.79573, 15.9305, -0.706632, -0.706632, -0.025907, -0.025907) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0003 [9.541153 52.795730 15.930500] -0.706632 -0.706632 -0.025907 -0.025907 */;

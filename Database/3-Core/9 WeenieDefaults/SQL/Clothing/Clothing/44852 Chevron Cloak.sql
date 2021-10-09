@@ -48,8 +48,8 @@ VALUES (44852,   1, 'Chevron Cloak') /* Name */
      , (44852,  16, 'Chevron Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44852,   1,   33561386) /* Setup */
-     , (44852,   3,  536870932) /* SoundTable */
-     , (44852,   8,  100692127) /* Icon */
-     , (44852,  22,  872415275) /* PhysicsEffectTable */
-     , (44852,  50,  100690998) /* IconOverlay */;
+VALUES (44852,   1, 0x02001B2A) /* Setup */
+     , (44852,   3, 0x20000014) /* SoundTable */
+     , (44852,   8, 0x0600709F) /* Icon */
+     , (44852,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44852,  50, 0x06006C36) /* IconOverlay */;

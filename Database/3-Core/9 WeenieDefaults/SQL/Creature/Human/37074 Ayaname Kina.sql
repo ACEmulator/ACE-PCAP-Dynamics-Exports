@@ -30,20 +30,20 @@ VALUES (37074,   1, 'Ayaname Kina') /* Name */
      , (37074,   5, 'Hoshino Kei''s Handmaiden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37074,   1,   33554510) /* Setup */
-     , (37074,   2,  150994945) /* MotionTable */
-     , (37074,   3,  536870914) /* SoundTable */
-     , (37074,   6,   67108990) /* PaletteBase */
-     , (37074,   8,  100667446) /* Icon */
-     , (37074,   9,   83890260) /* EyesTexture */
-     , (37074,  10,   83890310) /* NoseTexture */
-     , (37074,  11,   83890327) /* MouthTexture */
-     , (37074,  15,   67117018) /* HairPalette */
-     , (37074,  16,   67109565) /* EyesPalette */
-     , (37074,  17,   67110050) /* SkinPalette */;
+VALUES (37074,   1, 0x0200004E) /* Setup */
+     , (37074,   2, 0x09000001) /* MotionTable */
+     , (37074,   3, 0x20000002) /* SoundTable */
+     , (37074,   6, 0x0400007E) /* PaletteBase */
+     , (37074,   8, 0x06001036) /* Icon */
+     , (37074,   9, 0x05001054) /* EyesTexture */
+     , (37074,  10, 0x05001086) /* NoseTexture */
+     , (37074,  11, 0x05001097) /* MouthTexture */
+     , (37074,  15, 0x04001FDA) /* HairPalette */
+     , (37074,  16, 0x040002BD) /* EyesPalette */
+     , (37074,  17, 0x040004A2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37074, 8040, 3583574336, 161.001, 153.319, 382.3644, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37074, 8040, 0xD5990140, 161.001, 153.319, 382.3644, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990140 [161.001000 153.319000 382.364400] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

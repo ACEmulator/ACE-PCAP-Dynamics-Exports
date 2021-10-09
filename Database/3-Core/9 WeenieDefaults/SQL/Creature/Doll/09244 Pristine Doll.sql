@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9244,   1, 'Pristine Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9244,   1,   33556996) /* Setup */
-     , (9244,   2,  150994984) /* MotionTable */
-     , (9244,   3,  536871022) /* SoundTable */
-     , (9244,   8,  100671421) /* Icon */
-     , (9244,  22,  872415373) /* PhysicsEffectTable */
+VALUES (9244,   1, 0x02000A04) /* Setup */
+     , (9244,   2, 0x09000028) /* MotionTable */
+     , (9244,   3, 0x2000006E) /* SoundTable */
+     , (9244,   8, 0x06001FBD) /* Icon */
+     , (9244,  22, 0x3400008D) /* PhysicsEffectTable */
      , (9244,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9244, 8040, 2520055872, 168.0556, 184.7674, 35.23444, -0.0231769, 0, 0, -0.9997314) /* PCAPRecordedLocation */
+VALUES (9244, 8040, 0x96350040, 168.0556, 184.7674, 35.23444, -0.023177, 0, 0, -0.999731) /* PCAPRecordedLocation */
 /* @teleloc 0x96350040 [168.055600 184.767400 35.234440] -0.023177 0.000000 0.000000 -0.999731 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47205,   1, 'Forge Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47205,   1,   33558436) /* Setup */
-     , (47205,   2,  150994967) /* MotionTable */
-     , (47205,   3,  536870934) /* SoundTable */
-     , (47205,   6,   67114480) /* PaletteBase */
-     , (47205,   8,  100674805) /* Icon */
-     , (47205,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (47205,   1, 0x02000FA4) /* Setup */
+     , (47205,   2, 0x09000017) /* MotionTable */
+     , (47205,   3, 0x20000016) /* SoundTable */
+     , (47205,   6, 0x040015F0) /* PaletteBase */
+     , (47205,   8, 0x06002CF5) /* Icon */
+     , (47205,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47205, 8040, 1482555709, 180, -52.0433, 0.008999944, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (47205, 8040, 0x585E013D, 180, -52.0433, 0.009, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x585E013D [180.000000 -52.043300 0.009000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

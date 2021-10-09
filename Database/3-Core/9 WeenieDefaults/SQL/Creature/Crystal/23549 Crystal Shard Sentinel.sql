@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23549,   1, 'Crystal Shard Sentinel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23549,   1,   33556226) /* Setup */
-     , (23549,   2,  150995097) /* MotionTable */
-     , (23549,   3,  536871001) /* SoundTable */
-     , (23549,   6,   67111919) /* PaletteBase */
-     , (23549,   8,  100670395) /* Icon */
-     , (23549,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (23549,   1, 0x02000702) /* Setup */
+     , (23549,   2, 0x09000099) /* MotionTable */
+     , (23549,   3, 0x20000059) /* SoundTable */
+     , (23549,   6, 0x04000BEF) /* PaletteBase */
+     , (23549,   8, 0x06001BBB) /* Icon */
+     , (23549,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23549, 8040, 726859813, 97.84358, 98.32564, 0.04017136, -0.4108403, 0, 0, -0.9117073) /* PCAPRecordedLocation */
+VALUES (23549, 8040, 0x2B530025, 97.84358, 98.32564, 0.040171, -0.41084, 0, 0, -0.911707) /* PCAPRecordedLocation */
 /* @teleloc 0x2B530025 [97.843580 98.325640 0.040171] -0.410840 0.000000 0.000000 -0.911707 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

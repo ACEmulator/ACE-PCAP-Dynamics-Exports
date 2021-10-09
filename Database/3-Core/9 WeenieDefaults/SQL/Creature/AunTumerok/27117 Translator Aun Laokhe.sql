@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27117,   1, 'Translator Aun Laokhe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27117,   1,   33557175) /* Setup */
-     , (27117,   2,  150995136) /* MotionTable */
-     , (27117,   3,  536870931) /* SoundTable */
-     , (27117,   6,   67113280) /* PaletteBase */
-     , (27117,   8,  100671756) /* Icon */;
+VALUES (27117,   1, 0x02000AB7) /* Setup */
+     , (27117,   2, 0x090000C0) /* MotionTable */
+     , (27117,   3, 0x20000013) /* SoundTable */
+     , (27117,   6, 0x04001140) /* PaletteBase */
+     , (27117,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27117, 8040, 3332964379, 92.5098, 61.0224, 71.174, 0.6823332, 0, 0, -0.7310413) /* PCAPRecordedLocation */
+VALUES (27117, 8040, 0xC6A9001B, 92.5098, 61.0224, 71.174, 0.682333, 0, 0, -0.731041) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [92.509800 61.022400 71.174000] 0.682333 0.000000 0.000000 -0.731041 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

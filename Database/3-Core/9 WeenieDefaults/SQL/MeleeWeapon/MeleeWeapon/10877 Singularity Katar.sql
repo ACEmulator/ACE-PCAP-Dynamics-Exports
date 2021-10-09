@@ -48,15 +48,15 @@ VALUES (10877,   1, 'Singularity Katar') /* Name */
      , (10877,  15, 'A katar imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10877,   1,   33557315) /* Setup */
-     , (10877,   3,  536870932) /* SoundTable */
-     , (10877,   6,   67111919) /* PaletteBase */
-     , (10877,   8,  100672044) /* Icon */
-     , (10877,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10877,   1, 0x02000B43) /* Setup */
+     , (10877,   3, 0x20000014) /* SoundTable */
+     , (10877,   6, 0x04000BEF) /* PaletteBase */
+     , (10877,   8, 0x0600222C) /* Icon */
+     , (10877,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10877,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10877, 8040, 2847146009, 87.88902, 16.67904, 93.92901, 0.2425417, 0.2425417, -0.6642089, -0.6642089) /* PCAPRecordedLocation */
+VALUES (10877, 8040, 0xA9B40019, 87.88902, 16.67904, 93.92901, 0.242542, 0.242542, -0.664209, -0.664209) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [87.889020 16.679040 93.929010] 0.242542 0.242542 -0.664209 -0.664209 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -51,14 +51,14 @@ VALUES (45415,   1, 'Frost Spada') /* Name */
      , (45415,  16, 'Frost Spada of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45415,   1,   33559462) /* Setup */
-     , (45415,   3,  536870932) /* SoundTable */
-     , (45415,   6,   67115557) /* PaletteBase */
-     , (45415,   8,  100686953) /* Icon */
-     , (45415,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45415,   1, 0x020013A6) /* Setup */
+     , (45415,   3, 0x20000014) /* SoundTable */
+     , (45415,   6, 0x04001A25) /* PaletteBase */
+     , (45415,   8, 0x06005C69) /* Icon */
+     , (45415,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45415,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45415,  1615,      2)  /* BloodDrinkerSelf5 */
+VALUES (45415,  2116,      2)  /* SwiftKillerSelf7 */
      , (45415,  2061,      2)  /* EnduranceSelf7 */
-     , (45415,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (45415,  1615,      2)  /* BloodDrinkerSelf5 */;

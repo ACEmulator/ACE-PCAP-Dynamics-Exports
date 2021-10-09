@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43906,   1, 'Boxed Ancient Mhoire Coin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43906,   1,   33556223) /* Setup */
-     , (43906,   3,  536870932) /* SoundTable */
-     , (43906,   6,   67111928) /* PaletteBase */
-     , (43906,   8,  100691794) /* Icon */
-     , (43906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43906,   1, 0x020006FF) /* Setup */
+     , (43906,   3, 0x20000014) /* SoundTable */
+     , (43906,   6, 0x04000BF8) /* PaletteBase */
+     , (43906,   8, 0x06006F52) /* Icon */
+     , (43906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43906, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

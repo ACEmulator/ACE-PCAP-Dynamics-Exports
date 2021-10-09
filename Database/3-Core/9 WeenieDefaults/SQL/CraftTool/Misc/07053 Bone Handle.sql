@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7053,   1, 'Bone Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7053,   1,   33556603) /* Setup */
-     , (7053,   3,  536870932) /* SoundTable */
-     , (7053,   8,  100670727) /* Icon */
-     , (7053,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7053,   1, 0x0200087B) /* Setup */
+     , (7053,   3, 0x20000014) /* SoundTable */
+     , (7053,   8, 0x06001D07) /* Icon */
+     , (7053,  22, 0x3400002B) /* PhysicsEffectTable */;

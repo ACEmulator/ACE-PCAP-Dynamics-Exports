@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x596A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A001,  1154, 0x596A0102, 12.0935, -20, -0.02800012, 0.696707, 0, 0, -0.717356, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7596A001,  1154, 0x596A0102, 12.0935, -20, -0.028, 0.696707, 0, 0, -0.717356, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x596A0102 [12.093500 -20.000000 -0.028000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,27 +12,27 @@ VALUES (0x7596A001, 0x7596A002, '2019-02-10 00:00:00') /* Thunder Turkey (53015)
      , (0x7596A001, 0x7596A006, '2019-02-10 00:00:00') /* Thunder Poult (53014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A002, 53015, 0x596A0102, 12.0935, -20, -0.02800012, 0.696707, 0, 0, -0.717356,  True, '2019-02-10 00:00:00'); /* Thunder Turkey */
+VALUES (0x7596A002, 53015, 0x596A0102, 12.0935, -20, -0.028, 0.696707, 0, 0, -0.717356,  True, '2019-02-10 00:00:00'); /* Thunder Turkey */
 /* @teleloc 0x596A0102 [12.093500 -20.000000 -0.028000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A003, 53014, 0x596A010C, 42.1, -20, -0.008000016, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
+VALUES (0x7596A003, 53014, 0x596A010C, 42.1, -20, -0.008, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
 /* @teleloc 0x596A010C [42.100000 -20.000000 -0.008000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A004, 53014, 0x596A0104, 20, 2.2, -0.008000016, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
+VALUES (0x7596A004, 53014, 0x596A0104, 20, 2.2, -0.008, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
 /* @teleloc 0x596A0104 [20.000000 2.200000 -0.008000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A005, 53014, 0x596A0100, -2.2, -20, -0.008000016, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
+VALUES (0x7596A005, 53014, 0x596A0100, -2.2, -20, -0.008, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
 /* @teleloc 0x596A0100 [-2.200000 -20.000000 -0.008000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A006, 53014, 0x596A0108, 20, -42.1, -0.008000016, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
+VALUES (0x7596A006, 53014, 0x596A0108, 20, -42.1, -0.008, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Thunder Poult */
 /* @teleloc 0x596A0108 [20.000000 -42.100000 -0.008000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A007,  1542, 0x596A0106, 20.30325, -15.15192, -0.06299996, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7596A007,  1542, 0x596A0106, 20.30325, -15.15192, -0.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x596A0106 [20.303250 -15.151920 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x7596A007, 0x7596A008, '2019-02-10 00:00:00') /* Surface (53352) */
      , (0x7596A007, 0x7596A016, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7596A008, 53352, 0x596A0106, 20.30325, -15.15192, -0.06299996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7596A008, 53352, 0x596A0106, 20.30325, -15.15192, -0.063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x596A0106 [20.303250 -15.151920 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

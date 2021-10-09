@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1731,   1, 'Scroll of Person Attunement Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1731,   1,   33554826) /* Setup */
-     , (1731,   8,  100676448) /* Icon */
-     , (1731,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1731,   1, 0x0200018A) /* Setup */
+     , (1731,   8, 0x06003360) /* Icon */
+     , (1731,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1731,  28,        824) /* Spell - PersonAttunementSelf1 */;

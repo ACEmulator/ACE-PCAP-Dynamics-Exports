@@ -22,7 +22,7 @@ VALUES (36678,   1, 'Royal Summons') /* Name */
      , (36678,  16, 'A sealed royal summons for Lord Kresovus of Linvak Tukal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36678,   1,   33554818) /* Setup */
-     , (36678,   3,  536870932) /* SoundTable */
-     , (36678,   8,  100689293) /* Icon */
-     , (36678,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36678,   1, 0x02000182) /* Setup */
+     , (36678,   3, 0x20000014) /* SoundTable */
+     , (36678,   8, 0x0600658D) /* Icon */
+     , (36678,  22, 0x3400002B) /* PhysicsEffectTable */;

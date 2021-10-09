@@ -27,14 +27,14 @@ VALUES (34849,   1, 'Doruuk') /* Name */
      , (34849,   5, 'Fungus Cutter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34849,   1,   33558582) /* Setup */
-     , (34849,   2,  150995272) /* MotionTable */
-     , (34849,   3,  536871083) /* SoundTable */
-     , (34849,   6,   67114919) /* PaletteBase */
-     , (34849,   8,  100675761) /* Icon */;
+VALUES (34849,   1, 0x02001036) /* Setup */
+     , (34849,   2, 0x09000148) /* MotionTable */
+     , (34849,   3, 0x200000AB) /* SoundTable */
+     , (34849,   6, 0x040017A7) /* PaletteBase */
+     , (34849,   8, 0x060030B1) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34849, 8040, 10223927, 250, -124, -29.96795, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34849, 8040, 0x009C0137, 250, -124, -29.96795, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0137 [250.000000 -124.000000 -29.967950] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

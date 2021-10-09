@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47164,   1, 'Seed of Harvests') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47164,   1,   33561509) /* Setup */
-     , (47164,   3,  536870932) /* SoundTable */
-     , (47164,   8,  100692975) /* Icon */
-     , (47164,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47164,   1, 0x02001BA5) /* Setup */
+     , (47164,   3, 0x20000014) /* SoundTable */
+     , (47164,   8, 0x060073EF) /* Icon */
+     , (47164,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47164,  28,       2128) /* Spell - FlameBolt7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47164, 8040, 19202318, 27.37612, -28.77442, -0.071, 0.6856509, 0.6856509, -0.1728666, -0.1728666) /* PCAPRecordedLocation */
+VALUES (47164, 8040, 0x0125010E, 27.37612, -28.77442, -0.071, 0.685651, 0.685651, -0.172867, -0.172867) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [27.376120 -28.774420 -0.071000] 0.685651 0.685651 -0.172867 -0.172867 */;

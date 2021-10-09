@@ -21,10 +21,10 @@ VALUES (42813,   1, 'Portal to Dryreach') /* Name */
      , (42813,  16, 'This fortified town fell under siege in the earlier days of Aluvian settlement to Tumeroks ushered in from the Hea Village of Ahurenga by the Virindi. The townpeople are often in need of donations from traveling adventurers lest they starve. This town is good for characters over level 20.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42813,   1,   33555926) /* Setup */
-     , (42813,   2,  150994947) /* MotionTable */
-     , (42813,   8,  100667499) /* Icon */;
+VALUES (42813,   1, 0x020005D6) /* Setup */
+     , (42813,   2, 0x09000003) /* MotionTable */
+     , (42813,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42813, 8040, 459104, 86.4152, -10, -0.06299996, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42813, 8040, 0x00070160, 86.4152, -10, -0.063, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070160 [86.415200 -10.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */;

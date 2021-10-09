@@ -52,15 +52,15 @@ VALUES (37216,   1, 'Olthoi Breastplate') /* Name */
      , (37216,  16, 'Olthoi Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37216,   1,   33554642) /* Setup */
-     , (37216,   3,  536870932) /* SoundTable */
-     , (37216,   6,   67108990) /* PaletteBase */
-     , (37216,   8,  100674609) /* Icon */
-     , (37216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37216,   1, 0x020000D2) /* Setup */
+     , (37216,   3, 0x20000014) /* SoundTable */
+     , (37216,   6, 0x0400007E) /* PaletteBase */
+     , (37216,   8, 0x06002C31) /* Icon */
+     , (37216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37216,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37216,  2102,      2)  /* FlameBane7 */
-     , (37216,  2108,      2)  /* Impenetrability7 */
-     , (37216,  2113,      2)  /* PiercingBane7 */
-     , (37216,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */;
+VALUES (37216,  2113,      2)  /* PiercingBane7 */
+     , (37216,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (37216,  2102,      2)  /* FlameBane7 */
+     , (37216,  2108,      2)  /* Impenetrability7 */;

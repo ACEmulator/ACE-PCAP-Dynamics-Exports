@@ -25,7 +25,7 @@ VALUES (48772,   1, 'Phainor''s Chamber Key') /* Name */
      , (48772,  16, 'A key to Phainor''s Chamber. The key is very old and brittle looking.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48772,   1,   33554784) /* Setup */
-     , (48772,   3,  536870932) /* SoundTable */
-     , (48772,   8,  100692984) /* Icon */
-     , (48772,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48772,   1, 0x02000160) /* Setup */
+     , (48772,   3, 0x20000014) /* SoundTable */
+     , (48772,   8, 0x060073F8) /* Icon */
+     , (48772,  22, 0x3400002B) /* PhysicsEffectTable */;

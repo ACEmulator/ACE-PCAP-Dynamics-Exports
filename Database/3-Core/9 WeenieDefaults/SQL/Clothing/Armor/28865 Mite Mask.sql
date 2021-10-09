@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28865,   1, 'Mite Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28865,   1,   33558993) /* Setup */
-     , (28865,   3,  536870932) /* SoundTable */
-     , (28865,   8,  100677082) /* Icon */
-     , (28865,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28865,   1, 0x020011D1) /* Setup */
+     , (28865,   3, 0x20000014) /* SoundTable */
+     , (28865,   8, 0x060035DA) /* Icon */
+     , (28865,  22, 0x3400002B) /* PhysicsEffectTable */;

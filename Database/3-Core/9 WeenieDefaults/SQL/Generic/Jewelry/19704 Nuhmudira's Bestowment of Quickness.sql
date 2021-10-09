@@ -38,12 +38,12 @@ VALUES (19704,   1, 'Nuhmudira''s Bestowment of Quickness') /* Name */
      , (19704,  25, 'Fizzle Brokenwand') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19704,   1,   33554687) /* Setup */
-     , (19704,   3,  536870932) /* SoundTable */
-     , (19704,   6,   67111919) /* PaletteBase */
-     , (19704,   8,  100672963) /* Icon */
-     , (19704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19704,   1, 0x020000FF) /* Setup */
+     , (19704,   3, 0x20000014) /* SoundTable */
+     , (19704,   6, 0x04000BEF) /* PaletteBase */
+     , (19704,   8, 0x060025C3) /* Icon */
+     , (19704,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19704,  1407,      2)  /* QuicknessOther5 */
-     , (19704,  2669,      2)  /* NuhmudirasBestowment */;
+VALUES (19704,  2669,      2)  /* NuhmudirasBestowment */
+     , (19704,  1407,      2)  /* QuicknessOther5 */;

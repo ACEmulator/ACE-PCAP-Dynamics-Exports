@@ -18,13 +18,13 @@ VALUES (32302,   1, 'Nexus Commander''s Orders') /* Name */
      , (32302,  16, 'The Nexus Commander''s orders.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32302,   1,   33554773) /* Setup */
-     , (32302,   3,  536870932) /* SoundTable */
-     , (32302,   8,  100668176) /* Icon */
-     , (32302,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32302,   1, 0x02000155) /* Setup */
+     , (32302,   3, 0x20000014) /* SoundTable */
+     , (32302,   8, 0x06001310) /* Icon */
+     , (32302,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32302, 8040, 722599961, 78.1729, 5.19633, 73.01009, 0.3652795, 0, 0, -0.9308979) /* PCAPRecordedLocation */
+VALUES (32302, 8040, 0x2B120019, 78.1729, 5.19633, 73.01009, 0.36528, 0, 0, -0.930898) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [78.172900 5.196330 73.010090] 0.365280 0.000000 0.000000 -0.930898 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

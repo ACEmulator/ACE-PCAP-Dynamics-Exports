@@ -42,12 +42,12 @@ VALUES (6048,   1, 'Celdon Sleeves') /* Name */
      , (6048,  16, 'Celdon Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6048,   1,   33554655) /* Setup */
-     , (6048,   3,  536870932) /* SoundTable */
-     , (6048,   6,   67108990) /* PaletteBase */
-     , (6048,   8,  100670429) /* Icon */
-     , (6048,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6048,   1, 0x020000DF) /* Setup */
+     , (6048,   3, 0x20000014) /* SoundTable */
+     , (6048,   6, 0x0400007E) /* PaletteBase */
+     , (6048,   8, 0x06001BDD) /* Icon */
+     , (6048,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6048,  2108,      2)  /* Impenetrability7 */
-     , (6048,  2578,      2)  /* CANTRIPARMOR1 */;
+VALUES (6048,  2578,      2)  /* CANTRIPARMOR1 */
+     , (6048,  2108,      2)  /* Impenetrability7 */;

@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52778,   1, 'Grievver Darter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52778,   1,   33556698) /* Setup */
-     , (52778,   2,  150995098) /* MotionTable */
-     , (52778,   3,  536871009) /* SoundTable */
-     , (52778,   6,   67112927) /* PaletteBase */
-     , (52778,   8,  100670960) /* Icon */
-     , (52778,  22,  872415364) /* PhysicsEffectTable */
+VALUES (52778,   1, 0x020008DA) /* Setup */
+     , (52778,   2, 0x0900009A) /* MotionTable */
+     , (52778,   3, 0x20000061) /* SoundTable */
+     , (52778,   6, 0x04000FDF) /* PaletteBase */
+     , (52778,   8, 0x06001DF0) /* Icon */
+     , (52778,  22, 0x34000084) /* PhysicsEffectTable */
      , (52778,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52778, 8040, 1499529501, 171.4717, -17.4887, -0.001199991, 0.08853286, 0, 0, 0.9960732) /* PCAPRecordedLocation */
+VALUES (52778, 8040, 0x5961011D, 171.4717, -17.4887, -0.0012, 0.088533, 0, 0, 0.996073) /* PCAPRecordedLocation */
 /* @teleloc 0x5961011D [171.471700 -17.488700 -0.001200] 0.088533 0.000000 0.000000 0.996073 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

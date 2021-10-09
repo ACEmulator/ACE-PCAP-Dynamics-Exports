@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52189,   1, 'Token of the Pumpkin Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52189,   1,   33557280) /* Setup */
-     , (52189,   3,  536870932) /* SoundTable */
-     , (52189,   8,  100675759) /* Icon */
-     , (52189,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52189,   1, 0x02000B20) /* Setup */
+     , (52189,   3, 0x20000014) /* SoundTable */
+     , (52189,   8, 0x060030AF) /* Icon */
+     , (52189,  22, 0x3400002B) /* PhysicsEffectTable */;

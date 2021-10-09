@@ -41,19 +41,19 @@ VALUES (28322,   1, 'Fenmalain Crystal Shield') /* Name */
      , (28322,  15, 'A shield imbued with the power of the Fenmalain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28322,   1,   33554786) /* Setup */
-     , (28322,   3,  536870932) /* SoundTable */
-     , (28322,   6,   67111919) /* PaletteBase */
-     , (28322,   8,  100670976) /* Icon */
-     , (28322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28322,   1, 0x02000162) /* Setup */
+     , (28322,   3, 0x20000014) /* SoundTable */
+     , (28322,   6, 0x04000BEF) /* PaletteBase */
+     , (28322,   8, 0x06001E00) /* Icon */
+     , (28322,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28322, 8040, 3332964380, 74.8553, 92.70351, 41.926, 0.4026348, -0.454972, -0.7092139, -0.3576331) /* PCAPRecordedLocation */
+VALUES (28322, 8040, 0xC6A9001C, 74.8553, 92.70351, 41.926, 0.402635, -0.454972, -0.709214, -0.357633) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [74.855300 92.703510 41.926000] 0.402635 -0.454972 -0.709214 -0.357633 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28322,   246,      2)  /* InvulnerabilitySelf3 */
-     , (28322,   258,      2)  /* ImpregnabilitySelf3 */
+VALUES (28322,   258,      2)  /* ImpregnabilitySelf3 */
      , (28322,  1483,      2)  /* Impenetrability3 */
      , (28322,  2003,      2)  /* WarriorsLesserVitality */
-     , (28322,  2007,      2)  /* WarriorsLesserVigor */;
+     , (28322,  2007,      2)  /* WarriorsLesserVigor */
+     , (28322,   246,      2)  /* InvulnerabilitySelf3 */;

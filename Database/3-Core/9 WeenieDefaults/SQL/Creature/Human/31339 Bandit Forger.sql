@@ -22,20 +22,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31339,   1, 'Bandit Forger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31339,   1,   33554433) /* Setup */
-     , (31339,   2,  150994945) /* MotionTable */
-     , (31339,   3,  536870913) /* SoundTable */
-     , (31339,   8,  100667446) /* Icon */
-     , (31339,   9,   83890485) /* EyesTexture */
-     , (31339,  10,   83890560) /* NoseTexture */
-     , (31339,  11,   83890651) /* MouthTexture */
-     , (31339,  15,   67117019) /* HairPalette */
-     , (31339,  16,   67110064) /* EyesPalette */
-     , (31339,  17,   67109561) /* SkinPalette */
-     , (31339,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (31339,   1, 0x02000001) /* Setup */
+     , (31339,   2, 0x09000001) /* MotionTable */
+     , (31339,   3, 0x20000001) /* SoundTable */
+     , (31339,   8, 0x06001036) /* Icon */
+     , (31339,   9, 0x05001135) /* EyesTexture */
+     , (31339,  10, 0x05001180) /* NoseTexture */
+     , (31339,  11, 0x050011DB) /* MouthTexture */
+     , (31339,  15, 0x04001FDB) /* HairPalette */
+     , (31339,  16, 0x040004B0) /* EyesPalette */
+     , (31339,  17, 0x040002B9) /* SkinPalette */
+     , (31339,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31339, 8040, 723517708, 106.067, 88.4762, 220.405, 0.730177, 0, 0, -0.683258) /* PCAPRecordedLocation */
+VALUES (31339, 8040, 0x2B20010C, 106.067, 88.4762, 220.405, 0.730177, 0, 0, -0.683258) /* PCAPRecordedLocation */
 /* @teleloc 0x2B20010C [106.067000 88.476200 220.405000] 0.730177 0.000000 0.000000 -0.683258 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

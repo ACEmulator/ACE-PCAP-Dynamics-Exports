@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34894,   1, 'Alchemy Sigil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34894,   1,   33556223) /* Setup */
-     , (34894,   3,  536870932) /* SoundTable */
-     , (34894,   6,   67111928) /* PaletteBase */
-     , (34894,   8,  100689348) /* Icon */
-     , (34894,  22,  872415275) /* PhysicsEffectTable */
-     , (34894,  50,  100673753) /* IconOverlay */
+VALUES (34894,   1, 0x020006FF) /* Setup */
+     , (34894,   3, 0x20000014) /* SoundTable */
+     , (34894,   6, 0x04000BF8) /* PaletteBase */
+     , (34894,   8, 0x060065C4) /* Icon */
+     , (34894,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34894,  50, 0x060028D9) /* IconOverlay */
      , (34894, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

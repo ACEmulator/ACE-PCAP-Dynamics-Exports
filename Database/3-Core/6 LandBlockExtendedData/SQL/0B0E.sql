@@ -283,7 +283,7 @@ VALUES (0x70B0E02A, 25863, 0x0B0E000B, 35.81442, 71.26668, 75.61148, 1, 0, 0, 0,
 /* @teleloc 0x0B0E000B [35.814420 71.266680 75.611480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B0E02B, 25871, 0x0B0E0019, 84.43686, 0.9429858, 42.06355, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+VALUES (0x70B0E02B, 25871, 0x0B0E0019, 84.43686, 0.942986, 42.06355, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
 /* @teleloc 0x0B0E0019 [84.436860 0.942986 42.063550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -547,11 +547,11 @@ VALUES (0x70B0E06C, 25871, 0x0B0E0040, 186.1359, 187.0162, 166.6875, 1, 0, 0, 0,
 /* @teleloc 0x0B0E0040 [186.135900 187.016200 166.687500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B0E06D, 25871, 0x0B0E003F, 169.627, 144.0181, 96.35271, 0.8953735, 0, 0, -0.4453159,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+VALUES (0x70B0E06D, 25871, 0x0B0E003F, 169.627, 144.0181, 96.35271, 0.895374, 0, 0, -0.445316,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
 /* @teleloc 0x0B0E003F [169.627000 144.018100 96.352710] 0.895374 0.000000 0.000000 -0.445316 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B0E06E, 25871, 0x0B0E003E, 170.7302, 122.4873, 76.36512, 0.847567, 0, 0, -0.5306884,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+VALUES (0x70B0E06E, 25871, 0x0B0E003E, 170.7302, 122.4873, 76.36512, 0.847567, 0, 0, -0.530688,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
 /* @teleloc 0x0B0E003E [170.730200 122.487300 76.365120] 0.847567 0.000000 0.000000 -0.530688 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

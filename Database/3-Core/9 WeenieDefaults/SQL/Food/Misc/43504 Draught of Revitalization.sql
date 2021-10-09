@@ -19,9 +19,9 @@ VALUES (43504,   1, 'Draught of Revitalization') /* Name */
      , (43504,  20, 'Draughts of Revitalization') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43504,   1,   33554603) /* Setup */
-     , (43504,   3,  536870932) /* SoundTable */
-     , (43504,   6,   67111919) /* PaletteBase */
-     , (43504,   8,  100676320) /* Icon */
-     , (43504,  22,  872415275) /* PhysicsEffectTable */
-     , (43504,  52,  100691593) /* IconUnderlay */;
+VALUES (43504,   1, 0x020000AB) /* Setup */
+     , (43504,   3, 0x20000014) /* SoundTable */
+     , (43504,   6, 0x04000BEF) /* PaletteBase */
+     , (43504,   8, 0x060032E0) /* Icon */
+     , (43504,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43504,  52, 0x06006E89) /* IconUnderlay */;

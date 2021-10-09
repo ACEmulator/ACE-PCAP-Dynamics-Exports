@@ -38,9 +38,9 @@ VALUES (49563,   1, 'Facility Hub Portal Gem') /* Name */
      , (49563,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49563,   1,   33556769) /* Setup */
-     , (49563,   3,  536870932) /* SoundTable */
-     , (49563,   6,   67111919) /* PaletteBase */
-     , (49563,   8,  100676422) /* Icon */
-     , (49563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49563,   1, 0x02000921) /* Setup */
+     , (49563,   3, 0x20000014) /* SoundTable */
+     , (49563,   6, 0x04000BEF) /* PaletteBase */
+     , (49563,   8, 0x06003346) /* Icon */
+     , (49563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49563,  28,       5175) /* Spell - PortalSendHubNPE */;

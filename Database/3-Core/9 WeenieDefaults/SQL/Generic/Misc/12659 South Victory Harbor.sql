@@ -18,9 +18,9 @@ VALUES (12659,   1, 'South Victory Harbor') /* Name */
      , (12659,  16, 'Welcome to South Victory Harbor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12659,   1,   33557463) /* Setup */
-     , (12659,   8,  100668115) /* Icon */;
+VALUES (12659,   1, 0x02000BD7) /* Setup */
+     , (12659,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12659, 8040, 3163881499, 73.8733, 53.375, 26.29181, 0.870912, 0, 0, -0.491439) /* PCAPRecordedLocation */
+VALUES (12659, 8040, 0xBC95001B, 73.8733, 53.375, 26.29181, 0.870912, 0, 0, -0.491439) /* PCAPRecordedLocation */
 /* @teleloc 0xBC95001B [73.873300 53.375000 26.291810] 0.870912 0.000000 0.000000 -0.491439 */;

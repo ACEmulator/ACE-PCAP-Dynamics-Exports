@@ -28,8 +28,8 @@ VALUES (38413,   1, 'Mana-Infused Jungle Flower') /* Name */
      , (38413,  20, 'Mana-Infused Jungle Flowers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38413,   1,   33556750) /* Setup */
-     , (38413,   3,  536870932) /* SoundTable */
-     , (38413,   6,   67111919) /* PaletteBase */
-     , (38413,   8,  100670930) /* Icon */
-     , (38413,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38413,   1, 0x0200090E) /* Setup */
+     , (38413,   3, 0x20000014) /* SoundTable */
+     , (38413,   6, 0x04000BEF) /* PaletteBase */
+     , (38413,   8, 0x06001DD2) /* Icon */
+     , (38413,  22, 0x3400002B) /* PhysicsEffectTable */;

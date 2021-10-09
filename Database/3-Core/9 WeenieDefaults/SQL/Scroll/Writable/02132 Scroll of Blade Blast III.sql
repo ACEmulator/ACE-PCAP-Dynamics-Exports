@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2132,   1, 'Scroll of Blade Blast III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2132,   1,   33554826) /* Setup */
-     , (2132,   8,  100677028) /* Icon */
-     , (2132,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2132,   1, 0x0200018A) /* Setup */
+     , (2132,   8, 0x060035A4) /* Icon */
+     , (2132,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2132,  28,        123) /* Spell - BladeBlast3 */;

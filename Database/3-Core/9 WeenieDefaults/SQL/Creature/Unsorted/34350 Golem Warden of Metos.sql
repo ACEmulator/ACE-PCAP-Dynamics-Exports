@@ -27,12 +27,12 @@ VALUES (34350,   1, 'Golem Warden of Metos') /* Name */
      , (34350,  16, 'This altar has two holders for what would appears to be motes of some sort. The altar has seams which indicate that it will turn into a golem if certain conditions are met.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34350,   1,   33559702) /* Setup */
-     , (34350,   2,  150995344) /* MotionTable */
-     , (34350,   3,  536870933) /* SoundTable */
-     , (34350,   8,  100667940) /* Icon */
-     , (34350,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (34350,   1, 0x02001496) /* Setup */
+     , (34350,   2, 0x09000190) /* MotionTable */
+     , (34350,   3, 0x20000015) /* SoundTable */
+     , (34350,   8, 0x06001224) /* Icon */
+     , (34350,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34350, 8040, 49479953, 60, -94.4, -53.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34350, 8040, 0x02F30111, 60, -94.4, -53.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02F30111 [60.000000 -94.400000 -53.990000] 1.000000 0.000000 0.000000 0.000000 */;

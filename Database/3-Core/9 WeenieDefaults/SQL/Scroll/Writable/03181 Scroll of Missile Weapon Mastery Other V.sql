@@ -23,7 +23,7 @@ VALUES (3181,   1, 'Scroll of Missile Weapon Mastery Other V') /* Name */
 Increases the target''s Missile Weapons skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3181,   1,   33554826) /* Setup */
-     , (3181,   8,  100676450) /* Icon */
-     , (3181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3181,   1, 0x0200018A) /* Setup */
+     , (3181,   8, 0x06003362) /* Icon */
+     , (3181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3181,  28,        465) /* Spell - MissileWeaponsMasteryOther5 */;

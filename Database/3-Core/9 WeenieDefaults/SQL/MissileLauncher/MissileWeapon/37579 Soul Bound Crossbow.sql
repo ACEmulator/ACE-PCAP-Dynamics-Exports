@@ -63,20 +63,20 @@ VALUES (37579,   1, 'Soul Bound Crossbow') /* Name */
      , (37579,  25, 'Dakmor Kavu') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37579,   1,   33560580) /* Setup */
-     , (37579,   3,  536870932) /* SoundTable */
-     , (37579,   8,  100673202) /* Icon */
-     , (37579,  22,  872415275) /* PhysicsEffectTable */
-     , (37579,  52,  100689896) /* IconUnderlay */;
+VALUES (37579,   1, 0x02001804) /* Setup */
+     , (37579,   3, 0x20000014) /* SoundTable */
+     , (37579,   8, 0x060026B2) /* Icon */
+     , (37579,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37579,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37579, 8040, 1481638216, 43.82192, -6.842435, 5.93, 0.9432507, 0, 0, -0.3320816) /* PCAPRecordedLocation */
+VALUES (37579, 8040, 0x58500148, 43.82192, -6.842435, 5.93, 0.943251, 0, 0, -0.332082) /* PCAPRecordedLocation */
 /* @teleloc 0x58500148 [43.821920 -6.842435 5.930000] 0.943251 0.000000 0.000000 -0.332082 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37579,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (37579,  2101,      2)  /* DefenderSelf7 */
-     , (37579,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (37579,  2116,      2)  /* SwiftKillerSelf7 */
      , (37579,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
      , (37579,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (37579,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (37579,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (37579,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37579,  2101,      2)  /* DefenderSelf7 */;

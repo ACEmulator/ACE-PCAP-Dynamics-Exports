@@ -18,9 +18,9 @@ VALUES (14339,   1, 'Zatara') /* Name */
      , (14339,  16, 'Welcome to Zatara') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14339,   1,   33557463) /* Setup */
-     , (14339,   8,  100668115) /* Icon */;
+VALUES (14339,   1, 0x02000BD7) /* Setup */
+     , (14339,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14339, 8040, 2883452957, 85.5578, 109.877, 7.9734, -0.876047, 0, 0, -0.482226) /* PCAPRecordedLocation */
+VALUES (14339, 8040, 0xABDE001D, 85.5578, 109.877, 7.9734, -0.876047, 0, 0, -0.482226) /* PCAPRecordedLocation */
 /* @teleloc 0xABDE001D [85.557800 109.877000 7.973400] -0.876047 0.000000 0.000000 -0.482226 */;

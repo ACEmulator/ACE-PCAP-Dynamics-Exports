@@ -21,7 +21,7 @@ VALUES (30506,   1, 'Mad Star Marionette''s Head') /* Name */
      , (30506,  16, 'A rather nasty head from a rather nasty marionette. It sounds like something is sloshing inside.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30506,   1,   33557363) /* Setup */
-     , (30506,   3,  536870932) /* SoundTable */
-     , (30506,   8,  100672172) /* Icon */
-     , (30506,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30506,   1, 0x02000B73) /* Setup */
+     , (30506,   3, 0x20000014) /* SoundTable */
+     , (30506,   8, 0x060022AC) /* Icon */
+     , (30506,  22, 0x3400002B) /* PhysicsEffectTable */;

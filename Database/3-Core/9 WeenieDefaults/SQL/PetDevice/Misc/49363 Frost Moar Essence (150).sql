@@ -37,10 +37,10 @@ VALUES (49363,   1, 'Frost Moar Essence (150)') /* Name */
      , (49363,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49363,   1,   33554817) /* Setup */
-     , (49363,   3,  536870932) /* SoundTable */
-     , (49363,   6,   67111919) /* PaletteBase */
-     , (49363,   8,  100693034) /* Icon */
-     , (49363,  22,  872415275) /* PhysicsEffectTable */
-     , (49363,  50,  100693030) /* IconOverlay */
-     , (49363,  52,  100693024) /* IconUnderlay */;
+VALUES (49363,   1, 0x02000181) /* Setup */
+     , (49363,   3, 0x20000014) /* SoundTable */
+     , (49363,   6, 0x04000BEF) /* PaletteBase */
+     , (49363,   8, 0x0600742A) /* Icon */
+     , (49363,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49363,  50, 0x06007426) /* IconOverlay */
+     , (49363,  52, 0x06007420) /* IconUnderlay */;

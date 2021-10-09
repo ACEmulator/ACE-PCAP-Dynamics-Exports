@@ -19,8 +19,8 @@ VALUES (4710,   1, 'Beef Kebab') /* Name */
      , (4710,  20, 'Beef Kebabs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4710,   1,   33556220) /* Setup */
-     , (4710,   3,  536870932) /* SoundTable */
-     , (4710,   8,  100669944) /* Icon */
-     , (4710,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4710,   1, 0x020006FC) /* Setup */
+     , (4710,   3, 0x20000014) /* SoundTable */
+     , (4710,   8, 0x060019F8) /* Icon */
+     , (4710,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4710, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

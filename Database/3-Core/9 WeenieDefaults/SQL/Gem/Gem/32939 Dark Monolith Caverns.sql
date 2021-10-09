@@ -34,10 +34,10 @@ VALUES (32939,   1, 'Dark Monolith Caverns') /* Name */
      , (32939,  16, 'A request to all Virindi sympathetic to Aerbax''s cause. We would acquire a source of power from beneath the black plains the humans call the Direlands. This power source would be of significant benefit to our affairs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32939,   1,   33556769) /* Setup */
-     , (32939,   3,  536870932) /* SoundTable */
-     , (32939,   6,   67111919) /* PaletteBase */
-     , (32939,   8,  100668364) /* Icon */
-     , (32939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32939,   1, 0x02000921) /* Setup */
+     , (32939,   3, 0x20000014) /* SoundTable */
+     , (32939,   6, 0x04000BEF) /* PaletteBase */
+     , (32939,   8, 0x060013CC) /* Icon */
+     , (32939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32939,  28,        157) /* Spell - SummonPortal1 */
-     , (32939,  50,  100676404) /* IconOverlay */;
+     , (32939,  50, 0x06003334) /* IconOverlay */;

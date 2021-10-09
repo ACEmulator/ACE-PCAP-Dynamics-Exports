@@ -25,7 +25,7 @@ VALUES (33926,   1, 'Letter to Renald the Eldest, from Larinne Kerendova') /* Na
      , (33926,  16, 'A closed scroll, addressed to Renald the Eldest, located at 42.1N 33.8E, in Holtburg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33926,   1,   33554776) /* Setup */
-     , (33926,   3,  536870932) /* SoundTable */
-     , (33926,   8,  100667503) /* Icon */
-     , (33926,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33926,   1, 0x02000158) /* Setup */
+     , (33926,   3, 0x20000014) /* SoundTable */
+     , (33926,   8, 0x0600106F) /* Icon */
+     , (33926,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -39,8 +39,8 @@ VALUES (46194,   1, 'Isparian Two Handed Sword') /* Name */
      , (46194,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46194,   1,   33556262) /* Setup */
-     , (46194,   3,  536870932) /* SoundTable */
-     , (46194,   6,   67111919) /* PaletteBase */
-     , (46194,   8,  100692946) /* Icon */
-     , (46194,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46194,   1, 0x02000726) /* Setup */
+     , (46194,   3, 0x20000014) /* SoundTable */
+     , (46194,   6, 0x04000BEF) /* PaletteBase */
+     , (46194,   8, 0x060073D2) /* Icon */
+     , (46194,  22, 0x3400002B) /* PhysicsEffectTable */;

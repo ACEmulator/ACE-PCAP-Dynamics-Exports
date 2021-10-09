@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31385,   1, 'Raven Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31385,   1,   33559303) /* Setup */
-     , (31385,   3,  536870932) /* SoundTable */
-     , (31385,   6,   67115556) /* PaletteBase */
-     , (31385,   8,  100687044) /* Icon */
-     , (31385,  22,  872415275) /* PhysicsEffectTable */
-     , (31385,  50,  100675757) /* IconOverlay */;
+VALUES (31385,   1, 0x02001307) /* Setup */
+     , (31385,   3, 0x20000014) /* SoundTable */
+     , (31385,   6, 0x04001A24) /* PaletteBase */
+     , (31385,   8, 0x06005CC4) /* Icon */
+     , (31385,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31385,  50, 0x060030AD) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31385, 8040, 134610983, 109.178, 152.252, 61.93, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31385, 8040, 0x08060027, 109.178, 152.252, 61.93, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x08060027 [109.178000 152.252000 61.930000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -50,11 +50,11 @@ VALUES (30584,   1, 'Frost Mazule') /* Name */
      , (30584,  16, 'Frost Mazule of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30584,   1,   33559471) /* Setup */
-     , (30584,   3,  536870932) /* SoundTable */
-     , (30584,   6,   67115559) /* PaletteBase */
-     , (30584,   8,  100686973) /* Icon */
-     , (30584,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30584,   1, 0x020013AF) /* Setup */
+     , (30584,   3, 0x20000014) /* SoundTable */
+     , (30584,   6, 0x04001A27) /* PaletteBase */
+     , (30584,   8, 0x06005C7D) /* Icon */
+     , (30584,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30584,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -18,9 +18,9 @@ VALUES (42913,   1, 'Statue') /* Name */
      , (42913,  16, 'The statues of Ispar were used as decorations to inspire loyalty in the depicted, awe towards the sculpter, or praise for the people at-large. This is not always the case in Dereth where statues often inspire nothing more but trips to the lifestone. Many statues in Dereth act as guardians, whether intended or not, and often strike adventurers on sight with brutal physical assaults and some can even unleash devastating magical spells.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42913,   1,   33561046) /* Setup */
-     , (42913,   8,  100668115) /* Icon */;
+VALUES (42913,   1, 0x020019D6) /* Setup */
+     , (42913,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42913, 8040, 459038, 44.8606, -74.9715, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42913, 8040, 0x0007011E, 44.8606, -74.9715, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007011E [44.860600 -74.971500 0.660000] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -22,7 +22,7 @@ VALUES (0x7008C002, 36204, 0x008C0121, 70, -44.898, -5.95, 0, 0, 0, -1,  True, '
 /* @teleloc 0x008C0121 [70.000000 -44.898000 -5.950000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C003, 32734, 0x008C011E, 70, -10, -5.9925, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Essence of Enchantment */
+VALUES (0x7008C003, 32734, 0x008C011E, 70, -10, -5.9925, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Essence of Enchantment */
 /* @teleloc 0x008C011E [70.000000 -10.000000 -5.992500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -30,19 +30,19 @@ VALUES (0x7008C004, 36199, 0x008C011D, 70, 4.893, -5.95, 1, 0, 0, 0,  True, '201
 /* @teleloc 0x008C011D [70.000000 4.893000 -5.950000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C005, 32736, 0x008C0142, 130, -70, -5.9925, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Essence of Verdancy */
+VALUES (0x7008C005, 32736, 0x008C0142, 130, -70, -5.9925, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Essence of Verdancy */
 /* @teleloc 0x008C0142 [130.000000 -70.000000 -5.992500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C006, 32737, 0x008C0104, 10, -70, -5.9925, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Essence of Strife */
+VALUES (0x7008C006, 32737, 0x008C0104, 10, -70, -5.9925, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Essence of Strife */
 /* @teleloc 0x008C0104 [10.000000 -70.000000 -5.992500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C007, 36202, 0x008C0145, 144.895, -70, -5.95, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hollow */
+VALUES (0x7008C007, 36202, 0x008C0145, 144.895, -70, -5.95, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Hollow */
 /* @teleloc 0x008C0145 [144.895000 -70.000000 -5.950000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C008, 36203, 0x008C0101, -4.887, -70, -5.95, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hollow */
+VALUES (0x7008C008, 36203, 0x008C0101, -4.887, -70, -5.95, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Hollow */
 /* @teleloc 0x008C0101 [-4.887000 -70.000000 -5.950000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -50,7 +50,7 @@ VALUES (0x7008C009, 36201, 0x008C0129, 70, -144.897, -5.95, 0, 0, 0, -1,  True, 
 /* @teleloc 0x008C0129 [70.000000 -144.897000 -5.950000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C00A, 32735, 0x008C0128, 70.14745, -130.0958, -5.9925, -0.8978199, 0, 0, -0.4403627,  True, '2019-02-10 00:00:00'); /* Essence of Artifice */
+VALUES (0x7008C00A, 32735, 0x008C0128, 70.14745, -130.0958, -5.9925, -0.89782, 0, 0, -0.440363,  True, '2019-02-10 00:00:00'); /* Essence of Artifice */
 /* @teleloc 0x008C0128 [70.147450 -130.095800 -5.992500] -0.897820 0.000000 0.000000 -0.440363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -62,12 +62,12 @@ VALUES (0x7008C00C, 32740, 0x008C0120, 73.5593, -34.02531, -5.993, 1, 0, 0, 0,  
 /* @teleloc 0x008C0120 [73.559300 -34.025310 -5.993000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C00D,  1542, 0x008C011F, 71.78323, -24.74483, -5.985, -0.9282292, 0, 0, -0.3720089, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7008C00D,  1542, 0x008C011F, 71.78323, -24.74483, -5.985, -0.928229, 0, 0, -0.372009, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x008C011F [71.783230 -24.744830 -5.985000] -0.928229 0.000000 0.000000 -0.372009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7008C00D, 0x7008C00E, '2019-02-10 00:00:00') /* Crystallized Essence of Enchantment (32746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008C00E, 32746, 0x008C011F, 71.78323, -24.74483, -5.985, -0.9282292, 0, 0, -0.3720089,  True, '2019-02-10 00:00:00'); /* Crystallized Essence of Enchantment */
+VALUES (0x7008C00E, 32746, 0x008C011F, 71.78323, -24.74483, -5.985, -0.928229, 0, 0, -0.372009,  True, '2019-02-10 00:00:00'); /* Crystallized Essence of Enchantment */
 /* @teleloc 0x008C011F [71.783230 -24.744830 -5.985000] -0.928229 0.000000 0.000000 -0.372009 */

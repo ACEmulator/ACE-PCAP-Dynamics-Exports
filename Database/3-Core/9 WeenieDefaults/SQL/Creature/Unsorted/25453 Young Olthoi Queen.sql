@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25453,   1, 'Young Olthoi Queen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25453,   1,   33557165) /* Setup */
-     , (25453,   2,  150995135) /* MotionTable */
-     , (25453,   3,  536871037) /* SoundTable */
-     , (25453,   8,  100667623) /* Icon */
-     , (25453,  22,  872415379) /* PhysicsEffectTable */
+VALUES (25453,   1, 0x02000AAD) /* Setup */
+     , (25453,   2, 0x090000BF) /* MotionTable */
+     , (25453,   3, 0x2000007D) /* SoundTable */
+     , (25453,   8, 0x060010E7) /* Icon */
+     , (25453,  22, 0x34000093) /* PhysicsEffectTable */
      , (25453,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25453, 8040, 1615397148, 660, -80, -42, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (25453, 8040, 0x6049011C, 660, -80, -42, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x6049011C [660.000000 -80.000000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

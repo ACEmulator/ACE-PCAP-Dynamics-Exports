@@ -35,8 +35,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34580,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34580,   1,   33560171) /* Setup */
-     , (34580,   3,  536870932) /* SoundTable */
-     , (34580,   8,  100675763) /* Icon */
-     , (34580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34580,   1, 0x0200166B) /* Setup */
+     , (34580,   3, 0x20000014) /* SoundTable */
+     , (34580,   8, 0x060030B3) /* Icon */
+     , (34580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34580,  30,         88) /* PhysicsScript - Create */;

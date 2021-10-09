@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24843,   1, 'Bloodthirsty Monouga Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24843,   1,   33556903) /* Setup */
-     , (24843,   3,  536870932) /* SoundTable */
-     , (24843,   6,   67111919) /* PaletteBase */
-     , (24843,   8,  100674495) /* Icon */
-     , (24843,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24843,   1, 0x020009A7) /* Setup */
+     , (24843,   3, 0x20000014) /* SoundTable */
+     , (24843,   6, 0x04000BEF) /* PaletteBase */
+     , (24843,   8, 0x06002BBF) /* Icon */
+     , (24843,  22, 0x3400002B) /* PhysicsEffectTable */;

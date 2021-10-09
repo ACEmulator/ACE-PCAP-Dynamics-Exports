@@ -48,15 +48,15 @@ VALUES (30625,   1, 'War Bow') /* Name */
      , (30625,  16, 'War Bow of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30625,   1,   33559302) /* Setup */
-     , (30625,   3,  536870932) /* SoundTable */
-     , (30625,   6,   67115555) /* PaletteBase */
-     , (30625,   8,  100687046) /* Icon */
-     , (30625,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30625,   1, 0x02001306) /* Setup */
+     , (30625,   3, 0x20000014) /* SoundTable */
+     , (30625,   6, 0x04001A23) /* PaletteBase */
+     , (30625,   8, 0x06005CC6) /* Icon */
+     , (30625,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30625,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30625, 8040, 869859332, 19.83689, 76.30633, 51.93, -0.00141017, 0, 0, -0.999999) /* PCAPRecordedLocation */
+VALUES (30625, 8040, 0x33D90004, 19.83689, 76.30633, 51.93, -0.00141, 0, 0, -0.999999) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90004 [19.836890 76.306330 51.930000] -0.001410 0.000000 0.000000 -0.999999 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

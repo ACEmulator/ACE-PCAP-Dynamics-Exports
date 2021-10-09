@@ -38,8 +38,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49626,   1, 'Shadow Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49626,   1,   33554641) /* Setup */
-     , (49626,   3,  536870932) /* SoundTable */
-     , (49626,   6,   67108990) /* PaletteBase */
-     , (49626,   8,  100693067) /* Icon */
-     , (49626,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49626,   1, 0x020000D1) /* Setup */
+     , (49626,   3, 0x20000014) /* SoundTable */
+     , (49626,   6, 0x0400007E) /* PaletteBase */
+     , (49626,   8, 0x0600744B) /* Icon */
+     , (49626,  22, 0x3400002B) /* PhysicsEffectTable */;

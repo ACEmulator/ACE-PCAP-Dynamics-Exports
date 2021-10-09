@@ -23,7 +23,7 @@ VALUES (15801,   1, 'A Letter of Correspondence') /* Name */
      , (15801,  15, 'A letter from Elysa Strathelar to Lania Cartoth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15801,   1,   33554773) /* Setup */
-     , (15801,   3,  536870932) /* SoundTable */
-     , (15801,   8,  100672829) /* Icon */
-     , (15801,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15801,   1, 0x02000155) /* Setup */
+     , (15801,   3, 0x20000014) /* SoundTable */
+     , (15801,   8, 0x0600253D) /* Icon */
+     , (15801,  22, 0x3400002B) /* PhysicsEffectTable */;

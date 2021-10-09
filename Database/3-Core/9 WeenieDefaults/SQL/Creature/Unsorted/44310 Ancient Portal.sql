@@ -27,12 +27,12 @@ VALUES (44310,   1, 'Ancient Portal') /* Name */
      , (44310,  16, 'An ancient portal created by the A''nekshay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44310,   1,   33554867) /* Setup */
-     , (44310,   2,  150994947) /* MotionTable */
-     , (44310,   3,  536871052) /* SoundTable */
-     , (44310,   8,  100667499) /* Icon */
-     , (44310,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (44310,   1, 0x020001B3) /* Setup */
+     , (44310,   2, 0x09000003) /* MotionTable */
+     , (44310,   3, 0x2000008C) /* SoundTable */
+     , (44310,   8, 0x0600106B) /* Icon */
+     , (44310,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44310, 8040, 2288320575, 176.583, 154.902, -0.06299996, 0.7056498, 0, 0, 0.7085608) /* PCAPRecordedLocation */
+VALUES (44310, 8040, 0x8865003F, 176.583, 154.902, -0.063, 0.70565, 0, 0, 0.708561) /* PCAPRecordedLocation */
 /* @teleloc 0x8865003F [176.583000 154.902000 -0.063000] 0.705650 0.000000 0.000000 0.708561 */;

@@ -40,17 +40,17 @@ VALUES (25373,   1, 'Energy Crystal') /* Name */
      , (25373,  16, 'Teeming with power, this triangle seems to be carved perfectly, if it was carved at all. Instead it seems to be a perfect pyramid of power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25373,   1,   33558442) /* Setup */
-     , (25373,   3,  536870932) /* SoundTable */
-     , (25373,   6,   67111919) /* PaletteBase */
-     , (25373,   8,  100674848) /* Icon */
-     , (25373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25373,   1, 0x02000FAA) /* Setup */
+     , (25373,   3, 0x20000014) /* SoundTable */
+     , (25373,   6, 0x04000BEF) /* PaletteBase */
+     , (25373,   8, 0x06002D20) /* Icon */
+     , (25373,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25373, 8040, 1676148781, 129.6765, 97.59582, 131.3991, -0.7017742, -0.7017742, -0.0866769, -0.0866769) /* PCAPRecordedLocation */
+VALUES (25373, 8040, 0x63E8002D, 129.6765, 97.59582, 131.3991, -0.701774, -0.701774, -0.086677, -0.086677) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002D [129.676500 97.595820 131.399100] -0.701774 -0.701774 -0.086677 -0.086677 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25373,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
-     , (25373,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
-     , (25373,  2627,      2)  /* CANTRIPMANAGAIN1 */;
+VALUES (25373,  2627,      2)  /* CANTRIPMANAGAIN1 */
+     , (25373,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (25373,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */;

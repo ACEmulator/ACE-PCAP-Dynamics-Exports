@@ -25,8 +25,8 @@ VALUES (31991,   1, 'Heliotropic Pigmentation Apparatus') /* Name */
      , (31991,  20, 'Heliotropic Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31991,   1,   33556753) /* Setup */
-     , (31991,   3,  536870932) /* SoundTable */
-     , (31991,   6,   67111919) /* PaletteBase */
-     , (31991,   8,  100688316) /* Icon */
-     , (31991,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31991,   1, 0x02000911) /* Setup */
+     , (31991,   3, 0x20000014) /* SoundTable */
+     , (31991,   6, 0x04000BEF) /* PaletteBase */
+     , (31991,   8, 0x060061BC) /* Icon */
+     , (31991,  22, 0x3400002B) /* PhysicsEffectTable */;

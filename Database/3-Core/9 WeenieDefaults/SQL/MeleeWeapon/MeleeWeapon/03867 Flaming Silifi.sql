@@ -51,14 +51,14 @@ VALUES (3867,   1, 'Flaming Silifi') /* Name */
      , (3867,  16, 'Flaming Silifi of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3867,   1,   33555776) /* Setup */
-     , (3867,   3,  536870932) /* SoundTable */
-     , (3867,   8,  100668992) /* Icon */
-     , (3867,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3867,   1, 0x02000540) /* Setup */
+     , (3867,   3, 0x20000014) /* SoundTable */
+     , (3867,   8, 0x06001640) /* Icon */
+     , (3867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3867,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3867,  1615,      2)  /* BloodDrinkerSelf5 */
+VALUES (3867,  2564,      2)  /* CANTRIPSPRINT1 */
      , (3867,  2116,      2)  /* SwiftKillerSelf7 */
-     , (3867,  2564,      2)  /* CANTRIPSPRINT1 */
+     , (3867,  1615,      2)  /* BloodDrinkerSelf5 */
      , (3867,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;

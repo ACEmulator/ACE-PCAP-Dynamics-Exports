@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14261,   1, 'West Baishi Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14261,   1,   33554867) /* Setup */
-     , (14261,   2,  150994947) /* MotionTable */
-     , (14261,   8,  100667499) /* Icon */;
+VALUES (14261,   1, 0x020001B3) /* Setup */
+     , (14261,   2, 0x09000003) /* MotionTable */
+     , (14261,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14261, 8040, 3460300847, 127.536, 147.17, 60.30083, -0.4785528, 0, 0, 0.8780587) /* PCAPRecordedLocation */
+VALUES (14261, 8040, 0xCE40002F, 127.536, 147.17, 60.30083, -0.478553, 0, 0, 0.878059) /* PCAPRecordedLocation */
 /* @teleloc 0xCE40002F [127.536000 147.170000 60.300830] -0.478553 0.000000 0.000000 0.878059 */;

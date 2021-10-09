@@ -50,10 +50,10 @@ VALUES (3819,   1, 'Lightning Katar') /* Name */
      , (3819,  16, 'Lightning Katar of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3819,   1,   33555745) /* Setup */
-     , (3819,   3,  536870932) /* SoundTable */
-     , (3819,   8,  100668928) /* Icon */
-     , (3819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3819,   1, 0x02000521) /* Setup */
+     , (3819,   3, 0x20000014) /* SoundTable */
+     , (3819,   8, 0x06001600) /* Icon */
+     , (3819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3819,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

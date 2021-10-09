@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31392,   1, 'Raven Hand Aegis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31392,   1,   33559617) /* Setup */
-     , (31392,   3,  536870932) /* SoundTable */
-     , (31392,   8,  100687958) /* Icon */
-     , (31392,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31392,   1, 0x02001441) /* Setup */
+     , (31392,   3, 0x20000014) /* SoundTable */
+     , (31392,   8, 0x06006056) /* Icon */
+     , (31392,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31392, 8040, 134610983, 109.0685, 155.6205, 61.926, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (31392, 8040, 0x08060027, 109.0685, 155.6205, 61.926, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x08060027 [109.068500 155.620500 61.926000] 0.403672 0.649030 -0.537349 0.356462 */;

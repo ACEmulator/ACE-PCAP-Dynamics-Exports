@@ -29,12 +29,12 @@ VALUES (28436,   1, 'Noble Treasure Chest') /* Name */
      , (28436,  16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28436,   1,   33558857) /* Setup */
-     , (28436,   2,  150994948) /* MotionTable */
-     , (28436,   3,  536870945) /* SoundTable */
-     , (28436,   8,  100676961) /* Icon */
-     , (28436,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28436,   1, 0x02001149) /* Setup */
+     , (28436,   2, 0x09000004) /* MotionTable */
+     , (28436,   3, 0x20000021) /* SoundTable */
+     , (28436,   8, 0x06003561) /* Icon */
+     , (28436,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28436, 8040, 42008847, 10, 3.7, 0, -1, 0, 0, 4.37114E-08) /* PCAPRecordedLocation */
+VALUES (28436, 8040, 0x0281010F, 10, 3.7, 0, -1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0281010F [10.000000 3.700000 0.000000] -1.000000 0.000000 0.000000 0.000000 */;

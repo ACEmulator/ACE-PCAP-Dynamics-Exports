@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB6C1;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B6C1001,  1154, 0xB6C1000F, 46.26491, 147.2546, 233.5052, 0.5909593, 0, 0, -0.8067014, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B6C1001,  1154, 0xB6C1000F, 46.26491, 147.2546, 233.5052, 0.590959, 0, 0, -0.806701, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB6C1000F [46.264910 147.254600 233.505200] 0.590959 0.000000 0.000000 -0.806701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x7B6C1001, 0x7B6C1002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) 
      , (0x7B6C1001, 0x7B6C1005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B6C1002,  1609, 0xB6C1000F, 46.26491, 147.2546, 233.5052, 0.5909593, 0, 0, -0.8067014,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+VALUES (0x7B6C1002,  1609, 0xB6C1000F, 46.26491, 147.2546, 233.5052, 0.590959, 0, 0, -0.806701,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
 /* @teleloc 0xB6C1000F [46.264910 147.254600 233.505200] 0.590959 0.000000 0.000000 -0.806701 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24305,   1, 'Olthoi Swarm Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24305,   1,   33557162) /* Setup */
-     , (24305,   2,  150994946) /* MotionTable */
-     , (24305,   3,  536870925) /* SoundTable */
-     , (24305,   8,  100667623) /* Icon */
-     , (24305,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24305,   1, 0x02000AAA) /* Setup */
+     , (24305,   2, 0x09000002) /* MotionTable */
+     , (24305,   3, 0x2000000D) /* SoundTable */
+     , (24305,   8, 0x060010E7) /* Icon */
+     , (24305,  22, 0x34000021) /* PhysicsEffectTable */
      , (24305,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24305, 8040, 1565327790, 130.25, -415.065, -42, 0.9927928, 0, 0, 0.119843) /* PCAPRecordedLocation */
+VALUES (24305, 8040, 0x5D4D01AE, 130.25, -415.065, -42, 0.992793, 0, 0, 0.119843) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4D01AE [130.250000 -415.065000 -42.000000] 0.992793 0.000000 0.000000 0.119843 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

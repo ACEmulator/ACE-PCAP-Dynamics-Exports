@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41611,   1, 'Greatsword of Iron Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41611,   1,   33560867) /* Setup */
-     , (41611,   3,  536870932) /* SoundTable */
-     , (41611,   8,  100690588) /* Icon */
-     , (41611,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41611,   1, 0x02001923) /* Setup */
+     , (41611,   3, 0x20000014) /* SoundTable */
+     , (41611,   8, 0x06006A9C) /* Icon */
+     , (41611,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41611, 8040, 561184800, 75.12159, 185.6553, 152.4592, 0.6449784, 0.6449784, -0.2898325, -0.2898325) /* PCAPRecordedLocation */
+VALUES (41611, 8040, 0x21730020, 75.12159, 185.6553, 152.4592, 0.644978, 0.644978, -0.289833, -0.289833) /* PCAPRecordedLocation */
 /* @teleloc 0x21730020 [75.121590 185.655300 152.459200] 0.644978 0.644978 -0.289833 -0.289833 */;

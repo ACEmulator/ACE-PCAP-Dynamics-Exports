@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34993,   1, 'Channeling Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34993,   1,   33560178) /* Setup */
-     , (34993,   3,  536870932) /* SoundTable */
-     , (34993,   8,  100675765) /* Icon */
-     , (34993,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34993,   1, 0x02001672) /* Setup */
+     , (34993,   3, 0x20000014) /* SoundTable */
+     , (34993,   8, 0x060030B5) /* Icon */
+     , (34993,  22, 0x3400002B) /* PhysicsEffectTable */;

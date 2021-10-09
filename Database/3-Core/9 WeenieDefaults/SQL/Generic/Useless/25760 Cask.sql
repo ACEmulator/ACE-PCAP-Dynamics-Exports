@@ -22,11 +22,11 @@ VALUES (25760,   1, 'Cask') /* Name */
      , (25760,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25760,   1,   33554597) /* Setup */
-     , (25760,   3,  536870932) /* SoundTable */
-     , (25760,   8,  100675564) /* Icon */
-     , (25760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25760,   1, 0x020000A5) /* Setup */
+     , (25760,   3, 0x20000014) /* SoundTable */
+     , (25760,   8, 0x06002FEC) /* Icon */
+     , (25760,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25760, 8040, 23855554, 56.15291, -27.75029, 0, 0.8258255, 0, 0, -0.5639258) /* PCAPRecordedLocation */
+VALUES (25760, 8040, 0x016C01C2, 56.15291, -27.75029, 0, 0.825826, 0, 0, -0.563926) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.152910 -27.750290 0.000000] 0.825826 0.000000 0.000000 -0.563926 */;

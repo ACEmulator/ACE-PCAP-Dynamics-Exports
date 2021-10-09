@@ -45,8 +45,8 @@ VALUES (41059,   1, 'Lightning Great Star Mace') /* Name */
      , (41059,  16, 'Lightning Great Star Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41059,   1,   33560833) /* Setup */
-     , (41059,   3,  536870932) /* SoundTable */
-     , (41059,   6,   67115558) /* PaletteBase */
-     , (41059,   8,  100690536) /* Icon */
-     , (41059,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41059,   1, 0x02001901) /* Setup */
+     , (41059,   3, 0x20000014) /* SoundTable */
+     , (41059,   6, 0x04001A26) /* PaletteBase */
+     , (41059,   8, 0x06006A68) /* Icon */
+     , (41059,  22, 0x3400002B) /* PhysicsEffectTable */;

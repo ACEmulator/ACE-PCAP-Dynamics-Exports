@@ -25,16 +25,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53345,   1, 'Emerald Thorn Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53345,   1,   33554487) /* Setup */
-     , (53345,   2,  150994971) /* MotionTable */
-     , (53345,   3,  536870921) /* SoundTable */
-     , (53345,   6,   67109307) /* PaletteBase */
-     , (53345,   8,  100667938) /* Icon */
-     , (53345,  22,  872415260) /* PhysicsEffectTable */
+VALUES (53345,   1, 0x02000037) /* Setup */
+     , (53345,   2, 0x0900001B) /* MotionTable */
+     , (53345,   3, 0x20000009) /* SoundTable */
+     , (53345,   6, 0x040001BB) /* PaletteBase */
+     , (53345,   8, 0x06001222) /* Icon */
+     , (53345,  22, 0x3400001C) /* PhysicsEffectTable */
      , (53345,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53345, 8040, 3024617496, 66.19935, 174.9145, 111.5196, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53345, 8040, 0xB4480018, 66.19935, 174.9145, 111.5196, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB4480018 [66.199350 174.914500 111.519600] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

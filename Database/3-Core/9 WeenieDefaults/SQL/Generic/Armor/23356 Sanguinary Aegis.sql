@@ -40,12 +40,12 @@ VALUES (23356,   1, 'Sanguinary Aegis') /* Name */
      , (23356,  25, 'Arthurr') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23356,   1,   33555831) /* Setup */
-     , (23356,   3,  536870932) /* SoundTable */
-     , (23356,   6,   67111919) /* PaletteBase */
-     , (23356,   8,  100669653) /* Icon */
-     , (23356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23356,   1, 0x02000577) /* Setup */
+     , (23356,   3, 0x20000014) /* SoundTable */
+     , (23356,   6, 0x04000BEF) /* PaletteBase */
+     , (23356,   8, 0x060018D5) /* Icon */
+     , (23356,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23356, 8040, 3332964380, 85.69744, 94.30175, 41.926, 0.07305086, -0.8069488, -0.2425229, -0.5335539) /* PCAPRecordedLocation */
+VALUES (23356, 8040, 0xC6A9001C, 85.69744, 94.30175, 41.926, 0.073051, -0.806949, -0.242523, -0.533554) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [85.697440 94.301750 41.926000] 0.073051 -0.806949 -0.242523 -0.533554 */;

@@ -24,7 +24,7 @@ VALUES (37515,   1, 'Pack Aerbax') /* Name */
      , (37515,  16, 'A miniature doll of Aerbax - once a valued member of the Virindi Singularity who split from it and gradually began to realize its own independence.  Its research culminated in the discovery of a Kemeroi, one of the great evil beings hidden deep within the world, which further twisted it towards Shadow and destruction.  Aerbax hatched a plot to dominate the creatures of Auberean by crafting prodigal versions of several selected different races.  Aerbax''s shadow has now been sundered from it, but Aerbax still exists and may one day again attempt to guide the course of history from afar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37515,   1,   33560565) /* Setup */
-     , (37515,   2,  150995435) /* MotionTable */
-     , (37515,   8,  100689881) /* Icon */
-     , (37515,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (37515,   1, 0x020017F5) /* Setup */
+     , (37515,   2, 0x090001EB) /* MotionTable */
+     , (37515,   8, 0x060067D9) /* Icon */
+     , (37515,  22, 0x34000029) /* PhysicsEffectTable */;

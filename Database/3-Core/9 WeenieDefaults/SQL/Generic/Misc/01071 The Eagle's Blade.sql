@@ -18,9 +18,9 @@ VALUES (1071,   1, 'The Eagle''s Blade') /* Name */
      , (1071,  16, 'The Eagle''s Blade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1071,   1,   33555909) /* Setup */
-     , (1071,   8,  100668115) /* Icon */;
+VALUES (1071,   1, 0x020005C5) /* Setup */
+     , (1071,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1071, 8040, 2103705629, 86.3637, 111.273, 15.7, 0.9130123, 0, 0, -0.4079321) /* PCAPRecordedLocation */
+VALUES (1071, 8040, 0x7D64001D, 86.3637, 111.273, 15.7, 0.913012, 0, 0, -0.407932) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64001D [86.363700 111.273000 15.700000] 0.913012 0.000000 0.000000 -0.407932 */;

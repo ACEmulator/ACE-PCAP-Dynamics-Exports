@@ -52,13 +52,13 @@ VALUES (41638,   1, 'Weeping Two Handed Spear') /* Name */
      , (41638,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41638,   1,   33558296) /* Setup */
-     , (41638,   3,  536870932) /* SoundTable */
-     , (41638,   8,  100690835) /* Icon */
-     , (41638,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41638,   1, 0x02000F18) /* Setup */
+     , (41638,   3, 0x20000014) /* SoundTable */
+     , (41638,   8, 0x06006B93) /* Icon */
+     , (41638,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41638, 8040, 3111059485, 83.8279, 106.7387, 18.3812, -0.01308082, -0.01308082, -0.7069858, -0.7069858) /* PCAPRecordedLocation */
+VALUES (41638, 8040, 0xB96F001D, 83.8279, 106.7387, 18.3812, -0.013081, -0.013081, -0.706986, -0.706986) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [83.827900 106.738700 18.381200] -0.013081 -0.013081 -0.706986 -0.706986 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

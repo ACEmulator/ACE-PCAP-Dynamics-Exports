@@ -18,7 +18,7 @@ VALUES (31459,   1, 'Second Half of a Battered Dagger') /* Name */
      , (31459,  16, 'Half of a battered old dagger. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31459,   1,   33554817) /* Setup */
-     , (31459,   3,  536870932) /* SoundTable */
-     , (31459,   8,  100687868) /* Icon */
-     , (31459,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31459,   1, 0x02000181) /* Setup */
+     , (31459,   3, 0x20000014) /* SoundTable */
+     , (31459,   8, 0x06005FFC) /* Icon */
+     , (31459,  22, 0x3400002B) /* PhysicsEffectTable */;

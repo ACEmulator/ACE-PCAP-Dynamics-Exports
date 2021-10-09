@@ -27,8 +27,8 @@ VALUES (28842,   1, 'Essence of Cave Penguin') /* Name */
      , (28842,  16, 'This is a drink prepared by Chef Martam. It consists of a raw cave penguin egg and various secret ingredients.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28842,   1,   33554603) /* Setup */
-     , (28842,   3,  536870932) /* SoundTable */
-     , (28842,   8,  100686396) /* Icon */
-     , (28842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28842,   1, 0x020000AB) /* Setup */
+     , (28842,   3, 0x20000014) /* SoundTable */
+     , (28842,   8, 0x06005A3C) /* Icon */
+     , (28842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28842,  28,       3571) /* Spell - HealthUp10Percent */;

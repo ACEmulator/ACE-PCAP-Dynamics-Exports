@@ -51,14 +51,14 @@ VALUES (22155,   1, 'Lightning Jo') /* Name */
      , (22155,  16, 'Lightning Jo of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22155,   1,   33558079) /* Setup */
-     , (22155,   3,  536870932) /* SoundTable */
-     , (22155,   6,   67111919) /* PaletteBase */
-     , (22155,   8,  100673624) /* Icon */
-     , (22155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22155,   1, 0x02000E3F) /* Setup */
+     , (22155,   3, 0x20000014) /* SoundTable */
+     , (22155,   6, 0x04000BEF) /* PaletteBase */
+     , (22155,   8, 0x06002858) /* Icon */
+     , (22155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22155,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (22155,  52,  100676436) /* IconUnderlay */;
+     , (22155,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22155,  1331,      2)  /* StrengthSelf5 */
-     , (22155,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (22155,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (22155,  1331,      2)  /* StrengthSelf5 */;

@@ -37,18 +37,18 @@ VALUES (8670,   1, 'Dark Heart') /* Name */
      , (8670,  16, 'The Dark Heart of a powerful wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8670,   1,   33556933) /* Setup */
-     , (8670,   3,  536870932) /* SoundTable */
-     , (8670,   6,   67111928) /* PaletteBase */
-     , (8670,   8,  100671239) /* Icon */
-     , (8670,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8670,   1, 0x020009C5) /* Setup */
+     , (8670,   3, 0x20000014) /* SoundTable */
+     , (8670,   6, 0x04000BF8) /* PaletteBase */
+     , (8670,   8, 0x06001F07) /* Icon */
+     , (8670,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8670,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8670, 8040, 459062, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (8670, 8040, 0x00070136, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070136 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8670,   216,      2)  /* ManaRenewalSelf5 */
-     , (8670,  2007,      2)  /* WarriorsLesserVigor */
+VALUES (8670,  2007,      2)  /* WarriorsLesserVigor */
+     , (8670,   216,      2)  /* ManaRenewalSelf5 */
      , (8670,  2011,      2)  /* WizardsLesserIntellect */;

@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33459,   1, 'Shadow Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33459,   1,   33559981) /* Setup */
-     , (33459,   3,  536870932) /* SoundTable */
-     , (33459,   8,  100671205) /* Icon */
-     , (33459,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33459,   1, 0x020015AD) /* Setup */
+     , (33459,   3, 0x20000014) /* SoundTable */
+     , (33459,   8, 0x06001EE5) /* Icon */
+     , (33459,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33459, 8040, 616564251, 25.356, 83.7958, 130.384, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33459, 8040, 0x24C0061B, 25.356, 83.7958, 130.384, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x24C0061B [25.356000 83.795800 130.384000] 1.000000 0.000000 0.000000 0.000000 */;

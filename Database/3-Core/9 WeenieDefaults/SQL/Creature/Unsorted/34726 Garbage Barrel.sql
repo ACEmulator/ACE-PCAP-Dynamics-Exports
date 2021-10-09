@@ -30,12 +30,12 @@ VALUES (34726,   1, 'Garbage Barrel') /* Name */
      , (34726,  16, 'Throw items away by giving them to the barrel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34726,   1,   33554596) /* Setup */
-     , (34726,   2,  150995355) /* MotionTable */
-     , (34726,   3,  536870932) /* SoundTable */
-     , (34726,   8,  100675552) /* Icon */
-     , (34726,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34726,   1, 0x020000A4) /* Setup */
+     , (34726,   2, 0x0900019B) /* MotionTable */
+     , (34726,   3, 0x20000014) /* SoundTable */
+     , (34726,   8, 0x06002FE0) /* Icon */
+     , (34726,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34726, 8040, 3830251776, 174.875, 110.128, 17.655, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (34726, 8040, 0xE44D0100, 174.875, 110.128, 17.655, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0xE44D0100 [174.875000 110.128000 17.655000] 0.923880 0.000000 0.000000 -0.382683 */;

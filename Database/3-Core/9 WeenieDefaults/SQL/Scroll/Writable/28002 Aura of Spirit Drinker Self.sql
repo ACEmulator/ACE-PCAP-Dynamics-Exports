@@ -23,7 +23,7 @@ VALUES (28002,   1, 'Aura of Spirit Drinker Self') /* Name */
 Increases the elemental damage bonus of an elemental magic caster by 1%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28002,   1,   33554826) /* Setup */
-     , (28002,   8,  100676674) /* Icon */
-     , (28002,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28002,   1, 0x0200018A) /* Setup */
+     , (28002,   8, 0x06003442) /* Icon */
+     , (28002,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28002,  28,       3253) /* Spell - SpiritDrinkerSelf1 */;

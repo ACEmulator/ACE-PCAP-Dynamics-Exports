@@ -41,20 +41,20 @@ VALUES (41198,   1, 'Gauntlets of Darkness') /* Name */
      , (41198,  16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41198,   1,   33559505) /* Setup */
-     , (41198,   3,  536870932) /* SoundTable */
-     , (41198,   6,   67108990) /* PaletteBase */
-     , (41198,   8,  100687129) /* Icon */
-     , (41198,  22,  872415275) /* PhysicsEffectTable */
-     , (41198,  50,  100690144) /* IconOverlay */;
+VALUES (41198,   1, 0x020013D1) /* Setup */
+     , (41198,   3, 0x20000014) /* SoundTable */
+     , (41198,   6, 0x0400007E) /* PaletteBase */
+     , (41198,   8, 0x06005D19) /* Icon */
+     , (41198,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41198,  50, 0x060068E0) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41198,  2092,      2)  /* AcidBane7 */
+VALUES (41198,  2113,      2)  /* PiercingBane7 */
+     , (41198,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (41198,  2092,      2)  /* AcidBane7 */
      , (41198,  2094,      2)  /* BladeBane7 */
      , (41198,  2098,      2)  /* BludgeonBane7 */
      , (41198,  2102,      2)  /* FlameBane7 */
      , (41198,  2104,      2)  /* FrostBane7 */
      , (41198,  2108,      2)  /* Impenetrability7 */
-     , (41198,  2110,      2)  /* LightningBane7 */
-     , (41198,  2113,      2)  /* PiercingBane7 */
-     , (41198,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */;
+     , (41198,  2110,      2)  /* LightningBane7 */;

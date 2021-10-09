@@ -33,10 +33,10 @@ VALUES (30196,   1, 'Wayfarer''s Pearl') /* Name */
      , (30196,  20, 'Wayfarer''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30196,   1,   33554809) /* Setup */
-     , (30196,   3,  536870932) /* SoundTable */
-     , (30196,   8,  100686698) /* Icon */
-     , (30196,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30196,   1, 0x02000179) /* Setup */
+     , (30196,   3, 0x20000014) /* SoundTable */
+     , (30196,   8, 0x06005B6A) /* Icon */
+     , (30196,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30196,  28,       3694) /* Spell - CoordinationRare */
-     , (30196,  50,  100686641) /* IconOverlay */
-     , (30196,  52,  100686604) /* IconUnderlay */;
+     , (30196,  50, 0x06005B31) /* IconOverlay */
+     , (30196,  52, 0x06005B0C) /* IconUnderlay */;

@@ -19,9 +19,9 @@ VALUES (37333,   1, 'Glyph of Stamina') /* Name */
      , (37333,  20, 'Glyphs of Stamina') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37333,   1,   33554809) /* Setup */
-     , (37333,   3,  536870932) /* SoundTable */
-     , (37333,   6,   67111919) /* PaletteBase */
-     , (37333,   8,  100690191) /* Icon */
-     , (37333,  22,  872415275) /* PhysicsEffectTable */
-     , (37333,  50,  100690193) /* IconOverlay */;
+VALUES (37333,   1, 0x02000179) /* Setup */
+     , (37333,   3, 0x20000014) /* SoundTable */
+     , (37333,   6, 0x04000BEF) /* PaletteBase */
+     , (37333,   8, 0x0600690F) /* Icon */
+     , (37333,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37333,  50, 0x06006911) /* IconOverlay */;

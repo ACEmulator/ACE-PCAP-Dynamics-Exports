@@ -34,10 +34,10 @@ VALUES (36500,   1, 'Dark Towers') /* Name */
      , (36500,  16, 'Take heed! With the loss of our Lord, many shadows seek leadership other than the old generals. A new dark power is rising near the crater where our Lord was first imprisoned. Come and bask in the dark glory! We shall rise anew and consume this land with darkness!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36500,   1,   33556769) /* Setup */
-     , (36500,   3,  536870932) /* SoundTable */
-     , (36500,   6,   67111919) /* PaletteBase */
-     , (36500,   8,  100668364) /* Icon */
-     , (36500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36500,   1, 0x02000921) /* Setup */
+     , (36500,   3, 0x20000014) /* SoundTable */
+     , (36500,   6, 0x04000BEF) /* PaletteBase */
+     , (36500,   8, 0x060013CC) /* Icon */
+     , (36500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36500,  28,        157) /* Spell - SummonPortal1 */
-     , (36500,  50,  100676404) /* IconOverlay */;
+     , (36500,  50, 0x06003334) /* IconOverlay */;

@@ -32,9 +32,9 @@ VALUES (2423,   1, 'Gem') /* Name */
      , (2423,  16, 'Gem of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423,   1,   33554809) /* Setup */
-     , (2423,   3,  536870932) /* SoundTable */
-     , (2423,   6,   67111919) /* PaletteBase */
-     , (2423,   8,  100674750) /* Icon */
-     , (2423,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2423,   1, 0x02000179) /* Setup */
+     , (2423,   3, 0x20000014) /* SoundTable */
+     , (2423,   6, 0x04000BEF) /* PaletteBase */
+     , (2423,   8, 0x06002CBE) /* Icon */
+     , (2423,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2423,  28,       1312) /* Spell - ArmorSelf6 */;

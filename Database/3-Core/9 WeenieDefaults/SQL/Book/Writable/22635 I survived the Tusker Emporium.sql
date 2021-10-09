@@ -21,5 +21,5 @@ VALUES (22635,   1, 'I survived the Tusker Emporium') /* Name */
      , (22635,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22635,   1,   33558121) /* Setup */
-     , (22635,   8,  100673829) /* Icon */;
+VALUES (22635,   1, 0x02000E69) /* Setup */
+     , (22635,   8, 0x06002925) /* Icon */;

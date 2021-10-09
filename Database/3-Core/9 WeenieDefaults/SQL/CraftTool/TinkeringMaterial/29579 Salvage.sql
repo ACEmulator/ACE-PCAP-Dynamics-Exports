@@ -31,8 +31,8 @@ VALUES (29579,   1, 'Salvage') /* Name */
      , (29579,  15, 'A bundle of mahogany material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29579,   1,   33554817) /* Setup */
-     , (29579,   3,  536870932) /* SoundTable */
-     , (29579,   6,   67111919) /* PaletteBase */
-     , (29579,   8,  100677147) /* Icon */
-     , (29579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29579,   1, 0x02000181) /* Setup */
+     , (29579,   3, 0x20000014) /* SoundTable */
+     , (29579,   6, 0x04000BEF) /* PaletteBase */
+     , (29579,   8, 0x0600361B) /* Icon */
+     , (29579,  22, 0x3400002B) /* PhysicsEffectTable */;

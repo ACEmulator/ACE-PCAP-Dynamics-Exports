@@ -32,9 +32,9 @@ VALUES (2429,   1, 'Gem') /* Name */
      , (2429,  16, 'Gem of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2429,   1,   33554809) /* Setup */
-     , (2429,   3,  536870932) /* SoundTable */
-     , (2429,   6,   67111919) /* PaletteBase */
-     , (2429,   8,  100674729) /* Icon */
-     , (2429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2429,   1, 0x02000179) /* Setup */
+     , (2429,   3, 0x20000014) /* SoundTable */
+     , (2429,   6, 0x04000BEF) /* PaletteBase */
+     , (2429,   8, 0x06002CA9) /* Icon */
+     , (2429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2429,  28,        193) /* Spell - RejuvenationSelf6 */;

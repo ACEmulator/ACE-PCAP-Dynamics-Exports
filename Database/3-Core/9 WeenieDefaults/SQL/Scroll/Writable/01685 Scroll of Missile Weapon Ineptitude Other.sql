@@ -23,7 +23,7 @@ VALUES (1685,   1, 'Scroll of Missile Weapon Ineptitude Other') /* Name */
 Decreases the target''s Missile Weapons skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1685,   1,   33554826) /* Setup */
-     , (1685,   8,  100676450) /* Icon */
-     , (1685,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1685,   1, 0x0200018A) /* Setup */
+     , (1685,   8, 0x06003362) /* Icon */
+     , (1685,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1685,  28,        473) /* Spell - MissileWeaponsIneptitudeOther1 */;

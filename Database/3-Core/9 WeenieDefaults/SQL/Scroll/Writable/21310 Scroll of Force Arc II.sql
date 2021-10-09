@@ -23,7 +23,7 @@ VALUES (21310,   1, 'Scroll of Force Arc II') /* Name */
 Shoots a bolt of force at the target. The bolt does 26-52 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21310,   1,   33554826) /* Setup */
-     , (21310,   8,  100677019) /* Icon */
-     , (21310,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21310,   1, 0x0200018A) /* Setup */
+     , (21310,   8, 0x0600359B) /* Icon */
+     , (21310,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21310,  28,       2719) /* Spell - ForceArc2 */;

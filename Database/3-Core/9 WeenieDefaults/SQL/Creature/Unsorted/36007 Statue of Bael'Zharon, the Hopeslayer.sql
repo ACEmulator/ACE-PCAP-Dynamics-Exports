@@ -26,12 +26,12 @@ VALUES (36007,   1, 'Statue of Bael''Zharon, the Hopeslayer') /* Name */
      , (36007,  16, 'A shadowy statue of the Hopeslayer.  Near the base of the statue is what appears to be an oddly shaped keyhole.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36007,   1,   33560170) /* Setup */
-     , (36007,   2,  150995147) /* MotionTable */
-     , (36007,   3,  536871017) /* SoundTable */
-     , (36007,   8,  100689315) /* Icon */
-     , (36007,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (36007,   1, 0x0200166A) /* Setup */
+     , (36007,   2, 0x090000CB) /* MotionTable */
+     , (36007,   3, 0x20000069) /* SoundTable */
+     , (36007,   8, 0x060065A3) /* Icon */
+     , (36007,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36007, 8040, 1699217728, 90, -136.41, -78, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36007, 8040, 0x65480140, 90, -136.41, -78, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x65480140 [90.000000 -136.410000 -78.000000] 0.000000 0.000000 0.000000 -1.000000 */;

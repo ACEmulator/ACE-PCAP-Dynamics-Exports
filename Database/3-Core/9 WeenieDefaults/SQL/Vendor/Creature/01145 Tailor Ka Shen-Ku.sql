@@ -34,20 +34,20 @@ VALUES (1145,   1, 'Tailor Ka Shen-Ku') /* Name */
      , (1145,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1145,   1,   33554433) /* Setup */
-     , (1145,   2,  150994945) /* MotionTable */
-     , (1145,   3,  536870913) /* SoundTable */
-     , (1145,   6,   67108990) /* PaletteBase */
-     , (1145,   8,  100667446) /* Icon */
-     , (1145,   9,   83890463) /* EyesTexture */
-     , (1145,  10,   83890555) /* NoseTexture */
-     , (1145,  11,   83890569) /* MouthTexture */
-     , (1145,  15,   67117074) /* HairPalette */
-     , (1145,  16,   67110063) /* EyesPalette */
-     , (1145,  17,   67110056) /* SkinPalette */;
+VALUES (1145,   1, 0x02000001) /* Setup */
+     , (1145,   2, 0x09000001) /* MotionTable */
+     , (1145,   3, 0x20000001) /* SoundTable */
+     , (1145,   6, 0x0400007E) /* PaletteBase */
+     , (1145,   8, 0x06001036) /* Icon */
+     , (1145,   9, 0x0500111F) /* EyesTexture */
+     , (1145,  10, 0x0500117B) /* NoseTexture */
+     , (1145,  11, 0x05001189) /* MouthTexture */
+     , (1145,  15, 0x04002012) /* HairPalette */
+     , (1145,  16, 0x040004AF) /* EyesPalette */
+     , (1145,  17, 0x040004A8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1145, 8040, 3845259532, 125.969, 34.8809, 29.605, -0.9770167, 0, 0, -0.2131628) /* PCAPRecordedLocation */
+VALUES (1145, 8040, 0xE532010C, 125.969, 34.8809, 29.605, -0.977017, 0, 0, -0.213163) /* PCAPRecordedLocation */
 /* @teleloc 0xE532010C [125.969000 34.880900 29.605000] -0.977017 0.000000 0.000000 -0.213163 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

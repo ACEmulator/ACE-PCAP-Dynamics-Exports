@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52718,   1, 'Tracking Fireball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52718,   1,   33556633) /* Setup */
-     , (52718,   2,  150995087) /* MotionTable */
-     , (52718,   3,  536870985) /* SoundTable */
-     , (52718,   8,  100668442) /* Icon */
-     , (52718,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (52718,   1, 0x02000899) /* Setup */
+     , (52718,   2, 0x0900008F) /* MotionTable */
+     , (52718,   3, 0x20000049) /* SoundTable */
+     , (52718,   8, 0x0600141A) /* Icon */
+     , (52718,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52718, 8040, 1499529479, 17.6862, -22.39803, 8.34465E-07, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52718, 8040, 0x59610107, 17.6862, -22.39803, 0.000001, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610107 [17.686200 -22.398030 0.000001] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -37,10 +37,10 @@ VALUES (49286,   1, 'Acid K''nath Essence (150)') /* Name */
      , (49286,  14, 'Use this essence to summon or dismiss your Acid K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49286,   1,   33554817) /* Setup */
-     , (49286,   3,  536870932) /* SoundTable */
-     , (49286,   6,   67111919) /* PaletteBase */
-     , (49286,   8,  100693039) /* Icon */
-     , (49286,  22,  872415275) /* PhysicsEffectTable */
-     , (49286,  50,  100693030) /* IconOverlay */
-     , (49286,  52,  100693024) /* IconUnderlay */;
+VALUES (49286,   1, 0x02000181) /* Setup */
+     , (49286,   3, 0x20000014) /* SoundTable */
+     , (49286,   6, 0x04000BEF) /* PaletteBase */
+     , (49286,   8, 0x0600742F) /* Icon */
+     , (49286,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49286,  50, 0x06007426) /* IconOverlay */
+     , (49286,  52, 0x06007420) /* IconUnderlay */;

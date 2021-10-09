@@ -49,12 +49,12 @@ VALUES (4193,   1, 'Frost Cestus') /* Name */
      , (4193,  16, 'Frost Cestus of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4193,   1,   33555994) /* Setup */
-     , (4193,   3,  536870932) /* SoundTable */
-     , (4193,   8,  100670023) /* Icon */
-     , (4193,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4193,   1, 0x0200061A) /* Setup */
+     , (4193,   3, 0x20000014) /* SoundTable */
+     , (4193,   8, 0x06001A47) /* Icon */
+     , (4193,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4193,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4193,  1592,      2)  /* HeartSeekerSelf6 */
-     , (4193,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (4193,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (4193,  1592,      2)  /* HeartSeekerSelf6 */;

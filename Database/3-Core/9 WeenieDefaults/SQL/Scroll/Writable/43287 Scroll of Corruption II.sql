@@ -23,7 +23,7 @@ VALUES (43287,   1, 'Scroll of Corruption II') /* Name */
 Sends 3 bolts of corruption outward from the caster. Each bolt does 91 points of damage over 30 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43287,   1,   33554826) /* Setup */
-     , (43287,   8,  100691573) /* Icon */
-     , (43287,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43287,   1, 0x0200018A) /* Setup */
+     , (43287,   8, 0x06006E75) /* Icon */
+     , (43287,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43287,  28,       5396) /* Spell - Corruption2 */;

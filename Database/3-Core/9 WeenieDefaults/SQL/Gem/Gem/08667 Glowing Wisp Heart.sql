@@ -25,8 +25,8 @@ VALUES (8667,   1, 'Glowing Wisp Heart') /* Name */
      , (8667,  16, 'A glowing wisp heart that radiates an aura of power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8667,   1,   33556930) /* Setup */
-     , (8667,   3,  536870932) /* SoundTable */
-     , (8667,   6,   67111919) /* PaletteBase */
-     , (8667,   8,  100671242) /* Icon */
-     , (8667,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8667,   1, 0x020009C2) /* Setup */
+     , (8667,   3, 0x20000014) /* SoundTable */
+     , (8667,   6, 0x04000BEF) /* PaletteBase */
+     , (8667,   8, 0x06001F0A) /* Icon */
+     , (8667,  22, 0x3400002B) /* PhysicsEffectTable */;

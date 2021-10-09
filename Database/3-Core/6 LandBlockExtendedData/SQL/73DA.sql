@@ -90,13 +90,13 @@ VALUES (0x773DA011,  8405, 0x73DA0035, 166.1951, 110.0662, 258.244, 1, 0, 0, 0, 
 /* @teleloc 0x73DA0035 [166.195100 110.066200 258.244000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x773DA012, 24497, 0x73DA0021, 113.2448, 13.20333, 232.5504, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+VALUES (0x773DA012, 24497, 0x73DA0021, 113.2448, 13.20333, 232.5504, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x73DA0021 [113.244800 13.203330 232.550400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x773DA013, 24497, 0x73DA0029, 129.7448, 16.06936, 231.768, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+VALUES (0x773DA013, 24497, 0x73DA0029, 129.7448, 16.06936, 231.768, 0.92388, 0, 0, -0.382684,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x73DA0029 [129.744800 16.069360 231.768000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x773DA014, 24497, 0x73DA0029, 121.1558, 21.72865, 228.6775, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+VALUES (0x773DA014, 24497, 0x73DA0029, 121.1558, 21.72865, 228.6775, -0.766044, 0, 0, -0.642788,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x73DA0029 [121.155800 21.728650 228.677500] -0.766044 0.000000 0.000000 -0.642788 */

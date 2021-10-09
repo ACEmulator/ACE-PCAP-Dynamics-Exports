@@ -22,11 +22,11 @@ VALUES (15789,   1, 'Scrawled Bloody Note') /* Name */
      , (15789,  16, 'A note hastily written by Nuhmudira. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15789,   1,   33554773) /* Setup */
-     , (15789,   3,  536870932) /* SoundTable */
-     , (15789,   8,  100672795) /* Icon */
-     , (15789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15789,   1, 0x02000155) /* Setup */
+     , (15789,   3, 0x20000014) /* SoundTable */
+     , (15789,   8, 0x0600251B) /* Icon */
+     , (15789,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15789, 8040, 1415708954, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443) /* PCAPRecordedLocation */
+VALUES (15789, 8040, 0x5462011A, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443) /* PCAPRecordedLocation */
 /* @teleloc 0x5462011A [27.290300 -18.559700 0.079000] -0.782665 0.000000 0.000000 -0.622443 */;

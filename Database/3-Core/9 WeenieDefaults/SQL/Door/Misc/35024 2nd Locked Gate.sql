@@ -25,12 +25,12 @@ VALUES (35024,   1, '2nd Locked Gate') /* Name */
      , (35024,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35024,   1,   33555953) /* Setup */
-     , (35024,   2,  150995078) /* MotionTable */
-     , (35024,   3,  536870947) /* SoundTable */
-     , (35024,   8,  100668183) /* Icon */
-     , (35024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35024,   1, 0x020005F1) /* Setup */
+     , (35024,   2, 0x09000086) /* MotionTable */
+     , (35024,   3, 0x20000023) /* SoundTable */
+     , (35024,   8, 0x06001317) /* Icon */
+     , (35024,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35024, 8040, 15008820, 70, -275, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35024, 8040, 0x00E50434, 70, -275, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E50434 [70.000000 -275.000000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */;

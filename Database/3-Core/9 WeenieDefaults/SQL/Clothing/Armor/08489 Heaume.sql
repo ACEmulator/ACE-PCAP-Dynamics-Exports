@@ -45,11 +45,11 @@ VALUES (8489,   1, 'Heaume') /* Name */
      , (8489,  16, 'Heaume') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8489,   1,   33556883) /* Setup */
-     , (8489,   3,  536870932) /* SoundTable */
-     , (8489,   6,   67108990) /* PaletteBase */
-     , (8489,   8,  100671198) /* Icon */
-     , (8489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8489,   1, 0x02000993) /* Setup */
+     , (8489,   3, 0x20000014) /* SoundTable */
+     , (8489,   6, 0x0400007E) /* PaletteBase */
+     , (8489,   8, 0x06001EDE) /* Icon */
+     , (8489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8489,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

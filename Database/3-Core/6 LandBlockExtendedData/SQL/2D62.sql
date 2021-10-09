@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x2D62;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62001,  1154, 0x2D620038, 144.0538, 171.1143, 30.26951, 0.9063078, 0, 0, -0.4226183, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x72D62001,  1154, 0x2D620038, 144.0538, 171.1143, 30.26951, 0.906308, 0, 0, -0.422618, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x2D620038 [144.053800 171.114300 30.269510] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -13,23 +13,23 @@ VALUES (0x72D62001, 0x72D62002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) 
      , (0x72D62001, 0x72D62007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62002,   233, 0x2D620038, 144.0538, 171.1143, 30.26951, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
+VALUES (0x72D62002,   233, 0x2D620038, 144.0538, 171.1143, 30.26951, 0.906308, 0, 0, -0.422618,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
 /* @teleloc 0x2D620038 [144.053800 171.114300 30.269510] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62003,  5712, 0x2D620006, 7.777899, 141.6823, 56.18845, 0.9233525, 0, 0, -0.3839533,  True, '2019-02-10 00:00:00'); /* Inferno */
+VALUES (0x72D62003,  5712, 0x2D620006, 7.777899, 141.6823, 56.18845, 0.923353, 0, 0, -0.383953,  True, '2019-02-10 00:00:00'); /* Inferno */
 /* @teleloc 0x2D620006 [7.777899 141.682300 56.188450] 0.923353 0.000000 0.000000 -0.383953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62004, 36858, 0x2D620006, 22.00699, 135.8548, 53.38189, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
+VALUES (0x72D62004, 36858, 0x2D620006, 22.00699, 135.8548, 53.38189, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
 /* @teleloc 0x2D620006 [22.006990 135.854800 53.381890] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62005,  7121, 0x2D620006, 20.18621, 134.0702, 54.58368, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+VALUES (0x72D62005,  7121, 0x2D620006, 20.18621, 134.0702, 54.58368, 0.766045, 0, 0, -0.642788,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
 /* @teleloc 0x2D620006 [20.186210 134.070200 54.583680] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D62006,  7119, 0x2D620002, 1.144702, 31.08816, 79.62494, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
+VALUES (0x72D62006,  7119, 0x2D620002, 1.144702, 31.08816, 79.62494, 0.92388, 0, 0, -0.382684,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
 /* @teleloc 0x2D620002 [1.144702 31.088160 79.624940] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

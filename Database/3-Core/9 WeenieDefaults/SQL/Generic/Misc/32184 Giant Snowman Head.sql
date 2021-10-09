@@ -19,7 +19,7 @@ VALUES (32184,   1, 'Giant Snowman Head') /* Name */
      , (32184,  16, 'The freezing head of a giant snowman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32184,   1,   33559773) /* Setup */
-     , (32184,   3,  536870932) /* SoundTable */
-     , (32184,   8,  100688429) /* Icon */
-     , (32184,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32184,   1, 0x020014DD) /* Setup */
+     , (32184,   3, 0x20000014) /* SoundTable */
+     , (32184,   8, 0x0600622D) /* Icon */
+     , (32184,  22, 0x3400002B) /* PhysicsEffectTable */;

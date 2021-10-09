@@ -29,20 +29,20 @@ VALUES (28189,   1, 'Apprentice Fletcher') /* Name */
      , (28189,   5, 'Apprentice Fletcher') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28189,   1,   33554433) /* Setup */
-     , (28189,   2,  150994945) /* MotionTable */
-     , (28189,   3,  536870913) /* SoundTable */
-     , (28189,   6,   67108990) /* PaletteBase */
-     , (28189,   8,  100667446) /* Icon */
-     , (28189,   9,   83890482) /* EyesTexture */
-     , (28189,  10,   83890562) /* NoseTexture */
-     , (28189,  11,   83890658) /* MouthTexture */
-     , (28189,  15,   67117074) /* HairPalette */
-     , (28189,  16,   67110062) /* EyesPalette */
-     , (28189,  17,   67109557) /* SkinPalette */;
+VALUES (28189,   1, 0x02000001) /* Setup */
+     , (28189,   2, 0x09000001) /* MotionTable */
+     , (28189,   3, 0x20000001) /* SoundTable */
+     , (28189,   6, 0x0400007E) /* PaletteBase */
+     , (28189,   8, 0x06001036) /* Icon */
+     , (28189,   9, 0x05001132) /* EyesTexture */
+     , (28189,  10, 0x05001182) /* NoseTexture */
+     , (28189,  11, 0x050011E2) /* MouthTexture */
+     , (28189,  15, 0x04002012) /* HairPalette */
+     , (28189,  16, 0x040004AE) /* EyesPalette */
+     , (28189,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28189, 8040, 2655256891, 53.5344, 109.511, 69.705, -0.362784, 0, 0, 0.931873) /* PCAPRecordedLocation */
+VALUES (28189, 8040, 0x9E44013B, 53.5344, 109.511, 69.705, -0.362784, 0, 0, 0.931873) /* PCAPRecordedLocation */
 /* @teleloc 0x9E44013B [53.534400 109.511000 69.705000] -0.362784 0.000000 0.000000 0.931873 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21467,   1, 'Jojii Gardens Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21467,   1,   33554867) /* Setup */
-     , (21467,   2,  150994947) /* MotionTable */
-     , (21467,   8,  100667499) /* Icon */;
+VALUES (21467,   1, 0x020001B3) /* Setup */
+     , (21467,   2, 0x09000003) /* MotionTable */
+     , (21467,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21467, 8040, 1448476931, 9.989, -19.993, -0.06299996, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (21467, 8040, 0x56560103, 9.989, -19.993, -0.063, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x56560103 [9.989000 -19.993000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7941,   1, 'Fenmalain Vestibule Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7941,   1,   33555923) /* Setup */
-     , (7941,   2,  150994947) /* MotionTable */
-     , (7941,   8,  100667499) /* Icon */;
+VALUES (7941,   1, 0x020005D3) /* Setup */
+     , (7941,   2, 0x09000003) /* MotionTable */
+     , (7941,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7941, 8040, 3292790815, 92.9729, 152.769, 248.954, -0.964423, 0, 0, 0.264364) /* PCAPRecordedLocation */
+VALUES (7941, 8040, 0xC444001F, 92.9729, 152.769, 248.954, -0.964423, 0, 0, 0.264364) /* PCAPRecordedLocation */
 /* @teleloc 0xC444001F [92.972900 152.769000 248.954000] -0.964423 0.000000 0.000000 0.264364 */;

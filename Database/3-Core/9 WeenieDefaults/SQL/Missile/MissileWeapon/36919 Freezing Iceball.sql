@@ -52,13 +52,13 @@ VALUES (36919,   1, 'Freezing Iceball') /* Name */
      , (36919,  16, 'A compressed ball of ice, so hard that it makes steel look a bit soft. It emanates a freezing cold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36919,   1,   33556223) /* Setup */
-     , (36919,   3,  536870932) /* SoundTable */
-     , (36919,   6,   67111928) /* PaletteBase */
-     , (36919,   8,  100670279) /* Icon */
-     , (36919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36919,   1, 0x020006FF) /* Setup */
+     , (36919,   3, 0x20000014) /* SoundTable */
+     , (36919,   6, 0x04000BF8) /* PaletteBase */
+     , (36919,   8, 0x06001B47) /* Icon */
+     , (36919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36919,  55,       2168) /* ProcSpell - ColdVulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36919, 8040, 2261647401, 137.7399, 15.89238, 118.1231, -0.9374223, 0, 0, -0.3481945) /* PCAPRecordedLocation */
+VALUES (36919, 8040, 0x86CE0029, 137.7399, 15.89238, 118.1231, -0.937422, 0, 0, -0.348195) /* PCAPRecordedLocation */
 /* @teleloc 0x86CE0029 [137.739900 15.892380 118.123100] -0.937422 0.000000 0.000000 -0.348195 */;

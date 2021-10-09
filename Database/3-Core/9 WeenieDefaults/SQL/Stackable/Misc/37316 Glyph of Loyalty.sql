@@ -19,9 +19,9 @@ VALUES (37316,   1, 'Glyph of Loyalty') /* Name */
      , (37316,  20, 'Glyphs of Loyalty') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37316,   1,   33554809) /* Setup */
-     , (37316,   3,  536870932) /* SoundTable */
-     , (37316,   6,   67111919) /* PaletteBase */
-     , (37316,   8,  100690191) /* Icon */
-     , (37316,  22,  872415275) /* PhysicsEffectTable */
-     , (37316,  50,  100686669) /* IconOverlay */;
+VALUES (37316,   1, 0x02000179) /* Setup */
+     , (37316,   3, 0x20000014) /* SoundTable */
+     , (37316,   6, 0x04000BEF) /* PaletteBase */
+     , (37316,   8, 0x0600690F) /* Icon */
+     , (37316,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37316,  50, 0x06005B4D) /* IconOverlay */;

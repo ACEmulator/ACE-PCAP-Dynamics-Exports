@@ -35,8 +35,8 @@ VALUES (3715,   1, 'Olthoi Helm') /* Name */
      , (3715,  15, 'Helm crafted from the carapace of an Olthoi. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3715,   1,   33554650) /* Setup */
-     , (3715,   3,  536870932) /* SoundTable */
-     , (3715,   6,   67108990) /* PaletteBase */
-     , (3715,   8,  100669419) /* Icon */
-     , (3715,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3715,   1, 0x020000DA) /* Setup */
+     , (3715,   3, 0x20000014) /* SoundTable */
+     , (3715,   6, 0x0400007E) /* PaletteBase */
+     , (3715,   8, 0x060017EB) /* Icon */
+     , (3715,  22, 0x3400002B) /* PhysicsEffectTable */;

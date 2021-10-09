@@ -49,17 +49,17 @@ VALUES (31395,   1, 'Raven Aegis') /* Name */
      , (31395,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31395,   1,   33559617) /* Setup */
-     , (31395,   3,  536870932) /* SoundTable */
-     , (31395,   8,  100687958) /* Icon */
-     , (31395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31395,   1, 0x02001441) /* Setup */
+     , (31395,   3, 0x20000014) /* SoundTable */
+     , (31395,   8, 0x06006056) /* Icon */
+     , (31395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31395,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31395, 8040, 2847146012, 73.45782, 81.92619, 78.51093, -0.2575725, 0.6684368, 0.5130069, 0.4729404) /* PCAPRecordedLocation */
+VALUES (31395, 8040, 0xA9B4001C, 73.45782, 81.92619, 78.51093, -0.257573, 0.668437, 0.513007, 0.47294) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4001C [73.457820 81.926190 78.510930] -0.257573 0.668437 0.513007 0.472940 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31395,   249,      2)  /* InvulnerabilitySelf6 */
-     , (31395,  3819,      2)  /* ConscriptsMight */
-     , (31395,  3820,      2)  /* ConscriptsWard */;
+VALUES (31395,  3819,      2)  /* ConscriptsMight */
+     , (31395,  3820,      2)  /* ConscriptsWard */
+     , (31395,   249,      2)  /* InvulnerabilitySelf6 */;

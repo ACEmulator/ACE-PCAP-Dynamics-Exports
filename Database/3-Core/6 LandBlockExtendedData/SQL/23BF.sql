@@ -19,7 +19,7 @@ VALUES (0x723BF003,  7095, 0x23BF001E, 94.42182, 127.4764, 116.86, 1, 0, 0, 0,  
 /* @teleloc 0x23BF001E [94.421820 127.476400 116.860000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723BF004, 11508, 0x23BF0015, 62.44317, 105.1434, 93.60133, 0.8446548, 0, 0, -0.5353114,  True, '2019-02-10 00:00:00'); /* Aun Elder Shaman */
+VALUES (0x723BF004, 11508, 0x23BF0015, 62.44317, 105.1434, 93.60133, 0.844655, 0, 0, -0.535311,  True, '2019-02-10 00:00:00'); /* Aun Elder Shaman */
 /* @teleloc 0x23BF0015 [62.443170 105.143400 93.601330] 0.844655 0.000000 0.000000 -0.535311 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

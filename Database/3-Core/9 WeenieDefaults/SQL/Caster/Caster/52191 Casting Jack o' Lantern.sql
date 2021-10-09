@@ -28,12 +28,12 @@ VALUES (52191,   1, 'Casting Jack o'' Lantern') /* Name */
      , (52191,  16, 'A small, heavy pumpkin, carved into a Jack o'' Lantern and swirling with magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52191,   1,   33561610) /* Setup */
-     , (52191,   3,  536870932) /* SoundTable */
-     , (52191,   6,   67112968) /* PaletteBase */
-     , (52191,   8,  100671020) /* Icon */
-     , (52191,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52191,   1, 0x02001C0A) /* Setup */
+     , (52191,   3, 0x20000014) /* SoundTable */
+     , (52191,   6, 0x04001008) /* PaletteBase */
+     , (52191,   8, 0x06001E2C) /* Icon */
+     , (52191,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52191, 8040, 3332898848, 91.88531, 174.7828, 41.929, -0.50865, -0.50865, -0.4911977, -0.4911977) /* PCAPRecordedLocation */
+VALUES (52191, 8040, 0xC6A80020, 91.88531, 174.7828, 41.929, -0.50865, -0.50865, -0.491198, -0.491198) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A80020 [91.885310 174.782800 41.929000] -0.508650 -0.508650 -0.491198 -0.491198 */;

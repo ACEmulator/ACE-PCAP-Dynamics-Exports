@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35104,   1, 'Corpse of a Servitor of Asheron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35104,   1,   33558367) /* Setup */
-     , (35104,   2,  150995074) /* MotionTable */
-     , (35104,   3,  536870933) /* SoundTable */
-     , (35104,   8,  100667504) /* Icon */;
+VALUES (35104,   1, 0x02000F5F) /* Setup */
+     , (35104,   2, 0x09000082) /* MotionTable */
+     , (35104,   3, 0x20000015) /* SoundTable */
+     , (35104,   8, 0x06001070) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35104, 8040, 6422886, 79.6211, -123.847, -59.99, 0.8336214, 0, 0, 0.5523362) /* PCAPRecordedLocation */
+VALUES (35104, 8040, 0x00620166, 79.6211, -123.847, -59.99, 0.833621, 0, 0, 0.552336) /* PCAPRecordedLocation */
 /* @teleloc 0x00620166 [79.621100 -123.847000 -59.990000] 0.833621 0.000000 0.000000 0.552336 */;

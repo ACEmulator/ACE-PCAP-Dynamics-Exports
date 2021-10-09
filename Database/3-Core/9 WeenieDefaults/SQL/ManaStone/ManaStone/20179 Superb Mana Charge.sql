@@ -26,5 +26,5 @@ VALUES (20179,   1, 'Superb Mana Charge') /* Name */
      , (20179,  14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20179,   1,   33555641) /* Setup */
-     , (20179,   8,  100676301) /* Icon */;
+VALUES (20179,   1, 0x020004B9) /* Setup */
+     , (20179,   8, 0x060032CD) /* Icon */;

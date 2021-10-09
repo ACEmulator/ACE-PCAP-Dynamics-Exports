@@ -39,10 +39,10 @@ VALUES (49302,   1, 'K''nath B''orret Essence') /* Name */
      , (49302,  14, 'Use this essence to summon or dismiss your K''nath B''orret.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49302,   1,   33554817) /* Setup */
-     , (49302,   3,  536870932) /* SoundTable */
-     , (49302,   6,   67111919) /* PaletteBase */
-     , (49302,   8,  100693041) /* Icon */
-     , (49302,  22,  872415275) /* PhysicsEffectTable */
-     , (49302,  50,  100693032) /* IconOverlay */
-     , (49302,  52,  100693024) /* IconUnderlay */;
+VALUES (49302,   1, 0x02000181) /* Setup */
+     , (49302,   3, 0x20000014) /* SoundTable */
+     , (49302,   6, 0x04000BEF) /* PaletteBase */
+     , (49302,   8, 0x06007431) /* Icon */
+     , (49302,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49302,  50, 0x06007428) /* IconOverlay */
+     , (49302,  52, 0x06007420) /* IconUnderlay */;

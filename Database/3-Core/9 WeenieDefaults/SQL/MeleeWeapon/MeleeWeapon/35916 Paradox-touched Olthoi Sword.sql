@@ -53,19 +53,19 @@ VALUES (35916,   1, 'Paradox-touched Olthoi Sword') /* Name */
      , (35916,  16, 'A sword, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35916,   1,   33560340) /* Setup */
-     , (35916,   3,  536870932) /* SoundTable */
-     , (35916,   6,   67109311) /* PaletteBase */
-     , (35916,   8,  100670666) /* Icon */
-     , (35916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35916,   1, 0x02001714) /* Setup */
+     , (35916,   3, 0x20000014) /* SoundTable */
+     , (35916,   6, 0x040001BF) /* PaletteBase */
+     , (35916,   8, 0x06001CCA) /* Icon */
+     , (35916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35916,  55,         67) /* ProcSpell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35916, 8040, 3465871413, 144.0177, 97.37363, 19.929, 0.6543713, 0.6543713, 0.2679519, 0.2679519) /* PCAPRecordedLocation */
+VALUES (35916, 8040, 0xCE950035, 144.0177, 97.37363, 19.929, 0.654371, 0.654371, 0.267952, 0.267952) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [144.017700 97.373630 19.929000] 0.654371 0.654371 0.267952 0.267952 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35916,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (35916,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35916,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35916,  2101,      2)  /* DefenderSelf7 */
-     , (35916,  2106,      2)  /* HeartSeekerSelf7 */
-     , (35916,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (35916,  2106,      2)  /* HeartSeekerSelf7 */;

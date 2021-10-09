@@ -50,11 +50,11 @@ VALUES (12463,   1, 'Atlatl') /* Name */
      , (12463,  16, 'Atlatl of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12463,   1,   33557433) /* Setup */
-     , (12463,   3,  536870932) /* SoundTable */
-     , (12463,   6,   67111919) /* PaletteBase */
-     , (12463,   8,  100672414) /* Icon */
-     , (12463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12463,   1, 0x02000BB9) /* Setup */
+     , (12463,   3, 0x20000014) /* SoundTable */
+     , (12463,   6, 0x04000BEF) /* PaletteBase */
+     , (12463,   8, 0x0600239E) /* Icon */
+     , (12463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12463,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

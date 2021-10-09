@@ -21,7 +21,7 @@ VALUES (49481,   1, 'Summoning Gem of Forgetfulness') /* Name */
      , (49481,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return four skill credits when used to unspecialize or eight skill credits when used to untrain the Summoning skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49481,   1,   33558087) /* Setup */
-     , (49481,   6,   67111919) /* PaletteBase */
-     , (49481,   8,  100673789) /* Icon */
-     , (49481,  50,  100693010) /* IconOverlay */;
+VALUES (49481,   1, 0x02000E47) /* Setup */
+     , (49481,   6, 0x04000BEF) /* PaletteBase */
+     , (49481,   8, 0x060028FD) /* Icon */
+     , (49481,  50, 0x06007412) /* IconOverlay */;

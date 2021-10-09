@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40252,   1, 'Summoning Rituals') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40252,   1,   33556929) /* Setup */
-     , (40252,   3,  536870932) /* SoundTable */
-     , (40252,   8,  100690355) /* Icon */
-     , (40252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40252,   1, 0x020009C1) /* Setup */
+     , (40252,   3, 0x20000014) /* SoundTable */
+     , (40252,   8, 0x060069B3) /* Icon */
+     , (40252,  22, 0x3400002B) /* PhysicsEffectTable */;

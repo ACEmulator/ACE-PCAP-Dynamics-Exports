@@ -21,8 +21,8 @@ VALUES (53071,   1, 'Empowered Amber: Helm of Life') /* Name */
      , (53071,  20, 'Empowered Ambers: Helm of Life') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53071,   1,   33554809) /* Setup */
-     , (53071,   3,  536870932) /* SoundTable */
-     , (53071,   6,   67111919) /* PaletteBase */
-     , (53071,   8,  100693327) /* Icon */
-     , (53071,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53071,   1, 0x02000179) /* Setup */
+     , (53071,   3, 0x20000014) /* SoundTable */
+     , (53071,   6, 0x04000BEF) /* PaletteBase */
+     , (53071,   8, 0x0600754F) /* Icon */
+     , (53071,  22, 0x3400002B) /* PhysicsEffectTable */;

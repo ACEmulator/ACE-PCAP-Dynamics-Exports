@@ -31,20 +31,20 @@ VALUES (38242,   1, 'Lunbal Dolicci') /* Name */
      , (38242,   5, 'High Priest Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38242,   1,   33554433) /* Setup */
-     , (38242,   2,  150994945) /* MotionTable */
-     , (38242,   3,  536870913) /* SoundTable */
-     , (38242,   6,   67108990) /* PaletteBase */
-     , (38242,   8,  100667446) /* Icon */
-     , (38242,   9,   83890479) /* EyesTexture */
-     , (38242,  10,   83890534) /* NoseTexture */
-     , (38242,  11,   83890615) /* MouthTexture */
-     , (38242,  15,   67116991) /* HairPalette */
-     , (38242,  16,   67109567) /* EyesPalette */
-     , (38242,  17,   67109551) /* SkinPalette */;
+VALUES (38242,   1, 0x02000001) /* Setup */
+     , (38242,   2, 0x09000001) /* MotionTable */
+     , (38242,   3, 0x20000001) /* SoundTable */
+     , (38242,   6, 0x0400007E) /* PaletteBase */
+     , (38242,   8, 0x06001036) /* Icon */
+     , (38242,   9, 0x0500112F) /* EyesTexture */
+     , (38242,  10, 0x05001166) /* NoseTexture */
+     , (38242,  11, 0x050011B7) /* MouthTexture */
+     , (38242,  15, 0x04001FBF) /* HairPalette */
+     , (38242,  16, 0x040002BF) /* EyesPalette */
+     , (38242,  17, 0x040002AF) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38242, 8040, 12124783, 158.402, -39.5452, -17.995, -0.8395404, 0, 0, 0.5432972) /* PCAPRecordedLocation */
+VALUES (38242, 8040, 0x00B9026F, 158.402, -39.5452, -17.995, -0.83954, 0, 0, 0.543297) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026F [158.402000 -39.545200 -17.995000] -0.839540 0.000000 0.000000 0.543297 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

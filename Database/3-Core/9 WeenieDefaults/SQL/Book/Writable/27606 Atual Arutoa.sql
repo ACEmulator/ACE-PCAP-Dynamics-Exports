@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27606,   1, 'Atual Arutoa') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27606,   1,   33559084) /* Setup */
-     , (27606,   3,  536870932) /* SoundTable */
-     , (27606,   6,   67112626) /* PaletteBase */
-     , (27606,   8,  100675751) /* Icon */
-     , (27606,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27606,   1, 0x0200122C) /* Setup */
+     , (27606,   3, 0x20000014) /* SoundTable */
+     , (27606,   6, 0x04000EB2) /* PaletteBase */
+     , (27606,   8, 0x060030A7) /* Icon */
+     , (27606,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27606, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

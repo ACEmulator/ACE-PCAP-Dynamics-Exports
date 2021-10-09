@@ -29,20 +29,20 @@ VALUES (5065,   1, 'Te Ven') /* Name */
      , (5065,   5, 'Citizen of Yanshi') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5065,   1,   33554433) /* Setup */
-     , (5065,   2,  150994945) /* MotionTable */
-     , (5065,   3,  536870913) /* SoundTable */
-     , (5065,   6,   67108990) /* PaletteBase */
-     , (5065,   8,  100667446) /* Icon */
-     , (5065,   9,   83890488) /* EyesTexture */
-     , (5065,  10,   83890550) /* NoseTexture */
-     , (5065,  11,   83890614) /* MouthTexture */
-     , (5065,  15,   67117077) /* HairPalette */
-     , (5065,  16,   67110063) /* EyesPalette */
-     , (5065,  17,   67110050) /* SkinPalette */;
+VALUES (5065,   1, 0x02000001) /* Setup */
+     , (5065,   2, 0x09000001) /* MotionTable */
+     , (5065,   3, 0x20000001) /* SoundTable */
+     , (5065,   6, 0x0400007E) /* PaletteBase */
+     , (5065,   8, 0x06001036) /* Icon */
+     , (5065,   9, 0x05001138) /* EyesTexture */
+     , (5065,  10, 0x05001176) /* NoseTexture */
+     , (5065,  11, 0x050011B6) /* MouthTexture */
+     , (5065,  15, 0x04002015) /* HairPalette */
+     , (5065,  16, 0x040004AF) /* EyesPalette */
+     , (5065,  17, 0x040004A2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5065, 8040, 3110797574, 80.6309, 186.991, 4.805, -0.258587, 0, 0, 0.965988) /* PCAPRecordedLocation */
+VALUES (5065, 8040, 0xB96B0106, 80.6309, 186.991, 4.805, -0.258587, 0, 0, 0.965988) /* PCAPRecordedLocation */
 /* @teleloc 0xB96B0106 [80.630900 186.991000 4.805000] -0.258587 0.000000 0.000000 0.965988 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -29,7 +29,7 @@ VALUES (41541,   1, 'Shattered Aetherium Core Sample') /* Name */
      , (41541,  16, 'A shattered piece of the Aetherium Core that powered the Gear Knight called the Overseer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41541,   1,   33560863) /* Setup */
-     , (41541,   3,  536870932) /* SoundTable */
-     , (41541,   8,  100690568) /* Icon */
-     , (41541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41541,   1, 0x0200191F) /* Setup */
+     , (41541,   3, 0x20000014) /* SoundTable */
+     , (41541,   8, 0x06006A88) /* Icon */
+     , (41541,  22, 0x3400002B) /* PhysicsEffectTable */;

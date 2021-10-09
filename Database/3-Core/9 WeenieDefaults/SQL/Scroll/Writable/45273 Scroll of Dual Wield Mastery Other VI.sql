@@ -23,7 +23,7 @@ VALUES (45273,   1, 'Scroll of Dual Wield Mastery Other VI') /* Name */
 Increases the target''s Dual Wield skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45273,   1,   33554826) /* Setup */
-     , (45273,   8,  100692251) /* Icon */
-     , (45273,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45273,   1, 0x0200018A) /* Setup */
+     , (45273,   8, 0x0600711B) /* Icon */
+     , (45273,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45273,  28,       5800) /* Spell - DualWieldMasteryOther6 */;

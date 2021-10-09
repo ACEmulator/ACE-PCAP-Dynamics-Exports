@@ -48,15 +48,15 @@ VALUES (363,   1, 'Yumi') /* Name */
      , (363,  16, 'Yumi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (363,   1,   33554728) /* Setup */
-     , (363,   3,  536870932) /* SoundTable */
-     , (363,   6,   67111919) /* PaletteBase */
-     , (363,   8,  100668816) /* Icon */
-     , (363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (363,   1, 0x02000128) /* Setup */
+     , (363,   3, 0x20000014) /* SoundTable */
+     , (363,   6, 0x04000BEF) /* PaletteBase */
+     , (363,   8, 0x06001590) /* Icon */
+     , (363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (363,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (363, 8040, 2471821330, 66.08822, 25.58093, 16.94818, -0.8828405, 0, 0, -0.469673) /* PCAPRecordedLocation */
+VALUES (363, 8040, 0x93550012, 66.08822, 25.58093, 16.94818, -0.882841, 0, 0, -0.469673) /* PCAPRecordedLocation */
 /* @teleloc 0x93550012 [66.088220 25.580930 16.948180] -0.882841 0.000000 0.000000 -0.469673 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

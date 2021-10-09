@@ -37,19 +37,19 @@ VALUES (2548,   1, 'Sceptre') /* Name */
      , (2548,  16, 'Sceptre of Lightning') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2548,   1,   33554704) /* Setup */
-     , (2548,   3,  536870932) /* SoundTable */
-     , (2548,   6,   67111919) /* PaletteBase */
-     , (2548,   8,  100668794) /* Icon */
-     , (2548,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2548,   1, 0x02000110) /* Setup */
+     , (2548,   3, 0x20000014) /* SoundTable */
+     , (2548,   6, 0x04000BEF) /* PaletteBase */
+     , (2548,   8, 0x0600157A) /* Icon */
+     , (2548,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2548, 8040, 3332964380, 78.65836, 83.18339, 41.929, 0.2872563, 0.2872563, -0.6461298, -0.6461298) /* PCAPRecordedLocation */
+VALUES (2548, 8040, 0xC6A9001C, 78.65836, 83.18339, 41.929, 0.287256, 0.287256, -0.64613, -0.64613) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.658360 83.183390 41.929000] 0.287256 0.287256 -0.646130 -0.646130 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2548,    80,      2)  /* LightningBolt6 */
-     , (2548,   683,      2)  /* ArcaneEnlightenmentSelf6 */
      , (2548,  1480,      2)  /* HermeticLinkSelf6 */
-     , (2548,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
-     , (2548,  2600,      2)  /* CANTRIPDEFENDER1 */;
+     , (2548,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (2548,   683,      2)  /* ArcaneEnlightenmentSelf6 */
+     , (2548,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */;

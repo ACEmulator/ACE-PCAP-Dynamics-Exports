@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15192,   1, 'Sonpay Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15192,   1,   33554867) /* Setup */
-     , (15192,   2,  150994947) /* MotionTable */
-     , (15192,   8,  100667499) /* Icon */;
+VALUES (15192,   1, 0x020001B3) /* Setup */
+     , (15192,   2, 0x09000003) /* MotionTable */
+     , (15192,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15192, 8040, 2671837240, 163.898, 172.521, 109.2533, -0.683856, 0, 0, 0.729617) /* PCAPRecordedLocation */
+VALUES (15192, 8040, 0x9F410038, 163.898, 172.521, 109.2533, -0.683856, 0, 0, 0.729617) /* PCAPRecordedLocation */
 /* @teleloc 0x9F410038 [163.898000 172.521000 109.253300] -0.683856 0.000000 0.000000 0.729617 */;

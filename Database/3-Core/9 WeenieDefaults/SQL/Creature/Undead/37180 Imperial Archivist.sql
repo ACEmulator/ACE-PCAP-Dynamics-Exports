@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37180,   1, 'Imperial Archivist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37180,   1,   33559744) /* Setup */
-     , (37180,   2,  150994967) /* MotionTable */
-     , (37180,   3,  536870934) /* SoundTable */
-     , (37180,   6,   67108990) /* PaletteBase */
-     , (37180,   8,  100667942) /* Icon */
-     , (37180,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (37180,   1, 0x020014C0) /* Setup */
+     , (37180,   2, 0x09000017) /* MotionTable */
+     , (37180,   3, 0x20000016) /* SoundTable */
+     , (37180,   6, 0x0400007E) /* PaletteBase */
+     , (37180,   8, 0x06001226) /* Icon */
+     , (37180,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37180, 8040, 14680750, 248.865, -261.209, 6.00825, 0.9553366, 0, 0, 0.2955199) /* PCAPRecordedLocation */
+VALUES (37180, 8040, 0x00E002AE, 248.865, -261.209, 6.00825, 0.955337, 0, 0, 0.29552) /* PCAPRecordedLocation */
 /* @teleloc 0x00E002AE [248.865000 -261.209000 6.008250] 0.955337 0.000000 0.000000 0.295520 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

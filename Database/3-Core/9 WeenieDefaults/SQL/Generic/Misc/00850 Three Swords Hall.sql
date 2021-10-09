@@ -18,9 +18,9 @@ VALUES (850,   1, 'Three Swords Hall') /* Name */
      , (850,  16, 'Three Swords Hall') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (850,   1,   33555594) /* Setup */
-     , (850,   8,  100668115) /* Icon */;
+VALUES (850,   1, 0x0200048A) /* Setup */
+     , (850,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (850, 8040, 3663003693, 122.995, 108.093, 23.7868, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (850, 8040, 0xDA55002D, 122.995, 108.093, 23.7868, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55002D [122.995000 108.093000 23.786800] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -25,11 +25,11 @@ VALUES (44984,   1, 'Large Tome') /* Name */
      , (44984,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44984,   1,   33554771) /* Setup */
-     , (44984,   3,  536870932) /* SoundTable */
-     , (44984,   8,  100668117) /* Icon */
-     , (44984,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44984,   1, 0x02000153) /* Setup */
+     , (44984,   3, 0x20000014) /* SoundTable */
+     , (44984,   8, 0x060012D5) /* Icon */
+     , (44984,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44984, 8040, 2332230618, 154.688, -107.707, -29.943, 0.4548919, 0, 0, -0.8905467) /* PCAPRecordedLocation */
+VALUES (44984, 8040, 0x8B0303DA, 154.688, -107.707, -29.943, 0.454892, 0, 0, -0.890547) /* PCAPRecordedLocation */
 /* @teleloc 0x8B0303DA [154.688000 -107.707000 -29.943000] 0.454892 0.000000 0.000000 -0.890547 */;

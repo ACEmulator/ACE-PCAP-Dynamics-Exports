@@ -23,7 +23,7 @@ VALUES (3218,   1, 'Scroll of Finesse Weapon Ineptitude Other II') /* Name */
 Decreases the target''s Finesse Weapons skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3218,   1,   33554826) /* Setup */
-     , (3218,   8,  100692250) /* Icon */
-     , (3218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3218,   1, 0x0200018A) /* Setup */
+     , (3218,   8, 0x0600711A) /* Icon */
+     , (3218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3218,  28,        329) /* Spell - FinesseWeaponsIneptitudeOther2 */;

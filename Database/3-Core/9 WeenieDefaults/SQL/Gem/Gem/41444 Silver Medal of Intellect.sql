@@ -31,9 +31,9 @@ VALUES (41444,   1, 'Silver Medal of Intellect') /* Name */
      , (41444,  16, 'This medal is eternal. Use this medal to increase the Mana of your Fellowship by 4.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41444,   1,   33554802) /* Setup */
-     , (41444,   3,  536870932) /* SoundTable */
-     , (41444,   8,  100690735) /* Icon */
-     , (41444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41444,   1, 0x02000172) /* Setup */
+     , (41444,   3, 0x20000014) /* SoundTable */
+     , (41444,   8, 0x06006B2F) /* Icon */
+     , (41444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41444,  28,       5124) /* Spell - AnswerOfLoyaltyMana2 */
      , (41444,  37,         36) /* ItemSkillLimit - Loyalty */;

@@ -21,7 +21,7 @@ VALUES (33682,   1, 'Degenerate Shadow Essence') /* Name */
      , (33682,  16, 'The wipsy essence that remains of a Degenerate Shadow Commander') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33682,   1,   33554817) /* Setup */
-     , (33682,   3,  536870932) /* SoundTable */
-     , (33682,   8,  100689034) /* Icon */
-     , (33682,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33682,   1, 0x02000181) /* Setup */
+     , (33682,   3, 0x20000014) /* SoundTable */
+     , (33682,   8, 0x0600648A) /* Icon */
+     , (33682,  22, 0x3400002B) /* PhysicsEffectTable */;

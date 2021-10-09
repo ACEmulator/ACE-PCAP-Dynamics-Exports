@@ -50,10 +50,10 @@ VALUES (46960,   1, 'Modified Raudaloi') /* Name */
      , (46960,  15, 'A sword constructed of obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46960,   1,   33557967) /* Setup */
-     , (46960,   3,  536870932) /* SoundTable */
-     , (46960,   8,  100673494) /* Icon */
-     , (46960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46960,   1, 0x02000DCF) /* Setup */
+     , (46960,   3, 0x20000014) /* SoundTable */
+     , (46960,   8, 0x060027D6) /* Icon */
+     , (46960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46960,  55,       2318) /* ProcSpell - VulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

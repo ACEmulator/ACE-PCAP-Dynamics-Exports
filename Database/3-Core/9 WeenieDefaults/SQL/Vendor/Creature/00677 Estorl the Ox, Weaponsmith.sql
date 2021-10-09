@@ -35,20 +35,20 @@ VALUES (677,   1, 'Estorl the Ox, Weaponsmith') /* Name */
      , (677,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (677,   1,   33554433) /* Setup */
-     , (677,   2,  150994945) /* MotionTable */
-     , (677,   3,  536870913) /* SoundTable */
-     , (677,   6,   67108990) /* PaletteBase */
-     , (677,   8,  100667446) /* Icon */
-     , (677,   9,   83890509) /* EyesTexture */
-     , (677,  10,   83890518) /* NoseTexture */
-     , (677,  11,   83890657) /* MouthTexture */
-     , (677,  15,   67116991) /* HairPalette */
-     , (677,  16,   67110063) /* EyesPalette */
-     , (677,  17,   67109561) /* SkinPalette */;
+VALUES (677,   1, 0x02000001) /* Setup */
+     , (677,   2, 0x09000001) /* MotionTable */
+     , (677,   3, 0x20000001) /* SoundTable */
+     , (677,   6, 0x0400007E) /* PaletteBase */
+     , (677,   8, 0x06001036) /* Icon */
+     , (677,   9, 0x0500114D) /* EyesTexture */
+     , (677,  10, 0x05001156) /* NoseTexture */
+     , (677,  11, 0x050011E1) /* MouthTexture */
+     , (677,  15, 0x04001FBF) /* HairPalette */
+     , (677,  16, 0x040004AF) /* EyesPalette */
+     , (677,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (677, 8040, 3164537167, 180.948, 124.808, 32.005, 0.03053853, 0, 0, -0.9995336) /* PCAPRecordedLocation */
+VALUES (677, 8040, 0xBC9F014F, 180.948, 124.808, 32.005, 0.030539, 0, 0, -0.999534) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F014F [180.948000 124.808000 32.005000] 0.030539 0.000000 0.000000 -0.999534 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

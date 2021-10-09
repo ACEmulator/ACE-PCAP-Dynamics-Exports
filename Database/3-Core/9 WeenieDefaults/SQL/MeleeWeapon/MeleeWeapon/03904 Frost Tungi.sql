@@ -51,12 +51,12 @@ VALUES (3904,   1, 'Frost Tungi') /* Name */
      , (3904,  16, 'Frost Tungi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3904,   1,   33555809) /* Setup */
-     , (3904,   3,  536870932) /* SoundTable */
-     , (3904,   8,  100669059) /* Icon */
-     , (3904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3904,   1, 0x02000561) /* Setup */
+     , (3904,   3, 0x20000014) /* SoundTable */
+     , (3904,   8, 0x06001683) /* Icon */
+     , (3904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3904,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3904,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3904,  2571,      2)  /* CANTRIPARMOR2 */;
+VALUES (3904,  2571,      2)  /* CANTRIPARMOR2 */
+     , (3904,  1616,      2)  /* BloodDrinkerSelf6 */;

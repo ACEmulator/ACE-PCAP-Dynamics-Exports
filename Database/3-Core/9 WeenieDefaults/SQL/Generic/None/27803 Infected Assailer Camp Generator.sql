@@ -15,9 +15,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27803,   1, 'Infected Assailer Camp Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27803,   1,   33558108) /* Setup */
-     , (27803,   8,  100667494) /* Icon */;
+VALUES (27803,   1, 0x02000E5C) /* Setup */
+     , (27803,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27803, 8040, 3967156257, 101.5873, 14.73479, 12.0025, -0.9832674, 0, 0, -0.1821681) /* PCAPRecordedLocation */
+VALUES (27803, 8040, 0xEC760021, 101.5873, 14.73479, 12.0025, -0.983267, 0, 0, -0.182168) /* PCAPRecordedLocation */
 /* @teleloc 0xEC760021 [101.587300 14.734790 12.002500] -0.983267 0.000000 0.000000 -0.182168 */;

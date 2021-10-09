@@ -18,9 +18,9 @@ VALUES (8597,   1, 'Dereth Exploration Society Notice') /* Name */
      , (8597,  16, 'In our explorations of these majestic peaks, we of the Dereth Exploration Society sought out these standing stones mentioned in the rumors of common men. We have, however, been frustrated by the peculiar magicks of the stones. It seems that agents of the remaining Gelidites have enchanted them such that a transcription of their text may only be made once a week by a given person. Our intial surveyor thus lost a precious Dericost Seal here. Perhaps the intention was to keep humanity out of Frore''s tunnels. All it has accomplished is to ensure that a party must seek out all three stones, and arrive at Frore in numbers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8597,   1,   33555088) /* Setup */
-     , (8597,   8,  100668115) /* Icon */;
+VALUES (8597,   1, 0x02000290) /* Setup */
+     , (8597,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8597, 8040, 3218210857, 127.4, 17.546, 306.3167, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (8597, 8040, 0xBFD20029, 127.4, 17.546, 306.3167, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBFD20029 [127.400000 17.546000 306.316700] -0.707107 0.000000 0.000000 -0.707107 */;

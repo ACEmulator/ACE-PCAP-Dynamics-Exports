@@ -23,7 +23,7 @@ VALUES (20619,   1, 'Scroll of Secondary Portal Tie') /* Name */
 Links the caster to a targeted portal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20619,   1,   33554826) /* Setup */
-     , (20619,   8,  100676673) /* Icon */
-     , (20619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20619,   1, 0x0200018A) /* Setup */
+     , (20619,   8, 0x06003441) /* Icon */
+     , (20619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20619,  28,       2646) /* Spell - PortalTie2 */;

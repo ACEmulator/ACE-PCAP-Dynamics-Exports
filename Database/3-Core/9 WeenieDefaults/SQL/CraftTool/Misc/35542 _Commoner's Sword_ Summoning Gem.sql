@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35542,   1, '"Commoner''s Sword" Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35542,   1,   33556769) /* Setup */
-     , (35542,   3,  536870932) /* SoundTable */
-     , (35542,   6,   67111919) /* PaletteBase */
-     , (35542,   8,  100673039) /* Icon */
-     , (35542,  22,  872415275) /* PhysicsEffectTable */
-     , (35542,  50,  100673783) /* IconOverlay */
-     , (35542,  52,  100689403) /* IconUnderlay */;
+VALUES (35542,   1, 0x02000921) /* Setup */
+     , (35542,   3, 0x20000014) /* SoundTable */
+     , (35542,   6, 0x04000BEF) /* PaletteBase */
+     , (35542,   8, 0x0600260F) /* Icon */
+     , (35542,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35542,  50, 0x060028F7) /* IconOverlay */
+     , (35542,  52, 0x060065FB) /* IconUnderlay */;

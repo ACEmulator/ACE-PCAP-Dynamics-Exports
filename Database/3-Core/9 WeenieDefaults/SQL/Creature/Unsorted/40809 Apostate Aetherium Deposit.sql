@@ -27,11 +27,11 @@ VALUES (40809,   1, 'Apostate Aetherium Deposit') /* Name */
      , (40809,  15, 'This is a concentrated mass of Aetherium, gathered by the Apostate Virindi and their servants.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40809,   1,   33557378) /* Setup */
-     , (40809,   2,  150995261) /* MotionTable */
-     , (40809,   3,  536870933) /* SoundTable */
-     , (40809,   8,  100672196) /* Icon */;
+VALUES (40809,   1, 0x02000B82) /* Setup */
+     , (40809,   2, 0x0900013D) /* MotionTable */
+     , (40809,   3, 0x20000015) /* SoundTable */
+     , (40809,   8, 0x060022C4) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40809, 8040, 2130837767, 40, -20, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (40809, 8040, 0x7F020107, 40, -20, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7F020107 [40.000000 -20.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

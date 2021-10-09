@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43079,   1, 'Apostate Rift Aggressor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43079,   1,   33557097) /* Setup */
-     , (43079,   2,  150995087) /* MotionTable */
-     , (43079,   3,  536871001) /* SoundTable */
-     , (43079,   8,  100671702) /* Icon */
-     , (43079,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (43079,   1, 0x02000A69) /* Setup */
+     , (43079,   2, 0x0900008F) /* MotionTable */
+     , (43079,   3, 0x20000059) /* SoundTable */
+     , (43079,   8, 0x060020D6) /* Icon */
+     , (43079,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43079, 8040, 2515075100, 83.7903, 87.06007, 73.2625, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43079, 8040, 0x95E9001C, 83.7903, 87.06007, 73.2625, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x95E9001C [83.790300 87.060070 73.262500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

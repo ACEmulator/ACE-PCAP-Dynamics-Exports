@@ -49,11 +49,11 @@ VALUES (30609,   1, 'Frost Bastone') /* Name */
      , (30609,  16, 'Frost Bastone of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30609,   1,   33559495) /* Setup */
-     , (30609,   3,  536870932) /* SoundTable */
-     , (30609,   6,   67116428) /* PaletteBase */
-     , (30609,   8,  100687025) /* Icon */
-     , (30609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30609,   1, 0x020013C7) /* Setup */
+     , (30609,   3, 0x20000014) /* SoundTable */
+     , (30609,   6, 0x04001D8C) /* PaletteBase */
+     , (30609,   8, 0x06005CB1) /* Icon */
+     , (30609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30609,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

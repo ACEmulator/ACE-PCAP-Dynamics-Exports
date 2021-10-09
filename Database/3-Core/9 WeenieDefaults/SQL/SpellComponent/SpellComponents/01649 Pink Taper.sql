@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1649,   1, 'Pink Taper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1649,   1,   33555445) /* Setup */
-     , (1649,   3,  536870932) /* SoundTable */
-     , (1649,   8,  100668325) /* Icon */
-     , (1649,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1649,   1, 0x020003F5) /* Setup */
+     , (1649,   3, 0x20000014) /* SoundTable */
+     , (1649,   8, 0x060013A5) /* Icon */
+     , (1649,  22, 0x3400002B) /* PhysicsEffectTable */;

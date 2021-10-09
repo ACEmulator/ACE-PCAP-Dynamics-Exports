@@ -42,15 +42,15 @@ VALUES (38083,   1, 'Visage of Menilesh') /* Name */
      , (38083,  16, 'This armored mask was once a symbol of the office of Rytheran, the Dericostian lord of Menilesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38083,   1,   33560635) /* Setup */
-     , (38083,   3,  536870932) /* SoundTable */
-     , (38083,   8,  100689946) /* Icon */
-     , (38083,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38083,   1, 0x0200183B) /* Setup */
+     , (38083,   3, 0x20000014) /* SoundTable */
+     , (38083,   8, 0x0600681A) /* Icon */
+     , (38083,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38083,  2052,      2)  /* ArmorOther7 */
-     , (38083,  2108,      2)  /* Impenetrability7 */
      , (38083,  2262,      2)  /* LeadershipMasteryOther7 */
-     , (38083,  2280,      2)  /* MagicResistanceOther7 */
      , (38083,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
-     , (38083,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;
+     , (38083,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (38083,  2280,      2)  /* MagicResistanceOther7 */
+     , (38083,  2108,      2)  /* Impenetrability7 */;

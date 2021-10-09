@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7180,   1, 'Ashen Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7180,   1,   33556882) /* Setup */
-     , (7180,   2,  150995104) /* MotionTable */
-     , (7180,   3,  536871018) /* SoundTable */
-     , (7180,   8,  100671185) /* Icon */
-     , (7180,  22,  872415337) /* PhysicsEffectTable */;
+VALUES (7180,   1, 0x02000992) /* Setup */
+     , (7180,   2, 0x090000A0) /* MotionTable */
+     , (7180,   3, 0x2000006A) /* SoundTable */
+     , (7180,   8, 0x06001ED1) /* Icon */
+     , (7180,  22, 0x34000069) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7180, 8040, 3747676205, 131.4854, 111.5986, 18.0064, 0.9916777, 0, 0, -0.1287454) /* PCAPRecordedLocation */
+VALUES (7180, 8040, 0xDF61002D, 131.4854, 111.5986, 18.0064, 0.991678, 0, 0, -0.128745) /* PCAPRecordedLocation */
 /* @teleloc 0xDF61002D [131.485400 111.598600 18.006400] 0.991678 0.000000 0.000000 -0.128745 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -19,8 +19,8 @@ VALUES (4726,   1, 'Fish Stew') /* Name */
      , (4726,  20, 'Bowls of Fish Stew') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4726,   1,   33556220) /* Setup */
-     , (4726,   3,  536870932) /* SoundTable */
-     , (4726,   8,  100669958) /* Icon */
-     , (4726,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4726,   1, 0x020006FC) /* Setup */
+     , (4726,   3, 0x20000014) /* SoundTable */
+     , (4726,   8, 0x06001A06) /* Icon */
+     , (4726,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4726, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

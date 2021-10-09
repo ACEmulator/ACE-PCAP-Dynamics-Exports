@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14705,   1, 'Hidden Valley') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14705,   1,   33557463) /* Setup */
-     , (14705,   8,  100668115) /* Icon */;
+VALUES (14705,   1, 0x02000BD7) /* Setup */
+     , (14705,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14705, 8040, 1741226029, 123.389, 115.701, 70.35825, 0.279547, 0, 0, -0.960132) /* PCAPRecordedLocation */
+VALUES (14705, 8040, 0x67C9002D, 123.389, 115.701, 70.35825, 0.279547, 0, 0, -0.960132) /* PCAPRecordedLocation */
 /* @teleloc 0x67C9002D [123.389000 115.701000 70.358250] 0.279547 0.000000 0.000000 -0.960132 */;

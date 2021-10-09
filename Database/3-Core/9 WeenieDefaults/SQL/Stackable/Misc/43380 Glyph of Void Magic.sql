@@ -19,9 +19,9 @@ VALUES (43380,   1, 'Glyph of Void Magic') /* Name */
      , (43380,  20, 'Glyphs of Void Magic') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43380,   1,   33554809) /* Setup */
-     , (43380,   3,  536870932) /* SoundTable */
-     , (43380,   6,   67111919) /* PaletteBase */
-     , (43380,   8,  100690191) /* Icon */
-     , (43380,  22,  872415275) /* PhysicsEffectTable */
-     , (43380,  50,  100691567) /* IconOverlay */;
+VALUES (43380,   1, 0x02000179) /* Setup */
+     , (43380,   3, 0x20000014) /* SoundTable */
+     , (43380,   6, 0x04000BEF) /* PaletteBase */
+     , (43380,   8, 0x0600690F) /* Icon */
+     , (43380,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43380,  50, 0x06006E6F) /* IconOverlay */;

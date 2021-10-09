@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24484,   1, 'Small Sandstone Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24484,   1,   33556426) /* Setup */
-     , (24484,   2,  150995073) /* MotionTable */
-     , (24484,   3,  536870933) /* SoundTable */
-     , (24484,   6,   67112775) /* PaletteBase */
-     , (24484,   8,  100667940) /* Icon */
-     , (24484,  22,  872415329) /* PhysicsEffectTable */;
+VALUES (24484,   1, 0x020007CA) /* Setup */
+     , (24484,   2, 0x09000081) /* MotionTable */
+     , (24484,   3, 0x20000015) /* SoundTable */
+     , (24484,   6, 0x04000F47) /* PaletteBase */
+     , (24484,   8, 0x06001224) /* Icon */
+     , (24484,  22, 0x34000061) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24484, 8040, 1913192484, 113.9295, 95.34892, 3.948243, 0.5901619, 0, 0, 0.8072849) /* PCAPRecordedLocation */
+VALUES (24484, 8040, 0x72090024, 113.9295, 95.34892, 3.948243, 0.590162, 0, 0, 0.807285) /* PCAPRecordedLocation */
 /* @teleloc 0x72090024 [113.929500 95.348920 3.948243] 0.590162 0.000000 0.000000 0.807285 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

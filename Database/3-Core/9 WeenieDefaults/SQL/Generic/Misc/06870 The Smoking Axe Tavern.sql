@@ -18,9 +18,9 @@ VALUES (6870,   1, 'The Smoking Axe Tavern') /* Name */
      , (6870,  16, 'The Smoking Axe Tavern') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6870,   1,   33555909) /* Setup */
-     , (6870,   8,  100668115) /* Icon */;
+VALUES (6870,   1, 0x020005C5) /* Setup */
+     , (6870,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6870, 8040, 288620575, 81.5, 145, 45.7, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (6870, 8040, 0x1134001F, 81.5, 145, 45.7, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x1134001F [81.500000 145.000000 45.700000] 0.707107 0.000000 0.000000 -0.707107 */;

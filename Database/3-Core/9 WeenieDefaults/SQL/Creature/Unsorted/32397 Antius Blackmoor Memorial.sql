@@ -39,14 +39,14 @@ VALUES (32397,   1, 'Antius Blackmoor Memorial') /* Name */
      , (32397,  16, 'A statue placed over the grave of Antius Blackmoor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32397,   1,   33554433) /* Setup */
-     , (32397,   2,  150995175) /* MotionTable */
-     , (32397,   3,  536870913) /* SoundTable */
-     , (32397,   6,   67108990) /* PaletteBase */
-     , (32397,   8,  100667446) /* Icon */;
+VALUES (32397,   1, 0x02000001) /* Setup */
+     , (32397,   2, 0x090000E7) /* MotionTable */
+     , (32397,   3, 0x20000001) /* SoundTable */
+     , (32397,   6, 0x0400007E) /* PaletteBase */
+     , (32397,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32397, 8040, 3027173400, 60, 180, 48.815, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32397, 8040, 0xB46F0018, 60, 180, 48.815, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F0018 [60.000000 180.000000 48.815000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

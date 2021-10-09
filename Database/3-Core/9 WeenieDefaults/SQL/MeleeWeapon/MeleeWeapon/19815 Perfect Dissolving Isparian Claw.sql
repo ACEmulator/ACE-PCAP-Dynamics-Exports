@@ -46,13 +46,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19815,   1, 'Perfect Dissolving Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19815,   1,   33556359) /* Setup */
-     , (19815,   3,  536870932) /* SoundTable */
-     , (19815,   6,   67111919) /* PaletteBase */
-     , (19815,   8,  100672910) /* Icon */
-     , (19815,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19815,   1, 0x02000787) /* Setup */
+     , (19815,   3, 0x20000014) /* SoundTable */
+     , (19815,   6, 0x04000BEF) /* PaletteBase */
+     , (19815,   8, 0x0600258E) /* Icon */
+     , (19815,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19815,   520,      2)  /* AcidProtectionSelf6 */
-     , (19815,  1353,      2)  /* EnduranceSelf5 */
-     , (19815,  2694,      2)  /* ModerateSwordAptitude */;
+VALUES (19815,  2694,      2)  /* ModerateSwordAptitude */
+     , (19815,   520,      2)  /* AcidProtectionSelf6 */
+     , (19815,  1353,      2)  /* EnduranceSelf5 */;

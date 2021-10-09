@@ -45,13 +45,13 @@ VALUES (12138,   1, 'Helm of the Simulacra') /* Name */
      , (12138,  16, 'A helm enchanted with powerful magic, taken from the Southern Infiltrator Keep dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12138,   1,   33556883) /* Setup */
-     , (12138,   3,  536870932) /* SoundTable */
-     , (12138,   6,   67108990) /* PaletteBase */
-     , (12138,   8,  100672134) /* Icon */
-     , (12138,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12138,   1, 0x02000993) /* Setup */
+     , (12138,   3, 0x20000014) /* SoundTable */
+     , (12138,   6, 0x0400007E) /* PaletteBase */
+     , (12138,   8, 0x06002286) /* Icon */
+     , (12138,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12138,   249,      2)  /* InvulnerabilitySelf6 */
-     , (12138,   261,      2)  /* ImpregnabilitySelf6 */
-     , (12138,  1486,      2)  /* Impenetrability6 */;
+VALUES (12138,   261,      2)  /* ImpregnabilitySelf6 */
+     , (12138,  1486,      2)  /* Impenetrability6 */
+     , (12138,   249,      2)  /* InvulnerabilitySelf6 */;

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13237,   1, 'Restoring the Training Academies') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13237,   1,   33554773) /* Setup */
-     , (13237,   3,  536870932) /* SoundTable */
-     , (13237,   8,  100672451) /* Icon */
-     , (13237,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13237,   1, 0x02000155) /* Setup */
+     , (13237,   3, 0x20000014) /* SoundTable */
+     , (13237,   8, 0x060023C3) /* Icon */
+     , (13237,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13237, 8040, 2248343990, 17.849, -37.9237, 0.079, -0.491793, 0, 0, -0.870712) /* PCAPRecordedLocation */
+VALUES (13237, 8040, 0x860301B6, 17.849, -37.9237, 0.079, -0.491793, 0, 0, -0.870712) /* PCAPRecordedLocation */
 /* @teleloc 0x860301B6 [17.849000 -37.923700 0.079000] -0.491793 0.000000 0.000000 -0.870712 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

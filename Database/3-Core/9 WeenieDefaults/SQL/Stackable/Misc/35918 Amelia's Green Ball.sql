@@ -27,8 +27,8 @@ VALUES (35918,   1, 'Amelia''s Green Ball') /* Name */
      , (35918,  15, 'A green ball. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35918,   1,   33554669) /* Setup */
-     , (35918,   3,  536870932) /* SoundTable */
-     , (35918,   6,   67111928) /* PaletteBase */
-     , (35918,   8,  100668725) /* Icon */
-     , (35918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35918,   1, 0x020000ED) /* Setup */
+     , (35918,   3, 0x20000014) /* SoundTable */
+     , (35918,   6, 0x04000BF8) /* PaletteBase */
+     , (35918,   8, 0x06001535) /* Icon */
+     , (35918,  22, 0x3400002B) /* PhysicsEffectTable */;

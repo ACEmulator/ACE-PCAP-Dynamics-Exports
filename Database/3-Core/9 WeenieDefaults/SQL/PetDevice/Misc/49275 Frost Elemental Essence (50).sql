@@ -35,10 +35,10 @@ VALUES (49275,   1, 'Frost Elemental Essence (50)') /* Name */
      , (49275,  14, 'Use this essence to summon or dismiss your Frost Elemental.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49275,   1,   33554817) /* Setup */
-     , (49275,   3,  536870932) /* SoundTable */
-     , (49275,   6,   67111919) /* PaletteBase */
-     , (49275,   8,  100672514) /* Icon */
-     , (49275,  22,  872415275) /* PhysicsEffectTable */
-     , (49275,  50,  100693026) /* IconOverlay */
-     , (49275,  52,  100693024) /* IconUnderlay */;
+VALUES (49275,   1, 0x02000181) /* Setup */
+     , (49275,   3, 0x20000014) /* SoundTable */
+     , (49275,   6, 0x04000BEF) /* PaletteBase */
+     , (49275,   8, 0x06002402) /* Icon */
+     , (49275,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49275,  50, 0x06007422) /* IconOverlay */
+     , (49275,  52, 0x06007420) /* IconUnderlay */;

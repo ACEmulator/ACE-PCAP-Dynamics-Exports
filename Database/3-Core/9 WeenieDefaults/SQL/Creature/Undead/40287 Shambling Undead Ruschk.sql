@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40287,   1, 'Shambling Undead Ruschk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40287,   1,   33560013) /* Setup */
-     , (40287,   2,  150994951) /* MotionTable */
-     , (40287,   3,  536871101) /* SoundTable */
-     , (40287,   8,  100677373) /* Icon */
-     , (40287,  22,  872415364) /* PhysicsEffectTable */;
+VALUES (40287,   1, 0x020015CD) /* Setup */
+     , (40287,   2, 0x09000007) /* MotionTable */
+     , (40287,   3, 0x200000BD) /* SoundTable */
+     , (40287,   8, 0x060036FD) /* Icon */
+     , (40287,  22, 0x34000084) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40287, 8040, 3337224240, 126.6069, 186.5552, -0.09450001, -0.2551175, 0, 0, -0.9669101) /* PCAPRecordedLocation */
+VALUES (40287, 8040, 0xC6EA0030, 126.6069, 186.5552, -0.0945, -0.255118, 0, 0, -0.96691) /* PCAPRecordedLocation */
 /* @teleloc 0xC6EA0030 [126.606900 186.555200 -0.094500] -0.255118 0.000000 0.000000 -0.966910 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7085,   1, 'Banderling Berserker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7085,   1,   33558024) /* Setup */
-     , (7085,   2,  150994951) /* MotionTable */
-     , (7085,   3,  536870917) /* SoundTable */
-     , (7085,   6,   67114021) /* PaletteBase */
-     , (7085,   8,  100667453) /* Icon */
-     , (7085,  22,  872415255) /* PhysicsEffectTable */;
+VALUES (7085,   1, 0x02000E08) /* Setup */
+     , (7085,   2, 0x09000007) /* MotionTable */
+     , (7085,   3, 0x20000005) /* SoundTable */
+     , (7085,   6, 0x04001425) /* PaletteBase */
+     , (7085,   8, 0x0600103D) /* Icon */
+     , (7085,  22, 0x34000017) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7085, 8040, 2360868875, 45.28922, 51.15432, 84.45895, 0.3987491, 0, 0, -0.9170601) /* PCAPRecordedLocation */
+VALUES (7085, 8040, 0x8CB8000B, 45.28922, 51.15432, 84.45895, 0.398749, 0, 0, -0.91706) /* PCAPRecordedLocation */
 /* @teleloc 0x8CB8000B [45.289220 51.154320 84.458950] 0.398749 0.000000 0.000000 -0.917060 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

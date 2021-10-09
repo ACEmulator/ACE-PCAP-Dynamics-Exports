@@ -32,14 +32,14 @@ VALUES (32054,   1, 'Shopkeeper Hulmurg') /* Name */
      , (32054,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32054,   1,   33554490) /* Setup */
-     , (32054,   2,  150994953) /* MotionTable */
-     , (32054,   3,  536870959) /* SoundTable */
-     , (32054,   6,   67109310) /* PaletteBase */
-     , (32054,   8,  100667449) /* Icon */;
+VALUES (32054,   1, 0x0200003A) /* Setup */
+     , (32054,   2, 0x09000009) /* MotionTable */
+     , (32054,   3, 0x2000002F) /* SoundTable */
+     , (32054,   6, 0x040001BE) /* PaletteBase */
+     , (32054,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32054, 8040, 3387097107, 51.3908, 64.0587, 14.0055, -0.02584043, 0, 0, -0.9996661) /* PCAPRecordedLocation */
+VALUES (32054, 8040, 0xC9E30013, 51.3908, 64.0587, 14.0055, -0.02584, 0, 0, -0.999666) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30013 [51.390800 64.058700 14.005500] -0.025840 0.000000 0.000000 -0.999666 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

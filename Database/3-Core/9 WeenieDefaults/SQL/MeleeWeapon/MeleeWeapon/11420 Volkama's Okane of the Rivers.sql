@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11420,   1, 'Volkama''s Okane of the Rivers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11420,   1,   33557234) /* Setup */
-     , (11420,   3,  536870932) /* SoundTable */
-     , (11420,   8,  100672079) /* Icon */
-     , (11420,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11420,   1, 0x02000AF2) /* Setup */
+     , (11420,   3, 0x20000014) /* SoundTable */
+     , (11420,   8, 0x0600224F) /* Icon */
+     , (11420,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11420, 8040, 23855555, 59.64839, -44.95287, -0.071, -0.3243855, -0.3243855, -0.6283104, -0.6283104) /* PCAPRecordedLocation */
+VALUES (11420, 8040, 0x016C01C3, 59.64839, -44.95287, -0.071, -0.324386, -0.324386, -0.62831, -0.62831) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [59.648390 -44.952870 -0.071000] -0.324386 -0.324386 -0.628310 -0.628310 */;

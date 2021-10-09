@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14254,   1, 'Auralla Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14254,   1,   33554867) /* Setup */
-     , (14254,   2,  150994947) /* MotionTable */
-     , (14254,   8,  100667499) /* Icon */;
+VALUES (14254,   1, 0x020001B3) /* Setup */
+     , (14254,   2, 0x09000003) /* MotionTable */
+     , (14254,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14254, 8040, 1253572641, 107.925, 17.9969, 239.937, -0.116793, 0, 0, 0.9931563) /* PCAPRecordedLocation */
+VALUES (14254, 8040, 0x4AB80021, 107.925, 17.9969, 239.937, -0.116793, 0, 0, 0.993156) /* PCAPRecordedLocation */
 /* @teleloc 0x4AB80021 [107.925000 17.996900 239.937000] -0.116793 0.000000 0.000000 0.993156 */;

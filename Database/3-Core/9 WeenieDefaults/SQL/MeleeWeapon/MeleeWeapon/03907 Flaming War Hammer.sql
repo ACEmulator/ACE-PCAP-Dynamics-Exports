@@ -48,10 +48,10 @@ VALUES (3907,   1, 'Flaming War Hammer') /* Name */
      , (3907,  16, 'Flaming War Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3907,   1,   33555817) /* Setup */
-     , (3907,   3,  536870932) /* SoundTable */
-     , (3907,   8,  100669074) /* Icon */
-     , (3907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3907,   1, 0x02000569) /* Setup */
+     , (3907,   3, 0x20000014) /* SoundTable */
+     , (3907,   8, 0x06001692) /* Icon */
+     , (3907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3907,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

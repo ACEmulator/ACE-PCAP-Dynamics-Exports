@@ -45,17 +45,17 @@ VALUES (34995,   1, 'Channeling Bone Bow') /* Name */
      , (34995,  16, 'This normal Burun bone bow has had mucor-altered mahogany applied to its bowstave, resulting in a magically enhanced weapon with unique magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34995,   1,   33560183) /* Setup */
-     , (34995,   3,  536870932) /* SoundTable */
-     , (34995,   8,  100689316) /* Icon */
-     , (34995,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34995,   1, 0x02001677) /* Setup */
+     , (34995,   3, 0x20000014) /* SoundTable */
+     , (34995,   8, 0x060065A4) /* Icon */
+     , (34995,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34995,  55,       4069) /* ProcSpell - MucorJolt */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34995, 8040, 3600351239, 0.7415762, 163.7971, 373.93, -0.2709971, 0, 0, -0.9625801) /* PCAPRecordedLocation */
+VALUES (34995, 8040, 0xD6990007, 0.741576, 163.7971, 373.93, -0.270997, 0, 0, -0.96258) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [0.741576 163.797100 373.930000] -0.270997 0.000000 0.000000 -0.962580 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34995,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (34995,  2101,      2)  /* DefenderSelf7 */
-     , (34995,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (34995,  2116,      2)  /* SwiftKillerSelf7 */
+     , (34995,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (34995,  2101,      2)  /* DefenderSelf7 */;

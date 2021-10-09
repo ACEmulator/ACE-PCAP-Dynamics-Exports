@@ -57,15 +57,15 @@ VALUES (45395,   1, 'Rapier') /* Name */
      , (45395,  40, 'S P Q R''s Dream') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45395,   1,   33556588) /* Setup */
-     , (45395,   3,  536870932) /* SoundTable */
-     , (45395,   6,   67111919) /* PaletteBase */
-     , (45395,   8,  100670657) /* Icon */
-     , (45395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45395,   1, 0x0200086C) /* Setup */
+     , (45395,   3, 0x20000014) /* SoundTable */
+     , (45395,   6, 0x04000BEF) /* PaletteBase */
+     , (45395,   8, 0x06001CC1) /* Icon */
+     , (45395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45395,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45395,  52,  100676438) /* IconUnderlay */;
+     , (45395,  52, 0x06003356) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45395,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45395,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45395,  2596,      2)  /* CANTRIPSWIFTHUNTER2 */;
+VALUES (45395,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45395,  2596,      2)  /* CANTRIPSWIFTHUNTER2 */
+     , (45395,  2096,      2)  /* BloodDrinkerSelf7 */;

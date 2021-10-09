@@ -25,8 +25,8 @@ VALUES (45151,   1, 'Mhoire Oubliette Portal Glyph') /* Name */
      , (45151,  15, 'These glyphs power the portals of the Mhoire Oubliette. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45151,   1,   33554809) /* Setup */
-     , (45151,   3,  536870932) /* SoundTable */
-     , (45151,   8,  100668361) /* Icon */
-     , (45151,  22,  872415275) /* PhysicsEffectTable */
-     , (45151,  50,  100688913) /* IconOverlay */;
+VALUES (45151,   1, 0x02000179) /* Setup */
+     , (45151,   3, 0x20000014) /* SoundTable */
+     , (45151,   8, 0x060013C9) /* Icon */
+     , (45151,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45151,  50, 0x06006411) /* IconOverlay */;

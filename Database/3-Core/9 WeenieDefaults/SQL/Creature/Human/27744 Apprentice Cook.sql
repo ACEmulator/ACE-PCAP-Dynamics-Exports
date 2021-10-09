@@ -29,20 +29,20 @@ VALUES (27744,   1, 'Apprentice Cook') /* Name */
      , (27744,   5, 'Apprentice Cook') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27744,   1,   33554433) /* Setup */
-     , (27744,   2,  150994945) /* MotionTable */
-     , (27744,   3,  536870913) /* SoundTable */
-     , (27744,   6,   67108990) /* PaletteBase */
-     , (27744,   8,  100667446) /* Icon */
-     , (27744,   9,   83890510) /* EyesTexture */
-     , (27744,  10,   83890531) /* NoseTexture */
-     , (27744,  11,   83890564) /* MouthTexture */
-     , (27744,  15,   67117019) /* HairPalette */
-     , (27744,  16,   67109567) /* EyesPalette */
-     , (27744,  17,   67109557) /* SkinPalette */;
+VALUES (27744,   1, 0x02000001) /* Setup */
+     , (27744,   2, 0x09000001) /* MotionTable */
+     , (27744,   3, 0x20000001) /* SoundTable */
+     , (27744,   6, 0x0400007E) /* PaletteBase */
+     , (27744,   8, 0x06001036) /* Icon */
+     , (27744,   9, 0x0500114E) /* EyesTexture */
+     , (27744,  10, 0x05001163) /* NoseTexture */
+     , (27744,  11, 0x05001184) /* MouthTexture */
+     , (27744,  15, 0x04001FDB) /* HairPalette */
+     , (27744,  16, 0x040002BF) /* EyesPalette */
+     , (27744,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27744, 8040, 2421686590, 150.461, 114.783, -0.2950001, -0.111414, 0, 0, 0.993774) /* PCAPRecordedLocation */
+VALUES (27744, 8040, 0x9058013E, 150.461, 114.783, -0.295, -0.111414, 0, 0, 0.993774) /* PCAPRecordedLocation */
 /* @teleloc 0x9058013E [150.461000 114.783000 -0.295000] -0.111414 0.000000 0.000000 0.993774 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -30,7 +30,7 @@ VALUES (40792,   1, 'Force Progenitor Crystal') /* Name */
      , (40792,  15, 'A force Progenitor crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40792,   1,   33559838) /* Setup */
-     , (40792,   3,  536870932) /* SoundTable */
-     , (40792,   8,  100688601) /* Icon */
-     , (40792,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40792,   1, 0x0200151E) /* Setup */
+     , (40792,   3, 0x20000014) /* SoundTable */
+     , (40792,   8, 0x060062D9) /* Icon */
+     , (40792,  22, 0x3400002B) /* PhysicsEffectTable */;

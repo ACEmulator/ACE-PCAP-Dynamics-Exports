@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33585,   1, 'Noble Relic Gauntlets of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33585,   1,   33554648) /* Setup */
-     , (33585,   3,  536870932) /* SoundTable */
-     , (33585,   8,  100677239) /* Icon */
-     , (33585,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33585,   1, 0x020000D8) /* Setup */
+     , (33585,   3, 0x20000014) /* SoundTable */
+     , (33585,   8, 0x06003677) /* Icon */
+     , (33585,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33585,  2108,      2)  /* Impenetrability7 */
-     , (33585,  2202,      2)  /* LightWeaponsMasteryOther7 */
+VALUES (33585,  2202,      2)  /* LightWeaponsMasteryOther7 */
+     , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */
      , (33585,  2222,      2)  /* FinesseWeaponsMasteryOther7 */
      , (33585,  3573,      2)  /* InnerMight */
-     , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */;
+     , (33585,  2108,      2)  /* Impenetrability7 */;

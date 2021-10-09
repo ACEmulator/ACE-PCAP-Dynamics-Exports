@@ -36,10 +36,10 @@ VALUES (49252,   1, 'Fire Zombie Essence (180)') /* Name */
      , (49252,  14, 'Use this essence to summon or dismiss your Fire Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49252,   1,   33554817) /* Setup */
-     , (49252,   3,  536870932) /* SoundTable */
-     , (49252,   6,   67111919) /* PaletteBase */
-     , (49252,   8,  100667942) /* Icon */
-     , (49252,  22,  872415275) /* PhysicsEffectTable */
-     , (49252,  50,  100693031) /* IconOverlay */
-     , (49252,  52,  100693024) /* IconUnderlay */;
+VALUES (49252,   1, 0x02000181) /* Setup */
+     , (49252,   3, 0x20000014) /* SoundTable */
+     , (49252,   6, 0x04000BEF) /* PaletteBase */
+     , (49252,   8, 0x06001226) /* Icon */
+     , (49252,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49252,  50, 0x06007427) /* IconOverlay */
+     , (49252,  52, 0x06007420) /* IconUnderlay */;

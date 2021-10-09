@@ -23,7 +23,7 @@ VALUES (20254,   1, 'Scroll of Might of the Lugians') /* Name */
 Increases the caster''s Strength by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20254,   1,   33554826) /* Setup */
-     , (20254,   8,  100676474) /* Icon */
-     , (20254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20254,   1, 0x0200018A) /* Setup */
+     , (20254,   8, 0x0600337A) /* Icon */
+     , (20254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20254,  28,       2087) /* Spell - StrengthSelf7 */;

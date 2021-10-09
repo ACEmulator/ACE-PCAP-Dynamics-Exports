@@ -26,7 +26,7 @@ VALUES (43143,   1, 'Scroll of Gear Knight Invasion Area Camp Recall') /* Name *
 Sends the caster to the Gear Knight Invasion Area Camp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43143,   1,   33554826) /* Setup */
-     , (43143,   8,  100676673) /* Icon */
-     , (43143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43143,   1, 0x0200018A) /* Setup */
+     , (43143,   8, 0x06003441) /* Icon */
+     , (43143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43143,  28,       5330) /* Spell - RecallGearKnightInvasionHigh */;

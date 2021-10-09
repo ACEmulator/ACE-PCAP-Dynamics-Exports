@@ -48,11 +48,11 @@ VALUES (31780,   1, 'Acid Spine Glaive') /* Name */
      , (31780,  16, 'Acid Spine Glaive of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31780,   1,   33559653) /* Setup */
-     , (31780,   3,  536870932) /* SoundTable */
-     , (31780,   6,   67116700) /* PaletteBase */
-     , (31780,   8,  100688099) /* Icon */
-     , (31780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31780,   1, 0x02001465) /* Setup */
+     , (31780,   3, 0x20000014) /* SoundTable */
+     , (31780,   6, 0x04001E9C) /* PaletteBase */
+     , (31780,   8, 0x060060E3) /* Icon */
+     , (31780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31780,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

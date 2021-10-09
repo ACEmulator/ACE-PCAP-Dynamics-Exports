@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31961,   1, 'Lurza') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31961,   1,   33558690) /* Setup */
-     , (31961,   2,  150995290) /* MotionTable */
-     , (31961,   3,  536871001) /* SoundTable */
-     , (31961,   6,   67113876) /* PaletteBase */
-     , (31961,   8,  100676420) /* Icon */;
+VALUES (31961,   1, 0x020010A2) /* Setup */
+     , (31961,   2, 0x0900015A) /* MotionTable */
+     , (31961,   3, 0x20000059) /* SoundTable */
+     , (31961,   6, 0x04001394) /* PaletteBase */
+     , (31961,   8, 0x06003344) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31961, 8040, 2031157312, 179.632, 178.556, 199.9967, -0.413155, 0, 0, 0.910661) /* PCAPRecordedLocation */
+VALUES (31961, 8040, 0x79110040, 179.632, 178.556, 199.9967, -0.413155, 0, 0, 0.910661) /* PCAPRecordedLocation */
 /* @teleloc 0x79110040 [179.632000 178.556000 199.996700] -0.413155 0.000000 0.000000 0.910661 */;

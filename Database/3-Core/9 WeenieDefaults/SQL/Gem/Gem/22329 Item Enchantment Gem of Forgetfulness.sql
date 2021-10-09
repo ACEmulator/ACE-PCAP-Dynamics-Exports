@@ -21,7 +21,7 @@ VALUES (22329,   1, 'Item Enchantment Gem of Forgetfulness') /* Name */
      , (22329,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return eight skill credits when used to unspecialize or untrain the Item Enchantment skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22329,   1,   33558087) /* Setup */
-     , (22329,   6,   67111919) /* PaletteBase */
-     , (22329,   8,  100673789) /* Icon */
-     , (22329,  50,  100673767) /* IconOverlay */;
+VALUES (22329,   1, 0x02000E47) /* Setup */
+     , (22329,   6, 0x04000BEF) /* PaletteBase */
+     , (22329,   8, 0x060028FD) /* Icon */
+     , (22329,  50, 0x060028E7) /* IconOverlay */;

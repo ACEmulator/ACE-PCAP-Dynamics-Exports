@@ -42,14 +42,14 @@ VALUES (43040,   1, 'Nexus Crawler''s Mask') /* Name */
      , (43040,  25, 'Ryochu Xao') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43040,   1,   33561077) /* Setup */
-     , (43040,   3,  536870932) /* SoundTable */
-     , (43040,   6,   67108990) /* PaletteBase */
-     , (43040,   8,  100691344) /* Icon */
-     , (43040,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43040,   1, 0x020019F5) /* Setup */
+     , (43040,   3, 0x20000014) /* SoundTable */
+     , (43040,   6, 0x0400007E) /* PaletteBase */
+     , (43040,   8, 0x06006D90) /* Icon */
+     , (43040,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43040,  2053,      2)  /* ArmorSelf7 */
-     , (43040,  2108,      2)  /* Impenetrability7 */
      , (43040,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
-     , (43040,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
+     , (43040,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
+     , (43040,  2108,      2)  /* Impenetrability7 */;

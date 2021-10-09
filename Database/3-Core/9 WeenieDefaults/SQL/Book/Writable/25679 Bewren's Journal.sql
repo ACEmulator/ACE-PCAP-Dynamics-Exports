@@ -20,13 +20,13 @@ VALUES (25679,   1, 'Bewren''s Journal') /* Name */
      , (25679,  16, 'A well written journal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25679,   1,   33554771) /* Setup */
-     , (25679,   3,  536870932) /* SoundTable */
-     , (25679,   8,  100675474) /* Icon */
-     , (25679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25679,   1, 0x02000153) /* Setup */
+     , (25679,   3, 0x20000014) /* SoundTable */
+     , (25679,   8, 0x06002F92) /* Icon */
+     , (25679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25679, 8040, 1665663497, 46.624, -63.6065, -29.943, 0.561168, 0, 0, 0.8277019) /* PCAPRecordedLocation */
+VALUES (25679, 8040, 0x63480209, 46.624, -63.6065, -29.943, 0.561168, 0, 0, 0.827702) /* PCAPRecordedLocation */
 /* @teleloc 0x63480209 [46.624000 -63.606500 -29.943000] 0.561168 0.000000 0.000000 0.827702 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

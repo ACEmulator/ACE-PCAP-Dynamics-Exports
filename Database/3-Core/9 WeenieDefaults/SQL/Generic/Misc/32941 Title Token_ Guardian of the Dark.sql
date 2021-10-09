@@ -21,7 +21,7 @@ VALUES (32941,   1, 'Title Token: Guardian of the Dark') /* Name */
      , (32941,  16, 'Give this title token to Ulgrim the Unpleasant to recieve the title Guardian of the Dark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32941,   1,   33558119) /* Setup */
-     , (32941,   3,  536870932) /* SoundTable */
-     , (32941,   8,  100667518) /* Icon */
-     , (32941,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32941,   1, 0x02000E67) /* Setup */
+     , (32941,   3, 0x20000014) /* SoundTable */
+     , (32941,   8, 0x0600107E) /* Icon */
+     , (32941,  22, 0x3400002B) /* PhysicsEffectTable */;

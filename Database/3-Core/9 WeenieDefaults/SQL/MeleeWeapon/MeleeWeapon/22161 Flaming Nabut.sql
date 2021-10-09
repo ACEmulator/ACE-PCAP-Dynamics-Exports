@@ -44,8 +44,8 @@ VALUES (22161,   1, 'Flaming Nabut') /* Name */
      , (22161,  16, 'Flaming Nabut') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22161,   1,   33558071) /* Setup */
-     , (22161,   3,  536870932) /* SoundTable */
-     , (22161,   6,   67111919) /* PaletteBase */
-     , (22161,   8,  100673598) /* Icon */
-     , (22161,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22161,   1, 0x02000E37) /* Setup */
+     , (22161,   3, 0x20000014) /* SoundTable */
+     , (22161,   6, 0x04000BEF) /* PaletteBase */
+     , (22161,   8, 0x0600283E) /* Icon */
+     , (22161,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (38438,   1, 'Giant Jungle Phyntos Wasp Stinger') /* Name */
      , (38438,  16, 'A perfectly intact stinger from a Giant Jungle Phyntos Wasp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38438,   1,   33554817) /* Setup */
-     , (38438,   3,  536870932) /* SoundTable */
-     , (38438,   8,  100687693) /* Icon */
-     , (38438,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38438,   1, 0x02000181) /* Setup */
+     , (38438,   3, 0x20000014) /* SoundTable */
+     , (38438,   8, 0x06005F4D) /* Icon */
+     , (38438,  22, 0x3400002B) /* PhysicsEffectTable */;

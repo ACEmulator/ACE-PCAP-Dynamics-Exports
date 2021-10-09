@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45998,   1, 'Amateur Explorer Bracelet Of Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45998,   1,   33554683) /* Setup */
-     , (45998,   3,  536870932) /* SoundTable */
-     , (45998,   6,   67111919) /* PaletteBase */
-     , (45998,   8,  100675471) /* Icon */
-     , (45998,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45998,   1, 0x020000FB) /* Setup */
+     , (45998,   3, 0x20000014) /* SoundTable */
+     , (45998,   6, 0x04000BEF) /* PaletteBase */
+     , (45998,   8, 0x06002F8F) /* Icon */
+     , (45998,  22, 0x3400002B) /* PhysicsEffectTable */;

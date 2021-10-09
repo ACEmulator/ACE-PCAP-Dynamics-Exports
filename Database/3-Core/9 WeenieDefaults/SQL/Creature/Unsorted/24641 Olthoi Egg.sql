@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24641,   1, 'Olthoi Egg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24641,   1,   33557217) /* Setup */
-     , (24641,   2,  150995239) /* MotionTable */
-     , (24641,   3,  536871069) /* SoundTable */
-     , (24641,   8,  100671764) /* Icon */
-     , (24641,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24641,   1, 0x02000AE1) /* Setup */
+     , (24641,   2, 0x09000127) /* MotionTable */
+     , (24641,   3, 0x2000009D) /* SoundTable */
+     , (24641,   8, 0x06002114) /* Icon */
+     , (24641,  22, 0x34000021) /* PhysicsEffectTable */
      , (24641,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24641, 8040, 1467155194, 170, -170, -24, 0.955337, 0, 0, -0.29552) /* PCAPRecordedLocation */
+VALUES (24641, 8040, 0x577302FA, 170, -170, -24, 0.955337, 0, 0, -0.29552) /* PCAPRecordedLocation */
 /* @teleloc 0x577302FA [170.000000 -170.000000 -24.000000] 0.955337 0.000000 0.000000 -0.295520 */;

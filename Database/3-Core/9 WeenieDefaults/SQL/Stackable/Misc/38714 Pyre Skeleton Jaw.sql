@@ -25,7 +25,7 @@ VALUES (38714,   1, 'Pyre Skeleton Jaw') /* Name */
      , (38714,  16, 'The jawbone of an enchanted skeleton.  Its magical emanations are unique to the creatures of the Empyrean Graveyard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38714,   1,   33554817) /* Setup */
-     , (38714,   3,  536870932) /* SoundTable */
-     , (38714,   8,  100690205) /* Icon */
-     , (38714,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38714,   1, 0x02000181) /* Setup */
+     , (38714,   3, 0x20000014) /* SoundTable */
+     , (38714,   8, 0x0600691D) /* Icon */
+     , (38714,  22, 0x3400002B) /* PhysicsEffectTable */;

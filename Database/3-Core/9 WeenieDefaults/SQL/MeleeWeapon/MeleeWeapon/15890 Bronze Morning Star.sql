@@ -35,12 +35,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15890,   1, 'Bronze Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15890,   1,   33554748) /* Setup */
-     , (15890,   3,  536870932) /* SoundTable */
-     , (15890,   6,   67111919) /* PaletteBase */
-     , (15890,   8,  100672753) /* Icon */
-     , (15890,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15890,   1, 0x0200013C) /* Setup */
+     , (15890,   3, 0x20000014) /* SoundTable */
+     , (15890,   6, 0x04000BEF) /* PaletteBase */
+     , (15890,   8, 0x060024F1) /* Icon */
+     , (15890,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15890, 8040, 23855555, 56.07941, -38.09367, -0.071, -0.460233, -0.460233, -0.5368292, -0.5368292) /* PCAPRecordedLocation */
+VALUES (15890, 8040, 0x016C01C3, 56.07941, -38.09367, -0.071, -0.460233, -0.460233, -0.536829, -0.536829) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.079410 -38.093670 -0.071000] -0.460233 -0.460233 -0.536829 -0.536829 */;

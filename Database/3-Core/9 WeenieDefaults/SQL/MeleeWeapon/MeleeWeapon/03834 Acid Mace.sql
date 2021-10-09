@@ -45,11 +45,11 @@ VALUES (3834,   1, 'Acid Mace') /* Name */
      , (3834,  16, 'Acid Mace of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3834,   1,   33555759) /* Setup */
-     , (3834,   3,  536870932) /* SoundTable */
-     , (3834,   6,   67111919) /* PaletteBase */
-     , (3834,   8,  100668964) /* Icon */
-     , (3834,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3834,   1, 0x0200052F) /* Setup */
+     , (3834,   3, 0x20000014) /* SoundTable */
+     , (3834,   6, 0x04000BEF) /* PaletteBase */
+     , (3834,   8, 0x06001624) /* Icon */
+     , (3834,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3834,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

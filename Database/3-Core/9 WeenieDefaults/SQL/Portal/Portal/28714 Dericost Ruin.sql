@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28714,   1, 'Dericost Ruin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28714,   1,   33555923) /* Setup */
-     , (28714,   2,  150994947) /* MotionTable */
-     , (28714,   8,  100667499) /* Icon */;
+VALUES (28714,   1, 0x020005D3) /* Setup */
+     , (28714,   2, 0x09000003) /* MotionTable */
+     , (28714,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28714, 8040, 584843306, 137.05, 30.6141, 7.937, -0.108447, 0, 0, -0.9941022) /* PCAPRecordedLocation */
+VALUES (28714, 8040, 0x22DC002A, 137.05, 30.6141, 7.937, -0.108447, 0, 0, -0.994102) /* PCAPRecordedLocation */
 /* @teleloc 0x22DC002A [137.050000 30.614100 7.937000] -0.108447 0.000000 0.000000 -0.994102 */;

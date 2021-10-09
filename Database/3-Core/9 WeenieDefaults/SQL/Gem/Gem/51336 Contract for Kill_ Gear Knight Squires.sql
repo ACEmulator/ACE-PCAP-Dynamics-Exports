@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51336,   1, 'Contract for Kill: Gear Knight Squires') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51336,   1,   33557625) /* Setup */
-     , (51336,   3,  536870932) /* SoundTable */
-     , (51336,   8,  100691930) /* Icon */
-     , (51336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51336,   1, 0x02000C79) /* Setup */
+     , (51336,   3, 0x20000014) /* SoundTable */
+     , (51336,   8, 0x06006FDA) /* Icon */
+     , (51336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51336, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

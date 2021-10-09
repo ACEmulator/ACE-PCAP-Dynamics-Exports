@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45803,   1, 'A''nekshay Temple Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45803,   1,   33561252) /* Setup */
-     , (45803,   2,  150994945) /* MotionTable */
-     , (45803,   3,  536870933) /* SoundTable */
-     , (45803,   6,   67108990) /* PaletteBase */
-     , (45803,   8,  100670274) /* Icon */
-     , (45803,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (45803,   1, 0x02001AA4) /* Setup */
+     , (45803,   2, 0x09000001) /* MotionTable */
+     , (45803,   3, 0x20000015) /* SoundTable */
+     , (45803,   6, 0x0400007E) /* PaletteBase */
+     , (45803,   8, 0x06001B42) /* Icon */
+     , (45803,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45803, 8040, 1498285689, 126.556, -130.022, -11.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (45803, 8040, 0x594E0679, 126.556, -130.022, -11.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x594E0679 [126.556000 -130.022000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36550,   1, 'Ornate Brass Banding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36550,   1,   33554817) /* Setup */
-     , (36550,   3,  536870932) /* SoundTable */
-     , (36550,   6,   67111919) /* PaletteBase */
-     , (36550,   8,  100689655) /* Icon */
-     , (36550,  22,  872415275) /* PhysicsEffectTable */
-     , (36550,  52,  100667860) /* IconUnderlay */;
+VALUES (36550,   1, 0x02000181) /* Setup */
+     , (36550,   3, 0x20000014) /* SoundTable */
+     , (36550,   6, 0x04000BEF) /* PaletteBase */
+     , (36550,   8, 0x060066F7) /* Icon */
+     , (36550,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36550,  52, 0x060011D4) /* IconUnderlay */;

@@ -51,14 +51,14 @@ VALUES (3762,   1, 'Acid Budiaq') /* Name */
      , (3762,  16, 'Acid Budiaq of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3762,   1,   33555780) /* Setup */
-     , (3762,   3,  536870932) /* SoundTable */
-     , (3762,   6,   67111919) /* PaletteBase */
-     , (3762,   8,  100669008) /* Icon */
-     , (3762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3762,   1, 0x02000544) /* Setup */
+     , (3762,   3, 0x20000014) /* SoundTable */
+     , (3762,   6, 0x04000BEF) /* PaletteBase */
+     , (3762,   8, 0x06001650) /* Icon */
+     , (3762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3762,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (3762,  52,  100676437) /* IconUnderlay */;
+     , (3762,  52, 0x06003355) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3762,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3762,  2564,      2)  /* CANTRIPSPRINT1 */;
+VALUES (3762,  2564,      2)  /* CANTRIPSPRINT1 */
+     , (3762,  1615,      2)  /* BloodDrinkerSelf5 */;

@@ -46,17 +46,17 @@ VALUES (32975,   1, 'Princely Runed Dolabra') /* Name */
      , (32975,  15, 'A dolabra crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32975,   1,   33559871) /* Setup */
-     , (32975,   3,  536870932) /* SoundTable */
-     , (32975,   6,   67115558) /* PaletteBase */
-     , (32975,   8,  100686925) /* Icon */
-     , (32975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32975,   1, 0x0200153F) /* Setup */
+     , (32975,   3, 0x20000014) /* SoundTable */
+     , (32975,   6, 0x04001A26) /* PaletteBase */
+     , (32975,   8, 0x06005C4D) /* Icon */
+     , (32975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32975,  30,         88) /* PhysicsScript - Create */
-     , (32975,  50,  100688913) /* IconOverlay */
+     , (32975,  50, 0x06006411) /* IconOverlay */
      , (32975,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32975,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32975,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32975,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32975,  2101,      2)  /* DefenderSelf7 */
-     , (32975,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32975,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32975,  2106,      2)  /* HeartSeekerSelf7 */;

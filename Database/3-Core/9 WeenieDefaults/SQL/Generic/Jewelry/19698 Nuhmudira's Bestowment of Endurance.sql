@@ -40,11 +40,11 @@ VALUES (19698,   1, 'Nuhmudira''s Bestowment of Endurance') /* Name */
      , (19698,  25, 'Gabrielle of The North') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19698,   1,   33554687) /* Setup */
-     , (19698,   3,  536870932) /* SoundTable */
-     , (19698,   6,   67111919) /* PaletteBase */
-     , (19698,   8,  100672963) /* Icon */
-     , (19698,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19698,   1, 0x020000FF) /* Setup */
+     , (19698,   3, 0x20000014) /* SoundTable */
+     , (19698,   6, 0x04000BEF) /* PaletteBase */
+     , (19698,   8, 0x060025C3) /* Icon */
+     , (19698,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19698,  1359,      2)  /* EnduranceOther5 */

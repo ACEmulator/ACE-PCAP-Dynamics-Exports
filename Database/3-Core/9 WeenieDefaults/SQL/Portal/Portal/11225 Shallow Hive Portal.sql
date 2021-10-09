@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11225,   1, 'Shallow Hive Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11225,   1,   33555925) /* Setup */
-     , (11225,   2,  150994947) /* MotionTable */
-     , (11225,   8,  100667499) /* Icon */;
+VALUES (11225,   1, 0x020005D5) /* Setup */
+     , (11225,   2, 0x09000003) /* MotionTable */
+     , (11225,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11225, 8040, 615972919, 164.7044, 145.015, 107.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11225, 8040, 0x24B70037, 164.7044, 145.015, 107.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x24B70037 [164.704400 145.015000 107.937000] 1.000000 0.000000 0.000000 0.000000 */;

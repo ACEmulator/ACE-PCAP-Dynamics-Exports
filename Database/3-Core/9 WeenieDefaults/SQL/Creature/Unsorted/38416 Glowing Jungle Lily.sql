@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38416,   1, 'Glowing Jungle Lily') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38416,   1,   33560322) /* Setup */
-     , (38416,   2,  150995147) /* MotionTable */
-     , (38416,   3,  536871017) /* SoundTable */
-     , (38416,   8,  100689548) /* Icon */
-     , (38416,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (38416,   1, 0x02001702) /* Setup */
+     , (38416,   2, 0x090000CB) /* MotionTable */
+     , (38416,   3, 0x20000069) /* SoundTable */
+     , (38416,   8, 0x0600668C) /* Icon */
+     , (38416,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38416, 8040, 4163960857, 87.71846, 6.664946, 62.69013, 0.9859104, 0, 0, -0.1672744) /* PCAPRecordedLocation */
+VALUES (38416, 8040, 0xF8310019, 87.71846, 6.664946, 62.69013, 0.98591, 0, 0, -0.167274) /* PCAPRecordedLocation */
 /* @teleloc 0xF8310019 [87.718460 6.664946 62.690130] 0.985910 0.000000 0.000000 -0.167274 */;

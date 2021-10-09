@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15444,   1, 'Deadly Fire Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15444,   1,   33555693) /* Setup */
-     , (15444,   3,  536870932) /* SoundTable */
-     , (15444,   6,   67111919) /* PaletteBase */
-     , (15444,   8,  100672653) /* Icon */
-     , (15444,  22,  872415275) /* PhysicsEffectTable */
-     , (15444,  52,  100676440) /* IconUnderlay */;
+VALUES (15444,   1, 0x020004ED) /* Setup */
+     , (15444,   3, 0x20000014) /* SoundTable */
+     , (15444,   6, 0x04000BEF) /* PaletteBase */
+     , (15444,   8, 0x0600248D) /* Icon */
+     , (15444,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15444,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15444, 8040, 4061528110, 127.0246, 126.9506, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (15444, 8040, 0xF216002E, 127.0246, 126.9506, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF216002E [127.024600 126.950600 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;

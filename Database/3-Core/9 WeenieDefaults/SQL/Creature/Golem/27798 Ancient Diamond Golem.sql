@@ -25,14 +25,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27798,   1, 'Ancient Diamond Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27798,   1,   33558578) /* Setup */
-     , (27798,   2,  150995073) /* MotionTable */
-     , (27798,   3,  536870933) /* SoundTable */
-     , (27798,   8,  100667940) /* Icon */
-     , (27798,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (27798,   1, 0x02001032) /* Setup */
+     , (27798,   2, 0x09000081) /* MotionTable */
+     , (27798,   3, 0x20000015) /* SoundTable */
+     , (27798,   8, 0x06001224) /* Icon */
+     , (27798,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27798, 8040, 3035562002, 55.64801, 36.72818, 43.84163, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (27798, 8040, 0xB4EF0012, 55.64801, 36.72818, 43.84163, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB4EF0012 [55.648010 36.728180 43.841630] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

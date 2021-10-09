@@ -33,18 +33,18 @@ VALUES (27898,   1, 'The Eye of Drageerg') /* Name */
      , (27898,  16, 'An overly large replica of the Mosswart hero Drageerg''s eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27898,   1,   33558802) /* Setup */
-     , (27898,   3,  536870932) /* SoundTable */
-     , (27898,   8,  100676618) /* Icon */
-     , (27898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27898,   1, 0x02001112) /* Setup */
+     , (27898,   3, 0x20000014) /* SoundTable */
+     , (27898,   8, 0x0600340A) /* Icon */
+     , (27898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27898,  28,       1050) /* Spell - BludgeonVulnerabilityOther3 */
      , (27898,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27898, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (27898, 8040, 0x00070145, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27898,   208,      2)  /* ManaRenewalOther3 */
-     , (27898,   565,      2)  /* CreatureEnchantmentMasteryOther3 */
-     , (27898,  1477,      2)  /* HermeticLinkSelf3 */;
+VALUES (27898,  1477,      2)  /* HermeticLinkSelf3 */
+     , (27898,   208,      2)  /* ManaRenewalOther3 */
+     , (27898,   565,      2)  /* CreatureEnchantmentMasteryOther3 */;

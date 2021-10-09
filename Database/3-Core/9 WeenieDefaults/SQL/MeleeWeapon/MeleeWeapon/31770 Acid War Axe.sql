@@ -44,9 +44,9 @@ VALUES (31770,   1, 'Acid War Axe') /* Name */
      , (31770,  16, 'Acid War Axe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31770,   1,   33555687) /* Setup */
-     , (31770,   3,  536870932) /* SoundTable */
-     , (31770,   6,   67111919) /* PaletteBase */
-     , (31770,   8,  100672844) /* Icon */
-     , (31770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31770,   1, 0x020004E7) /* Setup */
+     , (31770,   3, 0x20000014) /* SoundTable */
+     , (31770,   6, 0x04000BEF) /* PaletteBase */
+     , (31770,   8, 0x0600254C) /* Icon */
+     , (31770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31770,  30,         88) /* PhysicsScript - Create */;

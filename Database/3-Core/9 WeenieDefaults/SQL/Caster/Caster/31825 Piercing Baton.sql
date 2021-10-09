@@ -44,14 +44,14 @@ VALUES (31825,   1, 'Piercing Baton') /* Name */
      , (31825,  16, 'Piercing Baton of Force Bolt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31825,   1,   33559698) /* Setup */
-     , (31825,   3,  536870932) /* SoundTable */
-     , (31825,   6,   67116700) /* PaletteBase */
-     , (31825,   8,  100688017) /* Icon */
-     , (31825,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31825,   1, 0x02001492) /* Setup */
+     , (31825,   3, 0x20000014) /* SoundTable */
+     , (31825,   6, 0x04001E9C) /* PaletteBase */
+     , (31825,   8, 0x06006091) /* Icon */
+     , (31825,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31825,  28,         69) /* Spell - ShockWave6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31825,  2091,      2)  /* WillpowerSelf7 */
+VALUES (31825,  2132,      2)  /* ForceBolt7 */
      , (31825,  2117,      2)  /* HermeticLinkSelf7 */
-     , (31825,  2132,      2)  /* ForceBolt7 */;
+     , (31825,  2091,      2)  /* WillpowerSelf7 */;

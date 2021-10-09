@@ -25,12 +25,12 @@ VALUES (33536,   1, 'Dark Crystal Spire') /* Name */
      , (33536,  16, 'A tall spire of black crystal, which hums with power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33536,   1,   33560014) /* Setup */
-     , (33536,   2,  150995261) /* MotionTable */
-     , (33536,   3,  536870933) /* SoundTable */
-     , (33536,   8,  100671183) /* Icon */
-     , (33536,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (33536,   1, 0x020015CE) /* Setup */
+     , (33536,   2, 0x0900013D) /* MotionTable */
+     , (33536,   3, 0x20000015) /* SoundTable */
+     , (33536,   8, 0x06001ECF) /* Icon */
+     , (33536,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33536, 8040, 5505328, 64.733, -10, -66, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33536, 8040, 0x00540130, 64.733, -10, -66, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00540130 [64.733000 -10.000000 -66.000000] 1.000000 0.000000 0.000000 0.000000 */;

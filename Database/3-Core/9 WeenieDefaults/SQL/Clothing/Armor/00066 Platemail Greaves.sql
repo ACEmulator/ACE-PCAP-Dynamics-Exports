@@ -36,8 +36,8 @@ VALUES (66,   1, 'Platemail Greaves') /* Name */
      , (66,  16, 'Platemail Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (66,   1,   33554641) /* Setup */
-     , (66,   3,  536870932) /* SoundTable */
-     , (66,   6,   67108990) /* PaletteBase */
-     , (66,   8,  100668167) /* Icon */
-     , (66,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (66,   1, 0x020000D1) /* Setup */
+     , (66,   3, 0x20000014) /* SoundTable */
+     , (66,   6, 0x0400007E) /* PaletteBase */
+     , (66,   8, 0x06001307) /* Icon */
+     , (66,  22, 0x3400002B) /* PhysicsEffectTable */;

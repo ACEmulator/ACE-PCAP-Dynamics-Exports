@@ -22,13 +22,13 @@ VALUES (15794,   1, 'Bloody Scrawled Note') /* Name */
      , (15794,  16, 'A note hastily written by Nuhmudira. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15794,   1,   33554773) /* Setup */
-     , (15794,   3,  536870932) /* SoundTable */
-     , (15794,   8,  100672795) /* Icon */
-     , (15794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15794,   1, 0x02000155) /* Setup */
+     , (15794,   3, 0x20000014) /* SoundTable */
+     , (15794,   8, 0x0600251B) /* Icon */
+     , (15794,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15794, 8040, 1415708941, 9.39135, -29.0854, 0.079, 0.229094, 0, 0, -0.973404) /* PCAPRecordedLocation */
+VALUES (15794, 8040, 0x5462010D, 9.39135, -29.0854, 0.079, 0.229094, 0, 0, -0.973404) /* PCAPRecordedLocation */
 /* @teleloc 0x5462010D [9.391350 -29.085400 0.079000] 0.229094 0.000000 0.000000 -0.973404 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

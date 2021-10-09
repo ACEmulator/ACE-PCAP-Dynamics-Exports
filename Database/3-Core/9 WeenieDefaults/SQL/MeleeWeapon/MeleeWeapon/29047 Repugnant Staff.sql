@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29047,   1, 'Repugnant Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29047,   1,   33558883) /* Setup */
-     , (29047,   3,  536870932) /* SoundTable */
-     , (29047,   8,  100677030) /* Icon */
-     , (29047,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29047,   1, 0x02001163) /* Setup */
+     , (29047,   3, 0x20000014) /* SoundTable */
+     , (29047,   8, 0x060035A6) /* Icon */
+     , (29047,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29047, 8040, 16056654, 30.26686, -29.97096, -0.08175396, -0.03830901, 0.03830901, -0.7060683, 0.7060683) /* PCAPRecordedLocation */
+VALUES (29047, 8040, 0x00F5014E, 30.26686, -29.97096, -0.081754, -0.038309, 0.038309, -0.706068, 0.706068) /* PCAPRecordedLocation */
 /* @teleloc 0x00F5014E [30.266860 -29.970960 -0.081754] -0.038309 0.038309 -0.706068 0.706068 */;

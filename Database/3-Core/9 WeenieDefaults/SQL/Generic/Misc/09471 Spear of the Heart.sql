@@ -24,7 +24,7 @@ VALUES (9471,   1, 'Spear of the Heart') /* Name */
      , (9471,  15, 'A Lugian gift, traded in return for the Blade of the Heart') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9471,   1,   33557008) /* Setup */
-     , (9471,   3,  536870932) /* SoundTable */
-     , (9471,   8,  100671493) /* Icon */
-     , (9471,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9471,   1, 0x02000A10) /* Setup */
+     , (9471,   3, 0x20000014) /* SoundTable */
+     , (9471,   8, 0x06002005) /* Icon */
+     , (9471,  22, 0x3400002B) /* PhysicsEffectTable */;

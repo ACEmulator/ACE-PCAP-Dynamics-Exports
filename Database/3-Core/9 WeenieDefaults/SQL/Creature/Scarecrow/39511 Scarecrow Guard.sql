@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39511,   1, 'Scarecrow Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39511,   1,   33556868) /* Setup */
-     , (39511,   2,  150995101) /* MotionTable */
-     , (39511,   3,  536871014) /* SoundTable */
-     , (39511,   6,   67112967) /* PaletteBase */
-     , (39511,   8,  100671141) /* Icon */
-     , (39511,  22,  872415368) /* PhysicsEffectTable */;
+VALUES (39511,   1, 0x02000984) /* Setup */
+     , (39511,   2, 0x0900009D) /* MotionTable */
+     , (39511,   3, 0x20000066) /* SoundTable */
+     , (39511,   6, 0x04001007) /* PaletteBase */
+     , (39511,   8, 0x06001EA5) /* Icon */
+     , (39511,  22, 0x34000088) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39511, 8040, 11469167, 380.3851, -54.08673, 0.002499998, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (39511, 8040, 0x00AF016F, 380.3851, -54.08673, 0.0025, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF016F [380.385100 -54.086730 0.002500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

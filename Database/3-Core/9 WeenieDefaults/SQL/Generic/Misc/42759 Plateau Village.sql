@@ -18,9 +18,9 @@ VALUES (42759,   1, 'Plateau Village') /* Name */
      , (42759,  16, 'Plateau Village is a remote settlement located on a large plateau in northwestern Osteth. Chefs looking to add some flavor to their dishes may wish to visit the spice merchant here, and adventurers looking to reach the legendary city of Frore will find a certain planar mage to be quite helpful.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42759,   1,   33560955) /* Setup */
-     , (42759,   8,  100668115) /* Icon */;
+VALUES (42759,   1, 0x0200197B) /* Setup */
+     , (42759,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42759, 8040, 459054, 60.0048, -5.1051, 3.014, 0, 0, 0, 1) /* PCAPRecordedLocation */
+VALUES (42759, 8040, 0x0007012E, 60.0048, -5.1051, 3.014, 0, 0, 0, 1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007012E [60.004800 -5.105100 3.014000] 0.000000 0.000000 0.000000 1.000000 */;

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25829,   1, 'Jojii Shrine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25829,   1,   33558344) /* Setup */
-     , (25829,   2,  150995196) /* MotionTable */
-     , (25829,   3,  536870932) /* SoundTable */
-     , (25829,   8,  100674324) /* Icon */;
+VALUES (25829,   1, 0x02000F48) /* Setup */
+     , (25829,   2, 0x090000FC) /* MotionTable */
+     , (25829,   3, 0x20000014) /* SoundTable */
+     , (25829,   8, 0x06002B14) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25829, 8040, 3661299765, 150.298, 116.485, 9.313226E-10, -0.819152, 0, 0, -0.573576) /* PCAPRecordedLocation */
+VALUES (25829, 8040, 0xDA3B0035, 150.298, 116.485, 0, -0.819152, 0, 0, -0.573576) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B0035 [150.298000 116.485000 0.000000] -0.819152 0.000000 0.000000 -0.573576 */;

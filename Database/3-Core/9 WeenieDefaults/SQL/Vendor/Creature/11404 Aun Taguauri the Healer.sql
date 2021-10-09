@@ -32,14 +32,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11404,   1, 'Aun Taguauri the Healer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11404,   1,   33557117) /* Setup */
-     , (11404,   2,  150994954) /* MotionTable */
-     , (11404,   3,  536870931) /* SoundTable */
-     , (11404,   6,   67113280) /* PaletteBase */
-     , (11404,   8,  100671756) /* Icon */;
+VALUES (11404,   1, 0x02000A7D) /* Setup */
+     , (11404,   2, 0x0900000A) /* MotionTable */
+     , (11404,   3, 0x20000013) /* SoundTable */
+     , (11404,   6, 0x04001140) /* PaletteBase */
+     , (11404,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11404, 8040, 498466877, 178.826, 109.506, 120.006, 0.9984363, 0, 0, -0.05590021) /* PCAPRecordedLocation */
+VALUES (11404, 8040, 0x1DB6003D, 178.826, 109.506, 120.006, 0.998436, 0, 0, -0.0559) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB6003D [178.826000 109.506000 120.006000] 0.998436 0.000000 0.000000 -0.055900 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

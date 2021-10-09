@@ -34,14 +34,14 @@ VALUES (32718,   1, 'Rat Tail Bracelet') /* Name */
      , (32718,  16, 'A bracelet woven from the tail of the Rat King.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32718,   1,   33554691) /* Setup */
-     , (32718,   3,  536870932) /* SoundTable */
-     , (32718,   6,   67111919) /* PaletteBase */
-     , (32718,   8,  100688618) /* Icon */
-     , (32718,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32718,   1, 0x02000103) /* Setup */
+     , (32718,   3, 0x20000014) /* SoundTable */
+     , (32718,   6, 0x04000BEF) /* PaletteBase */
+     , (32718,   8, 0x060062EA) /* Icon */
+     , (32718,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32718,  1310,      2)  /* ArmorSelf4 */
+VALUES (32718,  2578,      2)  /* CANTRIPARMOR1 */
+     , (32718,  1310,      2)  /* ArmorSelf4 */
      , (32718,  1330,      2)  /* StrengthSelf4 */
-     , (32718,  1402,      2)  /* QuicknessSelf6 */
-     , (32718,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (32718,  1402,      2)  /* QuicknessSelf6 */;

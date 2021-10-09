@@ -36,12 +36,12 @@ VALUES (134,   1, 'Tunic') /* Name */
      , (134,  16, 'Tunic') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (134,   1,   33554883) /* Setup */
-     , (134,   3,  536870932) /* SoundTable */
-     , (134,   6,   67108990) /* PaletteBase */
-     , (134,   8,  100667376) /* Icon */
-     , (134,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (134,   1, 0x020001C3) /* Setup */
+     , (134,   3, 0x20000014) /* SoundTable */
+     , (134,   6, 0x0400007E) /* PaletteBase */
+     , (134,   8, 0x06000FF0) /* Icon */
+     , (134,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (134, 8040, 23527780, 59.66936, -12.73648, 6, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (134, 8040, 0x01670164, 59.66936, -12.73648, 6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01670164 [59.669360 -12.736480 6.000000] 0.000000 0.000000 0.000000 -1.000000 */;

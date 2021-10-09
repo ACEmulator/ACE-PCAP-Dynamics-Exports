@@ -29,12 +29,12 @@ VALUES (43789,   1, 'Deewain''s Chamber') /* Name */
      , (43789,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43789,   1,   33554867) /* Setup */
-     , (43789,   2,  150994947) /* MotionTable */
-     , (43789,   3,  536870932) /* SoundTable */
-     , (43789,   6,   67109370) /* PaletteBase */
-     , (43789,   8,  100667499) /* Icon */;
+VALUES (43789,   1, 0x020001B3) /* Setup */
+     , (43789,   2, 0x09000003) /* MotionTable */
+     , (43789,   3, 0x20000014) /* SoundTable */
+     , (43789,   6, 0x040001FA) /* PaletteBase */
+     , (43789,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43789, 8040, 2114127645, 270, -50, 5.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43789, 8040, 0x7E03071D, 270, -50, 5.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7E03071D [270.000000 -50.000000 5.937000] 1.000000 0.000000 0.000000 0.000000 */;

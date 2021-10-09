@@ -30,7 +30,7 @@ VALUES (37559,   1, 'Writ of Apology') /* Name */
      , (37559,  20, 'Writs of Apology') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37559,   1,   33557387) /* Setup */
-     , (37559,   3,  536870932) /* SoundTable */
-     , (37559,   8,  100689883) /* Icon */
-     , (37559,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37559,   1, 0x02000B8B) /* Setup */
+     , (37559,   3, 0x20000014) /* SoundTable */
+     , (37559,   8, 0x060067DB) /* Icon */
+     , (37559,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43950,   1, 'Sealed crate of Salvaged Sandstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43950,   1,   33556223) /* Setup */
-     , (43950,   3,  536870932) /* SoundTable */
-     , (43950,   6,   67111928) /* PaletteBase */
-     , (43950,   8,  100668152) /* Icon */
-     , (43950,  22,  872415275) /* PhysicsEffectTable */
-     , (43950,  50,  100673296) /* IconOverlay */
+VALUES (43950,   1, 0x020006FF) /* Setup */
+     , (43950,   3, 0x20000014) /* SoundTable */
+     , (43950,   6, 0x04000BF8) /* PaletteBase */
+     , (43950,   8, 0x060012F8) /* Icon */
+     , (43950,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43950,  50, 0x06002710) /* IconOverlay */
      , (43950, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

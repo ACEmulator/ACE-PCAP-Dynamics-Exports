@@ -25,12 +25,12 @@ VALUES (37493,   1, 'Jester''s Marbles') /* Name */
      , (37493,  16, 'A small leather sack with a J on it. It contains a number of shiny marbles which glitter like gems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37493,   1,   33554817) /* Setup */
-     , (37493,   3,  536870932) /* SoundTable */
-     , (37493,   6,   67111919) /* PaletteBase */
-     , (37493,   8,  100689898) /* Icon */
-     , (37493,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37493,   1, 0x02000181) /* Setup */
+     , (37493,   3, 0x20000014) /* SoundTable */
+     , (37493,   6, 0x04000BEF) /* PaletteBase */
+     , (37493,   8, 0x060067EA) /* Icon */
+     , (37493,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37493, 8040, 1210974257, 146.729, 21.1568, 67.99875, 0.9205227, 0, 0, 0.3906889) /* PCAPRecordedLocation */
+VALUES (37493, 8040, 0x482E0031, 146.729, 21.1568, 67.99875, 0.920523, 0, 0, 0.390689) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0031 [146.729000 21.156800 67.998750] 0.920523 0.000000 0.000000 0.390689 */;

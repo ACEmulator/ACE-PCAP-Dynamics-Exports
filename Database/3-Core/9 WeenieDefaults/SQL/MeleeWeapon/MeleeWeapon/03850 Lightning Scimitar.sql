@@ -43,8 +43,8 @@ VALUES (3850,   1, 'Lightning Scimitar') /* Name */
      , (3850,  16, 'Lightning Scimitar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3850,   1,   33555782) /* Setup */
-     , (3850,   3,  536870932) /* SoundTable */
-     , (3850,   8,  100668976) /* Icon */
-     , (3850,  22,  872415275) /* PhysicsEffectTable */
-     , (3850,  52,  100676436) /* IconUnderlay */;
+VALUES (3850,   1, 0x02000546) /* Setup */
+     , (3850,   3, 0x20000014) /* SoundTable */
+     , (3850,   8, 0x06001630) /* Icon */
+     , (3850,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3850,  52, 0x06003354) /* IconUnderlay */;

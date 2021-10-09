@@ -28,14 +28,14 @@ VALUES (37412,   1, 'Coral Encrusted Chest') /* Name */
      , (37412,  16, 'A treasure chest encrusted by coral, appearing as it had been lost at sea for a long, long time...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37412,   1,   33557143) /* Setup */
-     , (37412,   2,  150994948) /* MotionTable */
-     , (37412,   3,  536870945) /* SoundTable */
-     , (37412,   8,  100671885) /* Icon */
-     , (37412,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37412,   1, 0x02000A97) /* Setup */
+     , (37412,   2, 0x09000004) /* MotionTable */
+     , (37412,   3, 0x20000021) /* SoundTable */
+     , (37412,   8, 0x0600218D) /* Icon */
+     , (37412,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37412, 8040, 3878879245, 32.1075, 108.025, 5, 0.7111641, 0, 0, -0.7030261) /* PCAPRecordedLocation */
+VALUES (37412, 8040, 0xE733000D, 32.1075, 108.025, 5, 0.711164, 0, 0, -0.703026) /* PCAPRecordedLocation */
 /* @teleloc 0xE733000D [32.107500 108.025000 5.000000] 0.711164 0.000000 0.000000 -0.703026 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

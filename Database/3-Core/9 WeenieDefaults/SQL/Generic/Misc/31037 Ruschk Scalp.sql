@@ -21,7 +21,7 @@ VALUES (31037,   1, 'Ruschk Scalp') /* Name */
      , (31037,  16, 'A bloody Ruschk scalp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31037,   1,   33554817) /* Setup */
-     , (31037,   3,  536870932) /* SoundTable */
-     , (31037,   8,  100687150) /* Icon */
-     , (31037,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31037,   1, 0x02000181) /* Setup */
+     , (31037,   3, 0x20000014) /* SoundTable */
+     , (31037,   8, 0x06005D2E) /* Icon */
+     , (31037,  22, 0x3400002B) /* PhysicsEffectTable */;

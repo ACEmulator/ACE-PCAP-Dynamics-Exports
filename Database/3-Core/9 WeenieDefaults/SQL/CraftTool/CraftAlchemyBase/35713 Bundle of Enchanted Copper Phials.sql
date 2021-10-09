@@ -22,8 +22,8 @@ VALUES (35713,   1, 'Bundle of Enchanted Copper Phials') /* Name */
      , (35713,  20, 'Bundles of Enchanted Copper Phials') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35713,   1,   33560312) /* Setup */
-     , (35713,   3,  536870932) /* SoundTable */
-     , (35713,   6,   67111919) /* PaletteBase */
-     , (35713,   8,  100689524) /* Icon */
-     , (35713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35713,   1, 0x020016F8) /* Setup */
+     , (35713,   3, 0x20000014) /* SoundTable */
+     , (35713,   6, 0x04000BEF) /* PaletteBase */
+     , (35713,   8, 0x06006674) /* Icon */
+     , (35713,  22, 0x3400002B) /* PhysicsEffectTable */;

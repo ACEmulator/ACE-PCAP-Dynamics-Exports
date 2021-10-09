@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xACBA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ACBA001,  1154, 0xACBA000A, 41.0061, 28.55437, 96.38153, -0.9901246, 0, 0, -0.1401902, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7ACBA001,  1154, 0xACBA000A, 41.0061, 28.55437, 96.38153, -0.990125, 0, 0, -0.14019, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xACBA000A [41.006100 28.554370 96.381530] -0.990125 0.000000 0.000000 -0.140190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -13,11 +13,11 @@ VALUES (0x7ACBA001, 0x7ACBA002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
      , (0x7ACBA001, 0x7ACBA007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ACBA002,  7990, 0xACBA000A, 41.0061, 28.55437, 96.38153, -0.9901246, 0, 0, -0.1401902,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+VALUES (0x7ACBA002,  7990, 0xACBA000A, 41.0061, 28.55437, 96.38153, -0.990125, 0, 0, -0.14019,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
 /* @teleloc 0xACBA000A [41.006100 28.554370 96.381530] -0.990125 0.000000 0.000000 -0.140190 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ACBA003,  4111, 0xACBA0022, 119.3781, 33.9962, 91.985, 0.4227587, 0, 0, -0.9062423,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
+VALUES (0x7ACBA003,  4111, 0xACBA0022, 119.3781, 33.9962, 91.985, 0.422759, 0, 0, -0.906242,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
 /* @teleloc 0xACBA0022 [119.378100 33.996200 91.985000] 0.422759 0.000000 0.000000 -0.906242 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

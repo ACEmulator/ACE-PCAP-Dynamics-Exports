@@ -52,14 +52,14 @@ VALUES (41067,   1, 'Shashqa') /* Name */
      , (41067,  16, 'Shashqa of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41067,   1,   33560824) /* Setup */
-     , (41067,   3,  536870932) /* SoundTable */
-     , (41067,   6,   67115557) /* PaletteBase */
-     , (41067,   8,  100690526) /* Icon */
-     , (41067,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41067,   1, 0x020018F8) /* Setup */
+     , (41067,   3, 0x20000014) /* SoundTable */
+     , (41067,   6, 0x04001A25) /* PaletteBase */
+     , (41067,   8, 0x06006A5E) /* Icon */
+     , (41067,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41067,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41067,  1592,      2)  /* HeartSeekerSelf6 */
-     , (41067,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (41067,  1627,      2)  /* SwiftKillerSelf6 */;
+VALUES (41067,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41067,  1627,      2)  /* SwiftKillerSelf6 */
+     , (41067,  1592,      2)  /* HeartSeekerSelf6 */;

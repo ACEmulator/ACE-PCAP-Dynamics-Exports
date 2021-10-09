@@ -21,7 +21,7 @@ VALUES (11790,   1, 'Shreth Banner') /* Name */
      , (11790,  16, 'A banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11790,   1,   33557239) /* Setup */
-     , (11790,   3,  536870932) /* SoundTable */
-     , (11790,   8,  100671893) /* Icon */
-     , (11790,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11790,   1, 0x02000AF7) /* Setup */
+     , (11790,   3, 0x20000014) /* SoundTable */
+     , (11790,   8, 0x06002195) /* Icon */
+     , (11790,  22, 0x3400002B) /* PhysicsEffectTable */;

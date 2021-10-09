@@ -23,7 +23,7 @@ VALUES (3133,   1, 'Scroll of Arcane Enlightenment II') /* Name */
 Increases the target''s Arcane Lore skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3133,   1,   33554826) /* Setup */
-     , (3133,   8,  100676447) /* Icon */
-     , (3133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3133,   1, 0x0200018A) /* Setup */
+     , (3133,   8, 0x0600335F) /* Icon */
+     , (3133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3133,  28,        685) /* Spell - ArcaneEnlightenmentOther2 */;

@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51904,   1, 'Lugian Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51904,   1,   33557003) /* Setup */
-     , (51904,   2,  150994950) /* MotionTable */
-     , (51904,   3,  536870922) /* SoundTable */
-     , (51904,   6,   67113158) /* PaletteBase */
-     , (51904,   8,  100667447) /* Icon */;
+VALUES (51904,   1, 0x02000A0B) /* Setup */
+     , (51904,   2, 0x09000006) /* MotionTable */
+     , (51904,   3, 0x2000000A) /* SoundTable */
+     , (51904,   6, 0x040010C6) /* PaletteBase */
+     , (51904,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51904, 8040, 1498480963, 220, -140, 0.00999999, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51904, 8040, 0x59510143, 220, -140, 0.01, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59510143 [220.000000 -140.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

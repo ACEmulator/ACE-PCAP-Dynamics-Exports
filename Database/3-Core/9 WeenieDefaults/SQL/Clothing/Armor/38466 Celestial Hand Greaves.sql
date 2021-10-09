@@ -52,13 +52,13 @@ VALUES (38466,   1, 'Celestial Hand Greaves') /* Name */
      , (38466,  39, 'Straharik') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38466,   1,   33554641) /* Setup */
-     , (38466,   3,  536870932) /* SoundTable */
-     , (38466,   8,  100690166) /* Icon */
-     , (38466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38466,   1, 0x020000D1) /* Setup */
+     , (38466,   3, 0x20000014) /* SoundTable */
+     , (38466,   8, 0x060068F6) /* Icon */
+     , (38466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38466,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38466,  2092,      2)  /* AcidBane7 */
-     , (38466,  2108,      2)  /* Impenetrability7 */
-     , (38466,  2574,      2)  /* CANTRIPFOCUS2 */;
+VALUES (38466,  2574,      2)  /* CANTRIPFOCUS2 */
+     , (38466,  2092,      2)  /* AcidBane7 */
+     , (38466,  2108,      2)  /* Impenetrability7 */;

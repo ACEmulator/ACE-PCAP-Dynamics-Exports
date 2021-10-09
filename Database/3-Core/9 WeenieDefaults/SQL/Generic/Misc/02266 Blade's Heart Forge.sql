@@ -18,9 +18,9 @@ VALUES (2266,   1, 'Blade''s Heart Forge') /* Name */
      , (2266,  16, 'Blade''s Heart Forge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2266,   1,   33555088) /* Setup */
-     , (2266,   8,  100668115) /* Icon */;
+VALUES (2266,   1, 0x02000290) /* Setup */
+     , (2266,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2266, 8040, 3443589143, 69.7677, 163.256, 54, -0.702788, 0, 0, -0.711399) /* PCAPRecordedLocation */
+VALUES (2266, 8040, 0xCD410017, 69.7677, 163.256, 54, -0.702788, 0, 0, -0.711399) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410017 [69.767700 163.256000 54.000000] -0.702788 0.000000 0.000000 -0.711399 */;

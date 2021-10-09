@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41574,   1, 'Gold Gear Trooper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41574,   1,   33560843) /* Setup */
-     , (41574,   2,  150995368) /* MotionTable */
-     , (41574,   3,  536871123) /* SoundTable */
-     , (41574,   8,  100674350) /* Icon */
-     , (41574,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41574,   1, 0x0200190B) /* Setup */
+     , (41574,   2, 0x090001A8) /* MotionTable */
+     , (41574,   3, 0x200000D3) /* SoundTable */
+     , (41574,   8, 0x06002B2E) /* Icon */
+     , (41574,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41574, 8040, 2270363675, 85.86948, 69.65163, 2.006, -0.9659299, 0, 0, -0.258804) /* PCAPRecordedLocation */
+VALUES (41574, 8040, 0x8753001B, 85.86948, 69.65163, 2.006, -0.96593, 0, 0, -0.258804) /* PCAPRecordedLocation */
 /* @teleloc 0x8753001B [85.869480 69.651630 2.006000] -0.965930 0.000000 0.000000 -0.258804 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

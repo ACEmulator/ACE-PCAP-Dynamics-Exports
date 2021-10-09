@@ -47,14 +47,14 @@ VALUES (37210,   1, 'White Bunny Slippers') /* Name */
      , (37210,  39, 'My-Tink') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37210,   1,   33557435) /* Setup */
-     , (37210,   3,  536870932) /* SoundTable */
-     , (37210,   8,  100672393) /* Icon */
-     , (37210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37210,   1, 0x02000BBB) /* Setup */
+     , (37210,   3, 0x20000014) /* SoundTable */
+     , (37210,   8, 0x06002389) /* Icon */
+     , (37210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37210,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37210,  2104,      2)  /* FrostBane7 */
-     , (37210,  2301,      2)  /* SprintSelf7 */
+VALUES (37210,  6105,      2)  /* CantripFocus4 */
      , (37210,  4407,      2)  /* Impenetrability8 */
-     , (37210,  6105,      2)  /* CantripFocus4 */;
+     , (37210,  2104,      2)  /* FrostBane7 */
+     , (37210,  2301,      2)  /* SprintSelf7 */;

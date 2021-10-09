@@ -48,13 +48,13 @@ VALUES (30369,   1, 'Tracker Boots') /* Name */
      , (30369,  16, 'These boots are made from finest Auroch leather. Soft and supple, they are the ultimate in style and comfort. Far from just being stylish, these boots allow the user to move speedily and effortlessly over any terrain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30369,   1,   33559417) /* Setup */
-     , (30369,   3,  536870932) /* SoundTable */
-     , (30369,   8,  100686833) /* Icon */
-     , (30369,  22,  872415275) /* PhysicsEffectTable */
-     , (30369,  52,  100686604) /* IconUnderlay */;
+VALUES (30369,   1, 0x02001379) /* Setup */
+     , (30369,   3, 0x20000014) /* SoundTable */
+     , (30369,   8, 0x06005BF1) /* Icon */
+     , (30369,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30369,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30369,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (30369,  4407,      2)  /* Impenetrability8 */
-     , (30369,  4710,      2)  /* CANTRIPSPRINT3 */;
+VALUES (30369,  4710,      2)  /* CANTRIPSPRINT3 */
+     , (30369,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (30369,  4407,      2)  /* Impenetrability8 */;

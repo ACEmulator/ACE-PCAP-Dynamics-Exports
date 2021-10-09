@@ -50,7 +50,7 @@ VALUES (0x720C1008, 27711, 0x20C10030, 128.7061, 181.1048, 83.87279, 1, 0, 0, 0,
 /* @teleloc 0x20C10030 [128.706100 181.104800 83.872790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720C1009, 27711, 0x20C10030, 138.4705, 179.9048, 84.10521, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
+VALUES (0x720C1009, 27711, 0x20C10030, 138.4705, 179.9048, 84.10521, 0.819152, 0, 0, -0.573577,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
 /* @teleloc 0x20C10030 [138.470500 179.904800 84.105210] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

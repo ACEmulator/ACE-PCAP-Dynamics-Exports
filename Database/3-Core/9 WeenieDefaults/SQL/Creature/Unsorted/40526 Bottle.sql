@@ -26,11 +26,11 @@ VALUES (40526,   1, 'Bottle') /* Name */
      , (40526,  15, 'A bottle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40526,   1,   33559127) /* Setup */
-     , (40526,   2,  150995094) /* MotionTable */
-     , (40526,   3,  536870930) /* SoundTable */
-     , (40526,   8,  100686472) /* Icon */;
+VALUES (40526,   1, 0x02001257) /* Setup */
+     , (40526,   2, 0x09000096) /* MotionTable */
+     , (40526,   3, 0x20000012) /* SoundTable */
+     , (40526,   8, 0x06005A88) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40526, 8040, 2847146325, 108.273, 39.4582, 94, 0.085621, 0, 0, -0.996328) /* PCAPRecordedLocation */
+VALUES (40526, 8040, 0xA9B40155, 108.273, 39.4582, 94, 0.085621, 0, 0, -0.996328) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40155 [108.273000 39.458200 94.000000] 0.085621 0.000000 0.000000 -0.996328 */;

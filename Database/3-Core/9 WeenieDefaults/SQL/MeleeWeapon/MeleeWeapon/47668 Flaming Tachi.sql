@@ -36,12 +36,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47668,   1, 'Flaming Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47668,   1,   33555732) /* Setup */
-     , (47668,   3,  536870932) /* SoundTable */
-     , (47668,   6,   67111919) /* PaletteBase */
-     , (47668,   8,  100668916) /* Icon */
-     , (47668,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47668,   1, 0x02000514) /* Setup */
+     , (47668,   3, 0x20000014) /* SoundTable */
+     , (47668,   6, 0x04000BEF) /* PaletteBase */
+     , (47668,   8, 0x060015F4) /* Icon */
+     , (47668,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47668, 8040, 2103443518, 186.228, 138.0117, 25.32231, -0.09203263, -0.09203263, -0.701092, -0.701092) /* PCAPRecordedLocation */
+VALUES (47668, 8040, 0x7D60003E, 186.228, 138.0117, 25.32231, -0.092033, -0.092033, -0.701092, -0.701092) /* PCAPRecordedLocation */
 /* @teleloc 0x7D60003E [186.228000 138.011700 25.322310] -0.092033 -0.092033 -0.701092 -0.701092 */;

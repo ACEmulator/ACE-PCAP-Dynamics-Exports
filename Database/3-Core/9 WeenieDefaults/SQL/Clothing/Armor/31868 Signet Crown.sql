@@ -38,8 +38,8 @@ VALUES (31868,   1, 'Signet Crown') /* Name */
      , (31868,  16, 'Signet Crown') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31868,   1,   33559738) /* Setup */
-     , (31868,   3,  536870932) /* SoundTable */
-     , (31868,   6,   67108990) /* PaletteBase */
-     , (31868,   8,  100688228) /* Icon */
-     , (31868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31868,   1, 0x020014BA) /* Setup */
+     , (31868,   3, 0x20000014) /* SoundTable */
+     , (31868,   6, 0x0400007E) /* PaletteBase */
+     , (31868,   8, 0x06006164) /* Icon */
+     , (31868,  22, 0x3400002B) /* PhysicsEffectTable */;

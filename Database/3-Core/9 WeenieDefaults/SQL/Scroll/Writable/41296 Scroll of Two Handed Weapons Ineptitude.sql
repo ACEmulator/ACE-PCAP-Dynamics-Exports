@@ -23,7 +23,7 @@ VALUES (41296,   1, 'Scroll of Two Handed Weapons Ineptitude') /* Name */
 Decreases the target''s Two Handed Combat skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41296,   1,   33554826) /* Setup */
-     , (41296,   8,  100690644) /* Icon */
-     , (41296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41296,   1, 0x0200018A) /* Setup */
+     , (41296,   8, 0x06006AD4) /* Icon */
+     , (41296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41296,  28,       5075) /* Spell - TwoHandedIneptitude1 */;

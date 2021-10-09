@@ -26,12 +26,12 @@ VALUES (25713,   1, 'Bookcase') /* Name */
      , (25713,  15, 'A bookcase, dusty tomes and all.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25713,   1,   33557590) /* Setup */
-     , (25713,   2,  150995157) /* MotionTable */
-     , (25713,   3,  536871051) /* SoundTable */
-     , (25713,   8,  100668246) /* Icon */
-     , (25713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25713,   1, 0x02000C56) /* Setup */
+     , (25713,   2, 0x090000D5) /* MotionTable */
+     , (25713,   3, 0x2000008B) /* SoundTable */
+     , (25713,   8, 0x06001356) /* Icon */
+     , (25713,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25713, 8040, 1582039461, 20, -45.175, 9.313226E-10, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25713, 8040, 0x5E4C01A5, 20, -45.175, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4C01A5 [20.000000 -45.175000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

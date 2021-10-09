@@ -16,10 +16,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24009,   1, 'Alaidain Dormitory Conveyance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24009,   1,   33558268) /* Setup */
-     , (24009,   3,  536871008) /* SoundTable */
-     , (24009,   8,  100674152) /* Icon */;
+VALUES (24009,   1, 0x02000EFC) /* Setup */
+     , (24009,   3, 0x20000060) /* SoundTable */
+     , (24009,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24009, 8040, 1682178437, 120, -310, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24009, 8040, 0x64440185, 120, -310, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64440185 [120.000000 -310.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */;

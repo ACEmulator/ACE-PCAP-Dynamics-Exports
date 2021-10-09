@@ -18,9 +18,9 @@ VALUES (13157,   1, 'Far Claw Villas') /* Name */
      , (13157,  16, 'Welcome to Far Claw Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13157,   1,   33557463) /* Setup */
-     , (13157,   8,  100668115) /* Icon */;
+VALUES (13157,   1, 0x02000BD7) /* Setup */
+     , (13157,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13157, 8040, 3384999989, 152.218, 103.156, 22, 0.998706, 0, 0, 0.0508464) /* PCAPRecordedLocation */
+VALUES (13157, 8040, 0xC9C30035, 152.218, 103.156, 22, 0.998706, 0, 0, 0.050846) /* PCAPRecordedLocation */
 /* @teleloc 0xC9C30035 [152.218000 103.156000 22.000000] 0.998706 0.000000 0.000000 0.050846 */;

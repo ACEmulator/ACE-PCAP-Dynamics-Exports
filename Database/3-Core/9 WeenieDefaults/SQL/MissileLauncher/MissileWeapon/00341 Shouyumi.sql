@@ -48,19 +48,19 @@ VALUES (341,   1, 'Shouyumi') /* Name */
      , (341,  16, 'Shouyumi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (341,   1,   33554729) /* Setup */
-     , (341,   3,  536870932) /* SoundTable */
-     , (341,   6,   67111919) /* PaletteBase */
-     , (341,   8,  100668826) /* Icon */
-     , (341,  22,  872415275) /* PhysicsEffectTable */
+VALUES (341,   1, 0x02000129) /* Setup */
+     , (341,   3, 0x20000014) /* SoundTable */
+     , (341,   6, 0x04000BEF) /* PaletteBase */
+     , (341,   8, 0x0600159A) /* Icon */
+     , (341,  22, 0x3400002B) /* PhysicsEffectTable */
      , (341,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (341, 8040, 3027238955, 121.9809, 63.01808, 41.93, 0.9545801, 0, 0, -0.2979545) /* PCAPRecordedLocation */
+VALUES (341, 8040, 0xB470002B, 121.9809, 63.01808, 41.93, 0.95458, 0, 0, -0.297955) /* PCAPRecordedLocation */
 /* @teleloc 0xB470002B [121.980900 63.018080 41.930000] 0.954580 0.000000 0.000000 -0.297955 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (341,  1604,      2)  /* DefenderSelf5 */
      , (341,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (341,  1627,      2)  /* SwiftKillerSelf6 */
-     , (341,  5783,      2)  /* DirtyFightingMasterySelf5 */;
+     , (341,  5783,      2)  /* DirtyFightingMasterySelf5 */
+     , (341,  1627,      2)  /* SwiftKillerSelf6 */;

@@ -49,17 +49,17 @@ VALUES (23522,   1, 'Overlord''s Sword') /* Name */
      , (23522,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23522,   1,   33558185) /* Setup */
-     , (23522,   3,  536870932) /* SoundTable */
-     , (23522,   8,  100674032) /* Icon */
-     , (23522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23522,   1, 0x02000EA9) /* Setup */
+     , (23522,   3, 0x20000014) /* SoundTable */
+     , (23522,   8, 0x060029F0) /* Icon */
+     , (23522,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23522, 8040, 4095213581, 33.31163, 105.7664, 159.929, 0.1398278, 0.1398278, -0.6931437, -0.6931437) /* PCAPRecordedLocation */
+VALUES (23522, 8040, 0xF418000D, 33.31163, 105.7664, 159.929, 0.139828, 0.139828, -0.693144, -0.693144) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [33.311630 105.766400 159.929000] 0.139828 0.139828 -0.693144 -0.693144 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23522,   417,      2)  /* HeavyWeaponsMasteryOther6 */
-     , (23522,  1592,      2)  /* HeartSeekerSelf6 */
-     , (23522,  1605,      2)  /* DefenderSelf6 */
-     , (23522,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (23522,  1605,      2)  /* DefenderSelf6 */
+     , (23522,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (23522,   417,      2)  /* HeavyWeaponsMasteryOther6 */
+     , (23522,  1592,      2)  /* HeartSeekerSelf6 */;

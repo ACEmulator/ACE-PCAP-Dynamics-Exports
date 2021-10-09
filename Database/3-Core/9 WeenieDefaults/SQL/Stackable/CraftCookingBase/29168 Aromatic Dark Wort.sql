@@ -25,8 +25,8 @@ VALUES (29168,   1, 'Aromatic Dark Wort') /* Name */
      , (29168,  20, 'Aromatic Dark Worts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29168,   1,   33559154) /* Setup */
-     , (29168,   3,  536870932) /* SoundTable */
-     , (29168,   8,  100686462) /* Icon */
-     , (29168,  22,  872415275) /* PhysicsEffectTable */
-     , (29168,  50,  100687552) /* IconOverlay */;
+VALUES (29168,   1, 0x02001272) /* Setup */
+     , (29168,   3, 0x20000014) /* SoundTable */
+     , (29168,   8, 0x06005A7E) /* Icon */
+     , (29168,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29168,  50, 0x06005EC0) /* IconOverlay */;

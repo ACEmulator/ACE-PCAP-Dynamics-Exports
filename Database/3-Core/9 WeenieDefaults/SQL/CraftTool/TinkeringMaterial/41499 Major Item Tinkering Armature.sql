@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41499,   1, 'Major Item Tinkering Armature') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41499,   1,   33554817) /* Setup */
-     , (41499,   3,  536870932) /* SoundTable */
-     , (41499,   6,   67111919) /* PaletteBase */
-     , (41499,   8,  100673216) /* Icon */
-     , (41499,  22,  872415275) /* PhysicsEffectTable */
-     , (41499,  50,  100673276) /* IconOverlay */
-     , (41499,  52,  100676437) /* IconUnderlay */;
+VALUES (41499,   1, 0x02000181) /* Setup */
+     , (41499,   3, 0x20000014) /* SoundTable */
+     , (41499,   6, 0x04000BEF) /* PaletteBase */
+     , (41499,   8, 0x060026C0) /* Icon */
+     , (41499,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41499,  50, 0x060026FC) /* IconOverlay */
+     , (41499,  52, 0x06003355) /* IconUnderlay */;

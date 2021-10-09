@@ -35,20 +35,20 @@ VALUES (972,   1, 'Shunju Shinjin the Weaponsmith') /* Name */
      , (972,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (972,   1,   33554433) /* Setup */
-     , (972,   2,  150994945) /* MotionTable */
-     , (972,   3,  536870913) /* SoundTable */
-     , (972,   6,   67108990) /* PaletteBase */
-     , (972,   8,  100667446) /* Icon */
-     , (972,   9,   83890516) /* EyesTexture */
-     , (972,  10,   83890548) /* NoseTexture */
-     , (972,  11,   83890664) /* MouthTexture */
-     , (972,  15,   67117068) /* HairPalette */
-     , (972,  16,   67110062) /* EyesPalette */
-     , (972,  17,   67110056) /* SkinPalette */;
+VALUES (972,   1, 0x02000001) /* Setup */
+     , (972,   2, 0x09000001) /* MotionTable */
+     , (972,   3, 0x20000001) /* SoundTable */
+     , (972,   6, 0x0400007E) /* PaletteBase */
+     , (972,   8, 0x06001036) /* Icon */
+     , (972,   9, 0x05001154) /* EyesTexture */
+     , (972,  10, 0x05001174) /* NoseTexture */
+     , (972,  11, 0x050011E8) /* MouthTexture */
+     , (972,  15, 0x0400200C) /* HairPalette */
+     , (972,  16, 0x040004AE) /* EyesPalette */
+     , (972,  17, 0x040004A8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (972, 8040, 32047791, 118.943, -87.3758, -5.995, -0.5412498, 0, 0, -0.8408619) /* PCAPRecordedLocation */
+VALUES (972, 8040, 0x01E902AF, 118.943, -87.3758, -5.995, -0.54125, 0, 0, -0.840862) /* PCAPRecordedLocation */
 /* @teleloc 0x01E902AF [118.943000 -87.375800 -5.995000] -0.541250 0.000000 0.000000 -0.840862 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

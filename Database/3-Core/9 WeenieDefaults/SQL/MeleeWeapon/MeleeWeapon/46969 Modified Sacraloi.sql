@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46969,   1, 'Modified Sacraloi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46969,   1,   33557961) /* Setup */
-     , (46969,   3,  536870932) /* SoundTable */
-     , (46969,   8,  100673488) /* Icon */
-     , (46969,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46969,   1, 0x02000DC9) /* Setup */
+     , (46969,   3, 0x20000014) /* SoundTable */
+     , (46969,   8, 0x060027D0) /* Icon */
+     , (46969,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46969, 8040, 2847146026, 130.3791, 33.6249, 93.92901, -0.05287511, -0.05287511, -0.7051271, -0.7051271) /* PCAPRecordedLocation */
+VALUES (46969, 8040, 0xA9B4002A, 130.3791, 33.6249, 93.92901, -0.052875, -0.052875, -0.705127, -0.705127) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [130.379100 33.624900 93.929010] -0.052875 -0.052875 -0.705127 -0.705127 */;

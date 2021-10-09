@@ -36,12 +36,12 @@ VALUES (27579,   1, 'Glittering Necklace of Acid and Piercing Protection') /* Na
      , (27579,  15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Legionary quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27579,   1,   33554688) /* Setup */
-     , (27579,   3,  536870932) /* SoundTable */
-     , (27579,   8,  100668682) /* Icon */
-     , (27579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27579,   1, 0x02000100) /* Setup */
+     , (27579,   3, 0x20000014) /* SoundTable */
+     , (27579,   8, 0x0600150A) /* Icon */
+     , (27579,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27579,   242,      2)  /* InvulnerabilityOther4 */
-     , (27579,   513,      2)  /* AcidProtectionOther5 */
+VALUES (27579,   513,      2)  /* AcidProtectionOther5 */
+     , (27579,   242,      2)  /* InvulnerabilityOther4 */
      , (27579,  1143,      2)  /* PiercingProtectionOther5 */;

@@ -21,5 +21,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52737,   1, 'Gauntlet Health Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52737,   1,   33555194) /* Setup */
-     , (52737,   8,  100693307) /* Icon */;
+VALUES (52737,   1, 0x020002FA) /* Setup */
+     , (52737,   8, 0x0600753B) /* Icon */;

@@ -18,13 +18,13 @@ VALUES (6405,   1, 'Carefully Printed Note') /* Name */
      , (6405,  16, 'A carefully scribed message in the High Empyrean language of the Era of Lore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6405,   1,   33554773) /* Setup */
-     , (6405,   3,  536870932) /* SoundTable */
-     , (6405,   8,  100668176) /* Icon */
-     , (6405,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6405,   1, 0x02000155) /* Setup */
+     , (6405,   3, 0x20000014) /* SoundTable */
+     , (6405,   8, 0x06001310) /* Icon */
+     , (6405,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6405, 8040, 18547189, 52.2553, -51.1787, -11.921, 0.387404, 0, 0, -0.92191) /* PCAPRecordedLocation */
+VALUES (6405, 8040, 0x011B01F5, 52.2553, -51.1787, -11.921, 0.387404, 0, 0, -0.92191) /* PCAPRecordedLocation */
 /* @teleloc 0x011B01F5 [52.255300 -51.178700 -11.921000] 0.387404 0.000000 0.000000 -0.921910 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

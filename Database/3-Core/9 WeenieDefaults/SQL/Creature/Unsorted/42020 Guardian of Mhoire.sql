@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42020,   1, 'Guardian of Mhoire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42020,   1,   33558554) /* Setup */
-     , (42020,   2,  150995404) /* MotionTable */
-     , (42020,   3,  536871080) /* SoundTable */
-     , (42020,   8,  100675661) /* Icon */
-     , (42020,  22,  872415401) /* PhysicsEffectTable */;
+VALUES (42020,   1, 0x0200101A) /* Setup */
+     , (42020,   2, 0x090001CC) /* MotionTable */
+     , (42020,   3, 0x200000A8) /* SoundTable */
+     , (42020,   8, 0x0600304D) /* Icon */
+     , (42020,  22, 0x340000A9) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42020, 8040, 2349008867, 210, -200, 24.00249, -0.3826834, 0, 0, -0.9238796) /* PCAPRecordedLocation */
+VALUES (42020, 8040, 0x8C0307E3, 210, -200, 24.00249, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307E3 [210.000000 -200.000000 24.002490] -0.382683 0.000000 0.000000 -0.923880 */;

@@ -23,8 +23,8 @@ VALUES (35296,   1, 'Pack Tower Guardian') /* Name */
      , (35296,  16, 'The powerful golem built by Asheron and the good people of Dereth to protect his tower and home.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35296,   1,   33560282) /* Setup */
-     , (35296,   2,  150995206) /* MotionTable */
-     , (35296,   3,  536870933) /* SoundTable */
-     , (35296,   8,  100674350) /* Icon */
-     , (35296,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (35296,   1, 0x020016DA) /* Setup */
+     , (35296,   2, 0x09000106) /* MotionTable */
+     , (35296,   3, 0x20000015) /* SoundTable */
+     , (35296,   8, 0x06002B2E) /* Icon */
+     , (35296,  22, 0x34000025) /* PhysicsEffectTable */;

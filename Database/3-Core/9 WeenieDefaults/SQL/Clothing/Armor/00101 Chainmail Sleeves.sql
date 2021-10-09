@@ -42,11 +42,11 @@ VALUES (101,   1, 'Chainmail Sleeves') /* Name */
      , (101,  16, 'Chainmail Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (101,   1,   33554655) /* Setup */
-     , (101,   3,  536870932) /* SoundTable */
-     , (101,   6,   67108990) /* PaletteBase */
-     , (101,   8,  100669362) /* Icon */
-     , (101,  22,  872415275) /* PhysicsEffectTable */
+VALUES (101,   1, 0x020000DF) /* Setup */
+     , (101,   3, 0x20000014) /* SoundTable */
+     , (101,   6, 0x0400007E) /* PaletteBase */
+     , (101,   8, 0x060017B2) /* Icon */
+     , (101,  22, 0x3400002B) /* PhysicsEffectTable */
      , (101,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

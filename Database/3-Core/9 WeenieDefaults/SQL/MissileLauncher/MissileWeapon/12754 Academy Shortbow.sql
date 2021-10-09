@@ -37,12 +37,12 @@ VALUES (12754,   1, 'Academy Shortbow') /* Name */
      , (12754,  15, 'An enhanced shortbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12754,   1,   33554729) /* Setup */
-     , (12754,   3,  536870932) /* SoundTable */
-     , (12754,   6,   67111919) /* PaletteBase */
-     , (12754,   8,  100668827) /* Icon */
-     , (12754,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12754,   1, 0x02000129) /* Setup */
+     , (12754,   3, 0x20000014) /* SoundTable */
+     , (12754,   6, 0x04000BEF) /* PaletteBase */
+     , (12754,   8, 0x0600159B) /* Icon */
+     , (12754,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12754, 8040, 2847146010, 94.6537, 36.16331, 93.93001, -0.9850903, 0, 0, 0.1720384) /* PCAPRecordedLocation */
+VALUES (12754, 8040, 0xA9B4001A, 94.6537, 36.16331, 93.93001, -0.98509, 0, 0, 0.172038) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4001A [94.653700 36.163310 93.930010] -0.985090 0.000000 0.000000 0.172038 */;

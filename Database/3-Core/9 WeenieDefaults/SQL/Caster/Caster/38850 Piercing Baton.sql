@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38850,   1, 'Piercing Baton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38850,   1,   33559698) /* Setup */
-     , (38850,   3,  536870932) /* SoundTable */
-     , (38850,   6,   67116700) /* PaletteBase */
-     , (38850,   8,  100688013) /* Icon */
-     , (38850,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38850,   1, 0x02001492) /* Setup */
+     , (38850,   3, 0x20000014) /* SoundTable */
+     , (38850,   6, 0x04001E9C) /* PaletteBase */
+     , (38850,   8, 0x0600608D) /* Icon */
+     , (38850,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38850, 8040, 3131048193, 62.69271, 34.04531, 53.62975, -0.4026937, -0.4026937, -0.5812382, -0.5812382) /* PCAPRecordedLocation */
+VALUES (38850, 8040, 0xBAA00101, 62.69271, 34.04531, 53.62975, -0.402694, -0.402694, -0.581238, -0.581238) /* PCAPRecordedLocation */
 /* @teleloc 0xBAA00101 [62.692710 34.045310 53.629750] -0.402694 -0.402694 -0.581238 -0.581238 */;

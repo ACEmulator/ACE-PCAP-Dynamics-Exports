@@ -50,11 +50,11 @@ VALUES (41049,   1, 'Flaming Pike') /* Name */
      , (41049,  16, 'Flaming Pike of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41049,   1,   33560878) /* Setup */
-     , (41049,   3,  536870932) /* SoundTable */
-     , (41049,   6,   67115558) /* PaletteBase */
-     , (41049,   8,  100690640) /* Icon */
-     , (41049,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41049,   1, 0x0200192E) /* Setup */
+     , (41049,   3, 0x20000014) /* SoundTable */
+     , (41049,   6, 0x04001A26) /* PaletteBase */
+     , (41049,   8, 0x06006AD0) /* Icon */
+     , (41049,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41049,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

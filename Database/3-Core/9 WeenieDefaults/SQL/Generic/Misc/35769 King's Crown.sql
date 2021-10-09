@@ -21,9 +21,9 @@ VALUES (35769,   1, 'King''s Crown') /* Name */
      , (35769,  16, 'A beautiful white lily. It''s petals are almost preternaturally delicate and soft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35769,   1,   33555410) /* Setup */
-     , (35769,   8,  100689549) /* Icon */;
+VALUES (35769,   1, 0x020003D2) /* Setup */
+     , (35769,   8, 0x0600668D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35769, 8040, 3960406058, 133.68, 25.9624, 235.1, -0.15579, 0, 0, -0.98779) /* PCAPRecordedLocation */
+VALUES (35769, 8040, 0xEC0F002A, 133.68, 25.9624, 235.1, -0.15579, 0, 0, -0.98779) /* PCAPRecordedLocation */
 /* @teleloc 0xEC0F002A [133.680000 25.962400 235.100000] -0.155790 0.000000 0.000000 -0.987790 */;

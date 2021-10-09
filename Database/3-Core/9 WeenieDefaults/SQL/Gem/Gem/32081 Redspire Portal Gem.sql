@@ -30,9 +30,9 @@ VALUES (32081,   1, 'Redspire Portal Gem') /* Name */
      , (32081,  16, 'Use this gem to summon a short-lived portal to Redspire.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32081,   1,   33556769) /* Setup */
-     , (32081,   3,  536870932) /* SoundTable */
-     , (32081,   6,   67111919) /* PaletteBase */
-     , (32081,   8,  100674856) /* Icon */
-     , (32081,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32081,   1, 0x02000921) /* Setup */
+     , (32081,   3, 0x20000014) /* SoundTable */
+     , (32081,   6, 0x04000BEF) /* PaletteBase */
+     , (32081,   8, 0x06002D28) /* Icon */
+     , (32081,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32081,  28,        157) /* Spell - SummonPortal1 */;

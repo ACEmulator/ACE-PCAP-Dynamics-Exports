@@ -21,12 +21,12 @@ VALUES (21282,   1, 'Destroyed Statue of a Reedshark') /* Name */
      , (21282,  15, 'This nullified shell is all that remains of the living Statue of a Reedshark that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21282,   1,   33554489) /* Setup */
-     , (21282,   2,  150995216) /* MotionTable */
-     , (21282,   3,  536871052) /* SoundTable */
-     , (21282,   6,   67109313) /* PaletteBase */
-     , (21282,   8,  100667939) /* Icon */;
+VALUES (21282,   1, 0x02000039) /* Setup */
+     , (21282,   2, 0x09000110) /* MotionTable */
+     , (21282,   3, 0x2000008C) /* SoundTable */
+     , (21282,   6, 0x040001C1) /* PaletteBase */
+     , (21282,   8, 0x06001223) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21282, 8040, 3111059476, 62.8831, 91.666, 10.004, -0.5585989, 0, 0, 0.8294379) /* PCAPRecordedLocation */
+VALUES (21282, 8040, 0xB96F0014, 62.8831, 91.666, 10.004, -0.558599, 0, 0, 0.829438) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F0014 [62.883100 91.666000 10.004000] -0.558599 0.000000 0.000000 0.829438 */;

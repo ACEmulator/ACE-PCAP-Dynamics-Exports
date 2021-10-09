@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49465,   1, 'Scroll of Summoning Mastery Other III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49465,   1,   33554826) /* Setup */
-     , (49465,   8,  100693008) /* Icon */
-     , (49465,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49465,   1, 0x0200018A) /* Setup */
+     , (49465,   8, 0x06007410) /* Icon */
+     , (49465,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49465,  28,       6110) /* Spell - SummoningMasteryOther3 */
      , (49465, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

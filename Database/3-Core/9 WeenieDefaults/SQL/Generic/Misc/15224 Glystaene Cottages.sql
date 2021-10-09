@@ -18,9 +18,9 @@ VALUES (15224,   1, 'Glystaene Cottages') /* Name */
      , (15224,  16, 'Welcome to Glystaene Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15224,   1,   33557463) /* Setup */
-     , (15224,   8,  100668115) /* Icon */;
+VALUES (15224,   1, 0x02000BD7) /* Setup */
+     , (15224,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15224, 8040, 2765029405, 83.8652, 108.446, 140, 0.725612, 0, 0, 0.688104) /* PCAPRecordedLocation */
+VALUES (15224, 8040, 0xA4CF001D, 83.8652, 108.446, 140, 0.725612, 0, 0, 0.688104) /* PCAPRecordedLocation */
 /* @teleloc 0xA4CF001D [83.865200 108.446000 140.000000] 0.725612 0.000000 0.000000 0.688104 */;

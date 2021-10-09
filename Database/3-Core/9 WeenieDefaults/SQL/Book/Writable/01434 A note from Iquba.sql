@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1434,   1, 'A note from Iquba') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1434,   1,   33554773) /* Setup */
-     , (1434,   3,  536870932) /* SoundTable */
-     , (1434,   8,  100668176) /* Icon */
-     , (1434,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1434,   1, 0x02000155) /* Setup */
+     , (1434,   3, 0x20000014) /* SoundTable */
+     , (1434,   8, 0x06001310) /* Icon */
+     , (1434,  22, 0x3400002B) /* PhysicsEffectTable */;

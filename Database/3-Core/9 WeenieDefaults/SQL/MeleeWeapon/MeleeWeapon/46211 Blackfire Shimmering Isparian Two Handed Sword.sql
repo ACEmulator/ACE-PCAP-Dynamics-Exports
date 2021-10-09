@@ -52,15 +52,15 @@ VALUES (46211,   1, 'Blackfire Shimmering Isparian Two Handed Sword') /* Name */
      , (46211,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46211,   1,   33556262) /* Setup */
-     , (46211,   3,  536870932) /* SoundTable */
-     , (46211,   8,  100692947) /* Icon */
-     , (46211,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46211,   1, 0x02000726) /* Setup */
+     , (46211,   3, 0x20000014) /* SoundTable */
+     , (46211,   8, 0x060073D3) /* Icon */
+     , (46211,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46211,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46211,  2101,      2)  /* DefenderSelf7 */
-     , (46211,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46211,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46211,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46211,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (46211,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (46211,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (46211,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46211,  2101,      2)  /* DefenderSelf7 */
+     , (46211,  2106,      2)  /* HeartSeekerSelf7 */;

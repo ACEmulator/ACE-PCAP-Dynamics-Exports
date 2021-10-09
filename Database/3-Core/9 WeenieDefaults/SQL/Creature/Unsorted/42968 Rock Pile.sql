@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42968,   1, 'Rock Pile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42968,   1,   33558564) /* Setup */
-     , (42968,   2,  150995265) /* MotionTable */
-     , (42968,   3,  536870913) /* SoundTable */
-     , (42968,   8,  100675645) /* Icon */;
+VALUES (42968,   1, 0x02001024) /* Setup */
+     , (42968,   2, 0x09000141) /* MotionTable */
+     , (42968,   3, 0x20000001) /* SoundTable */
+     , (42968,   8, 0x0600303D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42968, 8040, 3010461732, 104.375, 73.4496, 26, 0.992323, 0, 0, 0.123673) /* PCAPRecordedLocation */
+VALUES (42968, 8040, 0xB3700024, 104.375, 73.4496, 26, 0.992323, 0, 0, 0.123673) /* PCAPRecordedLocation */
 /* @teleloc 0xB3700024 [104.375000 73.449600 26.000000] 0.992323 0.000000 0.000000 0.123673 */;

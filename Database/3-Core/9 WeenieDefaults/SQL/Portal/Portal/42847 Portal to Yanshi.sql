@@ -21,10 +21,10 @@ VALUES (42847,   1, 'Portal to Yanshi') /* Name */
      , (42847,  16, 'This portal goes to the Sho town of Yanshi on the edges of the Blackmire swamp. The original town was devastated by the Harbinger, who still lurks deep beneath the surface. This is a good town for characters over level 10. But stay away from the Harbinger.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42847,   1,   33554867) /* Setup */
-     , (42847,   2,  150994947) /* MotionTable */
-     , (42847,   8,  100667499) /* Icon */;
+VALUES (42847,   1, 0x020001B3) /* Setup */
+     , (42847,   2, 0x09000003) /* MotionTable */
+     , (42847,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42847, 8040, 459135, 129.947, -86.357, -0.06299996, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42847, 8040, 0x0007017F, 129.947, -86.357, -0.063, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007017F [129.947000 -86.357000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */;

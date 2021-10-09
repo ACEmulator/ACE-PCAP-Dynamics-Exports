@@ -46,12 +46,12 @@ VALUES (37207,   1, 'Olthoi Alduressa Boots') /* Name */
      , (37207,  16, 'Olthoi Alduressa Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37207,   1,   33559344) /* Setup */
-     , (37207,   3,  536870932) /* SoundTable */
-     , (37207,   6,   67108990) /* PaletteBase */
-     , (37207,   8,  100686333) /* Icon */
-     , (37207,  22,  872415275) /* PhysicsEffectTable */
-     , (37207,  50,  100690146) /* IconOverlay */;
+VALUES (37207,   1, 0x02001330) /* Setup */
+     , (37207,   3, 0x20000014) /* SoundTable */
+     , (37207,   6, 0x0400007E) /* PaletteBase */
+     , (37207,   8, 0x060059FD) /* Icon */
+     , (37207,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37207,  50, 0x060068E2) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37207,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */

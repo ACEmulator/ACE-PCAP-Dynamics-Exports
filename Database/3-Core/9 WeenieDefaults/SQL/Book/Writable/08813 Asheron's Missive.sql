@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8813,   1, 'Asheron''s Missive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8813,   1,   33556929) /* Setup */
-     , (8813,   3,  536870932) /* SoundTable */
-     , (8813,   8,  100671237) /* Icon */
-     , (8813,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8813,   1, 0x020009C1) /* Setup */
+     , (8813,   3, 0x20000014) /* SoundTable */
+     , (8813,   8, 0x06001F05) /* Icon */
+     , (8813,  22, 0x3400002B) /* PhysicsEffectTable */;

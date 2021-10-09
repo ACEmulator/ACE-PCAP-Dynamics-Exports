@@ -26,12 +26,12 @@ VALUES (52295,   1, 'Sarcophagus') /* Name */
      , (52295,  15, 'A sarcophagus containing the bones of a recently deceased warrior.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52295,   1,   33558508) /* Setup */
-     , (52295,   2,  150995497) /* MotionTable */
-     , (52295,   3,  536870942) /* SoundTable */
-     , (52295,   8,  100669124) /* Icon */
-     , (52295,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52295,   1, 0x02000FEC) /* Setup */
+     , (52295,   2, 0x09000229) /* MotionTable */
+     , (52295,   3, 0x2000001E) /* SoundTable */
+     , (52295,   8, 0x060016C4) /* Icon */
+     , (52295,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52295, 8040, 1289945107, 57.6043, 64.5998, 60.0107, 0.6434762, 0, 0, -0.7654662) /* PCAPRecordedLocation */
+VALUES (52295, 8040, 0x4CE30013, 57.6043, 64.5998, 60.0107, 0.643476, 0, 0, -0.765466) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE30013 [57.604300 64.599800 60.010700] 0.643476 0.000000 0.000000 -0.765466 */;

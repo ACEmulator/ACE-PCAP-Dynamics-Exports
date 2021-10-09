@@ -23,7 +23,7 @@ VALUES (21334,   1, 'Scroll of Shock Arc V') /* Name */
 Shoots a shock wave at the target. The wave does 68-136 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21334,   1,   33554826) /* Setup */
-     , (21334,   8,  100677008) /* Icon */
-     , (21334,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21334,   1, 0x0200018A) /* Setup */
+     , (21334,   8, 0x06003590) /* Icon */
+     , (21334,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21334,  28,       2750) /* Spell - ShockArc5 */;

@@ -24,11 +24,11 @@ VALUES (30505,   1, 'Cove Apple Wine') /* Name */
      , (30505,  16, 'A bottle a fine apple wine. No corkscrew required!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30505,   1,   33554799) /* Setup */
-     , (30505,   3,  536871012) /* SoundTable */
-     , (30505,   8,  100668541) /* Icon */
-     , (30505,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30505,   1, 0x0200016F) /* Setup */
+     , (30505,   3, 0x20000064) /* SoundTable */
+     , (30505,   8, 0x0600147D) /* Icon */
+     , (30505,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30505, 8040, 22413597, 43.7201, -46.1175, -17.994, -0.7967164, 0, 0, 0.6043534) /* PCAPRecordedLocation */
+VALUES (30505, 8040, 0x0156011D, 43.7201, -46.1175, -17.994, -0.796716, 0, 0, 0.604353) /* PCAPRecordedLocation */
 /* @teleloc 0x0156011D [43.720100 -46.117500 -17.994000] -0.796716 0.000000 0.000000 0.604353 */;

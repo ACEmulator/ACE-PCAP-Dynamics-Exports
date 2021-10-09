@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32716,   1, 'Lo Raen''s List of Tasks') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32716,   1,   33554773) /* Setup */
-     , (32716,   3,  536870932) /* SoundTable */
-     , (32716,   8,  100667503) /* Icon */
-     , (32716,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32716,   1, 0x02000155) /* Setup */
+     , (32716,   3, 0x20000014) /* SoundTable */
+     , (32716,   8, 0x0600106F) /* Icon */
+     , (32716,  22, 0x3400002B) /* PhysicsEffectTable */;

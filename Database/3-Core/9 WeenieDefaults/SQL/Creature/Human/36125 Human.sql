@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36125,   1, 'Human') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36125,   1,   33554497) /* Setup */
-     , (36125,   2,  150994984) /* MotionTable */
-     , (36125,   3,  536870930) /* SoundTable */
-     , (36125,   8,  100667943) /* Icon */;
+VALUES (36125,   1, 0x02000041) /* Setup */
+     , (36125,   2, 0x09000028) /* MotionTable */
+     , (36125,   3, 0x20000012) /* SoundTable */
+     , (36125,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36125, 8040, 10682772, 234.819, -171.8133, -17.971, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (36125, 8040, 0x00A30194, 234.819, -171.8133, -17.971, 0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x00A30194 [234.819000 -171.813300 -17.971000] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -19,12 +19,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22789,   1, 'Bandit Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22789,   1,   33554751) /* Setup */
-     , (22789,   3,  536870932) /* SoundTable */
-     , (22789,   6,   67111919) /* PaletteBase */
-     , (22789,   8,  100668996) /* Icon */
-     , (22789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22789,   1, 0x0200013F) /* Setup */
+     , (22789,   3, 0x20000014) /* SoundTable */
+     , (22789,   6, 0x04000BEF) /* PaletteBase */
+     , (22789,   8, 0x06001644) /* Icon */
+     , (22789,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22789, 8040, 4102094857, 42.0288, 4.781512, 22.52135, 0.277479, 0.277479, -0.6503887, -0.6503887) /* PCAPRecordedLocation */
+VALUES (22789, 8040, 0xF4810009, 42.0288, 4.781512, 22.52135, 0.277479, 0.277479, -0.650389, -0.650389) /* PCAPRecordedLocation */
 /* @teleloc 0xF4810009 [42.028800 4.781512 22.521350] 0.277479 0.277479 -0.650389 -0.650389 */;

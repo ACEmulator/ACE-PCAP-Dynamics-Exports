@@ -14,7 +14,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37446,   1, 'Tiny Tainted Egg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37446,   1,   33554817) /* Setup */
-     , (37446,   3,  536870932) /* SoundTable */
-     , (37446,   8,  100689466) /* Icon */
-     , (37446,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37446,   1, 0x02000181) /* Setup */
+     , (37446,   3, 0x20000014) /* SoundTable */
+     , (37446,   8, 0x0600663A) /* Icon */
+     , (37446,  22, 0x3400002B) /* PhysicsEffectTable */;

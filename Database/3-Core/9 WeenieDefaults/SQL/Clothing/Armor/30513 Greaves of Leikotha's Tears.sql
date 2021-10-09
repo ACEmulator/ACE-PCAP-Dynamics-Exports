@@ -52,13 +52,13 @@ VALUES (30513,   1, 'Greaves of Leikotha''s Tears') /* Name */
      , (30513,  16, 'Can the undead cry? It is said that after Leikotha, the great warrior of Haebrous, was made undead by the Sand King Nerash, she wept for thirty days and thirty nights. Each tear shed fell onto her armor, infusing Leikotha''s essence into each piece.  Courage, honor, sorrow, wrath and... everlasting death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30513,   1,   33559429) /* Setup */
-     , (30513,   3,  536870932) /* SoundTable */
-     , (30513,   8,  100686868) /* Icon */
-     , (30513,  22,  872415275) /* PhysicsEffectTable */
-     , (30513,  52,  100686604) /* IconUnderlay */;
+VALUES (30513,   1, 0x02001385) /* Setup */
+     , (30513,   3, 0x20000014) /* SoundTable */
+     , (30513,   8, 0x06005C14) /* Icon */
+     , (30513,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30513,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30513,  4407,      2)  /* Impenetrability8 */
-     , (30513,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (30513,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+VALUES (30513,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (30513,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (30513,  4407,      2)  /* Impenetrability8 */;

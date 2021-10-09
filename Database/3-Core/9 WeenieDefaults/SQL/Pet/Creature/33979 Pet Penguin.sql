@@ -26,15 +26,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33979,   1, 'Pet Penguin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33979,   1,   33559122) /* Setup */
-     , (33979,   2,  150995323) /* MotionTable */
-     , (33979,   3,  536871098) /* SoundTable */
-     , (33979,   6,   67115388) /* PaletteBase */
-     , (33979,   8,  100677366) /* Icon */
-     , (33979,  22,  872415410) /* PhysicsEffectTable */;
+VALUES (33979,   1, 0x02001252) /* Setup */
+     , (33979,   2, 0x0900017B) /* MotionTable */
+     , (33979,   3, 0x200000BA) /* SoundTable */
+     , (33979,   6, 0x0400197C) /* PaletteBase */
+     , (33979,   8, 0x060036F6) /* Icon */
+     , (33979,  22, 0x340000B2) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33979, 8040, 19202318, 31.03617, -25.37896, 0.001607209, -0.3679096, 0, 0, -0.9298615) /* PCAPRecordedLocation */
+VALUES (33979, 8040, 0x0125010E, 31.03617, -25.37896, 0.001607, -0.36791, 0, 0, -0.929862) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [31.036170 -25.378960 0.001607] -0.367910 0.000000 0.000000 -0.929862 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

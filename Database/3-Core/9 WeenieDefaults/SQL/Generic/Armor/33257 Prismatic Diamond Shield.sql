@@ -45,19 +45,19 @@ VALUES (33257,   1, 'Prismatic Diamond Shield') /* Name */
      , (33257,  16, 'A shield made of diamond infused with the power of the Elements.  It is incredibly resilient, and seems to be nigh unbreakable. A soft glow surrounds the shield and storms can be seen waxing and waning within the crystal surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33257,   1,   33557043) /* Setup */
-     , (33257,   3,  536870932) /* SoundTable */
-     , (33257,   8,  100674092) /* Icon */
-     , (33257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33257,   1, 0x02000A33) /* Setup */
+     , (33257,   3, 0x20000014) /* SoundTable */
+     , (33257,   8, 0x06002A2C) /* Icon */
+     , (33257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33257,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33257, 8040, 2847146026, 143.3195, 42.46251, 93.926, 0.5097259, -0.144766, -0.8300763, -0.1737692) /* PCAPRecordedLocation */
+VALUES (33257, 8040, 0xA9B4002A, 143.3195, 42.46251, 93.926, 0.509726, -0.144766, -0.830076, -0.173769) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [143.319500 42.462510 93.926000] 0.509726 -0.144766 -0.830076 -0.173769 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33257,  2108,      2)  /* Impenetrability7 */
+VALUES (33257,  2245,      2)  /* InvulnerabilitySelf7 */
      , (33257,  2151,      2)  /* BladeProtectionSelf7 */
      , (33257,  2153,      2)  /* BludgeonProtectionSelf7 */
      , (33257,  2161,      2)  /* PiercingProtectionSelf7 */
-     , (33257,  2245,      2)  /* InvulnerabilitySelf7 */;
+     , (33257,  2108,      2)  /* Impenetrability7 */;

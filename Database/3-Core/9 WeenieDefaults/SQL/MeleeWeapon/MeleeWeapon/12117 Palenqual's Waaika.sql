@@ -40,11 +40,11 @@ VALUES (12117,   1, 'Palenqual''s Waaika') /* Name */
      , (12117,  15, 'A waaika fused to a triple totem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12117,   1,   33557235) /* Setup */
-     , (12117,   3,  536870932) /* SoundTable */
-     , (12117,   8,  100672033) /* Icon */
-     , (12117,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12117,   1, 0x02000AF3) /* Setup */
+     , (12117,   3, 0x20000014) /* SoundTable */
+     , (12117,   8, 0x06002221) /* Icon */
+     , (12117,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12117, 8040, 549322755, 11.396, 49.49924, 89.931, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (12117, 8040, 0x20BE0003, 11.396, 49.49924, 89.931, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x20BE0003 [11.396000 49.499240 89.931000] 0.707107 0.707107 0.000000 0.000000 */;

@@ -42,15 +42,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30863,   1, 'Banished Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30863,   1,   33559259) /* Setup */
-     , (30863,   3,  536870932) /* SoundTable */
-     , (30863,   8,  100677487) /* Icon */
-     , (30863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30863,   1, 0x020012DB) /* Setup */
+     , (30863,   3, 0x20000014) /* SoundTable */
+     , (30863,   8, 0x0600376F) /* Icon */
+     , (30863,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30863, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (30863, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30863,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30863,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */;
+VALUES (30863,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (30863,  1616,      2)  /* BloodDrinkerSelf6 */;

@@ -29,9 +29,9 @@ VALUES (32126,   1, 'Vissidal Island Portal Gem') /* Name */
      , (32126,  16, 'Use this gem to summon a short-lived portal to Vissidal Island. This gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32126,   1,   33556769) /* Setup */
-     , (32126,   3,  536870932) /* SoundTable */
-     , (32126,   6,   67111919) /* PaletteBase */
-     , (32126,   8,  100674857) /* Icon */
-     , (32126,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32126,   1, 0x02000921) /* Setup */
+     , (32126,   3, 0x20000014) /* SoundTable */
+     , (32126,   6, 0x04000BEF) /* PaletteBase */
+     , (32126,   8, 0x06002D29) /* Icon */
+     , (32126,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32126,  28,        157) /* Spell - SummonPortal1 */;

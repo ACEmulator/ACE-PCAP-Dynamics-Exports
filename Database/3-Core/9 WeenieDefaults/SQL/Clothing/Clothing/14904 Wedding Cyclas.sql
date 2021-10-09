@@ -31,8 +31,8 @@ VALUES (14904,   1, 'Wedding Cyclas') /* Name */
      , (14904,  16, 'A stylish skirted vest for the big day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14904,   1,   33554854) /* Setup */
-     , (14904,   3,  536870932) /* SoundTable */
-     , (14904,   6,   67108990) /* PaletteBase */
-     , (14904,   8,  100672730) /* Icon */
-     , (14904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14904,   1, 0x020001A6) /* Setup */
+     , (14904,   3, 0x20000014) /* SoundTable */
+     , (14904,   6, 0x0400007E) /* PaletteBase */
+     , (14904,   8, 0x060024DA) /* Icon */
+     , (14904,  22, 0x3400002B) /* PhysicsEffectTable */;

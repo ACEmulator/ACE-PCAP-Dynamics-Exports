@@ -25,7 +25,7 @@ VALUES (36518,   1, 'Colosseum Coin') /* Name */
      , (36518,  16, 'A golden coin imprinted with the mark of the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36518,   1,   33554802) /* Setup */
-     , (36518,   3,  536870932) /* SoundTable */
-     , (36518,   8,  100689380) /* Icon */
-     , (36518,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36518,   1, 0x02000172) /* Setup */
+     , (36518,   3, 0x20000014) /* SoundTable */
+     , (36518,   8, 0x060065E4) /* Icon */
+     , (36518,  22, 0x3400002B) /* PhysicsEffectTable */;

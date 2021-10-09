@@ -51,11 +51,11 @@ VALUES (354,   1, 'Takuba') /* Name */
      , (354,  16, 'Takuba of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (354,   1,   33554763) /* Setup */
-     , (354,   3,  536870932) /* SoundTable */
-     , (354,   6,   67111919) /* PaletteBase */
-     , (354,   8,  100669051) /* Icon */
-     , (354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (354,   1, 0x0200014B) /* Setup */
+     , (354,   3, 0x20000014) /* SoundTable */
+     , (354,   6, 0x04000BEF) /* PaletteBase */
+     , (354,   8, 0x0600167B) /* Icon */
+     , (354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (354,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

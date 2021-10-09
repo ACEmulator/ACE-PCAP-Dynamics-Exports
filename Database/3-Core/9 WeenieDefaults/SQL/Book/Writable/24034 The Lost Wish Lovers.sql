@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24034,   1, 'The Lost Wish Lovers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24034,   1,   33559084) /* Setup */
-     , (24034,   3,  536870932) /* SoundTable */
-     , (24034,   6,   67112626) /* PaletteBase */
-     , (24034,   8,  100668176) /* Icon */
-     , (24034,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24034,   1, 0x0200122C) /* Setup */
+     , (24034,   3, 0x20000014) /* SoundTable */
+     , (24034,   6, 0x04000EB2) /* PaletteBase */
+     , (24034,   8, 0x06001310) /* Icon */
+     , (24034,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24034, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

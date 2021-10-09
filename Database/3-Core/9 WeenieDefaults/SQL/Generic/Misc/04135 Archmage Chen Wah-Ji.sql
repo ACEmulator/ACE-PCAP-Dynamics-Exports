@@ -18,9 +18,9 @@ VALUES (4135,   1, 'Archmage Chen Wah-Ji') /* Name */
      , (4135,  16, 'Chen Wah-Ji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4135,   1,   33555594) /* Setup */
-     , (4135,   8,  100668115) /* Icon */;
+VALUES (4135,   1, 0x0200048A) /* Setup */
+     , (4135,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4135, 8040, 3663003658, 41.6209, 40.6596, 21.9665, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4135, 8040, 0xDA55000A, 41.6209, 40.6596, 21.9665, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55000A [41.620900 40.659600 21.966500] -0.707107 0.000000 0.000000 -0.707107 */;

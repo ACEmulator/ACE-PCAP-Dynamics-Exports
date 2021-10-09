@@ -31,11 +31,11 @@ VALUES (45990,   1, 'Explorer Heavy Weapons Gem') /* Name */
      , (45990,  14, 'Use this gem on an Explorer Weapon Cast to create a Heavy Weapon.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45990,   1,   33559841) /* Setup */
-     , (45990,   3,  536870932) /* SoundTable */
-     , (45990,   8,  100672510) /* Icon */
-     , (45990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45990,   1, 0x02001521) /* Setup */
+     , (45990,   3, 0x20000014) /* SoundTable */
+     , (45990,   8, 0x060023FE) /* Icon */
+     , (45990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45990, 8040, 2474574081, 152.567, 81.5712, 34.3603, -0.160934, 0, 0, -0.986965) /* PCAPRecordedLocation */
+VALUES (45990, 8040, 0x937F0101, 152.567, 81.5712, 34.3603, -0.160934, 0, 0, -0.986965) /* PCAPRecordedLocation */
 /* @teleloc 0x937F0101 [152.567000 81.571200 34.360300] -0.160934 0.000000 0.000000 -0.986965 */;

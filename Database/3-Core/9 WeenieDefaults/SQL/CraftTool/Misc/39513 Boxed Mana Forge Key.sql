@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39513,   1, 'Boxed Mana Forge Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39513,   1,   33558433) /* Setup */
-     , (39513,   3,  536870945) /* SoundTable */
-     , (39513,   8,  100674799) /* Icon */
-     , (39513,  22,  872415275) /* PhysicsEffectTable */
-     , (39513,  50,  100686710) /* IconOverlay */;
+VALUES (39513,   1, 0x02000FA1) /* Setup */
+     , (39513,   3, 0x20000021) /* SoundTable */
+     , (39513,   8, 0x06002CEF) /* Icon */
+     , (39513,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39513,  50, 0x06005B76) /* IconOverlay */;

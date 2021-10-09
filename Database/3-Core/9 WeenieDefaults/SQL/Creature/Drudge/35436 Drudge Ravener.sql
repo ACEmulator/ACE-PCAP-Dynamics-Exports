@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35436,   1, 'Drudge Ravener') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35436,   1,   33556445) /* Setup */
-     , (35436,   2,  150994952) /* MotionTable */
-     , (35436,   3,  536870919) /* SoundTable */
-     , (35436,   6,   67112812) /* PaletteBase */
-     , (35436,   8,  100667445) /* Icon */
-     , (35436,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (35436,   1, 0x020007DD) /* Setup */
+     , (35436,   2, 0x09000008) /* MotionTable */
+     , (35436,   3, 0x20000007) /* SoundTable */
+     , (35436,   6, 0x04000F6C) /* PaletteBase */
+     , (35436,   8, 0x06001035) /* Icon */
+     , (35436,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35436, 8040, 3164405820, 171.0662, 91.21664, 1.10455, -0.8058286, 0, 0, -0.5921488) /* PCAPRecordedLocation */
+VALUES (35436, 8040, 0xBC9D003C, 171.0662, 91.21664, 1.10455, -0.805829, 0, 0, -0.592149) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9D003C [171.066200 91.216640 1.104550] -0.805829 0.000000 0.000000 -0.592149 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

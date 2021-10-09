@@ -35,10 +35,10 @@ VALUES (49256,   1, 'Frost Zombie Essence (100)') /* Name */
      , (49256,  14, 'Use this essence to summon or dismiss your Frost Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49256,   1,   33554817) /* Setup */
-     , (49256,   3,  536870932) /* SoundTable */
-     , (49256,   6,   67111919) /* PaletteBase */
-     , (49256,   8,  100667942) /* Icon */
-     , (49256,  22,  872415275) /* PhysicsEffectTable */
-     , (49256,  50,  100693028) /* IconOverlay */
-     , (49256,  52,  100693024) /* IconUnderlay */;
+VALUES (49256,   1, 0x02000181) /* Setup */
+     , (49256,   3, 0x20000014) /* SoundTable */
+     , (49256,   6, 0x04000BEF) /* PaletteBase */
+     , (49256,   8, 0x06001226) /* Icon */
+     , (49256,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49256,  50, 0x06007424) /* IconOverlay */
+     , (49256,  52, 0x06007420) /* IconUnderlay */;

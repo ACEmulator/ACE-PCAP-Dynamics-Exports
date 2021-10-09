@@ -19,9 +19,9 @@ VALUES (41746,   1, 'Glyph of Item Tinkering') /* Name */
      , (41746,  20, 'Glyphs of Item Tinkering') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41746,   1,   33554809) /* Setup */
-     , (41746,   3,  536870932) /* SoundTable */
-     , (41746,   6,   67111919) /* PaletteBase */
-     , (41746,   8,  100690191) /* Icon */
-     , (41746,  22,  872415275) /* PhysicsEffectTable */
-     , (41746,  50,  100690692) /* IconOverlay */;
+VALUES (41746,   1, 0x02000179) /* Setup */
+     , (41746,   3, 0x20000014) /* SoundTable */
+     , (41746,   6, 0x04000BEF) /* PaletteBase */
+     , (41746,   8, 0x0600690F) /* Icon */
+     , (41746,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41746,  50, 0x06006B04) /* IconOverlay */;

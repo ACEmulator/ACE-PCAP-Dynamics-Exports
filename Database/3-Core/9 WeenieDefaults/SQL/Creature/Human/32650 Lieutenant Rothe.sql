@@ -30,20 +30,20 @@ VALUES (32650,   1, 'Lieutenant Rothe') /* Name */
      , (32650,   5, 'Royal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32650,   1,   33554433) /* Setup */
-     , (32650,   2,  150994945) /* MotionTable */
-     , (32650,   3,  536870913) /* SoundTable */
-     , (32650,   6,   67108990) /* PaletteBase */
-     , (32650,   8,  100667446) /* Icon */
-     , (32650,   9,   83890481) /* EyesTexture */
-     , (32650,  10,   83890559) /* NoseTexture */
-     , (32650,  11,   83890651) /* MouthTexture */
-     , (32650,  15,   67117072) /* HairPalette */
-     , (32650,  16,   67109566) /* EyesPalette */
-     , (32650,  17,   67109562) /* SkinPalette */;
+VALUES (32650,   1, 0x02000001) /* Setup */
+     , (32650,   2, 0x09000001) /* MotionTable */
+     , (32650,   3, 0x20000001) /* SoundTable */
+     , (32650,   6, 0x0400007E) /* PaletteBase */
+     , (32650,   8, 0x06001036) /* Icon */
+     , (32650,   9, 0x05001131) /* EyesTexture */
+     , (32650,  10, 0x0500117F) /* NoseTexture */
+     , (32650,  11, 0x050011DB) /* MouthTexture */
+     , (32650,  15, 0x04002010) /* HairPalette */
+     , (32650,  16, 0x040002BE) /* EyesPalette */
+     , (32650,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32650, 8040, 3665100850, 157.207, 32.6797, 18.005, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (32650, 8040, 0xDA750032, 157.207, 32.6797, 18.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDA750032 [157.207000 32.679700 18.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -21,7 +21,7 @@ VALUES (45982,   1, 'Seasoned Explorer Axe Cast') /* Name */
      , (45982,  16, 'The cast of a axe which can be transformed into a Heavy, Finesse or Light weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45982,   1,   33554769) /* Setup */
-     , (45982,   3,  536870932) /* SoundTable */
-     , (45982,   8,  100668985) /* Icon */
-     , (45982,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45982,   1, 0x02000151) /* Setup */
+     , (45982,   3, 0x20000014) /* SoundTable */
+     , (45982,   8, 0x06001639) /* Icon */
+     , (45982,  22, 0x3400002B) /* PhysicsEffectTable */;

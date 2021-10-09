@@ -48,18 +48,18 @@ VALUES (43814,   1, 'Delicate Bloodstone Wand') /* Name */
      , (43814,  16, 'A wand, crafted from the delicate remains of the shattered Master Bloodstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43814,   1,   33561162) /* Setup */
-     , (43814,   3,  536870932) /* SoundTable */
-     , (43814,   6,   67111919) /* PaletteBase */
-     , (43814,   8,  100672995) /* Icon */
-     , (43814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43814,   1, 0x02001A4A) /* Setup */
+     , (43814,   3, 0x20000014) /* SoundTable */
+     , (43814,   6, 0x04000BEF) /* PaletteBase */
+     , (43814,   8, 0x060025E3) /* Icon */
+     , (43814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43814,  28,       5531) /* Spell - BloodstoneBolt7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43814, 8040, 2062024706, 5.386024, 36.11996, 119.93, -0.2398696, -0.2398696, -0.6651786, -0.6651786) /* PCAPRecordedLocation */
+VALUES (43814, 8040, 0x7AE80002, 5.386024, 36.11996, 119.93, -0.23987, -0.23987, -0.665179, -0.665179) /* PCAPRecordedLocation */
 /* @teleloc 0x7AE80002 [5.386024 36.119960 119.930000] -0.239870 -0.239870 -0.665179 -0.665179 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43814,  4400,      2)  /* DefenderSelf8 */
-     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */;
+VALUES (43814,  4582,      2)  /* LifeMagicMasterySelf8 */
+     , (43814,  4400,      2)  /* DefenderSelf8 */
+     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */;

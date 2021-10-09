@@ -23,7 +23,7 @@ VALUES (38245,   1, 'Eye of T''thuun') /* Name */
      , (38245,  16, 'He is always watching. He knows the great secrets of the world and he whispers them to his servants.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38245,   1,   33554817) /* Setup */
-     , (38245,   3,  536870932) /* SoundTable */
-     , (38245,   8,  100687775) /* Icon */
-     , (38245,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38245,   1, 0x02000181) /* Setup */
+     , (38245,   3, 0x20000014) /* SoundTable */
+     , (38245,   8, 0x06005F9F) /* Icon */
+     , (38245,  22, 0x3400002B) /* PhysicsEffectTable */;

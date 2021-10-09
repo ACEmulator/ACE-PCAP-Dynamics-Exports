@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20936,   1, 'Perfect Shimmering Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20936,   1,   33557746) /* Setup */
-     , (20936,   3,  536870932) /* SoundTable */
-     , (20936,   8,  100673206) /* Icon */
-     , (20936,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20936,   1, 0x02000CF2) /* Setup */
+     , (20936,   3, 0x20000014) /* SoundTable */
+     , (20936,   8, 0x060026B6) /* Icon */
+     , (20936,  22, 0x3400002B) /* PhysicsEffectTable */;

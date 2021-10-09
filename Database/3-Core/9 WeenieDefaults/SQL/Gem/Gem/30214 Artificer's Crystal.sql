@@ -33,11 +33,11 @@ VALUES (30214,   1, 'Artificer''s Crystal') /* Name */
      , (30214,  20, 'Artificer''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30214,   1,   33554809) /* Setup */
-     , (30214,   3,  536870932) /* SoundTable */
-     , (30214,   6,   67111919) /* PaletteBase */
-     , (30214,   8,  100686697) /* Icon */
-     , (30214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30214,   1, 0x02000179) /* Setup */
+     , (30214,   3, 0x20000014) /* SoundTable */
+     , (30214,   6, 0x04000BEF) /* PaletteBase */
+     , (30214,   8, 0x06005B69) /* Icon */
+     , (30214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30214,  28,       3713) /* Spell - ItemEnchantmentMasteryRare */
-     , (30214,  50,  100686660) /* IconOverlay */
-     , (30214,  52,  100686604) /* IconUnderlay */;
+     , (30214,  50, 0x06005B44) /* IconOverlay */
+     , (30214,  52, 0x06005B0C) /* IconUnderlay */;

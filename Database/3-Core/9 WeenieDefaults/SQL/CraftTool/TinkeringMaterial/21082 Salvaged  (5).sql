@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21082,   1, 'Salvaged  (5)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21082,   1,   33554817) /* Setup */
-     , (21082,   3,  536870932) /* SoundTable */
-     , (21082,   6,   67111919) /* PaletteBase */
-     , (21082,   8,  100673216) /* Icon */
-     , (21082,  22,  872415275) /* PhysicsEffectTable */
-     , (21082,  50,  100673306) /* IconOverlay */;
+VALUES (21082,   1, 0x02000181) /* Setup */
+     , (21082,   3, 0x20000014) /* SoundTable */
+     , (21082,   6, 0x04000BEF) /* PaletteBase */
+     , (21082,   8, 0x060026C0) /* Icon */
+     , (21082,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21082,  50, 0x0600271A) /* IconOverlay */;

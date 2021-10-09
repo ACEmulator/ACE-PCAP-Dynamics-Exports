@@ -20,13 +20,13 @@ VALUES (25680,   1, 'Jaeget''s Journal') /* Name */
      , (25680,  16, 'A poorly composed journal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25680,   1,   33554771) /* Setup */
-     , (25680,   3,  536870932) /* SoundTable */
-     , (25680,   8,  100675476) /* Icon */
-     , (25680,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25680,   1, 0x02000153) /* Setup */
+     , (25680,   3, 0x20000014) /* SoundTable */
+     , (25680,   8, 0x06002F94) /* Icon */
+     , (25680,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25680, 8040, 1665663744, 97.1546, -56.5873, 0.057, 0.954724, 0, 0, 0.297493) /* PCAPRecordedLocation */
+VALUES (25680, 8040, 0x63480300, 97.1546, -56.5873, 0.057, 0.954724, 0, 0, 0.297493) /* PCAPRecordedLocation */
 /* @teleloc 0x63480300 [97.154600 -56.587300 0.057000] 0.954724 0.000000 0.000000 0.297493 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

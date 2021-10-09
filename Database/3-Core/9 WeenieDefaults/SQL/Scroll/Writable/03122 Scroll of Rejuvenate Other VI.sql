@@ -23,7 +23,7 @@ VALUES (3122,   1, 'Scroll of Rejuvenate Other VI') /* Name */
 Increases the rate at which the target regains Stamina by 85%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3122,   1,   33554826) /* Setup */
-     , (3122,   8,  100676940) /* Icon */
-     , (3122,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3122,   1, 0x0200018A) /* Setup */
+     , (3122,   8, 0x0600354C) /* Icon */
+     , (3122,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3122,  28,        188) /* Spell - RejuvenationOther6 */;

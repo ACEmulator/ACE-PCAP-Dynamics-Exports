@@ -50,20 +50,20 @@ VALUES (29244,   1, 'Slashing Bow') /* Name */
      , (29244,  16, 'Slashing Bow of Dirty Fighting') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29244,   1,   33559028) /* Setup */
-     , (29244,   3,  536870932) /* SoundTable */
-     , (29244,   6,   67115373) /* PaletteBase */
-     , (29244,   8,  100677123) /* Icon */
-     , (29244,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29244,   1, 0x020011F4) /* Setup */
+     , (29244,   3, 0x20000014) /* SoundTable */
+     , (29244,   6, 0x0400196D) /* PaletteBase */
+     , (29244,   8, 0x06003603) /* Icon */
+     , (29244,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29244,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29244,  52,  100676444) /* IconUnderlay */;
+     , (29244,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29244, 8040, 459077, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (29244, 8040, 0x00070145, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29244,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29244,  2101,      2)  /* DefenderSelf7 */
+VALUES (29244,  5786,      2)  /* DirtyFightingMasterySelf8 */
      , (29244,  2596,      2)  /* CANTRIPSWIFTHUNTER2 */
-     , (29244,  5786,      2)  /* DirtyFightingMasterySelf8 */;
+     , (29244,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29244,  2101,      2)  /* DefenderSelf7 */;

@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41728,   1, 'Sword Stamped Silveran Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41728,   1,   33556223) /* Setup */
-     , (41728,   3,  536870932) /* SoundTable */
-     , (41728,   6,   67111928) /* PaletteBase */
-     , (41728,   8,  100689897) /* Icon */
-     , (41728,  22,  872415275) /* PhysicsEffectTable */
-     , (41728,  50,  100673783) /* IconOverlay */
-     , (41728,  52,  100689404) /* IconUnderlay */
+VALUES (41728,   1, 0x020006FF) /* Setup */
+     , (41728,   3, 0x20000014) /* SoundTable */
+     , (41728,   6, 0x04000BF8) /* PaletteBase */
+     , (41728,   8, 0x060067E9) /* Icon */
+     , (41728,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41728,  50, 0x060028F7) /* IconOverlay */
+     , (41728,  52, 0x060065FC) /* IconUnderlay */
      , (41728, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

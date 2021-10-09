@@ -27,7 +27,7 @@ VALUES (41817,   1, 'Hive Splinter') /* Name */
      , (41817,  20, 'Hive Splinters') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41817,   1,   33558873) /* Setup */
-     , (41817,   3,  536870932) /* SoundTable */
-     , (41817,   8,  100676989) /* Icon */
-     , (41817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41817,   1, 0x02001159) /* Setup */
+     , (41817,   3, 0x20000014) /* SoundTable */
+     , (41817,   8, 0x0600357D) /* Icon */
+     , (41817,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4876,   1, 'Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4876,   1,   33554638) /* Setup */
-     , (4876,   2,  150994980) /* MotionTable */
-     , (4876,   3,  536870949) /* SoundTable */
-     , (4876,   8,  100668103) /* Icon */
-     , (4876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4876,   1, 0x020000CE) /* Setup */
+     , (4876,   2, 0x09000024) /* MotionTable */
+     , (4876,   3, 0x20000025) /* SoundTable */
+     , (4876,   8, 0x060012C7) /* Icon */
+     , (4876,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4876, 8040, 32702799, 65.7477, 3.43537, 0, -0.7362958, 0, 0, -0.6766598) /* PCAPRecordedLocation */
+VALUES (4876, 8040, 0x01F3014F, 65.7477, 3.43537, 0, -0.736296, 0, 0, -0.67666) /* PCAPRecordedLocation */
 /* @teleloc 0x01F3014F [65.747700 3.435370 0.000000] -0.736296 0.000000 0.000000 -0.676660 */;

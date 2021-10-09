@@ -23,7 +23,7 @@ VALUES (46447,   1, 'Ancient Skull and Bones') /* Name */
      , (46447,  16, 'An ancient skull taken from the Venerable Mausoleum. You have attached two arm bones into the grooves inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46447,   1,   33556825) /* Setup */
-     , (46447,   3,  536870932) /* SoundTable */
-     , (46447,   8,  100692866) /* Icon */
-     , (46447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46447,   1, 0x02000959) /* Setup */
+     , (46447,   3, 0x20000014) /* SoundTable */
+     , (46447,   8, 0x06007382) /* Icon */
+     , (46447,  22, 0x3400002B) /* PhysicsEffectTable */;

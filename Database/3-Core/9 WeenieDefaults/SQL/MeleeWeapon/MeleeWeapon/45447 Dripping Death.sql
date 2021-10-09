@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45447,   1, 'Dripping Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45447,   1,   33559377) /* Setup */
-     , (45447,   3,  536870932) /* SoundTable */
-     , (45447,   6,   67111919) /* PaletteBase */
-     , (45447,   8,  100686737) /* Icon */
-     , (45447,  22,  872415275) /* PhysicsEffectTable */
-     , (45447,  52,  100686604) /* IconUnderlay */;
+VALUES (45447,   1, 0x02001351) /* Setup */
+     , (45447,   3, 0x20000014) /* SoundTable */
+     , (45447,   6, 0x04000BEF) /* PaletteBase */
+     , (45447,   8, 0x06005B91) /* Icon */
+     , (45447,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45447,  52, 0x06005B0C) /* IconUnderlay */;

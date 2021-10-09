@@ -26,12 +26,12 @@ VALUES (27963,   1, 'Pillar') /* Name */
      , (27963,  15, 'An ancient pillar with a setting for a square shaped plate.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27963,   1,   33558762) /* Setup */
-     , (27963,   2,  150995299) /* MotionTable */
-     , (27963,   3,  536871052) /* SoundTable */
-     , (27963,   8,  100676565) /* Icon */
-     , (27963,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27963,   1, 0x020010EA) /* Setup */
+     , (27963,   2, 0x09000163) /* MotionTable */
+     , (27963,   3, 0x2000008C) /* SoundTable */
+     , (27963,   8, 0x060033D5) /* Icon */
+     , (27963,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27963, 8040, 708772106, 108, 27, -12, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (27963, 8040, 0x2A3F010A, 108, 27, -12, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x2A3F010A [108.000000 27.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */;

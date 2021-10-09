@@ -27,9 +27,9 @@ VALUES (45498,   1, 'Spectral Force Gem') /* Name */
      , (45498,  16, 'A magical gem containing a Spectral Force Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45498,   1,   33556769) /* Setup */
-     , (45498,   3,  536870932) /* SoundTable */
-     , (45498,   6,   67111919) /* PaletteBase */
-     , (45498,   8,  100673039) /* Icon */
-     , (45498,  22,  872415275) /* PhysicsEffectTable */
-     , (45498,  50,  100689501) /* IconOverlay */;
+VALUES (45498,   1, 0x02000921) /* Setup */
+     , (45498,   3, 0x20000014) /* SoundTable */
+     , (45498,   6, 0x04000BEF) /* PaletteBase */
+     , (45498,   8, 0x0600260F) /* Icon */
+     , (45498,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45498,  50, 0x0600665D) /* IconOverlay */;

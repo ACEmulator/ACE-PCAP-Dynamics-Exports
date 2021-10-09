@@ -55,7 +55,7 @@ VALUES (0x71C14007, 30680, 0x1C14001F, 94.6117, 163.753, 2.59669, -0.906882, 0, 
 /* @teleloc 0x1C14001F [94.611700 163.753000 2.596690] -0.906882 0.000000 0.000000 0.421384 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14008, 35832, 0x1C14000F, 33.0822, 147.476, 2.477183, -0.9262059, 0, 0, 0.377018,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
+VALUES (0x71C14008, 35832, 0x1C14000F, 33.0822, 147.476, 2.477183, -0.926206, 0, 0, 0.377018,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
 /* @teleloc 0x1C14000F [33.082200 147.476000 2.477183] -0.926206 0.000000 0.000000 0.377018 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -83,7 +83,7 @@ VALUES (0x71C1400E, 35835, 0x1C140015, 71.1615, 117.796, 12.32992, 0.941617, 0, 
 /* @teleloc 0x1C140015 [71.161500 117.796000 12.329920] 0.941617 0.000000 0.000000 -0.336686 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C1400F, 39749, 0x1C140021, 97.3754, 22.4281, 56, 0.9539734, 0, 0, 0.2998911,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
+VALUES (0x71C1400F, 39749, 0x1C140021, 97.3754, 22.4281, 56, 0.953973, 0, 0, 0.299891,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
 /* @teleloc 0x1C140021 [97.375400 22.428100 56.000000] 0.953973 0.000000 0.000000 0.299891 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -95,44 +95,44 @@ VALUES (0x71C14011, 35835, 0x1C140032, 149.859, 25.7992, 55.5567, -0.99992, 0, 0
 /* @teleloc 0x1C140032 [149.859000 25.799200 55.556700] -0.999920 0.000000 0.000000 -0.012651 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14012, 35835, 0x1C140031, 156.315, 23.6322, 56.0065, -0.9936616, 0, 0, -0.112413,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+VALUES (0x71C14012, 35835, 0x1C140031, 156.315, 23.6322, 56.0065, -0.993662, 0, 0, -0.112413,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
 /* @teleloc 0x1C140031 [156.315000 23.632200 56.006500] -0.993662 0.000000 0.000000 -0.112413 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14013, 35835, 0x1C140031, 144.817, 22.7763, 56.0065, -0.9986203, 0, 0, -0.05251262,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+VALUES (0x71C14013, 35835, 0x1C140031, 144.817, 22.7763, 56.0065, -0.99862, 0, 0, -0.052513,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
 /* @teleloc 0x1C140031 [144.817000 22.776300 56.006500] -0.998620 0.000000 0.000000 -0.052513 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14014, 35835, 0x1C140031, 151.184, 22.8708, 56.0065, -0.9986203, 0, 0, -0.05251281,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+VALUES (0x71C14014, 35835, 0x1C140031, 151.184, 22.8708, 56.0065, -0.99862, 0, 0, -0.052513,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
 /* @teleloc 0x1C140031 [151.184000 22.870800 56.006500] -0.998620 0.000000 0.000000 -0.052513 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14015, 30687, 0x1C140039, 176.7734, 10.53757, 56.0065, -0.9820309, 0, 0, -0.18872,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+VALUES (0x71C14015, 30687, 0x1C140039, 176.7734, 10.53757, 56.0065, -0.982031, 0, 0, -0.18872,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
 /* @teleloc 0x1C140039 [176.773400 10.537570 56.006500] -0.982031 0.000000 0.000000 -0.188720 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14016, 35831, 0x1C14003E, 173.5762, 143.7659, 12.72289, 0.4129354, 0, 0, -0.9107603,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71C14016, 35831, 0x1C14003E, 173.5762, 143.7659, 12.72289, 0.412935, 0, 0, -0.91076,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1C14003E [173.576200 143.765900 12.722890] 0.412935 0.000000 0.000000 -0.910760 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14017, 35831, 0x1C140036, 158.848, 143.8069, 10.4953, 0.2127991, 0, 0, -0.977096,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71C14017, 35831, 0x1C140036, 158.848, 143.8069, 10.4953, 0.212799, 0, 0, -0.977096,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1C140036 [158.848000 143.806900 10.495300] 0.212799 0.000000 0.000000 -0.977096 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14018, 35831, 0x1C140036, 166.4456, 143.9794, 11.7472, 0.1872712, 0, 0, -0.9823083,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71C14018, 35831, 0x1C140036, 166.4456, 143.9794, 11.7472, 0.187271, 0, 0, -0.982308,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1C140036 [166.445600 143.979400 11.747200] 0.187271 0.000000 0.000000 -0.982308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C14019, 35832, 0x1C14003F, 183.0105, 167.4211, 8.60823, 0.08534843, 0, 0, -0.9963512,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
+VALUES (0x71C14019, 35832, 0x1C14003F, 183.0105, 167.4211, 8.60823, 0.085348, 0, 0, -0.996351,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
 /* @teleloc 0x1C14003F [183.010500 167.421100 8.608230] 0.085348 0.000000 0.000000 -0.996351 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C1401A,  1542, 0x1C140021, 99.63732, 23.74966, 55.937, 0.867315, 0, 0, -0.4977597, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71C1401A,  1542, 0x1C140021, 99.63732, 23.74966, 55.937, 0.867315, 0, 0, -0.49776, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x1C140021 [99.637320 23.749660 55.937000] 0.867315 0.000000 0.000000 -0.497760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x71C1401A, 0x71C1401B, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C1401B,  1955, 0x1C140021, 99.63732, 23.74966, 55.937, 0.867315, 0, 0, -0.4977597,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x71C1401B,  1955, 0x1C140021, 99.63732, 23.74966, 55.937, 0.867315, 0, 0, -0.49776,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x1C140021 [99.637320 23.749660 55.937000] 0.867315 0.000000 0.000000 -0.497760 */

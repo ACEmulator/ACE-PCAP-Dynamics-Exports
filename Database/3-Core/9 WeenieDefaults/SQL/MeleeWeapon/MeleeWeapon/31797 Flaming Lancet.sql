@@ -51,13 +51,13 @@ VALUES (31797,   1, 'Flaming Lancet') /* Name */
      , (31797,  16, 'Flaming Lancet of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31797,   1,   33559660) /* Setup */
-     , (31797,   3,  536870932) /* SoundTable */
-     , (31797,   6,   67116700) /* PaletteBase */
-     , (31797,   8,  100688066) /* Icon */
-     , (31797,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31797,   1, 0x0200146C) /* Setup */
+     , (31797,   3, 0x20000014) /* SoundTable */
+     , (31797,   6, 0x04001E9C) /* PaletteBase */
+     , (31797,   8, 0x060060C2) /* Icon */
+     , (31797,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31797,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31797,  1591,      2)  /* HeartSeekerSelf5 */
-     , (31797,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (31797,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (31797,  1591,      2)  /* HeartSeekerSelf5 */;

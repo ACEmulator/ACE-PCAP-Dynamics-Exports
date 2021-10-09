@@ -29,8 +29,8 @@ VALUES (29372,   1, 'Royal Blood') /* Name */
      , (29372,  16, 'A vial of Viamontian royal blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29372,   1,   33554817) /* Setup */
-     , (29372,   3,  536870932) /* SoundTable */
-     , (29372,   6,   67111919) /* PaletteBase */
-     , (29372,   8,  100686488) /* Icon */
-     , (29372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29372,   1, 0x02000181) /* Setup */
+     , (29372,   3, 0x20000014) /* SoundTable */
+     , (29372,   6, 0x04000BEF) /* PaletteBase */
+     , (29372,   8, 0x06005A98) /* Icon */
+     , (29372,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36629,   1, 'Spectral Shield Armor Augmentation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36629,   1,   33556223) /* Setup */
-     , (36629,   3,  536870932) /* SoundTable */
-     , (36629,   6,   67111928) /* PaletteBase */
-     , (36629,   8,  100686475) /* Icon */
-     , (36629,  22,  872415275) /* PhysicsEffectTable */
-     , (36629,  50,  100686654) /* IconOverlay */
+VALUES (36629,   1, 0x020006FF) /* Setup */
+     , (36629,   3, 0x20000014) /* SoundTable */
+     , (36629,   6, 0x04000BF8) /* PaletteBase */
+     , (36629,   8, 0x06005A8B) /* Icon */
+     , (36629,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36629,  50, 0x06005B3E) /* IconOverlay */
      , (36629, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

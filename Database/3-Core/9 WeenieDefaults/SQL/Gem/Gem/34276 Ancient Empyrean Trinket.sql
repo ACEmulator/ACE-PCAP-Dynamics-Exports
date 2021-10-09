@@ -23,8 +23,8 @@ VALUES (34276,   1, 'Ancient Empyrean Trinket') /* Name */
      , (34276,  16, 'A pyreal ball. Thin etchings on its surface glow in soothing patterns.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34276,   1,   33554669) /* Setup */
-     , (34276,   3,  536870932) /* SoundTable */
-     , (34276,   6,   67111928) /* PaletteBase */
-     , (34276,   8,  100689281) /* Icon */
-     , (34276,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34276,   1, 0x020000ED) /* Setup */
+     , (34276,   3, 0x20000014) /* SoundTable */
+     , (34276,   6, 0x04000BF8) /* PaletteBase */
+     , (34276,   8, 0x06006581) /* Icon */
+     , (34276,  22, 0x3400002B) /* PhysicsEffectTable */;

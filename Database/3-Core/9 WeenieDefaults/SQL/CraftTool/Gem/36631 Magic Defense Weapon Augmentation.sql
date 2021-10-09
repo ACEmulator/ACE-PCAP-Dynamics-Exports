@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36631,   1, 'Magic Defense Weapon Augmentation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36631,   1,   33554809) /* Setup */
-     , (36631,   3,  536870932) /* SoundTable */
-     , (36631,   6,   67111919) /* PaletteBase */
-     , (36631,   8,  100686475) /* Icon */
-     , (36631,  22,  872415275) /* PhysicsEffectTable */
-     , (36631,  50,  100686671) /* IconOverlay */;
+VALUES (36631,   1, 0x02000179) /* Setup */
+     , (36631,   3, 0x20000014) /* SoundTable */
+     , (36631,   6, 0x04000BEF) /* PaletteBase */
+     , (36631,   8, 0x06005A8B) /* Icon */
+     , (36631,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36631,  50, 0x06005B4F) /* IconOverlay */;

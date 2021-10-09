@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29778,   1, 'Balmy Font') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29778,   1,   33556642) /* Setup */
-     , (29778,   8,  100667499) /* Icon */;
+VALUES (29778,   1, 0x020008A2) /* Setup */
+     , (29778,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29778, 8040, 4010606861, 109.588, 10.5422, 108.31, 0.426181, 0, 0, -0.9046379) /* PCAPRecordedLocation */
+VALUES (29778, 8040, 0xEF0D010D, 109.588, 10.5422, 108.31, 0.426181, 0, 0, -0.904638) /* PCAPRecordedLocation */
 /* @teleloc 0xEF0D010D [109.588000 10.542200 108.310000] 0.426181 0.000000 0.000000 -0.904638 */;

@@ -33,10 +33,10 @@ VALUES (30202,   1, 'Ursuin''s Pearl') /* Name */
      , (30202,  20, 'Ursuin''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30202,   1,   33554809) /* Setup */
-     , (30202,   3,  536870932) /* SoundTable */
-     , (30202,   8,  100686698) /* Icon */
-     , (30202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30202,   1, 0x02000179) /* Setup */
+     , (30202,   3, 0x20000014) /* SoundTable */
+     , (30202,   8, 0x06005B6A) /* Icon */
+     , (30202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30202,  28,       3700) /* Spell - EnduranceRare */
-     , (30202,  50,  100686648) /* IconOverlay */
-     , (30202,  52,  100686604) /* IconUnderlay */;
+     , (30202,  50, 0x06005B38) /* IconOverlay */
+     , (30202,  52, 0x06005B0C) /* IconUnderlay */;

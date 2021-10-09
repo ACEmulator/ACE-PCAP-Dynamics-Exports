@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5703,   1, 'Ken-Gou and the Curse of Attachment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5703,   1,   33556013) /* Setup */
-     , (5703,   3,  536870932) /* SoundTable */
-     , (5703,   8,  100668236) /* Icon */
-     , (5703,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5703,   1, 0x0200062D) /* Setup */
+     , (5703,   3, 0x20000014) /* SoundTable */
+     , (5703,   8, 0x0600134C) /* Icon */
+     , (5703,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5703, 8040, 3847094548, 78.0157, 86.9833, 12, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (5703, 8040, 0xE54E0114, 78.0157, 86.9833, 12, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E0114 [78.015700 86.983300 12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

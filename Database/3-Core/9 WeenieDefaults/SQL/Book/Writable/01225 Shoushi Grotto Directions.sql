@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1225,   1, 'Shoushi Grotto Directions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1225,   1,   33559084) /* Setup */
-     , (1225,   3,  536870932) /* SoundTable */
-     , (1225,   6,   67112626) /* PaletteBase */
-     , (1225,   8,  100675770) /* Icon */
-     , (1225,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1225,   1, 0x0200122C) /* Setup */
+     , (1225,   3, 0x20000014) /* SoundTable */
+     , (1225,   6, 0x04000EB2) /* PaletteBase */
+     , (1225,   8, 0x060030BA) /* Icon */
+     , (1225,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1225, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

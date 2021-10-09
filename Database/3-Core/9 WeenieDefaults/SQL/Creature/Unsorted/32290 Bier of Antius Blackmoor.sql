@@ -27,12 +27,12 @@ VALUES (32290,   1, 'Bier of Antius Blackmoor') /* Name */
      , (32290,  15, 'The body of Antius Blackmoor is here, laying in state. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32290,   1,   33554638) /* Setup */
-     , (32290,   2,  150994980) /* MotionTable */
-     , (32290,   3,  536870932) /* SoundTable */
-     , (32290,   8,  100668103) /* Icon */
-     , (32290,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32290,   1, 0x020000CE) /* Setup */
+     , (32290,   2, 0x09000024) /* MotionTable */
+     , (32290,   3, 0x20000014) /* SoundTable */
+     , (32290,   8, 0x060012C7) /* Icon */
+     , (32290,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32290, 8040, 3027173639, 74, 180, 36.8, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (32290, 8040, 0xB46F0107, 74, 180, 36.8, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F0107 [74.000000 180.000000 36.800000] 0.000000 0.000000 0.000000 -1.000000 */;

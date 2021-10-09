@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46873,   1, 'Aura of Blood Drinker Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46873,   1,   33554826) /* Setup */
-     , (46873,   8,  100676655) /* Icon */
-     , (46873,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46873,   1, 0x0200018A) /* Setup */
+     , (46873,   8, 0x0600342F) /* Icon */
+     , (46873,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46873,  28,       5991) /* Spell - BloodDrinkerOther2 */;

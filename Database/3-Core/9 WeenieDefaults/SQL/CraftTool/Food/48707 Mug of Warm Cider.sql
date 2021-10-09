@@ -27,8 +27,8 @@ VALUES (48707,   1, 'Mug of Warm Cider') /* Name */
      , (48707,  20, 'Mugs of Warm Cider') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48707,   1,   33554667) /* Setup */
-     , (48707,   3,  536870932) /* SoundTable */
-     , (48707,   8,  100667432) /* Icon */
-     , (48707,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48707,   1, 0x020000EB) /* Setup */
+     , (48707,   3, 0x20000014) /* SoundTable */
+     , (48707,   8, 0x06001028) /* Icon */
+     , (48707,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48707,  28,       6038) /* Spell - CiderStamina */;

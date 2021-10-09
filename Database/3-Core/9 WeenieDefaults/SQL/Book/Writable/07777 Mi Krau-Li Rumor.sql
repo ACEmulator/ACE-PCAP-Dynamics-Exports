@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7777,   1, 'Mi Krau-Li Rumor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7777,   1,   33559084) /* Setup */
-     , (7777,   3,  536870932) /* SoundTable */
-     , (7777,   6,   67112626) /* PaletteBase */
-     , (7777,   8,  100668176) /* Icon */
-     , (7777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7777,   1, 0x0200122C) /* Setup */
+     , (7777,   3, 0x20000014) /* SoundTable */
+     , (7777,   6, 0x04000EB2) /* PaletteBase */
+     , (7777,   8, 0x06001310) /* Icon */
+     , (7777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7777, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

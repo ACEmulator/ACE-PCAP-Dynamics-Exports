@@ -42,8 +42,8 @@ VALUES (40619,   1, 'Acid Spadone') /* Name */
      , (40619,  16, 'Acid Spadone') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40619,   1,   33560721) /* Setup */
-     , (40619,   3,  536870932) /* SoundTable */
-     , (40619,   6,   67115557) /* PaletteBase */
-     , (40619,   8,  100690816) /* Icon */
-     , (40619,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40619,   1, 0x02001891) /* Setup */
+     , (40619,   3, 0x20000014) /* SoundTable */
+     , (40619,   6, 0x04001A25) /* PaletteBase */
+     , (40619,   8, 0x06006B80) /* Icon */
+     , (40619,  22, 0x3400002B) /* PhysicsEffectTable */;

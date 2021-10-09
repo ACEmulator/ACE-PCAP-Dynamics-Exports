@@ -26,8 +26,8 @@ VALUES (8652,   1, 'Argenory Dye Pot') /* Name */
      , (8652,  20, 'Argenory Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8652,   1,   33556753) /* Setup */
-     , (8652,   3,  536870932) /* SoundTable */
-     , (8652,   6,   67111919) /* PaletteBase */
-     , (8652,   8,  100670947) /* Icon */
-     , (8652,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8652,   1, 0x02000911) /* Setup */
+     , (8652,   3, 0x20000014) /* SoundTable */
+     , (8652,   6, 0x04000BEF) /* PaletteBase */
+     , (8652,   8, 0x06001DE3) /* Icon */
+     , (8652,  22, 0x3400002B) /* PhysicsEffectTable */;

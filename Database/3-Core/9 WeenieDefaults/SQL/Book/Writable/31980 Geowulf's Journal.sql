@@ -24,11 +24,11 @@ VALUES (31980,   1, 'Geowulf''s Journal') /* Name */
      , (31980,  16, 'Part of a journal belonging to Geowulf the Stonehearted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31980,   1,   33554773) /* Setup */
-     , (31980,   3,  536870932) /* SoundTable */
-     , (31980,   8,  100674007) /* Icon */
-     , (31980,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31980,   1, 0x02000155) /* Setup */
+     , (31980,   3, 0x20000014) /* SoundTable */
+     , (31980,   8, 0x060029D7) /* Icon */
+     , (31980,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31980, 8040, 15729512, 89.0047, -80, 24.079, 0.9800667, 0, 0, 0.1986689) /* PCAPRecordedLocation */
+VALUES (31980, 8040, 0x00F00368, 89.0047, -80, 24.079, 0.980067, 0, 0, 0.198669) /* PCAPRecordedLocation */
 /* @teleloc 0x00F00368 [89.004700 -80.000000 24.079000] 0.980067 0.000000 0.000000 0.198669 */;

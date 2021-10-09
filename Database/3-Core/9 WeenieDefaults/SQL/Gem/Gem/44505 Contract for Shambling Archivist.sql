@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44505,   1, 'Contract for Shambling Archivist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44505,   1,   33557625) /* Setup */
-     , (44505,   3,  536870932) /* SoundTable */
-     , (44505,   8,  100691930) /* Icon */
-     , (44505,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44505,   1, 0x02000C79) /* Setup */
+     , (44505,   3, 0x20000014) /* SoundTable */
+     , (44505,   8, 0x06006FDA) /* Icon */
+     , (44505,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44505, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

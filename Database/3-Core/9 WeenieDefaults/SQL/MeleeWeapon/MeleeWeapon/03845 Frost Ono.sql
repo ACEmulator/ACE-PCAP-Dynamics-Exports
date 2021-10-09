@@ -44,7 +44,7 @@ VALUES (3845,   1, 'Frost Ono') /* Name */
      , (3845,  16, 'Frost Ono') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3845,   1,   33555692) /* Setup */
-     , (3845,   3,  536870932) /* SoundTable */
-     , (3845,   8,  100668992) /* Icon */
-     , (3845,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3845,   1, 0x020004EC) /* Setup */
+     , (3845,   3, 0x20000014) /* SoundTable */
+     , (3845,   8, 0x06001640) /* Icon */
+     , (3845,  22, 0x3400002B) /* PhysicsEffectTable */;

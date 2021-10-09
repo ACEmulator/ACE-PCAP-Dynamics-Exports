@@ -34,20 +34,20 @@ VALUES (982,   1, 'Shopkeep Julsama bint Sakim') /* Name */
      , (982,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (982,   1,   33554510) /* Setup */
-     , (982,   2,  150994945) /* MotionTable */
-     , (982,   3,  536870914) /* SoundTable */
-     , (982,   6,   67108990) /* PaletteBase */
-     , (982,   8,  100667446) /* Icon */
-     , (982,   9,   83890284) /* EyesTexture */
-     , (982,  10,   83890290) /* NoseTexture */
-     , (982,  11,   83890338) /* MouthTexture */
-     , (982,  15,   67117001) /* HairPalette */
-     , (982,  16,   67109567) /* EyesPalette */
-     , (982,  17,   67109555) /* SkinPalette */;
+VALUES (982,   1, 0x0200004E) /* Setup */
+     , (982,   2, 0x09000001) /* MotionTable */
+     , (982,   3, 0x20000002) /* SoundTable */
+     , (982,   6, 0x0400007E) /* PaletteBase */
+     , (982,   8, 0x06001036) /* Icon */
+     , (982,   9, 0x0500106C) /* EyesTexture */
+     , (982,  10, 0x05001072) /* NoseTexture */
+     , (982,  11, 0x050010A2) /* MouthTexture */
+     , (982,  15, 0x04001FC9) /* HairPalette */
+     , (982,  16, 0x040002BF) /* EyesPalette */
+     , (982,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (982, 8040, 2541420879, 176.52, 147.356, 0.004999995, -0.9997807, 0, 0, -0.02094226) /* PCAPRecordedLocation */
+VALUES (982, 8040, 0x977B014F, 176.52, 147.356, 0.005, -0.999781, 0, 0, -0.020942) /* PCAPRecordedLocation */
 /* @teleloc 0x977B014F [176.520000 147.356000 0.005000] -0.999781 0.000000 0.000000 -0.020942 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

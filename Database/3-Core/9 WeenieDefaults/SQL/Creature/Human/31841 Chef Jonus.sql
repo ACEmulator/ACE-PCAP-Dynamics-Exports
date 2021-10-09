@@ -30,20 +30,20 @@ VALUES (31841,   1, 'Chef Jonus') /* Name */
      , (31841,   5, 'Prisoner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31841,   1,   33554433) /* Setup */
-     , (31841,   2,  150994945) /* MotionTable */
-     , (31841,   3,  536870913) /* SoundTable */
-     , (31841,   6,   67108990) /* PaletteBase */
-     , (31841,   8,  100667446) /* Icon */
-     , (31841,   9,   83890485) /* EyesTexture */
-     , (31841,  10,   83890558) /* NoseTexture */
-     , (31841,  11,   83890633) /* MouthTexture */
-     , (31841,  15,   67116988) /* HairPalette */
-     , (31841,  16,   67109565) /* EyesPalette */
-     , (31841,  17,   67109560) /* SkinPalette */;
+VALUES (31841,   1, 0x02000001) /* Setup */
+     , (31841,   2, 0x09000001) /* MotionTable */
+     , (31841,   3, 0x20000001) /* SoundTable */
+     , (31841,   6, 0x0400007E) /* PaletteBase */
+     , (31841,   8, 0x06001036) /* Icon */
+     , (31841,   9, 0x05001135) /* EyesTexture */
+     , (31841,  10, 0x0500117E) /* NoseTexture */
+     , (31841,  11, 0x050011C9) /* MouthTexture */
+     , (31841,  15, 0x04001FBC) /* HairPalette */
+     , (31841,  16, 0x040002BD) /* EyesPalette */
+     , (31841,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31841, 8040, 723517729, 81.6934, 89.5743, 200.005, 0.346744, 0, 0, -0.93796) /* PCAPRecordedLocation */
+VALUES (31841, 8040, 0x2B200121, 81.6934, 89.5743, 200.005, 0.346744, 0, 0, -0.93796) /* PCAPRecordedLocation */
 /* @teleloc 0x2B200121 [81.693400 89.574300 200.005000] 0.346744 0.000000 0.000000 -0.937960 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

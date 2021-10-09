@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12528,   1, 'New Suntik Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12528,   1,   33554867) /* Setup */
-     , (12528,   2,  150994947) /* MotionTable */
-     , (12528,   8,  100667499) /* Icon */;
+VALUES (12528,   1, 0x020001B3) /* Setup */
+     , (12528,   2, 0x09000003) /* MotionTable */
+     , (12528,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12528, 8040, 2106523675, 74.3255, 60.6243, 123.937, 0.7006339, 0, 0, 0.7135209) /* PCAPRecordedLocation */
+VALUES (12528, 8040, 0x7D8F001B, 74.3255, 60.6243, 123.937, 0.700634, 0, 0, 0.713521) /* PCAPRecordedLocation */
 /* @teleloc 0x7D8F001B [74.325500 60.624300 123.937000] 0.700634 0.000000 0.000000 0.713521 */;

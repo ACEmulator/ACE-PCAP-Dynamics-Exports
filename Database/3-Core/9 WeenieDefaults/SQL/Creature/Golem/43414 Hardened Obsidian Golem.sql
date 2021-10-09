@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43414,   1, 'Hardened Obsidian Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43414,   1,   33556440) /* Setup */
-     , (43414,   2,  150995073) /* MotionTable */
-     , (43414,   3,  536870933) /* SoundTable */
-     , (43414,   8,  100667940) /* Icon */
-     , (43414,  22,  872415327) /* PhysicsEffectTable */;
+VALUES (43414,   1, 0x020007D8) /* Setup */
+     , (43414,   2, 0x09000081) /* MotionTable */
+     , (43414,   3, 0x20000015) /* SoundTable */
+     , (43414,   8, 0x06001224) /* Icon */
+     , (43414,  22, 0x3400005F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43414, 8040, 1447625235, 168.389, -130.059, 0.00999999, 0.1866489, 0, 0, 0.9824267) /* PCAPRecordedLocation */
+VALUES (43414, 8040, 0x56490213, 168.389, -130.059, 0.01, 0.186649, 0, 0, 0.982427) /* PCAPRecordedLocation */
 /* @teleloc 0x56490213 [168.389000 -130.059000 0.010000] 0.186649 0.000000 0.000000 0.982427 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -21,5 +21,5 @@ VALUES (23036,   1, 'Dark Tree Crystal') /* Name */
      , (23036,  15, 'Dark Tree Crystal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23036,   1,   33554809) /* Setup */
-     , (23036,   8,  100673954) /* Icon */;
+VALUES (23036,   1, 0x02000179) /* Setup */
+     , (23036,   8, 0x060029A2) /* Icon */;

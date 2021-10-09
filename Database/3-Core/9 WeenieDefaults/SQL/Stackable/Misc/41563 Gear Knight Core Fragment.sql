@@ -25,7 +25,7 @@ VALUES (41563,   1, 'Gear Knight Core Fragment') /* Name */
      , (41563,  16, 'A complicated amalgamation of Aetherium ore and forged metal parts, apparently part of the power core of some kind of mechanical creature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41563,   1,   33560864) /* Setup */
-     , (41563,   3,  536870932) /* SoundTable */
-     , (41563,   8,  100690567) /* Icon */
-     , (41563,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41563,   1, 0x02001920) /* Setup */
+     , (41563,   3, 0x20000014) /* SoundTable */
+     , (41563,   8, 0x06006A87) /* Icon */
+     , (41563,  22, 0x3400002B) /* PhysicsEffectTable */;

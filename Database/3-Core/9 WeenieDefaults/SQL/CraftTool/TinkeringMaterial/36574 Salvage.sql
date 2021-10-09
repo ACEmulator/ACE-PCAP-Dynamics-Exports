@@ -31,8 +31,8 @@ VALUES (36574,   1, 'Salvage') /* Name */
      , (36574,  15, 'Chips of opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36574,   1,   33554817) /* Setup */
-     , (36574,   3,  536870932) /* SoundTable */
-     , (36574,   6,   67111919) /* PaletteBase */
-     , (36574,   8,  100689666) /* Icon */
-     , (36574,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36574,   1, 0x02000181) /* Setup */
+     , (36574,   3, 0x20000014) /* SoundTable */
+     , (36574,   6, 0x04000BEF) /* PaletteBase */
+     , (36574,   8, 0x06006702) /* Icon */
+     , (36574,  22, 0x3400002B) /* PhysicsEffectTable */;

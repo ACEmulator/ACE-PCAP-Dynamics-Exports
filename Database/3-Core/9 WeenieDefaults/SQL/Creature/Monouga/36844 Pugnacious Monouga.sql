@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36844,   1, 'Pugnacious Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36844,   1,   33555199) /* Setup */
-     , (36844,   2,  150994983) /* MotionTable */
-     , (36844,   3,  536870962) /* SoundTable */
-     , (36844,   6,   67111302) /* PaletteBase */
-     , (36844,   8,  100669117) /* Icon */
-     , (36844,  22,  872415257) /* PhysicsEffectTable */;
+VALUES (36844,   1, 0x020002FF) /* Setup */
+     , (36844,   2, 0x09000027) /* MotionTable */
+     , (36844,   3, 0x20000032) /* SoundTable */
+     , (36844,   6, 0x04000986) /* PaletteBase */
+     , (36844,   8, 0x060016BD) /* Icon */
+     , (36844,  22, 0x34000019) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36844, 8040, 612433962, 120.9502, 40.97525, 219.993, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36844, 8040, 0x2481002A, 120.9502, 40.97525, 219.993, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x2481002A [120.950200 40.975250 219.993000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -29,20 +29,20 @@ VALUES (12238,   1, 'Bartholomew Steiner') /* Name */
      , (12238,   5, 'Master Furniture Maker') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12238,   1,   33554433) /* Setup */
-     , (12238,   2,  150994945) /* MotionTable */
-     , (12238,   3,  536870913) /* SoundTable */
-     , (12238,   6,   67108990) /* PaletteBase */
-     , (12238,   8,  100667446) /* Icon */
-     , (12238,   9,   83890516) /* EyesTexture */
-     , (12238,  10,   83890546) /* NoseTexture */
-     , (12238,  11,   83890662) /* MouthTexture */
-     , (12238,  15,   67116989) /* HairPalette */
-     , (12238,  16,   67109567) /* EyesPalette */
-     , (12238,  17,   67109561) /* SkinPalette */;
+VALUES (12238,   1, 0x02000001) /* Setup */
+     , (12238,   2, 0x09000001) /* MotionTable */
+     , (12238,   3, 0x20000001) /* SoundTable */
+     , (12238,   6, 0x0400007E) /* PaletteBase */
+     , (12238,   8, 0x06001036) /* Icon */
+     , (12238,   9, 0x05001154) /* EyesTexture */
+     , (12238,  10, 0x05001172) /* NoseTexture */
+     , (12238,  11, 0x050011E6) /* MouthTexture */
+     , (12238,  15, 0x04001FBD) /* HairPalette */
+     , (12238,  16, 0x040002BF) /* EyesPalette */
+     , (12238,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12238, 8040, 3130917128, 57.262, 33.2901, 54.005, 0.9943137, 0, 0, -0.106491) /* PCAPRecordedLocation */
+VALUES (12238, 8040, 0xBA9E0108, 57.262, 33.2901, 54.005, 0.994314, 0, 0, -0.106491) /* PCAPRecordedLocation */
 /* @teleloc 0xBA9E0108 [57.262000 33.290100 54.005000] 0.994314 0.000000 0.000000 -0.106491 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

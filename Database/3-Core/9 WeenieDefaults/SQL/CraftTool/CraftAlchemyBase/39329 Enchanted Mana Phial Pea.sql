@@ -31,8 +31,8 @@ VALUES (39329,   1, 'Enchanted Mana Phial Pea') /* Name */
      , (39329,  20, 'Enchanted Mana Phial Peas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39329,   1,   33560312) /* Setup */
-     , (39329,   3,  536870932) /* SoundTable */
-     , (39329,   6,   67111919) /* PaletteBase */
-     , (39329,   8,  100690319) /* Icon */
-     , (39329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39329,   1, 0x020016F8) /* Setup */
+     , (39329,   3, 0x20000014) /* SoundTable */
+     , (39329,   6, 0x04000BEF) /* PaletteBase */
+     , (39329,   8, 0x0600698F) /* Icon */
+     , (39329,  22, 0x3400002B) /* PhysicsEffectTable */;

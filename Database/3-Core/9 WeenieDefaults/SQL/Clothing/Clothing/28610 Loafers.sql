@@ -47,14 +47,14 @@ VALUES (28610,   1, 'Loafers') /* Name */
      , (28610,  16, 'Loafers of Arcane Enlightenment') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28610,   1,   33559324) /* Setup */
-     , (28610,   3,  536870932) /* SoundTable */
-     , (28610,   6,   67108990) /* PaletteBase */
-     , (28610,   8,  100682412) /* Icon */
-     , (28610,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28610,   1, 0x0200131C) /* Setup */
+     , (28610,   3, 0x20000014) /* SoundTable */
+     , (28610,   6, 0x0400007E) /* PaletteBase */
+     , (28610,   8, 0x06004AAC) /* Icon */
+     , (28610,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28610,  2108,      2)  /* Impenetrability7 */
-     , (28610,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
-     , (28610,  3965,      2)  /* CANTRIPSTRENGTH3 */
-     , (28610,  4401,      2)  /* FlameBane8 */;
+VALUES (28610,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (28610,  4401,      2)  /* FlameBane8 */
+     , (28610,  2108,      2)  /* Impenetrability7 */
+     , (28610,  3965,      2)  /* CANTRIPSTRENGTH3 */;

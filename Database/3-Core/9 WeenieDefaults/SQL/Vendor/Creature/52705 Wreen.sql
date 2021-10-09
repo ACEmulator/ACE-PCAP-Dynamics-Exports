@@ -29,15 +29,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52705,   1, 'Wreen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52705,   1,   33561104) /* Setup */
-     , (52705,   2,  150995470) /* MotionTable */
-     , (52705,   3,  536870913) /* SoundTable */
-     , (52705,   6,   67108990) /* PaletteBase */
-     , (52705,   8,  100667373) /* Icon */
+VALUES (52705,   1, 0x02001A10) /* Setup */
+     , (52705,   2, 0x0900020E) /* MotionTable */
+     , (52705,   3, 0x20000001) /* SoundTable */
+     , (52705,   6, 0x0400007E) /* PaletteBase */
+     , (52705,   8, 0x06000FED) /* Icon */
      , (52705,  57,      52797) /* AlternateCurrency - Gauntlet Coin */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52705, 8040, 1500184849, 123.262, -150, 0.005500019, -0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
+VALUES (52705, 8040, 0x596B0111, 123.262, -150, 0.0055, -0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0111 [123.262000 -150.000000 0.005500] -0.701223 0.000000 0.000000 -0.712942 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

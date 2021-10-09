@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49780,   1, 'Shadow Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49780,   1,   33554654) /* Setup */
-     , (49780,   3,  536870932) /* SoundTable */
-     , (49780,   6,   67108990) /* PaletteBase */
-     , (49780,   8,  100691749) /* Icon */
-     , (49780,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49780,   1, 0x020000DE) /* Setup */
+     , (49780,   3, 0x20000014) /* SoundTable */
+     , (49780,   6, 0x0400007E) /* PaletteBase */
+     , (49780,   8, 0x06006F25) /* Icon */
+     , (49780,  22, 0x3400002B) /* PhysicsEffectTable */;

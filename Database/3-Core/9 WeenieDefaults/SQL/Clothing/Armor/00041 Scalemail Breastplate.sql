@@ -44,11 +44,11 @@ VALUES (41,   1, 'Scalemail Breastplate') /* Name */
      , (41,  16, 'Scalemail Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41,   1,   33554642) /* Setup */
-     , (41,   3,  536870932) /* SoundTable */
-     , (41,   6,   67108990) /* PaletteBase */
-     , (41,   8,  100669289) /* Icon */
-     , (41,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41,   1, 0x020000D2) /* Setup */
+     , (41,   3, 0x20000014) /* SoundTable */
+     , (41,   6, 0x0400007E) /* PaletteBase */
+     , (41,   8, 0x06001769) /* Icon */
+     , (41,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

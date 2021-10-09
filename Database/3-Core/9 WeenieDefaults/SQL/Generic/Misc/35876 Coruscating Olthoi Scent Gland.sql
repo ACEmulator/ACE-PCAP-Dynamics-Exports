@@ -28,5 +28,5 @@ VALUES (35876,   1, 'Coruscating Olthoi Scent Gland') /* Name */
      , (35876,  16, 'A small spherical gland retrieved from a Paradox-touched Olthoi.  It smells absolutely horrible.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35876,   1,   33560332) /* Setup */
-     , (35876,   8,  100671870) /* Icon */;
+VALUES (35876,   1, 0x0200170C) /* Setup */
+     , (35876,   8, 0x0600217E) /* Icon */;

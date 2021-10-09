@@ -18,9 +18,9 @@ VALUES (15258,   1, 'South Siege Villas') /* Name */
      , (15258,  16, 'Welcome to South Siege Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15258,   1,   33557463) /* Setup */
-     , (15258,   8,  100668115) /* Icon */;
+VALUES (15258,   1, 0x02000BD7) /* Setup */
+     , (15258,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15258, 8040, 3664707621, 109.486, 104.164, 20.87617, 0.788522, 0, 0, -0.615007) /* PCAPRecordedLocation */
+VALUES (15258, 8040, 0xDA6F0025, 109.486, 104.164, 20.87617, 0.788522, 0, 0, -0.615007) /* PCAPRecordedLocation */
 /* @teleloc 0xDA6F0025 [109.486000 104.164000 20.876170] 0.788522 0.000000 0.000000 -0.615007 */;

@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19385,   1, 'Hasina Gardens') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19385,   1,   33557693) /* Setup */
-     , (19385,   8,  100667499) /* Icon */;
+VALUES (19385,   1, 0x02000CBD) /* Setup */
+     , (19385,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19385, 8040, 1449197956, 87.078, -29.986, 0, 0.72167, 0, 0, -0.692238) /* PCAPRecordedLocation */
+VALUES (19385, 8040, 0x56610184, 87.078, -29.986, 0, 0.72167, 0, 0, -0.692238) /* PCAPRecordedLocation */
 /* @teleloc 0x56610184 [87.078000 -29.986000 0.000000] 0.721670 0.000000 0.000000 -0.692238 */;

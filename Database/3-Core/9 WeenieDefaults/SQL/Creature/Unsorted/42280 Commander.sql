@@ -18,14 +18,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42280,   1, 'Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42280,   1,   33554433) /* Setup */
-     , (42280,   2,  150994945) /* MotionTable */
-     , (42280,   3,  536870913) /* SoundTable */
-     , (42280,   8,  100667446) /* Icon */
-     , (42280,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (42280,   1, 0x02000001) /* Setup */
+     , (42280,   2, 0x09000001) /* MotionTable */
+     , (42280,   3, 0x20000001) /* SoundTable */
+     , (42280,   8, 0x06001036) /* Icon */
+     , (42280,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42280, 8040, 2315453271, 350, -40, 6.005, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42280, 8040, 0x8A030357, 350, -40, 6.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8A030357 [350.000000 -40.000000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

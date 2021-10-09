@@ -29,8 +29,8 @@ VALUES (38228,   1, 'Celestial Hand Commendation Ribbon') /* Name */
      , (38228,  16, 'A commendation ribbon, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38228,   1,   33554817) /* Setup */
-     , (38228,   3,  536870932) /* SoundTable */
-     , (38228,   6,   67111919) /* PaletteBase */
-     , (38228,   8,  100690174) /* Icon */
-     , (38228,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38228,   1, 0x02000181) /* Setup */
+     , (38228,   3, 0x20000014) /* SoundTable */
+     , (38228,   6, 0x04000BEF) /* PaletteBase */
+     , (38228,   8, 0x060068FE) /* Icon */
+     , (38228,  22, 0x3400002B) /* PhysicsEffectTable */;

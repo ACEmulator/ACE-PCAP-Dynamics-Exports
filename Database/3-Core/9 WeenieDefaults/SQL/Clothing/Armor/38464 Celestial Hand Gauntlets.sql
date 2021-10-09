@@ -49,12 +49,12 @@ VALUES (38464,   1, 'Celestial Hand Gauntlets') /* Name */
      , (38464,  16, 'Celestial Hand Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38464,   1,   33554648) /* Setup */
-     , (38464,   3,  536870932) /* SoundTable */
-     , (38464,   8,  100688352) /* Icon */
-     , (38464,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38464,   1, 0x020000D8) /* Setup */
+     , (38464,   3, 0x20000014) /* SoundTable */
+     , (38464,   8, 0x060061E0) /* Icon */
+     , (38464,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38464,  2059,      2)  /* CoordinationSelf7 */
-     , (38464,  2108,      2)  /* Impenetrability7 */
-     , (38464,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */;
+     , (38464,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */
+     , (38464,  2108,      2)  /* Impenetrability7 */;

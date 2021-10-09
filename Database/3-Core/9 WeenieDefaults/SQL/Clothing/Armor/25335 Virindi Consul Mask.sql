@@ -38,13 +38,13 @@ VALUES (25335,   1, 'Virindi Consul Mask') /* Name */
      , (25335,  15, 'A red Virindi mask reconstructed from the remains of a defeated Virindi Consul.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25335,   1,   33558445) /* Setup */
-     , (25335,   3,  536870932) /* SoundTable */
-     , (25335,   8,  100674854) /* Icon */
-     , (25335,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25335,   1, 0x02000FAD) /* Setup */
+     , (25335,   3, 0x20000014) /* SoundTable */
+     , (25335,   8, 0x06002D26) /* Icon */
+     , (25335,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25335,   249,      2)  /* InvulnerabilitySelf6 */
+VALUES (25335,  1486,      2)  /* Impenetrability6 */
      , (25335,  1312,      2)  /* ArmorSelf6 */
-     , (25335,  1486,      2)  /* Impenetrability6 */
-     , (25335,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
+     , (25335,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (25335,   249,      2)  /* InvulnerabilitySelf6 */;

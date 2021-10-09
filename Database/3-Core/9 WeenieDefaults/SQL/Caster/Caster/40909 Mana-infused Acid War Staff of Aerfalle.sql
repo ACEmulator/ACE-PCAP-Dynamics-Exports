@@ -46,21 +46,21 @@ VALUES (40909,   1, 'Mana-infused Acid War Staff of Aerfalle') /* Name */
      , (40909,  16, 'A heavily enchanted staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40909,   1,   33556630) /* Setup */
-     , (40909,   3,  536870932) /* SoundTable */
-     , (40909,   6,   67111919) /* PaletteBase */
-     , (40909,   8,  100670752) /* Icon */
-     , (40909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40909,   1, 0x02000896) /* Setup */
+     , (40909,   3, 0x20000014) /* SoundTable */
+     , (40909,   6, 0x04000BEF) /* PaletteBase */
+     , (40909,   8, 0x06001D20) /* Icon */
+     , (40909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40909,  28,       4434) /* Spell - AcidVolley8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40909, 8040, 23855548, 48.278, -30.95664, -0.071, 0.4437789, 0.4437789, -0.5505091, -0.5505091) /* PCAPRecordedLocation */
+VALUES (40909, 8040, 0x016C01BC, 48.278, -30.95664, -0.071, 0.443779, 0.443779, -0.550509, -0.550509) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.278000 -30.956640 -0.071000] 0.443779 0.443779 -0.550509 -0.550509 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40909,  2262,      2)  /* LeadershipMasteryOther7 */
-     , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (40909,  2519,      2)  /* CANTRIPLEADERSHIP2 */
      , (40909,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (40909,  4637,      2)  /* WarMagicMasteryOther8 */
      , (40909,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;

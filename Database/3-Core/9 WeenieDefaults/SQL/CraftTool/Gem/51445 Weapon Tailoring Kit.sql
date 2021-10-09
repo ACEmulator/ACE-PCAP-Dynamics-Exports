@@ -23,7 +23,7 @@ VALUES (51445,   1, 'Weapon Tailoring Kit') /* Name */
      , (51445,  16, 'A Tailoring Kit used on a weapon to take its appearance so it may be applied to another weapon. This process will destroy the initial target weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51445,   1,   33555677) /* Setup */
-     , (51445,   3,  536870932) /* SoundTable */
-     , (51445,   8,  100693217) /* Icon */
-     , (51445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51445,   1, 0x020004DD) /* Setup */
+     , (51445,   3, 0x20000014) /* SoundTable */
+     , (51445,   8, 0x060074E1) /* Icon */
+     , (51445,  22, 0x3400002B) /* PhysicsEffectTable */;

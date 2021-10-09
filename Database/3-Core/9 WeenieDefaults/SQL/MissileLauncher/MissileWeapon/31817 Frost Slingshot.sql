@@ -52,14 +52,14 @@ VALUES (31817,   1, 'Frost Slingshot') /* Name */
      , (31817,  16, 'Frost Slingshot of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31817,   1,   33559675) /* Setup */
-     , (31817,   3,  536870932) /* SoundTable */
-     , (31817,   6,   67116700) /* PaletteBase */
-     , (31817,   8,  100688027) /* Icon */
-     , (31817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31817,   1, 0x0200147B) /* Setup */
+     , (31817,   3, 0x20000014) /* SoundTable */
+     , (31817,   6, 0x04001E9C) /* PaletteBase */
+     , (31817,   8, 0x0600609B) /* Icon */
+     , (31817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31817,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31817,  2087,      2)  /* StrengthSelf7 */
-     , (31817,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31817,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */;
+VALUES (31817,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (31817,  2087,      2)  /* StrengthSelf7 */
+     , (31817,  2096,      2)  /* BloodDrinkerSelf7 */;

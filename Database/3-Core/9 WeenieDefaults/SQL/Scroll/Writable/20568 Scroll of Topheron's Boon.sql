@@ -23,7 +23,7 @@ VALUES (20568,   1, 'Scroll of Topheron''s Boon') /* Name */
 Increases the target''s Assess Monster skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20568,   1,   33554826) /* Setup */
-     , (20568,   8,  100676448) /* Icon */
-     , (20568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20568,   1, 0x0200018A) /* Setup */
+     , (20568,   8, 0x06003360) /* Icon */
+     , (20568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20568,  28,       2288) /* Spell - MonsterAttunementOther7 */;

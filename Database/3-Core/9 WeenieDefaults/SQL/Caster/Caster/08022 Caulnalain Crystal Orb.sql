@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8022,   1, 'Caulnalain Crystal Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8022,   1,   33556767) /* Setup */
-     , (8022,   3,  536870932) /* SoundTable */
-     , (8022,   6,   67111928) /* PaletteBase */
-     , (8022,   8,  100670982) /* Icon */
-     , (8022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8022,   1, 0x0200091F) /* Setup */
+     , (8022,   3, 0x20000014) /* SoundTable */
+     , (8022,   6, 0x04000BF8) /* PaletteBase */
+     , (8022,   8, 0x06001E06) /* Icon */
+     , (8022,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8022, 8040, 2847146034, 148.251, 43.06637, 93.92901, -0.6824138, -0.6824138, -0.1852333, -0.1852333) /* PCAPRecordedLocation */
+VALUES (8022, 8040, 0xA9B40032, 148.251, 43.06637, 93.92901, -0.682414, -0.682414, -0.185233, -0.185233) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [148.251000 43.066370 93.929010] -0.682414 -0.682414 -0.185233 -0.185233 */;

@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44474,   1, 'Devourer Margul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44474,   1,   33558554) /* Setup */
-     , (44474,   2,  150995263) /* MotionTable */
-     , (44474,   3,  536871080) /* SoundTable */
-     , (44474,   6,   67114728) /* PaletteBase */
-     , (44474,   8,  100675661) /* Icon */
-     , (44474,  22,  872415401) /* PhysicsEffectTable */
+VALUES (44474,   1, 0x0200101A) /* Setup */
+     , (44474,   2, 0x0900013F) /* MotionTable */
+     , (44474,   3, 0x200000A8) /* SoundTable */
+     , (44474,   6, 0x040016E8) /* PaletteBase */
+     , (44474,   8, 0x0600304D) /* Icon */
+     , (44474,  22, 0x340000A9) /* PhysicsEffectTable */
      , (44474,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44474, 8040, 4166779233, 80.9483, -10.2498, -3.198757, 0.9134465, 0, 0, 0.4069588) /* PCAPRecordedLocation */
+VALUES (44474, 8040, 0xF85C0161, 80.9483, -10.2498, -3.198757, 0.913447, 0, 0, 0.406959) /* PCAPRecordedLocation */
 /* @teleloc 0xF85C0161 [80.948300 -10.249800 -3.198757] 0.913447 0.000000 0.000000 0.406959 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

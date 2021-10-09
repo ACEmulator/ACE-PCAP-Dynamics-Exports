@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45182,   1, 'Corrupted Dread') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45182,   1,   33558816) /* Setup */
-     , (45182,   2,  150995302) /* MotionTable */
-     , (45182,   3,  536871094) /* SoundTable */
-     , (45182,   6,   67115251) /* PaletteBase */
-     , (45182,   8,  100676679) /* Icon */
-     , (45182,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (45182,   1, 0x02001120) /* Setup */
+     , (45182,   2, 0x09000166) /* MotionTable */
+     , (45182,   3, 0x200000B6) /* SoundTable */
+     , (45182,   6, 0x040018F3) /* PaletteBase */
+     , (45182,   8, 0x06003447) /* Icon */
+     , (45182,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45182, 8040, 1466172069, 12.09153, -0.1158474, 12.0232, 0.9335275, 0, 0, 0.3585057) /* PCAPRecordedLocation */
+VALUES (45182, 8040, 0x576402A5, 12.09153, -0.115847, 12.0232, 0.933528, 0, 0, 0.358506) /* PCAPRecordedLocation */
 /* @teleloc 0x576402A5 [12.091530 -0.115847 12.023200] 0.933528 0.000000 0.000000 0.358506 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

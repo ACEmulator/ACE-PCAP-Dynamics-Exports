@@ -49,17 +49,17 @@ VALUES (41895,   1, 'Enhanced Assault Crossbow') /* Name */
      , (41895,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41895,   1,   33558210) /* Setup */
-     , (41895,   3,  536870932) /* SoundTable */
-     , (41895,   8,  100671750) /* Icon */
-     , (41895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41895,   1, 0x02000EC2) /* Setup */
+     , (41895,   3, 0x20000014) /* SoundTable */
+     , (41895,   8, 0x06002106) /* Icon */
+     , (41895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41895,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41895, 8040, 2847146034, 152.6441, 41.73085, 93.93001, 0.03650517, 0, 0, -0.9993334) /* PCAPRecordedLocation */
+VALUES (41895, 8040, 0xA9B40032, 152.6441, 41.73085, 93.93001, 0.036505, 0, 0, -0.999333) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [152.644100 41.730850 93.930010] 0.036505 0.000000 0.000000 -0.999333 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41895,  2004,      2)  /* WarriorsVitality */
-     , (41895,  2059,      2)  /* CoordinationSelf7 */
+VALUES (41895,  2059,      2)  /* CoordinationSelf7 */
+     , (41895,  2004,      2)  /* WarriorsVitality */
      , (41895,  2096,      2)  /* BloodDrinkerSelf7 */;

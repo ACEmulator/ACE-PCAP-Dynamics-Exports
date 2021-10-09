@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31985,   1, 'Book of Xik Minru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31985,   1,   33559593) /* Setup */
-     , (31985,   3,  536870932) /* SoundTable */
-     , (31985,   8,  100688124) /* Icon */
-     , (31985,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31985,   1, 0x02001429) /* Setup */
+     , (31985,   3, 0x20000014) /* SoundTable */
+     , (31985,   8, 0x060060FC) /* Icon */
+     , (31985,  22, 0x3400002B) /* PhysicsEffectTable */;

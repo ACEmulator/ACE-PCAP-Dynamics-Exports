@@ -25,7 +25,7 @@ VALUES (29493,   1, 'Ring of Karlun') /* Name */
      , (29493,  15, 'An ancient, heavy, scratched gold ring with the bull insignia of Karlun, legendary founder of Viamont.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29493,   1,   33554691) /* Setup */
-     , (29493,   3,  536870932) /* SoundTable */
-     , (29493,   8,  100686510) /* Icon */
-     , (29493,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29493,   1, 0x02000103) /* Setup */
+     , (29493,   3, 0x20000014) /* SoundTable */
+     , (29493,   8, 0x06005AAE) /* Icon */
+     , (29493,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41246,   1, 'Acid Gearknight Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41246,   1,   33560848) /* Setup */
-     , (41246,   3,  536870932) /* SoundTable */
-     , (41246,   8,  100690551) /* Icon */
-     , (41246,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41246,   1, 0x02001910) /* Setup */
+     , (41246,   3, 0x20000014) /* SoundTable */
+     , (41246,   8, 0x06006A77) /* Icon */
+     , (41246,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41246, 8040, 561053752, 158.2982, 175.1207, 165.1209, 0.7069091, 0.7069091, -0.01671891, -0.01671891) /* PCAPRecordedLocation */
+VALUES (41246, 8040, 0x21710038, 158.2982, 175.1207, 165.1209, 0.706909, 0.706909, -0.016719, -0.016719) /* PCAPRecordedLocation */
 /* @teleloc 0x21710038 [158.298200 175.120700 165.120900] 0.706909 0.706909 -0.016719 -0.016719 */;

@@ -28,15 +28,15 @@ VALUES (37146,   1, 'Laylana') /* Name */
      , (37146,   5, 'Ghostly Maiden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37146,   1,   33554510) /* Setup */
-     , (37146,   2,  150994945) /* MotionTable */
-     , (37146,   3,  536871094) /* SoundTable */
-     , (37146,   6,   67108990) /* PaletteBase */
-     , (37146,   8,  100676679) /* Icon */
-     , (37146,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (37146,   1, 0x0200004E) /* Setup */
+     , (37146,   2, 0x09000001) /* MotionTable */
+     , (37146,   3, 0x200000B6) /* SoundTable */
+     , (37146,   6, 0x0400007E) /* PaletteBase */
+     , (37146,   8, 0x06003447) /* Icon */
+     , (37146,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37146, 8040, 1210908680, 20.6594, 172.587, 6.38725, 0.9756137, 0, 0, -0.2194949) /* PCAPRecordedLocation */
+VALUES (37146, 8040, 0x482D0008, 20.6594, 172.587, 6.38725, 0.975614, 0, 0, -0.219495) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0008 [20.659400 172.587000 6.387250] 0.975614 0.000000 0.000000 -0.219495 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5108,   1, 'LIFESTONES SIGN') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5108,   1,   33556014) /* Setup */
-     , (5108,   8,  100668115) /* Icon */;
+VALUES (5108,   1, 0x0200062E) /* Setup */
+     , (5108,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5108, 8040, 3595894836, 153.556, 85.7578, 44, -0.172368, 0, 0, -0.985033) /* PCAPRecordedLocation */
+VALUES (5108, 8040, 0xD6550034, 153.556, 85.7578, 44, -0.172368, 0, 0, -0.985033) /* PCAPRecordedLocation */
 /* @teleloc 0xD6550034 [153.556000 85.757800 44.000000] -0.172368 0.000000 0.000000 -0.985033 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

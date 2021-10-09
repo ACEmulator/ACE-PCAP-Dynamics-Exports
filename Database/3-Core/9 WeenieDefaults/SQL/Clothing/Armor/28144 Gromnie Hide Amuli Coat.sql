@@ -40,13 +40,13 @@ VALUES (28144,   1, 'Gromnie Hide Amuli Coat') /* Name */
      , (28144,  16, 'An amullian coat crafted from the hide of a sable gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28144,   1,   33554854) /* Setup */
-     , (28144,   3,  536870932) /* SoundTable */
-     , (28144,   6,   67108990) /* PaletteBase */
-     , (28144,   8,  100676927) /* Icon */
-     , (28144,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28144,   1, 0x020001A6) /* Setup */
+     , (28144,   3, 0x20000014) /* SoundTable */
+     , (28144,   6, 0x0400007E) /* PaletteBase */
+     , (28144,   8, 0x0600353F) /* Icon */
+     , (28144,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28144,  1075,      2)  /* LightningProtectionOther4 */
+VALUES (28144,  1538,      2)  /* LightningBane4 */
      , (28144,  1484,      2)  /* Impenetrability4 */
-     , (28144,  1538,      2)  /* LightningBane4 */;
+     , (28144,  1075,      2)  /* LightningProtectionOther4 */;

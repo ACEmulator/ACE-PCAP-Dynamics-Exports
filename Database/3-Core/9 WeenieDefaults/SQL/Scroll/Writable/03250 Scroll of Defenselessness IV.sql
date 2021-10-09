@@ -23,7 +23,7 @@ VALUES (3250,   1, 'Scroll of Defenselessness IV') /* Name */
 Decreases the target''s Missile Defense skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3250,   1,   33554826) /* Setup */
-     , (3250,   8,  100676468) /* Icon */
-     , (3250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3250,   1, 0x0200018A) /* Setup */
+     , (3250,   8, 0x06003374) /* Icon */
+     , (3250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3250,  28,        265) /* Spell - DefenselessnessOther4 */;

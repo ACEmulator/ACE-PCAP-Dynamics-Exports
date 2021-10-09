@@ -25,11 +25,11 @@ VALUES (36060,   1, 'Reflection of Leopold') /* Name */
      , (36060,  16, 'In the heart of this gem, you perceive the image of Leopold. As you watch the image, it seems to fluctuate in color.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36060,   1,   33556769) /* Setup */
-     , (36060,   3,  536870932) /* SoundTable */
-     , (36060,   8,  100689641) /* Icon */
-     , (36060,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36060,   1, 0x02000921) /* Setup */
+     , (36060,   3, 0x20000014) /* SoundTable */
+     , (36060,   8, 0x060066E9) /* Icon */
+     , (36060,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36060, 8040, 10682822, 224.1825, -138.4965, -12.001, 0.9993082, 0, 0, -0.03719099) /* PCAPRecordedLocation */
+VALUES (36060, 8040, 0x00A301C6, 224.1825, -138.4965, -12.001, 0.999308, 0, 0, -0.037191) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301C6 [224.182500 -138.496500 -12.001000] 0.999308 0.000000 0.000000 -0.037191 */;

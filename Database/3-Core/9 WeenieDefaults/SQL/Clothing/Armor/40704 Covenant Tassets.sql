@@ -39,8 +39,8 @@ VALUES (40704,   1, 'Covenant Tassets') /* Name */
      , (40704,  16, 'Covenant Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40704,   1,   33554656) /* Setup */
-     , (40704,   3,  536870932) /* SoundTable */
-     , (40704,   6,   67108990) /* PaletteBase */
-     , (40704,   8,  100673469) /* Icon */
-     , (40704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40704,   1, 0x020000E0) /* Setup */
+     , (40704,   3, 0x20000014) /* SoundTable */
+     , (40704,   6, 0x0400007E) /* PaletteBase */
+     , (40704,   8, 0x060027BD) /* Icon */
+     , (40704,  22, 0x3400002B) /* PhysicsEffectTable */;

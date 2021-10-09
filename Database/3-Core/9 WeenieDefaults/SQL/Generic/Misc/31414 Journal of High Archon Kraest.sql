@@ -25,11 +25,11 @@ VALUES (31414,   1, 'Journal of High Archon Kraest') /* Name */
      , (31414,  16, 'A small sealed journal written by Kraest, a High Archon in the Order of the Raven Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31414,   1,   33554776) /* Setup */
-     , (31414,   3,  536870932) /* SoundTable */
-     , (31414,   8,  100667503) /* Icon */
-     , (31414,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31414,   1, 0x02000158) /* Setup */
+     , (31414,   3, 0x20000014) /* SoundTable */
+     , (31414,   8, 0x0600106F) /* Icon */
+     , (31414,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31414, 8040, 15794513, 123.371, -118.879, -71.0694, 0.853478, 0, 0, -0.521129) /* PCAPRecordedLocation */
+VALUES (31414, 8040, 0x00F10151, 123.371, -118.879, -71.0694, 0.853478, 0, 0, -0.521129) /* PCAPRecordedLocation */
 /* @teleloc 0x00F10151 [123.371000 -118.879000 -71.069400] 0.853478 0.000000 0.000000 -0.521129 */;

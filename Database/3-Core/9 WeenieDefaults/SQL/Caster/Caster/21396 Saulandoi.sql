@@ -38,19 +38,19 @@ VALUES (21396,   1, 'Saulandoi') /* Name */
      , (21396,  16, 'A wand of obsidian and sapphire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21396,   1,   33557968) /* Setup */
-     , (21396,   3,  536870932) /* SoundTable */
-     , (21396,   8,  100673495) /* Icon */
-     , (21396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21396,   1, 0x02000DD0) /* Setup */
+     , (21396,   3, 0x20000014) /* SoundTable */
+     , (21396,   8, 0x060027D7) /* Icon */
+     , (21396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21396,  28,       2785) /* Spell - LesserStasisField */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21396, 8040, 4135714867, 145.6859, 49.87566, 57.929, -0.3306036, -0.3306036, -0.625061, -0.625061) /* PCAPRecordedLocation */
+VALUES (21396, 8040, 0xF6820033, 145.6859, 49.87566, 57.929, -0.330604, -0.330604, -0.625061, -0.625061) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820033 [145.685900 49.875660 57.929000] -0.330604 -0.330604 -0.625061 -0.625061 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21396,   616,      2)  /* LifeMagicMasteryOther6 */
+VALUES (21396,  2581,      2)  /* CANTRIPFOCUS1 */
      , (21396,   664,      2)  /* ManaMasteryOther6 */
-     , (21396,  2581,      2)  /* CANTRIPFOCUS1 */
      , (21396,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (21396,   616,      2)  /* LifeMagicMasteryOther6 */
      , (21396,  2810,      2)  /* ModerateLifeMagicAptitude */;

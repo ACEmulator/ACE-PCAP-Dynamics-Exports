@@ -19,12 +19,12 @@ VALUES (9394,   1, 'Lugian Pauldron') /* Name */
      , (9394,  16, 'A large pauldron, battered and dinged from combat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9394,   1,   33557004) /* Setup */
-     , (9394,   3,  536870932) /* SoundTable */
-     , (9394,   6,   67113158) /* PaletteBase */
-     , (9394,   8,  100671474) /* Icon */
-     , (9394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9394,   1, 0x02000A0C) /* Setup */
+     , (9394,   3, 0x20000014) /* SoundTable */
+     , (9394,   6, 0x040010C6) /* PaletteBase */
+     , (9394,   8, 0x06001FF2) /* Icon */
+     , (9394,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9394, 8040, 302186508, 38.4825, 79.1887, 1.115, -0.9679723, 0, 0, 0.2510571) /* PCAPRecordedLocation */
+VALUES (9394, 8040, 0x1203000C, 38.4825, 79.1887, 1.115, -0.967972, 0, 0, 0.251057) /* PCAPRecordedLocation */
 /* @teleloc 0x1203000C [38.482500 79.188700 1.115000] -0.967972 0.000000 0.000000 0.251057 */;

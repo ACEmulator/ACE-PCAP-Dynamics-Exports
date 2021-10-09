@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27874,   1, 'Muck Ball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27874,   1,   33558785) /* Setup */
-     , (27874,   3,  536870932) /* SoundTable */
-     , (27874,   8,  100676576) /* Icon */
-     , (27874,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27874,   1, 0x02001101) /* Setup */
+     , (27874,   3, 0x20000014) /* SoundTable */
+     , (27874,   8, 0x060033E0) /* Icon */
+     , (27874,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27874, 8040, 927596565, 64.82064, 102.1085, -0.391655, 0.4545195, 0.4545195, -0.5416752, -0.5416752) /* PCAPRecordedLocation */
+VALUES (27874, 8040, 0x374A0015, 64.82064, 102.1085, -0.391655, 0.45452, 0.45452, -0.541675, -0.541675) /* PCAPRecordedLocation */
 /* @teleloc 0x374A0015 [64.820640 102.108500 -0.391655] 0.454520 0.454520 -0.541675 -0.541675 */;

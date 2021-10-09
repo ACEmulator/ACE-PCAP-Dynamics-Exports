@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9382,   1, 'Geraux the Legate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9382,   1,   33554497) /* Setup */
-     , (9382,   2,  150994984) /* MotionTable */
-     , (9382,   3,  536870930) /* SoundTable */
-     , (9382,   6,   67111346) /* PaletteBase */
-     , (9382,   8,  100667943) /* Icon */
-     , (9382,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (9382,   1, 0x02000041) /* Setup */
+     , (9382,   2, 0x09000028) /* MotionTable */
+     , (9382,   3, 0x20000012) /* SoundTable */
+     , (9382,   6, 0x040009B2) /* PaletteBase */
+     , (9382,   8, 0x06001227) /* Icon */
+     , (9382,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9382, 8040, 43712893, 279.921, -2.88748, -17.971, -0.117451, 0, 0, -0.9930787) /* PCAPRecordedLocation */
+VALUES (9382, 8040, 0x029B017D, 279.921, -2.88748, -17.971, -0.117451, 0, 0, -0.993079) /* PCAPRecordedLocation */
 /* @teleloc 0x029B017D [279.921000 -2.887480 -17.971000] -0.117451 0.000000 0.000000 -0.993079 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

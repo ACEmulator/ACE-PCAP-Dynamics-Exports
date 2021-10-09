@@ -41,7 +41,7 @@ VALUES (43818,   1, 'Shadownether Isparian Wand') /* Name */
      , (43818,  25, 'Immortalbob') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43818,   1,   33561165) /* Setup */
-     , (43818,   3,  536870932) /* SoundTable */
-     , (43818,   8,  100691697) /* Icon */
-     , (43818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43818,   1, 0x02001A4D) /* Setup */
+     , (43818,   3, 0x20000014) /* SoundTable */
+     , (43818,   8, 0x06006EF1) /* Icon */
+     , (43818,  22, 0x3400002B) /* PhysicsEffectTable */;

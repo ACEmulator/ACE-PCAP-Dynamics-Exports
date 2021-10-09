@@ -52,17 +52,17 @@ VALUES (31787,   1, 'Flaming Claw') /* Name */
      , (31787,  16, 'Flaming Claw of Quickness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31787,   1,   33559644) /* Setup */
-     , (31787,   3,  536870932) /* SoundTable */
-     , (31787,   6,   67116700) /* PaletteBase */
-     , (31787,   8,  100688077) /* Icon */
-     , (31787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31787,   1, 0x0200145C) /* Setup */
+     , (31787,   3, 0x20000014) /* SoundTable */
+     , (31787,   6, 0x04001E9C) /* PaletteBase */
+     , (31787,   8, 0x060060CD) /* Icon */
+     , (31787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31787,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31787,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (31787,  2526,      2)  /* CANTRIPMONSTERATTUNEMENT2 */
      , (31787,  2081,      2)  /* QuicknessSelf7 */
-     , (31787,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31787,  2526,      2)  /* CANTRIPMONSTERATTUNEMENT2 */
      , (31787,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */
+     , (31787,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (31787,  1592,      2)  /* HeartSeekerSelf6 */
      , (31787,  2622,      2)  /* CANTRIPSTORMWARD1 */;

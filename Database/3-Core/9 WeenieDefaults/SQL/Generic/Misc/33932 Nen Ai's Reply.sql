@@ -25,7 +25,7 @@ VALUES (33932,   1, 'Nen Ai''s Reply') /* Name */
      , (33932,  16, 'A closed scroll, addressed to Larinne Kerendova, located at 35.2N 39.4E, between Holtburg and Cragstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33932,   1,   33554776) /* Setup */
-     , (33932,   3,  536870932) /* SoundTable */
-     , (33932,   8,  100667503) /* Icon */
-     , (33932,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33932,   1, 0x02000158) /* Setup */
+     , (33932,   3, 0x20000014) /* SoundTable */
+     , (33932,   8, 0x0600106F) /* Icon */
+     , (33932,  22, 0x3400002B) /* PhysicsEffectTable */;

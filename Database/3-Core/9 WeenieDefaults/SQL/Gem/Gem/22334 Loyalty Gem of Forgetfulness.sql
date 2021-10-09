@@ -21,7 +21,7 @@ VALUES (22334,   1, 'Loyalty Gem of Forgetfulness') /* Name */
      , (22334,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize the Loyalty skill. You cannot untrain the Loyalty skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22334,   1,   33558087) /* Setup */
-     , (22334,   6,   67111919) /* PaletteBase */
-     , (22334,   8,  100673789) /* Icon */
-     , (22334,  50,  100673773) /* IconOverlay */;
+VALUES (22334,   1, 0x02000E47) /* Setup */
+     , (22334,   6, 0x04000BEF) /* PaletteBase */
+     , (22334,   8, 0x060028FD) /* Icon */
+     , (22334,  50, 0x060028ED) /* IconOverlay */;

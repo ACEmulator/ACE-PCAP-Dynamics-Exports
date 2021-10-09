@@ -23,11 +23,11 @@ VALUES (25693,   1, 'Untranslated Note') /* Name */
      , (25693,  16, 'A note written in Empyrean script. It appears to be Dericost in nature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25693,   1,   33554773) /* Setup */
-     , (25693,   3,  536870932) /* SoundTable */
-     , (25693,   8,  100668176) /* Icon */
-     , (25693,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25693,   1, 0x02000155) /* Setup */
+     , (25693,   3, 0x20000014) /* SoundTable */
+     , (25693,   8, 0x06001310) /* Icon */
+     , (25693,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25693, 8040, 1565197102, 260.87, -649.73, 48.079, 0.9991644, 0, 0, 0.04087102) /* PCAPRecordedLocation */
+VALUES (25693, 8040, 0x5D4B032E, 260.87, -649.73, 48.079, 0.999164, 0, 0, 0.040871) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4B032E [260.870000 -649.730000 48.079000] 0.999164 0.000000 0.000000 0.040871 */;

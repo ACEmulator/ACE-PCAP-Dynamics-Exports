@@ -22,7 +22,7 @@ VALUES (47152,   1, 'Ancient Falatacot Symbol') /* Name */
      , (47152,  16, 'A metallic symbol taken from the Dark Falatacot, Izexi. The symbol is crafted from a material unlike any you have ever seen. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47152,   1,   33555205) /* Setup */
-     , (47152,   3,  536870932) /* SoundTable */
-     , (47152,   8,  100692972) /* Icon */
-     , (47152,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47152,   1, 0x02000305) /* Setup */
+     , (47152,   3, 0x20000014) /* SoundTable */
+     , (47152,   8, 0x060073EC) /* Icon */
+     , (47152,  22, 0x3400002B) /* PhysicsEffectTable */;

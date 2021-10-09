@@ -25,15 +25,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48774,   1, 'Spirit of Protection') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48774,   1,   33558816) /* Setup */
-     , (48774,   2,  150995302) /* MotionTable */
-     , (48774,   3,  536871094) /* SoundTable */
-     , (48774,   6,   67115251) /* PaletteBase */
-     , (48774,   8,  100676679) /* Icon */
-     , (48774,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (48774,   1, 0x02001120) /* Setup */
+     , (48774,   2, 0x09000166) /* MotionTable */
+     , (48774,   3, 0x200000B6) /* SoundTable */
+     , (48774,   6, 0x040018F3) /* PaletteBase */
+     , (48774,   8, 0x06003447) /* Icon */
+     , (48774,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48774, 8040, 1482817819, 90, -115.463, -23.9768, -0.00420373, 0, 0, 0.9999912) /* PCAPRecordedLocation */
+VALUES (48774, 8040, 0x5862011B, 90, -115.463, -23.9768, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x5862011B [90.000000 -115.463000 -23.976800] -0.004204 0.000000 0.000000 0.999991 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

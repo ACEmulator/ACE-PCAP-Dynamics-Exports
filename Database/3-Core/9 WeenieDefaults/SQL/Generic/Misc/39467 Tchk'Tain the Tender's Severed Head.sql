@@ -25,7 +25,7 @@ VALUES (39467,   1, 'Tchk''Tain the Tender''s Severed Head') /* Name */
      , (39467,  16, 'The severed head of T''thuun''s Sclavus servant, Tchk''Tain the Tender.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39467,   1,   33560683) /* Setup */
-     , (39467,   3,  536870932) /* SoundTable */
-     , (39467,   8,  100690297) /* Icon */
-     , (39467,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39467,   1, 0x0200186B) /* Setup */
+     , (39467,   3, 0x20000014) /* SoundTable */
+     , (39467,   8, 0x06006979) /* Icon */
+     , (39467,  22, 0x3400002B) /* PhysicsEffectTable */;

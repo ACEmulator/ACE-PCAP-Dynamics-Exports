@@ -28,12 +28,12 @@ VALUES (12222,   1, 'Mosswart Wand') /* Name */
      , (12222,  16, 'A wand with a shrunken mosswart head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12222,   1,   33557370) /* Setup */
-     , (12222,   3,  536870932) /* SoundTable */
-     , (12222,   6,   67111919) /* PaletteBase */
-     , (12222,   8,  100672180) /* Icon */
-     , (12222,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12222,   1, 0x02000B7A) /* Setup */
+     , (12222,   3, 0x20000014) /* SoundTable */
+     , (12222,   6, 0x04000BEF) /* PaletteBase */
+     , (12222,   8, 0x060022B4) /* Icon */
+     , (12222,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12222, 8040, 3583574079, 189.7847, 151.1363, 374.12, 0.1548352, 0, 0, -0.9879403) /* PCAPRecordedLocation */
+VALUES (12222, 8040, 0xD599003F, 189.7847, 151.1363, 374.12, 0.154835, 0, 0, -0.98794) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [189.784700 151.136300 374.120000] 0.154835 0.000000 0.000000 -0.987940 */;

@@ -18,9 +18,9 @@ VALUES (12631,   1, 'Musansayn') /* Name */
      , (12631,  16, 'Welcome to Musansayn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12631,   1,   33557463) /* Setup */
-     , (12631,   8,  100668115) /* Icon */;
+VALUES (12631,   1, 0x02000BD7) /* Setup */
+     , (12631,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12631, 8040, 2407792668, 91.511, 84.8376, 44, 0.683591, 0, 0, -0.729865) /* PCAPRecordedLocation */
+VALUES (12631, 8040, 0x8F84001C, 91.511, 84.8376, 44, 0.683591, 0, 0, -0.729865) /* PCAPRecordedLocation */
 /* @teleloc 0x8F84001C [91.511000 84.837600 44.000000] 0.683591 0.000000 0.000000 -0.729865 */;

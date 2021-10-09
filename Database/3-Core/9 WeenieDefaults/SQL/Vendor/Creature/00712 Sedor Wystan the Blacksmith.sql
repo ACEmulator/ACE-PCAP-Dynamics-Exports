@@ -35,20 +35,20 @@ VALUES (712,   1, 'Sedor Wystan the Blacksmith') /* Name */
      , (712,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (712,   1,   33554433) /* Setup */
-     , (712,   2,  150994945) /* MotionTable */
-     , (712,   3,  536870913) /* SoundTable */
-     , (712,   6,   67108990) /* PaletteBase */
-     , (712,   8,  100667446) /* Icon */
-     , (712,   9,   83890445) /* EyesTexture */
-     , (712,  10,   83890520) /* NoseTexture */
-     , (712,  11,   83890629) /* MouthTexture */
-     , (712,  15,   67116993) /* HairPalette */
-     , (712,  16,   67109567) /* EyesPalette */
-     , (712,  17,   67109559) /* SkinPalette */;
+VALUES (712,   1, 0x02000001) /* Setup */
+     , (712,   2, 0x09000001) /* MotionTable */
+     , (712,   3, 0x20000001) /* SoundTable */
+     , (712,   6, 0x0400007E) /* PaletteBase */
+     , (712,   8, 0x06001036) /* Icon */
+     , (712,   9, 0x0500110D) /* EyesTexture */
+     , (712,  10, 0x05001158) /* NoseTexture */
+     , (712,  11, 0x050011C5) /* MouthTexture */
+     , (712,  15, 0x04001FC1) /* HairPalette */
+     , (712,  16, 0x040002BF) /* EyesPalette */
+     , (712,  17, 0x040002B7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (712, 8040, 2847146240, 87.48, 131.04, 66.005, 0.08141148, 0, 0, -0.9966806) /* PCAPRecordedLocation */
+VALUES (712, 8040, 0xA9B40100, 87.48, 131.04, 66.005, 0.081411, 0, 0, -0.996681) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40100 [87.480000 131.040000 66.005000] 0.081411 0.000000 0.000000 -0.996681 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

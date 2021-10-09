@@ -22,7 +22,7 @@ VALUES (15813,   1, 'A Bronze Key') /* Name */
      , (15813,  15, 'A Key to Brontynn Marshad''s Chest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15813,   1,   33554784) /* Setup */
-     , (15813,   3,  536870932) /* SoundTable */
-     , (15813,   8,  100672825) /* Icon */
-     , (15813,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15813,   1, 0x02000160) /* Setup */
+     , (15813,   3, 0x20000014) /* SoundTable */
+     , (15813,   8, 0x06002539) /* Icon */
+     , (15813,  22, 0x3400002B) /* PhysicsEffectTable */;

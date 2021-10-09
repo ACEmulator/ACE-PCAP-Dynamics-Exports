@@ -46,14 +46,14 @@ VALUES (25906,   1, 'Mace of Dissonance') /* Name */
      , (25906,  16, 'A mace carved and decorated from the leg bone of a fearsome Colossal Mite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25906,   1,   33558559) /* Setup */
-     , (25906,   3,  536870932) /* SoundTable */
-     , (25906,   8,  100675636) /* Icon */
-     , (25906,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25906,   1, 0x0200101F) /* Setup */
+     , (25906,   3, 0x20000014) /* SoundTable */
+     , (25906,   8, 0x06003034) /* Icon */
+     , (25906,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25906,  1592,      2)  /* HeartSeekerSelf6 */
-     , (25906,  1605,      2)  /* DefenderSelf6 */
+VALUES (25906,  1605,      2)  /* DefenderSelf6 */
      , (25906,  1616,      2)  /* BloodDrinkerSelf6 */
      , (25906,  1626,      2)  /* SwiftKillerSelf5 */
-     , (25906,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (25906,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (25906,  1592,      2)  /* HeartSeekerSelf6 */;

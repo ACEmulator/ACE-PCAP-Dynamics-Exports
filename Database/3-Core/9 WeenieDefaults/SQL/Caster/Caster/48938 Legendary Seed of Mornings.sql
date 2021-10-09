@@ -40,19 +40,19 @@ VALUES (48938,   1, 'Legendary Seed of Mornings') /* Name */
      , (48938,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Mornings, underneath the desert sands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48938,   1,   33561509) /* Setup */
-     , (48938,   3,  536870932) /* SoundTable */
-     , (48938,   6,   67111919) /* PaletteBase */
-     , (48938,   8,  100692970) /* Icon */
-     , (48938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48938,   1, 0x02001BA5) /* Setup */
+     , (48938,   3, 0x20000014) /* SoundTable */
+     , (48938,   6, 0x04000BEF) /* PaletteBase */
+     , (48938,   8, 0x060073EA) /* Icon */
+     , (48938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48938,  28,       2072) /* Spell - HealOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48938, 8040, 23855444, 3.20751, -53.7546, -0.071, -0.6312358, -0.6312358, 0.3186554, 0.3186554) /* PCAPRecordedLocation */
+VALUES (48938, 8040, 0x016C0154, 3.20751, -53.7546, -0.071, -0.631236, -0.631236, 0.318655, 0.318655) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0154 [3.207510 -53.754600 -0.071000] -0.631236 -0.631236 0.318655 0.318655 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48938,  4582,      2)  /* LifeMagicMasterySelf8 */
-     , (48938,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (48938,  6086,      2)  /* CantripHermeticLink3 */
+     , (48938,  4582,      2)  /* LifeMagicMasterySelf8 */
      , (48938,  6060,      2)  /* CantripLifeMagicAptitude4 */
-     , (48938,  6086,      2)  /* CantripHermeticLink3 */;
+     , (48938,  4602,      2)  /* ManaMasterySelf8 */;

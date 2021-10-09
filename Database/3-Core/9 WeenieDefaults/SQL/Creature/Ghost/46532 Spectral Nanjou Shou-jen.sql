@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46532,   1, 'Spectral Nanjou Shou-jen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46532,   1,   33561479) /* Setup */
-     , (46532,   2,  150994945) /* MotionTable */
-     , (46532,   3,  536870942) /* SoundTable */
-     , (46532,   6,   67108990) /* PaletteBase */
-     , (46532,   8,  100669124) /* Icon */
-     , (46532,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (46532,   1, 0x02001B87) /* Setup */
+     , (46532,   2, 0x09000001) /* MotionTable */
+     , (46532,   3, 0x2000001E) /* SoundTable */
+     , (46532,   6, 0x0400007E) /* PaletteBase */
+     , (46532,   8, 0x060016C4) /* Icon */
+     , (46532,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46532, 8040, 1273167922, 167.1241, 47.86417, 62.08932, 0.05919048, 0, 0, -0.9982467) /* PCAPRecordedLocation */
+VALUES (46532, 8040, 0x4BE30032, 167.1241, 47.86417, 62.08932, 0.05919, 0, 0, -0.998247) /* PCAPRecordedLocation */
 /* @teleloc 0x4BE30032 [167.124100 47.864170 62.089320] 0.059190 0.000000 0.000000 -0.998247 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

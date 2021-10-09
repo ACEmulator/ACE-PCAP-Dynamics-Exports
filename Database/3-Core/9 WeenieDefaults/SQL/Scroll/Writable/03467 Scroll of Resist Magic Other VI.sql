@@ -23,7 +23,7 @@ VALUES (3467,   1, 'Scroll of Resist Magic Other VI') /* Name */
 Increases the target''s Magic Defense skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3467,   1,   33554826) /* Setup */
-     , (3467,   8,  100676465) /* Icon */
-     , (3467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3467,   1, 0x0200018A) /* Setup */
+     , (3467,   8, 0x06003371) /* Icon */
+     , (3467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3467,  28,        273) /* Spell - MagicResistanceOther6 */;

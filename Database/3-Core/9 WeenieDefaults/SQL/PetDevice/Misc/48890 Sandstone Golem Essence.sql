@@ -33,10 +33,10 @@ VALUES (48890,   1, 'Sandstone Golem Essence') /* Name */
      , (48890,  14, 'Use this essence to summon or dismiss your Sandstone Golem.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48890,   1,   33554817) /* Setup */
-     , (48890,   3,  536870932) /* SoundTable */
-     , (48890,   6,   67111919) /* PaletteBase */
-     , (48890,   8,  100693023) /* Icon */
-     , (48890,  22,  872415275) /* PhysicsEffectTable */
-     , (48890,  50,  100693038) /* IconOverlay */
-     , (48890,  52,  100693024) /* IconUnderlay */;
+VALUES (48890,   1, 0x02000181) /* Setup */
+     , (48890,   3, 0x20000014) /* SoundTable */
+     , (48890,   6, 0x04000BEF) /* PaletteBase */
+     , (48890,   8, 0x0600741F) /* Icon */
+     , (48890,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48890,  50, 0x0600742E) /* IconOverlay */
+     , (48890,  52, 0x06007420) /* IconUnderlay */;

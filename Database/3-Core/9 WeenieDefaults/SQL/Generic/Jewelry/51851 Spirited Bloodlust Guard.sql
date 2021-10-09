@@ -17,8 +17,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51851,   1, 'Spirited Bloodlust Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51851,   1,   33554689) /* Setup */
-     , (51851,   3,  536870932) /* SoundTable */
-     , (51851,   6,   67111919) /* PaletteBase */
-     , (51851,   8,  100693214) /* Icon */
-     , (51851,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51851,   1, 0x02000101) /* Setup */
+     , (51851,   3, 0x20000014) /* SoundTable */
+     , (51851,   6, 0x04000BEF) /* PaletteBase */
+     , (51851,   8, 0x060074DE) /* Icon */
+     , (51851,  22, 0x3400002B) /* PhysicsEffectTable */;

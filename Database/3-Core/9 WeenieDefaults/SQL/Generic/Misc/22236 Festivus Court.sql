@@ -18,9 +18,9 @@ VALUES (22236,   1, 'Festivus Court') /* Name */
      , (22236,  16, 'Festivus Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22236,   1,   33558050) /* Setup */
-     , (22236,   8,  100667499) /* Icon */;
+VALUES (22236,   1, 0x02000E22) /* Setup */
+     , (22236,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22236, 8040, 1448083835, 70.002, -56.672, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (22236, 8040, 0x5650017B, 70.002, -56.672, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5650017B [70.002000 -56.672000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

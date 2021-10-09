@@ -31,20 +31,20 @@ VALUES (38309,   1, 'Istonia Charson') /* Name */
      , (38309,   5, 'Inspector of Lords') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38309,   1,   33554510) /* Setup */
-     , (38309,   2,  150994945) /* MotionTable */
-     , (38309,   3,  536870914) /* SoundTable */
-     , (38309,   6,   67108990) /* PaletteBase */
-     , (38309,   8,  100667446) /* Icon */
-     , (38309,   9,   83890283) /* EyesTexture */
-     , (38309,  10,   83890316) /* NoseTexture */
-     , (38309,  11,   83890356) /* MouthTexture */
-     , (38309,  15,   67117079) /* HairPalette */
-     , (38309,  16,   67110065) /* EyesPalette */
-     , (38309,  17,   67109562) /* SkinPalette */;
+VALUES (38309,   1, 0x0200004E) /* Setup */
+     , (38309,   2, 0x09000001) /* MotionTable */
+     , (38309,   3, 0x20000002) /* SoundTable */
+     , (38309,   6, 0x0400007E) /* PaletteBase */
+     , (38309,   8, 0x06001036) /* Icon */
+     , (38309,   9, 0x0500106B) /* EyesTexture */
+     , (38309,  10, 0x0500108C) /* NoseTexture */
+     , (38309,  11, 0x050010B4) /* MouthTexture */
+     , (38309,  15, 0x04002017) /* HairPalette */
+     , (38309,  16, 0x040004B1) /* EyesPalette */
+     , (38309,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38309, 8040, 12059245, 147.607, -43.2072, -17.995, -0.998481, 0, 0, -0.0551035) /* PCAPRecordedLocation */
+VALUES (38309, 8040, 0x00B8026D, 147.607, -43.2072, -17.995, -0.998481, 0, 0, -0.055104) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026D [147.607000 -43.207200 -17.995000] -0.998481 0.000000 0.000000 -0.055104 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

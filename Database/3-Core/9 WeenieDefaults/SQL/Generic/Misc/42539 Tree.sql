@@ -22,5 +22,5 @@ VALUES (42539,   1, 'Tree') /* Name */
      , (42539,  16, 'A tree.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42539,   1,   33560938) /* Setup */
-     , (42539,   8,  100672642) /* Icon */;
+VALUES (42539,   1, 0x0200196A) /* Setup */
+     , (42539,   8, 0x06002482) /* Icon */;

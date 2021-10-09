@@ -52,17 +52,17 @@ VALUES (46190,   1, 'Shimmering Isparian Crossbow') /* Name */
      , (46190,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46190,   1,   33557730) /* Setup */
-     , (46190,   3,  536870932) /* SoundTable */
-     , (46190,   8,  100673202) /* Icon */
-     , (46190,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46190,   1, 0x02000CE2) /* Setup */
+     , (46190,   3, 0x20000014) /* SoundTable */
+     , (46190,   8, 0x060026B2) /* Icon */
+     , (46190,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46190, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (46190, 8040, 0x00070143, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46190,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46190,  2101,      2)  /* DefenderSelf7 */
-     , (46190,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46190,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;
+VALUES (46190,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46190,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46190,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46190,  2101,      2)  /* DefenderSelf7 */;

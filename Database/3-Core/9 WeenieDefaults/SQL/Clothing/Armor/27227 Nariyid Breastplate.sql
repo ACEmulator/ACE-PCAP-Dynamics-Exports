@@ -44,15 +44,15 @@ VALUES (27227,   1, 'Nariyid Breastplate') /* Name */
      , (27227,  16, 'Nariyid Breastplate of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27227,   1,   33554642) /* Setup */
-     , (27227,   3,  536870932) /* SoundTable */
-     , (27227,   6,   67108990) /* PaletteBase */
-     , (27227,   8,  100676151) /* Icon */
-     , (27227,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27227,   1, 0x020000D2) /* Setup */
+     , (27227,   3, 0x20000014) /* SoundTable */
+     , (27227,   6, 0x0400007E) /* PaletteBase */
+     , (27227,   8, 0x06003237) /* Icon */
+     , (27227,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27227,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27227,  2098,      2)  /* BludgeonBane7 */
-     , (27227,  2108,      2)  /* Impenetrability7 */
-     , (27227,  2185,      2)  /* RegenerationSelf7 */
-     , (27227,  2578,      2)  /* CANTRIPARMOR1 */;
+VALUES (27227,  2185,      2)  /* RegenerationSelf7 */
+     , (27227,  2578,      2)  /* CANTRIPARMOR1 */
+     , (27227,  2098,      2)  /* BludgeonBane7 */
+     , (27227,  2108,      2)  /* Impenetrability7 */;

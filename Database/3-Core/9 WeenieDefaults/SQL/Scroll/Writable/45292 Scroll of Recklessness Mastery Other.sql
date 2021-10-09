@@ -23,7 +23,7 @@ VALUES (45292,   1, 'Scroll of Recklessness Mastery Other') /* Name */
 Increases the target''s Recklessness skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45292,   1,   33554826) /* Setup */
-     , (45292,   8,  100676449) /* Icon */
-     , (45292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45292,   1, 0x0200018A) /* Setup */
+     , (45292,   8, 0x06003361) /* Icon */
+     , (45292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45292,  28,       5819) /* Spell - RecklessnessMasteryOther1 */;

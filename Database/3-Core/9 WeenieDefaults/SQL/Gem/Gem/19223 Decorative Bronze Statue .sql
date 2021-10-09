@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19223,   1, 'Decorative Bronze Statue ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19223,   1,   33556445) /* Setup */
-     , (19223,   2,  150995200) /* MotionTable */
-     , (19223,   6,   67112812) /* PaletteBase */
-     , (19223,   8,  100667445) /* Icon */
-     , (19223,  22,  872415383) /* PhysicsEffectTable */;
+VALUES (19223,   1, 0x020007DD) /* Setup */
+     , (19223,   2, 0x09000100) /* MotionTable */
+     , (19223,   6, 0x04000F6C) /* PaletteBase */
+     , (19223,   8, 0x06001035) /* Icon */
+     , (19223,  22, 0x34000097) /* PhysicsEffectTable */;

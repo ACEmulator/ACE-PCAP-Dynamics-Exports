@@ -18,9 +18,9 @@ VALUES (4421,   1, 'Sarthagg''s Jewels and Gems') /* Name */
      , (4421,  16, 'Sarthagg''s Jewels and Gems') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4421,   1,   33555593) /* Setup */
-     , (4421,   8,  100668115) /* Icon */;
+VALUES (4421,   1, 0x02000489) /* Setup */
+     , (4421,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4421, 8040, 3212836875, 44.6089, 60.2927, 48.8731, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4421, 8040, 0xBF80000B, 44.6089, 60.2927, 48.8731, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80000B [44.608900 60.292700 48.873100] -0.707107 0.000000 0.000000 -0.707107 */;

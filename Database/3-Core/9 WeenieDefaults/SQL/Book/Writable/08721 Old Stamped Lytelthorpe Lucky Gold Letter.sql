@@ -24,7 +24,7 @@ VALUES (8721,   1, 'Old Stamped Lytelthorpe Lucky Gold Letter') /* Name */
      , (8721,  15, 'A bright gold piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8721,   1,   33556919) /* Setup */
-     , (8721,   3,  536870932) /* SoundTable */
-     , (8721,   8,  100671214) /* Icon */
-     , (8721,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8721,   1, 0x020009B7) /* Setup */
+     , (8721,   3, 0x20000014) /* SoundTable */
+     , (8721,   8, 0x06001EEE) /* Icon */
+     , (8721,  22, 0x3400002B) /* PhysicsEffectTable */;

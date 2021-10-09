@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27415,   1, 'Baktak the Human Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27415,   1,   33556445) /* Setup */
-     , (27415,   2,  150994952) /* MotionTable */
-     , (27415,   3,  536870919) /* SoundTable */
-     , (27415,   6,   67112812) /* PaletteBase */
-     , (27415,   8,  100667445) /* Icon */
-     , (27415,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (27415,   1, 0x020007DD) /* Setup */
+     , (27415,   2, 0x09000008) /* MotionTable */
+     , (27415,   3, 0x20000007) /* SoundTable */
+     , (27415,   6, 0x04000F6C) /* PaletteBase */
+     , (27415,   8, 0x06001035) /* Icon */
+     , (27415,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27415, 8040, 1632305417, 15.7019, -44.313, 0.004199982, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
+VALUES (27415, 8040, 0x614B0109, 15.7019, -44.313, 0.0042, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x614B0109 [15.701900 -44.313000 0.004200] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

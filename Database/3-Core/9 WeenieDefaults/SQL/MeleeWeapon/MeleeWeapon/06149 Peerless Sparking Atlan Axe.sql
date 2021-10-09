@@ -44,19 +44,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6149,   1, 'Peerless Sparking Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6149,   1,   33556352) /* Setup */
-     , (6149,   3,  536870932) /* SoundTable */
-     , (6149,   8,  100670511) /* Icon */
-     , (6149,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6149,   1, 0x02000780) /* Setup */
+     , (6149,   3, 0x20000014) /* SoundTable */
+     , (6149,   8, 0x06001C2F) /* Icon */
+     , (6149,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6149, 8040, 3332964380, 78.7896, 80.49393, 41.929, 0.6225835, 0.6225835, -0.3352458, -0.3352458) /* PCAPRecordedLocation */
+VALUES (6149, 8040, 0xC6A9001C, 78.7896, 80.49393, 41.929, 0.622584, 0.622584, -0.335246, -0.335246) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.789600 80.493930 41.929000] 0.622584 0.622584 -0.335246 -0.335246 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6149,  1069,      2)  /* LightningProtectionSelf4 */
+VALUES (6149,  1603,      2)  /* DefenderSelf4 */
      , (6149,  1352,      2)  /* EnduranceSelf4 */
-     , (6149,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6149,  1603,      2)  /* DefenderSelf4 */
      , (6149,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6149,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6149,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6149,  1069,      2)  /* LightningProtectionSelf4 */
+     , (6149,  1590,      2)  /* HeartSeekerSelf4 */;

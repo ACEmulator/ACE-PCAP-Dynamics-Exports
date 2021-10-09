@@ -18,9 +18,9 @@ VALUES (647,   1, 'Lady of Blades') /* Name */
      , (647,  16, 'Lady of Blades') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (647,   1,   33555088) /* Setup */
-     , (647,   8,  100668115) /* Icon */;
+VALUES (647,   1, 0x02000290) /* Setup */
+     , (647,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (647, 8040, 3364618259, 48.6178, 58.4506, 22, 0.721156, 0, 0, -0.692773) /* PCAPRecordedLocation */
+VALUES (647, 8040, 0xC88C0013, 48.6178, 58.4506, 22, 0.721156, 0, 0, -0.692773) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C0013 [48.617800 58.450600 22.000000] 0.721156 0.000000 0.000000 -0.692773 */;

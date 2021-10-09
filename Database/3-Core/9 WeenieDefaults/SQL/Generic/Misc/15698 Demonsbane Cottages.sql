@@ -18,9 +18,9 @@ VALUES (15698,   1, 'Demonsbane Cottages') /* Name */
      , (15698,  16, 'Welcome to Demonsbane Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15698,   1,   33557463) /* Setup */
-     , (15698,   8,  100668115) /* Icon */;
+VALUES (15698,   1, 0x02000BD7) /* Setup */
+     , (15698,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15698, 8040, 2810839069, 83.0915, 108.411, 32, 0.691169, 0, 0, 0.722693) /* PCAPRecordedLocation */
+VALUES (15698, 8040, 0xA78A001D, 83.0915, 108.411, 32, 0.691169, 0, 0, 0.722693) /* PCAPRecordedLocation */
 /* @teleloc 0xA78A001D [83.091500 108.411000 32.000000] 0.691169 0.000000 0.000000 0.722693 */;

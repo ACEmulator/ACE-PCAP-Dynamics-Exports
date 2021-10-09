@@ -29,20 +29,20 @@ VALUES (32362,   1, 'Tomo Genza') /* Name */
      , (32362,   5, 'Bow Warrior') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32362,   1,   33554510) /* Setup */
-     , (32362,   2,  150994945) /* MotionTable */
-     , (32362,   3,  536870914) /* SoundTable */
-     , (32362,   6,   67108990) /* PaletteBase */
-     , (32362,   8,  100667446) /* Icon */
-     , (32362,   9,   83890263) /* EyesTexture */
-     , (32362,  10,   83890310) /* NoseTexture */
-     , (32362,  11,   83890325) /* MouthTexture */
-     , (32362,  15,   67117002) /* HairPalette */
-     , (32362,  16,   67110063) /* EyesPalette */
-     , (32362,  17,   67110048) /* SkinPalette */;
+VALUES (32362,   1, 0x0200004E) /* Setup */
+     , (32362,   2, 0x09000001) /* MotionTable */
+     , (32362,   3, 0x20000002) /* SoundTable */
+     , (32362,   6, 0x0400007E) /* PaletteBase */
+     , (32362,   8, 0x06001036) /* Icon */
+     , (32362,   9, 0x05001057) /* EyesTexture */
+     , (32362,  10, 0x05001086) /* NoseTexture */
+     , (32362,  11, 0x05001095) /* MouthTexture */
+     , (32362,  15, 0x04001FCA) /* HairPalette */
+     , (32362,  16, 0x040004AF) /* EyesPalette */
+     , (32362,  17, 0x040004A0) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32362, 8040, 2711879940, 61.8207, 150.627, 49.925, -0.9994254, 0, 0, -0.03389621) /* PCAPRecordedLocation */
+VALUES (32362, 8040, 0xA1A40104, 61.8207, 150.627, 49.925, -0.999425, 0, 0, -0.033896) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40104 [61.820700 150.627000 49.925000] -0.999425 0.000000 0.000000 -0.033896 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

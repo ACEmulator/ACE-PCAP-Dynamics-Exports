@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22688,   1, 'Tusker Lodge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22688,   1,   33555922) /* Setup */
-     , (22688,   2,  150994947) /* MotionTable */
-     , (22688,   8,  100667499) /* Icon */;
+VALUES (22688,   1, 0x020005D2) /* Setup */
+     , (22688,   2, 0x09000003) /* MotionTable */
+     , (22688,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22688, 8040, 4202627078, 7.6049, 120.782, 45.36843, 0.6267281, 0, 0, -0.779238) /* PCAPRecordedLocation */
+VALUES (22688, 8040, 0xFA7F0006, 7.6049, 120.782, 45.36843, 0.626728, 0, 0, -0.779238) /* PCAPRecordedLocation */
 /* @teleloc 0xFA7F0006 [7.604900 120.782000 45.368430] 0.626728 0.000000 0.000000 -0.779238 */;

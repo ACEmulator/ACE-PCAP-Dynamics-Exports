@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2016,   1, 'Green Mire Yari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2016,   1,   33554824) /* Setup */
-     , (2016,   3,  536870932) /* SoundTable */
-     , (2016,   6,   67111919) /* PaletteBase */
-     , (2016,   8,  100669088) /* Icon */
-     , (2016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2016,   1, 0x02000188) /* Setup */
+     , (2016,   3, 0x20000014) /* SoundTable */
+     , (2016,   6, 0x04000BEF) /* PaletteBase */
+     , (2016,   8, 0x060016A0) /* Icon */
+     , (2016,  22, 0x3400002B) /* PhysicsEffectTable */;

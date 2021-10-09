@@ -21,11 +21,11 @@ VALUES (260,   1, 'Cabbage') /* Name */
      , (260,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (260,   1,   33554669) /* Setup */
-     , (260,   3,  536870932) /* SoundTable */
-     , (260,   8,  100667456) /* Icon */
-     , (260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (260,   1, 0x020000ED) /* Setup */
+     , (260,   3, 0x20000014) /* SoundTable */
+     , (260,   8, 0x06001040) /* Icon */
+     , (260,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (260, 8040, 2507931904, 48.55273, 37.52774, 32.8, -0.996164, 0, 0, -0.0875022) /* PCAPRecordedLocation */
+VALUES (260, 8040, 0x957C0100, 48.55273, 37.52774, 32.8, -0.996164, 0, 0, -0.087502) /* PCAPRecordedLocation */
 /* @teleloc 0x957C0100 [48.552730 37.527740 32.800000] -0.996164 0.000000 0.000000 -0.087502 */;

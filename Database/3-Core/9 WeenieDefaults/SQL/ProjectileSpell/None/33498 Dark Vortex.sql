@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33498,   1, 'Dark Vortex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33498,   1,   33559986) /* Setup */
-     , (33498,   3,  536871110) /* SoundTable */
-     , (33498,   8,  100668442) /* Icon */
+VALUES (33498,   1, 0x020015B2) /* Setup */
+     , (33498,   3, 0x200000C6) /* SoundTable */
+     , (33498,   8, 0x0600141A) /* Icon */
      , (33498,  28,       3914) /* Spell - DarkVortex */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33498, 8040, 7734444, 239.7299, -203.7842, 2.379167, -0.00606478, 0, 0, -0.9999816) /* PCAPRecordedLocation */
+VALUES (33498, 8040, 0x007604AC, 239.7299, -203.7842, 2.379167, -0.006065, 0, 0, -0.999982) /* PCAPRecordedLocation */
 /* @teleloc 0x007604AC [239.729900 -203.784200 2.379167] -0.006065 0.000000 0.000000 -0.999982 */;

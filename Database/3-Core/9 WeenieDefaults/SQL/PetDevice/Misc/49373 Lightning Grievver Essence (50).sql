@@ -38,10 +38,10 @@ VALUES (49373,   1, 'Lightning Grievver Essence (50)') /* Name */
      , (49373,  14, 'Use this essence to summon or dismiss your Lightning Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49373,   1,   33554817) /* Setup */
-     , (49373,   3,  536870932) /* SoundTable */
-     , (49373,   6,   67111919) /* PaletteBase */
-     , (49373,   8,  100670960) /* Icon */
-     , (49373,  22,  872415275) /* PhysicsEffectTable */
-     , (49373,  50,  100693026) /* IconOverlay */
-     , (49373,  52,  100693024) /* IconUnderlay */;
+VALUES (49373,   1, 0x02000181) /* Setup */
+     , (49373,   3, 0x20000014) /* SoundTable */
+     , (49373,   6, 0x04000BEF) /* PaletteBase */
+     , (49373,   8, 0x06001DF0) /* Icon */
+     , (49373,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49373,  50, 0x06007422) /* IconOverlay */
+     , (49373,  52, 0x06007420) /* IconUnderlay */;

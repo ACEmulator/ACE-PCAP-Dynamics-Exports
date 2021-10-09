@@ -23,11 +23,11 @@ VALUES (20528,   1, 'Scroll of Odif''s Blessing') /* Name */
 Increases the caster''s Loyalty skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20528,   1,   33554826) /* Setup */
-     , (20528,   8,  100676446) /* Icon */
-     , (20528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20528,   1, 0x0200018A) /* Setup */
+     , (20528,   8, 0x0600335E) /* Icon */
+     , (20528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20528,  28,       2233) /* Spell - FealtySelf7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20528, 8040, 561119515, 93.34806, 78.45961, 116.3581, 0.9249085, 0, 0, -0.3801897) /* PCAPRecordedLocation */
+VALUES (20528, 8040, 0x2172011B, 93.34806, 78.45961, 116.3581, 0.924909, 0, 0, -0.38019) /* PCAPRecordedLocation */
 /* @teleloc 0x2172011B [93.348060 78.459610 116.358100] 0.924909 0.000000 0.000000 -0.380190 */;

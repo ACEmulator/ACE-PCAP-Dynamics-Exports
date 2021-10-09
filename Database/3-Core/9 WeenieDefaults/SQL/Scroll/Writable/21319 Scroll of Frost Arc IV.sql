@@ -23,7 +23,7 @@ VALUES (21319,   1, 'Scroll of Frost Arc IV') /* Name */
 Shoots a bolt of cold at the target. The bolt does 52-105 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21319,   1,   33554826) /* Setup */
-     , (21319,   8,  100677016) /* Icon */
-     , (21319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21319,   1, 0x0200018A) /* Setup */
+     , (21319,   8, 0x06003598) /* Icon */
+     , (21319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21319,  28,       2728) /* Spell - FrostArc4 */;

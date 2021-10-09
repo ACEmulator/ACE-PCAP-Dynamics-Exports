@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1778,   1, 'Scroll of Imperil Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1778,   1,   33554826) /* Setup */
-     , (1778,   8,  100676928) /* Icon */
-     , (1778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1778,   1, 0x0200018A) /* Setup */
+     , (1778,   8, 0x06003540) /* Icon */
+     , (1778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1778,  28,         25) /* Spell - ImperilOther1 */;

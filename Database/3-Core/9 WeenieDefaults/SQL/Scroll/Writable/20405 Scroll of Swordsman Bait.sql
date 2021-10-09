@@ -23,7 +23,7 @@ VALUES (20405,   1, 'Scroll of Swordsman Bait') /* Name */
 Decreases a shield or piece of armor''s resistance to slashing damage by 170%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20405,   1,   33554826) /* Setup */
-     , (20405,   8,  100676664) /* Icon */
-     , (20405,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20405,   1, 0x0200018A) /* Setup */
+     , (20405,   8, 0x06003438) /* Icon */
+     , (20405,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20405,  28,       2095) /* Spell - BladeLure7 */;

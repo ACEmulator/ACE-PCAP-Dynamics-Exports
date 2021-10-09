@@ -21,5 +21,5 @@ VALUES (22888,   1, 'Chrysoberyl compound') /* Name */
      , (22888,  16, 'A vial of Chrysoberyl compound') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22888,   1,   33554809) /* Setup */
-     , (22888,   8,  100673895) /* Icon */;
+VALUES (22888,   1, 0x02000179) /* Setup */
+     , (22888,   8, 0x06002967) /* Icon */;

@@ -23,7 +23,7 @@ VALUES (37755,   1, 'Inscription of Fire Protection Self') /* Name */
 Reduces damage the caster takes from Fire by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37755,   1,   33554826) /* Setup */
-     , (37755,   8,  100676949) /* Icon */
-     , (37755,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37755,   1, 0x0200018A) /* Setup */
+     , (37755,   8, 0x06003555) /* Icon */
+     , (37755,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37755,  28,       4468) /* Spell - FireProtectionSelf8 */;

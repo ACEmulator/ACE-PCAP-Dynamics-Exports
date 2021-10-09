@@ -24,11 +24,11 @@ VALUES (25706,   1, 'Broken Fishing Pole') /* Name */
      , (25706,  15, 'A broken fishing pole. No line, no bait, no use...or is there?') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25706,   1,   33558280) /* Setup */
-     , (25706,   3,  536870932) /* SoundTable */
-     , (25706,   8,  100669105) /* Icon */
-     , (25706,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25706,   1, 0x02000F08) /* Setup */
+     , (25706,   3, 0x20000014) /* SoundTable */
+     , (25706,   8, 0x060016B1) /* Icon */
+     , (25706,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25706, 8040, 1582105028, 166.448, -89.4057, 9.313226E-10, 0.893073, 0, 0, 0.449912) /* PCAPRecordedLocation */
+VALUES (25706, 8040, 0x5E4D01C4, 166.448, -89.4057, 0, 0.893073, 0, 0, 0.449912) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4D01C4 [166.448000 -89.405700 0.000000] 0.893073 0.000000 0.000000 0.449912 */;

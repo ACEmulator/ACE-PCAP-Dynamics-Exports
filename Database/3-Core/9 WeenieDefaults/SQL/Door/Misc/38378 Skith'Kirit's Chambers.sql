@@ -25,12 +25,12 @@ VALUES (38378,   1, 'Skith''Kirit''s Chambers') /* Name */
      , (38378,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38378,   1,   33558981) /* Setup */
-     , (38378,   2,  150995078) /* MotionTable */
-     , (38378,   3,  536870946) /* SoundTable */
-     , (38378,   8,  100668183) /* Icon */
-     , (38378,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38378,   1, 0x020011C5) /* Setup */
+     , (38378,   2, 0x09000086) /* MotionTable */
+     , (38378,   3, 0x20000022) /* SoundTable */
+     , (38378,   8, 0x06001317) /* Icon */
+     , (38378,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38378, 8040, 12255558, 40, -5, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38378, 8040, 0x00BB0146, 40, -5, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00BB0146 [40.000000 -5.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */;

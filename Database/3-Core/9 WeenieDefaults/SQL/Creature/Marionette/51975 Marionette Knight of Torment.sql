@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51975,   1, 'Marionette Knight of Torment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51975,   1,   33561230) /* Setup */
-     , (51975,   2,  150995099) /* MotionTable */
-     , (51975,   3,  536871024) /* SoundTable */
-     , (51975,   6,   67114692) /* PaletteBase */
-     , (51975,   8,  100671420) /* Icon */
-     , (51975,  22,  872415372) /* PhysicsEffectTable */;
+VALUES (51975,   1, 0x02001A8E) /* Setup */
+     , (51975,   2, 0x0900009B) /* MotionTable */
+     , (51975,   3, 0x20000070) /* SoundTable */
+     , (51975,   6, 0x040016C4) /* PaletteBase */
+     , (51975,   8, 0x06001FBC) /* Icon */
+     , (51975,  22, 0x3400008C) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51975, 8040, 1498677587, 48.40067, -94.60961, -41.9995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51975, 8040, 0x59540153, 48.40067, -94.60961, -41.9995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59540153 [48.400670 -94.609610 -41.999500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

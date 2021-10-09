@@ -45,8 +45,8 @@ VALUES (45104,   1, 'Acid Rapier') /* Name */
      , (45104,  16, 'Acid Rapier') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45104,   1,   33561416) /* Setup */
-     , (45104,   3,  536870932) /* SoundTable */
-     , (45104,   6,   67111919) /* PaletteBase */
-     , (45104,   8,  100670656) /* Icon */
-     , (45104,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45104,   1, 0x02001B48) /* Setup */
+     , (45104,   3, 0x20000014) /* SoundTable */
+     , (45104,   6, 0x04000BEF) /* PaletteBase */
+     , (45104,   8, 0x06001CC0) /* Icon */
+     , (45104,  22, 0x3400002B) /* PhysicsEffectTable */;

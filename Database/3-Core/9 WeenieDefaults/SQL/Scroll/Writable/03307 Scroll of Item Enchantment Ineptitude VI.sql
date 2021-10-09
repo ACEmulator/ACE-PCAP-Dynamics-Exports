@@ -23,7 +23,7 @@ VALUES (3307,   1, 'Scroll of Item Enchantment Ineptitude VI') /* Name */
 Decreases the target''s Item Enchantment skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3307,   1,   33554826) /* Setup */
-     , (3307,   8,  100676460) /* Icon */
-     , (3307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3307,   1, 0x0200018A) /* Setup */
+     , (3307,   8, 0x0600336C) /* Icon */
+     , (3307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3307,  28,        598) /* Spell - ItemEnchantmentIneptitudeOther6 */;

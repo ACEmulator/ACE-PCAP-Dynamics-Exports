@@ -40,19 +40,19 @@ VALUES (32520,   1, 'Fleet Strike Gauntlets') /* Name */
      , (32520,  16, 'A pair of bright leather gauntlets infused with magics to speed your actions.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32520,   1,   33554648) /* Setup */
-     , (32520,   3,  536870932) /* SoundTable */
-     , (32520,   6,   67108990) /* PaletteBase */
-     , (32520,   8,  100675318) /* Icon */
-     , (32520,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32520,   1, 0x020000D8) /* Setup */
+     , (32520,   3, 0x20000014) /* SoundTable */
+     , (32520,   6, 0x0400007E) /* PaletteBase */
+     , (32520,   8, 0x06002EF6) /* Icon */
+     , (32520,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32520,  1498,      2)  /* AcidBane6 */
-     , (32520,  1528,      2)  /* FrostBane6 */
+VALUES (32520,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
      , (32520,  1540,      2)  /* LightningBane6 */
-     , (32520,  1552,      2)  /* FlameBane6 */
-     , (32520,  2080,      2)  /* QuicknessOther7 */
-     , (32520,  2108,      2)  /* Impenetrability7 */
      , (32520,  2575,      2)  /* CANTRIPQUICKNESS2 */
-     , (32520,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
-     , (32520,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */;
+     , (32520,  1552,      2)  /* FlameBane6 */
+     , (32520,  1498,      2)  /* AcidBane6 */
+     , (32520,  2080,      2)  /* QuicknessOther7 */
+     , (32520,  1528,      2)  /* FrostBane6 */
+     , (32520,  2108,      2)  /* Impenetrability7 */
+     , (32520,  2623,      2)  /* CANTRIPHEALTHGAIN2 */;

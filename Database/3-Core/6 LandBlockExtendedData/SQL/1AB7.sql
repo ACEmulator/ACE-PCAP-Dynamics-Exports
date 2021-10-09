@@ -27,7 +27,7 @@ VALUES (0x71AB7005, 11520, 0x1AB70007, 2.580399, 166.9349, 98.22103, 1, 0, 0, 0,
 /* @teleloc 0x1AB70007 [2.580399 166.934900 98.221030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71AB7006,  1542, 0x1AB70013, 60.02391, 67.34364, 96, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71AB7006,  1542, 0x1AB70013, 60.02391, 67.34364, 96, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x1AB70013 [60.023910 67.343640 96.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -43,7 +43,7 @@ VALUES (0x71AB7006, 0x71AB7007, '2019-02-10 00:00:00') /* Menhir Stone (12097) *
      , (0x71AB7006, 0x71AB7010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71AB7007, 12097, 0x1AB70013, 60.02391, 67.34364, 96, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Menhir Stone */
+VALUES (0x71AB7007, 12097, 0x1AB70013, 60.02391, 67.34364, 96, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Menhir Stone */
 /* @teleloc 0x1AB70013 [60.023910 67.343640 96.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

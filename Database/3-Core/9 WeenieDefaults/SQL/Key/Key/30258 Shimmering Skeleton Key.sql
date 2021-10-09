@@ -25,8 +25,8 @@ VALUES (30258,   1, 'Shimmering Skeleton Key') /* Name */
      , (30258,  16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds.  It will open any locked chest or door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30258,   1,   33554784) /* Setup */
-     , (30258,   3,  536870932) /* SoundTable */
-     , (30258,   8,  100686710) /* Icon */
-     , (30258,  22,  872415275) /* PhysicsEffectTable */
-     , (30258,  52,  100686604) /* IconUnderlay */;
+VALUES (30258,   1, 0x02000160) /* Setup */
+     , (30258,   3, 0x20000014) /* SoundTable */
+     , (30258,   8, 0x06005B76) /* Icon */
+     , (30258,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30258,  52, 0x06005B0C) /* IconUnderlay */;

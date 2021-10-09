@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35961,   1, 'Dark Nanner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35961,   1,   33560349) /* Setup */
-     , (35961,   3,  536871114) /* SoundTable */
-     , (35961,   8,  100673809) /* Icon */
+VALUES (35961,   1, 0x0200171D) /* Setup */
+     , (35961,   3, 0x200000CA) /* SoundTable */
+     , (35961,   8, 0x06002911) /* Icon */
      , (35961,  28,       4124) /* Spell - WallDarkNanners */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35961, 8040, 3932946691, 203.5181, 249.5804, -45.861, 0.2915295, 0, 0, -0.9565618) /* PCAPRecordedLocation */
+VALUES (35961, 8040, 0xEA6C0103, 203.5181, 249.5804, -45.861, 0.29153, 0, 0, -0.956562) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0103 [203.518100 249.580400 -45.861000] 0.291530 0.000000 0.000000 -0.956562 */;

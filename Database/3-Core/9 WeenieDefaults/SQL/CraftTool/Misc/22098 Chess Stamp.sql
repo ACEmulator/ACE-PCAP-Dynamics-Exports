@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22098,   1, 'Chess Stamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22098,   1,   33556223) /* Setup */
-     , (22098,   3,  536870932) /* SoundTable */
-     , (22098,   6,   67111928) /* PaletteBase */
-     , (22098,   8,  100673243) /* Icon */
-     , (22098,  22,  872415275) /* PhysicsEffectTable */
-     , (22098,  50,  100673661) /* IconOverlay */
+VALUES (22098,   1, 0x020006FF) /* Setup */
+     , (22098,   3, 0x20000014) /* SoundTable */
+     , (22098,   6, 0x04000BF8) /* PaletteBase */
+     , (22098,   8, 0x060026DB) /* Icon */
+     , (22098,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22098,  50, 0x0600287D) /* IconOverlay */
      , (22098, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

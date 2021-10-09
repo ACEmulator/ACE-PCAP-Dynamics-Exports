@@ -45,20 +45,20 @@ VALUES (32985,   1, 'Princely Runed Poniard') /* Name */
      , (32985,  16, 'A poniard crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32985,   1,   33559868) /* Setup */
-     , (32985,   3,  536870932) /* SoundTable */
-     , (32985,   6,   67116417) /* PaletteBase */
-     , (32985,   8,  100686995) /* Icon */
-     , (32985,  22,  872415275) /* PhysicsEffectTable */
-     , (32985,  50,  100688913) /* IconOverlay */
+VALUES (32985,   1, 0x0200153C) /* Setup */
+     , (32985,   3, 0x20000014) /* SoundTable */
+     , (32985,   6, 0x04001D81) /* PaletteBase */
+     , (32985,   8, 0x06005C93) /* Icon */
+     , (32985,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32985,  50, 0x06006411) /* IconOverlay */
      , (32985,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32985, 8040, 23855554, 57.73664, -32.50163, -0.071, -0.7057333, -0.7057333, -0.04405093, -0.04405093) /* PCAPRecordedLocation */
+VALUES (32985, 8040, 0x016C01C2, 57.73664, -32.50163, -0.071, -0.705733, -0.705733, -0.044051, -0.044051) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.736640 -32.501630 -0.071000] -0.705733 -0.705733 -0.044051 -0.044051 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32985,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32985,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32985,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32985,  2101,      2)  /* DefenderSelf7 */
-     , (32985,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32985,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32985,  2106,      2)  /* HeartSeekerSelf7 */;

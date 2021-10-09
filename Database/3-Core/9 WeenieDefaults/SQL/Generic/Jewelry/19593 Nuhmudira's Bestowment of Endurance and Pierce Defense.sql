@@ -39,13 +39,13 @@ VALUES (19593,   1, 'Nuhmudira''s Bestowment of Endurance and Pierce Defense') /
      , (19593,  25, 'Gibsun II') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19593,   1,   33554687) /* Setup */
-     , (19593,   3,  536870932) /* SoundTable */
-     , (19593,   6,   67111919) /* PaletteBase */
-     , (19593,   8,  100672963) /* Icon */
-     , (19593,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19593,   1, 0x020000FF) /* Setup */
+     , (19593,   3, 0x20000014) /* SoundTable */
+     , (19593,   6, 0x04000BEF) /* PaletteBase */
+     , (19593,   8, 0x060025C3) /* Icon */
+     , (19593,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19593,  1143,      2)  /* PiercingProtectionOther5 */
-     , (19593,  1359,      2)  /* EnduranceOther5 */
-     , (19593,  2669,      2)  /* NuhmudirasBestowment */;
+VALUES (19593,  1359,      2)  /* EnduranceOther5 */
+     , (19593,  2669,      2)  /* NuhmudirasBestowment */
+     , (19593,  1143,      2)  /* PiercingProtectionOther5 */;

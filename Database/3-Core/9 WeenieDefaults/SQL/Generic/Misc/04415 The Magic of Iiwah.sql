@@ -18,9 +18,9 @@ VALUES (4415,   1, 'The Magic of Iiwah') /* Name */
      , (4415,  16, 'The Magic of Iiwah') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4415,   1,   33555088) /* Setup */
-     , (4415,   8,  100668115) /* Icon */;
+VALUES (4415,   1, 0x02000290) /* Setup */
+     , (4415,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4415, 8040, 3212836875, 37.6165, 52.5822, 44, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4415, 8040, 0xBF80000B, 37.6165, 52.5822, 44, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80000B [37.616500 52.582200 44.000000] 1.000000 0.000000 0.000000 0.000000 */;

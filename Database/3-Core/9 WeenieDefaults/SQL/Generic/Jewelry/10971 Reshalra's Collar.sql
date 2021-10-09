@@ -30,12 +30,12 @@ VALUES (10971,   1, 'Reshalra''s Collar') /* Name */
      , (10971,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10971,   1,   33554810) /* Setup */
-     , (10971,   3,  536870932) /* SoundTable */
-     , (10971,   8,  100671855) /* Icon */
-     , (10971,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10971,   1, 0x0200017A) /* Setup */
+     , (10971,   3, 0x20000014) /* SoundTable */
+     , (10971,   8, 0x0600216F) /* Icon */
+     , (10971,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10971,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10971,   957,      2)  /* FealtyOther6 */
-     , (10971,  1337,      2)  /* StrengthOther6 */;
+VALUES (10971,  1337,      2)  /* StrengthOther6 */
+     , (10971,   957,      2)  /* FealtyOther6 */;

@@ -44,8 +44,8 @@ VALUES (41064,   1, 'Lightning Khanda-handled Mace') /* Name */
      , (41064,  16, 'Lightning Khanda-handled Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41064,   1,   33560886) /* Setup */
-     , (41064,   3,  536870932) /* SoundTable */
-     , (41064,   6,   67115558) /* PaletteBase */
-     , (41064,   8,  100690648) /* Icon */
-     , (41064,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41064,   1, 0x02001936) /* Setup */
+     , (41064,   3, 0x20000014) /* SoundTable */
+     , (41064,   6, 0x04001A26) /* PaletteBase */
+     , (41064,   8, 0x06006AD8) /* Icon */
+     , (41064,  22, 0x3400002B) /* PhysicsEffectTable */;

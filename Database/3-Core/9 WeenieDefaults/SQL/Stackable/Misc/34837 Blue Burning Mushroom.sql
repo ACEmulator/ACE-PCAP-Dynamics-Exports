@@ -21,11 +21,11 @@ VALUES (34837,   1, 'Blue Burning Mushroom') /* Name */
      , (34837,  16, 'A large mushroom that glows with a blue light so bright it almost appears to be burning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34837,   1,   33560207) /* Setup */
-     , (34837,   3,  536870932) /* SoundTable */
-     , (34837,   8,  100689339) /* Icon */
-     , (34837,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34837,   1, 0x0200168F) /* Setup */
+     , (34837,   3, 0x20000014) /* SoundTable */
+     , (34837,   8, 0x060065BB) /* Icon */
+     , (34837,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34837, 8040, 13895148, 179.0735, -227.9897, -12.0025, 0.9393727, 0, 0, 0.3428979) /* PCAPRecordedLocation */
+VALUES (34837, 8040, 0x00D405EC, 179.0735, -227.9897, -12.0025, 0.939373, 0, 0, 0.342898) /* PCAPRecordedLocation */
 /* @teleloc 0x00D405EC [179.073500 -227.989700 -12.002500] 0.939373 0.000000 0.000000 0.342898 */;

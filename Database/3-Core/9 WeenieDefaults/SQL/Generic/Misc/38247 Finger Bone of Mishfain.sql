@@ -23,7 +23,7 @@ VALUES (38247,   1, 'Finger Bone of Mishfain') /* Name */
      , (38247,  16, 'A relic from the city father. He was the first of us to hear His whispers. He led us to the deep ocean where we built Nyr''leha near the deep water chasm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38247,   1,   33556593) /* Setup */
-     , (38247,   3,  536870932) /* SoundTable */
-     , (38247,   8,  100670681) /* Icon */
-     , (38247,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38247,   1, 0x02000871) /* Setup */
+     , (38247,   3, 0x20000014) /* SoundTable */
+     , (38247,   8, 0x06001CD9) /* Icon */
+     , (38247,  22, 0x3400002B) /* PhysicsEffectTable */;

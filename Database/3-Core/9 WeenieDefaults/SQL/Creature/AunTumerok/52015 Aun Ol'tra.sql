@@ -27,14 +27,14 @@ VALUES (52015,   1, 'Aun Ol''tra') /* Name */
      , (52015,   5, 'Tribal Advisor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52015,   1,   33557175) /* Setup */
-     , (52015,   2,  150995136) /* MotionTable */
-     , (52015,   3,  536870931) /* SoundTable */
-     , (52015,   6,   67113280) /* PaletteBase */
-     , (52015,   8,  100671756) /* Icon */;
+VALUES (52015,   1, 0x02000AB7) /* Setup */
+     , (52015,   2, 0x090000C0) /* MotionTable */
+     , (52015,   3, 0x20000013) /* SoundTable */
+     , (52015,   6, 0x04001140) /* PaletteBase */
+     , (52015,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52015, 8040, 808583188, 50.9705, 92.5624, 132.0055, 0.281985, 0, 0, -0.9594188) /* PCAPRecordedLocation */
+VALUES (52015, 8040, 0x30320014, 50.9705, 92.5624, 132.0055, 0.281985, 0, 0, -0.959419) /* PCAPRecordedLocation */
 /* @teleloc 0x30320014 [50.970500 92.562400 132.005500] 0.281985 0.000000 0.000000 -0.959419 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

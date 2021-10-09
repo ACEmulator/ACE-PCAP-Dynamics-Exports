@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49618,   1, 'Signpost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49618,   1,   33555088) /* Setup */
-     , (49618,   3,  536870932) /* SoundTable */
-     , (49618,   8,  100668115) /* Icon */
-     , (49618,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49618,   1, 0x02000290) /* Setup */
+     , (49618,   3, 0x20000014) /* SoundTable */
+     , (49618,   8, 0x060012D3) /* Icon */
+     , (49618,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49618, 8040, 2740977688, 63.1793, 175.069, 18, -0.931706, 0, 0, -0.363212) /* PCAPRecordedLocation */
+VALUES (49618, 8040, 0xA3600018, 63.1793, 175.069, 18, -0.931706, 0, 0, -0.363212) /* PCAPRecordedLocation */
 /* @teleloc 0xA3600018 [63.179300 175.069000 18.000000] -0.931706 0.000000 0.000000 -0.363212 */;

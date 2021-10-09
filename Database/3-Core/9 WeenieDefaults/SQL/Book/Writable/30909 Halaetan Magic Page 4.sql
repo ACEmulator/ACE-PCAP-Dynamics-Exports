@@ -20,7 +20,7 @@ VALUES (30909,   1, 'Halaetan Magic Page 4') /* Name */
      , (30909,  16, 'A portion of Carlo di Cenza''s journal. This is the fourth of ten pages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30909,   1,   33554773) /* Setup */
-     , (30909,   3,  536870932) /* SoundTable */
-     , (30909,   8,  100668176) /* Icon */
-     , (30909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30909,   1, 0x02000155) /* Setup */
+     , (30909,   3, 0x20000014) /* SoundTable */
+     , (30909,   8, 0x06001310) /* Icon */
+     , (30909,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43230,   1, 'Nether Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43230,   1,   33561128) /* Setup */
-     , (43230,   3,  536871126) /* SoundTable */
-     , (43230,   8,  100667494) /* Icon */
-     , (43230,  22,  872415436) /* PhysicsEffectTable */
+VALUES (43230,   1, 0x02001A28) /* Setup */
+     , (43230,   3, 0x200000D6) /* SoundTable */
+     , (43230,   8, 0x06001066) /* Icon */
+     , (43230,  22, 0x340000CC) /* PhysicsEffectTable */
      , (43230,  28,       5332) /* Spell - BaelzharonsNetherStreak */
      , (43230,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43230, 8040, 1615069445, 89.28131, -63.31721, -34.53136, -0.09044355, -0.001160622, -0.01277891, -0.9958189) /* PCAPRecordedLocation */
+VALUES (43230, 8040, 0x60440105, 89.28131, -63.31721, -34.53136, -0.090444, -0.001161, -0.012779, -0.995819) /* PCAPRecordedLocation */
 /* @teleloc 0x60440105 [89.281310 -63.317210 -34.531360] -0.090444 -0.001161 -0.012779 -0.995819 */;

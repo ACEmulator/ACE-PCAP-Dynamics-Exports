@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37095,   1, 'Northern Resonating Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37095,   1,   33555523) /* Setup */
-     , (37095,   2,  150995261) /* MotionTable */
-     , (37095,   3,  536870933) /* SoundTable */
-     , (37095,   8,  100672199) /* Icon */;
+VALUES (37095,   1, 0x02000443) /* Setup */
+     , (37095,   2, 0x0900013D) /* MotionTable */
+     , (37095,   3, 0x20000015) /* SoundTable */
+     , (37095,   8, 0x060022C7) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37095, 8040, 2831089679, 36, 156, 86, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37095, 8040, 0xA8BF000F, 36, 156, 86, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA8BF000F [36.000000 156.000000 86.000000] 1.000000 0.000000 0.000000 0.000000 */;

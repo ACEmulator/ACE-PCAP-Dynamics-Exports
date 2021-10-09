@@ -45,18 +45,18 @@ VALUES (44975,   1, 'Hood') /* Name */
      , (44975,  16, 'Hood of Magic Item Expertise') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44975,   1,   33556237) /* Setup */
-     , (44975,   3,  536870932) /* SoundTable */
-     , (44975,   6,   67108990) /* PaletteBase */
-     , (44975,   8,  100670346) /* Icon */
-     , (44975,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44975,   1, 0x0200070D) /* Setup */
+     , (44975,   3, 0x20000014) /* SoundTable */
+     , (44975,   6, 0x0400007E) /* PaletteBase */
+     , (44975,   8, 0x06001B8A) /* Icon */
+     , (44975,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44975, 8040, 3060727837, 78.09404, 118.5249, 45.35453, 0.8940971, 0, 0, -0.4478732) /* PCAPRecordedLocation */
+VALUES (44975, 8040, 0xB66F001D, 78.09404, 118.5249, 45.35453, 0.894097, 0, 0, -0.447873) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F001D [78.094040 118.524900 45.354530] 0.894097 0.000000 0.000000 -0.447873 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44975,  1552,      2)  /* FlameBane6 */
-     , (44975,  2108,      2)  /* Impenetrability7 */
      , (44975,  2277,      2)  /* MagicItemExpertiseSelf7 */
-     , (44975,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */;
+     , (44975,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
+     , (44975,  2108,      2)  /* Impenetrability7 */;

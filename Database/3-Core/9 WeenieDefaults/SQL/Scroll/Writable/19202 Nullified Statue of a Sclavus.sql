@@ -21,12 +21,12 @@ VALUES (19202,   1, 'Nullified Statue of a Sclavus') /* Name */
      , (19202,  15, 'This nullified shell is all that remains of the living Statue of a Sclavus that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19202,   1,   33555608) /* Setup */
-     , (19202,   2,  150995168) /* MotionTable */
-     , (19202,   3,  536871052) /* SoundTable */
-     , (19202,   6,   67111936) /* PaletteBase */
-     , (19202,   8,  100669120) /* Icon */;
+VALUES (19202,   1, 0x02000498) /* Setup */
+     , (19202,   2, 0x090000E0) /* MotionTable */
+     , (19202,   3, 0x2000008C) /* SoundTable */
+     , (19202,   6, 0x04000C00) /* PaletteBase */
+     , (19202,   8, 0x060016C0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19202, 8040, 3378184229, 107.572, 109.815, 18.8, -0.7103229, 0, 0, 0.703876) /* PCAPRecordedLocation */
+VALUES (19202, 8040, 0xC95B0025, 107.572, 109.815, 18.8, -0.710323, 0, 0, 0.703876) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0025 [107.572000 109.815000 18.800000] -0.710323 0.000000 0.000000 0.703876 */;

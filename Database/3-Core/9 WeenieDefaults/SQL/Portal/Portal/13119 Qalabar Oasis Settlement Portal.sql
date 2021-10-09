@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13119,   1, 'Qalabar Oasis Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13119,   1,   33554867) /* Setup */
-     , (13119,   2,  150994947) /* MotionTable */
-     , (13119,   8,  100667499) /* Icon */;
+VALUES (13119,   1, 0x020001B3) /* Setup */
+     , (13119,   2, 0x09000003) /* MotionTable */
+     , (13119,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13119, 8040, 2501967920, 123.558, 173.824, 121.937, -0.3180059, 0, 0, -0.9480887) /* PCAPRecordedLocation */
+VALUES (13119, 8040, 0x95210030, 123.558, 173.824, 121.937, -0.318006, 0, 0, -0.948089) /* PCAPRecordedLocation */
 /* @teleloc 0x95210030 [123.558000 173.824000 121.937000] -0.318006 0.000000 0.000000 -0.948089 */;

@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33894,   1, 'Abyssal Totem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33894,   1,   33560093) /* Setup */
-     , (33894,   2,  150995373) /* MotionTable */
-     , (33894,   3,  536870933) /* SoundTable */
-     , (33894,   8,  100689078) /* Icon */
-     , (33894,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (33894,   1, 0x0200161D) /* Setup */
+     , (33894,   2, 0x090001AD) /* MotionTable */
+     , (33894,   3, 0x20000015) /* SoundTable */
+     , (33894,   8, 0x060064B6) /* Icon */
+     , (33894,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33894, 8040, 9961735, 110, -10, -18, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33894, 8040, 0x00980107, 110, -10, -18, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00980107 [110.000000 -10.000000 -18.000000] 1.000000 0.000000 0.000000 0.000000 */;

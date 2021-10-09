@@ -24,7 +24,7 @@ VALUES (31350,   1, 'Mosswart Armband') /* Name */
      , (31350,  16, 'A decorative armband from a Mosswart Worshipper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31350,   1,   33554817) /* Setup */
-     , (31350,   3,  536870932) /* SoundTable */
-     , (31350,   8,  100687701) /* Icon */
-     , (31350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31350,   1, 0x02000181) /* Setup */
+     , (31350,   3, 0x20000014) /* SoundTable */
+     , (31350,   8, 0x06005F55) /* Icon */
+     , (31350,  22, 0x3400002B) /* PhysicsEffectTable */;

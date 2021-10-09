@@ -44,8 +44,8 @@ VALUES (31783,   1, 'Frost Claw') /* Name */
      , (31783,  16, 'Frost Claw') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31783,   1,   33559643) /* Setup */
-     , (31783,   3,  536870932) /* SoundTable */
-     , (31783,   6,   67116700) /* PaletteBase */
-     , (31783,   8,  100688078) /* Icon */
-     , (31783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31783,   1, 0x0200145B) /* Setup */
+     , (31783,   3, 0x20000014) /* SoundTable */
+     , (31783,   6, 0x04001E9C) /* PaletteBase */
+     , (31783,   8, 0x060060CE) /* Icon */
+     , (31783,  22, 0x3400002B) /* PhysicsEffectTable */;

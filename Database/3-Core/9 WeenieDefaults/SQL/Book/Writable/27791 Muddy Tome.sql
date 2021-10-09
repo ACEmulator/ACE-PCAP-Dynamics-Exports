@@ -20,11 +20,11 @@ VALUES (27791,   1, 'Muddy Tome') /* Name */
      , (27791,  15, 'A ancient, mud-caked tome.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27791,   1,   33554771) /* Setup */
-     , (27791,   3,  536870932) /* SoundTable */
-     , (27791,   8,  100668117) /* Icon */
-     , (27791,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27791,   1, 0x02000153) /* Setup */
+     , (27791,   3, 0x20000014) /* SoundTable */
+     , (27791,   8, 0x060012D5) /* Icon */
+     , (27791,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27791, 8040, 1665860207, 52.645, -68.3211, -23.943, -0.154562, 0, 0, 0.9879831) /* PCAPRecordedLocation */
+VALUES (27791, 8040, 0x634B026F, 52.645, -68.3211, -23.943, -0.154562, 0, 0, 0.987983) /* PCAPRecordedLocation */
 /* @teleloc 0x634B026F [52.645000 -68.321100 -23.943000] -0.154562 0.000000 0.000000 0.987983 */;

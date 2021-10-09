@@ -46,11 +46,11 @@ VALUES (22160,   1, 'Lightning Nabut') /* Name */
      , (22160,  16, 'Lightning Nabut of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22160,   1,   33558075) /* Setup */
-     , (22160,   3,  536870932) /* SoundTable */
-     , (22160,   6,   67111919) /* PaletteBase */
-     , (22160,   8,  100673626) /* Icon */
-     , (22160,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22160,   1, 0x02000E3B) /* Setup */
+     , (22160,   3, 0x20000014) /* SoundTable */
+     , (22160,   6, 0x04000BEF) /* PaletteBase */
+     , (22160,   8, 0x0600285A) /* Icon */
+     , (22160,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22160,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

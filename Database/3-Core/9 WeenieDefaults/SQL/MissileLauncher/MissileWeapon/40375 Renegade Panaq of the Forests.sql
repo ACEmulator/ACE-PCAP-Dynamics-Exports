@@ -53,10 +53,10 @@ VALUES (40375,   1, 'Renegade Panaq of the Forests') /* Name */
      , (40375,  25, 'Tzhar') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40375,   1,   33558662) /* Setup */
-     , (40375,   3,  536870932) /* SoundTable */
-     , (40375,   8,  100676377) /* Icon */
-     , (40375,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40375,   1, 0x02001086) /* Setup */
+     , (40375,   3, 0x20000014) /* SoundTable */
+     , (40375,   8, 0x06003319) /* Icon */
+     , (40375,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40375,  2446,      2)  /* GrowthGreater */

@@ -28,14 +28,14 @@ VALUES (24574,   1, 'Pagrok the Stone Collector') /* Name */
      , (24574,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24574,   1,   33557003) /* Setup */
-     , (24574,   2,  150994950) /* MotionTable */
-     , (24574,   3,  536870922) /* SoundTable */
-     , (24574,   6,   67113158) /* PaletteBase */
-     , (24574,   8,  100667447) /* Icon */;
+VALUES (24574,   1, 0x02000A0B) /* Setup */
+     , (24574,   2, 0x09000006) /* MotionTable */
+     , (24574,   3, 0x2000000A) /* SoundTable */
+     , (24574,   6, 0x040010C6) /* PaletteBase */
+     , (24574,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24574, 8040, 722600223, 56.3862, 74.628, 32.41, 0.4383079, 0, 0, -0.8988249) /* PCAPRecordedLocation */
+VALUES (24574, 8040, 0x2B12011F, 56.3862, 74.628, 32.41, 0.438308, 0, 0, -0.898825) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12011F [56.386200 74.628000 32.410000] 0.438308 0.000000 0.000000 -0.898825 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -28,12 +28,12 @@ VALUES (12223,   1, 'Skull Wand') /* Name */
      , (12223,  16, 'A wand with a shrunken skull on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12223,   1,   33557371) /* Setup */
-     , (12223,   3,  536870932) /* SoundTable */
-     , (12223,   6,   67111919) /* PaletteBase */
-     , (12223,   8,  100672181) /* Icon */
-     , (12223,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12223,   1, 0x02000B7B) /* Setup */
+     , (12223,   3, 0x20000014) /* SoundTable */
+     , (12223,   6, 0x04000BEF) /* PaletteBase */
+     , (12223,   8, 0x060022B5) /* Icon */
+     , (12223,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12223, 8040, 3465871405, 139.0125, 111.7819, 19.929, -0.3694622, -0.3694622, -0.6029077, -0.6029077) /* PCAPRecordedLocation */
+VALUES (12223, 8040, 0xCE95002D, 139.0125, 111.7819, 19.929, -0.369462, -0.369462, -0.602908, -0.602908) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [139.012500 111.781900 19.929000] -0.369462 -0.369462 -0.602908 -0.602908 */;

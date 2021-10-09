@@ -49,9 +49,9 @@ VALUES (40326,   1, 'Fist of Enlightenment') /* Name */
      , (40326,  16, 'An enchanted and highly elegant hand-to-hand weapon, blessed by the Master of the Tanada House of Fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40326,   1,   33559499) /* Setup */
-     , (40326,   3,  536870932) /* SoundTable */
-     , (40326,   6,   67115556) /* PaletteBase */
-     , (40326,   8,  100687027) /* Icon */
-     , (40326,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40326,   1, 0x020013CB) /* Setup */
+     , (40326,   3, 0x20000014) /* SoundTable */
+     , (40326,   6, 0x04001A24) /* PaletteBase */
+     , (40326,   8, 0x06005CB3) /* Icon */
+     , (40326,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40326,  55,       4967) /* ProcSpell - cleansingring */;

@@ -41,19 +41,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46615,   1, 'O-Yoroi Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46615,   1,   33554642) /* Setup */
-     , (46615,   3,  536870932) /* SoundTable */
-     , (46615,   6,   67108990) /* PaletteBase */
-     , (46615,   8,  100692794) /* Icon */
-     , (46615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46615,   1, 0x020000D2) /* Setup */
+     , (46615,   3, 0x20000014) /* SoundTable */
+     , (46615,   6, 0x0400007E) /* PaletteBase */
+     , (46615,   8, 0x0600733A) /* Icon */
+     , (46615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46615,  4391,      2)  /* AcidBane8 */
+VALUES (46615,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (46615,  4391,      2)  /* AcidBane8 */
      , (46615,  4393,      2)  /* BladeBane8 */
      , (46615,  4397,      2)  /* BludgeonBane8 */
      , (46615,  4401,      2)  /* FlameBane8 */
      , (46615,  4403,      2)  /* FrostBane8 */
      , (46615,  4407,      2)  /* Impenetrability8 */
      , (46615,  4409,      2)  /* LightningBane8 */
-     , (46615,  4412,      2)  /* PiercingBane8 */
-     , (46615,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+     , (46615,  4412,      2)  /* PiercingBane8 */;

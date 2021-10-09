@@ -23,7 +23,7 @@ VALUES (32206,   1, 'Pack Pumpkin Lord') /* Name */
      , (32206,  16, 'The vile and naughty Pumpkin Lord. He was grown from a bad seed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32206,   1,   33559753) /* Setup */
-     , (32206,   2,  150995144) /* MotionTable */
-     , (32206,   8,  100688456) /* Icon */
-     , (32206,  22,  872415326) /* PhysicsEffectTable */;
+VALUES (32206,   1, 0x020014C9) /* Setup */
+     , (32206,   2, 0x090000C8) /* MotionTable */
+     , (32206,   8, 0x06006248) /* Icon */
+     , (32206,  22, 0x3400005E) /* PhysicsEffectTable */;

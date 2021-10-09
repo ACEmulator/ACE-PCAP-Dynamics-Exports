@@ -23,10 +23,10 @@ VALUES (42153,   1, 'Castle of Baron Nuvillus') /* Name */
      , (42153,  16, 'A portal leading to the Castle of Baron Nuvillus where the Crown of Bone may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42153,   1,   33554867) /* Setup */
-     , (42153,   2,  150994947) /* MotionTable */
-     , (42153,   8,  100667499) /* Icon */;
+VALUES (42153,   1, 0x020001B3) /* Setup */
+     , (42153,   2, 0x09000003) /* MotionTable */
+     , (42153,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42153, 8040, 2315387283, 10.2261, -80.0236, 0.25273, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42153, 8040, 0x8A020193, 10.2261, -80.0236, 0.25273, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8A020193 [10.226100 -80.023600 0.252730] 1.000000 0.000000 0.000000 0.000000 */;

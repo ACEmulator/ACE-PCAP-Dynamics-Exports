@@ -18,9 +18,9 @@ VALUES (2242,   1, 'The Tumerok''s Head') /* Name */
      , (2242,  16, 'The Tumerok''s Head') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2242,   1,   33555088) /* Setup */
-     , (2242,   8,  100668115) /* Icon */;
+VALUES (2242,   1, 0x02000290) /* Setup */
+     , (2242,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2242, 8040, 3665100851, 158.339, 49.4984, 18, 0.999886, 0, 0, 0.0151275) /* PCAPRecordedLocation */
+VALUES (2242, 8040, 0xDA750033, 158.339, 49.4984, 18, 0.999886, 0, 0, 0.015128) /* PCAPRecordedLocation */
 /* @teleloc 0xDA750033 [158.339000 49.498400 18.000000] 0.999886 0.000000 0.000000 0.015128 */;

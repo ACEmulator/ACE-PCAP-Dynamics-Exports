@@ -47,13 +47,13 @@ VALUES (51854,   1, 'Rynthid Minion of Torment''s Mask') /* Name */
      , (51854,  25, 'Lunser Zanof') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51854,   1,   33561594) /* Setup */
-     , (51854,   3,  536870932) /* SoundTable */
-     , (51854,   8,  100693219) /* Icon */
-     , (51854,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51854,   1, 0x02001BFA) /* Setup */
+     , (51854,   3, 0x20000014) /* SoundTable */
+     , (51854,   8, 0x060074E3) /* Icon */
+     , (51854,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51854,  4291,      2)  /* ArmorSelf8 */
-     , (51854,  4407,      2)  /* Impenetrability8 */
      , (51854,  6051,      2)  /* CantripFealty4 */
-     , (51854,  6054,      2)  /* CantripImpregnability4 */;
+     , (51854,  6054,      2)  /* CantripImpregnability4 */
+     , (51854,  4407,      2)  /* Impenetrability8 */;

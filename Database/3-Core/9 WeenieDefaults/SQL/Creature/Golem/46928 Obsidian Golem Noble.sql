@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46928,   1, 'Obsidian Golem Noble') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46928,   1,   33556440) /* Setup */
-     , (46928,   2,  150995073) /* MotionTable */
-     , (46928,   3,  536870933) /* SoundTable */
-     , (46928,   8,  100667940) /* Icon */
-     , (46928,  22,  872415327) /* PhysicsEffectTable */;
+VALUES (46928,   1, 0x020007D8) /* Setup */
+     , (46928,   2, 0x09000081) /* MotionTable */
+     , (46928,   3, 0x20000015) /* SoundTable */
+     , (46928,   8, 0x06001224) /* Icon */
+     , (46928,  22, 0x3400005F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46928, 8040, 1481638147, 10, -55.4329, -11.9825, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46928, 8040, 0x58500103, 10, -55.4329, -11.9825, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58500103 [10.000000 -55.432900 -11.982500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

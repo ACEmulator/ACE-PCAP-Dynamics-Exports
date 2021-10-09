@@ -21,15 +21,15 @@ VALUES (0x7DB2F003,  4179, 0xDB2F0017, 48.01047, 161.6537, 236.5323, 1, 0, 0, 0,
 /* @teleloc 0xDB2F0017 [48.010470 161.653700 236.532300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB2F004,  9041, 0xDB2F0017, 48.57472, 158.9365, 236.9944, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Zairente's Frying Pan */
+VALUES (0x7DB2F004,  9041, 0xDB2F0017, 48.57472, 158.9365, 236.9944, 0.422618, 0, 0, -0.906308,  True, '2019-02-10 00:00:00'); /* Zairente's Frying Pan */
 /* @teleloc 0xDB2F0017 [48.574720 158.936500 236.994400] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB2F005,  9019, 0xDB2F0017, 48.75846, 160.8928, 236.7437, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
+VALUES (0x7DB2F005,  9019, 0xDB2F0017, 48.75846, 160.8928, 236.7437, 0.642788, 0, 0, -0.766044,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
 /* @teleloc 0xDB2F0017 [48.758460 160.892800 236.743700] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB2F006,  9025, 0xDB2F000F, 45.66063, 163.2762, 235.6139, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Zairente's Cooking Pot */
+VALUES (0x7DB2F006,  9025, 0xDB2F000F, 45.66063, 163.2762, 235.6139, 0.965926, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Zairente's Cooking Pot */
 /* @teleloc 0xDB2F000F [45.660630 163.276200 235.613900] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

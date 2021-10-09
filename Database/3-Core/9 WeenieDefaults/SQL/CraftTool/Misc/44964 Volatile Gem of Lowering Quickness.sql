@@ -28,7 +28,7 @@ VALUES (44964,   1, 'Volatile Gem of Lowering Quickness') /* Name */
      , (44964,  14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of quickness to another attribute. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44964,   1,   33558087) /* Setup */
-     , (44964,   6,   67111919) /* PaletteBase */
-     , (44964,   8,  100673789) /* Icon */
-     , (44964,  50,  100673965) /* IconOverlay */;
+VALUES (44964,   1, 0x02000E47) /* Setup */
+     , (44964,   6, 0x04000BEF) /* PaletteBase */
+     , (44964,   8, 0x060028FD) /* Icon */
+     , (44964,  50, 0x060029AD) /* IconOverlay */;

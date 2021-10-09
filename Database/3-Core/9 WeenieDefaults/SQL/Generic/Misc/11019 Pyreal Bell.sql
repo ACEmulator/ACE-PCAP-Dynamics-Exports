@@ -23,7 +23,7 @@ VALUES (11019,   1, 'Pyreal Bell') /* Name */
      , (11019,  16, 'A reforged Yalaini bell. If rung, its noise is enough to make the very stones beneath you shake.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11019,   1,   33557215) /* Setup */
-     , (11019,   3,  536871076) /* SoundTable */
-     , (11019,   8,  100671824) /* Icon */
-     , (11019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11019,   1, 0x02000ADF) /* Setup */
+     , (11019,   3, 0x200000A4) /* SoundTable */
+     , (11019,   8, 0x06002150) /* Icon */
+     , (11019,  22, 0x3400002B) /* PhysicsEffectTable */;

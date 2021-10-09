@@ -48,11 +48,11 @@ VALUES (7768,   1, 'Spiked Club') /* Name */
      , (7768,  16, 'Spiked Club of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7768,   1,   33556627) /* Setup */
-     , (7768,   3,  536870932) /* SoundTable */
-     , (7768,   6,   67111919) /* PaletteBase */
-     , (7768,   8,  100670780) /* Icon */
-     , (7768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7768,   1, 0x02000893) /* Setup */
+     , (7768,   3, 0x20000014) /* SoundTable */
+     , (7768,   6, 0x04000BEF) /* PaletteBase */
+     , (7768,   8, 0x06001D3C) /* Icon */
+     , (7768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7768,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

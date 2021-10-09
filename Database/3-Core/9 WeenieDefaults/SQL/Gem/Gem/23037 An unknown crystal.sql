@@ -21,5 +21,5 @@ VALUES (23037,   1, 'An unknown crystal') /* Name */
      , (23037,  15, 'A quantity of an unknown crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23037,   1,   33554809) /* Setup */
-     , (23037,   8,  100673955) /* Icon */;
+VALUES (23037,   1, 0x02000179) /* Setup */
+     , (23037,   8, 0x060029A3) /* Icon */;

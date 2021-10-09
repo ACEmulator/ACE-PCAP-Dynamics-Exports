@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2946,   1, 'Scroll of Frost Volley IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2946,   1,   33554826) /* Setup */
-     , (2946,   8,  100677016) /* Icon */
-     , (2946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2946,   1, 0x0200018A) /* Setup */
+     , (2946,   8, 0x06003598) /* Icon */
+     , (2946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2946,  28,        136) /* Spell - FrostVolley4 */
      , (2946, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

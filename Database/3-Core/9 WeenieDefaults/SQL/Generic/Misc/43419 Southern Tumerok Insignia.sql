@@ -24,7 +24,7 @@ VALUES (43419,   1, 'Southern Tumerok Insignia') /* Name */
      , (43419,  16, 'A warrior against the Tumeroks may be interested in such an item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43419,   1,   33554680) /* Setup */
-     , (43419,   3,  536870932) /* SoundTable */
-     , (43419,   8,  100667330) /* Icon */
-     , (43419,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43419,   1, 0x020000F8) /* Setup */
+     , (43419,   3, 0x20000014) /* SoundTable */
+     , (43419,   8, 0x06000FC2) /* Icon */
+     , (43419,  22, 0x3400002B) /* PhysicsEffectTable */;

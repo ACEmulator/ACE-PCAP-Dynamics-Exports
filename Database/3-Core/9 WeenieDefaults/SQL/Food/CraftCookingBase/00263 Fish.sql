@@ -23,11 +23,11 @@ VALUES (263,   1, 'Fish') /* Name */
      , (263,  20, 'Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (263,   1,   33558281) /* Setup */
-     , (263,   3,  536870932) /* SoundTable */
-     , (263,   8,  100667461) /* Icon */
-     , (263,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (263,   1, 0x02000F09) /* Setup */
+     , (263,   3, 0x20000014) /* SoundTable */
+     , (263,   8, 0x06001045) /* Icon */
+     , (263,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (263, 8040, 2507931904, 42.55587, 33.23129, 32.8, -0.9350538, 0, 0, 0.3545059) /* PCAPRecordedLocation */
+VALUES (263, 8040, 0x957C0100, 42.55587, 33.23129, 32.8, -0.935054, 0, 0, 0.354506) /* PCAPRecordedLocation */
 /* @teleloc 0x957C0100 [42.555870 33.231290 32.800000] -0.935054 0.000000 0.000000 0.354506 */;

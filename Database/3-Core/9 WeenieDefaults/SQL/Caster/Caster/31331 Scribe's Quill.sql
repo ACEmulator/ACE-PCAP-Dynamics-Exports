@@ -33,10 +33,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31331,   1, 'Scribe''s Quill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31331,   1,   33559612) /* Setup */
-     , (31331,   3,  536870932) /* SoundTable */
-     , (31331,   8,  100687946) /* Icon */
-     , (31331,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31331,   1, 0x0200143C) /* Setup */
+     , (31331,   3, 0x20000014) /* SoundTable */
+     , (31331,   8, 0x0600604A) /* Icon */
+     , (31331,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31331,  37,         28) /* ItemSkillLimit - WeaponTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

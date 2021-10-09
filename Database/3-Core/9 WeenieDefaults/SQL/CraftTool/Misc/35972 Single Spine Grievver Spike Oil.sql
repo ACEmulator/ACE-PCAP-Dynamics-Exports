@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35972,   1, 'Single Spine Grievver Spike Oil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35972,   1,   33554601) /* Setup */
-     , (35972,   3,  536870932) /* SoundTable */
-     , (35972,   8,  100689581) /* Icon */
-     , (35972,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35972,   1, 0x020000A9) /* Setup */
+     , (35972,   3, 0x20000014) /* SoundTable */
+     , (35972,   8, 0x060066AD) /* Icon */
+     , (35972,  22, 0x3400002B) /* PhysicsEffectTable */;

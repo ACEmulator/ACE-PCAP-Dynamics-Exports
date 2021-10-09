@@ -44,16 +44,16 @@ VALUES (35558,   1, 'Ice Wand') /* Name */
      , (35558,  16, 'Inscribed on the pale blue jewel of this wand are the runes of an unknown language.  It bears a unique affinity for spells of frost, and it seems to be filled with a deadly, otherworldly magic.  It is icy cold to the touch, a cold that evokes the bleak, chilling void of portalspace.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35558,   1,   33559423) /* Setup */
-     , (35558,   3,  536870932) /* SoundTable */
-     , (35558,   6,   67111919) /* PaletteBase */
-     , (35558,   8,  100686849) /* Icon */
-     , (35558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35558,   1, 0x0200137F) /* Setup */
+     , (35558,   3, 0x20000014) /* SoundTable */
+     , (35558,   6, 0x04000BEF) /* PaletteBase */
+     , (35558,   8, 0x06005C01) /* Icon */
+     , (35558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35558,  28,       1836) /* Spell - FrostStrike */
-     , (35558,  52,  100689403) /* IconUnderlay */;
+     , (35558,  52, 0x060065FB) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35558, 8040, 3583574079, 183.9669, 166.5373, 373.929, -0.242894, -0.242894, -0.6640802, -0.6640802) /* PCAPRecordedLocation */
+VALUES (35558, 8040, 0xD599003F, 183.9669, 166.5373, 373.929, -0.242894, -0.242894, -0.66408, -0.66408) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [183.966900 166.537300 373.929000] -0.242894 -0.242894 -0.664080 -0.664080 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

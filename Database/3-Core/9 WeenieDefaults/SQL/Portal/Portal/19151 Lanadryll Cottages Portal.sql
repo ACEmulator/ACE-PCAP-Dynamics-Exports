@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19151,   1, 'Lanadryll Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19151,   1,   33554867) /* Setup */
-     , (19151,   2,  150994947) /* MotionTable */
-     , (19151,   8,  100667499) /* Icon */;
+VALUES (19151,   1, 0x020001B3) /* Setup */
+     , (19151,   2, 0x09000003) /* MotionTable */
+     , (19151,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19151, 8040, 2762080274, 51.6668, 32.7865, 140.2426, -0.06861721, 0, 0, 0.9976431) /* PCAPRecordedLocation */
+VALUES (19151, 8040, 0xA4A20012, 51.6668, 32.7865, 140.2426, -0.068617, 0, 0, 0.997643) /* PCAPRecordedLocation */
 /* @teleloc 0xA4A20012 [51.666800 32.786500 140.242600] -0.068617 0.000000 0.000000 0.997643 */;

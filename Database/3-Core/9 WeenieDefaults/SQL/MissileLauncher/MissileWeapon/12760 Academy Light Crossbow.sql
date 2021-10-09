@@ -37,12 +37,12 @@ VALUES (12760,   1, 'Academy Light Crossbow') /* Name */
      , (12760,  15, 'An enhanced crossbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12760,   1,   33554733) /* Setup */
-     , (12760,   3,  536870932) /* SoundTable */
-     , (12760,   6,   67111919) /* PaletteBase */
-     , (12760,   8,  100668847) /* Icon */
-     , (12760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12760,   1, 0x0200012D) /* Setup */
+     , (12760,   3, 0x20000014) /* SoundTable */
+     , (12760,   6, 0x04000BEF) /* PaletteBase */
+     , (12760,   8, 0x060015AF) /* Icon */
+     , (12760,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12760, 8040, 3332964380, 79.47006, 95.90398, 41.93, 0.0747199, 0, 0, -0.9972045) /* PCAPRecordedLocation */
+VALUES (12760, 8040, 0xC6A9001C, 79.47006, 95.90398, 41.93, 0.07472, 0, 0, -0.997205) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [79.470060 95.903980 41.930000] 0.074720 0.000000 0.000000 -0.997205 */;

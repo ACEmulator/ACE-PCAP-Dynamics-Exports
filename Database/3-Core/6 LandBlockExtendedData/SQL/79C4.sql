@@ -33,11 +33,11 @@ VALUES (0x779C4005, 24280, 0x79C4002A, 120.9807, 25.86967, 204.0786, 1, 0, 0, 0,
 /* @teleloc 0x79C4002A [120.980700 25.869670 204.078600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779C4006,  7981, 0x79C40015, 57.95839, 118.1512, 290.9771, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
+VALUES (0x779C4006,  7981, 0x79C40015, 57.95839, 118.1512, 290.9771, 0.866025, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
 /* @teleloc 0x79C40015 [57.958390 118.151200 290.977100] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779C4007,  7981, 0x79C40015, 54.95839, 115.6512, 289.4771, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
+VALUES (0x779C4007,  7981, 0x79C40015, 54.95839, 115.6512, 289.4771, 0.819152, 0, 0, -0.573577,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
 /* @teleloc 0x79C40015 [54.958390 115.651200 289.477100] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,5 +53,5 @@ VALUES (0x779C400A,  7081, 0x79C4003B, 175.1505, 69.91015, 201.1045, 1, 0, 0, 0,
 /* @teleloc 0x79C4003B [175.150500 69.910150 201.104500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779C400B,  7089, 0x79C40020, 83.03965, 186.763, 298.0045, 0.9391105, 0, 0, -0.3436153,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
+VALUES (0x779C400B,  7089, 0x79C40020, 83.03965, 186.763, 298.0045, 0.939111, 0, 0, -0.343615,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
 /* @teleloc 0x79C40020 [83.039650 186.763000 298.004500] 0.939111 0.000000 0.000000 -0.343615 */

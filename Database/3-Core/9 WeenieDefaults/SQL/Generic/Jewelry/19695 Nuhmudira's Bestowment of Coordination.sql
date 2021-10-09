@@ -38,11 +38,11 @@ VALUES (19695,   1, 'Nuhmudira''s Bestowment of Coordination') /* Name */
      , (19695,  25, 'Al Bow') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19695,   1,   33554687) /* Setup */
-     , (19695,   3,  536870932) /* SoundTable */
-     , (19695,   6,   67111919) /* PaletteBase */
-     , (19695,   8,  100672963) /* Icon */
-     , (19695,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19695,   1, 0x020000FF) /* Setup */
+     , (19695,   3, 0x20000014) /* SoundTable */
+     , (19695,   6, 0x04000BEF) /* PaletteBase */
+     , (19695,   8, 0x060025C3) /* Icon */
+     , (19695,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19695,  1383,      2)  /* CoordinationOther5 */

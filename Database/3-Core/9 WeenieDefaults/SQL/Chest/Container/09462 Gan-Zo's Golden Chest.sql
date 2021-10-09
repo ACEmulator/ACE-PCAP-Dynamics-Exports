@@ -30,12 +30,12 @@ VALUES (9462,   1, 'Gan-Zo''s Golden Chest') /* Name */
      , (9462,  16, 'A large, garish golden chest, accessible to those who have enjoyed great good fortune at Gan-Zo''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9462,   1,   33557027) /* Setup */
-     , (9462,   2,  150994948) /* MotionTable */
-     , (9462,   3,  536870945) /* SoundTable */
-     , (9462,   8,  100671480) /* Icon */
-     , (9462,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9462,   1, 0x02000A23) /* Setup */
+     , (9462,   2, 0x09000004) /* MotionTable */
+     , (9462,   3, 0x20000021) /* SoundTable */
+     , (9462,   8, 0x06001FF8) /* Icon */
+     , (9462,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9462, 8040, 3679715584, 112, 132, 19.5, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (9462, 8040, 0xDB540100, 112, 132, 19.5, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540100 [112.000000 132.000000 19.500000] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -62,7 +62,7 @@ VALUES (0x70F09004, 25876, 0x0F090001, 23.65038, 12.17767, 159.9656, 1, 0, 0, 0,
 /* @teleloc 0x0F090001 [23.650380 12.177670 159.965600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F09005, 25876, 0x0F090009, 28.71756, 0.3508148, 161.7453, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
+VALUES (0x70F09005, 25876, 0x0F090009, 28.71756, 0.350815, 161.7453, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
 /* @teleloc 0x0F090009 [28.717560 0.350815 161.745300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -86,7 +86,7 @@ VALUES (0x70F0900A, 25888, 0x0F090001, 14.84288, 13.47512, 166.2277, 1, 0, 0, 0,
 /* @teleloc 0x0F090001 [14.842880 13.475120 166.227700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F0900B, 25854, 0x0F090010, 28.67542, 171.92, 26.48158, -0.0754646, 0, 0, -0.9971485,  True, '2019-02-10 00:00:00'); /* Befouled Doll */
+VALUES (0x70F0900B, 25854, 0x0F090010, 28.67542, 171.92, 26.48158, -0.075465, 0, 0, -0.997149,  True, '2019-02-10 00:00:00'); /* Befouled Doll */
 /* @teleloc 0x0F090010 [28.675420 171.920000 26.481580] -0.075465 0.000000 0.000000 -0.997149 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -206,7 +206,7 @@ VALUES (0x70F09028, 25851, 0x0F090018, 48.66801, 173.2592, 32.30973, 1, 0, 0, 0,
 /* @teleloc 0x0F090018 [48.668010 173.259200 32.309730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F09029, 25888, 0x0F090018, 50.20201, 189.5813, 39.03778, -0.0754646, 0, 0, -0.9971485,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+VALUES (0x70F09029, 25888, 0x0F090018, 50.20201, 189.5813, 39.03778, -0.075465, 0, 0, -0.997149,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
 /* @teleloc 0x0F090018 [50.202010 189.581300 39.037780] -0.075465 0.000000 0.000000 -0.997149 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -214,9 +214,9 @@ VALUES (0x70F0902A, 25851, 0x0F090010, 45.08601, 174.7447, 30.54841, 1, 0, 0, 0,
 /* @teleloc 0x0F090010 [45.086010 174.744700 30.548410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F0902B, 25888, 0x0F090010, 38.88509, 180.6231, 28.89966, -0.0754646, 0, 0, -0.9971485,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+VALUES (0x70F0902B, 25888, 0x0F090010, 38.88509, 180.6231, 28.89966, -0.075465, 0, 0, -0.997149,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
 /* @teleloc 0x0F090010 [38.885090 180.623100 28.899660] -0.075465 0.000000 0.000000 -0.997149 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F0902C, 25888, 0x0F090010, 42.17743, 189.7735, 33.87035, -0.0754646, 0, 0, -0.9971485,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+VALUES (0x70F0902C, 25888, 0x0F090010, 42.17743, 189.7735, 33.87035, -0.075465, 0, 0, -0.997149,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
 /* @teleloc 0x0F090010 [42.177430 189.773500 33.870350] -0.075465 0.000000 0.000000 -0.997149 */

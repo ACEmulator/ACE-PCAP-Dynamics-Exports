@@ -28,14 +28,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38942,   1, 'Grand Casino Chest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38942,   1,   33557027) /* Setup */
-     , (38942,   2,  150994948) /* MotionTable */
-     , (38942,   3,  536870945) /* SoundTable */
-     , (38942,   8,  100671480) /* Icon */
-     , (38942,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38942,   1, 0x02000A23) /* Setup */
+     , (38942,   2, 0x09000004) /* MotionTable */
+     , (38942,   3, 0x20000021) /* SoundTable */
+     , (38942,   8, 0x06001FF8) /* Icon */
+     , (38942,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38942, 8040, 3679715584, 105.007, 125.037, 20, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38942, 8040, 0xDB540100, 105.007, 125.037, 20, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540100 [105.007000 125.037000 20.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

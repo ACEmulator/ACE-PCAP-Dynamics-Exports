@@ -48,12 +48,12 @@ VALUES (3886,   1, 'Lightning Short Sword') /* Name */
      , (3886,  16, 'Lightning Short Sword') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3886,   1,   33555806) /* Setup */
-     , (3886,   3,  536870932) /* SoundTable */
-     , (3886,   8,  100667614) /* Icon */
-     , (3886,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3886,   1, 0x0200055E) /* Setup */
+     , (3886,   3, 0x20000014) /* SoundTable */
+     , (3886,   8, 0x060010DE) /* Icon */
+     , (3886,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3886,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3886,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3886,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3886,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3886,  1591,      2)  /* HeartSeekerSelf5 */;

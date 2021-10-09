@@ -25,6 +25,6 @@ VALUES (33988,   1, 'Fossilized Bone') /* Name */
      , (33988,  16, 'A large fossilized bone. You have no way of knowing how old it might be. The bone looks like it came from a huge bird''s wing. Its surface glows with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33988,   1,   33560098) /* Setup */
-     , (33988,   3,  536870932) /* SoundTable */
-     , (33988,   8,  100689106) /* Icon */;
+VALUES (33988,   1, 0x02001622) /* Setup */
+     , (33988,   3, 0x20000014) /* SoundTable */
+     , (33988,   8, 0x060064D2) /* Icon */;

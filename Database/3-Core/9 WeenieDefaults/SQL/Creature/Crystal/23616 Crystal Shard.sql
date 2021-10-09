@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23616,   1, 'Crystal Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23616,   1,   33556732) /* Setup */
-     , (23616,   2,  150995107) /* MotionTable */
-     , (23616,   3,  536871001) /* SoundTable */
-     , (23616,   6,   67111919) /* PaletteBase */
-     , (23616,   8,  100670283) /* Icon */
-     , (23616,  22,  872415347) /* PhysicsEffectTable */;
+VALUES (23616,   1, 0x020008FC) /* Setup */
+     , (23616,   2, 0x090000A3) /* MotionTable */
+     , (23616,   3, 0x20000059) /* SoundTable */
+     , (23616,   6, 0x04000BEF) /* PaletteBase */
+     , (23616,   8, 0x06001B4B) /* Icon */
+     , (23616,  22, 0x34000073) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23616, 8040, 2295660554, 25.72872, 35.49972, 172.8143, 0.72812, 0, 0, -0.6854497) /* PCAPRecordedLocation */
+VALUES (23616, 8040, 0x88D5000A, 25.72872, 35.49972, 172.8143, 0.72812, 0, 0, -0.68545) /* PCAPRecordedLocation */
 /* @teleloc 0x88D5000A [25.728720 35.499720 172.814300] 0.728120 0.000000 0.000000 -0.685450 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

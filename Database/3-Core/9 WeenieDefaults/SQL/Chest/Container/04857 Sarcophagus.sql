@@ -25,14 +25,14 @@ VALUES (4857,   1, 'Sarcophagus') /* Name */
      , (4857,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4857,   1,   33554638) /* Setup */
-     , (4857,   2,  150994980) /* MotionTable */
-     , (4857,   3,  536870949) /* SoundTable */
-     , (4857,   8,  100668103) /* Icon */
-     , (4857,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4857,   1, 0x020000CE) /* Setup */
+     , (4857,   2, 0x09000024) /* MotionTable */
+     , (4857,   3, 0x20000025) /* SoundTable */
+     , (4857,   8, 0x060012C7) /* Icon */
+     , (4857,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4857, 8040, 30867753, 6.27203, -62.8305, -18, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (4857, 8040, 0x01D70129, 6.27203, -62.8305, -18, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01D70129 [6.272030 -62.830500 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

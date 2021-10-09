@@ -24,7 +24,7 @@ VALUES (46432,   1, 'Shaped Arm Bone') /* Name */
      , (46432,  16, 'This ancient bone appears to be an arm bone. One end of the bone has been shaped into a notch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46432,   1,   33560099) /* Setup */
-     , (46432,   3,  536870932) /* SoundTable */
-     , (46432,   8,  100689107) /* Icon */
-     , (46432,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46432,   1, 0x02001623) /* Setup */
+     , (46432,   3, 0x20000014) /* SoundTable */
+     , (46432,   8, 0x060064D3) /* Icon */
+     , (46432,  22, 0x3400002B) /* PhysicsEffectTable */;

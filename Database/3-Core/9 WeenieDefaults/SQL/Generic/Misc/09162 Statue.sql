@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9162,   1, 'Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9162,   1,   33556966) /* Setup */
-     , (9162,   6,   67109310) /* PaletteBase */
-     , (9162,   8,  100667449) /* Icon */;
+VALUES (9162,   1, 0x020009E6) /* Setup */
+     , (9162,   6, 0x040001BE) /* PaletteBase */
+     , (9162,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9162, 8040, 44237060, 13.2282, 4.88946, 2.10013, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (9162, 8040, 0x02A30104, 13.2282, 4.88946, 2.10013, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02A30104 [13.228200 4.889460 2.100130] 0.000000 0.000000 0.000000 -1.000000 */;

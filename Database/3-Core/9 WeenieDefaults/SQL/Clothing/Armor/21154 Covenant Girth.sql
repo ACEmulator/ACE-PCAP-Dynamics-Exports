@@ -38,8 +38,8 @@ VALUES (21154,   1, 'Covenant Girth') /* Name */
      , (21154,  16, 'Covenant Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21154,   1,   33554647) /* Setup */
-     , (21154,   3,  536870932) /* SoundTable */
-     , (21154,   6,   67108990) /* PaletteBase */
-     , (21154,   8,  100673405) /* Icon */
-     , (21154,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21154,   1, 0x020000D7) /* Setup */
+     , (21154,   3, 0x20000014) /* SoundTable */
+     , (21154,   6, 0x0400007E) /* PaletteBase */
+     , (21154,   8, 0x0600277D) /* Icon */
+     , (21154,  22, 0x3400002B) /* PhysicsEffectTable */;

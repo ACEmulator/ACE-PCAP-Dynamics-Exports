@@ -40,8 +40,8 @@ VALUES (30591,   1, 'Partizan') /* Name */
      , (30591,  16, 'Partizan') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30591,   1,   33559320) /* Setup */
-     , (30591,   3,  536870932) /* SoundTable */
-     , (30591,   6,   67115560) /* PaletteBase */
-     , (30591,   8,  100686993) /* Icon */
-     , (30591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30591,   1, 0x02001318) /* Setup */
+     , (30591,   3, 0x20000014) /* SoundTable */
+     , (30591,   6, 0x04001A28) /* PaletteBase */
+     , (30591,   8, 0x06005C91) /* Icon */
+     , (30591,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,20 +29,20 @@ VALUES (14413,   1, 'Sir Rylanan') /* Name */
      , (14413,   5, 'Senior Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14413,   1,   33554433) /* Setup */
-     , (14413,   2,  150994945) /* MotionTable */
-     , (14413,   3,  536870913) /* SoundTable */
-     , (14413,   6,   67108990) /* PaletteBase */
-     , (14413,   8,  100667446) /* Icon */
-     , (14413,   9,   83890507) /* EyesTexture */
-     , (14413,  10,   83890546) /* NoseTexture */
-     , (14413,  11,   83890652) /* MouthTexture */
-     , (14413,  15,   67117071) /* HairPalette */
-     , (14413,  16,   67110062) /* EyesPalette */
-     , (14413,  17,   67109561) /* SkinPalette */;
+VALUES (14413,   1, 0x02000001) /* Setup */
+     , (14413,   2, 0x09000001) /* MotionTable */
+     , (14413,   3, 0x20000001) /* SoundTable */
+     , (14413,   6, 0x0400007E) /* PaletteBase */
+     , (14413,   8, 0x06001036) /* Icon */
+     , (14413,   9, 0x0500114B) /* EyesTexture */
+     , (14413,  10, 0x05001172) /* NoseTexture */
+     , (14413,  11, 0x050011DC) /* MouthTexture */
+     , (14413,  15, 0x0400200F) /* HairPalette */
+     , (14413,  16, 0x040004AE) /* EyesPalette */
+     , (14413,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14413, 8040, 2863857920, 34.9576, 87.9917, 116.005, -0.7194993, 0, 0, -0.6944931) /* PCAPRecordedLocation */
+VALUES (14413, 8040, 0xAAB30100, 34.9576, 87.9917, 116.005, -0.719499, 0, 0, -0.694493) /* PCAPRecordedLocation */
 /* @teleloc 0xAAB30100 [34.957600 87.991700 116.005000] -0.719499 0.000000 0.000000 -0.694493 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

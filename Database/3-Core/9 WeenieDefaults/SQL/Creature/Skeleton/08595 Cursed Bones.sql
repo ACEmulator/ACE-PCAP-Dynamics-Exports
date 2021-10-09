@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8595,   1, 'Cursed Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8595,   1,   33559531) /* Setup */
-     , (8595,   2,  150994981) /* MotionTable */
-     , (8595,   3,  536870942) /* SoundTable */
-     , (8595,   6,   67116522) /* PaletteBase */
-     , (8595,   8,  100669124) /* Icon */
-     , (8595,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (8595,   1, 0x020013EB) /* Setup */
+     , (8595,   2, 0x09000025) /* MotionTable */
+     , (8595,   3, 0x2000001E) /* SoundTable */
+     , (8595,   6, 0x04001DEA) /* PaletteBase */
+     , (8595,   8, 0x060016C4) /* Icon */
+     , (8595,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8595, 8040, 602865713, 155.5079, 14.27061, 0.002499938, -0.4359549, 0, 0, -0.8999685) /* PCAPRecordedLocation */
+VALUES (8595, 8040, 0x23EF0031, 155.5079, 14.27061, 0.0025, -0.435955, 0, 0, -0.899969) /* PCAPRecordedLocation */
 /* @teleloc 0x23EF0031 [155.507900 14.270610 0.002500] -0.435955 0.000000 0.000000 -0.899969 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

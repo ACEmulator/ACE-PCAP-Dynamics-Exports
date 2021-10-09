@@ -24,8 +24,8 @@ VALUES (12157,   1, 'Asteliary Gem') /* Name */
      , (12157,  16, 'A magical gem pulsing with the power of the Asteliary Crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12157,   1,   33554809) /* Setup */
-     , (12157,   3,  536870932) /* SoundTable */
-     , (12157,   6,   67111919) /* PaletteBase */
-     , (12157,   8,  100670992) /* Icon */
-     , (12157,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12157,   1, 0x02000179) /* Setup */
+     , (12157,   3, 0x20000014) /* SoundTable */
+     , (12157,   6, 0x04000BEF) /* PaletteBase */
+     , (12157,   8, 0x06001E10) /* Icon */
+     , (12157,  22, 0x3400002B) /* PhysicsEffectTable */;

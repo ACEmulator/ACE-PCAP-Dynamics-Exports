@@ -63,22 +63,22 @@ VALUES (37223,   1, 'Slashing Staff') /* Name */
      , (37223,  40, 'Crafty Flocka') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37223,   1,   33560656) /* Setup */
-     , (37223,   3,  536870932) /* SoundTable */
-     , (37223,   6,   67111919) /* PaletteBase */
-     , (37223,   8,  100690003) /* Icon */
-     , (37223,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37223,   1, 0x02001850) /* Setup */
+     , (37223,   3, 0x20000014) /* SoundTable */
+     , (37223,   6, 0x04000BEF) /* PaletteBase */
+     , (37223,   8, 0x06006853) /* Icon */
+     , (37223,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37223,  28,         91) /* Spell - ForceBolt6 */
-     , (37223,  52,  100676444) /* IconUnderlay */;
+     , (37223,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37223, 8040, 3465805872, 151.0719, 112.6264, 17.342, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (37223, 8040, 0xCE940030, 151.0719, 112.6264, 17.342, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940030 [151.071900 112.626400 17.342000] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37223,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37223,  3258,      2)  /* SpiritDrinkerSelf6 */
-     , (37223,  4400,      2)  /* DefenderSelf8 */
-     , (37223,  4433,      2)  /* AcidStream8 */
+VALUES (37223,  4433,      2)  /* AcidStream8 */
+     , (37223,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37223,  6098,      2)  /* CantripSpiritThirst4 */
      , (37223,  4638,      2)  /* WarMagicMasterySelf8 */
-     , (37223,  6098,      2)  /* CantripSpiritThirst4 */;
+     , (37223,  4400,      2)  /* DefenderSelf8 */
+     , (37223,  3258,      2)  /* SpiritDrinkerSelf6 */;

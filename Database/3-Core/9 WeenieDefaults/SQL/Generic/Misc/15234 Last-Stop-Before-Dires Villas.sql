@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15234,   1, 'Last-Stop-Before-Dires Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15234,   1,   33557463) /* Setup */
-     , (15234,   8,  100668115) /* Icon */;
+VALUES (15234,   1, 0x02000BD7) /* Setup */
+     , (15234,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15234, 8040, 1167851564, 125.453, 89.5323, 30, -0.913809, 0, 0, -0.406143) /* PCAPRecordedLocation */
+VALUES (15234, 8040, 0x459C002C, 125.453, 89.5323, 30, -0.913809, 0, 0, -0.406143) /* PCAPRecordedLocation */
 /* @teleloc 0x459C002C [125.453000 89.532300 30.000000] -0.913809 0.000000 0.000000 -0.406143 */;

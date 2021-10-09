@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49933,   1, 'Prismatic Shadow Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49933,   1,   33554656) /* Setup */
-     , (49933,   3,  536870932) /* SoundTable */
-     , (49933,   8,  100693093) /* Icon */
-     , (49933,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49933,   1, 0x020000E0) /* Setup */
+     , (49933,   3, 0x20000014) /* SoundTable */
+     , (49933,   8, 0x06007465) /* Icon */
+     , (49933,  22, 0x3400002B) /* PhysicsEffectTable */;

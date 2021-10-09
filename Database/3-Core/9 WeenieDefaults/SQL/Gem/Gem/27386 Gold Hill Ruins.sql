@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27386,   1, 'Gold Hill Ruins') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27386,   1,   33556769) /* Setup */
-     , (27386,   3,  536870932) /* SoundTable */
-     , (27386,   6,   67111919) /* PaletteBase */
-     , (27386,   8,  100668366) /* Icon */
-     , (27386,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27386,   1, 0x02000921) /* Setup */
+     , (27386,   3, 0x20000014) /* SoundTable */
+     , (27386,   6, 0x04000BEF) /* PaletteBase */
+     , (27386,   8, 0x060013CE) /* Icon */
+     , (27386,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27386,  28,        157) /* Spell - SummonPortal1 */
-     , (27386,  50,  100676404) /* IconOverlay */;
+     , (27386,  50, 0x06003334) /* IconOverlay */;

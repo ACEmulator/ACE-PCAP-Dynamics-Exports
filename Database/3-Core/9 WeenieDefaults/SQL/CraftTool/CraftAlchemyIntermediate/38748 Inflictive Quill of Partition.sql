@@ -21,6 +21,6 @@ VALUES (38748,   1, 'Inflictive Quill of Partition') /* Name */
      , (38748,  20, 'Inflictive Quills of Partition') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38748,   1,   33559616) /* Setup */
-     , (38748,   8,  100690196) /* Icon */
-     , (38748,  52,  100676438) /* IconUnderlay */;
+VALUES (38748,   1, 0x02001440) /* Setup */
+     , (38748,   8, 0x06006914) /* Icon */
+     , (38748,  52, 0x06003356) /* IconUnderlay */;

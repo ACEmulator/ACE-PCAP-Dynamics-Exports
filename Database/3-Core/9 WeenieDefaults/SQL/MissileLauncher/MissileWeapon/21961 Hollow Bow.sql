@@ -43,13 +43,13 @@ VALUES (21961,   1, 'Hollow Bow') /* Name */
      , (21961,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21961,   1,   33558059) /* Setup */
-     , (21961,   3,  536870932) /* SoundTable */
-     , (21961,   6,   67111919) /* PaletteBase */
-     , (21961,   8,  100668821) /* Icon */
-     , (21961,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21961,   1, 0x02000E2B) /* Setup */
+     , (21961,   3, 0x20000014) /* SoundTable */
+     , (21961,   6, 0x04000BEF) /* PaletteBase */
+     , (21961,   8, 0x06001595) /* Icon */
+     , (21961,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21961,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21961, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (21961, 8040, 0x00070143, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;

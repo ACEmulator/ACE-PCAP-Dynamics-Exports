@@ -23,7 +23,7 @@ VALUES (1696,   1, 'Scroll of Deception Mastery Self') /* Name */
 Increases the caster''s Deception skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1696,   1,   33554826) /* Setup */
-     , (1696,   8,  100676448) /* Icon */
-     , (1696,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1696,   1, 0x0200018A) /* Setup */
+     , (1696,   8, 0x06003360) /* Icon */
+     , (1696,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1696,  28,        850) /* Spell - DeceptionMasterySelf1 */;

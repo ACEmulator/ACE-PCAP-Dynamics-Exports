@@ -22,10 +22,10 @@ VALUES (43524,   1, 'Frozen Tomb') /* Name */
      , (43524,  16, 'This portal appears to be warded against intrusion.  Perhaps Nalicana, in Asheron''s Castle, will know more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43524,   1,   33555925) /* Setup */
-     , (43524,   2,  150994947) /* MotionTable */
-     , (43524,   8,  100667499) /* Icon */;
+VALUES (43524,   1, 0x020005D5) /* Setup */
+     , (43524,   2, 0x09000003) /* MotionTable */
+     , (43524,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43524, 8040, 1994981809, 139.36, 331.079, 94.73701, 0.9765739, 0, 0, -0.215182) /* PCAPRecordedLocation */
+VALUES (43524, 8040, 0x76E901B1, 139.36, 331.079, 94.73701, 0.976574, 0, 0, -0.215182) /* PCAPRecordedLocation */
 /* @teleloc 0x76E901B1 [139.360000 331.079000 94.737010] 0.976574 0.000000 0.000000 -0.215182 */;

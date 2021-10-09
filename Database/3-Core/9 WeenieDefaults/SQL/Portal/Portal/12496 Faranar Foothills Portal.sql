@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12496,   1, 'Faranar Foothills Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12496,   1,   33554867) /* Setup */
-     , (12496,   2,  150994947) /* MotionTable */
-     , (12496,   8,  100667499) /* Icon */;
+VALUES (12496,   1, 0x020001B3) /* Setup */
+     , (12496,   2, 0x09000003) /* MotionTable */
+     , (12496,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12496, 8040, 3094478878, 91.144, 125.044, 19.16667, 0.404527, 0, 0, -0.914526) /* PCAPRecordedLocation */
+VALUES (12496, 8040, 0xB872001E, 91.144, 125.044, 19.16667, 0.404527, 0, 0, -0.914526) /* PCAPRecordedLocation */
 /* @teleloc 0xB872001E [91.144000 125.044000 19.166670] 0.404527 0.000000 0.000000 -0.914526 */;

@@ -37,12 +37,12 @@ VALUES (45543,   1, 'Academy Budiaq') /* Name */
      , (45543,  15, 'An enhanced budiaq crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45543,   1,   33554756) /* Setup */
-     , (45543,   3,  536870932) /* SoundTable */
-     , (45543,   6,   67111919) /* PaletteBase */
-     , (45543,   8,  100669007) /* Icon */
-     , (45543,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45543,   1, 0x02000144) /* Setup */
+     , (45543,   3, 0x20000014) /* SoundTable */
+     , (45543,   6, 0x04000BEF) /* PaletteBase */
+     , (45543,   8, 0x0600164F) /* Icon */
+     , (45543,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45543, 8040, 2595618858, 85.25459, 7.857039, 93.9295, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (45543, 8040, 0x9AB6002A, 85.25459, 7.857039, 93.9295, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0x9AB6002A [85.254590 7.857039 93.929500] 0.704927 0.704927 -0.055479 -0.055479 */;

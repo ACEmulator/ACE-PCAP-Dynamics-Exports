@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37093,   1, 'Ley Leech''s Medallion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37093,   1,   33554689) /* Setup */
-     , (37093,   3,  536870932) /* SoundTable */
-     , (37093,   8,  100689807) /* Icon */
-     , (37093,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37093,   1, 0x02000101) /* Setup */
+     , (37093,   3, 0x20000014) /* SoundTable */
+     , (37093,   8, 0x0600678F) /* Icon */
+     , (37093,  22, 0x3400002B) /* PhysicsEffectTable */;

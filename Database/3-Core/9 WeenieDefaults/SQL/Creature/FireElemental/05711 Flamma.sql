@@ -25,14 +25,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5711,   1, 'Flamma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5711,   1,   33556131) /* Setup */
-     , (5711,   2,  150995087) /* MotionTable */
-     , (5711,   3,  536870998) /* SoundTable */
-     , (5711,   8,  100670274) /* Icon */
-     , (5711,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (5711,   1, 0x020006A3) /* Setup */
+     , (5711,   2, 0x0900008F) /* MotionTable */
+     , (5711,   3, 0x20000056) /* SoundTable */
+     , (5711,   8, 0x06001B42) /* Icon */
+     , (5711,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5711, 8040, 2278948924, 179.2975, 93.85378, 167.3057, -0.2369562, 0, 0, -0.9715203) /* PCAPRecordedLocation */
+VALUES (5711, 8040, 0x87D6003C, 179.2975, 93.85378, 167.3057, -0.236956, 0, 0, -0.97152) /* PCAPRecordedLocation */
 /* @teleloc 0x87D6003C [179.297500 93.853780 167.305700] -0.236956 0.000000 0.000000 -0.971520 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

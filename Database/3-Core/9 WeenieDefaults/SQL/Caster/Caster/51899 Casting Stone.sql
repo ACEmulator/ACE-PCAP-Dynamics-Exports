@@ -51,15 +51,15 @@ VALUES (51899,   1, 'Casting Stone') /* Name */
      , (51899,  16, 'A large stone that is remarkably light for its size. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51899,   1,   33555863) /* Setup */
-     , (51899,   3,  536870932) /* SoundTable */
-     , (51899,   8,  100667500) /* Icon */
-     , (51899,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51899,   1, 0x02000597) /* Setup */
+     , (51899,   3, 0x20000014) /* SoundTable */
+     , (51899,   8, 0x0600106C) /* Icon */
+     , (51899,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51899, 8040, 8913714, 58.64536, -116.4004, -18.071, 0.2872908, 0.2872908, 0.6461146, 0.6461146) /* PCAPRecordedLocation */
+VALUES (51899, 8040, 0x00880332, 58.64536, -116.4004, -18.071, 0.287291, 0.287291, 0.646115, 0.646115) /* PCAPRecordedLocation */
 /* @teleloc 0x00880332 [58.645360 -116.400400 -18.071000] 0.287291 0.287291 0.646115 0.646115 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51899,  6075,      2)  /* CantripWarMagicAptitude4 */
-     , (51899,  6101,      2)  /* CantripWillpower4 */;
+VALUES (51899,  6101,      2)  /* CantripWillpower4 */
+     , (51899,  6075,      2)  /* CantripWarMagicAptitude4 */;

@@ -35,10 +35,10 @@ VALUES (32260,   1, 'Plain Mukkir Orb') /* Name */
      , (32260,  16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32260,   1,   33559761) /* Setup */
-     , (32260,   3,  536870932) /* SoundTable */
-     , (32260,   8,  100688412) /* Icon */
-     , (32260,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32260,   1, 0x020014D1) /* Setup */
+     , (32260,   3, 0x20000014) /* SoundTable */
+     , (32260,   8, 0x0600621C) /* Icon */
+     , (32260,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32260,  28,       3861) /* Spell - CantripTasteForBlood */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1614,   1, 'Jade Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1614,   1,   33554487) /* Setup */
-     , (1614,   2,  150994971) /* MotionTable */
-     , (1614,   3,  536870921) /* SoundTable */
-     , (1614,   6,   67109307) /* PaletteBase */
-     , (1614,   8,  100667938) /* Icon */
-     , (1614,  22,  872415260) /* PhysicsEffectTable */
+VALUES (1614,   1, 0x02000037) /* Setup */
+     , (1614,   2, 0x0900001B) /* MotionTable */
+     , (1614,   3, 0x20000009) /* SoundTable */
+     , (1614,   6, 0x040001BB) /* PaletteBase */
+     , (1614,   8, 0x06001222) /* Icon */
+     , (1614,  22, 0x3400001C) /* PhysicsEffectTable */
      , (1614,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1614, 8040, 3043819523, 17.6437, 64.09154, 31.34546, 0.7901153, 0, 0, -0.6129583) /* PCAPRecordedLocation */
+VALUES (1614, 8040, 0xB56D0003, 17.6437, 64.09154, 31.34546, 0.790115, 0, 0, -0.612958) /* PCAPRecordedLocation */
 /* @teleloc 0xB56D0003 [17.643700 64.091540 31.345460] 0.790115 0.000000 0.000000 -0.612958 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

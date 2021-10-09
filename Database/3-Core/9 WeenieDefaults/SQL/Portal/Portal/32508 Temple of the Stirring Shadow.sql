@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32508,   1, 'Temple of the Stirring Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32508,   1,   33555925) /* Setup */
-     , (32508,   2,  150994947) /* MotionTable */
-     , (32508,   8,  100667499) /* Icon */;
+VALUES (32508,   1, 0x020005D5) /* Setup */
+     , (32508,   2, 0x09000003) /* MotionTable */
+     , (32508,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32508, 8040, 3369861171, 149.922, 53.7641, 31.937, 0.9133849, 0, 0, -0.407097) /* PCAPRecordedLocation */
+VALUES (32508, 8040, 0xC8DC0033, 149.922, 53.7641, 31.937, 0.913385, 0, 0, -0.407097) /* PCAPRecordedLocation */
 /* @teleloc 0xC8DC0033 [149.922000 53.764100 31.937000] 0.913385 0.000000 0.000000 -0.407097 */;

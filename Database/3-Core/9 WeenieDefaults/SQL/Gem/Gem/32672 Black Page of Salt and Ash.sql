@@ -34,9 +34,9 @@ VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
      , (32672,  20, 'Black Pages of Salt and Ash') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32672,   1,   33554809) /* Setup */
-     , (32672,   3,  536870932) /* SoundTable */
-     , (32672,   6,   67111919) /* PaletteBase */
-     , (32672,   8,  100688622) /* Icon */
-     , (32672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32672,   1, 0x02000179) /* Setup */
+     , (32672,   3, 0x20000014) /* SoundTable */
+     , (32672,   6, 0x04000BEF) /* PaletteBase */
+     , (32672,   8, 0x060062EE) /* Icon */
+     , (32672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */;

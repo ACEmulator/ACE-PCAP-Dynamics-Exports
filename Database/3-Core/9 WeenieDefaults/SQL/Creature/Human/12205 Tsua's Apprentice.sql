@@ -29,20 +29,20 @@ VALUES (12205,   1, 'Tsua''s Apprentice') /* Name */
      , (12205,   5, 'Apprentice Mask Maker') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12205,   1,   33554510) /* Setup */
-     , (12205,   2,  150994945) /* MotionTable */
-     , (12205,   3,  536870914) /* SoundTable */
-     , (12205,   6,   67108990) /* PaletteBase */
-     , (12205,   8,  100667446) /* Icon */
-     , (12205,   9,   83890276) /* EyesTexture */
-     , (12205,  10,   83890287) /* NoseTexture */
-     , (12205,  11,   83890336) /* MouthTexture */
-     , (12205,  15,   67117018) /* HairPalette */
-     , (12205,  16,   67110063) /* EyesPalette */
-     , (12205,  17,   67110045) /* SkinPalette */;
+VALUES (12205,   1, 0x0200004E) /* Setup */
+     , (12205,   2, 0x09000001) /* MotionTable */
+     , (12205,   3, 0x20000002) /* SoundTable */
+     , (12205,   6, 0x0400007E) /* PaletteBase */
+     , (12205,   8, 0x06001036) /* Icon */
+     , (12205,   9, 0x05001064) /* EyesTexture */
+     , (12205,  10, 0x0500106F) /* NoseTexture */
+     , (12205,  11, 0x050010A0) /* MouthTexture */
+     , (12205,  15, 0x04001FDA) /* HairPalette */
+     , (12205,  16, 0x040004AF) /* EyesPalette */
+     , (12205,  17, 0x0400049D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12205, 8040, 3378184536, 127.431, 91.0297, 16.405, -0.508197, 0, 0, 0.861241) /* PCAPRecordedLocation */
+VALUES (12205, 8040, 0xC95B0158, 127.431, 91.0297, 16.405, -0.508197, 0, 0, 0.861241) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0158 [127.431000 91.029700 16.405000] -0.508197 0.000000 0.000000 0.861241 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

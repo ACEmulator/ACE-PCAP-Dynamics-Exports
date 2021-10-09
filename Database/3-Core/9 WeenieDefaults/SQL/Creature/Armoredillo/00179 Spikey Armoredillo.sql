@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (179,   1, 'Spikey Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (179,   1,   33554436) /* Setup */
-     , (179,   2,  150995282) /* MotionTable */
-     , (179,   3,  536870915) /* SoundTable */
-     , (179,   6,   67109301) /* PaletteBase */
-     , (179,   8,  100667935) /* Icon */
-     , (179,  22,  872415253) /* PhysicsEffectTable */;
+VALUES (179,   1, 0x02000004) /* Setup */
+     , (179,   2, 0x09000152) /* MotionTable */
+     , (179,   3, 0x20000003) /* SoundTable */
+     , (179,   6, 0x040001B5) /* PaletteBase */
+     , (179,   8, 0x0600121F) /* Icon */
+     , (179,  22, 0x34000015) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (179, 8040, 32899605, 14.0465, -51.3102, 0.008400083, -0.278642, 0, 0, -0.960395) /* PCAPRecordedLocation */
+VALUES (179, 8040, 0x01F60215, 14.0465, -51.3102, 0.0084, -0.278642, 0, 0, -0.960395) /* PCAPRecordedLocation */
 /* @teleloc 0x01F60215 [14.046500 -51.310200 0.008400] -0.278642 0.000000 0.000000 -0.960395 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

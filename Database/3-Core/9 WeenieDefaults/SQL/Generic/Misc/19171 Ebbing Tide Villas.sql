@@ -18,9 +18,9 @@ VALUES (19171,   1, 'Ebbing Tide Villas') /* Name */
      , (19171,  16, 'Welcome to Ebbing Tide Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19171,   1,   33557463) /* Setup */
-     , (19171,   8,  100668115) /* Icon */;
+VALUES (19171,   1, 0x02000BD7) /* Setup */
+     , (19171,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19171, 8040, 2435973155, 106.668, 63.0081, 1.638325, 0.728118, 0, 0, -0.685452) /* PCAPRecordedLocation */
+VALUES (19171, 8040, 0x91320023, 106.668, 63.0081, 1.638325, 0.728118, 0, 0, -0.685452) /* PCAPRecordedLocation */
 /* @teleloc 0x91320023 [106.668000 63.008100 1.638325] 0.728118 0.000000 0.000000 -0.685452 */;

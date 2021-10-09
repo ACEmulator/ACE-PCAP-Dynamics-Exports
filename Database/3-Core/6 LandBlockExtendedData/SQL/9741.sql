@@ -23,7 +23,7 @@ VALUES (0x79741004,   226, 0x97410035, 156.5743, 107.0048, 110.006, 1, 0, 0, 0, 
 /* @teleloc 0x97410035 [156.574300 107.004800 110.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79741005,  5497, 0x97410034, 163.5106, 91.81174, 110.029, 0.2063057, 0, 0, -0.9784876,  True, '2019-02-10 00:00:00'); /* Virindi Director */
+VALUES (0x79741005,  5497, 0x97410034, 163.5106, 91.81174, 110.029, 0.206306, 0, 0, -0.978488,  True, '2019-02-10 00:00:00'); /* Virindi Director */
 /* @teleloc 0x97410034 [163.510600 91.811740 110.029000] 0.206306 0.000000 0.000000 -0.978488 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

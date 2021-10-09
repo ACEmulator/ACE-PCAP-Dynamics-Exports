@@ -35,20 +35,20 @@ VALUES (678,   1, 'Culthea Ironshaper') /* Name */
      , (678,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (678,   1,   33554510) /* Setup */
-     , (678,   2,  150994945) /* MotionTable */
-     , (678,   3,  536870914) /* SoundTable */
-     , (678,   6,   67108990) /* PaletteBase */
-     , (678,   8,  100667446) /* Icon */
-     , (678,   9,   83890280) /* EyesTexture */
-     , (678,  10,   83890311) /* NoseTexture */
-     , (678,  11,   83890351) /* MouthTexture */
-     , (678,  15,   67117024) /* HairPalette */
-     , (678,  16,   67109565) /* EyesPalette */
-     , (678,  17,   67109561) /* SkinPalette */;
+VALUES (678,   1, 0x0200004E) /* Setup */
+     , (678,   2, 0x09000001) /* MotionTable */
+     , (678,   3, 0x20000002) /* SoundTable */
+     , (678,   6, 0x0400007E) /* PaletteBase */
+     , (678,   8, 0x06001036) /* Icon */
+     , (678,   9, 0x05001068) /* EyesTexture */
+     , (678,  10, 0x05001087) /* NoseTexture */
+     , (678,  11, 0x050010AF) /* MouthTexture */
+     , (678,  15, 0x04001FE0) /* HairPalette */
+     , (678,  16, 0x040002BD) /* EyesPalette */
+     , (678,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (678, 8040, 3164537163, 180.209, 136.185, 32.005, 0.2010781, 0, 0, -0.9795752) /* PCAPRecordedLocation */
+VALUES (678, 8040, 0xBC9F014B, 180.209, 136.185, 32.005, 0.201078, 0, 0, -0.979575) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F014B [180.209000 136.185000 32.005000] 0.201078 0.000000 0.000000 -0.979575 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

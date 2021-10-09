@@ -20,7 +20,7 @@ VALUES (44720,   1, 'Gem of Greater Luminance') /* Name */
      , (44720,  20, 'Gems of Greater Luminance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44720,   1,   33554809) /* Setup */
-     , (44720,   3,  536870932) /* SoundTable */
-     , (44720,   8,  100692117) /* Icon */
-     , (44720,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44720,   1, 0x02000179) /* Setup */
+     , (44720,   3, 0x20000014) /* SoundTable */
+     , (44720,   8, 0x06007095) /* Icon */
+     , (44720,  22, 0x3400002B) /* PhysicsEffectTable */;

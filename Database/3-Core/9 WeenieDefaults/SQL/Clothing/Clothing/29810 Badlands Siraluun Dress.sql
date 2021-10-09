@@ -40,15 +40,15 @@ VALUES (29810,   1, 'Badlands Siraluun Dress') /* Name */
      , (29810,  16, 'A formal gown woven from the plumes of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29810,   1,   33554854) /* Setup */
-     , (29810,   3,  536870932) /* SoundTable */
-     , (29810,   6,   67108990) /* PaletteBase */
-     , (29810,   8,  100677280) /* Icon */
-     , (29810,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29810,   1, 0x020001A6) /* Setup */
+     , (29810,   3, 0x20000014) /* SoundTable */
+     , (29810,   6, 0x0400007E) /* PaletteBase */
+     , (29810,   8, 0x060036A0) /* Icon */
+     , (29810,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29810,   957,      2)  /* FealtyOther6 */
+VALUES (29810,  2262,      2)  /* LeadershipMasteryOther7 */
      , (29810,  2014,      2)  /* WizardsUltimateIntellect */
-     , (29810,  2262,      2)  /* LeadershipMasteryOther7 */
      , (29810,  2546,      2)  /* CANTRIPFEALTY1 */
-     , (29810,  2554,      2)  /* CANTRIPLEADERSHIP1 */;
+     , (29810,  2554,      2)  /* CANTRIPLEADERSHIP1 */
+     , (29810,   957,      2)  /* FealtyOther6 */;

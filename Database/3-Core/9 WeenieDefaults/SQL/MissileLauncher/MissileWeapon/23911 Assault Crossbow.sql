@@ -47,13 +47,13 @@ VALUES (23911,   1, 'Assault Crossbow') /* Name */
      , (23911,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23911,   1,   33558210) /* Setup */
-     , (23911,   3,  536870932) /* SoundTable */
-     , (23911,   8,  100671750) /* Icon */
-     , (23911,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23911,   1, 0x02000EC2) /* Setup */
+     , (23911,   3, 0x20000014) /* SoundTable */
+     , (23911,   8, 0x06002106) /* Icon */
+     , (23911,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23911,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23911,  1377,      2)  /* CoordinationSelf5 */
-     , (23911,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23911,  2004,      2)  /* WarriorsVitality */;
+VALUES (23911,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23911,  2004,      2)  /* WarriorsVitality */
+     , (23911,  1377,      2)  /* CoordinationSelf5 */;

@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45482,   1, 'Unarmed Combat Mastery') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45482,   1,   33561424) /* Setup */
-     , (45482,   2,  150995447) /* MotionTable */
-     , (45482,   3,  536870932) /* SoundTable */
-     , (45482,   8,  100690414) /* Icon */
-     , (45482,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45482,   1, 0x02001B50) /* Setup */
+     , (45482,   2, 0x090001F7) /* MotionTable */
+     , (45482,   3, 0x20000014) /* SoundTable */
+     , (45482,   8, 0x060069EE) /* Icon */
+     , (45482,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45482, 8040, 3332964378, 89.4674, 45.2011, 43.2489, -0.703054, 0, 0, 0.711137) /* PCAPRecordedLocation */
+VALUES (45482, 8040, 0xC6A9001A, 89.4674, 45.2011, 43.2489, -0.703054, 0, 0, 0.711137) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001A [89.467400 45.201100 43.248900] -0.703054 0.000000 0.000000 0.711137 */;

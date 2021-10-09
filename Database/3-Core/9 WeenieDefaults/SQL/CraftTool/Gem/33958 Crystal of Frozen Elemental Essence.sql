@@ -19,8 +19,8 @@ VALUES (33958,   1, 'Crystal of Frozen Elemental Essence') /* Name */
      , (33958,  16, 'A crystal of Frozen Elemental Essence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33958,   1,   33556407) /* Setup */
-     , (33958,   3,  536870932) /* SoundTable */
-     , (33958,   6,   67111919) /* PaletteBase */
-     , (33958,   8,  100670489) /* Icon */
-     , (33958,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33958,   1, 0x020007B7) /* Setup */
+     , (33958,   3, 0x20000014) /* SoundTable */
+     , (33958,   6, 0x04000BEF) /* PaletteBase */
+     , (33958,   8, 0x06001C19) /* Icon */
+     , (33958,  22, 0x3400002B) /* PhysicsEffectTable */;

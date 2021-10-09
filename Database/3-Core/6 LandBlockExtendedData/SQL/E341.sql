@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xE341;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E341001,  1154, 0xE341003B, 189.3292, 49.84335, 85.55486, 0.1785129, 0, 0, -0.9839376, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7E341001,  1154, 0xE341003B, 189.3292, 49.84335, 85.55486, 0.178513, 0, 0, -0.983938, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xE341003B [189.329200 49.843350 85.554860] 0.178513 0.000000 0.000000 -0.983938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -19,15 +19,15 @@ VALUES (0x7E341001, 0x7E341002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E341001, 0x7E34100D, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E341002,  2567, 0xE341003B, 189.3292, 49.84335, 85.55486, 0.1785129, 0, 0, -0.9839376,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+VALUES (0x7E341002,  2567, 0xE341003B, 189.3292, 49.84335, 85.55486, 0.178513, 0, 0, -0.983938,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
 /* @teleloc 0xE341003B [189.329200 49.843350 85.554860] 0.178513 0.000000 0.000000 -0.983938 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E341003,  1988, 0xE3410031, 147.6322, 19.64399, 79.27105, -0.5370103, 0, 0, -0.8435757,  True, '2019-02-10 00:00:00'); /* Dark Wisp */
+VALUES (0x7E341003,  1988, 0xE3410031, 147.6322, 19.64399, 79.27105, -0.53701, 0, 0, -0.843576,  True, '2019-02-10 00:00:00'); /* Dark Wisp */
 /* @teleloc 0xE3410031 [147.632200 19.643990 79.271050] -0.537010 0.000000 0.000000 -0.843576 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E341004,  7990, 0xE341002E, 131.8286, 140.2052, 67.88057, 0.9925554, 0, 0, -0.121794,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+VALUES (0x7E341004,  7990, 0xE341002E, 131.8286, 140.2052, 67.88057, 0.992555, 0, 0, -0.121794,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
 /* @teleloc 0xE341002E [131.828600 140.205200 67.880570] 0.992555 0.000000 0.000000 -0.121794 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

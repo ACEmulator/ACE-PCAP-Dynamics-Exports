@@ -32,10 +32,10 @@ VALUES (30199,   1, 'Oswald''s Crystal') /* Name */
      , (30199,  20, 'Oswald''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30199,   1,   33554809) /* Setup */
-     , (30199,   3,  536870932) /* SoundTable */
-     , (30199,   8,  100686697) /* Icon */
-     , (30199,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30199,   1, 0x02000179) /* Setup */
+     , (30199,   3, 0x20000014) /* SoundTable */
+     , (30199,   8, 0x06005B69) /* Icon */
+     , (30199,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30199,  28,       3697) /* Spell - DaggerMasteryRare */
-     , (30199,  50,  100692243) /* IconOverlay */
-     , (30199,  52,  100686604) /* IconUnderlay */;
+     , (30199,  50, 0x06007113) /* IconOverlay */
+     , (30199,  52, 0x06005B0C) /* IconUnderlay */;

@@ -18,12 +18,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36780,   1, 'Quiddity Seed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36780,   1,   33560432) /* Setup */
-     , (36780,   2,  150995121) /* MotionTable */
-     , (36780,   3,  536871023) /* SoundTable */
-     , (36780,   8,  100672199) /* Icon */
-     , (36780,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36780,   1, 0x02001770) /* Setup */
+     , (36780,   2, 0x090000B1) /* MotionTable */
+     , (36780,   3, 0x2000006F) /* SoundTable */
+     , (36780,   8, 0x060022C7) /* Icon */
+     , (36780,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36780, 8040, 1581580841, 42.2894, -170.739, -6, 0.9996876, 0, 0, -0.02499711) /* PCAPRecordedLocation */
+VALUES (36780, 8040, 0x5E450229, 42.2894, -170.739, -6, 0.999688, 0, 0, -0.024997) /* PCAPRecordedLocation */
 /* @teleloc 0x5E450229 [42.289400 -170.739000 -6.000000] 0.999688 0.000000 0.000000 -0.024997 */;

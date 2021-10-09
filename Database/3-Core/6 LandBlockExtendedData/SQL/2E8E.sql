@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x2E8E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E8E001,  1154, 0x2E8E0008, 8.546936, 188.7637, 30.01, -0.8609474, 0, 0, -0.5086941, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x72E8E001,  1154, 0x2E8E0008, 8.546936, 188.7637, 30.01, -0.860947, 0, 0, -0.508694, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x2E8E0008 [8.546936 188.763700 30.010000] -0.860947 0.000000 0.000000 -0.508694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,7 +9,7 @@ VALUES (0x72E8E001, 0x72E8E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (
      , (0x72E8E001, 0x72E8E003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E8E002, 36829, 0x2E8E0008, 8.546936, 188.7637, 30.01, -0.8609474, 0, 0, -0.5086941,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+VALUES (0x72E8E002, 36829, 0x2E8E0008, 8.546936, 188.7637, 30.01, -0.860947, 0, 0, -0.508694,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
 /* @teleloc 0x2E8E0008 [8.546936 188.763700 30.010000] -0.860947 0.000000 0.000000 -0.508694 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

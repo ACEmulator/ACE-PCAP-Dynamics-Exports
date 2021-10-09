@@ -29,20 +29,20 @@ VALUES (4795,   1, 'Celcynd the Dour') /* Name */
      , (4795,   5, 'Society Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4795,   1,   33554433) /* Setup */
-     , (4795,   2,  150994945) /* MotionTable */
-     , (4795,   3,  536870913) /* SoundTable */
-     , (4795,   6,   67108990) /* PaletteBase */
-     , (4795,   8,  100667446) /* Icon */
-     , (4795,   9,   83890513) /* EyesTexture */
-     , (4795,  10,   83890559) /* NoseTexture */
-     , (4795,  11,   83890646) /* MouthTexture */
-     , (4795,  15,   67117079) /* HairPalette */
-     , (4795,  16,   67110065) /* EyesPalette */
-     , (4795,  17,   67109562) /* SkinPalette */;
+VALUES (4795,   1, 0x02000001) /* Setup */
+     , (4795,   2, 0x09000001) /* MotionTable */
+     , (4795,   3, 0x20000001) /* SoundTable */
+     , (4795,   6, 0x0400007E) /* PaletteBase */
+     , (4795,   8, 0x06001036) /* Icon */
+     , (4795,   9, 0x05001151) /* EyesTexture */
+     , (4795,  10, 0x0500117F) /* NoseTexture */
+     , (4795,  11, 0x050011D6) /* MouthTexture */
+     , (4795,  15, 0x04002017) /* HairPalette */
+     , (4795,  16, 0x040004B1) /* EyesPalette */
+     , (4795,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4795, 8040, 3364618570, 16.7319, 147.178, 22.005, 0.42878, 0, 0, 0.9034089) /* PCAPRecordedLocation */
+VALUES (4795, 8040, 0xC88C014A, 16.7319, 147.178, 22.005, 0.42878, 0, 0, 0.903409) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C014A [16.731900 147.178000 22.005000] 0.428780 0.000000 0.000000 0.903409 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

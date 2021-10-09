@@ -50,14 +50,14 @@ VALUES (28617,   1, 'Alduressa Helm') /* Name */
      , (28617,  16, 'Alduressa Helm of Invulnerability') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28617,   1,   33559327) /* Setup */
-     , (28617,   3,  536870932) /* SoundTable */
-     , (28617,   6,   67108990) /* PaletteBase */
-     , (28617,   8,  100686001) /* Icon */
-     , (28617,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28617,   1, 0x0200131F) /* Setup */
+     , (28617,   3, 0x20000014) /* SoundTable */
+     , (28617,   6, 0x0400007E) /* PaletteBase */
+     , (28617,   8, 0x060058B1) /* Icon */
+     , (28617,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28617,   249,      2)  /* InvulnerabilitySelf6 */
-     , (28617,  2094,      2)  /* BladeBane7 */
-     , (28617,  2108,      2)  /* Impenetrability7 */
-     , (28617,  4665,      2)  /* CANTRIPFROSTBANE3 */;
+VALUES (28617,  2094,      2)  /* BladeBane7 */
+     , (28617,  4665,      2)  /* CANTRIPFROSTBANE3 */
+     , (28617,   249,      2)  /* InvulnerabilitySelf6 */
+     , (28617,  2108,      2)  /* Impenetrability7 */;

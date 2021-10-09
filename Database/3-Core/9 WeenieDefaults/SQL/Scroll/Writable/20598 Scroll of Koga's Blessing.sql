@@ -23,7 +23,7 @@ VALUES (20598,   1, 'Scroll of Koga''s Blessing') /* Name */
 Increases the caster''s Weapon Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20598,   1,   33554826) /* Setup */
-     , (20598,   8,  100676477) /* Icon */
-     , (20598,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20598,   1, 0x0200018A) /* Setup */
+     , (20598,   8, 0x0600337D) /* Icon */
+     , (20598,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20598,  28,       2325) /* Spell - WeaponExpertiseSelf7 */;

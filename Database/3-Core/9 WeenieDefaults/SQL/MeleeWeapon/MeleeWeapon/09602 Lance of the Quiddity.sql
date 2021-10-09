@@ -41,13 +41,13 @@ VALUES (9602,   1, 'Lance of the Quiddity') /* Name */
      , (9602,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9602,   1,   33557108) /* Setup */
-     , (9602,   3,  536870932) /* SoundTable */
-     , (9602,   8,  100671698) /* Icon */
-     , (9602,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9602,   1, 0x02000A74) /* Setup */
+     , (9602,   3, 0x20000014) /* SoundTable */
+     , (9602,   8, 0x060020D2) /* Icon */
+     , (9602,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9602,  1591,      2)  /* HeartSeekerSelf5 */
-     , (9602,  1603,      2)  /* DefenderSelf4 */
+VALUES (9602,  1603,      2)  /* DefenderSelf4 */
      , (9602,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (9602,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (9602,  1625,      2)  /* SwiftKillerSelf4 */
+     , (9602,  1591,      2)  /* HeartSeekerSelf5 */;

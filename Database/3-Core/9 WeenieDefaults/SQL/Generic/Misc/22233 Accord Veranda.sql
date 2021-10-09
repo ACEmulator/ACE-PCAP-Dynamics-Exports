@@ -18,9 +18,9 @@ VALUES (22233,   1, 'Accord Veranda') /* Name */
      , (22233,  16, 'Accord Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22233,   1,   33558047) /* Setup */
-     , (22233,   8,  100667499) /* Icon */;
+VALUES (22233,   1, 0x02000E1F) /* Setup */
+     , (22233,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22233, 8040, 1448083715, 9.92274, -22.8749, 0, 0.999994, 0, 0, -0.00356878) /* PCAPRecordedLocation */
+VALUES (22233, 8040, 0x56500103, 9.92274, -22.8749, 0, 0.999994, 0, 0, -0.003569) /* PCAPRecordedLocation */
 /* @teleloc 0x56500103 [9.922740 -22.874900 0.000000] 0.999994 0.000000 0.000000 -0.003569 */;

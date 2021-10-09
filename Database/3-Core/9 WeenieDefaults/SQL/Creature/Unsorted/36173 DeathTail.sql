@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36173,   1, 'DeathTail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36173,   1,   33554493) /* Setup */
-     , (36173,   2,  150995356) /* MotionTable */
-     , (36173,   3,  536870927) /* SoundTable */
-     , (36173,   8,  100667451) /* Icon */
-     , (36173,  22,  872415267) /* PhysicsEffectTable */
+VALUES (36173,   1, 0x0200003D) /* Setup */
+     , (36173,   2, 0x0900019C) /* MotionTable */
+     , (36173,   3, 0x2000000F) /* SoundTable */
+     , (36173,   8, 0x0600103B) /* Icon */
+     , (36173,  22, 0x34000023) /* PhysicsEffectTable */
      , (36173,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36173, 8040, 1210908690, 68.23261, 45.45569, 6.032, -0.8700054, 0, 0, 0.4930422) /* PCAPRecordedLocation */
+VALUES (36173, 8040, 0x482D0012, 68.23261, 45.45569, 6.032, -0.870005, 0, 0, 0.493042) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0012 [68.232610 45.455690 6.032000] -0.870005 0.000000 0.000000 0.493042 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

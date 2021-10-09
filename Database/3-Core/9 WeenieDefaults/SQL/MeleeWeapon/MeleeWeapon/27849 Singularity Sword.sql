@@ -50,17 +50,17 @@ VALUES (27849,   1, 'Singularity Sword') /* Name */
      , (27849,  15, 'A sword imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27849,   1,   33556969) /* Setup */
-     , (27849,   3,  536870932) /* SoundTable */
-     , (27849,   6,   67111919) /* PaletteBase */
-     , (27849,   8,  100671372) /* Icon */
-     , (27849,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27849,   1, 0x020009E9) /* Setup */
+     , (27849,   3, 0x20000014) /* SoundTable */
+     , (27849,   6, 0x04000BEF) /* PaletteBase */
+     , (27849,   8, 0x06001F8C) /* Icon */
+     , (27849,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27849, 8040, 2248344364, 82.36014, -57.60925, 11.929, -0.2416319, -0.2416319, -0.6645405, -0.6645405) /* PCAPRecordedLocation */
+VALUES (27849, 8040, 0x8603032C, 82.36014, -57.60925, 11.929, -0.241632, -0.241632, -0.664541, -0.664541) /* PCAPRecordedLocation */
 /* @teleloc 0x8603032C [82.360140 -57.609250 11.929000] -0.241632 -0.241632 -0.664541 -0.664541 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27849,  1337,      2)  /* StrengthOther6 */
+VALUES (27849,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27849,  1592,      2)  /* HeartSeekerSelf6 */
-     , (27849,  1616,      2)  /* BloodDrinkerSelf6 */;
+     , (27849,  1337,      2)  /* StrengthOther6 */;

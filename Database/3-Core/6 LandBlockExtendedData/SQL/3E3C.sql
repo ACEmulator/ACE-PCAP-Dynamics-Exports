@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3E3C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E3C001,  1154, 0x3E3C0034, 167.2333, 95.8009, 18.68951, -0.9379919, 0, 0, -0.3466572, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x73E3C001,  1154, 0x3E3C0034, 167.2333, 95.8009, 18.68951, -0.937992, 0, 0, -0.346657, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x3E3C0034 [167.233300 95.800900 18.689510] -0.937992 0.000000 0.000000 -0.346657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,19 +12,19 @@ VALUES (0x73E3C001, 0x73E3C002, '2019-02-10 00:00:00') /* Invading Silver Scope 
      , (0x73E3C001, 0x73E3C006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E3C002, 41535, 0x3E3C0034, 167.2333, 95.8009, 18.68951, -0.9379919, 0, 0, -0.3466572,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+VALUES (0x73E3C002, 41535, 0x3E3C0034, 167.2333, 95.8009, 18.68951, -0.937992, 0, 0, -0.346657,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
 /* @teleloc 0x3E3C0034 [167.233300 95.800900 18.689510] -0.937992 0.000000 0.000000 -0.346657 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E3C003, 41532, 0x3E3C0035, 157.9064, 101.1922, 19.59285, -0.9379919, 0, 0, -0.3466572,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
+VALUES (0x73E3C003, 41532, 0x3E3C0035, 157.9064, 101.1922, 19.59285, -0.937992, 0, 0, -0.346657,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
 /* @teleloc 0x3E3C0035 [157.906400 101.192200 19.592850] -0.937992 0.000000 0.000000 -0.346657 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E3C004, 41533, 0x3E3C0035, 163.3278, 100.7504, 17.19621, -0.9379919, 0, 0, -0.3466572,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
+VALUES (0x73E3C004, 41533, 0x3E3C0035, 163.3278, 100.7504, 17.19621, -0.937992, 0, 0, -0.346657,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
 /* @teleloc 0x3E3C0035 [163.327800 100.750400 17.196210] -0.937992 0.000000 0.000000 -0.346657 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E3C005, 41535, 0x3E3C0034, 159.8675, 95.65652, 22.58898, -0.9379919, 0, 0, -0.3466572,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+VALUES (0x73E3C005, 41535, 0x3E3C0034, 159.8675, 95.65652, 22.58898, -0.937992, 0, 0, -0.346657,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
 /* @teleloc 0x3E3C0034 [159.867500 95.656520 22.588980] -0.937992 0.000000 0.000000 -0.346657 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

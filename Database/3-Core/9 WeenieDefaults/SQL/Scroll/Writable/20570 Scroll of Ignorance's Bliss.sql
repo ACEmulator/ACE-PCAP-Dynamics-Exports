@@ -23,7 +23,7 @@ VALUES (20570,   1, 'Scroll of Ignorance''s Bliss') /* Name */
 Decreases the target''s Assess Monster skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20570,   1,   33554826) /* Setup */
-     , (20570,   8,  100676448) /* Icon */
-     , (20570,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20570,   1, 0x0200018A) /* Setup */
+     , (20570,   8, 0x06003360) /* Icon */
+     , (20570,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20570,  28,       2290) /* Spell - MonsterUnfamiliarityOther7 */;

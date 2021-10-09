@@ -31,20 +31,20 @@ VALUES (38706,   1, 'Saphine Brauno') /* Name */
      , (38706,   5, 'Delivery Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38706,   1,   33554510) /* Setup */
-     , (38706,   2,  150994945) /* MotionTable */
-     , (38706,   3,  536870914) /* SoundTable */
-     , (38706,   6,   67108990) /* PaletteBase */
-     , (38706,   8,  100667377) /* Icon */
-     , (38706,   9,   83890275) /* EyesTexture */
-     , (38706,  10,   83890316) /* NoseTexture */
-     , (38706,  11,   83890344) /* MouthTexture */
-     , (38706,  15,   67117100) /* HairPalette */
-     , (38706,  16,   67110064) /* EyesPalette */
-     , (38706,  17,   67115908) /* SkinPalette */;
+VALUES (38706,   1, 0x0200004E) /* Setup */
+     , (38706,   2, 0x09000001) /* MotionTable */
+     , (38706,   3, 0x20000002) /* SoundTable */
+     , (38706,   6, 0x0400007E) /* PaletteBase */
+     , (38706,   8, 0x06000FF1) /* Icon */
+     , (38706,   9, 0x05001063) /* EyesTexture */
+     , (38706,  10, 0x0500108C) /* NoseTexture */
+     , (38706,  11, 0x050010A8) /* MouthTexture */
+     , (38706,  15, 0x0400202C) /* HairPalette */
+     , (38706,  16, 0x040004B0) /* EyesPalette */
+     , (38706,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38706, 8040, 12124782, 163.239, -30.6513, -17.995, -0.8538319, 0, 0, -0.5205489) /* PCAPRecordedLocation */
+VALUES (38706, 8040, 0x00B9026E, 163.239, -30.6513, -17.995, -0.853832, 0, 0, -0.520549) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026E [163.239000 -30.651300 -17.995000] -0.853832 0.000000 0.000000 -0.520549 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

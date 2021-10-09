@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41289,   1, 'Scroll of Two Handed Weapons Ineptitude II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41289,   1,   33554826) /* Setup */
-     , (41289,   8,  100690644) /* Icon */
-     , (41289,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41289,   1, 0x0200018A) /* Setup */
+     , (41289,   8, 0x06006AD4) /* Icon */
+     , (41289,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41289,  28,       5076) /* Spell - TwoHandedIneptitude2 */;

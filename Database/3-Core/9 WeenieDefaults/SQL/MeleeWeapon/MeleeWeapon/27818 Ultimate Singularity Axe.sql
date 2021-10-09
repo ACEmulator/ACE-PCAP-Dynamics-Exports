@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27818,   1, 'Ultimate Singularity Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27818,   1,   33557311) /* Setup */
-     , (27818,   3,  536870932) /* SoundTable */
-     , (27818,   6,   67111919) /* PaletteBase */
-     , (27818,   8,  100672041) /* Icon */
-     , (27818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27818,   1, 0x02000B3F) /* Setup */
+     , (27818,   3, 0x20000014) /* SoundTable */
+     , (27818,   6, 0x04000BEF) /* PaletteBase */
+     , (27818,   8, 0x06002229) /* Icon */
+     , (27818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27818,  30,         88) /* PhysicsScript - Create */;

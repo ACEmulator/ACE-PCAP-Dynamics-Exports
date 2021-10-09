@@ -20,5 +20,5 @@ VALUES (37363,   1, 'Quill of Infliction') /* Name */
      , (37363,  20, 'Quills of Infliction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37363,   1,   33559616) /* Setup */
-     , (37363,   8,  100690196) /* Icon */;
+VALUES (37363,   1, 0x02001440) /* Setup */
+     , (37363,   8, 0x06006914) /* Icon */;

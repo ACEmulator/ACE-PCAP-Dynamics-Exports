@@ -51,14 +51,14 @@ VALUES (30521,   1, 'Celdon Sleeves') /* Name */
      , (30521,   8, 'Meretricious of Morningthaw') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30521,   1,   33554655) /* Setup */
-     , (30521,   3,  536870932) /* SoundTable */
-     , (30521,   6,   67108990) /* PaletteBase */
-     , (30521,   8,  100670430) /* Icon */
-     , (30521,  22,  872415275) /* PhysicsEffectTable */
-     , (30521,  52,  100686604) /* IconUnderlay */;
+VALUES (30521,   1, 0x020000DF) /* Setup */
+     , (30521,   3, 0x20000014) /* SoundTable */
+     , (30521,   6, 0x0400007E) /* PaletteBase */
+     , (30521,   8, 0x06001BDE) /* Icon */
+     , (30521,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30521,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30521,  4407,      2)  /* Impenetrability8 */
-     , (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
-     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
+VALUES (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
+     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */
+     , (30521,  4407,      2)  /* Impenetrability8 */;

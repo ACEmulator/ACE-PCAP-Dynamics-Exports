@@ -35,10 +35,10 @@ VALUES (49230,   1, 'Frost Skeleton Bushi Essence (125)') /* Name */
      , (49230,  14, 'Use this essence to summon or dismiss your Frost Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49230,   1,   33554817) /* Setup */
-     , (49230,   3,  536870932) /* SoundTable */
-     , (49230,   6,   67111919) /* PaletteBase */
-     , (49230,   8,  100669124) /* Icon */
-     , (49230,  22,  872415275) /* PhysicsEffectTable */
-     , (49230,  50,  100693029) /* IconOverlay */
-     , (49230,  52,  100693024) /* IconUnderlay */;
+VALUES (49230,   1, 0x02000181) /* Setup */
+     , (49230,   3, 0x20000014) /* SoundTable */
+     , (49230,   6, 0x04000BEF) /* PaletteBase */
+     , (49230,   8, 0x060016C4) /* Icon */
+     , (49230,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49230,  50, 0x06007425) /* IconOverlay */
+     , (49230,  52, 0x06007420) /* IconUnderlay */;

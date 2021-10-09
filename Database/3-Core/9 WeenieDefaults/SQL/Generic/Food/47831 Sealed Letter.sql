@@ -14,6 +14,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47831,   1, 'Sealed Letter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47831,   1,   33554678) /* Setup */
-     , (47831,   3,  536870932) /* SoundTable */
-     , (47831,   8,  100689293) /* Icon */;
+VALUES (47831,   1, 0x020000F6) /* Setup */
+     , (47831,   3, 0x20000014) /* SoundTable */
+     , (47831,   8, 0x0600658D) /* Icon */;

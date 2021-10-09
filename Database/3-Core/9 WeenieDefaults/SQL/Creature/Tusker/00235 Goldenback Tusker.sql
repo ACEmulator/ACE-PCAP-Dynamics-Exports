@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (235,   1, 'Goldenback Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (235,   1,   33556836) /* Setup */
-     , (235,   2,  150994956) /* MotionTable */
-     , (235,   3,  536870929) /* SoundTable */
-     , (235,   6,   67109315) /* PaletteBase */
-     , (235,   8,  100667443) /* Icon */
-     , (235,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (235,   1, 0x02000964) /* Setup */
+     , (235,   2, 0x0900000C) /* MotionTable */
+     , (235,   3, 0x20000011) /* SoundTable */
+     , (235,   6, 0x040001C3) /* PaletteBase */
+     , (235,   8, 0x06001033) /* Icon */
+     , (235,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (235, 8040, 3443458078, 82.00822, 123.9223, 73.87064, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (235, 8040, 0xCD3F001E, 82.00822, 123.9223, 73.87064, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCD3F001E [82.008220 123.922300 73.870640] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

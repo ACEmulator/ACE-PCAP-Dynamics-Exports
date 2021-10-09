@@ -45,13 +45,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24100,   1, 'Sword of Frozen Fury') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24100,   1,   33558261) /* Setup */
-     , (24100,   3,  536870932) /* SoundTable */
-     , (24100,   8,  100674254) /* Icon */
-     , (24100,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24100,   1, 0x02000EF5) /* Setup */
+     , (24100,   3, 0x20000014) /* SoundTable */
+     , (24100,   8, 0x06002ACE) /* Icon */
+     , (24100,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24100,  1040,      2)  /* ColdProtectionOther5 */
-     , (24100,  1591,      2)  /* HeartSeekerSelf5 */
-     , (24100,  1604,      2)  /* DefenderSelf5 */
-     , (24100,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (24100,  1604,      2)  /* DefenderSelf5 */
+     , (24100,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (24100,  1040,      2)  /* ColdProtectionOther5 */
+     , (24100,  1591,      2)  /* HeartSeekerSelf5 */;

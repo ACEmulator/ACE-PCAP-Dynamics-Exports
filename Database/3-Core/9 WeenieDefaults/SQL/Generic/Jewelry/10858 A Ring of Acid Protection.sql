@@ -33,11 +33,11 @@ VALUES (10858,   1, 'A Ring of Acid Protection') /* Name */
      , (10858,  15, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10858,   1,   33554691) /* Setup */
-     , (10858,   3,  536870932) /* SoundTable */
-     , (10858,   6,   67111919) /* PaletteBase */
-     , (10858,   8,  100668662) /* Icon */
-     , (10858,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10858,   1, 0x02000103) /* Setup */
+     , (10858,   3, 0x20000014) /* SoundTable */
+     , (10858,   6, 0x04000BEF) /* PaletteBase */
+     , (10858,   8, 0x060014F6) /* Icon */
+     , (10858,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10858,   240,      2)  /* InvulnerabilityOther2 */

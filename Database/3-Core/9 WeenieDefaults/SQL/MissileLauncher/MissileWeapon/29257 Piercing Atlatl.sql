@@ -52,11 +52,11 @@ VALUES (29257,   1, 'Piercing Atlatl') /* Name */
      , (29257,  16, 'Piercing Atlatl of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29257,   1,   33559242) /* Setup */
-     , (29257,   3,  536870932) /* SoundTable */
-     , (29257,   6,   67115373) /* PaletteBase */
-     , (29257,   8,  100677454) /* Icon */
-     , (29257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29257,   1, 0x020012CA) /* Setup */
+     , (29257,   3, 0x20000014) /* SoundTable */
+     , (29257,   6, 0x0400196D) /* PaletteBase */
+     , (29257,   8, 0x0600374E) /* Icon */
+     , (29257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29257,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

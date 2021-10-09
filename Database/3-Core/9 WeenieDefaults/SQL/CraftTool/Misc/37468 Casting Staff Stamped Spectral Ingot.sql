@@ -26,10 +26,10 @@ VALUES (37468,   1, 'Casting Staff Stamped Spectral Ingot') /* Name */
      , (37468,  16, 'A spectral ingot that summons a Spectral Casting Staff when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37468,   1,   33556769) /* Setup */
-     , (37468,   3,  536870932) /* SoundTable */
-     , (37468,   6,   67111919) /* PaletteBase */
-     , (37468,   8,  100689897) /* Icon */
-     , (37468,  22,  872415275) /* PhysicsEffectTable */
-     , (37468,  50,  100673786) /* IconOverlay */
-     , (37468,  52,  100689404) /* IconUnderlay */;
+VALUES (37468,   1, 0x02000921) /* Setup */
+     , (37468,   3, 0x20000014) /* SoundTable */
+     , (37468,   6, 0x04000BEF) /* PaletteBase */
+     , (37468,   8, 0x060067E9) /* Icon */
+     , (37468,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37468,  50, 0x060028FA) /* IconOverlay */
+     , (37468,  52, 0x060065FC) /* IconUnderlay */;

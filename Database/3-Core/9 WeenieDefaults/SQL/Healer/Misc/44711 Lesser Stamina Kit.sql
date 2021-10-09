@@ -26,5 +26,5 @@ VALUES (44711,   1, 'Lesser Stamina Kit') /* Name */
      , (44711,  15, 'A stamina kit which provides resonable restoration.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44711,   1,   33555194) /* Setup */
-     , (44711,   8,  100692116) /* Icon */;
+VALUES (44711,   1, 0x020002FA) /* Setup */
+     , (44711,   8, 0x06007094) /* Icon */;

@@ -18,6 +18,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34093,   1, 'Scarecrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34093,   1,   33560111) /* Setup */
-     , (34093,   6,   67112967) /* PaletteBase */
-     , (34093,   8,  100671141) /* Icon */;
+VALUES (34093,   1, 0x0200162F) /* Setup */
+     , (34093,   6, 0x04001007) /* PaletteBase */
+     , (34093,   8, 0x06001EA5) /* Icon */;

@@ -26,12 +26,12 @@ VALUES (43806,   1, 'Pillar') /* Name */
      , (43806,  16, 'A stone pillar, covered in Dericost script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43806,   1,   33555229) /* Setup */
-     , (43806,   2,  150995395) /* MotionTable */
-     , (43806,   3,  536870932) /* SoundTable */
-     , (43806,   8,  100670227) /* Icon */
-     , (43806,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43806,   1, 0x0200031D) /* Setup */
+     , (43806,   2, 0x090001C3) /* MotionTable */
+     , (43806,   3, 0x20000014) /* SoundTable */
+     , (43806,   8, 0x06001B13) /* Icon */
+     , (43806,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43806, 8040, 2045313972, 12, 31.299, 156.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43806, 8040, 0x79E903B4, 12, 31.299, 156.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x79E903B4 [12.000000 31.299000 156.400000] 1.000000 0.000000 0.000000 0.000000 */;

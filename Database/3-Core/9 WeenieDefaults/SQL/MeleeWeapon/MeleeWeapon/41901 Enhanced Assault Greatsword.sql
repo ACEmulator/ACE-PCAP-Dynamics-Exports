@@ -51,14 +51,14 @@ VALUES (41901,   1, 'Enhanced Assault Greatsword') /* Name */
      , (41901,  16, 'A reward for defeating the leaders of the Falcon Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41901,   1,   33558209) /* Setup */
-     , (41901,   3,  536870932) /* SoundTable */
-     , (41901,   8,  100690841) /* Icon */
-     , (41901,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41901,   1, 0x02000EC1) /* Setup */
+     , (41901,   3, 0x20000014) /* SoundTable */
+     , (41901,   8, 0x06006B99) /* Icon */
+     , (41901,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41901,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41901, 8040, 3583574079, 178.882, 161.9281, 373.929, 0.5268642, 0.5268642, -0.471608, -0.471608) /* PCAPRecordedLocation */
+VALUES (41901, 8040, 0xD599003F, 178.882, 161.9281, 373.929, 0.526864, 0.526864, -0.471608, -0.471608) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [178.882000 161.928100 373.929000] 0.526864 0.526864 -0.471608 -0.471608 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

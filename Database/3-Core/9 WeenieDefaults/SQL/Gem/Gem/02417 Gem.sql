@@ -25,9 +25,9 @@ VALUES (2417,   1, 'Gem') /* Name */
      , (2417,  16, 'Gem') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2417,   1,   33554809) /* Setup */
-     , (2417,   3,  536870932) /* SoundTable */
-     , (2417,   6,   67111919) /* PaletteBase */
-     , (2417,   8,  100674716) /* Icon */
-     , (2417,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2417,   1, 0x02000179) /* Setup */
+     , (2417,   3, 0x20000014) /* SoundTable */
+     , (2417,   6, 0x04000BEF) /* PaletteBase */
+     , (2417,   8, 0x06002C9C) /* Icon */
+     , (2417,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2417,  28,        215) /* Spell - ManaRenewalSelf4 */;

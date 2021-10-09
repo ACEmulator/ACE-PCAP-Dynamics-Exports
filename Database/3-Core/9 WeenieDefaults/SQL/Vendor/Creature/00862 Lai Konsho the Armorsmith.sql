@@ -35,20 +35,20 @@ VALUES (862,   1, 'Lai Konsho the Armorsmith') /* Name */
      , (862,   5, 'Armorsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (862,   1,   33554433) /* Setup */
-     , (862,   2,  150994945) /* MotionTable */
-     , (862,   3,  536870913) /* SoundTable */
-     , (862,   6,   67108990) /* PaletteBase */
-     , (862,   8,  100667446) /* Icon */
-     , (862,   9,   83890453) /* EyesTexture */
-     , (862,  10,   83890529) /* NoseTexture */
-     , (862,  11,   83890582) /* MouthTexture */
-     , (862,  15,   67117001) /* HairPalette */
-     , (862,  16,   67109565) /* EyesPalette */
-     , (862,  17,   67110050) /* SkinPalette */;
+VALUES (862,   1, 0x02000001) /* Setup */
+     , (862,   2, 0x09000001) /* MotionTable */
+     , (862,   3, 0x20000001) /* SoundTable */
+     , (862,   6, 0x0400007E) /* PaletteBase */
+     , (862,   8, 0x06001036) /* Icon */
+     , (862,   9, 0x05001115) /* EyesTexture */
+     , (862,  10, 0x05001161) /* NoseTexture */
+     , (862,  11, 0x05001196) /* MouthTexture */
+     , (862,  15, 0x04001FC9) /* HairPalette */
+     , (862,  16, 0x040002BD) /* EyesPalette */
+     , (862,  17, 0x040004A2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (862, 8040, 3880649030, 43.6571, 111.566, 32.005, 0.6680546, 0, 0, -0.7441123) /* PCAPRecordedLocation */
+VALUES (862, 8040, 0xE74E0146, 43.6571, 111.566, 32.005, 0.668055, 0, 0, -0.744112) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0146 [43.657100 111.566000 32.005000] 0.668055 0.000000 0.000000 -0.744112 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

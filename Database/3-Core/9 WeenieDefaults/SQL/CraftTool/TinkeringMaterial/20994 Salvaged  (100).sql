@@ -31,9 +31,9 @@ VALUES (20994,   1, 'Salvaged  (100)') /* Name */
      , (20994,  15, 'A bolt of velvet material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20994,   1,   33554817) /* Setup */
-     , (20994,   3,  536870932) /* SoundTable */
-     , (20994,   6,   67111919) /* PaletteBase */
-     , (20994,   8,  100673220) /* Icon */
-     , (20994,  22,  872415275) /* PhysicsEffectTable */
-     , (20994,  50,  100673238) /* IconOverlay */;
+VALUES (20994,   1, 0x02000181) /* Setup */
+     , (20994,   3, 0x20000014) /* SoundTable */
+     , (20994,   6, 0x04000BEF) /* PaletteBase */
+     , (20994,   8, 0x060026C4) /* Icon */
+     , (20994,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20994,  50, 0x060026D6) /* IconOverlay */;

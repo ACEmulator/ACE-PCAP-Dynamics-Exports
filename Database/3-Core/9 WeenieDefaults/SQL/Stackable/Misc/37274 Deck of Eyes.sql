@@ -21,7 +21,7 @@ VALUES (37274,   1, 'Deck of Eyes') /* Name */
      , (37274,  20, 'Decks of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37274,   1,   33560546) /* Setup */
-     , (37274,   3,  536870932) /* SoundTable */
-     , (37274,   8,  100689859) /* Icon */
-     , (37274,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37274,   1, 0x020017E2) /* Setup */
+     , (37274,   3, 0x20000014) /* SoundTable */
+     , (37274,   8, 0x060067C3) /* Icon */
+     , (37274,  22, 0x3400002B) /* PhysicsEffectTable */;

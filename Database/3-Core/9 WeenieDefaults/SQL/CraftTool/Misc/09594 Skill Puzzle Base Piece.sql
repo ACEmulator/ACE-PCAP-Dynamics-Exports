@@ -29,11 +29,11 @@ VALUES (9594,   1, 'Skill Puzzle Base Piece') /* Name */
      , (9594,  16, 'The base piece for the Bestowers'' Guild skill puzzle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9594,   1,   33557028) /* Setup */
-     , (9594,   3,  536870932) /* SoundTable */
-     , (9594,   8,  100671537) /* Icon */
-     , (9594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9594,   1, 0x02000A24) /* Setup */
+     , (9594,   3, 0x20000014) /* SoundTable */
+     , (9594,   8, 0x06002031) /* Icon */
+     , (9594,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9594, 8040, 3465806080, 106.879, 130.784, 19.77348, -0.9905559, 0, 0, -0.137109) /* PCAPRecordedLocation */
+VALUES (9594, 8040, 0xCE940100, 106.879, 130.784, 19.77348, -0.990556, 0, 0, -0.137109) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940100 [106.879000 130.784000 19.773480] -0.990556 0.000000 0.000000 -0.137109 */;

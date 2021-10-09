@@ -34,12 +34,12 @@ VALUES (41484,   1, 'Goggles') /* Name */
      , (41484,  16, 'Goggles of Lightning Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41484,   1,   33554680) /* Setup */
-     , (41484,   3,  536870932) /* SoundTable */
-     , (41484,   6,   67111919) /* PaletteBase */
-     , (41484,   8,  100690604) /* Icon */
-     , (41484,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41484,   1, 0x020000F8) /* Setup */
+     , (41484,   3, 0x20000014) /* SoundTable */
+     , (41484,   6, 0x04000BEF) /* PaletteBase */
+     , (41484,   8, 0x06006AAC) /* Icon */
+     , (41484,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41484,  1070,      2)  /* LightningProtectionSelf5 */
-     , (41484,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;
+VALUES (41484,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */
+     , (41484,  1070,      2)  /* LightningProtectionSelf5 */;

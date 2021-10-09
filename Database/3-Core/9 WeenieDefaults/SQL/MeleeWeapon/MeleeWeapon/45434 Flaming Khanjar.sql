@@ -49,10 +49,10 @@ VALUES (45434,   1, 'Flaming Khanjar') /* Name */
      , (45434,  16, 'Flaming Khanjar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45434,   1,   33555769) /* Setup */
-     , (45434,   3,  536870932) /* SoundTable */
-     , (45434,   8,  100668944) /* Icon */
-     , (45434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45434,   1, 0x02000539) /* Setup */
+     , (45434,   3, 0x20000014) /* SoundTable */
+     , (45434,   8, 0x06001610) /* Icon */
+     , (45434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45434,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

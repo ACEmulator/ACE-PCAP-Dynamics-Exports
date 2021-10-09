@@ -27,11 +27,11 @@ VALUES (46348,   1, 'Torn Strip of Parchment') /* Name */
      , (46348,  16, 'The left strip of a torn page. What little can be seen of the text looks to be written in ancient Falatacot symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46348,   1,   33554773) /* Setup */
-     , (46348,   3,  536870932) /* SoundTable */
-     , (46348,   8,  100692696) /* Icon */
-     , (46348,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46348,   1, 0x02000155) /* Setup */
+     , (46348,   3, 0x20000014) /* SoundTable */
+     , (46348,   8, 0x060072D8) /* Icon */
+     , (46348,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46348, 8040, 1466237783, 44.5009, -112.468, -5.921, 0.9998697, 0, 0, 0.01614299) /* PCAPRecordedLocation */
+VALUES (46348, 8040, 0x57650357, 44.5009, -112.468, -5.921, 0.99987, 0, 0, 0.016143) /* PCAPRecordedLocation */
 /* @teleloc 0x57650357 [44.500900 -112.468000 -5.921000] 0.999870 0.000000 0.000000 0.016143 */;

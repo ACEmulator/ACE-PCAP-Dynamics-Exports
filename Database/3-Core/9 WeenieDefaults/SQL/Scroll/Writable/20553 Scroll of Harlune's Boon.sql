@@ -23,7 +23,7 @@ VALUES (20553,   1, 'Scroll of Harlune''s Boon') /* Name */
 Increases the target''s Life Magic skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20553,   1,   33554826) /* Setup */
-     , (20553,   8,  100676462) /* Icon */
-     , (20553,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20553,   1, 0x0200018A) /* Setup */
+     , (20553,   8, 0x0600336E) /* Icon */
+     , (20553,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20553,  28,       2266) /* Spell - LifeMagicMasteryOther7 */;

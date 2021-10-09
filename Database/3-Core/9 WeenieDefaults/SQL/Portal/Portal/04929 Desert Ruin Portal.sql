@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4929,   1, 'Desert Ruin Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4929,   1,   33554867) /* Setup */
-     , (4929,   2,  150994947) /* MotionTable */
-     , (4929,   8,  100667499) /* Icon */;
+VALUES (4929,   1, 0x020001B3) /* Setup */
+     , (4929,   2, 0x09000003) /* MotionTable */
+     , (4929,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4929, 8040, 2471952642, 45.423, 132, 34.737, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (4929, 8040, 0x93570102, 45.423, 132, 34.737, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x93570102 [45.423000 132.000000 34.737000] 0.707107 0.000000 0.000000 -0.707107 */;

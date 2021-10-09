@@ -32,20 +32,20 @@ VALUES (45871,   1, 'Master Tarkor''in') /* Name */
      , (45871,   5, 'Society Stipend Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45871,   1,   33561110) /* Setup */
-     , (45871,   2,  150994945) /* MotionTable */
-     , (45871,   3,  536870913) /* SoundTable */
-     , (45871,   6,   67108990) /* PaletteBase */
-     , (45871,   8,  100667377) /* Icon */
-     , (45871,   9,   83890451) /* EyesTexture */
-     , (45871,  10,   83890548) /* NoseTexture */
-     , (45871,  11,   83890666) /* MouthTexture */
-     , (45871,  15,   67116988) /* HairPalette */
-     , (45871,  16,   67116856) /* EyesPalette */
-     , (45871,  17,   67116964) /* SkinPalette */;
+VALUES (45871,   1, 0x02001A16) /* Setup */
+     , (45871,   2, 0x09000001) /* MotionTable */
+     , (45871,   3, 0x20000001) /* SoundTable */
+     , (45871,   6, 0x0400007E) /* PaletteBase */
+     , (45871,   8, 0x06000FF1) /* Icon */
+     , (45871,   9, 0x05001113) /* EyesTexture */
+     , (45871,  10, 0x05001174) /* NoseTexture */
+     , (45871,  11, 0x050011EA) /* MouthTexture */
+     , (45871,  15, 0x04001FBC) /* HairPalette */
+     , (45871,  16, 0x04001F38) /* EyesPalette */
+     , (45871,  17, 0x04001FA4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45871, 8040, 11993573, 96.6988, -101.637, -17.994, -0.921047, 0, 0, 0.389452) /* PCAPRecordedLocation */
+VALUES (45871, 8040, 0x00B701E5, 96.6988, -101.637, -17.994, -0.921047, 0, 0, 0.389452) /* PCAPRecordedLocation */
 /* @teleloc 0x00B701E5 [96.698800 -101.637000 -17.994000] -0.921047 0.000000 0.000000 0.389452 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

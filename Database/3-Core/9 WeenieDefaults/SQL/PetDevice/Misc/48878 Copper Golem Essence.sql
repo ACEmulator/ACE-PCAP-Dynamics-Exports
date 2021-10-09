@@ -33,10 +33,10 @@ VALUES (48878,   1, 'Copper Golem Essence') /* Name */
      , (48878,  14, 'Use this essence to summon or dismiss your Copper Golem.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48878,   1,   33554817) /* Setup */
-     , (48878,   3,  536870932) /* SoundTable */
-     , (48878,   6,   67111919) /* PaletteBase */
-     , (48878,   8,  100693023) /* Icon */
-     , (48878,  22,  872415275) /* PhysicsEffectTable */
-     , (48878,  50,  100693026) /* IconOverlay */
-     , (48878,  52,  100693024) /* IconUnderlay */;
+VALUES (48878,   1, 0x02000181) /* Setup */
+     , (48878,   3, 0x20000014) /* SoundTable */
+     , (48878,   6, 0x04000BEF) /* PaletteBase */
+     , (48878,   8, 0x0600741F) /* Icon */
+     , (48878,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48878,  50, 0x06007422) /* IconOverlay */
+     , (48878,  52, 0x06007420) /* IconUnderlay */;

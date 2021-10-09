@@ -47,11 +47,11 @@ VALUES (20005,   1, 'Superb Isparian Sword') /* Name */
      , (20005,   8, 'Cricket') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20005,   1,   33556262) /* Setup */
-     , (20005,   3,  536870932) /* SoundTable */
-     , (20005,   6,   67111919) /* PaletteBase */
-     , (20005,   8,  100672945) /* Icon */
-     , (20005,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20005,   1, 0x02000726) /* Setup */
+     , (20005,   3, 0x20000014) /* SoundTable */
+     , (20005,   6, 0x04000BEF) /* PaletteBase */
+     , (20005,   8, 0x060025B1) /* Icon */
+     , (20005,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20005,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */;

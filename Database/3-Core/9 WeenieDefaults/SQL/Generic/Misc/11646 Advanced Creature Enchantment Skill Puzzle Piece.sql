@@ -25,7 +25,7 @@ VALUES (11646,   1, 'Advanced Creature Enchantment Skill Puzzle Piece') /* Name 
      , (11646,  16, 'An Advanced Creature Enchantment skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Creature Enchantment skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11646,   1,   33554669) /* Setup */
-     , (11646,   3,  536870932) /* SoundTable */
-     , (11646,   8,  100671709) /* Icon */
-     , (11646,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11646,   1, 0x020000ED) /* Setup */
+     , (11646,   3, 0x20000014) /* SoundTable */
+     , (11646,   8, 0x060020DD) /* Icon */
+     , (11646,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,21 +27,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35990,   1, 'Penumbral Shadowmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35990,   1,   33556251) /* Setup */
-     , (35990,   2,  150995091) /* MotionTable */
-     , (35990,   3,  536870914) /* SoundTable */
-     , (35990,   6,   67108990) /* PaletteBase */
-     , (35990,   8,  100670398) /* Icon */
-     , (35990,   9,   83890280) /* EyesTexture */
-     , (35990,  10,   83890291) /* NoseTexture */
-     , (35990,  11,   83890349) /* MouthTexture */
-     , (35990,  15,   67116984) /* HairPalette */
-     , (35990,  16,   67109567) /* EyesPalette */
-     , (35990,  17,   67109558) /* SkinPalette */
-     , (35990,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (35990,   1, 0x0200071B) /* Setup */
+     , (35990,   2, 0x09000093) /* MotionTable */
+     , (35990,   3, 0x20000002) /* SoundTable */
+     , (35990,   6, 0x0400007E) /* PaletteBase */
+     , (35990,   8, 0x06001BBE) /* Icon */
+     , (35990,   9, 0x05001068) /* EyesTexture */
+     , (35990,  10, 0x05001073) /* NoseTexture */
+     , (35990,  11, 0x050010AD) /* MouthTexture */
+     , (35990,  15, 0x04001FB8) /* HairPalette */
+     , (35990,  16, 0x040002BF) /* EyesPalette */
+     , (35990,  17, 0x040002B6) /* SkinPalette */
+     , (35990,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35990, 8040, 151322627, 13.91812, 66.42218, 88.0065, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35990, 8040, 0x09050003, 13.91812, 66.42218, 88.0065, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x09050003 [13.918120 66.422180 88.006500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

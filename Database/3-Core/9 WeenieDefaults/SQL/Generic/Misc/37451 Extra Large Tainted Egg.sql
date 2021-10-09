@@ -22,7 +22,7 @@ VALUES (37451,   1, 'Extra Large Tainted Egg') /* Name */
      , (37451,  16, 'This egg''s shell oozes with an oily, film-like substance which causes the egg to appear gray, almost black.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37451,   1,   33554817) /* Setup */
-     , (37451,   3,  536870932) /* SoundTable */
-     , (37451,   8,  100689466) /* Icon */
-     , (37451,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37451,   1, 0x02000181) /* Setup */
+     , (37451,   3, 0x20000014) /* SoundTable */
+     , (37451,   8, 0x0600663A) /* Icon */
+     , (37451,  22, 0x3400002B) /* PhysicsEffectTable */;

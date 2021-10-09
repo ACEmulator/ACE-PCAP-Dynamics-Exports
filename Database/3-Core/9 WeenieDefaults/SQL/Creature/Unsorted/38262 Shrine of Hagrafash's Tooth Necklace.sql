@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38262,   1, 'Shrine of Hagrafash''s Tooth Necklace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38262,   1,   33558607) /* Setup */
-     , (38262,   2,  150995279) /* MotionTable */
-     , (38262,   3,  536871052) /* SoundTable */
-     , (38262,   8,  100675788) /* Icon */
-     , (38262,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38262,   1, 0x0200104F) /* Setup */
+     , (38262,   2, 0x0900014F) /* MotionTable */
+     , (38262,   3, 0x2000008C) /* SoundTable */
+     , (38262,   8, 0x060030CC) /* Icon */
+     , (38262,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38262, 8040, 1057751066, 84, 36, 2.94674, -0.558904, 0, 0, -0.829233) /* PCAPRecordedLocation */
+VALUES (38262, 8040, 0x3F0C001A, 84, 36, 2.94674, -0.558904, 0, 0, -0.829233) /* PCAPRecordedLocation */
 /* @teleloc 0x3F0C001A [84.000000 36.000000 2.946740] -0.558904 0.000000 0.000000 -0.829233 */;

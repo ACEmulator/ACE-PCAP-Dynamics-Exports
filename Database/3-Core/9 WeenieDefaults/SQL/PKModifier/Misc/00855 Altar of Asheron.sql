@@ -21,11 +21,11 @@ VALUES (855,   1, 'Altar of Asheron') /* Name */
      , (855,  15, 'Using this altar will let you become one of Asheron''s Favored again, a Non-Player Killer protected by Asheron himself -- but to complete the process, you may not have killed anyone for 15 minutes beforehand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (855,   1,   33555278) /* Setup */
-     , (855,   2,  150994989) /* MotionTable */
-     , (855,   3,  536870965) /* SoundTable */
-     , (855,   8,  100668239) /* Icon */;
+VALUES (855,   1, 0x0200034E) /* Setup */
+     , (855,   2, 0x0900002D) /* MotionTable */
+     , (855,   3, 0x20000035) /* SoundTable */
+     , (855,   8, 0x0600134F) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (855, 8040, 33358082, 90, -110, -23.999, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (855, 8040, 0x01FD0102, 90, -110, -23.999, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01FD0102 [90.000000 -110.000000 -23.999000] -0.707107 0.000000 0.000000 -0.707107 */;

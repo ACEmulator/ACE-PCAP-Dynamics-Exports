@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32464,   1, 'Item Tinkering Warden of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32464,   1,   33555352) /* Setup */
-     , (32464,   2,  150995147) /* MotionTable */
-     , (32464,   3,  536871052) /* SoundTable */
-     , (32464,   8,  100667624) /* Icon */
-     , (32464,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (32464,   1, 0x02000398) /* Setup */
+     , (32464,   2, 0x090000CB) /* MotionTable */
+     , (32464,   3, 0x2000008C) /* SoundTable */
+     , (32464,   8, 0x060010E8) /* Icon */
+     , (32464,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32464, 8040, 3600351238, 14.9, 139, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32464, 8040, 0xD6990006, 14.9, 139, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990006 [14.900000 139.000000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */;

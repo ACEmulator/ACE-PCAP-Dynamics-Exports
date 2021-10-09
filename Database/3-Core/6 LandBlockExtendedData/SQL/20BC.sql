@@ -49,7 +49,7 @@ VALUES (0x720BC008, 11541, 0x20BC0020, 93.05746, 168.7663, 103.8855, 1, 0, 0, 0,
 /* @teleloc 0x20BC0020 [93.057460 168.766300 103.885500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BC009, 11481, 0x20BC0013, 49.70156, 58.75791, 90.16451, -0.3252832, 0, 0, -0.9456166,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
+VALUES (0x720BC009, 11481, 0x20BC0013, 49.70156, 58.75791, 90.16451, -0.325283, 0, 0, -0.945617,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
 /* @teleloc 0x20BC0013 [49.701560 58.757910 90.164510] -0.325283 0.000000 0.000000 -0.945617 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,11 +57,11 @@ VALUES (0x720BC00A, 11501, 0x20BC002D, 141.2383, 100.5206, 109.3981, 1, 0, 0, 0,
 /* @teleloc 0x20BC002D [141.238300 100.520600 109.398100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BC00B, 11481, 0x20BC000C, 27.54299, 91.14718, 94.09895, -0.00530796, 0, 0, -0.9999859,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
+VALUES (0x720BC00B, 11481, 0x20BC000C, 27.54299, 91.14718, 94.09895, -0.005308, 0, 0, -0.999986,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
 /* @teleloc 0x20BC000C [27.542990 91.147180 94.098950] -0.005308 0.000000 0.000000 -0.999986 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BC00C, 27712, 0x20BC001F, 90.85417, 160.6871, 103.7398, 0.5657791, 0, 0, -0.8245568,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */
+VALUES (0x720BC00C, 27712, 0x20BC001F, 90.85417, 160.6871, 103.7398, 0.565779, 0, 0, -0.824557,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */
 /* @teleloc 0x20BC001F [90.854170 160.687100 103.739800] 0.565779 0.000000 0.000000 -0.824557 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

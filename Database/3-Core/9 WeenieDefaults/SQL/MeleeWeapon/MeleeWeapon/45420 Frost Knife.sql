@@ -46,10 +46,10 @@ VALUES (45420,   1, 'Frost Knife') /* Name */
      , (45420,  16, 'Frost Knife of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45420,   1,   33555743) /* Setup */
-     , (45420,   3,  536870932) /* SoundTable */
-     , (45420,   8,  100668954) /* Icon */
-     , (45420,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45420,   1, 0x0200051F) /* Setup */
+     , (45420,   3, 0x20000014) /* SoundTable */
+     , (45420,   8, 0x0600161A) /* Icon */
+     , (45420,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45420,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

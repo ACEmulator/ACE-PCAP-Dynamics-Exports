@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x9DAE;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE001,  1154, 0x9DAE003E, 179.6998, 135.1199, 133.025, -0.9930207, 0, 0, -0.1179403, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x79DAE001,  1154, 0x9DAE003E, 179.6998, 135.1199, 133.025, -0.993021, 0, 0, -0.11794, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x9DAE003E [179.699800 135.119900 133.025000] -0.993021 0.000000 0.000000 -0.117940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -15,11 +15,11 @@ VALUES (0x79DAE001, 0x79DAE002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) *
      , (0x79DAE001, 0x79DAE009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE002, 22009, 0x9DAE003E, 179.6998, 135.1199, 133.025, -0.9930207, 0, 0, -0.1179403,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
+VALUES (0x79DAE002, 22009, 0x9DAE003E, 179.6998, 135.1199, 133.025, -0.993021, 0, 0, -0.11794,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
 /* @teleloc 0x9DAE003E [179.699800 135.119900 133.025000] -0.993021 0.000000 0.000000 -0.117940 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE003,  1630, 0x9DAE0037, 155.079, 162.2656, 135.0842, -0.724739, 0, 0, -0.6890235,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+VALUES (0x79DAE003,  1630, 0x9DAE0037, 155.079, 162.2656, 135.0842, -0.724739, 0, 0, -0.689024,  True, '2019-02-10 00:00:00'); /* Lich Lord */
 /* @teleloc 0x9DAE0037 [155.079000 162.265600 135.084200] -0.724739 0.000000 0.000000 -0.689024 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -35,15 +35,15 @@ VALUES (0x79DAE006,  4104, 0x9DAE000E, 36.60093, 124.1289, 139.5553, 1, 0, 0, 0,
 /* @teleloc 0x9DAE000E [36.600930 124.128900 139.555300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE007,  1609, 0x9DAE0005, 19.97935, 99.55067, 142.6714, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+VALUES (0x79DAE007,  1609, 0x9DAE0005, 19.97935, 99.55067, 142.6714, 0.173648, 0, 0, -0.984808,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
 /* @teleloc 0x9DAE0005 [19.979350 99.550670 142.671400] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE008,  1609, 0x9DAE0005, 19.37935, 96.15067, 142.6714, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+VALUES (0x79DAE008,  1609, 0x9DAE0005, 19.37935, 96.15067, 142.6714, 0.965926, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
 /* @teleloc 0x9DAE0005 [19.379350 96.150670 142.671400] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DAE009,  7128, 0x9DAE0006, 8.570957, 142.5061, 137.2825, -0.9992867, 0, 0, -0.03776406,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
+VALUES (0x79DAE009,  7128, 0x9DAE0006, 8.570957, 142.5061, 137.2825, -0.999287, 0, 0, -0.037764,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
 /* @teleloc 0x9DAE0006 [8.570957 142.506100 137.282500] -0.999287 0.000000 0.000000 -0.037764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

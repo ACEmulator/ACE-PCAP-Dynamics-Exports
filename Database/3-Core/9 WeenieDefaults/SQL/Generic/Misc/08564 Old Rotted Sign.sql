@@ -21,9 +21,9 @@ VALUES (8564,   1, 'Old Rotted Sign') /* Name */
      , (8564,  16, '[This sign is too weathered and rotted to read.]') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8564,   1,   33556890) /* Setup */
-     , (8564,   8,  100668115) /* Icon */;
+VALUES (8564,   1, 0x0200099A) /* Setup */
+     , (8564,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8564, 8040, 4028694537, 26.7462, 12.0887, -3.72529E-09, 0.416674, 0, 0, -0.909056) /* PCAPRecordedLocation */
+VALUES (8564, 8040, 0xF0210009, 26.7462, 12.0887, 0, 0.416674, 0, 0, -0.909056) /* PCAPRecordedLocation */
 /* @teleloc 0xF0210009 [26.746200 12.088700 0.000000] 0.416674 0.000000 0.000000 -0.909056 */;

@@ -52,19 +52,19 @@ VALUES (46210,   1, 'Enhanced Shimmering Isparian Two Handed Sword') /* Name */
      , (46210,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46210,   1,   33556262) /* Setup */
-     , (46210,   3,  536870932) /* SoundTable */
-     , (46210,   8,  100692947) /* Icon */
-     , (46210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46210,   1, 0x02000726) /* Setup */
+     , (46210,   3, 0x20000014) /* SoundTable */
+     , (46210,   8, 0x060073D3) /* Icon */
+     , (46210,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46210, 8040, 3465805869, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (46210, 8040, 0xCE94002D, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE94002D [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46210,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46210,  2101,      2)  /* DefenderSelf7 */
-     , (46210,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46210,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46210,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46210,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (46210,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
-     , (46210,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (46210,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46210,  2101,      2)  /* DefenderSelf7 */
+     , (46210,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -23,7 +23,7 @@ VALUES (2963,   1, 'Scroll of Shock Wave II') /* Name */
 Shoots a shock wave at the target. The wave does 26-52 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2963,   1,   33554826) /* Setup */
-     , (2963,   8,  100677008) /* Icon */
-     , (2963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2963,   1, 0x0200018A) /* Setup */
+     , (2963,   8, 0x06003590) /* Icon */
+     , (2963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2963,  28,         65) /* Spell - ShockWave2 */;

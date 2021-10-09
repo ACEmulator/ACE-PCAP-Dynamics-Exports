@@ -23,7 +23,7 @@ VALUES (9631,   1, 'Scroll of Health to Mana Self III') /* Name */
 Drains one-half of the caster''s Health and gives 110% of that to his/her Mana (maximum of 150).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9631,   1,   33554826) /* Setup */
-     , (9631,   8,  100676943) /* Icon */
-     , (9631,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9631,   1, 0x0200018A) /* Setup */
+     , (9631,   8, 0x0600354F) /* Icon */
+     , (9631,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9631,  28,       1280) /* Spell - HealthToManaSelf3 */;

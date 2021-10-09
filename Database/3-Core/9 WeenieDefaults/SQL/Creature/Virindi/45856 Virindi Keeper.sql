@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45856,   1, 'Virindi Keeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45856,   1,   33561227) /* Setup */
-     , (45856,   2,  150994984) /* MotionTable */
-     , (45856,   3,  536870930) /* SoundTable */
-     , (45856,   6,   67111346) /* PaletteBase */
-     , (45856,   8,  100667943) /* Icon */;
+VALUES (45856,   1, 0x02001A8B) /* Setup */
+     , (45856,   2, 0x09000028) /* MotionTable */
+     , (45856,   3, 0x20000012) /* SoundTable */
+     , (45856,   6, 0x040009B2) /* PaletteBase */
+     , (45856,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45856, 8040, 1448411562, 79.9918, 0.177047, 0.02899998, 0.03717399, 0, 0, -0.9993088) /* PCAPRecordedLocation */
+VALUES (45856, 8040, 0x565501AA, 79.9918, 0.177047, 0.029, 0.037174, 0, 0, -0.999309) /* PCAPRecordedLocation */
 /* @teleloc 0x565501AA [79.991800 0.177047 0.029000] 0.037174 0.000000 0.000000 -0.999309 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

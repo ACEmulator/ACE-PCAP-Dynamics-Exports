@@ -28,11 +28,11 @@ VALUES (25990,   1, 'Small Creepy Statue') /* Name */
      , (25990,  15, 'A small statue that looks just a little too life-like for comfort.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25990,   1,   33555499) /* Setup */
-     , (25990,   2,  150995147) /* MotionTable */
-     , (25990,   3,  536871052) /* SoundTable */
-     , (25990,   8,  100675745) /* Icon */;
+VALUES (25990,   1, 0x0200042B) /* Setup */
+     , (25990,   2, 0x090000CB) /* MotionTable */
+     , (25990,   3, 0x2000008C) /* SoundTable */
+     , (25990,   8, 0x060030A1) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25990, 8040, 4116250685, 186.564, 105.419, 20, 0.45742, 0, 0, -0.889251) /* PCAPRecordedLocation */
+VALUES (25990, 8040, 0xF559003D, 186.564, 105.419, 20, 0.45742, 0, 0, -0.889251) /* PCAPRecordedLocation */
 /* @teleloc 0xF559003D [186.564000 105.419000 20.000000] 0.457420 0.000000 0.000000 -0.889251 */;

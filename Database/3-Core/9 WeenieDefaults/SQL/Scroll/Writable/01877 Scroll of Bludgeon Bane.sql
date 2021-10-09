@@ -23,7 +23,7 @@ VALUES (1877,   1, 'Scroll of Bludgeon Bane') /* Name */
 Increases a shield or piece of armor''s resistance to bludgeoning damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1877,   1,   33554826) /* Setup */
-     , (1877,   8,  100676650) /* Icon */
-     , (1877,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1877,   1, 0x0200018A) /* Setup */
+     , (1877,   8, 0x0600342A) /* Icon */
+     , (1877,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1877,  28,       1511) /* Spell - BludgeonBane1 */;

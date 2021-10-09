@@ -23,7 +23,7 @@ VALUES (43329,   1, 'Scroll of Festering Curse ') /* Name */
 The heal rating of the target is decreased by 5.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43329,   1,   33554826) /* Setup */
-     , (43329,   8,  100691571) /* Icon */
-     , (43329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43329,   1, 0x0200018A) /* Setup */
+     , (43329,   8, 0x06006E73) /* Icon */
+     , (43329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43329,  28,       5371) /* Spell - CurseFestering1 */;

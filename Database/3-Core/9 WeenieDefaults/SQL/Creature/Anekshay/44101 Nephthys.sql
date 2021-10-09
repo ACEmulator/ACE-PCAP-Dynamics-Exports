@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44101,   1, 'Nephthys') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44101,   1,   33561252) /* Setup */
-     , (44101,   2,  150994945) /* MotionTable */
-     , (44101,   3,  536870914) /* SoundTable */
-     , (44101,   8,  100667446) /* Icon */;
+VALUES (44101,   1, 0x02001AA4) /* Setup */
+     , (44101,   2, 0x09000001) /* MotionTable */
+     , (44101,   3, 0x20000002) /* SoundTable */
+     , (44101,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44101, 8040, 2271412481, 30.123, 131.677, 7.705, -0.5899002, 0, 0, 0.8074762) /* PCAPRecordedLocation */
+VALUES (44101, 8040, 0x87630101, 30.123, 131.677, 7.705, -0.5899, 0, 0, 0.807476) /* PCAPRecordedLocation */
 /* @teleloc 0x87630101 [30.123000 131.677000 7.705000] -0.589900 0.000000 0.000000 0.807476 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

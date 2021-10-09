@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31496,   1, 'Worn Old Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31496,   1,   33559581) /* Setup */
-     , (31496,   3,  536870932) /* SoundTable */
-     , (31496,   8,  100687873) /* Icon */
-     , (31496,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31496,   1, 0x0200141D) /* Setup */
+     , (31496,   3, 0x20000014) /* SoundTable */
+     , (31496,   8, 0x06006001) /* Icon */
+     , (31496,  22, 0x3400002B) /* PhysicsEffectTable */;

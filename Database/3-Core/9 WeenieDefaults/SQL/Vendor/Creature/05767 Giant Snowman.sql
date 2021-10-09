@@ -30,14 +30,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5767,   1, 'Giant Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5767,   1,   33556222) /* Setup */
-     , (5767,   2,  150995088) /* MotionTable */
-     , (5767,   3,  536871000) /* SoundTable */
-     , (5767,   8,  100669125) /* Icon */
-     , (5767,  22,  872415346) /* PhysicsEffectTable */;
+VALUES (5767,   1, 0x020006FE) /* Setup */
+     , (5767,   2, 0x09000090) /* MotionTable */
+     , (5767,   3, 0x20000058) /* SoundTable */
+     , (5767,   8, 0x060016C5) /* Icon */
+     , (5767,  22, 0x34000072) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5767, 8040, 679084055, 55.2294, 167.839, 399.9329, 0.618576, 0, 0, -0.785725) /* PCAPRecordedLocation */
+VALUES (5767, 8040, 0x287A0017, 55.2294, 167.839, 399.9329, 0.618576, 0, 0, -0.785725) /* PCAPRecordedLocation */
 /* @teleloc 0x287A0017 [55.229400 167.839000 399.932900] 0.618576 0.000000 0.000000 -0.785725 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

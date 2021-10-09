@@ -43,18 +43,18 @@ VALUES (94,   1, 'Diamond Shield') /* Name */
      , (94,  16, 'Large Round Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (94,   1,   33557043) /* Setup */
-     , (94,   3,  536870932) /* SoundTable */
-     , (94,   8,  100674092) /* Icon */
-     , (94,  22,  872415275) /* PhysicsEffectTable */
+VALUES (94,   1, 0x02000A33) /* Setup */
+     , (94,   3, 0x20000014) /* SoundTable */
+     , (94,   8, 0x06002A2C) /* Icon */
+     , (94,  22, 0x3400002B) /* PhysicsEffectTable */
      , (94,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (94, 8040, 2114192370, 191.9533, -405.5346, -0.07400001, 0.4121966, 0.6358098, -0.5529282, 0.3465692) /* PCAPRecordedLocation */
+VALUES (94, 8040, 0x7E0403F2, 191.9533, -405.5346, -0.074, 0.412197, 0.63581, -0.552928, 0.346569) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0403F2 [191.953300 -405.534600 -0.074000] 0.412197 0.635810 -0.552928 0.346569 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (94,  1483,      2)  /* Impenetrability3 */
-     , (94,  1538,      2)  /* LightningBane4 */
+VALUES (94,  1538,      2)  /* LightningBane4 */
+     , (94,  1483,      2)  /* Impenetrability3 */
      , (94,  1559,      2)  /* BladeBane3 */
      , (94,  1572,      2)  /* PiercingBane4 */;

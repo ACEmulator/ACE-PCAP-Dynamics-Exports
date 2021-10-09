@@ -44,16 +44,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45977,   1, 'Leather Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45977,   1,   33554656) /* Setup */
-     , (45977,   3,  536870932) /* SoundTable */
-     , (45977,   6,   67108990) /* PaletteBase */
-     , (45977,   8,  100675454) /* Icon */
-     , (45977,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45977,   1, 0x020000E0) /* Setup */
+     , (45977,   3, 0x20000014) /* SoundTable */
+     , (45977,   6, 0x0400007E) /* PaletteBase */
+     , (45977,   8, 0x06002F7E) /* Icon */
+     , (45977,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45977,  1096,      2)  /* FireProtectionOther6 */
      , (45977,  1486,      2)  /* Impenetrability6 */
-     , (45977,  2601,      2)  /* CANTRIPFLAMEBANE1 */
      , (45977,  5776,      2)  /* DirtyFightingMasteryOther6 */
+     , (45977,  2601,      2)  /* CANTRIPFLAMEBANE1 */
      , (45977,  5872,      2)  /* SneakAttackMasteryOther6 */
      , (45977,  5887,      2)  /* CantripSneakAttackProwess1 */;

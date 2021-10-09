@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46511,   1, 'Spectral Bloodmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46511,   1,   33561485) /* Setup */
-     , (46511,   2,  150995455) /* MotionTable */
-     , (46511,   3,  536870942) /* SoundTable */
-     , (46511,   8,  100669124) /* Icon */
-     , (46511,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (46511,   1, 0x02001B8D) /* Setup */
+     , (46511,   2, 0x090001FF) /* MotionTable */
+     , (46511,   3, 0x2000001E) /* SoundTable */
+     , (46511,   8, 0x060016C4) /* Icon */
+     , (46511,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46511, 8040, 1289945348, 40.2459, 29.3358, 60.005, 0.994881, 0, 0, 0.101053) /* PCAPRecordedLocation */
+VALUES (46511, 8040, 0x4CE30104, 40.2459, 29.3358, 60.005, 0.994881, 0, 0, 0.101053) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE30104 [40.245900 29.335800 60.005000] 0.994881 0.000000 0.000000 0.101053 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -44,20 +44,20 @@ VALUES (43382,   1, 'Nefane Pearl') /* Name */
      , (43382,  16, 'Nether Baton of netherbolt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43382,   1,   33558259) /* Setup */
-     , (43382,   3,  536870932) /* SoundTable */
-     , (43382,   6,   67111919) /* PaletteBase */
-     , (43382,   8,  100675628) /* Icon */
-     , (43382,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43382,   1, 0x02000EF3) /* Setup */
+     , (43382,   3, 0x20000014) /* SoundTable */
+     , (43382,   6, 0x04000BEF) /* PaletteBase */
+     , (43382,   8, 0x0600302C) /* Icon */
+     , (43382,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43382,  28,       5384) /* Spell - CurseWeakness6 */
-     , (43382,  52,  100676440) /* IconUnderlay */;
+     , (43382,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43382, 8040, 1692860438, 107.154, 86.636, 58.271, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (43382, 8040, 0x64E70016, 107.154, 86.636, 58.271, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64E70016 [107.154000 86.636000 58.271000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43382,  1480,      2)  /* HermeticLinkSelf6 */
+VALUES (43382,  5355,      2)  /* NetherBolt7 */
+     , (43382,  1480,      2)  /* HermeticLinkSelf6 */
      , (43382,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */
-     , (43382,  3250,      2)  /* CantripSpiritThirst2 */
-     , (43382,  5355,      2)  /* NetherBolt7 */;
+     , (43382,  3250,      2)  /* CantripSpiritThirst2 */;

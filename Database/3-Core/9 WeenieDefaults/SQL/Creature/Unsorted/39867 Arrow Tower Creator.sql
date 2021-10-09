@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39867,   1, 'Arrow Tower Creator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39867,   1,   33560702) /* Setup */
-     , (39867,   2,  150995429) /* MotionTable */
-     , (39867,   3,  536870932) /* SoundTable */
-     , (39867,   8,  100689892) /* Icon */
-     , (39867,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39867,   1, 0x0200187E) /* Setup */
+     , (39867,   2, 0x090001E5) /* MotionTable */
+     , (39867,   3, 0x20000014) /* SoundTable */
+     , (39867,   8, 0x060067E4) /* Icon */
+     , (39867,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39867, 8040, 15204657, 24.5, -33.5, 5.9874, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (39867, 8040, 0x00E80131, 24.5, -33.5, 5.9874, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E80131 [24.500000 -33.500000 5.987400] 1.000000 0.000000 0.000000 0.000000 */;

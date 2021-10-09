@@ -18,9 +18,9 @@ VALUES (13181,   1, 'Simda''r Villas') /* Name */
      , (13181,  16, 'Welcome to Simda''r Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13181,   1,   33557463) /* Setup */
-     , (13181,   8,  100668115) /* Icon */;
+VALUES (13181,   1, 0x02000BD7) /* Setup */
+     , (13181,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13181, 8040, 2484666418, 164.866, 27.6576, 340, 0.931568, 0, 0, -0.363566) /* PCAPRecordedLocation */
+VALUES (13181, 8040, 0x94190032, 164.866, 27.6576, 340, 0.931568, 0, 0, -0.363566) /* PCAPRecordedLocation */
 /* @teleloc 0x94190032 [164.866000 27.657600 340.000000] 0.931568 0.000000 0.000000 -0.363566 */;

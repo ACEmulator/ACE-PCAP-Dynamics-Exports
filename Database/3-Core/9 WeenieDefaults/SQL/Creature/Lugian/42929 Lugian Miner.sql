@@ -28,14 +28,14 @@ VALUES (42929,   1, 'Lugian Miner') /* Name */
      , (42929,   5, 'Miner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42929,   1,   33557003) /* Setup */
-     , (42929,   2,  150994950) /* MotionTable */
-     , (42929,   3,  536870922) /* SoundTable */
-     , (42929,   6,   67113158) /* PaletteBase */
-     , (42929,   8,  100667447) /* Icon */;
+VALUES (42929,   1, 0x02000A0B) /* Setup */
+     , (42929,   2, 0x09000006) /* MotionTable */
+     , (42929,   3, 0x2000000A) /* SoundTable */
+     , (42929,   6, 0x040010C6) /* PaletteBase */
+     , (42929,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42929, 8040, 537856534, 43.774, 19.0065, -35.59, 0.0258377, 0, 0, -0.9996662) /* PCAPRecordedLocation */
+VALUES (42929, 8040, 0x200F0A16, 43.774, 19.0065, -35.59, 0.025838, 0, 0, -0.999666) /* PCAPRecordedLocation */
 /* @teleloc 0x200F0A16 [43.774000 19.006500 -35.590000] 0.025838 0.000000 0.000000 -0.999666 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

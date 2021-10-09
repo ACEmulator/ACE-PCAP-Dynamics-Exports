@@ -39,13 +39,13 @@ VALUES (19672,   1, 'Nuhmudira''s Benefaction of Strength and Acid Defense') /* 
      , (19672,  25, 'Oykib') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19672,   1,   33554687) /* Setup */
-     , (19672,   3,  536870932) /* SoundTable */
-     , (19672,   6,   67111919) /* PaletteBase */
-     , (19672,   8,  100672968) /* Icon */
-     , (19672,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19672,   1, 0x020000FF) /* Setup */
+     , (19672,   3, 0x20000014) /* SoundTable */
+     , (19672,   6, 0x04000BEF) /* PaletteBase */
+     , (19672,   8, 0x060025C8) /* Icon */
+     , (19672,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19672,   511,      2)  /* AcidProtectionOther3 */
+VALUES (19672,  2668,      2)  /* NuhmudirasBenefaction */
      , (19672,  1334,      2)  /* StrengthOther3 */
-     , (19672,  2668,      2)  /* NuhmudirasBenefaction */;
+     , (19672,   511,      2)  /* AcidProtectionOther3 */;

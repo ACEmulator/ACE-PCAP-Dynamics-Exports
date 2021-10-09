@@ -27,8 +27,8 @@ VALUES (38890,   1, 'Blighted Bow Coin') /* Name */
      , (38890,  20, 'Blighted Bow Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38890,   1,   33554659) /* Setup */
-     , (38890,   3,  536870932) /* SoundTable */
-     , (38890,   8,  100689461) /* Icon */
-     , (38890,  22,  872415275) /* PhysicsEffectTable */
-     , (38890,  50,  100686638) /* IconOverlay */;
+VALUES (38890,   1, 0x020000E3) /* Setup */
+     , (38890,   3, 0x20000014) /* SoundTable */
+     , (38890,   8, 0x06006635) /* Icon */
+     , (38890,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38890,  50, 0x06005B2E) /* IconOverlay */;

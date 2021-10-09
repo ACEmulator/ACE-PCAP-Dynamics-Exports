@@ -34,20 +34,20 @@ VALUES (737,   1, 'Arsitha Trell the Grocer') /* Name */
      , (737,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (737,   1,   33554510) /* Setup */
-     , (737,   2,  150994945) /* MotionTable */
-     , (737,   3,  536870914) /* SoundTable */
-     , (737,   6,   67108990) /* PaletteBase */
-     , (737,   8,  100667446) /* Icon */
-     , (737,   9,   83890255) /* EyesTexture */
-     , (737,  10,   83890300) /* NoseTexture */
-     , (737,  11,   83890349) /* MouthTexture */
-     , (737,  15,   67117019) /* HairPalette */
-     , (737,  16,   67110063) /* EyesPalette */
-     , (737,  17,   67109562) /* SkinPalette */;
+VALUES (737,   1, 0x0200004E) /* Setup */
+     , (737,   2, 0x09000001) /* MotionTable */
+     , (737,   3, 0x20000002) /* SoundTable */
+     , (737,   6, 0x0400007E) /* PaletteBase */
+     , (737,   8, 0x06001036) /* Icon */
+     , (737,   9, 0x0500104F) /* EyesTexture */
+     , (737,  10, 0x0500107C) /* NoseTexture */
+     , (737,  11, 0x050010AD) /* MouthTexture */
+     , (737,  15, 0x04001FDB) /* HairPalette */
+     , (737,  16, 0x040004AF) /* EyesPalette */
+     , (737,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (737, 8040, 2711879960, 141.12, 133.56, 50.045, 0.957067, 0, 0, -0.289867) /* PCAPRecordedLocation */
+VALUES (737, 8040, 0xA1A40118, 141.12, 133.56, 50.045, 0.957067, 0, 0, -0.289867) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40118 [141.120000 133.560000 50.045000] 0.957067 0.000000 0.000000 -0.289867 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

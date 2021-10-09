@@ -27,11 +27,11 @@ VALUES (34727,   1, 'Colosseum Arena') /* Name */
      , (34727,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34727,   1,   33560145) /* Setup */
-     , (34727,   2,  150995311) /* MotionTable */
-     , (34727,   3,  536870932) /* SoundTable */
-     , (34727,   8,  100677070) /* Icon */;
+VALUES (34727,   1, 0x02001651) /* Setup */
+     , (34727,   2, 0x0900016F) /* MotionTable */
+     , (34727,   3, 0x20000014) /* SoundTable */
+     , (34727,   8, 0x060035CE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34727, 8040, 11469071, 30.8082, 4.51301, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34727, 8040, 0x00AF010F, 30.8082, 4.51301, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF010F [30.808200 4.513010 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

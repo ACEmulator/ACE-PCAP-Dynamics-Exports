@@ -23,10 +23,10 @@ VALUES (42157,   1, 'Fledgemaster''s Camp') /* Name */
      , (42157,  16, 'A portal leading to the Ruschk Fledgemaster''s Camp where a Fledgemaster''s Tusk may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42157,   1,   33554867) /* Setup */
-     , (42157,   2,  150994947) /* MotionTable */
-     , (42157,   8,  100667499) /* Icon */;
+VALUES (42157,   1, 0x020001B3) /* Setup */
+     , (42157,   2, 0x09000003) /* MotionTable */
+     , (42157,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42157, 8040, 2315387373, 100.002, -49.9867, 0.25273, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42157, 8040, 0x8A0201ED, 100.002, -49.9867, 0.25273, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201ED [100.002000 -49.986700 0.252730] 0.707107 0.000000 0.000000 -0.707107 */;

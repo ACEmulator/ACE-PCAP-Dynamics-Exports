@@ -44,17 +44,17 @@ VALUES (46137,   1, 'Enhanced Sparking Atlan Wand') /* Name */
      , (46137,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46137,   1,   33557786) /* Setup */
-     , (46137,   3,  536870932) /* SoundTable */
-     , (46137,   6,   67111919) /* PaletteBase */
-     , (46137,   8,  100672992) /* Icon */
-     , (46137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46137,   1, 0x02000D1A) /* Setup */
+     , (46137,   3, 0x20000014) /* SoundTable */
+     , (46137,   6, 0x04000BEF) /* PaletteBase */
+     , (46137,   8, 0x060025E0) /* Icon */
+     , (46137,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46137,  2061,      2)  /* EnduranceSelf7 */
-     , (46137,  2101,      2)  /* DefenderSelf7 */
-     , (46137,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46137,  2287,      2)  /* ManaMasterySelf7 */
      , (46137,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46137,  2287,      2)  /* ManaMasterySelf7 */
+     , (46137,  2159,      2)  /* LightningProtectionSelf7 */
      , (46137,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46137,  2101,      2)  /* DefenderSelf7 */
      , (46137,  3259,      2)  /* SpiritDrinkerSelf7 */;

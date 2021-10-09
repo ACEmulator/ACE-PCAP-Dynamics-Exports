@@ -37,12 +37,12 @@ VALUES (12740,   1, 'Training Battle Axe') /* Name */
      , (12740,  15, 'A basic battle axe forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12740,   1,   33554725) /* Setup */
-     , (12740,   3,  536870932) /* SoundTable */
-     , (12740,   6,   67111919) /* PaletteBase */
-     , (12740,   8,  100668994) /* Icon */
-     , (12740,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12740,   1, 0x02000125) /* Setup */
+     , (12740,   3, 0x20000014) /* SoundTable */
+     , (12740,   6, 0x04000BEF) /* PaletteBase */
+     , (12740,   8, 0x06001642) /* Icon */
+     , (12740,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12740, 8040, 3332964380, 78.29691, 93.09869, 41.9305, 0.4476638, 0.4476638, -0.5473546, -0.5473546) /* PCAPRecordedLocation */
+VALUES (12740, 8040, 0xC6A9001C, 78.29691, 93.09869, 41.9305, 0.447664, 0.447664, -0.547355, -0.547355) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.296910 93.098690 41.930500] 0.447664 0.447664 -0.547355 -0.547355 */;

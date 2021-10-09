@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33285,   1, 'Enraged Ancient Soul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33285,   1,   33558436) /* Setup */
-     , (33285,   2,  150994967) /* MotionTable */
-     , (33285,   3,  536870934) /* SoundTable */
-     , (33285,   6,   67114480) /* PaletteBase */
-     , (33285,   8,  100674805) /* Icon */
-     , (33285,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (33285,   1, 0x02000FA4) /* Setup */
+     , (33285,   2, 0x09000017) /* MotionTable */
+     , (33285,   3, 0x20000016) /* SoundTable */
+     , (33285,   6, 0x040015F0) /* PaletteBase */
+     , (33285,   8, 0x06002CF5) /* Icon */
+     , (33285,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33285, 8040, 13501402, 60, -140, 12.00975, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33285, 8040, 0x00CE03DA, 60, -140, 12.00975, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE03DA [60.000000 -140.000000 12.009750] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

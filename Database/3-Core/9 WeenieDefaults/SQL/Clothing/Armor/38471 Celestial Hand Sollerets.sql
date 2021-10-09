@@ -48,15 +48,15 @@ VALUES (38471,   1, 'Celestial Hand Sollerets') /* Name */
      , (38471,  39, 'Mana Man II') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38471,   1,   33554654) /* Setup */
-     , (38471,   3,  536870932) /* SoundTable */
-     , (38471,   8,  100690169) /* Icon */
-     , (38471,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38471,   1, 0x020000DE) /* Setup */
+     , (38471,   3, 0x20000014) /* SoundTable */
+     , (38471,   8, 0x060068F9) /* Icon */
+     , (38471,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38471,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38471,  1574,      2)  /* PiercingBane6 */
-     , (38471,  2108,      2)  /* Impenetrability7 */
-     , (38471,  2241,      2)  /* HealingMasterySelf7 */
+VALUES (38471,  2241,      2)  /* HealingMasterySelf7 */
+     , (38471,  1574,      2)  /* PiercingBane6 */
+     , (38471,  4401,      2)  /* FlameBane8 */
      , (38471,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (38471,  4401,      2)  /* FlameBane8 */;
+     , (38471,  2108,      2)  /* Impenetrability7 */;

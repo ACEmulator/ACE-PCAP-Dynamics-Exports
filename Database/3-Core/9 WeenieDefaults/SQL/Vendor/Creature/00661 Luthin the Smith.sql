@@ -35,20 +35,20 @@ VALUES (661,   1, 'Luthin the Smith') /* Name */
      , (661,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (661,   1,   33554433) /* Setup */
-     , (661,   2,  150994945) /* MotionTable */
-     , (661,   3,  536870913) /* SoundTable */
-     , (661,   6,   67108990) /* PaletteBase */
-     , (661,   8,  100667446) /* Icon */
-     , (661,   9,   83890511) /* EyesTexture */
-     , (661,  10,   83890560) /* NoseTexture */
-     , (661,  11,   83890656) /* MouthTexture */
-     , (661,  15,   67116978) /* HairPalette */
-     , (661,  16,   67109566) /* EyesPalette */
-     , (661,  17,   67109558) /* SkinPalette */;
+VALUES (661,   1, 0x02000001) /* Setup */
+     , (661,   2, 0x09000001) /* MotionTable */
+     , (661,   3, 0x20000001) /* SoundTable */
+     , (661,   6, 0x0400007E) /* PaletteBase */
+     , (661,   8, 0x06001036) /* Icon */
+     , (661,   9, 0x0500114F) /* EyesTexture */
+     , (661,  10, 0x05001180) /* NoseTexture */
+     , (661,  11, 0x050011E0) /* MouthTexture */
+     , (661,  15, 0x04001FB2) /* HairPalette */
+     , (661,  16, 0x040002BE) /* EyesPalette */
+     , (661,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (661, 8040, 3364618524, 135.96, 180.36, 22.005, 0.02306205, 0, 0, -0.999734) /* PCAPRecordedLocation */
+VALUES (661, 8040, 0xC88C011C, 135.96, 180.36, 22.005, 0.023062, 0, 0, -0.999734) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C011C [135.960000 180.360000 22.005000] 0.023062 0.000000 0.000000 -0.999734 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

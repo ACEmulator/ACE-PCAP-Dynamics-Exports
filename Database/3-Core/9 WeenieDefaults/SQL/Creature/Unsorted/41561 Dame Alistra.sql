@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41561,   1, 'Dame Alistra') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41561,   1,   33554510) /* Setup */
-     , (41561,   2,  150994945) /* MotionTable */
-     , (41561,   3,  536870914) /* SoundTable */
-     , (41561,   6,   67108990) /* PaletteBase */
-     , (41561,   8,  100667446) /* Icon */;
+VALUES (41561,   1, 0x0200004E) /* Setup */
+     , (41561,   2, 0x09000001) /* MotionTable */
+     , (41561,   3, 0x20000002) /* SoundTable */
+     , (41561,   6, 0x0400007E) /* PaletteBase */
+     , (41561,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41561, 8040, 2270494976, 61.2585, 134.182, 9.705, 0.250052, 0, 0, 0.968232) /* PCAPRecordedLocation */
+VALUES (41561, 8040, 0x87550100, 61.2585, 134.182, 9.705, 0.250052, 0, 0, 0.968232) /* PCAPRecordedLocation */
 /* @teleloc 0x87550100 [61.258500 134.182000 9.705000] 0.250052 0.000000 0.000000 0.968232 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

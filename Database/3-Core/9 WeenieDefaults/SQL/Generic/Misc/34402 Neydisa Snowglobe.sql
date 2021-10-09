@@ -21,5 +21,5 @@ VALUES (34402,   1, 'Neydisa Snowglobe') /* Name */
      , (34402,  16, 'A snow globe of Neydisa Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34402,   1,   33560438) /* Setup */
-     , (34402,   8,  100673882) /* Icon */;
+VALUES (34402,   1, 0x02001776) /* Setup */
+     , (34402,   8, 0x0600295A) /* Icon */;

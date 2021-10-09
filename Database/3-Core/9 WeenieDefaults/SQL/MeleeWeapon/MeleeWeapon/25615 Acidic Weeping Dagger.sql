@@ -50,14 +50,14 @@ VALUES (25615,   1, 'Acidic Weeping Dagger') /* Name */
      , (25615,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25615,   1,   33558469) /* Setup */
-     , (25615,   3,  536870932) /* SoundTable */
-     , (25615,   6,   67114522) /* PaletteBase */
-     , (25615,   8,  100674891) /* Icon */
-     , (25615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25615,   1, 0x02000FC5) /* Setup */
+     , (25615,   3, 0x20000014) /* SoundTable */
+     , (25615,   6, 0x0400161A) /* PaletteBase */
+     , (25615,   8, 0x06002D4B) /* Icon */
+     , (25615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25615, 8040, 3111059485, 80.42625, 105.643, 17.83113, 0.6459626, 0.6459626, -0.2876323, -0.2876323) /* PCAPRecordedLocation */
+VALUES (25615, 8040, 0xB96F001D, 80.42625, 105.643, 17.83113, 0.645963, 0.645963, -0.287632, -0.287632) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [80.426250 105.643000 17.831130] 0.645963 0.645963 -0.287632 -0.287632 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

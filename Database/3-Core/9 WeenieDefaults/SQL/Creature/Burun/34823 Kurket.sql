@@ -29,15 +29,15 @@ VALUES (34823,   1, 'Kurket') /* Name */
      , (34823,   5, 'Ranger Ruuk') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34823,   1,   33558582) /* Setup */
-     , (34823,   2,  150995272) /* MotionTable */
-     , (34823,   3,  536871083) /* SoundTable */
-     , (34823,   6,   67114919) /* PaletteBase */
-     , (34823,   8,  100675761) /* Icon */
-     , (34823,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (34823,   1, 0x02001036) /* Setup */
+     , (34823,   2, 0x09000148) /* MotionTable */
+     , (34823,   3, 0x200000AB) /* SoundTable */
+     , (34823,   6, 0x040017A7) /* PaletteBase */
+     , (34823,   8, 0x060030B1) /* Icon */
+     , (34823,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34823, 8040, 10224016, 327.663, -69.6152, -23.97436, -0.6537562, 0, 0, 0.7567052) /* PCAPRecordedLocation */
+VALUES (34823, 8040, 0x009C0190, 327.663, -69.6152, -23.97436, -0.653756, 0, 0, 0.756705) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0190 [327.663000 -69.615200 -23.974360] -0.653756 0.000000 0.000000 0.756705 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

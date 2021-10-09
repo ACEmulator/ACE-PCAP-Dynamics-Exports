@@ -23,7 +23,7 @@ VALUES (43300,   1, 'Scroll of Nether Arc VII') /* Name */
 Shoots a bolt of nether at the target. The bolt does 168-262 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43300,   1,   33554826) /* Setup */
-     , (43300,   8,  100691569) /* Icon */
-     , (43300,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43300,   1, 0x0200018A) /* Setup */
+     , (43300,   8, 0x06006E71) /* Icon */
+     , (43300,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43300,  28,       5367) /* Spell - NetherArc7 */;

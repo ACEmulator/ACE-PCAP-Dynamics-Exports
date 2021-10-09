@@ -32,9 +32,9 @@ VALUES (36628,   1, 'Foolproof') /* Name */
      , (36628,  15, 'Chips of white sapphire. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36628,   1,   33554817) /* Setup */
-     , (36628,   3,  536870932) /* SoundTable */
-     , (36628,   6,   67111919) /* PaletteBase */
-     , (36628,   8,  100686616) /* Icon */
-     , (36628,  22,  872415275) /* PhysicsEffectTable */
-     , (36628,  50,  100673310) /* IconOverlay */;
+VALUES (36628,   1, 0x02000181) /* Setup */
+     , (36628,   3, 0x20000014) /* SoundTable */
+     , (36628,   6, 0x04000BEF) /* PaletteBase */
+     , (36628,   8, 0x06005B18) /* Icon */
+     , (36628,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36628,  50, 0x0600271E) /* IconOverlay */;

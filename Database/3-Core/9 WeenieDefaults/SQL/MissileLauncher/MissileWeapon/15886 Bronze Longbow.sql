@@ -37,12 +37,12 @@ VALUES (15886,   1, 'Bronze Longbow') /* Name */
      , (15886,   8, 'A-E-I-Owned-U') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15886,   1,   33554728) /* Setup */
-     , (15886,   3,  536870932) /* SoundTable */
-     , (15886,   6,   67111919) /* PaletteBase */
-     , (15886,   8,  100672767) /* Icon */
-     , (15886,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15886,   1, 0x02000128) /* Setup */
+     , (15886,   3, 0x20000014) /* SoundTable */
+     , (15886,   6, 0x04000BEF) /* PaletteBase */
+     , (15886,   8, 0x060024FF) /* Icon */
+     , (15886,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15886, 8040, 19005708, 33.36409, -10.4838, -0.07000001, -0.2370939, 0, 0, -0.9714867) /* PCAPRecordedLocation */
+VALUES (15886, 8040, 0x0122010C, 33.36409, -10.4838, -0.07, -0.237094, 0, 0, -0.971487) /* PCAPRecordedLocation */
 /* @teleloc 0x0122010C [33.364090 -10.483800 -0.070000] -0.237094 0.000000 0.000000 -0.971487 */;

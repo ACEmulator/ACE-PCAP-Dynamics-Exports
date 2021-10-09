@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29410,   1, 'Platinum Legion Castle Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29410,   1,   33559125) /* Setup */
-     , (29410,   2,  150995334) /* MotionTable */
-     , (29410,   3,  536871102) /* SoundTable */
-     , (29410,   6,   67115468) /* PaletteBase */
-     , (29410,   8,  100677371) /* Icon */
-     , (29410,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (29410,   1, 0x02001255) /* Setup */
+     , (29410,   2, 0x09000186) /* MotionTable */
+     , (29410,   3, 0x200000BE) /* SoundTable */
+     , (29410,   6, 0x040019CC) /* PaletteBase */
+     , (29410,   8, 0x060036FB) /* Icon */
+     , (29410,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29410, 8040, 1088946209, 99.511, 20.4846, 200.0068, -0.998518, 0, 0, 0.0544218) /* PCAPRecordedLocation */
+VALUES (29410, 8040, 0x40E80021, 99.511, 20.4846, 200.0068, -0.998518, 0, 0, 0.054422) /* PCAPRecordedLocation */
 /* @teleloc 0x40E80021 [99.511000 20.484600 200.006800] -0.998518 0.000000 0.000000 0.054422 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

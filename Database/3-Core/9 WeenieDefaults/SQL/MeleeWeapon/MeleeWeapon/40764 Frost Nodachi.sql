@@ -51,11 +51,11 @@ VALUES (40764,   1, 'Frost Nodachi') /* Name */
      , (40764,  16, 'Frost Nodachi of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40764,   1,   33560767) /* Setup */
-     , (40764,   3,  536870932) /* SoundTable */
-     , (40764,   6,   67111919) /* PaletteBase */
-     , (40764,   8,  100690804) /* Icon */
-     , (40764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40764,   1, 0x020018BF) /* Setup */
+     , (40764,   3, 0x20000014) /* SoundTable */
+     , (40764,   6, 0x04000BEF) /* PaletteBase */
+     , (40764,   8, 0x06006B74) /* Icon */
+     , (40764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40764,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23144,   1, 'Tusker Fist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23144,   1,   33558190) /* Setup */
-     , (23144,   3,  536870971) /* SoundTable */
-     , (23144,   8,  100673815) /* Icon */
+VALUES (23144,   1, 0x02000EAE) /* Setup */
+     , (23144,   3, 0x2000003B) /* SoundTable */
+     , (23144,   8, 0x06002917) /* Icon */
      , (23144,  28,       2934) /* Spell - TuskerFists */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23144, 8040, 8913268, 9.231881, -60.52354, -52.77167, -0.7489783, 0, 0, 0.6625946) /* PCAPRecordedLocation */
+VALUES (23144, 8040, 0x00880174, 9.231881, -60.52354, -52.77167, -0.748978, 0, 0, 0.662595) /* PCAPRecordedLocation */
 /* @teleloc 0x00880174 [9.231881 -60.523540 -52.771670] -0.748978 0.000000 0.000000 0.662595 */;

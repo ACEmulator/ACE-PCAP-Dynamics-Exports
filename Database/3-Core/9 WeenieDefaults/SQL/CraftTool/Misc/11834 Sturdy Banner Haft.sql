@@ -25,7 +25,7 @@ VALUES (11834,   1, 'Sturdy Banner Haft') /* Name */
      , (11834,  16, 'A sturdy banner haft with a worn handle.  If joined with either a Shreth or Reedshark banner, it will raise its value.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11834,   1,   33557246) /* Setup */
-     , (11834,   3,  536870932) /* SoundTable */
-     , (11834,   8,  100671953) /* Icon */
-     , (11834,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11834,   1, 0x02000AFE) /* Setup */
+     , (11834,   3, 0x20000014) /* SoundTable */
+     , (11834,   8, 0x060021D1) /* Icon */
+     , (11834,  22, 0x3400002B) /* PhysicsEffectTable */;

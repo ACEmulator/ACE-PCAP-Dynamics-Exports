@@ -52,17 +52,17 @@ VALUES (45527,   1, 'Soul Bound Spear') /* Name */
      , (45527,  16, 'A ghostly blue spear, bound to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45527,   1,   33560574) /* Setup */
-     , (45527,   3,  536870932) /* SoundTable */
-     , (45527,   8,  100673208) /* Icon */
-     , (45527,  22,  872415275) /* PhysicsEffectTable */
-     , (45527,  52,  100689896) /* IconUnderlay */;
+VALUES (45527,   1, 0x020017FE) /* Setup */
+     , (45527,   3, 0x20000014) /* SoundTable */
+     , (45527,   8, 0x060026B8) /* Icon */
+     , (45527,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45527,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45527,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45527,  2101,      2)  /* DefenderSelf7 */
-     , (45527,  2106,      2)  /* HeartSeekerSelf7 */
-     , (45527,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (45527,  2116,      2)  /* SwiftKillerSelf7 */
      , (45527,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
      , (45527,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (45527,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (45527,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (45527,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45527,  2101,      2)  /* DefenderSelf7 */
+     , (45527,  2106,      2)  /* HeartSeekerSelf7 */;

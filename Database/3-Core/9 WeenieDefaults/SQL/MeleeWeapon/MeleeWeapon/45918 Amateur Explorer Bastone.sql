@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45918,   1, 'Amateur Explorer Bastone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45918,   1,   33559493) /* Setup */
-     , (45918,   3,  536870932) /* SoundTable */
-     , (45918,   6,   67116428) /* PaletteBase */
-     , (45918,   8,  100687021) /* Icon */
-     , (45918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45918,   1, 0x020013C5) /* Setup */
+     , (45918,   3, 0x20000014) /* SoundTable */
+     , (45918,   6, 0x04001D8C) /* PaletteBase */
+     , (45918,   8, 0x06005CAD) /* Icon */
+     , (45918,  22, 0x3400002B) /* PhysicsEffectTable */;

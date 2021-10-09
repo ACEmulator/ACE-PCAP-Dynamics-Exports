@@ -59,20 +59,20 @@ VALUES (31809,   1, 'Fire Compound Crossbow') /* Name */
      , (31809,  40, 'Tierra Suuna') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31809,   1,   33559664) /* Setup */
-     , (31809,   3,  536870932) /* SoundTable */
-     , (31809,   6,   67116700) /* PaletteBase */
-     , (31809,   8,  100688061) /* Icon */
-     , (31809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31809,   1, 0x02001470) /* Setup */
+     , (31809,   3, 0x20000014) /* SoundTable */
+     , (31809,   6, 0x04001E9C) /* PaletteBase */
+     , (31809,   8, 0x060060BD) /* Icon */
+     , (31809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31809,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31809, 8040, 4095148079, 123.4321, 166.8162, 160.9007, 0.3218919, 0, 0, 0.9467764) /* PCAPRecordedLocation */
+VALUES (31809, 8040, 0xF417002F, 123.4321, 166.8162, 160.9007, 0.321892, 0, 0, 0.946776) /* PCAPRecordedLocation */
 /* @teleloc 0xF417002F [123.432100 166.816200 160.900700] 0.321892 0.000000 0.000000 0.946776 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31809,  2081,      2)  /* QuicknessSelf7 */
+VALUES (31809,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (31809,  2081,      2)  /* QuicknessSelf7 */
      , (31809,  4395,      2)  /* BloodDrinkerSelf8 */
      , (31809,  4400,      2)  /* DefenderSelf8 */
-     , (31809,  4663,      2)  /* CANTRIPDEFENDER3 */
-     , (31809,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+     , (31809,  4663,      2)  /* CANTRIPDEFENDER3 */;

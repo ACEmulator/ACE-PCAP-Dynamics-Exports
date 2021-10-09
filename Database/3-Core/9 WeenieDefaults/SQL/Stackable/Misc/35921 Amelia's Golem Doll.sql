@@ -30,8 +30,8 @@ VALUES (35921,   1, 'Amelia''s Golem Doll') /* Name */
      , (35921,  15, 'A golem doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35921,   1,   33560282) /* Setup */
-     , (35921,   2,  150995206) /* MotionTable */
-     , (35921,   3,  536870933) /* SoundTable */
-     , (35921,   8,  100674350) /* Icon */
-     , (35921,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (35921,   1, 0x020016DA) /* Setup */
+     , (35921,   2, 0x09000106) /* MotionTable */
+     , (35921,   3, 0x20000015) /* SoundTable */
+     , (35921,   8, 0x06002B2E) /* Icon */
+     , (35921,  22, 0x34000025) /* PhysicsEffectTable */;

@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31703,   1, 'Ruschk Camp Sightings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31703,   1,   33559084) /* Setup */
-     , (31703,   3,  536870932) /* SoundTable */
-     , (31703,   6,   67112626) /* PaletteBase */
-     , (31703,   8,  100675751) /* Icon */
-     , (31703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31703,   1, 0x0200122C) /* Setup */
+     , (31703,   3, 0x20000014) /* SoundTable */
+     , (31703,   6, 0x04000EB2) /* PaletteBase */
+     , (31703,   8, 0x060030A7) /* Icon */
+     , (31703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31703, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

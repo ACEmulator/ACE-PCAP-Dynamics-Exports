@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52254,   1, 'Sarcophagus of the Recluse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52254,   1,   33558975) /* Setup */
-     , (52254,   2,  150995261) /* MotionTable */
-     , (52254,   3,  536870932) /* SoundTable */
-     , (52254,   8,  100677069) /* Icon */;
+VALUES (52254,   1, 0x020011BF) /* Setup */
+     , (52254,   2, 0x0900013D) /* MotionTable */
+     , (52254,   3, 0x20000014) /* SoundTable */
+     , (52254,   8, 0x060035CD) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52254, 8040, 1483079953, 24.9, -120, 0.05, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52254, 8040, 0x58660111, 24.9, -120, 0.05, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58660111 [24.900000 -120.000000 0.050000] 1.000000 0.000000 0.000000 0.000000 */;

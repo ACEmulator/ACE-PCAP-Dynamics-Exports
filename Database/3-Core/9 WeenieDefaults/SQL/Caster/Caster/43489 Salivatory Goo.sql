@@ -32,7 +32,7 @@ VALUES (43489,   1, 'Salivatory Goo') /* Name */
      , (43489,  16, 'This goo increases the salvatory production of an olthoi allowing them to create enough acid saliva to spit at their opponents.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43489,   1,   33556945) /* Setup */
-     , (43489,   3,  536870932) /* SoundTable */
-     , (43489,   8,  100691628) /* Icon */
-     , (43489,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43489,   1, 0x020009D1) /* Setup */
+     , (43489,   3, 0x20000014) /* SoundTable */
+     , (43489,   8, 0x06006EAC) /* Icon */
+     , (43489,  22, 0x3400002B) /* PhysicsEffectTable */;

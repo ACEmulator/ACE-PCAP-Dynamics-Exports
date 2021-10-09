@@ -20,7 +20,7 @@ VALUES (28734,   1, 'Sho Brain') /* Name */
      , (28734,  16, 'A brain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28734,   1,   33554817) /* Setup */
-     , (28734,   3,  536870932) /* SoundTable */
-     , (28734,   8,  100686361) /* Icon */
-     , (28734,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28734,   1, 0x02000181) /* Setup */
+     , (28734,   3, 0x20000014) /* SoundTable */
+     , (28734,   8, 0x06005A19) /* Icon */
+     , (28734,  22, 0x3400002B) /* PhysicsEffectTable */;

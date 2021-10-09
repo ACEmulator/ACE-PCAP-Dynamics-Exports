@@ -21,11 +21,11 @@ VALUES (854,   1, 'Altar of Bael''Zharon') /* Name */
      , (854,  15, 'Using this altar will convert you into one of Bael''Zharon''s Chosen, a Player Killer, freeing you from the protection of Asheron''s magic.  This means that you can attack others freed in this manner, and they can attack you.  Be warned: returning to Asheron''s protection is difficult.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (854,   1,   33555289) /* Setup */
-     , (854,   2,  150994990) /* MotionTable */
-     , (854,   3,  536870964) /* SoundTable */
-     , (854,   8,  100668239) /* Icon */;
+VALUES (854,   1, 0x02000359) /* Setup */
+     , (854,   2, 0x0900002E) /* MotionTable */
+     , (854,   3, 0x20000034) /* SoundTable */
+     , (854,   8, 0x0600134F) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (854, 8040, 33096159, 49.184, -60, 11.992, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (854, 8040, 0x01F901DF, 49.184, -60, 11.992, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01F901DF [49.184000 -60.000000 11.992000] -0.707107 0.000000 0.000000 -0.707107 */;

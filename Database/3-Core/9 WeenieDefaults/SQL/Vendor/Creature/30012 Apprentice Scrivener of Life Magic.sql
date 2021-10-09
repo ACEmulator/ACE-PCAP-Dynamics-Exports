@@ -33,13 +33,13 @@ VALUES (30012,   1, 'Apprentice Scrivener of Life Magic') /* Name */
      , (30012,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30012,   1,   33555608) /* Setup */
-     , (30012,   2,  150995048) /* MotionTable */
-     , (30012,   3,  536870977) /* SoundTable */
-     , (30012,   8,  100669120) /* Icon */;
+VALUES (30012,   1, 0x02000498) /* Setup */
+     , (30012,   2, 0x09000068) /* MotionTable */
+     , (30012,   3, 0x20000041) /* SoundTable */
+     , (30012,   8, 0x060016C0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30012, 8040, 853082379, 162.609, 138.232, 52, 0.9997354, 0, 0, -0.0230045) /* PCAPRecordedLocation */
+VALUES (30012, 8040, 0x32D9010B, 162.609, 138.232, 52, 0.999735, 0, 0, -0.023005) /* PCAPRecordedLocation */
 /* @teleloc 0x32D9010B [162.609000 138.232000 52.000000] 0.999735 0.000000 0.000000 -0.023005 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

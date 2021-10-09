@@ -23,7 +23,7 @@ VALUES (45239,   1, 'Scroll of Dirty Fighting Ineptitude Other IV') /* Name */
 Decreases the target''s Dirty Fighting skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45239,   1,   33554826) /* Setup */
-     , (45239,   8,  100692255) /* Icon */
-     , (45239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45239,   1, 0x0200018A) /* Setup */
+     , (45239,   8, 0x0600711F) /* Icon */
+     , (45239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45239,  28,       5766) /* Spell - DirtyFightingIneptitudeOther4 */;

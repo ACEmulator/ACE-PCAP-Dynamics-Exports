@@ -19,9 +19,9 @@ VALUES (276,   1, 'Desk') /* Name */
      , (276,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (276,   1,   33555058) /* Setup */
-     , (276,   8,  100671773) /* Icon */;
+VALUES (276,   1, 0x02000272) /* Setup */
+     , (276,   8, 0x0600211D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (276, 8040, 2103705619, 56.67964, 56.63373, 12, 0.05642368, 0, 0, -0.9984069) /* PCAPRecordedLocation */
+VALUES (276, 8040, 0x7D640013, 56.67964, 56.63373, 12, 0.056424, 0, 0, -0.998407) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [56.679640 56.633730 12.000000] 0.056424 0.000000 0.000000 -0.998407 */;

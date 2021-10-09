@@ -18,9 +18,9 @@ VALUES (14698,   1, 'Eotensfang Cottages') /* Name */
      , (14698,  16, 'Welcome to Eotensfang Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14698,   1,   33557463) /* Setup */
-     , (14698,   8,  100668115) /* Icon */;
+VALUES (14698,   1, 0x02000BD7) /* Setup */
+     , (14698,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14698, 8040, 3417440277, 59.6763, 102.958, 208, -0.00336403, 0, 0, -0.999994) /* PCAPRecordedLocation */
+VALUES (14698, 8040, 0xCBB20015, 59.6763, 102.958, 208, -0.003364, 0, 0, -0.999994) /* PCAPRecordedLocation */
 /* @teleloc 0xCBB20015 [59.676300 102.958000 208.000000] -0.003364 0.000000 0.000000 -0.999994 */;

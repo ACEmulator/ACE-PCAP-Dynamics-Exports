@@ -26,11 +26,11 @@ VALUES (8553,   1, 'Kelderam''s Tomb') /* Name */
      , (8553,  16, 'An elaborate tomb, inscribed, "From northland to madness; from madness to grace; from grace to our verdurous home." You feel a strange sense of peace radiating from it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8553,   1,   33556908) /* Setup */
-     , (8553,   3,  536870932) /* SoundTable */
-     , (8553,   8,  100671209) /* Icon */
-     , (8553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8553,   1, 0x020009AC) /* Setup */
+     , (8553,   3, 0x20000014) /* SoundTable */
+     , (8553,   8, 0x06001EE9) /* Icon */
+     , (8553,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8553, 8040, 4095213837, 32.7054, 45.6692, 162.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8553, 8040, 0xF418010D, 32.7054, 45.6692, 162.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF418010D [32.705400 45.669200 162.700000] 1.000000 0.000000 0.000000 0.000000 */;

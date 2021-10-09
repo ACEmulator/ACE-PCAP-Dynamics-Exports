@@ -22,11 +22,11 @@ VALUES (36017,   1, 'Spectral Finesse Weapon Mastery Crystal') /* Name */
      , (36017,  20, 'Spectral Finesse Weapon Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36017,   1,   33557625) /* Setup */
-     , (36017,   3,  536870932) /* SoundTable */
-     , (36017,   8,  100686697) /* Icon */
-     , (36017,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36017,   1, 0x02000C79) /* Setup */
+     , (36017,   3, 0x20000014) /* SoundTable */
+     , (36017,   8, 0x06005B69) /* Icon */
+     , (36017,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36017,  28,       4135) /* Spell - DaggerMasterySpectral */
-     , (36017,  50,  100692243) /* IconOverlay */
-     , (36017,  52,  100686604) /* IconUnderlay */
+     , (36017,  50, 0x06007113) /* IconOverlay */
+     , (36017,  52, 0x06005B0C) /* IconUnderlay */
      , (36017, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

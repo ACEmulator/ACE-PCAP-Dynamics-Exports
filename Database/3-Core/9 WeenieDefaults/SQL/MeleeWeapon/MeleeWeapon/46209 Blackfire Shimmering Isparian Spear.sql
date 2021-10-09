@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46209,   1, 'Blackfire Shimmering Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46209,   1,   33556260) /* Setup */
-     , (46209,   3,  536870932) /* SoundTable */
-     , (46209,   8,  100673208) /* Icon */
-     , (46209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46209,   1, 0x02000724) /* Setup */
+     , (46209,   3, 0x20000014) /* SoundTable */
+     , (46209,   8, 0x060026B8) /* Icon */
+     , (46209,  22, 0x3400002B) /* PhysicsEffectTable */;

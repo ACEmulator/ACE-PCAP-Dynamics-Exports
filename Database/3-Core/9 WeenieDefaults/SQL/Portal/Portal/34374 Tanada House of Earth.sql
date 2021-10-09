@@ -22,10 +22,10 @@ VALUES (34374,   1, 'Tanada House of Earth') /* Name */
      , (34374,  16, 'This portal leads to the House of Earth, the first chamber in the Tanada training school.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34374,   1,   33555925) /* Setup */
-     , (34374,   2,  150994947) /* MotionTable */
-     , (34374,   8,  100667499) /* Icon */;
+VALUES (34374,   1, 0x020005D5) /* Setup */
+     , (34374,   2, 0x09000003) /* MotionTable */
+     , (34374,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34374, 8040, 2295464192, 180.219, 76.7927, 174.737, 0.999907, 0, 0, 0.0136352) /* PCAPRecordedLocation */
+VALUES (34374, 8040, 0x88D20100, 180.219, 76.7927, 174.737, 0.999907, 0, 0, 0.013635) /* PCAPRecordedLocation */
 /* @teleloc 0x88D20100 [180.219000 76.792700 174.737000] 0.999907 0.000000 0.000000 0.013635 */;

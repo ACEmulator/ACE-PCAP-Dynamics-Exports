@@ -33,12 +33,12 @@ VALUES (32207,   1, 'Candy Corn') /* Name */
      , (32207,  16, 'A festival treat. Candy Corn is fabled to be the tears of a Great Pumpkin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32207,   1,   33554817) /* Setup */
-     , (32207,   3,  536870932) /* SoundTable */
-     , (32207,   8,  100688413) /* Icon */
-     , (32207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32207,   1, 0x02000181) /* Setup */
+     , (32207,   3, 0x20000014) /* SoundTable */
+     , (32207,   8, 0x0600621D) /* Icon */
+     , (32207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32207,  28,       3860) /* Spell - SweetSpeed */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32207, 8040, 23855555, 58.62766, -42.61131, -0.001249999, -0.7803556, 0, 0, -0.625336) /* PCAPRecordedLocation */
+VALUES (32207, 8040, 0x016C01C3, 58.62766, -42.61131, -0.00125, -0.780356, 0, 0, -0.625336) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.627660 -42.611310 -0.001250] -0.780356 0.000000 0.000000 -0.625336 */;

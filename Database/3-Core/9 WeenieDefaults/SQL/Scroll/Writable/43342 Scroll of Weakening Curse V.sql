@@ -23,7 +23,7 @@ VALUES (43342,   1, 'Scroll of Weakening Curse V') /* Name */
 Decreases the target''s damage rating by 8.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43342,   1,   33554826) /* Setup */
-     , (43342,   8,  100691574) /* Icon */
-     , (43342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43342,   1, 0x0200018A) /* Setup */
+     , (43342,   8, 0x06006E76) /* Icon */
+     , (43342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43342,  28,       5383) /* Spell - CurseWeakness5 */;

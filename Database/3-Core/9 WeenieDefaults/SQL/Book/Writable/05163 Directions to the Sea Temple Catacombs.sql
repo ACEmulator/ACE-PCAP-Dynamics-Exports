@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5163,   1, 'Directions to the Sea Temple Catacombs') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5163,   1,   33554773) /* Setup */
-     , (5163,   3,  536870932) /* SoundTable */
-     , (5163,   8,  100675770) /* Icon */
-     , (5163,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5163,   1, 0x02000155) /* Setup */
+     , (5163,   3, 0x20000014) /* SoundTable */
+     , (5163,   8, 0x060030BA) /* Icon */
+     , (5163,  22, 0x3400002B) /* PhysicsEffectTable */;

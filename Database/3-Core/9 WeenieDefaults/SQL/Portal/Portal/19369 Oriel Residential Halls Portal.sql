@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19369,   1, 'Oriel Residential Halls Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19369,   1,   33554867) /* Setup */
-     , (19369,   2,  150994947) /* MotionTable */
-     , (19369,   8,  100667499) /* Icon */;
+VALUES (19369,   1, 0x020001B3) /* Setup */
+     , (19369,   2, 0x09000003) /* MotionTable */
+     , (19369,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19369, 8040, 3845259290, 84.8766, 36.8047, 27.937, -0.7031327, 0, 0, 0.7110587) /* PCAPRecordedLocation */
+VALUES (19369, 8040, 0xE532001A, 84.8766, 36.8047, 27.937, -0.703133, 0, 0, 0.711059) /* PCAPRecordedLocation */
 /* @teleloc 0xE532001A [84.876600 36.804700 27.937000] -0.703133 0.000000 0.000000 0.711059 */;

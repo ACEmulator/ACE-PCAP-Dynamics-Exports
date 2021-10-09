@@ -44,17 +44,17 @@ VALUES (43053,   1, 'Knorr Academy Boots') /* Name */
      , (43053,  16, 'Knorr Academy Boots of Light Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43053,   1,   33554654) /* Setup */
-     , (43053,   3,  536870932) /* SoundTable */
-     , (43053,   6,   67108990) /* PaletteBase */
-     , (43053,   8,  100669194) /* Icon */
-     , (43053,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43053,   1, 0x020000DE) /* Setup */
+     , (43053,   3, 0x20000014) /* SoundTable */
+     , (43053,   6, 0x0400007E) /* PaletteBase */
+     , (43053,   8, 0x0600170A) /* Icon */
+     , (43053,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43053,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43053,  1486,      2)  /* Impenetrability6 */
-     , (43053,  2092,      2)  /* AcidBane7 */
-     , (43053,  2104,      2)  /* FrostBane7 */
      , (43053,  2203,      2)  /* LightWeaponsMasterySelf7 */
-     , (43053,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
-     , (43053,  6127,      2)  /* CantripSummoningProwess1 */;
+     , (43053,  2092,      2)  /* AcidBane7 */
+     , (43053,  6127,      2)  /* CantripSummoningProwess1 */
+     , (43053,  2104,      2)  /* FrostBane7 */
+     , (43053,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */;

@@ -27,12 +27,12 @@ VALUES (25604,   1, 'Freezing Elemental Pool') /* Name */
      , (25604,  16, 'An elemental pool, nearly frozen over.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25604,   1,   33558461) /* Setup */
-     , (25604,   2,  150995255) /* MotionTable */
-     , (25604,   3,  536870913) /* SoundTable */
-     , (25604,   6,   67114510) /* PaletteBase */
-     , (25604,   8,  100674881) /* Icon */;
+VALUES (25604,   1, 0x02000FBD) /* Setup */
+     , (25604,   2, 0x09000137) /* MotionTable */
+     , (25604,   3, 0x20000001) /* SoundTable */
+     , (25604,   6, 0x0400160E) /* PaletteBase */
+     , (25604,   8, 0x06002D41) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25604, 8040, 1598488837, 81.7634, -47.5409, -48, 0.411707, 0, 0, -0.911316) /* PCAPRecordedLocation */
+VALUES (25604, 8040, 0x5F470105, 81.7634, -47.5409, -48, 0.411707, 0, 0, -0.911316) /* PCAPRecordedLocation */
 /* @teleloc 0x5F470105 [81.763400 -47.540900 -48.000000] 0.411707 0.000000 0.000000 -0.911316 */;

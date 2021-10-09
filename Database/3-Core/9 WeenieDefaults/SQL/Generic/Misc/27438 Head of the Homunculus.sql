@@ -24,5 +24,5 @@ VALUES (27438,   1, 'Head of the Homunculus') /* Name */
      , (27438,  16, 'A small stone head. It appears to be staring at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27438,   1,   33558687) /* Setup */
-     , (27438,   8,  100676412) /* Icon */;
+VALUES (27438,   1, 0x0200109F) /* Setup */
+     , (27438,   8, 0x0600333C) /* Icon */;

@@ -24,7 +24,7 @@ VALUES (38965,   1, 'Carenzi Race Ticket Stub') /* Name */
      , (38965,  16, 'A Casino Ticket Stub with the unique bite pattern of the Carenzi Racer you bet upon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38965,   1,   33554773) /* Setup */
-     , (38965,   3,  536870932) /* SoundTable */
-     , (38965,   8,  100690290) /* Icon */
-     , (38965,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38965,   1, 0x02000155) /* Setup */
+     , (38965,   3, 0x20000014) /* SoundTable */
+     , (38965,   8, 0x06006972) /* Icon */
+     , (38965,  22, 0x3400002B) /* PhysicsEffectTable */;

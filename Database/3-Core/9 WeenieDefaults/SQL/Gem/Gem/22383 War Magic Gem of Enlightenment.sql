@@ -21,7 +21,7 @@ VALUES (22383,   1, 'War Magic Gem of Enlightenment') /* Name */
      , (22383,  14, 'Use this gem to specialize a trained skill. It will cost you twelve skill credits to specialize the War Magic skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22383,   1,   33558088) /* Setup */
-     , (22383,   6,   67111919) /* PaletteBase */
-     , (22383,   8,  100673788) /* Icon */
-     , (22383,  50,  100673786) /* IconOverlay */;
+VALUES (22383,   1, 0x02000E48) /* Setup */
+     , (22383,   6, 0x04000BEF) /* PaletteBase */
+     , (22383,   8, 0x060028FC) /* Icon */
+     , (22383,  50, 0x060028FA) /* IconOverlay */;

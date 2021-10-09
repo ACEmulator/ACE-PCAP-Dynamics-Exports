@@ -27,14 +27,14 @@ VALUES (51864,   1, 'Ranulf') /* Name */
      , (51864,   5, 'Virindi Steward') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51864,   1,   33561227) /* Setup */
-     , (51864,   2,  150994984) /* MotionTable */
-     , (51864,   3,  536870930) /* SoundTable */
-     , (51864,   6,   67111346) /* PaletteBase */
-     , (51864,   8,  100667943) /* Icon */;
+VALUES (51864,   1, 0x02001A8B) /* Setup */
+     , (51864,   2, 0x09000028) /* MotionTable */
+     , (51864,   3, 0x20000012) /* SoundTable */
+     , (51864,   6, 0x040009B2) /* PaletteBase */
+     , (51864,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51864, 8040, 808583188, 56.326, 94.0391, 132.029, 0.3394093, 0, 0, -0.9406388) /* PCAPRecordedLocation */
+VALUES (51864, 8040, 0x30320014, 56.326, 94.0391, 132.029, 0.339409, 0, 0, -0.940639) /* PCAPRecordedLocation */
 /* @teleloc 0x30320014 [56.326000 94.039100 132.029000] 0.339409 0.000000 0.000000 -0.940639 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

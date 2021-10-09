@@ -95,7 +95,7 @@ VALUES (0x723BE010, 27708, 0x23BE002A, 134.3214, 47.87977, 147.9572, 1, 0, 0, 0,
 /* @teleloc 0x23BE002A [134.321400 47.879770 147.957200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723BE011, 27710, 0x23BE0032, 165.1977, 30.90248, 165.9013, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
+VALUES (0x723BE011, 27710, 0x23BE0032, 165.1977, 30.90248, 165.9013, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
 /* @teleloc 0x23BE0032 [165.197700 30.902480 165.901300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -107,11 +107,11 @@ VALUES (0x723BE013, 27710, 0x23BE003A, 168.2511, 26.27083, 168.0867, 1, 0, 0, 0,
 /* @teleloc 0x23BE003A [168.251100 26.270830 168.086700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723BE014, 27710, 0x23BE003A, 173.1036, 28.46029, 169.7578, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
+VALUES (0x723BE014, 27710, 0x23BE003A, 173.1036, 28.46029, 169.7578, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
 /* @teleloc 0x23BE003A [173.103600 28.460290 169.757800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723BE015, 27710, 0x23BE003A, 175.1245, 30.25612, 170.4502, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
+VALUES (0x723BE015, 27710, 0x23BE003A, 175.1245, 30.25612, 170.4502, 0.819152, 0, 0, -0.573577,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
 /* @teleloc 0x23BE003A [175.124500 30.256120 170.450200] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -135,7 +135,7 @@ VALUES (0x723BE01A, 27711, 0x23BE0032, 166.1473, 37.41843, 166.6135, 1, 0, 0, 0,
 /* @teleloc 0x23BE0032 [166.147300 37.418430 166.613500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723BE01B, 27711, 0x23BE0032, 163.2945, 32.037, 164.4739, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
+VALUES (0x723BE01B, 27711, 0x23BE0032, 163.2945, 32.037, 164.4739, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
 /* @teleloc 0x23BE0032 [163.294500 32.037000 164.473900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

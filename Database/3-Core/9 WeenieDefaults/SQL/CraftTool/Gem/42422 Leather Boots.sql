@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42422,   1, 'Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42422,   1,   33556683) /* Setup */
-     , (42422,   3,  536870932) /* SoundTable */
-     , (42422,   6,   67108990) /* PaletteBase */
-     , (42422,   8,  100675060) /* Icon */
-     , (42422,  22,  872415275) /* PhysicsEffectTable */
-     , (42422,  50,  100667895) /* IconOverlay */;
+VALUES (42422,   1, 0x020008CB) /* Setup */
+     , (42422,   3, 0x20000014) /* SoundTable */
+     , (42422,   6, 0x0400007E) /* PaletteBase */
+     , (42422,   8, 0x06002DF4) /* Icon */
+     , (42422,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42422,  50, 0x060011F7) /* IconOverlay */;

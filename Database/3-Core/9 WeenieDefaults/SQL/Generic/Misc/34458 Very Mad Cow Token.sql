@@ -21,7 +21,7 @@ VALUES (34458,   1, 'Very Mad Cow Token') /* Name */
      , (34458,  16, 'Give this to the Master Arbitor for a new Title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34458,   1,   33554817) /* Setup */
-     , (34458,   3,  536870932) /* SoundTable */
-     , (34458,   8,  100689380) /* Icon */
-     , (34458,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34458,   1, 0x02000181) /* Setup */
+     , (34458,   3, 0x20000014) /* SoundTable */
+     , (34458,   8, 0x060065E4) /* Icon */
+     , (34458,  22, 0x3400002B) /* PhysicsEffectTable */;

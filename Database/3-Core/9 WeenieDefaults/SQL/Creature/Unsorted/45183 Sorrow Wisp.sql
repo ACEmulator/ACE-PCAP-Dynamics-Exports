@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45183,   1, 'Sorrow Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45183,   1,   33557033) /* Setup */
-     , (45183,   2,  150995087) /* MotionTable */
-     , (45183,   3,  536870985) /* SoundTable */
-     , (45183,   8,  100671612) /* Icon */;
+VALUES (45183,   1, 0x02000A29) /* Setup */
+     , (45183,   2, 0x0900008F) /* MotionTable */
+     , (45183,   3, 0x20000049) /* SoundTable */
+     , (45183,   8, 0x0600207C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45183, 8040, 1466172108, 27.18714, -18.70916, 12.0065, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (45183, 8040, 0x576402CC, 27.18714, -18.70916, 12.0065, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x576402CC [27.187140 -18.709160 12.006500] 1.000000 0.000000 0.000000 0.000000 */;

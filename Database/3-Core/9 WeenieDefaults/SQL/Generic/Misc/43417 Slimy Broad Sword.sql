@@ -21,8 +21,8 @@ VALUES (43417,   1, 'Slimy Broad Sword') /* Name */
      , (43417,  16, 'This sword seems well worn and is covered with slime from the sewers. You notice an engraving on the hilt that looks like it says "Samuel".') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43417,   1,   33554758) /* Setup */
-     , (43417,   3,  536870932) /* SoundTable */
-     , (43417,   6,   67111919) /* PaletteBase */
-     , (43417,   8,  100669016) /* Icon */
-     , (43417,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43417,   1, 0x02000146) /* Setup */
+     , (43417,   3, 0x20000014) /* SoundTable */
+     , (43417,   6, 0x04000BEF) /* PaletteBase */
+     , (43417,   8, 0x06001658) /* Icon */
+     , (43417,  22, 0x3400002B) /* PhysicsEffectTable */;

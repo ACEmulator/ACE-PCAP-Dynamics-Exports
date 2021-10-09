@@ -51,18 +51,18 @@ VALUES (40618,   1, 'Spadone') /* Name */
      , (40618,  16, 'Spadone of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40618,   1,   33559307) /* Setup */
-     , (40618,   3,  536870932) /* SoundTable */
-     , (40618,   6,   67115557) /* PaletteBase */
-     , (40618,   8,  100690816) /* Icon */
-     , (40618,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40618,   1, 0x0200130B) /* Setup */
+     , (40618,   3, 0x20000014) /* SoundTable */
+     , (40618,   6, 0x04001A25) /* PaletteBase */
+     , (40618,   8, 0x06006B80) /* Icon */
+     , (40618,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40618,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (40618,  52,  100676444) /* IconUnderlay */;
+     , (40618,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40618, 8040, 23855554, 61.05794, -27.02464, -0.071, -0.2389536, -0.2389536, -0.6655082, -0.6655082) /* PCAPRecordedLocation */
+VALUES (40618, 8040, 0x016C01C2, 61.05794, -27.02464, -0.071, -0.238954, -0.238954, -0.665508, -0.665508) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [61.057940 -27.024640 -0.071000] -0.238954 -0.238954 -0.665508 -0.665508 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40618,  1592,      2)  /* HeartSeekerSelf6 */
-     , (40618,  2096,      2)  /* BloodDrinkerSelf7 */;
+VALUES (40618,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (40618,  1592,      2)  /* HeartSeekerSelf6 */;

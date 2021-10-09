@@ -68,7 +68,7 @@ VALUES (0x71FBE006, 11511, 0x1FBE0015, 52.65222, 114.9727, 83.22723, 1, 0, 0, 0,
 /* @teleloc 0x1FBE0015 [52.652220 114.972700 83.227230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBE007, 11526, 0x1FBE0009, 24.41857, 0.5398718, 95.97012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+VALUES (0x71FBE007, 11526, 0x1FBE0009, 24.41857, 0.539872, 95.97012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
 /* @teleloc 0x1FBE0009 [24.418570 0.539872 95.970120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -108,11 +108,11 @@ VALUES (0x71FBE010, 11511, 0x1FBE0004, 3.959213, 87.68993, 73.54704, 1, 0, 0, 0,
 /* @teleloc 0x1FBE0004 [3.959213 87.689930 73.547040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBE011,  7095, 0x1FBE000D, 31.74003, 104.8861, 91.198, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scathisa */
+VALUES (0x71FBE011,  7095, 0x1FBE000D, 31.74003, 104.8861, 91.198, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Scathisa */
 /* @teleloc 0x1FBE000D [31.740030 104.886100 91.198000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBE012,  7095, 0x1FBE000D, 31.74003, 98.88608, 91.198, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scathisa */
+VALUES (0x71FBE012,  7095, 0x1FBE000D, 31.74003, 98.88608, 91.198, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Scathisa */
 /* @teleloc 0x1FBE000D [31.740030 98.886080 91.198000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -120,7 +120,7 @@ VALUES (0x71FBE013,  7094, 0x1FBE000D, 28.74003, 101.8861, 91.198, 1, 0, 0, 0,  
 /* @teleloc 0x1FBE000D [28.740030 101.886100 91.198000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FBE014,  7094, 0x1FBE000D, 34.74003, 101.8861, 91.198, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Synnast */
+VALUES (0x71FBE014,  7094, 0x1FBE000D, 34.74003, 101.8861, 91.198, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Synnast */
 /* @teleloc 0x1FBE000D [34.740030 101.886100 91.198000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

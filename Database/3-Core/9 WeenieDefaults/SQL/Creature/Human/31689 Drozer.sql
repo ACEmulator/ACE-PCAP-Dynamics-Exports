@@ -29,20 +29,20 @@ VALUES (31689,   1, 'Drozer') /* Name */
      , (31689,   5, 'Monster Plant Lover') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31689,   1,   33554433) /* Setup */
-     , (31689,   2,  150994945) /* MotionTable */
-     , (31689,   3,  536870913) /* SoundTable */
-     , (31689,   6,   67108990) /* PaletteBase */
-     , (31689,   8,  100667446) /* Icon */
-     , (31689,   9,   83890506) /* EyesTexture */
-     , (31689,  10,   83890546) /* NoseTexture */
-     , (31689,  11,   83890656) /* MouthTexture */
-     , (31689,  15,   67116981) /* HairPalette */
-     , (31689,  16,   67110063) /* EyesPalette */
-     , (31689,  17,   67109561) /* SkinPalette */;
+VALUES (31689,   1, 0x02000001) /* Setup */
+     , (31689,   2, 0x09000001) /* MotionTable */
+     , (31689,   3, 0x20000001) /* SoundTable */
+     , (31689,   6, 0x0400007E) /* PaletteBase */
+     , (31689,   8, 0x06001036) /* Icon */
+     , (31689,   9, 0x0500114A) /* EyesTexture */
+     , (31689,  10, 0x05001172) /* NoseTexture */
+     , (31689,  11, 0x050011E0) /* MouthTexture */
+     , (31689,  15, 0x04001FB5) /* HairPalette */
+     , (31689,  16, 0x040004AF) /* EyesPalette */
+     , (31689,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31689, 8040, 1691681037, 130.532, 106.321, 78.005, 0.877534, 0, 0, -0.479514) /* PCAPRecordedLocation */
+VALUES (31689, 8040, 0x64D5010D, 130.532, 106.321, 78.005, 0.877534, 0, 0, -0.479514) /* PCAPRecordedLocation */
 /* @teleloc 0x64D5010D [130.532000 106.321000 78.005000] 0.877534 0.000000 0.000000 -0.479514 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

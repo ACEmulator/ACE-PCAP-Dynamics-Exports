@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2141,   1, 'Scroll of Shock Blast III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2141,   1,   33554826) /* Setup */
-     , (2141,   8,  100677008) /* Icon */
-     , (2141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2141,   1, 0x0200018A) /* Setup */
+     , (2141,   8, 0x06003590) /* Icon */
+     , (2141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2141,  28,        103) /* Spell - ShockBlast3 */
      , (2141, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

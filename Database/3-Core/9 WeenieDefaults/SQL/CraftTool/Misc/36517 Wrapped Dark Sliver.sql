@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36517,   1, 'Wrapped Dark Sliver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36517,   1,   33558400) /* Setup */
-     , (36517,   3,  536870932) /* SoundTable */
-     , (36517,   8,  100670637) /* Icon */
-     , (36517,  22,  872415275) /* PhysicsEffectTable */
-     , (36517,  52,  100689632) /* IconUnderlay */;
+VALUES (36517,   1, 0x02000F80) /* Setup */
+     , (36517,   3, 0x20000014) /* SoundTable */
+     , (36517,   8, 0x06001CAD) /* Icon */
+     , (36517,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36517,  52, 0x060066E0) /* IconUnderlay */;

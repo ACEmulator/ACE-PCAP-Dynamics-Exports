@@ -22,12 +22,12 @@ VALUES (36660,   1, 'Bastion of Tukal') /* Name */
      , (36660,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36660,   1,   33554644) /* Setup */
-     , (36660,   3,  536870932) /* SoundTable */
-     , (36660,   6,   67108990) /* PaletteBase */
-     , (36660,   8,  100671501) /* Icon */
-     , (36660,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36660,   1, 0x020000D4) /* Setup */
+     , (36660,   3, 0x20000014) /* SoundTable */
+     , (36660,   6, 0x0400007E) /* PaletteBase */
+     , (36660,   8, 0x0600200D) /* Icon */
+     , (36660,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36660, 8040, 10420582, 99.2228, -91.4576, -41, -0.2995339, 0, 0, 0.9540856) /* PCAPRecordedLocation */
+VALUES (36660, 8040, 0x009F0166, 99.2228, -91.4576, -41, -0.299534, 0, 0, 0.954086) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0166 [99.222800 -91.457600 -41.000000] -0.299534 0.000000 0.000000 0.954086 */;

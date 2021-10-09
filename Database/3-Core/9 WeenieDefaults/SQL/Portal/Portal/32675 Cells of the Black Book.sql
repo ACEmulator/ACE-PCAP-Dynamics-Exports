@@ -22,10 +22,10 @@ VALUES (32675,   1, 'Cells of the Black Book') /* Name */
      , (32675,  16, 'This dungeon is quest restricted and PK restricted.  Speak with Hassha about gaining entry.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32675,   1,   33555924) /* Setup */
-     , (32675,   2,  150994947) /* MotionTable */
-     , (32675,   8,  100667499) /* Icon */;
+VALUES (32675,   1, 0x020005D4) /* Setup */
+     , (32675,   2, 0x09000003) /* MotionTable */
+     , (32675,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32675, 8040, 3195142411, 99, 118, 1.137, 0.6923448, 0, 0, -0.7215668) /* PCAPRecordedLocation */
+VALUES (32675, 8040, 0xBE72010B, 99, 118, 1.137, 0.692345, 0, 0, -0.721567) /* PCAPRecordedLocation */
 /* @teleloc 0xBE72010B [99.000000 118.000000 1.137000] 0.692345 0.000000 0.000000 -0.721567 */;

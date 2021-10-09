@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47162,   1, 'Contract for Crystalline Bound Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47162,   1,   33557625) /* Setup */
-     , (47162,   3,  536870932) /* SoundTable */
-     , (47162,   8,  100691926) /* Icon */
-     , (47162,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47162,   1, 0x02000C79) /* Setup */
+     , (47162,   3, 0x20000014) /* SoundTable */
+     , (47162,   8, 0x06006FD6) /* Icon */
+     , (47162,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47162, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

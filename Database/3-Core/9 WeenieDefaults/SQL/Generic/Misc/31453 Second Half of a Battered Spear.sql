@@ -18,7 +18,7 @@ VALUES (31453,   1, 'Second Half of a Battered Spear') /* Name */
      , (31453,  16, 'Half of a battered old spear. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31453,   1,   33554817) /* Setup */
-     , (31453,   3,  536870932) /* SoundTable */
-     , (31453,   8,  100687864) /* Icon */
-     , (31453,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31453,   1, 0x02000181) /* Setup */
+     , (31453,   3, 0x20000014) /* SoundTable */
+     , (31453,   8, 0x06005FF8) /* Icon */
+     , (31453,  22, 0x3400002B) /* PhysicsEffectTable */;

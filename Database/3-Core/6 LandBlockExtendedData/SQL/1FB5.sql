@@ -86,11 +86,11 @@ VALUES (0x71FB500F, 11505, 0x1FB50027, 107.2471, 159.7847, 90.005, 1, 0, 0, 0,  
 /* @teleloc 0x1FB50027 [107.247100 159.784700 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FB5010, 11495, 0x1FB50029, 123.2338, 0.9644165, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+VALUES (0x71FB5010, 11495, 0x1FB50029, 123.2338, 0.964417, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
 /* @teleloc 0x1FB50029 [123.233800 0.964417 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FB5011, 11495, 0x1FB50021, 100.4005, 0.3947613, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+VALUES (0x71FB5011, 11495, 0x1FB50021, 100.4005, 0.394761, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
 /* @teleloc 0x1FB50021 [100.400500 0.394761 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -151,7 +151,7 @@ VALUES (0x71FB501C,  4179, 0x1FB50040, 187.1481, 177.3516, 90, 1, 0, 0, 0,  True
 /* @teleloc 0x1FB50040 [187.148100 177.351600 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FB501D,  1955, 0x1FB50020, 93.35298, 172.9666, 89.937, -0.2746169, 0, 0, -0.9615538,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x71FB501D,  1955, 0x1FB50020, 93.35298, 172.9666, 89.937, -0.274617, 0, 0, -0.961554,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x1FB50020 [93.352980 172.966600 89.937000] -0.274617 0.000000 0.000000 -0.961554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

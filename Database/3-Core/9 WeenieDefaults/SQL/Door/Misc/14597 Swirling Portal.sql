@@ -22,12 +22,12 @@ VALUES (14597,   1, 'Swirling Portal') /* Name */
      , (14597,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14597,   1,   33557512) /* Setup */
-     , (14597,   2,  150995155) /* MotionTable */
-     , (14597,   3,  536871050) /* SoundTable */
-     , (14597,   8,  100667499) /* Icon */
-     , (14597,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14597,   1, 0x02000C08) /* Setup */
+     , (14597,   2, 0x090000D3) /* MotionTable */
+     , (14597,   3, 0x2000008A) /* SoundTable */
+     , (14597,   8, 0x0600106B) /* Icon */
+     , (14597,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14597, 8040, 1382810642, 120.16, -95.3667, 9.313226E-10, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (14597, 8040, 0x526C0412, 120.16, -95.3667, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x526C0412 [120.160000 -95.366700 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

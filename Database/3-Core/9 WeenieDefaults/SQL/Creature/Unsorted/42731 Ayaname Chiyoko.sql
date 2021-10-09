@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42731,   1, 'Ayaname Chiyoko') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42731,   1,   33554510) /* Setup */
-     , (42731,   2,  150994945) /* MotionTable */
-     , (42731,   3,  536870914) /* SoundTable */
-     , (42731,   6,   67108990) /* PaletteBase */
-     , (42731,   8,  100667446) /* Icon */;
+VALUES (42731,   1, 0x0200004E) /* Setup */
+     , (42731,   2, 0x09000001) /* MotionTable */
+     , (42731,   3, 0x20000002) /* SoundTable */
+     , (42731,   6, 0x0400007E) /* PaletteBase */
+     , (42731,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42731, 8040, 1177485569, 108.016, 12.4292, 220.005, 0.00847993, 0, 0, -0.999964) /* PCAPRecordedLocation */
+VALUES (42731, 8040, 0x462F0101, 108.016, 12.4292, 220.005, 0.00848, 0, 0, -0.999964) /* PCAPRecordedLocation */
 /* @teleloc 0x462F0101 [108.016000 12.429200 220.005000] 0.008480 0.000000 0.000000 -0.999964 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

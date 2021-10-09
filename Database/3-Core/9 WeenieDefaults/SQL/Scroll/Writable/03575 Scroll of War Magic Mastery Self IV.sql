@@ -23,7 +23,7 @@ VALUES (3575,   1, 'Scroll of War Magic Mastery Self IV') /* Name */
 Increases the caster''s War Magic skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3575,   1,   33554826) /* Setup */
-     , (3575,   8,  100676479) /* Icon */
-     , (3575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3575,   1, 0x0200018A) /* Setup */
+     , (3575,   8, 0x0600337F) /* Icon */
+     , (3575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3575,  28,        632) /* Spell - WarMagicMasterySelf4 */;

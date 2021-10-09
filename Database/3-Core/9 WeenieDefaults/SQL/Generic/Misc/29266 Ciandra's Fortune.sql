@@ -24,7 +24,7 @@ VALUES (29266,   1, 'Ciandra''s Fortune') /* Name */
      , (29266,  16, 'Using this gem will make you receive 25% more material each time you salvage.  You can augment yourself four times in this way, but you will need a new gem for each augmentation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29266,   1,   33554809) /* Setup */
-     , (29266,   3,  536870932) /* SoundTable */
-     , (29266,   8,  100686474) /* Icon */
-     , (29266,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29266,   1, 0x02000179) /* Setup */
+     , (29266,   3, 0x20000014) /* SoundTable */
+     , (29266,   8, 0x06005A8A) /* Icon */
+     , (29266,  22, 0x3400002B) /* PhysicsEffectTable */;

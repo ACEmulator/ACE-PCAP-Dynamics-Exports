@@ -32,7 +32,7 @@ VALUES (32155,   1, 'Ursuin Guise') /* Name */
      , (32155,  16, 'An awkward Ursuin Guise. All you need is an Ursuin Mask to complete the look.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32155,   1,   33559782) /* Setup */
-     , (32155,   3,  536870932) /* SoundTable */
-     , (32155,   8,  100688468) /* Icon */
-     , (32155,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32155,   1, 0x020014E6) /* Setup */
+     , (32155,   3, 0x20000014) /* SoundTable */
+     , (32155,   8, 0x06006254) /* Icon */
+     , (32155,  22, 0x3400002B) /* PhysicsEffectTable */;

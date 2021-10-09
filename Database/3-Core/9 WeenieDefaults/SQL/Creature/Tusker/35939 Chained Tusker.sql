@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35939,   1, 'Chained Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35939,   1,   33556836) /* Setup */
-     , (35939,   2,  150994956) /* MotionTable */
-     , (35939,   3,  536870929) /* SoundTable */
-     , (35939,   6,   67113007) /* PaletteBase */
-     , (35939,   8,  100667443) /* Icon */
-     , (35939,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (35939,   1, 0x02000964) /* Setup */
+     , (35939,   2, 0x0900000C) /* MotionTable */
+     , (35939,   3, 0x20000011) /* SoundTable */
+     , (35939,   6, 0x0400102F) /* PaletteBase */
+     , (35939,   8, 0x06001033) /* Icon */
+     , (35939,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35939, 8040, 3932946692, 190.704, 246.968, -47.1857, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35939, 8040, 0xEA6C0104, 190.704, 246.968, -47.1857, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0104 [190.704000 246.968000 -47.185700] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

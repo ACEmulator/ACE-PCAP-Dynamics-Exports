@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21323,   1, 'Scroll of Lightning Arc I') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21323,   1,   33554826) /* Setup */
-     , (21323,   8,  100677013) /* Icon */
-     , (21323,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21323,   1, 0x0200018A) /* Setup */
+     , (21323,   8, 0x06003595) /* Icon */
+     , (21323,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21323,  28,       2732) /* Spell - LightningArc1 */;

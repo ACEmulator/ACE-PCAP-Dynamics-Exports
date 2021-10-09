@@ -23,7 +23,7 @@ VALUES (1672,   1, 'Scroll of Light Weapon Ineptitude Other') /* Name */
 Decreases the target''s Light Weapons skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1672,   1,   33554826) /* Setup */
-     , (1672,   8,  100692249) /* Icon */
-     , (1672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1672,   1, 0x0200018A) /* Setup */
+     , (1672,   8, 0x06007119) /* Icon */
+     , (1672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1672,  28,        304) /* Spell - LightWeaponsIneptitudeOther1 */;

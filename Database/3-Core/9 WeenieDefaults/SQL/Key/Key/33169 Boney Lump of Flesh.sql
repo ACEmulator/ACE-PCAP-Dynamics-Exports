@@ -25,7 +25,7 @@ VALUES (33169,   1, 'Boney Lump of Flesh') /* Name */
      , (33169,  16, 'A pulsing fleshy lump. It squirms in your hands disgustingly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33169,   1,   33556232) /* Setup */
-     , (33169,   3,  536870932) /* SoundTable */
-     , (33169,   8,  100688938) /* Icon */
-     , (33169,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33169,   1, 0x02000708) /* Setup */
+     , (33169,   3, 0x20000014) /* SoundTable */
+     , (33169,   8, 0x0600642A) /* Icon */
+     , (33169,  22, 0x3400002B) /* PhysicsEffectTable */;

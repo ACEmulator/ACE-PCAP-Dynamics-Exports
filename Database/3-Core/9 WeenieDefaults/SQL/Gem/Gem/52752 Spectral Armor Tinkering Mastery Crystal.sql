@@ -22,10 +22,10 @@ VALUES (52752,   1, 'Spectral Armor Tinkering Mastery Crystal') /* Name */
      , (52752,  20, 'Spectral Armor Tinkering Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52752,   1,   33557625) /* Setup */
-     , (52752,   3,  536870932) /* SoundTable */
-     , (52752,   8,  100686697) /* Icon */
-     , (52752,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52752,   1, 0x02000C79) /* Setup */
+     , (52752,   3, 0x20000014) /* SoundTable */
+     , (52752,   8, 0x06005B69) /* Icon */
+     , (52752,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52752,  28,       6180) /* Spell - GauntletArmorMastery */
-     , (52752,  50,  100686630) /* IconOverlay */
+     , (52752,  50, 0x06005B26) /* IconOverlay */
      , (52752, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

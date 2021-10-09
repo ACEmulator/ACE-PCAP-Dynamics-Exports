@@ -55,14 +55,14 @@ VALUES (41890,   1, 'Ultimate Singularity Greatsword') /* Name */
      , (41890,  15, 'A two handed sword imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41890,   1,   33557319) /* Setup */
-     , (41890,   3,  536870932) /* SoundTable */
-     , (41890,   6,   67111919) /* PaletteBase */
-     , (41890,   8,  100690838) /* Icon */
-     , (41890,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41890,   1, 0x02000B47) /* Setup */
+     , (41890,   3, 0x20000014) /* SoundTable */
+     , (41890,   6, 0x04000BEF) /* PaletteBase */
+     , (41890,   8, 0x06006B96) /* Icon */
+     , (41890,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41890,  2086,      2)  /* StrengthOther7 */
+VALUES (41890,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (41890,  2086,      2)  /* StrengthOther7 */
      , (41890,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41890,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41890,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (41890,  2106,      2)  /* HeartSeekerSelf7 */;

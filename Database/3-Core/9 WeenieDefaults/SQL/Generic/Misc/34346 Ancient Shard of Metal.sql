@@ -24,7 +24,7 @@ VALUES (34346,   1, 'Ancient Shard of Metal') /* Name */
      , (34346,  16, 'A piece of metal found in a chest in the Folthid Cellar. It has faint designs illegibly carved onto the face. There is a small amount of a purple corrosion on one side.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34346,   1,   33554683) /* Setup */
-     , (34346,   3,  536870932) /* SoundTable */
-     , (34346,   8,  100689307) /* Icon */
-     , (34346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34346,   1, 0x020000FB) /* Setup */
+     , (34346,   3, 0x20000014) /* SoundTable */
+     , (34346,   8, 0x0600659B) /* Icon */
+     , (34346,  22, 0x3400002B) /* PhysicsEffectTable */;

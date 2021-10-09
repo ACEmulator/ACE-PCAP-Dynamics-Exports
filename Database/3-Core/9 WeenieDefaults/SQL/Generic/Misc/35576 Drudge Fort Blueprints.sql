@@ -22,7 +22,7 @@ VALUES (35576,   1, 'Drudge Fort Blueprints') /* Name */
      , (35576,  16, 'Blueprints for the Drudge Fort outside of Cragstone. They show a network of caves below the fort.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35576,   1,   33558373) /* Setup */
-     , (35576,   3,  536870932) /* SoundTable */
-     , (35576,   8,  100676719) /* Icon */
-     , (35576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35576,   1, 0x02000F65) /* Setup */
+     , (35576,   3, 0x20000014) /* SoundTable */
+     , (35576,   8, 0x0600346F) /* Icon */
+     , (35576,  22, 0x3400002B) /* PhysicsEffectTable */;

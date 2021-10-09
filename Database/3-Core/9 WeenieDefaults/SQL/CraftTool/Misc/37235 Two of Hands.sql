@@ -21,7 +21,7 @@ VALUES (37235,   1, 'Two of Hands') /* Name */
      , (37235,  20, 'Twos of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37235,   1,   33560548) /* Setup */
-     , (37235,   3,  536870932) /* SoundTable */
-     , (37235,   8,  100689856) /* Icon */
-     , (37235,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37235,   1, 0x020017E4) /* Setup */
+     , (37235,   3, 0x20000014) /* SoundTable */
+     , (37235,   8, 0x060067C0) /* Icon */
+     , (37235,  22, 0x3400002B) /* PhysicsEffectTable */;

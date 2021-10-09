@@ -44,7 +44,7 @@ VALUES (3769,   1, 'Frost Club') /* Name */
      , (3769,  16, 'Frost Club') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3769,   1,   33555722) /* Setup */
-     , (3769,   3,  536870932) /* SoundTable */
-     , (3769,   8,  100668855) /* Icon */
-     , (3769,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3769,   1, 0x0200050A) /* Setup */
+     , (3769,   3, 0x20000014) /* SoundTable */
+     , (3769,   8, 0x060015B7) /* Icon */
+     , (3769,  22, 0x3400002B) /* PhysicsEffectTable */;

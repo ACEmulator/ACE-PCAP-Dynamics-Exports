@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28001,   1, 'Mosswart Scrounger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28001,   1,   33557327) /* Setup */
-     , (28001,   2,  150994953) /* MotionTable */
-     , (28001,   3,  536870959) /* SoundTable */
-     , (28001,   6,   67113400) /* PaletteBase */
-     , (28001,   8,  100667449) /* Icon */
-     , (28001,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (28001,   1, 0x02000B4F) /* Setup */
+     , (28001,   2, 0x09000009) /* MotionTable */
+     , (28001,   3, 0x2000002F) /* SoundTable */
+     , (28001,   6, 0x040011B8) /* PaletteBase */
+     , (28001,   8, 0x06001039) /* Icon */
+     , (28001,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28001, 8040, 45417168, 130.877, -218.932, 0.006600022, 0.496599, 0, 0, -0.86798) /* PCAPRecordedLocation */
+VALUES (28001, 8040, 0x02B502D0, 130.877, -218.932, 0.0066, 0.496599, 0, 0, -0.86798) /* PCAPRecordedLocation */
 /* @teleloc 0x02B502D0 [130.877000 -218.932000 0.006600] 0.496599 0.000000 0.000000 -0.867980 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

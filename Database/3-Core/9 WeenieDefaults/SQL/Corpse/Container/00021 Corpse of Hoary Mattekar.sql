@@ -24,15 +24,15 @@ VALUES (21,   1, 'Corpse of Hoary Mattekar') /* Name */
      , (21,  16, 'Killed by Ripley.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21,   1,   33555590) /* Setup */
-     , (21,   2,  150995047) /* MotionTable */
-     , (21,   3,  536871106) /* SoundTable */
-     , (21,   6,   67111893) /* PaletteBase */
-     , (21,   8,  100667504) /* Icon */
-     , (21,  22,  872415342) /* PhysicsEffectTable */;
+VALUES (21,   1, 0x02000486) /* Setup */
+     , (21,   2, 0x09000067) /* MotionTable */
+     , (21,   3, 0x200000C2) /* SoundTable */
+     , (21,   6, 0x04000BD5) /* PaletteBase */
+     , (21,   8, 0x06001070) /* Icon */
+     , (21,  22, 0x3400006E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21, 8040, 2401239075, 104.095, 64.99804, 189.167, -0.4253615, 0, 0, -0.9050235) /* PCAPRecordedLocation */
+VALUES (21, 8040, 0x8F200023, 104.095, 64.99804, 189.167, -0.425362, 0, 0, -0.905024) /* PCAPRecordedLocation */
 /* @teleloc 0x8F200023 [104.095000 64.998040 189.167000] -0.425362 0.000000 0.000000 -0.905024 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

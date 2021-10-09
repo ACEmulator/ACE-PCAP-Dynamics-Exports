@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24324,   1, 'Undead Sailor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24324,   1,   33554839) /* Setup */
-     , (24324,   2,  150994967) /* MotionTable */
-     , (24324,   3,  536870934) /* SoundTable */
-     , (24324,   6,   67110722) /* PaletteBase */
-     , (24324,   8,  100667942) /* Icon */
-     , (24324,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (24324,   1, 0x02000197) /* Setup */
+     , (24324,   2, 0x09000017) /* MotionTable */
+     , (24324,   3, 0x20000016) /* SoundTable */
+     , (24324,   6, 0x04000742) /* PaletteBase */
+     , (24324,   8, 0x06001226) /* Icon */
+     , (24324,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24324, 8040, 904331327, 181.0206, 163.4283, 6.329131, -0.6058145, 0, 0, -0.795606) /* PCAPRecordedLocation */
+VALUES (24324, 8040, 0x35E7003F, 181.0206, 163.4283, 6.329131, -0.605815, 0, 0, -0.795606) /* PCAPRecordedLocation */
 /* @teleloc 0x35E7003F [181.020600 163.428300 6.329131] -0.605815 0.000000 0.000000 -0.795606 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

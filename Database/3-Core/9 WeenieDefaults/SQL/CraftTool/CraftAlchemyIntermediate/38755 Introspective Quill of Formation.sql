@@ -21,6 +21,6 @@ VALUES (38755,   1, 'Introspective Quill of Formation') /* Name */
      , (38755,  20, 'Introspective Quills of Formation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38755,   1,   33559616) /* Setup */
-     , (38755,   8,  100690197) /* Icon */
-     , (38755,  52,  100676435) /* IconUnderlay */;
+VALUES (38755,   1, 0x02001440) /* Setup */
+     , (38755,   8, 0x06006915) /* Icon */
+     , (38755,  52, 0x06003353) /* IconUnderlay */;

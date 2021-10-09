@@ -44,11 +44,11 @@ VALUES (28608,   1, 'Poet''s Shirt') /* Name */
      , (28608,  16, 'Poet''s Shirt of Acid Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28608,   1,   33554854) /* Setup */
-     , (28608,   3,  536870932) /* SoundTable */
-     , (28608,   6,   67108990) /* PaletteBase */
-     , (28608,   8,  100682377) /* Icon */
-     , (28608,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28608,   1, 0x020001A6) /* Setup */
+     , (28608,   3, 0x20000014) /* SoundTable */
+     , (28608,   6, 0x0400007E) /* PaletteBase */
+     , (28608,   8, 0x06004A89) /* Icon */
+     , (28608,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28608,  2149,      2)  /* AcidProtectionSelf7 */;

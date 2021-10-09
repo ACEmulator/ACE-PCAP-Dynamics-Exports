@@ -51,11 +51,11 @@ VALUES (40761,   1, 'Acid Nodachi') /* Name */
      , (40761,  16, 'Acid Nodachi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40761,   1,   33560764) /* Setup */
-     , (40761,   3,  536870932) /* SoundTable */
-     , (40761,   6,   67111919) /* PaletteBase */
-     , (40761,   8,  100690798) /* Icon */
-     , (40761,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40761,   1, 0x020018BC) /* Setup */
+     , (40761,   3, 0x20000014) /* SoundTable */
+     , (40761,   6, 0x04000BEF) /* PaletteBase */
+     , (40761,   8, 0x06006B6E) /* Icon */
+     , (40761,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40761,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

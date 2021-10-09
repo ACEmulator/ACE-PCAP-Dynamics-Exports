@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47223,   1, 'Ensorcelled Khopesh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47223,   1,   33559797) /* Setup */
-     , (47223,   3,  536870932) /* SoundTable */
-     , (47223,   8,  100675773) /* Icon */
-     , (47223,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47223,   1, 0x020014F5) /* Setup */
+     , (47223,   3, 0x20000014) /* SoundTable */
+     , (47223,   8, 0x060030BD) /* Icon */
+     , (47223,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47223, 8040, 1482555785, 389.4827, -118.1371, -0.071, 0.5629165, 0.5629165, -0.4279312, -0.4279312) /* PCAPRecordedLocation */
+VALUES (47223, 8040, 0x585E0189, 389.4827, -118.1371, -0.071, 0.562917, 0.562917, -0.427931, -0.427931) /* PCAPRecordedLocation */
 /* @teleloc 0x585E0189 [389.482700 -118.137100 -0.071000] 0.562917 0.562917 -0.427931 -0.427931 */;

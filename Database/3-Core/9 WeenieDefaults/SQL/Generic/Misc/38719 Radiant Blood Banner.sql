@@ -21,6 +21,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38719,   1, 'Radiant Blood Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38719,   1,   33560564) /* Setup */
-     , (38719,   3,  536870932) /* SoundTable */
-     , (38719,   8,  100689890) /* Icon */;
+VALUES (38719,   1, 0x020017F4) /* Setup */
+     , (38719,   3, 0x20000014) /* SoundTable */
+     , (38719,   8, 0x060067E2) /* Icon */;

@@ -18,9 +18,9 @@ VALUES (1791,   1, 'Smith Maqura') /* Name */
      , (1791,  16, 'Smith Maqura') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1791,   1,   33555909) /* Setup */
-     , (1791,   8,  100668115) /* Icon */;
+VALUES (1791,   1, 0x020005C5) /* Setup */
+     , (1791,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1791, 8040, 2238578729, 130.47, 10.5797, 17.549, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1791, 8040, 0x856E0029, 130.47, 10.5797, 17.549, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x856E0029 [130.470000 10.579700 17.549000] 1.000000 0.000000 0.000000 0.000000 */;

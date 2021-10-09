@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44588,   1, 'Celestial Hand Buckler Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44588,   1,   33556223) /* Setup */
-     , (44588,   3,  536870932) /* SoundTable */
-     , (44588,   6,   67111928) /* PaletteBase */
-     , (44588,   8,  100692051) /* Icon */
-     , (44588,  22,  872415275) /* PhysicsEffectTable */
-     , (44588,  50,  100667895) /* IconOverlay */
+VALUES (44588,   1, 0x020006FF) /* Setup */
+     , (44588,   3, 0x20000014) /* SoundTable */
+     , (44588,   6, 0x04000BF8) /* PaletteBase */
+     , (44588,   8, 0x06007053) /* Icon */
+     , (44588,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44588,  50, 0x060011F7) /* IconOverlay */
      , (44588, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

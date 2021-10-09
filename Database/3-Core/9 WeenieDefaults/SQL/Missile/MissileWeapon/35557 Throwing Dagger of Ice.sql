@@ -57,16 +57,16 @@ VALUES (35557,   1, 'Throwing Dagger of Ice') /* Name */
      , (35557,  20, 'Throwing Daggers of Ice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35557,   1,   33559364) /* Setup */
-     , (35557,   3,  536870932) /* SoundTable */
-     , (35557,   8,  100686579) /* Icon */
-     , (35557,  22,  872415275) /* PhysicsEffectTable */
-     , (35557,  52,  100689403) /* IconUnderlay */;
+VALUES (35557,   1, 0x02001344) /* Setup */
+     , (35557,   3, 0x20000014) /* SoundTable */
+     , (35557,   8, 0x06005AF3) /* Icon */
+     , (35557,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35557,  52, 0x060065FB) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35557, 8040, 2847080494, 135.2953, 139.2291, 108.0008, -0.6320162, -0.6320162, -0.317105, -0.317105) /* PCAPRecordedLocation */
+VALUES (35557, 8040, 0xA9B3002E, 135.2953, 139.2291, 108.0008, -0.632016, -0.632016, -0.317105, -0.317105) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3002E [135.295300 139.229100 108.000800] -0.632016 -0.632016 -0.317105 -0.317105 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35557,  2206,      2)  /* MissileWeaponsMasteryOther7 */
-     , (35557,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;
+VALUES (35557,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (35557,  2206,      2)  /* MissileWeaponsMasteryOther7 */;

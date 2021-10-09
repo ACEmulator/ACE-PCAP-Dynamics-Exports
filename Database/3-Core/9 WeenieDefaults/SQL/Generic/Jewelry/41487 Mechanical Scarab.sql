@@ -34,11 +34,11 @@ VALUES (41487,   1, 'Mechanical Scarab') /* Name */
      , (41487,  16, 'Mechanical Scarab of Lightning Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41487,   1,   33555211) /* Setup */
-     , (41487,   3,  536870932) /* SoundTable */
-     , (41487,   6,   67111919) /* PaletteBase */
-     , (41487,   8,  100690707) /* Icon */
-     , (41487,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41487,   1, 0x0200030B) /* Setup */
+     , (41487,   3, 0x20000014) /* SoundTable */
+     , (41487,   6, 0x04000BEF) /* PaletteBase */
+     , (41487,   8, 0x06006B13) /* Icon */
+     , (41487,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41487,  1069,      2)  /* LightningProtectionSelf4 */

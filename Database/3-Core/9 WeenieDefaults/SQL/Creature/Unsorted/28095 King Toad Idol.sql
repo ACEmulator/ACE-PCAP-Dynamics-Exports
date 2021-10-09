@@ -26,12 +26,12 @@ VALUES (28095,   1, 'King Toad Idol') /* Name */
      , (28095,  16, 'A foul smelling creation of muck and shoddy craftsmanship. Flies and other insects make their home within the porous structure of the monstrous statue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28095,   1,   33558826) /* Setup */
-     , (28095,   2,  150995306) /* MotionTable */
-     , (28095,   3,  536871052) /* SoundTable */
-     , (28095,   8,  100676736) /* Icon */
-     , (28095,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28095,   1, 0x0200112A) /* Setup */
+     , (28095,   2, 0x0900016A) /* MotionTable */
+     , (28095,   3, 0x2000008C) /* SoundTable */
+     , (28095,   8, 0x06003480) /* Icon */
+     , (28095,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28095, 8040, 1062076450, 112.751, 43.991, -0.4499998, 0.09435506, 0, 0, 0.9955386) /* PCAPRecordedLocation */
+VALUES (28095, 8040, 0x3F4E0022, 112.751, 43.991, -0.45, 0.094355, 0, 0, 0.995539) /* PCAPRecordedLocation */
 /* @teleloc 0x3F4E0022 [112.751000 43.991000 -0.450000] 0.094355 0.000000 0.000000 0.995539 */;

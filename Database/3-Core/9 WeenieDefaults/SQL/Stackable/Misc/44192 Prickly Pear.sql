@@ -29,7 +29,7 @@ VALUES (44192,   1, 'Prickly Pear') /* Name */
      , (44192,  15, 'A small, delicate cactus found only in the Lost City of Neftet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44192,   1,   33561228) /* Setup */
-     , (44192,   3,  536870932) /* SoundTable */
-     , (44192,   8,  100691974) /* Icon */
-     , (44192,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44192,   1, 0x02001A8C) /* Setup */
+     , (44192,   3, 0x20000014) /* SoundTable */
+     , (44192,   8, 0x06007006) /* Icon */
+     , (44192,  22, 0x3400002B) /* PhysicsEffectTable */;

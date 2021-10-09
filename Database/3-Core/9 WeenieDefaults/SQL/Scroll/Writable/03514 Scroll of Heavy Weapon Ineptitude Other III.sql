@@ -23,7 +23,7 @@ VALUES (3514,   1, 'Scroll of Heavy Weapon Ineptitude Other III') /* Name */
 Decreases the target''s Heavy Weapons skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3514,   1,   33554826) /* Setup */
-     , (3514,   8,  100692254) /* Icon */
-     , (3514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3514,   1, 0x0200018A) /* Setup */
+     , (3514,   8, 0x0600711E) /* Icon */
+     , (3514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3514,  28,        426) /* Spell - HeavyWeaponsIneptitudeOther3 */;

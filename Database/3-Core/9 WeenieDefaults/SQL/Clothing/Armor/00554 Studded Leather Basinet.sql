@@ -43,11 +43,11 @@ VALUES (554,   1, 'Studded Leather Basinet') /* Name */
      , (554,  16, 'Studded Leather Basinet of Impregnability') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (554,   1,   33555048) /* Setup */
-     , (554,   3,  536870932) /* SoundTable */
-     , (554,   6,   67108990) /* PaletteBase */
-     , (554,   8,  100669749) /* Icon */
-     , (554,  22,  872415275) /* PhysicsEffectTable */
+VALUES (554,   1, 0x02000268) /* Setup */
+     , (554,   3, 0x20000014) /* SoundTable */
+     , (554,   6, 0x0400007E) /* PaletteBase */
+     , (554,   8, 0x06001935) /* Icon */
+     , (554,  22, 0x3400002B) /* PhysicsEffectTable */
      , (554,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

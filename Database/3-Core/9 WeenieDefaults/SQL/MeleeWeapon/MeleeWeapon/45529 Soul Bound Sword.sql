@@ -52,21 +52,21 @@ VALUES (45529,   1, 'Soul Bound Sword') /* Name */
      , (45529,  16, 'A ghostly blue sword, bound to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45529,   1,   33560577) /* Setup */
-     , (45529,   3,  536870932) /* SoundTable */
-     , (45529,   8,  100673209) /* Icon */
-     , (45529,  22,  872415275) /* PhysicsEffectTable */
-     , (45529,  52,  100689896) /* IconUnderlay */;
+VALUES (45529,   1, 0x02001801) /* Setup */
+     , (45529,   3, 0x20000014) /* SoundTable */
+     , (45529,   8, 0x060026B9) /* Icon */
+     , (45529,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45529,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45529, 8040, 3135766790, 84.11499, 105.14, 25.929, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (45529, 8040, 0xBAE80106, 84.11499, 105.14, 25.929, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBAE80106 [84.114990 105.140000 25.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45529,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45529,  2101,      2)  /* DefenderSelf7 */
-     , (45529,  2106,      2)  /* HeartSeekerSelf7 */
-     , (45529,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45529,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+VALUES (45529,  2116,      2)  /* SwiftKillerSelf7 */
      , (45529,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (45529,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (45529,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (45529,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (45529,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45529,  2101,      2)  /* DefenderSelf7 */
+     , (45529,  2106,      2)  /* HeartSeekerSelf7 */;

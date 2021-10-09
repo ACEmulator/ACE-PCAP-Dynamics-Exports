@@ -29,12 +29,12 @@ VALUES (35047,   1, 'Small Skeletal Falatacot Reliquary') /* Name */
      , (35047,  16, 'A reliquary made of the skeletal remnants of the victims of Falatacot sacrifices.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35047,   1,   33560219) /* Setup */
-     , (35047,   2,  150994948) /* MotionTable */
-     , (35047,   3,  536870945) /* SoundTable */
-     , (35047,   8,  100676961) /* Icon */
-     , (35047,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35047,   1, 0x0200169B) /* Setup */
+     , (35047,   2, 0x09000004) /* MotionTable */
+     , (35047,   3, 0x20000021) /* SoundTable */
+     , (35047,   8, 0x06003561) /* Icon */
+     , (35047,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35047, 8040, 13501442, 80, -60, 12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35047, 8040, 0x00CE0402, 80, -60, 12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE0402 [80.000000 -60.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */;

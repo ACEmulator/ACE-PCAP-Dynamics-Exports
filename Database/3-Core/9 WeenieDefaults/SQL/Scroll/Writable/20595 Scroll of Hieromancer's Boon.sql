@@ -23,7 +23,7 @@ VALUES (20595,   1, 'Scroll of Hieromancer''s Boon') /* Name */
 Increases the target''s War Magic skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20595,   1,   33554826) /* Setup */
-     , (20595,   8,  100676479) /* Icon */
-     , (20595,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20595,   1, 0x0200018A) /* Setup */
+     , (20595,   8, 0x0600337F) /* Icon */
+     , (20595,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20595,  28,       2322) /* Spell - WarMagicMasteryOther7 */;

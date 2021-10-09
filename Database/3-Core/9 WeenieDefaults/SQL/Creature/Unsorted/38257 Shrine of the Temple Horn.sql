@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38257,   1, 'Shrine of the Temple Horn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38257,   1,   33558607) /* Setup */
-     , (38257,   2,  150995279) /* MotionTable */
-     , (38257,   3,  536871052) /* SoundTable */
-     , (38257,   8,  100675788) /* Icon */
-     , (38257,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38257,   1, 0x0200104F) /* Setup */
+     , (38257,   2, 0x0900014F) /* MotionTable */
+     , (38257,   3, 0x2000008C) /* SoundTable */
+     , (38257,   8, 0x060030CC) /* Icon */
+     , (38257,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38257, 8040, 1024196634, 84, 36, 2.94674, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38257, 8040, 0x3D0C001A, 84, 36, 2.94674, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x3D0C001A [84.000000 36.000000 2.946740] 0.000000 0.000000 0.000000 -1.000000 */;

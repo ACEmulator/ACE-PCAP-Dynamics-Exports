@@ -24,7 +24,7 @@ VALUES (31347,   1, 'Lugian Lieutenant''s Insignia') /* Name */
      , (31347,  16, 'The insignia badge from a high ranking Tukora Lieutenant. This Lugian must have been held in high regard to carry a trinket such as this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31347,   1,   33554817) /* Setup */
-     , (31347,   3,  536870932) /* SoundTable */
-     , (31347,   8,  100687691) /* Icon */
-     , (31347,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31347,   1, 0x02000181) /* Setup */
+     , (31347,   3, 0x20000014) /* SoundTable */
+     , (31347,   8, 0x06005F4B) /* Icon */
+     , (31347,  22, 0x3400002B) /* PhysicsEffectTable */;

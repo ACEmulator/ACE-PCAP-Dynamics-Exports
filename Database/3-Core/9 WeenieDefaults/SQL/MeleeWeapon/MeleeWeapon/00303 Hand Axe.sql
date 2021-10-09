@@ -50,15 +50,15 @@ VALUES (303,   1, 'Hand Axe') /* Name */
      , (303,  16, 'Hand Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (303,   1,   33554727) /* Setup */
-     , (303,   3,  536870932) /* SoundTable */
-     , (303,   6,   67111919) /* PaletteBase */
-     , (303,   8,  100670217) /* Icon */
-     , (303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (303,   1, 0x02000127) /* Setup */
+     , (303,   3, 0x20000014) /* SoundTable */
+     , (303,   6, 0x04000BEF) /* PaletteBase */
+     , (303,   8, 0x06001B09) /* Icon */
+     , (303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (303,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (303, 8040, 3465871678, 155.9931, 39.02403, 19.929, -0.4255638, -0.4255638, -0.5647083, -0.5647083) /* PCAPRecordedLocation */
+VALUES (303, 8040, 0xCE95013E, 155.9931, 39.02403, 19.929, -0.425564, -0.425564, -0.564708, -0.564708) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013E [155.993100 39.024030 19.929000] -0.425564 -0.425564 -0.564708 -0.564708 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

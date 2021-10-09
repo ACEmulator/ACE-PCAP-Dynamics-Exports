@@ -21,7 +21,7 @@ VALUES (43024,   1, 'Silver Knight Medallion ') /* Name */
      , (43024,  15, 'A silver badge.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43024,   1,   33556593) /* Setup */
-     , (43024,   3,  536870932) /* SoundTable */
-     , (43024,   8,  100691357) /* Icon */
-     , (43024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43024,   1, 0x02000871) /* Setup */
+     , (43024,   3, 0x20000014) /* SoundTable */
+     , (43024,   8, 0x06006D9D) /* Icon */
+     , (43024,  22, 0x3400002B) /* PhysicsEffectTable */;

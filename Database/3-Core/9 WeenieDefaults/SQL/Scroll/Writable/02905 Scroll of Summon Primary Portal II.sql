@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2905,   1, 'Scroll of Summon Primary Portal II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2905,   1,   33554826) /* Setup */
-     , (2905,   8,  100676673) /* Icon */
-     , (2905,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2905,   1, 0x0200018A) /* Setup */
+     , (2905,   8, 0x06003441) /* Icon */
+     , (2905,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2905,  28,        158) /* Spell - SummonPortal2 */;

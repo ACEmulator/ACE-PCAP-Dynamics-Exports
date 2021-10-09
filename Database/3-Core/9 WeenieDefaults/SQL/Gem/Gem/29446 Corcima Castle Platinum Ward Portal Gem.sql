@@ -35,9 +35,9 @@ VALUES (29446,   1, 'Corcima Castle Platinum Ward Portal Gem') /* Name */
      , (29446,  16, 'A gem that opens a portal to the Platinum Ward of Corcima Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29446,   1,   33556769) /* Setup */
-     , (29446,   3,  536870932) /* SoundTable */
-     , (29446,   6,   67111919) /* PaletteBase */
-     , (29446,   8,  100672368) /* Icon */
-     , (29446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29446,   1, 0x02000921) /* Setup */
+     , (29446,   3, 0x20000014) /* SoundTable */
+     , (29446,   6, 0x04000BEF) /* PaletteBase */
+     , (29446,   8, 0x06002370) /* Icon */
+     , (29446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29446,  28,        157) /* Spell - SummonPortal1 */;

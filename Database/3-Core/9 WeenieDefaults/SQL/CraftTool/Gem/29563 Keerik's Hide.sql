@@ -29,8 +29,8 @@ VALUES (29563,   1, 'Keerik''s Hide') /* Name */
      , (29563,  16, 'Heavy, thick and reeking of all manner of refuse, this hide was blown free of Keerik''s corpse when the Kukuur died. Perhaps you can collect the hides of other Burun Kings and assemble them into one.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29563,   1,   33554817) /* Setup */
-     , (29563,   3,  536870932) /* SoundTable */
-     , (29563,   6,   67111919) /* PaletteBase */
-     , (29563,   8,  100677165) /* Icon */
-     , (29563,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29563,   1, 0x02000181) /* Setup */
+     , (29563,   3, 0x20000014) /* SoundTable */
+     , (29563,   6, 0x04000BEF) /* PaletteBase */
+     , (29563,   8, 0x0600362D) /* Icon */
+     , (29563,  22, 0x3400002B) /* PhysicsEffectTable */;

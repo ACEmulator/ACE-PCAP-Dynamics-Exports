@@ -46,19 +46,19 @@ VALUES (37201,   1, 'Olthoi Amuli Leggings') /* Name */
      , (37201,  16, 'Olthoi Amuli Leggings of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37201,   1,   33554856) /* Setup */
-     , (37201,   3,  536870932) /* SoundTable */
-     , (37201,   6,   67108990) /* PaletteBase */
-     , (37201,   8,  100690098) /* Icon */
-     , (37201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37201,   1, 0x020001A8) /* Setup */
+     , (37201,   3, 0x20000014) /* SoundTable */
+     , (37201,   6, 0x0400007E) /* PaletteBase */
+     , (37201,   8, 0x060068B2) /* Icon */
+     , (37201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37201,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37201, 8040, 23855549, 52.81817, -38.1212, -0.002500013, 0.9784861, 0, 0, -0.2063128) /* PCAPRecordedLocation */
+VALUES (37201, 8040, 0x016C01BD, 52.81817, -38.1212, -0.0025, 0.978486, 0, 0, -0.206313) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.818170 -38.121200 -0.002500] 0.978486 0.000000 0.000000 -0.206313 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37201,  2087,      2)  /* StrengthSelf7 */
-     , (37201,  2108,      2)  /* Impenetrability7 */
-     , (37201,  2593,      2)  /* CANTRIPPIERCINGBANE2 */
-     , (37201,  4393,      2)  /* BladeBane8 */;
+VALUES (37201,  2593,      2)  /* CANTRIPPIERCINGBANE2 */
+     , (37201,  2087,      2)  /* StrengthSelf7 */
+     , (37201,  4393,      2)  /* BladeBane8 */
+     , (37201,  2108,      2)  /* Impenetrability7 */;

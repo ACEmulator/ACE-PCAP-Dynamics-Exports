@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19701,   1, 'Nuhmudira''s Bestowment of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19701,   1,   33554687) /* Setup */
-     , (19701,   3,  536870932) /* SoundTable */
-     , (19701,   6,   67111919) /* PaletteBase */
-     , (19701,   8,  100672963) /* Icon */
-     , (19701,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19701,   1, 0x020000FF) /* Setup */
+     , (19701,   3, 0x20000014) /* SoundTable */
+     , (19701,   6, 0x04000BEF) /* PaletteBase */
+     , (19701,   8, 0x060025C3) /* Icon */
+     , (19701,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32202,   1, 'Golden Pumpkin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32202,   1,   33556809) /* Setup */
-     , (32202,   3,  536870932) /* SoundTable */
-     , (32202,   6,   67112968) /* PaletteBase */
-     , (32202,   8,  100688419) /* Icon */
-     , (32202,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32202,   1, 0x02000949) /* Setup */
+     , (32202,   3, 0x20000014) /* SoundTable */
+     , (32202,   6, 0x04001008) /* PaletteBase */
+     , (32202,   8, 0x06006223) /* Icon */
+     , (32202,  22, 0x3400002B) /* PhysicsEffectTable */;

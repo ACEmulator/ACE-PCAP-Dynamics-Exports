@@ -51,21 +51,21 @@ VALUES (51968,   1, 'Rynthid Tentacle Greatspear') /* Name */
      , (51968,  15, 'A two handed spear crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51968,   1,   33561604) /* Setup */
-     , (51968,   3,  536870932) /* SoundTable */
-     , (51968,   6,   67111919) /* PaletteBase */
-     , (51968,   8,  100693233) /* Icon */
-     , (51968,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51968,   1, 0x02001C04) /* Setup */
+     , (51968,   3, 0x20000014) /* SoundTable */
+     , (51968,   6, 0x04000BEF) /* PaletteBase */
+     , (51968,   8, 0x060074F1) /* Icon */
+     , (51968,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51968, 8040, 3465871674, 157.2323, 95.9995, 19.929, 0.2566817, 0.2566817, -0.6588737, -0.6588737) /* PCAPRecordedLocation */
+VALUES (51968, 8040, 0xCE95013A, 157.2323, 95.9995, 19.929, 0.256682, 0.256682, -0.658874, -0.658874) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013A [157.232300 95.999500 19.929000] 0.256682 0.256682 -0.658874 -0.658874 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51968,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (51968,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (51968,  4417,      2)  /* SwiftKillerSelf8 */
      , (51968,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51968,  4400,      2)  /* DefenderSelf8 */
      , (51968,  4405,      2)  /* HeartSeekerSelf8 */
-     , (51968,  4417,      2)  /* SwiftKillerSelf8 */
-     , (51968,  6073,      2)  /* CantripTwoHandedAptitude4 */;
+     , (51968,  6073,      2)  /* CantripTwoHandedAptitude4 */
+     , (51968,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (51968,  3965,      2)  /* CANTRIPSTRENGTH3 */;

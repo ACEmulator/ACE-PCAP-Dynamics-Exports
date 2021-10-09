@@ -35,8 +35,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24896,   1, 'Lesser Olthoi Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24896,   1,   33554647) /* Setup */
-     , (24896,   3,  536870932) /* SoundTable */
-     , (24896,   6,   67108990) /* PaletteBase */
-     , (24896,   8,  100674600) /* Icon */
-     , (24896,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24896,   1, 0x020000D7) /* Setup */
+     , (24896,   3, 0x20000014) /* SoundTable */
+     , (24896,   6, 0x0400007E) /* PaletteBase */
+     , (24896,   8, 0x06002C28) /* Icon */
+     , (24896,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -48,14 +48,14 @@ VALUES (44801,   1, 'Suikan Over-robe') /* Name */
      , (44801,  16, 'Suikan Over-robe of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44801,   1,   33554854) /* Setup */
-     , (44801,   3,  536870932) /* SoundTable */
-     , (44801,   6,   67108990) /* PaletteBase */
-     , (44801,   8,  100670378) /* Icon */
-     , (44801,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44801,   1, 0x020001A6) /* Setup */
+     , (44801,   3, 0x20000014) /* SoundTable */
+     , (44801,   6, 0x0400007E) /* PaletteBase */
+     , (44801,   8, 0x06001BAA) /* Icon */
+     , (44801,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44801,  1552,      2)  /* FlameBane6 */
+VALUES (44801,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (44801,  2187,      2)  /* RejuvenationSelf7 */
-     , (44801,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (44801,  1552,      2)  /* FlameBane6 */
      , (44801,  4407,      2)  /* Impenetrability8 */;

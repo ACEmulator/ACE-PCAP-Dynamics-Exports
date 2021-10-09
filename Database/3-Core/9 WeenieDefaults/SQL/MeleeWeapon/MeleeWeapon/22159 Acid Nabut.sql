@@ -47,13 +47,13 @@ VALUES (22159,   1, 'Acid Nabut') /* Name */
      , (22159,  16, 'Acid Nabut of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22159,   1,   33558072) /* Setup */
-     , (22159,   3,  536870932) /* SoundTable */
-     , (22159,   6,   67111919) /* PaletteBase */
-     , (22159,   8,  100673626) /* Icon */
-     , (22159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22159,   1, 0x02000E38) /* Setup */
+     , (22159,   3, 0x20000014) /* SoundTable */
+     , (22159,   6, 0x04000BEF) /* PaletteBase */
+     , (22159,   8, 0x0600285A) /* Icon */
+     , (22159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22159,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (22159,  52,  100676437) /* IconUnderlay */;
+     , (22159,  52, 0x06003355) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22159,  1614,      2)  /* BloodDrinkerSelf4 */

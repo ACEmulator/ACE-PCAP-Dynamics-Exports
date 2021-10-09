@@ -33,11 +33,11 @@ VALUES (30224,   1, 'Resister''s Crystal') /* Name */
      , (30224,  20, 'Resister''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30224,   1,   33554809) /* Setup */
-     , (30224,   3,  536870932) /* SoundTable */
-     , (30224,   6,   67111919) /* PaletteBase */
-     , (30224,   8,  100686697) /* Icon */
-     , (30224,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30224,   1, 0x02000179) /* Setup */
+     , (30224,   3, 0x20000014) /* SoundTable */
+     , (30224,   6, 0x04000BEF) /* PaletteBase */
+     , (30224,   8, 0x06005B69) /* Icon */
+     , (30224,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30224,  28,       3723) /* Spell - MagicResistanceRare */
-     , (30224,  50,  100686671) /* IconOverlay */
-     , (30224,  52,  100686604) /* IconUnderlay */;
+     , (30224,  50, 0x06005B4F) /* IconOverlay */
+     , (30224,  52, 0x06005B0C) /* IconUnderlay */;

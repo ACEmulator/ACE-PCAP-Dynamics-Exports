@@ -28,7 +28,7 @@ VALUES (19402,   1, 'Missile Weapons Glyph') /* Name */
      , (19402,  16, 'A glyph used in the construction of Atlan and Isparian weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19402,   1,   33556438) /* Setup */
-     , (19402,   3,  536870932) /* SoundTable */
-     , (19402,   8,  100672872) /* Icon */
-     , (19402,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19402,   1, 0x020007D6) /* Setup */
+     , (19402,   3, 0x20000014) /* SoundTable */
+     , (19402,   8, 0x06002568) /* Icon */
+     , (19402,  22, 0x3400002B) /* PhysicsEffectTable */;

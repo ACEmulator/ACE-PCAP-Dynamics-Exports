@@ -21,7 +21,7 @@ VALUES (53407,   1, 'Wall Spells Certificate') /* Name */
      , (53407,  15, 'A certificate that grants the bearer all wall spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53407,   1,   33554659) /* Setup */
-     , (53407,   3,  536870932) /* SoundTable */
-     , (53407,   8,  100692711) /* Icon */
-     , (53407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53407,   1, 0x020000E3) /* Setup */
+     , (53407,   3, 0x20000014) /* SoundTable */
+     , (53407,   8, 0x060072E7) /* Icon */
+     , (53407,  22, 0x3400002B) /* PhysicsEffectTable */;

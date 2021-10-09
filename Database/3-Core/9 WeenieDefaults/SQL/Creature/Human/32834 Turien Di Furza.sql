@@ -29,20 +29,20 @@ VALUES (32834,   1, 'Turien Di Furza') /* Name */
      , (32834,   5, 'Royal Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32834,   1,   33554433) /* Setup */
-     , (32834,   2,  150994945) /* MotionTable */
-     , (32834,   3,  536870913) /* SoundTable */
-     , (32834,   6,   67108990) /* PaletteBase */
-     , (32834,   8,  100667377) /* Icon */
-     , (32834,   9,   83890448) /* EyesTexture */
-     , (32834,  10,   83890557) /* NoseTexture */
-     , (32834,  11,   83890655) /* MouthTexture */
-     , (32834,  15,   67117024) /* HairPalette */
-     , (32834,  16,   67110065) /* EyesPalette */
-     , (32834,  17,   67115901) /* SkinPalette */;
+VALUES (32834,   1, 0x02000001) /* Setup */
+     , (32834,   2, 0x09000001) /* MotionTable */
+     , (32834,   3, 0x20000001) /* SoundTable */
+     , (32834,   6, 0x0400007E) /* PaletteBase */
+     , (32834,   8, 0x06000FF1) /* Icon */
+     , (32834,   9, 0x05001110) /* EyesTexture */
+     , (32834,  10, 0x0500117D) /* NoseTexture */
+     , (32834,  11, 0x050011DF) /* MouthTexture */
+     , (32834,  15, 0x04001FE0) /* HairPalette */
+     , (32834,  16, 0x040004B1) /* EyesPalette */
+     , (32834,  17, 0x04001B7D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32834, 8040, 853082170, 186.794, 46.1104, 52.005, 0.888024, 0, 0, -0.459797) /* PCAPRecordedLocation */
+VALUES (32834, 8040, 0x32D9003A, 186.794, 46.1104, 52.005, 0.888024, 0, 0, -0.459797) /* PCAPRecordedLocation */
 /* @teleloc 0x32D9003A [186.794000 46.110400 52.005000] 0.888024 0.000000 0.000000 -0.459797 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

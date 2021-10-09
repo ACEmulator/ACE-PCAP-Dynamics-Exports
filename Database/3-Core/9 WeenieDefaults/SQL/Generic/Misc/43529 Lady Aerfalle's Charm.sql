@@ -24,7 +24,7 @@ VALUES (43529,   1, 'Lady Aerfalle''s Charm') /* Name */
      , (43529,  16, 'Bring this to the Ghost of Galaeral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43529,   1,   33554683) /* Setup */
-     , (43529,   3,  536870932) /* SoundTable */
-     , (43529,   8,  100690503) /* Icon */
-     , (43529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43529,   1, 0x020000FB) /* Setup */
+     , (43529,   3, 0x20000014) /* SoundTable */
+     , (43529,   8, 0x06006A47) /* Icon */
+     , (43529,  22, 0x3400002B) /* PhysicsEffectTable */;

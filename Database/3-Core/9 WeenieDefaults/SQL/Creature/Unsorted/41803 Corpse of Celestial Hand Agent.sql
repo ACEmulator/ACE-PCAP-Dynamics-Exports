@@ -31,12 +31,12 @@ VALUES (41803,   1, 'Corpse of Celestial Hand Agent') /* Name */
      , (41803,  16, 'Killed by adventurers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41803,   1,   33554433) /* Setup */
-     , (41803,   2,  150995360) /* MotionTable */
-     , (41803,   3,  536870913) /* SoundTable */
-     , (41803,   8,  100667504) /* Icon */
-     , (41803,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41803,   1, 0x02000001) /* Setup */
+     , (41803,   2, 0x090001A0) /* MotionTable */
+     , (41803,   3, 0x20000001) /* SoundTable */
+     , (41803,   8, 0x06001070) /* Icon */
+     , (41803,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41803, 8040, 4180672821, 111.977, 149.634, 38.405, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41803, 8040, 0xF9300135, 111.977, 149.634, 38.405, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF9300135 [111.977000 149.634000 38.405000] 1.000000 0.000000 0.000000 0.000000 */;

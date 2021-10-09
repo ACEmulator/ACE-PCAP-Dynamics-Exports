@@ -23,7 +23,7 @@ VALUES (0x7E540003, 24937, 0xE5400040, 172.0203, 174.5565, 98.47655, 1, 0, 0, 0,
 /* @teleloc 0xE5400040 [172.020300 174.556500 98.476550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E540004, 24937, 0xE540003F, 182.9084, 162.679, 104.2504, 0.9903176, 0, 0, 0.1388202,  True, '2019-02-10 00:00:00'); /* Chicken */
+VALUES (0x7E540004, 24937, 0xE540003F, 182.9084, 162.679, 104.2504, 0.990318, 0, 0, 0.13882,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0xE540003F [182.908400 162.679000 104.250400] 0.990318 0.000000 0.000000 0.138820 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -31,7 +31,7 @@ VALUES (0x7E540005,  2567, 0xE5400040, 171.104, 191.9847, 92.26503, 0.360873, 0,
 /* @teleloc 0xE5400040 [171.104000 191.984700 92.265030] 0.360873 0.000000 0.000000 -0.932615 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E540006,   947, 0xE540003B, 191.5359, 65.49516, 89.91457, 0.9944453, 0, 0, -0.1052549,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
+VALUES (0x7E540006,   947, 0xE540003B, 191.5359, 65.49516, 89.91457, 0.994445, 0, 0, -0.105255,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
 /* @teleloc 0xE540003B [191.535900 65.495160 89.914570] 0.994445 0.000000 0.000000 -0.105255 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

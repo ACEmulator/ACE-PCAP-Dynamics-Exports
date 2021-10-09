@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8270,   1, 'Sotiris Hollow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8270,   1,   33556792) /* Setup */
-     , (8270,   2,  150995101) /* MotionTable */
-     , (8270,   3,  536871013) /* SoundTable */
-     , (8270,   8,  100671140) /* Icon */
-     , (8270,  22,  872415367) /* PhysicsEffectTable */;
+VALUES (8270,   1, 0x02000938) /* Setup */
+     , (8270,   2, 0x0900009D) /* MotionTable */
+     , (8270,   3, 0x20000065) /* SoundTable */
+     , (8270,   8, 0x06001EA4) /* Icon */
+     , (8270,  22, 0x34000087) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8270, 8040, 2977366048, 72.22095, 171.1692, 20.0025, 0.251654, 0, 0, -0.9678172) /* PCAPRecordedLocation */
+VALUES (8270, 8040, 0xB1770020, 72.22095, 171.1692, 20.0025, 0.251654, 0, 0, -0.967817) /* PCAPRecordedLocation */
 /* @teleloc 0xB1770020 [72.220950 171.169200 20.002500] 0.251654 0.000000 0.000000 -0.967817 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

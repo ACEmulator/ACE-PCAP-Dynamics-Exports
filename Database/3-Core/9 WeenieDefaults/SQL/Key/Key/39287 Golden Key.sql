@@ -27,7 +27,7 @@ VALUES (39287,   1, 'Golden Key') /* Name */
      , (39287,  16, 'A large, garish, golden key, a prize from the casinos.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39287,   1,   33557005) /* Setup */
-     , (39287,   3,  536870932) /* SoundTable */
-     , (39287,   8,  100671519) /* Icon */
-     , (39287,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39287,   1, 0x02000A0D) /* Setup */
+     , (39287,   3, 0x20000014) /* SoundTable */
+     , (39287,   8, 0x0600201F) /* Icon */
+     , (39287,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,13 +24,13 @@ VALUES (45490,   1, 'Emissary of Asheron') /* Name */
      , (45490,   5, 'Emissary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45490,   1,   33556923) /* Setup */
-     , (45490,   2,  150995087) /* MotionTable */
-     , (45490,   3,  536870998) /* SoundTable */
-     , (45490,   8,  100670274) /* Icon */;
+VALUES (45490,   1, 0x020009BB) /* Setup */
+     , (45490,   2, 0x0900008F) /* MotionTable */
+     , (45490,   3, 0x20000056) /* SoundTable */
+     , (45490,   8, 0x06001B42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45490, 8040, 3332964725, 117.098, 91.4159, 42.005, -0.4985311, 0, 0, -0.8668718) /* PCAPRecordedLocation */
+VALUES (45490, 8040, 0xC6A90175, 117.098, 91.4159, 42.005, -0.498531, 0, 0, -0.866872) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90175 [117.098000 91.415900 42.005000] -0.498531 0.000000 0.000000 -0.866872 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

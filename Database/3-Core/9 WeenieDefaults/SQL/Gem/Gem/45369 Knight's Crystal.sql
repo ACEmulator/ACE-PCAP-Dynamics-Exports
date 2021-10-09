@@ -32,11 +32,11 @@ VALUES (45369,   1, 'Knight''s Crystal') /* Name */
      , (45369,  20, 'Knight''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45369,   1,   33554809) /* Setup */
-     , (45369,   3,  536870932) /* SoundTable */
-     , (45369,   6,   67111919) /* PaletteBase */
-     , (45369,   8,  100686697) /* Icon */
-     , (45369,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45369,   1, 0x02000179) /* Setup */
+     , (45369,   3, 0x20000014) /* SoundTable */
+     , (45369,   6, 0x04000BEF) /* PaletteBase */
+     , (45369,   8, 0x06005B69) /* Icon */
+     , (45369,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45369,  28,       5907) /* Spell - ShieldMasteryRare */
-     , (45369,  50,  100692246) /* IconOverlay */
-     , (45369,  52,  100686604) /* IconUnderlay */;
+     , (45369,  50, 0x06007116) /* IconOverlay */
+     , (45369,  52, 0x06005B0C) /* IconUnderlay */;

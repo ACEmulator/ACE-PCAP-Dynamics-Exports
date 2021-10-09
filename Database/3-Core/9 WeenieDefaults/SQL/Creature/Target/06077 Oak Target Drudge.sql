@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6077,   1, 'Oak Target Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6077,   1,   33554484) /* Setup */
-     , (6077,   2,  150995082) /* MotionTable */
-     , (6077,   3,  536870993) /* SoundTable */
-     , (6077,   6,   67109305) /* PaletteBase */
-     , (6077,   8,  100667445) /* Icon */
-     , (6077,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (6077,   1, 0x02000034) /* Setup */
+     , (6077,   2, 0x0900008A) /* MotionTable */
+     , (6077,   3, 0x20000051) /* SoundTable */
+     , (6077,   6, 0x040001B9) /* PaletteBase */
+     , (6077,   8, 0x06001035) /* Icon */
+     , (6077,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6077, 8040, 3027173423, 134, 155, 22.00332, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (6077, 8040, 0xB46F002F, 134, 155, 22.00332, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F002F [134.000000 155.000000 22.003320] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

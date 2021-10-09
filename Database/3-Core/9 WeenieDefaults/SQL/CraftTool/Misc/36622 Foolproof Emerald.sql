@@ -32,9 +32,9 @@ VALUES (36622,   1, 'Foolproof Emerald') /* Name */
      , (36622,  15, 'Chips of emerald. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36622,   1,   33554817) /* Setup */
-     , (36622,   3,  536870932) /* SoundTable */
-     , (36622,   6,   67111919) /* PaletteBase */
-     , (36622,   8,  100686616) /* Icon */
-     , (36622,  22,  872415275) /* PhysicsEffectTable */
-     , (36622,  50,  100673272) /* IconOverlay */;
+VALUES (36622,   1, 0x02000181) /* Setup */
+     , (36622,   3, 0x20000014) /* SoundTable */
+     , (36622,   6, 0x04000BEF) /* PaletteBase */
+     , (36622,   8, 0x06005B18) /* Icon */
+     , (36622,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36622,  50, 0x060026F8) /* IconOverlay */;

@@ -45,11 +45,11 @@ VALUES (22441,   1, 'Acid Dirk') /* Name */
      , (22441,  16, 'Acid Dirk of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22441,   1,   33558092) /* Setup */
-     , (22441,   3,  536870932) /* SoundTable */
-     , (22441,   6,   67111919) /* PaletteBase */
-     , (22441,   8,  100673790) /* Icon */
-     , (22441,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22441,   1, 0x02000E4C) /* Setup */
+     , (22441,   3, 0x20000014) /* SoundTable */
+     , (22441,   6, 0x04000BEF) /* PaletteBase */
+     , (22441,   8, 0x060028FE) /* Icon */
+     , (22441,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22441,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

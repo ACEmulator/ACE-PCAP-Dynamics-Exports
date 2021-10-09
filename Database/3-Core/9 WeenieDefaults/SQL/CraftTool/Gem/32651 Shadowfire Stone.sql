@@ -28,7 +28,7 @@ VALUES (32651,   1, 'Shadowfire Stone') /* Name */
      , (32651,  16, 'A fragile black crystal enshrouded in blue flame. It looks like it can be fitted into any Perfect Isparian Weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32651,   1,   33559809) /* Setup */
-     , (32651,   3,  536870932) /* SoundTable */
-     , (32651,   8,  100688585) /* Icon */
-     , (32651,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32651,   1, 0x02001501) /* Setup */
+     , (32651,   3, 0x20000014) /* SoundTable */
+     , (32651,   8, 0x060062C9) /* Icon */
+     , (32651,  22, 0x3400002B) /* PhysicsEffectTable */;

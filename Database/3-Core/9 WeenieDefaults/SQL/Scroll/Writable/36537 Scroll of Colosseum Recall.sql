@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36537,   1, 'Scroll of Colosseum Recall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36537,   1,   33554826) /* Setup */
-     , (36537,   8,  100689659) /* Icon */
-     , (36537,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36537,   1, 0x0200018A) /* Setup */
+     , (36537,   8, 0x060066FB) /* Icon */
+     , (36537,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36537,  28,       4213) /* Spell - RecallColosseum */;

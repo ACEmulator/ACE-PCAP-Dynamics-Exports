@@ -27,12 +27,12 @@ VALUES (41953,   1, 'Mhoire Castle Southwest Tower Portal') /* Name */
      , (41953,  16, 'A portal for the defenders of Mhoire Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41953,   1,   33560901) /* Setup */
-     , (41953,   2,  150995314) /* MotionTable */
-     , (41953,   3,  536871052) /* SoundTable */
-     , (41953,   8,  100667499) /* Icon */
-     , (41953,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (41953,   1, 0x02001945) /* Setup */
+     , (41953,   2, 0x09000172) /* MotionTable */
+     , (41953,   3, 0x2000008C) /* SoundTable */
+     , (41953,   8, 0x0600106B) /* Icon */
+     , (41953,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41953, 8040, 1160577069, 132.1139, 114.2485, 114.2505, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41953, 8040, 0x452D002D, 132.1139, 114.2485, 114.2505, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x452D002D [132.113900 114.248500 114.250500] 1.000000 0.000000 0.000000 0.000000 */;

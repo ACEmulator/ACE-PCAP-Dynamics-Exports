@@ -34,10 +34,10 @@ VALUES (32933,   1, 'Son of Pooky''s Den') /* Name */
      , (32933,  16, 'A gem teeming with portal energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32933,   1,   33556769) /* Setup */
-     , (32933,   3,  536870932) /* SoundTable */
-     , (32933,   6,   67111919) /* PaletteBase */
-     , (32933,   8,  100668364) /* Icon */
-     , (32933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32933,   1, 0x02000921) /* Setup */
+     , (32933,   3, 0x20000014) /* SoundTable */
+     , (32933,   6, 0x04000BEF) /* PaletteBase */
+     , (32933,   8, 0x060013CC) /* Icon */
+     , (32933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32933,  28,        157) /* Spell - SummonPortal1 */
-     , (32933,  50,  100676404) /* IconOverlay */;
+     , (32933,  50, 0x06003334) /* IconOverlay */;

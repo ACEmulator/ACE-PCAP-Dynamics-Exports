@@ -43,13 +43,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31492,   1, 'Worn Old Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31492,   1,   33559582) /* Setup */
-     , (31492,   3,  536870932) /* SoundTable */
-     , (31492,   8,  100687879) /* Icon */
-     , (31492,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31492,   1, 0x0200141E) /* Setup */
+     , (31492,   3, 0x20000014) /* SoundTable */
+     , (31492,   8, 0x06006007) /* Icon */
+     , (31492,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31492, 8040, 3332964380, 82.62305, 77.36809, 41.93, 0.0167929, 0, 0, -0.999859) /* PCAPRecordedLocation */
+VALUES (31492, 8040, 0xC6A9001C, 82.62305, 77.36809, 41.93, 0.016793, 0, 0, -0.999859) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [82.623050 77.368090 41.930000] 0.016793 0.000000 0.000000 -0.999859 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

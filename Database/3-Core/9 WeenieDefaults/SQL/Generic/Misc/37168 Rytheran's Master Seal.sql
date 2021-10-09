@@ -23,7 +23,7 @@ VALUES (37168,   1, 'Rytheran''s Master Seal') /* Name */
      , (37168,  16, 'This heavy, golden seal is moldy with grave dust and engraved with the runes of Dericost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37168,   1,   33557280) /* Setup */
-     , (37168,   3,  536870932) /* SoundTable */
-     , (37168,   8,  100689845) /* Icon */
-     , (37168,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37168,   1, 0x02000B20) /* Setup */
+     , (37168,   3, 0x20000014) /* SoundTable */
+     , (37168,   8, 0x060067B5) /* Icon */
+     , (37168,  22, 0x3400002B) /* PhysicsEffectTable */;

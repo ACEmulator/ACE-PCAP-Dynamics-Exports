@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45307,   1, 'Inscription of Recklessness Mastery Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45307,   1,   33554826) /* Setup */
-     , (45307,   8,  100676449) /* Icon */
-     , (45307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45307,   1, 0x0200018A) /* Setup */
+     , (45307,   8, 0x06003361) /* Icon */
+     , (45307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45307,  28,       5834) /* Spell - RecklessnessMasterySelf8 */;

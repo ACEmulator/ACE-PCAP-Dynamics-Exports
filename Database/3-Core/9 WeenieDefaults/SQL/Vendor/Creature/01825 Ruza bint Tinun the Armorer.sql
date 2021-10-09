@@ -28,21 +28,21 @@ VALUES (1825,   1, 'Ruza bint Tinun the Armorer') /* Name */
      , (1825,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1825,   1,   33554510) /* Setup */
-     , (1825,   2,  150995141) /* MotionTable */
-     , (1825,   3,  536871045) /* SoundTable */
-     , (1825,   6,   67108990) /* PaletteBase */
-     , (1825,   8,  100667446) /* Icon */
-     , (1825,   9,   83890241) /* EyesTexture */
-     , (1825,  10,   83890311) /* NoseTexture */
-     , (1825,  11,   83890349) /* MouthTexture */
-     , (1825,  15,   67117022) /* HairPalette */
-     , (1825,  16,   67109567) /* EyesPalette */
-     , (1825,  17,   67109554) /* SkinPalette */
-     , (1825,  22,  872415381) /* PhysicsEffectTable */;
+VALUES (1825,   1, 0x0200004E) /* Setup */
+     , (1825,   2, 0x090000C5) /* MotionTable */
+     , (1825,   3, 0x20000085) /* SoundTable */
+     , (1825,   6, 0x0400007E) /* PaletteBase */
+     , (1825,   8, 0x06001036) /* Icon */
+     , (1825,   9, 0x05001041) /* EyesTexture */
+     , (1825,  10, 0x05001087) /* NoseTexture */
+     , (1825,  11, 0x050010AD) /* MouthTexture */
+     , (1825,  15, 0x04001FDE) /* HairPalette */
+     , (1825,  16, 0x040002BF) /* EyesPalette */
+     , (1825,  17, 0x040002B2) /* SkinPalette */
+     , (1825,  22, 0x34000095) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1825, 8040, 2724135193, 129.828, 134.127, 20.005, 0.2720585, 0, 0, -0.9622807) /* PCAPRecordedLocation */
+VALUES (1825, 8040, 0xA25F0119, 129.828, 134.127, 20.005, 0.272059, 0, 0, -0.962281) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0119 [129.828000 134.127000 20.005000] 0.272059 0.000000 0.000000 -0.962281 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

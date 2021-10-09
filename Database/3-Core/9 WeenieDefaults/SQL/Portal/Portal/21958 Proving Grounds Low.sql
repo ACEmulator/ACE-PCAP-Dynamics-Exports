@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21958,   1, 'Proving Grounds Low') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21958,   1,   33555923) /* Setup */
-     , (21958,   2,  150994947) /* MotionTable */
-     , (21958,   8,  100667499) /* Icon */;
+VALUES (21958,   1, 0x020005D3) /* Setup */
+     , (21958,   2, 0x09000003) /* MotionTable */
+     , (21958,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21958, 8040, 1464074708, 107.346, -67.2553, -0.06299996, 0.9196013, 0, 0, 0.3928531) /* PCAPRecordedLocation */
+VALUES (21958, 8040, 0x574401D4, 107.346, -67.2553, -0.063, 0.919601, 0, 0, 0.392853) /* PCAPRecordedLocation */
 /* @teleloc 0x574401D4 [107.346000 -67.255300 -0.063000] 0.919601 0.000000 0.000000 0.392853 */;

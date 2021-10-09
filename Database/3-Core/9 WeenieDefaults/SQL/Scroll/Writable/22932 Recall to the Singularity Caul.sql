@@ -26,7 +26,7 @@ VALUES (22932,   1, 'Recall to the Singularity Caul') /* Name */
 Teleports caster to the Singularity Caul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22932,   1,   33554826) /* Setup */
-     , (22932,   8,  100669876) /* Icon */
-     , (22932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22932,   1, 0x0200018A) /* Setup */
+     , (22932,   8, 0x060019B4) /* Icon */
+     , (22932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22932,  28,       2943) /* Spell - SingularityIslandRecall */;

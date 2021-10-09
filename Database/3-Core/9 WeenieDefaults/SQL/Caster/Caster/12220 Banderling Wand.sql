@@ -31,11 +31,11 @@ VALUES (12220,   1, 'Banderling Wand') /* Name */
      , (12220,  16, 'A wand with a shrunken banderling head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12220,   1,   33557368) /* Setup */
-     , (12220,   3,  536870932) /* SoundTable */
-     , (12220,   8,  100672178) /* Icon */
-     , (12220,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12220,   1, 0x02000B78) /* Setup */
+     , (12220,   3, 0x20000014) /* SoundTable */
+     , (12220,   8, 0x060022B2) /* Icon */
+     , (12220,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12220, 8040, 4095213581, 42.07264, 106.8129, 159.929, -0.2334711, -0.2334711, -0.6674513, -0.6674513) /* PCAPRecordedLocation */
+VALUES (12220, 8040, 0xF418000D, 42.07264, 106.8129, 159.929, -0.233471, -0.233471, -0.667451, -0.667451) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [42.072640 106.812900 159.929000] -0.233471 -0.233471 -0.667451 -0.667451 */;

@@ -23,9 +23,9 @@ VALUES (31617,   1, 'Blood Shreth Butcher Plaque') /* Name */
      , (31617,  15, 'The owner of this plaque is a verified "Blood Shreth Butcher"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31617,   1,   33559570) /* Setup */
-     , (31617,   3,  536870932) /* SoundTable */
-     , (31617,   6,   67111919) /* PaletteBase */
-     , (31617,   8,  100669720) /* Icon */
-     , (31617,  22,  872415275) /* PhysicsEffectTable */
-     , (31617,  52,  100687686) /* IconUnderlay */;
+VALUES (31617,   1, 0x02001412) /* Setup */
+     , (31617,   3, 0x20000014) /* SoundTable */
+     , (31617,   6, 0x04000BEF) /* PaletteBase */
+     , (31617,   8, 0x06001918) /* Icon */
+     , (31617,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31617,  52, 0x06005F46) /* IconUnderlay */;

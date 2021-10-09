@@ -34,10 +34,10 @@ VALUES (42637,   1, 'Aetheria') /* Name */
      , (42637,  16, 'This aetheria''s sigil now shows on the surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637,   1,   33554809) /* Setup */
-     , (42637,   3,  536870932) /* SoundTable */
-     , (42637,   6,   67111919) /* PaletteBase */
-     , (42637,   8,  100690951) /* Icon */
-     , (42637,  22,  872415275) /* PhysicsEffectTable */
-     , (42637,  50,  100690997) /* IconOverlay */
+VALUES (42637,   1, 0x02000179) /* Setup */
+     , (42637,   3, 0x20000014) /* SoundTable */
+     , (42637,   6, 0x04000BEF) /* PaletteBase */
+     , (42637,   8, 0x06006C07) /* Icon */
+     , (42637,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42637,  50, 0x06006C35) /* IconOverlay */
      , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */;

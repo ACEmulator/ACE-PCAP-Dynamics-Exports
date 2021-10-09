@@ -50,13 +50,13 @@ VALUES (37215,   1, 'Olthoi Koujia Breastplate') /* Name */
      , (37215,  16, 'Olthoi Koujia Breastplate of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37215,   1,   33554642) /* Setup */
-     , (37215,   3,  536870932) /* SoundTable */
-     , (37215,   6,   67108990) /* PaletteBase */
-     , (37215,   8,  100690028) /* Icon */
-     , (37215,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37215,   1, 0x020000D2) /* Setup */
+     , (37215,   3, 0x20000014) /* SoundTable */
+     , (37215,   6, 0x0400007E) /* PaletteBase */
+     , (37215,   8, 0x0600686C) /* Icon */
+     , (37215,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37215,  1486,      2)  /* Impenetrability6 */
-     , (37215,  2087,      2)  /* StrengthSelf7 */
-     , (37215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */;
+     , (37215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37215,  2087,      2)  /* StrengthSelf7 */;

@@ -36,14 +36,14 @@ VALUES (14504,   1, 'Ebuillant Bracelet') /* Name */
      , (14504,  16, 'A golden bracelet fitted with a pulsing green gem. The metal is pitted and scarred and carries a faint smell of brimstone. It irritates the skin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14504,   1,   33554683) /* Setup */
-     , (14504,   3,  536870932) /* SoundTable */
-     , (14504,   6,   67111919) /* PaletteBase */
-     , (14504,   8,  100672503) /* Icon */
-     , (14504,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14504,   1, 0x020000FB) /* Setup */
+     , (14504,   3, 0x20000014) /* SoundTable */
+     , (14504,   6, 0x04000BEF) /* PaletteBase */
+     , (14504,   8, 0x060023F7) /* Icon */
+     , (14504,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14504,   272,      2)  /* MagicResistanceOther5 */
-     , (14504,   514,      2)  /* AcidProtectionOther6 */
-     , (14504,  2580,      2)  /* CANTRIPENDURANCE1 */
-     , (14504,  2642,      2)  /* Consumption */;
+VALUES (14504,   514,      2)  /* AcidProtectionOther6 */
+     , (14504,   272,      2)  /* MagicResistanceOther5 */
+     , (14504,  2642,      2)  /* Consumption */
+     , (14504,  2580,      2)  /* CANTRIPENDURANCE1 */;

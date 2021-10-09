@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22893,   1, 'Student') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22893,   1,   33557117) /* Setup */
-     , (22893,   2,  150994954) /* MotionTable */
-     , (22893,   3,  536870931) /* SoundTable */
-     , (22893,   6,   67113280) /* PaletteBase */
-     , (22893,   8,  100671756) /* Icon */;
+VALUES (22893,   1, 0x02000A7D) /* Setup */
+     , (22893,   2, 0x0900000A) /* MotionTable */
+     , (22893,   3, 0x20000013) /* SoundTable */
+     , (22893,   6, 0x04001140) /* PaletteBase */
+     , (22893,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22893, 8040, 2711879703, 67.9252, 146.228, 50.0055, 0.12786, 0, 0, -0.9917922) /* PCAPRecordedLocation */
+VALUES (22893, 8040, 0xA1A40017, 67.9252, 146.228, 50.0055, 0.12786, 0, 0, -0.991792) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40017 [67.925200 146.228000 50.005500] 0.127860 0.000000 0.000000 -0.991792 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

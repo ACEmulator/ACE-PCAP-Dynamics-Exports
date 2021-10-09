@@ -23,7 +23,7 @@ VALUES (53342,   1, 'Scroll of Tectonic Rifts II') /* Name */
 Shoots eight shock waves outward from the caster. Each wave does 49-96 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53342,   1,   33554826) /* Setup */
-     , (53342,   8,  100677010) /* Icon */
-     , (53342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53342,   1, 0x0200018A) /* Setup */
+     , (53342,   8, 0x06003592) /* Icon */
+     , (53342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53342,  28,       6196) /* Spell - TectonicRiftsII */;

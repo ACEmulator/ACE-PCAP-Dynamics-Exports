@@ -24,7 +24,7 @@ VALUES (43859,   1, 'Message from Ler Rhan to Black Ferah') /* Name */
      , (43859,  15, 'An encoded message intended only for the eyes of Black Ferah.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43859,   1,   33556232) /* Setup */
-     , (43859,   3,  536870932) /* SoundTable */
-     , (43859,   8,  100670890) /* Icon */
-     , (43859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43859,   1, 0x02000708) /* Setup */
+     , (43859,   3, 0x20000014) /* SoundTable */
+     , (43859,   8, 0x06001DAA) /* Icon */
+     , (43859,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -38,20 +38,20 @@ VALUES (11299,   1, 'Stave of Palenqual') /* Name */
      , (11299,  25, 'Deathspawner') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11299,   1,   33557232) /* Setup */
-     , (11299,   3,  536870932) /* SoundTable */
-     , (11299,   6,   67111919) /* PaletteBase */
-     , (11299,   8,  100671868) /* Icon */
-     , (11299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11299,   1, 0x02000AF0) /* Setup */
+     , (11299,   3, 0x20000014) /* SoundTable */
+     , (11299,   6, 0x04000BEF) /* PaletteBase */
+     , (11299,   8, 0x0600217C) /* Icon */
+     , (11299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11299,  28,       1836) /* Spell - FrostStrike */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11299, 8040, 3316121654, 154.5285, 131.6311, 41.929, -0.236927, -0.236927, -0.6662324, -0.6662324) /* PCAPRecordedLocation */
+VALUES (11299, 8040, 0xC5A80036, 154.5285, 131.6311, 41.929, -0.236927, -0.236927, -0.666232, -0.666232) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [154.528500 131.631100 41.929000] -0.236927 -0.236927 -0.666232 -0.666232 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11299,   217,      2)  /* ManaRenewalSelf6 */
+VALUES (11299,  1480,      2)  /* HermeticLinkSelf6 */
      , (11299,   658,      2)  /* ManaMasterySelf6 */
-     , (11299,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11299,  2428,      2)  /* TimaruShelterMagic */
-     , (11299,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (11299,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (11299,   217,      2)  /* ManaRenewalSelf6 */
+     , (11299,  2428,      2)  /* TimaruShelterMagic */;

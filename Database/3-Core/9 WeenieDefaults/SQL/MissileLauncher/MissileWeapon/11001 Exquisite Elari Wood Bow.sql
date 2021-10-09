@@ -43,21 +43,21 @@ VALUES (11001,   1, 'Exquisite Elari Wood Bow') /* Name */
      , (11001,  16, 'A lightweight bow made of living elaniwood found only on Marae Lassel. It is strung with silvery gromnie sinew that holds incredible tension. You notice a small note shoved into a crack in the haft. You pull it out and read, "A step in the right direction. The living wood allows superior draw weight. Not as good as larchess was reputed to be, at least according to that overweening blowhard Locke. If only my hatchet could chip those damned glowing trees! Floating creatures still dogging me, but wary since I punctured that ''mouthless'' one." - Lilitha') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11001,   1,   33557228) /* Setup */
-     , (11001,   3,  536870932) /* SoundTable */
-     , (11001,   8,  100671861) /* Icon */
-     , (11001,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11001,   1, 0x02000AEC) /* Setup */
+     , (11001,   3, 0x20000014) /* SoundTable */
+     , (11001,   8, 0x06002175) /* Icon */
+     , (11001,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11001,  41,         47) /* ItemSpecializedOnly - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11001, 8040, 23855555, 63.96906, -35.80601, 0.4424978, 0.6959404, 0, 0, 0.7180996) /* PCAPRecordedLocation */
+VALUES (11001, 8040, 0x016C01C3, 63.96906, -35.80601, 0.442498, 0.69594, 0, 0, 0.7181) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [63.969060 -35.806010 0.442498] 0.695940 0.000000 0.000000 0.718100 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11001,  1384,      2)  /* CoordinationOther6 */
+VALUES (11001,  2629,      2)  /* HuntressBoon */
+     , (11001,  2630,      2)  /* PreysReflex */
+     , (11001,  1384,      2)  /* CoordinationOther6 */
      , (11001,  2416,      2)  /* HighTensionString */
      , (11001,  2423,      2)  /* Precise */
-     , (11001,  2426,      2)  /* StrongPull */
      , (11001,  2488,      2)  /* ElariBowFamiliarity */
-     , (11001,  2629,      2)  /* HuntressBoon */
-     , (11001,  2630,      2)  /* PreysReflex */;
+     , (11001,  2426,      2)  /* StrongPull */;

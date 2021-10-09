@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15206,   1, 'Anadil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15206,   1,   33557463) /* Setup */
-     , (15206,   8,  100668115) /* Icon */;
+VALUES (15206,   1, 0x02000BD7) /* Setup */
+     , (15206,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15206, 8040, 2060845084, 90.1743, 88.3821, 191.0248, -0.998516, 0, 0, 0.0544599) /* PCAPRecordedLocation */
+VALUES (15206, 8040, 0x7AD6001C, 90.1743, 88.3821, 191.0248, -0.998516, 0, 0, 0.05446) /* PCAPRecordedLocation */
 /* @teleloc 0x7AD6001C [90.174300 88.382100 191.024800] -0.998516 0.000000 0.000000 0.054460 */;

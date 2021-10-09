@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34781,   1, 'Guruk Boor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34781,   1,   33558749) /* Setup */
-     , (34781,   2,  150995298) /* MotionTable */
-     , (34781,   3,  536871093) /* SoundTable */
-     , (34781,   6,   67115196) /* PaletteBase */
-     , (34781,   8,  100676549) /* Icon */
-     , (34781,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (34781,   1, 0x020010DD) /* Setup */
+     , (34781,   2, 0x09000162) /* MotionTable */
+     , (34781,   3, 0x200000B5) /* SoundTable */
+     , (34781,   6, 0x040018BC) /* PaletteBase */
+     , (34781,   8, 0x060033C5) /* Icon */
+     , (34781,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34781, 8040, 13763084, 61.6414, -162.433, -24, 0.468386, 0, 0, -0.8835239) /* PCAPRecordedLocation */
+VALUES (34781, 8040, 0x00D2020C, 61.6414, -162.433, -24, 0.468386, 0, 0, -0.883524) /* PCAPRecordedLocation */
 /* @teleloc 0x00D2020C [61.641400 -162.433000 -24.000000] 0.468386 0.000000 0.000000 -0.883524 */;

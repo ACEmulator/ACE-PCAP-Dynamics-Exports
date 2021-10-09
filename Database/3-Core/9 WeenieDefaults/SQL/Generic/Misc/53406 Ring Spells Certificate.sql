@@ -21,7 +21,7 @@ VALUES (53406,   1, 'Ring Spells Certificate') /* Name */
      , (53406,  15, 'A certificate that grants the bearer all level 6 ring spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53406,   1,   33554659) /* Setup */
-     , (53406,   3,  536870932) /* SoundTable */
-     , (53406,   8,  100692711) /* Icon */
-     , (53406,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53406,   1, 0x020000E3) /* Setup */
+     , (53406,   3, 0x20000014) /* SoundTable */
+     , (53406,   8, 0x060072E7) /* Icon */
+     , (53406,  22, 0x3400002B) /* PhysicsEffectTable */;

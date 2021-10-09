@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27249,   1, 'Spring Cleaner Title Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27249,   1,   33558119) /* Setup */
-     , (27249,   3,  536870932) /* SoundTable */
-     , (27249,   8,  100667518) /* Icon */
-     , (27249,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27249,   1, 0x02000E67) /* Setup */
+     , (27249,   3, 0x20000014) /* SoundTable */
+     , (27249,   8, 0x0600107E) /* Icon */
+     , (27249,  22, 0x3400002B) /* PhysicsEffectTable */;

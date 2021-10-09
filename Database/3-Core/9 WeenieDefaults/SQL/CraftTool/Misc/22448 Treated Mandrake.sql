@@ -27,7 +27,7 @@ VALUES (22448,   1, 'Treated Mandrake') /* Name */
      , (22448,  20, 'Bundles of Mandrake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22448,   1,   33554817) /* Setup */
-     , (22448,   3,  536870932) /* SoundTable */
-     , (22448,   8,  100673804) /* Icon */
-     , (22448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22448,   1, 0x02000181) /* Setup */
+     , (22448,   3, 0x20000014) /* SoundTable */
+     , (22448,   8, 0x0600290C) /* Icon */
+     , (22448,  22, 0x3400002B) /* PhysicsEffectTable */;

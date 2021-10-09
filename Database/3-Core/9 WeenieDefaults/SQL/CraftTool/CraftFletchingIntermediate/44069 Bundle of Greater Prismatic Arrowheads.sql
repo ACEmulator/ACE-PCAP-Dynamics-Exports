@@ -24,7 +24,7 @@ VALUES (44069,   1, 'Bundle of Greater Prismatic Arrowheads') /* Name */
      , (44069,  20, 'Bundles of Greater Prismatic Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44069,   1,   33555958) /* Setup */
-     , (44069,   3,  536870932) /* SoundTable */
-     , (44069,   8,  100691906) /* Icon */
-     , (44069,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44069,   1, 0x020005F6) /* Setup */
+     , (44069,   3, 0x20000014) /* SoundTable */
+     , (44069,   8, 0x06006FC2) /* Icon */
+     , (44069,  22, 0x3400002B) /* PhysicsEffectTable */;

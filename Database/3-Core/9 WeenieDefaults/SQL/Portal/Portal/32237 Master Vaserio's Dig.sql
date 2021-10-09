@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32237,   1, 'Master Vaserio''s Dig') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32237,   1,   33555925) /* Setup */
-     , (32237,   2,  150994947) /* MotionTable */
-     , (32237,   8,  100667499) /* Icon */;
+VALUES (32237,   1, 0x020005D5) /* Setup */
+     , (32237,   2, 0x09000003) /* MotionTable */
+     , (32237,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32237, 8040, 490405902, 35.496, 133.901, 65.937, 1, 0, 0, 0.000163329) /* PCAPRecordedLocation */
+VALUES (32237, 8040, 0x1D3B000E, 35.496, 133.901, 65.937, 1, 0, 0, 0.000163) /* PCAPRecordedLocation */
 /* @teleloc 0x1D3B000E [35.496000 133.901000 65.937000] 1.000000 0.000000 0.000000 0.000163 */;

@@ -23,7 +23,7 @@ VALUES (3282,   1, 'Scroll of Healing Mastery Self VI') /* Name */
 Increases the caster''s Healing skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3282,   1,   33554826) /* Setup */
-     , (3282,   8,  100676459) /* Icon */
-     , (3282,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3282,   1, 0x0200018A) /* Setup */
+     , (3282,   8, 0x0600336B) /* Icon */
+     , (3282,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3282,  28,        879) /* Spell - HealingMasterySelf6 */;

@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2477,   1, 'Tumerok Fortress Rumor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2477,   1,   33559084) /* Setup */
-     , (2477,   3,  536870932) /* SoundTable */
-     , (2477,   6,   67112626) /* PaletteBase */
-     , (2477,   8,  100668176) /* Icon */
-     , (2477,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2477,   1, 0x0200122C) /* Setup */
+     , (2477,   3, 0x20000014) /* SoundTable */
+     , (2477,   6, 0x04000EB2) /* PaletteBase */
+     , (2477,   8, 0x06001310) /* Icon */
+     , (2477,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2477, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

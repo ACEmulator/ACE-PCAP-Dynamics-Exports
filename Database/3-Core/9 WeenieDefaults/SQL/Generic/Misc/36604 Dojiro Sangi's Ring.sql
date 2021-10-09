@@ -22,8 +22,8 @@ VALUES (36604,   1, 'Dojiro Sangi''s Ring') /* Name */
      , (36604,  15, 'A simple ring, given to you by Dojiro Sangi, when you gave him the Paradox-infused Potion, in order to save him from becoming the "Prodigal Isparian".') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36604,   1,   33554690) /* Setup */
-     , (36604,   3,  536870932) /* SoundTable */
-     , (36604,   6,   67111919) /* PaletteBase */
-     , (36604,   8,  100668562) /* Icon */
-     , (36604,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36604,   1, 0x02000102) /* Setup */
+     , (36604,   3, 0x20000014) /* SoundTable */
+     , (36604,   6, 0x04000BEF) /* PaletteBase */
+     , (36604,   8, 0x06001492) /* Icon */
+     , (36604,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8812,   1, 'Esard''s Life Magic Scroll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8812,   1,   33555391) /* Setup */
-     , (8812,   3,  536870932) /* SoundTable */
-     , (8812,   8,  100671183) /* Icon */
-     , (8812,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8812,   1, 0x020003BF) /* Setup */
+     , (8812,   3, 0x20000014) /* SoundTable */
+     , (8812,   8, 0x06001ECF) /* Icon */
+     , (8812,  22, 0x3400002B) /* PhysicsEffectTable */;

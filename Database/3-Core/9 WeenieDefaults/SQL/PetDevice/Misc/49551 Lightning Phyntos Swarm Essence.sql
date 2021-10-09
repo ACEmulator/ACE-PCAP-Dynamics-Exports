@@ -37,10 +37,10 @@ VALUES (49551,   1, 'Lightning Phyntos Swarm Essence') /* Name */
      , (49551,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49551,   1,   33554817) /* Setup */
-     , (49551,   3,  536870932) /* SoundTable */
-     , (49551,   6,   67111919) /* PaletteBase */
-     , (49551,   8,  100667450) /* Icon */
-     , (49551,  22,  872415275) /* PhysicsEffectTable */
-     , (49551,  50,  100693032) /* IconOverlay */
-     , (49551,  52,  100693024) /* IconUnderlay */;
+VALUES (49551,   1, 0x02000181) /* Setup */
+     , (49551,   3, 0x20000014) /* SoundTable */
+     , (49551,   6, 0x04000BEF) /* PaletteBase */
+     , (49551,   8, 0x0600103A) /* Icon */
+     , (49551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49551,  50, 0x06007428) /* IconOverlay */
+     , (49551,  52, 0x06007420) /* IconUnderlay */;

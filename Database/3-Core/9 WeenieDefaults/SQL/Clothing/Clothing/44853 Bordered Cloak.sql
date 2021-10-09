@@ -47,13 +47,13 @@ VALUES (44853,   1, 'Bordered Cloak') /* Name */
      , (44853,  16, 'Bordered Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44853,   1,   33561386) /* Setup */
-     , (44853,   3,  536870932) /* SoundTable */
-     , (44853,   8,  100692128) /* Icon */
-     , (44853,  22,  872415275) /* PhysicsEffectTable */
-     , (44853,  50,  100690998) /* IconOverlay */
+VALUES (44853,   1, 0x02001B2A) /* Setup */
+     , (44853,   3, 0x20000014) /* SoundTable */
+     , (44853,   8, 0x060070A0) /* Icon */
+     , (44853,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44853,  50, 0x06006C36) /* IconOverlay */
      , (44853,  55,       1787) /* ProcSpell - FrostRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44853, 8040, 722599940, 21.72458, 75.99595, 65.86549, -0.9964268, 0, 0, -0.08446076) /* PCAPRecordedLocation */
+VALUES (44853, 8040, 0x2B120004, 21.72458, 75.99595, 65.86549, -0.996427, 0, 0, -0.084461) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120004 [21.724580 75.995950 65.865490] -0.996427 0.000000 0.000000 -0.084461 */;

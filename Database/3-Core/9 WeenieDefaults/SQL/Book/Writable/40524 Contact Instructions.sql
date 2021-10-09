@@ -26,10 +26,10 @@ VALUES (40524,   1, 'Contact Instructions') /* Name */
      , (40524,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40524,   1,   33554773) /* Setup */
-     , (40524,   3,  536870932) /* SoundTable */
-     , (40524,   8,  100688999) /* Icon */
-     , (40524,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40524,   1, 0x02000155) /* Setup */
+     , (40524,   3, 0x20000014) /* SoundTable */
+     , (40524,   8, 0x06006467) /* Icon */
+     , (40524,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (40524, 1, 1000);

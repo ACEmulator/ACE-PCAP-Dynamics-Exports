@@ -50,18 +50,18 @@ VALUES (46256,   1, 'Enhanced Dissolving Isparian Staff') /* Name */
      , (46256,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46256,   1,   33556371) /* Setup */
-     , (46256,   3,  536870932) /* SoundTable */
-     , (46256,   6,   67111919) /* PaletteBase */
-     , (46256,   8,  100672940) /* Icon */
-     , (46256,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46256,   1, 0x02000793) /* Setup */
+     , (46256,   3, 0x20000014) /* SoundTable */
+     , (46256,   6, 0x04000BEF) /* PaletteBase */
+     , (46256,   8, 0x060025AC) /* Icon */
+     , (46256,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46256,  2059,      2)  /* CoordinationSelf7 */
+VALUES (46256,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46256,  2059,      2)  /* CoordinationSelf7 */
+     , (46256,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46256,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46256,  2149,      2)  /* AcidProtectionSelf7 */
      , (46256,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46256,  2101,      2)  /* DefenderSelf7 */
-     , (46256,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46256,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46256,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46256,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
-     , (46256,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46256,  2106,      2)  /* HeartSeekerSelf7 */;

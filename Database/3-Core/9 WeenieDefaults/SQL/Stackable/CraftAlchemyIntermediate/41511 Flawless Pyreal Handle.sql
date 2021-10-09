@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41511,   1, 'Flawless Pyreal Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41511,   1,   33560887) /* Setup */
-     , (41511,   3,  536870932) /* SoundTable */
-     , (41511,   6,   67116700) /* PaletteBase */
-     , (41511,   8,  100690716) /* Icon */
-     , (41511,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41511,   1, 0x02001937) /* Setup */
+     , (41511,   3, 0x20000014) /* SoundTable */
+     , (41511,   6, 0x04001E9C) /* PaletteBase */
+     , (41511,   8, 0x06006B1C) /* Icon */
+     , (41511,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -30,8 +30,8 @@ VALUES (43146,   1, 'Ruined Amulet of the Two Hander') /* Name */
      , (43146,  16, 'An Amulet crafted in pyreal that bears the symbol of a two handed sword. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43146,   1,   33554680) /* Setup */
-     , (43146,   3,  536870932) /* SoundTable */
-     , (43146,   6,   67111919) /* PaletteBase */
-     , (43146,   8,  100691469) /* Icon */
-     , (43146,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43146,   1, 0x020000F8) /* Setup */
+     , (43146,   3, 0x20000014) /* SoundTable */
+     , (43146,   6, 0x04000BEF) /* PaletteBase */
+     , (43146,   8, 0x06006E0D) /* Icon */
+     , (43146,  22, 0x3400002B) /* PhysicsEffectTable */;

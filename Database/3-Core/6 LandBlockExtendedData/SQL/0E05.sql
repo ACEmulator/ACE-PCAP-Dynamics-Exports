@@ -45,11 +45,11 @@ VALUES (0x70E05005, 25857, 0x0E050001, 2.833927, 23.93094, 91.48947, 1, 0, 0, 0,
 /* @teleloc 0x0E050001 [2.833927 23.930940 91.489470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E05006, 25883, 0x0E050019, 94.69054, 0.3114401, 20.0075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
+VALUES (0x70E05006, 25883, 0x0E050019, 94.69054, 0.31144, 20.0075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
 /* @teleloc 0x0E050019 [94.690540 0.311440 20.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E05007, 25888, 0x0E050001, 0.4126814, 23.9589, 86.81709, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+VALUES (0x70E05007, 25888, 0x0E050001, 0.412681, 23.9589, 86.81709, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
 /* @teleloc 0x0E050001 [0.412681 23.958900 86.817090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x70E05009, 25857, 0x0E050001, 1.08818, 23.89422, 88.15876, 1, 0, 0, 0, 
 /* @teleloc 0x0E050001 [1.088180 23.894220 88.158760] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E0500A, 25876, 0x0E050039, 168.7363, 0.7739148, 226.42, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
+VALUES (0x70E0500A, 25876, 0x0E050039, 168.7363, 0.773915, 226.42, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
 /* @teleloc 0x0E050039 [168.736300 0.773915 226.420000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

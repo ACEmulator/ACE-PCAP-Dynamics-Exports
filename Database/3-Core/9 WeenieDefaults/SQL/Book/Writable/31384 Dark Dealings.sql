@@ -18,7 +18,7 @@ VALUES (31384,   1, 'Dark Dealings') /* Name */
      , (31384,  16, 'A note that describes a task suitable for level 90 or greater characters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31384,   1,   33554773) /* Setup */
-     , (31384,   3,  536870932) /* SoundTable */
-     , (31384,   8,  100675746) /* Icon */
-     , (31384,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31384,   1, 0x02000155) /* Setup */
+     , (31384,   3, 0x20000014) /* SoundTable */
+     , (31384,   8, 0x060030A2) /* Icon */
+     , (31384,  22, 0x3400002B) /* PhysicsEffectTable */;

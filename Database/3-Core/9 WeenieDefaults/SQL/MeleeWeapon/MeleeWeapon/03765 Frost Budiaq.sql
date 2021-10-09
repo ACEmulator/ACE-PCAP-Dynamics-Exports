@@ -51,11 +51,11 @@ VALUES (3765,   1, 'Frost Budiaq') /* Name */
      , (3765,  16, 'Frost Budiaq of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3765,   1,   33555822) /* Setup */
-     , (3765,   3,  536870932) /* SoundTable */
-     , (3765,   6,   67111919) /* PaletteBase */
-     , (3765,   8,  100669006) /* Icon */
-     , (3765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3765,   1, 0x0200056E) /* Setup */
+     , (3765,   3, 0x20000014) /* SoundTable */
+     , (3765,   6, 0x04000BEF) /* PaletteBase */
+     , (3765,   8, 0x0600164E) /* Icon */
+     , (3765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3765,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

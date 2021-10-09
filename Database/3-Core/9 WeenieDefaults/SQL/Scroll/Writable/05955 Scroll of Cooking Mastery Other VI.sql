@@ -23,7 +23,7 @@ VALUES (5955,   1, 'Scroll of Cooking Mastery Other VI') /* Name */
 Increases the target''s Cooking skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5955,   1,   33554826) /* Setup */
-     , (5955,   8,  100676451) /* Icon */
-     , (5955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5955,   1, 0x0200018A) /* Setup */
+     , (5955,   8, 0x06003363) /* Icon */
+     , (5955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5955,  28,       1714) /* Spell - CookingMasteryOther6 */;

@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11259,   1, 'Hoeroa of Palenqual') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11259,   1,   33557232) /* Setup */
-     , (11259,   3,  536870932) /* SoundTable */
-     , (11259,   6,   67111919) /* PaletteBase */
-     , (11259,   8,  100671869) /* Icon */
-     , (11259,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11259,   1, 0x02000AF0) /* Setup */
+     , (11259,   3, 0x20000014) /* SoundTable */
+     , (11259,   6, 0x04000BEF) /* PaletteBase */
+     , (11259,   8, 0x0600217D) /* Icon */
+     , (11259,  22, 0x3400002B) /* PhysicsEffectTable */;

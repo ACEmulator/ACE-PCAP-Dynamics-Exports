@@ -38,12 +38,12 @@ VALUES (6778,   1, 'Repaired Haft') /* Name */
      , (6778,  16, 'A reddish steel silifi haft, with obvious repairs made on the blade end. There are three notches on the original length of the haft, though there may have been more previously. It awaits the addition of a permanent blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6778,   1,   33556555) /* Setup */
-     , (6778,   3,  536870932) /* SoundTable */
-     , (6778,   6,   67111919) /* PaletteBase */
-     , (6778,   8,  100670603) /* Icon */
-     , (6778,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6778,   1, 0x0200084B) /* Setup */
+     , (6778,   3, 0x20000014) /* SoundTable */
+     , (6778,   6, 0x04000BEF) /* PaletteBase */
+     , (6778,   8, 0x06001C8B) /* Icon */
+     , (6778,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6778, 8040, 459094, 80, -70.045, -0.071, -0.5, -0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (6778, 8040, 0x00070156, 80, -70.045, -0.071, -0.5, -0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x00070156 [80.000000 -70.045000 -0.071000] -0.500000 -0.500000 -0.500000 -0.500000 */;

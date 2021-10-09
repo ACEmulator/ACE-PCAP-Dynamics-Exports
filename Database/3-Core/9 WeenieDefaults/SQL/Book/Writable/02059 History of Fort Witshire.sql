@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2059,   1, 'History of Fort Witshire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2059,   1,   33559084) /* Setup */
-     , (2059,   3,  536870932) /* SoundTable */
-     , (2059,   6,   67112626) /* PaletteBase */
-     , (2059,   8,  100668176) /* Icon */
-     , (2059,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2059,   1, 0x0200122C) /* Setup */
+     , (2059,   3, 0x20000014) /* SoundTable */
+     , (2059,   6, 0x04000EB2) /* PaletteBase */
+     , (2059,   8, 0x06001310) /* Icon */
+     , (2059,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2059, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

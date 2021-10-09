@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52028,   1, 'Corrupted Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52028,   1,   33557175) /* Setup */
-     , (52028,   2,  150995136) /* MotionTable */
-     , (52028,   3,  536870931) /* SoundTable */
-     , (52028,   6,   67113280) /* PaletteBase */
-     , (52028,   8,  100671756) /* Icon */;
+VALUES (52028,   1, 0x02000AB7) /* Setup */
+     , (52028,   2, 0x090000C0) /* MotionTable */
+     , (52028,   3, 0x20000013) /* SoundTable */
+     , (52028,   6, 0x04001140) /* PaletteBase */
+     , (52028,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52028, 8040, 1498546761, 210, -260, 0.004999995, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (52028, 8040, 0x59520249, 210, -260, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x59520249 [210.000000 -260.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

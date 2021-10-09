@@ -31,20 +31,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52802,   1, 'Master of the Gauntlet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52802,   1,   33560942) /* Setup */
-     , (52802,   2,  150994945) /* MotionTable */
-     , (52802,   3,  536870913) /* SoundTable */
-     , (52802,   6,   67108990) /* PaletteBase */
-     , (52802,   8,  100667377) /* Icon */
-     , (52802,   9,   83890481) /* EyesTexture */
-     , (52802,  10,   83890521) /* NoseTexture */
-     , (52802,  11,   83890648) /* MouthTexture */
-     , (52802,  15,   67117060) /* HairPalette */
-     , (52802,  16,   67116858) /* EyesPalette */
-     , (52802,  17,   67116849) /* SkinPalette */;
+VALUES (52802,   1, 0x0200196E) /* Setup */
+     , (52802,   2, 0x09000001) /* MotionTable */
+     , (52802,   3, 0x20000001) /* SoundTable */
+     , (52802,   6, 0x0400007E) /* PaletteBase */
+     , (52802,   8, 0x06000FF1) /* Icon */
+     , (52802,   9, 0x05001131) /* EyesTexture */
+     , (52802,  10, 0x05001159) /* NoseTexture */
+     , (52802,  11, 0x050011D8) /* MouthTexture */
+     , (52802,  15, 0x04002004) /* HairPalette */
+     , (52802,  16, 0x04001F3A) /* EyesPalette */
+     , (52802,  17, 0x04001F31) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52802, 8040, 1500184833, 95.744, -7.72325, 0.006000042, 0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
+VALUES (52802, 8040, 0x596B0101, 95.744, -7.72325, 0.006, 0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0101 [95.744000 -7.723250 0.006000] 0.701223 0.000000 0.000000 -0.712942 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

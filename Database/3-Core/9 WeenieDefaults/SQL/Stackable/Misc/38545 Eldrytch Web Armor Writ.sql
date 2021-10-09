@@ -27,8 +27,8 @@ VALUES (38545,   1, 'Eldrytch Web Armor Writ') /* Name */
      , (38545,  16, 'An armor writ, which can be given to one of the Society Armorsmiths for access to the Society Armor Chests.  One of these writs may be exchanged for access once per day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38545,   1,   33554776) /* Setup */
-     , (38545,   3,  536870932) /* SoundTable */
-     , (38545,   8,  100667503) /* Icon */
-     , (38545,  22,  872415275) /* PhysicsEffectTable */
-     , (38545,  50,  100690172) /* IconOverlay */;
+VALUES (38545,   1, 0x02000158) /* Setup */
+     , (38545,   3, 0x20000014) /* SoundTable */
+     , (38545,   8, 0x0600106F) /* Icon */
+     , (38545,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38545,  50, 0x060068FC) /* IconOverlay */;

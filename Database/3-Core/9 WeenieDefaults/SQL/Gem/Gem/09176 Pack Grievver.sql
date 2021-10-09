@@ -25,8 +25,8 @@ VALUES (9176,   1, 'Pack Grievver') /* Name */
      , (9176,  16, 'Articulated legs make this Pack Grievver number one on everyone''s holiday shopping list! Get yours now while supplies last. Do not taunt happy Pack Grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9176,   1,   33556698) /* Setup */
-     , (9176,   2,  150995117) /* MotionTable */
-     , (9176,   6,   67113135) /* PaletteBase */
-     , (9176,   8,  100670960) /* Icon */
-     , (9176,  22,  872415364) /* PhysicsEffectTable */;
+VALUES (9176,   1, 0x020008DA) /* Setup */
+     , (9176,   2, 0x090000AD) /* MotionTable */
+     , (9176,   6, 0x040010AF) /* PaletteBase */
+     , (9176,   8, 0x06001DF0) /* Icon */
+     , (9176,  22, 0x34000084) /* PhysicsEffectTable */;

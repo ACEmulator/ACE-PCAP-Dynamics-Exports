@@ -27,7 +27,7 @@ VALUES (34087,   1, 'Sprouting Pumpkin Vine') /* Name */
      , (34087,  16, 'A supernaturally healthy pumpkin vine. Small orange buds seem about ready to burst with life.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34087,   1,   33555022) /* Setup */
-     , (34087,   3,  536870932) /* SoundTable */
-     , (34087,   8,  100689227) /* Icon */
-     , (34087,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34087,   1, 0x0200024E) /* Setup */
+     , (34087,   3, 0x20000014) /* SoundTable */
+     , (34087,   8, 0x0600654B) /* Icon */
+     , (34087,  22, 0x3400002B) /* PhysicsEffectTable */;

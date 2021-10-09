@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7577,   1, 'Lugian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7577,   1,   33554726) /* Setup */
-     , (7577,   3,  536870932) /* SoundTable */
-     , (7577,   8,  100667580) /* Icon */
-     , (7577,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7577,   1, 0x02000126) /* Setup */
+     , (7577,   3, 0x20000014) /* SoundTable */
+     , (7577,   8, 0x060010BC) /* Icon */
+     , (7577,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7577, 8040, 2719809551, 35.32301, 152.0421, 531.83, 0.5760466, 0.5760466, -0.4100858, -0.4100858) /* PCAPRecordedLocation */
+VALUES (7577, 8040, 0xA21D000F, 35.32301, 152.0421, 531.83, 0.576047, 0.576047, -0.410086, -0.410086) /* PCAPRecordedLocation */
 /* @teleloc 0xA21D000F [35.323010 152.042100 531.830000] 0.576047 0.576047 -0.410086 -0.410086 */;

@@ -22,11 +22,11 @@ VALUES (549,   1, 'Bowl of Stew') /* Name */
      , (549,  20, 'Bowls of Stew') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (549,   1,   33554668) /* Setup */
-     , (549,   3,  536870932) /* SoundTable */
-     , (549,   8,  100667413) /* Icon */
-     , (549,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (549,   1, 0x020000EC) /* Setup */
+     , (549,   3, 0x20000014) /* SoundTable */
+     , (549,   8, 0x06001015) /* Icon */
+     , (549,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (549, 8040, 25231649, 52.5848, -58.7474, 0.02149999, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (549, 8040, 0x01810121, 52.5848, -58.7474, 0.0215, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01810121 [52.584800 -58.747400 0.021500] 0.707107 0.000000 0.000000 -0.707107 */;

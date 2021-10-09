@@ -23,7 +23,7 @@ VALUES (41262,   1, 'Scroll of Blessing of T''ing') /* Name */
 Increases the caster''s Two Handed Combat skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41262,   1,   33554826) /* Setup */
-     , (41262,   8,  100690644) /* Icon */
-     , (41262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41262,   1, 0x0200018A) /* Setup */
+     , (41262,   8, 0x06006AD4) /* Icon */
+     , (41262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41262,  28,       5105) /* Spell - TwoHandedMasterySelf7 */;

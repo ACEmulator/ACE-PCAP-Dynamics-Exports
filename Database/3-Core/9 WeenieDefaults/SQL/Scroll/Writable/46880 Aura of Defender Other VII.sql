@@ -23,7 +23,7 @@ VALUES (46880,   1, 'Aura of Defender Other VII') /* Name */
 Increases the Melee Defense skill modifier of a weapon or magic caster by 17%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46880,   1,   33554826) /* Setup */
-     , (46880,   8,  100676658) /* Icon */
-     , (46880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46880,   1, 0x0200018A) /* Setup */
+     , (46880,   8, 0x06003432) /* Icon */
+     , (46880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46880,  28,       6005) /* Spell - DefenderOther7 */;

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31306,   1, 'Story of Lunnum''s Pyre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31306,   1,   33554773) /* Setup */
-     , (31306,   3,  536870932) /* SoundTable */
-     , (31306,   8,  100674007) /* Icon */
-     , (31306,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31306,   1, 0x02000155) /* Setup */
+     , (31306,   3, 0x20000014) /* SoundTable */
+     , (31306,   8, 0x060029D7) /* Icon */
+     , (31306,  22, 0x3400002B) /* PhysicsEffectTable */;

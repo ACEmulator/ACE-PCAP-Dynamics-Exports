@@ -45,14 +45,14 @@ VALUES (31814,   1, 'Dark Blunt Slingshot') /* Name */
      , (31814,  16, 'Blunt Slingshot') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31814,   1,   33559696) /* Setup */
-     , (31814,   3,  536870932) /* SoundTable */
-     , (31814,   6,   67116700) /* PaletteBase */
-     , (31814,   8,  100688028) /* Icon */
-     , (31814,  22,  872415275) /* PhysicsEffectTable */
-     , (31814,  50,  100675757) /* IconOverlay */
-     , (31814,  52,  100676442) /* IconUnderlay */;
+VALUES (31814,   1, 0x02001490) /* Setup */
+     , (31814,   3, 0x20000014) /* SoundTable */
+     , (31814,   6, 0x04001E9C) /* PaletteBase */
+     , (31814,   8, 0x0600609C) /* Icon */
+     , (31814,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31814,  50, 0x060030AD) /* IconOverlay */
+     , (31814,  52, 0x0600335A) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31814, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (31814, 8040, 0x00070145, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;

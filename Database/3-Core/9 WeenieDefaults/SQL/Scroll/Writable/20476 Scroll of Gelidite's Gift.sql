@@ -23,7 +23,7 @@ VALUES (20476,   1, 'Scroll of Gelidite''s Gift') /* Name */
 Increases damage the target takes from Cold by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20476,   1,   33554826) /* Setup */
-     , (20476,   8,  100676950) /* Icon */
-     , (20476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20476,   1, 0x0200018A) /* Setup */
+     , (20476,   8, 0x06003556) /* Icon */
+     , (20476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20476,  28,       2168) /* Spell - ColdVulnerabilityOther7 */;

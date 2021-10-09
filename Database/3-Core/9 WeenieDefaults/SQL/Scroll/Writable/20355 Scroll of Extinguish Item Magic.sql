@@ -23,7 +23,7 @@ VALUES (20355,   1, 'Scroll of Extinguish Item Magic') /* Name */
 Dispels 3-6 negative Item Magic enchantments of level 2 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20355,   1,   33554826) /* Setup */
-     , (20355,   8,  100676659) /* Icon */
-     , (20355,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20355,   1, 0x0200018A) /* Setup */
+     , (20355,   8, 0x06003433) /* Icon */
+     , (20355,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20355,  28,       1927) /* Spell - DispelItemBadOther2 */;

@@ -41,11 +41,11 @@ VALUES (3838,   1, 'Acid Nabut') /* Name */
      , (3838,  16, 'Finely crafted Ruby Acid Nabut , set with 1 Yellow Garnet') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3838,   1,   33555770) /* Setup */
-     , (3838,   3,  536870932) /* SoundTable */
-     , (3838,   8,  100667602) /* Icon */
-     , (3838,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3838,   1, 0x0200053A) /* Setup */
+     , (3838,   3, 0x20000014) /* SoundTable */
+     , (3838,   8, 0x060010D2) /* Icon */
+     , (3838,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3838, 8040, 1531314432, 70.05492, -92.85532, -42.071, 0.07162703, 0.07162703, -0.7034697, -0.7034697) /* PCAPRecordedLocation */
+VALUES (3838, 8040, 0x5B460100, 70.05492, -92.85532, -42.071, 0.071627, 0.071627, -0.70347, -0.70347) /* PCAPRecordedLocation */
 /* @teleloc 0x5B460100 [70.054920 -92.855320 -42.071000] 0.071627 0.071627 -0.703470 -0.703470 */;

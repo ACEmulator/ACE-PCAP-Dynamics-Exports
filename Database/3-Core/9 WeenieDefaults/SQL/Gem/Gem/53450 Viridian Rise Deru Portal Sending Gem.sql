@@ -33,9 +33,9 @@ VALUES (53450,   1, 'Viridian Rise Deru Portal Sending Gem') /* Name */
      , (53450,  15, 'A glowing green gem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53450,   1,   33556769) /* Setup */
-     , (53450,   3,  536870932) /* SoundTable */
-     , (53450,   6,   67111919) /* PaletteBase */
-     , (53450,   8,  100693361) /* Icon */
-     , (53450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53450,   1, 0x02000921) /* Setup */
+     , (53450,   3, 0x20000014) /* SoundTable */
+     , (53450,   6, 0x04000BEF) /* PaletteBase */
+     , (53450,   8, 0x06007571) /* Icon */
+     , (53450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */;

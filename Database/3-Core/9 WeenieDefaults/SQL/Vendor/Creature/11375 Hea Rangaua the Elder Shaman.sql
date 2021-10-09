@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11375,   1, 'Hea Rangaua the Elder Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11375,   1,   33559559) /* Setup */
-     , (11375,   2,  150994954) /* MotionTable */
-     , (11375,   3,  536870931) /* SoundTable */
-     , (11375,   6,   67116625) /* PaletteBase */
-     , (11375,   8,  100667452) /* Icon */;
+VALUES (11375,   1, 0x02001407) /* Setup */
+     , (11375,   2, 0x0900000A) /* MotionTable */
+     , (11375,   3, 0x20000013) /* SoundTable */
+     , (11375,   6, 0x04001E51) /* PaletteBase */
+     , (11375,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11375, 8040, 247070769, 160.009, 7.99654, 0.004999995, -0.7005169, 0, 0, -0.7136358) /* PCAPRecordedLocation */
+VALUES (11375, 8040, 0x0EBA0031, 160.009, 7.99654, 0.005, -0.700517, 0, 0, -0.713636) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA0031 [160.009000 7.996540 0.005000] -0.700517 0.000000 0.000000 -0.713636 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

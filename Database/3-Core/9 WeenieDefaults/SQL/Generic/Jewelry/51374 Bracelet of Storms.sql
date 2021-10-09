@@ -31,11 +31,11 @@ VALUES (51374,   1, 'Bracelet of Storms') /* Name */
      , (51374,  15, 'A bracelet of lightning protection, given by Behdo Yii for completing the Hive Warrior quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51374,   1,   33554683) /* Setup */
-     , (51374,   3,  536870932) /* SoundTable */
-     , (51374,   6,   67111919) /* PaletteBase */
-     , (51374,   8,  100668628) /* Icon */
-     , (51374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51374,   1, 0x020000FB) /* Setup */
+     , (51374,   3, 0x20000014) /* SoundTable */
+     , (51374,   6, 0x04000BEF) /* PaletteBase */
+     , (51374,   8, 0x060014D4) /* Icon */
+     , (51374,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51374,  4469,      2)  /* LightningProtectionOther8 */

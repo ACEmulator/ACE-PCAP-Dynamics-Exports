@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32194,   1, 'Festival Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32194,   1,   33554883) /* Setup */
-     , (32194,   3,  536870932) /* SoundTable */
-     , (32194,   6,   67108990) /* PaletteBase */
-     , (32194,   8,  100667377) /* Icon */
-     , (32194,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32194,   1, 0x020001C3) /* Setup */
+     , (32194,   3, 0x20000014) /* SoundTable */
+     , (32194,   6, 0x0400007E) /* PaletteBase */
+     , (32194,   8, 0x06000FF1) /* Icon */
+     , (32194,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -50,14 +50,14 @@ VALUES (3914,   1, 'Lightning Yari') /* Name */
      , (3914,  16, 'Lightning Yari of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3914,   1,   33555824) /* Setup */
-     , (3914,   3,  536870932) /* SoundTable */
-     , (3914,   6,   67111919) /* PaletteBase */
-     , (3914,   8,  100669092) /* Icon */
-     , (3914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3914,   1, 0x02000570) /* Setup */
+     , (3914,   3, 0x20000014) /* SoundTable */
+     , (3914,   6, 0x04000BEF) /* PaletteBase */
+     , (3914,   8, 0x060016A4) /* Icon */
+     , (3914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3914,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (3914,  52,  100676439) /* IconUnderlay */;
+     , (3914,  52, 0x06003357) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3914,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3914,  6089,      2)  /* CantripBloodThirst4 */;
+VALUES (3914,  6089,      2)  /* CantripBloodThirst4 */
+     , (3914,  2096,      2)  /* BloodDrinkerSelf7 */;

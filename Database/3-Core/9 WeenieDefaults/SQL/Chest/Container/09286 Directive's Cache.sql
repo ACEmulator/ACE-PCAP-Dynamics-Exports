@@ -29,15 +29,15 @@ VALUES (9286,   1, 'Directive''s Cache') /* Name */
      , (9286,  16, 'A Virindi cache lies here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9286,   1,   33557001) /* Setup */
-     , (9286,   2,  150995121) /* MotionTable */
-     , (9286,   3,  536871023) /* SoundTable */
-     , (9286,   6,   67111346) /* PaletteBase */
-     , (9286,   8,  100671463) /* Icon */
-     , (9286,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9286,   1, 0x02000A09) /* Setup */
+     , (9286,   2, 0x090000B1) /* MotionTable */
+     , (9286,   3, 0x2000006F) /* SoundTable */
+     , (9286,   6, 0x040009B2) /* PaletteBase */
+     , (9286,   8, 0x06001FE7) /* Icon */
+     , (9286,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9286, 8040, 2536767523, 115.4562, 58.15555, 39.99, -0.9939325, 0, 0, -0.1099911) /* PCAPRecordedLocation */
+VALUES (9286, 8040, 0x97340023, 115.4562, 58.15555, 39.99, -0.993933, 0, 0, -0.109991) /* PCAPRecordedLocation */
 /* @teleloc 0x97340023 [115.456200 58.155550 39.990000] -0.993933 0.000000 0.000000 -0.109991 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

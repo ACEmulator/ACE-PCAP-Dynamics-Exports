@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51315,   1, 'Frozen Wight Archer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51315,   1,   33561142) /* Setup */
-     , (51315,   2,  150994967) /* MotionTable */
-     , (51315,   3,  536870934) /* SoundTable */
-     , (51315,   6,   67110722) /* PaletteBase */
-     , (51315,   8,  100667942) /* Icon */
-     , (51315,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (51315,   1, 0x02001A36) /* Setup */
+     , (51315,   2, 0x09000017) /* MotionTable */
+     , (51315,   3, 0x20000016) /* SoundTable */
+     , (51315,   6, 0x04000742) /* PaletteBase */
+     , (51315,   8, 0x06001226) /* Icon */
+     , (51315,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51315, 8040, 1994915875, 118.1698, 66.20061, 141.6518, 0.3983321, 0, 0, -0.9172413) /* PCAPRecordedLocation */
+VALUES (51315, 8040, 0x76E80023, 118.1698, 66.20061, 141.6518, 0.398332, 0, 0, -0.917241) /* PCAPRecordedLocation */
 /* @teleloc 0x76E80023 [118.169800 66.200610 141.651800] 0.398332 0.000000 0.000000 -0.917241 */;

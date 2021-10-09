@@ -49,11 +49,11 @@ VALUES (41053,   1, 'Acid Greataxe') /* Name */
      , (41053,  16, 'Acid Greataxe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41053,   1,   33560803) /* Setup */
-     , (41053,   3,  536870932) /* SoundTable */
-     , (41053,   6,   67115558) /* PaletteBase */
-     , (41053,   8,  100690774) /* Icon */
-     , (41053,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41053,   1, 0x020018E3) /* Setup */
+     , (41053,   3, 0x20000014) /* SoundTable */
+     , (41053,   6, 0x04001A26) /* PaletteBase */
+     , (41053,   8, 0x06006B56) /* Icon */
+     , (41053,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41053,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

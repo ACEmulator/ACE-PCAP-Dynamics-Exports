@@ -44,16 +44,16 @@ VALUES (29371,   1, 'Blooded Platinum Invader Lord Helm') /* Name */
      , (29371,  16, 'A helm taken from one of the Knights of the Viamontian Platinum Legion and fortified with royal blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29371,   1,   33559356) /* Setup */
-     , (29371,   3,  536870932) /* SoundTable */
-     , (29371,   8,  100686485) /* Icon */
-     , (29371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29371,   1, 0x0200133C) /* Setup */
+     , (29371,   3, 0x20000014) /* SoundTable */
+     , (29371,   8, 0x06005A95) /* Icon */
+     , (29371,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29371,  2108,      2)  /* Impenetrability7 */
-     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
-     , (29371,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (29371,  2243,      2)  /* ImpregnabilitySelf7 */
      , (29371,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
      , (29371,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
+     , (29371,  2108,      2)  /* Impenetrability7 */;

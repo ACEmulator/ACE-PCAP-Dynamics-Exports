@@ -37,13 +37,13 @@ VALUES (39922,   1, 'Enhanced White Empyrean Ring') /* Name */
      , (39922,  16, 'A ring of pyreal fitted with a band of glowing white metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39922,   1,   33554691) /* Setup */
-     , (39922,   3,  536870932) /* SoundTable */
-     , (39922,   6,   67111919) /* PaletteBase */
-     , (39922,   8,  100689376) /* Icon */
-     , (39922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39922,   1, 0x02000103) /* Setup */
+     , (39922,   3, 0x20000014) /* SoundTable */
+     , (39922,   6, 0x04000BEF) /* PaletteBase */
+     , (39922,   8, 0x060065E0) /* Icon */
+     , (39922,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39922,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
-     , (39922,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
-     , (39922,  4677,      2)  /* CANTRIPPIERCINGWARD3 */;
+VALUES (39922,  4677,      2)  /* CANTRIPPIERCINGWARD3 */
+     , (39922,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
+     , (39922,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

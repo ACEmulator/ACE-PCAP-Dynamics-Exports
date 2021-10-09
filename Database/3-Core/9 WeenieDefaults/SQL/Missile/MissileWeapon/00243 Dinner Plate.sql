@@ -49,11 +49,11 @@ VALUES (243,   1, 'Dinner Plate') /* Name */
      , (243,  16, 'Dinner Plate of Armor Expertise') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (243,   1,   33554928) /* Setup */
-     , (243,   3,  536871012) /* SoundTable */
-     , (243,   6,   67111092) /* PaletteBase */
-     , (243,   8,  100668742) /* Icon */
-     , (243,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (243,   1, 0x020001F0) /* Setup */
+     , (243,   3, 0x20000064) /* SoundTable */
+     , (243,   6, 0x040008B4) /* PaletteBase */
+     , (243,   8, 0x06001546) /* Icon */
+     , (243,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (243,   706,      2)  /* ArmorExpertiseSelf5 */;

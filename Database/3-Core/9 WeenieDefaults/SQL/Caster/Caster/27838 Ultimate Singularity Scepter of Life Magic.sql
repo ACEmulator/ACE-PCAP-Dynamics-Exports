@@ -41,13 +41,13 @@ VALUES (27838,   1, 'Ultimate Singularity Scepter of Life Magic') /* Name */
      , (27838,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27838,   1,   33558796) /* Setup */
-     , (27838,   6,   67111919) /* PaletteBase */
-     , (27838,   8,  100676589) /* Icon */
-     , (27838,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27838,   1, 0x0200110C) /* Setup */
+     , (27838,   6, 0x04000BEF) /* PaletteBase */
+     , (27838,   8, 0x060033ED) /* Icon */
+     , (27838,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27838,   211,      2)  /* ManaRenewalOther6 */
-     , (27838,   664,      2)  /* ManaMasteryOther6 */
+     , (27838,  2581,      2)  /* CANTRIPFOCUS1 */
      , (27838,  1432,      2)  /* FocusOther6 */
-     , (27838,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (27838,   664,      2)  /* ManaMasteryOther6 */;

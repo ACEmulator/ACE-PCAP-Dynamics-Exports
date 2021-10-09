@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14919,   1, 'Promise Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14919,   1,   33554809) /* Setup */
-     , (14919,   3,  536870932) /* SoundTable */
-     , (14919,   6,   67111919) /* PaletteBase */
-     , (14919,   8,  100672698) /* Icon */
-     , (14919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14919,   1, 0x02000179) /* Setup */
+     , (14919,   3, 0x20000014) /* SoundTable */
+     , (14919,   6, 0x04000BEF) /* PaletteBase */
+     , (14919,   8, 0x060024BA) /* Icon */
+     , (14919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14919,  28,       1708) /* Spell - WeddingBliss */;

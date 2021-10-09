@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31296,   1, 'Fiun Gaya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31296,   1,   33559124) /* Setup */
-     , (31296,   2,  150994945) /* MotionTable */
-     , (31296,   3,  536870913) /* SoundTable */
-     , (31296,   6,   67115466) /* PaletteBase */
-     , (31296,   8,  100677369) /* Icon */;
+VALUES (31296,   1, 0x02001254) /* Setup */
+     , (31296,   2, 0x09000001) /* MotionTable */
+     , (31296,   3, 0x20000001) /* SoundTable */
+     , (31296,   6, 0x040019CA) /* PaletteBase */
+     , (31296,   8, 0x060036F9) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31296, 8040, 1139671103, 173.254, 162.655, 93.12618, 0.50329, 0, 0, -0.864118) /* PCAPRecordedLocation */
+VALUES (31296, 8040, 0x43EE003F, 173.254, 162.655, 93.12618, 0.50329, 0, 0, -0.864118) /* PCAPRecordedLocation */
 /* @teleloc 0x43EE003F [173.254000 162.655000 93.126180] 0.503290 0.000000 0.000000 -0.864118 */;

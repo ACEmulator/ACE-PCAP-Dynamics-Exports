@@ -41,13 +41,13 @@ VALUES (27653,   1, 'Chorizite Veined Shield') /* Name */
      , (27653,  15, 'Chorizite has been pounded into this shield. The shield cannot received further enchantment from spells and seems to hinder the access to mana while offering better defense to magical attacks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27653,   1,   33558741) /* Setup */
-     , (27653,   3,  536870932) /* SoundTable */
-     , (27653,   8,  100676489) /* Icon */
-     , (27653,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27653,   1, 0x020010D5) /* Setup */
+     , (27653,   3, 0x20000014) /* SoundTable */
+     , (27653,   8, 0x06003389) /* Icon */
+     , (27653,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27653, 8040, 1925775387, 87.97887, 67.08507, 77.926, -0.5216677, -0.3333977, 0.773841, -0.1337123) /* PCAPRecordedLocation */
+VALUES (27653, 8040, 0x72C9001B, 87.97887, 67.08507, 77.926, -0.521668, -0.333398, 0.773841, -0.133712) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001B [87.978870 67.085070 77.926000] -0.521668 -0.333398 0.773841 -0.133712 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

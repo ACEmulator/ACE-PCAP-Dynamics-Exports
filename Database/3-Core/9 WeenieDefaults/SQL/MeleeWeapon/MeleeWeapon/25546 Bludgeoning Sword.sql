@@ -37,12 +37,12 @@ VALUES (25546,   1, 'Bludgeoning Sword') /* Name */
      , (25546,  15, 'A banderling arm, treated with various resins and other hardening lacquers. This appears to be a well balanced weapon, not unlike a sword.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25546,   1,   33558498) /* Setup */
-     , (25546,   3,  536870932) /* SoundTable */
-     , (25546,   6,   67114021) /* PaletteBase */
-     , (25546,   8,  100674962) /* Icon */
-     , (25546,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25546,   1, 0x02000FE2) /* Setup */
+     , (25546,   3, 0x20000014) /* SoundTable */
+     , (25546,   6, 0x04001425) /* PaletteBase */
+     , (25546,   8, 0x06002D92) /* Icon */
+     , (25546,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25546, 8040, 2103705613, 35.00187, 103.1891, 11.929, -0.5373021, -0.5373021, -0.4596808, -0.4596808) /* PCAPRecordedLocation */
+VALUES (25546, 8040, 0x7D64000D, 35.00187, 103.1891, 11.929, -0.537302, -0.537302, -0.459681, -0.459681) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [35.001870 103.189100 11.929000] -0.537302 -0.537302 -0.459681 -0.459681 */;

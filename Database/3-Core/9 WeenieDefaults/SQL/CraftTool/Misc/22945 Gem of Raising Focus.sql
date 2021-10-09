@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22945,   1, 'Gem of Raising Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22945,   1,   33558088) /* Setup */
-     , (22945,   6,   67111919) /* PaletteBase */
-     , (22945,   8,  100673788) /* Icon */
-     , (22945,  50,  100673964) /* IconOverlay */;
+VALUES (22945,   1, 0x02000E48) /* Setup */
+     , (22945,   6, 0x04000BEF) /* PaletteBase */
+     , (22945,   8, 0x060028FC) /* Icon */
+     , (22945,  50, 0x060029AC) /* IconOverlay */;

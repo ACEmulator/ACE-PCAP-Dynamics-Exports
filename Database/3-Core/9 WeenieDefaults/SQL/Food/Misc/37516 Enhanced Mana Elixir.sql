@@ -33,8 +33,8 @@ VALUES (37516,   1, 'Enhanced Mana Elixir') /* Name */
      , (37516,  15, 'This elixir has been enhanced by the Arcanum to be extra potent.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37516,   1,   33554603) /* Setup */
-     , (37516,   3,  536870932) /* SoundTable */
-     , (37516,   6,   67111919) /* PaletteBase */
-     , (37516,   8,  100676324) /* Icon */
-     , (37516,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37516,   1, 0x020000AB) /* Setup */
+     , (37516,   3, 0x20000014) /* SoundTable */
+     , (37516,   6, 0x04000BEF) /* PaletteBase */
+     , (37516,   8, 0x060032E4) /* Icon */
+     , (37516,  22, 0x3400002B) /* PhysicsEffectTable */;

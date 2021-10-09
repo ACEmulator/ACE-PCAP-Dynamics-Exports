@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14909,   1, 'Jealousy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14909,   1,   33557623) /* Setup */
-     , (14909,   2,  150994994) /* MotionTable */
-     , (14909,   3,  536870984) /* SoundTable */
-     , (14909,   8,  100672734) /* Icon */
-     , (14909,  22,  872415261) /* PhysicsEffectTable */;
+VALUES (14909,   1, 0x02000C77) /* Setup */
+     , (14909,   2, 0x09000032) /* MotionTable */
+     , (14909,   3, 0x20000048) /* SoundTable */
+     , (14909,   8, 0x060024DE) /* Icon */
+     , (14909,  22, 0x3400001D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14909, 8040, 1382613339, 50.0131, -120.003, 0.02700001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (14909, 8040, 0x5269015B, 50.0131, -120.003, 0.027, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5269015B [50.013100 -120.003000 0.027000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

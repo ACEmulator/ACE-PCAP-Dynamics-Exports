@@ -26,7 +26,7 @@ VALUES (19523,   1, 'Perfect Isparian Heavy Weapons Ingot') /* Name */
      , (19523,  16, 'A diamond infused ingot, enhanced and stamped with a heavy weapons glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19523,   1,   33555677) /* Setup */
-     , (19523,   3,  536870932) /* SoundTable */
-     , (19523,   8,  100672972) /* Icon */
-     , (19523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19523,   1, 0x020004DD) /* Setup */
+     , (19523,   3, 0x20000014) /* SoundTable */
+     , (19523,   8, 0x060025CC) /* Icon */
+     , (19523,  22, 0x3400002B) /* PhysicsEffectTable */;

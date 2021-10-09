@@ -21,7 +21,7 @@ VALUES (45733,   1, 'Geraine''s Tome (6)') /* Name */
      , (45733,  16, 'A large book who''s contents seem unreadable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45733,   1,   33554769) /* Setup */
-     , (45733,   3,  536870932) /* SoundTable */
-     , (45733,   8,  100692616) /* Icon */
-     , (45733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45733,   1, 0x02000151) /* Setup */
+     , (45733,   3, 0x20000014) /* SoundTable */
+     , (45733,   8, 0x06007288) /* Icon */
+     , (45733,  22, 0x3400002B) /* PhysicsEffectTable */;

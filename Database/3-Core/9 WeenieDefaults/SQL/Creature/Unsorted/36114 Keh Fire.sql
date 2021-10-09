@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36114,   1, 'Keh Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36114,   1,   33556218) /* Setup */
-     , (36114,   2,  150995261) /* MotionTable */
-     , (36114,   3,  536870933) /* SoundTable */
-     , (36114,   8,  100675788) /* Icon */;
+VALUES (36114,   1, 0x020006FA) /* Setup */
+     , (36114,   2, 0x0900013D) /* MotionTable */
+     , (36114,   3, 0x20000015) /* SoundTable */
+     , (36114,   8, 0x060030CC) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36114, 8040, 482476074, 133.786, 38.8562, 20, 0.8179212, 0, 0, -0.5753302) /* PCAPRecordedLocation */
+VALUES (36114, 8040, 0x1CC2002A, 133.786, 38.8562, 20, 0.817921, 0, 0, -0.57533) /* PCAPRecordedLocation */
 /* @teleloc 0x1CC2002A [133.786000 38.856200 20.000000] 0.817921 0.000000 0.000000 -0.575330 */;

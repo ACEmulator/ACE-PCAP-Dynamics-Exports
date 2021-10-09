@@ -18,9 +18,9 @@ VALUES (4503,   1, 'Tekai the Scribe') /* Name */
      , (4503,  16, 'Tekai the Scribe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4503,   1,   33555594) /* Setup */
-     , (4503,   8,  100668115) /* Icon */;
+VALUES (4503,   1, 0x0200048A) /* Setup */
+     , (4503,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4503, 8040, 3661299764, 153.228, 86.1752, 2.79562, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4503, 8040, 0xDA3B0034, 153.228, 86.1752, 2.79562, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B0034 [153.228000 86.175200 2.795620] 0.707107 0.000000 0.000000 -0.707107 */;

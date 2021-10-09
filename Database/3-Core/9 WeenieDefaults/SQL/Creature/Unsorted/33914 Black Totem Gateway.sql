@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33914,   1, 'Black Totem Gateway') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33914,   1,   33556007) /* Setup */
-     , (33914,   2,  150995261) /* MotionTable */
-     , (33914,   3,  536870933) /* SoundTable */
-     , (33914,   8,  100689074) /* Icon */;
+VALUES (33914,   1, 0x02000627) /* Setup */
+     , (33914,   2, 0x0900013D) /* MotionTable */
+     , (33914,   3, 0x20000015) /* SoundTable */
+     , (33914,   8, 0x060064B2) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33914, 8040, 151715842, 12, 36, 16, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33914, 8040, 0x090B0002, 12, 36, 16, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0002 [12.000000 36.000000 16.000000] 1.000000 0.000000 0.000000 0.000000 */;

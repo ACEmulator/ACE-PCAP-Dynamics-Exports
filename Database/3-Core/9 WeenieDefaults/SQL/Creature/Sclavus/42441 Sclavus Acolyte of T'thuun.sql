@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42441,   1, 'Sclavus Acolyte of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42441,   1,   33560597) /* Setup */
-     , (42441,   2,  150995048) /* MotionTable */
-     , (42441,   3,  536870977) /* SoundTable */
-     , (42441,   6,   67111936) /* PaletteBase */
-     , (42441,   8,  100669120) /* Icon */
-     , (42441,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (42441,   1, 0x02001815) /* Setup */
+     , (42441,   2, 0x09000068) /* MotionTable */
+     , (42441,   3, 0x20000041) /* SoundTable */
+     , (42441,   6, 0x04000C00) /* PaletteBase */
+     , (42441,   8, 0x060016C0) /* Icon */
+     , (42441,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42441, 8040, 3304194091, 132.254, 71.3427, 32.36325, 0.011647, 0, 0, 0.9999322) /* PCAPRecordedLocation */
+VALUES (42441, 8040, 0xC4F2002B, 132.254, 71.3427, 32.36325, 0.011647, 0, 0, 0.999932) /* PCAPRecordedLocation */
 /* @teleloc 0xC4F2002B [132.254000 71.342700 32.363250] 0.011647 0.000000 0.000000 0.999932 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

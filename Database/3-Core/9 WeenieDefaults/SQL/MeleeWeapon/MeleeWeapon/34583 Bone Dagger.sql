@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34583,   1, 'Bone Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34583,   1,   33560173) /* Setup */
-     , (34583,   3,  536870932) /* SoundTable */
-     , (34583,   8,  100675766) /* Icon */
-     , (34583,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34583,   1, 0x0200166D) /* Setup */
+     , (34583,   3, 0x20000014) /* SoundTable */
+     , (34583,   8, 0x060030B6) /* Icon */
+     , (34583,  22, 0x3400002B) /* PhysicsEffectTable */;

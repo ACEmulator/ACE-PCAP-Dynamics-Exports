@@ -23,7 +23,7 @@ VALUES (0x783D2004,  7089, 0x83D2001E, 79.03385, 133.6082, 251.7146, 1, 0, 0, 0,
 /* @teleloc 0x83D2001E [79.033850 133.608200 251.714600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x783D2005,  7081, 0x83D20028, 112.9389, 188.3171, 230.7823, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+VALUES (0x783D2005,  7081, 0x83D20028, 112.9389, 188.3171, 230.7823, 0.766045, 0, 0, -0.642788,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
 /* @teleloc 0x83D20028 [112.938900 188.317100 230.782300] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

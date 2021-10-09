@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25833,   1, 'Dragon''s Power') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25833,   1,   33555926) /* Setup */
-     , (25833,   2,  150994947) /* MotionTable */
-     , (25833,   8,  100667499) /* Icon */;
+VALUES (25833,   1, 0x020005D6) /* Setup */
+     , (25833,   2, 0x09000003) /* MotionTable */
+     , (25833,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25833, 8040, 3004694541, 30.409, 100.917, 338.7077, -0.9986674, 0, 0, -0.05160772) /* PCAPRecordedLocation */
+VALUES (25833, 8040, 0xB318000D, 30.409, 100.917, 338.7077, -0.998667, 0, 0, -0.051608) /* PCAPRecordedLocation */
 /* @teleloc 0xB318000D [30.409000 100.917000 338.707700] -0.998667 0.000000 0.000000 -0.051608 */;

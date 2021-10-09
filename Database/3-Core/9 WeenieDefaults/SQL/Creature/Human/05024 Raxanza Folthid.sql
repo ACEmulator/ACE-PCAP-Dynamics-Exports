@@ -29,20 +29,20 @@ VALUES (5024,   1, 'Raxanza Folthid') /* Name */
      , (5024,   5, 'Lady') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5024,   1,   33554510) /* Setup */
-     , (5024,   2,  150994945) /* MotionTable */
-     , (5024,   3,  536870914) /* SoundTable */
-     , (5024,   6,   67108990) /* PaletteBase */
-     , (5024,   8,  100667446) /* Icon */
-     , (5024,   9,   83890277) /* EyesTexture */
-     , (5024,  10,   83890295) /* NoseTexture */
-     , (5024,  11,   83890358) /* MouthTexture */
-     , (5024,  15,   67116982) /* HairPalette */
-     , (5024,  16,   67110063) /* EyesPalette */
-     , (5024,  17,   67109561) /* SkinPalette */;
+VALUES (5024,   1, 0x0200004E) /* Setup */
+     , (5024,   2, 0x09000001) /* MotionTable */
+     , (5024,   3, 0x20000002) /* SoundTable */
+     , (5024,   6, 0x0400007E) /* PaletteBase */
+     , (5024,   8, 0x06001036) /* Icon */
+     , (5024,   9, 0x05001065) /* EyesTexture */
+     , (5024,  10, 0x05001077) /* NoseTexture */
+     , (5024,  11, 0x050010B6) /* MouthTexture */
+     , (5024,  15, 0x04001FB6) /* HairPalette */
+     , (5024,  16, 0x040004AF) /* EyesPalette */
+     , (5024,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5024, 8040, 3262382339, 107.947, 81.3866, 24.005, 0.912809, 0, 0, 0.408386) /* PCAPRecordedLocation */
+VALUES (5024, 8040, 0xC2740103, 107.947, 81.3866, 24.005, 0.912809, 0, 0, 0.408386) /* PCAPRecordedLocation */
 /* @teleloc 0xC2740103 [107.947000 81.386600 24.005000] 0.912809 0.000000 0.000000 0.408386 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

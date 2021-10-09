@@ -23,7 +23,7 @@ VALUES (3578,   1, 'Scroll of Weapon Tinkering Expertise Other II') /* Name */
 Increases the target''s Weapon Tinkering skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3578,   1,   33554826) /* Setup */
-     , (3578,   8,  100676477) /* Icon */
-     , (3578,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3578,   1, 0x0200018A) /* Setup */
+     , (3578,   8, 0x0600337D) /* Icon */
+     , (3578,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3578,  28,        781) /* Spell - WeaponExpertiseOther2 */;

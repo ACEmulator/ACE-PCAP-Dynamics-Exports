@@ -53,22 +53,22 @@ VALUES (45460,   1, 'Staff of Tendrils') /* Name */
      , (45460,  16, 'This stout wooden staff is shod with iron on both ends. Intricate designs of vines adorn the staff, making it both functional as well as attractive. This staff seems to feed off of the energy of its user, which is not uncommon among the weapons of the Milantans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45460,   1,   33559392) /* Setup */
-     , (45460,   3,  536870932) /* SoundTable */
-     , (45460,   6,   67111919) /* PaletteBase */
-     , (45460,   8,  100686767) /* Icon */
-     , (45460,  22,  872415275) /* PhysicsEffectTable */
-     , (45460,  52,  100686604) /* IconUnderlay */;
+VALUES (45460,   1, 0x02001360) /* Setup */
+     , (45460,   3, 0x20000014) /* SoundTable */
+     , (45460,   6, 0x04000BEF) /* PaletteBase */
+     , (45460,   8, 0x06005BAF) /* Icon */
+     , (45460,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45460,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45460, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (45460, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45460,   179,      2)  /* FesterSelf2 */
+VALUES (45460,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
+     , (45460,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (45460,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45460,   179,      2)  /* FesterSelf2 */
      , (45460,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45460,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (45460,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45460,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
-     , (45460,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;
+     , (45460,  4666,      2)  /* CANTRIPHEARTTHIRST3 */;

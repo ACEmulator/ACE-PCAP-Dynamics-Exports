@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41462,   1, 'Magnificent Lense') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41462,   1,   33560887) /* Setup */
-     , (41462,   3,  536870932) /* SoundTable */
-     , (41462,   6,   67116700) /* PaletteBase */
-     , (41462,   8,  100690681) /* Icon */
-     , (41462,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41462,   1, 0x02001937) /* Setup */
+     , (41462,   3, 0x20000014) /* SoundTable */
+     , (41462,   6, 0x04001E9C) /* PaletteBase */
+     , (41462,   8, 0x06006AF9) /* Icon */
+     , (41462,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41462,  28,       5119) /* Spell - ExposeWeakness5 */;

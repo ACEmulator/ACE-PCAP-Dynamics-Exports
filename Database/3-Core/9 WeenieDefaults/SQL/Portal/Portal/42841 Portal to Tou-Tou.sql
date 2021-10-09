@@ -21,10 +21,10 @@ VALUES (42841,   1, 'Portal to Tou-Tou') /* Name */
      , (42841,  16, 'This portal goes to the Sho town of Tou-Tou, perched on the tip of the Tou-Tou peninsula. This is a good town for characters over level 20.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42841,   1,   33555923) /* Setup */
-     , (42841,   2,  150994947) /* MotionTable */
-     , (42841,   8,  100667499) /* Icon */;
+VALUES (42841,   1, 0x020005D3) /* Setup */
+     , (42841,   2, 0x09000003) /* MotionTable */
+     , (42841,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42841, 8040, 459120, 99.979, -86.304, -0.06299996, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42841, 8040, 0x00070170, 99.979, -86.304, -0.063, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070170 [99.979000 -86.304000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -41,8 +41,8 @@ VALUES (31781,   1, 'Electric Spine Glaive') /* Name */
      , (31781,  16, 'Electric Spine Glaive') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31781,   1,   33559650) /* Setup */
-     , (31781,   3,  536870932) /* SoundTable */
-     , (31781,   6,   67116700) /* PaletteBase */
-     , (31781,   8,  100688104) /* Icon */
-     , (31781,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31781,   1, 0x02001462) /* Setup */
+     , (31781,   3, 0x20000014) /* SoundTable */
+     , (31781,   6, 0x04001E9C) /* PaletteBase */
+     , (31781,   8, 0x060060E8) /* Icon */
+     , (31781,  22, 0x3400002B) /* PhysicsEffectTable */;

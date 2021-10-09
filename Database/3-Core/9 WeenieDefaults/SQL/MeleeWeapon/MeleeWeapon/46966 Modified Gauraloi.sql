@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46966,   1, 'Modified Gauraloi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46966,   1,   33557960) /* Setup */
-     , (46966,   3,  536870932) /* SoundTable */
-     , (46966,   8,  100673487) /* Icon */
-     , (46966,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46966,   1, 0x02000DC8) /* Setup */
+     , (46966,   3, 0x20000014) /* SoundTable */
+     , (46966,   8, 0x060027CF) /* Icon */
+     , (46966,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46966, 8040, 3133538325, 58.475, 109, 382.6414, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (46966, 8040, 0xBAC60015, 58.475, 109, 382.6414, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBAC60015 [58.475000 109.000000 382.641400] 0.000000 0.000000 -0.707107 -0.707107 */;

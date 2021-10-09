@@ -34,20 +34,20 @@ VALUES (35488,   1, 'Skettek the Wanderer') /* Name */
      , (35488,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35488,   1,   33554433) /* Setup */
-     , (35488,   2,  150994945) /* MotionTable */
-     , (35488,   3,  536870913) /* SoundTable */
-     , (35488,   6,   67108990) /* PaletteBase */
-     , (35488,   8,  100667446) /* Icon */
-     , (35488,   9,   83890516) /* EyesTexture */
-     , (35488,  10,   83890520) /* NoseTexture */
-     , (35488,  11,   83890635) /* MouthTexture */
-     , (35488,  15,   67116995) /* HairPalette */
-     , (35488,  16,   67109565) /* EyesPalette */
-     , (35488,  17,   67109559) /* SkinPalette */;
+VALUES (35488,   1, 0x02000001) /* Setup */
+     , (35488,   2, 0x09000001) /* MotionTable */
+     , (35488,   3, 0x20000001) /* SoundTable */
+     , (35488,   6, 0x0400007E) /* PaletteBase */
+     , (35488,   8, 0x06001036) /* Icon */
+     , (35488,   9, 0x05001154) /* EyesTexture */
+     , (35488,  10, 0x05001158) /* NoseTexture */
+     , (35488,  11, 0x050011CB) /* MouthTexture */
+     , (35488,  15, 0x04001FC3) /* HairPalette */
+     , (35488,  16, 0x040002BD) /* EyesPalette */
+     , (35488,  17, 0x040002B7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35488, 8040, 1227685911, 53.7138, 152.896, 29.58046, -0.5098987, 0, 0, -0.8602344) /* PCAPRecordedLocation */
+VALUES (35488, 8040, 0x492D0017, 53.7138, 152.896, 29.58046, -0.509899, 0, 0, -0.860234) /* PCAPRecordedLocation */
 /* @teleloc 0x492D0017 [53.713800 152.896000 29.580460] -0.509899 0.000000 0.000000 -0.860234 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

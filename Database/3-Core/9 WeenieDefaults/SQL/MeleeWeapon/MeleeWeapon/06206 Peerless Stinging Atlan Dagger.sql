@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6206,   1, 'Peerless Stinging Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6206,   1,   33556355) /* Setup */
-     , (6206,   3,  536870932) /* SoundTable */
-     , (6206,   6,   67111919) /* PaletteBase */
-     , (6206,   8,  100670524) /* Icon */
-     , (6206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6206,   1, 0x02000783) /* Setup */
+     , (6206,   3, 0x20000014) /* SoundTable */
+     , (6206,   6, 0x04000BEF) /* PaletteBase */
+     , (6206,   8, 0x06001C3C) /* Icon */
+     , (6206,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6206, 8040, 4095213581, 27.166, 102.5381, 159.929, 0.4826304, 0.4826304, -0.5167862, -0.5167862) /* PCAPRecordedLocation */
+VALUES (6206, 8040, 0xF418000D, 27.166, 102.5381, 159.929, 0.48263, 0.48263, -0.516786, -0.516786) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [27.166000 102.538100 159.929000] 0.482630 0.482630 -0.516786 -0.516786 */;

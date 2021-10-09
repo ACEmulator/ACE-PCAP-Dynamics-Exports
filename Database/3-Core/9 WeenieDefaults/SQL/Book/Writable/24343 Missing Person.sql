@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24343,   1, 'Missing Person') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24343,   1,   33559084) /* Setup */
-     , (24343,   3,  536870932) /* SoundTable */
-     , (24343,   6,   67112626) /* PaletteBase */
-     , (24343,   8,  100668176) /* Icon */
-     , (24343,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24343,   1, 0x0200122C) /* Setup */
+     , (24343,   3, 0x20000014) /* SoundTable */
+     , (24343,   6, 0x04000EB2) /* PaletteBase */
+     , (24343,   8, 0x06001310) /* Icon */
+     , (24343,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24343, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

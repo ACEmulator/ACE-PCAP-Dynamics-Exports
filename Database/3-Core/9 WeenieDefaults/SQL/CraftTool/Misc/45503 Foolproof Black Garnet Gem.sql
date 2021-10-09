@@ -27,9 +27,9 @@ VALUES (45503,   1, 'Foolproof Black Garnet Gem') /* Name */
      , (45503,  16, 'A magical gem containing a bag of Foolproof Black Garnet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45503,   1,   33556769) /* Setup */
-     , (45503,   3,  536870932) /* SoundTable */
-     , (45503,   6,   67111919) /* PaletteBase */
-     , (45503,   8,  100673039) /* Icon */
-     , (45503,  22,  872415275) /* PhysicsEffectTable */
-     , (45503,  50,  100674738) /* IconOverlay */;
+VALUES (45503,   1, 0x02000921) /* Setup */
+     , (45503,   3, 0x20000014) /* SoundTable */
+     , (45503,   6, 0x04000BEF) /* PaletteBase */
+     , (45503,   8, 0x0600260F) /* Icon */
+     , (45503,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45503,  50, 0x06002CB2) /* IconOverlay */;

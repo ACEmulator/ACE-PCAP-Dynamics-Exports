@@ -21,7 +21,7 @@ VALUES (28759,   1, 'Friend of Silyun Token') /* Name */
      , (28759,  16, 'Give this token to the Grand Mother of Silyun and she will change your title to Friend of Silyun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28759,   1,   33554817) /* Setup */
-     , (28759,   3,  536870932) /* SoundTable */
-     , (28759,   8,  100686367) /* Icon */
-     , (28759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28759,   1, 0x02000181) /* Setup */
+     , (28759,   3, 0x20000014) /* SoundTable */
+     , (28759,   8, 0x06005A1F) /* Icon */
+     , (28759,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -39,11 +39,11 @@ VALUES (46397,   1, 'Shadownether Isparian Wand') /* Name */
      , (46397,  16, 'A Perfect Isparian Wand, infused with the power of the Shadownether Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46397,   1,   33561165) /* Setup */
-     , (46397,   3,  536870932) /* SoundTable */
-     , (46397,   8,  100691697) /* Icon */
-     , (46397,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46397,   1, 0x02001A4D) /* Setup */
+     , (46397,   3, 0x20000014) /* SoundTable */
+     , (46397,   8, 0x06006EF1) /* Icon */
+     , (46397,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46397, 8040, 23855554, 56.63604, -25.49104, -0.071, -0.002523273, -0.002523273, -0.7071023, -0.7071023) /* PCAPRecordedLocation */
+VALUES (46397, 8040, 0x016C01C2, 56.63604, -25.49104, -0.071, -0.002523, -0.002523, -0.707102, -0.707102) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.636040 -25.491040 -0.071000] -0.002523 -0.002523 -0.707102 -0.707102 */;

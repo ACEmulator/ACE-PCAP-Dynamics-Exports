@@ -35,8 +35,8 @@ VALUES (44444,   1, 'Celestial Hand Robe') /* Name */
      , (44444,  14, 'Use this applier to tailor an armored robe onto a Celestial Hand Breastplate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44444,   1,   33554854) /* Setup */
-     , (44444,   3,  536870932) /* SoundTable */
-     , (44444,   8,  100692003) /* Icon */
-     , (44444,  22,  872415275) /* PhysicsEffectTable */
-     , (44444,  50,  100667895) /* IconOverlay */;
+VALUES (44444,   1, 0x020001A6) /* Setup */
+     , (44444,   3, 0x20000014) /* SoundTable */
+     , (44444,   8, 0x06007023) /* Icon */
+     , (44444,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44444,  50, 0x060011F7) /* IconOverlay */;

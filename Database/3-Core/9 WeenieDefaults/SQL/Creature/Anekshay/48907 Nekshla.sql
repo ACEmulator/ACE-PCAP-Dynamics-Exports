@@ -30,14 +30,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48907,   1, 'Nekshla') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48907,   1,   33561251) /* Setup */
-     , (48907,   2,  150994945) /* MotionTable */
-     , (48907,   3,  536870913) /* SoundTable */
-     , (48907,   6,   67108990) /* PaletteBase */
-     , (48907,   8,  100667446) /* Icon */;
+VALUES (48907,   1, 0x02001AA3) /* Setup */
+     , (48907,   2, 0x09000001) /* MotionTable */
+     , (48907,   3, 0x20000001) /* SoundTable */
+     , (48907,   6, 0x0400007E) /* PaletteBase */
+     , (48907,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48907, 8040, 2271412238, 26.7037, 122.989, 8.004999, -0.238622, 0, 0, -0.971113) /* PCAPRecordedLocation */
+VALUES (48907, 8040, 0x8763000E, 26.7037, 122.989, 8.004999, -0.238622, 0, 0, -0.971113) /* PCAPRecordedLocation */
 /* @teleloc 0x8763000E [26.703700 122.989000 8.004999] -0.238622 0.000000 0.000000 -0.971113 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

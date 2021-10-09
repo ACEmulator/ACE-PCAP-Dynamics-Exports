@@ -23,7 +23,7 @@ VALUES (1891,   1, 'Scroll of Lure Blade') /* Name */
 Decreases the Melee Defense skill modifier of a weapon or magic caster by 3%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1891,   1,   33554826) /* Setup */
-     , (1891,   8,  100676670) /* Icon */
-     , (1891,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1891,   1, 0x0200018A) /* Setup */
+     , (1891,   8, 0x0600343E) /* Icon */
+     , (1891,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1891,  28,       1606) /* Spell - LureBlade1 */;

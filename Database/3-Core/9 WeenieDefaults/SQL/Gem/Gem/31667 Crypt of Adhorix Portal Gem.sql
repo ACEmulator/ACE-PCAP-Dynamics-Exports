@@ -36,10 +36,10 @@ VALUES (31667,   1, 'Crypt of Adhorix Portal Gem') /* Name */
      , (31667,  16, 'This portal gem will create a temporary portal to the Crypt of Adhorix.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31667,   1,   33556769) /* Setup */
-     , (31667,   3,  536870932) /* SoundTable */
-     , (31667,   6,   67111919) /* PaletteBase */
-     , (31667,   8,  100668362) /* Icon */
-     , (31667,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31667,   1, 0x02000921) /* Setup */
+     , (31667,   3, 0x20000014) /* SoundTable */
+     , (31667,   6, 0x04000BEF) /* PaletteBase */
+     , (31667,   8, 0x060013CA) /* Icon */
+     , (31667,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31667,  28,        157) /* Spell - SummonPortal1 */
-     , (31667,  50,  100676404) /* IconOverlay */;
+     , (31667,  50, 0x06003334) /* IconOverlay */;

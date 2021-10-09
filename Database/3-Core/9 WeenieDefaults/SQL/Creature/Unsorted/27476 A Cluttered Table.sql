@@ -27,12 +27,12 @@ VALUES (27476,   1, 'A Cluttered Table') /* Name */
      , (27476,  16, 'Orders and other papers are scattered about this table, including a thick folder with what appear to be blueprints.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27476,   1,   33558691) /* Setup */
-     , (27476,   2,  150995291) /* MotionTable */
-     , (27476,   3,  536871052) /* SoundTable */
-     , (27476,   8,  100676427) /* Icon */
-     , (27476,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27476,   1, 0x020010A3) /* Setup */
+     , (27476,   2, 0x0900015B) /* MotionTable */
+     , (27476,   3, 0x2000008C) /* SoundTable */
+     , (27476,   8, 0x0600334B) /* Icon */
+     , (27476,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27476, 8040, 1648886023, 180, -200, -30, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (27476, 8040, 0x62480107, 180, -200, -30, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x62480107 [180.000000 -200.000000 -30.000000] -0.707107 0.000000 0.000000 -0.707107 */;

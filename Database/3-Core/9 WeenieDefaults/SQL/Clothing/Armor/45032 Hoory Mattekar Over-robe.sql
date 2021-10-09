@@ -36,8 +36,8 @@ VALUES (45032,   1, 'Hoory Mattekar Over-robe') /* Name */
      , (45032,  16, 'An over-robe purchased on Tusker Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45032,   1,   33554854) /* Setup */
-     , (45032,   3,  536870932) /* SoundTable */
-     , (45032,   6,   67108990) /* PaletteBase */
-     , (45032,   8,  100672053) /* Icon */
-     , (45032,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45032,   1, 0x020001A6) /* Setup */
+     , (45032,   3, 0x20000014) /* SoundTable */
+     , (45032,   6, 0x0400007E) /* PaletteBase */
+     , (45032,   8, 0x06002235) /* Icon */
+     , (45032,  22, 0x3400002B) /* PhysicsEffectTable */;

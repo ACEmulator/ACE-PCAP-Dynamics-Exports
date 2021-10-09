@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48594,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48594,   1,   33559363) /* Setup */
-     , (48594,   8,  100686577) /* Icon */;
+VALUES (48594,   1, 0x02001343) /* Setup */
+     , (48594,   8, 0x06005AF1) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48594, 8040, 23003420, 16.80854, -18.26492, -30.0534, -0.5195396, -0.5195396, 0.4796651, 0.4796651) /* PCAPRecordedLocation */
+VALUES (48594, 8040, 0x015F011C, 16.80854, -18.26492, -30.0534, -0.51954, -0.51954, 0.479665, 0.479665) /* PCAPRecordedLocation */
 /* @teleloc 0x015F011C [16.808540 -18.264920 -30.053400] -0.519540 -0.519540 0.479665 0.479665 */;

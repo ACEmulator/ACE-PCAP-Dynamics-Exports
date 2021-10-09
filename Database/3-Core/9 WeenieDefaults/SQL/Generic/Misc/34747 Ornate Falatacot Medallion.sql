@@ -23,7 +23,7 @@ VALUES (34747,   1, 'Ornate Falatacot Medallion') /* Name */
      , (34747,  16, 'A Falatacot Medallion, taken from the corpse of the Falatacot Matriarch, Mirta''kir') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34747,   1,   33557376) /* Setup */
-     , (34747,   3,  536870932) /* SoundTable */
-     , (34747,   8,  100672190) /* Icon */
-     , (34747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34747,   1, 0x02000B80) /* Setup */
+     , (34747,   3, 0x20000014) /* SoundTable */
+     , (34747,   8, 0x060022BE) /* Icon */
+     , (34747,  22, 0x3400002B) /* PhysicsEffectTable */;

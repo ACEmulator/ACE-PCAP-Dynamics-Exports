@@ -24,8 +24,8 @@ VALUES (53475,   1, 'Daimyo Nobanuga''s Shattered Helm') /* Name */
      , (53475,  15, 'A shattered o-yoroi helm that once belonged to the spectral Daimyo, Nobanuga.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53475,   1,   33555248) /* Setup */
-     , (53475,   3,  536870932) /* SoundTable */
-     , (53475,   6,   67108990) /* PaletteBase */
-     , (53475,   8,  100692807) /* Icon */
-     , (53475,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53475,   1, 0x02000330) /* Setup */
+     , (53475,   3, 0x20000014) /* SoundTable */
+     , (53475,   6, 0x0400007E) /* PaletteBase */
+     , (53475,   8, 0x06007347) /* Icon */
+     , (53475,  22, 0x3400002B) /* PhysicsEffectTable */;

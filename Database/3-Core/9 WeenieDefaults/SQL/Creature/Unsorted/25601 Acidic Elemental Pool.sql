@@ -27,12 +27,12 @@ VALUES (25601,   1, 'Acidic Elemental Pool') /* Name */
      , (25601,  16, 'An elemental pool, bubbling over with acid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25601,   1,   33558460) /* Setup */
-     , (25601,   2,  150995255) /* MotionTable */
-     , (25601,   3,  536870913) /* SoundTable */
-     , (25601,   6,   67114510) /* PaletteBase */
-     , (25601,   8,  100674882) /* Icon */;
+VALUES (25601,   1, 0x02000FBC) /* Setup */
+     , (25601,   2, 0x09000137) /* MotionTable */
+     , (25601,   3, 0x20000001) /* SoundTable */
+     , (25601,   6, 0x0400160E) /* PaletteBase */
+     , (25601,   8, 0x06002D42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25601, 8040, 1598488833, 50.9961, -298.07, -48, 0.40329, 0, 0, -0.915072) /* PCAPRecordedLocation */
+VALUES (25601, 8040, 0x5F470101, 50.9961, -298.07, -48, 0.40329, 0, 0, -0.915072) /* PCAPRecordedLocation */
 /* @teleloc 0x5F470101 [50.996100 -298.070000 -48.000000] 0.403290 0.000000 0.000000 -0.915072 */;

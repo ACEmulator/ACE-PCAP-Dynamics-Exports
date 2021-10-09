@@ -19,9 +19,9 @@ VALUES (37315,   1, 'Glyph of Lockpick') /* Name */
      , (37315,  20, 'Glyphs of Lockpick') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37315,   1,   33554809) /* Setup */
-     , (37315,   3,  536870932) /* SoundTable */
-     , (37315,   6,   67111919) /* PaletteBase */
-     , (37315,   8,  100690191) /* Icon */
-     , (37315,  22,  872415275) /* PhysicsEffectTable */
-     , (37315,  50,  100686668) /* IconOverlay */;
+VALUES (37315,   1, 0x02000179) /* Setup */
+     , (37315,   3, 0x20000014) /* SoundTable */
+     , (37315,   6, 0x04000BEF) /* PaletteBase */
+     , (37315,   8, 0x0600690F) /* Icon */
+     , (37315,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37315,  50, 0x06005B4C) /* IconOverlay */;

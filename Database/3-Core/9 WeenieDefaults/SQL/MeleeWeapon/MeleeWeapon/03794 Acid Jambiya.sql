@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3794,   1, 'Acid Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3794,   1,   33555710) /* Setup */
-     , (3794,   3,  536870932) /* SoundTable */
-     , (3794,   8,  100667592) /* Icon */
-     , (3794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3794,   1, 0x020004FE) /* Setup */
+     , (3794,   3, 0x20000014) /* SoundTable */
+     , (3794,   8, 0x060010C8) /* Icon */
+     , (3794,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3794, 8040, 2271412230, 22.46993, 134.0428, 8.058775, -0.6798973, -0.6798973, 0.194267, 0.194267) /* PCAPRecordedLocation */
+VALUES (3794, 8040, 0x87630006, 22.46993, 134.0428, 8.058775, -0.679897, -0.679897, 0.194267, 0.194267) /* PCAPRecordedLocation */
 /* @teleloc 0x87630006 [22.469930 134.042800 8.058775] -0.679897 -0.679897 0.194267 0.194267 */;

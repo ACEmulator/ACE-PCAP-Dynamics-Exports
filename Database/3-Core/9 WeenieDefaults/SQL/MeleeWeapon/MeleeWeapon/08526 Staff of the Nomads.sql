@@ -45,22 +45,22 @@ VALUES (8526,   1, 'Staff of the Nomads') /* Name */
      , (8526,  16, 'A sturdy wooden staff, worn smooth. It is inscribed, "I found this branch scoured clean by the winds in the High Desert of my birth; a gift rendered unto me by Isishaa, god of the devouring sands. In eternal debt to his forbearance, I wield this weapon. When he calls, my bones shall fall into his dry embrace as this tree once did."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8526,   1,   33555022) /* Setup */
-     , (8526,   3,  536870932) /* SoundTable */
-     , (8526,   6,   67111919) /* PaletteBase */
-     , (8526,   8,  100669102) /* Icon */
-     , (8526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8526,   1, 0x0200024E) /* Setup */
+     , (8526,   3, 0x20000014) /* SoundTable */
+     , (8526,   6, 0x04000BEF) /* PaletteBase */
+     , (8526,   8, 0x060016AE) /* Icon */
+     , (8526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8526,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8526, 8040, 2238578958, 153.7642, 157.0179, 9.629, -0.04102621, -0.04102621, -0.7059156, -0.7059156) /* PCAPRecordedLocation */
+VALUES (8526, 8040, 0x856E010E, 153.7642, 157.0179, 9.629, -0.041026, -0.041026, -0.705916, -0.705916) /* PCAPRecordedLocation */
 /* @teleloc 0x856E010E [153.764200 157.017900 9.629000] -0.041026 -0.041026 -0.705916 -0.705916 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8526,   270,      2)  /* MagicResistanceOther3 */
-     , (8526,   319,      2)  /* FinesseWeaponsMasteryOther4 */
+VALUES (8526,  1358,      2)  /* EnduranceOther4 */
+     , (8526,   270,      2)  /* MagicResistanceOther3 */
+     , (8526,  2009,      2)  /* WarriorsGreaterVigor */
      , (8526,   992,      2)  /* SprintOther5 */
      , (8526,  1314,      2)  /* ArmorOther3 */
-     , (8526,  1358,      2)  /* EnduranceOther4 */
      , (8526,  1382,      2)  /* CoordinationOther4 */
-     , (8526,  2009,      2)  /* WarriorsGreaterVigor */;
+     , (8526,   319,      2)  /* FinesseWeaponsMasteryOther4 */;

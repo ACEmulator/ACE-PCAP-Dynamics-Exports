@@ -34,20 +34,20 @@ VALUES (2257,   1, 'Nuru Misho the Jeweler') /* Name */
      , (2257,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2257,   1,   33554433) /* Setup */
-     , (2257,   2,  150994945) /* MotionTable */
-     , (2257,   3,  536870913) /* SoundTable */
-     , (2257,   6,   67108990) /* PaletteBase */
-     , (2257,   8,  100667446) /* Icon */
-     , (2257,   9,   83890496) /* EyesTexture */
-     , (2257,  10,   83890530) /* NoseTexture */
-     , (2257,  11,   83890642) /* MouthTexture */
-     , (2257,  15,   67117026) /* HairPalette */
-     , (2257,  16,   67110062) /* EyesPalette */
-     , (2257,  17,   67110061) /* SkinPalette */;
+VALUES (2257,   1, 0x02000001) /* Setup */
+     , (2257,   2, 0x09000001) /* MotionTable */
+     , (2257,   3, 0x20000001) /* SoundTable */
+     , (2257,   6, 0x0400007E) /* PaletteBase */
+     , (2257,   8, 0x06001036) /* Icon */
+     , (2257,   9, 0x05001140) /* EyesTexture */
+     , (2257,  10, 0x05001162) /* NoseTexture */
+     , (2257,  11, 0x050011D2) /* MouthTexture */
+     , (2257,  15, 0x04001FE2) /* HairPalette */
+     , (2257,  16, 0x040004AE) /* EyesPalette */
+     , (2257,  17, 0x040004AD) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2257, 8040, 3443589440, 56.2398, 91.6337, 54.005, 0.03774136, 0, 0, -0.9992875) /* PCAPRecordedLocation */
+VALUES (2257, 8040, 0xCD410140, 56.2398, 91.6337, 54.005, 0.037741, 0, 0, -0.999288) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410140 [56.239800 91.633700 54.005000] 0.037741 0.000000 0.000000 -0.999288 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

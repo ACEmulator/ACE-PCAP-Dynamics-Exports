@@ -21,7 +21,7 @@ VALUES (35808,   1, 'Arbitrator''s Augmentation Token') /* Name */
      , (35808,  16, 'This Arbitrator''s Augmentation Token can be turned in to the Master Arbitrator for experience, or it can be turned in to Fiun Rehlyun at the Fiun settlement for a Blank Augmentation Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35808,   1,   33554817) /* Setup */
-     , (35808,   3,  536870932) /* SoundTable */
-     , (35808,   8,  100689380) /* Icon */
-     , (35808,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35808,   1, 0x02000181) /* Setup */
+     , (35808,   3, 0x20000014) /* SoundTable */
+     , (35808,   8, 0x060065E4) /* Icon */
+     , (35808,  22, 0x3400002B) /* PhysicsEffectTable */;

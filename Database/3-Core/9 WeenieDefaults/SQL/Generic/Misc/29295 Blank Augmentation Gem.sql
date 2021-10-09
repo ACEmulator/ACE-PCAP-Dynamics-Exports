@@ -22,7 +22,7 @@ VALUES (29295,   1, 'Blank Augmentation Gem') /* Name */
      , (29295,  16, 'An uninscribed Augmentation Gem. Hand this item to an Augmentation Trainer in exchange for an inscribed Augmentation Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29295,   1,   33554809) /* Setup */
-     , (29295,   3,  536870932) /* SoundTable */
-     , (29295,   8,  100686475) /* Icon */
-     , (29295,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29295,   1, 0x02000179) /* Setup */
+     , (29295,   3, 0x20000014) /* SoundTable */
+     , (29295,   8, 0x06005A8B) /* Icon */
+     , (29295,  22, 0x3400002B) /* PhysicsEffectTable */;

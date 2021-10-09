@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22506,   1, 'Iron Spined Chittick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22506,   1,   33558118) /* Setup */
-     , (22506,   2,  150995065) /* MotionTable */
-     , (22506,   3,  536870982) /* SoundTable */
-     , (22506,   6,   67114050) /* PaletteBase */
-     , (22506,   8,  100669115) /* Icon */
-     , (22506,  22,  872415336) /* PhysicsEffectTable */;
+VALUES (22506,   1, 0x02000E66) /* Setup */
+     , (22506,   2, 0x09000079) /* MotionTable */
+     , (22506,   3, 0x20000046) /* SoundTable */
+     , (22506,   6, 0x04001442) /* PaletteBase */
+     , (22506,   8, 0x060016BB) /* Icon */
+     , (22506,  22, 0x34000068) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22506, 8040, 4067295235, 2.840655, 58.10209, -0.124, 0.9984205, 0, 0, -0.05618319) /* PCAPRecordedLocation */
+VALUES (22506, 8040, 0xF26E0003, 2.840655, 58.10209, -0.124, 0.998421, 0, 0, -0.056183) /* PCAPRecordedLocation */
 /* @teleloc 0xF26E0003 [2.840655 58.102090 -0.124000] 0.998421 0.000000 0.000000 -0.056183 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

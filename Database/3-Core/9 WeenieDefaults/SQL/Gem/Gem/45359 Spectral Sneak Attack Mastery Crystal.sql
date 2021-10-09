@@ -22,10 +22,10 @@ VALUES (45359,   1, 'Spectral Sneak Attack Mastery Crystal') /* Name */
      , (45359,  20, 'Spectral Sneak Attack Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45359,   1,   33554809) /* Setup */
-     , (45359,   3,  536870932) /* SoundTable */
-     , (45359,   8,  100686697) /* Icon */
-     , (45359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45359,   1, 0x02000179) /* Setup */
+     , (45359,   3, 0x20000014) /* SoundTable */
+     , (45359,   8, 0x06005B69) /* Icon */
+     , (45359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45359,  28,       5910) /* Spell - SneakAttackMasterySpectral */
-     , (45359,  50,  100692247) /* IconOverlay */
-     , (45359,  52,  100686604) /* IconUnderlay */;
+     , (45359,  50, 0x06007117) /* IconOverlay */
+     , (45359,  52, 0x06005B0C) /* IconUnderlay */;

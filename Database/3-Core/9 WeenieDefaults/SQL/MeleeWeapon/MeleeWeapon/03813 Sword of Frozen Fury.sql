@@ -50,9 +50,9 @@ VALUES (3813,   1, 'Sword of Frozen Fury') /* Name */
      , (3813,  40, 'Charizma') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3813,   1,   33558261) /* Setup */
-     , (3813,   3,  536870932) /* SoundTable */
-     , (3813,   8,  100674254) /* Icon */
-     , (3813,  22,  872415275) /* PhysicsEffectTable */
-     , (3813,  50,  100689143) /* IconOverlay */
-     , (3813,  52,  100676435) /* IconUnderlay */;
+VALUES (3813,   1, 0x02000EF5) /* Setup */
+     , (3813,   3, 0x20000014) /* SoundTable */
+     , (3813,   8, 0x06002ACE) /* Icon */
+     , (3813,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3813,  50, 0x060064F7) /* IconOverlay */
+     , (3813,  52, 0x06003353) /* IconUnderlay */;

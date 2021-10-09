@@ -20,11 +20,11 @@ VALUES (31372,   1, 'A Farmer''s Plea for Help') /* Name */
      , (31372,  16, 'This quest is suited for players around level 60.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31372,   1,   33554773) /* Setup */
-     , (31372,   3,  536870932) /* SoundTable */
-     , (31372,   8,  100675751) /* Icon */
-     , (31372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31372,   1, 0x02000155) /* Setup */
+     , (31372,   3, 0x20000014) /* SoundTable */
+     , (31372,   8, 0x060030A7) /* Icon */
+     , (31372,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31372, 8040, 3097428025, 185.87, 6.86365, 84.07899, -0.2564661, 0, 0, -0.9665532) /* PCAPRecordedLocation */
+VALUES (31372, 8040, 0xB89F0039, 185.87, 6.86365, 84.07899, -0.256466, 0, 0, -0.966553) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [185.870000 6.863650 84.078990] -0.256466 0.000000 0.000000 -0.966553 */;

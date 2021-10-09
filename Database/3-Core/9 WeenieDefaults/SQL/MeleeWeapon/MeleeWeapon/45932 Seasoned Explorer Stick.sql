@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45932,   1, 'Seasoned Explorer Stick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45932,   1,   33559625) /* Setup */
-     , (45932,   3,  536870932) /* SoundTable */
-     , (45932,   6,   67116700) /* PaletteBase */
-     , (45932,   8,  100687991) /* Icon */
-     , (45932,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45932,   1, 0x02001449) /* Setup */
+     , (45932,   3, 0x20000014) /* SoundTable */
+     , (45932,   6, 0x04001E9C) /* PaletteBase */
+     , (45932,   8, 0x06006077) /* Icon */
+     , (45932,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45932,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45932,  1605,      2)  /* DefenderSelf6 */
+VALUES (45932,  1605,      2)  /* DefenderSelf6 */
+     , (45932,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
      , (45932,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45932,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45932,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (45932,  1592,      2)  /* HeartSeekerSelf6 */
      , (45932,  5884,      2)  /* CantripDualWieldAptitude1 */;

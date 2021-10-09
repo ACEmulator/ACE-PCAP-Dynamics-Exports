@@ -29,7 +29,7 @@ VALUES (49579,   1, 'Signet Fragment') /* Name */
      , (49579,  15, 'A signet fragment that crackles with energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49579,   1,   33557975) /* Setup */
-     , (49579,   3,  536870932) /* SoundTable */
-     , (49579,   8,  100693243) /* Icon */
-     , (49579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49579,   1, 0x02000DD7) /* Setup */
+     , (49579,   3, 0x20000014) /* SoundTable */
+     , (49579,   8, 0x060074FB) /* Icon */
+     , (49579,  22, 0x3400002B) /* PhysicsEffectTable */;

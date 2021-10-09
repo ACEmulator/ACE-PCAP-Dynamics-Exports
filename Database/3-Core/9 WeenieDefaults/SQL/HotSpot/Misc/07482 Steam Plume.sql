@@ -18,10 +18,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7482,   1, 'Steam Plume') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7482,   1,   33556674) /* Setup */
-     , (7482,   3,  536870994) /* SoundTable */
-     , (7482,   8,  100667465) /* Icon */;
+VALUES (7482,   1, 0x020008C2) /* Setup */
+     , (7482,   3, 0x20000052) /* SoundTable */
+     , (7482,   8, 0x06001049) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7482, 8040, 1879703590, 110.435, 130.56, -0.8999999, 0.9667162, 0, 0, -0.2558511) /* PCAPRecordedLocation */
+VALUES (7482, 8040, 0x700A0026, 110.435, 130.56, -0.9, 0.966716, 0, 0, -0.255851) /* PCAPRecordedLocation */
 /* @teleloc 0x700A0026 [110.435000 130.560000 -0.900000] 0.966716 0.000000 0.000000 -0.255851 */;

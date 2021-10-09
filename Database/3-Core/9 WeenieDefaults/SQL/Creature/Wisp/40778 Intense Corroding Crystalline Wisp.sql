@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40778,   1, 'Intense Corroding Crystalline Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40778,   1,   33557068) /* Setup */
-     , (40778,   2,  150995087) /* MotionTable */
-     , (40778,   3,  536870985) /* SoundTable */
-     , (40778,   8,  100671683) /* Icon */;
+VALUES (40778,   1, 0x02000A4C) /* Setup */
+     , (40778,   2, 0x0900008F) /* MotionTable */
+     , (40778,   3, 0x20000049) /* SoundTable */
+     , (40778,   8, 0x060020C3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40778, 8040, 778830604, -197.893, 56.376, -17.595, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (40778, 8040, 0x2E6C030C, -197.893, 56.376, -17.595, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C030C [-197.893000 56.376000 -17.595000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

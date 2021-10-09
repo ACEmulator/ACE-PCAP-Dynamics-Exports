@@ -23,11 +23,11 @@ VALUES (31466,   1, 'First Half of a Worn Sword') /* Name */
      , (31466,  16, 'Half of a worn old sword. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31466,   1,   33554817) /* Setup */
-     , (31466,   3,  536870932) /* SoundTable */
-     , (31466,   8,  100687886) /* Icon */
-     , (31466,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31466,   1, 0x02000181) /* Setup */
+     , (31466,   3, 0x20000014) /* SoundTable */
+     , (31466,   8, 0x0600600E) /* Icon */
+     , (31466,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31466, 8040, 23855548, 53.89113, -32.86189, -0.002499998, -0.2546188, 0, 0, -0.9670415) /* PCAPRecordedLocation */
+VALUES (31466, 8040, 0x016C01BC, 53.89113, -32.86189, -0.0025, -0.254619, 0, 0, -0.967042) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.891130 -32.861890 -0.002500] -0.254619 0.000000 0.000000 -0.967042 */;

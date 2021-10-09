@@ -21,8 +21,8 @@ VALUES (28487,   1, 'Morgluuk''s Head') /* Name */
      , (28487,  16, 'This severed head of the once feared and powerful Morgluuk, is lifeless and foul smelling. Perhaps if you brought it to the Noble Guardians stationed at the capital cities you could garner a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28487,   1,   33558854) /* Setup */
-     , (28487,   3,  536870932) /* SoundTable */
-     , (28487,   6,   67114919) /* PaletteBase */
-     , (28487,   8,  100676955) /* Icon */
-     , (28487,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28487,   1, 0x02001146) /* Setup */
+     , (28487,   3, 0x20000014) /* SoundTable */
+     , (28487,   6, 0x040017A7) /* PaletteBase */
+     , (28487,   8, 0x0600355B) /* Icon */
+     , (28487,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,9 +26,9 @@ VALUES (22449,   1, 'Plentiful Healing Kit') /* Name */
      , (22449,  15, 'A healing kit that has a heady scent.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22449,   1,   33555194) /* Setup */
-     , (22449,   8,  100673800) /* Icon */;
+VALUES (22449,   1, 0x020002FA) /* Setup */
+     , (22449,   8, 0x06002908) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22449, 8040, 23855555, 58.62766, -42.61131, 0.0315, -0.7803556, 0, 0, -0.625336) /* PCAPRecordedLocation */
+VALUES (22449, 8040, 0x016C01C3, 58.62766, -42.61131, 0.0315, -0.780356, 0, 0, -0.625336) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.627660 -42.611310 0.031500] -0.780356 0.000000 0.000000 -0.625336 */;

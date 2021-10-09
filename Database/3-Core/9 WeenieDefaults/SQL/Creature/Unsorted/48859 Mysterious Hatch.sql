@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48859,   1, 'Mysterious Hatch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48859,   1,   33557478) /* Setup */
-     , (48859,   2,  150995151) /* MotionTable */
-     , (48859,   3,  536870947) /* SoundTable */
-     , (48859,   8,  100672468) /* Icon */
-     , (48859,  22,  872415237) /* PhysicsEffectTable */;
+VALUES (48859,   1, 0x02000BE6) /* Setup */
+     , (48859,   2, 0x090000CF) /* MotionTable */
+     , (48859,   3, 0x20000023) /* SoundTable */
+     , (48859,   8, 0x060023D4) /* Icon */
+     , (48859,  22, 0x34000005) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48859, 8040, 1256259852, 102.475, 39.2372, 60, -0.922431, 0, 0, -0.386163) /* PCAPRecordedLocation */
+VALUES (48859, 8040, 0x4AE1010C, 102.475, 39.2372, 60, -0.922431, 0, 0, -0.386163) /* PCAPRecordedLocation */
 /* @teleloc 0x4AE1010C [102.475000 39.237200 60.000000] -0.922431 0.000000 0.000000 -0.386163 */;

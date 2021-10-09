@@ -26,7 +26,7 @@ VALUES (40523,   1, 'Contact Instructions') /* Name */
      , (40523,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40523,   1,   33554773) /* Setup */
-     , (40523,   3,  536870932) /* SoundTable */
-     , (40523,   8,  100688999) /* Icon */
-     , (40523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40523,   1, 0x02000155) /* Setup */
+     , (40523,   3, 0x20000014) /* SoundTable */
+     , (40523,   8, 0x06006467) /* Icon */
+     , (40523,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,6 +27,6 @@ VALUES (30251,   1, 'Medicated Mana Kit') /* Name */
      , (30251,  16, 'This Medicated Mana Kit does not last long, but it is very powerful!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30251,   1,   33555194) /* Setup */
-     , (30251,   8,  100686703) /* Icon */
-     , (30251,  52,  100686604) /* IconUnderlay */;
+VALUES (30251,   1, 0x020002FA) /* Setup */
+     , (30251,   8, 0x06005B6F) /* Icon */
+     , (30251,  52, 0x06005B0C) /* IconUnderlay */;

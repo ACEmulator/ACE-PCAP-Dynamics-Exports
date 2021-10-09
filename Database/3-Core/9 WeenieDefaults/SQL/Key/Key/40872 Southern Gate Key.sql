@@ -23,7 +23,7 @@ VALUES (40872,   1, 'Southern Gate Key') /* Name */
      , (40872,  16, 'A key marked for use with the southern gate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40872,   1,   33554784) /* Setup */
-     , (40872,   3,  536870932) /* SoundTable */
-     , (40872,   8,  100667485) /* Icon */
-     , (40872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40872,   1, 0x02000160) /* Setup */
+     , (40872,   3, 0x20000014) /* SoundTable */
+     , (40872,   8, 0x0600105D) /* Icon */
+     , (40872,  22, 0x3400002B) /* PhysicsEffectTable */;

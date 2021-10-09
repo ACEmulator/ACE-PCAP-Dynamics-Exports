@@ -29,20 +29,20 @@ VALUES (35853,   1, 'Pau Yajin') /* Name */
      , (35853,   5, 'Dowser') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35853,   1,   33554433) /* Setup */
-     , (35853,   2,  150994945) /* MotionTable */
-     , (35853,   3,  536870913) /* SoundTable */
-     , (35853,   6,   67108990) /* PaletteBase */
-     , (35853,   8,  100667446) /* Icon */
-     , (35853,   9,   83890436) /* EyesTexture */
-     , (35853,  10,   83890550) /* NoseTexture */
-     , (35853,  11,   83890641) /* MouthTexture */
-     , (35853,  15,   67117073) /* HairPalette */
-     , (35853,  16,   67110062) /* EyesPalette */
-     , (35853,  17,   67110057) /* SkinPalette */;
+VALUES (35853,   1, 0x02000001) /* Setup */
+     , (35853,   2, 0x09000001) /* MotionTable */
+     , (35853,   3, 0x20000001) /* SoundTable */
+     , (35853,   6, 0x0400007E) /* PaletteBase */
+     , (35853,   8, 0x06001036) /* Icon */
+     , (35853,   9, 0x05001104) /* EyesTexture */
+     , (35853,  10, 0x05001176) /* NoseTexture */
+     , (35853,  11, 0x050011D1) /* MouthTexture */
+     , (35853,  15, 0x04002011) /* HairPalette */
+     , (35853,  16, 0x040004AE) /* EyesPalette */
+     , (35853,  17, 0x040004A9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35853, 8040, 3378184236, 134, 80, 12.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (35853, 8040, 0xC95B002C, 134, 80, 12.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B002C [134.000000 80.000000 12.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

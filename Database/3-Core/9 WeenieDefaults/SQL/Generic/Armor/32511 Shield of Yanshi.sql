@@ -41,16 +41,16 @@ VALUES (32511,   1, 'Shield of Yanshi') /* Name */
      , (32511,  16, 'A shield given by Royal Guard Adrana, for valor in the defense of Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32511,   1,   33559808) /* Setup */
-     , (32511,   3,  536870932) /* SoundTable */
-     , (32511,   8,  100688541) /* Icon */
-     , (32511,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32511,   1, 0x02001500) /* Setup */
+     , (32511,   3, 0x20000014) /* SoundTable */
+     , (32511,   8, 0x0600629D) /* Icon */
+     , (32511,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32511, 8040, 3027238937, 80.57478, 19.8789, 41.926, -0.3604304, 0.5309144, 0.654304, 0.4001327) /* PCAPRecordedLocation */
+VALUES (32511, 8040, 0xB4700019, 80.57478, 19.8789, 41.926, -0.36043, 0.530914, 0.654304, 0.400133) /* PCAPRecordedLocation */
 /* @teleloc 0xB4700019 [80.574780 19.878900 41.926000] -0.360430 0.530914 0.654304 0.400133 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32511,   249,      2)  /* InvulnerabilitySelf6 */
-     , (32511,  2108,      2)  /* Impenetrability7 */
-     , (32511,  2659,      2)  /* ModerateCoordination */;
+VALUES (32511,  2659,      2)  /* ModerateCoordination */
+     , (32511,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32511,  2108,      2)  /* Impenetrability7 */;

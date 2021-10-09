@@ -21,12 +21,12 @@ VALUES (35936,   1, 'Olthoi Cistern') /* Name */
      , (35936,  14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35936,   1,   33557286) /* Setup */
-     , (35936,   2,  150995240) /* MotionTable */
-     , (35936,   3,  536870991) /* SoundTable */
-     , (35936,   8,  100674304) /* Icon */
-     , (35936,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35936,   1, 0x02000B26) /* Setup */
+     , (35936,   2, 0x09000128) /* MotionTable */
+     , (35936,   3, 0x2000004F) /* SoundTable */
+     , (35936,   8, 0x06002B00) /* Icon */
+     , (35936,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35936, 8040, 3350659342, -65.4624, 85.833, 92.1889, -0.4298739, 0, 0, -0.9028889) /* PCAPRecordedLocation */
+VALUES (35936, 8040, 0xC7B7010E, -65.4624, 85.833, 92.1889, -0.429874, 0, 0, -0.902889) /* PCAPRecordedLocation */
 /* @teleloc 0xC7B7010E [-65.462400 85.833000 92.188900] -0.429874 0.000000 0.000000 -0.902889 */;

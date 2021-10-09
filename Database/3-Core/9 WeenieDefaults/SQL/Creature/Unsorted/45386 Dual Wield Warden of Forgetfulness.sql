@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45386,   1, 'Dual Wield Warden of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45386,   1,   33555352) /* Setup */
-     , (45386,   2,  150995147) /* MotionTable */
-     , (45386,   3,  536871052) /* SoundTable */
-     , (45386,   8,  100667624) /* Icon */
-     , (45386,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (45386,   1, 0x02000398) /* Setup */
+     , (45386,   2, 0x090000CB) /* MotionTable */
+     , (45386,   3, 0x2000008C) /* SoundTable */
+     , (45386,   8, 0x060010E8) /* Icon */
+     , (45386,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45386, 8040, 1565000048, 44.437, -34.346, 18, -0.892484, 0, 0, -0.451078) /* PCAPRecordedLocation */
+VALUES (45386, 8040, 0x5D480170, 44.437, -34.346, 18, -0.892484, 0, 0, -0.451078) /* PCAPRecordedLocation */
 /* @teleloc 0x5D480170 [44.437000 -34.346000 18.000000] -0.892484 0.000000 0.000000 -0.451078 */;

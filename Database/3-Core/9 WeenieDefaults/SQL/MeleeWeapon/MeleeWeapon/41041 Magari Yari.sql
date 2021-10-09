@@ -42,8 +42,8 @@ VALUES (41041,   1, 'Magari Yari') /* Name */
      , (41041,  16, 'Magari Yari') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41041,   1,   33560795) /* Setup */
-     , (41041,   3,  536870932) /* SoundTable */
-     , (41041,   6,   67115558) /* PaletteBase */
-     , (41041,   8,  100690511) /* Icon */
-     , (41041,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41041,   1, 0x020018DB) /* Setup */
+     , (41041,   3, 0x20000014) /* SoundTable */
+     , (41041,   6, 0x04001A26) /* PaletteBase */
+     , (41041,   8, 0x06006A4F) /* Icon */
+     , (41041,  22, 0x3400002B) /* PhysicsEffectTable */;

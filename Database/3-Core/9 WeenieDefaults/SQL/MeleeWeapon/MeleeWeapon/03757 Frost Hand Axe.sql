@@ -44,7 +44,7 @@ VALUES (3757,   1, 'Frost Hand Axe') /* Name */
      , (3757,  16, 'Frost Hand Axe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3757,   1,   33555705) /* Setup */
-     , (3757,   3,  536870932) /* SoundTable */
-     , (3757,   8,  100670216) /* Icon */
-     , (3757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3757,   1, 0x020004F9) /* Setup */
+     , (3757,   3, 0x20000014) /* SoundTable */
+     , (3757,   8, 0x06001B08) /* Icon */
+     , (3757,  22, 0x3400002B) /* PhysicsEffectTable */;

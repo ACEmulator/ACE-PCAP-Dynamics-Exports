@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37604,   1, 'Blight Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37604,   1,   33554493) /* Setup */
-     , (37604,   2,  150994958) /* MotionTable */
-     , (37604,   3,  536870927) /* SoundTable */
-     , (37604,   6,   67109300) /* PaletteBase */
-     , (37604,   8,  100667451) /* Icon */
-     , (37604,  22,  872415267) /* PhysicsEffectTable */
+VALUES (37604,   1, 0x0200003D) /* Setup */
+     , (37604,   2, 0x0900000E) /* MotionTable */
+     , (37604,   3, 0x2000000F) /* SoundTable */
+     , (37604,   6, 0x040001B4) /* PaletteBase */
+     , (37604,   8, 0x0600103B) /* Icon */
+     , (37604,  22, 0x34000023) /* PhysicsEffectTable */
      , (37604,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37604, 8040, 1211040003, 38.9362, 91.9433, -15.592, 0.228189, 0, 0, -0.973617) /* PCAPRecordedLocation */
+VALUES (37604, 8040, 0x482F0103, 38.9362, 91.9433, -15.592, 0.228189, 0, 0, -0.973617) /* PCAPRecordedLocation */
 /* @teleloc 0x482F0103 [38.936200 91.943300 -15.592000] 0.228189 0.000000 0.000000 -0.973617 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

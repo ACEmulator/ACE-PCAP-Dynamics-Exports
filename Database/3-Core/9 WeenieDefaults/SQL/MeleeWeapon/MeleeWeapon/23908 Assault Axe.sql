@@ -47,15 +47,15 @@ VALUES (23908,   1, 'Assault Axe') /* Name */
      , (23908,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23908,   1,   33557200) /* Setup */
-     , (23908,   3,  536870932) /* SoundTable */
-     , (23908,   6,   67111919) /* PaletteBase */
-     , (23908,   8,  100671742) /* Icon */
-     , (23908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23908,   1, 0x02000AD0) /* Setup */
+     , (23908,   3, 0x20000014) /* SoundTable */
+     , (23908,   6, 0x04000BEF) /* PaletteBase */
+     , (23908,   8, 0x060020FE) /* Icon */
+     , (23908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23908,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23908,  1331,      2)  /* StrengthSelf5 */
-     , (23908,  1590,      2)  /* HeartSeekerSelf4 */
-     , (23908,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23908,  2004,      2)  /* WarriorsVitality */;
+VALUES (23908,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23908,  2004,      2)  /* WarriorsVitality */
+     , (23908,  1331,      2)  /* StrengthSelf5 */
+     , (23908,  1590,      2)  /* HeartSeekerSelf4 */;

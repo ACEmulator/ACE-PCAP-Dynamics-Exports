@@ -19,9 +19,9 @@ VALUES (37303,   1, 'Glyph of Focus') /* Name */
      , (37303,  20, 'Glyphs of Focus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37303,   1,   33554809) /* Setup */
-     , (37303,   3,  536870932) /* SoundTable */
-     , (37303,   6,   67111919) /* PaletteBase */
-     , (37303,   8,  100690191) /* Icon */
-     , (37303,  22,  872415275) /* PhysicsEffectTable */
-     , (37303,  50,  100686652) /* IconOverlay */;
+VALUES (37303,   1, 0x02000179) /* Setup */
+     , (37303,   3, 0x20000014) /* SoundTable */
+     , (37303,   6, 0x04000BEF) /* PaletteBase */
+     , (37303,   8, 0x0600690F) /* Icon */
+     , (37303,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37303,  50, 0x06005B3C) /* IconOverlay */;

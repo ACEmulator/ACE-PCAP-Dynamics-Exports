@@ -40,7 +40,7 @@ VALUES (22727,   1, 'Nanner Cream Pie') /* Name */
      , (22727,  15, 'A nanner cream pie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22727,   1,   33555978) /* Setup */
-     , (22727,   3,  536871060) /* SoundTable */
-     , (22727,   8,  100673812) /* Icon */
-     , (22727,  22,  872415394) /* PhysicsEffectTable */;
+VALUES (22727,   1, 0x0200060A) /* Setup */
+     , (22727,   3, 0x20000094) /* SoundTable */
+     , (22727,   8, 0x06002914) /* Icon */
+     , (22727,  22, 0x340000A2) /* PhysicsEffectTable */;

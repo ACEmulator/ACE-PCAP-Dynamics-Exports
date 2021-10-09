@@ -36,21 +36,21 @@ VALUES (26532,   1, 'Ixir''s Staff of Eyes') /* Name */
      , (26532,  15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26532,   1,   33558596) /* Setup */
-     , (26532,   3,  536870932) /* SoundTable */
-     , (26532,   6,   67114956) /* PaletteBase */
-     , (26532,   8,  100675776) /* Icon */
-     , (26532,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26532,   1, 0x02001044) /* Setup */
+     , (26532,   3, 0x20000014) /* SoundTable */
+     , (26532,   6, 0x040017CC) /* PaletteBase */
+     , (26532,   8, 0x060030C0) /* Icon */
+     , (26532,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26532,  28,       3071) /* Spell - WardRebirth */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26532, 8040, 459073, 70.46362, -36.85041, -0.071, -0.6765118, -0.6765118, -0.205747, -0.205747) /* PCAPRecordedLocation */
+VALUES (26532, 8040, 0x00070141, 70.46362, -36.85041, -0.071, -0.676512, -0.676512, -0.205747, -0.205747) /* PCAPRecordedLocation */
 /* @teleloc 0x00070141 [70.463620 -36.850410 -0.071000] -0.676512 -0.676512 -0.205747 -0.205747 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26532,   188,      2)  /* RejuvenationOther6 */
+VALUES (26532,  1360,      2)  /* EnduranceOther6 */
      , (26532,   211,      2)  /* ManaRenewalOther6 */
-     , (26532,  1360,      2)  /* EnduranceOther6 */
      , (26532,  1432,      2)  /* FocusOther6 */
+     , (26532,  2975,      2)  /* ModerateItemEnchantmentAptitude */
      , (26532,  1456,      2)  /* WillpowerOther6 */
-     , (26532,  2975,      2)  /* ModerateItemEnchantmentAptitude */;
+     , (26532,   188,      2)  /* RejuvenationOther6 */;

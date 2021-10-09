@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (182,   1, 'Auroch Yearling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (182,   1,   33555220) /* Setup */
-     , (182,   2,  150994969) /* MotionTable */
-     , (182,   3,  536870916) /* SoundTable */
-     , (182,   6,   67109302) /* PaletteBase */
-     , (182,   8,  100667936) /* Icon */
-     , (182,  22,  872415254) /* PhysicsEffectTable */;
+VALUES (182,   1, 0x02000314) /* Setup */
+     , (182,   2, 0x09000019) /* MotionTable */
+     , (182,   3, 0x20000004) /* SoundTable */
+     , (182,   6, 0x040001B6) /* PaletteBase */
+     , (182,   8, 0x06001220) /* Icon */
+     , (182,  22, 0x34000016) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (182, 8040, 3043885061, 6.585045, 117.797, 38.34996, -0.4023804, 0, 0, -0.9154726) /* PCAPRecordedLocation */
+VALUES (182, 8040, 0xB56E0005, 6.585045, 117.797, 38.34996, -0.40238, 0, 0, -0.915473) /* PCAPRecordedLocation */
 /* @teleloc 0xB56E0005 [6.585045 117.797000 38.349960] -0.402380 0.000000 0.000000 -0.915473 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

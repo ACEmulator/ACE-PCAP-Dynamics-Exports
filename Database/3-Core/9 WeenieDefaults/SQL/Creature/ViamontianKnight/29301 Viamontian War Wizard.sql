@@ -23,21 +23,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29301,   1, 'Viamontian War Wizard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29301,   1,   33554433) /* Setup */
-     , (29301,   2,  150994945) /* MotionTable */
-     , (29301,   3,  536870913) /* SoundTable */
-     , (29301,   6,   67108990) /* PaletteBase */
-     , (29301,   8,  100667446) /* Icon */
-     , (29301,   9,   83890510) /* EyesTexture */
-     , (29301,  10,   83890550) /* NoseTexture */
-     , (29301,  11,   83890613) /* MouthTexture */
-     , (29301,  15,   67116983) /* HairPalette */
-     , (29301,  16,   67110065) /* EyesPalette */
-     , (29301,  17,   67115907) /* SkinPalette */
-     , (29301,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (29301,   1, 0x02000001) /* Setup */
+     , (29301,   2, 0x09000001) /* MotionTable */
+     , (29301,   3, 0x20000001) /* SoundTable */
+     , (29301,   6, 0x0400007E) /* PaletteBase */
+     , (29301,   8, 0x06001036) /* Icon */
+     , (29301,   9, 0x0500114E) /* EyesTexture */
+     , (29301,  10, 0x05001176) /* NoseTexture */
+     , (29301,  11, 0x050011B5) /* MouthTexture */
+     , (29301,  15, 0x04001FB7) /* HairPalette */
+     , (29301,  16, 0x040004B1) /* EyesPalette */
+     , (29301,  17, 0x04001B83) /* SkinPalette */
+     , (29301,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29301, 8040, 1173487673, 176.3013, 13.0654, 52.005, 0.1541586, 0, 0, -0.9880461) /* PCAPRecordedLocation */
+VALUES (29301, 8040, 0x45F20039, 176.3013, 13.0654, 52.005, 0.154159, 0, 0, -0.988046) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20039 [176.301300 13.065400 52.005000] 0.154159 0.000000 0.000000 -0.988046 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

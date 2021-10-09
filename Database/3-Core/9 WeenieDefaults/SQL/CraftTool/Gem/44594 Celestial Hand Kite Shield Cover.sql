@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44594,   1, 'Celestial Hand Kite Shield Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44594,   1,   33556223) /* Setup */
-     , (44594,   3,  536870932) /* SoundTable */
-     , (44594,   6,   67111928) /* PaletteBase */
-     , (44594,   8,  100692029) /* Icon */
-     , (44594,  22,  872415275) /* PhysicsEffectTable */
-     , (44594,  50,  100667895) /* IconOverlay */
+VALUES (44594,   1, 0x020006FF) /* Setup */
+     , (44594,   3, 0x20000014) /* SoundTable */
+     , (44594,   6, 0x04000BF8) /* PaletteBase */
+     , (44594,   8, 0x0600703D) /* Icon */
+     , (44594,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44594,  50, 0x060011F7) /* IconOverlay */
      , (44594, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

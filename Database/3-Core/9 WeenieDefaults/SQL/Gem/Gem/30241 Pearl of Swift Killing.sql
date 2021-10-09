@@ -33,11 +33,11 @@ VALUES (30241,   1, 'Pearl of Swift Killing') /* Name */
      , (30241,  20, 'Pearls of Swift Killing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30241,   1,   33554809) /* Setup */
-     , (30241,   3,  536870932) /* SoundTable */
-     , (30241,   6,   67111919) /* PaletteBase */
-     , (30241,   8,  100686695) /* Icon */
-     , (30241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30241,   1, 0x02000179) /* Setup */
+     , (30241,   3, 0x20000014) /* SoundTable */
+     , (30241,   6, 0x04000BEF) /* PaletteBase */
+     , (30241,   8, 0x06005B67) /* Icon */
+     , (30241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30241,  28,       3739) /* Spell - SwiftKillerRare */
-     , (30241,  50,  100686689) /* IconOverlay */
-     , (30241,  52,  100686604) /* IconUnderlay */;
+     , (30241,  50, 0x06005B61) /* IconOverlay */
+     , (30241,  52, 0x06005B0C) /* IconUnderlay */;

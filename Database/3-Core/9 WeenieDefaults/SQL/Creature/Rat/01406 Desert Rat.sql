@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1406,   1, 'Desert Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1406,   1,   33554493) /* Setup */
-     , (1406,   2,  150994958) /* MotionTable */
-     , (1406,   3,  536870927) /* SoundTable */
-     , (1406,   6,   67109300) /* PaletteBase */
-     , (1406,   8,  100667451) /* Icon */
-     , (1406,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1406,   1, 0x0200003D) /* Setup */
+     , (1406,   2, 0x0900000E) /* MotionTable */
+     , (1406,   3, 0x2000000F) /* SoundTable */
+     , (1406,   6, 0x040001B4) /* PaletteBase */
+     , (1406,   8, 0x0600103B) /* Icon */
+     , (1406,  22, 0x34000023) /* PhysicsEffectTable */
      , (1406,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1406, 8040, 30212370, 50, -30, -5.988, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1406, 8040, 0x01CD0112, 50, -30, -5.988, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01CD0112 [50.000000 -30.000000 -5.988000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

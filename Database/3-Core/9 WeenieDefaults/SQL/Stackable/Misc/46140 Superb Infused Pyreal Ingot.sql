@@ -26,7 +26,7 @@ VALUES (46140,   1, 'Superb Infused Pyreal Ingot') /* Name */
      , (46140,  16, 'A pyreal ingot of exceedingly high quality infused with the essence of missile weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46140,   1,   33555677) /* Setup */
-     , (46140,   3,  536870932) /* SoundTable */
-     , (46140,   8,  100670501) /* Icon */
-     , (46140,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46140,   1, 0x020004DD) /* Setup */
+     , (46140,   3, 0x20000014) /* SoundTable */
+     , (46140,   8, 0x06001C25) /* Icon */
+     , (46140,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,8 +36,8 @@ VALUES (89,   1, 'Studded Leather Pauldrons') /* Name */
      , (89,  16, 'Studded Leather Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (89,   1,   33554641) /* Setup */
-     , (89,   3,  536870932) /* SoundTable */
-     , (89,   6,   67108990) /* PaletteBase */
-     , (89,   8,  100669555) /* Icon */
-     , (89,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (89,   1, 0x020000D1) /* Setup */
+     , (89,   3, 0x20000014) /* SoundTable */
+     , (89,   6, 0x0400007E) /* PaletteBase */
+     , (89,   8, 0x06001873) /* Icon */
+     , (89,  22, 0x3400002B) /* PhysicsEffectTable */;

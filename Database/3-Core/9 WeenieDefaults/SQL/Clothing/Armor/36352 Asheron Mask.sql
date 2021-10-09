@@ -32,7 +32,7 @@ VALUES (36352,   1, 'Asheron Mask') /* Name */
      , (36352,  16, 'A mask, made out of the labels of thousands of stout bottles, painted to be an eerily accurate likeness of Asheron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36352,   1,   33560383) /* Setup */
-     , (36352,   3,  536870932) /* SoundTable */
-     , (36352,   8,  100689622) /* Icon */
-     , (36352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36352,   1, 0x0200173F) /* Setup */
+     , (36352,   3, 0x20000014) /* SoundTable */
+     , (36352,   8, 0x060066D6) /* Icon */
+     , (36352,  22, 0x3400002B) /* PhysicsEffectTable */;

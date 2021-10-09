@@ -30,11 +30,11 @@ VALUES (7864,   1, 'Hearty Healing Holtburger') /* Name */
      , (7864,  20, 'Hearty Healing Holtburgers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7864,   1,   33556680) /* Setup */
-     , (7864,   3,  536870932) /* SoundTable */
-     , (7864,   8,  100670859) /* Icon */
-     , (7864,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7864,   1, 0x020008C8) /* Setup */
+     , (7864,   3, 0x20000014) /* SoundTable */
+     , (7864,   8, 0x06001D8B) /* Icon */
+     , (7864,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7864, 8040, 3111059485, 84.64558, 105.5376, 18.32822, -0.8746914, 0, 0, -0.4846802) /* PCAPRecordedLocation */
+VALUES (7864, 8040, 0xB96F001D, 84.64558, 105.5376, 18.32822, -0.874691, 0, 0, -0.48468) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [84.645580 105.537600 18.328220] -0.874691 0.000000 0.000000 -0.484680 */;

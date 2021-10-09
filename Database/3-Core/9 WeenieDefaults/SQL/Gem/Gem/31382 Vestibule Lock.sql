@@ -24,5 +24,5 @@ VALUES (31382,   1, 'Vestibule Lock') /* Name */
      , (31382,  16, 'An ancient shadow artifact which appears to be the lock to a gateway of some kind. Shadow Hunter Killcrane''s knowledge of Shadow-lore has restored this lock to full capacity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31382,   1,   33556743) /* Setup */
-     , (31382,   8,  100687954) /* Icon */;
+VALUES (31382,   1, 0x02000907) /* Setup */
+     , (31382,   8, 0x06006052) /* Icon */;

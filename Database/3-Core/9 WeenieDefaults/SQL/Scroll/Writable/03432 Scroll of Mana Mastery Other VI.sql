@@ -23,7 +23,7 @@ VALUES (3432,   1, 'Scroll of Mana Mastery Other VI') /* Name */
 Increases the target''s Mana Conversion skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3432,   1,   33554826) /* Setup */
-     , (3432,   8,  100676466) /* Icon */
-     , (3432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3432,   1, 0x0200018A) /* Setup */
+     , (3432,   8, 0x06003372) /* Icon */
+     , (3432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3432,  28,        664) /* Spell - ManaMasteryOther6 */;

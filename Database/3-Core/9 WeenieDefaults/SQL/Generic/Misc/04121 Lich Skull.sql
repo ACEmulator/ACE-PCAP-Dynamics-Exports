@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4121,   1, 'Lich Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4121,   1,   33555205) /* Setup */
-     , (4121,   3,  536870932) /* SoundTable */
-     , (4121,   8,  100670821) /* Icon */
-     , (4121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4121,   1, 0x02000305) /* Setup */
+     , (4121,   3, 0x20000014) /* SoundTable */
+     , (4121,   8, 0x06001D65) /* Icon */
+     , (4121,  22, 0x3400002B) /* PhysicsEffectTable */;

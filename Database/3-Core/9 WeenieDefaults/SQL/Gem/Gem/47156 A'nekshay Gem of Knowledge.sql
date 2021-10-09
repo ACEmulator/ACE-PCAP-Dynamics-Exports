@@ -20,7 +20,7 @@ VALUES (47156,   1, 'A''nekshay Gem of Knowledge') /* Name */
      , (47156,  20, 'A''nekshay Gems of Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47156,   1,   33554809) /* Setup */
-     , (47156,   3,  536870932) /* SoundTable */
-     , (47156,   8,  100692974) /* Icon */
-     , (47156,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47156,   1, 0x02000179) /* Setup */
+     , (47156,   3, 0x20000014) /* SoundTable */
+     , (47156,   8, 0x060073EE) /* Icon */
+     , (47156,  22, 0x3400002B) /* PhysicsEffectTable */;

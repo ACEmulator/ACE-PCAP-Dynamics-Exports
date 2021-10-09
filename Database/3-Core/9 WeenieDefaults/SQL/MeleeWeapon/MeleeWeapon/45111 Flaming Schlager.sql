@@ -52,11 +52,11 @@ VALUES (45111,   1, 'Flaming Schlager') /* Name */
      , (45111,  16, 'Flaming Schlager of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45111,   1,   33561444) /* Setup */
-     , (45111,   3,  536870932) /* SoundTable */
-     , (45111,   6,   67111919) /* PaletteBase */
-     , (45111,   8,  100692299) /* Icon */
-     , (45111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45111,   1, 0x02001B64) /* Setup */
+     , (45111,   3, 0x20000014) /* SoundTable */
+     , (45111,   6, 0x04000BEF) /* PaletteBase */
+     , (45111,   8, 0x0600714B) /* Icon */
+     , (45111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45111,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46000,   1, 'Amateur Explorer Bracelet Of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46000,   1,   33554683) /* Setup */
-     , (46000,   3,  536870932) /* SoundTable */
-     , (46000,   6,   67111919) /* PaletteBase */
-     , (46000,   8,  100675470) /* Icon */
-     , (46000,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46000,   1, 0x020000FB) /* Setup */
+     , (46000,   3, 0x20000014) /* SoundTable */
+     , (46000,   6, 0x04000BEF) /* PaletteBase */
+     , (46000,   8, 0x06002F8E) /* Icon */
+     , (46000,  22, 0x3400002B) /* PhysicsEffectTable */;

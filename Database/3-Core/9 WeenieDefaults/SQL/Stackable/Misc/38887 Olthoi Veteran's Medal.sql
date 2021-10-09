@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38887,   1, 'Olthoi Veteran''s Medal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38887,   1,   33554669) /* Setup */
-     , (38887,   3,  536870932) /* SoundTable */
-     , (38887,   8,  100690263) /* Icon */
-     , (38887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38887,   1, 0x020000ED) /* Setup */
+     , (38887,   3, 0x20000014) /* SoundTable */
+     , (38887,   8, 0x06006957) /* Icon */
+     , (38887,  22, 0x3400002B) /* PhysicsEffectTable */;

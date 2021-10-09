@@ -38,18 +38,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40141,   1, 'Tome of Chill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40141,   1,   33560707) /* Setup */
-     , (40141,   3,  536870932) /* SoundTable */
-     , (40141,   8,  100690370) /* Icon */
-     , (40141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40141,   1, 0x02001883) /* Setup */
+     , (40141,   3, 0x20000014) /* SoundTable */
+     , (40141,   8, 0x060069C2) /* Icon */
+     , (40141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40141,  28,       4315) /* Spell - ManaBoostSelf8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40141, 8040, 3465871405, 142.8229, 96.5643, 19.929, -0.5089742, -0.5089742, -0.4908618, -0.4908618) /* PCAPRecordedLocation */
+VALUES (40141, 8040, 0xCE95002D, 142.8229, 96.5643, 19.929, -0.508974, -0.508974, -0.490862, -0.490862) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [142.822900 96.564300 19.929000] -0.508974 -0.508974 -0.490862 -0.490862 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40141,  2014,      2)  /* WizardsUltimateIntellect */
-     , (40141,  4493,      2)  /* ManaRenewalOther8 */
-     , (40141,  4601,      2)  /* ManaMasteryOther8 */
-     , (40141,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+VALUES (40141,  4493,      2)  /* ManaRenewalOther8 */
+     , (40141,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40141,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (40141,  4601,      2)  /* ManaMasteryOther8 */;

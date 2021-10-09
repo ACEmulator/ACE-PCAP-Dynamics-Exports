@@ -40,12 +40,12 @@ VALUES (41910,   1, 'Enhanced Eye of the Quiddity') /* Name */
      , (41910,  16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41910,   1,   33557115) /* Setup */
-     , (41910,   3,  536870932) /* SoundTable */
-     , (41910,   8,  100671692) /* Icon */
-     , (41910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41910,   1, 0x02000A7B) /* Setup */
+     , (41910,   3, 0x20000014) /* SoundTable */
+     , (41910,   8, 0x060020CC) /* Icon */
+     , (41910,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41910,   609,      2)  /* LifeMagicMasterySelf5 */
-     , (41910,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+VALUES (41910,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (41910,   609,      2)  /* LifeMagicMasterySelf5 */
      , (41910,  2287,      2)  /* ManaMasterySelf7 */;

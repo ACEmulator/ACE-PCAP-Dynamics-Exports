@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8215,   1, 'Mite Warrior Princess') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8215,   1,   33558657) /* Setup */
-     , (8215,   2,  150994955) /* MotionTable */
-     , (8215,   3,  536870923) /* SoundTable */
-     , (8215,   6,   67115137) /* PaletteBase */
-     , (8215,   8,  100667448) /* Icon */
-     , (8215,  22,  872415263) /* PhysicsEffectTable */;
+VALUES (8215,   1, 0x02001081) /* Setup */
+     , (8215,   2, 0x0900000B) /* MotionTable */
+     , (8215,   3, 0x2000000B) /* SoundTable */
+     , (8215,   6, 0x04001881) /* PaletteBase */
+     , (8215,   8, 0x06001038) /* Icon */
+     , (8215,  22, 0x3400001F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8215, 8040, 47317331, 29.8342, -50.0903, 6.006, 0.02085109, 0, 0, -0.9997826) /* PCAPRecordedLocation */
+VALUES (8215, 8040, 0x02D20153, 29.8342, -50.0903, 6.006, 0.020851, 0, 0, -0.999783) /* PCAPRecordedLocation */
 /* @teleloc 0x02D20153 [29.834200 -50.090300 6.006000] 0.020851 0.000000 0.000000 -0.999783 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

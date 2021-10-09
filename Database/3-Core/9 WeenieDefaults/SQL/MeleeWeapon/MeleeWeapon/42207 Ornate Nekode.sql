@@ -41,16 +41,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42207,   1, 'Ornate Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42207,   1,   33555996) /* Setup */
-     , (42207,   3,  536870932) /* SoundTable */
-     , (42207,   6,   67111919) /* PaletteBase */
-     , (42207,   8,  100670027) /* Icon */
-     , (42207,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42207,   1, 0x0200061C) /* Setup */
+     , (42207,   3, 0x20000014) /* SoundTable */
+     , (42207,   6, 0x04000BEF) /* PaletteBase */
+     , (42207,   8, 0x06001A4B) /* Icon */
+     , (42207,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42207, 8040, 4135714858, 143.0496, 47.42702, 57.7228, -0.603493, -0.603493, 0.3685054, 0.3685054) /* PCAPRecordedLocation */
+VALUES (42207, 8040, 0xF682002A, 143.0496, 47.42702, 57.7228, -0.603493, -0.603493, 0.368505, 0.368505) /* PCAPRecordedLocation */
 /* @teleloc 0xF682002A [143.049600 47.427020 57.722800] -0.603493 -0.603493 0.368505 0.368505 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42207,   414,      2)  /* HeavyWeaponsMasteryOther3 */
-     , (42207,  1613,      2)  /* BloodDrinkerSelf3 */;
+VALUES (42207,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (42207,   414,      2)  /* HeavyWeaponsMasteryOther3 */;

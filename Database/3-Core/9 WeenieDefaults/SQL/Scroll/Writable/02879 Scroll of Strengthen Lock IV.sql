@@ -23,11 +23,11 @@ VALUES (2879,   1, 'Scroll of Strengthen Lock IV') /* Name */
 Increases a lock''s resistance to picking by 75 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2879,   1,   33554826) /* Setup */
-     , (2879,   8,  100676678) /* Icon */
-     , (2879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2879,   1, 0x0200018A) /* Setup */
+     , (2879,   8, 0x06003446) /* Icon */
+     , (2879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2879,  28,       1578) /* Spell - StrengthenLock4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2879, 8040, 32309661, 47.63489, -111.3483, -11.9145, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (2879, 8040, 0x01ED019D, 47.63489, -111.3483, -11.9145, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01ED019D [47.634890 -111.348300 -11.914500] 0.707107 0.000000 0.000000 -0.707107 */;

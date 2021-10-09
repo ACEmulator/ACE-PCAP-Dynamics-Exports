@@ -26,6 +26,6 @@ VALUES (38234,   1, 'Celestial Hand Trade Token') /* Name */
      , (38234,  16, 'A token, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38234,   1,   33554802) /* Setup */
-     , (38234,   8,  100689461) /* Icon */
-     , (38234,  50,  100690177) /* IconOverlay */;
+VALUES (38234,   1, 0x02000172) /* Setup */
+     , (38234,   8, 0x06006635) /* Icon */
+     , (38234,  50, 0x06006901) /* IconOverlay */;

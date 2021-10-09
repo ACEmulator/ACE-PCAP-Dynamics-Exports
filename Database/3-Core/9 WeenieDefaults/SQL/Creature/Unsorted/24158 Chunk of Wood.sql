@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24158,   1, 'Chunk of Wood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24158,   1,   33558322) /* Setup */
-     , (24158,   2,  150995147) /* MotionTable */
-     , (24158,   3,  536870932) /* SoundTable */
-     , (24158,   8,  100674260) /* Icon */
-     , (24158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24158,   1, 0x02000F32) /* Setup */
+     , (24158,   2, 0x090000CB) /* MotionTable */
+     , (24158,   3, 0x20000014) /* SoundTable */
+     , (24158,   8, 0x06002AD4) /* Icon */
+     , (24158,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24158, 8040, 2678521885, 75.9116, 108.765, 67.6922, -0.456234, 0, 0, -0.88986) /* PCAPRecordedLocation */
+VALUES (24158, 8040, 0x9FA7001D, 75.9116, 108.765, 67.6922, -0.456234, 0, 0, -0.88986) /* PCAPRecordedLocation */
 /* @teleloc 0x9FA7001D [75.911600 108.765000 67.692200] -0.456234 0.000000 0.000000 -0.889860 */;

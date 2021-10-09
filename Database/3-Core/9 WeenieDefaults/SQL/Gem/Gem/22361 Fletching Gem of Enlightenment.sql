@@ -21,7 +21,7 @@ VALUES (22361,   1, 'Fletching Gem of Enlightenment') /* Name */
      , (22361,  14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to specialize the Fletching skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22361,   1,   33558088) /* Setup */
-     , (22361,   6,   67111919) /* PaletteBase */
-     , (22361,   8,  100673788) /* Icon */
-     , (22361,  50,  100673765) /* IconOverlay */;
+VALUES (22361,   1, 0x02000E48) /* Setup */
+     , (22361,   6, 0x04000BEF) /* PaletteBase */
+     , (22361,   8, 0x060028FC) /* Icon */
+     , (22361,  50, 0x060028E5) /* IconOverlay */;

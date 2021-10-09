@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40860,   1, 'Crystalline Array Satellite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40860,   1,   33558690) /* Setup */
-     , (40860,   2,  150995290) /* MotionTable */
-     , (40860,   3,  536871001) /* SoundTable */
-     , (40860,   6,   67113876) /* PaletteBase */
-     , (40860,   8,  100676420) /* Icon */
-     , (40860,  22,  872415389) /* PhysicsEffectTable */;
+VALUES (40860,   1, 0x020010A2) /* Setup */
+     , (40860,   2, 0x0900015A) /* MotionTable */
+     , (40860,   3, 0x20000059) /* SoundTable */
+     , (40860,   6, 0x04001394) /* PaletteBase */
+     , (40860,   8, 0x06003344) /* Icon */
+     , (40860,  22, 0x3400009D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40860, 8040, 778829826, 12.21683, 25.45154, 55.99833, 0.9850662, 0, 0, -0.1721758) /* PCAPRecordedLocation */
+VALUES (40860, 8040, 0x2E6C0002, 12.21683, 25.45154, 55.99833, 0.985066, 0, 0, -0.172176) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C0002 [12.216830 25.451540 55.998330] 0.985066 0.000000 0.000000 -0.172176 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

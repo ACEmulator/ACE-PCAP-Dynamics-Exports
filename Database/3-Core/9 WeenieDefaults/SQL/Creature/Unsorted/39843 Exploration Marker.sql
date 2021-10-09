@@ -26,13 +26,13 @@ VALUES (39843,   1, 'Exploration Marker') /* Name */
      , (39843,  16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39843,   1,   33560703) /* Setup */
-     , (39843,   2,  150995429) /* MotionTable */
-     , (39843,   3,  536870932) /* SoundTable */
-     , (39843,   6,   67113133) /* PaletteBase */
-     , (39843,   8,  100671368) /* Icon */
-     , (39843,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39843,   1, 0x0200187F) /* Setup */
+     , (39843,   2, 0x090001E5) /* MotionTable */
+     , (39843,   3, 0x20000014) /* SoundTable */
+     , (39843,   6, 0x040010AD) /* PaletteBase */
+     , (39843,   8, 0x06001F88) /* Icon */
+     , (39843,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39843, 8040, 7340289, -3.90521, -14.5094, -36, 0.702182, 0, 0, 0.711998) /* PCAPRecordedLocation */
+VALUES (39843, 8040, 0x00700101, -3.90521, -14.5094, -36, 0.702182, 0, 0, 0.711998) /* PCAPRecordedLocation */
 /* @teleloc 0x00700101 [-3.905210 -14.509400 -36.000000] 0.702182 0.000000 0.000000 0.711998 */;

@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43302,   1, 'Scroll of Nether Arc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43302,   1,   33554826) /* Setup */
-     , (43302,   8,  100691569) /* Icon */
-     , (43302,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43302,   1, 0x0200018A) /* Setup */
+     , (43302,   8, 0x06006E71) /* Icon */
+     , (43302,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43302,  28,       5369) /* Spell - NetherArc1 */;

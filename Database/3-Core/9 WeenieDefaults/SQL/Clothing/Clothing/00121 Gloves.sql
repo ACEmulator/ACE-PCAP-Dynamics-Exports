@@ -43,11 +43,11 @@ VALUES (121,   1, 'Gloves') /* Name */
      , (121,  16, 'Cloth Gloves of Fletching Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (121,   1,   33554648) /* Setup */
-     , (121,   3,  536870932) /* SoundTable */
-     , (121,   6,   67108990) /* PaletteBase */
-     , (121,   8,  100669143) /* Icon */
-     , (121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (121,   1, 0x020000D8) /* Setup */
+     , (121,   3, 0x20000014) /* SoundTable */
+     , (121,   6, 0x0400007E) /* PaletteBase */
+     , (121,   8, 0x060016D7) /* Icon */
+     , (121,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (121,  1486,      2)  /* Impenetrability6 */

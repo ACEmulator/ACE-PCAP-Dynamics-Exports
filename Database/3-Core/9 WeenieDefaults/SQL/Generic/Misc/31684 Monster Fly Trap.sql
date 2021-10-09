@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31684,   1, 'Monster Fly Trap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31684,   1,   33559603) /* Setup */
-     , (31684,   3,  536870932) /* SoundTable */
-     , (31684,   8,  100687930) /* Icon */
-     , (31684,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31684,   1, 0x02001433) /* Setup */
+     , (31684,   3, 0x20000014) /* SoundTable */
+     , (31684,   8, 0x0600603A) /* Icon */
+     , (31684,  22, 0x3400002B) /* PhysicsEffectTable */;

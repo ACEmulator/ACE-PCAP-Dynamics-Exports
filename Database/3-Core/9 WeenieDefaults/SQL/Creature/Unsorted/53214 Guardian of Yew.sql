@@ -27,12 +27,12 @@ VALUES (53214,   1, 'Guardian of Yew') /* Name */
      , (53214,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53214,   1,   33558954) /* Setup */
-     , (53214,   2,  150995147) /* MotionTable */
-     , (53214,   3,  536871052) /* SoundTable */
-     , (53214,   8,  100688311) /* Icon */
-     , (53214,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53214,   1, 0x020011AA) /* Setup */
+     , (53214,   2, 0x090000CB) /* MotionTable */
+     , (53214,   3, 0x2000008C) /* SoundTable */
+     , (53214,   8, 0x060061B7) /* Icon */
+     , (53214,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53214, 8040, 3007905819, 82.3, 61, 60.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53214, 8040, 0xB349001B, 82.3, 61, 60.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001B [82.300000 61.000000 60.800000] 1.000000 0.000000 0.000000 0.000000 */;

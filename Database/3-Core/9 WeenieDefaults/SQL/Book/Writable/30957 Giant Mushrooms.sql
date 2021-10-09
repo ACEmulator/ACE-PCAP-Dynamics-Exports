@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30957,   1, 'Giant Mushrooms') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30957,   1,   33559084) /* Setup */
-     , (30957,   3,  536870932) /* SoundTable */
-     , (30957,   6,   67112626) /* PaletteBase */
-     , (30957,   8,  100675746) /* Icon */
-     , (30957,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30957,   1, 0x0200122C) /* Setup */
+     , (30957,   3, 0x20000014) /* SoundTable */
+     , (30957,   6, 0x04000EB2) /* PaletteBase */
+     , (30957,   8, 0x060030A2) /* Icon */
+     , (30957,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30957, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

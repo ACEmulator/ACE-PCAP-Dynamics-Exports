@@ -23,7 +23,7 @@ VALUES (32200,   1, 'Blue Blanket') /* Name */
      , (32200,  16, 'A simple blue blanket.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32200,   1,   33555063) /* Setup */
-     , (32200,   3,  536870932) /* SoundTable */
-     , (32200,   8,  100688459) /* Icon */
-     , (32200,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32200,   1, 0x02000277) /* Setup */
+     , (32200,   3, 0x20000014) /* SoundTable */
+     , (32200,   8, 0x0600624B) /* Icon */
+     , (32200,  22, 0x3400002B) /* PhysicsEffectTable */;

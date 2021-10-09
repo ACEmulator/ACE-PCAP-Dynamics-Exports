@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27851,   1, 'The Weapons of the Singularity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27851,   1,   33559084) /* Setup */
-     , (27851,   3,  536870932) /* SoundTable */
-     , (27851,   6,   67112626) /* PaletteBase */
-     , (27851,   8,  100675751) /* Icon */
-     , (27851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27851,   1, 0x0200122C) /* Setup */
+     , (27851,   3, 0x20000014) /* SoundTable */
+     , (27851,   6, 0x04000EB2) /* PaletteBase */
+     , (27851,   8, 0x060030A7) /* Icon */
+     , (27851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27851, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

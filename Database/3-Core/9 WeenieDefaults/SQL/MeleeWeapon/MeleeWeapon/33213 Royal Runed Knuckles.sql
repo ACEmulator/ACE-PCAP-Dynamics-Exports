@@ -46,21 +46,21 @@ VALUES (33213,   1, 'Royal Runed Knuckles') /* Name */
      , (33213,  15, 'A set of fighting knuckles crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33213,   1,   33559930) /* Setup */
-     , (33213,   3,  536870932) /* SoundTable */
-     , (33213,   6,   67115556) /* PaletteBase */
-     , (33213,   8,  100687027) /* Icon */
-     , (33213,  22,  872415275) /* PhysicsEffectTable */
-     , (33213,  50,  100688914) /* IconOverlay */
+VALUES (33213,   1, 0x0200157A) /* Setup */
+     , (33213,   3, 0x20000014) /* SoundTable */
+     , (33213,   6, 0x04001A24) /* PaletteBase */
+     , (33213,   8, 0x06005CB3) /* Icon */
+     , (33213,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33213,  50, 0x06006412) /* IconOverlay */
      , (33213,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33213, 8040, 23855554, 58.34679, -31.33644, -0.071, -0.6913153, -0.6913153, -0.1486042, -0.1486042) /* PCAPRecordedLocation */
+VALUES (33213, 8040, 0x016C01C2, 58.34679, -31.33644, -0.071, -0.691315, -0.691315, -0.148604, -0.148604) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.346790 -31.336440 -0.071000] -0.691315 -0.691315 -0.148604 -0.148604 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33213,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33213,  2101,      2)  /* DefenderSelf7 */
-     , (33213,  2106,      2)  /* HeartSeekerSelf7 */
+VALUES (33213,  2689,      2)  /* ModerateDaggerAptitude */
      , (33213,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33213,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (33213,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33213,  2101,      2)  /* DefenderSelf7 */
+     , (33213,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -23,8 +23,8 @@ VALUES (51705,   1, 'Shroud of Spite') /* Name */
      , (51705,  16, 'A scrap of cloth torn from the Apparition of Spite. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51705,   1,   33554854) /* Setup */
-     , (51705,   3,  536870932) /* SoundTable */
-     , (51705,   6,   67108990) /* PaletteBase */
-     , (51705,   8,  100693210) /* Icon */
-     , (51705,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51705,   1, 0x020001A6) /* Setup */
+     , (51705,   3, 0x20000014) /* SoundTable */
+     , (51705,   6, 0x0400007E) /* PaletteBase */
+     , (51705,   8, 0x060074DA) /* Icon */
+     , (51705,  22, 0x3400002B) /* PhysicsEffectTable */;

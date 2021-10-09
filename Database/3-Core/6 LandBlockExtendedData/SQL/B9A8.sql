@@ -29,15 +29,15 @@ VALUES (0x7B9A8005,   226, 0xB9A8000C, 33.93428, 85.86502, 80.81714, 1, 0, 0, 0,
 /* @teleloc 0xB9A8000C [33.934280 85.865020 80.817140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9A8006,  2575, 0xB9A80014, 57.65272, 85.46953, 84.72314, 0.2461304, 0, 0, -0.9692367,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
+VALUES (0x7B9A8006,  2575, 0xB9A80014, 57.65272, 85.46953, 84.72314, 0.24613, 0, 0, -0.969237,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
 /* @teleloc 0xB9A80014 [57.652720 85.469530 84.723140] 0.246130 0.000000 0.000000 -0.969237 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9A8007, 28878, 0xB9A80015, 52.28079, 109.6447, 84.71597, 0.2461304, 0, 0, -0.9692367,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
+VALUES (0x7B9A8007, 28878, 0xB9A80015, 52.28079, 109.6447, 84.71597, 0.24613, 0, 0, -0.969237,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
 /* @teleloc 0xB9A80015 [52.280790 109.644700 84.715970] 0.246130 0.000000 0.000000 -0.969237 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9A8008,  1542, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.2461304, 0, 0, -0.9692367, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B9A8008,  1542, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.24613, 0, 0, -0.969237, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB9A80015 [53.212200 104.339500 84.868710] 0.246130 0.000000 0.000000 -0.969237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -47,7 +47,7 @@ VALUES (0x7B9A8008, 0x7B9A8009, '2019-02-10 00:00:00') /* Old Gravestone (34130)
      , (0x7B9A8008, 0x7B9A800C, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9A8009, 34130, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.2461304, 0, 0, -0.9692367,  True, '2019-02-10 00:00:00'); /* Old Gravestone */
+VALUES (0x7B9A8009, 34130, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.24613, 0, 0, -0.969237,  True, '2019-02-10 00:00:00'); /* Old Gravestone */
 /* @teleloc 0xB9A80015 [53.212200 104.339500 84.868710] 0.246130 0.000000 0.000000 -0.969237 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

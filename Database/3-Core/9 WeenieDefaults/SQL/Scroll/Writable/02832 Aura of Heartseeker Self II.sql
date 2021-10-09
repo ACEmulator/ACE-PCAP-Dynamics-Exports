@@ -23,7 +23,7 @@ VALUES (2832,   1, 'Aura of Heartseeker Self II') /* Name */
 Increases a weapon''s Attack Skill modifier by 5.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2832,   1,   33554826) /* Setup */
-     , (2832,   8,  100676660) /* Icon */
-     , (2832,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2832,   1, 0x0200018A) /* Setup */
+     , (2832,   8, 0x06003434) /* Icon */
+     , (2832,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2832,  28,       1588) /* Spell - HeartSeekerSelf2 */;

@@ -51,15 +51,15 @@ VALUES (30567,   1, 'Lightning Sabra') /* Name */
      , (30567,  16, 'Lightning Sabra of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30567,   1,   33559460) /* Setup */
-     , (30567,   3,  536870932) /* SoundTable */
-     , (30567,   6,   67115557) /* PaletteBase */
-     , (30567,   8,  100686937) /* Icon */
-     , (30567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30567,   1, 0x020013A4) /* Setup */
+     , (30567,   3, 0x20000014) /* SoundTable */
+     , (30567,   6, 0x04001A25) /* PaletteBase */
+     , (30567,   8, 0x06005C59) /* Icon */
+     , (30567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30567,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30567,  1402,      2)  /* QuicknessSelf6 */
-     , (30567,  1615,      2)  /* BloodDrinkerSelf5 */
+VALUES (30567,  1615,      2)  /* BloodDrinkerSelf5 */
      , (30567,  1627,      2)  /* SwiftKillerSelf6 */
+     , (30567,  1402,      2)  /* QuicknessSelf6 */
      , (30567,  5884,      2)  /* CantripDualWieldAptitude1 */;

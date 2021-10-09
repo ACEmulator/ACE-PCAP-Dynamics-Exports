@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40582,   1, 'Skipping Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40582,   1,   33554809) /* Setup */
-     , (40582,   3,  536870932) /* SoundTable */
-     , (40582,   6,   67111919) /* PaletteBase */
-     , (40582,   8,  100670073) /* Icon */
-     , (40582,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40582,   1, 0x02000179) /* Setup */
+     , (40582,   3, 0x20000014) /* SoundTable */
+     , (40582,   6, 0x04000BEF) /* PaletteBase */
+     , (40582,   8, 0x06001A79) /* Icon */
+     , (40582,  22, 0x3400002B) /* PhysicsEffectTable */;

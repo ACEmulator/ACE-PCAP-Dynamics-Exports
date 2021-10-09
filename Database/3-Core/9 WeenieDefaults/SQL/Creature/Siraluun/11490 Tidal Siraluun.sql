@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11490,   1, 'Tidal Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11490,   1,   33557059) /* Setup */
-     , (11490,   2,  150995131) /* MotionTable */
-     , (11490,   3,  536871034) /* SoundTable */
-     , (11490,   6,   67113247) /* PaletteBase */
-     , (11490,   8,  100671751) /* Icon */
-     , (11490,  22,  872415376) /* PhysicsEffectTable */;
+VALUES (11490,   1, 0x02000A43) /* Setup */
+     , (11490,   2, 0x090000BB) /* MotionTable */
+     , (11490,   3, 0x2000007A) /* SoundTable */
+     , (11490,   6, 0x0400111F) /* PaletteBase */
+     , (11490,   8, 0x06002107) /* Icon */
+     , (11490,  22, 0x34000090) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11490, 8040, 414318634, 126.9383, 29.44477, 43.92978, -0.7212998, 0, 0, -0.692623) /* PCAPRecordedLocation */
+VALUES (11490, 8040, 0x18B2002A, 126.9383, 29.44477, 43.92978, -0.7213, 0, 0, -0.692623) /* PCAPRecordedLocation */
 /* @teleloc 0x18B2002A [126.938300 29.444770 43.929780] -0.721300 0.000000 0.000000 -0.692623 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

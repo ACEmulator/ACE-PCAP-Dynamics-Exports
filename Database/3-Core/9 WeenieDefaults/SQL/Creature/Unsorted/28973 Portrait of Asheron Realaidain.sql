@@ -26,11 +26,11 @@ VALUES (28973,   1, 'Portrait of Asheron Realaidain') /* Name */
      , (28973,  16, 'A portrait of Asheron Realaidain. It is a masterpiece. Hevk Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28973,   1,   33558988) /* Setup */
-     , (28973,   2,  150995312) /* MotionTable */
-     , (28973,   3,  536870930) /* SoundTable */
-     , (28973,   8,  100677075) /* Icon */;
+VALUES (28973,   1, 0x020011CC) /* Setup */
+     , (28973,   2, 0x09000170) /* MotionTable */
+     , (28973,   3, 0x20000012) /* SoundTable */
+     , (28973,   8, 0x060035D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28973, 8040, 26542830, 247.763, -231.52, 0, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
+VALUES (28973, 8040, 0x019502EE, 247.763, -231.52, 0, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x019502EE [247.763000 -231.520000 0.000000] 0.382683 0.000000 0.000000 -0.923880 */;

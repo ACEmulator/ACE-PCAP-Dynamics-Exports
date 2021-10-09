@@ -21,8 +21,8 @@ VALUES (8044,   1, 'Hennacin Dye Pot') /* Name */
      , (8044,  20, 'Hennacin Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8044,   1,   33556753) /* Setup */
-     , (8044,   3,  536870932) /* SoundTable */
-     , (8044,   6,   67111919) /* PaletteBase */
-     , (8044,   8,  100672337) /* Icon */
-     , (8044,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8044,   1, 0x02000911) /* Setup */
+     , (8044,   3, 0x20000014) /* SoundTable */
+     , (8044,   6, 0x04000BEF) /* PaletteBase */
+     , (8044,   8, 0x06002351) /* Icon */
+     , (8044,  22, 0x3400002B) /* PhysicsEffectTable */;

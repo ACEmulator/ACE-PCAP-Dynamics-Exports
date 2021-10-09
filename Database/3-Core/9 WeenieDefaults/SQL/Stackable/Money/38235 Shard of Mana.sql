@@ -20,5 +20,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38235,   1, 'Shard of Mana') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38235,   1,   33555641) /* Setup */
-     , (38235,   8,  100690181) /* Icon */;
+VALUES (38235,   1, 0x020004B9) /* Setup */
+     , (38235,   8, 0x06006905) /* Icon */;

@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29483,   1, 'Ruschk Icehold') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29483,   1,   33555925) /* Setup */
-     , (29483,   2,  150994947) /* MotionTable */
-     , (29483,   8,  100667499) /* Icon */;
+VALUES (29483,   1, 0x020005D5) /* Setup */
+     , (29483,   2, 0x09000003) /* MotionTable */
+     , (29483,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29483, 8040, 1055653933, 130, 108, 3.937, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (29483, 8040, 0x3EEC002D, 130, 108, 3.937, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x3EEC002D [130.000000 108.000000 3.937000] 0.707107 0.000000 0.000000 -0.707107 */;

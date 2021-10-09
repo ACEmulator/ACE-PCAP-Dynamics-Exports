@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9252,   1, 'Ferocious Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9252,   1,   33555199) /* Setup */
-     , (9252,   2,  150994983) /* MotionTable */
-     , (9252,   3,  536870962) /* SoundTable */
-     , (9252,   6,   67111302) /* PaletteBase */
-     , (9252,   8,  100669117) /* Icon */
-     , (9252,  22,  872415257) /* PhysicsEffectTable */;
+VALUES (9252,   1, 0x020002FF) /* Setup */
+     , (9252,   2, 0x09000027) /* MotionTable */
+     , (9252,   3, 0x20000032) /* SoundTable */
+     , (9252,   6, 0x04000986) /* PaletteBase */
+     , (9252,   8, 0x060016BD) /* Icon */
+     , (9252,  22, 0x34000019) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9252, 8040, 2360737828, 99.38249, 72.76801, 45.70913, 0.9995735, 0, 0, -0.02920164) /* PCAPRecordedLocation */
+VALUES (9252, 8040, 0x8CB60024, 99.38249, 72.76801, 45.70913, 0.999574, 0, 0, -0.029202) /* PCAPRecordedLocation */
 /* @teleloc 0x8CB60024 [99.382490 72.768010 45.709130] 0.999574 0.000000 0.000000 -0.029202 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

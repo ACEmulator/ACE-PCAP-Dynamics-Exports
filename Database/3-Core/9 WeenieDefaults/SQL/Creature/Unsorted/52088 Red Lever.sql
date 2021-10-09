@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52088,   1, 'Red Lever') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52088,   1,   33555231) /* Setup */
-     , (52088,   2,  150995055) /* MotionTable */
-     , (52088,   3,  536870981) /* SoundTable */
-     , (52088,   8,  100667624) /* Icon */
-     , (52088,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52088,   1, 0x0200031F) /* Setup */
+     , (52088,   2, 0x0900006F) /* MotionTable */
+     , (52088,   3, 0x20000045) /* SoundTable */
+     , (52088,   8, 0x060010E8) /* Icon */
+     , (52088,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52088, 8040, 1498612101, 322.5, -108, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52088, 8040, 0x59530185, 322.5, -108, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59530185 [322.500000 -108.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

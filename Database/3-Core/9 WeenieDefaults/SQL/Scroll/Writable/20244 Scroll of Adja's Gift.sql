@@ -23,7 +23,7 @@ VALUES (20244,   1, 'Scroll of Adja''s Gift') /* Name */
 Restores 80-150 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20244,   1,   33554826) /* Setup */
-     , (20244,   8,  100676931) /* Icon */
-     , (20244,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20244,   1, 0x0200018A) /* Setup */
+     , (20244,   8, 0x06003543) /* Icon */
+     , (20244,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20244,  28,       2072) /* Spell - HealOther7 */;

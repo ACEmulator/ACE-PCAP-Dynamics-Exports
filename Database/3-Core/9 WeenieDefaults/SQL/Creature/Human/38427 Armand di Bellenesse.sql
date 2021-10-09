@@ -31,20 +31,20 @@ VALUES (38427,   1, 'Armand di Bellenesse') /* Name */
      , (38427,   5, 'Bandit Boss Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38427,   1,   33554433) /* Setup */
-     , (38427,   2,  150994945) /* MotionTable */
-     , (38427,   3,  536870913) /* SoundTable */
-     , (38427,   6,   67108990) /* PaletteBase */
-     , (38427,   8,  100667377) /* Icon */
-     , (38427,   9,   83890511) /* EyesTexture */
-     , (38427,  10,   83890561) /* NoseTexture */
-     , (38427,  11,   83890613) /* MouthTexture */
-     , (38427,  15,   67117073) /* HairPalette */
-     , (38427,  16,   67110063) /* EyesPalette */
-     , (38427,  17,   67115903) /* SkinPalette */;
+VALUES (38427,   1, 0x02000001) /* Setup */
+     , (38427,   2, 0x09000001) /* MotionTable */
+     , (38427,   3, 0x20000001) /* SoundTable */
+     , (38427,   6, 0x0400007E) /* PaletteBase */
+     , (38427,   8, 0x06000FF1) /* Icon */
+     , (38427,   9, 0x0500114F) /* EyesTexture */
+     , (38427,  10, 0x05001181) /* NoseTexture */
+     , (38427,  11, 0x050011B5) /* MouthTexture */
+     , (38427,  15, 0x04002011) /* HairPalette */
+     , (38427,  16, 0x040004AF) /* EyesPalette */
+     , (38427,  17, 0x04001B7F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38427, 8040, 12124782, 157.739, -26.788, -17.995, 0.9367837, 0, 0, 0.3499089) /* PCAPRecordedLocation */
+VALUES (38427, 8040, 0x00B9026E, 157.739, -26.788, -17.995, 0.936784, 0, 0, 0.349909) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026E [157.739000 -26.788000 -17.995000] 0.936784 0.000000 0.000000 0.349909 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35293,   1, 'Asheron''s Castle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35293,   1,   33558268) /* Setup */
-     , (35293,   3,  536871008) /* SoundTable */
-     , (35293,   8,  100674152) /* Icon */;
+VALUES (35293,   1, 0x02000EFC) /* Setup */
+     , (35293,   3, 0x20000060) /* SoundTable */
+     , (35293,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35293, 8040, 3599958022, 20.1916, 132.842, -0.033125, 0.999733, 0, 0, -0.0231053) /* PCAPRecordedLocation */
+VALUES (35293, 8040, 0xD6930006, 20.1916, 132.842, -0.033125, 0.999733, 0, 0, -0.023105) /* PCAPRecordedLocation */
 /* @teleloc 0xD6930006 [20.191600 132.842000 -0.033125] 0.999733 0.000000 0.000000 -0.023105 */;

@@ -26,12 +26,12 @@ VALUES (52271,   1, 'Shadowy Pillar') /* Name */
      , (52271,  15, 'A strange looking pillar constructed by the surrounding Shadows.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52271,   1,   33559803) /* Setup */
-     , (52271,   2,  150995497) /* MotionTable */
-     , (52271,   3,  536871007) /* SoundTable */
-     , (52271,   8,  100672196) /* Icon */
-     , (52271,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52271,   1, 0x020014FB) /* Setup */
+     , (52271,   2, 0x09000229) /* MotionTable */
+     , (52271,   3, 0x2000005F) /* SoundTable */
+     , (52271,   8, 0x060022C4) /* Icon */
+     , (52271,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52271, 8040, 4133224505, 177.588, 16.9676, 20, 0.494986, 0, 0, 0.868901) /* PCAPRecordedLocation */
+VALUES (52271, 8040, 0xF65C0039, 177.588, 16.9676, 20, 0.494986, 0, 0, 0.868901) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C0039 [177.588000 16.967600 20.000000] 0.494986 0.000000 0.000000 0.868901 */;

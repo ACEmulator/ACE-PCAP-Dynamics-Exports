@@ -23,21 +23,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38144,   1, 'Siabot the Deranged') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38144,   1,   33554433) /* Setup */
-     , (38144,   2,  150994945) /* MotionTable */
-     , (38144,   3,  536870913) /* SoundTable */
-     , (38144,   6,   67108990) /* PaletteBase */
-     , (38144,   8,  100667446) /* Icon */
-     , (38144,   9,   83890509) /* EyesTexture */
-     , (38144,  10,   83890551) /* NoseTexture */
-     , (38144,  11,   83890649) /* MouthTexture */
-     , (38144,  15,   67117080) /* HairPalette */
-     , (38144,  16,   67110062) /* EyesPalette */
-     , (38144,  17,   67109558) /* SkinPalette */
-     , (38144,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (38144,   1, 0x02000001) /* Setup */
+     , (38144,   2, 0x09000001) /* MotionTable */
+     , (38144,   3, 0x20000001) /* SoundTable */
+     , (38144,   6, 0x0400007E) /* PaletteBase */
+     , (38144,   8, 0x06001036) /* Icon */
+     , (38144,   9, 0x0500114D) /* EyesTexture */
+     , (38144,  10, 0x05001177) /* NoseTexture */
+     , (38144,  11, 0x050011D9) /* MouthTexture */
+     , (38144,  15, 0x04002018) /* HairPalette */
+     , (38144,  16, 0x040004AE) /* EyesPalette */
+     , (38144,  17, 0x040002B6) /* SkinPalette */
+     , (38144,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38144, 8040, 12911039, 70, -150, -53.995, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (38144, 8040, 0x00C501BF, 70, -150, -53.995, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x00C501BF [70.000000 -150.000000 -53.995000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

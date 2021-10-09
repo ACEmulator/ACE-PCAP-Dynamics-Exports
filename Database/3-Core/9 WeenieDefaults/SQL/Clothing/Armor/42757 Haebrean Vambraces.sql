@@ -44,16 +44,16 @@ VALUES (42757,   1, 'Haebrean Vambraces') /* Name */
      , (42757,  16, 'Haebrean Vambraces of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42757,   1,   33554641) /* Setup */
-     , (42757,   3,  536870932) /* SoundTable */
-     , (42757,   6,   67108990) /* PaletteBase */
-     , (42757,   8,  100691071) /* Icon */
-     , (42757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42757,   1, 0x020000D1) /* Setup */
+     , (42757,   3, 0x20000014) /* SoundTable */
+     , (42757,   6, 0x0400007E) /* PaletteBase */
+     , (42757,   8, 0x06006C7F) /* Icon */
+     , (42757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42757,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42757,  1486,      2)  /* Impenetrability6 */
+VALUES (42757,  2187,      2)  /* RejuvenationSelf7 */
+     , (42757,  1486,      2)  /* Impenetrability6 */
+     , (42757,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (42757,  2098,      2)  /* BludgeonBane7 */
-     , (42757,  2110,      2)  /* LightningBane7 */
-     , (42757,  2187,      2)  /* RejuvenationSelf7 */
-     , (42757,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (42757,  2110,      2)  /* LightningBane7 */;

@@ -50,13 +50,13 @@ VALUES (45115,   1, 'Lightning Hammer') /* Name */
      , (45115,  16, 'Lightning Hammer of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45115,   1,   33555415) /* Setup */
-     , (45115,   3,  536870932) /* SoundTable */
-     , (45115,   8,  100669072) /* Icon */
-     , (45115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45115,   1, 0x020003D7) /* Setup */
+     , (45115,   3, 0x20000014) /* SoundTable */
+     , (45115,   8, 0x06001690) /* Icon */
+     , (45115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45115,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45115,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (45115,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+VALUES (45115,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+     , (45115,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45115,  5810,      2)  /* DualWieldMasterySelf8 */;

@@ -27,12 +27,12 @@ VALUES (53284,   1, 'Lair of the Gromnus Champion') /* Name */
      , (53284,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53284,   1,   33561507) /* Setup */
-     , (53284,   2,  150995503) /* MotionTable */
-     , (53284,   3,  536870932) /* SoundTable */
-     , (53284,   6,   67109307) /* PaletteBase */
-     , (53284,   8,  100667938) /* Icon */;
+VALUES (53284,   1, 0x02001BA3) /* Setup */
+     , (53284,   2, 0x0900022F) /* MotionTable */
+     , (53284,   3, 0x20000014) /* SoundTable */
+     , (53284,   6, 0x040001BB) /* PaletteBase */
+     , (53284,   8, 0x06001222) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53284, 8040, 1500184866, 150, -86.2425, 0.04999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53284, 8040, 0x596B0122, 150, -86.2425, 0.05, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0122 [150.000000 -86.242500 0.050000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33584,   1, 'Noble Relic Coat of Brilliance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33584,   1,   33554642) /* Setup */
-     , (33584,   3,  536870932) /* SoundTable */
-     , (33584,   8,  100677195) /* Icon */
-     , (33584,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33584,   1, 0x020000D2) /* Setup */
+     , (33584,   3, 0x20000014) /* SoundTable */
+     , (33584,   8, 0x0600364B) /* Icon */
+     , (33584,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33584,  2108,      2)  /* Impenetrability7 */
+VALUES (33584,  2308,      2)  /* HeavyWeaponsMasteryOther7 */
      , (33584,  2202,      2)  /* LightWeaponsMasteryOther7 */
-     , (33584,  2308,      2)  /* HeavyWeaponsMasteryOther7 */
-     , (33584,  3572,      2)  /* InnerBrilliance */;
+     , (33584,  3572,      2)  /* InnerBrilliance */
+     , (33584,  2108,      2)  /* Impenetrability7 */;

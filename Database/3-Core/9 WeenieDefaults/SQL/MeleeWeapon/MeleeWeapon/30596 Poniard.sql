@@ -50,13 +50,13 @@ VALUES (30596,   1, 'Poniard') /* Name */
      , (30596,  16, 'Poniard of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30596,   1,   33559483) /* Setup */
-     , (30596,   3,  536870932) /* SoundTable */
-     , (30596,   6,   67116417) /* PaletteBase */
-     , (30596,   8,  100687001) /* Icon */
-     , (30596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30596,   1, 0x020013BB) /* Setup */
+     , (30596,   3, 0x20000014) /* SoundTable */
+     , (30596,   6, 0x04001D81) /* PaletteBase */
+     , (30596,   8, 0x06005C99) /* Icon */
+     , (30596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30596,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (30596,  52,  100676444) /* IconUnderlay */;
+     , (30596,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30596,  1616,      2)  /* BloodDrinkerSelf6 */

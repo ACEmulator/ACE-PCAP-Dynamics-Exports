@@ -27,13 +27,13 @@ VALUES (29919,   1, 'Pack Burun Kukuur') /* Name */
      , (29919,  16, 'A Burun Kukuur, one of the great King Toads of their race') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29919,   1,   33559088) /* Setup */
-     , (29919,   3,  536870932) /* SoundTable */
-     , (29919,   8,  100677029) /* Icon */
-     , (29919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29919,   1, 0x02001230) /* Setup */
+     , (29919,   3, 0x20000014) /* SoundTable */
+     , (29919,   8, 0x060035A5) /* Icon */
+     , (29919,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29919, 8040, 19202318, 34.2519, -26.77593, 0.008239985, -0.7694755, 0, 0, -0.6386763) /* PCAPRecordedLocation */
+VALUES (29919, 8040, 0x0125010E, 34.2519, -26.77593, 0.00824, -0.769476, 0, 0, -0.638676) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [34.251900 -26.775930 0.008240] -0.769476 0.000000 0.000000 -0.638676 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

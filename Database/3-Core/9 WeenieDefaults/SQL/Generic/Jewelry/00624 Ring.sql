@@ -34,11 +34,11 @@ VALUES (624,   1, 'Ring') /* Name */
      , (624,  16, 'Ring of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (624,   1,   33554690) /* Setup */
-     , (624,   3,  536870932) /* SoundTable */
-     , (624,   6,   67111919) /* PaletteBase */
-     , (624,   8,  100668571) /* Icon */
-     , (624,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (624,   1, 0x02000102) /* Setup */
+     , (624,   3, 0x20000014) /* SoundTable */
+     , (624,   6, 0x04000BEF) /* PaletteBase */
+     , (624,   8, 0x0600149B) /* Icon */
+     , (624,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (624,  1312,      2)  /* ArmorSelf6 */;

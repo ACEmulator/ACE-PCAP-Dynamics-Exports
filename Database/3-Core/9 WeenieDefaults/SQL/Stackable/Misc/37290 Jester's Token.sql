@@ -25,7 +25,7 @@ VALUES (37290,   1, 'Jester''s Token') /* Name */
      , (37290,  16, 'An amusing token with a Jester''s Head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37290,   1,   33554802) /* Setup */
-     , (37290,   3,  536870932) /* SoundTable */
-     , (37290,   8,  100689853) /* Icon */
-     , (37290,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37290,   1, 0x02000172) /* Setup */
+     , (37290,   3, 0x20000014) /* SoundTable */
+     , (37290,   8, 0x060067BD) /* Icon */
+     , (37290,  22, 0x3400002B) /* PhysicsEffectTable */;

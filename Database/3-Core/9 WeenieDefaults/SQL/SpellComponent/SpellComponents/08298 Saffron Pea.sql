@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8298,   1, 'Saffron Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8298,   1,   33555211) /* Setup */
-     , (8298,   3,  536870932) /* SoundTable */
-     , (8298,   6,   67111919) /* PaletteBase */
-     , (8298,   8,  100671078) /* Icon */
-     , (8298,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8298,   1, 0x0200030B) /* Setup */
+     , (8298,   3, 0x20000014) /* SoundTable */
+     , (8298,   6, 0x04000BEF) /* PaletteBase */
+     , (8298,   8, 0x06001E66) /* Icon */
+     , (8298,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8298, 8044,       8328) /* PCAPPhysicsDIDDataTemplatedFrom - Iron Pea */;

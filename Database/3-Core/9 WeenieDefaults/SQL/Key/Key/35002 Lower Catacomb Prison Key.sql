@@ -22,7 +22,7 @@ VALUES (35002,   1, 'Lower Catacomb Prison Key') /* Name */
      , (35002,  16, 'This key was found on a Falatacot who was acting as the warden of the lower catacomb prison. You suspect it can be used on the prison doors in the area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35002,   1,   33554784) /* Setup */
-     , (35002,   3,  536870932) /* SoundTable */
-     , (35002,   8,  100672469) /* Icon */
-     , (35002,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35002,   1, 0x02000160) /* Setup */
+     , (35002,   3, 0x20000014) /* SoundTable */
+     , (35002,   8, 0x060023D5) /* Icon */
+     , (35002,  22, 0x3400002B) /* PhysicsEffectTable */;

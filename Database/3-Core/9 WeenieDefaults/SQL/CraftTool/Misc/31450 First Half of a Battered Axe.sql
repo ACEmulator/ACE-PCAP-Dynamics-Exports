@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31450,   1, 'First Half of a Battered Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31450,   1,   33554817) /* Setup */
-     , (31450,   3,  536870932) /* SoundTable */
-     , (31450,   8,  100687867) /* Icon */
-     , (31450,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31450,   1, 0x02000181) /* Setup */
+     , (31450,   3, 0x20000014) /* SoundTable */
+     , (31450,   8, 0x06005FFB) /* Icon */
+     , (31450,  22, 0x3400002B) /* PhysicsEffectTable */;

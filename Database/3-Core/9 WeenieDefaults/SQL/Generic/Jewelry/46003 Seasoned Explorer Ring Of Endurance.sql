@@ -31,11 +31,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46003,   1, 'Seasoned Explorer Ring Of Endurance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46003,   1,   33554691) /* Setup */
-     , (46003,   3,  536870932) /* SoundTable */
-     , (46003,   6,   67111919) /* PaletteBase */
-     , (46003,   8,  100675467) /* Icon */
-     , (46003,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46003,   1, 0x02000103) /* Setup */
+     , (46003,   3, 0x20000014) /* SoundTable */
+     , (46003,   6, 0x04000BEF) /* PaletteBase */
+     , (46003,   8, 0x06002F8B) /* Icon */
+     , (46003,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46003,  1360,      2)  /* EnduranceOther6 */

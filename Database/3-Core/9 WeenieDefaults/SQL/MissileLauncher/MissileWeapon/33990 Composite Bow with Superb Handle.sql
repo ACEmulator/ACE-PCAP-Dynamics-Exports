@@ -48,24 +48,24 @@ VALUES (33990,   1, 'Composite Bow with Superb Handle') /* Name */
      , (33990,  25, 'Deran Dark') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33990,   1,   33556600) /* Setup */
-     , (33990,   3,  536870932) /* SoundTable */
-     , (33990,   6,   67112869) /* PaletteBase */
-     , (33990,   8,  100670670) /* Icon */
-     , (33990,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33990,   1, 0x02000878) /* Setup */
+     , (33990,   3, 0x20000014) /* SoundTable */
+     , (33990,   6, 0x04000FA5) /* PaletteBase */
+     , (33990,   8, 0x06001CCE) /* Icon */
+     , (33990,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33990,  55,       2100) /* ProcSpell - Brittlemail7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33990, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33990, 8040, 0xD6930005, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD6930005 [18.409000 113.648000 -0.170000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33990,  2058,      2)  /* CoordinationOther7 */
-     , (33990,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33990,  2101,      2)  /* DefenderSelf7 */
-     , (33990,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33990,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+VALUES (33990,  2116,      2)  /* SwiftKillerSelf7 */
      , (33990,  2244,      2)  /* InvulnerabilityOther7 */
+     , (33990,  2058,      2)  /* CoordinationOther7 */
+     , (33990,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (33990,  2206,      2)  /* MissileWeaponsMasteryOther7 */
      , (33990,  2280,      2)  /* MagicResistanceOther7 */
      , (33990,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
-     , (33990,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (33990,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33990,  2101,      2)  /* DefenderSelf7 */;

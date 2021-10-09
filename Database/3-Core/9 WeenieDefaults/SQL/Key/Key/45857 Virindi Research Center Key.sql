@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45857,   1, 'Virindi Research Center Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45857,   1,   33554784) /* Setup */
-     , (45857,   3,  536870932) /* SoundTable */
-     , (45857,   8,  100671245) /* Icon */
-     , (45857,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45857,   1, 0x02000160) /* Setup */
+     , (45857,   3, 0x20000014) /* SoundTable */
+     , (45857,   8, 0x06001F0D) /* Icon */
+     , (45857,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (37992,   1, 'Inscription of Acid Arc') /* Name */
 Shoots a stream of acid at the target. The stream does 142-204 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37992,   1,   33554826) /* Setup */
-     , (37992,   8,  100677026) /* Icon */
-     , (37992,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37992,   1, 0x0200018A) /* Setup */
+     , (37992,   8, 0x060035A2) /* Icon */
+     , (37992,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37992,  28,       4421) /* Spell - AcidArc8 */;

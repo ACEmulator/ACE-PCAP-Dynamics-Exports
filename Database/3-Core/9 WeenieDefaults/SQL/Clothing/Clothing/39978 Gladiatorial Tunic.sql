@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39978,   1, 'Gladiatorial Tunic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39978,   1,   33554854) /* Setup */
-     , (39978,   3,  536870932) /* SoundTable */
-     , (39978,   6,   67108990) /* PaletteBase */
-     , (39978,   8,  100685817) /* Icon */
-     , (39978,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39978,   1, 0x020001A6) /* Setup */
+     , (39978,   3, 0x20000014) /* SoundTable */
+     , (39978,   6, 0x0400007E) /* PaletteBase */
+     , (39978,   8, 0x060057F9) /* Icon */
+     , (39978,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39978,  2574,      2)  /* CANTRIPFOCUS2 */

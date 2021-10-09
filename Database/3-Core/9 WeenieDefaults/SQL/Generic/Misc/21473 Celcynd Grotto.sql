@@ -18,9 +18,9 @@ VALUES (21473,   1, 'Celcynd Grotto') /* Name */
      , (21473,  16, 'Celcynd Grotto') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21473,   1,   33557899) /* Setup */
-     , (21473,   8,  100667499) /* Icon */;
+VALUES (21473,   1, 0x02000D8B) /* Setup */
+     , (21473,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21473, 8040, 1448476943, 9.977, -56.947, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (21473, 8040, 0x5656010F, 9.977, -56.947, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5656010F [9.977000 -56.947000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

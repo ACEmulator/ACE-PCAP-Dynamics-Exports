@@ -17,8 +17,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51847,   1, 'Spirited Apathy Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51847,   1,   33554689) /* Setup */
-     , (51847,   3,  536870932) /* SoundTable */
-     , (51847,   6,   67111919) /* PaletteBase */
-     , (51847,   8,  100693212) /* Icon */
-     , (51847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51847,   1, 0x02000101) /* Setup */
+     , (51847,   3, 0x20000014) /* SoundTable */
+     , (51847,   6, 0x04000BEF) /* PaletteBase */
+     , (51847,   8, 0x060074DC) /* Icon */
+     , (51847,  22, 0x3400002B) /* PhysicsEffectTable */;

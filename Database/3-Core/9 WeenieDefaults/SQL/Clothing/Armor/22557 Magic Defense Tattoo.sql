@@ -40,17 +40,17 @@ VALUES (22557,   1, 'Magic Defense Tattoo') /* Name */
      , (22557,  16, 'A vial of tattoo ink infused with the power of the sheltered spirit. When painted on the lower arms the ink will act as armor and will grant the wearer the power of the sheltered spirit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22557,   1,   33554641) /* Setup */
-     , (22557,   3,  536870932) /* SoundTable */
-     , (22557,   6,   67108990) /* PaletteBase */
-     , (22557,   8,  100673833) /* Icon */
-     , (22557,  22,  872415275) /* PhysicsEffectTable */
-     , (22557,  50,  100673775) /* IconOverlay */;
+VALUES (22557,   1, 0x020000D1) /* Setup */
+     , (22557,   3, 0x20000014) /* SoundTable */
+     , (22557,   6, 0x0400007E) /* PaletteBase */
+     , (22557,   8, 0x06002929) /* Icon */
+     , (22557,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22557,  50, 0x060028EF) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22557,   273,      2)  /* MagicResistanceOther6 */
-     , (22557,  1317,      2)  /* ArmorOther6 */
+VALUES (22557,  1485,      2)  /* Impenetrability5 */
+     , (22557,   273,      2)  /* MagicResistanceOther6 */
      , (22557,  1432,      2)  /* FocusOther6 */
+     , (22557,  1317,      2)  /* ArmorOther6 */
      , (22557,  1456,      2)  /* WillpowerOther6 */
-     , (22557,  1485,      2)  /* Impenetrability5 */
      , (22557,  2811,      2)  /* ModerateMagicResistance */;

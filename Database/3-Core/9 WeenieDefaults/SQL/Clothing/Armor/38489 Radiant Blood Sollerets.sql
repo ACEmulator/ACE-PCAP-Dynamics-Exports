@@ -46,13 +46,13 @@ VALUES (38489,   1, 'Radiant Blood Sollerets') /* Name */
      , (38489,  16, 'Radiant Blood Sollerets of Heavy Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38489,   1,   33554654) /* Setup */
-     , (38489,   3,  536870932) /* SoundTable */
-     , (38489,   8,  100690228) /* Icon */
-     , (38489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38489,   1, 0x020000DE) /* Setup */
+     , (38489,   3, 0x20000014) /* SoundTable */
+     , (38489,   8, 0x06006934) /* Icon */
+     , (38489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38489,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38489,  2108,      2)  /* Impenetrability7 */
-     , (38489,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
-     , (38489,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;
+VALUES (38489,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
+     , (38489,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */
+     , (38489,  2108,      2)  /* Impenetrability7 */;

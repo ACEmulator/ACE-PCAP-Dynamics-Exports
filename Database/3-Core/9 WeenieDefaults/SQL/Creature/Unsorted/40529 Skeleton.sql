@@ -27,12 +27,12 @@ VALUES (40529,   1, 'Skeleton') /* Name */
      , (40529,  15, 'The skeletal remains of poor deceased soul.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40529,   1,   33554521) /* Setup */
-     , (40529,   2,  150994981) /* MotionTable */
-     , (40529,   3,  536870942) /* SoundTable */
-     , (40529,   8,  100669124) /* Icon */
-     , (40529,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (40529,   1, 0x02000059) /* Setup */
+     , (40529,   2, 0x09000025) /* MotionTable */
+     , (40529,   3, 0x2000001E) /* SoundTable */
+     , (40529,   8, 0x060016C4) /* Icon */
+     , (40529,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40529, 8040, 836108553, 111.964, 123.356, 90.003, 0.989022, 0, 0, -0.147769) /* PCAPRecordedLocation */
+VALUES (40529, 8040, 0x31D60109, 111.964, 123.356, 90.003, 0.989022, 0, 0, -0.147769) /* PCAPRecordedLocation */
 /* @teleloc 0x31D60109 [111.964000 123.356000 90.003000] 0.989022 0.000000 0.000000 -0.147769 */;

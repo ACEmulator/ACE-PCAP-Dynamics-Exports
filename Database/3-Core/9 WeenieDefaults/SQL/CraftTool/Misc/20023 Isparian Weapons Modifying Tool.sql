@@ -31,7 +31,7 @@ VALUES (20023,   1, 'Isparian Weapons Modifying Tool') /* Name */
      , (20023,  16, 'A claw-like device used to remove elemental stones from the Isparian weaponry. Having been carved from a diamond heart infused with the essence of nullification, it is a sturdy device.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20023,   1,   33557673) /* Setup */
-     , (20023,   3,  536870932) /* SoundTable */
-     , (20023,   8,  100672881) /* Icon */
-     , (20023,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20023,   1, 0x02000CA9) /* Setup */
+     , (20023,   3, 0x20000014) /* SoundTable */
+     , (20023,   8, 0x06002571) /* Icon */
+     , (20023,  22, 0x3400002B) /* PhysicsEffectTable */;

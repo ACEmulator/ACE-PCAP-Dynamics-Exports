@@ -38,11 +38,11 @@ VALUES (36437,   1, 'Festival Shirt') /* Name */
      , (36437,  16, 'A shirt celebrating the Festival Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36437,   1,   33554883) /* Setup */
-     , (36437,   3,  536870932) /* SoundTable */
-     , (36437,   6,   67108990) /* PaletteBase */
-     , (36437,   8,  100667377) /* Icon */
-     , (36437,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36437,   1, 0x020001C3) /* Setup */
+     , (36437,   3, 0x20000014) /* SoundTable */
+     , (36437,   6, 0x0400007E) /* PaletteBase */
+     , (36437,   8, 0x06000FF1) /* Icon */
+     , (36437,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36437,  2501,      2)  /* CANTRIPALCHEMICALPROWESS2 */

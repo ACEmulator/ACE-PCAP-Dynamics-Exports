@@ -41,7 +41,7 @@ VALUES (4197,   1, 'Acid Nekode') /* Name */
      , (4197,  16, 'Acid Nekode') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4197,   1,   33555988) /* Setup */
-     , (4197,   3,  536870932) /* SoundTable */
-     , (4197,   8,  100670026) /* Icon */
-     , (4197,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4197,   1, 0x02000614) /* Setup */
+     , (4197,   3, 0x20000014) /* SoundTable */
+     , (4197,   8, 0x06001A4A) /* Icon */
+     , (4197,  22, 0x3400002B) /* PhysicsEffectTable */;

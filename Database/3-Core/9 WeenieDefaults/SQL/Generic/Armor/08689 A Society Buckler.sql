@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8689,   1, 'A Society Buckler') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8689,   1,   33554786) /* Setup */
-     , (8689,   3,  536870932) /* SoundTable */
-     , (8689,   6,   67111919) /* PaletteBase */
-     , (8689,   8,  100668454) /* Icon */
-     , (8689,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8689,   1, 0x02000162) /* Setup */
+     , (8689,   3, 0x20000014) /* SoundTable */
+     , (8689,   6, 0x04000BEF) /* PaletteBase */
+     , (8689,   8, 0x06001426) /* Icon */
+     , (8689,  22, 0x3400002B) /* PhysicsEffectTable */;

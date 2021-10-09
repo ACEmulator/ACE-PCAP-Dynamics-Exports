@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12671,   1, 'Wi Badlands Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12671,   1,   33557463) /* Setup */
-     , (12671,   8,  100668115) /* Icon */;
+VALUES (12671,   1, 0x02000BD7) /* Setup */
+     , (12671,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12671, 8040, 2355036188, 88.7305, 83.8147, 12, 0.299534, 0, 0, -0.954086) /* PCAPRecordedLocation */
+VALUES (12671, 8040, 0x8C5F001C, 88.7305, 83.8147, 12, 0.299534, 0, 0, -0.954086) /* PCAPRecordedLocation */
 /* @teleloc 0x8C5F001C [88.730500 83.814700 12.000000] 0.299534 0.000000 0.000000 -0.954086 */;

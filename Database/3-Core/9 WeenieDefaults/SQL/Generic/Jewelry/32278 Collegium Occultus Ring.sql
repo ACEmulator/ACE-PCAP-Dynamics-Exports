@@ -31,12 +31,12 @@ VALUES (32278,   1, 'Collegium Occultus Ring') /* Name */
      , (32278,  15, 'A ring that once belonged to one of the senior faculty of the Collegium Occultus of the Knorr Lyceum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32278,   1,   33554691) /* Setup */
-     , (32278,   3,  536870932) /* SoundTable */
-     , (32278,   8,  100688502) /* Icon */
-     , (32278,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32278,   1, 0x02000103) /* Setup */
+     , (32278,   3, 0x20000014) /* SoundTable */
+     , (32278,   8, 0x06006276) /* Icon */
+     , (32278,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32278,  2091,      2)  /* WillpowerSelf7 */
-     , (32278,  2281,      2)  /* MagicResistanceSelf7 */
+VALUES (32278,  2281,      2)  /* MagicResistanceSelf7 */
+     , (32278,  2091,      2)  /* WillpowerSelf7 */
      , (32278,  2615,      2)  /* CANTRIPSTORMWARD2 */;

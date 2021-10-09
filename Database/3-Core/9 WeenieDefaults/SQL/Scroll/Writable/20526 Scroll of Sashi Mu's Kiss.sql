@@ -23,11 +23,11 @@ VALUES (20526,   1, 'Scroll of Sashi Mu''s Kiss') /* Name */
 Decreases the target''s Loyalty skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20526,   1,   33554826) /* Setup */
-     , (20526,   8,  100676446) /* Icon */
-     , (20526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20526,   1, 0x0200018A) /* Setup */
+     , (20526,   8, 0x0600335E) /* Icon */
+     , (20526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20526,  28,       2230) /* Spell - FaithlessnessOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20526, 8040, 1581449474, 13.70616, -28.23217, 0.0855, 0.4977438, 0, 0, -0.8673241) /* PCAPRecordedLocation */
+VALUES (20526, 8040, 0x5E430102, 13.70616, -28.23217, 0.0855, 0.497744, 0, 0, -0.867324) /* PCAPRecordedLocation */
 /* @teleloc 0x5E430102 [13.706160 -28.232170 0.085500] 0.497744 0.000000 0.000000 -0.867324 */;

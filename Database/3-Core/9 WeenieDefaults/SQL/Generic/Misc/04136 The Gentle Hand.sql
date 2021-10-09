@@ -18,9 +18,9 @@ VALUES (4136,   1, 'The Gentle Hand') /* Name */
      , (4136,  16, 'The Gentle Hand - Healing, Potions, and Enhancement Services') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4136,   1,   33555594) /* Setup */
-     , (4136,   8,  100668115) /* Icon */;
+VALUES (4136,   1, 0x0200048A) /* Setup */
+     , (4136,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4136, 8040, 3663003690, 138.871, 34.0199, 23.3571, 0.999964, 0, 0, -0.00846103) /* PCAPRecordedLocation */
+VALUES (4136, 8040, 0xDA55002A, 138.871, 34.0199, 23.3571, 0.999964, 0, 0, -0.008461) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55002A [138.871000 34.019900 23.357100] 0.999964 0.000000 0.000000 -0.008461 */;

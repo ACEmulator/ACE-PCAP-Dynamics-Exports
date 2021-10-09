@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31499,   1, 'Battered Old Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31499,   1,   33559588) /* Setup */
-     , (31499,   3,  536870932) /* SoundTable */
-     , (31499,   8,  100687920) /* Icon */
-     , (31499,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31499,   1, 0x02001424) /* Setup */
+     , (31499,   3, 0x20000014) /* SoundTable */
+     , (31499,   8, 0x06006030) /* Icon */
+     , (31499,  22, 0x3400002B) /* PhysicsEffectTable */;

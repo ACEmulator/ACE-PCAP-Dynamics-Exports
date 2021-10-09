@@ -22,13 +22,13 @@ VALUES (6029,   1, 'Precepts of the Tenebrous Edge') /* Name */
      , (6029,  16, 'A book from the private chambers of Hamud ibn Rafik.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6029,   1,   33554772) /* Setup */
-     , (6029,   3,  536870932) /* SoundTable */
-     , (6029,   8,  100667470) /* Icon */
-     , (6029,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6029,   1, 0x02000154) /* Setup */
+     , (6029,   3, 0x20000014) /* SoundTable */
+     , (6029,   8, 0x0600104E) /* Icon */
+     , (6029,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6029, 8040, 18612499, 89.982, -121, -41.93656, -0.9998431, 0, 0, -0.017714) /* PCAPRecordedLocation */
+VALUES (6029, 8040, 0x011C0113, 89.982, -121, -41.93656, -0.999843, 0, 0, -0.017714) /* PCAPRecordedLocation */
 /* @teleloc 0x011C0113 [89.982000 -121.000000 -41.936560] -0.999843 0.000000 0.000000 -0.017714 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

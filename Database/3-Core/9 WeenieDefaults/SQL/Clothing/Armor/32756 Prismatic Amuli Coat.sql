@@ -41,14 +41,14 @@ VALUES (32756,   1, 'Prismatic Amuli Coat') /* Name */
      , (32756,  16, 'An Amuli Coat infused with the power of the Elements. A soft glow surrounds the coat and storms can be seen waxing and waning within the crystal surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32756,   1,   33554854) /* Setup */
-     , (32756,   3,  536870932) /* SoundTable */
-     , (32756,   8,  100688617) /* Icon */
-     , (32756,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32756,   1, 0x020001A6) /* Setup */
+     , (32756,   3, 0x20000014) /* SoundTable */
+     , (32756,   8, 0x060062E9) /* Icon */
+     , (32756,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32756,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32756,  2108,      2)  /* Impenetrability7 */
-     , (32756,  2242,      2)  /* ImpregnabilityOther7 */
+VALUES (32756,  2242,      2)  /* ImpregnabilityOther7 */
      , (32756,  2612,      2)  /* CANTRIPFROSTWARD2 */
-     , (32756,  2615,      2)  /* CANTRIPSTORMWARD2 */;
+     , (32756,  2615,      2)  /* CANTRIPSTORMWARD2 */
+     , (32756,  2108,      2)  /* Impenetrability7 */;

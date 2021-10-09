@@ -18,9 +18,9 @@ VALUES (12613,   1, 'Janaa Ridge Settlement') /* Name */
      , (12613,  16, 'Welcome to Janaa Ridge Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12613,   1,   33557463) /* Setup */
-     , (12613,   8,  100668115) /* Icon */;
+VALUES (12613,   1, 0x02000BD7) /* Setup */
+     , (12613,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12613, 8040, 2608201750, 53.4512, 125.314, 28, -0.669839, 0, 0, 0.742507) /* PCAPRecordedLocation */
+VALUES (12613, 8040, 0x9B760016, 53.4512, 125.314, 28, -0.669839, 0, 0, 0.742507) /* PCAPRecordedLocation */
 /* @teleloc 0x9B760016 [53.451200 125.314000 28.000000] -0.669839 0.000000 0.000000 0.742507 */;

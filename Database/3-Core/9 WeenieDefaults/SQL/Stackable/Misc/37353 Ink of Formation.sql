@@ -19,7 +19,7 @@ VALUES (37353,   1, 'Ink of Formation') /* Name */
      , (37353,  20, 'Inks of Formation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37353,   1,   33554602) /* Setup */
-     , (37353,   3,  536870932) /* SoundTable */
-     , (37353,   8,  100690183) /* Icon */
-     , (37353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37353,   1, 0x020000AA) /* Setup */
+     , (37353,   3, 0x20000014) /* SoundTable */
+     , (37353,   8, 0x06006907) /* Icon */
+     , (37353,  22, 0x3400002B) /* PhysicsEffectTable */;

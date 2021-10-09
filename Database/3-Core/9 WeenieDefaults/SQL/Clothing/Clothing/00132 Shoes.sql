@@ -41,14 +41,14 @@ VALUES (132,   1, 'Shoes') /* Name */
      , (132,  16, 'Shoes of Heavy Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (132,   1,   33554654) /* Setup */
-     , (132,   3,  536870932) /* SoundTable */
-     , (132,   6,   67108990) /* PaletteBase */
-     , (132,   8,  100669198) /* Icon */
-     , (132,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (132,   1, 0x020000DE) /* Setup */
+     , (132,   3, 0x20000014) /* SoundTable */
+     , (132,   6, 0x0400007E) /* PaletteBase */
+     , (132,   8, 0x0600170E) /* Icon */
+     , (132,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (132,   423,      2)  /* HeavyWeaponsMasterySelf6 */
-     , (132,  1485,      2)  /* Impenetrability5 */
+VALUES (132,  1485,      2)  /* Impenetrability5 */
+     , (132,   423,      2)  /* HeavyWeaponsMasterySelf6 */
      , (132,  1528,      2)  /* FrostBane6 */
      , (132,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;

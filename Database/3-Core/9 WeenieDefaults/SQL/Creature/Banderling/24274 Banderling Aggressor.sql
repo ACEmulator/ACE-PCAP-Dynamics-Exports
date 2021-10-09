@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24274,   1, 'Banderling Aggressor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24274,   1,   33558024) /* Setup */
-     , (24274,   2,  150994951) /* MotionTable */
-     , (24274,   3,  536870917) /* SoundTable */
-     , (24274,   6,   67114021) /* PaletteBase */
-     , (24274,   8,  100667453) /* Icon */
-     , (24274,  22,  872415255) /* PhysicsEffectTable */;
+VALUES (24274,   1, 0x02000E08) /* Setup */
+     , (24274,   2, 0x09000007) /* MotionTable */
+     , (24274,   3, 0x20000005) /* SoundTable */
+     , (24274,   6, 0x04001425) /* PaletteBase */
+     , (24274,   8, 0x0600103D) /* Icon */
+     , (24274,  22, 0x34000017) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24274, 8040, 1089273919, 175.4138, 146.8896, 46.00715, -0.2690015, 0, 0, -0.9631398) /* PCAPRecordedLocation */
+VALUES (24274, 8040, 0x40ED003F, 175.4138, 146.8896, 46.00715, -0.269002, 0, 0, -0.96314) /* PCAPRecordedLocation */
 /* @teleloc 0x40ED003F [175.413800 146.889600 46.007150] -0.269002 0.000000 0.000000 -0.963140 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

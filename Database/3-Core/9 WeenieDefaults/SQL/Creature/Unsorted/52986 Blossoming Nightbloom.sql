@@ -30,12 +30,12 @@ VALUES (52986,   1, 'Blossoming Nightbloom') /* Name */
      , (52986,  16, 'A rare dark flower infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52986,   1,   33560322) /* Setup */
-     , (52986,   2,  150995147) /* MotionTable */
-     , (52986,   3,  536871052) /* SoundTable */
-     , (52986,   8,  100689548) /* Icon */
-     , (52986,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (52986,   1, 0x02001702) /* Setup */
+     , (52986,   2, 0x090000CB) /* MotionTable */
+     , (52986,   3, 0x2000008C) /* SoundTable */
+     , (52986,   8, 0x0600668C) /* Icon */
+     , (52986,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52986, 8040, 3041394708, 53.80315, 82.11598, 109.4962, 0.9234748, 0, 0, -0.3836589) /* PCAPRecordedLocation */
+VALUES (52986, 8040, 0xB5480014, 53.80315, 82.11598, 109.4962, 0.923475, 0, 0, -0.383659) /* PCAPRecordedLocation */
 /* @teleloc 0xB5480014 [53.803150 82.115980 109.496200] 0.923475 0.000000 0.000000 -0.383659 */;

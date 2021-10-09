@@ -45,10 +45,10 @@ VALUES (3912,   1, 'Frost Yaoji') /* Name */
      , (3912,  16, 'Frost Yaoji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3912,   1,   33555810) /* Setup */
-     , (3912,   3,  536870932) /* SoundTable */
-     , (3912,   8,  100667621) /* Icon */
-     , (3912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3912,   1, 0x02000562) /* Setup */
+     , (3912,   3, 0x20000014) /* SoundTable */
+     , (3912,   8, 0x060010E5) /* Icon */
+     , (3912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3912,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

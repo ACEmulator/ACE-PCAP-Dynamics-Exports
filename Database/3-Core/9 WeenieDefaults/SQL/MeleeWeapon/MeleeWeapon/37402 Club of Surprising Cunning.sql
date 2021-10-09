@@ -50,18 +50,18 @@ VALUES (37402,   1, 'Club of Surprising Cunning') /* Name */
      , (37402,  16, 'This heavy club was crafted and once wielded by the Merwart Mundagurg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37402,   1,   33560551) /* Setup */
-     , (37402,   3,  536870932) /* SoundTable */
-     , (37402,   8,  100689868) /* Icon */
-     , (37402,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37402,   1, 0x020017E7) /* Setup */
+     , (37402,   3, 0x20000014) /* SoundTable */
+     , (37402,   8, 0x060067CC) /* Icon */
+     , (37402,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37402,  55,       1053) /* ProcSpell - BludgeonVulnerabilityOther6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37402, 8040, 288620559, 31.31338, 163.2999, 41.9455, 0.6222193, 0.6222193, -0.3359213, -0.3359213) /* PCAPRecordedLocation */
+VALUES (37402, 8040, 0x1134000F, 31.31338, 163.2999, 41.9455, 0.622219, 0.622219, -0.335921, -0.335921) /* PCAPRecordedLocation */
 /* @teleloc 0x1134000F [31.313380 163.299900 41.945500] 0.622219 0.622219 -0.335921 -0.335921 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37402,  1592,      2)  /* HeartSeekerSelf6 */
-     , (37402,  1605,      2)  /* DefenderSelf6 */
+VALUES (37402,  1605,      2)  /* DefenderSelf6 */
      , (37402,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (37402,  1627,      2)  /* SwiftKillerSelf6 */;
+     , (37402,  1627,      2)  /* SwiftKillerSelf6 */
+     , (37402,  1592,      2)  /* HeartSeekerSelf6 */;

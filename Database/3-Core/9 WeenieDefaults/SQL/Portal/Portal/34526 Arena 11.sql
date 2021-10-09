@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34526,   1, 'Arena 11') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34526,   1,   33560143) /* Setup */
-     , (34526,   8,  100677070) /* Icon */;
+VALUES (34526,   1, 0x0200164F) /* Setup */
+     , (34526,   8, 0x060035CE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34526, 8040, 11534670, 30, -736, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34526, 8040, 0x00B0014E, 30, -736, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B0014E [30.000000 -736.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

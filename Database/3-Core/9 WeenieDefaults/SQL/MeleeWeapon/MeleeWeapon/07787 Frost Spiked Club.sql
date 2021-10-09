@@ -50,11 +50,11 @@ VALUES (7787,   1, 'Frost Spiked Club') /* Name */
      , (7787,  16, 'Frost Spiked Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7787,   1,   33556669) /* Setup */
-     , (7787,   3,  536870932) /* SoundTable */
-     , (7787,   6,   67111919) /* PaletteBase */
-     , (7787,   8,  100670780) /* Icon */
-     , (7787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7787,   1, 0x020008BD) /* Setup */
+     , (7787,   3, 0x20000014) /* SoundTable */
+     , (7787,   6, 0x04000BEF) /* PaletteBase */
+     , (7787,   8, 0x06001D3C) /* Icon */
+     , (7787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7787,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

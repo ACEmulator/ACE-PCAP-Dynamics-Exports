@@ -43,11 +43,11 @@ VALUES (88,   1, 'Scalemail Pauldrons') /* Name */
      , (88,  16, 'Scalemail Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (88,   1,   33554641) /* Setup */
-     , (88,   3,  536870932) /* SoundTable */
-     , (88,   6,   67108990) /* PaletteBase */
-     , (88,   8,  100669548) /* Icon */
-     , (88,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (88,   1, 0x020000D1) /* Setup */
+     , (88,   3, 0x20000014) /* SoundTable */
+     , (88,   6, 0x0400007E) /* PaletteBase */
+     , (88,   8, 0x0600186C) /* Icon */
+     , (88,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (88,  1485,      2)  /* Impenetrability5 */

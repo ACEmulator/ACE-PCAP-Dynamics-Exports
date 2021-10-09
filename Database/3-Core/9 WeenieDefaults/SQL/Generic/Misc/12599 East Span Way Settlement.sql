@@ -18,9 +18,9 @@ VALUES (12599,   1, 'East Span Way Settlement') /* Name */
      , (12599,  16, 'Welcome to East Span Way Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12599,   1,   33557463) /* Setup */
-     , (12599,   8,  100668115) /* Icon */;
+VALUES (12599,   1, 0x02000BD7) /* Setup */
+     , (12599,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12599, 8040, 3148349501, 175.673, 101.636, 74, -0.73527, 0, 0, -0.677774) /* PCAPRecordedLocation */
+VALUES (12599, 8040, 0xBBA8003D, 175.673, 101.636, 74, -0.73527, 0, 0, -0.677774) /* PCAPRecordedLocation */
 /* @teleloc 0xBBA8003D [175.673000 101.636000 74.000000] -0.735270 0.000000 0.000000 -0.677774 */;

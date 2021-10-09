@@ -30,13 +30,13 @@ VALUES (28828,   1, 'Grand Mother''s Medallion') /* Name */
      , (28828,  16, 'A beautiful medallion given to you by Grand Mother of Silyun for avenging the death of her grandson.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28828,   1,   33554689) /* Setup */
-     , (28828,   3,  536870932) /* SoundTable */
-     , (28828,   6,   67111919) /* PaletteBase */
-     , (28828,   8,  100686352) /* Icon */
-     , (28828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28828,   1, 0x02000101) /* Setup */
+     , (28828,   3, 0x20000014) /* SoundTable */
+     , (28828,   6, 0x04000BEF) /* PaletteBase */
+     , (28828,   8, 0x06005A10) /* Icon */
+     , (28828,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28828,  1311,      2)  /* ArmorSelf5 */
-     , (28828,  1353,      2)  /* EnduranceSelf5 */
+VALUES (28828,  1353,      2)  /* EnduranceSelf5 */
+     , (28828,  1311,      2)  /* ArmorSelf5 */
      , (28828,  1377,      2)  /* CoordinationSelf5 */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7262,   1, 'Acid Stream') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7262,   1,   33555446) /* Setup */
-     , (7262,   3,  536870969) /* SoundTable */
-     , (7262,   8,  100667494) /* Icon */
-     , (7262,  22,  872415243) /* PhysicsEffectTable */
+VALUES (7262,   1, 0x020003F6) /* Setup */
+     , (7262,   3, 0x20000039) /* SoundTable */
+     , (7262,   8, 0x06001066) /* Icon */
+     , (7262,  22, 0x3400000B) /* PhysicsEffectTable */
      , (7262,  28,         58) /* Spell - AcidStream1 */
      , (7262,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7262, 8040, 1913257988, 12.87685, 72.50359, 0.2612464, 0.5462554, 0, 0, -0.8376186) /* PCAPRecordedLocation */
+VALUES (7262, 8040, 0x720A0004, 12.87685, 72.50359, 0.261246, 0.546255, 0, 0, -0.837619) /* PCAPRecordedLocation */
 /* @teleloc 0x720A0004 [12.876850 72.503590 0.261246] 0.546255 0.000000 0.000000 -0.837619 */;

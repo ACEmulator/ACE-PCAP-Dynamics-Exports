@@ -49,11 +49,11 @@ VALUES (31763,   1, 'Frost Lugian Hammer') /* Name */
      , (31763,  16, 'Frost Lugian Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31763,   1,   33559672) /* Setup */
-     , (31763,   3,  536870932) /* SoundTable */
-     , (31763,   6,   67116700) /* PaletteBase */
-     , (31763,   8,  100688033) /* Icon */
-     , (31763,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31763,   1, 0x02001478) /* Setup */
+     , (31763,   3, 0x20000014) /* SoundTable */
+     , (31763,   6, 0x04001E9C) /* PaletteBase */
+     , (31763,   8, 0x060060A1) /* Icon */
+     , (31763,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31763,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

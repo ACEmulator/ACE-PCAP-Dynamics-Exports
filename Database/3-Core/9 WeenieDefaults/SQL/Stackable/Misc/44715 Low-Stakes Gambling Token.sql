@@ -26,7 +26,7 @@ VALUES (44715,   1, 'Low-Stakes Gambling Token') /* Name */
      , (44715,  16, 'A gambling token accepted by all Low-Stakes Gamemasters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44715,   1,   33557006) /* Setup */
-     , (44715,   3,  536870932) /* SoundTable */
-     , (44715,   8,  100671478) /* Icon */
-     , (44715,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44715,   1, 0x02000A0E) /* Setup */
+     , (44715,   3, 0x20000014) /* SoundTable */
+     , (44715,   8, 0x06001FF6) /* Icon */
+     , (44715,  22, 0x3400002B) /* PhysicsEffectTable */;

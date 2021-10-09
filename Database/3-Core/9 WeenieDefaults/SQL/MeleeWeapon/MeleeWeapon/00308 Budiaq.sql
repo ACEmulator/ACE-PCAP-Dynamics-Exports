@@ -38,9 +38,9 @@ VALUES (308,   1, 'Budiaq') /* Name */
      , (308,  16, 'Budiaq') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (308,   1,   33554756) /* Setup */
-     , (308,   3,  536870932) /* SoundTable */
-     , (308,   6,   67111919) /* PaletteBase */
-     , (308,   8,  100669012) /* Icon */
-     , (308,  22,  872415275) /* PhysicsEffectTable */
-     , (308,  52,  100676443) /* IconUnderlay */;
+VALUES (308,   1, 0x02000144) /* Setup */
+     , (308,   3, 0x20000014) /* SoundTable */
+     , (308,   6, 0x04000BEF) /* PaletteBase */
+     , (308,   8, 0x06001654) /* Icon */
+     , (308,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (308,  52, 0x0600335B) /* IconUnderlay */;

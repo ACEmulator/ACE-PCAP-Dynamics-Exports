@@ -21,7 +21,7 @@ VALUES (52264,   1, 'Idol of the Recluse') /* Name */
      , (52264,  16, 'An ancient idol given to you by the Mu-miyah Recluse. Return this to El''Yst Maggann.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52264,   1,   33554817) /* Setup */
-     , (52264,   3,  536870932) /* SoundTable */
-     , (52264,   8,  100669122) /* Icon */
-     , (52264,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52264,   1, 0x02000181) /* Setup */
+     , (52264,   3, 0x20000014) /* SoundTable */
+     , (52264,   8, 0x060016C2) /* Icon */
+     , (52264,  22, 0x3400002B) /* PhysicsEffectTable */;

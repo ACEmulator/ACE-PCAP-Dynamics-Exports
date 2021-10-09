@@ -18,13 +18,13 @@ VALUES (34349,   1, 'Letter to Bretself the Translator') /* Name */
      , (34349,  16, 'A letter sent from Asheron Realaidain to Bretself the Translator') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34349,   1,   33554773) /* Setup */
-     , (34349,   3,  536870932) /* SoundTable */
-     , (34349,   8,  100668176) /* Icon */
-     , (34349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34349,   1, 0x02000155) /* Setup */
+     , (34349,   3, 0x20000014) /* SoundTable */
+     , (34349,   8, 0x06001310) /* Icon */
+     , (34349,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34349, 8040, 30671251, 28.74659, -31.80863, 30.079, 0.9964855, 0, 0, -0.08376546) /* PCAPRecordedLocation */
+VALUES (34349, 8040, 0x01D40193, 28.74659, -31.80863, 30.079, 0.996486, 0, 0, -0.083765) /* PCAPRecordedLocation */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 30.079000] 0.996486 0.000000 0.000000 -0.083765 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

@@ -34,20 +34,20 @@ VALUES (801,   1, 'Jeweler Liman Pon') /* Name */
      , (801,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (801,   1,   33554433) /* Setup */
-     , (801,   2,  150994945) /* MotionTable */
-     , (801,   3,  536870913) /* SoundTable */
-     , (801,   6,   67108990) /* PaletteBase */
-     , (801,   8,  100667446) /* Icon */
-     , (801,   9,   83890473) /* EyesTexture */
-     , (801,  10,   83890562) /* NoseTexture */
-     , (801,  11,   83890585) /* MouthTexture */
-     , (801,  15,   67117074) /* HairPalette */
-     , (801,  16,   67110063) /* EyesPalette */
-     , (801,  17,   67110055) /* SkinPalette */;
+VALUES (801,   1, 0x02000001) /* Setup */
+     , (801,   2, 0x09000001) /* MotionTable */
+     , (801,   3, 0x20000001) /* SoundTable */
+     , (801,   6, 0x0400007E) /* PaletteBase */
+     , (801,   8, 0x06001036) /* Icon */
+     , (801,   9, 0x05001129) /* EyesTexture */
+     , (801,  10, 0x05001182) /* NoseTexture */
+     , (801,  11, 0x05001199) /* MouthTexture */
+     , (801,  15, 0x04002012) /* HairPalette */
+     , (801,  16, 0x040004AF) /* EyesPalette */
+     , (801,  17, 0x040004A7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (801, 8040, 3862036757, 11.88, 163.8, 28.005, 0.3436601, 0, 0, -0.9390941) /* PCAPRecordedLocation */
+VALUES (801, 8040, 0xE6320115, 11.88, 163.8, 28.005, 0.34366, 0, 0, -0.939094) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320115 [11.880000 163.800000 28.005000] 0.343660 0.000000 0.000000 -0.939094 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -46,11 +46,11 @@ LS = 1.0N , 70..7W') /* Inscription */
      , (52786,  16, 'A dark black ring set with five emeralds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52786,   1,   33554691) /* Setup */
-     , (52786,   3,  536870932) /* SoundTable */
-     , (52786,   6,   67111919) /* PaletteBase */
-     , (52786,   8,  100693313) /* Icon */
-     , (52786,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52786,   1, 0x02000103) /* Setup */
+     , (52786,   3, 0x20000014) /* SoundTable */
+     , (52786,   6, 0x04000BEF) /* PaletteBase */
+     , (52786,   8, 0x06007541) /* Icon */
+     , (52786,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52786,  4025,      2)  /* CastIronStomach */;

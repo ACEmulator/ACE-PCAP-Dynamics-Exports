@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44566,   1, 'Contract for Phyntos Queen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44566,   1,   33557625) /* Setup */
-     , (44566,   3,  536870932) /* SoundTable */
-     , (44566,   8,  100691930) /* Icon */
-     , (44566,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44566,   1, 0x02000C79) /* Setup */
+     , (44566,   3, 0x20000014) /* SoundTable */
+     , (44566,   8, 0x06006FDA) /* Icon */
+     , (44566,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44566, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

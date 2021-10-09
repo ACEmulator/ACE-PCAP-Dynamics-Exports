@@ -23,10 +23,10 @@ VALUES (42174,   1, 'Tumerok Camps') /* Name */
      , (42174,  16, 'A portal leading to Dryreach from which you can find the six Tumerok camps. Falcon Clan Training Camp at 2.0N, 75.0E. Serpent Clan Training Camp 1.0S, 70.0E. Shreth Clan Training Camp 5.0S, 68.0E. Reedshark Clan Training Camp 13.0S, 68.0E. Gromnie Clan Training Camp 16.0S, 70.0E. Mask Clan Training Camp 16.0S, 75.0E.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42174,   1,   33554867) /* Setup */
-     , (42174,   2,  150994947) /* MotionTable */
-     , (42174,   8,  100667499) /* Icon */;
+VALUES (42174,   1, 0x020001B3) /* Setup */
+     , (42174,   2, 0x09000003) /* MotionTable */
+     , (42174,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42174, 8040, 2315387157, 60, -20, -12.0504, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42174, 8040, 0x8A020115, 60, -20, -12.0504, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8A020115 [60.000000 -20.000000 -12.050400] 1.000000 0.000000 0.000000 0.000000 */;

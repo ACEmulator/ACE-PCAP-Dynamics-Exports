@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35115,   1, 'Contained Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35115,   1,   33557102) /* Setup */
-     , (35115,   2,  150995087) /* MotionTable */
-     , (35115,   3,  536871001) /* SoundTable */
-     , (35115,   8,  100671702) /* Icon */
-     , (35115,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (35115,   1, 0x02000A6E) /* Setup */
+     , (35115,   2, 0x0900008F) /* MotionTable */
+     , (35115,   3, 0x20000059) /* SoundTable */
+     , (35115,   8, 0x060020D6) /* Icon */
+     , (35115,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35115, 8040, 11796839, 25.14247, -1467.768, 0.1125, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35115, 8040, 0x00B40167, 25.14247, -1467.768, 0.1125, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B40167 [25.142470 -1467.768000 0.112500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

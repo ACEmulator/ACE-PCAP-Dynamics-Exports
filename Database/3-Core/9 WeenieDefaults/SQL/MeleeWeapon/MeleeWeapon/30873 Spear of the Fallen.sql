@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30873,   1, 'Spear of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30873,   1,   33559269) /* Setup */
-     , (30873,   3,  536870932) /* SoundTable */
-     , (30873,   8,  100677501) /* Icon */
-     , (30873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30873,   1, 0x020012E5) /* Setup */
+     , (30873,   3, 0x20000014) /* SoundTable */
+     , (30873,   8, 0x0600377D) /* Icon */
+     , (30873,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30873,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (30873,  2694,      2)  /* ModerateSwordAptitude */;
+VALUES (30873,  2694,      2)  /* ModerateSwordAptitude */
+     , (30873,  2096,      2)  /* BloodDrinkerSelf7 */;

@@ -36,8 +36,8 @@ VALUES (5158,   1, 'Rusted Knife') /* Name */
      , (5158,  16, 'A rusted, old knife made by Dah bint Nas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5158,   1,   33554745) /* Setup */
-     , (5158,   3,  536870932) /* SoundTable */
-     , (5158,   6,   67111919) /* PaletteBase */
-     , (5158,   8,  100668946) /* Icon */
-     , (5158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5158,   1, 0x02000139) /* Setup */
+     , (5158,   3, 0x20000014) /* SoundTable */
+     , (5158,   6, 0x04000BEF) /* PaletteBase */
+     , (5158,   8, 0x06001612) /* Icon */
+     , (5158,  22, 0x3400002B) /* PhysicsEffectTable */;

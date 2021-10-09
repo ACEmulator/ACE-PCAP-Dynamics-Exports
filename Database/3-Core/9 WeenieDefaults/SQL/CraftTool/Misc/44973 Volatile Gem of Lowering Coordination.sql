@@ -28,7 +28,7 @@ VALUES (44973,   1, 'Volatile Gem of Lowering Coordination') /* Name */
      , (44973,  14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of coordination to another attribute. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44973,   1,   33558087) /* Setup */
-     , (44973,   6,   67111919) /* PaletteBase */
-     , (44973,   8,  100673789) /* Icon */
-     , (44973,  50,  100673962) /* IconOverlay */;
+VALUES (44973,   1, 0x02000E47) /* Setup */
+     , (44973,   6, 0x04000BEF) /* PaletteBase */
+     , (44973,   8, 0x060028FD) /* Icon */
+     , (44973,  50, 0x060029AA) /* IconOverlay */;

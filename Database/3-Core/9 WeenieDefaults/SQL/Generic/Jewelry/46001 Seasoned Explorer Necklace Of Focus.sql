@@ -31,12 +31,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46001,   1, 'Seasoned Explorer Necklace Of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46001,   1,   33554689) /* Setup */
-     , (46001,   3,  536870932) /* SoundTable */
-     , (46001,   6,   67111919) /* PaletteBase */
-     , (46001,   8,  100675468) /* Icon */
-     , (46001,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46001,   1, 0x02000101) /* Setup */
+     , (46001,   3, 0x20000014) /* SoundTable */
+     , (46001,   6, 0x04000BEF) /* PaletteBase */
+     , (46001,   8, 0x06002F8C) /* Icon */
+     , (46001,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46001,  1432,      2)  /* FocusOther6 */
-     , (46001,  2581,      2)  /* CANTRIPFOCUS1 */;
+VALUES (46001,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (46001,  1432,      2)  /* FocusOther6 */;

@@ -22,7 +22,7 @@ VALUES (33572,   1, 'Head of a Barbaric Panumbral Mukkir') /* Name */
      , (33572,  16, 'The decapitated head of a Barbaric Panumbral Mukkir') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33572,   1,   33559761) /* Setup */
-     , (33572,   3,  536870932) /* SoundTable */
-     , (33572,   8,  100688412) /* Icon */
-     , (33572,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33572,   1, 0x020014D1) /* Setup */
+     , (33572,   3, 0x20000014) /* SoundTable */
+     , (33572,   8, 0x0600621C) /* Icon */
+     , (33572,  22, 0x3400002B) /* PhysicsEffectTable */;

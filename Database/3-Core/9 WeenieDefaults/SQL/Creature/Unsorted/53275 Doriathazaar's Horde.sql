@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53275,   1, 'Doriathazaar''s Horde') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53275,   1,   33558212) /* Setup */
-     , (53275,   2,  150995355) /* MotionTable */
-     , (53275,   3,  536870932) /* SoundTable */
-     , (53275,   8,  100674084) /* Icon */;
+VALUES (53275,   1, 0x02000EC4) /* Setup */
+     , (53275,   2, 0x0900019B) /* MotionTable */
+     , (53275,   3, 0x20000014) /* SoundTable */
+     , (53275,   8, 0x06002A24) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53275, 8040, 3041525780, 53, 79, 201.1945, -0.9659258, 0, 0, -0.2588191) /* PCAPRecordedLocation */
+VALUES (53275, 8040, 0xB54A0014, 53, 79, 201.1945, -0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0xB54A0014 [53.000000 79.000000 201.194500] -0.965926 0.000000 0.000000 -0.258819 */;

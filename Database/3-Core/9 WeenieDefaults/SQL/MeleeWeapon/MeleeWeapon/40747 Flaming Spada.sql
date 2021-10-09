@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40747,   1, 'Flaming Spada') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40747,   1,   33559461) /* Setup */
-     , (40747,   3,  536870932) /* SoundTable */
-     , (40747,   6,   67115557) /* PaletteBase */
-     , (40747,   8,  100686945) /* Icon */
-     , (40747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40747,   1, 0x020013A5) /* Setup */
+     , (40747,   3, 0x20000014) /* SoundTable */
+     , (40747,   6, 0x04001A25) /* PaletteBase */
+     , (40747,   8, 0x06005C61) /* Icon */
+     , (40747,  22, 0x3400002B) /* PhysicsEffectTable */;

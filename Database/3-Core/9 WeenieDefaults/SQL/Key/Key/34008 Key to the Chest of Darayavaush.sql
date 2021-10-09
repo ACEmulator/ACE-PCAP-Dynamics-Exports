@@ -25,7 +25,7 @@ VALUES (34008,   1, 'Key to the Chest of Darayavaush') /* Name */
      , (34008,  16, 'A key to the Chest of Darayavaush, taken from Darayavaush himself.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34008,   1,   33554784) /* Setup */
-     , (34008,   3,  536870932) /* SoundTable */
-     , (34008,   8,  100689120) /* Icon */
-     , (34008,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34008,   1, 0x02000160) /* Setup */
+     , (34008,   3, 0x20000014) /* SoundTable */
+     , (34008,   8, 0x060064E0) /* Icon */
+     , (34008,  22, 0x3400002B) /* PhysicsEffectTable */;

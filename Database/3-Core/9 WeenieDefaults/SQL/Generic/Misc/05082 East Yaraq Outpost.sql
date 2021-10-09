@@ -18,9 +18,9 @@ VALUES (5082,   1, 'East Yaraq Outpost') /* Name */
      , (5082,  16, 'Welcome to East Yaraq Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5082,   1,   33555088) /* Setup */
-     , (5082,   8,  100668115) /* Icon */;
+VALUES (5082,   1, 0x02000290) /* Setup */
+     , (5082,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5082, 8040, 2170814471, 12.6469, 150.518, 24, 0.999633, 0, 0, -0.0270773) /* PCAPRecordedLocation */
+VALUES (5082, 8040, 0x81640007, 12.6469, 150.518, 24, 0.999633, 0, 0, -0.027077) /* PCAPRecordedLocation */
 /* @teleloc 0x81640007 [12.646900 150.518000 24.000000] 0.999633 0.000000 0.000000 -0.027077 */;

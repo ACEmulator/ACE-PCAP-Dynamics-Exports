@@ -34,20 +34,20 @@ VALUES (4677,   1, 'Archmage Jiz ibn Ijfai') /* Name */
      , (4677,   5, 'Adept') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4677,   1,   33554433) /* Setup */
-     , (4677,   2,  150994945) /* MotionTable */
-     , (4677,   3,  536870913) /* SoundTable */
-     , (4677,   6,   67108990) /* PaletteBase */
-     , (4677,   8,  100667446) /* Icon */
-     , (4677,   9,   83890464) /* EyesTexture */
-     , (4677,  10,   83890538) /* NoseTexture */
-     , (4677,  11,   83890564) /* MouthTexture */
-     , (4677,  15,   67117077) /* HairPalette */
-     , (4677,  16,   67110063) /* EyesPalette */
-     , (4677,  17,   67109555) /* SkinPalette */;
+VALUES (4677,   1, 0x02000001) /* Setup */
+     , (4677,   2, 0x09000001) /* MotionTable */
+     , (4677,   3, 0x20000001) /* SoundTable */
+     , (4677,   6, 0x0400007E) /* PaletteBase */
+     , (4677,   8, 0x06001036) /* Icon */
+     , (4677,   9, 0x05001120) /* EyesTexture */
+     , (4677,  10, 0x0500116A) /* NoseTexture */
+     , (4677,  11, 0x05001184) /* MouthTexture */
+     , (4677,  15, 0x04002015) /* HairPalette */
+     , (4677,  16, 0x040004AF) /* EyesPalette */
+     , (4677,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4677, 8040, 2421686548, 188.124, 132.778, 3.205, -0.4619369, 0, 0, -0.8869128) /* PCAPRecordedLocation */
+VALUES (4677, 8040, 0x90580114, 188.124, 132.778, 3.205, -0.461937, 0, 0, -0.886913) /* PCAPRecordedLocation */
 /* @teleloc 0x90580114 [188.124000 132.778000 3.205000] -0.461937 0.000000 0.000000 -0.886913 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

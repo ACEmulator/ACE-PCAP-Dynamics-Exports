@@ -26,14 +26,14 @@ VALUES (44297,   1, 'Cracked Stone Tablet') /* Name */
      , (44297,  15, 'A cracked, partially buried stone tablet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44297,   1,   33561255) /* Setup */
-     , (44297,   2,  150995355) /* MotionTable */
-     , (44297,   3,  536870942) /* SoundTable */
-     , (44297,   8,  100691956) /* Icon */
-     , (44297,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (44297,   1, 0x02001AA7) /* Setup */
+     , (44297,   2, 0x0900019B) /* MotionTable */
+     , (44297,   3, 0x2000001E) /* SoundTable */
+     , (44297,   8, 0x06006FF4) /* Icon */
+     , (44297,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44297, 8040, 2288254994, 62.79256, 46.23956, 49.1793, -0.8105115, 0, 0, -0.5857226) /* PCAPRecordedLocation */
+VALUES (44297, 8040, 0x88640012, 62.79256, 46.23956, 49.1793, -0.810512, 0, 0, -0.585723) /* PCAPRecordedLocation */
 /* @teleloc 0x88640012 [62.792560 46.239560 49.179300] -0.810512 0.000000 0.000000 -0.585723 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -18,9 +18,9 @@ VALUES (5078,   1, 'Southeast Shoushi Outpost') /* Name */
      , (5078,  16, 'Welcome to the Southeast Shoushi Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5078,   1,   33555088) /* Setup */
-     , (5078,   8,  100668115) /* Icon */;
+VALUES (5078,   1, 0x02000290) /* Setup */
+     , (5078,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5078, 8040, 3729850382, 45.301, 131.823, 16, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (5078, 8040, 0xDE51000E, 45.301, 131.823, 16, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDE51000E [45.301000 131.823000 16.000000] -0.707107 0.000000 0.000000 -0.707107 */;

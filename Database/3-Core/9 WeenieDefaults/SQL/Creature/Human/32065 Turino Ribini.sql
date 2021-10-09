@@ -29,20 +29,20 @@ VALUES (32065,   1, 'Turino Ribini') /* Name */
      , (32065,   5, 'Tax Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32065,   1,   33554433) /* Setup */
-     , (32065,   2,  150994945) /* MotionTable */
-     , (32065,   3,  536870913) /* SoundTable */
-     , (32065,   6,   67108990) /* PaletteBase */
-     , (32065,   8,  100667446) /* Icon */
-     , (32065,   9,   83890509) /* EyesTexture */
-     , (32065,  10,   83890559) /* NoseTexture */
-     , (32065,  11,   83890575) /* MouthTexture */
-     , (32065,  15,   67117073) /* HairPalette */
-     , (32065,  16,   67110065) /* EyesPalette */
-     , (32065,  17,   67115902) /* SkinPalette */;
+VALUES (32065,   1, 0x02000001) /* Setup */
+     , (32065,   2, 0x09000001) /* MotionTable */
+     , (32065,   3, 0x20000001) /* SoundTable */
+     , (32065,   6, 0x0400007E) /* PaletteBase */
+     , (32065,   8, 0x06001036) /* Icon */
+     , (32065,   9, 0x0500114D) /* EyesTexture */
+     , (32065,  10, 0x0500117F) /* NoseTexture */
+     , (32065,  11, 0x0500118F) /* MouthTexture */
+     , (32065,  15, 0x04002011) /* HairPalette */
+     , (32065,  16, 0x040004B1) /* EyesPalette */
+     , (32065,  17, 0x04001B7E) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32065, 8040, 565182729, 86.3344, 83.6525, 4.405, -0.877534, 0, 0, -0.479514) /* PCAPRecordedLocation */
+VALUES (32065, 8040, 0x21B00109, 86.3344, 83.6525, 4.405, -0.877534, 0, 0, -0.479514) /* PCAPRecordedLocation */
 /* @teleloc 0x21B00109 [86.334400 83.652500 4.405000] -0.877534 0.000000 0.000000 -0.479514 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

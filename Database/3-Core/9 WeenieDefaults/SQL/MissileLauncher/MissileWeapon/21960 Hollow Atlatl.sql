@@ -43,13 +43,13 @@ VALUES (21960,   1, 'Hollow Atlatl') /* Name */
      , (21960,  16, 'An atlatl crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21960,   1,   33558044) /* Setup */
-     , (21960,   3,  536870932) /* SoundTable */
-     , (21960,   6,   67111919) /* PaletteBase */
-     , (21960,   8,  100672411) /* Icon */
-     , (21960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21960,   1, 0x02000E1C) /* Setup */
+     , (21960,   3, 0x20000014) /* SoundTable */
+     , (21960,   6, 0x04000BEF) /* PaletteBase */
+     , (21960,   8, 0x0600239B) /* Icon */
+     , (21960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21960,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21960, 8040, 3629514805, 84.825, 100.3333, 19.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (21960, 8040, 0xD8560035, 84.825, 100.3333, 19.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD8560035 [84.825000 100.333300 19.929000] 0.707107 0.707107 0.000000 0.000000 */;

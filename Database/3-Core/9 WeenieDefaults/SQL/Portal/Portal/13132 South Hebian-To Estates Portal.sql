@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13132,   1, 'South Hebian-To Estates Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13132,   1,   33554867) /* Setup */
-     , (13132,   2,  150994947) /* MotionTable */
-     , (13132,   8,  100667499) /* Icon */;
+VALUES (13132,   1, 0x020001B3) /* Setup */
+     , (13132,   2, 0x09000003) /* MotionTable */
+     , (13132,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13132, 8040, 3863674893, 28.1831, 99.9799, 31.937, 0.3169711, 0, 0, 0.9484352) /* PCAPRecordedLocation */
+VALUES (13132, 8040, 0xE64B000D, 28.1831, 99.9799, 31.937, 0.316971, 0, 0, 0.948435) /* PCAPRecordedLocation */
 /* @teleloc 0xE64B000D [28.183100 99.979900 31.937000] 0.316971 0.000000 0.000000 0.948435 */;

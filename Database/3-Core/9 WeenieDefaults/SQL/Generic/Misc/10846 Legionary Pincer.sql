@@ -24,7 +24,7 @@ VALUES (10846,   1, 'Legionary Pincer') /* Name */
      , (10846,  16, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii at 40.8N, 83.3W in Redspire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10846,   1,   33554817) /* Setup */
-     , (10846,   3,  536870932) /* SoundTable */
-     , (10846,   8,  100672037) /* Icon */
-     , (10846,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10846,   1, 0x02000181) /* Setup */
+     , (10846,   3, 0x20000014) /* SoundTable */
+     , (10846,   8, 0x06002225) /* Icon */
+     , (10846,  22, 0x3400002B) /* PhysicsEffectTable */;

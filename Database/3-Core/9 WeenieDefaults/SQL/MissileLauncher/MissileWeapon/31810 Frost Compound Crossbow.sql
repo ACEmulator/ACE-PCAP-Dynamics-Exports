@@ -45,8 +45,8 @@ VALUES (31810,   1, 'Frost Compound Crossbow') /* Name */
      , (31810,  16, 'Frost Compound Crossbow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31810,   1,   33559663) /* Setup */
-     , (31810,   3,  536870932) /* SoundTable */
-     , (31810,   6,   67116700) /* PaletteBase */
-     , (31810,   8,  100688060) /* Icon */
-     , (31810,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31810,   1, 0x0200146F) /* Setup */
+     , (31810,   3, 0x20000014) /* SoundTable */
+     , (31810,   6, 0x04001E9C) /* PaletteBase */
+     , (31810,   8, 0x060060BC) /* Icon */
+     , (31810,  22, 0x3400002B) /* PhysicsEffectTable */;

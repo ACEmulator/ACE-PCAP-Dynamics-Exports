@@ -49,11 +49,11 @@ VALUES (150,   1, 'Flagon') /* Name */
      , (150,  16, 'Flagon of Arcanum Salvaging') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (150,   1,   33555093) /* Setup */
-     , (150,   3,  536871012) /* SoundTable */
-     , (150,   6,   67111092) /* PaletteBase */
-     , (150,   8,  100668779) /* Icon */
-     , (150,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (150,   1, 0x02000295) /* Setup */
+     , (150,   3, 0x20000064) /* SoundTable */
+     , (150,   6, 0x040008B4) /* PaletteBase */
+     , (150,   8, 0x0600156B) /* Icon */
+     , (150,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (150,  3503,      2)  /* ArcanumSalvagingSelf5 */;

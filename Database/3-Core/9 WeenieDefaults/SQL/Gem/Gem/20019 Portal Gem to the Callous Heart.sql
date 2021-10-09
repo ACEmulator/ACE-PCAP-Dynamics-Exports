@@ -36,9 +36,9 @@ VALUES (20019,   1, 'Portal Gem to the Callous Heart') /* Name */
      , (20019,  15, 'A glowing black gem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20019,   1,   33556769) /* Setup */
-     , (20019,   3,  536870932) /* SoundTable */
-     , (20019,   6,   67111919) /* PaletteBase */
-     , (20019,   8,  100673039) /* Icon */
-     , (20019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20019,   1, 0x02000921) /* Setup */
+     , (20019,   3, 0x20000014) /* SoundTable */
+     , (20019,   6, 0x04000BEF) /* PaletteBase */
+     , (20019,   8, 0x0600260F) /* Icon */
+     , (20019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20019,  28,       2671) /* Spell - PortalSendingLabyrinthRewards */;

@@ -31,7 +31,7 @@ VALUES (46803,   1, 'Box Of Ten A''nekshay Tokens') /* Name */
      , (46803,  20, 'Boxes Of Ten A''nekshay Tokens') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46803,   1,   33554718) /* Setup */
-     , (46803,   3,  536870932) /* SoundTable */
-     , (46803,   8,  100692952) /* Icon */
-     , (46803,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46803,   1, 0x0200011E) /* Setup */
+     , (46803,   3, 0x20000014) /* SoundTable */
+     , (46803,   8, 0x060073D8) /* Icon */
+     , (46803,  22, 0x3400002B) /* PhysicsEffectTable */;

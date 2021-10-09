@@ -44,17 +44,17 @@ VALUES (27839,   1, 'Ultimate Singularity Scepter of War Magic') /* Name */
      , (27839,  25, 'Makosa''') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27839,   1,   33558796) /* Setup */
-     , (27839,   6,   67111919) /* PaletteBase */
-     , (27839,   8,  100676589) /* Icon */
-     , (27839,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27839,   1, 0x0200110C) /* Setup */
+     , (27839,   6, 0x04000BEF) /* PaletteBase */
+     , (27839,   8, 0x060033ED) /* Icon */
+     , (27839,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27839, 8040, 4095213828, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (27839, 8040, 0xF4180104, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180104 [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27839,   211,      2)  /* ManaRenewalOther6 */
-     , (27839,   664,      2)  /* ManaMasteryOther6 */
+     , (27839,  2581,      2)  /* CANTRIPFOCUS1 */
      , (27839,  1432,      2)  /* FocusOther6 */
-     , (27839,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (27839,   664,      2)  /* ManaMasteryOther6 */;

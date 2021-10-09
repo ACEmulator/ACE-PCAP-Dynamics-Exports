@@ -39,15 +39,15 @@ VALUES (28058,   1, 'Staff of Aerfalle') /* Name */
      , (28058,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28058,   1,   33556630) /* Setup */
-     , (28058,   3,  536870932) /* SoundTable */
-     , (28058,   6,   67111919) /* PaletteBase */
-     , (28058,   8,  100670752) /* Icon */
-     , (28058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28058,   1, 0x02000896) /* Setup */
+     , (28058,   3, 0x20000014) /* SoundTable */
+     , (28058,   6, 0x04000BEF) /* PaletteBase */
+     , (28058,   8, 0x06001D20) /* Icon */
+     , (28058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28058,  28,        130) /* Spell - AcidVolley6 */
      , (28058,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28058,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (28058,   640,      2)  /* WarMagicMasteryOther6 */
-     , (28058,   909,      2)  /* LeadershipMasteryOther6 */;
+VALUES (28058,   640,      2)  /* WarMagicMasteryOther6 */
+     , (28058,   909,      2)  /* LeadershipMasteryOther6 */
+     , (28058,   616,      2)  /* LifeMagicMasteryOther6 */;

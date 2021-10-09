@@ -23,7 +23,7 @@ VALUES (2955,   1, 'Scroll of Lightning Bolt II') /* Name */
 Shoots a bolt of lighting at the target. The bolt does 26-52 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2955,   1,   33554826) /* Setup */
-     , (2955,   8,  100677013) /* Icon */
-     , (2955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2955,   1, 0x0200018A) /* Setup */
+     , (2955,   8, 0x06003595) /* Icon */
+     , (2955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2955,  28,         76) /* Spell - LightningBolt2 */;

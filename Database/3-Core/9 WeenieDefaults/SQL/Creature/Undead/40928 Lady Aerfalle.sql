@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40928,   1, 'Lady Aerfalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40928,   1,   33558819) /* Setup */
-     , (40928,   2,  150994945) /* MotionTable */
-     , (40928,   3,  536870914) /* SoundTable */
-     , (40928,   6,   67115272) /* PaletteBase */
-     , (40928,   8,  100667942) /* Icon */
-     , (40928,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (40928,   1, 0x02001123) /* Setup */
+     , (40928,   2, 0x09000001) /* MotionTable */
+     , (40928,   3, 0x20000002) /* SoundTable */
+     , (40928,   6, 0x04001908) /* PaletteBase */
+     , (40928,   8, 0x06001226) /* Icon */
+     , (40928,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40928, 8040, 3052405028, 111.0002, -54.06336, -81.19062, -0.0244429, 0, 0, -0.9997012) /* PCAPRecordedLocation */
+VALUES (40928, 8040, 0xB5F00124, 111.0002, -54.06336, -81.19062, -0.024443, 0, 0, -0.999701) /* PCAPRecordedLocation */
 /* @teleloc 0xB5F00124 [111.000200 -54.063360 -81.190620] -0.024443 0.000000 0.000000 -0.999701 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

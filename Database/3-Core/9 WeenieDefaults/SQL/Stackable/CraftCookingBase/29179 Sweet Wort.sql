@@ -19,8 +19,8 @@ VALUES (29179,   1, 'Sweet Wort') /* Name */
      , (29179,  20, 'Sweet Worts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29179,   1,   33559154) /* Setup */
-     , (29179,   3,  536870932) /* SoundTable */
-     , (29179,   8,  100686462) /* Icon */
-     , (29179,  22,  872415275) /* PhysicsEffectTable */
-     , (29179,  50,  100687549) /* IconOverlay */;
+VALUES (29179,   1, 0x02001272) /* Setup */
+     , (29179,   3, 0x20000014) /* SoundTable */
+     , (29179,   8, 0x06005A7E) /* Icon */
+     , (29179,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29179,  50, 0x06005EBD) /* IconOverlay */;

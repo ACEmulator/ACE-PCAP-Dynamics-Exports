@@ -28,7 +28,7 @@ VALUES (42114,   1, 'Aetherium-infused Gear') /* Name */
      , (42114,  16, 'An Aetherium-infused Gear,  dropped by the Gear Knights in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42114,   1,   33557681) /* Setup */
-     , (42114,   3,  536870932) /* SoundTable */
-     , (42114,   8,  100672956) /* Icon */
-     , (42114,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42114,   1, 0x02000CB1) /* Setup */
+     , (42114,   3, 0x20000014) /* SoundTable */
+     , (42114,   8, 0x060025BC) /* Icon */
+     , (42114,  22, 0x3400002B) /* PhysicsEffectTable */;

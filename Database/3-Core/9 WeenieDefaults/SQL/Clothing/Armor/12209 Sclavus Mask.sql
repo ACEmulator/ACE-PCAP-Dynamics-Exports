@@ -32,7 +32,7 @@ VALUES (12209,   1, 'Sclavus Mask') /* Name */
      , (12209,  16, 'A finely sewed and oiled Sclavus head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12209,   1,   33557362) /* Setup */
-     , (12209,   3,  536870932) /* SoundTable */
-     , (12209,   8,  100672163) /* Icon */
-     , (12209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12209,   1, 0x02000B72) /* Setup */
+     , (12209,   3, 0x20000014) /* SoundTable */
+     , (12209,   8, 0x060022A3) /* Icon */
+     , (12209,  22, 0x3400002B) /* PhysicsEffectTable */;

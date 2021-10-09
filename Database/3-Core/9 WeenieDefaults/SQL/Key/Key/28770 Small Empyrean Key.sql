@@ -26,7 +26,7 @@ VALUES (28770,   1, 'Small Empyrean Key') /* Name */
      , (28770,  16, 'A key of Empyrean-make. Its teeth exhibit an unusual pattern.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28770,   1,   33554784) /* Setup */
-     , (28770,   3,  536870932) /* SoundTable */
-     , (28770,   8,  100667485) /* Icon */
-     , (28770,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28770,   1, 0x02000160) /* Setup */
+     , (28770,   3, 0x20000014) /* SoundTable */
+     , (28770,   8, 0x0600105D) /* Icon */
+     , (28770,  22, 0x3400002B) /* PhysicsEffectTable */;

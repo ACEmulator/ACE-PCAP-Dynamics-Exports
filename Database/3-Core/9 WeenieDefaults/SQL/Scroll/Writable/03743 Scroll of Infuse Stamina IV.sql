@@ -23,7 +23,7 @@ VALUES (3743,   1, 'Scroll of Infuse Stamina IV') /* Name */
 Drains one-quarter of the caster''s Stamina and gives 120% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3743,   1,   33554826) /* Setup */
-     , (3743,   8,  100676930) /* Icon */
-     , (3743,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3743,   1, 0x0200018A) /* Setup */
+     , (3743,   8, 0x06003542) /* Icon */
+     , (3743,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3743,  28,       1246) /* Spell - InfuseStamina4 */;

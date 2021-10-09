@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9619,   1, 'Dagger Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9619,   1,   33554680) /* Setup */
-     , (9619,   3,  536870932) /* SoundTable */
-     , (9619,   8,  100671542) /* Icon */
-     , (9619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9619,   1, 0x020000F8) /* Setup */
+     , (9619,   3, 0x20000014) /* SoundTable */
+     , (9619,   8, 0x06002036) /* Icon */
+     , (9619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9619, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

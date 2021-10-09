@@ -29,7 +29,7 @@ VALUES (44294,   1, 'Ancient Tablet of the Crystal Sword (Level 180+)') /* Name 
      , (44294,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44294,   1,   33554773) /* Setup */
-     , (44294,   3,  536870932) /* SoundTable */
-     , (44294,   8,  100691958) /* Icon */
-     , (44294,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44294,   1, 0x02000155) /* Setup */
+     , (44294,   3, 0x20000014) /* SoundTable */
+     , (44294,   8, 0x06006FF6) /* Icon */
+     , (44294,  22, 0x3400002B) /* PhysicsEffectTable */;

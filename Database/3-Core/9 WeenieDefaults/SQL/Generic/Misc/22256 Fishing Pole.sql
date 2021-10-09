@@ -24,7 +24,7 @@ VALUES (22256,   1, 'Fishing Pole') /* Name */
      , (22256,  15, 'A pole used to catch fish from fishing holes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22256,   1,   33558280) /* Setup */
-     , (22256,   3,  536870932) /* SoundTable */
-     , (22256,   8,  100674232) /* Icon */
-     , (22256,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22256,   1, 0x02000F08) /* Setup */
+     , (22256,   3, 0x20000014) /* SoundTable */
+     , (22256,   8, 0x06002AB8) /* Icon */
+     , (22256,  22, 0x3400002B) /* PhysicsEffectTable */;

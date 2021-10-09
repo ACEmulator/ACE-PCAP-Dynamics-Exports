@@ -30,8 +30,8 @@ VALUES (35922,   1, 'Amelia''s Toy Sword') /* Name */
      , (35922,  15, 'A toy sword. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35922,   1,   33554758) /* Setup */
-     , (35922,   3,  536870932) /* SoundTable */
-     , (35922,   6,   67111919) /* PaletteBase */
-     , (35922,   8,  100669024) /* Icon */
-     , (35922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35922,   1, 0x02000146) /* Setup */
+     , (35922,   3, 0x20000014) /* SoundTable */
+     , (35922,   6, 0x04000BEF) /* PaletteBase */
+     , (35922,   8, 0x06001660) /* Icon */
+     , (35922,  22, 0x3400002B) /* PhysicsEffectTable */;

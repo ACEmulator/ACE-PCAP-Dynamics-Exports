@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11355,   1, 'Aun Pendant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11355,   1,   33557219) /* Setup */
-     , (11355,   3,  536870932) /* SoundTable */
-     , (11355,   8,  100671832) /* Icon */
-     , (11355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11355,   1, 0x02000AE3) /* Setup */
+     , (11355,   3, 0x20000014) /* SoundTable */
+     , (11355,   8, 0x06002158) /* Icon */
+     , (11355,  22, 0x3400002B) /* PhysicsEffectTable */;

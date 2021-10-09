@@ -25,7 +25,7 @@ VALUES (36234,   1, 'Lo Shoen''s Rat Bait') /* Name */
      , (36234,  15, 'A strangely smelling yellow wedge.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36234,   1,   33554672) /* Setup */
-     , (36234,   3,  536870932) /* SoundTable */
-     , (36234,   8,  100667458) /* Icon */
-     , (36234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36234,   1, 0x020000F0) /* Setup */
+     , (36234,   3, 0x20000014) /* SoundTable */
+     , (36234,   8, 0x06001042) /* Icon */
+     , (36234,  22, 0x3400002B) /* PhysicsEffectTable */;

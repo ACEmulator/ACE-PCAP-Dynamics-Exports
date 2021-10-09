@@ -27,12 +27,12 @@ VALUES (25489,   1, 'Pool of Goo') /* Name */
      , (25489,  16, 'A pool of thick foul smelling goo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25489,   1,   33558427) /* Setup */
-     , (25489,   2,  150995249) /* MotionTable */
-     , (25489,   3,  536871052) /* SoundTable */
-     , (25489,   6,   67113288) /* PaletteBase */
-     , (25489,   8,  100674807) /* Icon */;
+VALUES (25489,   1, 0x02000F9B) /* Setup */
+     , (25489,   2, 0x09000131) /* MotionTable */
+     , (25489,   3, 0x2000008C) /* SoundTable */
+     , (25489,   6, 0x04001148) /* PaletteBase */
+     , (25489,   8, 0x06002CF7) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25489, 8040, 1615397121, 660, -40, -54, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25489, 8040, 0x60490101, 660, -40, -54, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x60490101 [660.000000 -40.000000 -54.000000] 1.000000 0.000000 0.000000 0.000000 */;

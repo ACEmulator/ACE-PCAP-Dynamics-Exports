@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11170,   1, 'Item Tinkering Tessera') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11170,   1,   33557218) /* Setup */
-     , (11170,   3,  536870932) /* SoundTable */
-     , (11170,   8,  100672002) /* Icon */
-     , (11170,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11170,   1, 0x02000AE2) /* Setup */
+     , (11170,   3, 0x20000014) /* SoundTable */
+     , (11170,   8, 0x06002202) /* Icon */
+     , (11170,  22, 0x3400002B) /* PhysicsEffectTable */;

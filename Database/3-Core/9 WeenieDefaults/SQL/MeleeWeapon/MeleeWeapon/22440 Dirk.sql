@@ -50,19 +50,19 @@ VALUES (22440,   1, 'Dirk') /* Name */
      , (22440,  16, 'Dirk of Dual Wield Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22440,   1,   33558089) /* Setup */
-     , (22440,   3,  536870932) /* SoundTable */
-     , (22440,   6,   67111919) /* PaletteBase */
-     , (22440,   8,  100673792) /* Icon */
-     , (22440,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22440,   1, 0x02000E49) /* Setup */
+     , (22440,   3, 0x20000014) /* SoundTable */
+     , (22440,   6, 0x04000BEF) /* PaletteBase */
+     , (22440,   8, 0x06002900) /* Icon */
+     , (22440,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22440,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22440, 8040, 23855554, 56.35539, -27.39627, 0.1, -0.9926327, 0, 0, 0.1211626) /* PCAPRecordedLocation */
+VALUES (22440, 8040, 0x016C01C2, 56.35539, -27.39627, 0.1, -0.992633, 0, 0, 0.121163) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.355390 -27.396270 0.100000] -0.992633 0.000000 0.000000 0.121163 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22440,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (22440,  2576,      2)  /* CANTRIPSTRENGTH2 */
-     , (22440,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
-     , (22440,  5808,      2)  /* DualWieldMasterySelf6 */;
+VALUES (22440,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (22440,  5808,      2)  /* DualWieldMasterySelf6 */
+     , (22440,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (22440,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;

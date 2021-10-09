@@ -50,15 +50,15 @@ VALUES (41045,   1, 'Frost Magari Yari') /* Name */
      , (41045,  16, 'Frost Magari Yari of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41045,   1,   33560799) /* Setup */
-     , (41045,   3,  536870932) /* SoundTable */
-     , (41045,   6,   67115558) /* PaletteBase */
-     , (41045,   8,  100690511) /* Icon */
-     , (41045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41045,   1, 0x020018DF) /* Setup */
+     , (41045,   3, 0x20000014) /* SoundTable */
+     , (41045,   6, 0x04001A26) /* PaletteBase */
+     , (41045,   8, 0x06006A4F) /* Icon */
+     , (41045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41045,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41045,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41045,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (41045,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41045,  5832,      2)  /* RecklessnessMasterySelf6 */
      , (41045,  2600,      2)  /* CANTRIPDEFENDER1 */
-     , (41045,  5832,      2)  /* RecklessnessMasterySelf6 */;
+     , (41045,  2096,      2)  /* BloodDrinkerSelf7 */;

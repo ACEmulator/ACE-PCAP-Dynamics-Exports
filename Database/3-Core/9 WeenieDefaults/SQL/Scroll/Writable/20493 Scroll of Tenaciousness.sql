@@ -23,7 +23,7 @@ VALUES (20493,   1, 'Scroll of Tenaciousness') /* Name */
 Increases the rate at which the target regains Stamina by 115%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20493,   1,   33554826) /* Setup */
-     , (20493,   8,  100676940) /* Icon */
-     , (20493,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20493,   1, 0x0200018A) /* Setup */
+     , (20493,   8, 0x0600354C) /* Icon */
+     , (20493,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20493,  28,       2186) /* Spell - RejuvenationOther7 */;

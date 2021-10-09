@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28263,   1, 'Umbral Hall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28263,   1,   33555923) /* Setup */
-     , (28263,   2,  150994947) /* MotionTable */
-     , (28263,   8,  100667499) /* Icon */;
+VALUES (28263,   1, 0x020005D3) /* Setup */
+     , (28263,   2, 0x09000003) /* MotionTable */
+     , (28263,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28263, 8040, 3877634307, 72.0227, 143.956, -4.863, 0.8799172, 0, 0, -0.4751271) /* PCAPRecordedLocation */
+VALUES (28263, 8040, 0xE7200103, 72.0227, 143.956, -4.863, 0.879917, 0, 0, -0.475127) /* PCAPRecordedLocation */
 /* @teleloc 0xE7200103 [72.022700 143.956000 -4.863000] 0.879917 0.000000 0.000000 -0.475127 */;

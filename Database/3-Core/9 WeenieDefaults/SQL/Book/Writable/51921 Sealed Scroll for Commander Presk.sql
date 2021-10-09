@@ -21,7 +21,7 @@ VALUES (51921,   1, 'Sealed Scroll for Commander Presk') /* Name */
      , (51921,  16, 'A sealed scroll given to you by Raksaa. Deliver this to Commander Presk inside of his bunker.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51921,   1,   33554776) /* Setup */
-     , (51921,   3,  536870932) /* SoundTable */
-     , (51921,   8,  100667503) /* Icon */
-     , (51921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51921,   1, 0x02000158) /* Setup */
+     , (51921,   3, 0x20000014) /* SoundTable */
+     , (51921,   8, 0x0600106F) /* Icon */
+     , (51921,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,12 +31,12 @@ VALUES (41804,   1, 'Corpse of Eldrytch Web Agent') /* Name */
      , (41804,  16, 'Killed by adventurers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41804,   1,   33554433) /* Setup */
-     , (41804,   2,  150995360) /* MotionTable */
-     , (41804,   3,  536870913) /* SoundTable */
-     , (41804,   8,  100667504) /* Icon */
-     , (41804,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41804,   1, 0x02000001) /* Setup */
+     , (41804,   2, 0x090001A0) /* MotionTable */
+     , (41804,   3, 0x20000001) /* SoundTable */
+     , (41804,   8, 0x06001070) /* Icon */
+     , (41804,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41804, 8040, 4180672528, 39.48919, 174.7821, 86.14906, 0.9549194, 0, 0, 0.2968651) /* PCAPRecordedLocation */
+VALUES (41804, 8040, 0xF9300010, 39.48919, 174.7821, 86.14906, 0.954919, 0, 0, 0.296865) /* PCAPRecordedLocation */
 /* @teleloc 0xF9300010 [39.489190 174.782100 86.149060] 0.954919 0.000000 0.000000 0.296865 */;

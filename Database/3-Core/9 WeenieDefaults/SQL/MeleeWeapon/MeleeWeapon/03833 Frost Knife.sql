@@ -49,16 +49,16 @@ VALUES (3833,   1, 'Frost Knife') /* Name */
      , (3833,  16, 'Frost Knife of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3833,   1,   33555743) /* Setup */
-     , (3833,   3,  536870932) /* SoundTable */
-     , (3833,   8,  100667598) /* Icon */
-     , (3833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3833,   1, 0x0200051F) /* Setup */
+     , (3833,   3, 0x20000014) /* SoundTable */
+     , (3833,   8, 0x060010CE) /* Icon */
+     , (3833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3833,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3833,  1378,      2)  /* CoordinationSelf6 */
-     , (3833,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3833,  1605,      2)  /* DefenderSelf6 */
+VALUES (3833,  1605,      2)  /* DefenderSelf6 */
      , (3833,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3833,  2577,      2)  /* CANTRIPWILLPOWER2 */
-     , (3833,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (3833,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (3833,  1378,      2)  /* CoordinationSelf6 */
+     , (3833,  1592,      2)  /* HeartSeekerSelf6 */;

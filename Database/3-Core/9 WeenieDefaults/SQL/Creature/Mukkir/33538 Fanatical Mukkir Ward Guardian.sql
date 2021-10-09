@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33538,   1, 'Fanatical Mukkir Ward Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33538,   1,   33559858) /* Setup */
-     , (33538,   2,  150995348) /* MotionTable */
-     , (33538,   3,  536871107) /* SoundTable */
-     , (33538,   6,   67116771) /* PaletteBase */
-     , (33538,   8,  100688542) /* Icon */
-     , (33538,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33538,   1, 0x02001532) /* Setup */
+     , (33538,   2, 0x09000194) /* MotionTable */
+     , (33538,   3, 0x200000C3) /* SoundTable */
+     , (33538,   6, 0x04001EE3) /* PaletteBase */
+     , (33538,   8, 0x0600629E) /* Icon */
+     , (33538,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33538,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33538, 8040, 5505592, 20, -170, -60, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (33538, 8040, 0x00540238, 20, -170, -60, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x00540238 [20.000000 -170.000000 -60.000000] 0.714421 0.000000 0.000000 -0.699716 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

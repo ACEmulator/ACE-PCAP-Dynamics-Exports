@@ -23,12 +23,12 @@ VALUES (15821,   1, 'Thorsten Cragstone''s Axe') /* Name */
      , (15821,  15, 'Thorsten Cragstone''s Axe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15821,   1,   33557632) /* Setup */
-     , (15821,   3,  536870932) /* SoundTable */
-     , (15821,   6,   67111919) /* PaletteBase */
-     , (15821,   8,  100672854) /* Icon */
-     , (15821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15821,   1, 0x02000C80) /* Setup */
+     , (15821,   3, 0x20000014) /* SoundTable */
+     , (15821,   6, 0x04000BEF) /* PaletteBase */
+     , (15821,   8, 0x06002556) /* Icon */
+     , (15821,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15821, 8040, 1399456049, 220.004, -349.971, -28.8574, -0.7104369, 0, 0, -0.7037609) /* PCAPRecordedLocation */
+VALUES (15821, 8040, 0x536A0131, 220.004, -349.971, -28.8574, -0.710437, 0, 0, -0.703761) /* PCAPRecordedLocation */
 /* @teleloc 0x536A0131 [220.004000 -349.971000 -28.857400] -0.710437 0.000000 0.000000 -0.703761 */;

@@ -50,19 +50,19 @@ VALUES (31769,   1, 'Lugian Axe') /* Name */
      , (31769,  16, 'War Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31769,   1,   33554726) /* Setup */
-     , (31769,   3,  536870932) /* SoundTable */
-     , (31769,   6,   67111919) /* PaletteBase */
-     , (31769,   8,  100672854) /* Icon */
-     , (31769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31769,   1, 0x02000126) /* Setup */
+     , (31769,   3, 0x20000014) /* SoundTable */
+     , (31769,   6, 0x04000BEF) /* PaletteBase */
+     , (31769,   8, 0x06002556) /* Icon */
+     , (31769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31769,  30,         88) /* PhysicsScript - Create */
      , (31769,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (31769,  52,  100676444) /* IconUnderlay */;
+     , (31769,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31769, 8040, 23855554, 58.82284, -28.1719, -0.071, 0.3832465, 0.3832465, -0.5942408, -0.5942408) /* PCAPRecordedLocation */
+VALUES (31769, 8040, 0x016C01C2, 58.82284, -28.1719, -0.071, 0.383247, 0.383247, -0.594241, -0.594241) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.822840 -28.171900 -0.071000] 0.383247 0.383247 -0.594241 -0.594241 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31769,  1592,      2)  /* HeartSeekerSelf6 */
-     , (31769,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (31769,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (31769,  1592,      2)  /* HeartSeekerSelf6 */;

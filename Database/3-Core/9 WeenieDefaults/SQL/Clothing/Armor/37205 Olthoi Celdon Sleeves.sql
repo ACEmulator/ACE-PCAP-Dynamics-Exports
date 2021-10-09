@@ -46,19 +46,19 @@ VALUES (37205,   1, 'Olthoi Celdon Sleeves') /* Name */
      , (37205,  16, 'Olthoi Celdon Sleeves of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37205,   1,   33554655) /* Setup */
-     , (37205,   3,  536870932) /* SoundTable */
-     , (37205,   6,   67108990) /* PaletteBase */
-     , (37205,   8,  100674685) /* Icon */
-     , (37205,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37205,   1, 0x020000DF) /* Setup */
+     , (37205,   3, 0x20000014) /* SoundTable */
+     , (37205,   6, 0x0400007E) /* PaletteBase */
+     , (37205,   8, 0x06002C7D) /* Icon */
+     , (37205,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37205,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37205, 8040, 23855473, 21.8771, -61.83859, 0, -0.1638941, 0, 0, -0.9864779) /* PCAPRecordedLocation */
+VALUES (37205, 8040, 0x016C0171, 21.8771, -61.83859, 0, -0.163894, 0, 0, -0.986478) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [21.877100 -61.838590 0.000000] -0.163894 0.000000 0.000000 -0.986478 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37205,  2108,      2)  /* Impenetrability7 */
-     , (37205,  2185,      2)  /* RegenerationSelf7 */
+VALUES (37205,  2185,      2)  /* RegenerationSelf7 */
      , (37205,  2510,      2)  /* CANTRIPDECEPTIONPROWESS2 */
-     , (37205,  4403,      2)  /* FrostBane8 */;
+     , (37205,  4403,      2)  /* FrostBane8 */
+     , (37205,  2108,      2)  /* Impenetrability7 */;

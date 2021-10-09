@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36822,   1, 'Drudge Bloodletter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36822,   1,   33556445) /* Setup */
-     , (36822,   2,  150994952) /* MotionTable */
-     , (36822,   3,  536870919) /* SoundTable */
-     , (36822,   6,   67112812) /* PaletteBase */
-     , (36822,   8,  100667445) /* Icon */
-     , (36822,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (36822,   1, 0x020007DD) /* Setup */
+     , (36822,   2, 0x09000008) /* MotionTable */
+     , (36822,   3, 0x20000007) /* SoundTable */
+     , (36822,   6, 0x04000F6C) /* PaletteBase */
+     , (36822,   8, 0x06001035) /* Icon */
+     , (36822,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36822, 8040, 340983845, 108.4751, 104.3009, -0.8954499, 0.4703008, 0, 0, -0.8825062) /* PCAPRecordedLocation */
+VALUES (36822, 8040, 0x14530025, 108.4751, 104.3009, -0.89545, 0.470301, 0, 0, -0.882506) /* PCAPRecordedLocation */
 /* @teleloc 0x14530025 [108.475100 104.300900 -0.895450] 0.470301 0.000000 0.000000 -0.882506 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -44,16 +44,16 @@ VALUES (29365,   1, 'Blooded Silver Invader Lord Helm') /* Name */
      , (29365,  16, 'A helm taken from one of the Knights of the Viamontian Silver Legion and fortified with royal blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29365,   1,   33559353) /* Setup */
-     , (29365,   3,  536870932) /* SoundTable */
-     , (29365,   8,  100686476) /* Icon */
-     , (29365,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29365,   1, 0x02001339) /* Setup */
+     , (29365,   3, 0x20000014) /* SoundTable */
+     , (29365,   8, 0x06005A8C) /* Icon */
+     , (29365,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29365,   248,      2)  /* InvulnerabilitySelf5 */
-     , (29365,   260,      2)  /* ImpregnabilitySelf5 */
-     , (29365,   278,      2)  /* MagicResistanceSelf5 */
-     , (29365,   682,      2)  /* ArcaneEnlightenmentSelf5 */
+VALUES (29365,   260,      2)  /* ImpregnabilitySelf5 */
      , (29365,  1485,      2)  /* Impenetrability5 */
      , (29365,  2580,      2)  /* CANTRIPENDURANCE1 */
-     , (29365,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (29365,   278,      2)  /* MagicResistanceSelf5 */
+     , (29365,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (29365,   682,      2)  /* ArcaneEnlightenmentSelf5 */
+     , (29365,   248,      2)  /* InvulnerabilitySelf5 */;

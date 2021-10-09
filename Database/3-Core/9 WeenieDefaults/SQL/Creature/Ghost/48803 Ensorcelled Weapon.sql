@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48803,   1, 'Ensorcelled Weapon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48803,   1,   33561511) /* Setup */
-     , (48803,   2,  150994945) /* MotionTable */
-     , (48803,   3,  536870942) /* SoundTable */
-     , (48803,   8,  100669124) /* Icon */
-     , (48803,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (48803,   1, 0x02001BA7) /* Setup */
+     , (48803,   2, 0x09000001) /* MotionTable */
+     , (48803,   3, 0x2000001E) /* SoundTable */
+     , (48803,   8, 0x060016C4) /* Icon */
+     , (48803,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48803, 8040, 1482883625, 230, -66.9643, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48803, 8040, 0x58630229, 230, -66.9643, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58630229 [230.000000 -66.964300 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

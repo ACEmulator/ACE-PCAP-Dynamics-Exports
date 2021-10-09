@@ -28,20 +28,20 @@ VALUES (815,   1, 'Grocer Nan-Yu-Yenbuto') /* Name */
      , (815,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (815,   1,   33554433) /* Setup */
-     , (815,   2,  150994945) /* MotionTable */
-     , (815,   3,  536870913) /* SoundTable */
-     , (815,   6,   67108990) /* PaletteBase */
-     , (815,   8,  100667446) /* Icon */
-     , (815,   9,   83890440) /* EyesTexture */
-     , (815,  10,   83890519) /* NoseTexture */
-     , (815,  11,   83890614) /* MouthTexture */
-     , (815,  15,   67117069) /* HairPalette */
-     , (815,  16,   67110062) /* EyesPalette */
-     , (815,  17,   67110054) /* SkinPalette */;
+VALUES (815,   1, 0x02000001) /* Setup */
+     , (815,   2, 0x09000001) /* MotionTable */
+     , (815,   3, 0x20000001) /* SoundTable */
+     , (815,   6, 0x0400007E) /* PaletteBase */
+     , (815,   8, 0x06001036) /* Icon */
+     , (815,   9, 0x05001108) /* EyesTexture */
+     , (815,  10, 0x05001157) /* NoseTexture */
+     , (815,  11, 0x050011B6) /* MouthTexture */
+     , (815,  15, 0x0400200D) /* HairPalette */
+     , (815,  16, 0x040004AE) /* EyesPalette */
+     , (815,  17, 0x040004A6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (815, 8040, 3027239203, 61.6779, 28.8943, 46.805, 0.9999239, 0, 0, -0.0123316) /* PCAPRecordedLocation */
+VALUES (815, 8040, 0xB4700123, 61.6779, 28.8943, 46.805, 0.999924, 0, 0, -0.012332) /* PCAPRecordedLocation */
 /* @teleloc 0xB4700123 [61.677900 28.894300 46.805000] 0.999924 0.000000 0.000000 -0.012332 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

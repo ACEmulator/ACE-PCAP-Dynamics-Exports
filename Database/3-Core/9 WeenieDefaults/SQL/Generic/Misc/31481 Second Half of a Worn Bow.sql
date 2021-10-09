@@ -18,7 +18,7 @@ VALUES (31481,   1, 'Second Half of a Worn Bow') /* Name */
      , (31481,  16, 'Half of a worn old bow. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31481,   1,   33554817) /* Setup */
-     , (31481,   3,  536870932) /* SoundTable */
-     , (31481,   8,  100687877) /* Icon */
-     , (31481,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31481,   1, 0x02000181) /* Setup */
+     , (31481,   3, 0x20000014) /* SoundTable */
+     , (31481,   8, 0x06006005) /* Icon */
+     , (31481,  22, 0x3400002B) /* PhysicsEffectTable */;

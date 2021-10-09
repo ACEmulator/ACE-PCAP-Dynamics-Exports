@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38264,   1, 'Shrine of the Coral''s Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38264,   1,   33558607) /* Setup */
-     , (38264,   2,  150995279) /* MotionTable */
-     , (38264,   3,  536871052) /* SoundTable */
-     , (38264,   8,  100675788) /* Icon */
-     , (38264,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38264,   1, 0x0200104F) /* Setup */
+     , (38264,   2, 0x0900014F) /* MotionTable */
+     , (38264,   3, 0x2000008C) /* SoundTable */
+     , (38264,   8, 0x060030CC) /* Icon */
+     , (38264,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38264, 8040, 990576694, 156, 132, 2.94674, 0.626475, 0, 0, -0.779442) /* PCAPRecordedLocation */
+VALUES (38264, 8040, 0x3B0B0036, 156, 132, 2.94674, 0.626475, 0, 0, -0.779442) /* PCAPRecordedLocation */
 /* @teleloc 0x3B0B0036 [156.000000 132.000000 2.946740] 0.626475 0.000000 0.000000 -0.779442 */;

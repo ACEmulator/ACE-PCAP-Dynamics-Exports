@@ -33,11 +33,11 @@ VALUES (30206,   1, 'Magus''s Pearl') /* Name */
      , (30206,  20, 'Magus''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30206,   1,   33554809) /* Setup */
-     , (30206,   3,  536870932) /* SoundTable */
-     , (30206,   6,   67111919) /* PaletteBase */
-     , (30206,   8,  100686698) /* Icon */
-     , (30206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30206,   1, 0x02000179) /* Setup */
+     , (30206,   3, 0x20000014) /* SoundTable */
+     , (30206,   6, 0x04000BEF) /* PaletteBase */
+     , (30206,   8, 0x06005B6A) /* Icon */
+     , (30206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30206,  28,       3705) /* Spell - FocusRare */
-     , (30206,  50,  100686652) /* IconOverlay */
-     , (30206,  52,  100686604) /* IconUnderlay */;
+     , (30206,  50, 0x06005B3C) /* IconOverlay */
+     , (30206,  52, 0x06005B0C) /* IconUnderlay */;

@@ -40,15 +40,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45970,   1, 'Amateur Explorer Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45970,   1,   33559082) /* Setup */
-     , (45970,   3,  536870932) /* SoundTable */
-     , (45970,   6,   67108990) /* PaletteBase */
-     , (45970,   8,  100691101) /* Icon */
-     , (45970,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45970,   1, 0x0200122A) /* Setup */
+     , (45970,   3, 0x20000014) /* SoundTable */
+     , (45970,   6, 0x0400007E) /* PaletteBase */
+     , (45970,   8, 0x06006C9D) /* Icon */
+     , (45970,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45970,   243,      2)  /* InvulnerabilityOther5 */
-     , (45970,   254,      2)  /* ImpregnabilityOther5 */
+VALUES (45970,  1485,      2)  /* Impenetrability5 */
      , (45970,   272,      2)  /* MagicResistanceOther5 */
+     , (45970,   243,      2)  /* InvulnerabilityOther5 */
      , (45970,   567,      2)  /* CreatureEnchantmentMasteryOther5 */
-     , (45970,  1485,      2)  /* Impenetrability5 */;
+     , (45970,   254,      2)  /* ImpregnabilityOther5 */;

@@ -19,9 +19,9 @@ VALUES (37318,   1, 'Glyph of Mana') /* Name */
      , (37318,  20, 'Glyphs of Mana') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37318,   1,   33554809) /* Setup */
-     , (37318,   3,  536870932) /* SoundTable */
-     , (37318,   6,   67111919) /* PaletteBase */
-     , (37318,   8,  100690191) /* Icon */
-     , (37318,  22,  872415275) /* PhysicsEffectTable */
-     , (37318,  50,  100690195) /* IconOverlay */;
+VALUES (37318,   1, 0x02000179) /* Setup */
+     , (37318,   3, 0x20000014) /* SoundTable */
+     , (37318,   6, 0x04000BEF) /* PaletteBase */
+     , (37318,   8, 0x0600690F) /* Icon */
+     , (37318,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37318,  50, 0x06006913) /* IconOverlay */;

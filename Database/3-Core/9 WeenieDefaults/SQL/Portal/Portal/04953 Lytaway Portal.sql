@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4953,   1, 'Lytaway Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4953,   1,   33555922) /* Setup */
-     , (4953,   2,  150994947) /* MotionTable */
-     , (4953,   8,  100667499) /* Icon */;
+VALUES (4953,   1, 0x020005D2) /* Setup */
+     , (4953,   2, 0x09000003) /* MotionTable */
+     , (4953,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4953, 8040, 3946643714, 149, 155, 70.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4953, 8040, 0xEB3D0102, 149, 155, 70.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xEB3D0102 [149.000000 155.000000 70.737000] 1.000000 0.000000 0.000000 0.000000 */;

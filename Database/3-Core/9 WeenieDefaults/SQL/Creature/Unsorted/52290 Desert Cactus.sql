@@ -26,12 +26,12 @@ VALUES (52290,   1, 'Desert Cactus') /* Name */
      , (52290,  15, 'A large desert cactus. You can hear a muffled buzzing coming from within the plant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52290,   1,   33555243) /* Setup */
-     , (52290,   2,  150995499) /* MotionTable */
-     , (52290,   3,  536870926) /* SoundTable */
-     , (52290,   8,  100667450) /* Icon */
-     , (52290,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52290,   1, 0x0200032B) /* Setup */
+     , (52290,   2, 0x0900022B) /* MotionTable */
+     , (52290,   3, 0x2000000E) /* SoundTable */
+     , (52290,   8, 0x0600103A) /* Icon */
+     , (52290,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52290, 8040, 2271477822, 180.732, 128.062, 0.671833, 0.995258, 0, 0, -0.0972673) /* PCAPRecordedLocation */
+VALUES (52290, 8040, 0x8764003E, 180.732, 128.062, 0.671833, 0.995258, 0, 0, -0.097267) /* PCAPRecordedLocation */
 /* @teleloc 0x8764003E [180.732000 128.062000 0.671833] 0.995258 0.000000 0.000000 -0.097267 */;

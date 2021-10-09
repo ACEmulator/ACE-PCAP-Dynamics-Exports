@@ -20,7 +20,7 @@ VALUES (29479,   1, 'Prison Warden''s Orders') /* Name */
      , (29479,  15, 'A note found on the corpse of the Viamontian Royal Prison Warden.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29479,   1,   33554773) /* Setup */
-     , (29479,   3,  536870932) /* SoundTable */
-     , (29479,   8,  100674008) /* Icon */
-     , (29479,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29479,   1, 0x02000155) /* Setup */
+     , (29479,   3, 0x20000014) /* SoundTable */
+     , (29479,   8, 0x060029D8) /* Icon */
+     , (29479,  22, 0x3400002B) /* PhysicsEffectTable */;

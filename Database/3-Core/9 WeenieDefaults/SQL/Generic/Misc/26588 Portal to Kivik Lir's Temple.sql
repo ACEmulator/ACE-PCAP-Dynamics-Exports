@@ -23,5 +23,5 @@ VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
      , (26588,  16, 'This device looks to be akin to a portal. It seems to be dormant at the moment. Perhaps if it were hooked in a mansion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588,   1,   33558645) /* Setup */
-     , (26588,   8,  100675779) /* Icon */;
+VALUES (26588,   1, 0x02001075) /* Setup */
+     , (26588,   8, 0x060030C3) /* Icon */;

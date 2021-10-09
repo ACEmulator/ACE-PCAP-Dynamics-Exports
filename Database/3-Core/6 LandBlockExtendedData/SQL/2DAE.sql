@@ -16,11 +16,11 @@ VALUES (0x72DAE002, 31875, 0x2DAE0018, 56.5518, 178.888, 14.02135, 0.974242, 0, 
 /* @teleloc 0x2DAE0018 [56.551800 178.888000 14.021350] 0.974242 0.000000 0.000000 0.225506 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72DAE003, 31875, 0x2DAE0007, 17.936, 146.419, 0.01199996, 0.555408, 0, 0, -0.831578,  True, '2019-02-10 00:00:00'); /* Water Golem */
+VALUES (0x72DAE003, 31875, 0x2DAE0007, 17.936, 146.419, 0.012, 0.555408, 0, 0, -0.831578,  True, '2019-02-10 00:00:00'); /* Water Golem */
 /* @teleloc 0x2DAE0007 [17.936000 146.419000 0.012000] 0.555408 0.000000 0.000000 -0.831578 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72DAE004, 31875, 0x2DAE001E, 76.9402, 128.395, -0.438, 0.8382697, 0, 0, -0.5452558,  True, '2019-02-10 00:00:00'); /* Water Golem */
+VALUES (0x72DAE004, 31875, 0x2DAE001E, 76.9402, 128.395, -0.438, 0.83827, 0, 0, -0.545256,  True, '2019-02-10 00:00:00'); /* Water Golem */
 /* @teleloc 0x2DAE001E [76.940200 128.395000 -0.438000] 0.838270 0.000000 0.000000 -0.545256 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -28,5 +28,5 @@ VALUES (0x72DAE005, 31875, 0x2DAE002E, 123.07, 127.637, -0.438, 0.872244, 0, 0, 
 /* @teleloc 0x2DAE002E [123.070000 127.637000 -0.438000] 0.872244 0.000000 0.000000 0.489071 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72DAE006, 31875, 0x2DAE0040, 178.877, 170.191, 10.38175, 0.9862037, 0, 0, 0.165536,  True, '2019-02-10 00:00:00'); /* Water Golem */
+VALUES (0x72DAE006, 31875, 0x2DAE0040, 178.877, 170.191, 10.38175, 0.986204, 0, 0, 0.165536,  True, '2019-02-10 00:00:00'); /* Water Golem */
 /* @teleloc 0x2DAE0040 [178.877000 170.191000 10.381750] 0.986204 0.000000 0.000000 0.165536 */

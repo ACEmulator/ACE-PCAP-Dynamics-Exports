@@ -134,7 +134,7 @@ VALUES (0x70F06019, 25876, 0x0F060008, 1.040222, 176.9006, 27.51874, 1, 0, 0, 0,
 /* @teleloc 0x0F060008 [1.040222 176.900600 27.518740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F0601A, 25851, 0x0F06000B, 42.9598, 56.76305, 28.06159, -0.7363443, 0, 0, -0.6766071,  True, '2019-02-10 00:00:00'); /* Mottled Carenzi */
+VALUES (0x70F0601A, 25851, 0x0F06000B, 42.9598, 56.76305, 28.06159, -0.736344, 0, 0, -0.676607,  True, '2019-02-10 00:00:00'); /* Mottled Carenzi */
 /* @teleloc 0x0F06000B [42.959800 56.763050 28.061590] -0.736344 0.000000 0.000000 -0.676607 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

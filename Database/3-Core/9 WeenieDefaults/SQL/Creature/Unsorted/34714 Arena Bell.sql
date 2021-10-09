@@ -26,12 +26,12 @@ VALUES (34714,   1, 'Arena Bell') /* Name */
      , (34714,  14, 'Use this bell to begin the battle.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34714,   1,   33560214) /* Setup */
-     , (34714,   2,  150995394) /* MotionTable */
-     , (34714,   3,  536871076) /* SoundTable */
-     , (34714,   8,  100671824) /* Icon */
-     , (34714,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34714,   1, 0x02001696) /* Setup */
+     , (34714,   2, 0x090001C2) /* MotionTable */
+     , (34714,   3, 0x200000A4) /* SoundTable */
+     , (34714,   8, 0x06002150) /* Icon */
+     , (34714,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34714, 8040, 11534656, 30, -300, 0.105, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34714, 8040, 0x00B00140, 30, -300, 0.105, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00140 [30.000000 -300.000000 0.105000] 1.000000 0.000000 0.000000 0.000000 */;

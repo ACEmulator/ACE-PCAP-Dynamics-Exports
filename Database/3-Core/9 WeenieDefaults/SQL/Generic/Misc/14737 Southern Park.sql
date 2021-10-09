@@ -18,9 +18,9 @@ VALUES (14737,   1, 'Southern Park') /* Name */
      , (14737,  16, 'Welcome to Southern Park') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14737,   1,   33557463) /* Setup */
-     , (14737,   8,  100668115) /* Icon */;
+VALUES (14737,   1, 0x02000BD7) /* Setup */
+     , (14737,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14737, 8040, 2904555557, 107.971, 115.752, 166, -0.998998, 0, 0, -0.0447555) /* PCAPRecordedLocation */
+VALUES (14737, 8040, 0xAD200025, 107.971, 115.752, 166, -0.998998, 0, 0, -0.044756) /* PCAPRecordedLocation */
 /* @teleloc 0xAD200025 [107.971000 115.752000 166.000000] -0.998998 0.000000 0.000000 -0.044756 */;

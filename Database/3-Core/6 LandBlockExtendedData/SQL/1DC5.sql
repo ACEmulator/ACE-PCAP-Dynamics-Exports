@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1DC5;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DC5001,  1154, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.8706556, 0, 0, -0.4918931, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x71DC5001,  1154, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.870656, 0, 0, -0.491893, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x1DC50019 [84.490370 10.798320 33.246140] 0.870656 0.000000 0.000000 -0.491893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,19 +11,19 @@ VALUES (0x71DC5001, 0x71DC5002, '2019-02-10 00:00:00') /* Zharalim (12186) */
      , (0x71DC5001, 0x71DC5005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DC5002, 12186, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.8706556, 0, 0, -0.4918931,  True, '2019-02-10 00:00:00'); /* Zharalim */
+VALUES (0x71DC5002, 12186, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.870656, 0, 0, -0.491893,  True, '2019-02-10 00:00:00'); /* Zharalim */
 /* @teleloc 0x1DC50019 [84.490370 10.798320 33.246140] 0.870656 0.000000 0.000000 -0.491893 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DC5003, 11506, 0x1DC5001A, 76.69343, 24.47982, 30.35613, 0.8706556, 0, 0, -0.4918931,  True, '2019-02-10 00:00:00'); /* Zharalim */
+VALUES (0x71DC5003, 11506, 0x1DC5001A, 76.69343, 24.47982, 30.35613, 0.870656, 0, 0, -0.491893,  True, '2019-02-10 00:00:00'); /* Zharalim */
 /* @teleloc 0x1DC5001A [76.693430 24.479820 30.356130] 0.870656 0.000000 0.000000 -0.491893 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DC5004, 11534, 0x1DC50022, 111.4144, 32.79713, 31.28191, 0.8706556, 0, 0, -0.4918931,  True, '2019-02-10 00:00:00'); /* Enku Zefir */
+VALUES (0x71DC5004, 11534, 0x1DC50022, 111.4144, 32.79713, 31.28191, 0.870656, 0, 0, -0.491893,  True, '2019-02-10 00:00:00'); /* Enku Zefir */
 /* @teleloc 0x1DC50022 [111.414400 32.797130 31.281910] 0.870656 0.000000 0.000000 -0.491893 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DC5005, 28636, 0x1DC50036, 167.1892, 135.6829, 24, -0.5022016, 0, 0, -0.8647506,  True, '2019-02-10 00:00:00'); /* Rabid Eater */
+VALUES (0x71DC5005, 28636, 0x1DC50036, 167.1892, 135.6829, 24, -0.502202, 0, 0, -0.864751,  True, '2019-02-10 00:00:00'); /* Rabid Eater */
 /* @teleloc 0x1DC50036 [167.189200 135.682900 24.000000] -0.502202 0.000000 0.000000 -0.864751 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

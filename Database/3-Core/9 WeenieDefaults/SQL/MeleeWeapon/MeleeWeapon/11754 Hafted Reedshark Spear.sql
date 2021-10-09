@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11754,   1, 'Hafted Reedshark Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11754,   1,   33557260) /* Setup */
-     , (11754,   3,  536870932) /* SoundTable */
-     , (11754,   8,  100671909) /* Icon */
-     , (11754,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11754,   1, 0x02000B0C) /* Setup */
+     , (11754,   3, 0x20000014) /* SoundTable */
+     , (11754,   8, 0x060021A5) /* Icon */
+     , (11754,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11754, 8040, 1467613794, 170.6189, -89.702, -18.0705, 0.7062231, 0.7062231, -0.0353405, -0.0353405) /* PCAPRecordedLocation */
+VALUES (11754, 8040, 0x577A0262, 170.6189, -89.702, -18.0705, 0.706223, 0.706223, -0.035341, -0.035341) /* PCAPRecordedLocation */
 /* @teleloc 0x577A0262 [170.618900 -89.702000 -18.070500] 0.706223 0.706223 -0.035341 -0.035341 */;

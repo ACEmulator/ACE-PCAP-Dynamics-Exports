@@ -21,12 +21,12 @@ VALUES (23929,   1, 'Wheel of Fortune') /* Name */
      , (23929,   8, 'Ulgrim') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23929,   1,   33557041) /* Setup */
-     , (23929,   2,  150995126) /* MotionTable */
-     , (23929,   3,  536871027) /* SoundTable */
-     , (23929,   8,  100667624) /* Icon */
-     , (23929,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23929,   1, 0x02000A31) /* Setup */
+     , (23929,   2, 0x090000B6) /* MotionTable */
+     , (23929,   3, 0x20000073) /* SoundTable */
+     , (23929,   8, 0x060010E8) /* Icon */
+     , (23929,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23929, 8040, 1929904160, 83.1848, 185.641, 12.0015, 0.9123707, 0, 0, -0.4093649) /* PCAPRecordedLocation */
+VALUES (23929, 8040, 0x73080020, 83.1848, 185.641, 12.0015, 0.912371, 0, 0, -0.409365) /* PCAPRecordedLocation */
 /* @teleloc 0x73080020 [83.184800 185.641000 12.001500] 0.912371 0.000000 0.000000 -0.409365 */;

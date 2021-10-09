@@ -26,12 +26,12 @@ VALUES (39370,   1, 'Rare Pack T''thuun') /* Name */
      , (39370,  16, 'A not-so-miniature doll of what we have seen of T''thuun, the Whispering One.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39370,   1,   33560662) /* Setup */
-     , (39370,   2,  150995444) /* MotionTable */
-     , (39370,   3,  536871015) /* SoundTable */
-     , (39370,   8,  100671186) /* Icon */
-     , (39370,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (39370,   1, 0x02001856) /* Setup */
+     , (39370,   2, 0x090001F4) /* MotionTable */
+     , (39370,   3, 0x20000067) /* SoundTable */
+     , (39370,   8, 0x06001ED2) /* Icon */
+     , (39370,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39370, 8040, 2392915988, 50.6837, 82.29695, 94.52134, -0.9999762, 0, 0, 0.006903399) /* PCAPRecordedLocation */
+VALUES (39370, 8040, 0x8EA10014, 50.6837, 82.29695, 94.52134, -0.999976, 0, 0, 0.006903) /* PCAPRecordedLocation */
 /* @teleloc 0x8EA10014 [50.683700 82.296950 94.521340] -0.999976 0.000000 0.000000 0.006903 */;

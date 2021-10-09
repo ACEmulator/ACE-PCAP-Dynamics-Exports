@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32794,   1, 'Rare Pink Pack Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32794,   1,   33556892) /* Setup */
-     , (32794,   2,  150995119) /* MotionTable */
-     , (32794,   8,  100688660) /* Icon */
-     , (32794,  22,  872415369) /* PhysicsEffectTable */
-     , (32794,  52,  100686604) /* IconUnderlay */;
+VALUES (32794,   1, 0x0200099C) /* Setup */
+     , (32794,   2, 0x090000AF) /* MotionTable */
+     , (32794,   8, 0x06006314) /* Icon */
+     , (32794,  22, 0x34000089) /* PhysicsEffectTable */
+     , (32794,  52, 0x06005B0C) /* IconUnderlay */;

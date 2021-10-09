@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39531,   1, 'Trap Tower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39531,   1,   33560702) /* Setup */
-     , (39531,   2,  150995429) /* MotionTable */
-     , (39531,   3,  536871052) /* SoundTable */
-     , (39531,   8,  100689931) /* Icon */
-     , (39531,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (39531,   1, 0x0200187E) /* Setup */
+     , (39531,   2, 0x090001E5) /* MotionTable */
+     , (39531,   3, 0x2000008C) /* SoundTable */
+     , (39531,   8, 0x0600680B) /* Icon */
+     , (39531,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39531, 8040, 15204612, 25, -17, 4.4874, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (39531, 8040, 0x00E80104, 25, -17, 4.4874, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E80104 [25.000000 -17.000000 4.487400] 1.000000 0.000000 0.000000 0.000000 */;

@@ -27,9 +27,9 @@ VALUES (45515,   1, 'A''nekshay Slayer Stone Gem') /* Name */
      , (45515,  16, 'A magical gem containing a A''nekshay Slayer Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45515,   1,   33556769) /* Setup */
-     , (45515,   3,  536870932) /* SoundTable */
-     , (45515,   6,   67111919) /* PaletteBase */
-     , (45515,   8,  100673039) /* Icon */
-     , (45515,  22,  872415275) /* PhysicsEffectTable */
-     , (45515,  50,  100692071) /* IconOverlay */;
+VALUES (45515,   1, 0x02000921) /* Setup */
+     , (45515,   3, 0x20000014) /* SoundTable */
+     , (45515,   6, 0x04000BEF) /* PaletteBase */
+     , (45515,   8, 0x0600260F) /* Icon */
+     , (45515,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45515,  50, 0x06007067) /* IconOverlay */;

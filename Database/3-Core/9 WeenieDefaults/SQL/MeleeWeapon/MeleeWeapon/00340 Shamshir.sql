@@ -51,11 +51,11 @@ VALUES (340,   1, 'Shamshir') /* Name */
      , (340,  16, 'Shamshir of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (340,   1,   33554750) /* Setup */
-     , (340,   3,  536870932) /* SoundTable */
-     , (340,   6,   67111919) /* PaletteBase */
-     , (340,   8,  100668975) /* Icon */
-     , (340,  22,  872415275) /* PhysicsEffectTable */
+VALUES (340,   1, 0x0200013E) /* Setup */
+     , (340,   3, 0x20000014) /* SoundTable */
+     , (340,   6, 0x04000BEF) /* PaletteBase */
+     , (340,   8, 0x0600162F) /* Icon */
+     , (340,  22, 0x3400002B) /* PhysicsEffectTable */
      , (340,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1307,   1, 'Glenden Wood Dungeon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1307,   1,   33555922) /* Setup */
-     , (1307,   2,  150994947) /* MotionTable */
-     , (1307,   8,  100667499) /* Icon */;
+VALUES (1307,   1, 0x020005D2) /* Setup */
+     , (1307,   2, 0x09000003) /* MotionTable */
+     , (1307,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1307, 8040, 2695102495, 75.6, 166, 67.77033, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1307, 8040, 0xA0A4001F, 75.6, 166, 67.77033, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA0A4001F [75.600000 166.000000 67.770330] 1.000000 0.000000 0.000000 0.000000 */;

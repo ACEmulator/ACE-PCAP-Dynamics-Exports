@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xAC7E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC7E001,  1154, 0xAC7E0001, 15.82652, 19.12074, 45.59589, -0.601261, 0, 0, -0.7990527, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7AC7E001,  1154, 0xAC7E0001, 15.82652, 19.12074, 45.59589, -0.601261, 0, 0, -0.799053, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xAC7E0001 [15.826520 19.120740 45.595890] -0.601261 0.000000 0.000000 -0.799053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,7 +12,7 @@ VALUES (0x7AC7E001, 0x7AC7E002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) *
      , (0x7AC7E001, 0x7AC7E006, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC7E002,  1762, 0xAC7E0001, 15.82652, 19.12074, 45.59589, -0.601261, 0, 0, -0.7990527,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
+VALUES (0x7AC7E002,  1762, 0xAC7E0001, 15.82652, 19.12074, 45.59589, -0.601261, 0, 0, -0.799053,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
 /* @teleloc 0xAC7E0001 [15.826520 19.120740 45.595890] -0.601261 0.000000 0.000000 -0.799053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -28,7 +28,7 @@ VALUES (0x7AC7E005,   226, 0xAC7E0001, 12.78516, 5.550799, 44.94057, 1, 0, 0, 0,
 /* @teleloc 0xAC7E0001 [12.785160 5.550799 44.940570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC7E006,    23, 0xAC7E0004, 5.164125, 85.53407, 39.77332, 0.2468611, 0, 0, -0.9690509,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
+VALUES (0x7AC7E006,    23, 0xAC7E0004, 5.164125, 85.53407, 39.77332, 0.246861, 0, 0, -0.969051,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
 /* @teleloc 0xAC7E0004 [5.164125 85.534070 39.773320] 0.246861 0.000000 0.000000 -0.969051 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

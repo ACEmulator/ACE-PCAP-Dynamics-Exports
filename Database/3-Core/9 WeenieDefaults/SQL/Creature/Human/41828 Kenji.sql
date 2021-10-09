@@ -31,20 +31,20 @@ VALUES (41828,   1, 'Kenji') /* Name */
      , (41828,   5, 'Society Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41828,   1,   33554433) /* Setup */
-     , (41828,   2,  150994945) /* MotionTable */
-     , (41828,   3,  536870913) /* SoundTable */
-     , (41828,   6,   67108990) /* PaletteBase */
-     , (41828,   8,  100667377) /* Icon */
-     , (41828,   9,   83890473) /* EyesTexture */
-     , (41828,  10,   83890562) /* NoseTexture */
-     , (41828,  11,   83890583) /* MouthTexture */
-     , (41828,  15,   67117022) /* HairPalette */
-     , (41828,  16,   67110063) /* EyesPalette */
-     , (41828,  17,   67110055) /* SkinPalette */;
+VALUES (41828,   1, 0x02000001) /* Setup */
+     , (41828,   2, 0x09000001) /* MotionTable */
+     , (41828,   3, 0x20000001) /* SoundTable */
+     , (41828,   6, 0x0400007E) /* PaletteBase */
+     , (41828,   8, 0x06000FF1) /* Icon */
+     , (41828,   9, 0x05001129) /* EyesTexture */
+     , (41828,  10, 0x05001182) /* NoseTexture */
+     , (41828,  11, 0x05001197) /* MouthTexture */
+     , (41828,  15, 0x04001FDE) /* HairPalette */
+     , (41828,  16, 0x040004AF) /* EyesPalette */
+     , (41828,  17, 0x040004A7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41828, 8040, 12124782, 155.549, -32.2236, -17.995, 0.8947751, 0, 0, 0.4465171) /* PCAPRecordedLocation */
+VALUES (41828, 8040, 0x00B9026E, 155.549, -32.2236, -17.995, 0.894775, 0, 0, 0.446517) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026E [155.549000 -32.223600 -17.995000] 0.894775 0.000000 0.000000 0.446517 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

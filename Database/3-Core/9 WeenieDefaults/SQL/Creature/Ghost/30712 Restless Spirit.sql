@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30712,   1, 'Restless Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30712,   1,   33558816) /* Setup */
-     , (30712,   2,  150995302) /* MotionTable */
-     , (30712,   3,  536871094) /* SoundTable */
-     , (30712,   6,   67115251) /* PaletteBase */
-     , (30712,   8,  100676679) /* Icon */
-     , (30712,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (30712,   1, 0x02001120) /* Setup */
+     , (30712,   2, 0x09000166) /* MotionTable */
+     , (30712,   3, 0x200000B6) /* SoundTable */
+     , (30712,   6, 0x040018F3) /* PaletteBase */
+     , (30712,   8, 0x06003447) /* Icon */
+     , (30712,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30712, 8040, 14942469, 17.50469, -43.49506, -29.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30712, 8040, 0x00E40105, 17.50469, -43.49506, -29.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E40105 [17.504690 -43.495060 -29.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

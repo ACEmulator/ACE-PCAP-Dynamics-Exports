@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30334,   1, 'Fist of Three Principles') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30334,   1,   33559398) /* Setup */
-     , (30334,   3,  536870932) /* SoundTable */
-     , (30334,   8,  100686779) /* Icon */
-     , (30334,  22,  872415275) /* PhysicsEffectTable */
-     , (30334,  52,  100686604) /* IconUnderlay */;
+VALUES (30334,   1, 0x02001366) /* Setup */
+     , (30334,   3, 0x20000014) /* SoundTable */
+     , (30334,   8, 0x06005BBB) /* Icon */
+     , (30334,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30334,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30334, 8040, 3465871413, 162.2666, 99.96621, 19.929, 0.5872574, 0.5872574, -0.3938638, -0.3938638) /* PCAPRecordedLocation */
+VALUES (30334, 8040, 0xCE950035, 162.2666, 99.96621, 19.929, 0.587257, 0.587257, -0.393864, -0.393864) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [162.266600 99.966210 19.929000] 0.587257 0.587257 -0.393864 -0.393864 */;

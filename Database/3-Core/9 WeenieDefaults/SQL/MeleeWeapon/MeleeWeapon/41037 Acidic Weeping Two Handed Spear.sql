@@ -50,17 +50,17 @@ VALUES (41037,   1, 'Acidic Weeping Two Handed Spear') /* Name */
      , (41037,  16, 'Acid Assagai of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41037,   1,   33558480) /* Setup */
-     , (41037,   3,  536870932) /* SoundTable */
-     , (41037,   6,   67114522) /* PaletteBase */
-     , (41037,   8,  100690831) /* Icon */
-     , (41037,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41037,   1, 0x02000FD0) /* Setup */
+     , (41037,   3, 0x20000014) /* SoundTable */
+     , (41037,   6, 0x0400161A) /* PaletteBase */
+     , (41037,   8, 0x06006B8F) /* Icon */
+     , (41037,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41037,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (41037,  50,  100688854) /* IconOverlay */
-     , (41037,  52,  100676439) /* IconUnderlay */;
+     , (41037,  50, 0x060063D6) /* IconOverlay */
+     , (41037,  52, 0x06003357) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41037, 8040, 23855548, 49.20208, -32.06217, -0.071, 0.3728304, 0.3728304, -0.6008307, -0.6008307) /* PCAPRecordedLocation */
+VALUES (41037, 8040, 0x016C01BC, 49.20208, -32.06217, -0.071, 0.37283, 0.37283, -0.600831, -0.600831) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.202080 -32.062170 -0.071000] 0.372830 0.372830 -0.600831 -0.600831 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

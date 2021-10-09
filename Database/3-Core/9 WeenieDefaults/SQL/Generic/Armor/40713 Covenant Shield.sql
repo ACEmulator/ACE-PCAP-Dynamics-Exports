@@ -41,7 +41,7 @@ VALUES (40713,   1, 'Covenant Shield') /* Name */
      , (40713,  16, 'Covenant Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40713,   1,   33557878) /* Setup */
-     , (40713,   3,  536870932) /* SoundTable */
-     , (40713,   8,  100673427) /* Icon */
-     , (40713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40713,   1, 0x02000D76) /* Setup */
+     , (40713,   3, 0x20000014) /* SoundTable */
+     , (40713,   8, 0x06002793) /* Icon */
+     , (40713,  22, 0x3400002B) /* PhysicsEffectTable */;

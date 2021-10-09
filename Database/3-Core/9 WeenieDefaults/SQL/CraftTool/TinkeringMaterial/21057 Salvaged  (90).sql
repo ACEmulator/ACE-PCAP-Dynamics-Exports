@@ -31,9 +31,9 @@ VALUES (21057,   1, 'Salvaged  (90)') /* Name */
      , (21057,  15, 'Chips of lapis lazuli material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21057,   1,   33554817) /* Setup */
-     , (21057,   3,  536870932) /* SoundTable */
-     , (21057,   6,   67111919) /* PaletteBase */
-     , (21057,   8,  100673214) /* Icon */
-     , (21057,  22,  872415275) /* PhysicsEffectTable */
-     , (21057,  50,  100673281) /* IconOverlay */;
+VALUES (21057,   1, 0x02000181) /* Setup */
+     , (21057,   3, 0x20000014) /* SoundTable */
+     , (21057,   6, 0x04000BEF) /* PaletteBase */
+     , (21057,   8, 0x060026BE) /* Icon */
+     , (21057,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21057,  50, 0x06002701) /* IconOverlay */;

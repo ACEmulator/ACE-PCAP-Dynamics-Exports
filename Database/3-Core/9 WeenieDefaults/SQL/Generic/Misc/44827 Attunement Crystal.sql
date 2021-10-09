@@ -24,11 +24,11 @@ VALUES (44827,   1, 'Attunement Crystal') /* Name */
      , (44827,  15, 'The crystal which powered the Attunement Device.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44827,   1,   33558439) /* Setup */
-     , (44827,   3,  536870932) /* SoundTable */
-     , (44827,   8,  100674842) /* Icon */
-     , (44827,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44827,   1, 0x02000FA7) /* Setup */
+     , (44827,   3, 0x20000014) /* SoundTable */
+     , (44827,   8, 0x06002D1A) /* Icon */
+     , (44827,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44827, 8040, 2114060638, 8.612563, -107.469, 6.17316, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (44827, 8040, 0x7E02015E, 8.612563, -107.469, 6.17316, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7E02015E [8.612563 -107.469000 6.173160] 1.000000 0.000000 0.000000 0.000000 */;

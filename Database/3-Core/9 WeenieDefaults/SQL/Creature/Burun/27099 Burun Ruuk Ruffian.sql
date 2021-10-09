@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27099,   1, 'Burun Ruuk Ruffian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27099,   1,   33558582) /* Setup */
-     , (27099,   2,  150995272) /* MotionTable */
-     , (27099,   3,  536871083) /* SoundTable */
-     , (27099,   6,   67114919) /* PaletteBase */
-     , (27099,   8,  100675761) /* Icon */
-     , (27099,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (27099,   1, 0x02001036) /* Setup */
+     , (27099,   2, 0x09000148) /* MotionTable */
+     , (27099,   3, 0x200000AB) /* SoundTable */
+     , (27099,   6, 0x040017A7) /* PaletteBase */
+     , (27099,   8, 0x060030B1) /* Icon */
+     , (27099,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27099, 8040, 3143893267, 180.2904, 62.31744, 6.427584, -0.0363792, 0, 0, 0.999338) /* PCAPRecordedLocation */
+VALUES (27099, 8040, 0xBB640113, 180.2904, 62.31744, 6.427584, -0.036379, 0, 0, 0.999338) /* PCAPRecordedLocation */
 /* @teleloc 0xBB640113 [180.290400 62.317440 6.427584] -0.036379 0.000000 0.000000 0.999338 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

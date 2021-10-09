@@ -18,9 +18,9 @@ VALUES (12664,   1, 'Swamp Temple Place') /* Name */
      , (12664,  16, 'Welcome to Swamp Temple Place') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12664,   1,   33557463) /* Setup */
-     , (12664,   8,  100668115) /* Icon */;
+VALUES (12664,   1, 0x02000BD7) /* Setup */
+     , (12664,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12664, 8040, 3059810365, 180.316, 114.862, 22, 0.689704, 0, 0, 0.724091) /* PCAPRecordedLocation */
+VALUES (12664, 8040, 0xB661003D, 180.316, 114.862, 22, 0.689704, 0, 0, 0.724091) /* PCAPRecordedLocation */
 /* @teleloc 0xB661003D [180.316000 114.862000 22.000000] 0.689704 0.000000 0.000000 0.724091 */;

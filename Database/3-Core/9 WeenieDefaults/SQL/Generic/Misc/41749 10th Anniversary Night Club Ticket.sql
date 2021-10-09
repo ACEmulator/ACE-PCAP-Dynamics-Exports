@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41749,   1, '10th Anniversary Night Club Ticket') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41749,   1,   33554773) /* Setup */
-     , (41749,   3,  536870932) /* SoundTable */
-     , (41749,   8,  100689177) /* Icon */
-     , (41749,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41749,   1, 0x02000155) /* Setup */
+     , (41749,   3, 0x20000014) /* SoundTable */
+     , (41749,   8, 0x06006519) /* Icon */
+     , (41749,  22, 0x3400002B) /* PhysicsEffectTable */;

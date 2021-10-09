@@ -21,7 +21,7 @@ VALUES (41740,   1, 'Two Handed Combat Gem of Enlightenment') /* Name */
      , (41740,  14, 'Use this gem to specialize a trained skill. It will cost you eight skill credits to specialize the Two Handed Combat skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41740,   1,   33558088) /* Setup */
-     , (41740,   6,   67111919) /* PaletteBase */
-     , (41740,   8,  100673788) /* Icon */
-     , (41740,  50,  100690641) /* IconOverlay */;
+VALUES (41740,   1, 0x02000E48) /* Setup */
+     , (41740,   6, 0x04000BEF) /* PaletteBase */
+     , (41740,   8, 0x060028FC) /* Icon */
+     , (41740,  50, 0x06006AD1) /* IconOverlay */;

@@ -21,8 +21,8 @@ VALUES (35807,   1, 'Gladiator Diemos Statue') /* Name */
      , (35807,  16, 'A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35807,   1,   33560265) /* Setup */
-     , (35807,   2,  150995206) /* MotionTable */
-     , (35807,   3,  536871052) /* SoundTable */
-     , (35807,   8,  100674350) /* Icon */
-     , (35807,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35807,   1, 0x020016C9) /* Setup */
+     , (35807,   2, 0x09000106) /* MotionTable */
+     , (35807,   3, 0x2000008C) /* SoundTable */
+     , (35807,   8, 0x06002B2E) /* Icon */
+     , (35807,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -56,13 +56,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44214,   1, 'Burning Sands Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44214,   1,   33555693) /* Setup */
-     , (44214,   3,  536870932) /* SoundTable */
-     , (44214,   6,   67111919) /* PaletteBase */
-     , (44214,   8,  100672653) /* Icon */
-     , (44214,  22,  872415275) /* PhysicsEffectTable */
-     , (44214,  50,  100691935) /* IconOverlay */;
+VALUES (44214,   1, 0x020004ED) /* Setup */
+     , (44214,   3, 0x20000014) /* SoundTable */
+     , (44214,   6, 0x04000BEF) /* PaletteBase */
+     , (44214,   8, 0x0600248D) /* Icon */
+     , (44214,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44214,  50, 0x06006FDF) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44214, 8040, 1994981420, 139.4486, 83.59022, 105.6949, -0.4180033, -0.4180033, -0.5703273, -0.5703273) /* PCAPRecordedLocation */
+VALUES (44214, 8040, 0x76E9002C, 139.4486, 83.59022, 105.6949, -0.418003, -0.418003, -0.570327, -0.570327) /* PCAPRecordedLocation */
 /* @teleloc 0x76E9002C [139.448600 83.590220 105.694900] -0.418003 -0.418003 -0.570327 -0.570327 */;

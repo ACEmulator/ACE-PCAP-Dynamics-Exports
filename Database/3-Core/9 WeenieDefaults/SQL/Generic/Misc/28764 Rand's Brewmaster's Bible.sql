@@ -23,7 +23,7 @@ VALUES (28764,   1, 'Rand''s Brewmaster''s Bible') /* Name */
      , (28764,  16, 'A complete copy of the Brewmaster''s Bible.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28764,   1,   33559345) /* Setup */
-     , (28764,   3,  536870932) /* SoundTable */
-     , (28764,   8,  100686372) /* Icon */
-     , (28764,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28764,   1, 0x02001331) /* Setup */
+     , (28764,   3, 0x20000014) /* SoundTable */
+     , (28764,   8, 0x06005A24) /* Icon */
+     , (28764,  22, 0x3400002B) /* PhysicsEffectTable */;

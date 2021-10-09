@@ -24,7 +24,7 @@ VALUES (33186,   1, 'Pack Harbinger') /* Name */
      , (33186,  16, 'Pack Harbinger with world destroying action.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33186,   1,   33559924) /* Setup */
-     , (33186,   2,  150995359) /* MotionTable */
-     , (33186,   8,  100688939) /* Icon */
-     , (33186,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33186,   1, 0x02001574) /* Setup */
+     , (33186,   2, 0x0900019F) /* MotionTable */
+     , (33186,   8, 0x0600642B) /* Icon */
+     , (33186,  22, 0x34000063) /* PhysicsEffectTable */;

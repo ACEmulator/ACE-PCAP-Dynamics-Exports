@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51773,   1, 'Sapphire Annex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51773,   1,   33559838) /* Setup */
-     , (51773,   2,  150995147) /* MotionTable */
-     , (51773,   3,  536871001) /* SoundTable */
-     , (51773,   8,  100671324) /* Icon */
-     , (51773,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51773,   1, 0x0200151E) /* Setup */
+     , (51773,   2, 0x090000CB) /* MotionTable */
+     , (51773,   3, 0x20000059) /* SoundTable */
+     , (51773,   8, 0x06001F5C) /* Icon */
+     , (51773,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51773, 8040, 1484259677, 310, -340, -59.9, 0.130526, 0, 0, -0.9914449) /* PCAPRecordedLocation */
+VALUES (51773, 8040, 0x5878015D, 310, -340, -59.9, 0.130526, 0, 0, -0.991445) /* PCAPRecordedLocation */
 /* @teleloc 0x5878015D [310.000000 -340.000000 -59.900000] 0.130526 0.000000 0.000000 -0.991445 */;

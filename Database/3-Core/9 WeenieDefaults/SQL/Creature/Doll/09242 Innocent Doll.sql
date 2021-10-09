@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9242,   1, 'Innocent Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9242,   1,   33556996) /* Setup */
-     , (9242,   2,  150994984) /* MotionTable */
-     , (9242,   3,  536871022) /* SoundTable */
-     , (9242,   6,   67113150) /* PaletteBase */
-     , (9242,   8,  100671421) /* Icon */
-     , (9242,  22,  872415373) /* PhysicsEffectTable */
+VALUES (9242,   1, 0x02000A04) /* Setup */
+     , (9242,   2, 0x09000028) /* MotionTable */
+     , (9242,   3, 0x2000006E) /* SoundTable */
+     , (9242,   6, 0x040010BE) /* PaletteBase */
+     , (9242,   8, 0x06001FBD) /* Icon */
+     , (9242,  22, 0x3400008D) /* PhysicsEffectTable */
      , (9242,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9242, 8040, 2537226266, 73.97066, 46.66272, 53.69468, 0.6261589, 0, 0, -0.7796955) /* PCAPRecordedLocation */
+VALUES (9242, 8040, 0x973B001A, 73.97066, 46.66272, 53.69468, 0.626159, 0, 0, -0.779696) /* PCAPRecordedLocation */
 /* @teleloc 0x973B001A [73.970660 46.662720 53.694680] 0.626159 0.000000 0.000000 -0.779696 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

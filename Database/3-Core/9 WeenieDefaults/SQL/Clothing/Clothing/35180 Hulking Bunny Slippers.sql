@@ -40,12 +40,12 @@ VALUES (35180,   1, 'Hulking Bunny Slippers') /* Name */
      , (35180,  16, 'A pair of hulking bunny slippers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35180,   1,   33557435) /* Setup */
-     , (35180,   6,   67108990) /* PaletteBase */
-     , (35180,   8,  100672378) /* Icon */
-     , (35180,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35180,   1, 0x02000BBB) /* Setup */
+     , (35180,   6, 0x0400007E) /* PaletteBase */
+     , (35180,   8, 0x0600237A) /* Icon */
+     , (35180,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35180,  2257,      2)  /* JumpingMasterySelf7 */
-     , (35180,  2301,      2)  /* SprintSelf7 */
-     , (35180,  2529,      2)  /* CANTRIPSPRINT2 */;
+     , (35180,  2529,      2)  /* CANTRIPSPRINT2 */
+     , (35180,  2301,      2)  /* SprintSelf7 */;

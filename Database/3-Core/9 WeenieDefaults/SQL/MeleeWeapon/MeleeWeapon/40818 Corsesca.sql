@@ -40,8 +40,8 @@ VALUES (40818,   1, 'Corsesca') /* Name */
      , (40818,  16, 'Corsesca') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40818,   1,   33560788) /* Setup */
-     , (40818,   3,  536870932) /* SoundTable */
-     , (40818,   6,   67115560) /* PaletteBase */
-     , (40818,   8,  100690796) /* Icon */
-     , (40818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40818,   1, 0x020018D4) /* Setup */
+     , (40818,   3, 0x20000014) /* SoundTable */
+     , (40818,   6, 0x04001A28) /* PaletteBase */
+     , (40818,   8, 0x06006B6C) /* Icon */
+     , (40818,  22, 0x3400002B) /* PhysicsEffectTable */;

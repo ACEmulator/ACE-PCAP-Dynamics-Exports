@@ -42,11 +42,11 @@ VALUES (59,   1, 'Studded Leather Gauntlets') /* Name */
      , (59,  16, 'Studded Leather Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (59,   1,   33554648) /* Setup */
-     , (59,   3,  536870932) /* SoundTable */
-     , (59,   6,   67108990) /* PaletteBase */
-     , (59,   8,  100669238) /* Icon */
-     , (59,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (59,   1, 0x020000D8) /* Setup */
+     , (59,   3, 0x20000014) /* SoundTable */
+     , (59,   6, 0x0400007E) /* PaletteBase */
+     , (59,   8, 0x06001736) /* Icon */
+     , (59,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (59,  1485,      2)  /* Impenetrability5 */

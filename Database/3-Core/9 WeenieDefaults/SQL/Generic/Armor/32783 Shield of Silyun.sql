@@ -42,16 +42,16 @@ VALUES (32783,   1, 'Shield of Silyun') /* Name */
      , (32783,  16, 'A shield given by Lucari di Bellenesse, for valor in the retrieval of the lost Sword of Bellenesse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32783,   1,   33559843) /* Setup */
-     , (32783,   3,  536870932) /* SoundTable */
-     , (32783,   8,  100688641) /* Icon */
-     , (32783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32783,   1, 0x02001523) /* Setup */
+     , (32783,   3, 0x20000014) /* SoundTable */
+     , (32783,   8, 0x06006301) /* Icon */
+     , (32783,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32783, 8040, 669777942, 63.66345, 121.0697, 79.926, 0.1619309, -0.7545306, -0.3750565, -0.5136094) /* PCAPRecordedLocation */
+VALUES (32783, 8040, 0x27EC0016, 63.66345, 121.0697, 79.926, 0.161931, -0.754531, -0.375057, -0.513609) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0016 [63.663450 121.069700 79.926000] 0.161931 -0.754531 -0.375057 -0.513609 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32783,   249,      2)  /* InvulnerabilitySelf6 */
-     , (32783,  2108,      2)  /* Impenetrability7 */
-     , (32783,  2660,      2)  /* ModerateEndurance */;
+VALUES (32783,  2660,      2)  /* ModerateEndurance */
+     , (32783,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32783,  2108,      2)  /* Impenetrability7 */;

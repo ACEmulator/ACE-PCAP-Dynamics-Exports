@@ -33,8 +33,8 @@ VALUES (38794,   1, 'Black Market Health Elixir') /* Name */
      , (38794,  15, 'A vial of very powerful Health potion.  Hazardous to use too often.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38794,   1,   33554603) /* Setup */
-     , (38794,   3,  536870932) /* SoundTable */
-     , (38794,   6,   67111919) /* PaletteBase */
-     , (38794,   8,  100676312) /* Icon */
-     , (38794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38794,   1, 0x020000AB) /* Setup */
+     , (38794,   3, 0x20000014) /* SoundTable */
+     , (38794,   6, 0x04000BEF) /* PaletteBase */
+     , (38794,   8, 0x060032D8) /* Icon */
+     , (38794,  22, 0x3400002B) /* PhysicsEffectTable */;

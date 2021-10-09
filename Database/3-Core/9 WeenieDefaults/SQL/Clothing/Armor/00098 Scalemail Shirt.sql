@@ -46,13 +46,13 @@ VALUES (98,   1, 'Scalemail Shirt') /* Name */
      , (98,  16, 'Scalemail Shirt of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (98,   1,   33554883) /* Setup */
-     , (98,   3,  536870932) /* SoundTable */
-     , (98,   6,   67108990) /* PaletteBase */
-     , (98,   8,  100669681) /* Icon */
-     , (98,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (98,   1, 0x020001C3) /* Setup */
+     , (98,   3, 0x20000014) /* SoundTable */
+     , (98,   6, 0x0400007E) /* PaletteBase */
+     , (98,   8, 0x060018F1) /* Icon */
+     , (98,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (98,  2108,      2)  /* Impenetrability7 */
-     , (98,  4325,      2)  /* StrengthSelf8 */
-     , (98,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */;
+VALUES (98,  4325,      2)  /* StrengthSelf8 */
+     , (98,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */
+     , (98,  2108,      2)  /* Impenetrability7 */;

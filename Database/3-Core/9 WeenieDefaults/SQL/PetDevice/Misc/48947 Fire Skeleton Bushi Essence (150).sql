@@ -37,10 +37,10 @@ VALUES (48947,   1, 'Fire Skeleton Bushi Essence (150)') /* Name */
      , (48947,  14, 'Use this essence to summon or dismiss your Fire Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48947,   1,   33554817) /* Setup */
-     , (48947,   3,  536870932) /* SoundTable */
-     , (48947,   6,   67111919) /* PaletteBase */
-     , (48947,   8,  100669124) /* Icon */
-     , (48947,  22,  872415275) /* PhysicsEffectTable */
-     , (48947,  50,  100693030) /* IconOverlay */
-     , (48947,  52,  100693024) /* IconUnderlay */;
+VALUES (48947,   1, 0x02000181) /* Setup */
+     , (48947,   3, 0x20000014) /* SoundTable */
+     , (48947,   6, 0x04000BEF) /* PaletteBase */
+     , (48947,   8, 0x060016C4) /* Icon */
+     , (48947,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48947,  50, 0x06007426) /* IconOverlay */
+     , (48947,  52, 0x06007420) /* IconUnderlay */;

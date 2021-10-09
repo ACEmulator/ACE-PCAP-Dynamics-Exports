@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36369,   1, 'Chimeric Mace of the Quiddity Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36369,   1,   33556223) /* Setup */
-     , (36369,   3,  536870932) /* SoundTable */
-     , (36369,   6,   67111928) /* PaletteBase */
-     , (36369,   8,  100670993) /* Icon */
-     , (36369,  22,  872415275) /* PhysicsEffectTable */
-     , (36369,  50,  100673774) /* IconOverlay */
-     , (36369,  52,  100689403) /* IconUnderlay */
+VALUES (36369,   1, 0x020006FF) /* Setup */
+     , (36369,   3, 0x20000014) /* SoundTable */
+     , (36369,   6, 0x04000BF8) /* PaletteBase */
+     , (36369,   8, 0x06001E11) /* Icon */
+     , (36369,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36369,  50, 0x060028EE) /* IconOverlay */
+     , (36369,  52, 0x060065FB) /* IconUnderlay */
      , (36369, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

@@ -27,21 +27,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25665,   1, 'Wretched') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25665,   1,   33556251) /* Setup */
-     , (25665,   2,  150995091) /* MotionTable */
-     , (25665,   3,  536870914) /* SoundTable */
-     , (25665,   6,   67108990) /* PaletteBase */
-     , (25665,   8,  100670398) /* Icon */
-     , (25665,   9,   83890282) /* EyesTexture */
-     , (25665,  10,   83890287) /* NoseTexture */
-     , (25665,  11,   83890336) /* MouthTexture */
-     , (25665,  15,   67117077) /* HairPalette */
-     , (25665,  16,   67109564) /* EyesPalette */
-     , (25665,  17,   67109560) /* SkinPalette */
-     , (25665,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (25665,   1, 0x0200071B) /* Setup */
+     , (25665,   2, 0x09000093) /* MotionTable */
+     , (25665,   3, 0x20000002) /* SoundTable */
+     , (25665,   6, 0x0400007E) /* PaletteBase */
+     , (25665,   8, 0x06001BBE) /* Icon */
+     , (25665,   9, 0x0500106A) /* EyesTexture */
+     , (25665,  10, 0x0500106F) /* NoseTexture */
+     , (25665,  11, 0x050010A0) /* MouthTexture */
+     , (25665,  15, 0x04002015) /* HairPalette */
+     , (25665,  16, 0x040002BC) /* EyesPalette */
+     , (25665,  17, 0x040002B8) /* SkinPalette */
+     , (25665,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25665, 8040, 151715843, 14.358, 53.1494, 16.0065, -0.9993286, 0, 0, -0.03663848) /* PCAPRecordedLocation */
+VALUES (25665, 8040, 0x090B0003, 14.358, 53.1494, 16.0065, -0.999329, 0, 0, -0.036638) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0003 [14.358000 53.149400 16.006500] -0.999329 0.000000 0.000000 -0.036638 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

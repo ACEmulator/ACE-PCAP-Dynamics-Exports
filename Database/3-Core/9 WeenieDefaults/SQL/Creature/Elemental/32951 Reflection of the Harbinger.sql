@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32951,   1, 'Reflection of the Harbinger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32951,   1,   33557927) /* Setup */
-     , (32951,   2,  150995217) /* MotionTable */
-     , (32951,   3,  536871059) /* SoundTable */
-     , (32951,   8,  100673483) /* Icon */
-     , (32951,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (32951,   1, 0x02000DA7) /* Setup */
+     , (32951,   2, 0x09000111) /* MotionTable */
+     , (32951,   3, 0x20000093) /* SoundTable */
+     , (32951,   8, 0x060027CB) /* Icon */
+     , (32951,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32951, 8040, 3111059485, 72.5255, 117.5483, 10.015, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32951, 8040, 0xB96F001D, 72.5255, 117.5483, 10.015, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [72.525500 117.548300 10.015000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

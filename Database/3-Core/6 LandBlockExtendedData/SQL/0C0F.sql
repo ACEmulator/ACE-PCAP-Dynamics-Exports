@@ -19,7 +19,7 @@ VALUES (0x70C0F002, 25865, 0x0C0F000D, 35.21215, 99.12686, 367.267, 1, 0, 0, 0, 
 /* @teleloc 0x0C0F000D [35.212150 99.126860 367.267000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0F003, 25863, 0x0C0F0039, 168.0708, 0.1510478, 174.2906, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+VALUES (0x70C0F003, 25863, 0x0C0F0039, 168.0708, 0.151048, 174.2906, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
 /* @teleloc 0x0C0F0039 [168.070800 0.151048 174.290600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -24,7 +24,7 @@ VALUES (43167,   1, 'Jack of All Trades') /* Name */
      , (43167,  16, 'Your versatility is increased. All of your skills are increased by 5. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43167,   1,   33554809) /* Setup */
-     , (43167,   3,  536870932) /* SoundTable */
-     , (43167,   8,  100686474) /* Icon */
-     , (43167,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43167,   1, 0x02000179) /* Setup */
+     , (43167,   3, 0x20000014) /* SoundTable */
+     , (43167,   8, 0x06005A8A) /* Icon */
+     , (43167,  22, 0x3400002B) /* PhysicsEffectTable */;

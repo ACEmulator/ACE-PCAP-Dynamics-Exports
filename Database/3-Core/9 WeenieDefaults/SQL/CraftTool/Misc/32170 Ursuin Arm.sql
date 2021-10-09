@@ -25,7 +25,7 @@ VALUES (32170,   1, 'Ursuin Arm') /* Name */
      , (32170,  16, 'An Ursuin arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32170,   1,   33559784) /* Setup */
-     , (32170,   3,  536870932) /* SoundTable */
-     , (32170,   8,  100688469) /* Icon */
-     , (32170,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32170,   1, 0x020014E8) /* Setup */
+     , (32170,   3, 0x20000014) /* SoundTable */
+     , (32170,   8, 0x06006255) /* Icon */
+     , (32170,  22, 0x3400002B) /* PhysicsEffectTable */;

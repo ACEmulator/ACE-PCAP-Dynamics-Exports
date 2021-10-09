@@ -25,6 +25,6 @@ VALUES (35402,   1, 'Lord Cynreft Mhoire''s Key') /* Name */
      , (35402,  16, 'An ancient silver key scarred and covered with ash.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35402,   1,   33554784) /* Setup */
-     , (35402,   8,  100667485) /* Icon */
-     , (35402,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35402,   1, 0x02000160) /* Setup */
+     , (35402,   8, 0x0600105D) /* Icon */
+     , (35402,  22, 0x3400002B) /* PhysicsEffectTable */;

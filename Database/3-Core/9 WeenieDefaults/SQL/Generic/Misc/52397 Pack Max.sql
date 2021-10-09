@@ -18,8 +18,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52397,   1, 'Pack Max') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52397,   1,   33554493) /* Setup */
-     , (52397,   2,  150995421) /* MotionTable */
-     , (52397,   6,   67109300) /* PaletteBase */
-     , (52397,   8,  100667451) /* Icon */
-     , (52397,  22,  872415267) /* PhysicsEffectTable */;
+VALUES (52397,   1, 0x0200003D) /* Setup */
+     , (52397,   2, 0x090001DD) /* MotionTable */
+     , (52397,   6, 0x040001B4) /* PaletteBase */
+     , (52397,   8, 0x0600103B) /* Icon */
+     , (52397,  22, 0x34000023) /* PhysicsEffectTable */;

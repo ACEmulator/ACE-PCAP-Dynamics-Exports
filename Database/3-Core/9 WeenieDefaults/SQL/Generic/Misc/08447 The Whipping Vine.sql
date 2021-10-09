@@ -18,9 +18,9 @@ VALUES (8447,   1, 'The Whipping Vine') /* Name */
      , (8447,  16, 'The Whipping Vine') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8447,   1,   33555594) /* Setup */
-     , (8447,   8,  100668115) /* Icon */;
+VALUES (8447,   1, 0x0200048A) /* Setup */
+     , (8447,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8447, 8040, 3911319570, 48.8, 36.592, 21, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (8447, 8040, 0xE9220012, 48.8, 36.592, 21, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xE9220012 [48.800000 36.592000 21.000000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -21,7 +21,7 @@ VALUES (47837,   1, 'Enchanted Seedling') /* Name */
      , (47837,  15, 'A small, glowing seedling.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47837,   1,   33558395) /* Setup */
-     , (47837,   3,  536870932) /* SoundTable */
-     , (47837,   8,  100675563) /* Icon */
-     , (47837,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47837,   1, 0x02000F7B) /* Setup */
+     , (47837,   3, 0x20000014) /* SoundTable */
+     , (47837,   8, 0x06002FEB) /* Icon */
+     , (47837,  22, 0x3400002B) /* PhysicsEffectTable */;

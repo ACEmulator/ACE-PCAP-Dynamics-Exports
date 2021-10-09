@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1306,   1, 'Bandit Castle Prison') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1306,   1,   33554867) /* Setup */
-     , (1306,   2,  150994947) /* MotionTable */
-     , (1306,   8,  100667499) /* Icon */;
+VALUES (1306,   1, 0x020001B3) /* Setup */
+     , (1306,   2, 0x09000003) /* MotionTable */
+     , (1306,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1306, 8040, 3184656680, 165.3, 82.9, 185.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1306, 8040, 0xBDD20128, 165.3, 82.9, 185.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD20128 [165.300000 82.900000 185.937000] 1.000000 0.000000 0.000000 0.000000 */;

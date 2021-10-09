@@ -21,7 +21,7 @@ VALUES (29125,   1, 'Roasted Barley') /* Name */
      , (29125,  20, 'Bags of Roasted Barley') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29125,   1,   33559182) /* Setup */
-     , (29125,   3,  536870932) /* SoundTable */
-     , (29125,   8,  100686444) /* Icon */
-     , (29125,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29125,   1, 0x0200128E) /* Setup */
+     , (29125,   3, 0x20000014) /* SoundTable */
+     , (29125,   8, 0x06005A6C) /* Icon */
+     , (29125,  22, 0x3400002B) /* PhysicsEffectTable */;

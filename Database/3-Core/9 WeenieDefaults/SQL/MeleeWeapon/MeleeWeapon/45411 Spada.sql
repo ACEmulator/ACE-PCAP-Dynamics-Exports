@@ -46,11 +46,11 @@ VALUES (45411,   1, 'Spada') /* Name */
      , (45411,  16, 'Spada of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45411,   1,   33559317) /* Setup */
-     , (45411,   3,  536870932) /* SoundTable */
-     , (45411,   6,   67115557) /* PaletteBase */
-     , (45411,   8,  100686945) /* Icon */
-     , (45411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45411,   1, 0x02001315) /* Setup */
+     , (45411,   3, 0x20000014) /* SoundTable */
+     , (45411,   6, 0x04001A25) /* PaletteBase */
+     , (45411,   8, 0x06005C61) /* Icon */
+     , (45411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45411,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

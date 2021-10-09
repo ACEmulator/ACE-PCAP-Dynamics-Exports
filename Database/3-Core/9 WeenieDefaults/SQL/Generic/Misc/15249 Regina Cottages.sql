@@ -18,9 +18,9 @@ VALUES (15249,   1, 'Regina Cottages') /* Name */
      , (15249,  16, 'Welcome to Regina Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15249,   1,   33557463) /* Setup */
-     , (15249,   8,  100668115) /* Icon */;
+VALUES (15249,   1, 0x02000BD7) /* Setup */
+     , (15249,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15249, 8040, 1724055588, 105.834, 84.1416, 82, 0.0157396, 0, 0, -0.999876) /* PCAPRecordedLocation */
+VALUES (15249, 8040, 0x66C30024, 105.834, 84.1416, 82, 0.01574, 0, 0, -0.999876) /* PCAPRecordedLocation */
 /* @teleloc 0x66C30024 [105.834000 84.141600 82.000000] 0.015740 0.000000 0.000000 -0.999876 */;

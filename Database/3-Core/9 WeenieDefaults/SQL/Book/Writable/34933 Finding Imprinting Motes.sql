@@ -18,7 +18,7 @@ VALUES (34933,   1, 'Finding Imprinting Motes') /* Name */
      , (34933,  16, 'A list of locations where Imprinting Motes may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34933,   1,   33554773) /* Setup */
-     , (34933,   3,  536870932) /* SoundTable */
-     , (34933,   8,  100668176) /* Icon */
-     , (34933,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34933,   1, 0x02000155) /* Setup */
+     , (34933,   3, 0x20000014) /* SoundTable */
+     , (34933,   8, 0x06001310) /* Icon */
+     , (34933,  22, 0x3400002B) /* PhysicsEffectTable */;

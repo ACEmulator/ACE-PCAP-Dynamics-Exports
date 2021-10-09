@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37575,   1, 'Soul Bound Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37575,   1,   33560570) /* Setup */
-     , (37575,   3,  536870932) /* SoundTable */
-     , (37575,   8,  100673204) /* Icon */
-     , (37575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37575,   1, 0x020017FA) /* Setup */
+     , (37575,   3, 0x20000014) /* SoundTable */
+     , (37575,   8, 0x060026B4) /* Icon */
+     , (37575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37575,  30,         88) /* PhysicsScript - Create */
-     , (37575,  52,  100689896) /* IconUnderlay */;
+     , (37575,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37575, 8040, 3583574079, 187.7502, 161.2641, 373.929, -0.3600081, -0.3600081, -0.6086002, -0.6086002) /* PCAPRecordedLocation */
+VALUES (37575, 8040, 0xD599003F, 187.7502, 161.2641, 373.929, -0.360008, -0.360008, -0.6086, -0.6086) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [187.750200 161.264100 373.929000] -0.360008 -0.360008 -0.608600 -0.608600 */;

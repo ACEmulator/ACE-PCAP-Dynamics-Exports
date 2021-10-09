@@ -51,14 +51,14 @@ VALUES (40623,   1, 'Quadrelle') /* Name */
      , (40623,  16, 'Quadrelle of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40623,   1,   33559359) /* Setup */
-     , (40623,   3,  536870932) /* SoundTable */
-     , (40623,   6,   67116833) /* PaletteBase */
-     , (40623,   8,  100690777) /* Icon */
-     , (40623,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40623,   1, 0x0200133F) /* Setup */
+     , (40623,   3, 0x20000014) /* SoundTable */
+     , (40623,   6, 0x04001F21) /* PaletteBase */
+     , (40623,   8, 0x06006B59) /* Icon */
+     , (40623,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40623,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40623,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (40623,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
-     , (40623,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (40623,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (40623,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */;

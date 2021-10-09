@@ -48,20 +48,20 @@ VALUES (38479,   1, 'Eldrytch Web Vambraces') /* Name */
      , (38479,  16, 'Eldrytch Web Vambraces of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38479,   1,   33554641) /* Setup */
-     , (38479,   3,  536870932) /* SoundTable */
-     , (38479,   8,  100690244) /* Icon */
-     , (38479,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38479,   1, 0x020000D1) /* Setup */
+     , (38479,   3, 0x20000014) /* SoundTable */
+     , (38479,   8, 0x06006944) /* Icon */
+     , (38479,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38479,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38479, 8040, 3147759670, 165.4032, 119.9964, 69.98062, -0.1405096, 0, 0, -0.9900793) /* PCAPRecordedLocation */
+VALUES (38479, 8040, 0xBB9F0036, 165.4032, 119.9964, 69.98062, -0.14051, 0, 0, -0.990079) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0036 [165.403200 119.996400 69.980620] -0.140510 0.000000 0.000000 -0.990079 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38479,  1498,      2)  /* AcidBane6 */
-     , (38479,  2108,      2)  /* Impenetrability7 */
+VALUES (38479,  4299,      2)  /* EnduranceSelf8 */
      , (38479,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */
+     , (38479,  1498,      2)  /* AcidBane6 */
+     , (38479,  4403,      2)  /* FrostBane8 */
      , (38479,  3964,      2)  /* CANTRIPFOCUS3 */
-     , (38479,  4299,      2)  /* EnduranceSelf8 */
-     , (38479,  4403,      2)  /* FrostBane8 */;
+     , (38479,  2108,      2)  /* Impenetrability7 */;

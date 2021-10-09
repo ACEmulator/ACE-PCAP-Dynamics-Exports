@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5586,   1, 'Alchemy Guide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5586,   1,   33559084) /* Setup */
-     , (5586,   3,  536870932) /* SoundTable */
-     , (5586,   6,   67112626) /* PaletteBase */
-     , (5586,   8,  100668117) /* Icon */
-     , (5586,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5586,   1, 0x0200122C) /* Setup */
+     , (5586,   3, 0x20000014) /* SoundTable */
+     , (5586,   6, 0x04000EB2) /* PaletteBase */
+     , (5586,   8, 0x060012D5) /* Icon */
+     , (5586,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5586, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

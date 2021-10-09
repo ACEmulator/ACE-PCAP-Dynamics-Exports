@@ -27,8 +27,8 @@ VALUES (53024,   1, 'Corrupted Amber: Tassets of the Corrupted Soul.') /* Name *
      , (53024,  20, 'Corrupted Ambers: Tassets of the Corrupted Soul.') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53024,   1,   33554809) /* Setup */
-     , (53024,   3,  536870932) /* SoundTable */
-     , (53024,   6,   67111919) /* PaletteBase */
-     , (53024,   8,  100693326) /* Icon */
-     , (53024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53024,   1, 0x02000179) /* Setup */
+     , (53024,   3, 0x20000014) /* SoundTable */
+     , (53024,   6, 0x04000BEF) /* PaletteBase */
+     , (53024,   8, 0x0600754E) /* Icon */
+     , (53024,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -39,15 +39,15 @@ VALUES (22015,   1, 'Pwyll''s Guard') /* Name */
      , (22015,  16, 'An ornate and flawless rendition of High King Pwyll. Alexander the Deft has captured the look and feel of the High King in exquisite fashion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22015,   1,   33558081) /* Setup */
-     , (22015,   3,  536870932) /* SoundTable */
-     , (22015,   8,  100673595) /* Icon */
-     , (22015,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22015,   1, 0x02000E41) /* Setup */
+     , (22015,   3, 0x20000014) /* SoundTable */
+     , (22015,   8, 0x0600283B) /* Icon */
+     , (22015,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22015,   249,      2)  /* InvulnerabilitySelf6 */
-     , (22015,   327,      2)  /* FinesseWeaponsMasterySelf6 */
-     , (22015,   681,      2)  /* ArcaneEnlightenmentSelf4 */
-     , (22015,  1312,      2)  /* ArmorSelf6 */
+VALUES (22015,   327,      2)  /* FinesseWeaponsMasterySelf6 */
      , (22015,  1484,      2)  /* Impenetrability4 */
-     , (22015,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */;
+     , (22015,  1312,      2)  /* ArmorSelf6 */
+     , (22015,   681,      2)  /* ArcaneEnlightenmentSelf4 */
+     , (22015,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
+     , (22015,   249,      2)  /* InvulnerabilitySelf6 */;

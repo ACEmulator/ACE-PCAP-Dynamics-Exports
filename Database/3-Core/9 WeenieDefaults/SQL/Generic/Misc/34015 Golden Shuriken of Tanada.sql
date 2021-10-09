@@ -23,7 +23,7 @@ VALUES (34015,   1, 'Golden Shuriken of Tanada') /* Name */
      , (34015,  16, 'A golden shuriken with an inscription on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34015,   1,   33554752) /* Setup */
-     , (34015,   3,  536870932) /* SoundTable */
-     , (34015,   8,  100689093) /* Icon */
-     , (34015,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34015,   1, 0x02000140) /* Setup */
+     , (34015,   3, 0x20000014) /* SoundTable */
+     , (34015,   8, 0x060064C5) /* Icon */
+     , (34015,  22, 0x3400002B) /* PhysicsEffectTable */;

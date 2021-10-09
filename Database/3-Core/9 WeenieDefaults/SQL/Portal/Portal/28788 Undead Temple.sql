@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28788,   1, 'Undead Temple') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28788,   1,   33555925) /* Setup */
-     , (28788,   2,  150994947) /* MotionTable */
-     , (28788,   8,  100667499) /* Icon */;
+VALUES (28788,   1, 0x020005D5) /* Setup */
+     , (28788,   2, 0x09000003) /* MotionTable */
+     , (28788,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28788, 8040, 1240530969, 86.372, 8.45434, 6.034805, -0.04861658, 0, 0, -0.9988175) /* PCAPRecordedLocation */
+VALUES (28788, 8040, 0x49F10019, 86.372, 8.45434, 6.034805, -0.048617, 0, 0, -0.998818) /* PCAPRecordedLocation */
 /* @teleloc 0x49F10019 [86.372000 8.454340 6.034805] -0.048617 0.000000 0.000000 -0.998818 */;

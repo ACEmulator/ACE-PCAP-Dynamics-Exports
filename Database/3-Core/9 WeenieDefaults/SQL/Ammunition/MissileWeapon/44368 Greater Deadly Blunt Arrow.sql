@@ -57,13 +57,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44368,   1, 'Greater Deadly Blunt Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44368,   1,   33554724) /* Setup */
-     , (44368,   3,  536870932) /* SoundTable */
-     , (44368,   6,   67111919) /* PaletteBase */
-     , (44368,   8,  100672661) /* Icon */
-     , (44368,  22,  872415275) /* PhysicsEffectTable */
-     , (44368,  50,  100689661) /* IconOverlay */;
+VALUES (44368,   1, 0x02000124) /* Setup */
+     , (44368,   3, 0x20000014) /* SoundTable */
+     , (44368,   6, 0x04000BEF) /* PaletteBase */
+     , (44368,   8, 0x06002495) /* Icon */
+     , (44368,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44368,  50, 0x060066FD) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44368, 8040, 306577453, 133.289, 102.1536, 51.4179, -0.3226369, -0.3226369, -0.6292102, -0.6292102) /* PCAPRecordedLocation */
+VALUES (44368, 8040, 0x1246002D, 133.289, 102.1536, 51.4179, -0.322637, -0.322637, -0.62921, -0.62921) /* PCAPRecordedLocation */
 /* @teleloc 0x1246002D [133.289000 102.153600 51.417900] -0.322637 -0.322637 -0.629210 -0.629210 */;

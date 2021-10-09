@@ -52,19 +52,19 @@ VALUES (3855,   1, 'Flaming Shamshir') /* Name */
      , (3855,  16, 'Flaming Shamshir of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3855,   1,   33555771) /* Setup */
-     , (3855,   3,  536870932) /* SoundTable */
-     , (3855,   8,  100667604) /* Icon */
-     , (3855,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3855,   1, 0x0200053B) /* Setup */
+     , (3855,   3, 0x20000014) /* SoundTable */
+     , (3855,   8, 0x060010D4) /* Icon */
+     , (3855,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3855,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3855, 8040, 3332964380, 76.80225, 94.91811, 42.0121, 0.7082336, 0, 0, -0.7059782) /* PCAPRecordedLocation */
+VALUES (3855, 8040, 0xC6A9001C, 76.80225, 94.91811, 42.0121, 0.708234, 0, 0, -0.705978) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.802250 94.918110 42.012100] 0.708234 0.000000 0.000000 -0.705978 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3855,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3855,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3855,  2576,      2)  /* CANTRIPSTRENGTH2 */
+VALUES (3855,  4417,      2)  /* SwiftKillerSelf8 */
      , (3855,  4297,      2)  /* CoordinationSelf8 */
-     , (3855,  4417,      2)  /* SwiftKillerSelf8 */;
+     , (3855,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (3855,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3855,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -50,11 +50,11 @@ VALUES (22444,   1, 'Frost Dirk') /* Name */
      , (22444,  16, 'Frost Dirk of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22444,   1,   33558091) /* Setup */
-     , (22444,   3,  536870932) /* SoundTable */
-     , (22444,   6,   67111919) /* PaletteBase */
-     , (22444,   8,  100673790) /* Icon */
-     , (22444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22444,   1, 0x02000E4B) /* Setup */
+     , (22444,   3, 0x20000014) /* SoundTable */
+     , (22444,   6, 0x04000BEF) /* PaletteBase */
+     , (22444,   8, 0x060028FE) /* Icon */
+     , (22444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22444,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

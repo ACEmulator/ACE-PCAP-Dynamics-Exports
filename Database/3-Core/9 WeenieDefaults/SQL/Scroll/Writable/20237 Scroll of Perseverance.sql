@@ -23,7 +23,7 @@ VALUES (20237,   1, 'Scroll of Perseverance') /* Name */
 Increases the caster''s Endurance by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20237,   1,   33554826) /* Setup */
-     , (20237,   8,  100676456) /* Icon */
-     , (20237,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20237,   1, 0x0200018A) /* Setup */
+     , (20237,   8, 0x06003368) /* Icon */
+     , (20237,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20237,  28,       2061) /* Spell - EnduranceSelf7 */;

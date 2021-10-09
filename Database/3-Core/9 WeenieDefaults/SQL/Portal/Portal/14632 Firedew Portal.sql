@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14632,   1, 'Firedew Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14632,   1,   33554867) /* Setup */
-     , (14632,   2,  150994947) /* MotionTable */
-     , (14632,   8,  100667499) /* Icon */;
+VALUES (14632,   1, 0x020001B3) /* Setup */
+     , (14632,   2, 0x09000003) /* MotionTable */
+     , (14632,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14632, 8040, 2762080282, 76.1138, 44.379, 141.9781, 0.5104378, 0, 0, -0.8599147) /* PCAPRecordedLocation */
+VALUES (14632, 8040, 0xA4A2001A, 76.1138, 44.379, 141.9781, 0.510438, 0, 0, -0.859915) /* PCAPRecordedLocation */
 /* @teleloc 0xA4A2001A [76.113800 44.379000 141.978100] 0.510438 0.000000 0.000000 -0.859915 */;

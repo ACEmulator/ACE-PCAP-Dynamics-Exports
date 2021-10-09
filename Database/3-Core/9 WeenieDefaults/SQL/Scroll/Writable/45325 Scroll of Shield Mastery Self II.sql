@@ -23,7 +23,7 @@ VALUES (45325,   1, 'Scroll of Shield Mastery Self II') /* Name */
 Increases the caster''s Shield skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45325,   1,   33554826) /* Setup */
-     , (45325,   8,  100692252) /* Icon */
-     , (45325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45325,   1, 0x0200018A) /* Setup */
+     , (45325,   8, 0x0600711C) /* Icon */
+     , (45325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45325,  28,       5852) /* Spell - ShieldMasterySelf2 */;

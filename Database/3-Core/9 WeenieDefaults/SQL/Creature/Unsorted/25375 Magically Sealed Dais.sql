@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25375,   1, 'Magically Sealed Dais') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25375,   1,   33555061) /* Setup */
-     , (25375,   2,  150995147) /* MotionTable */
-     , (25375,   3,  536871052) /* SoundTable */
-     , (25375,   8,  100668129) /* Icon */
-     , (25375,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (25375,   1, 0x02000275) /* Setup */
+     , (25375,   2, 0x090000CB) /* MotionTable */
+     , (25375,   3, 0x2000008C) /* SoundTable */
+     , (25375,   8, 0x060012E1) /* Icon */
+     , (25375,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25375, 8040, 1498087782, 13.793, -101.461, 6, 0.706055, 0, 0, 0.708157) /* PCAPRecordedLocation */
+VALUES (25375, 8040, 0x594B0166, 13.793, -101.461, 6, 0.706055, 0, 0, 0.708157) /* PCAPRecordedLocation */
 /* @teleloc 0x594B0166 [13.793000 -101.461000 6.000000] 0.706055 0.000000 0.000000 0.708157 */;

@@ -26,8 +26,8 @@ VALUES (45491,   1, 'Quest Weapon Coin') /* Name */
      , (45491,  20, 'Quest Weapon Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45491,   1,   33560329) /* Setup */
-     , (45491,   3,  536870932) /* SoundTable */
-     , (45491,   8,  100689461) /* Icon */
-     , (45491,  22,  872415275) /* PhysicsEffectTable */
-     , (45491,  50,  100686668) /* IconOverlay */;
+VALUES (45491,   1, 0x02001709) /* Setup */
+     , (45491,   3, 0x20000014) /* SoundTable */
+     , (45491,   8, 0x06006635) /* Icon */
+     , (45491,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45491,  50, 0x06005B4C) /* IconOverlay */;

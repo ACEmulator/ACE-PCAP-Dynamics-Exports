@@ -53,19 +53,19 @@ VALUES (29248,   1, 'Fire Crossbow') /* Name */
      , (29248,  16, 'Fire Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29248,   1,   33559237) /* Setup */
-     , (29248,   3,  536870932) /* SoundTable */
-     , (29248,   6,   67115373) /* PaletteBase */
-     , (29248,   8,  100677446) /* Icon */
-     , (29248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29248,   1, 0x020012C5) /* Setup */
+     , (29248,   3, 0x20000014) /* SoundTable */
+     , (29248,   6, 0x0400196D) /* PaletteBase */
+     , (29248,   8, 0x06003746) /* Icon */
+     , (29248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29248,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29248,  52,  100676441) /* IconUnderlay */;
+     , (29248,  52, 0x06003359) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29248, 8040, 43058115, 208.8249, -13.53723, 17.93, -0.9991872, 0, 0, -0.04031176) /* PCAPRecordedLocation */
+VALUES (29248, 8040, 0x029103C3, 208.8249, -13.53723, 17.93, -0.999187, 0, 0, -0.040312) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C3 [208.824900 -13.537230 17.930000] -0.999187 0.000000 0.000000 -0.040312 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29248,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29248,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
-     , (29248,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (29248,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (29248,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;

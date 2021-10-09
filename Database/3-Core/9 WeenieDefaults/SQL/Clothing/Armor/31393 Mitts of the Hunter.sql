@@ -41,11 +41,11 @@ VALUES (31393,   1, 'Mitts of the Hunter') /* Name */
      , (31393,  15, 'A set of simple dark leather and metal gauntlets. The emblem of the Order of the Raven Hand is embossed on the back of each hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31393,   1,   33559619) /* Setup */
-     , (31393,   3,  536870932) /* SoundTable */
-     , (31393,   6,   67108990) /* PaletteBase */
-     , (31393,   8,  100687969) /* Icon */
-     , (31393,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31393,   1, 0x02001443) /* Setup */
+     , (31393,   3, 0x20000014) /* SoundTable */
+     , (31393,   6, 0x0400007E) /* PaletteBase */
+     , (31393,   8, 0x06006061) /* Icon */
+     , (31393,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31393,   261,      2)  /* ImpregnabilitySelf6 */

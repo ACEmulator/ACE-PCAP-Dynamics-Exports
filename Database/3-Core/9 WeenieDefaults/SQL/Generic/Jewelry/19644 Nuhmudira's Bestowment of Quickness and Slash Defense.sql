@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19644,   1, 'Nuhmudira''s Bestowment of Quickness and Slash Defense') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19644,   1,   33554687) /* Setup */
-     , (19644,   3,  536870932) /* SoundTable */
-     , (19644,   6,   67111919) /* PaletteBase */
-     , (19644,   8,  100672963) /* Icon */
-     , (19644,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19644,   1, 0x020000FF) /* Setup */
+     , (19644,   3, 0x20000014) /* SoundTable */
+     , (19644,   6, 0x04000BEF) /* PaletteBase */
+     , (19644,   8, 0x060025C3) /* Icon */
+     , (19644,  22, 0x3400002B) /* PhysicsEffectTable */;

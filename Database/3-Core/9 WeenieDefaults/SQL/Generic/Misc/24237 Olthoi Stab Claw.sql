@@ -21,7 +21,7 @@ VALUES (24237,   1, 'Olthoi Stab Claw') /* Name */
      , (24237,  15, 'An Olthoi stab claw.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24237,   1,   33556593) /* Setup */
-     , (24237,   3,  536870932) /* SoundTable */
-     , (24237,   8,  100674290) /* Icon */
-     , (24237,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24237,   1, 0x02000871) /* Setup */
+     , (24237,   3, 0x20000014) /* SoundTable */
+     , (24237,   8, 0x06002AF2) /* Icon */
+     , (24237,  22, 0x3400002B) /* PhysicsEffectTable */;

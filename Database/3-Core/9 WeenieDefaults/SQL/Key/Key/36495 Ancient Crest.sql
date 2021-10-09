@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36495,   1, 'Ancient Crest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36495,   1,   33554689) /* Setup */
-     , (36495,   3,  536870932) /* SoundTable */
-     , (36495,   6,   67111919) /* PaletteBase */
-     , (36495,   8,  100670319) /* Icon */
-     , (36495,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36495,   1, 0x02000101) /* Setup */
+     , (36495,   3, 0x20000014) /* SoundTable */
+     , (36495,   6, 0x04000BEF) /* PaletteBase */
+     , (36495,   8, 0x06001B6F) /* Icon */
+     , (36495,  22, 0x3400002B) /* PhysicsEffectTable */;

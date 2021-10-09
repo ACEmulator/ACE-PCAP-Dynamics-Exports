@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22841,   1, 'Crystal Vase with Snowflowers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22841,   1,   33558167) /* Setup */
-     , (22841,   3,  536870932) /* SoundTable */
-     , (22841,   8,  100673929) /* Icon */
-     , (22841,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22841,   1, 0x02000E97) /* Setup */
+     , (22841,   3, 0x20000014) /* SoundTable */
+     , (22841,   8, 0x06002989) /* Icon */
+     , (22841,  22, 0x3400002B) /* PhysicsEffectTable */;

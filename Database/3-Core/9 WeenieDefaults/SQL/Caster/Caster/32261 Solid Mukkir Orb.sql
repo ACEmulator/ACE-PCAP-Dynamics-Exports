@@ -32,15 +32,15 @@ VALUES (32261,   1, 'Solid Mukkir Orb') /* Name */
      , (32261,  16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32261,   1,   33559761) /* Setup */
-     , (32261,   3,  536870932) /* SoundTable */
-     , (32261,   6,   67111919) /* PaletteBase */
-     , (32261,   8,  100688412) /* Icon */
-     , (32261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32261,   1, 0x020014D1) /* Setup */
+     , (32261,   3, 0x20000014) /* SoundTable */
+     , (32261,   6, 0x04000BEF) /* PaletteBase */
+     , (32261,   8, 0x0600621C) /* Icon */
+     , (32261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32261,  28,       3861) /* Spell - CantripTasteForBlood */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32261, 8040, 3465871413, 157.2323, 96.44395, 19.9305, 0.2566817, 0.2566817, -0.6588737, -0.6588737) /* PCAPRecordedLocation */
+VALUES (32261, 8040, 0xCE950035, 157.2323, 96.44395, 19.9305, 0.256682, 0.256682, -0.658874, -0.658874) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [157.232300 96.443950 19.930500] 0.256682 0.256682 -0.658874 -0.658874 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

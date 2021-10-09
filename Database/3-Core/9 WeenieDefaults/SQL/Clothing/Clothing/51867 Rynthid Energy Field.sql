@@ -48,9 +48,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51867,   1, 'Rynthid Energy Field') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51867,   1,   33561386) /* Setup */
-     , (51867,   3,  536870932) /* SoundTable */
-     , (51867,   8,  100693224) /* Icon */
-     , (51867,  22,  872415275) /* PhysicsEffectTable */
-     , (51867,  50,  100690999) /* IconOverlay */
+VALUES (51867,   1, 0x02001B2A) /* Setup */
+     , (51867,   3, 0x20000014) /* SoundTable */
+     , (51867,   8, 0x060074E8) /* Icon */
+     , (51867,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51867,  50, 0x06006C37) /* IconOverlay */
      , (51867,  55,       6151) /* ProcSpell - LightningRingRed */;

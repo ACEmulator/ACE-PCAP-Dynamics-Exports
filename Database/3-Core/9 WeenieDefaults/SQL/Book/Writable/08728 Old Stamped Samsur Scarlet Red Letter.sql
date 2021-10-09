@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8728,   1, 'Old Stamped Samsur Scarlet Red Letter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8728,   1,   33556921) /* Setup */
-     , (8728,   3,  536870932) /* SoundTable */
-     , (8728,   8,  100671216) /* Icon */
-     , (8728,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8728,   1, 0x020009B9) /* Setup */
+     , (8728,   3, 0x20000014) /* SoundTable */
+     , (8728,   8, 0x06001EF0) /* Icon */
+     , (8728,  22, 0x3400002B) /* PhysicsEffectTable */;

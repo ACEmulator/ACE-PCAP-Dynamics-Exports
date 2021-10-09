@@ -21,10 +21,10 @@ VALUES (42819,   1, 'Portal to Arwic') /* Name */
      , (42819,  16, 'This portal goes to Arwic, a walled Aluvian town that has fully recovered from a devastating attack by a Shadow Spire. This is a good town for characters over level 20.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42819,   1,   33555923) /* Setup */
-     , (42819,   2,  150994947) /* MotionTable */
-     , (42819,   8,  100667499) /* Icon */;
+VALUES (42819,   1, 0x020005D3) /* Setup */
+     , (42819,   2, 0x09000003) /* MotionTable */
+     , (42819,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42819, 8040, 459107, 86.8562, -39.9966, -0.06299996, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42819, 8040, 0x00070163, 86.8562, -39.9966, -0.063, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070163 [86.856200 -39.996600 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */;

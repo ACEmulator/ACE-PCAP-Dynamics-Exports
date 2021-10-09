@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14654,   1, 'Norvale Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14654,   1,   33554867) /* Setup */
-     , (14654,   2,  150994947) /* MotionTable */
-     , (14654,   8,  100667499) /* Icon */;
+VALUES (14654,   1, 0x020001B3) /* Setup */
+     , (14654,   2, 0x09000003) /* MotionTable */
+     , (14654,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14654, 8040, 3383230510, 139.585, 129.86, 48.30492, 0.9341602, 0, 0, 0.3568541) /* PCAPRecordedLocation */
+VALUES (14654, 8040, 0xC9A8002E, 139.585, 129.86, 48.30492, 0.93416, 0, 0, 0.356854) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A8002E [139.585000 129.860000 48.304920] 0.934160 0.000000 0.000000 0.356854 */;

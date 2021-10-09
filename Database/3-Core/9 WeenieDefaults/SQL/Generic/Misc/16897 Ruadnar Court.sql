@@ -18,9 +18,9 @@ VALUES (16897,   1, 'Ruadnar Court') /* Name */
      , (16897,  16, 'Ruadnar Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16897,   1,   33557655) /* Setup */
-     , (16897,   8,  100672342) /* Icon */;
+VALUES (16897,   1, 0x02000C97) /* Setup */
+     , (16897,   8, 0x06002356) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16897, 8040, 1415905562, 20.1048, -37.6937, 0, 0.00485005, 0, 0, 0.999988) /* PCAPRecordedLocation */
+VALUES (16897, 8040, 0x5465011A, 20.1048, -37.6937, 0, 0.00485, 0, 0, 0.999988) /* PCAPRecordedLocation */
 /* @teleloc 0x5465011A [20.104800 -37.693700 0.000000] 0.004850 0.000000 0.000000 0.999988 */;

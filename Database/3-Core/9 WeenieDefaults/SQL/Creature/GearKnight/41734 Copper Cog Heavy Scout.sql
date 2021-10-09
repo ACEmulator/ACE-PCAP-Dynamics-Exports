@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41734,   1, 'Copper Cog Heavy Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41734,   1,   33560842) /* Setup */
-     , (41734,   2,  150995368) /* MotionTable */
-     , (41734,   3,  536871123) /* SoundTable */
-     , (41734,   8,  100674350) /* Icon */
-     , (41734,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41734,   1, 0x0200190A) /* Setup */
+     , (41734,   2, 0x090001A8) /* MotionTable */
+     , (41734,   3, 0x200000D3) /* SoundTable */
+     , (41734,   8, 0x06002B2E) /* Icon */
+     , (41734,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41734, 8040, 760217642, 140.5737, 45.21162, 0.00849998, -0.9818294, 0, 0, -0.1897656) /* PCAPRecordedLocation */
+VALUES (41734, 8040, 0x2D50002A, 140.5737, 45.21162, 0.0085, -0.981829, 0, 0, -0.189766) /* PCAPRecordedLocation */
 /* @teleloc 0x2D50002A [140.573700 45.211620 0.008500] -0.981829 0.000000 0.000000 -0.189766 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

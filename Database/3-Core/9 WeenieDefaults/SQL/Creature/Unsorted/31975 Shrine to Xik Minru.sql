@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31975,   1, 'Shrine to Xik Minru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31975,   1,   33558607) /* Setup */
-     , (31975,   2,  150995279) /* MotionTable */
-     , (31975,   3,  536871052) /* SoundTable */
-     , (31975,   8,  100675788) /* Icon */
-     , (31975,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (31975,   1, 0x0200104F) /* Setup */
+     , (31975,   2, 0x0900014F) /* MotionTable */
+     , (31975,   3, 0x2000008C) /* SoundTable */
+     , (31975,   8, 0x060030CC) /* Icon */
+     , (31975,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31975, 8040, 3587833902, 133.271, 130.99, 116, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (31975, 8040, 0xD5DA002E, 133.271, 130.99, 116, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0xD5DA002E [133.271000 130.990000 116.000000] 0.923880 0.000000 0.000000 -0.382683 */;

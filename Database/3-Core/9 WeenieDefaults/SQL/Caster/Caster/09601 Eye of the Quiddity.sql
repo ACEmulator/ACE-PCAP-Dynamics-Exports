@@ -37,17 +37,17 @@ VALUES (9601,   1, 'Eye of the Quiddity') /* Name */
      , (9601,  16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9601,   1,   33557115) /* Setup */
-     , (9601,   3,  536870932) /* SoundTable */
-     , (9601,   8,  100671692) /* Icon */
-     , (9601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9601,   1, 0x02000A7B) /* Setup */
+     , (9601,   3, 0x20000014) /* SoundTable */
+     , (9601,   8, 0x060020CC) /* Icon */
+     , (9601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9601,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9601, 8040, 23855554, 59.0416, -29.78116, -0.071, 0.7022716, 0.7022716, -0.08255093, -0.08255093) /* PCAPRecordedLocation */
+VALUES (9601, 8040, 0x016C01C2, 59.0416, -29.78116, -0.071, 0.702272, 0.702272, -0.082551, -0.082551) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [59.041600 -29.781160 -0.071000] 0.702272 0.702272 -0.082551 -0.082551 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9601,   586,      2)  /* ItemEnchantmentMasterySelf6 */
-     , (9601,   608,      2)  /* LifeMagicMasterySelf4 */
-     , (9601,   658,      2)  /* ManaMasterySelf6 */;
+     , (9601,   658,      2)  /* ManaMasterySelf6 */
+     , (9601,   608,      2)  /* LifeMagicMasterySelf4 */;

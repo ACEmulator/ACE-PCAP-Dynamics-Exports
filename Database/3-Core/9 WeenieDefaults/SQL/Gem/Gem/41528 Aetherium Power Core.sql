@@ -27,7 +27,7 @@ VALUES (41528,   1, 'Aetherium Power Core') /* Name */
      , (41528,  16, 'An Aetherium Power Core,  dropped by the Gear Knights in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41528,   1,   33560864) /* Setup */
-     , (41528,   3,  536870932) /* SoundTable */
-     , (41528,   8,  100690567) /* Icon */
-     , (41528,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41528,   1, 0x02001920) /* Setup */
+     , (41528,   3, 0x20000014) /* SoundTable */
+     , (41528,   8, 0x06006A87) /* Icon */
+     , (41528,  22, 0x3400002B) /* PhysicsEffectTable */;

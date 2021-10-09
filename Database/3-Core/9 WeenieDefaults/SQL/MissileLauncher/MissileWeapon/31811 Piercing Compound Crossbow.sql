@@ -53,16 +53,16 @@ VALUES (31811,   1, 'Piercing Compound Crossbow') /* Name */
      , (31811,  16, 'Piercing Compound Crossbow of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31811,   1,   33559693) /* Setup */
-     , (31811,   3,  536870932) /* SoundTable */
-     , (31811,   6,   67116700) /* PaletteBase */
-     , (31811,   8,  100688061) /* Icon */
-     , (31811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31811,   1, 0x0200148D) /* Setup */
+     , (31811,   3, 0x20000014) /* SoundTable */
+     , (31811,   6, 0x04001E9C) /* PaletteBase */
+     , (31811,   8, 0x060060BD) /* Icon */
+     , (31811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31811,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31811,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (31811,  2061,      2)  /* EnduranceSelf7 */
+     , (31811,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31811,  1627,      2)  /* SwiftKillerSelf6 */
-     , (31811,  2061,      2)  /* EnduranceSelf7 */
-     , (31811,  2101,      2)  /* DefenderSelf7 */
-     , (31811,  2588,      2)  /* CANTRIPDEFENDER2 */;
+     , (31811,  2588,      2)  /* CANTRIPDEFENDER2 */
+     , (31811,  2101,      2)  /* DefenderSelf7 */;

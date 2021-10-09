@@ -35,20 +35,20 @@ VALUES (400,   1, 'Carsith the Weaponsmith') /* Name */
      , (400,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (400,   1,   33554433) /* Setup */
-     , (400,   2,  150994945) /* MotionTable */
-     , (400,   3,  536870913) /* SoundTable */
-     , (400,   6,   67108990) /* PaletteBase */
-     , (400,   8,  100667446) /* Icon */
-     , (400,   9,   83890495) /* EyesTexture */
-     , (400,  10,   83890554) /* NoseTexture */
-     , (400,  11,   83890663) /* MouthTexture */
-     , (400,  15,   67116981) /* HairPalette */
-     , (400,  16,   67110064) /* EyesPalette */
-     , (400,  17,   67109560) /* SkinPalette */;
+VALUES (400,   1, 0x02000001) /* Setup */
+     , (400,   2, 0x09000001) /* MotionTable */
+     , (400,   3, 0x20000001) /* SoundTable */
+     , (400,   6, 0x0400007E) /* PaletteBase */
+     , (400,   8, 0x06001036) /* Icon */
+     , (400,   9, 0x0500113F) /* EyesTexture */
+     , (400,  10, 0x0500117A) /* NoseTexture */
+     , (400,  11, 0x050011E7) /* MouthTexture */
+     , (400,  15, 0x04001FB5) /* HairPalette */
+     , (400,  16, 0x040004B0) /* EyesPalette */
+     , (400,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (400, 8040, 3332964642, 32.0211, 82.9593, 42.005, 0.1269318, 0, 0, -0.9919115) /* PCAPRecordedLocation */
+VALUES (400, 8040, 0xC6A90122, 32.0211, 82.9593, 42.005, 0.126932, 0, 0, -0.991912) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [32.021100 82.959300 42.005000] 0.126932 0.000000 0.000000 -0.991912 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

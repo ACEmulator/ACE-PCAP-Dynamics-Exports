@@ -46,12 +46,12 @@ VALUES (35407,   1, 'Burnja''s Board with Nails') /* Name */
      , (35407,  16, 'A huge burning board with two nails. This mighty board with a nails burns hotter than most boards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35407,   1,   33560302) /* Setup */
-     , (35407,   3,  536870932) /* SoundTable */
-     , (35407,   8,  100689512) /* Icon */
-     , (35407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35407,   1, 0x020016EE) /* Setup */
+     , (35407,   3, 0x20000014) /* SoundTable */
+     , (35407,   8, 0x06006668) /* Icon */
+     , (35407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35407,  55,         27) /* ProcSpell - FlameBolt1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35407,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35407,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (35407,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35407,  2096,      2)  /* BloodDrinkerSelf7 */;

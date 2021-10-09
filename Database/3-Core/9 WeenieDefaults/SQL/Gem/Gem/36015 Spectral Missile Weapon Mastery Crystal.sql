@@ -34,10 +34,10 @@ VALUES (36015,   1, 'Spectral Missile Weapon Mastery Crystal') /* Name */
      , (36015,  20, 'Spectral Missile Weapon Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36015,   1,   33554809) /* Setup */
-     , (36015,   3,  536870932) /* SoundTable */
-     , (36015,   8,  100686697) /* Icon */
-     , (36015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36015,   1, 0x02000179) /* Setup */
+     , (36015,   3, 0x20000014) /* SoundTable */
+     , (36015,   8, 0x06005B69) /* Icon */
+     , (36015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36015,  28,       4133) /* Spell - BowMasterySpectral */
-     , (36015,  50,  100686638) /* IconOverlay */
-     , (36015,  52,  100686604) /* IconUnderlay */;
+     , (36015,  50, 0x06005B2E) /* IconOverlay */
+     , (36015,  52, 0x06005B0C) /* IconUnderlay */;

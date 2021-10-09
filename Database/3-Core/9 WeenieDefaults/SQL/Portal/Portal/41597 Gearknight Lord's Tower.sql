@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41597,   1, 'Gearknight Lord''s Tower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41597,   1,   33556733) /* Setup */
-     , (41597,   2,  150994947) /* MotionTable */
-     , (41597,   8,  100667499) /* Icon */;
+VALUES (41597,   1, 0x020008FD) /* Setup */
+     , (41597,   2, 0x09000003) /* MotionTable */
+     , (41597,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41597, 8040, 2287075369, 131.956, 12.2227, 31.4494, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (41597, 8040, 0x88520029, 131.956, 12.2227, 31.4494, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x88520029 [131.956000 12.222700 31.449400] 0.000000 0.000000 0.000000 -1.000000 */;

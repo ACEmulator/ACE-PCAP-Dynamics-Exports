@@ -32,14 +32,14 @@ VALUES (297,   1, 'Ring') /* Name */
      , (297,  16, 'Ring of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (297,   1,   33554691) /* Setup */
-     , (297,   3,  536870932) /* SoundTable */
-     , (297,   6,   67111919) /* PaletteBase */
-     , (297,   8,  100668671) /* Icon */
-     , (297,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (297,   1, 0x02000103) /* Setup */
+     , (297,   3, 0x20000014) /* SoundTable */
+     , (297,   6, 0x04000BEF) /* PaletteBase */
+     , (297,   8, 0x060014FF) /* Icon */
+     , (297,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (297, 8040, 3060727844, 100.0636, 94.28715, 41.68186, 0.9877784, 0, 0, -0.1558651) /* PCAPRecordedLocation */
+VALUES (297, 8040, 0xB66F0024, 100.0636, 94.28715, 41.68186, 0.987778, 0, 0, -0.155865) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F0024 [100.063600 94.287150 41.681860] 0.987778 0.000000 0.000000 -0.155865 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

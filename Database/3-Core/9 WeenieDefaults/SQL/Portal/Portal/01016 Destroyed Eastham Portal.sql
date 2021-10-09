@@ -20,10 +20,10 @@ VALUES (1016,   1, 'Destroyed Eastham Portal') /* Name */
      , (1016,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1016,   1,   33561060) /* Setup */
-     , (1016,   2,  150995314) /* MotionTable */
-     , (1016,   8,  100667499) /* Icon */;
+VALUES (1016,   1, 0x020019E4) /* Setup */
+     , (1016,   2, 0x09000172) /* MotionTable */
+     , (1016,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1016, 8040, 45809932, 40, -16.7, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1016, 8040, 0x02BB010C, 40, -16.7, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02BB010C [40.000000 -16.700000 -18.209830] 1.000000 0.000000 0.000000 0.000000 */;

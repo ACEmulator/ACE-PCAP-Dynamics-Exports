@@ -63,12 +63,12 @@ VALUES (43956,   1, 'Deadly Prismatic Quarrel') /* Name */
      , (43956,  16, 'Deadly, crystaline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43956,   1,   33561225) /* Setup */
-     , (43956,   3,  536870932) /* SoundTable */
-     , (43956,   6,   67111919) /* PaletteBase */
-     , (43956,   8,  100691917) /* Icon */
-     , (43956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43956,   1, 0x02001A89) /* Setup */
+     , (43956,   3, 0x20000014) /* SoundTable */
+     , (43956,   6, 0x04000BEF) /* PaletteBase */
+     , (43956,   8, 0x06006FCD) /* Icon */
+     , (43956,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43956, 8040, 43058115, 208.8722, -13.69586, 17.929, -0.706532, -0.706532, -0.02850472, -0.02850472) /* PCAPRecordedLocation */
+VALUES (43956, 8040, 0x029103C3, 208.8722, -13.69586, 17.929, -0.706532, -0.706532, -0.028505, -0.028505) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C3 [208.872200 -13.695860 17.929000] -0.706532 -0.706532 -0.028505 -0.028505 */;

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25824,   1, 'Smoldering Brazier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25824,   1,   33558565) /* Setup */
-     , (25824,   2,  150995266) /* MotionTable */
-     , (25824,   3,  536870913) /* SoundTable */
-     , (25824,   8,  100675646) /* Icon */;
+VALUES (25824,   1, 0x02001025) /* Setup */
+     , (25824,   2, 0x09000142) /* MotionTable */
+     , (25824,   3, 0x20000001) /* SoundTable */
+     , (25824,   8, 0x0600303E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25824, 8040, 1682506220, 489.999, -90.0134, -6, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (25824, 8040, 0x644901EC, 489.999, -90.0134, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x644901EC [489.999000 -90.013400 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;

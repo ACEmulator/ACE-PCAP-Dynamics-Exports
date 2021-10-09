@@ -30,12 +30,12 @@ Restricted to characters of allegiance rank 6 or greater.
 ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14937,   1,   33557167) /* Setup */
-     , (14937,   2,  150995128) /* MotionTable */
-     , (14937,   8,  100671884) /* Icon */;
+VALUES (14937,   1, 0x02000AAF) /* Setup */
+     , (14937,   2, 0x090000B8) /* MotionTable */
+     , (14937,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14937, 8040, 1118175267, 96.9039, 53.7365, 80, 0.999891, 0, 0, 0.014732) /* PCAPRecordedLocation */
+VALUES (14937, 8040, 0x42A60023, 96.9039, 53.7365, 80, 0.999891, 0, 0, 0.014732) /* PCAPRecordedLocation */
 /* @teleloc 0x42A60023 [96.903900 53.736500 80.000000] 0.999891 0.000000 0.000000 0.014732 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

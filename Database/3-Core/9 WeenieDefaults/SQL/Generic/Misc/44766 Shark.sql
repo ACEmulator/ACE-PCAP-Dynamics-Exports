@@ -20,5 +20,5 @@ VALUES (44766,   1, 'Shark') /* Name */
      , (44766,  16, 'The Reedshark is a peculiar carnivore, a six-foot-long, hairless doglike creature with two forelegs and a single, strong hind leg. It also sports a fin-like crest on its back: the sight of these fins moving through the swamps is what gave this creature its name. They attack in packs, and fight quickly with claw and fang. They can be found nearly anywhere, except for mountains and waterways. Tumeroks are known to keep them as "guard dogs." ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44766,   1,   33561366) /* Setup */
-     , (44766,   8,  100668115) /* Icon */;
+VALUES (44766,   1, 0x02001B16) /* Setup */
+     , (44766,   8, 0x060012D3) /* Icon */;

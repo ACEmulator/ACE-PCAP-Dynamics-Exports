@@ -13,7 +13,7 @@ VALUES (0x7358F002, 23566, 0x358F003F, 180.2947, 157.1513, 18.09964, 1, 0, 0, 0,
 /* @teleloc 0x358F003F [180.294700 157.151300 18.099640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7358F003, 24958, 0x358F003F, 191.0143, 160.6382, 15.09642, -0.4765916, 0, 0, -0.8791248,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+VALUES (0x7358F003, 24958, 0x358F003F, 191.0143, 160.6382, 15.09642, -0.476592, 0, 0, -0.879125,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
 /* @teleloc 0x358F003F [191.014300 160.638200 15.096420] -0.476592 0.000000 0.000000 -0.879125 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

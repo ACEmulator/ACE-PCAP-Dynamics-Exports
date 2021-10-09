@@ -32,7 +32,7 @@ VALUES (52983,   1, 'Mana Infused Nightbloom') /* Name */
      , (52983,  20, 'Mana Infused Nightblooms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52983,   1,   33560322) /* Setup */
-     , (52983,   3,  536870932) /* SoundTable */
-     , (52983,   8,  100689548) /* Icon */
-     , (52983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52983,   1, 0x02001702) /* Setup */
+     , (52983,   3, 0x20000014) /* SoundTable */
+     , (52983,   8, 0x0600668C) /* Icon */
+     , (52983,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -30,7 +30,7 @@ VALUES (40789,   1, 'Combined Progenitor Crystal') /* Name */
      , (40789,  15, 'An alkalemic Progenitor crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40789,   1,   33559838) /* Setup */
-     , (40789,   3,  536870932) /* SoundTable */
-     , (40789,   8,  100672509) /* Icon */
-     , (40789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40789,   1, 0x0200151E) /* Setup */
+     , (40789,   3, 0x20000014) /* SoundTable */
+     , (40789,   8, 0x060023FD) /* Icon */
+     , (40789,  22, 0x3400002B) /* PhysicsEffectTable */;

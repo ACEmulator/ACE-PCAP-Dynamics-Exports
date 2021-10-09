@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46240,   1, 'Enhanced Dissolving Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46240,   1,   33556367) /* Setup */
-     , (46240,   3,  536870932) /* SoundTable */
-     , (46240,   6,   67111919) /* PaletteBase */
-     , (46240,   8,  100672930) /* Icon */
-     , (46240,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46240,   1, 0x0200078F) /* Setup */
+     , (46240,   3, 0x20000014) /* SoundTable */
+     , (46240,   6, 0x04000BEF) /* PaletteBase */
+     , (46240,   8, 0x060025A2) /* Icon */
+     , (46240,  22, 0x3400002B) /* PhysicsEffectTable */;

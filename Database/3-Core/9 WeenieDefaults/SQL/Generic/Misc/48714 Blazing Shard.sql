@@ -20,8 +20,8 @@ VALUES (48714,   1, 'Blazing Shard') /* Name */
      , (48714,  16, 'A cracked piece of the Blazing Crystal. It feels warm and glows brightly. Bring this to David in Frost Haven.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48714,   1,   33554809) /* Setup */
-     , (48714,   3,  536870932) /* SoundTable */
-     , (48714,   6,   67111919) /* PaletteBase */
-     , (48714,   8,  100692983) /* Icon */
-     , (48714,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48714,   1, 0x02000179) /* Setup */
+     , (48714,   3, 0x20000014) /* SoundTable */
+     , (48714,   6, 0x04000BEF) /* PaletteBase */
+     , (48714,   8, 0x060073F7) /* Icon */
+     , (48714,  22, 0x3400002B) /* PhysicsEffectTable */;

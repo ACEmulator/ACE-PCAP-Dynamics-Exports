@@ -43,14 +43,14 @@ VALUES (129,   1, 'Sandals') /* Name */
      , (129,  16, 'Sandals of Arcane Enlightenment') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (129,   1,   33554654) /* Setup */
-     , (129,   3,  536870932) /* SoundTable */
-     , (129,   6,   67108990) /* PaletteBase */
-     , (129,   8,  100669193) /* Icon */
-     , (129,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (129,   1, 0x020000DE) /* Setup */
+     , (129,   3, 0x20000014) /* SoundTable */
+     , (129,   6, 0x0400007E) /* PaletteBase */
+     , (129,   8, 0x06001709) /* Icon */
+     , (129,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (129,   682,      2)  /* ArcaneEnlightenmentSelf5 */
+VALUES (129,  1539,      2)  /* LightningBane5 */
      , (129,  1485,      2)  /* Impenetrability5 */
-     , (129,  1539,      2)  /* LightningBane5 */
-     , (129,  1551,      2)  /* FlameBane5 */;
+     , (129,  1551,      2)  /* FlameBane5 */
+     , (129,   682,      2)  /* ArcaneEnlightenmentSelf5 */;

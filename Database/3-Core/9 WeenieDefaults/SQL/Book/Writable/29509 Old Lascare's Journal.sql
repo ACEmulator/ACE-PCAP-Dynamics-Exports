@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29509,   1, 'Old Lascare''s Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29509,   1,   33554772) /* Setup */
-     , (29509,   3,  536870932) /* SoundTable */
-     , (29509,   8,  100668117) /* Icon */
-     , (29509,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29509,   1, 0x02000154) /* Setup */
+     , (29509,   3, 0x20000014) /* SoundTable */
+     , (29509,   8, 0x060012D5) /* Icon */
+     , (29509,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29509, 8040, 988610816, 39.461, 58.1709, 88.06344, 0.3648781, 0, 0, -0.9310553) /* PCAPRecordedLocation */
+VALUES (29509, 8040, 0x3AED0100, 39.461, 58.1709, 88.06344, 0.364878, 0, 0, -0.931055) /* PCAPRecordedLocation */
 /* @teleloc 0x3AED0100 [39.461000 58.170900 88.063440] 0.364878 0.000000 0.000000 -0.931055 */;

@@ -25,7 +25,7 @@ VALUES (46454,   1, 'Society Gem of Lesser Luminance') /* Name */
      , (46454,  20, 'Society Gems of Lesser Luminance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46454,   1,   33554809) /* Setup */
-     , (46454,   3,  536870932) /* SoundTable */
-     , (46454,   8,  100692118) /* Icon */
-     , (46454,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46454,   1, 0x02000179) /* Setup */
+     , (46454,   3, 0x20000014) /* SoundTable */
+     , (46454,   8, 0x06007096) /* Icon */
+     , (46454,  22, 0x3400002B) /* PhysicsEffectTable */;

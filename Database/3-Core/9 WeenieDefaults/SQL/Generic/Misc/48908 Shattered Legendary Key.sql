@@ -27,7 +27,7 @@ VALUES (48908,   1, 'Shattered Legendary Key') /* Name */
      , (48908,  16, 'A severely damaged and cracked Legendary Key') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48908,   1,   33554784) /* Setup */
-     , (48908,   3,  536870932) /* SoundTable */
-     , (48908,   8,  100693002) /* Icon */
-     , (48908,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48908,   1, 0x02000160) /* Setup */
+     , (48908,   3, 0x20000014) /* SoundTable */
+     , (48908,   8, 0x0600740A) /* Icon */
+     , (48908,  22, 0x3400002B) /* PhysicsEffectTable */;

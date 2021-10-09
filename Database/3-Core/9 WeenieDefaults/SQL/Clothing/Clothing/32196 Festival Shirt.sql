@@ -33,8 +33,8 @@ VALUES (32196,   1, 'Festival Shirt') /* Name */
      , (32196,  16, 'A shirt celebrating the Festival Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32196,   1,   33554883) /* Setup */
-     , (32196,   3,  536870932) /* SoundTable */
-     , (32196,   6,   67108990) /* PaletteBase */
-     , (32196,   8,  100667379) /* Icon */
-     , (32196,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32196,   1, 0x020001C3) /* Setup */
+     , (32196,   3, 0x20000014) /* SoundTable */
+     , (32196,   6, 0x0400007E) /* PaletteBase */
+     , (32196,   8, 0x06000FF3) /* Icon */
+     , (32196,  22, 0x3400002B) /* PhysicsEffectTable */;

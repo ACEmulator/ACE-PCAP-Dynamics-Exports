@@ -31,20 +31,20 @@ VALUES (38388,   1, 'Kirina of the Celestial Hand') /* Name */
      , (38388,   5, 'Society Recruiter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38388,   1,   33554510) /* Setup */
-     , (38388,   2,  150994945) /* MotionTable */
-     , (38388,   3,  536870914) /* SoundTable */
-     , (38388,   6,   67108990) /* PaletteBase */
-     , (38388,   8,  100667377) /* Icon */
-     , (38388,   9,   83890281) /* EyesTexture */
-     , (38388,  10,   83890285) /* NoseTexture */
-     , (38388,  11,   83890321) /* MouthTexture */
-     , (38388,  15,   67117020) /* HairPalette */
-     , (38388,  16,   67110062) /* EyesPalette */
-     , (38388,  17,   67110056) /* SkinPalette */;
+VALUES (38388,   1, 0x0200004E) /* Setup */
+     , (38388,   2, 0x09000001) /* MotionTable */
+     , (38388,   3, 0x20000002) /* SoundTable */
+     , (38388,   6, 0x0400007E) /* PaletteBase */
+     , (38388,   8, 0x06000FF1) /* Icon */
+     , (38388,   9, 0x05001069) /* EyesTexture */
+     , (38388,  10, 0x0500106D) /* NoseTexture */
+     , (38388,  11, 0x05001091) /* MouthTexture */
+     , (38388,  15, 0x04001FDC) /* HairPalette */
+     , (38388,  16, 0x040004AE) /* EyesPalette */
+     , (38388,  17, 0x040004A8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38388, 8040, 3880583231, 188.138, 159.424, 32.005, 0.98698, 0, 0, -0.160845) /* PCAPRecordedLocation */
+VALUES (38388, 8040, 0xE74D003F, 188.138, 159.424, 32.005, 0.98698, 0, 0, -0.160845) /* PCAPRecordedLocation */
 /* @teleloc 0xE74D003F [188.138000 159.424000 32.005000] 0.986980 0.000000 0.000000 -0.160845 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

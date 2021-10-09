@@ -36,20 +36,20 @@ VALUES (38689,   1, 'Raenholm the Archmage') /* Name */
      , (38689,   5, 'Society Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38689,   1,   33554433) /* Setup */
-     , (38689,   2,  150994945) /* MotionTable */
-     , (38689,   3,  536870913) /* SoundTable */
-     , (38689,   6,   67108990) /* PaletteBase */
-     , (38689,   8,  100667446) /* Icon */
-     , (38689,   9,   83890516) /* EyesTexture */
-     , (38689,  10,   83890562) /* NoseTexture */
-     , (38689,  11,   83890659) /* MouthTexture */
-     , (38689,  15,   67117080) /* HairPalette */
-     , (38689,  16,   67110065) /* EyesPalette */
-     , (38689,  17,   67109562) /* SkinPalette */;
+VALUES (38689,   1, 0x02000001) /* Setup */
+     , (38689,   2, 0x09000001) /* MotionTable */
+     , (38689,   3, 0x20000001) /* SoundTable */
+     , (38689,   6, 0x0400007E) /* PaletteBase */
+     , (38689,   8, 0x06001036) /* Icon */
+     , (38689,   9, 0x05001154) /* EyesTexture */
+     , (38689,  10, 0x05001182) /* NoseTexture */
+     , (38689,  11, 0x050011E3) /* MouthTexture */
+     , (38689,  15, 0x04002018) /* HairPalette */
+     , (38689,  16, 0x040004B1) /* EyesPalette */
+     , (38689,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38689, 8040, 12059242, 136.725, -26.6064, -17.995, 0.4155786, 0, 0, -0.9095573) /* PCAPRecordedLocation */
+VALUES (38689, 8040, 0x00B8026A, 136.725, -26.6064, -17.995, 0.415579, 0, 0, -0.909557) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026A [136.725000 -26.606400 -17.995000] 0.415579 0.000000 0.000000 -0.909557 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

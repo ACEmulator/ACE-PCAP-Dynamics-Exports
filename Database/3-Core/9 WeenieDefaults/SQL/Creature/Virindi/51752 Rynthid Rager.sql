@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51752,   1, 'Rynthid Rager') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51752,   1,   33561562) /* Setup */
-     , (51752,   2,  150995487) /* MotionTable */
-     , (51752,   3,  536870930) /* SoundTable */
-     , (51752,   6,   67111346) /* PaletteBase */
-     , (51752,   8,  100667943) /* Icon */
-     , (51752,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51752,   1, 0x02001BDA) /* Setup */
+     , (51752,   2, 0x0900021F) /* MotionTable */
+     , (51752,   3, 0x20000012) /* SoundTable */
+     , (51752,   6, 0x040009B2) /* PaletteBase */
+     , (51752,   8, 0x06001227) /* Icon */
+     , (51752,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51752, 8040, 1498679242, 270, -160, 0.02899998, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51752, 8040, 0x595407CA, 270, -160, 0.029, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x595407CA [270.000000 -160.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

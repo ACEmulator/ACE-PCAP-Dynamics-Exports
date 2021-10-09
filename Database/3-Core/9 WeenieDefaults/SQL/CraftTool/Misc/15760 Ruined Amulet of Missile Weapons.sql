@@ -30,8 +30,8 @@ VALUES (15760,   1, 'Ruined Amulet of Missile Weapons') /* Name */
      , (15760,  16, 'An Amulet crafted in pyreal that bears the symbol of missile weapons. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15760,   1,   33554680) /* Setup */
-     , (15760,   3,  536870932) /* SoundTable */
-     , (15760,   6,   67111919) /* PaletteBase */
-     , (15760,   8,  100672807) /* Icon */
-     , (15760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15760,   1, 0x020000F8) /* Setup */
+     , (15760,   3, 0x20000014) /* SoundTable */
+     , (15760,   6, 0x04000BEF) /* PaletteBase */
+     , (15760,   8, 0x06002527) /* Icon */
+     , (15760,  22, 0x3400002B) /* PhysicsEffectTable */;

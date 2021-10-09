@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13191,   1, 'West Holtburg Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13191,   1,   33557463) /* Setup */
-     , (13191,   8,  100668115) /* Icon */;
+VALUES (13191,   1, 0x02000BD7) /* Setup */
+     , (13191,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13191, 8040, 2998468637, 81.6697, 99.2173, 121.221, -0.677431, 0, 0, 0.735586) /* PCAPRecordedLocation */
+VALUES (13191, 8040, 0xB2B9001D, 81.6697, 99.2173, 121.221, -0.677431, 0, 0, 0.735586) /* PCAPRecordedLocation */
 /* @teleloc 0xB2B9001D [81.669700 99.217300 121.221000] -0.677431 0.000000 0.000000 0.735586 */;

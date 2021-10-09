@@ -19,5 +19,5 @@ VALUES (44737,   1, 'Ghost') /* Name */
      , (44737,  16, 'Ghosts are a form of Undead. But unlike the Undead, Mu-Miyah, and Skeletons, ghosts have no corporal form. Their bodies have long since crumbled away, leaving only a powerful spirit behind. Other ghosts are the tortured souls of Empyreans that now haunt the place where they died. Wherever one finds death on a massive scale in the history of Empyreans, from the volcanic island of Aerfalle to the doomed Dericost house of Mhoire, one will often encounter ghosts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44737,   1,   33561337) /* Setup */
-     , (44737,   8,  100668115) /* Icon */;
+VALUES (44737,   1, 0x02001AF9) /* Setup */
+     , (44737,   8, 0x060012D3) /* Icon */;

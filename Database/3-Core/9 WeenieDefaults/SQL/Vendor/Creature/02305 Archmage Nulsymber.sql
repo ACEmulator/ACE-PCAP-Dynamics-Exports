@@ -34,20 +34,20 @@ VALUES (2305,   1, 'Archmage Nulsymber') /* Name */
      , (2305,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2305,   1,   33554433) /* Setup */
-     , (2305,   2,  150994945) /* MotionTable */
-     , (2305,   3,  536870913) /* SoundTable */
-     , (2305,   6,   67108990) /* PaletteBase */
-     , (2305,   8,  100667446) /* Icon */
-     , (2305,   9,   83890485) /* EyesTexture */
-     , (2305,  10,   83890554) /* NoseTexture */
-     , (2305,  11,   83890628) /* MouthTexture */
-     , (2305,  15,   67116988) /* HairPalette */
-     , (2305,  16,   67110064) /* EyesPalette */
-     , (2305,  17,   67109561) /* SkinPalette */;
+VALUES (2305,   1, 0x02000001) /* Setup */
+     , (2305,   2, 0x09000001) /* MotionTable */
+     , (2305,   3, 0x20000001) /* SoundTable */
+     , (2305,   6, 0x0400007E) /* PaletteBase */
+     , (2305,   8, 0x06001036) /* Icon */
+     , (2305,   9, 0x05001135) /* EyesTexture */
+     , (2305,  10, 0x0500117A) /* NoseTexture */
+     , (2305,  11, 0x050011C4) /* MouthTexture */
+     , (2305,  15, 0x04001FBC) /* HairPalette */
+     , (2305,  16, 0x040004B0) /* EyesPalette */
+     , (2305,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2305, 8040, 3381395496, 107.834, 179.356, 25.005, -0.9235119, 0, 0, -0.3835699) /* PCAPRecordedLocation */
+VALUES (2305, 8040, 0xC98C0028, 107.834, 179.356, 25.005, -0.923512, 0, 0, -0.38357) /* PCAPRecordedLocation */
 /* @teleloc 0xC98C0028 [107.834000 179.356000 25.005000] -0.923512 0.000000 0.000000 -0.383570 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

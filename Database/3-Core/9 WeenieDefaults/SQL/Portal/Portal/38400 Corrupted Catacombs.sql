@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38400,   1, 'Corrupted Catacombs') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38400,   1,   33560216) /* Setup */
-     , (38400,   2,  150995314) /* MotionTable */
-     , (38400,   8,  100667499) /* Icon */;
+VALUES (38400,   1, 0x02001698) /* Setup */
+     , (38400,   2, 0x09000172) /* MotionTable */
+     , (38400,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38400, 8040, 3277914117, 10.4474, 97.1284, 5.79017, 0.9996162, 0, 0, -0.0277019) /* PCAPRecordedLocation */
+VALUES (38400, 8040, 0xC3610005, 10.4474, 97.1284, 5.79017, 0.999616, 0, 0, -0.027702) /* PCAPRecordedLocation */
 /* @teleloc 0xC3610005 [10.447400 97.128400 5.790170] 0.999616 0.000000 0.000000 -0.027702 */;

@@ -35,15 +35,15 @@ VALUES (37477,   1, 'Hurnmel the Smith') /* Name */
      , (37477,   5, 'Ghostly Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37477,   1,   33554433) /* Setup */
-     , (37477,   2,  150994945) /* MotionTable */
-     , (37477,   3,  536870913) /* SoundTable */
-     , (37477,   6,   67108990) /* PaletteBase */
-     , (37477,   8,  100667446) /* Icon */
+VALUES (37477,   1, 0x02000001) /* Setup */
+     , (37477,   2, 0x09000001) /* MotionTable */
+     , (37477,   3, 0x20000001) /* SoundTable */
+     , (37477,   6, 0x0400007E) /* PaletteBase */
+     , (37477,   8, 0x06001036) /* Icon */
      , (37477,  57,      37492) /* AlternateCurrency - Spectral Ingot */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37477, 8040, 15335737, 120.753, -59.8032, -77.994, 0.7094972, 0, 0, -0.7047082) /* PCAPRecordedLocation */
+VALUES (37477, 8040, 0x00EA0139, 120.753, -59.8032, -77.994, 0.709497, 0, 0, -0.704708) /* PCAPRecordedLocation */
 /* @teleloc 0x00EA0139 [120.753000 -59.803200 -77.994000] 0.709497 0.000000 0.000000 -0.704708 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

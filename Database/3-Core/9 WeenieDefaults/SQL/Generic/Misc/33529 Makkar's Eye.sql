@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33529,   1, 'Makkar''s Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33529,   1,   33558802) /* Setup */
-     , (33529,   3,  536870932) /* SoundTable */
-     , (33529,   8,  100689049) /* Icon */
-     , (33529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33529,   1, 0x02001112) /* Setup */
+     , (33529,   3, 0x20000014) /* SoundTable */
+     , (33529,   8, 0x06006499) /* Icon */
+     , (33529,  22, 0x3400002B) /* PhysicsEffectTable */;

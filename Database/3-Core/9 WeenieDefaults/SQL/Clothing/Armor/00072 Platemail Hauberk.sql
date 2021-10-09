@@ -43,11 +43,11 @@ VALUES (72,   1, 'Platemail Hauberk') /* Name */
      , (72,  16, 'Exquisitely crafted Gold Platemail Hauberk , set with 1 Rose Quartz') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (72,   1,   33554644) /* Setup */
-     , (72,   3,  536870932) /* SoundTable */
-     , (72,   6,   67108990) /* PaletteBase */
-     , (72,   8,  100668150) /* Icon */
-     , (72,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (72,   1, 0x020000D4) /* Setup */
+     , (72,   3, 0x20000014) /* SoundTable */
+     , (72,   6, 0x0400007E) /* PaletteBase */
+     , (72,   8, 0x060012F6) /* Icon */
+     , (72,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (72,  1482,      2)  /* Impenetrability2 */;

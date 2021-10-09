@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2391,   1, 'Abandoned Arena') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2391,   1,   33554867) /* Setup */
-     , (2391,   2,  150994947) /* MotionTable */
-     , (2391,   8,  100667499) /* Icon */;
+VALUES (2391,   1, 0x020001B3) /* Setup */
+     , (2391,   2, 0x09000003) /* MotionTable */
+     , (2391,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2391, 8040, 2926641171, 60, 65, 21.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2391, 8040, 0xAE710013, 60, 65, 21.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xAE710013 [60.000000 65.000000 21.937000] 1.000000 0.000000 0.000000 0.000000 */;

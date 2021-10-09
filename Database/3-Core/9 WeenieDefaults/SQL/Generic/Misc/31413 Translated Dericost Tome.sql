@@ -22,7 +22,7 @@ VALUES (31413,   1, 'Translated Dericost Tome') /* Name */
      , (31413,  16, 'A sealed translation of an Unreadable Dericost Tome written by Kuyiza bint Zayi of Zaikhal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31413,   1,   33559593) /* Setup */
-     , (31413,   3,  536870932) /* SoundTable */
-     , (31413,   8,  100688124) /* Icon */
-     , (31413,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31413,   1, 0x02001429) /* Setup */
+     , (31413,   3, 0x20000014) /* SoundTable */
+     , (31413,   8, 0x060060FC) /* Icon */
+     , (31413,  22, 0x3400002B) /* PhysicsEffectTable */;

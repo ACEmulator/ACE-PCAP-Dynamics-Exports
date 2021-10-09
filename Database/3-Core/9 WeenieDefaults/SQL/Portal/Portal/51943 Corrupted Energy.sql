@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51943,   1, 'Corrupted Energy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51943,   1,   33557527) /* Setup */
-     , (51943,   8,  100667499) /* Icon */;
+VALUES (51943,   1, 0x02000C17) /* Setup */
+     , (51943,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51943, 8040, 1498546803, 241.2101, -251.4337, -0.03779995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51943, 8040, 0x59520273, 241.2101, -251.4337, -0.0378, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59520273 [241.210100 -251.433700 -0.037800] 1.000000 0.000000 0.000000 0.000000 */;

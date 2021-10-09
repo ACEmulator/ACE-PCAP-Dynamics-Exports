@@ -34,20 +34,20 @@ VALUES (979,   1, 'Healer Burah bint Fathlan') /* Name */
      , (979,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (979,   1,   33554510) /* Setup */
-     , (979,   2,  150994945) /* MotionTable */
-     , (979,   3,  536870914) /* SoundTable */
-     , (979,   6,   67108990) /* PaletteBase */
-     , (979,   8,  100667446) /* Icon */
-     , (979,   9,   83890259) /* EyesTexture */
-     , (979,  10,   83890304) /* NoseTexture */
-     , (979,  11,   83890337) /* MouthTexture */
-     , (979,  15,   67116996) /* HairPalette */
-     , (979,  16,   67110062) /* EyesPalette */
-     , (979,  17,   67109557) /* SkinPalette */;
+VALUES (979,   1, 0x0200004E) /* Setup */
+     , (979,   2, 0x09000001) /* MotionTable */
+     , (979,   3, 0x20000002) /* SoundTable */
+     , (979,   6, 0x0400007E) /* PaletteBase */
+     , (979,   8, 0x06001036) /* Icon */
+     , (979,   9, 0x05001053) /* EyesTexture */
+     , (979,  10, 0x05001080) /* NoseTexture */
+     , (979,  11, 0x050010A1) /* MouthTexture */
+     , (979,  15, 0x04001FC4) /* HairPalette */
+     , (979,  16, 0x040004AE) /* EyesPalette */
+     , (979,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (979, 8040, 2541420800, 151.2, 175.2, 0.004999995, 0.7163022, 0, 0, -0.6977902) /* PCAPRecordedLocation */
+VALUES (979, 8040, 0x977B0100, 151.2, 175.2, 0.005, 0.716302, 0, 0, -0.69779) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0100 [151.200000 175.200000 0.005000] 0.716302 0.000000 0.000000 -0.697790 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

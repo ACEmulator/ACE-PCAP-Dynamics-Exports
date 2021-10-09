@@ -61,20 +61,20 @@ Legendary BT - 10 time colo champ') /* Inscription */
      , (45404,  40, 'Priapus') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45404,   1,   33559905) /* Setup */
-     , (45404,   3,  536870932) /* SoundTable */
-     , (45404,   6,   67111919) /* PaletteBase */
-     , (45404,   8,  100688904) /* Icon */
-     , (45404,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45404,   1, 0x02001561) /* Setup */
+     , (45404,   3, 0x20000014) /* SoundTable */
+     , (45404,   6, 0x04000BEF) /* PaletteBase */
+     , (45404,   8, 0x06006408) /* Icon */
+     , (45404,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45404,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45404,  50,  100689143) /* IconOverlay */
-     , (45404,  52,  100676441) /* IconUnderlay */;
+     , (45404,  50, 0x060064F7) /* IconOverlay */
+     , (45404,  52, 0x06003359) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45404, 8040, 19202340, 29.51579, -41.1522, 5.929, 0.7066391, 0.7066391, -0.02571542, -0.02571542) /* PCAPRecordedLocation */
+VALUES (45404, 8040, 0x01250124, 29.51579, -41.1522, 5.929, 0.706639, 0.706639, -0.025715, -0.025715) /* PCAPRecordedLocation */
 /* @teleloc 0x01250124 [29.515790 -41.152200 5.929000] 0.706639 0.706639 -0.025715 -0.025715 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45404,  2059,      2)  /* CoordinationSelf7 */
-     , (45404,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45404,  6089,      2)  /* CantripBloodThirst4 */;
+VALUES (45404,  6089,      2)  /* CantripBloodThirst4 */
+     , (45404,  2059,      2)  /* CoordinationSelf7 */
+     , (45404,  2096,      2)  /* BloodDrinkerSelf7 */;

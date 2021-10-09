@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27866,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27866,   1,   33558786) /* Setup */
-     , (27866,   3,  536870932) /* SoundTable */
-     , (27866,   8,  100676578) /* Icon */
-     , (27866,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27866,   1, 0x02001102) /* Setup */
+     , (27866,   3, 0x20000014) /* SoundTable */
+     , (27866,   8, 0x060033E2) /* Icon */
+     , (27866,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27866, 8040, 927596565, 65.29752, 98.56284, -0.391655, 0.4545195, 0.4545195, -0.5416752, -0.5416752) /* PCAPRecordedLocation */
+VALUES (27866, 8040, 0x374A0015, 65.29752, 98.56284, -0.391655, 0.45452, 0.45452, -0.541675, -0.541675) /* PCAPRecordedLocation */
 /* @teleloc 0x374A0015 [65.297520 98.562840 -0.391655] 0.454520 0.454520 -0.541675 -0.541675 */;

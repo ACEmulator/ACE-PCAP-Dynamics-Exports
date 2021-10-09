@@ -23,7 +23,7 @@ VALUES (2890,   1, 'Scroll of Drain Health Other II') /* Name */
 Drains 25% of the target''s Health and gives 160% of it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2890,   1,   33554826) /* Setup */
-     , (2890,   8,  100676934) /* Icon */
-     , (2890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2890,   1, 0x0200018A) /* Setup */
+     , (2890,   8, 0x06003546) /* Icon */
+     , (2890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2890,  28,       1238) /* Spell - DrainHealth2 */;

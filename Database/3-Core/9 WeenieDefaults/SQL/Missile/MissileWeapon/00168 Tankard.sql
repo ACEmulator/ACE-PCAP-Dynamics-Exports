@@ -47,11 +47,11 @@ VALUES (168,   1, 'Tankard') /* Name */
      , (168,  16, 'Tankard of Item Tinkering') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (168,   1,   33554664) /* Setup */
-     , (168,   3,  536871012) /* SoundTable */
-     , (168,   6,   67111919) /* PaletteBase */
-     , (168,   8,  100668765) /* Icon */
-     , (168,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (168,   1, 0x020000E8) /* Setup */
+     , (168,   3, 0x20000064) /* SoundTable */
+     , (168,   6, 0x04000BEF) /* PaletteBase */
+     , (168,   8, 0x0600155D) /* Icon */
+     , (168,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (168,   731,      2)  /* ItemExpertiseSelf6 */;

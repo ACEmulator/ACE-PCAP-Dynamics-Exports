@@ -23,7 +23,7 @@ VALUES (46879,   1, 'Aura of Blood Drinker Other VII') /* Name */
 Increases a weapon''s damage value by 22 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46879,   1,   33554826) /* Setup */
-     , (46879,   8,  100676655) /* Icon */
-     , (46879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46879,   1, 0x0200018A) /* Setup */
+     , (46879,   8, 0x0600342F) /* Icon */
+     , (46879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46879,  28,       5996) /* Spell - BloodDrinkerOther7 */;

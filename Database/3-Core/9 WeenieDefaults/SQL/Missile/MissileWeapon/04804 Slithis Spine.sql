@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4804,   1, 'Slithis Spine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4804,   1,   33556900) /* Setup */
-     , (4804,   3,  536870932) /* SoundTable */
-     , (4804,   8,  100671205) /* Icon */
-     , (4804,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4804,   1, 0x020009A4) /* Setup */
+     , (4804,   3, 0x20000014) /* SoundTable */
+     , (4804,   8, 0x06001EE5) /* Icon */
+     , (4804,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4804, 8040, 4095213602, 119.52, 28.2778, 159.532, 0.4012963, 0, 0, -0.9159483) /* PCAPRecordedLocation */
+VALUES (4804, 8040, 0xF4180022, 119.52, 28.2778, 159.532, 0.401296, 0, 0, -0.915948) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180022 [119.520000 28.277800 159.532000] 0.401296 0.000000 0.000000 -0.915948 */;

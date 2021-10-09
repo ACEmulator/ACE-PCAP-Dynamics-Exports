@@ -41,11 +41,11 @@ VALUES (14916,   1, 'Simple Flower Bouquet') /* Name */
      , (14916,  16, 'A small floral arrangement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14916,   1,   33557616) /* Setup */
-     , (14916,   3,  536871012) /* SoundTable */
-     , (14916,   8,  100672709) /* Icon */
-     , (14916,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14916,   1, 0x02000C70) /* Setup */
+     , (14916,   3, 0x20000064) /* SoundTable */
+     , (14916,   8, 0x060024C5) /* Icon */
+     , (14916,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14916, 8040, 3349348610, 161.0094, 152.3836, 37.929, 0.7025414, 0.7025414, 0.08022194, 0.08022194) /* PCAPRecordedLocation */
+VALUES (14916, 8040, 0xC7A30102, 161.0094, 152.3836, 37.929, 0.702541, 0.702541, 0.080222, 0.080222) /* PCAPRecordedLocation */
 /* @teleloc 0xC7A30102 [161.009400 152.383600 37.929000] 0.702541 0.702541 0.080222 0.080222 */;

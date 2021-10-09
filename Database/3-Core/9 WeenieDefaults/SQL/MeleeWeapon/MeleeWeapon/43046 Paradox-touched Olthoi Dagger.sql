@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43046,   1, 'Paradox-touched Olthoi Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43046,   1,   33561083) /* Setup */
-     , (43046,   3,  536870932) /* SoundTable */
-     , (43046,   8,  100691350) /* Icon */
-     , (43046,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43046,   1, 0x020019FB) /* Setup */
+     , (43046,   3, 0x20000014) /* SoundTable */
+     , (43046,   8, 0x06006D96) /* Icon */
+     , (43046,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43046, 8040, 3300197243, 28.03468, 149.0208, 216.3287, -0.08815284, -0.08815284, 0.7015904, 0.7015904) /* PCAPRecordedLocation */
+VALUES (43046, 8040, 0xC4B5037B, 28.03468, 149.0208, 216.3287, -0.088153, -0.088153, 0.70159, 0.70159) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B5037B [28.034680 149.020800 216.328700] -0.088153 -0.088153 0.701590 0.701590 */;

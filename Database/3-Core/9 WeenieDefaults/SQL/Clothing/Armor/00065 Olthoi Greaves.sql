@@ -34,8 +34,8 @@ VALUES (65,   1, 'Olthoi Greaves') /* Name */
      , (65,   8, 'Spqr') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (65,   1,   33554641) /* Setup */
-     , (65,   3,  536870932) /* SoundTable */
-     , (65,   6,   67108990) /* PaletteBase */
-     , (65,   8,  100674553) /* Icon */
-     , (65,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (65,   1, 0x020000D1) /* Setup */
+     , (65,   3, 0x20000014) /* SoundTable */
+     , (65,   6, 0x0400007E) /* PaletteBase */
+     , (65,   8, 0x06002BF9) /* Icon */
+     , (65,  22, 0x3400002B) /* PhysicsEffectTable */;

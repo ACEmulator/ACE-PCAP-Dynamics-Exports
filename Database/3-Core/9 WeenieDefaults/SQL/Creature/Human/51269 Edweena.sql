@@ -31,20 +31,20 @@ VALUES (51269,   1, 'Edweena') /* Name */
      , (51269,   5, 'Mana Siphon Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51269,   1,   33554510) /* Setup */
-     , (51269,   2,  150994945) /* MotionTable */
-     , (51269,   3,  536870913) /* SoundTable */
-     , (51269,   6,   67108990) /* PaletteBase */
-     , (51269,   8,  100667377) /* Icon */
-     , (51269,   9,   83890275) /* EyesTexture */
-     , (51269,  10,   83890313) /* NoseTexture */
-     , (51269,  11,   83890327) /* MouthTexture */
-     , (51269,  15,   67116988) /* HairPalette */
-     , (51269,  16,   67109565) /* EyesPalette */
-     , (51269,  17,   67109560) /* SkinPalette */;
+VALUES (51269,   1, 0x0200004E) /* Setup */
+     , (51269,   2, 0x09000001) /* MotionTable */
+     , (51269,   3, 0x20000001) /* SoundTable */
+     , (51269,   6, 0x0400007E) /* PaletteBase */
+     , (51269,   8, 0x06000FF1) /* Icon */
+     , (51269,   9, 0x05001063) /* EyesTexture */
+     , (51269,  10, 0x05001089) /* NoseTexture */
+     , (51269,  11, 0x05001097) /* MouthTexture */
+     , (51269,  15, 0x04001FBC) /* HairPalette */
+     , (51269,  16, 0x040002BD) /* EyesPalette */
+     , (51269,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51269, 8040, 11993709, 153.941, -42.1224, -17.995, 0.15746, 0, 0, -0.987525) /* PCAPRecordedLocation */
+VALUES (51269, 8040, 0x00B7026D, 153.941, -42.1224, -17.995, 0.15746, 0, 0, -0.987525) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026D [153.941000 -42.122400 -17.995000] 0.157460 0.000000 0.000000 -0.987525 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

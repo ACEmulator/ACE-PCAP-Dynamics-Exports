@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28639,   1, 'Voracious Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28639,   1,   33559121) /* Setup */
-     , (28639,   2,  150995322) /* MotionTable */
-     , (28639,   3,  536871097) /* SoundTable */
-     , (28639,   6,   67115387) /* PaletteBase */
-     , (28639,   8,  100677365) /* Icon */
-     , (28639,  22,  872415409) /* PhysicsEffectTable */;
+VALUES (28639,   1, 0x02001251) /* Setup */
+     , (28639,   2, 0x0900017A) /* MotionTable */
+     , (28639,   3, 0x200000B9) /* SoundTable */
+     , (28639,   6, 0x0400197B) /* PaletteBase */
+     , (28639,   8, 0x060036F5) /* Icon */
+     , (28639,  22, 0x340000B1) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28639, 8040, 1190264846, 38.05931, 142.7824, 52, 0.9998111, 0, 0, -0.01943968) /* PCAPRecordedLocation */
+VALUES (28639, 8040, 0x46F2000E, 38.05931, 142.7824, 52, 0.999811, 0, 0, -0.01944) /* PCAPRecordedLocation */
 /* @teleloc 0x46F2000E [38.059310 142.782400 52.000000] 0.999811 0.000000 0.000000 -0.019440 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

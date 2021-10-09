@@ -19,9 +19,9 @@ VALUES (25519,   1, 'Writ of Refuge Text') /* Name */
      , (25519,  20, 'Writs of Refuge Text') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25519,   1,   33559084) /* Setup */
-     , (25519,   3,  536870932) /* SoundTable */
-     , (25519,   6,   67112626) /* PaletteBase */
-     , (25519,   8,  100668117) /* Icon */
-     , (25519,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25519,   1, 0x0200122C) /* Setup */
+     , (25519,   3, 0x20000014) /* SoundTable */
+     , (25519,   6, 0x04000EB2) /* PaletteBase */
+     , (25519,   8, 0x060012D5) /* Icon */
+     , (25519,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25519, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

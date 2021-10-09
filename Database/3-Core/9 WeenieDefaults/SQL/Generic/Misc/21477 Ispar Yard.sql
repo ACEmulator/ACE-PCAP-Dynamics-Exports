@@ -18,9 +18,9 @@ VALUES (21477,   1, 'Ispar Yard') /* Name */
      , (21477,  16, 'Ispar Yard') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21477,   1,   33557906) /* Setup */
-     , (21477,   8,  100667499) /* Icon */;
+VALUES (21477,   1, 0x02000D92) /* Setup */
+     , (21477,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21477, 8040, 1448477052, 80.065, -22.843, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (21477, 8040, 0x5656017C, 80.065, -22.843, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5656017C [80.065000 -22.843000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

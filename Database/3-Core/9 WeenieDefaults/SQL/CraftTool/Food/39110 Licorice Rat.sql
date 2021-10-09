@@ -35,9 +35,9 @@ VALUES (39110,   1, 'Licorice Rat') /* Name */
      , (39110,  16, 'A festival treat. A little rat shaped licorice candy. It jumps and squeaks like the real thing! But it''s much safer to eat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39110,   1,   33554493) /* Setup */
-     , (39110,   2,  150995421) /* MotionTable */
-     , (39110,   3,  536870932) /* SoundTable */
-     , (39110,   8,  100689670) /* Icon */
-     , (39110,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39110,   1, 0x0200003D) /* Setup */
+     , (39110,   2, 0x090001DD) /* MotionTable */
+     , (39110,   3, 0x20000014) /* SoundTable */
+     , (39110,   8, 0x06006706) /* Icon */
+     , (39110,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39110,  28,       4211) /* Spell - LicoriceLeap */;

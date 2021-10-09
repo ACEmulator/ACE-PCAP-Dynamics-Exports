@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52296,   1, 'Unknown') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52296,   1,   33556094) /* Setup */
-     , (52296,   8,  100671324) /* Icon */;
+VALUES (52296,   1, 0x0200067E) /* Setup */
+     , (52296,   8, 0x06001F5C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52296, 8040, 758186039, 160.04, 153.961, 132.5, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52296, 8040, 0x2D310037, 160.04, 153.961, 132.5, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310037 [160.040000 153.961000 132.500000] 1.000000 0.000000 0.000000 0.000000 */;

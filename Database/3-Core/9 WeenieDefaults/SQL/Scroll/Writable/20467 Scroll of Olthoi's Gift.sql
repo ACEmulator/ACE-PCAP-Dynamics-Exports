@@ -23,7 +23,7 @@ VALUES (20467,   1, 'Scroll of Olthoi''s Gift') /* Name */
 Increases damage the target takes from acid by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20467,   1,   33554826) /* Setup */
-     , (20467,   8,  100676951) /* Icon */
-     , (20467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20467,   1, 0x0200018A) /* Setup */
+     , (20467,   8, 0x06003557) /* Icon */
+     , (20467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20467,  28,       2162) /* Spell - AcidVulnerabilityOther7 */;

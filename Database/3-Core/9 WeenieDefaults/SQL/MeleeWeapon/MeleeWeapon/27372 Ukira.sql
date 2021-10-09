@@ -40,7 +40,7 @@ VALUES (27372,   1, 'Ukira') /* Name */
      , (27372,  16, 'A beautifully carved sword. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27372,   1,   33558666) /* Setup */
-     , (27372,   3,  536870932) /* SoundTable */
-     , (27372,   8,  100676349) /* Icon */
-     , (27372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27372,   1, 0x0200108A) /* Setup */
+     , (27372,   3, 0x20000014) /* SoundTable */
+     , (27372,   8, 0x060032FD) /* Icon */
+     , (27372,  22, 0x3400002B) /* PhysicsEffectTable */;

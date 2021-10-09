@@ -38,8 +38,8 @@ VALUES (14913,   1, 'Invitation Wedding Hall') /* Name */
      , (14913,  16, 'A wedding invitation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14913,   1,   33557625) /* Setup */
-     , (14913,   3,  536870932) /* SoundTable */
-     , (14913,   8,  100672736) /* Icon */
-     , (14913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14913,   1, 0x02000C79) /* Setup */
+     , (14913,   3, 0x20000014) /* SoundTable */
+     , (14913,   8, 0x060024E0) /* Icon */
+     , (14913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14913,  28,        157) /* Spell - SummonPortal1 */;

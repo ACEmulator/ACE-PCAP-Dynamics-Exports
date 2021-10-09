@@ -23,7 +23,7 @@ VALUES (38648,   1, 'Lens of the Filinuvekta') /* Name */
      , (38648,  16, 'The three pieces of the ancient artifact, the Lens of the Filinuvekta.  It would be of great interest to your Society''s Inspector of Adepts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38648,   1,   33554817) /* Setup */
-     , (38648,   3,  536870932) /* SoundTable */
-     , (38648,   8,  100690204) /* Icon */
-     , (38648,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38648,   1, 0x02000181) /* Setup */
+     , (38648,   3, 0x20000014) /* SoundTable */
+     , (38648,   8, 0x0600691C) /* Icon */
+     , (38648,  22, 0x3400002B) /* PhysicsEffectTable */;

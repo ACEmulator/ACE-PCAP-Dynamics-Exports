@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1257,   1, 'Mosswart Overchief') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1257,   1,   33557327) /* Setup */
-     , (1257,   2,  150994953) /* MotionTable */
-     , (1257,   3,  536870959) /* SoundTable */
-     , (1257,   6,   67113400) /* PaletteBase */
-     , (1257,   8,  100667449) /* Icon */
-     , (1257,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (1257,   1, 0x02000B4F) /* Setup */
+     , (1257,   2, 0x09000009) /* MotionTable */
+     , (1257,   3, 0x2000002F) /* SoundTable */
+     , (1257,   6, 0x040011B8) /* PaletteBase */
+     , (1257,   8, 0x06001039) /* Icon */
+     , (1257,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1257, 8040, 31785222, 79.7506, -63.7556, -29.99285, 0.02334099, 0, 0, -0.9997275) /* PCAPRecordedLocation */
+VALUES (1257, 8040, 0x01E50106, 79.7506, -63.7556, -29.99285, 0.023341, 0, 0, -0.999728) /* PCAPRecordedLocation */
 /* @teleloc 0x01E50106 [79.750600 -63.755600 -29.992850] 0.023341 0.000000 0.000000 -0.999728 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

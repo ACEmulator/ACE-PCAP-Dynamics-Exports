@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45514,   1, 'Black Skull of Xikma Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45514,   1,   33556769) /* Setup */
-     , (45514,   3,  536870932) /* SoundTable */
-     , (45514,   6,   67111919) /* PaletteBase */
-     , (45514,   8,  100673039) /* Icon */
-     , (45514,  22,  872415275) /* PhysicsEffectTable */
-     , (45514,  50,  100689143) /* IconOverlay */;
+VALUES (45514,   1, 0x02000921) /* Setup */
+     , (45514,   3, 0x20000014) /* SoundTable */
+     , (45514,   6, 0x04000BEF) /* PaletteBase */
+     , (45514,   8, 0x0600260F) /* Icon */
+     , (45514,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45514,  50, 0x060064F7) /* IconOverlay */;

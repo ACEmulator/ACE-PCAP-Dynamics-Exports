@@ -27,13 +27,13 @@ VALUES (31663,   1, 'Ssavashka the Devoted') /* Name */
      , (31663,   5, 'Servant of Adhorix') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31663,   1,   33555608) /* Setup */
-     , (31663,   2,  150995048) /* MotionTable */
-     , (31663,   3,  536870977) /* SoundTable */
-     , (31663,   8,  100669120) /* Icon */;
+VALUES (31663,   1, 0x02000498) /* Setup */
+     , (31663,   2, 0x09000068) /* MotionTable */
+     , (31663,   3, 0x20000041) /* SoundTable */
+     , (31663,   8, 0x060016C0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31663, 8040, 1162477832, 45.271, 1.06282, 5.2, 0.911454, 0, 0, -0.411401) /* PCAPRecordedLocation */
+VALUES (31663, 8040, 0x454A0108, 45.271, 1.06282, 5.2, 0.911454, 0, 0, -0.411401) /* PCAPRecordedLocation */
 /* @teleloc 0x454A0108 [45.271000 1.062820 5.200000] 0.911454 0.000000 0.000000 -0.411401 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

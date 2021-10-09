@@ -34,11 +34,11 @@ VALUES (46715,   1, 'Rock') /* Name */
      , (46715,  16, 'A spectral skull with sockets so dark they seem to be emptier than a mere lack of light can explain. The Spectral Skull is empowered to enchant a single weapon against Skeletons. This effect is permanent, but fragile, and therefore cannot be applied to any weapon previously empowered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46715,   1,   33555863) /* Setup */
-     , (46715,   3,  536871003) /* SoundTable */
-     , (46715,   8,  100667500) /* Icon */
-     , (46715,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46715,   1, 0x02000597) /* Setup */
+     , (46715,   3, 0x2000005B) /* SoundTable */
+     , (46715,   8, 0x0600106C) /* Icon */
+     , (46715,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46715, 8040, 1499529473, 12.66899, -18.13046, -0.17, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (46715, 8040, 0x59610101, 12.66899, -18.13046, -0.17, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610101 [12.668990 -18.130460 -0.170000] 0.707107 0.707107 0.000000 0.000000 */;

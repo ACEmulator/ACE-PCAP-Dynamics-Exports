@@ -40,19 +40,19 @@ VALUES (23890,   1, 'Assault Orb') /* Name */
      , (23890,  16, 'A reward for defeating the leaders of the Falcon Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23890,   1,   33558211) /* Setup */
-     , (23890,   3,  536870932) /* SoundTable */
-     , (23890,   6,   67111919) /* PaletteBase */
-     , (23890,   8,  100671741) /* Icon */
-     , (23890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23890,   1, 0x02000EC3) /* Setup */
+     , (23890,   3, 0x20000014) /* SoundTable */
+     , (23890,   6, 0x04000BEF) /* PaletteBase */
+     , (23890,   8, 0x060020FD) /* Icon */
+     , (23890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23890,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23890, 8040, 2399928332, 48.50957, 101.8459, 5.929, -0.7069204, -0.7069204, 0.01623157, 0.01623157) /* PCAPRecordedLocation */
+VALUES (23890, 8040, 0x8F0C000C, 48.50957, 101.8459, 5.929, -0.70692, -0.70692, 0.016232, 0.016232) /* PCAPRecordedLocation */
 /* @teleloc 0x8F0C000C [48.509570 101.845900 5.929000] -0.706920 -0.706920 0.016232 0.016232 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23890,   215,      2)  /* ManaRenewalSelf4 */
-     , (23890,   656,      2)  /* ManaMasterySelf4 */
+VALUES (23890,   656,      2)  /* ManaMasterySelf4 */
      , (23890,  1425,      2)  /* FocusSelf5 */
+     , (23890,   215,      2)  /* ManaRenewalSelf4 */
      , (23890,  2013,      2)  /* WizardsGreaterIntellect */;

@@ -34,20 +34,20 @@ VALUES (702,   1, 'Shopkeep Mirinda') /* Name */
      , (702,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (702,   1,   33554510) /* Setup */
-     , (702,   2,  150994945) /* MotionTable */
-     , (702,   3,  536870914) /* SoundTable */
-     , (702,   6,   67108990) /* PaletteBase */
-     , (702,   8,  100667446) /* Icon */
-     , (702,   9,   83890276) /* EyesTexture */
-     , (702,  10,   83890295) /* NoseTexture */
-     , (702,  11,   83890326) /* MouthTexture */
-     , (702,  15,   67117025) /* HairPalette */
-     , (702,  16,   67109566) /* EyesPalette */
-     , (702,  17,   67109562) /* SkinPalette */;
+VALUES (702,   1, 0x0200004E) /* Setup */
+     , (702,   2, 0x09000001) /* MotionTable */
+     , (702,   3, 0x20000002) /* SoundTable */
+     , (702,   6, 0x0400007E) /* PaletteBase */
+     , (702,   8, 0x06001036) /* Icon */
+     , (702,   9, 0x05001064) /* EyesTexture */
+     , (702,  10, 0x05001077) /* NoseTexture */
+     , (702,  11, 0x05001096) /* MouthTexture */
+     , (702,  15, 0x04001FE1) /* HairPalette */
+     , (702,  16, 0x040002BE) /* EyesPalette */
+     , (702,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (702, 8040, 3332964679, 41.3214, 30.3128, 42.005, 0.6733691, 0, 0, -0.7393065) /* PCAPRecordedLocation */
+VALUES (702, 8040, 0xC6A90147, 41.3214, 30.3128, 42.005, 0.673369, 0, 0, -0.739307) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90147 [41.321400 30.312800 42.005000] 0.673369 0.000000 0.000000 -0.739307 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

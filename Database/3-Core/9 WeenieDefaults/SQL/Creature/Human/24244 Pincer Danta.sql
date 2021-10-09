@@ -29,20 +29,20 @@ VALUES (24244,   1, 'Pincer Danta') /* Name */
      , (24244,   5, 'Olthoi Fighter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24244,   1,   33554510) /* Setup */
-     , (24244,   2,  150994945) /* MotionTable */
-     , (24244,   3,  536870914) /* SoundTable */
-     , (24244,   6,   67108990) /* PaletteBase */
-     , (24244,   8,  100667446) /* Icon */
-     , (24244,   9,   83890242) /* EyesTexture */
-     , (24244,  10,   83890301) /* NoseTexture */
-     , (24244,  11,   83890321) /* MouthTexture */
-     , (24244,  15,   67117001) /* HairPalette */
-     , (24244,  16,   67110063) /* EyesPalette */
-     , (24244,  17,   67110047) /* SkinPalette */;
+VALUES (24244,   1, 0x0200004E) /* Setup */
+     , (24244,   2, 0x09000001) /* MotionTable */
+     , (24244,   3, 0x20000002) /* SoundTable */
+     , (24244,   6, 0x0400007E) /* PaletteBase */
+     , (24244,   8, 0x06001036) /* Icon */
+     , (24244,   9, 0x05001042) /* EyesTexture */
+     , (24244,  10, 0x0500107D) /* NoseTexture */
+     , (24244,  11, 0x05001091) /* MouthTexture */
+     , (24244,  15, 0x04001FC9) /* HairPalette */
+     , (24244,  16, 0x040004AF) /* EyesPalette */
+     , (24244,  17, 0x0400049F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24244, 8040, 1581647021, 83.1191, -10.1764, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24244, 8040, 0x5E4604AD, 83.1191, -10.1764, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4604AD [83.119100 -10.176400 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

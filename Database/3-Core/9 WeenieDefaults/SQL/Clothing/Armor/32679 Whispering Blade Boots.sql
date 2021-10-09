@@ -41,12 +41,12 @@ VALUES (32679,   1, 'Whispering Blade Boots') /* Name */
      , (32679,  16, 'Well-crafted armored boots, known to be worn by members of the mysterious Whispering Blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32679,   1,   33559834) /* Setup */
-     , (32679,   3,  536870932) /* SoundTable */
-     , (32679,   8,  100688591) /* Icon */
-     , (32679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32679,   1, 0x0200151A) /* Setup */
+     , (32679,   3, 0x20000014) /* SoundTable */
+     , (32679,   8, 0x060062CF) /* Icon */
+     , (32679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32679,  1402,      2)  /* QuicknessSelf6 */
-     , (32679,  2108,      2)  /* Impenetrability7 */
-     , (32679,  2662,      2)  /* ModerateQuickness */;
+VALUES (32679,  2662,      2)  /* ModerateQuickness */
+     , (32679,  1402,      2)  /* QuicknessSelf6 */
+     , (32679,  2108,      2)  /* Impenetrability7 */;

@@ -23,7 +23,7 @@ VALUES (36907,   1, 'Pitiful Pine Tree') /* Name */
      , (36907,  16, 'A pitiful twig of a tree with a single ornament too large for it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36907,   1,   33560421) /* Setup */
-     , (36907,   3,  536870932) /* SoundTable */
-     , (36907,   8,  100689739) /* Icon */
-     , (36907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36907,   1, 0x02001765) /* Setup */
+     , (36907,   3, 0x20000014) /* SoundTable */
+     , (36907,   8, 0x0600674B) /* Icon */
+     , (36907,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30255,   1, 'Grand Casino Golden Keyring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30255,   1,   33557005) /* Setup */
-     , (30255,   3,  536870932) /* SoundTable */
-     , (30255,   8,  100686707) /* Icon */
-     , (30255,  22,  872415275) /* PhysicsEffectTable */
-     , (30255,  52,  100686604) /* IconUnderlay */;
+VALUES (30255,   1, 0x02000A0D) /* Setup */
+     , (30255,   3, 0x20000014) /* SoundTable */
+     , (30255,   8, 0x06005B73) /* Icon */
+     , (30255,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30255,  52, 0x06005B0C) /* IconUnderlay */;

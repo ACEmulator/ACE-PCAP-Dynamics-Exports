@@ -25,7 +25,7 @@ VALUES (22619,   1, 'Chocolate Covered Nanners') /* Name */
      , (22619,  15, 'A chocolate covered fruity treat on a stick!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22619,   1,   33555968) /* Setup */
-     , (22619,   3,  536870932) /* SoundTable */
-     , (22619,   8,  100673810) /* Icon */
-     , (22619,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22619,   1, 0x02000600) /* Setup */
+     , (22619,   3, 0x20000014) /* SoundTable */
+     , (22619,   8, 0x06002912) /* Icon */
+     , (22619,  22, 0x3400002B) /* PhysicsEffectTable */;

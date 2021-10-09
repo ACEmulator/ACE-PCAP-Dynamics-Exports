@@ -52,11 +52,11 @@ VALUES (45105,   1, 'Lightning Rapier') /* Name */
      , (45105,  16, 'Lightning Rapier of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45105,   1,   33561417) /* Setup */
-     , (45105,   3,  536870932) /* SoundTable */
-     , (45105,   6,   67111919) /* PaletteBase */
-     , (45105,   8,  100670663) /* Icon */
-     , (45105,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45105,   1, 0x02001B49) /* Setup */
+     , (45105,   3, 0x20000014) /* SoundTable */
+     , (45105,   6, 0x04000BEF) /* PaletteBase */
+     , (45105,   8, 0x06001CC7) /* Icon */
+     , (45105,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45105,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

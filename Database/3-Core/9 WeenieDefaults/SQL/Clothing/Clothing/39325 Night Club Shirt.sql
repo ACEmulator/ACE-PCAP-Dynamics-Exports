@@ -33,7 +33,7 @@ VALUES (39325,   1, 'Night Club Shirt') /* Name */
      , (39325,  16, 'A limited-edition shirt made available in the Night Club dungeon for the 9th anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39325,   1,   33554883) /* Setup */
-     , (39325,   3,  536870932) /* SoundTable */
-     , (39325,   8,  100690302) /* Icon */
-     , (39325,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39325,   1, 0x020001C3) /* Setup */
+     , (39325,   3, 0x20000014) /* SoundTable */
+     , (39325,   8, 0x0600697E) /* Icon */
+     , (39325,  22, 0x3400002B) /* PhysicsEffectTable */;

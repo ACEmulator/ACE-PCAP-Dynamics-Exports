@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46426,   1, 'Ronin Hirachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46426,   1,   33561485) /* Setup */
-     , (46426,   2,  150995455) /* MotionTable */
-     , (46426,   3,  536870942) /* SoundTable */
-     , (46426,   8,  100669124) /* Icon */
-     , (46426,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (46426,   1, 0x02001B8D) /* Setup */
+     , (46426,   2, 0x090001FF) /* MotionTable */
+     , (46426,   3, 0x2000001E) /* SoundTable */
+     , (46426,   8, 0x060016C4) /* Icon */
+     , (46426,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46426, 8040, 1467023787, 90, 0, -35.992, -0.004204, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (46426, 8040, 0x577101AB, 90, 0, -35.992, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x577101AB [90.000000 0.000000 -35.992000] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -24,7 +24,7 @@ VALUES (36064,   1, 'Shadowy Virindi Essence') /* Name */
      , (36064,  16, 'In the heart of this gem, you perceive the image of Claude, archmage of Ayan Baqur. As you watch the image, it shifts in colors.  Suddenly it goes completely dark, as if swallowed by shadow. The image does not return, but you perceive a silhouette of a Virindi still present.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36064,   1,   33556769) /* Setup */
-     , (36064,   3,  536870932) /* SoundTable */
-     , (36064,   8,  100689641) /* Icon */
-     , (36064,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36064,   1, 0x02000921) /* Setup */
+     , (36064,   3, 0x20000014) /* SoundTable */
+     , (36064,   8, 0x060066E9) /* Icon */
+     , (36064,  22, 0x3400002B) /* PhysicsEffectTable */;

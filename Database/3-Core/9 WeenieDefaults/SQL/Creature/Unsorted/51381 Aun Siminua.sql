@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51381,   1, 'Aun Siminua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51381,   1,   33557175) /* Setup */
-     , (51381,   2,  150995136) /* MotionTable */
-     , (51381,   3,  536870931) /* SoundTable */
-     , (51381,   6,   67113280) /* PaletteBase */
-     , (51381,   8,  100671756) /* Icon */;
+VALUES (51381,   1, 0x02000AB7) /* Setup */
+     , (51381,   2, 0x090000C0) /* MotionTable */
+     , (51381,   3, 0x20000013) /* SoundTable */
+     , (51381,   6, 0x04001140) /* PaletteBase */
+     , (51381,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51381, 8040, 1483735302, 10, -50, -11.995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (51381, 8040, 0x58700106, 10, -50, -11.995, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x58700106 [10.000000 -50.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

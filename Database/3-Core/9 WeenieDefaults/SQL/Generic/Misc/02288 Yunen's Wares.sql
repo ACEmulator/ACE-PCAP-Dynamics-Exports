@@ -18,9 +18,9 @@ VALUES (2288,   1, 'Yunen''s Wares') /* Name */
      , (2288,  16, 'Yunen''s Wares') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2288,   1,   33555594) /* Setup */
-     , (2288,   8,  100668115) /* Icon */;
+VALUES (2288,   1, 0x0200048A) /* Setup */
+     , (2288,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2288, 8040, 3378184222, 78.0511, 128.835, 13.8909, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (2288, 8040, 0xC95B001E, 78.0511, 128.835, 13.8909, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B001E [78.051100 128.835000 13.890900] -0.707107 0.000000 0.000000 -0.707107 */;

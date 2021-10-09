@@ -30,20 +30,20 @@ VALUES (43406,   1, 'Lord Tyragar') /* Name */
      , (43406,   5, 'Seer of the Haebraen') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43406,   1,   33561110) /* Setup */
-     , (43406,   2,  150995463) /* MotionTable */
-     , (43406,   3,  536870913) /* SoundTable */
-     , (43406,   6,   67108990) /* PaletteBase */
-     , (43406,   8,  100667446) /* Icon */
-     , (43406,   9,   83890516) /* EyesTexture */
-     , (43406,  10,   83890549) /* NoseTexture */
-     , (43406,  11,   83890636) /* MouthTexture */
-     , (43406,  15,   67117101) /* HairPalette */
-     , (43406,  16,   67116856) /* EyesPalette */
-     , (43406,  17,   67109562) /* SkinPalette */;
+VALUES (43406,   1, 0x02001A16) /* Setup */
+     , (43406,   2, 0x09000207) /* MotionTable */
+     , (43406,   3, 0x20000001) /* SoundTable */
+     , (43406,   6, 0x0400007E) /* PaletteBase */
+     , (43406,   8, 0x06001036) /* Icon */
+     , (43406,   9, 0x05001154) /* EyesTexture */
+     , (43406,  10, 0x05001175) /* NoseTexture */
+     , (43406,  11, 0x050011CC) /* MouthTexture */
+     , (43406,  15, 0x0400202D) /* HairPalette */
+     , (43406,  16, 0x04001F38) /* EyesPalette */
+     , (43406,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43406, 8040, 669777950, 72.8985, 142.767, 80.006, 0.06659868, 0, 0, -0.9977798) /* PCAPRecordedLocation */
+VALUES (43406, 8040, 0x27EC001E, 72.8985, 142.767, 80.006, 0.066599, 0, 0, -0.99778) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC001E [72.898500 142.767000 80.006000] 0.066599 0.000000 0.000000 -0.997780 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

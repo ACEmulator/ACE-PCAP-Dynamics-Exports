@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43031,   1, 'Lord of Menilesh''s Engraved Chest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43031,   1,   33558394) /* Setup */
-     , (43031,   2,  150994948) /* MotionTable */
-     , (43031,   3,  536870945) /* SoundTable */
-     , (43031,   8,  100676682) /* Icon */
-     , (43031,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43031,   1, 0x02000F7A) /* Setup */
+     , (43031,   2, 0x09000004) /* MotionTable */
+     , (43031,   3, 0x20000021) /* SoundTable */
+     , (43031,   8, 0x0600344A) /* Icon */
+     , (43031,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43031, 8040, 15139461, 80.0221, -84.1441, 48, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (43031, 8040, 0x00E70285, 80.0221, -84.1441, 48, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00E70285 [80.022100 -84.144100 48.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

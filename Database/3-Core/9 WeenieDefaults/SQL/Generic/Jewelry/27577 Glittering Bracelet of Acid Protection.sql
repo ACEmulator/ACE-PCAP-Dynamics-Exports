@@ -33,12 +33,12 @@ VALUES (27577,   1, 'Glittering Bracelet of Acid Protection') /* Name */
      , (27577,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Worker quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27577,   1,   33554683) /* Setup */
-     , (27577,   3,  536870932) /* SoundTable */
-     , (27577,   6,   67111919) /* PaletteBase */
-     , (27577,   8,  100668622) /* Icon */
-     , (27577,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27577,   1, 0x020000FB) /* Setup */
+     , (27577,   3, 0x20000014) /* SoundTable */
+     , (27577,   6, 0x04000BEF) /* PaletteBase */
+     , (27577,   8, 0x060014CE) /* Icon */
+     , (27577,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27577,   241,      2)  /* InvulnerabilityOther3 */
-     , (27577,   512,      2)  /* AcidProtectionOther4 */;
+VALUES (27577,   512,      2)  /* AcidProtectionOther4 */
+     , (27577,   241,      2)  /* InvulnerabilityOther3 */;

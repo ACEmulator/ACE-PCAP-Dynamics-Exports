@@ -46,20 +46,20 @@ VALUES (37112,   1, 'Empowered Greaves of the Perfect Light') /* Name */
      , (37112,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37112,   1,   33554641) /* Setup */
-     , (37112,   3,  536870932) /* SoundTable */
-     , (37112,   8,  100689818) /* Icon */
-     , (37112,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37112,   1, 0x020000D1) /* Setup */
+     , (37112,   3, 0x20000014) /* SoundTable */
+     , (37112,   8, 0x0600679A) /* Icon */
+     , (37112,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37112,  2350,      2)  /* DecayDurance */
+VALUES (37112,  2960,      2)  /* BludgeoningDurance */
+     , (37112,  2961,      2)  /* PiercingDurance */
+     , (37112,  2962,      2)  /* SlashingDurance */
+     , (37112,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (37112,  4060,      2)  /* QuicknessOtherIncantation */
+     , (37112,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (37112,  2350,      2)  /* DecayDurance */
      , (37112,  2351,      2)  /* ConsumptionDurance */
      , (37112,  2352,      2)  /* StasisDurance */
      , (37112,  2353,      2)  /* StimulationDurance */
-     , (37112,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
-     , (37112,  2582,      2)  /* CANTRIPQUICKNESS1 */
-     , (37112,  2960,      2)  /* BludgeoningDurance */
-     , (37112,  2961,      2)  /* PiercingDurance */
-     , (37112,  2962,      2)  /* SlashingDurance */
-     , (37112,  4060,      2)  /* QuicknessOtherIncantation */
-     , (37112,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (37112,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */;

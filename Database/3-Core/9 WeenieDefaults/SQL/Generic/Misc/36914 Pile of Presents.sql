@@ -23,7 +23,7 @@ VALUES (36914,   1, 'Pile of Presents') /* Name */
      , (36914,  16, 'A pile of present boxes. All glued shut to preserve the mystery.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36914,   1,   33560425) /* Setup */
-     , (36914,   3,  536870932) /* SoundTable */
-     , (36914,   8,  100689755) /* Icon */
-     , (36914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36914,   1, 0x02001769) /* Setup */
+     , (36914,   3, 0x20000014) /* SoundTable */
+     , (36914,   8, 0x0600675B) /* Icon */
+     , (36914,  22, 0x3400002B) /* PhysicsEffectTable */;

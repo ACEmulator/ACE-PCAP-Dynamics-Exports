@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x6797;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76797001,  1154, 0x6797002C, 129.0348, 73.71158, 17.11097, -0.7653823, 0, 0, -0.6435759, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x76797001,  1154, 0x6797002C, 129.0348, 73.71158, 17.11097, -0.765382, 0, 0, -0.643576, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x6797002C [129.034800 73.711580 17.110970] -0.765382 0.000000 0.000000 -0.643576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,7 +9,7 @@ VALUES (0x76797001, 0x76797002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (23
      , (0x76797001, 0x76797003, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76797002,   230, 0x6797002C, 129.0348, 73.71158, 17.11097, -0.7653823, 0, 0, -0.6435759,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
+VALUES (0x76797002,   230, 0x6797002C, 129.0348, 73.71158, 17.11097, -0.765382, 0, 0, -0.643576,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
 /* @teleloc 0x6797002C [129.034800 73.711580 17.110970] -0.765382 0.000000 0.000000 -0.643576 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

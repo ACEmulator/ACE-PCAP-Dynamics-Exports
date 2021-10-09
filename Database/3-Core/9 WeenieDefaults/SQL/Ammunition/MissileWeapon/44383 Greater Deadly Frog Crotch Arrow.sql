@@ -57,13 +57,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44383,   1, 'Greater Deadly Frog Crotch Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44383,   1,   33554724) /* Setup */
-     , (44383,   3,  536870932) /* SoundTable */
-     , (44383,   6,   67111919) /* PaletteBase */
-     , (44383,   8,  100672664) /* Icon */
-     , (44383,  22,  872415275) /* PhysicsEffectTable */
-     , (44383,  50,  100689661) /* IconOverlay */;
+VALUES (44383,   1, 0x02000124) /* Setup */
+     , (44383,   3, 0x20000014) /* SoundTable */
+     , (44383,   6, 0x04000BEF) /* PaletteBase */
+     , (44383,   8, 0x06002498) /* Icon */
+     , (44383,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44383,  50, 0x060066FD) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44383, 8040, 306577664, 133.5078, 68.4295, 46.729, -0.7027069, -0.7027069, -0.07875901, -0.07875901) /* PCAPRecordedLocation */
+VALUES (44383, 8040, 0x12460100, 133.5078, 68.4295, 46.729, -0.702707, -0.702707, -0.078759, -0.078759) /* PCAPRecordedLocation */
 /* @teleloc 0x12460100 [133.507800 68.429500 46.729000] -0.702707 -0.702707 -0.078759 -0.078759 */;

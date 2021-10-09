@@ -39,8 +39,8 @@ VALUES (6032,   1, 'Ancient Pyreal Dagger') /* Name */
      , (6032,  16, 'A dagger of Empyrean manufacture, incredibly ancient but well-preserved.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6032,   1,   33554744) /* Setup */
-     , (6032,   3,  536870932) /* SoundTable */
-     , (6032,   6,   67111919) /* PaletteBase */
-     , (6032,   8,  100668936) /* Icon */
-     , (6032,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6032,   1, 0x02000138) /* Setup */
+     , (6032,   3, 0x20000014) /* SoundTable */
+     , (6032,   6, 0x04000BEF) /* PaletteBase */
+     , (6032,   8, 0x06001608) /* Icon */
+     , (6032,  22, 0x3400002B) /* PhysicsEffectTable */;

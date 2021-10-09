@@ -30,10 +30,10 @@ VALUES (7300,   1, 'Dansha-Ki''s Ring') /* Name */
      , (7300,  16, 'This is a finely crafted fire opal ring handed down to Dansha-Ki by her father.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7300,   1,   33554691) /* Setup */
-     , (7300,   3,  536870932) /* SoundTable */
-     , (7300,   8,  100670726) /* Icon */
-     , (7300,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7300,   1, 0x02000103) /* Setup */
+     , (7300,   3, 0x20000014) /* SoundTable */
+     , (7300,   8, 0x06001D06) /* Icon */
+     , (7300,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7300,   278,      2)  /* MagicResistanceSelf5 */

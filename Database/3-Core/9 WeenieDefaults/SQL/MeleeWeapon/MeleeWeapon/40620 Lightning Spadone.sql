@@ -51,15 +51,15 @@ VALUES (40620,   1, 'Lightning Spadone') /* Name */
      , (40620,  16, 'Lightning Spadone of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40620,   1,   33560722) /* Setup */
-     , (40620,   3,  536870932) /* SoundTable */
-     , (40620,   6,   67115557) /* PaletteBase */
-     , (40620,   8,  100690816) /* Icon */
-     , (40620,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40620,   1, 0x02001892) /* Setup */
+     , (40620,   3, 0x20000014) /* SoundTable */
+     , (40620,   6, 0x04001A25) /* PaletteBase */
+     , (40620,   8, 0x06006B80) /* Icon */
+     , (40620,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40620,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40620,  1592,      2)  /* HeartSeekerSelf6 */
-     , (40620,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (40620,  2096,      2)  /* BloodDrinkerSelf7 */
      , (40620,  5880,      2)  /* SneakAttackMasterySelf6 */
+     , (40620,  1592,      2)  /* HeartSeekerSelf6 */
      , (40620,  5887,      2)  /* CantripSneakAttackProwess1 */;

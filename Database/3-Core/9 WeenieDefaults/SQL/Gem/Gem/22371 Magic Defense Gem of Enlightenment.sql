@@ -21,7 +21,7 @@ VALUES (22371,   1, 'Magic Defense Gem of Enlightenment') /* Name */
      , (22371,  14, 'Use this gem to specialize a trained skill. It will cost you twelve skill credits to specialize the Magic Defense skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22371,   1,   33558088) /* Setup */
-     , (22371,   6,   67111919) /* PaletteBase */
-     , (22371,   8,  100673788) /* Icon */
-     , (22371,  50,  100673775) /* IconOverlay */;
+VALUES (22371,   1, 0x02000E48) /* Setup */
+     , (22371,   6, 0x04000BEF) /* PaletteBase */
+     , (22371,   8, 0x060028FC) /* Icon */
+     , (22371,  50, 0x060028EF) /* IconOverlay */;

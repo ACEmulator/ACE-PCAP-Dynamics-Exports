@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43217,   1, 'Subverted Copper Cog Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43217,   1,   33560842) /* Setup */
-     , (43217,   2,  150995459) /* MotionTable */
-     , (43217,   3,  536871123) /* SoundTable */
-     , (43217,   8,  100674350) /* Icon */
-     , (43217,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (43217,   1, 0x0200190A) /* Setup */
+     , (43217,   2, 0x09000203) /* MotionTable */
+     , (43217,   3, 0x200000D3) /* SoundTable */
+     , (43217,   8, 0x06002B2E) /* Icon */
+     , (43217,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43217, 8040, 2332229942, 49.74142, -79.73199, -83.992, 0.159582, 0, 0, -0.9871847) /* PCAPRecordedLocation */
+VALUES (43217, 8040, 0x8B030136, 49.74142, -79.73199, -83.992, 0.159582, 0, 0, -0.987185) /* PCAPRecordedLocation */
 /* @teleloc 0x8B030136 [49.741420 -79.731990 -83.992000] 0.159582 0.000000 0.000000 -0.987185 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

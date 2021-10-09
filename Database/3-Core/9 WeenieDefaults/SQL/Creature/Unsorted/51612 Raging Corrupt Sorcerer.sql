@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51612,   1, 'Raging Corrupt Sorcerer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51612,   1,   33561563) /* Setup */
-     , (51612,   2,  150995487) /* MotionTable */
-     , (51612,   3,  536870930) /* SoundTable */
-     , (51612,   6,   67111346) /* PaletteBase */
-     , (51612,   8,  100667943) /* Icon */
-     , (51612,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51612,   1, 0x02001BDB) /* Setup */
+     , (51612,   2, 0x0900021F) /* MotionTable */
+     , (51612,   3, 0x20000012) /* SoundTable */
+     , (51612,   6, 0x040009B2) /* PaletteBase */
+     , (51612,   8, 0x06001227) /* Icon */
+     , (51612,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51612, 8040, 1484063194, 270, -20, 0.02899998, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (51612, 8040, 0x587501DA, 270, -20, 0.029, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x587501DA [270.000000 -20.000000 0.029000] 0.000000 0.000000 0.000000 -1.000000 */;

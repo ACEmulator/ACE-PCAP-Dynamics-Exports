@@ -28,7 +28,7 @@ VALUES (5126,   1, 'Bottle of Water') /* Name */
      , (5126,  16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5126,   1,   33554603) /* Setup */
-     , (5126,   3,  536870932) /* SoundTable */
-     , (5126,   8,  100668487) /* Icon */
-     , (5126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5126,   1, 0x020000AB) /* Setup */
+     , (5126,   3, 0x20000014) /* SoundTable */
+     , (5126,   8, 0x06001447) /* Icon */
+     , (5126,  22, 0x3400002B) /* PhysicsEffectTable */;

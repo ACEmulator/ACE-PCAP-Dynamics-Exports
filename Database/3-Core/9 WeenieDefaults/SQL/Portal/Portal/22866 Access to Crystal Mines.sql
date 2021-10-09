@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22866,   1, 'Access to Crystal Mines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22866,   1,   33554867) /* Setup */
-     , (22866,   2,  150994947) /* MotionTable */
-     , (22866,   8,  100667499) /* Icon */;
+VALUES (22866,   1, 0x020001B3) /* Setup */
+     , (22866,   2, 0x09000003) /* MotionTable */
+     , (22866,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22866, 8040, 2780364840, 106.181, 178.585, 129.0886, 0.2399781, 0, 0, -0.9707783) /* PCAPRecordedLocation */
+VALUES (22866, 8040, 0xA5B90028, 106.181, 178.585, 129.0886, 0.239978, 0, 0, -0.970778) /* PCAPRecordedLocation */
 /* @teleloc 0xA5B90028 [106.181000 178.585000 129.088600] 0.239978 0.000000 0.000000 -0.970778 */;

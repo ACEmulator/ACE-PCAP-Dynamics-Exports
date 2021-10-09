@@ -23,8 +23,8 @@ VALUES (52817,   1, 'Helm of Tremb''Orh') /* Name */
      , (52817,  16, 'The helmet ripped from the corpse of Tremb''Orh. Give this item to the Master of the Gauntlet for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52817,   1,   33554649) /* Setup */
-     , (52817,   3,  536870932) /* SoundTable */
-     , (52817,   6,   67108990) /* PaletteBase */
-     , (52817,   8,  100667347) /* Icon */
-     , (52817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52817,   1, 0x020000D9) /* Setup */
+     , (52817,   3, 0x20000014) /* SoundTable */
+     , (52817,   6, 0x0400007E) /* PaletteBase */
+     , (52817,   8, 0x06000FD3) /* Icon */
+     , (52817,  22, 0x3400002B) /* PhysicsEffectTable */;

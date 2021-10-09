@@ -24,7 +24,7 @@ VALUES (29474,   1, 'Oswald''s Prison Journal') /* Name */
      , (29474,  16, 'A journal. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29474,   1,   33554771) /* Setup */
-     , (29474,   3,  536870932) /* SoundTable */
-     , (29474,   8,  100668117) /* Icon */
-     , (29474,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29474,   1, 0x02000153) /* Setup */
+     , (29474,   3, 0x20000014) /* SoundTable */
+     , (29474,   8, 0x060012D5) /* Icon */
+     , (29474,  22, 0x3400002B) /* PhysicsEffectTable */;

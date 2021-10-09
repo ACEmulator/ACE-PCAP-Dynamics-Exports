@@ -29,20 +29,20 @@ VALUES (25483,   1, 'Darhy, Assistant to Nuhmudira') /* Name */
      , (25483,   5, 'Assistant to Nuhmudira') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25483,   1,   33554433) /* Setup */
-     , (25483,   2,  150994945) /* MotionTable */
-     , (25483,   3,  536870913) /* SoundTable */
-     , (25483,   6,   67108990) /* PaletteBase */
-     , (25483,   8,  100667446) /* Icon */
-     , (25483,   9,   83890481) /* EyesTexture */
-     , (25483,  10,   83890558) /* NoseTexture */
-     , (25483,  11,   83890641) /* MouthTexture */
-     , (25483,  15,   67117017) /* HairPalette */
-     , (25483,  16,   67109564) /* EyesPalette */
-     , (25483,  17,   67109561) /* SkinPalette */;
+VALUES (25483,   1, 0x02000001) /* Setup */
+     , (25483,   2, 0x09000001) /* MotionTable */
+     , (25483,   3, 0x20000001) /* SoundTable */
+     , (25483,   6, 0x0400007E) /* PaletteBase */
+     , (25483,   8, 0x06001036) /* Icon */
+     , (25483,   9, 0x05001131) /* EyesTexture */
+     , (25483,  10, 0x0500117E) /* NoseTexture */
+     , (25483,  11, 0x050011D1) /* MouthTexture */
+     , (25483,  15, 0x04001FD9) /* HairPalette */
+     , (25483,  16, 0x040002BC) /* EyesPalette */
+     , (25483,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25483, 8040, 2156855328, 76.254, 178.378, 124.005, -0.984363, 0, 0, -0.176154) /* PCAPRecordedLocation */
+VALUES (25483, 8040, 0x808F0020, 76.254, 178.378, 124.005, -0.984363, 0, 0, -0.176154) /* PCAPRecordedLocation */
 /* @teleloc 0x808F0020 [76.254000 178.378000 124.005000] -0.984363 0.000000 0.000000 -0.176154 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

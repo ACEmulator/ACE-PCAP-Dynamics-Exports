@@ -31,20 +31,20 @@ VALUES (39474,   1, 'Narthran Two-Blades') /* Name */
      , (39474,   5, 'Society Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39474,   1,   33554433) /* Setup */
-     , (39474,   2,  150994945) /* MotionTable */
-     , (39474,   3,  536870913) /* SoundTable */
-     , (39474,   6,   67108990) /* PaletteBase */
-     , (39474,   8,  100667377) /* Icon */
-     , (39474,   9,   83890515) /* EyesTexture */
-     , (39474,  10,   83890559) /* NoseTexture */
-     , (39474,  11,   83890630) /* MouthTexture */
-     , (39474,  15,   67116996) /* HairPalette */
-     , (39474,  16,   67109566) /* EyesPalette */
-     , (39474,  17,   67109561) /* SkinPalette */;
+VALUES (39474,   1, 0x02000001) /* Setup */
+     , (39474,   2, 0x09000001) /* MotionTable */
+     , (39474,   3, 0x20000001) /* SoundTable */
+     , (39474,   6, 0x0400007E) /* PaletteBase */
+     , (39474,   8, 0x06000FF1) /* Icon */
+     , (39474,   9, 0x05001153) /* EyesTexture */
+     , (39474,  10, 0x0500117F) /* NoseTexture */
+     , (39474,  11, 0x050011C6) /* MouthTexture */
+     , (39474,  15, 0x04001FC4) /* HairPalette */
+     , (39474,  16, 0x040002BE) /* EyesPalette */
+     , (39474,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39474, 8040, 11993694, 123.084, -100.025, -17.995, 0.704711, 0, 0, 0.709494) /* PCAPRecordedLocation */
+VALUES (39474, 8040, 0x00B7025E, 123.084, -100.025, -17.995, 0.704711, 0, 0, 0.709494) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7025E [123.084000 -100.025000 -17.995000] 0.704711 0.000000 0.000000 0.709494 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

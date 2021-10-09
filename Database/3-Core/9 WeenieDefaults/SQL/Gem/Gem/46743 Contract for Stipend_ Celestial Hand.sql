@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46743,   1, 'Contract for Stipend: Celestial Hand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46743,   1,   33557625) /* Setup */
-     , (46743,   3,  536870932) /* SoundTable */
-     , (46743,   8,  100691930) /* Icon */
-     , (46743,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46743,   1, 0x02000C79) /* Setup */
+     , (46743,   3, 0x20000014) /* SoundTable */
+     , (46743,   8, 0x06006FDA) /* Icon */
+     , (46743,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46743, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

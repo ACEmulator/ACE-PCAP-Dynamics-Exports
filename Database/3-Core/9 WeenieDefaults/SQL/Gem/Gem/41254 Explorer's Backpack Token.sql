@@ -25,9 +25,9 @@ VALUES (41254,   1, 'Explorer''s Backpack Token') /* Name */
      , (41254,  16, 'Give this Token to Sean the Speedy, in Holtburg, in order to receive an Explorer''s Backpack.  The Explorer''s Backpack is an Attuned, unique 30-slot Backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41254,   1,   33554769) /* Setup */
-     , (41254,   3,  536870932) /* SoundTable */
-     , (41254,   6,   67111919) /* PaletteBase */
-     , (41254,   8,  100670388) /* Icon */
-     , (41254,  22,  872415275) /* PhysicsEffectTable */
-     , (41254,  50,  100690552) /* IconOverlay */;
+VALUES (41254,   1, 0x02000151) /* Setup */
+     , (41254,   3, 0x20000014) /* SoundTable */
+     , (41254,   6, 0x04000BEF) /* PaletteBase */
+     , (41254,   8, 0x06001BB4) /* Icon */
+     , (41254,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41254,  50, 0x06006A78) /* IconOverlay */;

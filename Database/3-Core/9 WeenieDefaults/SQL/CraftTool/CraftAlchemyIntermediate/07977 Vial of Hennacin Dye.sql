@@ -26,8 +26,8 @@ VALUES (7977,   1, 'Vial of Hennacin Dye') /* Name */
      , (7977,  20, 'Vials of Hennacin Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7977,   1,   33556751) /* Setup */
-     , (7977,   3,  536870932) /* SoundTable */
-     , (7977,   6,   67111919) /* PaletteBase */
-     , (7977,   8,  100672340) /* Icon */
-     , (7977,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7977,   1, 0x0200090F) /* Setup */
+     , (7977,   3, 0x20000014) /* SoundTable */
+     , (7977,   6, 0x04000BEF) /* PaletteBase */
+     , (7977,   8, 0x06002354) /* Icon */
+     , (7977,  22, 0x3400002B) /* PhysicsEffectTable */;

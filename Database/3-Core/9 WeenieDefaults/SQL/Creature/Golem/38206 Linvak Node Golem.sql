@@ -28,13 +28,13 @@ VALUES (38206,   1, 'Linvak Node Golem') /* Name */
      , (38206,   5, 'Node Guardian') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38206,   1,   33558367) /* Setup */
-     , (38206,   2,  150994945) /* MotionTable */
-     , (38206,   3,  536870933) /* SoundTable */
-     , (38206,   8,  100674350) /* Icon */;
+VALUES (38206,   1, 0x02000F5F) /* Setup */
+     , (38206,   2, 0x09000001) /* MotionTable */
+     , (38206,   3, 0x20000015) /* SoundTable */
+     , (38206,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38206, 8040, 3375235108, 104.811, 73.256, 210.0075, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38206, 8040, 0xC92E0024, 104.811, 73.256, 210.0075, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xC92E0024 [104.811000 73.256000 210.007500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

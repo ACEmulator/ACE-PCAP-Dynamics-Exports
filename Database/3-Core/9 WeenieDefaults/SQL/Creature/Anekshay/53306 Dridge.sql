@@ -28,15 +28,15 @@ VALUES (53306,   1, 'Dridge') /* Name */
      , (53306,   5, 'Mead Brewer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53306,   1,   33561624) /* Setup */
-     , (53306,   2,  150994945) /* MotionTable */
-     , (53306,   3,  536870933) /* SoundTable */
-     , (53306,   6,   67108990) /* PaletteBase */
-     , (53306,   8,  100670274) /* Icon */
-     , (53306,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (53306,   1, 0x02001C18) /* Setup */
+     , (53306,   2, 0x09000001) /* MotionTable */
+     , (53306,   3, 0x20000015) /* SoundTable */
+     , (53306,   6, 0x0400007E) /* PaletteBase */
+     , (53306,   8, 0x06001B42) /* Icon */
+     , (53306,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53306, 8040, 3041525797, 112, 97.5, 117.88, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53306, 8040, 0xB54A0025, 112, 97.5, 117.88, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB54A0025 [112.000000 97.500000 117.880000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

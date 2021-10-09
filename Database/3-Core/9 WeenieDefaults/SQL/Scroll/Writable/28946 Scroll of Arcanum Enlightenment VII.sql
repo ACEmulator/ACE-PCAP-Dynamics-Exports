@@ -23,7 +23,7 @@ VALUES (28946,   1, 'Scroll of Arcanum Enlightenment VII') /* Name */
 Increases the target''s Salvaging skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28946,   1,   33554826) /* Setup */
-     , (28946,   8,  100676477) /* Icon */
-     , (28946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28946,   1, 0x0200018A) /* Setup */
+     , (28946,   8, 0x0600337D) /* Icon */
+     , (28946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28946,  28,       3512) /* Spell - ArcanumSalvagingOther7 */;

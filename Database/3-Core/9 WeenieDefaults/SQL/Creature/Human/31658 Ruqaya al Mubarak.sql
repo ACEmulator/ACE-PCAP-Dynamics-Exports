@@ -29,20 +29,20 @@ VALUES (31658,   1, 'Ruqaya al Mubarak') /* Name */
      , (31658,   5, 'Wicked Skeleton Walloper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31658,   1,   33554510) /* Setup */
-     , (31658,   2,  150994945) /* MotionTable */
-     , (31658,   3,  536870914) /* SoundTable */
-     , (31658,   6,   67108990) /* PaletteBase */
-     , (31658,   8,  100667377) /* Icon */
-     , (31658,   9,   83890275) /* EyesTexture */
-     , (31658,  10,   83890293) /* NoseTexture */
-     , (31658,  11,   83890357) /* MouthTexture */
-     , (31658,  15,   67116994) /* HairPalette */
-     , (31658,  16,   67110063) /* EyesPalette */
-     , (31658,  17,   67109555) /* SkinPalette */;
+VALUES (31658,   1, 0x0200004E) /* Setup */
+     , (31658,   2, 0x09000001) /* MotionTable */
+     , (31658,   3, 0x20000002) /* SoundTable */
+     , (31658,   6, 0x0400007E) /* PaletteBase */
+     , (31658,   8, 0x06000FF1) /* Icon */
+     , (31658,   9, 0x05001063) /* EyesTexture */
+     , (31658,  10, 0x05001075) /* NoseTexture */
+     , (31658,  11, 0x050010B5) /* MouthTexture */
+     , (31658,  15, 0x04001FC2) /* HairPalette */
+     , (31658,  16, 0x040004AF) /* EyesPalette */
+     , (31658,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31658, 8040, 1240465443, 103.344, 60.7348, 170.005, -0.966165, 0, 0, -0.257926) /* PCAPRecordedLocation */
+VALUES (31658, 8040, 0x49F00023, 103.344, 60.7348, 170.005, -0.966165, 0, 0, -0.257926) /* PCAPRecordedLocation */
 /* @teleloc 0x49F00023 [103.344000 60.734800 170.005000] -0.966165 0.000000 0.000000 -0.257926 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

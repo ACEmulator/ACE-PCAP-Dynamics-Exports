@@ -30,11 +30,11 @@ VALUES (51648,   1, 'Legendary Key') /* Name */
      , (51648,  16, 'A key only heard about in whispers and myths.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51648,   1,   33554784) /* Setup */
-     , (51648,   3,  536870932) /* SoundTable */
-     , (51648,   8,  100693001) /* Icon */
-     , (51648,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51648,   1, 0x02000160) /* Setup */
+     , (51648,   3, 0x20000014) /* SoundTable */
+     , (51648,   8, 0x06007409) /* Icon */
+     , (51648,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51648, 8040, 4181393706, 214.374, 178.03, -117.976, -0.008039547, 0, 0, 0.9999677) /* PCAPRecordedLocation */
+VALUES (51648, 8040, 0xF93B012A, 214.374, 178.03, -117.976, -0.00804, 0, 0, 0.999968) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B012A [214.374000 178.030000 -117.976000] -0.008040 0.000000 0.000000 0.999968 */;

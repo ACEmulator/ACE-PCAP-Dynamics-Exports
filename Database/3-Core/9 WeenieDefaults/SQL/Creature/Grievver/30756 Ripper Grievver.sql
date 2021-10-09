@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30756,   1, 'Ripper Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30756,   1,   33556698) /* Setup */
-     , (30756,   2,  150995098) /* MotionTable */
-     , (30756,   3,  536871009) /* SoundTable */
-     , (30756,   6,   67112927) /* PaletteBase */
-     , (30756,   8,  100670960) /* Icon */
-     , (30756,  22,  872415364) /* PhysicsEffectTable */
+VALUES (30756,   1, 0x020008DA) /* Setup */
+     , (30756,   2, 0x0900009A) /* MotionTable */
+     , (30756,   3, 0x20000061) /* SoundTable */
+     , (30756,   6, 0x04000FDF) /* PaletteBase */
+     , (30756,   8, 0x06001DF0) /* Icon */
+     , (30756,  22, 0x34000084) /* PhysicsEffectTable */
      , (30756,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30756, 8040, 1087898060, 152, 63, -25.60225, -0.004204, 0, 0, 0.9999912) /* PCAPRecordedLocation */
+VALUES (30756, 8040, 0x40D801CC, 152, 63, -25.60225, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x40D801CC [152.000000 63.000000 -25.602250] -0.004204 0.000000 0.000000 0.999991 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

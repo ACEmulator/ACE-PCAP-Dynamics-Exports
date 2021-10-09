@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9593,   1, 'Crossbow Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9593,   1,   33554680) /* Setup */
-     , (9593,   3,  536870932) /* SoundTable */
-     , (9593,   8,  100671541) /* Icon */
-     , (9593,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9593,   1, 0x020000F8) /* Setup */
+     , (9593,   3, 0x20000014) /* SoundTable */
+     , (9593,   8, 0x06002035) /* Icon */
+     , (9593,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9593, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

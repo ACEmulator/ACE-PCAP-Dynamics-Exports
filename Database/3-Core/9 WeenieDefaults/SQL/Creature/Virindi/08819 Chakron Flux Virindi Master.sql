@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8819,   1, 'Chakron Flux Virindi Master') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8819,   1,   33556982) /* Setup */
-     , (8819,   2,  150994984) /* MotionTable */
-     , (8819,   3,  536870930) /* SoundTable */
-     , (8819,   8,  100667943) /* Icon */
-     , (8819,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (8819,   1, 0x020009F6) /* Setup */
+     , (8819,   2, 0x09000028) /* MotionTable */
+     , (8819,   3, 0x20000012) /* SoundTable */
+     , (8819,   8, 0x06001227) /* Icon */
+     , (8819,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8819, 8040, 45023500, 145.168, -318.297, -71.971, 0.05507302, 0, 0, -0.9984823) /* PCAPRecordedLocation */
+VALUES (8819, 8040, 0x02AF010C, 145.168, -318.297, -71.971, 0.055073, 0, 0, -0.998482) /* PCAPRecordedLocation */
 /* @teleloc 0x02AF010C [145.168000 -318.297000 -71.971000] 0.055073 0.000000 0.000000 -0.998482 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

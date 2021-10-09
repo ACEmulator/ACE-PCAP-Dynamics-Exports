@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35594,   1, 'Scroll of Flame Chain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35594,   1,   33554826) /* Setup */
-     , (35594,   8,  100677022) /* Icon */
-     , (35594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35594,   1, 0x0200018A) /* Setup */
+     , (35594,   8, 0x0600359E) /* Icon */
+     , (35594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35594,  28,       4096) /* Spell - FlameChain */;

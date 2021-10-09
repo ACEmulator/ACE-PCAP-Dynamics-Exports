@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25466,   1, 'Cydna Wren''s Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25466,   1,   33556769) /* Setup */
-     , (25466,   3,  536870932) /* SoundTable */
-     , (25466,   6,   67111919) /* PaletteBase */
-     , (25466,   8,  100672368) /* Icon */
-     , (25466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25466,   1, 0x02000921) /* Setup */
+     , (25466,   3, 0x20000014) /* SoundTable */
+     , (25466,   6, 0x04000BEF) /* PaletteBase */
+     , (25466,   8, 0x06002370) /* Icon */
+     , (25466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25466,  28,       2977) /* Spell - PortalSendHiddenWarehouseROT2 */;

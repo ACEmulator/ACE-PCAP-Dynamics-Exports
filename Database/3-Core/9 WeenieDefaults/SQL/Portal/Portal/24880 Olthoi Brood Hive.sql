@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24880,   1, 'Olthoi Brood Hive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24880,   1,   33555925) /* Setup */
-     , (24880,   2,  150994947) /* MotionTable */
-     , (24880,   8,  100667499) /* Icon */;
+VALUES (24880,   1, 0x020005D5) /* Setup */
+     , (24880,   2, 0x09000003) /* MotionTable */
+     , (24880,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24880, 8040, 3419013182, 175.528, 127.833, 74.72408, -0.3863472, 0, 0, -0.9223534) /* PCAPRecordedLocation */
+VALUES (24880, 8040, 0xCBCA003E, 175.528, 127.833, 74.72408, -0.386347, 0, 0, -0.922353) /* PCAPRecordedLocation */
 /* @teleloc 0xCBCA003E [175.528000 127.833000 74.724080] -0.386347 0.000000 0.000000 -0.922353 */;

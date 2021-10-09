@@ -46,16 +46,16 @@ VALUES (27220,   1, 'Lorica Boots') /* Name */
      , (27220,  16, 'Lorica Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27220,   1,   33554654) /* Setup */
-     , (27220,   3,  536870932) /* SoundTable */
-     , (27220,   6,   67108990) /* PaletteBase */
-     , (27220,   8,  100676060) /* Icon */
-     , (27220,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27220,   1, 0x020000DE) /* Setup */
+     , (27220,   3, 0x20000014) /* SoundTable */
+     , (27220,   6, 0x0400007E) /* PaletteBase */
+     , (27220,   8, 0x060031DC) /* Icon */
+     , (27220,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27220,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27220,  1498,      2)  /* AcidBane6 */
-     , (27220,  1528,      2)  /* FrostBane6 */
      , (27220,  2102,      2)  /* FlameBane7 */
-     , (27220,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (27220,  4407,      2)  /* Impenetrability8 */;
+     , (27220,  4407,      2)  /* Impenetrability8 */
+     , (27220,  1528,      2)  /* FrostBane6 */
+     , (27220,  3963,      2)  /* CANTRIPCOORDINATION3 */;

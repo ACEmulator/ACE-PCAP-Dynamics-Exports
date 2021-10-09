@@ -23,7 +23,7 @@ VALUES (8349,   1, 'Grey Pea') /* Name */
      , (8349,  16, 'A concentrated grey pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8349,   1,   33555445) /* Setup */
-     , (8349,   3,  536870932) /* SoundTable */
-     , (8349,   8,  100671105) /* Icon */
-     , (8349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8349,   1, 0x020003F5) /* Setup */
+     , (8349,   3, 0x20000014) /* SoundTable */
+     , (8349,   8, 0x06001E81) /* Icon */
+     , (8349,  22, 0x3400002B) /* PhysicsEffectTable */;

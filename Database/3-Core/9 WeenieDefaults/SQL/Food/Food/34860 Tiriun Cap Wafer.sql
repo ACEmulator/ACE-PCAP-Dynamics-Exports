@@ -23,7 +23,7 @@ VALUES (34860,   1, 'Tiriun Cap Wafer') /* Name */
      , (34860,  20, 'Tiriun Cap Wafers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34860,   1,   33558400) /* Setup */
-     , (34860,   3,  536870932) /* SoundTable */
-     , (34860,   8,  100689329) /* Icon */
-     , (34860,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34860,   1, 0x02000F80) /* Setup */
+     , (34860,   3, 0x20000014) /* SoundTable */
+     , (34860,   8, 0x060065B1) /* Icon */
+     , (34860,  22, 0x3400002B) /* PhysicsEffectTable */;

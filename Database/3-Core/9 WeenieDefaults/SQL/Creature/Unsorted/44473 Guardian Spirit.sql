@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44473,   1, 'Guardian Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44473,   1,   33556923) /* Setup */
-     , (44473,   2,  150995087) /* MotionTable */
-     , (44473,   3,  536870998) /* SoundTable */
-     , (44473,   8,  100670274) /* Icon */;
+VALUES (44473,   1, 0x020009BB) /* Setup */
+     , (44473,   2, 0x0900008F) /* MotionTable */
+     , (44473,   3, 0x20000056) /* SoundTable */
+     , (44473,   8, 0x06001B42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44473, 8040, 1498285570, 60, -190, -17.995, -0.00420373, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (44473, 8040, 0x594E0602, 60, -190, -17.995, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x594E0602 [60.000000 -190.000000 -17.995000] -0.004204 0.000000 0.000000 -0.999991 */;

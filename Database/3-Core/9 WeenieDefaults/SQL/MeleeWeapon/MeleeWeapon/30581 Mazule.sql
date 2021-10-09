@@ -50,15 +50,15 @@ VALUES (30581,   1, 'Mazule') /* Name */
      , (30581,  16, 'Mazule of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30581,   1,   33559469) /* Setup */
-     , (30581,   3,  536870932) /* SoundTable */
-     , (30581,   6,   67115559) /* PaletteBase */
-     , (30581,   8,  100686965) /* Icon */
-     , (30581,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30581,   1, 0x020013AD) /* Setup */
+     , (30581,   3, 0x20000014) /* SoundTable */
+     , (30581,   6, 0x04001A27) /* PaletteBase */
+     , (30581,   8, 0x06005C75) /* Icon */
+     , (30581,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30581,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30581,  1592,      2)  /* HeartSeekerSelf6 */
-     , (30581,  1604,      2)  /* DefenderSelf5 */
+VALUES (30581,  1604,      2)  /* DefenderSelf5 */
      , (30581,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (30581,  1626,      2)  /* SwiftKillerSelf5 */;
+     , (30581,  1626,      2)  /* SwiftKillerSelf5 */
+     , (30581,  1592,      2)  /* HeartSeekerSelf6 */;

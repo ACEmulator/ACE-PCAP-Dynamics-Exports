@@ -29,14 +29,14 @@ VALUES (24476,   1, 'Sturdy Steel Chest') /* Name */
      , (24476,  16, 'This chest appears to have a sturdy steel lock, of the kind used to protect very valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24476,   1,   33558394) /* Setup */
-     , (24476,   2,  150994948) /* MotionTable */
-     , (24476,   3,  536870945) /* SoundTable */
-     , (24476,   8,  100674410) /* Icon */
-     , (24476,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24476,   1, 0x02000F7A) /* Setup */
+     , (24476,   2, 0x09000004) /* MotionTable */
+     , (24476,   3, 0x20000021) /* SoundTable */
+     , (24476,   8, 0x06002B6A) /* Icon */
+     , (24476,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24476, 8040, 18219335, 50.3745, -147.426, -72, 0.130526, 0, 0, -0.9914449) /* PCAPRecordedLocation */
+VALUES (24476, 8040, 0x01160147, 50.3745, -147.426, -72, 0.130526, 0, 0, -0.991445) /* PCAPRecordedLocation */
 /* @teleloc 0x01160147 [50.374500 -147.426000 -72.000000] 0.130526 0.000000 0.000000 -0.991445 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

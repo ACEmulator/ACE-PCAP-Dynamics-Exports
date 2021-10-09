@@ -46,14 +46,14 @@ VALUES (37209,   1, 'Olthoi Celdon Sollerets') /* Name */
      , (37209,  16, 'Olthoi Celdon Sollerets of Missile Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37209,   1,   33554654) /* Setup */
-     , (37209,   3,  536870932) /* SoundTable */
-     , (37209,   6,   67108990) /* PaletteBase */
-     , (37209,   8,  100674703) /* Icon */
-     , (37209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37209,   1, 0x020000DE) /* Setup */
+     , (37209,   3, 0x20000014) /* SoundTable */
+     , (37209,   6, 0x0400007E) /* PaletteBase */
+     , (37209,   8, 0x06002C8F) /* Icon */
+     , (37209,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37209,  1562,      2)  /* BladeBane6 */
-     , (37209,  4407,      2)  /* Impenetrability8 */
+VALUES (37209,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (37209,  1562,      2)  /* BladeBane6 */
      , (37209,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (37209,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+     , (37209,  4407,      2)  /* Impenetrability8 */;

@@ -25,10 +25,10 @@ VALUES (41189,   1, 'Apostate Excavation Master''s Orders') /* Name */
      , (41189,  15, 'A translation of a Virindi message shard found in the Apostate Excavation.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41189,   1,   33554773) /* Setup */
-     , (41189,   3,  536870932) /* SoundTable */
-     , (41189,   8,  100668176) /* Icon */
-     , (41189,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41189,   1, 0x02000155) /* Setup */
+     , (41189,   3, 0x20000014) /* SoundTable */
+     , (41189,   8, 0x06001310) /* Icon */
+     , (41189,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (41189, 4, 1000);

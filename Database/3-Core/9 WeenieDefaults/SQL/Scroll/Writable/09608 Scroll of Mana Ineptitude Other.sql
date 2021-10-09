@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9608,   1, 'Scroll of Mana Ineptitude Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9608,   1,   33554826) /* Setup */
-     , (9608,   8,  100676466) /* Icon */
-     , (9608,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9608,   1, 0x0200018A) /* Setup */
+     , (9608,   8, 0x06003372) /* Icon */
+     , (9608,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9608,  28,        672) /* Spell - ManaIneptitudeOther1 */
      , (9608, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

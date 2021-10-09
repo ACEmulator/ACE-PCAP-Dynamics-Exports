@@ -18,9 +18,9 @@ VALUES (726,   1, 'Food and Attire') /* Name */
      , (726,  16, 'Food and Attire') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (726,   1,   33555088) /* Setup */
-     , (726,   8,  100668115) /* Icon */;
+VALUES (726,   1, 0x02000290) /* Setup */
+     , (726,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (726, 8040, 2711879732, 151.56, 94.9201, 50.16, 0.000327067, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (726, 8040, 0xA1A40034, 151.56, 94.9201, 50.16, 0.000327, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40034 [151.560000 94.920100 50.160000] 0.000327 0.000000 0.000000 -1.000000 */;

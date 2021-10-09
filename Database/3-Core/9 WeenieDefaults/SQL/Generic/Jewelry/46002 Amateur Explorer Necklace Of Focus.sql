@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46002,   1, 'Amateur Explorer Necklace Of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46002,   1,   33554689) /* Setup */
-     , (46002,   3,  536870932) /* SoundTable */
-     , (46002,   6,   67111919) /* PaletteBase */
-     , (46002,   8,  100675464) /* Icon */
-     , (46002,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46002,   1, 0x02000101) /* Setup */
+     , (46002,   3, 0x20000014) /* SoundTable */
+     , (46002,   6, 0x04000BEF) /* PaletteBase */
+     , (46002,   8, 0x06002F88) /* Icon */
+     , (46002,  22, 0x3400002B) /* PhysicsEffectTable */;
