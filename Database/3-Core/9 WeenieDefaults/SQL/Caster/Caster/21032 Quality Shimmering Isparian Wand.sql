@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21032,   1, 'Quality Shimmering Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21032,   1,   33557731) /* Setup */
-     , (21032,   3,  536870932) /* SoundTable */
-     , (21032,   8,  100673203) /* Icon */
-     , (21032,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21032,   1, 0x02000CE3) /* Setup */
+     , (21032,   3, 0x20000014) /* SoundTable */
+     , (21032,   8, 0x060026B3) /* Icon */
+     , (21032,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21032, 8040, 3845259520, 181.9133, 39.91671, 32.329, -0.7024418, -0.7024418, 0.08108956, 0.08108956) /* PCAPRecordedLocation */
+VALUES (21032, 8040, 0xE5320100, 181.9133, 39.91671, 32.329, -0.702442, -0.702442, 0.08109, 0.08109) /* PCAPRecordedLocation */
 /* @teleloc 0xE5320100 [181.913300 39.916710 32.329000] -0.702442 -0.702442 0.081090 0.081090 */;

@@ -26,10 +26,10 @@ VALUES (37469,   1, 'Claw Stamped Spectral Ingot') /* Name */
      , (37469,  16, 'A spectral ingot that summons a Spectral Claw when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37469,   1,   33556769) /* Setup */
-     , (37469,   3,  536870932) /* SoundTable */
-     , (37469,   6,   67111919) /* PaletteBase */
-     , (37469,   8,  100689897) /* Icon */
-     , (37469,  22,  872415275) /* PhysicsEffectTable */
-     , (37469,  50,  100673785) /* IconOverlay */
-     , (37469,  52,  100689404) /* IconUnderlay */;
+VALUES (37469,   1, 0x02000921) /* Setup */
+     , (37469,   3, 0x20000014) /* SoundTable */
+     , (37469,   6, 0x04000BEF) /* PaletteBase */
+     , (37469,   8, 0x060067E9) /* Icon */
+     , (37469,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37469,  50, 0x060028F9) /* IconOverlay */
+     , (37469,  52, 0x060065FC) /* IconUnderlay */;

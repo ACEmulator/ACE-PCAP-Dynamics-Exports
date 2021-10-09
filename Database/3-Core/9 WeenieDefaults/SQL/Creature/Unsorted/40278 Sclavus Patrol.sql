@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40278,   1, 'Sclavus Patrol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40278,   1,   33560595) /* Setup */
-     , (40278,   2,  150995048) /* MotionTable */
-     , (40278,   3,  536870977) /* SoundTable */
-     , (40278,   6,   67111936) /* PaletteBase */
-     , (40278,   8,  100669120) /* Icon */
-     , (40278,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (40278,   1, 0x02001813) /* Setup */
+     , (40278,   2, 0x09000068) /* MotionTable */
+     , (40278,   3, 0x20000041) /* SoundTable */
+     , (40278,   6, 0x04000C00) /* PaletteBase */
+     , (40278,   8, 0x060016C0) /* Icon */
+     , (40278,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40278, 8040, 13304365, 360, -80, -30, -0.7050318, 0, 0, -0.7091758) /* PCAPRecordedLocation */
+VALUES (40278, 8040, 0x00CB022D, 360, -80, -30, -0.705032, 0, 0, -0.709176) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB022D [360.000000 -80.000000 -30.000000] -0.705032 0.000000 0.000000 -0.709176 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -38,10 +38,10 @@ VALUES (49335,   1, 'Frost Wisp Essence (150)') /* Name */
      , (49335,  14, 'Use this essence to summon or dismiss your Frost Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49335,   1,   33554817) /* Setup */
-     , (49335,   3,  536870932) /* SoundTable */
-     , (49335,   6,   67111919) /* PaletteBase */
-     , (49335,   8,  100693035) /* Icon */
-     , (49335,  22,  872415275) /* PhysicsEffectTable */
-     , (49335,  50,  100693030) /* IconOverlay */
-     , (49335,  52,  100693024) /* IconUnderlay */;
+VALUES (49335,   1, 0x02000181) /* Setup */
+     , (49335,   3, 0x20000014) /* SoundTable */
+     , (49335,   6, 0x04000BEF) /* PaletteBase */
+     , (49335,   8, 0x0600742B) /* Icon */
+     , (49335,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49335,  50, 0x06007426) /* IconOverlay */
+     , (49335,  52, 0x06007420) /* IconUnderlay */;

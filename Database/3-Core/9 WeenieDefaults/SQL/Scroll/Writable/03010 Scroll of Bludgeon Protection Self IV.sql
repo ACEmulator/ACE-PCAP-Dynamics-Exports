@@ -23,7 +23,7 @@ VALUES (3010,   1, 'Scroll of Bludgeon Protection Self IV') /* Name */
 Reduces damage the caster takes from Bludgeoning by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3010,   1,   33554826) /* Setup */
-     , (3010,   8,  100676952) /* Icon */
-     , (3010,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3010,   1, 0x0200018A) /* Setup */
+     , (3010,   8, 0x06003558) /* Icon */
+     , (3010,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3010,  28,       1021) /* Spell - BludgeonProtectionSelf4 */;

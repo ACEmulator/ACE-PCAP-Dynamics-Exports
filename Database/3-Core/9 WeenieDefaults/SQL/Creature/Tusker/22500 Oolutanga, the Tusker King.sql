@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22500,   1, 'Oolutanga, the Tusker King') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22500,   1,   33558138) /* Setup */
-     , (22500,   2,  150994956) /* MotionTable */
-     , (22500,   3,  536870929) /* SoundTable */
-     , (22500,   8,  100667443) /* Icon */
-     , (22500,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22500,   1, 0x02000E7A) /* Setup */
+     , (22500,   2, 0x0900000C) /* MotionTable */
+     , (22500,   3, 0x20000011) /* SoundTable */
+     , (22500,   8, 0x06001033) /* Icon */
+     , (22500,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22500, 8040, 1598292386, 233.4641, -93.5, 0.02419996, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (22500, 8040, 0x5F4401A2, 233.4641, -93.5, 0.0242, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5F4401A2 [233.464100 -93.500000 0.024200] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

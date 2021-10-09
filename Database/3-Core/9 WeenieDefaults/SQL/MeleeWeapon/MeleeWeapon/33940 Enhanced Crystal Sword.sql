@@ -43,16 +43,16 @@ VALUES (33940,   1, 'Enhanced Crystal Sword') /* Name */
      , (33940,  16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance. This weapon has been enhanced by Belinda du Loc') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33940,   1,   33557340) /* Setup */
-     , (33940,   3,  536870932) /* SoundTable */
-     , (33940,   6,   67111919) /* PaletteBase */
-     , (33940,   8,  100674099) /* Icon */
-     , (33940,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33940,   1, 0x02000B5C) /* Setup */
+     , (33940,   3, 0x20000014) /* SoundTable */
+     , (33940,   6, 0x04000BEF) /* PaletteBase */
+     , (33940,   8, 0x06002A33) /* Icon */
+     , (33940,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33940,  55,       1155) /* ProcSpell - PiercingVulnerabilityOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33940,  1094,      2)  /* FireProtectionSelf6 */
-     , (33940,  1592,      2)  /* HeartSeekerSelf6 */
-     , (33940,  1605,      2)  /* DefenderSelf6 */
+VALUES (33940,  1605,      2)  /* DefenderSelf6 */
+     , (33940,  1094,      2)  /* FireProtectionSelf6 */
      , (33940,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (33940,  1627,      2)  /* SwiftKillerSelf6 */;
+     , (33940,  1627,      2)  /* SwiftKillerSelf6 */
+     , (33940,  1592,      2)  /* HeartSeekerSelf6 */;

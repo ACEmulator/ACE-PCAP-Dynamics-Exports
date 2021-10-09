@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40525,   1, 'Open Book') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40525,   1,   33554772) /* Setup */
-     , (40525,   2,  150995147) /* MotionTable */
-     , (40525,   3,  536870932) /* SoundTable */
-     , (40525,   8,  100668117) /* Icon */
-     , (40525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40525,   1, 0x02000154) /* Setup */
+     , (40525,   2, 0x090000CB) /* MotionTable */
+     , (40525,   3, 0x20000014) /* SoundTable */
+     , (40525,   8, 0x060012D5) /* Icon */
+     , (40525,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40525, 8040, 3847094532, 78.4717, 78.2418, 20.8666, -0.0616373, 0, 0, -0.998099) /* PCAPRecordedLocation */
+VALUES (40525, 8040, 0xE54E0104, 78.4717, 78.2418, 20.8666, -0.061637, 0, 0, -0.998099) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E0104 [78.471700 78.241800 20.866600] -0.061637 0.000000 0.000000 -0.998099 */;

@@ -49,17 +49,17 @@ VALUES (41893,   1, 'Enhanced Assault Bow') /* Name */
      , (41893,  16, 'A reward for defeating the leaders of the Gromnie Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41893,   1,   33558206) /* Setup */
-     , (41893,   3,  536870932) /* SoundTable */
-     , (41893,   8,  100671743) /* Icon */
-     , (41893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41893,   1, 0x02000EBE) /* Setup */
+     , (41893,   3, 0x20000014) /* SoundTable */
+     , (41893,   8, 0x060020FF) /* Icon */
+     , (41893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41893,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41893, 8040, 1615134985, 69.47268, -45.83377, -36.07, 0.08563245, 0, 0, -0.9963268) /* PCAPRecordedLocation */
+VALUES (41893, 8040, 0x60450109, 69.47268, -45.83377, -36.07, 0.085632, 0, 0, -0.996327) /* PCAPRecordedLocation */
 /* @teleloc 0x60450109 [69.472680 -45.833770 -36.070000] 0.085632 0.000000 0.000000 -0.996327 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41893,  2004,      2)  /* WarriorsVitality */
-     , (41893,  2059,      2)  /* CoordinationSelf7 */
+VALUES (41893,  2059,      2)  /* CoordinationSelf7 */
+     , (41893,  2004,      2)  /* WarriorsVitality */
      , (41893,  2096,      2)  /* BloodDrinkerSelf7 */;

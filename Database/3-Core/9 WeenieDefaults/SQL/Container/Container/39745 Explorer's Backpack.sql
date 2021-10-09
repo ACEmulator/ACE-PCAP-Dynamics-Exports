@@ -34,10 +34,10 @@ VALUES (39745,   1, 'Explorer''s Backpack') /* Name */
      , (39745,  16, 'An excellent backpack with extra storage for long hauls.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39745,   1,   33554769) /* Setup */
-     , (39745,   3,  536870932) /* SoundTable */
-     , (39745,   6,   67111919) /* PaletteBase */
-     , (39745,   8,  100670388) /* Icon */
-     , (39745,  22,  872415275) /* PhysicsEffectTable */
-     , (39745,  50,  100690552) /* IconOverlay */
-     , (39745,  52,  100689664) /* IconUnderlay */;
+VALUES (39745,   1, 0x02000151) /* Setup */
+     , (39745,   3, 0x20000014) /* SoundTable */
+     , (39745,   6, 0x04000BEF) /* PaletteBase */
+     , (39745,   8, 0x06001BB4) /* Icon */
+     , (39745,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39745,  50, 0x06006A78) /* IconOverlay */
+     , (39745,  52, 0x06006700) /* IconUnderlay */;

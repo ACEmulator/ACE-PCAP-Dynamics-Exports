@@ -21,7 +21,7 @@ VALUES (40148,   1, 'Black Coral Golem Chunk') /* Name */
      , (40148,  16, 'A chunk of coral from a Black Coral Golem Viceroy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40148,   1,   33554817) /* Setup */
-     , (40148,   3,  536870932) /* SoundTable */
-     , (40148,   8,  100690159) /* Icon */
-     , (40148,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40148,   1, 0x02000181) /* Setup */
+     , (40148,   3, 0x20000014) /* SoundTable */
+     , (40148,   8, 0x060068EF) /* Icon */
+     , (40148,  22, 0x3400002B) /* PhysicsEffectTable */;

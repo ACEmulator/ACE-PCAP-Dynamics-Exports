@@ -18,9 +18,9 @@ VALUES (877,   1, 'The Golden Book') /* Name */
      , (877,  16, 'The Golden Book') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (877,   1,   33555594) /* Setup */
-     , (877,   8,  100668115) /* Icon */;
+VALUES (877,   1, 0x0200048A) /* Setup */
+     , (877,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (877, 8040, 3880648707, 18.6484, 66.6972, 34.2536, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (877, 8040, 0xE74E0003, 18.6484, 66.6972, 34.2536, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0003 [18.648400 66.697200 34.253600] 1.000000 0.000000 0.000000 0.000000 */;

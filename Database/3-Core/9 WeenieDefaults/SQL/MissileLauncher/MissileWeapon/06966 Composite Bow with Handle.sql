@@ -48,16 +48,16 @@ VALUES (6966,   1, 'Composite Bow with Handle') /* Name */
      , (6966,   8, 'Goober Nut') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6966,   1,   33556600) /* Setup */
-     , (6966,   3,  536870932) /* SoundTable */
-     , (6966,   6,   67112869) /* PaletteBase */
-     , (6966,   8,  100670670) /* Icon */
-     , (6966,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6966,   1, 0x02000878) /* Setup */
+     , (6966,   3, 0x20000014) /* SoundTable */
+     , (6966,   6, 0x04000FA5) /* PaletteBase */
+     , (6966,   8, 0x06001CCE) /* Icon */
+     , (6966,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6966, 8040, 23855555, 64.06312, -42.4776, 0.4424986, -0.9414667, 0, 0, -0.337106) /* PCAPRecordedLocation */
+VALUES (6966, 8040, 0x016C01C3, 64.06312, -42.4776, 0.442499, -0.941467, 0, 0, -0.337106) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [64.063120 -42.477600 0.442499] -0.941467 0.000000 0.000000 -0.337106 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6966,   465,      2)  /* MissileWeaponsMasteryOther5 */
-     , (6966,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (6966,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (6966,   465,      2)  /* MissileWeaponsMasteryOther5 */;

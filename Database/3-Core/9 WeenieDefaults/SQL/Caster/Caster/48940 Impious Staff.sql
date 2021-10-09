@@ -41,21 +41,21 @@ VALUES (48940,   1, 'Impious Staff') /* Name */
      , (48940,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48940,   1,   33557877) /* Setup */
-     , (48940,   3,  536870932) /* SoundTable */
-     , (48940,   6,   67111919) /* PaletteBase */
-     , (48940,   8,  100690010) /* Icon */
-     , (48940,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48940,   1, 0x02000D75) /* Setup */
+     , (48940,   3, 0x20000014) /* SoundTable */
+     , (48940,   6, 0x04000BEF) /* PaletteBase */
+     , (48940,   8, 0x0600685A) /* Icon */
+     , (48940,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48940,  28,       2282) /* Spell - MagicYieldOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48940, 8040, 23855555, 58.97395, -37.19802, -0.071, 0.6670495, 0.6670495, -0.2346167, -0.2346167) /* PCAPRecordedLocation */
+VALUES (48940, 8040, 0x016C01C3, 58.97395, -37.19802, -0.071, 0.66705, 0.66705, -0.234617, -0.234617) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.973950 -37.198020 -0.071000] 0.667050 0.667050 -0.234617 -0.234617 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48940,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
-     , (48940,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
-     , (48940,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (48940,  6086,      2)  /* CantripHermeticLink3 */
+     , (48940,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
      , (48940,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
      , (48940,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
-     , (48940,  6086,      2)  /* CantripHermeticLink3 */;
+     , (48940,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
+     , (48940,  4602,      2)  /* ManaMasterySelf8 */;

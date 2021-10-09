@@ -27,10 +27,10 @@ VALUES (12679,   1, 'Yard Hook') /* Name */
 A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12679,   1,   33557133) /* Setup */
-     , (12679,   8,  100671680) /* Icon */
-     , (12679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12679,   1, 0x02000A8D) /* Setup */
+     , (12679,   8, 0x060020C0) /* Icon */
+     , (12679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12679, 8040, 2519466028, 127.925, 94, 32.025, 0.38349, 0, 0, -0.923545) /* PCAPRecordedLocation */
+VALUES (12679, 8040, 0x962C002C, 127.925, 94, 32.025, 0.38349, 0, 0, -0.923545) /* PCAPRecordedLocation */
 /* @teleloc 0x962C002C [127.925000 94.000000 32.025000] 0.383490 0.000000 0.000000 -0.923545 */;

@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7999,   1, 'Fenmalain Crystal Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7999,   1,   33554729) /* Setup */
-     , (7999,   3,  536870932) /* SoundTable */
-     , (7999,   6,   67111919) /* PaletteBase */
-     , (7999,   8,  100670998) /* Icon */
-     , (7999,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7999,   1, 0x02000129) /* Setup */
+     , (7999,   3, 0x20000014) /* SoundTable */
+     , (7999,   6, 0x04000BEF) /* PaletteBase */
+     , (7999,   8, 0x06001E16) /* Icon */
+     , (7999,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,20 +34,20 @@ VALUES (842,   1, 'Shopkeeper Gonjoku Ryumi') /* Name */
      , (842,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (842,   1,   33554433) /* Setup */
-     , (842,   2,  150994945) /* MotionTable */
-     , (842,   3,  536870913) /* SoundTable */
-     , (842,   6,   67108990) /* PaletteBase */
-     , (842,   8,  100667446) /* Icon */
-     , (842,   9,   83890453) /* EyesTexture */
-     , (842,  10,   83890519) /* NoseTexture */
-     , (842,  11,   83890628) /* MouthTexture */
-     , (842,  15,   67117070) /* HairPalette */
-     , (842,  16,   67110062) /* EyesPalette */
-     , (842,  17,   67110047) /* SkinPalette */;
+VALUES (842,   1, 0x02000001) /* Setup */
+     , (842,   2, 0x09000001) /* MotionTable */
+     , (842,   3, 0x20000001) /* SoundTable */
+     , (842,   6, 0x0400007E) /* PaletteBase */
+     , (842,   8, 0x06001036) /* Icon */
+     , (842,   9, 0x05001115) /* EyesTexture */
+     , (842,  10, 0x05001157) /* NoseTexture */
+     , (842,  11, 0x050011C4) /* MouthTexture */
+     , (842,  15, 0x0400200E) /* HairPalette */
+     , (842,  16, 0x040004AE) /* EyesPalette */
+     , (842,  17, 0x0400049F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (842, 8040, 3663004059, 89.48, 57.6844, 20.045, -0.8870111, 0, 0, -0.4617482) /* PCAPRecordedLocation */
+VALUES (842, 8040, 0xDA55019B, 89.48, 57.6844, 20.045, -0.887011, 0, 0, -0.461748) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55019B [89.480000 57.684400 20.045000] -0.887011 0.000000 0.000000 -0.461748 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

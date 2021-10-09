@@ -38,18 +38,18 @@ VALUES (28994,   1, 'Burun Slaying Sceptre') /* Name */
      , (28994,  25, 'Olthoi king''s mage') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28994,   1,   33558929) /* Setup */
-     , (28994,   3,  536870932) /* SoundTable */
-     , (28994,   8,  100676981) /* Icon */
-     , (28994,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28994,   1, 0x02001191) /* Setup */
+     , (28994,   3, 0x20000014) /* SoundTable */
+     , (28994,   8, 0x06003575) /* Icon */
+     , (28994,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28994, 8040, 3465871405, 156.2285, 96.3844, 19.93, 0.3238874, 0.3238874, -0.6285673, -0.6285673) /* PCAPRecordedLocation */
+VALUES (28994, 8040, 0xCE95002D, 156.2285, 96.3844, 19.93, 0.323887, 0.323887, -0.628567, -0.628567) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [156.228500 96.384400 19.930000] 0.323887 0.323887 -0.628567 -0.628567 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28994,   248,      2)  /* InvulnerabilitySelf5 */
-     , (28994,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (28994,   640,      2)  /* WarMagicMasteryOther6 */
+VALUES (28994,   640,      2)  /* WarMagicMasteryOther6 */
+     , (28994,  1479,      2)  /* HermeticLinkSelf5 */
      , (28994,  1354,      2)  /* EnduranceSelf6 */
-     , (28994,  1479,      2)  /* HermeticLinkSelf5 */;
+     , (28994,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (28994,   248,      2)  /* InvulnerabilitySelf5 */;

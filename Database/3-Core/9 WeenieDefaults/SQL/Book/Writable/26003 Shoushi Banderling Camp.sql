@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26003,   1, 'Shoushi Banderling Camp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26003,   1,   33559084) /* Setup */
-     , (26003,   3,  536870932) /* SoundTable */
-     , (26003,   6,   67112626) /* PaletteBase */
-     , (26003,   8,  100675770) /* Icon */
-     , (26003,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26003,   1, 0x0200122C) /* Setup */
+     , (26003,   3, 0x20000014) /* SoundTable */
+     , (26003,   6, 0x04000EB2) /* PaletteBase */
+     , (26003,   8, 0x060030BA) /* Icon */
+     , (26003,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26003, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

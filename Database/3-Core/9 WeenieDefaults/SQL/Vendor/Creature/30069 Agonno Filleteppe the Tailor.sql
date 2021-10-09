@@ -34,20 +34,20 @@ VALUES (30069,   1, 'Agonno Filleteppe the Tailor') /* Name */
      , (30069,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30069,   1,   33554433) /* Setup */
-     , (30069,   2,  150994945) /* MotionTable */
-     , (30069,   3,  536870913) /* SoundTable */
-     , (30069,   6,   67108990) /* PaletteBase */
-     , (30069,   8,  100667446) /* Icon */
-     , (30069,   9,   83890507) /* EyesTexture */
-     , (30069,  10,   83890518) /* NoseTexture */
-     , (30069,  11,   83890662) /* MouthTexture */
-     , (30069,  15,   67117099) /* HairPalette */
-     , (30069,  16,   67110064) /* EyesPalette */
-     , (30069,  17,   67115908) /* SkinPalette */;
+VALUES (30069,   1, 0x02000001) /* Setup */
+     , (30069,   2, 0x09000001) /* MotionTable */
+     , (30069,   3, 0x20000001) /* SoundTable */
+     , (30069,   6, 0x0400007E) /* PaletteBase */
+     , (30069,   8, 0x06001036) /* Icon */
+     , (30069,   9, 0x0500114B) /* EyesTexture */
+     , (30069,  10, 0x05001156) /* NoseTexture */
+     , (30069,  11, 0x050011E6) /* MouthTexture */
+     , (30069,  15, 0x0400202B) /* HairPalette */
+     , (30069,  16, 0x040004B0) /* EyesPalette */
+     , (30069,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30069, 8040, 669778209, 102.872, 60.674, 80.005, 0.9624676, 0, 0, -0.2713967) /* PCAPRecordedLocation */
+VALUES (30069, 8040, 0x27EC0121, 102.872, 60.674, 80.005, 0.962468, 0, 0, -0.271397) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0121 [102.872000 60.674000 80.005000] 0.962468 0.000000 0.000000 -0.271397 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

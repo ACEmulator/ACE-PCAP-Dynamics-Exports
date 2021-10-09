@@ -34,20 +34,20 @@ VALUES (20217,   1, 'Apprentice Scrivener of Life Magic') /* Name */
      , (20217,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20217,   1,   33554433) /* Setup */
-     , (20217,   2,  150994945) /* MotionTable */
-     , (20217,   3,  536870914) /* SoundTable */
-     , (20217,   6,   67108990) /* PaletteBase */
-     , (20217,   8,  100667446) /* Icon */
-     , (20217,   9,   83890443) /* EyesTexture */
-     , (20217,  10,   83890534) /* NoseTexture */
-     , (20217,  11,   83890645) /* MouthTexture */
-     , (20217,  15,   67117076) /* HairPalette */
-     , (20217,  16,   67110063) /* EyesPalette */
-     , (20217,  17,   67109554) /* SkinPalette */;
+VALUES (20217,   1, 0x02000001) /* Setup */
+     , (20217,   2, 0x09000001) /* MotionTable */
+     , (20217,   3, 0x20000002) /* SoundTable */
+     , (20217,   6, 0x0400007E) /* PaletteBase */
+     , (20217,   8, 0x06001036) /* Icon */
+     , (20217,   9, 0x0500110B) /* EyesTexture */
+     , (20217,  10, 0x05001166) /* NoseTexture */
+     , (20217,  11, 0x050011D5) /* MouthTexture */
+     , (20217,  15, 0x04002014) /* HairPalette */
+     , (20217,  16, 0x040004AF) /* EyesPalette */
+     , (20217,  17, 0x040002B2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20217, 8040, 3880649139, 33.8416, 39.3695, 32.005, 0.3559991, 0, 0, -0.9344863) /* PCAPRecordedLocation */
+VALUES (20217, 8040, 0xE74E01B3, 33.8416, 39.3695, 32.005, 0.355999, 0, 0, -0.934486) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E01B3 [33.841600 39.369500 32.005000] 0.355999 0.000000 0.000000 -0.934486 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

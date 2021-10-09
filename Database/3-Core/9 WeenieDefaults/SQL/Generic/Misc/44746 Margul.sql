@@ -19,5 +19,5 @@ VALUES (44746,   1, 'Margul') /* Name */
      , (44746,  16, 'The margul are a creature not native to any land. These vicious creatures were created from the blood of Bael''zharon by the sorceror Ler Rhan. They were created to become the children of Bael''zharon and to share in his image. The evil of Bael''zharon can instantly be seen by any adventurer unfortunate enough to find himself staring into the eyes of these beasts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44746,   1,   33561346) /* Setup */
-     , (44746,   8,  100668115) /* Icon */;
+VALUES (44746,   1, 0x02001B02) /* Setup */
+     , (44746,   8, 0x060012D3) /* Icon */;

@@ -34,10 +34,10 @@ VALUES (48965,   1, 'Fire Child Essence (125)') /* Name */
      , (48965,  14, 'Use this essence to summon or dismiss your Fire Child.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48965,   1,   33554817) /* Setup */
-     , (48965,   3,  536870932) /* SoundTable */
-     , (48965,   6,   67111919) /* PaletteBase */
-     , (48965,   8,  100670274) /* Icon */
-     , (48965,  22,  872415275) /* PhysicsEffectTable */
-     , (48965,  50,  100693029) /* IconOverlay */
-     , (48965,  52,  100693024) /* IconUnderlay */;
+VALUES (48965,   1, 0x02000181) /* Setup */
+     , (48965,   3, 0x20000014) /* SoundTable */
+     , (48965,   6, 0x04000BEF) /* PaletteBase */
+     , (48965,   8, 0x06001B42) /* Icon */
+     , (48965,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48965,  50, 0x06007425) /* IconOverlay */
+     , (48965,  52, 0x06007420) /* IconUnderlay */;

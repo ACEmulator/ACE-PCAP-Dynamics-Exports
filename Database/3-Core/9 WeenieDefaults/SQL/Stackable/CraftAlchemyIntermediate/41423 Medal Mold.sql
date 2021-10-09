@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41423,   1, 'Medal Mold') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41423,   1,   33556961) /* Setup */
-     , (41423,   3,  536870932) /* SoundTable */
-     , (41423,   8,  100690736) /* Icon */
-     , (41423,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41423,   1, 0x020009E1) /* Setup */
+     , (41423,   3, 0x20000014) /* SoundTable */
+     , (41423,   8, 0x06006B30) /* Icon */
+     , (41423,  22, 0x3400002B) /* PhysicsEffectTable */;

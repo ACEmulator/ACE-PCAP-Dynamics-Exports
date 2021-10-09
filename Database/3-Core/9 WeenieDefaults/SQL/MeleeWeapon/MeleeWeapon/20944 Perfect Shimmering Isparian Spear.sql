@@ -48,11 +48,11 @@ VALUES (20944,   1, 'Perfect Shimmering Isparian Spear') /* Name */
      , (20944,   8, 'Wahooka the Great') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20944,   1,   33556260) /* Setup */
-     , (20944,   3,  536870932) /* SoundTable */
-     , (20944,   8,  100673208) /* Icon */
-     , (20944,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20944,   1, 0x02000724) /* Setup */
+     , (20944,   3, 0x20000014) /* SoundTable */
+     , (20944,   8, 0x060026B8) /* Icon */
+     , (20944,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20944,  1312,      2)  /* ArmorSelf6 */
-     , (20944,  2689,      2)  /* ModerateDaggerAptitude */;
+VALUES (20944,  2689,      2)  /* ModerateDaggerAptitude */
+     , (20944,  1312,      2)  /* ArmorSelf6 */;

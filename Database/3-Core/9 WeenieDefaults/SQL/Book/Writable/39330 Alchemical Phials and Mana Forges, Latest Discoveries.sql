@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39330,   1, 'Alchemical Phials and Mana Forges, Latest Discoveries') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39330,   1,   33559084) /* Setup */
-     , (39330,   3,  536870932) /* SoundTable */
-     , (39330,   6,   67112626) /* PaletteBase */
-     , (39330,   8,  100668117) /* Icon */
-     , (39330,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39330,   1, 0x0200122C) /* Setup */
+     , (39330,   3, 0x20000014) /* SoundTable */
+     , (39330,   6, 0x04000EB2) /* PaletteBase */
+     , (39330,   8, 0x060012D5) /* Icon */
+     , (39330,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39330, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

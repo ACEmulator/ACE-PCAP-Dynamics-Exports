@@ -24,11 +24,11 @@ VALUES (12266,   1, 'Singular Obsidian Pillar') /* Name */
      , (12266,  16, 'A pillar of Singular Obsidian stockpiled by the Virindi and their allies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12266,   1,   33557378) /* Setup */
-     , (12266,   3,  536870932) /* SoundTable */
-     , (12266,   8,  100672196) /* Icon */
-     , (12266,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12266,   1, 0x02000B82) /* Setup */
+     , (12266,   3, 0x20000014) /* SoundTable */
+     , (12266,   8, 0x060022C4) /* Icon */
+     , (12266,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12266, 8040, 60752203, 160, -80, -42, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (12266, 8040, 0x039F014B, 160, -80, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x039F014B [160.000000 -80.000000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */;

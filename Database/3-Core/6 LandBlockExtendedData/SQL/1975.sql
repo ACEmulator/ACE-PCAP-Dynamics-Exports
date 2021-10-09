@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1975;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71975001,  1154, 0x19750009, 46.85137, 8.204681, 209.5314, 0.7397346, 0, 0, -0.6728987, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x71975001,  1154, 0x19750009, 46.85137, 8.204681, 209.5314, 0.739735, 0, 0, -0.672899, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x19750009 [46.851370 8.204681 209.531400] 0.739735 0.000000 0.000000 -0.672899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,11 +9,11 @@ VALUES (0x71975001, 0x71975002, '2019-02-10 00:00:00') /* Diamond Golem (36830) 
      , (0x71975001, 0x71975003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71975002, 36830, 0x19750009, 46.85137, 8.204681, 209.5314, 0.7397346, 0, 0, -0.6728987,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+VALUES (0x71975002, 36830, 0x19750009, 46.85137, 8.204681, 209.5314, 0.739735, 0, 0, -0.672899,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x19750009 [46.851370 8.204681 209.531400] 0.739735 0.000000 0.000000 -0.672899 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71975003, 24497, 0x1975000A, 45.5399, 34.19005, 205.7641, 0.5393945, 0, 0, -0.8420532,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+VALUES (0x71975003, 24497, 0x1975000A, 45.5399, 34.19005, 205.7641, 0.539395, 0, 0, -0.842053,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x1975000A [45.539900 34.190050 205.764100] 0.539395 0.000000 0.000000 -0.842053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

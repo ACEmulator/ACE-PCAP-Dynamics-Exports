@@ -25,8 +25,8 @@ VALUES (38042,   1, 'Falatacot Blood Prophetess Trinket') /* Name */
      , (38042,  16, 'This delicate bauble is similar to the Falatacot Trinkets which may be found around Dereth, but is more finely crafted.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38042,   1,   33554669) /* Setup */
-     , (38042,   3,  536870932) /* SoundTable */
-     , (38042,   6,   67111928) /* PaletteBase */
-     , (38042,   8,  100689282) /* Icon */
-     , (38042,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38042,   1, 0x020000ED) /* Setup */
+     , (38042,   3, 0x20000014) /* SoundTable */
+     , (38042,   6, 0x04000BF8) /* PaletteBase */
+     , (38042,   8, 0x06006582) /* Icon */
+     , (38042,  22, 0x3400002B) /* PhysicsEffectTable */;

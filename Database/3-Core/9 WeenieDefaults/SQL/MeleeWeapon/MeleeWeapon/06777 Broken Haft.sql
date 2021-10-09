@@ -38,8 +38,8 @@ VALUES (6777,   1, 'Broken Haft') /* Name */
      , (6777,  16, 'A reddish steel silifi haft, splintered at the blade end. There are three notches on the remaining length of the haft, though there may have been more previously.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6777,   1,   33556554) /* Setup */
-     , (6777,   3,  536870932) /* SoundTable */
-     , (6777,   6,   67111919) /* PaletteBase */
-     , (6777,   8,  100670593) /* Icon */
-     , (6777,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6777,   1, 0x0200084A) /* Setup */
+     , (6777,   3, 0x20000014) /* SoundTable */
+     , (6777,   6, 0x04000BEF) /* PaletteBase */
+     , (6777,   8, 0x06001C81) /* Icon */
+     , (6777,  22, 0x3400002B) /* PhysicsEffectTable */;

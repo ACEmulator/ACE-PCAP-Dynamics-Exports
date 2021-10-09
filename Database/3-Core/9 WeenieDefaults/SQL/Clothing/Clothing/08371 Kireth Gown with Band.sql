@@ -34,8 +34,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') /* Inscription */
      , (8371,   8, 'Xore') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8371,   1,   33554854) /* Setup */
-     , (8371,   3,  536870932) /* SoundTable */
-     , (8371,   6,   67108990) /* PaletteBase */
-     , (8371,   8,  100671150) /* Icon */
-     , (8371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8371,   1, 0x020001A6) /* Setup */
+     , (8371,   3, 0x20000014) /* SoundTable */
+     , (8371,   6, 0x0400007E) /* PaletteBase */
+     , (8371,   8, 0x06001EAE) /* Icon */
+     , (8371,  22, 0x3400002B) /* PhysicsEffectTable */;

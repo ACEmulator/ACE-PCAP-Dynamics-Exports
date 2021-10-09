@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30761,   1, 'The Withered Atoll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30761,   1,   33559084) /* Setup */
-     , (30761,   3,  536870932) /* SoundTable */
-     , (30761,   6,   67112626) /* PaletteBase */
-     , (30761,   8,  100675746) /* Icon */
-     , (30761,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30761,   1, 0x0200122C) /* Setup */
+     , (30761,   3, 0x20000014) /* SoundTable */
+     , (30761,   6, 0x04000EB2) /* PaletteBase */
+     , (30761,   8, 0x060030A2) /* Icon */
+     , (30761,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30761, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

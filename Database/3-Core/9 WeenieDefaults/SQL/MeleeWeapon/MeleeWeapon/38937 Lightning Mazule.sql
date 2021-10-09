@@ -34,11 +34,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38937,   1, 'Lightning Mazule') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38937,   1,   33559473) /* Setup */
-     , (38937,   3,  536870932) /* SoundTable */
-     , (38937,   6,   67115559) /* PaletteBase */
-     , (38937,   8,  100686964) /* Icon */;
+VALUES (38937,   1, 0x020013B1) /* Setup */
+     , (38937,   3, 0x20000014) /* SoundTable */
+     , (38937,   6, 0x04001A27) /* PaletteBase */
+     , (38937,   8, 0x06005C74) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38937, 8040, 869924901, 102.9697, 112.9924, 59.94338, 0.2705981, 0.2705981, -0.6532815, -0.6532815) /* PCAPRecordedLocation */
+VALUES (38937, 8040, 0x33DA0025, 102.9697, 112.9924, 59.94338, 0.270598, 0.270598, -0.653282, -0.653282) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA0025 [102.969700 112.992400 59.943380] 0.270598 0.270598 -0.653282 -0.653282 */;

@@ -32,7 +32,7 @@ VALUES (41945,   1, 'Strange Jewel') /* Name */
      , (41945,  16, 'This crystal sometimes shows an anguished face within its facets.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41945,   1,   33554809) /* Setup */
-     , (41945,   3,  536870932) /* SoundTable */
-     , (41945,   8,  100674286) /* Icon */
-     , (41945,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41945,   1, 0x02000179) /* Setup */
+     , (41945,   3, 0x20000014) /* SoundTable */
+     , (41945,   8, 0x06002AEE) /* Icon */
+     , (41945,  22, 0x3400002B) /* PhysicsEffectTable */;

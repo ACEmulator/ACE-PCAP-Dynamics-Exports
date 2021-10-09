@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32781,   1, 'The Bandits of the Creepy Chambers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32781,   1,   33559084) /* Setup */
-     , (32781,   3,  536870932) /* SoundTable */
-     , (32781,   6,   67112626) /* PaletteBase */
-     , (32781,   8,  100675746) /* Icon */
-     , (32781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32781,   1, 0x0200122C) /* Setup */
+     , (32781,   3, 0x20000014) /* SoundTable */
+     , (32781,   6, 0x04000EB2) /* PaletteBase */
+     , (32781,   8, 0x060030A2) /* Icon */
+     , (32781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32781, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

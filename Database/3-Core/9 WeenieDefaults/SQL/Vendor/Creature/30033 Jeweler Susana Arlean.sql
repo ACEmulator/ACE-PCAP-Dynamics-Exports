@@ -34,20 +34,20 @@ VALUES (30033,   1, 'Jeweler Susana Arlean') /* Name */
      , (30033,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30033,   1,   33554510) /* Setup */
-     , (30033,   2,  150994945) /* MotionTable */
-     , (30033,   3,  536870914) /* SoundTable */
-     , (30033,   6,   67108990) /* PaletteBase */
-     , (30033,   8,  100667446) /* Icon */
-     , (30033,   9,   83890278) /* EyesTexture */
-     , (30033,  10,   83890311) /* NoseTexture */
-     , (30033,  11,   83890353) /* MouthTexture */
-     , (30033,  15,   67116989) /* HairPalette */
-     , (30033,  16,   67109564) /* EyesPalette */
-     , (30033,  17,   67115908) /* SkinPalette */;
+VALUES (30033,   1, 0x0200004E) /* Setup */
+     , (30033,   2, 0x09000001) /* MotionTable */
+     , (30033,   3, 0x20000002) /* SoundTable */
+     , (30033,   6, 0x0400007E) /* PaletteBase */
+     , (30033,   8, 0x06001036) /* Icon */
+     , (30033,   9, 0x05001066) /* EyesTexture */
+     , (30033,  10, 0x05001087) /* NoseTexture */
+     , (30033,  11, 0x050010B1) /* MouthTexture */
+     , (30033,  15, 0x04001FBD) /* HairPalette */
+     , (30033,  16, 0x040002BC) /* EyesPalette */
+     , (30033,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30033, 8040, 869859590, 14.2797, 36.9754, 52.005, 0.7181019, 0, 0, -0.695938) /* PCAPRecordedLocation */
+VALUES (30033, 8040, 0x33D90106, 14.2797, 36.9754, 52.005, 0.718102, 0, 0, -0.695938) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90106 [14.279700 36.975400 52.005000] 0.718102 0.000000 0.000000 -0.695938 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

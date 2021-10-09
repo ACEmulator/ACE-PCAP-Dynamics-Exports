@@ -26,8 +26,8 @@ VALUES (44267,   1, 'Engraved A''nekshay Bracers') /* Name */
      , (44267,  20, 'Engraved A''nekshay Bracers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44267,   1,   33554683) /* Setup */
-     , (44267,   3,  536870932) /* SoundTable */
-     , (44267,   6,   67111919) /* PaletteBase */
-     , (44267,   8,  100691961) /* Icon */
-     , (44267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44267,   1, 0x020000FB) /* Setup */
+     , (44267,   3, 0x20000014) /* SoundTable */
+     , (44267,   6, 0x04000BEF) /* PaletteBase */
+     , (44267,   8, 0x06006FF9) /* Icon */
+     , (44267,  22, 0x3400002B) /* PhysicsEffectTable */;

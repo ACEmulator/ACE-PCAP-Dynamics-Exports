@@ -23,9 +23,9 @@ VALUES (25768,   1, 'Aluvian Hanging Rug') /* Name */
      , (25768,  16, 'An Aluvian rug set with rungs so that it can be hung on a wall hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25768,   1,   33558525) /* Setup */
-     , (25768,   8,  100675558) /* Icon */;
+VALUES (25768,   1, 0x02000FFD) /* Setup */
+     , (25768,   8, 0x06002FE6) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25768, 8040, 2103705619, 56.67964, 56.63373, 12, 0.05642368, 0, 0, -0.9984069) /* PCAPRecordedLocation */
+VALUES (25768, 8040, 0x7D640013, 56.67964, 56.63373, 12, 0.056424, 0, 0, -0.998407) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [56.679640 56.633730 12.000000] 0.056424 0.000000 0.000000 -0.998407 */;

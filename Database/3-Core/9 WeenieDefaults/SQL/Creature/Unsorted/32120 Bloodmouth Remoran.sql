@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32120,   1, 'Bloodmouth Remoran') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32120,   1,   33559700) /* Setup */
-     , (32120,   2,  150995342) /* MotionTable */
-     , (32120,   3,  536871103) /* SoundTable */
-     , (32120,   6,   67116726) /* PaletteBase */
-     , (32120,   8,  100667937) /* Icon */
-     , (32120,  22,  872415414) /* PhysicsEffectTable */;
+VALUES (32120,   1, 0x02001494) /* Setup */
+     , (32120,   2, 0x0900018E) /* MotionTable */
+     , (32120,   3, 0x200000BF) /* SoundTable */
+     , (32120,   6, 0x04001EB6) /* PaletteBase */
+     , (32120,   8, 0x06001221) /* Icon */
+     , (32120,  22, 0x340000B6) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32120, 8040, 3487629346, 100.236, 42.2953, 1.524608, 0.0132704, 0, 0, 0.999912) /* PCAPRecordedLocation */
+VALUES (32120, 8040, 0xCFE10022, 100.236, 42.2953, 1.524608, 0.01327, 0, 0, 0.999912) /* PCAPRecordedLocation */
 /* @teleloc 0xCFE10022 [100.236000 42.295300 1.524608] 0.013270 0.000000 0.000000 0.999912 */;

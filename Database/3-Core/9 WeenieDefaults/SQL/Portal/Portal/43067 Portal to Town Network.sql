@@ -21,10 +21,10 @@ VALUES (43067,   1, 'Portal to Town Network') /* Name */
      , (43067,  16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43067,   1,   33554867) /* Setup */
-     , (43067,   2,  150994947) /* MotionTable */
-     , (43067,   8,  100667499) /* Icon */;
+VALUES (43067,   1, 0x020001B3) /* Setup */
+     , (43067,   2, 0x09000003) /* MotionTable */
+     , (43067,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43067, 8040, 4116250685, 171.6, 113.397, 20.198, 0.9979713, 0, 0, 0.06366552) /* PCAPRecordedLocation */
+VALUES (43067, 8040, 0xF559003D, 171.6, 113.397, 20.198, 0.997971, 0, 0, 0.063666) /* PCAPRecordedLocation */
 /* @teleloc 0xF559003D [171.600000 113.397000 20.198000] 0.997971 0.000000 0.000000 0.063666 */;

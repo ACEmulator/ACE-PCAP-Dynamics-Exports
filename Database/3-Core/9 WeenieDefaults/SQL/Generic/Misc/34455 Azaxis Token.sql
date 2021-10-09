@@ -21,7 +21,7 @@ VALUES (34455,   1, 'Azaxis Token') /* Name */
      , (34455,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34455,   1,   33554817) /* Setup */
-     , (34455,   3,  536870932) /* SoundTable */
-     , (34455,   8,  100689382) /* Icon */
-     , (34455,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34455,   1, 0x02000181) /* Setup */
+     , (34455,   3, 0x20000014) /* SoundTable */
+     , (34455,   8, 0x060065E6) /* Icon */
+     , (34455,  22, 0x3400002B) /* PhysicsEffectTable */;

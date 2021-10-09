@@ -19,9 +19,9 @@ VALUES (29216,   1, 'Tasty Amber Ale') /* Name */
      , (29216,  20, 'Bottles of Tasty Amber Ale') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29216,   1,   33559127) /* Setup */
-     , (29216,   3,  536870932) /* SoundTable */
-     , (29216,   8,  100687555) /* Icon */
-     , (29216,  22,  872415275) /* PhysicsEffectTable */
-     , (29216,  50,  100687551) /* IconOverlay */
-     , (29216,  52,  100687547) /* IconUnderlay */;
+VALUES (29216,   1, 0x02001257) /* Setup */
+     , (29216,   3, 0x20000014) /* SoundTable */
+     , (29216,   8, 0x06005EC3) /* Icon */
+     , (29216,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29216,  50, 0x06005EBF) /* IconOverlay */
+     , (29216,  52, 0x06005EBB) /* IconUnderlay */;

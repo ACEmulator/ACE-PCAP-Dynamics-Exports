@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43216,   1, 'Subverted Bronze Gauntlet Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43216,   1,   33560840) /* Setup */
-     , (43216,   2,  150995459) /* MotionTable */
-     , (43216,   3,  536871123) /* SoundTable */
-     , (43216,   8,  100674350) /* Icon */
-     , (43216,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (43216,   1, 0x02001908) /* Setup */
+     , (43216,   2, 0x09000203) /* MotionTable */
+     , (43216,   3, 0x200000D3) /* SoundTable */
+     , (43216,   8, 0x06002B2E) /* Icon */
+     , (43216,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43216, 8040, 2332230158, 20, -93.2903, -71.992, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43216, 8040, 0x8B03020E, 20, -93.2903, -71.992, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8B03020E [20.000000 -93.290300 -71.992000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

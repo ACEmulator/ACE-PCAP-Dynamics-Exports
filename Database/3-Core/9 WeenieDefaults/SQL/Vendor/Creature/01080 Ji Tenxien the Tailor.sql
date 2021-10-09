@@ -34,20 +34,20 @@ VALUES (1080,   1, 'Ji Tenxien the Tailor') /* Name */
      , (1080,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1080,   1,   33554510) /* Setup */
-     , (1080,   2,  150994945) /* MotionTable */
-     , (1080,   3,  536870914) /* SoundTable */
-     , (1080,   6,   67108990) /* PaletteBase */
-     , (1080,   8,  100667446) /* Icon */
-     , (1080,   9,   83890243) /* EyesTexture */
-     , (1080,  10,   83890311) /* NoseTexture */
-     , (1080,  11,   83890342) /* MouthTexture */
-     , (1080,  15,   67116998) /* HairPalette */
-     , (1080,  16,   67110063) /* EyesPalette */
-     , (1080,  17,   67110061) /* SkinPalette */;
+VALUES (1080,   1, 0x0200004E) /* Setup */
+     , (1080,   2, 0x09000001) /* MotionTable */
+     , (1080,   3, 0x20000002) /* SoundTable */
+     , (1080,   6, 0x0400007E) /* PaletteBase */
+     , (1080,   8, 0x06001036) /* Icon */
+     , (1080,   9, 0x05001043) /* EyesTexture */
+     , (1080,  10, 0x05001087) /* NoseTexture */
+     , (1080,  11, 0x050010A6) /* MouthTexture */
+     , (1080,  15, 0x04001FC6) /* HairPalette */
+     , (1080,  16, 0x040004AF) /* EyesPalette */
+     , (1080,  17, 0x040004AD) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1080, 8040, 3381395760, 80, 160, 22.005, -0.875886, 0, 0, -0.482518) /* PCAPRecordedLocation */
+VALUES (1080, 8040, 0xC98C0130, 80, 160, 22.005, -0.875886, 0, 0, -0.482518) /* PCAPRecordedLocation */
 /* @teleloc 0xC98C0130 [80.000000 160.000000 22.005000] -0.875886 0.000000 0.000000 -0.482518 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

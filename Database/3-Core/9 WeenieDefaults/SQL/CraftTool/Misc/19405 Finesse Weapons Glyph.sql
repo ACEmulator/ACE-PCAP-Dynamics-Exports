@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19405,   1, 'Finesse Weapons Glyph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19405,   1,   33556438) /* Setup */
-     , (19405,   3,  536870932) /* SoundTable */
-     , (19405,   8,  100672875) /* Icon */
-     , (19405,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19405,   1, 0x020007D6) /* Setup */
+     , (19405,   3, 0x20000014) /* SoundTable */
+     , (19405,   8, 0x0600256B) /* Icon */
+     , (19405,  22, 0x3400002B) /* PhysicsEffectTable */;

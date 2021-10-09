@@ -23,7 +23,7 @@ VALUES (20247,   1, 'Scroll of Void''s Call') /* Name */
 Drains 42-79 points of the target''s Mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20247,   1,   33554826) /* Setup */
-     , (20247,   8,  100676932) /* Icon */
-     , (20247,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20247,   1, 0x0200018A) /* Setup */
+     , (20247,   8, 0x06003544) /* Icon */
+     , (20247,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20247,  28,       2078) /* Spell - ManaDrainOther7 */;

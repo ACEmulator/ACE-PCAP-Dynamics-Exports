@@ -27,7 +27,7 @@ VALUES (38917,   1, 'Braced Mana Forge Key') /* Name */
      , (38917,  16, 'A crystalline key that coruscates with purple energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38917,   1,   33554784) /* Setup */
-     , (38917,   3,  536870932) /* SoundTable */
-     , (38917,   8,  100686710) /* Icon */
-     , (38917,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38917,   1, 0x02000160) /* Setup */
+     , (38917,   3, 0x20000014) /* SoundTable */
+     , (38917,   8, 0x06005B76) /* Icon */
+     , (38917,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (32937,   1, 'Lucky White Rabbit''s Foot') /* Name */
      , (32937,  16, 'A beautiful white rabbit''s foot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32937,   1,   33554817) /* Setup */
-     , (32937,   3,  536870932) /* SoundTable */
-     , (32937,   8,  100688852) /* Icon */
-     , (32937,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32937,   1, 0x02000181) /* Setup */
+     , (32937,   3, 0x20000014) /* SoundTable */
+     , (32937,   8, 0x060063D4) /* Icon */
+     , (32937,  22, 0x3400002B) /* PhysicsEffectTable */;

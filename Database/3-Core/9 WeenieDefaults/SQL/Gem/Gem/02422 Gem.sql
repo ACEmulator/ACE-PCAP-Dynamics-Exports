@@ -32,9 +32,9 @@ VALUES (2422,   1, 'Gem') /* Name */
      , (2422,  16, 'Gem of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2422,   1,   33554809) /* Setup */
-     , (2422,   3,  536870932) /* SoundTable */
-     , (2422,   6,   67111919) /* PaletteBase */
-     , (2422,   8,  100674740) /* Icon */
-     , (2422,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2422,   1, 0x02000179) /* Setup */
+     , (2422,   3, 0x20000014) /* SoundTable */
+     , (2422,   6, 0x04000BEF) /* PaletteBase */
+     , (2422,   8, 0x06002CB4) /* Icon */
+     , (2422,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2422,  28,       1332) /* Spell - StrengthSelf6 */;

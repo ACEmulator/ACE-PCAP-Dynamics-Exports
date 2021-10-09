@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48821,   1, 'Blitzkrieg Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48821,   1,   33561259) /* Setup */
-     , (48821,   2,  150994945) /* MotionTable */
-     , (48821,   3,  536870913) /* SoundTable */
-     , (48821,   8,  100667446) /* Icon */;
+VALUES (48821,   1, 0x02001AAB) /* Setup */
+     , (48821,   2, 0x09000001) /* MotionTable */
+     , (48821,   3, 0x20000001) /* SoundTable */
+     , (48821,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48821, 8040, 1482883600, 190, -80, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48821, 8040, 0x58630210, 190, -80, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58630210 [190.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;

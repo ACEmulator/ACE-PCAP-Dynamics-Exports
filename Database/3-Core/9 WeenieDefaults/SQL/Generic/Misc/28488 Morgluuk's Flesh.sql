@@ -24,8 +24,8 @@ VALUES (28488,   1, 'Morgluuk''s Flesh') /* Name */
      , (28488,  16, 'This flesh was taken from the hide of the once feared and powerful Burun, Morgluuk. Perhaps if you brought this to one of the Noble Guards stationed in the capital cities you could garner a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28488,   1,   33554817) /* Setup */
-     , (28488,   3,  536870932) /* SoundTable */
-     , (28488,   6,   67111919) /* PaletteBase */
-     , (28488,   8,  100676959) /* Icon */
-     , (28488,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28488,   1, 0x02000181) /* Setup */
+     , (28488,   3, 0x20000014) /* SoundTable */
+     , (28488,   6, 0x04000BEF) /* PaletteBase */
+     , (28488,   8, 0x0600355F) /* Icon */
+     , (28488,  22, 0x3400002B) /* PhysicsEffectTable */;

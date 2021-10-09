@@ -43,8 +43,8 @@ VALUES (40638,   1, 'Flaming Tetsubo') /* Name */
      , (40638,  16, 'Flaming Tetsubo') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40638,   1,   33560731) /* Setup */
-     , (40638,   3,  536870932) /* SoundTable */
-     , (40638,   6,   67116700) /* PaletteBase */
-     , (40638,   8,  100690499) /* Icon */
-     , (40638,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40638,   1, 0x0200189B) /* Setup */
+     , (40638,   3, 0x20000014) /* SoundTable */
+     , (40638,   6, 0x04001E9C) /* PaletteBase */
+     , (40638,   8, 0x06006A43) /* Icon */
+     , (40638,  22, 0x3400002B) /* PhysicsEffectTable */;

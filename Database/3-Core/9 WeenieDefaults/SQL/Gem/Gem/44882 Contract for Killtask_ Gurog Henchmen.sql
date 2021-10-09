@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44882,   1, 'Contract for Killtask: Gurog Henchmen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44882,   1,   33557625) /* Setup */
-     , (44882,   3,  536870932) /* SoundTable */
-     , (44882,   8,  100691928) /* Icon */
-     , (44882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44882,   1, 0x02000C79) /* Setup */
+     , (44882,   3, 0x20000014) /* SoundTable */
+     , (44882,   8, 0x06006FD8) /* Icon */
+     , (44882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44882, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

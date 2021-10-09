@@ -46,11 +46,11 @@ VALUES (28065,   1, 'Sacrificial Dagger') /* Name */
      , (28065,  16, 'A vicious looking dagger of Dericostian design, with a cruel serrated edge. There is old, dark blood on its blade. Found in the reservoir on Aerlinthe Island. This weapon is unenchantable and ignores modified armor and protection values.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28065,   1,   33558822) /* Setup */
-     , (28065,   3,  536870932) /* SoundTable */
-     , (28065,   8,  100676681) /* Icon */
-     , (28065,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28065,   1, 0x02001126) /* Setup */
+     , (28065,   3, 0x20000014) /* SoundTable */
+     , (28065,   8, 0x06003449) /* Icon */
+     , (28065,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28065, 8040, 49152603, 147.654, -77.5584, -41.93625, 0.1445851, 0, 0, -0.9894924) /* PCAPRecordedLocation */
+VALUES (28065, 8040, 0x02EE025B, 147.654, -77.5584, -41.93625, 0.144585, 0, 0, -0.989492) /* PCAPRecordedLocation */
 /* @teleloc 0x02EE025B [147.654000 -77.558400 -41.936250] 0.144585 0.000000 0.000000 -0.989492 */;

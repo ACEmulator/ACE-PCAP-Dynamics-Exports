@@ -51,18 +51,18 @@ VALUES (40675,   1, 'Olthoi Bracers') /* Name */
      , (40675,  16, 'Olthoi Bracers of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40675,   1,   33554641) /* Setup */
-     , (40675,   3,  536870932) /* SoundTable */
-     , (40675,   6,   67108990) /* PaletteBase */
-     , (40675,   8,  100674525) /* Icon */
-     , (40675,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40675,   1, 0x020000D1) /* Setup */
+     , (40675,   3, 0x20000014) /* SoundTable */
+     , (40675,   6, 0x0400007E) /* PaletteBase */
+     , (40675,   8, 0x06002BDD) /* Icon */
+     , (40675,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40675,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40675,  2092,      2)  /* AcidBane7 */
-     , (40675,  2104,      2)  /* FrostBane7 */
-     , (40675,  2113,      2)  /* PiercingBane7 */
+VALUES (40675,  2113,      2)  /* PiercingBane7 */
      , (40675,  2590,      2)  /* CANTRIPFROSTBANE2 */
+     , (40675,  6123,      2)  /* SummoningMasterySelf8 */
+     , (40675,  2092,      2)  /* AcidBane7 */
      , (40675,  4401,      2)  /* FlameBane8 */
      , (40675,  4407,      2)  /* Impenetrability8 */
-     , (40675,  6123,      2)  /* SummoningMasterySelf8 */;
+     , (40675,  2104,      2)  /* FrostBane7 */;

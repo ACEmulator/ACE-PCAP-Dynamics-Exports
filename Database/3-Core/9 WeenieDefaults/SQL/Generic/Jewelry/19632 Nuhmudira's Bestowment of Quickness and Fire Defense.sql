@@ -39,13 +39,13 @@ VALUES (19632,   1, 'Nuhmudira''s Bestowment of Quickness and Fire Defense') /* 
      , (19632,  25, 'Valarie Tickles') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19632,   1,   33554687) /* Setup */
-     , (19632,   3,  536870932) /* SoundTable */
-     , (19632,   6,   67111919) /* PaletteBase */
-     , (19632,   8,  100672963) /* Icon */
-     , (19632,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19632,   1, 0x020000FF) /* Setup */
+     , (19632,   3, 0x20000014) /* SoundTable */
+     , (19632,   6, 0x04000BEF) /* PaletteBase */
+     , (19632,   8, 0x060025C3) /* Icon */
+     , (19632,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19632,  1095,      2)  /* FireProtectionOther5 */
-     , (19632,  1407,      2)  /* QuicknessOther5 */
-     , (19632,  2669,      2)  /* NuhmudirasBestowment */;
+     , (19632,  2669,      2)  /* NuhmudirasBestowment */
+     , (19632,  1407,      2)  /* QuicknessOther5 */;

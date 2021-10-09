@@ -27,9 +27,9 @@ VALUES (29108,   1, 'Tusker Pus') /* Name */
      , (29108,  20, 'Bottles of Tusker Pus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29108,   1,   33559128) /* Setup */
-     , (29108,   3,  536870932) /* SoundTable */
-     , (29108,   8,  100686437) /* Icon */
-     , (29108,  22,  872415275) /* PhysicsEffectTable */
-     , (29108,  50,  100687554) /* IconOverlay */
-     , (29108,  52,  100687547) /* IconUnderlay */;
+VALUES (29108,   1, 0x02001258) /* Setup */
+     , (29108,   3, 0x20000014) /* SoundTable */
+     , (29108,   8, 0x06005A65) /* Icon */
+     , (29108,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29108,  50, 0x06005EC2) /* IconOverlay */
+     , (29108,  52, 0x06005EBB) /* IconUnderlay */;

@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24001,   1, 'Arikas, Warden of Knorr') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24001,   1,   33558367) /* Setup */
-     , (24001,   2,  150994945) /* MotionTable */
-     , (24001,   3,  536870933) /* SoundTable */
-     , (24001,   8,  100674350) /* Icon */;
+VALUES (24001,   1, 0x02000F5F) /* Setup */
+     , (24001,   2, 0x09000001) /* MotionTable */
+     , (24001,   3, 0x20000015) /* SoundTable */
+     , (24001,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24001, 8040, 1682178371, 90, -288, -23.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (24001, 8040, 0x64440143, 90, -288, -23.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x64440143 [90.000000 -288.000000 -23.990000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11777,   1, 'Reinforced Falcon Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11777,   1,   33557257) /* Setup */
-     , (11777,   3,  536870932) /* SoundTable */
-     , (11777,   8,  100671930) /* Icon */
-     , (11777,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11777,   1, 0x02000B09) /* Setup */
+     , (11777,   3, 0x20000014) /* SoundTable */
+     , (11777,   8, 0x060021BA) /* Icon */
+     , (11777,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11777, 8040, 1467417548, 198.351, -41.46708, -0.071, 0.511101, 0.511101, -0.4886469, -0.4886469) /* PCAPRecordedLocation */
+VALUES (11777, 8040, 0x577703CC, 198.351, -41.46708, -0.071, 0.511101, 0.511101, -0.488647, -0.488647) /* PCAPRecordedLocation */
 /* @teleloc 0x577703CC [198.351000 -41.467080 -0.071000] 0.511101 0.511101 -0.488647 -0.488647 */;

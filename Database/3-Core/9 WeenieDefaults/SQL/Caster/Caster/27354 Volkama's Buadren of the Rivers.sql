@@ -41,16 +41,16 @@ VALUES (27354,   1, 'Volkama''s Buadren of the Rivers') /* Name */
      , (27354,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27354,   1,   33558670) /* Setup */
-     , (27354,   3,  536870932) /* SoundTable */
-     , (27354,   8,  100676360) /* Icon */
-     , (27354,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27354,   1, 0x0200108E) /* Setup */
+     , (27354,   3, 0x20000014) /* SoundTable */
+     , (27354,   8, 0x06003308) /* Icon */
+     , (27354,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27354, 8040, 23855549, 54.95266, -39.65619, -0.071, 0.6974312, 0.6974312, -0.1165748, -0.1165748) /* PCAPRecordedLocation */
+VALUES (27354, 8040, 0x016C01BD, 54.95266, -39.65619, -0.071, 0.697431, 0.697431, -0.116575, -0.116575) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.952660 -39.656190 -0.071000] 0.697431 0.697431 -0.116575 -0.116575 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27354,  2470,      2)  /* StillWaterGreater */
-     , (27354,  2473,      2)  /* TorrentGreater */
-     , (27354,  3224,      2)  /* CascadeManaCGreater */;
+VALUES (27354,  3224,      2)  /* CascadeManaCGreater */
+     , (27354,  2470,      2)  /* StillWaterGreater */
+     , (27354,  2473,      2)  /* TorrentGreater */;

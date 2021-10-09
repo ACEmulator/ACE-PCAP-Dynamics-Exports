@@ -29,20 +29,20 @@ VALUES (9497,   1, 'Sho High-Stakes Gamesmaster') /* Name */
      , (9497,   5, 'Gamesmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9497,   1,   33554510) /* Setup */
-     , (9497,   2,  150994945) /* MotionTable */
-     , (9497,   3,  536870914) /* SoundTable */
-     , (9497,   6,   67108990) /* PaletteBase */
-     , (9497,   8,  100667446) /* Icon */
-     , (9497,   9,   83890260) /* EyesTexture */
-     , (9497,  10,   83890285) /* NoseTexture */
-     , (9497,  11,   83890345) /* MouthTexture */
-     , (9497,  15,   67116998) /* HairPalette */
-     , (9497,  16,   67110063) /* EyesPalette */
-     , (9497,  17,   67110061) /* SkinPalette */;
+VALUES (9497,   1, 0x0200004E) /* Setup */
+     , (9497,   2, 0x09000001) /* MotionTable */
+     , (9497,   3, 0x20000002) /* SoundTable */
+     , (9497,   6, 0x0400007E) /* PaletteBase */
+     , (9497,   8, 0x06001036) /* Icon */
+     , (9497,   9, 0x05001054) /* EyesTexture */
+     , (9497,  10, 0x0500106D) /* NoseTexture */
+     , (9497,  11, 0x050010A9) /* MouthTexture */
+     , (9497,  15, 0x04001FC6) /* HairPalette */
+     , (9497,  16, 0x040004AF) /* EyesPalette */
+     , (9497,  17, 0x040004AD) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9497, 8040, 3679715584, 111, 139.6444, 20.005, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (9497, 8040, 0xDB540100, 111, 139.6444, 20.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540100 [111.000000 139.644400 20.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

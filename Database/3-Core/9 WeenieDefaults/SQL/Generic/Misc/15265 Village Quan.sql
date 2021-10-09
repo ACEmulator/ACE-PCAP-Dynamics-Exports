@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15265,   1, 'Village Quan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15265,   1,   33557463) /* Setup */
-     , (15265,   8,  100668115) /* Icon */;
+VALUES (15265,   1, 0x02000BD7) /* Setup */
+     , (15265,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15265, 8040, 3462922268, 91.6677, 91.1701, 57.59751, 0.942946, 0, 0, -0.332945) /* PCAPRecordedLocation */
+VALUES (15265, 8040, 0xCE68001C, 91.6677, 91.1701, 57.59751, 0.942946, 0, 0, -0.332945) /* PCAPRecordedLocation */
 /* @teleloc 0xCE68001C [91.667700 91.170100 57.597510] 0.942946 0.000000 0.000000 -0.332945 */;

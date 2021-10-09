@@ -37,12 +37,12 @@ VALUES (45554,   1, 'Training Broad Sword') /* Name */
      , (45554,  15, 'A basic broad sword forged in the Strathelar Training Academy. This item can be placed on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45554,   1,   33554758) /* Setup */
-     , (45554,   3,  536870932) /* SoundTable */
-     , (45554,   6,   67111919) /* PaletteBase */
-     , (45554,   8,  100669024) /* Icon */
-     , (45554,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45554,   1, 0x02000146) /* Setup */
+     , (45554,   3, 0x20000014) /* SoundTable */
+     , (45554,   6, 0x04000BEF) /* PaletteBase */
+     , (45554,   8, 0x06001660) /* Icon */
+     , (45554,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45554, 8040, 2847146025, 139.9185, 20.96076, 93.93001, -0.4670289, -0.4670289, -0.5309275, -0.5309275) /* PCAPRecordedLocation */
+VALUES (45554, 8040, 0xA9B40029, 139.9185, 20.96076, 93.93001, -0.467029, -0.467029, -0.530928, -0.530928) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40029 [139.918500 20.960760 93.930010] -0.467029 -0.467029 -0.530928 -0.530928 */;

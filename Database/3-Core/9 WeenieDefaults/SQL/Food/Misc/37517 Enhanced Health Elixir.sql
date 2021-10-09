@@ -33,8 +33,8 @@ VALUES (37517,   1, 'Enhanced Health Elixir') /* Name */
      , (37517,  15, 'This elixir has been enhanced by the Arcanum to be extra potent.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37517,   1,   33554603) /* Setup */
-     , (37517,   3,  536870932) /* SoundTable */
-     , (37517,   6,   67111919) /* PaletteBase */
-     , (37517,   8,  100676312) /* Icon */
-     , (37517,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37517,   1, 0x020000AB) /* Setup */
+     , (37517,   3, 0x20000014) /* SoundTable */
+     , (37517,   6, 0x04000BEF) /* PaletteBase */
+     , (37517,   8, 0x060032D8) /* Icon */
+     , (37517,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34190,   1, 'Pack Dark Remoran') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34190,   1,   33559700) /* Setup */
-     , (34190,   2,  150995351) /* MotionTable */
-     , (34190,   6,   67116726) /* PaletteBase */
-     , (34190,   8,  100689166) /* Icon */
-     , (34190,  22,  872415414) /* PhysicsEffectTable */;
+VALUES (34190,   1, 0x02001494) /* Setup */
+     , (34190,   2, 0x09000197) /* MotionTable */
+     , (34190,   6, 0x04001EB6) /* PaletteBase */
+     , (34190,   8, 0x0600650E) /* Icon */
+     , (34190,  22, 0x340000B6) /* PhysicsEffectTable */;

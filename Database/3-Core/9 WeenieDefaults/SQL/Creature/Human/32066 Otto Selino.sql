@@ -29,20 +29,20 @@ VALUES (32066,   1, 'Otto Selino') /* Name */
      , (32066,   5, 'Astronomer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32066,   1,   33554433) /* Setup */
-     , (32066,   2,  150994945) /* MotionTable */
-     , (32066,   3,  536870913) /* SoundTable */
-     , (32066,   6,   67108990) /* PaletteBase */
-     , (32066,   8,  100667446) /* Icon */
-     , (32066,   9,   83890513) /* EyesTexture */
-     , (32066,  10,   83890546) /* NoseTexture */
-     , (32066,  11,   83890566) /* MouthTexture */
-     , (32066,  15,   67117072) /* HairPalette */
-     , (32066,  16,   67109564) /* EyesPalette */
-     , (32066,  17,   67115908) /* SkinPalette */;
+VALUES (32066,   1, 0x02000001) /* Setup */
+     , (32066,   2, 0x09000001) /* MotionTable */
+     , (32066,   3, 0x20000001) /* SoundTable */
+     , (32066,   6, 0x0400007E) /* PaletteBase */
+     , (32066,   8, 0x06001036) /* Icon */
+     , (32066,   9, 0x05001151) /* EyesTexture */
+     , (32066,  10, 0x05001172) /* NoseTexture */
+     , (32066,  11, 0x05001186) /* MouthTexture */
+     , (32066,  15, 0x04002010) /* HairPalette */
+     , (32066,  16, 0x040002BC) /* EyesPalette */
+     , (32066,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32066, 8040, 565182486, 59.6352, 131.873, 8.805, -0.641217, 0, 0, 0.76736) /* PCAPRecordedLocation */
+VALUES (32066, 8040, 0x21B00016, 59.6352, 131.873, 8.805, -0.641217, 0, 0, 0.76736) /* PCAPRecordedLocation */
 /* @teleloc 0x21B00016 [59.635200 131.873000 8.805000] -0.641217 0.000000 0.000000 0.767360 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

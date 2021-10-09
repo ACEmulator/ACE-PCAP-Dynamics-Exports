@@ -45,15 +45,15 @@ VALUES (135,   1, 'Turban') /* Name */
      , (135,  16, 'Turban of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (135,   1,   33554855) /* Setup */
-     , (135,   3,  536870932) /* SoundTable */
-     , (135,   6,   67108990) /* PaletteBase */
-     , (135,   8,  100669205) /* Icon */
-     , (135,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (135,   1, 0x020001A7) /* Setup */
+     , (135,   3, 0x20000014) /* SoundTable */
+     , (135,   6, 0x0400007E) /* PaletteBase */
+     , (135,   8, 0x06001715) /* Icon */
+     , (135,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (135,  1485,      2)  /* Impenetrability5 */
-     , (135,  1497,      2)  /* AcidBane5 */
+VALUES (135,  5832,      2)  /* RecklessnessMasterySelf6 */
+     , (135,  1485,      2)  /* Impenetrability5 */
      , (135,  1552,      2)  /* FlameBane6 */
-     , (135,  1562,      2)  /* BladeBane6 */
-     , (135,  5832,      2)  /* RecklessnessMasterySelf6 */;
+     , (135,  1497,      2)  /* AcidBane5 */
+     , (135,  1562,      2)  /* BladeBane6 */;

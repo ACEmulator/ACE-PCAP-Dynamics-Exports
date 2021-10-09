@@ -18,9 +18,9 @@ VALUES (14725,   1, 'Ong-Hau Village') /* Name */
      , (14725,  16, 'Welcome to Ong-Hau Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14725,   1,   33557463) /* Setup */
-     , (14725,   8,  100668115) /* Icon */;
+VALUES (14725,   1, 0x02000BD7) /* Setup */
+     , (14725,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14725, 8040, 3963944997, 98.3035, 117.767, 22, 0.899837, 0, 0, 0.436227) /* PCAPRecordedLocation */
+VALUES (14725, 8040, 0xEC450025, 98.3035, 117.767, 22, 0.899837, 0, 0, 0.436227) /* PCAPRecordedLocation */
 /* @teleloc 0xEC450025 [98.303500 117.767000 22.000000] 0.899837 0.000000 0.000000 0.436227 */;

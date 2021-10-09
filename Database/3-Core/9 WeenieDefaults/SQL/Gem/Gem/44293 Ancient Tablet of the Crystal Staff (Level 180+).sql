@@ -29,11 +29,11 @@ VALUES (44293,   1, 'Ancient Tablet of the Crystal Staff (Level 180+)') /* Name 
      , (44293,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal staff. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44293,   1,   33554773) /* Setup */
-     , (44293,   3,  536870932) /* SoundTable */
-     , (44293,   8,  100691957) /* Icon */
-     , (44293,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44293,   1, 0x02000155) /* Setup */
+     , (44293,   3, 0x20000014) /* SoundTable */
+     , (44293,   8, 0x06006FF5) /* Icon */
+     , (44293,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44293, 8040, 3332964380, 81.06934, 92.42748, 42.079, 0.9038728, 0, 0, -0.4278013) /* PCAPRecordedLocation */
+VALUES (44293, 8040, 0xC6A9001C, 81.06934, 92.42748, 42.079, 0.903873, 0, 0, -0.427801) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [81.069340 92.427480 42.079000] 0.903873 0.000000 0.000000 -0.427801 */;

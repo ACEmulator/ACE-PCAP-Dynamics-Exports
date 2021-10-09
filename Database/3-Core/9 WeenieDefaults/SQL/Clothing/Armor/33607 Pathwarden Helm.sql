@@ -41,13 +41,13 @@ VALUES (33607,   1, 'Pathwarden Helm') /* Name */
      , (33607,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33607,   1,   33554650) /* Setup */
-     , (33607,   3,  536870932) /* SoundTable */
-     , (33607,   6,   67108990) /* PaletteBase */
-     , (33607,   8,  100667343) /* Icon */
-     , (33607,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33607,   1, 0x020000DA) /* Setup */
+     , (33607,   3, 0x20000014) /* SoundTable */
+     , (33607,   6, 0x0400007E) /* PaletteBase */
+     , (33607,   8, 0x06000FCF) /* Icon */
+     , (33607,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33607,  1422,      2)  /* FocusSelf2 */
-     , (33607,  1446,      2)  /* WillpowerSelf2 */
-     , (33607,  1482,      2)  /* Impenetrability2 */;
+VALUES (33607,  1482,      2)  /* Impenetrability2 */
+     , (33607,  1422,      2)  /* FocusSelf2 */
+     , (33607,  1446,      2)  /* WillpowerSelf2 */;

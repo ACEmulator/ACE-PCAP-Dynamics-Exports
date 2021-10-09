@@ -28,10 +28,10 @@ VALUES (42038,   1, 'Spectral Skull') /* Name */
      , (42038,  16, 'A spectral skull with sockets so dark they seem to be emptier than a mere lack of light can explain. The Spectral Skull is empowered to enchant a single weapon against Skeletons. This effect is permanent, but fragile, and therefore cannot be applied to any weapon previously empowered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42038,   1,   33556926) /* Setup */
-     , (42038,   3,  536870932) /* SoundTable */
-     , (42038,   6,   67111919) /* PaletteBase */
-     , (42038,   8,  100671219) /* Icon */
-     , (42038,  22,  872415275) /* PhysicsEffectTable */
-     , (42038,  50,  100690863) /* IconOverlay */
-     , (42038,  52,  100689404) /* IconUnderlay */;
+VALUES (42038,   1, 0x020009BE) /* Setup */
+     , (42038,   3, 0x20000014) /* SoundTable */
+     , (42038,   6, 0x04000BEF) /* PaletteBase */
+     , (42038,   8, 0x06001EF3) /* Icon */
+     , (42038,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42038,  50, 0x06006BAF) /* IconOverlay */
+     , (42038,  52, 0x060065FC) /* IconUnderlay */;

@@ -42,15 +42,15 @@ VALUES (28621,   1, 'Diforsa Leggings') /* Name */
      , (28621,  16, 'Diforsa Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28621,   1,   33559330) /* Setup */
-     , (28621,   3,  536870932) /* SoundTable */
-     , (28621,   6,   67108990) /* PaletteBase */
-     , (28621,   8,  100686058) /* Icon */
-     , (28621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28621,   1, 0x02001322) /* Setup */
+     , (28621,   3, 0x20000014) /* SoundTable */
+     , (28621,   6, 0x0400007E) /* PaletteBase */
+     , (28621,   8, 0x060058EA) /* Icon */
+     , (28621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28621,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28621,  1484,      2)  /* Impenetrability4 */
+VALUES (28621,  1539,      2)  /* LightningBane5 */
+     , (28621,  1484,      2)  /* Impenetrability4 */
      , (28621,  1496,      2)  /* AcidBane4 */
-     , (28621,  1528,      2)  /* FrostBane6 */
-     , (28621,  1539,      2)  /* LightningBane5 */;
+     , (28621,  1528,      2)  /* FrostBane6 */;

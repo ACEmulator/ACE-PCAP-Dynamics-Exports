@@ -31,20 +31,20 @@ VALUES (38422,   1, 'Corrado Wardun') /* Name */
      , (38422,   5, 'Bandit Boss Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38422,   1,   33554433) /* Setup */
-     , (38422,   2,  150994945) /* MotionTable */
-     , (38422,   3,  536870913) /* SoundTable */
-     , (38422,   6,   67108990) /* PaletteBase */
-     , (38422,   8,  100667377) /* Icon */
-     , (38422,   9,   83890502) /* EyesTexture */
-     , (38422,  10,   83890554) /* NoseTexture */
-     , (38422,  11,   83890635) /* MouthTexture */
-     , (38422,  15,   67117099) /* HairPalette */
-     , (38422,  16,   67110063) /* EyesPalette */
-     , (38422,  17,   67115907) /* SkinPalette */;
+VALUES (38422,   1, 0x02000001) /* Setup */
+     , (38422,   2, 0x09000001) /* MotionTable */
+     , (38422,   3, 0x20000001) /* SoundTable */
+     , (38422,   6, 0x0400007E) /* PaletteBase */
+     , (38422,   8, 0x06000FF1) /* Icon */
+     , (38422,   9, 0x05001146) /* EyesTexture */
+     , (38422,  10, 0x0500117A) /* NoseTexture */
+     , (38422,  11, 0x050011CB) /* MouthTexture */
+     , (38422,  15, 0x0400202B) /* HairPalette */
+     , (38422,  16, 0x040004AF) /* EyesPalette */
+     , (38422,  17, 0x04001B83) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38422, 8040, 12059246, 157.894, -26.8929, -17.995, 0.931354, 0, 0, 0.364115) /* PCAPRecordedLocation */
+VALUES (38422, 8040, 0x00B8026E, 157.894, -26.8929, -17.995, 0.931354, 0, 0, 0.364115) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026E [157.894000 -26.892900 -17.995000] 0.931354 0.000000 0.000000 0.364115 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

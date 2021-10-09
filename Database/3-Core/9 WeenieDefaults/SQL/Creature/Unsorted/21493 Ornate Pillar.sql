@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21493,   1, 'Ornate Pillar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21493,   1,   33557925) /* Setup */
-     , (21493,   2,  150995147) /* MotionTable */
-     , (21493,   3,  536871052) /* SoundTable */
-     , (21493,   8,  100673507) /* Icon */
-     , (21493,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (21493,   1, 0x02000DA5) /* Setup */
+     , (21493,   2, 0x090000CB) /* MotionTable */
+     , (21493,   3, 0x2000008C) /* SoundTable */
+     , (21493,   8, 0x060027E3) /* Icon */
+     , (21493,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21493, 8040, 3150381070, 43.1567, 124.749, 71, 0.9224846, 0, 0, 0.3860339) /* PCAPRecordedLocation */
+VALUES (21493, 8040, 0xBBC7000E, 43.1567, 124.749, 71, 0.922485, 0, 0, 0.386034) /* PCAPRecordedLocation */
 /* @teleloc 0xBBC7000E [43.156700 124.749000 71.000000] 0.922485 0.000000 0.000000 0.386034 */;

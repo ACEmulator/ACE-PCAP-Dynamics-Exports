@@ -30,14 +30,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47052,   1, 'Fahneph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47052,   1,   33561251) /* Setup */
-     , (47052,   2,  150994945) /* MotionTable */
-     , (47052,   3,  536870913) /* SoundTable */
-     , (47052,   6,   67108990) /* PaletteBase */
-     , (47052,   8,  100667446) /* Icon */;
+VALUES (47052,   1, 0x02001AA3) /* Setup */
+     , (47052,   2, 0x09000001) /* MotionTable */
+     , (47052,   3, 0x20000001) /* SoundTable */
+     , (47052,   6, 0x0400007E) /* PaletteBase */
+     , (47052,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47052, 8040, 2271412238, 28.7963, 122.656, 8.004999, -0.0883835, 0, 0, -0.996087) /* PCAPRecordedLocation */
+VALUES (47052, 8040, 0x8763000E, 28.7963, 122.656, 8.004999, -0.088384, 0, 0, -0.996087) /* PCAPRecordedLocation */
 /* @teleloc 0x8763000E [28.796300 122.656000 8.004999] -0.088384 0.000000 0.000000 -0.996087 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -49,13 +49,13 @@ VALUES (30616,   1, 'Arbalest') /* Name */
      , (30616,  16, 'Arbalest of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30616,   1,   33559303) /* Setup */
-     , (30616,   3,  536870932) /* SoundTable */
-     , (30616,   6,   67115556) /* PaletteBase */
-     , (30616,   8,  100687036) /* Icon */
-     , (30616,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30616,   1, 0x02001307) /* Setup */
+     , (30616,   3, 0x20000014) /* SoundTable */
+     , (30616,   6, 0x04001A24) /* PaletteBase */
+     , (30616,   8, 0x06005CBC) /* Icon */
+     , (30616,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30616,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30616,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30616,  5832,      2)  /* RecklessnessMasterySelf6 */;
+VALUES (30616,  5832,      2)  /* RecklessnessMasterySelf6 */
+     , (30616,  1616,      2)  /* BloodDrinkerSelf6 */;

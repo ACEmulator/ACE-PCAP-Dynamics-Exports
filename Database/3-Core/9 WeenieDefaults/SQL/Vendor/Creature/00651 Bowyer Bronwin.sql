@@ -35,20 +35,20 @@ VALUES (651,   1, 'Bowyer Bronwin') /* Name */
      , (651,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (651,   1,   33554433) /* Setup */
-     , (651,   2,  150994945) /* MotionTable */
-     , (651,   3,  536870913) /* SoundTable */
-     , (651,   6,   67108990) /* PaletteBase */
-     , (651,   8,  100667446) /* Icon */
-     , (651,   9,   83890514) /* EyesTexture */
-     , (651,  10,   83890549) /* NoseTexture */
-     , (651,  11,   83890648) /* MouthTexture */
-     , (651,  15,   67117001) /* HairPalette */
-     , (651,  16,   67110065) /* EyesPalette */
-     , (651,  17,   67109559) /* SkinPalette */;
+VALUES (651,   1, 0x02000001) /* Setup */
+     , (651,   2, 0x09000001) /* MotionTable */
+     , (651,   3, 0x20000001) /* SoundTable */
+     , (651,   6, 0x0400007E) /* PaletteBase */
+     , (651,   8, 0x06001036) /* Icon */
+     , (651,   9, 0x05001152) /* EyesTexture */
+     , (651,  10, 0x05001175) /* NoseTexture */
+     , (651,  11, 0x050011D8) /* MouthTexture */
+     , (651,  15, 0x04001FC9) /* HairPalette */
+     , (651,  16, 0x040004B1) /* EyesPalette */
+     , (651,  17, 0x040002B7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (651, 8040, 3465871618, 88.2, 14.52, 20.005, -0.9981791, 0, 0, -0.06031989) /* PCAPRecordedLocation */
+VALUES (651, 8040, 0xCE950102, 88.2, 14.52, 20.005, -0.998179, 0, 0, -0.06032) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950102 [88.200000 14.520000 20.005000] -0.998179 0.000000 0.000000 -0.060320 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

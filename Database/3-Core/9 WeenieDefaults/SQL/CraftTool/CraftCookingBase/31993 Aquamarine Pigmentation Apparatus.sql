@@ -20,8 +20,8 @@ VALUES (31993,   1, 'Aquamarine Pigmentation Apparatus') /* Name */
      , (31993,  20, 'Aquamarine Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31993,   1,   33556753) /* Setup */
-     , (31993,   3,  536870932) /* SoundTable */
-     , (31993,   6,   67111919) /* PaletteBase */
-     , (31993,   8,  100688319) /* Icon */
-     , (31993,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31993,   1, 0x02000911) /* Setup */
+     , (31993,   3, 0x20000014) /* SoundTable */
+     , (31993,   6, 0x04000BEF) /* PaletteBase */
+     , (31993,   8, 0x060061BF) /* Icon */
+     , (31993,  22, 0x3400002B) /* PhysicsEffectTable */;

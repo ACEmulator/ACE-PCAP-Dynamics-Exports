@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38180,   1, 'Blighted Bane Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38180,   1,   33556698) /* Setup */
-     , (38180,   2,  150995098) /* MotionTable */
-     , (38180,   3,  536871009) /* SoundTable */
-     , (38180,   6,   67112927) /* PaletteBase */
-     , (38180,   8,  100670960) /* Icon */
-     , (38180,  22,  872415364) /* PhysicsEffectTable */
+VALUES (38180,   1, 0x020008DA) /* Setup */
+     , (38180,   2, 0x0900009A) /* MotionTable */
+     , (38180,   3, 0x20000061) /* SoundTable */
+     , (38180,   6, 0x04000FDF) /* PaletteBase */
+     , (38180,   8, 0x06001DF0) /* Icon */
+     , (38180,  22, 0x34000084) /* PhysicsEffectTable */
      , (38180,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38180, 8040, 826081326, 121.424, 138.0614, 34.51286, -0.854849, 0, 0, -0.5188769) /* PCAPRecordedLocation */
+VALUES (38180, 8040, 0x313D002E, 121.424, 138.0614, 34.51286, -0.854849, 0, 0, -0.518877) /* PCAPRecordedLocation */
 /* @teleloc 0x313D002E [121.424000 138.061400 34.512860] -0.854849 0.000000 0.000000 -0.518877 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

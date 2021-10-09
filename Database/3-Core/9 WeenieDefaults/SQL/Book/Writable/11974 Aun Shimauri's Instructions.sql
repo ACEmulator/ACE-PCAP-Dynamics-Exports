@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11974,   1, 'Aun Shimauri''s Instructions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11974,   1,   33554771) /* Setup */
-     , (11974,   3,  536870932) /* SoundTable */
-     , (11974,   8,  100668117) /* Icon */
-     , (11974,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11974,   1, 0x02000153) /* Setup */
+     , (11974,   3, 0x20000014) /* SoundTable */
+     , (11974,   8, 0x060012D5) /* Icon */
+     , (11974,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11974, 8040, 3583574079, 174.67, 149.1457, 374.0695, -0.6744429, 0, 0, -0.738327) /* PCAPRecordedLocation */
+VALUES (11974, 8040, 0xD599003F, 174.67, 149.1457, 374.0695, -0.674443, 0, 0, -0.738327) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [174.670000 149.145700 374.069500] -0.674443 0.000000 0.000000 -0.738327 */;

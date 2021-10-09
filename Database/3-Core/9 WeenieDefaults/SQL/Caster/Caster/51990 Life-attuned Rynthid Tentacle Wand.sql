@@ -43,19 +43,19 @@ VALUES (51990,   1, 'Life-attuned Rynthid Tentacle Wand') /* Name */
      , (51990,  16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51990,   1,   33561603) /* Setup */
-     , (51990,   3,  536870932) /* SoundTable */
-     , (51990,   6,   67111919) /* PaletteBase */
-     , (51990,   8,  100693234) /* Icon */
-     , (51990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51990,   1, 0x02001C03) /* Setup */
+     , (51990,   3, 0x20000014) /* SoundTable */
+     , (51990,   6, 0x04000BEF) /* PaletteBase */
+     , (51990,   8, 0x060074F2) /* Icon */
+     , (51990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51990, 8040, 43057671, 239.828, -209.2982, -18.071, 0.4399361, 0.4399361, -0.5535849, -0.5535849) /* PCAPRecordedLocation */
+VALUES (51990, 8040, 0x02910207, 239.828, -209.2982, -18.071, 0.439936, 0.439936, -0.553585, -0.553585) /* PCAPRecordedLocation */
 /* @teleloc 0x02910207 [239.828000 -209.298200 -18.071000] 0.439936 0.439936 -0.553585 -0.553585 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51990,  3964,      2)  /* CANTRIPFOCUS3 */
-     , (51990,  4227,      2)  /* CANTRIPWILLPOWER3 */
+VALUES (51990,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (51990,  6060,      2)  /* CantripLifeMagicAptitude4 */
      , (51990,  4400,      2)  /* DefenderSelf8 */
-     , (51990,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (51990,  6060,      2)  /* CantripLifeMagicAptitude4 */;
+     , (51990,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (51990,  4414,      2)  /* SpiritDrinkerSelf8 */;

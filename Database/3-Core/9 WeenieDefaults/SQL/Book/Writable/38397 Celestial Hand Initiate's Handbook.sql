@@ -24,7 +24,7 @@ VALUES (38397,   1, 'Celestial Hand Initiate''s Handbook') /* Name */
      , (38397,  16, 'A handbook outlining the basic information needed when joining the Society of the Celestial Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38397,   1,   33554771) /* Setup */
-     , (38397,   3,  536870932) /* SoundTable */
-     , (38397,   8,  100668117) /* Icon */
-     , (38397,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38397,   1, 0x02000153) /* Setup */
+     , (38397,   3, 0x20000014) /* SoundTable */
+     , (38397,   8, 0x060012D5) /* Icon */
+     , (38397,  22, 0x3400002B) /* PhysicsEffectTable */;

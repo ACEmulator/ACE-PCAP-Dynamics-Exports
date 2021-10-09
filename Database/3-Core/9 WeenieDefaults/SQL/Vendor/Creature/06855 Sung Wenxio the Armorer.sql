@@ -35,20 +35,20 @@ VALUES (6855,   1, 'Sung Wenxio the Armorer') /* Name */
      , (6855,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6855,   1,   33554433) /* Setup */
-     , (6855,   2,  150994945) /* MotionTable */
-     , (6855,   3,  536870913) /* SoundTable */
-     , (6855,   6,   67108990) /* PaletteBase */
-     , (6855,   8,  100667375) /* Icon */
-     , (6855,   9,   83890449) /* EyesTexture */
-     , (6855,  10,   83890522) /* NoseTexture */
-     , (6855,  11,   83890657) /* MouthTexture */
-     , (6855,  15,   67117076) /* HairPalette */
-     , (6855,  16,   67110063) /* EyesPalette */
-     , (6855,  17,   67110047) /* SkinPalette */;
+VALUES (6855,   1, 0x02000001) /* Setup */
+     , (6855,   2, 0x09000001) /* MotionTable */
+     , (6855,   3, 0x20000001) /* SoundTable */
+     , (6855,   6, 0x0400007E) /* PaletteBase */
+     , (6855,   8, 0x06000FEF) /* Icon */
+     , (6855,   9, 0x05001111) /* EyesTexture */
+     , (6855,  10, 0x0500115A) /* NoseTexture */
+     , (6855,  11, 0x050011E1) /* MouthTexture */
+     , (6855,  15, 0x04002014) /* HairPalette */
+     , (6855,  16, 0x040004AF) /* EyesPalette */
+     , (6855,  17, 0x0400049F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6855, 8040, 288620800, 81.6822, 57.8933, 42.005, 0.9250501, 0, 0, -0.3798451) /* PCAPRecordedLocation */
+VALUES (6855, 8040, 0x11340100, 81.6822, 57.8933, 42.005, 0.92505, 0, 0, -0.379845) /* PCAPRecordedLocation */
 /* @teleloc 0x11340100 [81.682200 57.893300 42.005000] 0.925050 0.000000 0.000000 -0.379845 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -32,14 +32,14 @@ VALUES (43407,   1, 'Corruptor''s Crystal') /* Name */
      , (43407,  20, 'Corruptor''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43407,   1,   33554809) /* Setup */
-     , (43407,   3,  536870932) /* SoundTable */
-     , (43407,   8,  100686697) /* Icon */
-     , (43407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43407,   1, 0x02000179) /* Setup */
+     , (43407,   3, 0x20000014) /* SoundTable */
+     , (43407,   8, 0x06005B69) /* Icon */
+     , (43407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43407,  28,       5436) /* Spell - VoidMagicMasteryRare */
-     , (43407,  50,  100691567) /* IconOverlay */
-     , (43407,  52,  100686604) /* IconUnderlay */;
+     , (43407,  50, 0x06006E6F) /* IconOverlay */
+     , (43407,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43407, 8040, 18809101, 30.116, -22.81568, 0.5175131, 0.05374185, 0, 0, -0.9985549) /* PCAPRecordedLocation */
+VALUES (43407, 8040, 0x011F010D, 30.116, -22.81568, 0.517513, 0.053742, 0, 0, -0.998555) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010D [30.116000 -22.815680 0.517513] 0.053742 0.000000 0.000000 -0.998555 */;

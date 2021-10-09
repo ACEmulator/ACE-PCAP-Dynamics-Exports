@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24312,   1, 'Reedshark Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24312,   1,   33554489) /* Setup */
-     , (24312,   2,  150994970) /* MotionTable */
-     , (24312,   3,  536870928) /* SoundTable */
-     , (24312,   6,   67109313) /* PaletteBase */
-     , (24312,   8,  100667939) /* Icon */
-     , (24312,  22,  872415268) /* PhysicsEffectTable */;
+VALUES (24312,   1, 0x02000039) /* Setup */
+     , (24312,   2, 0x0900001A) /* MotionTable */
+     , (24312,   3, 0x20000010) /* SoundTable */
+     , (24312,   6, 0x040001C1) /* PaletteBase */
+     , (24312,   8, 0x06001223) /* Icon */
+     , (24312,  22, 0x34000024) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24312, 8040, 44302613, 62.6595, -69.523, -11.998, 0.870762, 0, 0, 0.491704) /* PCAPRecordedLocation */
+VALUES (24312, 8040, 0x02A40115, 62.6595, -69.523, -11.998, 0.870762, 0, 0, 0.491704) /* PCAPRecordedLocation */
 /* @teleloc 0x02A40115 [62.659500 -69.523000 -11.998000] 0.870762 0.000000 0.000000 0.491704 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

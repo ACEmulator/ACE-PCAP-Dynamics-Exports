@@ -38,10 +38,10 @@ VALUES (49260,   1, 'Glacial Knight Essence') /* Name */
      , (49260,  14, 'Use this essence to summon or dismiss your Glacial Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49260,   1,   33554817) /* Setup */
-     , (49260,   3,  536870932) /* SoundTable */
-     , (49260,   6,   67111919) /* PaletteBase */
-     , (49260,   8,  100672514) /* Icon */
-     , (49260,  22,  872415275) /* PhysicsEffectTable */
-     , (49260,  50,  100693032) /* IconOverlay */
-     , (49260,  52,  100693024) /* IconUnderlay */;
+VALUES (49260,   1, 0x02000181) /* Setup */
+     , (49260,   3, 0x20000014) /* SoundTable */
+     , (49260,   6, 0x04000BEF) /* PaletteBase */
+     , (49260,   8, 0x06002402) /* Icon */
+     , (49260,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49260,  50, 0x06007428) /* IconOverlay */
+     , (49260,  52, 0x06007420) /* IconUnderlay */;

@@ -24,6 +24,6 @@ VALUES (9010,   1, 'Unreadable Scroll') /* Name */
      , (9010,  16, 'A magical scroll, covered with runes of the Dericost language. You cannot read the formula, and must bring it to Kuyiza bint Zayi in Zaikhal for translation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9010,   1,   33554826) /* Setup */
-     , (9010,   8,  100669876) /* Icon */
-     , (9010,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9010,   1, 0x0200018A) /* Setup */
+     , (9010,   8, 0x060019B4) /* Icon */
+     , (9010,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -18,9 +18,9 @@ VALUES (12635,   1, 'Neydisa Village') /* Name */
      , (12635,  16, 'Welcome to Neydisa Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12635,   1,   33557463) /* Setup */
-     , (12635,   8,  100668115) /* Icon */;
+VALUES (12635,   1, 0x02000BD7) /* Setup */
+     , (12635,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12635, 8040, 2614624313, 187.511, 22.9625, 70.08646, -0.867099, 0, 0, -0.498136) /* PCAPRecordedLocation */
+VALUES (12635, 8040, 0x9BD80039, 187.511, 22.9625, 70.08646, -0.867099, 0, 0, -0.498136) /* PCAPRecordedLocation */
 /* @teleloc 0x9BD80039 [187.511000 22.962500 70.086460] -0.867099 0.000000 0.000000 -0.498136 */;

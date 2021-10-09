@@ -31,7 +31,7 @@ VALUES (44903,   1, 'Contract for Nen Ai''s Pet Drudge') /* Name */
      , (44903,  16, 'Nen Ai needs food for her pet drudge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44903,   1,   33554773) /* Setup */
-     , (44903,   3,  536870932) /* SoundTable */
-     , (44903,   8,  100691929) /* Icon */
-     , (44903,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44903,   1, 0x02000155) /* Setup */
+     , (44903,   3, 0x20000014) /* SoundTable */
+     , (44903,   8, 0x06006FD9) /* Icon */
+     , (44903,  22, 0x3400002B) /* PhysicsEffectTable */;

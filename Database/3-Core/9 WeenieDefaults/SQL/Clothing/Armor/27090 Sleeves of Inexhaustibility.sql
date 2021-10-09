@@ -42,13 +42,13 @@ VALUES (27090,   1, 'Sleeves of Inexhaustibility') /* Name */
      , (27090,  15, 'Never tire and never surrender. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27090,   1,   33554655) /* Setup */
-     , (27090,   6,   67108990) /* PaletteBase */
-     , (27090,   8,  100671481) /* Icon */
-     , (27090,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27090,   1, 0x020000DF) /* Setup */
+     , (27090,   6, 0x0400007E) /* PaletteBase */
+     , (27090,   8, 0x06001FF9) /* Icon */
+     , (27090,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27090,   296,      2)  /* LightWeaponsMasteryOther5 */
-     , (27090,  1360,      2)  /* EnduranceOther6 */
+VALUES (27090,  1360,      2)  /* EnduranceOther6 */
      , (27090,  2385,      2)  /* Vigilance */
-     , (27090,  2386,      2)  /* Indomitability */;
+     , (27090,  2386,      2)  /* Indomitability */
+     , (27090,   296,      2)  /* LightWeaponsMasteryOther5 */;

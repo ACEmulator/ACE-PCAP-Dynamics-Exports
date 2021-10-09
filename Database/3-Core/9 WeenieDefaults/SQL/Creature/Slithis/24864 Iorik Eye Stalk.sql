@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24864,   1, 'Iorik Eye Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24864,   1,   33558409) /* Setup */
-     , (24864,   2,  150995067) /* MotionTable */
-     , (24864,   3,  536871015) /* SoundTable */
-     , (24864,   8,  100671186) /* Icon */
-     , (24864,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (24864,   1, 0x02000F89) /* Setup */
+     , (24864,   2, 0x0900007B) /* MotionTable */
+     , (24864,   3, 0x20000067) /* SoundTable */
+     , (24864,   8, 0x06001ED2) /* Icon */
+     , (24864,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24864, 8040, 6161158, 299.957, -39.944, -6.018, 0.7113942, 0, 0, 0.7027932) /* PCAPRecordedLocation */
+VALUES (24864, 8040, 0x005E0306, 299.957, -39.944, -6.018, 0.711394, 0, 0, 0.702793) /* PCAPRecordedLocation */
 /* @teleloc 0x005E0306 [299.957000 -39.944000 -6.018000] 0.711394 0.000000 0.000000 0.702793 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

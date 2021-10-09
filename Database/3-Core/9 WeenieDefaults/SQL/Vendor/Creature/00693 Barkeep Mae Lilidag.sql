@@ -34,20 +34,20 @@ VALUES (693,   1, 'Barkeep Mae Lilidag') /* Name */
      , (693,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (693,   1,   33554510) /* Setup */
-     , (693,   2,  150994945) /* MotionTable */
-     , (693,   3,  536870914) /* SoundTable */
-     , (693,   6,   67108990) /* PaletteBase */
-     , (693,   8,  100667446) /* Icon */
-     , (693,   9,   83890259) /* EyesTexture */
-     , (693,  10,   83890309) /* NoseTexture */
-     , (693,  11,   83890324) /* MouthTexture */
-     , (693,  15,   67117002) /* HairPalette */
-     , (693,  16,   67110065) /* EyesPalette */
-     , (693,  17,   67109560) /* SkinPalette */;
+VALUES (693,   1, 0x0200004E) /* Setup */
+     , (693,   2, 0x09000001) /* MotionTable */
+     , (693,   3, 0x20000002) /* SoundTable */
+     , (693,   6, 0x0400007E) /* PaletteBase */
+     , (693,   8, 0x06001036) /* Icon */
+     , (693,   9, 0x05001053) /* EyesTexture */
+     , (693,  10, 0x05001085) /* NoseTexture */
+     , (693,  11, 0x05001094) /* MouthTexture */
+     , (693,  15, 0x04001FCA) /* HairPalette */
+     , (693,  16, 0x040004B1) /* EyesPalette */
+     , (693,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (693, 8040, 3332964612, 60.8732, 36.7895, 42.005, -0.6918761, 0, 0, -0.7220162) /* PCAPRecordedLocation */
+VALUES (693, 8040, 0xC6A90104, 60.8732, 36.7895, 42.005, -0.691876, 0, 0, -0.722016) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90104 [60.873200 36.789500 42.005000] -0.691876 0.000000 0.000000 -0.722016 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

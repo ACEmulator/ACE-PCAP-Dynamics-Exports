@@ -29,7 +29,7 @@ VALUES (38613,   1, 'Black Coral') /* Name */
      , (38613,  16, 'A piece of coral, black with a faint glowing aura around it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38613,   1,   33560657) /* Setup */
-     , (38613,   3,  536870932) /* SoundTable */
-     , (38613,   8,  100690159) /* Icon */
-     , (38613,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38613,   1, 0x02001851) /* Setup */
+     , (38613,   3, 0x20000014) /* SoundTable */
+     , (38613,   8, 0x060068EF) /* Icon */
+     , (38613,  22, 0x3400002B) /* PhysicsEffectTable */;

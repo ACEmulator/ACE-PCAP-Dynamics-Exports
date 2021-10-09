@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB91F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B91F001,  1154, 0xB91F003A, 173.966, 27.6868, 205.7301, 0.3890738, 0, 0, -0.9212066, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B91F001,  1154, 0xB91F003A, 173.966, 27.6868, 205.7301, 0.389074, 0, 0, -0.921207, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB91F003A [173.966000 27.686800 205.730100] 0.389074 0.000000 0.000000 -0.921207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -10,7 +10,7 @@ VALUES (0x7B91F001, 0x7B91F002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) *
      , (0x7B91F001, 0x7B91F004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B91F002,  4254, 0xB91F003A, 173.966, 27.6868, 205.7301, 0.3890738, 0, 0, -0.9212066,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+VALUES (0x7B91F002,  4254, 0xB91F003A, 173.966, 27.6868, 205.7301, 0.389074, 0, 0, -0.921207,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
 /* @teleloc 0xB91F003A [173.966000 27.686800 205.730100] 0.389074 0.000000 0.000000 -0.921207 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

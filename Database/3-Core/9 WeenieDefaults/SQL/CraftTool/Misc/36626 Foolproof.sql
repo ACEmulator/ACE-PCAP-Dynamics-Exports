@@ -32,9 +32,9 @@ VALUES (36626,   1, 'Foolproof') /* Name */
      , (36626,  15, 'Chips of red garnet. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36626,   1,   33554817) /* Setup */
-     , (36626,   3,  536870932) /* SoundTable */
-     , (36626,   6,   67111919) /* PaletteBase */
-     , (36626,   8,  100686616) /* Icon */
-     , (36626,  22,  872415275) /* PhysicsEffectTable */
-     , (36626,  50,  100673292) /* IconOverlay */;
+VALUES (36626,   1, 0x02000181) /* Setup */
+     , (36626,   3, 0x20000014) /* SoundTable */
+     , (36626,   6, 0x04000BEF) /* PaletteBase */
+     , (36626,   8, 0x06005B18) /* Icon */
+     , (36626,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36626,  50, 0x0600270C) /* IconOverlay */;

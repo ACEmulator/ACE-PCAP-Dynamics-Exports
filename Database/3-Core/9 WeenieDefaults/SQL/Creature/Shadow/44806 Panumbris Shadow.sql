@@ -27,21 +27,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44806,   1, 'Panumbris Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44806,   1,   33556251) /* Setup */
-     , (44806,   2,  150995091) /* MotionTable */
-     , (44806,   3,  536870914) /* SoundTable */
-     , (44806,   6,   67108990) /* PaletteBase */
-     , (44806,   8,  100670398) /* Icon */
-     , (44806,   9,   83890281) /* EyesTexture */
-     , (44806,  10,   83890294) /* NoseTexture */
-     , (44806,  11,   83890350) /* MouthTexture */
-     , (44806,  15,   67116984) /* HairPalette */
-     , (44806,  16,   67109567) /* EyesPalette */
-     , (44806,  17,   67109558) /* SkinPalette */
-     , (44806,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (44806,   1, 0x0200071B) /* Setup */
+     , (44806,   2, 0x09000093) /* MotionTable */
+     , (44806,   3, 0x20000002) /* SoundTable */
+     , (44806,   6, 0x0400007E) /* PaletteBase */
+     , (44806,   8, 0x06001BBE) /* Icon */
+     , (44806,   9, 0x05001069) /* EyesTexture */
+     , (44806,  10, 0x05001076) /* NoseTexture */
+     , (44806,  11, 0x050010AE) /* MouthTexture */
+     , (44806,  15, 0x04001FB8) /* HairPalette */
+     , (44806,  16, 0x040002BF) /* EyesPalette */
+     , (44806,  17, 0x040002B6) /* SkinPalette */
+     , (44806,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44806, 8040, 4133158960, 137.0527, 179.0957, 20.0065, -0.9995432, 0, 0, -0.03022261) /* PCAPRecordedLocation */
+VALUES (44806, 8040, 0xF65B0030, 137.0527, 179.0957, 20.0065, -0.999543, 0, 0, -0.030223) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0030 [137.052700 179.095700 20.006500] -0.999543 0.000000 0.000000 -0.030223 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

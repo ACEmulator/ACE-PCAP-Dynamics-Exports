@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22704,   1, 'Tusker Warrior''s Lair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22704,   1,   33555925) /* Setup */
-     , (22704,   2,  150994947) /* MotionTable */
-     , (22704,   8,  100667499) /* Icon */;
+VALUES (22704,   1, 0x020005D5) /* Setup */
+     , (22704,   2, 0x09000003) /* MotionTable */
+     , (22704,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22704, 8040, 1615069448, 89.9254, -93.643, -36.063, 0.020795, 0, 0, 0.9997838) /* PCAPRecordedLocation */
+VALUES (22704, 8040, 0x60440108, 89.9254, -93.643, -36.063, 0.020795, 0, 0, 0.999784) /* PCAPRecordedLocation */
 /* @teleloc 0x60440108 [89.925400 -93.643000 -36.063000] 0.020795 0.000000 0.000000 0.999784 */;

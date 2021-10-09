@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23666,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23666,   1,   33554732) /* Setup */
-     , (23666,   3,  536870932) /* SoundTable */
-     , (23666,   6,   67111919) /* PaletteBase */
-     , (23666,   8,  100668836) /* Icon */
-     , (23666,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23666,   1, 0x0200012C) /* Setup */
+     , (23666,   3, 0x20000014) /* SoundTable */
+     , (23666,   6, 0x04000BEF) /* PaletteBase */
+     , (23666,   8, 0x060015A4) /* Icon */
+     , (23666,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23666, 8040, 2487943212, 121.794, 75.45181, 8.366494, 0.8260242, 0, 0, -0.5636347) /* PCAPRecordedLocation */
+VALUES (23666, 8040, 0x944B002C, 121.794, 75.45181, 8.366494, 0.826024, 0, 0, -0.563635) /* PCAPRecordedLocation */
 /* @teleloc 0x944B002C [121.794000 75.451810 8.366494] 0.826024 0.000000 0.000000 -0.563635 */;

@@ -50,14 +50,14 @@ VALUES (31801,   1, 'Electric Compound Bow') /* Name */
      , (31801,  16, 'Electric Compound Bow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31801,   1,   33559666) /* Setup */
-     , (31801,   3,  536870932) /* SoundTable */
-     , (31801,   6,   67116700) /* PaletteBase */
-     , (31801,   8,  100688042) /* Icon */
-     , (31801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31801,   1, 0x02001472) /* Setup */
+     , (31801,   3, 0x20000014) /* SoundTable */
+     , (31801,   6, 0x04001E9C) /* PaletteBase */
+     , (31801,   8, 0x060060AA) /* Icon */
+     , (31801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31801,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31801,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31801,  2572,      2)  /* CANTRIPCOORDINATION2 */
+VALUES (31801,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (31801,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31801,  5784,      2)  /* DirtyFightingMasterySelf6 */;

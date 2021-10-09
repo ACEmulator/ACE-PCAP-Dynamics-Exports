@@ -23,7 +23,7 @@ VALUES (20546,   1, 'Scroll of Jahannan''s Boon') /* Name */
 Increases the target''s Jump skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20546,   1,   33554826) /* Setup */
-     , (20546,   8,  100676461) /* Icon */
-     , (20546,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20546,   1, 0x0200018A) /* Setup */
+     , (20546,   8, 0x0600336D) /* Icon */
+     , (20546,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20546,  28,       2256) /* Spell - JumpingMasteryOther7 */;

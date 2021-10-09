@@ -46,11 +46,11 @@ VALUES (41063,   1, 'Acid Khanda-handled Mace') /* Name */
      , (41063,  16, 'Acid Khanda-handled Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41063,   1,   33560885) /* Setup */
-     , (41063,   3,  536870932) /* SoundTable */
-     , (41063,   6,   67115558) /* PaletteBase */
-     , (41063,   8,  100690649) /* Icon */
-     , (41063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41063,   1, 0x02001935) /* Setup */
+     , (41063,   3, 0x20000014) /* SoundTable */
+     , (41063,   6, 0x04001A26) /* PaletteBase */
+     , (41063,   8, 0x06006AD9) /* Icon */
+     , (41063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41063,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

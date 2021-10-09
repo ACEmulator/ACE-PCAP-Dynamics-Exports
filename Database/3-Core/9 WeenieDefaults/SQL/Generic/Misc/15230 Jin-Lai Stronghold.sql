@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15230,   1, 'Jin-Lai Stronghold') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15230,   1,   33557463) /* Setup */
-     , (15230,   8,  100668115) /* Icon */;
+VALUES (15230,   1, 0x02000BD7) /* Setup */
+     , (15230,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15230, 8040, 3413508108, 34.8383, 86.7966, 22, -0.700961, 0, 0, 0.7132) /* PCAPRecordedLocation */
+VALUES (15230, 8040, 0xCB76000C, 34.8383, 86.7966, 22, -0.700961, 0, 0, 0.7132) /* PCAPRecordedLocation */
 /* @teleloc 0xCB76000C [34.838300 86.796600 22.000000] -0.700961 0.000000 0.000000 0.713200 */;

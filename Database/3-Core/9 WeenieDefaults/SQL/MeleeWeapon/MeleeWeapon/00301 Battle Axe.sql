@@ -51,18 +51,18 @@ VALUES (301,   1, 'Battle Axe') /* Name */
      , (301,  16, 'Battle Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (301,   1,   33554725) /* Setup */
-     , (301,   3,  536870932) /* SoundTable */
-     , (301,   6,   67111919) /* PaletteBase */
-     , (301,   8,  100668986) /* Icon */
-     , (301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (301,   1, 0x02000125) /* Setup */
+     , (301,   3, 0x20000014) /* SoundTable */
+     , (301,   6, 0x04000BEF) /* PaletteBase */
+     , (301,   8, 0x0600163A) /* Icon */
+     , (301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (301,  30,         88) /* PhysicsScript - Create */
      , (301,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (301, 8040, 3465871682, 155.2554, 30.84464, 19.929, -0.06593028, -0.06593028, -0.7040264, -0.7040264) /* PCAPRecordedLocation */
+VALUES (301, 8040, 0xCE950142, 155.2554, 30.84464, 19.929, -0.06593, -0.06593, -0.704026, -0.704026) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950142 [155.255400 30.844640 19.929000] -0.065930 -0.065930 -0.704026 -0.704026 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (301,  1331,      2)  /* StrengthSelf5 */
-     , (301,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (301,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (301,  1331,      2)  /* StrengthSelf5 */;

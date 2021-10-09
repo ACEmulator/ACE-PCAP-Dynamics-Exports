@@ -29,8 +29,8 @@ VALUES (42707,   1, 'Slice of Royal Wedding Cake') /* Name */
      , (42707,  20, 'Slices of Royal Wedding Cake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42707,   1,   33555193) /* Setup */
-     , (42707,   3,  536870932) /* SoundTable */
-     , (42707,   8,  100672705) /* Icon */
-     , (42707,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42707,   1, 0x020002F9) /* Setup */
+     , (42707,   3, 0x20000014) /* SoundTable */
+     , (42707,   8, 0x060024C1) /* Icon */
+     , (42707,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42707,  28,       3204) /* Spell - GolemHunterHealthHigh */;

@@ -29,14 +29,14 @@ VALUES (7408,   1, 'Lady of Aerlinthe''s Chest') /* Name */
      , (7408,  16, 'A rusty old chest, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7408,   1,   33554556) /* Setup */
-     , (7408,   2,  150994948) /* MotionTable */
-     , (7408,   3,  536870945) /* SoundTable */
-     , (7408,   8,  100667424) /* Icon */
-     , (7408,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7408,   1, 0x0200007C) /* Setup */
+     , (7408,   2, 0x09000004) /* MotionTable */
+     , (7408,   3, 0x20000021) /* SoundTable */
+     , (7408,   8, 0x06001020) /* Icon */
+     , (7408,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7408, 8040, 32833900, 107, -94, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (7408, 8040, 0x01F5016C, 107, -94, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01F5016C [107.000000 -94.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

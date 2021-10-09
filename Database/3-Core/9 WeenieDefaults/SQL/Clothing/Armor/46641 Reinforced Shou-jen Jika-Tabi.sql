@@ -43,14 +43,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46641,   1, 'Reinforced Shou-jen Jika-Tabi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46641,   1,   33556683) /* Setup */
-     , (46641,   3,  536870932) /* SoundTable */
-     , (46641,   6,   67108990) /* PaletteBase */
-     , (46641,   8,  100689121) /* Icon */
-     , (46641,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46641,   1, 0x020008CB) /* Setup */
+     , (46641,   3, 0x20000014) /* SoundTable */
+     , (46641,   6, 0x0400007E) /* PaletteBase */
+     , (46641,   8, 0x060064E1) /* Icon */
+     , (46641,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46641,  4319,      2)  /* QuicknessSelf8 */
+VALUES (46641,  4616,      2)  /* SprintSelf8 */
+     , (46641,  4319,      2)  /* QuicknessSelf8 */
+     , (46641,  4710,      2)  /* CANTRIPSPRINT3 */
      , (46641,  4391,      2)  /* AcidBane8 */
      , (46641,  4393,      2)  /* BladeBane8 */
      , (46641,  4397,      2)  /* BludgeonBane8 */
@@ -58,6 +60,4 @@ VALUES (46641,  4319,      2)  /* QuicknessSelf8 */
      , (46641,  4403,      2)  /* FrostBane8 */
      , (46641,  4407,      2)  /* Impenetrability8 */
      , (46641,  4409,      2)  /* LightningBane8 */
-     , (46641,  4412,      2)  /* PiercingBane8 */
-     , (46641,  4616,      2)  /* SprintSelf8 */
-     , (46641,  4710,      2)  /* CANTRIPSPRINT3 */;
+     , (46641,  4412,      2)  /* PiercingBane8 */;

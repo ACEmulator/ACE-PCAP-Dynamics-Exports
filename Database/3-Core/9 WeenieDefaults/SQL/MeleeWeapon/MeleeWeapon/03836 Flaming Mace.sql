@@ -43,8 +43,8 @@ VALUES (3836,   1, 'Flaming Mace') /* Name */
      , (3836,  16, 'Flaming Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3836,   1,   33555756) /* Setup */
-     , (3836,   3,  536870932) /* SoundTable */
-     , (3836,   6,   67111919) /* PaletteBase */
-     , (3836,   8,  100668962) /* Icon */
-     , (3836,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3836,   1, 0x0200052C) /* Setup */
+     , (3836,   3, 0x20000014) /* SoundTable */
+     , (3836,   6, 0x04000BEF) /* PaletteBase */
+     , (3836,   8, 0x06001622) /* Icon */
+     , (3836,  22, 0x3400002B) /* PhysicsEffectTable */;

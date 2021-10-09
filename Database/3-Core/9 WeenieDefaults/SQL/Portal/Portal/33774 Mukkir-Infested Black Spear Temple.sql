@@ -22,10 +22,10 @@ VALUES (33774,   1, 'Mukkir-Infested Black Spear Temple') /* Name */
      , (33774,  16, 'A Mukkir-infested Ruschk temple, where those who wish to follow the Black Spear prove their worth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33774,   1,   33555925) /* Setup */
-     , (33774,   2,  150994947) /* MotionTable */
-     , (33774,   8,  100667499) /* Icon */;
+VALUES (33774,   1, 0x020005D5) /* Setup */
+     , (33774,   2, 0x09000003) /* MotionTable */
+     , (33774,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33774, 8040, 726663216, 141.351, 170.467, 3.731417, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33774, 8040, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2B500030 [141.351000 170.467000 3.731417] 1.000000 0.000000 0.000000 0.000000 */;

@@ -31,20 +31,20 @@ VALUES (38277,   1, 'Berrando Piatelli') /* Name */
      , (38277,   5, 'Moguth Hunt Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38277,   1,   33554433) /* Setup */
-     , (38277,   2,  150994945) /* MotionTable */
-     , (38277,   3,  536870913) /* SoundTable */
-     , (38277,   6,   67108990) /* PaletteBase */
-     , (38277,   8,  100667446) /* Icon */
-     , (38277,   9,   83890510) /* EyesTexture */
-     , (38277,  10,   83890522) /* NoseTexture */
-     , (38277,  11,   83890570) /* MouthTexture */
-     , (38277,  15,   67117094) /* HairPalette */
-     , (38277,  16,   67110064) /* EyesPalette */
-     , (38277,  17,   67115901) /* SkinPalette */;
+VALUES (38277,   1, 0x02000001) /* Setup */
+     , (38277,   2, 0x09000001) /* MotionTable */
+     , (38277,   3, 0x20000001) /* SoundTable */
+     , (38277,   6, 0x0400007E) /* PaletteBase */
+     , (38277,   8, 0x06001036) /* Icon */
+     , (38277,   9, 0x0500114E) /* EyesTexture */
+     , (38277,  10, 0x0500115A) /* NoseTexture */
+     , (38277,  11, 0x0500118A) /* MouthTexture */
+     , (38277,  15, 0x04002026) /* HairPalette */
+     , (38277,  16, 0x040004B0) /* EyesPalette */
+     , (38277,  17, 0x04001B7D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38277, 8040, 12124783, 160.359, -39.8409, -17.995, -0.7803064, 0, 0, -0.6253974) /* PCAPRecordedLocation */
+VALUES (38277, 8040, 0x00B9026F, 160.359, -39.8409, -17.995, -0.780306, 0, 0, -0.625397) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026F [160.359000 -39.840900 -17.995000] -0.780306 0.000000 0.000000 -0.625397 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

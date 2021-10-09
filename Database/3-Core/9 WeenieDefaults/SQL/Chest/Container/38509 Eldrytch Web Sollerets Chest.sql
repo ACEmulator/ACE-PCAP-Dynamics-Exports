@@ -28,12 +28,12 @@ VALUES (38509,   1, 'Eldrytch Web Sollerets Chest') /* Name */
      , (38509,  16, 'A Society Reward Chest, containing a randomly enchanted set of Eldrytch Web Sollerets.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38509,   1,   33554556) /* Setup */
-     , (38509,   2,  150994948) /* MotionTable */
-     , (38509,   3,  536870945) /* SoundTable */
-     , (38509,   8,  100667426) /* Icon */
-     , (38509,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38509,   1, 0x0200007C) /* Setup */
+     , (38509,   2, 0x09000004) /* MotionTable */
+     , (38509,   3, 0x20000021) /* SoundTable */
+     , (38509,   8, 0x06001022) /* Icon */
+     , (38509,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38509, 8040, 12058884, 55.901, -32.7431, -24, -0.7158841, 0, 0, -0.6982191) /* PCAPRecordedLocation */
+VALUES (38509, 8040, 0x00B80104, 55.901, -32.7431, -24, -0.715884, 0, 0, -0.698219) /* PCAPRecordedLocation */
 /* @teleloc 0x00B80104 [55.901000 -32.743100 -24.000000] -0.715884 0.000000 0.000000 -0.698219 */;

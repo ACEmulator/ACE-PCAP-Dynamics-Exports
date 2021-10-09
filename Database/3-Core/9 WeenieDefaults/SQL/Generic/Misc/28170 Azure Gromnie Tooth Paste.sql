@@ -19,6 +19,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28170,   1, 'Azure Gromnie Tooth Paste') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28170,   1,   33554817) /* Setup */
-     , (28170,   6,   67111919) /* PaletteBase */
-     , (28170,   8,  100676779) /* Icon */;
+VALUES (28170,   1, 0x02000181) /* Setup */
+     , (28170,   6, 0x04000BEF) /* PaletteBase */
+     , (28170,   8, 0x060034AB) /* Icon */;

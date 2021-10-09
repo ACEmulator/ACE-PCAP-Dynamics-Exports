@@ -38,12 +38,12 @@ VALUES (46105,   1, 'Atlan Two Handed Sword') /* Name */
      , (46105,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46105,   1,   33556262) /* Setup */
-     , (46105,   3,  536870932) /* SoundTable */
-     , (46105,   6,   67111919) /* PaletteBase */
-     , (46105,   8,  100692937) /* Icon */
-     , (46105,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46105,   1, 0x02000726) /* Setup */
+     , (46105,   3, 0x20000014) /* SoundTable */
+     , (46105,   6, 0x04000BEF) /* PaletteBase */
+     , (46105,   8, 0x060073C9) /* Icon */
+     , (46105,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46105, 8040, 2103705613, 35.5505, 105.7296, 11.929, -0.08206418, -0.08206418, -0.7023286, -0.7023286) /* PCAPRecordedLocation */
+VALUES (46105, 8040, 0x7D64000D, 35.5505, 105.7296, 11.929, -0.082064, -0.082064, -0.702329, -0.702329) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [35.550500 105.729600 11.929000] -0.082064 -0.082064 -0.702329 -0.702329 */;

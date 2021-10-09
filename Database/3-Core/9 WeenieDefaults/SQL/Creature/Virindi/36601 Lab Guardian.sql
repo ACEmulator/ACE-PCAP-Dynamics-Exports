@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36601,   1, 'Lab Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36601,   1,   33558343) /* Setup */
-     , (36601,   2,  150994984) /* MotionTable */
-     , (36601,   3,  536870930) /* SoundTable */
-     , (36601,   6,   67114250) /* PaletteBase */
-     , (36601,   8,  100674323) /* Icon */
-     , (36601,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (36601,   1, 0x02000F47) /* Setup */
+     , (36601,   2, 0x09000028) /* MotionTable */
+     , (36601,   3, 0x20000012) /* SoundTable */
+     , (36601,   6, 0x0400150A) /* PaletteBase */
+     , (36601,   8, 0x06002B13) /* Icon */
+     , (36601,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36601, 8040, 10748181, 70, -69.7787, -35.971, -0.00420373, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (36601, 8040, 0x00A40115, 70, -69.7787, -35.971, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x00A40115 [70.000000 -69.778700 -35.971000] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

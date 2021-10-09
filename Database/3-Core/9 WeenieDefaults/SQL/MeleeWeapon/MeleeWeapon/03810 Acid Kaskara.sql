@@ -44,7 +44,7 @@ VALUES (3810,   1, 'Acid Kaskara') /* Name */
      , (3810,  16, 'Acid Kaskara') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3810,   1,   33555791) /* Setup */
-     , (3810,   3,  536870932) /* SoundTable */
-     , (3810,   8,  100669026) /* Icon */
-     , (3810,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3810,   1, 0x0200054F) /* Setup */
+     , (3810,   3, 0x20000014) /* SoundTable */
+     , (3810,   8, 0x06001662) /* Icon */
+     , (3810,  22, 0x3400002B) /* PhysicsEffectTable */;

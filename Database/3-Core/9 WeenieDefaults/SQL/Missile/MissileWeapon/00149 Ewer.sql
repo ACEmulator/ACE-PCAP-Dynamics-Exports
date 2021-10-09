@@ -41,8 +41,8 @@ VALUES (149,   1, 'Ewer') /* Name */
      , (149,  16, 'Ewer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (149,   1,   33554803) /* Setup */
-     , (149,   3,  536871012) /* SoundTable */
-     , (149,   6,   67111919) /* PaletteBase */
-     , (149,   8,  100668732) /* Icon */
-     , (149,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (149,   1, 0x02000173) /* Setup */
+     , (149,   3, 0x20000064) /* SoundTable */
+     , (149,   6, 0x04000BEF) /* PaletteBase */
+     , (149,   8, 0x0600153C) /* Icon */
+     , (149,  22, 0x3400002B) /* PhysicsEffectTable */;

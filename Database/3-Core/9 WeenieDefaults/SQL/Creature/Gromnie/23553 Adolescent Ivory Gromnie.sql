@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23553,   1, 'Adolescent Ivory Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23553,   1,   33554487) /* Setup */
-     , (23553,   2,  150994971) /* MotionTable */
-     , (23553,   3,  536870921) /* SoundTable */
-     , (23553,   6,   67109307) /* PaletteBase */
-     , (23553,   8,  100667938) /* Icon */
-     , (23553,  22,  872415260) /* PhysicsEffectTable */
+VALUES (23553,   1, 0x02000037) /* Setup */
+     , (23553,   2, 0x0900001B) /* MotionTable */
+     , (23553,   3, 0x20000009) /* SoundTable */
+     , (23553,   6, 0x040001BB) /* PaletteBase */
+     , (23553,   8, 0x06001222) /* Icon */
+     , (23553,  22, 0x3400001C) /* PhysicsEffectTable */
      , (23553,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23553, 8040, 675872793, 94.1875, 11.2366, 0.007999897, 0.2057558, 0, 0, -0.9786034) /* PCAPRecordedLocation */
+VALUES (23553, 8040, 0x28490019, 94.1875, 11.2366, 0.008, 0.205756, 0, 0, -0.978603) /* PCAPRecordedLocation */
 /* @teleloc 0x28490019 [94.187500 11.236600 0.008000] 0.205756 0.000000 0.000000 -0.978603 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

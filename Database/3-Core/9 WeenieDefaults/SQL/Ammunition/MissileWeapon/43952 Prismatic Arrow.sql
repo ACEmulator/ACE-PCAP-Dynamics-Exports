@@ -48,8 +48,8 @@ VALUES (43952,   1, 'Prismatic Arrow') /* Name */
      , (43952,  16, 'Crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43952,   1,   33561223) /* Setup */
-     , (43952,   3,  536870932) /* SoundTable */
-     , (43952,   6,   67111919) /* PaletteBase */
-     , (43952,   8,  100691913) /* Icon */
-     , (43952,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43952,   1, 0x02001A87) /* Setup */
+     , (43952,   3, 0x20000014) /* SoundTable */
+     , (43952,   6, 0x04000BEF) /* PaletteBase */
+     , (43952,   8, 0x06006FC9) /* Icon */
+     , (43952,  22, 0x3400002B) /* PhysicsEffectTable */;

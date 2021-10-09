@@ -38,15 +38,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30704,   1, 'Royal Paint') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30704,   1,   33554641) /* Setup */
-     , (30704,   3,  536870932) /* SoundTable */
-     , (30704,   6,   67108990) /* PaletteBase */
-     , (30704,   8,  100677376) /* Icon */
-     , (30704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30704,   1, 0x020000D1) /* Setup */
+     , (30704,   3, 0x20000014) /* SoundTable */
+     , (30704,   6, 0x0400007E) /* PaletteBase */
+     , (30704,   8, 0x06003700) /* Icon */
+     , (30704,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30704,   209,      2)  /* ManaRenewalOther4 */
-     , (30704,  1136,      2)  /* PiercingProtectionSelf4 */
-     , (30704,  1424,      2)  /* FocusSelf4 */
+VALUES (30704,  1424,      2)  /* FocusSelf4 */
+     , (30704,   209,      2)  /* ManaRenewalOther4 */
+     , (30704,  2581,      2)  /* CANTRIPFOCUS1 */
      , (30704,  1448,      2)  /* WillpowerSelf4 */
-     , (30704,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (30704,  1136,      2)  /* PiercingProtectionSelf4 */;

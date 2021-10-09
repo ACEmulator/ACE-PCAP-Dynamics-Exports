@@ -40,16 +40,16 @@ VALUES (24371,   1, 'Asheron''s Lesser Raiment') /* Name */
      , (24371,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24371,   1,   33554854) /* Setup */
-     , (24371,   3,  536870932) /* SoundTable */
-     , (24371,   6,   67108990) /* PaletteBase */
-     , (24371,   8,  100674396) /* Icon */
-     , (24371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24371,   1, 0x020001A6) /* Setup */
+     , (24371,   3, 0x20000014) /* SoundTable */
+     , (24371,   6, 0x0400007E) /* PaletteBase */
+     , (24371,   8, 0x06002B5C) /* Icon */
+     , (24371,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24371, 8040, 459095, 77.13209, -78.81267, -0.002499998, 0.6085289, 0, 0, -0.7935317) /* PCAPRecordedLocation */
+VALUES (24371, 8040, 0x00070157, 77.13209, -78.81267, -0.0025, 0.608529, 0, 0, -0.793532) /* PCAPRecordedLocation */
 /* @teleloc 0x00070157 [77.132090 -78.812670 -0.002500] 0.608529 0.000000 0.000000 -0.793532 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24371,  1144,      2)  /* PiercingProtectionOther6 */
-     , (24371,  1360,      2)  /* EnduranceOther6 */;
+VALUES (24371,  1360,      2)  /* EnduranceOther6 */
+     , (24371,  1144,      2)  /* PiercingProtectionOther6 */;

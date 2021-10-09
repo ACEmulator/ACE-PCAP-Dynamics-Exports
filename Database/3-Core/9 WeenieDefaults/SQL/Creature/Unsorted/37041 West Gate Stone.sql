@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37041,   1, 'West Gate Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37041,   1,   33560503) /* Setup */
-     , (37041,   2,  150995428) /* MotionTable */
-     , (37041,   3,  536871008) /* SoundTable */
-     , (37041,   8,  100670496) /* Icon */
-     , (37041,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (37041,   1, 0x020017B7) /* Setup */
+     , (37041,   2, 0x090001E4) /* MotionTable */
+     , (37041,   3, 0x20000060) /* SoundTable */
+     , (37041,   8, 0x06001C20) /* Icon */
+     , (37041,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37041, 8040, 774832163, 108, 60, 16, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (37041, 8040, 0x2E2F0023, 108, 60, 16, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x2E2F0023 [108.000000 60.000000 16.000000] 0.707107 0.000000 0.000000 -0.707107 */;

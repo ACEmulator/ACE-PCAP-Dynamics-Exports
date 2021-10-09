@@ -35,20 +35,20 @@ VALUES (1049,   1, 'Tamara bint Atwab the Armorer') /* Name */
      , (1049,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1049,   1,   33554510) /* Setup */
-     , (1049,   2,  150994945) /* MotionTable */
-     , (1049,   3,  536870914) /* SoundTable */
-     , (1049,   6,   67108990) /* PaletteBase */
-     , (1049,   8,  100667446) /* Icon */
-     , (1049,   9,   83890258) /* EyesTexture */
-     , (1049,  10,   83890292) /* NoseTexture */
-     , (1049,  11,   83890335) /* MouthTexture */
-     , (1049,  15,   67117021) /* HairPalette */
-     , (1049,  16,   67110062) /* EyesPalette */
-     , (1049,  17,   67109552) /* SkinPalette */;
+VALUES (1049,   1, 0x0200004E) /* Setup */
+     , (1049,   2, 0x09000001) /* MotionTable */
+     , (1049,   3, 0x20000002) /* SoundTable */
+     , (1049,   6, 0x0400007E) /* PaletteBase */
+     , (1049,   8, 0x06001036) /* Icon */
+     , (1049,   9, 0x05001052) /* EyesTexture */
+     , (1049,  10, 0x05001074) /* NoseTexture */
+     , (1049,  11, 0x0500109F) /* MouthTexture */
+     , (1049,  15, 0x04001FDD) /* HairPalette */
+     , (1049,  16, 0x040004AE) /* EyesPalette */
+     , (1049,  17, 0x040002B0) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1049, 8040, 2535588141, 83.6276, 77.469, 102.005, 0.6881959, 0, 0, -0.7255249) /* PCAPRecordedLocation */
+VALUES (1049, 8040, 0x9722012D, 83.6276, 77.469, 102.005, 0.688196, 0, 0, -0.725525) /* PCAPRecordedLocation */
 /* @teleloc 0x9722012D [83.627600 77.469000 102.005000] 0.688196 0.000000 0.000000 -0.725525 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

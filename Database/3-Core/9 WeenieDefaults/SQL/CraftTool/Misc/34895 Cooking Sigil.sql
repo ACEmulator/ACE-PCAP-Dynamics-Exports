@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34895,   1, 'Cooking Sigil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34895,   1,   33556223) /* Setup */
-     , (34895,   3,  536870932) /* SoundTable */
-     , (34895,   6,   67111928) /* PaletteBase */
-     , (34895,   8,  100689348) /* Icon */
-     , (34895,  22,  872415275) /* PhysicsEffectTable */
-     , (34895,  50,  100673760) /* IconOverlay */
+VALUES (34895,   1, 0x020006FF) /* Setup */
+     , (34895,   3, 0x20000014) /* SoundTable */
+     , (34895,   6, 0x04000BF8) /* PaletteBase */
+     , (34895,   8, 0x060065C4) /* Icon */
+     , (34895,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34895,  50, 0x060028E0) /* IconOverlay */
      , (34895, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

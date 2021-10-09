@@ -29,8 +29,8 @@ VALUES (40090,   1, 'Radiant Mana Infusion') /* Name */
      , (40090,  20, 'Radiant Mana Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40090,   1,   33555965) /* Setup */
-     , (40090,   3,  536870932) /* SoundTable */
-     , (40090,   6,   67111919) /* PaletteBase */
-     , (40090,   8,  100690347) /* Icon */
-     , (40090,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40090,   1, 0x020005FD) /* Setup */
+     , (40090,   3, 0x20000014) /* SoundTable */
+     , (40090,   6, 0x04000BEF) /* PaletteBase */
+     , (40090,   8, 0x060069AB) /* Icon */
+     , (40090,  22, 0x3400002B) /* PhysicsEffectTable */;

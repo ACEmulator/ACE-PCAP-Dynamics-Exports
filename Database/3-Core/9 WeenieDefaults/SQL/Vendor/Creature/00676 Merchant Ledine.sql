@@ -34,20 +34,20 @@ VALUES (676,   1, 'Merchant Ledine') /* Name */
      , (676,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (676,   1,   33554510) /* Setup */
-     , (676,   2,  150994945) /* MotionTable */
-     , (676,   3,  536870914) /* SoundTable */
-     , (676,   6,   67108990) /* PaletteBase */
-     , (676,   8,  100667446) /* Icon */
-     , (676,   9,   83890277) /* EyesTexture */
-     , (676,  10,   83890307) /* NoseTexture */
-     , (676,  11,   83890345) /* MouthTexture */
-     , (676,  15,   67116995) /* HairPalette */
-     , (676,  16,   67109567) /* EyesPalette */
-     , (676,  17,   67109560) /* SkinPalette */;
+VALUES (676,   1, 0x0200004E) /* Setup */
+     , (676,   2, 0x09000001) /* MotionTable */
+     , (676,   3, 0x20000002) /* SoundTable */
+     , (676,   6, 0x0400007E) /* PaletteBase */
+     , (676,   8, 0x06001036) /* Icon */
+     , (676,   9, 0x05001065) /* EyesTexture */
+     , (676,  10, 0x05001083) /* NoseTexture */
+     , (676,  11, 0x050010A9) /* MouthTexture */
+     , (676,  15, 0x04001FC3) /* HairPalette */
+     , (676,  16, 0x040002BF) /* EyesPalette */
+     , (676,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (676, 8040, 3164537122, 174.206, 66.1816, 32.005, -0.3669878, 0, 0, -0.9302257) /* PCAPRecordedLocation */
+VALUES (676, 8040, 0xBC9F0122, 174.206, 66.1816, 32.005, -0.366988, 0, 0, -0.930226) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0122 [174.206000 66.181600 32.005000] -0.366988 0.000000 0.000000 -0.930226 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

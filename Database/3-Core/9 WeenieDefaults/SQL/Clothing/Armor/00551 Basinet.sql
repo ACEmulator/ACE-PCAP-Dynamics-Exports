@@ -35,8 +35,8 @@ VALUES (551,   1, 'Basinet') /* Name */
      , (551,  16, '  Leather Basinet ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (551,   1,   33555048) /* Setup */
-     , (551,   3,  536870932) /* SoundTable */
-     , (551,   6,   67108990) /* PaletteBase */
-     , (551,   8,  100669454) /* Icon */
-     , (551,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (551,   1, 0x02000268) /* Setup */
+     , (551,   3, 0x20000014) /* SoundTable */
+     , (551,   6, 0x0400007E) /* PaletteBase */
+     , (551,   8, 0x0600180E) /* Icon */
+     , (551,  22, 0x3400002B) /* PhysicsEffectTable */;

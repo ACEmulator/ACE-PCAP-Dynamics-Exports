@@ -53,18 +53,18 @@ VALUES (41881,   1, 'Ultimate Singularity Crossbow') /* Name */
      , (41881,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41881,   1,   33557313) /* Setup */
-     , (41881,   3,  536870932) /* SoundTable */
-     , (41881,   6,   67111919) /* PaletteBase */
-     , (41881,   8,  100672049) /* Icon */
-     , (41881,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41881,   1, 0x02000B41) /* Setup */
+     , (41881,   3, 0x20000014) /* SoundTable */
+     , (41881,   6, 0x04000BEF) /* PaletteBase */
+     , (41881,   8, 0x06002231) /* Icon */
+     , (41881,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41881, 8040, 4181394820, 89.999, 42.25845, -34.07, 0.7235169, 0, 0, -0.6903066) /* PCAPRecordedLocation */
+VALUES (41881, 8040, 0xF93B0584, 89.999, 42.25845, -34.07, 0.723517, 0, 0, -0.690307) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0584 [89.999000 42.258450 -34.070000] 0.723517 0.000000 0.000000 -0.690307 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41881,  2058,      2)  /* CoordinationOther7 */
+     , (41881,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (41881,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41881,  2101,      2)  /* DefenderSelf7 */
-     , (41881,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (41881,  2101,      2)  /* DefenderSelf7 */;

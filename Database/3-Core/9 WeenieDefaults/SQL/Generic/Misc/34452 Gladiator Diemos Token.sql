@@ -21,7 +21,7 @@ VALUES (34452,   1, 'Gladiator Diemos Token') /* Name */
      , (34452,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34452,   1,   33554817) /* Setup */
-     , (34452,   3,  536870932) /* SoundTable */
-     , (34452,   8,  100689380) /* Icon */
-     , (34452,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34452,   1, 0x02000181) /* Setup */
+     , (34452,   3, 0x20000014) /* SoundTable */
+     , (34452,   8, 0x060065E4) /* Icon */
+     , (34452,  22, 0x3400002B) /* PhysicsEffectTable */;

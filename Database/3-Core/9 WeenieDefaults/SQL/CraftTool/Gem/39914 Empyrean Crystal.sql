@@ -25,7 +25,7 @@ VALUES (39914,   1, 'Empyrean Crystal') /* Name */
      , (39914,  16, 'An ancient Empyrean Crystal used to enhance magical items of Empyrean origin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39914,   1,   33556407) /* Setup */
-     , (39914,   3,  536870932) /* SoundTable */
-     , (39914,   8,  100672516) /* Icon */
-     , (39914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39914,   1, 0x020007B7) /* Setup */
+     , (39914,   3, 0x20000014) /* SoundTable */
+     , (39914,   8, 0x06002404) /* Icon */
+     , (39914,  22, 0x3400002B) /* PhysicsEffectTable */;

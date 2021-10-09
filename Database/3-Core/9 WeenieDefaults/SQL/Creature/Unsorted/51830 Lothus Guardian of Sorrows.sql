@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51830,   1, 'Lothus Guardian of Sorrows') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51830,   1,   33561226) /* Setup */
-     , (51830,   2,  150994984) /* MotionTable */
-     , (51830,   3,  536870930) /* SoundTable */
-     , (51830,   6,   67111346) /* PaletteBase */
-     , (51830,   8,  100667943) /* Icon */
-     , (51830,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51830,   1, 0x02001A8A) /* Setup */
+     , (51830,   2, 0x09000028) /* MotionTable */
+     , (51830,   3, 0x20000012) /* SoundTable */
+     , (51830,   6, 0x040009B2) /* PaletteBase */
+     , (51830,   8, 0x06001227) /* Icon */
+     , (51830,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51830, 8040, 758120491, 139.33, 51.8718, 190.079, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51830, 8040, 0x2D30002B, 139.33, 51.8718, 190.079, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D30002B [139.330000 51.871800 190.079000] 1.000000 0.000000 0.000000 0.000000 */;

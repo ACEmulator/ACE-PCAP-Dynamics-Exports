@@ -46,20 +46,20 @@ VALUES (53333,   1, 'Staff') /* Name */
      , (53333,  39, 'Declaregato') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53333,   1,   33555022) /* Setup */
-     , (53333,   3,  536870932) /* SoundTable */
-     , (53333,   6,   67111919) /* PaletteBase */
-     , (53333,   8,  100669097) /* Icon */
-     , (53333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53333,   1, 0x0200024E) /* Setup */
+     , (53333,   3, 0x20000014) /* SoundTable */
+     , (53333,   6, 0x04000BEF) /* PaletteBase */
+     , (53333,   8, 0x060016A9) /* Icon */
+     , (53333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53333,  28,       4310) /* Spell - HealOther8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53333, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (53333, 8040, 0xF418000D, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
-     , (53333,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (53333,  6087,      2)  /* CantripHermeticLink4 */
+     , (53333,  6091,      2)  /* CantripDefender4 */
+     , (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
      , (53333,  6060,      2)  /* CantripLifeMagicAptitude4 */
-     , (53333,  6087,      2)  /* CantripHermeticLink4 */
-     , (53333,  6091,      2)  /* CantripDefender4 */;
+     , (53333,  4602,      2)  /* ManaMasterySelf8 */;

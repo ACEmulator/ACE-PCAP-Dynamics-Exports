@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21103,   1, 'Scroll of Martyr''s Blight II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21103,   1,   33554826) /* Setup */
-     , (21103,   8,  100676937) /* Icon */
-     , (21103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21103,   1, 0x0200018A) /* Setup */
+     , (21103,   8, 0x06003549) /* Icon */
+     , (21103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21103,  28,       2775) /* Spell - ManaBolt2 */;

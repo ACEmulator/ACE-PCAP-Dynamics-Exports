@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26480,   1, 'Fort Aimaru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26480,   1,   33559084) /* Setup */
-     , (26480,   3,  536870932) /* SoundTable */
-     , (26480,   6,   67112626) /* PaletteBase */
-     , (26480,   8,  100675748) /* Icon */
-     , (26480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26480,   1, 0x0200122C) /* Setup */
+     , (26480,   3, 0x20000014) /* SoundTable */
+     , (26480,   6, 0x04000EB2) /* PaletteBase */
+     , (26480,   8, 0x060030A4) /* Icon */
+     , (26480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26480, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

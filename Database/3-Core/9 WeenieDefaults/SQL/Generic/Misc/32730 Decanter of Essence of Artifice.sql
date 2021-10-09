@@ -21,8 +21,8 @@ VALUES (32730,   1, 'Decanter of Essence of Artifice') /* Name */
      , (32730,  16, 'A mystically sealed decanter filled with the raw essence of Artifice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32730,   1,   33555965) /* Setup */
-     , (32730,   3,  536870932) /* SoundTable */
-     , (32730,   6,   67111919) /* PaletteBase */
-     , (32730,   8,  100688605) /* Icon */
-     , (32730,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32730,   1, 0x020005FD) /* Setup */
+     , (32730,   3, 0x20000014) /* SoundTable */
+     , (32730,   6, 0x04000BEF) /* PaletteBase */
+     , (32730,   8, 0x060062DD) /* Icon */
+     , (32730,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,7 +26,7 @@ VALUES (38614,   1, 'Falatacot Battle Report') /* Name */
      , (38614,  16, 'A piece of paper with glowing protections upon it.  It seems to detail troop movements and such on Dark Isle.  It''s too hazardous to handle without the proper knowledge of what it''s used for.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38614,   1,   33554773) /* Setup */
-     , (38614,   3,  536870932) /* SoundTable */
-     , (38614,   8,  100668176) /* Icon */
-     , (38614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38614,   1, 0x02000155) /* Setup */
+     , (38614,   3, 0x20000014) /* SoundTable */
+     , (38614,   8, 0x06001310) /* Icon */
+     , (38614,  22, 0x3400002B) /* PhysicsEffectTable */;

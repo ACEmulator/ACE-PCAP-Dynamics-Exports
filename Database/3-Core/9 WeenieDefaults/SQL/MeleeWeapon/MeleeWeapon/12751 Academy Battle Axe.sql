@@ -38,8 +38,8 @@ VALUES (12751,   1, 'Academy Battle Axe') /* Name */
      , (12751,  15, 'An enhanced battle axe crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12751,   1,   33554725) /* Setup */
-     , (12751,   3,  536870932) /* SoundTable */
-     , (12751,   6,   67111919) /* PaletteBase */
-     , (12751,   8,  100668987) /* Icon */
-     , (12751,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12751,   1, 0x02000125) /* Setup */
+     , (12751,   3, 0x20000014) /* SoundTable */
+     , (12751,   6, 0x04000BEF) /* PaletteBase */
+     , (12751,   8, 0x0600163B) /* Icon */
+     , (12751,  22, 0x3400002B) /* PhysicsEffectTable */;

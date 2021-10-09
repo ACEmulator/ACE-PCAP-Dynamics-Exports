@@ -31,20 +31,20 @@ VALUES (45873,   1, 'Master Rhan') /* Name */
      , (45873,   5, 'Society Stipend Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45873,   1,   33560942) /* Setup */
-     , (45873,   2,  150994945) /* MotionTable */
-     , (45873,   3,  536870913) /* SoundTable */
-     , (45873,   6,   67108990) /* PaletteBase */
-     , (45873,   8,  100667377) /* Icon */
-     , (45873,   9,   83890484) /* EyesTexture */
-     , (45873,  10,   83890553) /* NoseTexture */
-     , (45873,  11,   83890630) /* MouthTexture */
-     , (45873,  15,   67117055) /* HairPalette */
-     , (45873,  16,   67116854) /* EyesPalette */
-     , (45873,  17,   67116851) /* SkinPalette */;
+VALUES (45873,   1, 0x0200196E) /* Setup */
+     , (45873,   2, 0x09000001) /* MotionTable */
+     , (45873,   3, 0x20000001) /* SoundTable */
+     , (45873,   6, 0x0400007E) /* PaletteBase */
+     , (45873,   8, 0x06000FF1) /* Icon */
+     , (45873,   9, 0x05001134) /* EyesTexture */
+     , (45873,  10, 0x05001179) /* NoseTexture */
+     , (45873,  11, 0x050011C6) /* MouthTexture */
+     , (45873,  15, 0x04001FFF) /* HairPalette */
+     , (45873,  16, 0x04001F36) /* EyesPalette */
+     , (45873,  17, 0x04001F33) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45873, 8040, 12124645, 97.1076, -101.666, -17.995, 0.9105912, 0, 0, -0.4133081) /* PCAPRecordedLocation */
+VALUES (45873, 8040, 0x00B901E5, 97.1076, -101.666, -17.995, 0.910591, 0, 0, -0.413308) /* PCAPRecordedLocation */
 /* @teleloc 0x00B901E5 [97.107600 -101.666000 -17.995000] 0.910591 0.000000 0.000000 -0.413308 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

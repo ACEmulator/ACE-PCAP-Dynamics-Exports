@@ -44,7 +44,7 @@ VALUES (3895,   1, 'Flaming Takuba') /* Name */
      , (3895,  16, 'Flaming Takuba') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3895,   1,   33555803) /* Setup */
-     , (3895,   3,  536870932) /* SoundTable */
-     , (3895,   8,  100669045) /* Icon */
-     , (3895,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3895,   1, 0x0200055B) /* Setup */
+     , (3895,   3, 0x20000014) /* SoundTable */
+     , (3895,   8, 0x06001675) /* Icon */
+     , (3895,  22, 0x3400002B) /* PhysicsEffectTable */;

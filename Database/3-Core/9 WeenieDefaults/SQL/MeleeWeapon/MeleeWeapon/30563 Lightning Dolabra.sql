@@ -44,9 +44,9 @@ VALUES (30563,   1, 'Lightning Dolabra') /* Name */
      , (30563,  16, 'Lightning Dolabra') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30563,   1,   33559456) /* Setup */
-     , (30563,   3,  536870932) /* SoundTable */
-     , (30563,   6,   67115558) /* PaletteBase */
-     , (30563,   8,  100686933) /* Icon */
-     , (30563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30563,   1, 0x020013A0) /* Setup */
+     , (30563,   3, 0x20000014) /* SoundTable */
+     , (30563,   6, 0x04001A26) /* PaletteBase */
+     , (30563,   8, 0x06005C55) /* Icon */
+     , (30563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30563,  30,         88) /* PhysicsScript - Create */;

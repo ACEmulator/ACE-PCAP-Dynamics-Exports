@@ -23,8 +23,8 @@ VALUES (32114,   1, 'Windreave Stalker Plaque') /* Name */
      , (32114,  16, 'The owner of this plaque is a verified "Windreave Stalker"!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32114,   1,   33559570) /* Setup */
-     , (32114,   3,  536870932) /* SoundTable */
-     , (32114,   8,  100667452) /* Icon */
-     , (32114,  22,  872415275) /* PhysicsEffectTable */
-     , (32114,  52,  100687685) /* IconUnderlay */;
+VALUES (32114,   1, 0x02001412) /* Setup */
+     , (32114,   3, 0x20000014) /* SoundTable */
+     , (32114,   8, 0x0600103C) /* Icon */
+     , (32114,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32114,  52, 0x06005F45) /* IconUnderlay */;

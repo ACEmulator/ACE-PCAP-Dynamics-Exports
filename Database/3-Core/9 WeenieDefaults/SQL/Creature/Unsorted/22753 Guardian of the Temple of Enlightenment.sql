@@ -27,12 +27,12 @@ VALUES (22753,   1, 'Guardian of the Temple of Enlightenment') /* Name */
      , (22753,  15, 'A very large empyrean head. It appears to be watching you.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22753,   1,   33555377) /* Setup */
-     , (22753,   2,  150995147) /* MotionTable */
-     , (22753,   3,  536871052) /* SoundTable */
-     , (22753,   8,  100667624) /* Icon */
-     , (22753,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (22753,   1, 0x020003B1) /* Setup */
+     , (22753,   2, 0x090000CB) /* MotionTable */
+     , (22753,   3, 0x2000008C) /* SoundTable */
+     , (22753,   8, 0x060010E8) /* Icon */
+     , (22753,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22753, 8040, 2132082719, 85.874, 150.11, 22, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22753, 8040, 0x7F15001F, 85.874, 150.11, 22, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7F15001F [85.874000 150.110000 22.000000] 1.000000 0.000000 0.000000 0.000000 */;

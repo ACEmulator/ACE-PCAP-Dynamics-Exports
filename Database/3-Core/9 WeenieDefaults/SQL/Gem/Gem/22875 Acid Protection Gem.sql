@@ -29,9 +29,9 @@ VALUES (22875,   1, 'Acid Protection Gem') /* Name */
      , (22875,  15, 'A gem of acid protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22875,   1,   33554809) /* Setup */
-     , (22875,   3,  536870932) /* SoundTable */
-     , (22875,   6,   67111919) /* PaletteBase */
-     , (22875,   8,  100673897) /* Icon */
-     , (22875,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22875,   1, 0x02000179) /* Setup */
+     , (22875,   3, 0x20000014) /* SoundTable */
+     , (22875,   6, 0x04000BEF) /* PaletteBase */
+     , (22875,   8, 0x06002969) /* Icon */
+     , (22875,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22875,  28,        514) /* Spell - AcidProtectionOther6 */;

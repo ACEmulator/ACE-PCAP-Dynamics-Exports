@@ -51,21 +51,21 @@ VALUES (51967,   1, 'Rynthid Tentacle Spear') /* Name */
      , (51967,  25, 'Tradnor Jr') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51967,   1,   33561600) /* Setup */
-     , (51967,   3,  536870932) /* SoundTable */
-     , (51967,   6,   67111919) /* PaletteBase */
-     , (51967,   8,  100693232) /* Icon */
-     , (51967,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51967,   1, 0x02001C00) /* Setup */
+     , (51967,   3, 0x20000014) /* SoundTable */
+     , (51967,   6, 0x04000BEF) /* PaletteBase */
+     , (51967,   8, 0x060074F0) /* Icon */
+     , (51967,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51967, 8040, 3465871413, 151.4366, 108.0774, 19.929, 0.5382825, 0.5382825, 0.4585324, 0.4585324) /* PCAPRecordedLocation */
+VALUES (51967, 8040, 0xCE950035, 151.4366, 108.0774, 19.929, 0.538283, 0.538283, 0.458532, 0.458532) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [151.436600 108.077400 19.929000] 0.538283 0.538283 0.458532 0.458532 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51967,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (51967,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (51967,  4417,      2)  /* SwiftKillerSelf8 */
      , (51967,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51967,  4400,      2)  /* DefenderSelf8 */
      , (51967,  4405,      2)  /* HeartSeekerSelf8 */
-     , (51967,  4417,      2)  /* SwiftKillerSelf8 */
-     , (51967,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */;
+     , (51967,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */
+     , (51967,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (51967,  3965,      2)  /* CANTRIPSTRENGTH3 */;

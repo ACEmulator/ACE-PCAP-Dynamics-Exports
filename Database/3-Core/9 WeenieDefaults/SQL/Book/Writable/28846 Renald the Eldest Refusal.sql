@@ -24,7 +24,7 @@ VALUES (28846,   1, 'Renald the Eldest Refusal') /* Name */
      , (28846,  16, 'Deliver this letter to Anton Sillezi of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28846,   1,   33554776) /* Setup */
-     , (28846,   3,  536870932) /* SoundTable */
-     , (28846,   8,  100668176) /* Icon */
-     , (28846,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28846,   1, 0x02000158) /* Setup */
+     , (28846,   3, 0x20000014) /* SoundTable */
+     , (28846,   8, 0x06001310) /* Icon */
+     , (28846,  22, 0x3400002B) /* PhysicsEffectTable */;

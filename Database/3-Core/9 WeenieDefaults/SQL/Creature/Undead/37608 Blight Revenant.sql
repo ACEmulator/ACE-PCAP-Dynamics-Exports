@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37608,   1, 'Blight Revenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37608,   1,   33558541) /* Setup */
-     , (37608,   2,  150994967) /* MotionTable */
-     , (37608,   3,  536870934) /* SoundTable */
-     , (37608,   6,   67114692) /* PaletteBase */
-     , (37608,   8,  100667942) /* Icon */
-     , (37608,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (37608,   1, 0x0200100D) /* Setup */
+     , (37608,   2, 0x09000017) /* MotionTable */
+     , (37608,   3, 0x20000016) /* SoundTable */
+     , (37608,   6, 0x040016C4) /* PaletteBase */
+     , (37608,   8, 0x06001226) /* Icon */
+     , (37608,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37608, 8040, 1244463149, 141.557, 114.778, 0.008249998, 0.99414, 0, 0, 0.1081) /* PCAPRecordedLocation */
+VALUES (37608, 8040, 0x4A2D002D, 141.557, 114.778, 0.00825, 0.99414, 0, 0, 0.1081) /* PCAPRecordedLocation */
 /* @teleloc 0x4A2D002D [141.557000 114.778000 0.008250] 0.994140 0.000000 0.000000 0.108100 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

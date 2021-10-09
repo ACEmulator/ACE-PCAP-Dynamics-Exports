@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9428,   1, 'Cold Moonstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9428,   1,   33554809) /* Setup */
-     , (9428,   3,  536870932) /* SoundTable */
-     , (9428,   6,   67111919) /* PaletteBase */
-     , (9428,   8,  100668365) /* Icon */
-     , (9428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9428,   1, 0x02000179) /* Setup */
+     , (9428,   3, 0x20000014) /* SoundTable */
+     , (9428,   6, 0x04000BEF) /* PaletteBase */
+     , (9428,   8, 0x060013CD) /* Icon */
+     , (9428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9428,  28,       2397) /* Spell - IceShield */;

@@ -43,12 +43,12 @@ VALUES (30583,   1, 'Flaming Mazule') /* Name */
      , (30583,  16, 'Flaming Mazule') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30583,   1,   33559470) /* Setup */
-     , (30583,   3,  536870932) /* SoundTable */
-     , (30583,   6,   67115559) /* PaletteBase */
-     , (30583,   8,  100686973) /* Icon */
-     , (30583,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30583,   1, 0x020013AE) /* Setup */
+     , (30583,   3, 0x20000014) /* SoundTable */
+     , (30583,   6, 0x04001A27) /* PaletteBase */
+     , (30583,   8, 0x06005C7D) /* Icon */
+     , (30583,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30583, 8040, 23200210, 59.975, -10, 11.9295, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (30583, 8040, 0x016201D2, 59.975, -10, 11.9295, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016201D2 [59.975000 -10.000000 11.929500] 0.000000 0.000000 -0.707107 -0.707107 */;

@@ -32,9 +32,9 @@ VALUES (36623,   1, 'Foolproof') /* Name */
      , (36623,  15, 'Chips of fire opal. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36623,   1,   33554817) /* Setup */
-     , (36623,   3,  536870932) /* SoundTable */
-     , (36623,   6,   67111919) /* PaletteBase */
-     , (36623,   8,  100686617) /* Icon */
-     , (36623,  22,  872415275) /* PhysicsEffectTable */
-     , (36623,  50,  100673273) /* IconOverlay */;
+VALUES (36623,   1, 0x02000181) /* Setup */
+     , (36623,   3, 0x20000014) /* SoundTable */
+     , (36623,   6, 0x04000BEF) /* PaletteBase */
+     , (36623,   8, 0x06005B19) /* Icon */
+     , (36623,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36623,  50, 0x060026F9) /* IconOverlay */;

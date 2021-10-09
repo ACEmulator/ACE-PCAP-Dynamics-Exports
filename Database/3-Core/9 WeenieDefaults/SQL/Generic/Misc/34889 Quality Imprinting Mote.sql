@@ -22,8 +22,8 @@ VALUES (34889,   1, 'Quality Imprinting Mote') /* Name */
      , (34889,  16, 'You will need a skill of 300 or higher to have a good chance of using a Skill Sigil to imprint your knowledge on this mote succesfully.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34889,   1,   33556406) /* Setup */
-     , (34889,   3,  536870932) /* SoundTable */
-     , (34889,   6,   67111919) /* PaletteBase */
-     , (34889,   8,  100689351) /* Icon */
-     , (34889,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34889,   1, 0x020007B6) /* Setup */
+     , (34889,   3, 0x20000014) /* SoundTable */
+     , (34889,   6, 0x04000BEF) /* PaletteBase */
+     , (34889,   8, 0x060065C7) /* Icon */
+     , (34889,  22, 0x3400002B) /* PhysicsEffectTable */;

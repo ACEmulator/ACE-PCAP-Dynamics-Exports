@@ -52,14 +52,14 @@ VALUES (35803,   1, 'Club of Killagurg') /* Name */
      , (35803,  16, 'A club that once belonged to the Colosseum champion, the Mosswart Killagurg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35803,   1,   33556639) /* Setup */
-     , (35803,   3,  536870932) /* SoundTable */
-     , (35803,   6,   67111919) /* PaletteBase */
-     , (35803,   8,  100670759) /* Icon */
-     , (35803,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35803,   1, 0x0200089F) /* Setup */
+     , (35803,   3, 0x20000014) /* SoundTable */
+     , (35803,   6, 0x04000BEF) /* PaletteBase */
+     , (35803,   8, 0x06001D27) /* Icon */
+     , (35803,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35803,  1592,      2)  /* HeartSeekerSelf6 */
-     , (35803,  1627,      2)  /* SwiftKillerSelf6 */
+VALUES (35803,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35803,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (35803,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35803,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;
+     , (35803,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -18,9 +18,9 @@ VALUES (15208,   1, 'Asbel Domain') /* Name */
      , (15208,  16, 'Welcome to Asbel Domain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15208,   1,   33557463) /* Setup */
-     , (15208,   8,  100668115) /* Icon */;
+VALUES (15208,   1, 0x02000BD7) /* Setup */
+     , (15208,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15208, 8040, 2977824796, 83.8353, 84.2502, 26, -0.407637, 0, 0, 0.913144) /* PCAPRecordedLocation */
+VALUES (15208, 8040, 0xB17E001C, 83.8353, 84.2502, 26, -0.407637, 0, 0, 0.913144) /* PCAPRecordedLocation */
 /* @teleloc 0xB17E001C [83.835300 84.250200 26.000000] -0.407637 0.000000 0.000000 0.913144 */;

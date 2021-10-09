@@ -51,15 +51,15 @@ VALUES (3900,   1, 'Frost Tofun') /* Name */
      , (3900,  16, 'Frost Tofun of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3900,   1,   33555741) /* Setup */
-     , (3900,   3,  536870932) /* SoundTable */
-     , (3900,   6,   67111919) /* PaletteBase */
-     , (3900,   8,  100668964) /* Icon */
-     , (3900,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3900,   1, 0x0200051D) /* Setup */
+     , (3900,   3, 0x20000014) /* SoundTable */
+     , (3900,   6, 0x04000BEF) /* PaletteBase */
+     , (3900,   8, 0x06001624) /* Icon */
+     , (3900,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3900,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3900,  1332,      2)  /* StrengthSelf6 */
+VALUES (3900,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (3900,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3900,  2575,      2)  /* CANTRIPQUICKNESS2 */
-     , (3900,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (3900,  2578,      2)  /* CANTRIPARMOR1 */
+     , (3900,  1332,      2)  /* StrengthSelf6 */;

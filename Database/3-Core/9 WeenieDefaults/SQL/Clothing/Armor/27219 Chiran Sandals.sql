@@ -42,15 +42,15 @@ VALUES (27219,   1, 'Chiran Sandals') /* Name */
      , (27219,  16, 'Chiran Sandals of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27219,   1,   33554654) /* Setup */
-     , (27219,   3,  536870932) /* SoundTable */
-     , (27219,   6,   67108990) /* PaletteBase */
-     , (27219,   8,  100676019) /* Icon */
-     , (27219,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27219,   1, 0x020000DE) /* Setup */
+     , (27219,   3, 0x20000014) /* SoundTable */
+     , (27219,   6, 0x0400007E) /* PaletteBase */
+     , (27219,   8, 0x060031B3) /* Icon */
+     , (27219,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27219,   879,      2)  /* HealingMasterySelf6 */
-     , (27219,  1486,      2)  /* Impenetrability6 */
-     , (27219,  2098,      2)  /* BludgeonBane7 */
+VALUES (27219,  1486,      2)  /* Impenetrability6 */
+     , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (27219,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
-     , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (27219,   879,      2)  /* HealingMasterySelf6 */
+     , (27219,  2098,      2)  /* BludgeonBane7 */;

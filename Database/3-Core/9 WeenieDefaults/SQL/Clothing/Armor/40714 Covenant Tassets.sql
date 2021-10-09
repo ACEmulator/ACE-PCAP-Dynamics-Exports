@@ -47,11 +47,11 @@ VALUES (40714,   1, 'Covenant Tassets') /* Name */
      , (40714,  16, 'Covenant Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40714,   1,   33554656) /* Setup */
-     , (40714,   3,  536870932) /* SoundTable */
-     , (40714,   6,   67108990) /* PaletteBase */
-     , (40714,   8,  100673463) /* Icon */
-     , (40714,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40714,   1, 0x020000E0) /* Setup */
+     , (40714,   3, 0x20000014) /* SoundTable */
+     , (40714,   6, 0x0400007E) /* PaletteBase */
+     , (40714,   8, 0x060027B7) /* Icon */
+     , (40714,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40714,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

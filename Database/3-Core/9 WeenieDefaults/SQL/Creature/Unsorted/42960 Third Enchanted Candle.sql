@@ -27,12 +27,12 @@ VALUES (42960,   1, 'Third Enchanted Candle') /* Name */
      , (42960,  16, 'An enchanted candle, used in the race celebrating the marriage of Borelean and Hoshino Kei.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42960,   1,   33560114) /* Setup */
-     , (42960,   2,  150995456) /* MotionTable */
-     , (42960,   3,  536871001) /* SoundTable */
-     , (42960,   8,  100667477) /* Icon */
-     , (42960,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (42960,   1, 0x02001632) /* Setup */
+     , (42960,   2, 0x09000200) /* MotionTable */
+     , (42960,   3, 0x20000059) /* SoundTable */
+     , (42960,   8, 0x06001055) /* Icon */
+     , (42960,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42960, 8040, 3010396163, 11.881, 60.0485, 49.59146, 0.9999865, 0, 0, 0.005206612) /* PCAPRecordedLocation */
+VALUES (42960, 8040, 0xB36F0003, 11.881, 60.0485, 49.59146, 0.999987, 0, 0, 0.005207) /* PCAPRecordedLocation */
 /* @teleloc 0xB36F0003 [11.881000 60.048500 49.591460] 0.999987 0.000000 0.000000 0.005207 */;

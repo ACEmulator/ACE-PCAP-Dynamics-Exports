@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45472,   1, 'Axe Mastery') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45472,   1,   33561425) /* Setup */
-     , (45472,   2,  150995446) /* MotionTable */
-     , (45472,   3,  536870932) /* SoundTable */
-     , (45472,   8,  100690423) /* Icon */
-     , (45472,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45472,   1, 0x02001B51) /* Setup */
+     , (45472,   2, 0x090001F6) /* MotionTable */
+     , (45472,   3, 0x20000014) /* SoundTable */
+     , (45472,   8, 0x060069F7) /* Icon */
+     , (45472,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45472, 8040, 3332964379, 89.3881, 56.1135, 43.0225, -0.703054, 0, 0, 0.711137) /* PCAPRecordedLocation */
+VALUES (45472, 8040, 0xC6A9001B, 89.3881, 56.1135, 43.0225, -0.703054, 0, 0, 0.711137) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [89.388100 56.113500 43.022500] -0.703054 0.000000 0.000000 0.711137 */;

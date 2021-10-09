@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7268,   1, 'Whirling Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7268,   1,   33555452) /* Setup */
-     , (7268,   3,  536870972) /* SoundTable */
-     , (7268,   8,  100667494) /* Icon */
-     , (7268,  22,  872415240) /* PhysicsEffectTable */
+VALUES (7268,   1, 0x020003FC) /* Setup */
+     , (7268,   3, 0x2000003C) /* SoundTable */
+     , (7268,   8, 0x06001066) /* Icon */
+     , (7268,  22, 0x34000008) /* PhysicsEffectTable */
      , (7268,  28,         92) /* Spell - WhirlingBlade1 */
      , (7268,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7268, 8040, 636420097, 1.505176, 10.02659, 1.251056, -0.3144189, 0, 0, -0.9492844) /* PCAPRecordedLocation */
+VALUES (7268, 8040, 0x25EF0001, 1.505176, 10.02659, 1.251056, -0.314419, 0, 0, -0.949284) /* PCAPRecordedLocation */
 /* @teleloc 0x25EF0001 [1.505176 10.026590 1.251056] -0.314419 0.000000 0.000000 -0.949284 */;

@@ -19,7 +19,7 @@ VALUES (34089,   1, 'Floating Candle') /* Name */
      , (34089,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34089,   1,   33560114) /* Setup */
-     , (34089,   3,  536870932) /* SoundTable */
-     , (34089,   8,  100667477) /* Icon */
-     , (34089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34089,   1, 0x02001632) /* Setup */
+     , (34089,   3, 0x20000014) /* SoundTable */
+     , (34089,   8, 0x06001055) /* Icon */
+     , (34089,  22, 0x3400002B) /* PhysicsEffectTable */;

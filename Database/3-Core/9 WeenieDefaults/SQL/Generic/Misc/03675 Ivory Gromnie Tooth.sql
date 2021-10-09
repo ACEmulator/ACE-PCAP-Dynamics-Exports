@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3675,   1, 'Ivory Gromnie Tooth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3675,   1,   33554817) /* Setup */
-     , (3675,   3,  536870932) /* SoundTable */
-     , (3675,   8,  100676759) /* Icon */
-     , (3675,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3675,   1, 0x02000181) /* Setup */
+     , (3675,   3, 0x20000014) /* SoundTable */
+     , (3675,   8, 0x06003497) /* Icon */
+     , (3675,  22, 0x3400002B) /* PhysicsEffectTable */;

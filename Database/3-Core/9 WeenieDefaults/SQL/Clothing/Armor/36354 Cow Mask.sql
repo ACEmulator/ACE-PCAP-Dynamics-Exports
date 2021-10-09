@@ -32,7 +32,7 @@ VALUES (36354,   1, 'Cow Mask') /* Name */
      , (36354,  16, 'A cow mask') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36354,   1,   33560384) /* Setup */
-     , (36354,   3,  536870932) /* SoundTable */
-     , (36354,   8,  100689623) /* Icon */
-     , (36354,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36354,   1, 0x02001740) /* Setup */
+     , (36354,   3, 0x20000014) /* SoundTable */
+     , (36354,   8, 0x060066D7) /* Icon */
+     , (36354,  22, 0x3400002B) /* PhysicsEffectTable */;

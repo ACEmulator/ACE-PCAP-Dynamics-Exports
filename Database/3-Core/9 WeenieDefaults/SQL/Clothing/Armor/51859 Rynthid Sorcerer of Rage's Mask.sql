@@ -46,13 +46,13 @@ VALUES (51859,   1, 'Rynthid Sorcerer of Rage''s Mask') /* Name */
      , (51859,  15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Rage.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51859,   1,   33561594) /* Setup */
-     , (51859,   3,  536870932) /* SoundTable */
-     , (51859,   8,  100693223) /* Icon */
-     , (51859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51859,   1, 0x02001BFA) /* Setup */
+     , (51859,   3, 0x20000014) /* SoundTable */
+     , (51859,   8, 0x060074E7) /* Icon */
+     , (51859,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51859,  4227,      2)  /* CANTRIPWILLPOWER3 */
-     , (51859,  4407,      2)  /* Impenetrability8 */
+     , (51859,  6105,      2)  /* CantripFocus4 */
      , (51859,  6051,      2)  /* CantripFealty4 */
-     , (51859,  6105,      2)  /* CantripFocus4 */;
+     , (51859,  4407,      2)  /* Impenetrability8 */;

@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14870,   1, 'Blue Shadow Dye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14870,   1,   33556753) /* Setup */
-     , (14870,   3,  536870932) /* SoundTable */
-     , (14870,   6,   67111919) /* PaletteBase */
-     , (14870,   8,  100672639) /* Icon */
-     , (14870,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14870,   1, 0x02000911) /* Setup */
+     , (14870,   3, 0x20000014) /* SoundTable */
+     , (14870,   6, 0x04000BEF) /* PaletteBase */
+     , (14870,   8, 0x0600247F) /* Icon */
+     , (14870,  22, 0x3400002B) /* PhysicsEffectTable */;

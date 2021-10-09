@@ -19,7 +19,7 @@ VALUES (5811,   1, 'Carrot Cake') /* Name */
      , (5811,  20, 'Carrot Cakes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5811,   1,   33555193) /* Setup */
-     , (5811,   3,  536870932) /* SoundTable */
-     , (5811,   8,  100670292) /* Icon */
-     , (5811,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5811,   1, 0x020002F9) /* Setup */
+     , (5811,   3, 0x20000014) /* SoundTable */
+     , (5811,   8, 0x06001B54) /* Icon */
+     , (5811,  22, 0x3400002B) /* PhysicsEffectTable */;

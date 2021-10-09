@@ -19,5 +19,5 @@ VALUES (44739,   1, 'Grievver') /* Name */
      , (44739,  16, 'The scholars of the Zaikhal Arcanum originally titled the Grievvers "Gria''venir," after a race of spider-daemons in Gharu''ndim mythology. This was quickly slurred into something more pronounceable and appropriate. These spindly, agile creatures appear fragile, due to their thin limbs and slender profile. However, they are quite resistant to magic and are vicious in melee combat. A few varieties can even cast powerful magic themselves, and reports state that some spit acid, while others, through some unknown ability, produce lightning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44739,   1,   33561339) /* Setup */
-     , (44739,   8,  100668115) /* Icon */;
+VALUES (44739,   1, 0x02001AFB) /* Setup */
+     , (44739,   8, 0x060012D3) /* Icon */;

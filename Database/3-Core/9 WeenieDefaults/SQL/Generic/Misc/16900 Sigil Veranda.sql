@@ -18,9 +18,9 @@ VALUES (16900,   1, 'Sigil Veranda') /* Name */
      , (16900,  16, 'Sigil Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16900,   1,   33557657) /* Setup */
-     , (16900,   8,  100672342) /* Icon */;
+VALUES (16900,   1, 0x02000C99) /* Setup */
+     , (16900,   8, 0x06002356) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16900, 8040, 1415905668, 87.0648, -29.9855, 0, -0.721669, 0, 0, 0.692238) /* PCAPRecordedLocation */
+VALUES (16900, 8040, 0x54650184, 87.0648, -29.9855, 0, -0.721669, 0, 0, 0.692238) /* PCAPRecordedLocation */
 /* @teleloc 0x54650184 [87.064800 -29.985500 0.000000] -0.721669 0.000000 0.000000 0.692238 */;

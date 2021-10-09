@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37471,   1, 'Dagger Stamped Spectral Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37471,   1,   33556769) /* Setup */
-     , (37471,   3,  536870932) /* SoundTable */
-     , (37471,   6,   67111919) /* PaletteBase */
-     , (37471,   8,  100689897) /* Icon */
-     , (37471,  22,  872415275) /* PhysicsEffectTable */
-     , (37471,  50,  100673763) /* IconOverlay */
-     , (37471,  52,  100689404) /* IconUnderlay */;
+VALUES (37471,   1, 0x02000921) /* Setup */
+     , (37471,   3, 0x20000014) /* SoundTable */
+     , (37471,   6, 0x04000BEF) /* PaletteBase */
+     , (37471,   8, 0x060067E9) /* Icon */
+     , (37471,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37471,  50, 0x060028E3) /* IconOverlay */
+     , (37471,  52, 0x060065FC) /* IconUnderlay */;

@@ -24,7 +24,7 @@ VALUES (35566,   1, 'Observations: Harraag') /* Name */
      , (35566,  16, 'A copy of the translation of the Virindi Message Shard retrieved from the Virindi Archivist, detailing observations on the altered Banderling, Harraag.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35566,   1,   33554771) /* Setup */
-     , (35566,   3,  536870932) /* SoundTable */
-     , (35566,   8,  100668117) /* Icon */
-     , (35566,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35566,   1, 0x02000153) /* Setup */
+     , (35566,   3, 0x20000014) /* SoundTable */
+     , (35566,   8, 0x060012D5) /* Icon */
+     , (35566,  22, 0x3400002B) /* PhysicsEffectTable */;

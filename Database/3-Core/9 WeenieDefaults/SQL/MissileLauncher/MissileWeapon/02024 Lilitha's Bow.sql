@@ -36,8 +36,8 @@ VALUES (2024,   1, 'Lilitha''s Bow') /* Name */
      , (2024,   8, 'Cyberkiller') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2024,   1,   33554729) /* Setup */
-     , (2024,   3,  536870932) /* SoundTable */
-     , (2024,   6,   67111919) /* PaletteBase */
-     , (2024,   8,  100668830) /* Icon */
-     , (2024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2024,   1, 0x02000129) /* Setup */
+     , (2024,   3, 0x20000014) /* SoundTable */
+     , (2024,   6, 0x04000BEF) /* PaletteBase */
+     , (2024,   8, 0x0600159E) /* Icon */
+     , (2024,  22, 0x3400002B) /* PhysicsEffectTable */;

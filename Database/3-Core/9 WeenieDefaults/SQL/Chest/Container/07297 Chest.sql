@@ -29,12 +29,12 @@ VALUES (7297,   1, 'Chest') /* Name */
      , (7297,  16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7297,   1,   33554556) /* Setup */
-     , (7297,   2,  150994948) /* MotionTable */
-     , (7297,   3,  536870945) /* SoundTable */
-     , (7297,   8,  100667424) /* Icon */
-     , (7297,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7297,   1, 0x0200007C) /* Setup */
+     , (7297,   2, 0x09000004) /* MotionTable */
+     , (7297,   3, 0x20000021) /* SoundTable */
+     , (7297,   8, 0x06001020) /* Icon */
+     , (7297,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7297, 8040, 622460992, 180.081, 183.077, 12, 0.9992547, 0, 0, -0.03860109) /* PCAPRecordedLocation */
+VALUES (7297, 8040, 0x251A0040, 180.081, 183.077, 12, 0.999255, 0, 0, -0.038601) /* PCAPRecordedLocation */
 /* @teleloc 0x251A0040 [180.081000 183.077000 12.000000] 0.999255 0.000000 0.000000 -0.038601 */;

@@ -34,20 +34,20 @@ VALUES (1823,   1, 'Tailor Fadnuj ibn Samil') /* Name */
      , (1823,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1823,   1,   33554433) /* Setup */
-     , (1823,   2,  150994945) /* MotionTable */
-     , (1823,   3,  536870913) /* SoundTable */
-     , (1823,   6,   67108990) /* PaletteBase */
-     , (1823,   8,  100667446) /* Icon */
-     , (1823,   9,   83890511) /* EyesTexture */
-     , (1823,  10,   83890539) /* NoseTexture */
-     , (1823,  11,   83890575) /* MouthTexture */
-     , (1823,  15,   67117070) /* HairPalette */
-     , (1823,  16,   67109567) /* EyesPalette */
-     , (1823,  17,   67109554) /* SkinPalette */;
+VALUES (1823,   1, 0x02000001) /* Setup */
+     , (1823,   2, 0x09000001) /* MotionTable */
+     , (1823,   3, 0x20000001) /* SoundTable */
+     , (1823,   6, 0x0400007E) /* PaletteBase */
+     , (1823,   8, 0x06001036) /* Icon */
+     , (1823,   9, 0x0500114F) /* EyesTexture */
+     , (1823,  10, 0x0500116B) /* NoseTexture */
+     , (1823,  11, 0x0500118F) /* MouthTexture */
+     , (1823,  15, 0x0400200E) /* HairPalette */
+     , (1823,  16, 0x040002BF) /* EyesPalette */
+     , (1823,  17, 0x040002B2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1823, 8040, 2255225089, 154.869, 176.93, 9.705, 0.9553733, 0, 0, -0.2954012) /* PCAPRecordedLocation */
+VALUES (1823, 8040, 0x866C0101, 154.869, 176.93, 9.705, 0.955373, 0, 0, -0.295401) /* PCAPRecordedLocation */
 /* @teleloc 0x866C0101 [154.869000 176.930000 9.705000] 0.955373 0.000000 0.000000 -0.295401 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

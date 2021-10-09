@@ -28,12 +28,12 @@ VALUES (38510,   1, 'Radiant Blood Sollerets Chest') /* Name */
      , (38510,  16, 'A Society Reward Chest, containing a randomly enchanted set of Radiant Blood Sollerets.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38510,   1,   33554556) /* Setup */
-     , (38510,   2,  150994948) /* MotionTable */
-     , (38510,   3,  536870945) /* SoundTable */
-     , (38510,   8,  100667426) /* Icon */
-     , (38510,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38510,   1, 0x0200007C) /* Setup */
+     , (38510,   2, 0x09000004) /* MotionTable */
+     , (38510,   3, 0x20000021) /* SoundTable */
+     , (38510,   8, 0x06001022) /* Icon */
+     , (38510,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38510, 8040, 12124420, 56.0697, -33.6972, -24, -0.7116709, 0, 0, -0.7025129) /* PCAPRecordedLocation */
+VALUES (38510, 8040, 0x00B90104, 56.0697, -33.6972, -24, -0.711671, 0, 0, -0.702513) /* PCAPRecordedLocation */
 /* @teleloc 0x00B90104 [56.069700 -33.697200 -24.000000] -0.711671 0.000000 0.000000 -0.702513 */;

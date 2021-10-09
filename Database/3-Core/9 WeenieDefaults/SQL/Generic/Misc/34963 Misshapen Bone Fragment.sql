@@ -22,7 +22,7 @@ VALUES (34963,   1, 'Misshapen Bone Fragment') /* Name */
      , (34963,  16, 'A strange piece of bone and dirt with strange dark red stains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34963,   1,   33560099) /* Setup */
-     , (34963,   3,  536870932) /* SoundTable */
-     , (34963,   8,  100689365) /* Icon */
-     , (34963,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34963,   1, 0x02001623) /* Setup */
+     , (34963,   3, 0x20000014) /* SoundTable */
+     , (34963,   8, 0x060065D5) /* Icon */
+     , (34963,  22, 0x3400002B) /* PhysicsEffectTable */;

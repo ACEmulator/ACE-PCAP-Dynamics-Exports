@@ -23,7 +23,7 @@ VALUES (20461,   1, 'Scroll of Cameron''s Curse') /* Name */
 Sends a shock wave streaking towards the target. The wave does 42-84 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20461,   1,   33554826) /* Setup */
-     , (20461,   8,  100677008) /* Icon */
-     , (20461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20461,   1, 0x0200018A) /* Setup */
+     , (20461,   8, 0x06003590) /* Icon */
+     , (20461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20461,  28,       2145) /* Spell - ShockwaveStreak7 */;

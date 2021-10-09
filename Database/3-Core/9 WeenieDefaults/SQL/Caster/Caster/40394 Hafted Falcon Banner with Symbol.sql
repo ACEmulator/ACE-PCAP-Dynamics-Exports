@@ -47,13 +47,13 @@ VALUES (40394,   1, 'Hafted Falcon Banner with Symbol') /* Name */
      , (40394,  25, 'Nihoawa') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40394,   1,   33557258) /* Setup */
-     , (40394,   3,  536870932) /* SoundTable */
-     , (40394,   8,  100671912) /* Icon */
-     , (40394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40394,   1, 0x02000B0A) /* Setup */
+     , (40394,   3, 0x20000014) /* SoundTable */
+     , (40394,   8, 0x060021A8) /* Icon */
+     , (40394,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40394, 8040, 4135714867, 145.6859, 49.87566, 57.9295, -0.3306036, -0.3306036, -0.625061, -0.625061) /* PCAPRecordedLocation */
+VALUES (40394, 8040, 0xF6820033, 145.6859, 49.87566, 57.9295, -0.330604, -0.330604, -0.625061, -0.625061) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820033 [145.685900 49.875660 57.929500] -0.330604 -0.330604 -0.625061 -0.625061 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

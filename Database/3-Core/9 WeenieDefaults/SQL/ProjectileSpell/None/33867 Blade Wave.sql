@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33867,   1, 'Blade Wave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33867,   1,   33560057) /* Setup */
-     , (33867,   3,  536870972) /* SoundTable */
-     , (33867,   8,  100667494) /* Icon */
+VALUES (33867,   1, 0x020015F9) /* Setup */
+     , (33867,   3, 0x2000003C) /* SoundTable */
+     , (33867,   8, 0x06001066) /* Icon */
      , (33867,  28,         92) /* Spell - WhirlingBlade1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33867, 8040, 1482883608, 210, -69.45546, 1.228333, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (33867, 8040, 0x58630218, 210, -69.45546, 1.228333, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x58630218 [210.000000 -69.455460 1.228333] 0.000000 0.000000 0.000000 -1.000000 */;

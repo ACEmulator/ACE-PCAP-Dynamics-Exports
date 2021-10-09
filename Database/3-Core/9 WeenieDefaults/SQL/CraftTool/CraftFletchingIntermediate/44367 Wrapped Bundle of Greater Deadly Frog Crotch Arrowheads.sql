@@ -27,8 +27,8 @@ VALUES (44367,   1, 'Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads') /
      , (44367,  20, 'Wrapped Bundles of Greater Deadly Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44367,   1,   33557030) /* Setup */
-     , (44367,   3,  536870932) /* SoundTable */
-     , (44367,   8,  100672692) /* Icon */
-     , (44367,  22,  872415275) /* PhysicsEffectTable */
-     , (44367,  50,  100689661) /* IconOverlay */;
+VALUES (44367,   1, 0x02000A26) /* Setup */
+     , (44367,   3, 0x20000014) /* SoundTable */
+     , (44367,   8, 0x060024B4) /* Icon */
+     , (44367,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44367,  50, 0x060066FD) /* IconOverlay */;

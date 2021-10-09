@@ -26,12 +26,12 @@ VALUES (41832,   1, 'Celestial Hand Supplies') /* Name */
      , (41832,  16, 'Supplies stored by the Celestial Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41832,   1,   33554718) /* Setup */
-     , (41832,   3,  536870932) /* SoundTable */
-     , (41832,   8,  100668152) /* Icon */
-     , (41832,  22,  872415275) /* PhysicsEffectTable */
-     , (41832,  50,  100690171) /* IconOverlay */;
+VALUES (41832,   1, 0x0200011E) /* Setup */
+     , (41832,   3, 0x20000014) /* SoundTable */
+     , (41832,   8, 0x060012F8) /* Icon */
+     , (41832,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41832,  50, 0x060068FB) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41832, 8040, 1074528291, 108.347, 70.538, 0.143463, 0.7234611, 0, 0, -0.6903651) /* PCAPRecordedLocation */
+VALUES (41832, 8040, 0x400C0023, 108.347, 70.538, 0.143463, 0.723461, 0, 0, -0.690365) /* PCAPRecordedLocation */
 /* @teleloc 0x400C0023 [108.347000 70.538000 0.143463] 0.723461 0.000000 0.000000 -0.690365 */;

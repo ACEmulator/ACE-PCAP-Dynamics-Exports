@@ -30,20 +30,20 @@ VALUES (30269,   1, 'Robert Crow') /* Name */
      , (30269,   5, 'Augmentation Trainer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30269,   1,   33554433) /* Setup */
-     , (30269,   2,  150994945) /* MotionTable */
-     , (30269,   3,  536870913) /* SoundTable */
-     , (30269,   6,   67108990) /* PaletteBase */
-     , (30269,   8,  100667377) /* Icon */
-     , (30269,   9,   83890485) /* EyesTexture */
-     , (30269,  10,   83890518) /* NoseTexture */
-     , (30269,  11,   83890566) /* MouthTexture */
-     , (30269,  15,   67116999) /* HairPalette */
-     , (30269,  16,   67110063) /* EyesPalette */
-     , (30269,  17,   67109558) /* SkinPalette */;
+VALUES (30269,   1, 0x02000001) /* Setup */
+     , (30269,   2, 0x09000001) /* MotionTable */
+     , (30269,   3, 0x20000001) /* SoundTable */
+     , (30269,   6, 0x0400007E) /* PaletteBase */
+     , (30269,   8, 0x06000FF1) /* Icon */
+     , (30269,   9, 0x05001135) /* EyesTexture */
+     , (30269,  10, 0x05001156) /* NoseTexture */
+     , (30269,  11, 0x05001186) /* MouthTexture */
+     , (30269,  15, 0x04001FC7) /* HairPalette */
+     , (30269,  16, 0x040004AF) /* EyesPalette */
+     , (30269,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30269, 8040, 3147759878, 176.726, 55.0766, 54.005, -0.9670933, 0, 0, 0.2544221) /* PCAPRecordedLocation */
+VALUES (30269, 8040, 0xBB9F0106, 176.726, 55.0766, 54.005, -0.967093, 0, 0, 0.254422) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0106 [176.726000 55.076600 54.005000] -0.967093 0.000000 0.000000 0.254422 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

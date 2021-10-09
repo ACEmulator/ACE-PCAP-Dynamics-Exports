@@ -32,7 +32,7 @@ VALUES (28858,   1, 'Armored Skeleton Guise') /* Name */
      , (28858,  16, 'A finely-built armored skeleton costume.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28858,   1,   33559012) /* Setup */
-     , (28858,   3,  536870932) /* SoundTable */
-     , (28858,   8,  100677086) /* Icon */
-     , (28858,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28858,   1, 0x020011E4) /* Setup */
+     , (28858,   3, 0x20000014) /* SoundTable */
+     , (28858,   8, 0x060035DE) /* Icon */
+     , (28858,  22, 0x3400002B) /* PhysicsEffectTable */;

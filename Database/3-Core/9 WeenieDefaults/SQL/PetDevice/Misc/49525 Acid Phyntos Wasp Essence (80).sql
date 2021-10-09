@@ -35,10 +35,10 @@ VALUES (49525,   1, 'Acid Phyntos Wasp Essence (80)') /* Name */
      , (49525,  14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49525,   1,   33554817) /* Setup */
-     , (49525,   3,  536870932) /* SoundTable */
-     , (49525,   6,   67111919) /* PaletteBase */
-     , (49525,   8,  100667450) /* Icon */
-     , (49525,  22,  872415275) /* PhysicsEffectTable */
-     , (49525,  50,  100693027) /* IconOverlay */
-     , (49525,  52,  100693024) /* IconUnderlay */;
+VALUES (49525,   1, 0x02000181) /* Setup */
+     , (49525,   3, 0x20000014) /* SoundTable */
+     , (49525,   6, 0x04000BEF) /* PaletteBase */
+     , (49525,   8, 0x0600103A) /* Icon */
+     , (49525,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49525,  50, 0x06007423) /* IconOverlay */
+     , (49525,  52, 0x06007420) /* IconUnderlay */;

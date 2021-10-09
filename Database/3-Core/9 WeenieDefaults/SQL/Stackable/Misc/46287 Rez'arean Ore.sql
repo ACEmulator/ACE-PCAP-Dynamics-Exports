@@ -29,11 +29,11 @@ VALUES (46287,   1, 'Rez''arean Ore') /* Name */
      , (46287,  15, 'A small stone found in the Gearknight Invasion Area in the Direlands.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46287,   1,   33561460) /* Setup */
-     , (46287,   3,  536870932) /* SoundTable */
-     , (46287,   8,  100692661) /* Icon */
-     , (46287,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46287,   1, 0x02001B74) /* Setup */
+     , (46287,   3, 0x20000014) /* SoundTable */
+     , (46287,   8, 0x060072B5) /* Icon */
+     , (46287,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46287, 8040, 577830915, 14.63286, 70.10345, 165.2194, -0.7646202, 0, 0, -0.6444812) /* PCAPRecordedLocation */
+VALUES (46287, 8040, 0x22710003, 14.63286, 70.10345, 165.2194, -0.76462, 0, 0, -0.644481) /* PCAPRecordedLocation */
 /* @teleloc 0x22710003 [14.632860 70.103450 165.219400] -0.764620 0.000000 0.000000 -0.644481 */;

@@ -27,12 +27,12 @@ VALUES (28976,   1, 'Statue of Aurlanna') /* Name */
      , (28976,  16, 'A well carved statue of Aurlanna. It is masterfully crafted and looks very well made. Kir Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28976,   1,   33558989) /* Setup */
-     , (28976,   2,  150995147) /* MotionTable */
-     , (28976,   3,  536871052) /* SoundTable */
-     , (28976,   8,  100677077) /* Icon */
-     , (28976,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28976,   1, 0x020011CD) /* Setup */
+     , (28976,   2, 0x090000CB) /* MotionTable */
+     , (28976,   3, 0x2000008C) /* SoundTable */
+     , (28976,   8, 0x060035D5) /* Icon */
+     , (28976,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28976, 8040, 26543328, 250, -210, 6, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (28976, 8040, 0x019504E0, 250, -210, 6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x019504E0 [250.000000 -210.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */;

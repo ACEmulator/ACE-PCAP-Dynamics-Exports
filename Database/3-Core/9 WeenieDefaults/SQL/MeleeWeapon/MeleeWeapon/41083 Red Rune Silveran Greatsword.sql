@@ -48,20 +48,20 @@ VALUES (41083,   1, 'Red Rune Silveran Greatsword') /* Name */
      , (41083,  15, 'A fine two handed sword crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41083,   1,   33560814) /* Setup */
-     , (41083,   3,  536870932) /* SoundTable */
-     , (41083,   8,  100690818) /* Icon */
-     , (41083,  22,  872415275) /* PhysicsEffectTable */
-     , (41083,  50,  100688915) /* IconOverlay */;
+VALUES (41083,   1, 0x020018EE) /* Setup */
+     , (41083,   3, 0x20000014) /* SoundTable */
+     , (41083,   8, 0x06006B82) /* Icon */
+     , (41083,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41083,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41083, 8040, 3583574079, 187.8518, 165.3702, 373.929, -0.2423529, -0.2423529, -0.6642779, -0.6642779) /* PCAPRecordedLocation */
+VALUES (41083, 8040, 0xD599003F, 187.8518, 165.3702, 373.929, -0.242353, -0.242353, -0.664278, -0.664278) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [187.851800 165.370200 373.929000] -0.242353 -0.242353 -0.664278 -0.664278 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41083,  2059,      2)  /* CoordinationSelf7 */
+VALUES (41083,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41083,  2059,      2)  /* CoordinationSelf7 */
+     , (41083,  5074,      2)  /* ModerateTwoHandedAptitude */
      , (41083,  2096,      2)  /* BloodDrinkerSelf7 */
      , (41083,  2101,      2)  /* DefenderSelf7 */
-     , (41083,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41083,  2116,      2)  /* SwiftKillerSelf7 */
-     , (41083,  5074,      2)  /* ModerateTwoHandedAptitude */;
+     , (41083,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27984,   1, 'Guruk Crusher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27984,   1,   33558749) /* Setup */
-     , (27984,   2,  150995298) /* MotionTable */
-     , (27984,   3,  536871093) /* SoundTable */
-     , (27984,   6,   67115196) /* PaletteBase */
-     , (27984,   8,  100676549) /* Icon */
-     , (27984,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (27984,   1, 0x020010DD) /* Setup */
+     , (27984,   2, 0x09000162) /* MotionTable */
+     , (27984,   3, 0x200000B5) /* SoundTable */
+     , (27984,   6, 0x040018BC) /* PaletteBase */
+     , (27984,   8, 0x060033C5) /* Icon */
+     , (27984,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27984, 8040, 944373781, 53.02845, 118.7945, 0, 0.6427876, 0, 0, -0.7660444) /* PCAPRecordedLocation */
+VALUES (27984, 8040, 0x384A0015, 53.02845, 118.7945, 0, 0.642788, 0, 0, -0.766044) /* PCAPRecordedLocation */
 /* @teleloc 0x384A0015 [53.028450 118.794500 0.000000] 0.642788 0.000000 0.000000 -0.766044 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

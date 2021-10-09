@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51375,   1, 'Hollow Servitor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51375,   1,   33556792) /* Setup */
-     , (51375,   2,  150995101) /* MotionTable */
-     , (51375,   3,  536871013) /* SoundTable */
-     , (51375,   6,   67112967) /* PaletteBase */
-     , (51375,   8,  100671140) /* Icon */
-     , (51375,  22,  872415367) /* PhysicsEffectTable */;
+VALUES (51375,   1, 0x02000938) /* Setup */
+     , (51375,   2, 0x0900009D) /* MotionTable */
+     , (51375,   3, 0x20000065) /* SoundTable */
+     , (51375,   6, 0x04001007) /* PaletteBase */
+     , (51375,   8, 0x06001EA4) /* Icon */
+     , (51375,  22, 0x34000087) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51375, 8040, 1483735400, 200, -100, -11.99725, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (51375, 8040, 0x58700168, 200, -100, -11.99725, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x58700168 [200.000000 -100.000000 -11.997250] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

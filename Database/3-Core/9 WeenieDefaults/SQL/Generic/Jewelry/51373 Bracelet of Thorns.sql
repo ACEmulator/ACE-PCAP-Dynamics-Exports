@@ -31,12 +31,12 @@ VALUES (51373,   1, 'Bracelet of Thorns') /* Name */
      , (51373,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Hive Eviscerator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51373,   1,   33554683) /* Setup */
-     , (51373,   3,  536870932) /* SoundTable */
-     , (51373,   6,   67111919) /* PaletteBase */
-     , (51373,   8,  100668631) /* Icon */
-     , (51373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51373,   1, 0x020000FB) /* Setup */
+     , (51373,   3, 0x20000014) /* SoundTable */
+     , (51373,   6, 0x04000BEF) /* PaletteBase */
+     , (51373,   8, 0x060014D7) /* Icon */
+     , (51373,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51373,  4471,      2)  /* PiercingProtectionOther8 */
-     , (51373,  6084,      2)  /* CantripPiercingWard4 */;
+VALUES (51373,  6084,      2)  /* CantripPiercingWard4 */
+     , (51373,  4471,      2)  /* PiercingProtectionOther8 */;

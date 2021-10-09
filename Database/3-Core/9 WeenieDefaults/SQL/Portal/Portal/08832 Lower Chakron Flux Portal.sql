@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8832,   1, 'Lower Chakron Flux Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8832,   1,   33555926) /* Setup */
-     , (8832,   2,  150994947) /* MotionTable */
-     , (8832,   8,  100667499) /* Icon */;
+VALUES (8832,   1, 0x020005D6) /* Setup */
+     , (8832,   2, 0x09000003) /* MotionTable */
+     , (8832,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8832, 8040, 44957962, 88.0697, -190.071, -12.063, -0.9998112, 0, 0, 0.019431) /* PCAPRecordedLocation */
+VALUES (8832, 8040, 0x02AE010A, 88.0697, -190.071, -12.063, -0.999811, 0, 0, 0.019431) /* PCAPRecordedLocation */
 /* @teleloc 0x02AE010A [88.069700 -190.071000 -12.063000] -0.999811 0.000000 0.000000 0.019431 */;

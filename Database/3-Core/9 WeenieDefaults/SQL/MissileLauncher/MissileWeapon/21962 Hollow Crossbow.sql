@@ -43,13 +43,13 @@ VALUES (21962,   1, 'Hollow Crossbow') /* Name */
      , (21962,  16, 'A crossbow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21962,   1,   33558058) /* Setup */
-     , (21962,   3,  536870932) /* SoundTable */
-     , (21962,   6,   67111919) /* PaletteBase */
-     , (21962,   8,  100668841) /* Icon */
-     , (21962,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21962,   1, 0x02000E2A) /* Setup */
+     , (21962,   3, 0x20000014) /* SoundTable */
+     , (21962,   6, 0x04000BEF) /* PaletteBase */
+     , (21962,   8, 0x060015A9) /* Icon */
+     , (21962,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21962,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21962, 8040, 2847146009, 83.97495, 8.441352, 93.93001, 0.9969173, 0, 0, -0.0784591) /* PCAPRecordedLocation */
+VALUES (21962, 8040, 0xA9B40019, 83.97495, 8.441352, 93.93001, 0.996917, 0, 0, -0.078459) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [83.974950 8.441352 93.930010] 0.996917 0.000000 0.000000 -0.078459 */;

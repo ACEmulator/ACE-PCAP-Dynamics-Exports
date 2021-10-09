@@ -18,9 +18,9 @@ VALUES (2265,   1, 'Seven Stars Tower') /* Name */
      , (2265,  16, 'Seven Stars Tower') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2265,   1,   33555088) /* Setup */
-     , (2265,   8,  100668115) /* Icon */;
+VALUES (2265,   1, 0x02000290) /* Setup */
+     , (2265,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2265, 8040, 3443523624, 106.889, 187.746, 54, -0.194903, 0, 0, 0.980823) /* PCAPRecordedLocation */
+VALUES (2265, 8040, 0xCD400028, 106.889, 187.746, 54, -0.194903, 0, 0, 0.980823) /* PCAPRecordedLocation */
 /* @teleloc 0xCD400028 [106.889000 187.746000 54.000000] -0.194903 0.000000 0.000000 0.980823 */;

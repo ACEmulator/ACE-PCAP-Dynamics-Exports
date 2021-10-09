@@ -38,12 +38,12 @@ VALUES (33154,   1, 'Necklace of the Golden Flame') /* Name */
      , (33154,  16, 'A large, ornate golden necklace bearing a circular medallion.  Emblazoned on the medallion is a large golden flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33154,   1,   33554680) /* Setup */
-     , (33154,   3,  536870932) /* SoundTable */
-     , (33154,   8,  100688921) /* Icon */
-     , (33154,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33154,   1, 0x020000F8) /* Setup */
+     , (33154,   3, 0x20000014) /* SoundTable */
+     , (33154,   8, 0x06006419) /* Icon */
+     , (33154,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33154,  2581,      2)  /* CANTRIPFOCUS1 */
-     , (33154,  2659,      2)  /* ModerateCoordination */
-     , (33154,  3913,      2)  /* ArmorSelfAegisGoldenFlame */;
+VALUES (33154,  3913,      2)  /* ArmorSelfAegisGoldenFlame */
+     , (33154,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (33154,  2659,      2)  /* ModerateCoordination */;

@@ -30,11 +30,11 @@ VALUES (44286,   1, 'Bracelet of Self') /* Name */
      , (44286,  16, 'This bracelet increases self.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44286,   1,   33554683) /* Setup */
-     , (44286,   3,  536870932) /* SoundTable */
-     , (44286,   6,   67111919) /* PaletteBase */
-     , (44286,   8,  100668625) /* Icon */
-     , (44286,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44286,   1, 0x020000FB) /* Setup */
+     , (44286,   3, 0x20000014) /* SoundTable */
+     , (44286,   6, 0x04000BEF) /* PaletteBase */
+     , (44286,   8, 0x060014D1) /* Icon */
+     , (44286,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44286,  4227,      2)  /* CANTRIPWILLPOWER3 */

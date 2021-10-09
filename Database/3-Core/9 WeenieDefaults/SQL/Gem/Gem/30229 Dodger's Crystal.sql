@@ -33,11 +33,11 @@ VALUES (30229,   1, 'Dodger''s Crystal') /* Name */
      , (30229,  20, 'Dodger''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30229,   1,   33554809) /* Setup */
-     , (30229,   3,  536870932) /* SoundTable */
-     , (30229,   6,   67111919) /* PaletteBase */
-     , (30229,   8,  100686697) /* Icon */
-     , (30229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30229,   1, 0x02000179) /* Setup */
+     , (30229,   3, 0x20000014) /* SoundTable */
+     , (30229,   6, 0x04000BEF) /* PaletteBase */
+     , (30229,   8, 0x06005B69) /* Icon */
+     , (30229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30229,  28,       3711) /* Spell - ImpregnabilityRare */
-     , (30229,  50,  100686676) /* IconOverlay */
-     , (30229,  52,  100686604) /* IconUnderlay */;
+     , (30229,  50, 0x06005B54) /* IconOverlay */
+     , (30229,  52, 0x06005B0C) /* IconUnderlay */;

@@ -37,13 +37,13 @@ VALUES (41464,   1, 'Flawless Lense') /* Name */
      , (41464,  16, 'A lense used in the assessment of creatures. Use of this lense will make creatures more vulnerable to physical attacks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41464,   1,   33560887) /* Setup */
-     , (41464,   3,  536870932) /* SoundTable */
-     , (41464,   6,   67116700) /* PaletteBase */
-     , (41464,   8,  100690684) /* Icon */
-     , (41464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41464,   1, 0x02001937) /* Setup */
+     , (41464,   3, 0x20000014) /* SoundTable */
+     , (41464,   6, 0x04001E9C) /* PaletteBase */
+     , (41464,   8, 0x06006AFC) /* Icon */
+     , (41464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41464,  28,       5120) /* Spell - ExposeWeakness6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41464, 8040, 3332964380, 75.28202, 95.02767, 41.929, 0.5005373, 0.5005373, -0.4994621, -0.4994621) /* PCAPRecordedLocation */
+VALUES (41464, 8040, 0xC6A9001C, 75.28202, 95.02767, 41.929, 0.500537, 0.500537, -0.499462, -0.499462) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [75.282020 95.027670 41.929000] 0.500537 0.500537 -0.499462 -0.499462 */;

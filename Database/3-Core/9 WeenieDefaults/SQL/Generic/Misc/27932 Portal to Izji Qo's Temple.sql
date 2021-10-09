@@ -26,5 +26,5 @@ Low levels beware!') /* Inscription */
      , (27932,  16, 'This device seems to act as a portal beacon. It must be hooked on a powerful geomantic force, such as a mansion, to activate the magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27932,   1,   33558645) /* Setup */
-     , (27932,   8,  100675779) /* Icon */;
+VALUES (27932,   1, 0x02001075) /* Setup */
+     , (27932,   8, 0x060030C3) /* Icon */;

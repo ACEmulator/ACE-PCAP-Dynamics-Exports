@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43668,   1, 'Spitter Pedipalp Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43668,   1,   33554653) /* Setup */
-     , (43668,   3,  536870932) /* SoundTable */
-     , (43668,   6,   67108990) /* PaletteBase */
-     , (43668,   8,  100691619) /* Icon */
-     , (43668,  22,  872415275) /* PhysicsEffectTable */
-     , (43668,  52,  100691613) /* IconUnderlay */
+VALUES (43668,   1, 0x020000DD) /* Setup */
+     , (43668,   3, 0x20000014) /* SoundTable */
+     , (43668,   6, 0x0400007E) /* PaletteBase */
+     , (43668,   8, 0x06006EA3) /* Icon */
+     , (43668,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43668,  52, 0x06006E9D) /* IconUnderlay */
      , (43668, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

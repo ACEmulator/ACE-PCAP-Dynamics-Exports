@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7773,   1, 'Mi Krau-Li') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7773,   1,   33554839) /* Setup */
-     , (7773,   2,  150994967) /* MotionTable */
-     , (7773,   3,  536870934) /* SoundTable */
-     , (7773,   6,   67110722) /* PaletteBase */
-     , (7773,   8,  100667942) /* Icon */;
+VALUES (7773,   1, 0x02000197) /* Setup */
+     , (7773,   2, 0x09000017) /* MotionTable */
+     , (7773,   3, 0x20000016) /* SoundTable */
+     , (7773,   6, 0x04000742) /* PaletteBase */
+     , (7773,   8, 0x06001226) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7773, 8040, 48562513, 210, -10, -23.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (7773, 8040, 0x02E50151, 210, -10, -23.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02E50151 [210.000000 -10.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

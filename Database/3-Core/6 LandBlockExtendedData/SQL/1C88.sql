@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1C88;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C88001,  1154, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.7145129, 0, 0, -0.6996222, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x71C88001,  1154, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.714513, 0, 0, -0.699622, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x1C880036 [149.026800 123.932600 141.261700] 0.714513 0.000000 0.000000 -0.699622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -10,15 +10,15 @@ VALUES (0x71C88001, 0x71C88002, '2019-02-10 00:00:00') /* Tenebrous Shadow (2356
      , (0x71C88001, 0x71C88004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C88002, 23564, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.7145129, 0, 0, -0.6996222,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+VALUES (0x71C88002, 23564, 0x1C880036, 149.0268, 123.9326, 141.2617, 0.714513, 0, 0, -0.699622,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
 /* @teleloc 0x1C880036 [149.026800 123.932600 141.261700] 0.714513 0.000000 0.000000 -0.699622 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C88003,  7981, 0x1C880035, 149.2663, 117.9514, 141.3145, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
+VALUES (0x71C88003,  7981, 0x1C880035, 149.2663, 117.9514, 141.3145, 0.866025, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
 /* @teleloc 0x1C880035 [149.266300 117.951400 141.314500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71C88004, 36830, 0x1C880038, 147.7313, 190.0344, 140.8123, 0.6507546, 0, 0, -0.7592881,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+VALUES (0x71C88004, 36830, 0x1C880038, 147.7313, 190.0344, 140.8123, 0.650755, 0, 0, -0.759288,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x1C880038 [147.731300 190.034400 140.812300] 0.650755 0.000000 0.000000 -0.759288 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

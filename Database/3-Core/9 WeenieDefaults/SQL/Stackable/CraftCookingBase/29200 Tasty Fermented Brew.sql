@@ -19,8 +19,8 @@ VALUES (29200,   1, 'Tasty Fermented Brew') /* Name */
      , (29200,  20, 'Tasty Fermented Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29200,   1,   33559154) /* Setup */
-     , (29200,   3,  536870932) /* SoundTable */
-     , (29200,   8,  100686464) /* Icon */
-     , (29200,  22,  872415275) /* PhysicsEffectTable */
-     , (29200,  50,  100687551) /* IconOverlay */;
+VALUES (29200,   1, 0x02001272) /* Setup */
+     , (29200,   3, 0x20000014) /* SoundTable */
+     , (29200,   8, 0x06005A80) /* Icon */
+     , (29200,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29200,  50, 0x06005EBF) /* IconOverlay */;

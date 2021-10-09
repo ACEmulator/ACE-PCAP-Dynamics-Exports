@@ -39,14 +39,14 @@ VALUES (22080,   1, 'Impious Staff') /* Name */
      , (22080,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22080,   1,   33557877) /* Setup */
-     , (22080,   3,  536870932) /* SoundTable */
-     , (22080,   6,   67111919) /* PaletteBase */
-     , (22080,   8,  100673510) /* Icon */
-     , (22080,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22080,   1, 0x02000D75) /* Setup */
+     , (22080,   3, 0x20000014) /* SoundTable */
+     , (22080,   6, 0x04000BEF) /* PaletteBase */
+     , (22080,   8, 0x060027E6) /* Icon */
+     , (22080,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22080,  28,       2814) /* Spell - ImpiousCurse */
      , (22080,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22080, 8040, 3332964775, 72.47017, 23.78971, 41.929, 0.6793634, 0.6793634, -0.1961258, -0.1961258) /* PCAPRecordedLocation */
+VALUES (22080, 8040, 0xC6A901A7, 72.47017, 23.78971, 41.929, 0.679363, 0.679363, -0.196126, -0.196126) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A901A7 [72.470170 23.789710 41.929000] 0.679363 0.679363 -0.196126 -0.196126 */;

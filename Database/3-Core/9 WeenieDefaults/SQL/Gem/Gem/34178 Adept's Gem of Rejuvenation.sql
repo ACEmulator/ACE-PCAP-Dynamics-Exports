@@ -20,9 +20,9 @@ VALUES (34178,   1, 'Adept''s Gem of Rejuvenation') /* Name */
      , (34178,  20, 'Adept''s Gems of Rejuvenation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34178,   1,   33554809) /* Setup */
-     , (34178,   3,  536870932) /* SoundTable */
-     , (34178,   6,   67111919) /* PaletteBase */
-     , (34178,   8,  100674427) /* Icon */
-     , (34178,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34178,   1, 0x02000179) /* Setup */
+     , (34178,   3, 0x20000014) /* SoundTable */
+     , (34178,   6, 0x04000BEF) /* PaletteBase */
+     , (34178,   8, 0x06002B7B) /* Icon */
+     , (34178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34178,  28,       2186) /* Spell - RejuvenationOther7 */;

@@ -27,9 +27,9 @@ VALUES (52734,   1, 'Gauntlet Backpack') /* Name */
      , (52734,  16, 'A backpack with several side pouches.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52734,   1,   33554769) /* Setup */
-     , (52734,   3,  536870932) /* SoundTable */
-     , (52734,   6,   67111919) /* PaletteBase */
-     , (52734,   8,  100670387) /* Icon */
-     , (52734,  22,  872415275) /* PhysicsEffectTable */
-     , (52734,  52,  100690177) /* IconUnderlay */;
+VALUES (52734,   1, 0x02000151) /* Setup */
+     , (52734,   3, 0x20000014) /* SoundTable */
+     , (52734,   6, 0x04000BEF) /* PaletteBase */
+     , (52734,   8, 0x06001BB3) /* Icon */
+     , (52734,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52734,  52, 0x06006901) /* IconUnderlay */;

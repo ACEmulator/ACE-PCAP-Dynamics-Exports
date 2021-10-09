@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38013,   1, 'Piece of K''nath Core') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38013,   1,   33560632) /* Setup */
-     , (38013,   3,  536870932) /* SoundTable */
-     , (38013,   8,  100689940) /* Icon */
-     , (38013,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38013,   1, 0x02001838) /* Setup */
+     , (38013,   3, 0x20000014) /* SoundTable */
+     , (38013,   8, 0x06006814) /* Icon */
+     , (38013,  22, 0x3400002B) /* PhysicsEffectTable */;

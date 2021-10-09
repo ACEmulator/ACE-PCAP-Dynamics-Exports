@@ -18,9 +18,9 @@ VALUES (8451,   1, 'Nature''s Balm') /* Name */
      , (8451,  16, 'Nature''s Balm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8451,   1,   33555594) /* Setup */
-     , (8451,   8,  100668115) /* Icon */;
+VALUES (8451,   1, 0x0200048A) /* Setup */
+     , (8451,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8451, 8040, 3911319595, 120.7, 59.7, 3, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8451, 8040, 0xE922002B, 120.7, 59.7, 3, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xE922002B [120.700000 59.700000 3.000000] 1.000000 0.000000 0.000000 0.000000 */;

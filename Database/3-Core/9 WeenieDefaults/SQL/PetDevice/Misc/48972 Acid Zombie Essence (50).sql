@@ -36,10 +36,10 @@ VALUES (48972,   1, 'Acid Zombie Essence (50)') /* Name */
      , (48972,  14, 'Use this essence to summon or dismiss your Acid Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48972,   1,   33554817) /* Setup */
-     , (48972,   3,  536870932) /* SoundTable */
-     , (48972,   6,   67111919) /* PaletteBase */
-     , (48972,   8,  100667942) /* Icon */
-     , (48972,  22,  872415275) /* PhysicsEffectTable */
-     , (48972,  50,  100693026) /* IconOverlay */
-     , (48972,  52,  100693024) /* IconUnderlay */;
+VALUES (48972,   1, 0x02000181) /* Setup */
+     , (48972,   3, 0x20000014) /* SoundTable */
+     , (48972,   6, 0x04000BEF) /* PaletteBase */
+     , (48972,   8, 0x06001226) /* Icon */
+     , (48972,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48972,  50, 0x06007422) /* IconOverlay */
+     , (48972,  52, 0x06007420) /* IconUnderlay */;

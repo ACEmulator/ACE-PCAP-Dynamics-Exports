@@ -25,7 +25,7 @@ VALUES (0x75861052, 48720, 0x5861013B, 64.4732, -13.4017, 3.15, -0.777344, 0, 0,
 /* @teleloc 0x5861013B [64.473200 -13.401700 3.150000] -0.777344 0.000000 0.000000 -0.629076 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861053, 48720, 0x5861014C, 65.3002, 4.26079, 3.15, -0.999185, 0, 0, -0.0403581, False, '2019-02-10 00:00:00'); /* Crystal */
+VALUES (0x75861053, 48720, 0x5861014C, 65.3002, 4.26079, 3.15, -0.999185, 0, 0, -0.040358, False, '2019-02-10 00:00:00'); /* Crystal */
 /* @teleloc 0x5861014C [65.300200 4.260790 3.150000] -0.999185 0.000000 0.000000 -0.040358 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,11 +49,11 @@ VALUES (0x75861058, 48720, 0x5861014C, 74.6562, 4.33899, 3.15, 1, 0, 0, 0, False
 /* @teleloc 0x5861014C [74.656200 4.338990 3.150000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861073, 48735, 0x5861012F, 53.0294, -29.9331, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75861073, 48735, 0x5861012F, 53.0294, -29.9331, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x5861012F [53.029400 -29.933100 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861074, 48735, 0x58610179, 86.9632, -29.8529, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75861074, 48735, 0x58610179, 86.9632, -29.8529, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x58610179 [86.963200 -29.852900 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -93,59 +93,59 @@ VALUES (0x75861076, 48718, 0x58610163, 70, -194.75, 0, 0, 0, 0, -1,  True, '2019
 /* @teleloc 0x58610163 [70.000000 -194.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861077, 48712, 0x5861012D, 44.919, -180, 0.004999995, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861077, 48712, 0x5861012D, 44.919, -180, 0.005, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861012D [44.919000 -180.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861078, 48712, 0x5861018D, 95.174, -180, 0.004999995, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861078, 48712, 0x5861018D, 95.174, -180, 0.005, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861018D [95.174000 -180.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861079, 48711, 0x58610164, 67.78657, -197.8763, 0.004500031, 0.01656999, 0, 0, -0.9998627,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x75861079, 48711, 0x58610164, 67.78657, -197.8763, 0.0045, 0.01657, 0, 0, -0.999863,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x58610164 [67.786570 -197.876300 0.004500] 0.016570 0.000000 0.000000 -0.999863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107A, 48711, 0x58610164, 71.46668, -202.3749, 0.004500031, 0.01656999, 0, 0, -0.9998627,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x7586107A, 48711, 0x58610164, 71.46668, -202.3749, 0.0045, 0.01657, 0, 0, -0.999863,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x58610164 [71.466680 -202.374900 0.004500] 0.016570 0.000000 0.000000 -0.999863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107B, 48715, 0x58610110, 10, -204.905, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586107B, 48715, 0x58610110, 10, -204.905, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x58610110 [10.000000 -204.905000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107C, 48715, 0x586101AC, 130, -205.55, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586107C, 48715, 0x586101AC, 130, -205.55, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x586101AC [130.000000 -205.550000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107D, 48711, 0x5861010B, 10, -160, 0.004500031, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x7586107D, 48711, 0x5861010B, 10, -160, 0.0045, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x5861010B [10.000000 -160.000000 0.004500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107E, 48711, 0x586101A6, 130, -160, 0.004500031, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x7586107E, 48711, 0x586101A6, 130, -160, 0.0045, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x586101A6 [130.000000 -160.000000 0.004500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586107F, 48715, 0x586101A5, 130, -150, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586107F, 48715, 0x586101A5, 130, -150, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x586101A5 [130.000000 -150.000000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861080, 48715, 0x5861010A, 10, -150, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x75861080, 48715, 0x5861010A, 10, -150, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x5861010A [10.000000 -150.000000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861081, 48712, 0x5861012A, 40, -128.482, 0.004999995, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861081, 48712, 0x5861012A, 40, -128.482, 0.005, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861012A [40.000000 -128.482000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861082, 48712, 0x5861012A, 40, -131.561, 0.004999995, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861082, 48712, 0x5861012A, 40, -131.561, 0.005, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861012A [40.000000 -131.561000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861083, 48712, 0x5861018A, 100, -128.482, 0.004999995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861083, 48712, 0x5861018A, 100, -128.482, 0.005, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861018A [100.000000 -128.482000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861084, 48712, 0x5861018A, 100, -131.561, 0.004999995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Char Golem */
+VALUES (0x75861084, 48712, 0x5861018A, 100, -131.561, 0.005, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Char Golem */
 /* @teleloc 0x5861018A [100.000000 -131.561000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -153,43 +153,43 @@ VALUES (0x75861085, 48724, 0x58610160, 70, -125.25, 0, 1, 0, 0, 0,  True, '2019-
 /* @teleloc 0x58610160 [70.000000 -125.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861086, 48715, 0x58610107, 10, -100, -0.01499999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x75861086, 48715, 0x58610107, 10, -100, -0.015, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x58610107 [10.000000 -100.000000 -0.015000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861087, 48711, 0x5861015C, 68.54776, -131.4072, 0.004500031, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x75861087, 48711, 0x5861015C, 68.54776, -131.4072, 0.0045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x5861015C [68.547760 -131.407200 0.004500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861088, 48711, 0x5861015C, 72.63851, -130.421, 0.004500031, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x75861088, 48711, 0x5861015C, 72.63851, -130.421, 0.0045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x5861015C [72.638510 -130.421000 0.004500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861089, 48715, 0x58610156, 70, -90, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x75861089, 48715, 0x58610156, 70, -90, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x58610156 [70.000000 -90.000000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108A, 48715, 0x58610141, 60, -60, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586108A, 48715, 0x58610141, 60, -60, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x58610141 [60.000000 -60.000000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108B, 48715, 0x5861016E, 80, -60, -0.01499999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586108B, 48715, 0x5861016E, 80, -60, -0.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x5861016E [80.000000 -60.000000 -0.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108C, 48711, 0x58610151, 70, -40, 0.004500031, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
+VALUES (0x7586108C, 48711, 0x58610151, 70, -40, 0.0045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scorching Flame */
 /* @teleloc 0x58610151 [70.000000 -40.000000 0.004500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108D, 48715, 0x5861014D, 69.85708, -10.04692, -0.009809971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586108D, 48715, 0x5861014D, 69.85708, -10.04692, -0.00981, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x5861014D [69.857080 -10.046920 -0.009810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108E, 48715, 0x5861014D, 69.80604, -7.077324, -0.009809971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Prism Shard */
+VALUES (0x7586108E, 48715, 0x5861014D, 69.80604, -7.077324, -0.00981, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Prism Shard */
 /* @teleloc 0x5861014D [69.806040 -7.077324 -0.009810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7586108F, 48713, 0x5861014D, 71.30726, -6.737144, 0.005190015, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Blazing Crystal */
+VALUES (0x7586108F, 48713, 0x5861014D, 71.30726, -6.737144, 0.00519, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Blazing Crystal */
 /* @teleloc 0x5861014D [71.307260 -6.737144 0.005190] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -210,5 +210,5 @@ VALUES (0x75861092, 48723, 0x5861015C, 70, -130, 0.095, 1, 0, 0, 0,  True, '2019
 /* @teleloc 0x5861015C [70.000000 -130.000000 0.095000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861093, 48730, 0x5861014C, 69.61565, -0.7503052, 0.01800001, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scold */
+VALUES (0x75861093, 48730, 0x5861014C, 69.61565, -0.750305, 0.018, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scold */
 /* @teleloc 0x5861014C [69.615650 -0.750305 0.018000] 0.000000 0.000000 0.000000 -1.000000 */

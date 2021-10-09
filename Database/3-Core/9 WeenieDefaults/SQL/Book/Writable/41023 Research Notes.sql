@@ -25,10 +25,10 @@ VALUES (41023,   1, 'Research Notes') /* Name */
      , (41023,  20, 'Research Notes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41023,   1,   33554773) /* Setup */
-     , (41023,   3,  536870932) /* SoundTable */
-     , (41023,   8,  100686468) /* Icon */
-     , (41023,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41023,   1, 0x02000155) /* Setup */
+     , (41023,   3, 0x20000014) /* SoundTable */
+     , (41023,   8, 0x06005A84) /* Icon */
+     , (41023,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (41023, 1, 1000);

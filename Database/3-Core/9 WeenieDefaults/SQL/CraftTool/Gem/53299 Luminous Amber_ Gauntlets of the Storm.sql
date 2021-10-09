@@ -21,9 +21,9 @@ VALUES (53299,   1, 'Luminous Amber: Gauntlets of the Storm') /* Name */
      , (53299,  20, 'Luminous Ambers: Gauntlets of the Storm') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53299,   1,   33554809) /* Setup */
-     , (53299,   3,  536870932) /* SoundTable */
-     , (53299,   6,   67111919) /* PaletteBase */
-     , (53299,   8,  100693328) /* Icon */
-     , (53299,  22,  872415275) /* PhysicsEffectTable */
-     , (53299,  52,  100691593) /* IconUnderlay */;
+VALUES (53299,   1, 0x02000179) /* Setup */
+     , (53299,   3, 0x20000014) /* SoundTable */
+     , (53299,   6, 0x04000BEF) /* PaletteBase */
+     , (53299,   8, 0x06007550) /* Icon */
+     , (53299,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53299,  52, 0x06006E89) /* IconUnderlay */;

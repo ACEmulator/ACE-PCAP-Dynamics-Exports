@@ -27,9 +27,9 @@ VALUES (27435,   1, 'Large Golden Coin') /* Name */
      , (27435,  16, 'A large golden coin with a small green snake coiled protectively around it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27435,   1,   33554802) /* Setup */
-     , (27435,   8,  100668692) /* Icon */;
+VALUES (27435,   1, 0x02000172) /* Setup */
+     , (27435,   8, 0x06001514) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27435, 8040, 1872298022, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634) /* PCAPRecordedLocation */
+VALUES (27435, 8040, 0x6F990026, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634) /* PCAPRecordedLocation */
 /* @teleloc 0x6F990026 [106.748000 131.211000 240.000000] -0.992818 0.000000 0.000000 0.119634 */;

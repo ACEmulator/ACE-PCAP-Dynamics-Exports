@@ -19,7 +19,7 @@ VALUES (37255,   1, 'Nine of Eyes') /* Name */
      , (37255,  20, 'Nines of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37255,   1,   33560547) /* Setup */
-     , (37255,   3,  536870932) /* SoundTable */
-     , (37255,   8,  100689855) /* Icon */
-     , (37255,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37255,   1, 0x020017E3) /* Setup */
+     , (37255,   3, 0x20000014) /* SoundTable */
+     , (37255,   8, 0x060067BF) /* Icon */
+     , (37255,  22, 0x3400002B) /* PhysicsEffectTable */;

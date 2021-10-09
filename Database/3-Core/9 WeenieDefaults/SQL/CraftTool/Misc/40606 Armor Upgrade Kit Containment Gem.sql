@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40606,   1, 'Armor Upgrade Kit Containment Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40606,   1,   33556223) /* Setup */
-     , (40606,   3,  536870932) /* SoundTable */
-     , (40606,   6,   67111928) /* PaletteBase */
-     , (40606,   8,  100673039) /* Icon */
-     , (40606,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40606,   1, 0x020006FF) /* Setup */
+     , (40606,   3, 0x20000014) /* SoundTable */
+     , (40606,   6, 0x04000BF8) /* PaletteBase */
+     , (40606,   8, 0x0600260F) /* Icon */
+     , (40606,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40606, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

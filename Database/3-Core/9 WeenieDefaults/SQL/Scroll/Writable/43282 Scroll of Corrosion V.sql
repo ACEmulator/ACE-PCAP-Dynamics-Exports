@@ -23,7 +23,7 @@ VALUES (43282,   1, 'Scroll of Corrosion V') /* Name */
 Sends a bolt of corrosion towards the target. The bolt does 204 points of damage over 15 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43282,   1,   33554826) /* Setup */
-     , (43282,   8,  100691573) /* Icon */
-     , (43282,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43282,   1, 0x0200018A) /* Setup */
+     , (43282,   8, 0x06006E75) /* Icon */
+     , (43282,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43282,  28,       5391) /* Spell - Corrosion5 */;

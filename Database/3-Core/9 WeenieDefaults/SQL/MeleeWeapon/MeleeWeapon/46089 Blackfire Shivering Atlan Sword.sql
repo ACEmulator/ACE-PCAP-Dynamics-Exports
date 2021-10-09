@@ -50,18 +50,18 @@ VALUES (46089,   1, 'Blackfire Shivering Atlan Sword') /* Name */
      , (46089,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46089,   1,   33556385) /* Setup */
-     , (46089,   3,  536870932) /* SoundTable */
-     , (46089,   6,   67111919) /* PaletteBase */
-     , (46089,   8,  100670568) /* Icon */
-     , (46089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46089,   1, 0x020007A1) /* Setup */
+     , (46089,   3, 0x20000014) /* SoundTable */
+     , (46089,   6, 0x04000BEF) /* PaletteBase */
+     , (46089,   8, 0x06001C68) /* Icon */
+     , (46089,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46089,  2081,      2)  /* QuicknessSelf7 */
+VALUES (46089,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46089,  2081,      2)  /* QuicknessSelf7 */
+     , (46089,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46089,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (46089,  2155,      2)  /* ColdProtectionSelf7 */
      , (46089,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46089,  2101,      2)  /* DefenderSelf7 */
-     , (46089,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46089,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46089,  2155,      2)  /* ColdProtectionSelf7 */
-     , (46089,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
-     , (46089,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (46089,  2106,      2)  /* HeartSeekerSelf7 */;

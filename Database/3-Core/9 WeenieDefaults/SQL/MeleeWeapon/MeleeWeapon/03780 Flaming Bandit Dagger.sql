@@ -46,7 +46,7 @@ Speed 20') /* Inscription */
      , (3780,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3780,   1,   33555716) /* Setup */
-     , (3780,   3,  536870932) /* SoundTable */
-     , (3780,   8,  100667589) /* Icon */
-     , (3780,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3780,   1, 0x02000504) /* Setup */
+     , (3780,   3, 0x20000014) /* SoundTable */
+     , (3780,   8, 0x060010C5) /* Icon */
+     , (3780,  22, 0x3400002B) /* PhysicsEffectTable */;

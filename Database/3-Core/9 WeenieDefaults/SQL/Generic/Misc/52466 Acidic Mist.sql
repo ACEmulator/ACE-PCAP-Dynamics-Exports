@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52466,   1, 'Acidic Mist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52466,   1,   33561626) /* Setup */
-     , (52466,   3,  536870994) /* SoundTable */
-     , (52466,   8,  100667465) /* Icon */;
+VALUES (52466,   1, 0x02001C1A) /* Setup */
+     , (52466,   3, 0x20000052) /* SoundTable */
+     , (52466,   8, 0x06001049) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52466, 8040, 3007905848, 161.9491, 186.4327, 116, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (52466, 8040, 0xB3490038, 161.9491, 186.4327, 116, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB3490038 [161.949100 186.432700 116.000000] 0.707107 0.000000 0.000000 -0.707107 */;

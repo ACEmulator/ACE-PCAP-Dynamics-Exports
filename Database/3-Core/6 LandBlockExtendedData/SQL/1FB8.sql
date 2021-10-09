@@ -316,7 +316,7 @@ VALUES (0x71FB8030, 11526, 0x1FB80026, 106.5752, 131.2274, 90.005, 1, 0, 0, 0,  
 /* @teleloc 0x1FB80026 [106.575200 131.227400 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FB8031, 11526, 0x1FB80026, 96.56529, 143.8897, 90.005, -0.370409, 0, 0, -0.9288688,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+VALUES (0x71FB8031, 11526, 0x1FB80026, 96.56529, 143.8897, 90.005, -0.370409, 0, 0, -0.928869,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
 /* @teleloc 0x1FB80026 [96.565290 143.889700 90.005000] -0.370409 0.000000 0.000000 -0.928869 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

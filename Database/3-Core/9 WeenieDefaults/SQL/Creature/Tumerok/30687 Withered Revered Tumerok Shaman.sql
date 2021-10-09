@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30687,   1, 'Withered Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30687,   1,   33559551) /* Setup */
-     , (30687,   2,  150994954) /* MotionTable */
-     , (30687,   3,  536870931) /* SoundTable */
-     , (30687,   6,   67116625) /* PaletteBase */
-     , (30687,   8,  100667452) /* Icon */
-     , (30687,  22,  872415270) /* PhysicsEffectTable */;
+VALUES (30687,   1, 0x020013FF) /* Setup */
+     , (30687,   2, 0x0900000A) /* MotionTable */
+     , (30687,   3, 0x20000013) /* SoundTable */
+     , (30687,   6, 0x04001E51) /* PaletteBase */
+     , (30687,   8, 0x0600103C) /* Icon */
+     , (30687,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30687, 8040, 504561677, 35.4614, 103.1, -0.09350002, -0.991476, 0, 0, -0.130287) /* PCAPRecordedLocation */
+VALUES (30687, 8040, 0x1E13000D, 35.4614, 103.1, -0.0935, -0.991476, 0, 0, -0.130287) /* PCAPRecordedLocation */
 /* @teleloc 0x1E13000D [35.461400 103.100000 -0.093500] -0.991476 0.000000 0.000000 -0.130287 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

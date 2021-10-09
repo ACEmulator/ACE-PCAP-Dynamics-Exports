@@ -28,14 +28,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1379,   1, 'Roaming Bowyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1379,   1,   33554433) /* Setup */
-     , (1379,   2,  150994945) /* MotionTable */
-     , (1379,   3,  536870913) /* SoundTable */
-     , (1379,   6,   67108990) /* PaletteBase */
-     , (1379,   8,  100667446) /* Icon */;
+VALUES (1379,   1, 0x02000001) /* Setup */
+     , (1379,   2, 0x09000001) /* MotionTable */
+     , (1379,   3, 0x20000001) /* SoundTable */
+     , (1379,   6, 0x0400007E) /* PaletteBase */
+     , (1379,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1379, 8040, 2585919745, 135.237, 40.2895, 107.705, 0.8015034, 0, 0, -0.5979903) /* PCAPRecordedLocation */
+VALUES (1379, 8040, 0x9A220101, 135.237, 40.2895, 107.705, 0.801503, 0, 0, -0.59799) /* PCAPRecordedLocation */
 /* @teleloc 0x9A220101 [135.237000 40.289500 107.705000] 0.801503 0.000000 0.000000 -0.597990 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

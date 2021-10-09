@@ -25,7 +25,7 @@ VALUES (31421,   1, 'Ursuin Toy') /* Name */
      , (31421,  16, 'A large stuffed Ursuin.  There appear to be large chew marks on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31421,   1,   33559601) /* Setup */
-     , (31421,   3,  536870932) /* SoundTable */
-     , (31421,   8,  100687914) /* Icon */
-     , (31421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31421,   1, 0x02001431) /* Setup */
+     , (31421,   3, 0x20000014) /* SoundTable */
+     , (31421,   8, 0x0600602A) /* Icon */
+     , (31421,  22, 0x3400002B) /* PhysicsEffectTable */;

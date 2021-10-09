@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53318,   1, 'Stormwood Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53318,   1,   33561675) /* Setup */
-     , (53318,   3,  536870932) /* SoundTable */
-     , (53318,   8,  100693344) /* Icon */
-     , (53318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53318,   1, 0x02001C4B) /* Setup */
+     , (53318,   3, 0x20000014) /* SoundTable */
+     , (53318,   8, 0x06007560) /* Icon */
+     , (53318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53318,  28,       6198) /* Spell - IncantationOfLightningBolt */
-     , (53318,  52,  100676436) /* IconUnderlay */;
+     , (53318,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53318, 8040, 459059, 60, -70.025, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (53318, 8040, 0x00070133, 60, -70.025, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [60.000000 -70.025000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;

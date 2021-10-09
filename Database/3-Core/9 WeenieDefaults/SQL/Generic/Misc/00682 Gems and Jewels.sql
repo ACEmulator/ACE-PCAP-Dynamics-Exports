@@ -18,9 +18,9 @@ VALUES (682,   1, 'Gems and Jewels') /* Name */
      , (682,  16, 'Gems and Jewels') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (682,   1,   33555088) /* Setup */
-     , (682,   8,  100668115) /* Icon */;
+VALUES (682,   1, 0x02000290) /* Setup */
+     , (682,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (682, 8040, 3164536885, 165.375, 98.84, 32, 0.706489, 0, 0, 0.707724) /* PCAPRecordedLocation */
+VALUES (682, 8040, 0xBC9F0035, 165.375, 98.84, 32, 0.706489, 0, 0, 0.707724) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0035 [165.375000 98.840000 32.000000] 0.706489 0.000000 0.000000 0.707724 */;

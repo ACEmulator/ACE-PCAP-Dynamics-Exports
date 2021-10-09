@@ -27,15 +27,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51626,   1, 'Aspect of Avarice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51626,   1,   33561549) /* Setup */
-     , (51626,   2,  150995487) /* MotionTable */
-     , (51626,   3,  536870930) /* SoundTable */
-     , (51626,   6,   67111346) /* PaletteBase */
-     , (51626,   8,  100667943) /* Icon */
-     , (51626,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51626,   1, 0x02001BCD) /* Setup */
+     , (51626,   2, 0x0900021F) /* MotionTable */
+     , (51626,   3, 0x20000012) /* SoundTable */
+     , (51626,   6, 0x040009B2) /* PaletteBase */
+     , (51626,   8, 0x06001227) /* Icon */
+     , (51626,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51626, 8040, 1484063329, 533.5915, -176.5851, 0.03190005, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (51626, 8040, 0x58750261, 533.5915, -176.5851, 0.0319, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x58750261 [533.591500 -176.585100 0.031900] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

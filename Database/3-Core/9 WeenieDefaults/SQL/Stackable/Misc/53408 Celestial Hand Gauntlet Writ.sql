@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53408,   1, 'Celestial Hand Gauntlet Writ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53408,   1,   33556750) /* Setup */
-     , (53408,   3,  536870932) /* SoundTable */
-     , (53408,   6,   67111919) /* PaletteBase */
-     , (53408,   8,  100667503) /* Icon */
-     , (53408,  22,  872415275) /* PhysicsEffectTable */
-     , (53408,  50,  100690171) /* IconOverlay */
+VALUES (53408,   1, 0x0200090E) /* Setup */
+     , (53408,   3, 0x20000014) /* SoundTable */
+     , (53408,   6, 0x04000BEF) /* PaletteBase */
+     , (53408,   8, 0x0600106F) /* Icon */
+     , (53408,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53408,  50, 0x060068FB) /* IconOverlay */
      , (53408, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

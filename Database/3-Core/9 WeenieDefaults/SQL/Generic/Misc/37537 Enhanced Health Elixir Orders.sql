@@ -23,7 +23,7 @@ VALUES (37537,   1, 'Enhanced Health Elixir Orders') /* Name */
      , (37537,  15, 'This paper details that the bearer should receive twenty Enhanced Health Elixirs, which restore 200 health upon use, force the consumer to wait 5 minutes before their next use, and  may not be traded.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37537,   1,   33557387) /* Setup */
-     , (37537,   3,  536870932) /* SoundTable */
-     , (37537,   8,  100689882) /* Icon */
-     , (37537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37537,   1, 0x02000B8B) /* Setup */
+     , (37537,   3, 0x20000014) /* SoundTable */
+     , (37537,   8, 0x060067DA) /* Icon */
+     , (37537,  22, 0x3400002B) /* PhysicsEffectTable */;

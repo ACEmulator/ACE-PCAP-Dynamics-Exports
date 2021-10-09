@@ -31,9 +31,9 @@ VALUES (41459,   1, 'Silver Horn of Leadership') /* Name */
      , (41459,  16, 'This horn is eternal. Use this horn to increase the Health of your Fellowship by 4.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41459,   1,   33554809) /* Setup */
-     , (41459,   3,  536870932) /* SoundTable */
-     , (41459,   8,  100690573) /* Icon */
-     , (41459,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41459,   1, 0x02000179) /* Setup */
+     , (41459,   3, 0x20000014) /* SoundTable */
+     , (41459,   8, 0x06006A8D) /* Icon */
+     , (41459,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41459,  28,       5134) /* Spell - CallOfLeadership2 */
      , (41459,  37,         35) /* ItemSkillLimit - Leadership */;

@@ -47,21 +47,21 @@ VALUES (33210,   1, 'Royal Runed Partizan') /* Name */
      , (33210,  15, 'A partizan crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33210,   1,   33559935) /* Setup */
-     , (33210,   3,  536870932) /* SoundTable */
-     , (33210,   6,   67115560) /* PaletteBase */
-     , (33210,   8,  100686985) /* Icon */
-     , (33210,  22,  872415275) /* PhysicsEffectTable */
-     , (33210,  50,  100688914) /* IconOverlay */
+VALUES (33210,   1, 0x0200157F) /* Setup */
+     , (33210,   3, 0x20000014) /* SoundTable */
+     , (33210,   6, 0x04001A28) /* PaletteBase */
+     , (33210,   8, 0x06005C89) /* Icon */
+     , (33210,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33210,  50, 0x06006412) /* IconOverlay */
      , (33210,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33210, 8040, 3465805877, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (33210, 8040, 0xCE940035, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940035 [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33210,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33210,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33210,  2694,      2)  /* ModerateSwordAptitude */
+     , (33210,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33210,  2101,      2)  /* DefenderSelf7 */
-     , (33210,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33210,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33210,  2694,      2)  /* ModerateSwordAptitude */;
+     , (33210,  2106,      2)  /* HeartSeekerSelf7 */;

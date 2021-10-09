@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41862,   1, 'Sealed Bag of Salvaged Amber') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41862,   1,   33556223) /* Setup */
-     , (41862,   3,  536870932) /* SoundTable */
-     , (41862,   6,   67111928) /* PaletteBase */
-     , (41862,   8,  100667436) /* Icon */
-     , (41862,  22,  872415275) /* PhysicsEffectTable */
-     , (41862,  50,  100673260) /* IconOverlay */
+VALUES (41862,   1, 0x020006FF) /* Setup */
+     , (41862,   3, 0x20000014) /* SoundTable */
+     , (41862,   6, 0x04000BF8) /* PaletteBase */
+     , (41862,   8, 0x0600102C) /* Icon */
+     , (41862,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41862,  50, 0x060026EC) /* IconOverlay */
      , (41862, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

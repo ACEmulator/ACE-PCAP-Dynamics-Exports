@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30050,   1, 'Fiun Shopkeeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30050,   1,   33559124) /* Setup */
-     , (30050,   2,  150994945) /* MotionTable */
-     , (30050,   3,  536870913) /* SoundTable */
-     , (30050,   6,   67115466) /* PaletteBase */
-     , (30050,   8,  100677369) /* Icon */;
+VALUES (30050,   1, 0x02001254) /* Setup */
+     , (30050,   2, 0x09000001) /* MotionTable */
+     , (30050,   3, 0x20000001) /* SoundTable */
+     , (30050,   6, 0x040019CA) /* PaletteBase */
+     , (30050,   8, 0x060036F9) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30050, 8040, 955711747, 57.652, 11.206, 2.21048, 0.9972965, 0, 0, -0.07348207) /* PCAPRecordedLocation */
+VALUES (30050, 8040, 0x38F70103, 57.652, 11.206, 2.21048, 0.997297, 0, 0, -0.073482) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70103 [57.652000 11.206000 2.210480] 0.997297 0.000000 0.000000 -0.073482 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

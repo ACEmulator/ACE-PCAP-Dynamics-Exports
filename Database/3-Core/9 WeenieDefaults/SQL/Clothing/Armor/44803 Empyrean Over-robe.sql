@@ -36,8 +36,8 @@ VALUES (44803,   1, 'Empyrean Over-robe') /* Name */
      , (44803,  16, 'Empyrean Over-robe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44803,   1,   33554854) /* Setup */
-     , (44803,   3,  536870932) /* SoundTable */
-     , (44803,   6,   67108990) /* PaletteBase */
-     , (44803,   8,  100670349) /* Icon */
-     , (44803,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44803,   1, 0x020001A6) /* Setup */
+     , (44803,   3, 0x20000014) /* SoundTable */
+     , (44803,   6, 0x0400007E) /* PaletteBase */
+     , (44803,   8, 0x06001B8D) /* Icon */
+     , (44803,  22, 0x3400002B) /* PhysicsEffectTable */;

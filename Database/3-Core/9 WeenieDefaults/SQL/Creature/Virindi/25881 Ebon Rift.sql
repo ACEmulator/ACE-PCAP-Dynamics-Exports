@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25881,   1, 'Ebon Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25881,   1,   33558549) /* Setup */
-     , (25881,   2,  150995087) /* MotionTable */
-     , (25881,   3,  536871001) /* SoundTable */
-     , (25881,   8,  100671702) /* Icon */
-     , (25881,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (25881,   1, 0x02001015) /* Setup */
+     , (25881,   2, 0x0900008F) /* MotionTable */
+     , (25881,   3, 0x20000059) /* SoundTable */
+     , (25881,   8, 0x060020D6) /* Icon */
+     , (25881,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25881, 8040, 168165393, 49.96256, 8.498175, 60.49813, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25881, 8040, 0x0A060011, 49.96256, 8.498175, 60.49813, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0A060011 [49.962560 8.498175 60.498130] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -42,15 +42,15 @@ VALUES (27216,   1, 'Chiran Gauntlets') /* Name */
      , (27216,  16, 'Chiran Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27216,   1,   33554648) /* Setup */
-     , (27216,   3,  536870932) /* SoundTable */
-     , (27216,   6,   67108990) /* PaletteBase */
-     , (27216,   8,  100675980) /* Icon */
-     , (27216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27216,   1, 0x020000D8) /* Setup */
+     , (27216,   3, 0x20000014) /* SoundTable */
+     , (27216,   6, 0x0400007E) /* PaletteBase */
+     , (27216,   8, 0x0600318C) /* Icon */
+     , (27216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27216,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27216,  1486,      2)  /* Impenetrability6 */
+     , (27216,  2579,      2)  /* CANTRIPCOORDINATION1 */
      , (27216,  1498,      2)  /* AcidBane6 */
-     , (27216,  1528,      2)  /* FrostBane6 */
-     , (27216,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (27216,  1528,      2)  /* FrostBane6 */;

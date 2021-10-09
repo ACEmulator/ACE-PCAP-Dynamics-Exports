@@ -35,13 +35,13 @@ VALUES (16920,   1, 'Moons Flag') /* Name */
      , (16920,  16, 'A fine flag made from grievver silk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16920,   1,   33557723) /* Setup */
-     , (16920,   3,  536870932) /* SoundTable */
-     , (16920,   6,   67113849) /* PaletteBase */
-     , (16920,   8,  100672983) /* Icon */
-     , (16920,  22,  872415275) /* PhysicsEffectTable */
-     , (16920,  50,  100673169) /* IconOverlay */;
+VALUES (16920,   1, 0x02000CDB) /* Setup */
+     , (16920,   3, 0x20000014) /* SoundTable */
+     , (16920,   6, 0x04001379) /* PaletteBase */
+     , (16920,   8, 0x060025D7) /* Icon */
+     , (16920,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (16920,  50, 0x06002691) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16920, 8040, 23855548, 54.02314, -27.82755, 0, -0.06455702, 0, 0, -0.997914) /* PCAPRecordedLocation */
+VALUES (16920, 8040, 0x016C01BC, 54.02314, -27.82755, 0, -0.064557, 0, 0, -0.997914) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.023140 -27.827550 0.000000] -0.064557 0.000000 0.000000 -0.997914 */;

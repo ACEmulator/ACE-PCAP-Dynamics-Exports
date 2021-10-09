@@ -40,12 +40,12 @@ VALUES (33598,   1, 'Pathwarden Scale Hauberk') /* Name */
      , (33598,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33598,   1,   33554644) /* Setup */
-     , (33598,   3,  536870932) /* SoundTable */
-     , (33598,   6,   67108990) /* PaletteBase */
-     , (33598,   8,  100669690) /* Icon */
-     , (33598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33598,   1, 0x020000D4) /* Setup */
+     , (33598,   3, 0x20000014) /* SoundTable */
+     , (33598,   6, 0x0400007E) /* PaletteBase */
+     , (33598,   8, 0x060018FA) /* Icon */
+     , (33598,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33598,  1328,      2)  /* StrengthSelf2 */
-     , (33598,  1482,      2)  /* Impenetrability2 */;
+VALUES (33598,  1482,      2)  /* Impenetrability2 */
+     , (33598,  1328,      2)  /* StrengthSelf2 */;

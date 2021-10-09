@@ -27,7 +27,7 @@ VALUES (35890,   1, 'Paradox-touched Olthoi Weapon Token') /* Name */
      , (35890,  16, 'A token given by Ethan Wintermaine for aiding in the defeat of the Paradox-touched Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35890,   1,   33557280) /* Setup */
-     , (35890,   3,  536870932) /* SoundTable */
-     , (35890,   8,  100674709) /* Icon */
-     , (35890,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35890,   1, 0x02000B20) /* Setup */
+     , (35890,   3, 0x20000014) /* SoundTable */
+     , (35890,   8, 0x06002C95) /* Icon */
+     , (35890,  22, 0x3400002B) /* PhysicsEffectTable */;

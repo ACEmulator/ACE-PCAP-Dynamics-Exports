@@ -51,13 +51,13 @@ VALUES (38910,   1, 'Blighted Claw') /* Name */
      , (38910,  15, 'The blighted energy that infuses this claw also consumes it after 24 hours. The blighted weapon hungers for the blood of Isparians and the weapon is much more effective against them.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38910,   1,   33560670) /* Setup */
-     , (38910,   3,  536870932) /* SoundTable */
-     , (38910,   8,  100690278) /* Icon */
-     , (38910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38910,   1, 0x0200185E) /* Setup */
+     , (38910,   3, 0x20000014) /* SoundTable */
+     , (38910,   8, 0x06006966) /* Icon */
+     , (38910,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38910, 8040, 12124645, 99.36465, -100.7443, -18.071, -0.4781373, -0.4781373, -0.520946, -0.520946) /* PCAPRecordedLocation */
+VALUES (38910, 8040, 0x00B901E5, 99.36465, -100.7443, -18.071, -0.478137, -0.478137, -0.520946, -0.520946) /* PCAPRecordedLocation */
 /* @teleloc 0x00B901E5 [99.364650 -100.744300 -18.071000] -0.478137 -0.478137 -0.520946 -0.520946 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

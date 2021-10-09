@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34886,   1, 'Imprinted Mote') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34886,   1,   33556406) /* Setup */
-     , (34886,   3,  536870932) /* SoundTable */
-     , (34886,   6,   67111919) /* PaletteBase */
-     , (34886,   8,  100689350) /* Icon */
-     , (34886,  22,  872415275) /* PhysicsEffectTable */
-     , (34886,  50,  100673760) /* IconOverlay */;
+VALUES (34886,   1, 0x020007B6) /* Setup */
+     , (34886,   3, 0x20000014) /* SoundTable */
+     , (34886,   6, 0x04000BEF) /* PaletteBase */
+     , (34886,   8, 0x060065C6) /* Icon */
+     , (34886,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34886,  50, 0x060028E0) /* IconOverlay */;

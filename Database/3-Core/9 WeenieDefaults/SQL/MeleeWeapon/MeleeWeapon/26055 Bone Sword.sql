@@ -34,11 +34,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26055,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26055,   1,   33558586) /* Setup */
-     , (26055,   3,  536870932) /* SoundTable */
-     , (26055,   8,  100675765) /* Icon */
-     , (26055,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26055,   1, 0x0200103A) /* Setup */
+     , (26055,   3, 0x20000014) /* SoundTable */
+     , (26055,   8, 0x060030B5) /* Icon */
+     , (26055,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26055, 8040, 3697541153, 108.6194, 2.529601, 29.95305, 0.4545195, 0.4545195, -0.5416752, -0.5416752) /* PCAPRecordedLocation */
+VALUES (26055, 8040, 0xDC640021, 108.6194, 2.529601, 29.95305, 0.45452, 0.45452, -0.541675, -0.541675) /* PCAPRecordedLocation */
 /* @teleloc 0xDC640021 [108.619400 2.529601 29.953050] 0.454520 0.454520 -0.541675 -0.541675 */;

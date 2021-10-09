@@ -41,19 +41,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46553,   1, 'O-Yoroi Sandals') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46553,   1,   33554654) /* Setup */
-     , (46553,   3,  536870932) /* SoundTable */
-     , (46553,   6,   67108990) /* PaletteBase */
-     , (46553,   8,  100676025) /* Icon */
-     , (46553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46553,   1, 0x020000DE) /* Setup */
+     , (46553,   3, 0x20000014) /* SoundTable */
+     , (46553,   6, 0x0400007E) /* PaletteBase */
+     , (46553,   8, 0x060031B9) /* Icon */
+     , (46553,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46553,  4391,      2)  /* AcidBane8 */
+VALUES (46553,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
+     , (46553,  4391,      2)  /* AcidBane8 */
      , (46553,  4393,      2)  /* BladeBane8 */
      , (46553,  4397,      2)  /* BludgeonBane8 */
      , (46553,  4401,      2)  /* FlameBane8 */
      , (46553,  4403,      2)  /* FrostBane8 */
      , (46553,  4407,      2)  /* Impenetrability8 */
      , (46553,  4409,      2)  /* LightningBane8 */
-     , (46553,  4412,      2)  /* PiercingBane8 */
-     , (46553,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;
+     , (46553,  4412,      2)  /* PiercingBane8 */;

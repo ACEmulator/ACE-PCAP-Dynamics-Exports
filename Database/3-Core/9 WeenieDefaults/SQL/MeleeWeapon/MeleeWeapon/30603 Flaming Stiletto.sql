@@ -48,11 +48,11 @@ VALUES (30603,   1, 'Flaming Stiletto') /* Name */
      , (30603,  16, 'Flaming Stiletto of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30603,   1,   33559489) /* Setup */
-     , (30603,   3,  536870932) /* SoundTable */
-     , (30603,   6,   67116417) /* PaletteBase */
-     , (30603,   8,  100687006) /* Icon */
-     , (30603,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30603,   1, 0x020013C1) /* Setup */
+     , (30603,   3, 0x20000014) /* SoundTable */
+     , (30603,   6, 0x04001D81) /* PaletteBase */
+     , (30603,   8, 0x06005C9E) /* Icon */
+     , (30603,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30603,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

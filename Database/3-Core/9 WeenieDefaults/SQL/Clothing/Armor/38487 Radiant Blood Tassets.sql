@@ -49,13 +49,13 @@ VALUES (38487,   1, 'Radiant Blood Tassets') /* Name */
      , (38487,  16, 'Radiant Blood Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38487,   1,   33554656) /* Setup */
-     , (38487,   3,  536870932) /* SoundTable */
-     , (38487,   8,  100690229) /* Icon */
-     , (38487,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38487,   1, 0x020000E0) /* Setup */
+     , (38487,   3, 0x20000014) /* SoundTable */
+     , (38487,   8, 0x06006935) /* Icon */
+     , (38487,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38487,  4397,      2)  /* BludgeonBane8 */
+VALUES (38487,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
+     , (38487,  4397,      2)  /* BludgeonBane8 */
      , (38487,  4401,      2)  /* FlameBane8 */
-     , (38487,  4407,      2)  /* Impenetrability8 */
-     , (38487,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
+     , (38487,  4407,      2)  /* Impenetrability8 */;

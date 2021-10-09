@@ -33,7 +33,7 @@ VALUES (0x77AD4006, 23616, 0x7AD4003C, 188.8096, 86.60801, 229.5653, 1, 0, 0, 0,
 /* @teleloc 0x7AD4003C [188.809600 86.608010 229.565300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77AD4007, 36830, 0x7AD40035, 148.1976, 111.605, 225.759, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+VALUES (0x77AD4007, 36830, 0x7AD40035, 148.1976, 111.605, 225.759, 0.5, 0, 0, -0.866025,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x7AD40035 [148.197600 111.605000 225.759000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

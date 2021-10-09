@@ -38,12 +38,12 @@ VALUES (12757,   1, 'Academy Stick') /* Name */
      , (12757,  15, 'An enhanced stick crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12757,   1,   33559625) /* Setup */
-     , (12757,   3,  536870932) /* SoundTable */
-     , (12757,   6,   67116700) /* PaletteBase */
-     , (12757,   8,  100687993) /* Icon */
-     , (12757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12757,   1, 0x02001449) /* Setup */
+     , (12757,   3, 0x20000014) /* SoundTable */
+     , (12757,   6, 0x04001E9C) /* PaletteBase */
+     , (12757,   8, 0x06006079) /* Icon */
+     , (12757,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12757, 8040, 2847146009, 81.70545, 13.79837, 93.92901, -0.1275444, -0.1275444, -0.6955087, -0.6955087) /* PCAPRecordedLocation */
+VALUES (12757, 8040, 0xA9B40019, 81.70545, 13.79837, 93.92901, -0.127544, -0.127544, -0.695509, -0.695509) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [81.705450 13.798370 93.929010] -0.127544 -0.127544 -0.695509 -0.695509 */;

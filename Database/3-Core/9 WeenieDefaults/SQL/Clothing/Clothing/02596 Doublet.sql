@@ -44,11 +44,11 @@ VALUES (2596,   1, 'Doublet') /* Name */
      , (2596,  16, 'Doublet of Acid Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2596,   1,   33554854) /* Setup */
-     , (2596,   3,  536870932) /* SoundTable */
-     , (2596,   6,   67108990) /* PaletteBase */
-     , (2596,   8,  100667379) /* Icon */
-     , (2596,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2596,   1, 0x020001A6) /* Setup */
+     , (2596,   3, 0x20000014) /* SoundTable */
+     , (2596,   6, 0x0400007E) /* PaletteBase */
+     , (2596,   8, 0x06000FF3) /* Icon */
+     , (2596,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2596,   519,      2)  /* AcidProtectionSelf5 */

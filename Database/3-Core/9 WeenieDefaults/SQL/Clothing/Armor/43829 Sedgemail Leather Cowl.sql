@@ -48,15 +48,15 @@ VALUES (43829,   1, 'Sedgemail Leather Cowl') /* Name */
      , (43829,  16, 'Sedgemail Leather Cowl of Weapon Expertise') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43829,   1,   33555048) /* Setup */
-     , (43829,   3,  536870932) /* SoundTable */
-     , (43829,   6,   67108990) /* PaletteBase */
-     , (43829,   8,  100691727) /* Icon */
-     , (43829,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43829,   1, 0x02000268) /* Setup */
+     , (43829,   3, 0x20000014) /* SoundTable */
+     , (43829,   6, 0x0400007E) /* PaletteBase */
+     , (43829,   8, 0x06006F0F) /* Icon */
+     , (43829,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43829,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43829,  2104,      2)  /* FrostBane7 */
-     , (43829,  2108,      2)  /* Impenetrability7 */
-     , (43829,  2325,      2)  /* WeaponExpertiseSelf7 */
-     , (43829,  6125,      2)  /* CantripSummoningProwess4 */;
+VALUES (43829,  2325,      2)  /* WeaponExpertiseSelf7 */
+     , (43829,  6125,      2)  /* CantripSummoningProwess4 */
+     , (43829,  2104,      2)  /* FrostBane7 */
+     , (43829,  2108,      2)  /* Impenetrability7 */;

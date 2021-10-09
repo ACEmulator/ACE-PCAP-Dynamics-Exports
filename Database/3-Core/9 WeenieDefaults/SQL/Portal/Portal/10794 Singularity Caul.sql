@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10794,   1, 'Singularity Caul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10794,   1,   33555925) /* Setup */
-     , (10794,   2,  150994947) /* MotionTable */
-     , (10794,   8,  100667499) /* Icon */;
+VALUES (10794,   1, 0x020005D5) /* Setup */
+     , (10794,   2, 0x09000003) /* MotionTable */
+     , (10794,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10794, 8040, 43058115, 210, -10, 17.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (10794, 8040, 0x029103C3, 210, -10, 17.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C3 [210.000000 -10.000000 17.937000] 1.000000 0.000000 0.000000 0.000000 */;

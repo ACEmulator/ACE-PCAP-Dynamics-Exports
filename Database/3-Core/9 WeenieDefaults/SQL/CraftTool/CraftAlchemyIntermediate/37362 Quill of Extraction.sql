@@ -20,5 +20,5 @@ VALUES (37362,   1, 'Quill of Extraction') /* Name */
      , (37362,  20, 'Quills of Extraction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37362,   1,   33559616) /* Setup */
-     , (37362,   8,  100690199) /* Icon */;
+VALUES (37362,   1, 0x02001440) /* Setup */
+     , (37362,   8, 0x06006917) /* Icon */;

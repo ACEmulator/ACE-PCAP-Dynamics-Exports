@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25673,   1, 'Proselytic Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25673,   1,   33554433) /* Setup */
-     , (25673,   2,  150994945) /* MotionTable */
-     , (25673,   3,  536870913) /* SoundTable */
-     , (25673,   6,   67108990) /* PaletteBase */
-     , (25673,   8,  100670397) /* Icon */;
+VALUES (25673,   1, 0x02000001) /* Setup */
+     , (25673,   2, 0x09000001) /* MotionTable */
+     , (25673,   3, 0x20000001) /* SoundTable */
+     , (25673,   6, 0x0400007E) /* PaletteBase */
+     , (25673,   8, 0x06001BBD) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25673, 8040, 1665663322, 70, -50, -59.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (25673, 8040, 0x6348015A, 70, -50, -59.995, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x6348015A [70.000000 -50.000000 -59.995000] -0.707107 0.000000 0.000000 -0.707107 */;

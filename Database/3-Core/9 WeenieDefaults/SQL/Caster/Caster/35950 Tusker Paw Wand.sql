@@ -43,20 +43,20 @@ VALUES (35950,   1, 'Tusker Paw Wand') /* Name */
      , (35950,  16, 'A short little wand with a tusker paw on the end. The paw seems to clench when you cast magic.  Also useful for reaching hard to get things on the top shelf.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35950,   1,   33560345) /* Setup */
-     , (35950,   3,  536870932) /* SoundTable */
-     , (35950,   8,  100689567) /* Icon */
-     , (35950,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35950,   1, 0x02001719) /* Setup */
+     , (35950,   3, 0x20000014) /* SoundTable */
+     , (35950,   8, 0x0600669F) /* Icon */
+     , (35950,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35950,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35950, 8040, 1615069445, 110.0935, -42.19381, -24.07, 0.6805488, 0.6805488, -0.1919721, -0.1919721) /* PCAPRecordedLocation */
+VALUES (35950, 8040, 0x60440105, 110.0935, -42.19381, -24.07, 0.680549, 0.680549, -0.191972, -0.191972) /* PCAPRecordedLocation */
 /* @teleloc 0x60440105 [110.093500 -42.193810 -24.070000] 0.680549 0.680549 -0.191972 -0.191972 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35950,  2066,      2)  /* FocusOther7 */
-     , (35950,  2090,      2)  /* WillpowerOther7 */
-     , (35950,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (35950,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (35950,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (35950,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (35950,  2090,      2)  /* WillpowerOther7 */
      , (35950,  2810,      2)  /* ModerateLifeMagicAptitude */;

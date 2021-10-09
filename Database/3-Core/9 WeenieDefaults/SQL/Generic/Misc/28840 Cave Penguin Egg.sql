@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28840,   1, 'Cave Penguin Egg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28840,   1,   33559141) /* Setup */
-     , (28840,   3,  536870932) /* SoundTable */
-     , (28840,   8,  100686395) /* Icon */
-     , (28840,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28840,   1, 0x02001265) /* Setup */
+     , (28840,   3, 0x20000014) /* SoundTable */
+     , (28840,   8, 0x06005A3B) /* Icon */
+     , (28840,  22, 0x3400002B) /* PhysicsEffectTable */;

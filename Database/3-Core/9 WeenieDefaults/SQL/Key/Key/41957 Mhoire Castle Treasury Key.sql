@@ -19,6 +19,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41957,   1, 'Mhoire Castle Treasury Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41957,   1,   33554784) /* Setup */
-     , (41957,   8,  100690864) /* Icon */
-     , (41957,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41957,   1, 0x02000160) /* Setup */
+     , (41957,   8, 0x06006BB0) /* Icon */
+     , (41957,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (41614,   1, 'Bronze Gearknight Gear') /* Name */
      , (41614,  14, 'Use this gear to summon or dismiss your Bronze Wind-up Gear Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41614,   1,   33557681) /* Setup */
-     , (41614,   3,  536870932) /* SoundTable */
-     , (41614,   8,  100672956) /* Icon */
-     , (41614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41614,   1, 0x02000CB1) /* Setup */
+     , (41614,   3, 0x20000014) /* SoundTable */
+     , (41614,   8, 0x060025BC) /* Icon */
+     , (41614,  22, 0x3400002B) /* PhysicsEffectTable */;

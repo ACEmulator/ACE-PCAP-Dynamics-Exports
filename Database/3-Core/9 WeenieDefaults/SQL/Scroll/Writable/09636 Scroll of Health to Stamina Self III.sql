@@ -23,7 +23,7 @@ VALUES (9636,   1, 'Scroll of Health to Stamina Self III') /* Name */
 Drains one-half of the caster''s Health and gives 110% of that to his/her Stamina (maximum of 150).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9636,   1,   33554826) /* Setup */
-     , (9636,   8,  100676947) /* Icon */
-     , (9636,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9636,   1, 0x0200018A) /* Setup */
+     , (9636,   8, 0x06003553) /* Icon */
+     , (9636,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9636,  28,       1274) /* Spell - HealthToStaminaSelf3 */;

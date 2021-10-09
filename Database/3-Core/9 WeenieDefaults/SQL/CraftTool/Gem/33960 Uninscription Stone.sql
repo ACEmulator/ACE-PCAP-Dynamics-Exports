@@ -26,12 +26,12 @@ VALUES (33960,   1, 'Uninscription Stone') /* Name */
      , (33960,  16, 'A sandy rock used to rub old inscriptions off of an item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33960,   1,   33556976) /* Setup */
-     , (33960,   3,  536870932) /* SoundTable */
-     , (33960,   6,   67111928) /* PaletteBase */
-     , (33960,   8,  100673296) /* Icon */
-     , (33960,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33960,   1, 0x020009F0) /* Setup */
+     , (33960,   3, 0x20000014) /* SoundTable */
+     , (33960,   6, 0x04000BF8) /* PaletteBase */
+     , (33960,   8, 0x06002710) /* Icon */
+     , (33960,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33960, 8040, 3583574079, 184.2867, 158.1599, 374, 0.9475355, 0, 0, -0.3196507) /* PCAPRecordedLocation */
+VALUES (33960, 8040, 0xD599003F, 184.2867, 158.1599, 374, 0.947536, 0, 0, -0.319651) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [184.286700 158.159900 374.000000] 0.947536 0.000000 0.000000 -0.319651 */;

@@ -46,14 +46,14 @@ VALUES (6033,   1, 'Hamud''s Pyreal Katar') /* Name */
      , (6033,  15, 'An exquisitely crafted katar with a damascened blade.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6033,   1,   33556277) /* Setup */
-     , (6033,   3,  536870932) /* SoundTable */
-     , (6033,   6,   67111919) /* PaletteBase */
-     , (6033,   8,  100668928) /* Icon */
-     , (6033,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6033,   1, 0x02000735) /* Setup */
+     , (6033,   3, 0x20000014) /* SoundTable */
+     , (6033,   6, 0x04000BEF) /* PaletteBase */
+     , (6033,   8, 0x06001600) /* Icon */
+     , (6033,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6033,  1405,      2)  /* QuicknessOther3 */
+VALUES (6033,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (6033,  1623,      2)  /* SwiftKillerSelf2 */
      , (6033,  1588,      2)  /* HeartSeekerSelf2 */
-     , (6033,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (6033,  1623,      2)  /* SwiftKillerSelf2 */;
+     , (6033,  1405,      2)  /* QuicknessOther3 */;

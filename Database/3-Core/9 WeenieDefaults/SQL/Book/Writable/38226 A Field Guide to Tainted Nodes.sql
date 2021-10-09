@@ -19,10 +19,10 @@ VALUES (38226,   1, 'A Field Guide to Tainted Nodes') /* Name */
      , (38226,  16, 'A book about the nature of the threat faced by the T''thuun-tainted nodes of Dereth. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38226,   1,   33554771) /* Setup */
-     , (38226,   3,  536870932) /* SoundTable */
-     , (38226,   8,  100668117) /* Icon */
-     , (38226,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38226,   1, 0x02000153) /* Setup */
+     , (38226,   3, 0x20000014) /* SoundTable */
+     , (38226,   8, 0x060012D5) /* Icon */
+     , (38226,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (38226, 4, 1000);

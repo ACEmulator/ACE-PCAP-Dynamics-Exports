@@ -28,20 +28,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40895,   1, 'Carolyn Woron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40895,   1,   33554510) /* Setup */
-     , (40895,   2,  150994945) /* MotionTable */
-     , (40895,   3,  536870914) /* SoundTable */
-     , (40895,   6,   67108990) /* PaletteBase */
-     , (40895,   8,  100667446) /* Icon */
-     , (40895,   9,   83890280) /* EyesTexture */
-     , (40895,  10,   83890317) /* NoseTexture */
-     , (40895,  11,   83890330) /* MouthTexture */
-     , (40895,  15,   67117076) /* HairPalette */
-     , (40895,  16,   67110064) /* EyesPalette */
-     , (40895,  17,   67109560) /* SkinPalette */;
+VALUES (40895,   1, 0x0200004E) /* Setup */
+     , (40895,   2, 0x09000001) /* MotionTable */
+     , (40895,   3, 0x20000002) /* SoundTable */
+     , (40895,   6, 0x0400007E) /* PaletteBase */
+     , (40895,   8, 0x06001036) /* Icon */
+     , (40895,   9, 0x05001068) /* EyesTexture */
+     , (40895,  10, 0x0500108D) /* NoseTexture */
+     , (40895,  11, 0x0500109A) /* MouthTexture */
+     , (40895,  15, 0x04002014) /* HairPalette */
+     , (40895,  16, 0x040004B0) /* EyesPalette */
+     , (40895,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40895, 8040, 3443589381, 155.088, 111.776, 59.605, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (40895, 8040, 0xCD410105, 155.088, 111.776, 59.605, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410105 [155.088000 111.776000 59.605000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

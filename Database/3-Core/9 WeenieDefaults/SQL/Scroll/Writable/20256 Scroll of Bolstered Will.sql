@@ -23,7 +23,7 @@ VALUES (20256,   1, 'Scroll of Bolstered Will') /* Name */
 Increases the target''s Self by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20256,   1,   33554826) /* Setup */
-     , (20256,   8,  100676471) /* Icon */
-     , (20256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20256,   1, 0x0200018A) /* Setup */
+     , (20256,   8, 0x06003377) /* Icon */
+     , (20256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20256,  28,       2090) /* Spell - WillpowerOther7 */;

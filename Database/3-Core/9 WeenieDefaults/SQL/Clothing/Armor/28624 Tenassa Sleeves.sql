@@ -42,11 +42,11 @@ VALUES (28624,   1, 'Tenassa Sleeves') /* Name */
      , (28624,  16, 'Tenassa Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28624,   1,   33559333) /* Setup */
-     , (28624,   3,  536870932) /* SoundTable */
-     , (28624,   6,   67108990) /* PaletteBase */
-     , (28624,   8,  100686121) /* Icon */
-     , (28624,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28624,   1, 0x02001325) /* Setup */
+     , (28624,   3, 0x20000014) /* SoundTable */
+     , (28624,   6, 0x0400007E) /* PaletteBase */
+     , (28624,   8, 0x06005929) /* Icon */
+     , (28624,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28624,  1485,      2)  /* Impenetrability5 */

@@ -26,7 +26,7 @@ VALUES (8511,   1, 'Ancient Key') /* Name */
      , (8511,  16, 'A key found on Ithaenc. Although its surface is quite overgrown with moss, you can see bright silver metal beneath, and what appear to be intricate designs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8511,   1,   33554784) /* Setup */
-     , (8511,   3,  536870932) /* SoundTable */
-     , (8511,   8,  100670820) /* Icon */
-     , (8511,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8511,   1, 0x02000160) /* Setup */
+     , (8511,   3, 0x20000014) /* SoundTable */
+     , (8511,   8, 0x06001D64) /* Icon */
+     , (8511,  22, 0x3400002B) /* PhysicsEffectTable */;

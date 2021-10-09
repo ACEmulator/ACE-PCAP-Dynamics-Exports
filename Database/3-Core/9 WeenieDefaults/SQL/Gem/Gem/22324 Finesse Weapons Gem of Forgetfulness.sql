@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22324,   1, 'Finesse Weapons Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22324,   1,   33558087) /* Setup */
-     , (22324,   6,   67111919) /* PaletteBase */
-     , (22324,   8,  100673789) /* Icon */
-     , (22324,  50,  100692238) /* IconOverlay */;
+VALUES (22324,   1, 0x02000E47) /* Setup */
+     , (22324,   6, 0x04000BEF) /* PaletteBase */
+     , (22324,   8, 0x060028FD) /* Icon */
+     , (22324,  50, 0x0600710E) /* IconOverlay */;

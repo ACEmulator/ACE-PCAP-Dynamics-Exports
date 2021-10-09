@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26544,   1, 'Wailing Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26544,   1,   33558606) /* Setup */
-     , (26544,   2,  150995276) /* MotionTable */
-     , (26544,   3,  536871082) /* SoundTable */
-     , (26544,   8,  100667624) /* Icon */
-     , (26544,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26544,   1, 0x0200104E) /* Setup */
+     , (26544,   2, 0x0900014C) /* MotionTable */
+     , (26544,   3, 0x200000AA) /* SoundTable */
+     , (26544,   8, 0x060010E8) /* Icon */
+     , (26544,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26544, 8040, 4181394005, 154.355, 130.094, -76.05756, -0.3826841, 0, 0, 0.9238793) /* PCAPRecordedLocation */
+VALUES (26544, 8040, 0xF93B0255, 154.355, 130.094, -76.05756, -0.382684, 0, 0, 0.923879) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0255 [154.355000 130.094000 -76.057560] -0.382684 0.000000 0.000000 0.923879 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -23,7 +23,7 @@ VALUES (32588,   1, 'Repaired Shadow Stone') /* Name */
      , (32588,  16, 'A partially repaired Shadow Stone, empowered to protect the user against the chill of the Shadows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32588,   1,   33559809) /* Setup */
-     , (32588,   3,  536870932) /* SoundTable */
-     , (32588,   8,  100670494) /* Icon */
-     , (32588,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32588,   1, 0x02001501) /* Setup */
+     , (32588,   3, 0x20000014) /* SoundTable */
+     , (32588,   8, 0x06001C1E) /* Icon */
+     , (32588,  22, 0x3400002B) /* PhysicsEffectTable */;

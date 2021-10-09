@@ -48,12 +48,12 @@ VALUES (43050,   1, 'Covenant Girth') /* Name */
      , (43050,  39, 'Tinkerbotz') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43050,   1,   33554647) /* Setup */
-     , (43050,   3,  536870932) /* SoundTable */
-     , (43050,   6,   67108990) /* PaletteBase */
-     , (43050,   8,  100673398) /* Icon */
-     , (43050,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43050,   1, 0x020000D7) /* Setup */
+     , (43050,   3, 0x20000014) /* SoundTable */
+     , (43050,   6, 0x0400007E) /* PaletteBase */
+     , (43050,   8, 0x06002776) /* Icon */
+     , (43050,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43050,  4407,      2)  /* Impenetrability8 */
-     , (43050,  6082,      2)  /* CantripFlameWard4 */;
+VALUES (43050,  6082,      2)  /* CantripFlameWard4 */
+     , (43050,  4407,      2)  /* Impenetrability8 */;

@@ -44,20 +44,20 @@ VALUES (30378,   1, 'Deru Limb') /* Name */
      , (30378,  16, 'All the Deru can trace their ancestry to the First Tree, because they all were once twigs on its great trunk. It is said that the First Tree has seen the beginning of the world and that when the First Tree perishes, so will the world. On rare occasions the First Tree will grant a blessing to those that show exceptional awareness of the cycles of life.  This wand is one such gift.  This wand must be cultivated from the First Tree in such a way that no knife is used. The petitioner must pray and coax a piece of the First Tree so that the limb will naturally fall off the tree, neither harming the First Tree nor the new limb.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30378,   1,   33559426) /* Setup */
-     , (30378,   3,  536870932) /* SoundTable */
-     , (30378,   8,  100686855) /* Icon */
-     , (30378,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30378,   1, 0x02001382) /* Setup */
+     , (30378,   3, 0x20000014) /* SoundTable */
+     , (30378,   8, 0x06005C07) /* Icon */
+     , (30378,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30378,  28,       2073) /* Spell - HealSelf7 */
-     , (30378,  52,  100686604) /* IconUnderlay */;
+     , (30378,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30378, 8040, 1676148780, 120.9882, 87.64902, 131.929, 0.4417847, 0.4417847, -0.5521108, -0.5521108) /* PCAPRecordedLocation */
+VALUES (30378, 8040, 0x63E8002C, 120.9882, 87.64902, 131.929, 0.441785, 0.441785, -0.552111, -0.552111) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002C [120.988200 87.649020 131.929000] 0.441785 0.441785 -0.552111 -0.552111 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30378,   995,      2)  /* LeadenFeetSelf2 */
+VALUES (30378,  4494,      2)  /* ManaRenewalSelf8 */
+     , (30378,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (30378,   995,      2)  /* LeadenFeetSelf2 */
      , (30378,  4464,      2)  /* BludgeonProtectionSelf8 */
-     , (30378,  4468,      2)  /* FireProtectionSelf8 */
-     , (30378,  4494,      2)  /* ManaRenewalSelf8 */
-     , (30378,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+     , (30378,  4468,      2)  /* FireProtectionSelf8 */;

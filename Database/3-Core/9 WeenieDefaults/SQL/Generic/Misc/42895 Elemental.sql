@@ -18,9 +18,9 @@ VALUES (42895,   1, 'Elemental') /* Name */
      , (42895,  16, 'Mostly created by mages as the embodiment of the mana of the world, Elementals come in a variety of types representing one or many of the elements of nature. They are able to reproduce through unknown means but still inherit the will of their forgotten Empyrean masters and faithfully guard their territories. They rely mostly on magic, even protecting themselves against their chief weakness, to take down any trespasser.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42895,   1,   33561052) /* Setup */
-     , (42895,   8,  100668115) /* Icon */;
+VALUES (42895,   1, 0x020019DC) /* Setup */
+     , (42895,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42895, 8040, 459097, 75.071, -115.128, 0.66, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42895, 8040, 0x00070159, 75.071, -115.128, 0.66, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070159 [75.071000 -115.128000 0.660000] 1.000000 0.000000 0.000000 0.000000 */;

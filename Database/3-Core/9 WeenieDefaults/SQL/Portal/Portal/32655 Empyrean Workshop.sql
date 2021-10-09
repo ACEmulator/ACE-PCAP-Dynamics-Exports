@@ -22,10 +22,10 @@ VALUES (32655,   1, 'Empyrean Workshop') /* Name */
      , (32655,  16, 'An old Empyrean Workshop') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32655,   1,   33555925) /* Setup */
-     , (32655,   2,  150994947) /* MotionTable */
-     , (32655,   8,  100667499) /* Icon */;
+VALUES (32655,   1, 0x020005D5) /* Setup */
+     , (32655,   2, 0x09000003) /* MotionTable */
+     , (32655,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32655, 8040, 2480078865, 57.2299, 7.12081, 392.355, -0.4745199, 0, 0, -0.8802448) /* PCAPRecordedLocation */
+VALUES (32655, 8040, 0x93D30011, 57.2299, 7.12081, 392.355, -0.47452, 0, 0, -0.880245) /* PCAPRecordedLocation */
 /* @teleloc 0x93D30011 [57.229900 7.120810 392.355000] -0.474520 0.000000 0.000000 -0.880245 */;

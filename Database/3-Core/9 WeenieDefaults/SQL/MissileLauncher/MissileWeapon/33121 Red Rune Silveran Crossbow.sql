@@ -53,15 +53,15 @@ Sneux says, "my mother is quite shallow and pedantic"') /* Inscription */
      , (33121,  15, 'A crossbow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33121,   1,   33559958) /* Setup */
-     , (33121,   3,  536870932) /* SoundTable */
-     , (33121,   8,  100688933) /* Icon */
-     , (33121,  22,  872415275) /* PhysicsEffectTable */
-     , (33121,  50,  100688915) /* IconOverlay */;
+VALUES (33121,   1, 0x02001596) /* Setup */
+     , (33121,   3, 0x20000014) /* SoundTable */
+     , (33121,   8, 0x06006425) /* Icon */
+     , (33121,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33121,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33121,  2059,      2)  /* CoordinationSelf7 */
-     , (33121,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33121,  2101,      2)  /* DefenderSelf7 */
+VALUES (33121,  2688,      2)  /* ModerateCrossbowAptitude */
      , (33121,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33121,  2688,      2)  /* ModerateCrossbowAptitude */;
+     , (33121,  2059,      2)  /* CoordinationSelf7 */
+     , (33121,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33121,  2101,      2)  /* DefenderSelf7 */;

@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52262,   1, 'Pillar of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52262,   1,   33560371) /* Setup */
-     , (52262,   2,  150995290) /* MotionTable */
-     , (52262,   3,  536871001) /* SoundTable */
-     , (52262,   8,  100672513) /* Icon */
-     , (52262,  22,  872415389) /* PhysicsEffectTable */;
+VALUES (52262,   1, 0x02001733) /* Setup */
+     , (52262,   2, 0x0900015A) /* MotionTable */
+     , (52262,   3, 0x20000059) /* SoundTable */
+     , (52262,   8, 0x06002401) /* Icon */
+     , (52262,  22, 0x3400009D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52262, 8040, 1483079983, 160, -90, -0.003342986, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52262, 8040, 0x5866012F, 160, -90, -0.003343, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5866012F [160.000000 -90.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

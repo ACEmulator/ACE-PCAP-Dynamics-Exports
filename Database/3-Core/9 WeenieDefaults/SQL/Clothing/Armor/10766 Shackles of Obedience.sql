@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10766,   1, 'Shackles of Obedience') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10766,   1,   33554641) /* Setup */
-     , (10766,   3,  536870932) /* SoundTable */
-     , (10766,   6,   67108990) /* PaletteBase */
-     , (10766,   8,  100671691) /* Icon */
-     , (10766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10766,   1, 0x020000D1) /* Setup */
+     , (10766,   3, 0x20000014) /* SoundTable */
+     , (10766,   6, 0x0400007E) /* PaletteBase */
+     , (10766,   8, 0x060020CB) /* Icon */
+     , (10766,  22, 0x3400002B) /* PhysicsEffectTable */;

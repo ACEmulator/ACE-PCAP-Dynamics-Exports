@@ -53,14 +53,14 @@ VALUES (31815,   1, 'Electric Slingshot') /* Name */
      , (31815,  16, 'Electric Slingshot of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31815,   1,   33559674) /* Setup */
-     , (31815,   3,  536870932) /* SoundTable */
-     , (31815,   6,   67116700) /* PaletteBase */
-     , (31815,   8,  100688022) /* Icon */
-     , (31815,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31815,   1, 0x0200147A) /* Setup */
+     , (31815,   3, 0x20000014) /* SoundTable */
+     , (31815,   6, 0x04001E9C) /* PaletteBase */
+     , (31815,   8, 0x06006096) /* Icon */
+     , (31815,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31815,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31815,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31815,  2059,      2)  /* CoordinationSelf7 */
+VALUES (31815,  2059,      2)  /* CoordinationSelf7 */
+     , (31815,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31815,  2101,      2)  /* DefenderSelf7 */;

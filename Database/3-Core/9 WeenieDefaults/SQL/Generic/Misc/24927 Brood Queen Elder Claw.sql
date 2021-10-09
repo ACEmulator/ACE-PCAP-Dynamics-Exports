@@ -21,7 +21,7 @@ VALUES (24927,   1, 'Brood Queen Elder Claw') /* Name */
      , (24927,  15, 'The claw of a departed Olthoi Brood Queen Elder.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24927,   1,   33556593) /* Setup */
-     , (24927,   3,  536870932) /* SoundTable */
-     , (24927,   8,  100674515) /* Icon */
-     , (24927,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24927,   1, 0x02000871) /* Setup */
+     , (24927,   3, 0x20000014) /* SoundTable */
+     , (24927,   8, 0x06002BD3) /* Icon */
+     , (24927,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,14 +28,14 @@ VALUES (43145,   1, 'Squire Tylaen') /* Name */
      , (43145,   5, 'Copper Cog Supply Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43145,   1,   33560842) /* Setup */
-     , (43145,   2,  150995368) /* MotionTable */
-     , (43145,   3,  536870933) /* SoundTable */
-     , (43145,   8,  100674350) /* Icon */
-     , (43145,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (43145,   1, 0x0200190A) /* Setup */
+     , (43145,   2, 0x090001A8) /* MotionTable */
+     , (43145,   3, 0x20000015) /* SoundTable */
+     , (43145,   8, 0x06002B2E) /* Icon */
+     , (43145,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43145, 8040, 560988201, 139.349, 14.3138, 178.0075, 0.9032651, 0, 0, -0.429083) /* PCAPRecordedLocation */
+VALUES (43145, 8040, 0x21700029, 139.349, 14.3138, 178.0075, 0.903265, 0, 0, -0.429083) /* PCAPRecordedLocation */
 /* @teleloc 0x21700029 [139.349000 14.313800 178.007500] 0.903265 0.000000 0.000000 -0.429083 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

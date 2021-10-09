@@ -18,12 +18,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7323,   1, 'Torch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7323,   1,   33554917) /* Setup */
-     , (7323,   2,  150995094) /* MotionTable */
-     , (7323,   3,  536870980) /* SoundTable */
-     , (7323,   8,  100667506) /* Icon */
-     , (7323,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7323,   1, 0x020001E5) /* Setup */
+     , (7323,   2, 0x09000096) /* MotionTable */
+     , (7323,   3, 0x20000044) /* SoundTable */
+     , (7323,   8, 0x06001072) /* Icon */
+     , (7323,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7323, 8040, 44827092, 879.3, -194.878, -10, -0.00142271, 0, 0, -0.999999) /* PCAPRecordedLocation */
+VALUES (7323, 8040, 0x02AC01D4, 879.3, -194.878, -10, -0.001423, 0, 0, -0.999999) /* PCAPRecordedLocation */
 /* @teleloc 0x02AC01D4 [879.300000 -194.878000 -10.000000] -0.001423 0.000000 0.000000 -0.999999 */;

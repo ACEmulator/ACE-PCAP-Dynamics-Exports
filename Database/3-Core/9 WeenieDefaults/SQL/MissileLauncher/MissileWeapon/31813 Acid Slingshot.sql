@@ -52,14 +52,14 @@ VALUES (31813,   1, 'Acid Slingshot') /* Name */
      , (31813,  16, 'Acid Slingshot of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31813,   1,   33559622) /* Setup */
-     , (31813,   3,  536870932) /* SoundTable */
-     , (31813,   6,   67116700) /* PaletteBase */
-     , (31813,   8,  100688019) /* Icon */
-     , (31813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31813,   1, 0x02001446) /* Setup */
+     , (31813,   3, 0x20000014) /* SoundTable */
+     , (31813,   6, 0x04001E9C) /* PaletteBase */
+     , (31813,   8, 0x06006093) /* Icon */
+     , (31813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31813,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31813,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31813,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (31813,  2116,      2)  /* SwiftKillerSelf7 */
+     , (31813,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31813,  2546,      2)  /* CANTRIPFEALTY1 */;

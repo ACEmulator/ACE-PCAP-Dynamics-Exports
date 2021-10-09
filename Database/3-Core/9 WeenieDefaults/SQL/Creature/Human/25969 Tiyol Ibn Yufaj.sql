@@ -22,21 +22,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25969,   1, 'Tiyol Ibn Yufaj') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25969,   1,   33554433) /* Setup */
-     , (25969,   2,  150994945) /* MotionTable */
-     , (25969,   3,  536870913) /* SoundTable */
-     , (25969,   6,   67108990) /* PaletteBase */
-     , (25969,   8,  100667446) /* Icon */
-     , (25969,   9,   83890469) /* EyesTexture */
-     , (25969,  10,   83890537) /* NoseTexture */
-     , (25969,  11,   83890607) /* MouthTexture */
-     , (25969,  15,   67117025) /* HairPalette */
-     , (25969,  16,   67109567) /* EyesPalette */
-     , (25969,  17,   67109557) /* SkinPalette */
-     , (25969,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (25969,   1, 0x02000001) /* Setup */
+     , (25969,   2, 0x09000001) /* MotionTable */
+     , (25969,   3, 0x20000001) /* SoundTable */
+     , (25969,   6, 0x0400007E) /* PaletteBase */
+     , (25969,   8, 0x06001036) /* Icon */
+     , (25969,   9, 0x05001125) /* EyesTexture */
+     , (25969,  10, 0x05001169) /* NoseTexture */
+     , (25969,  11, 0x050011AF) /* MouthTexture */
+     , (25969,  15, 0x04001FE1) /* HairPalette */
+     , (25969,  16, 0x040002BF) /* EyesPalette */
+     , (25969,  17, 0x040002B5) /* SkinPalette */
+     , (25969,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25969, 8040, 1682571866, 84.3741, -50.698, -17.995, -0.7726091, 0, 0, -0.634882) /* PCAPRecordedLocation */
+VALUES (25969, 8040, 0x644A025A, 84.3741, -50.698, -17.995, -0.772609, 0, 0, -0.634882) /* PCAPRecordedLocation */
 /* @teleloc 0x644A025A [84.374100 -50.698000 -17.995000] -0.772609 0.000000 0.000000 -0.634882 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

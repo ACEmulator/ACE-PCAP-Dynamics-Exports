@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3303,   1, 'Scroll of Item Enchantment Ineptitude II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3303,   1,   33554826) /* Setup */
-     , (3303,   8,  100676460) /* Icon */
-     , (3303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3303,   1, 0x0200018A) /* Setup */
+     , (3303,   8, 0x0600336C) /* Icon */
+     , (3303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3303,  28,        594) /* Spell - ItemEnchantmentIneptitudeOther2 */
      , (3303, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

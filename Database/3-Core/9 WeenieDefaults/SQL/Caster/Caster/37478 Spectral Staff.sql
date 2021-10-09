@@ -48,22 +48,22 @@ VALUES (37478,   1, 'Spectral Staff') /* Name */
      , (37478,  16, 'A ghostly blue casting staff. Tendrils of ethereal light spill from it. This caster won''t last long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37478,   1,   33560575) /* Setup */
-     , (37478,   3,  536870932) /* SoundTable */
-     , (37478,   6,   67111919) /* PaletteBase */
-     , (37478,   8,  100675639) /* Icon */
-     , (37478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37478,   1, 0x020017FF) /* Setup */
+     , (37478,   3, 0x20000014) /* SoundTable */
+     , (37478,   6, 0x04000BEF) /* PaletteBase */
+     , (37478,   8, 0x06003037) /* Icon */
+     , (37478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37478,  28,       2132) /* Spell - ForceBolt7 */
-     , (37478,  52,  100689404) /* IconUnderlay */;
+     , (37478,  52, 0x060065FC) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37478, 8040, 19005708, 30.025, -60, 5.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (37478, 8040, 0x0122010C, 30.025, -60, 5.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0122010C [30.025000 -60.000000 5.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37478,  2101,      2)  /* DefenderSelf7 */
-     , (37478,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37478,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+VALUES (37478,  2117,      2)  /* HermeticLinkSelf7 */
      , (37478,  2581,      2)  /* CANTRIPFOCUS1 */
      , (37478,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37478,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37478,  2101,      2)  /* DefenderSelf7 */
      , (37478,  3259,      2)  /* SpiritDrinkerSelf7 */;

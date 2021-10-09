@@ -54,13 +54,13 @@ VALUES (40388,   1, 'Renegade Waaika of the Forests') /* Name */
      , (40388,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40388,   1,   33557235) /* Setup */
-     , (40388,   3,  536870932) /* SoundTable */
-     , (40388,   8,  100672083) /* Icon */
-     , (40388,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40388,   1, 0x02000AF3) /* Setup */
+     , (40388,   3, 0x20000014) /* SoundTable */
+     , (40388,   8, 0x06002253) /* Icon */
+     , (40388,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40388, 8040, 9896209, 204.2289, -120.8184, -48.071, -0.5781875, -0.5781875, -0.4070617, -0.4070617) /* PCAPRecordedLocation */
+VALUES (40388, 8040, 0x00970111, 204.2289, -120.8184, -48.071, -0.578188, -0.578188, -0.407062, -0.407062) /* PCAPRecordedLocation */
 /* @teleloc 0x00970111 [204.228900 -120.818400 -48.071000] -0.578188 -0.578188 -0.407062 -0.407062 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35541,   1, '"Chorizite Staff" Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35541,   1,   33556223) /* Setup */
-     , (35541,   3,  536870932) /* SoundTable */
-     , (35541,   6,   67111928) /* PaletteBase */
-     , (35541,   8,  100673039) /* Icon */
-     , (35541,  22,  872415275) /* PhysicsEffectTable */
-     , (35541,  50,  100673782) /* IconOverlay */
-     , (35541,  52,  100689403) /* IconUnderlay */
+VALUES (35541,   1, 0x020006FF) /* Setup */
+     , (35541,   3, 0x20000014) /* SoundTable */
+     , (35541,   6, 0x04000BF8) /* PaletteBase */
+     , (35541,   8, 0x0600260F) /* Icon */
+     , (35541,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35541,  50, 0x060028F6) /* IconOverlay */
+     , (35541,  52, 0x060065FB) /* IconUnderlay */
      , (35541, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

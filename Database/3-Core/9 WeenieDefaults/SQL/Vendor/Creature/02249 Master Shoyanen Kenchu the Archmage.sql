@@ -34,20 +34,20 @@ VALUES (2249,   1, 'Master Shoyanen Kenchu the Archmage') /* Name */
      , (2249,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2249,   1,   33554510) /* Setup */
-     , (2249,   2,  150994945) /* MotionTable */
-     , (2249,   3,  536870914) /* SoundTable */
-     , (2249,   6,   67108990) /* PaletteBase */
-     , (2249,   8,  100667446) /* Icon */
-     , (2249,   9,   83890281) /* EyesTexture */
-     , (2249,  10,   83890291) /* NoseTexture */
-     , (2249,  11,   83890346) /* MouthTexture */
-     , (2249,  15,   67117019) /* HairPalette */
-     , (2249,  16,   67109565) /* EyesPalette */
-     , (2249,  17,   67110053) /* SkinPalette */;
+VALUES (2249,   1, 0x0200004E) /* Setup */
+     , (2249,   2, 0x09000001) /* MotionTable */
+     , (2249,   3, 0x20000002) /* SoundTable */
+     , (2249,   6, 0x0400007E) /* PaletteBase */
+     , (2249,   8, 0x06001036) /* Icon */
+     , (2249,   9, 0x05001069) /* EyesTexture */
+     , (2249,  10, 0x05001073) /* NoseTexture */
+     , (2249,  11, 0x050010AA) /* MouthTexture */
+     , (2249,  15, 0x04001FDB) /* HairPalette */
+     , (2249,  16, 0x040002BD) /* EyesPalette */
+     , (2249,  17, 0x040004A5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2249, 8040, 3929014531, 151.045, 37.8298, 110.005, -0.9918318, 0, 0, -0.1275526) /* PCAPRecordedLocation */
+VALUES (2249, 8040, 0xEA300103, 151.045, 37.8298, 110.005, -0.991832, 0, 0, -0.127553) /* PCAPRecordedLocation */
 /* @teleloc 0xEA300103 [151.045000 37.829800 110.005000] -0.991832 0.000000 0.000000 -0.127553 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

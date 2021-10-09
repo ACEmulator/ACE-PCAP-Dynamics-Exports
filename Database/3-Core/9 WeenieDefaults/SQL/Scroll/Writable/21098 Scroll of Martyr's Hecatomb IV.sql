@@ -23,7 +23,7 @@ VALUES (21098,   1, 'Scroll of Martyr''s Hecatomb IV') /* Name */
 Drains one-quarter of the caster''s health into a bolt of energy.  When struck by the bolt, the target''s health is reduced by 125% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21098,   1,   33554826) /* Setup */
-     , (21098,   8,  100676938) /* Icon */
-     , (21098,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21098,   1, 0x0200018A) /* Setup */
+     , (21098,   8, 0x0600354A) /* Icon */
+     , (21098,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21098,  28,       2763) /* Spell - HealthBolt4 */;

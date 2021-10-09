@@ -19,9 +19,9 @@ VALUES (45374,   1, 'Glyph of Sneak Attack') /* Name */
      , (45374,  20, 'Glyphs of Sneak Attack') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45374,   1,   33554809) /* Setup */
-     , (45374,   3,  536870932) /* SoundTable */
-     , (45374,   6,   67111919) /* PaletteBase */
-     , (45374,   8,  100690191) /* Icon */
-     , (45374,  22,  872415275) /* PhysicsEffectTable */
-     , (45374,  50,  100692247) /* IconOverlay */;
+VALUES (45374,   1, 0x02000179) /* Setup */
+     , (45374,   3, 0x20000014) /* SoundTable */
+     , (45374,   6, 0x04000BEF) /* PaletteBase */
+     , (45374,   8, 0x0600690F) /* Icon */
+     , (45374,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45374,  50, 0x06007117) /* IconOverlay */;

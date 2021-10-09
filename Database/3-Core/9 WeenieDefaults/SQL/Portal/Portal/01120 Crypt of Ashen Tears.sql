@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1120,   1, 'Crypt of Ashen Tears') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1120,   1,   33555923) /* Setup */
-     , (1120,   2,  150994947) /* MotionTable */
-     , (1120,   8,  100667499) /* Icon */;
+VALUES (1120,   1, 0x020005D3) /* Setup */
+     , (1120,   2, 0x09000003) /* MotionTable */
+     , (1120,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1120, 8040, 2207318070, 164.7, 141.5, 123.937, 0.9335803, 0, 0, -0.3583682) /* PCAPRecordedLocation */
+VALUES (1120, 8040, 0x83910036, 164.7, 141.5, 123.937, 0.93358, 0, 0, -0.358368) /* PCAPRecordedLocation */
 /* @teleloc 0x83910036 [164.700000 141.500000 123.937000] 0.933580 0.000000 0.000000 -0.358368 */;

@@ -23,6 +23,6 @@ VALUES (3127,   1, 'Scroll of Rejuvenate Self VI') /* Name */
 Increases the rate at which the caster regains Stamina by 85%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3127,   1,   33554826) /* Setup */
-     , (3127,   8,  100676940) /* Icon */
+VALUES (3127,   1, 0x0200018A) /* Setup */
+     , (3127,   8, 0x0600354C) /* Icon */
      , (3127,  28,        193) /* Spell - RejuvenationSelf6 */;

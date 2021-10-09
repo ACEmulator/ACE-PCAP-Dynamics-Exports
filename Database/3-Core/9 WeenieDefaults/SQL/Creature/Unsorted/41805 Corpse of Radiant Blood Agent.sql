@@ -31,12 +31,12 @@ VALUES (41805,   1, 'Corpse of Radiant Blood Agent') /* Name */
      , (41805,  16, 'Killed by adventurers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41805,   1,   33554433) /* Setup */
-     , (41805,   2,  150995360) /* MotionTable */
-     , (41805,   3,  536870913) /* SoundTable */
-     , (41805,   8,  100667504) /* Icon */
-     , (41805,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41805,   1, 0x02000001) /* Setup */
+     , (41805,   2, 0x090001A0) /* MotionTable */
+     , (41805,   3, 0x20000001) /* SoundTable */
+     , (41805,   8, 0x06001070) /* Icon */
+     , (41805,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41805, 8040, 4180673332, 56.1949, 133.987, 56.405, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41805, 8040, 0xF9300334, 56.1949, 133.987, 56.405, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF9300334 [56.194900 133.987000 56.405000] 1.000000 0.000000 0.000000 0.000000 */;

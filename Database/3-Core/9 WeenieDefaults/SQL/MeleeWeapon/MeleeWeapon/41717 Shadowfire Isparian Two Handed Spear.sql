@@ -48,8 +48,8 @@ VALUES (41717,   1, 'Shadowfire Isparian Two Handed Spear') /* Name */
      , (41717,  16, 'A Perfect Isparian Two Handed Spear, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41717,   1,   33559823) /* Setup */
-     , (41717,   3,  536870932) /* SoundTable */
-     , (41717,   6,   67111919) /* PaletteBase */
-     , (41717,   8,  100690836) /* Icon */
-     , (41717,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41717,   1, 0x0200150F) /* Setup */
+     , (41717,   3, 0x20000014) /* SoundTable */
+     , (41717,   6, 0x04000BEF) /* PaletteBase */
+     , (41717,   8, 0x06006B94) /* Icon */
+     , (41717,  22, 0x3400002B) /* PhysicsEffectTable */;

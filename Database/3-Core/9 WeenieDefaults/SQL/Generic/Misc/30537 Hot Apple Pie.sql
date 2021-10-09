@@ -24,11 +24,11 @@ VALUES (30537,   1, 'Hot Apple Pie') /* Name */
      , (30537,  16, 'A fresh, steaming hot apple pie, baked by Mara al-Luq.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30537,   1,   33555978) /* Setup */
-     , (30537,   3,  536870932) /* SoundTable */
-     , (30537,   8,  100669942) /* Icon */
-     , (30537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30537,   1, 0x0200060A) /* Setup */
+     , (30537,   3, 0x20000014) /* SoundTable */
+     , (30537,   8, 0x060019F6) /* Icon */
+     , (30537,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30537, 8040, 22413616, 16.6432, -73.5953, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30537, 8040, 0x01560130, 16.6432, -73.5953, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01560130 [16.643200 -73.595300 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -45,7 +45,7 @@ VALUES (0x721BB003, 11511, 0x21BB0015, 60.89591, 114.4018, 100.1486, 1, 0, 0, 0,
 /* @teleloc 0x21BB0015 [60.895910 114.401800 100.148600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x721BB004,  6380, 0x21BB0006, 16.35551, 143.5877, 96.07521, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scintilla */
+VALUES (0x721BB004,  6380, 0x21BB0006, 16.35551, 143.5877, 96.07521, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scintilla */
 /* @teleloc 0x21BB0006 [16.355510 143.587700 96.075210] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

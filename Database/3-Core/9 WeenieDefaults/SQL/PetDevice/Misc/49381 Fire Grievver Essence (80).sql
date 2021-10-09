@@ -36,10 +36,10 @@ VALUES (49381,   1, 'Fire Grievver Essence (80)') /* Name */
      , (49381,  14, 'Use this essence to summon or dismiss your Fire Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49381,   1,   33554817) /* Setup */
-     , (49381,   3,  536870932) /* SoundTable */
-     , (49381,   6,   67111919) /* PaletteBase */
-     , (49381,   8,  100670960) /* Icon */
-     , (49381,  22,  872415275) /* PhysicsEffectTable */
-     , (49381,  50,  100693027) /* IconOverlay */
-     , (49381,  52,  100693024) /* IconUnderlay */;
+VALUES (49381,   1, 0x02000181) /* Setup */
+     , (49381,   3, 0x20000014) /* SoundTable */
+     , (49381,   6, 0x04000BEF) /* PaletteBase */
+     , (49381,   8, 0x06001DF0) /* Icon */
+     , (49381,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49381,  50, 0x06007423) /* IconOverlay */
+     , (49381,  52, 0x06007420) /* IconUnderlay */;

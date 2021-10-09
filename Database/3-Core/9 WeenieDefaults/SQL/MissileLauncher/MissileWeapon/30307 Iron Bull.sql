@@ -25,13 +25,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30307,   1, 'Iron Bull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30307,   1,   33559371) /* Setup */
-     , (30307,   3,  536870932) /* SoundTable */
-     , (30307,   6,   67111919) /* PaletteBase */
-     , (30307,   8,  100686725) /* Icon */
-     , (30307,  22,  872415275) /* PhysicsEffectTable */
-     , (30307,  52,  100686604) /* IconUnderlay */;
+VALUES (30307,   1, 0x0200134B) /* Setup */
+     , (30307,   3, 0x20000014) /* SoundTable */
+     , (30307,   6, 0x04000BEF) /* PaletteBase */
+     , (30307,   8, 0x06005B85) /* Icon */
+     , (30307,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30307,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30307, 8040, 3332964388, 46.779, 4.223, 41.931, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30307, 8040, 0xC6A90024, 46.779, 4.223, 41.931, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90024 [46.779000 4.223000 41.931000] 1.000000 0.000000 0.000000 0.000000 */;

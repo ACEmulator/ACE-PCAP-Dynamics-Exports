@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46545,   1, 'Nanjou Shou-jen Academy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46545,   1,   33555925) /* Setup */
-     , (46545,   2,  150994947) /* MotionTable */
-     , (46545,   8,  100667499) /* Icon */;
+VALUES (46545,   1, 0x020005D5) /* Setup */
+     , (46545,   2, 0x09000003) /* MotionTable */
+     , (46545,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46545, 8040, 1256259864, 131.972, 6.75137, 57.437, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (46545, 8040, 0x4AE10118, 131.972, 6.75137, 57.437, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x4AE10118 [131.972000 6.751370 57.437000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -24,7 +24,7 @@ VALUES (32500,   1, 'Farelaith''s Untranslated Journal') /* Name */
      , (32500,  16, 'The untranslated journal of the ancient slave, Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32500,   1,   33559593) /* Setup */
-     , (32500,   3,  536870932) /* SoundTable */
-     , (32500,   8,  100687890) /* Icon */
-     , (32500,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32500,   1, 0x02001429) /* Setup */
+     , (32500,   3, 0x20000014) /* SoundTable */
+     , (32500,   8, 0x06006012) /* Icon */
+     , (32500,  22, 0x3400002B) /* PhysicsEffectTable */;

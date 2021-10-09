@@ -48,21 +48,21 @@ VALUES (40819,   1, 'Acid Corsesca') /* Name */
      , (40819,  16, 'Acid Corsesca of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40819,   1,   33560791) /* Setup */
-     , (40819,   3,  536870932) /* SoundTable */
-     , (40819,   6,   67115560) /* PaletteBase */
-     , (40819,   8,  100690796) /* Icon */
-     , (40819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40819,   1, 0x020018D7) /* Setup */
+     , (40819,   3, 0x20000014) /* SoundTable */
+     , (40819,   6, 0x04001A28) /* PaletteBase */
+     , (40819,   8, 0x06006B6C) /* Icon */
+     , (40819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40819,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (40819,  50,  100693329) /* IconOverlay */
-     , (40819,  52,  100676440) /* IconUnderlay */;
+     , (40819,  50, 0x06007551) /* IconOverlay */
+     , (40819,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40819, 8040, 3332964380, 83.59009, 84.7763, 41.929, -0.2714225, -0.2714225, -0.6529394, -0.6529394) /* PCAPRecordedLocation */
+VALUES (40819, 8040, 0xC6A9001C, 83.59009, 84.7763, 41.929, -0.271423, -0.271423, -0.652939, -0.652939) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [83.590090 84.776300 41.929000] -0.271423 -0.271423 -0.652939 -0.652939 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40819,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (40819,  1626,      2)  /* SwiftKillerSelf5 */
      , (40819,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (40819,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (40819,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (40819,  1626,      2)  /* SwiftKillerSelf5 */;

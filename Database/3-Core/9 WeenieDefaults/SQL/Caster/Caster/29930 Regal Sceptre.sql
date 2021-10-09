@@ -38,14 +38,14 @@ VALUES (29930,   1, 'Regal Sceptre') /* Name */
      , (29930,  25, 'Ninavie') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29930,   1,   33559055) /* Setup */
-     , (29930,   3,  536870932) /* SoundTable */
-     , (29930,   8,  100676981) /* Icon */
-     , (29930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29930,   1, 0x0200120F) /* Setup */
+     , (29930,   3, 0x20000014) /* SoundTable */
+     , (29930,   8, 0x06003575) /* Icon */
+     , (29930,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29930,   248,      2)  /* InvulnerabilitySelf5 */
-     , (29930,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (29930,   640,      2)  /* WarMagicMasteryOther6 */
+VALUES (29930,   640,      2)  /* WarMagicMasteryOther6 */
+     , (29930,  2117,      2)  /* HermeticLinkSelf7 */
      , (29930,  1354,      2)  /* EnduranceSelf6 */
-     , (29930,  2117,      2)  /* HermeticLinkSelf7 */;
+     , (29930,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (29930,   248,      2)  /* InvulnerabilitySelf5 */;

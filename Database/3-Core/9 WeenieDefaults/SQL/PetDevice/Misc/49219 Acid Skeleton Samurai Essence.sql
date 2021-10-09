@@ -40,10 +40,10 @@ VALUES (49219,   1, 'Acid Skeleton Samurai Essence') /* Name */
      , (49219,  14, 'Use this essence to summon or dismiss your Acid Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49219,   1,   33554817) /* Setup */
-     , (49219,   3,  536870932) /* SoundTable */
-     , (49219,   6,   67111919) /* PaletteBase */
-     , (49219,   8,  100669124) /* Icon */
-     , (49219,  22,  872415275) /* PhysicsEffectTable */
-     , (49219,  50,  100693032) /* IconOverlay */
-     , (49219,  52,  100693024) /* IconUnderlay */;
+VALUES (49219,   1, 0x02000181) /* Setup */
+     , (49219,   3, 0x20000014) /* SoundTable */
+     , (49219,   6, 0x04000BEF) /* PaletteBase */
+     , (49219,   8, 0x060016C4) /* Icon */
+     , (49219,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49219,  50, 0x06007428) /* IconOverlay */
+     , (49219,  52, 0x06007420) /* IconUnderlay */;

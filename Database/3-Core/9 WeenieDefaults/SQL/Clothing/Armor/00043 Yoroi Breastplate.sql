@@ -44,11 +44,11 @@ VALUES (43,   1, 'Yoroi Breastplate') /* Name */
      , (43,  16, 'Yoroi Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43,   1,   33554642) /* Setup */
-     , (43,   3,  536870932) /* SoundTable */
-     , (43,   6,   67108990) /* PaletteBase */
-     , (43,   8,  100669579) /* Icon */
-     , (43,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43,   1, 0x020000D2) /* Setup */
+     , (43,   3, 0x20000014) /* SoundTable */
+     , (43,   6, 0x0400007E) /* PaletteBase */
+     , (43,   8, 0x0600188B) /* Icon */
+     , (43,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43,  1485,      2)  /* Impenetrability5 */

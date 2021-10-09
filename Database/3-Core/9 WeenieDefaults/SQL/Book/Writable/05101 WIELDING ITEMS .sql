@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5101,   1, 'WIELDING ITEMS ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5101,   1,   33556014) /* Setup */
-     , (5101,   8,  100668115) /* Icon */;
+VALUES (5101,   1, 0x0200062E) /* Setup */
+     , (5101,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5101, 8040, 2248344120, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (5101, 8040, 0x86030238, 60.172, -14.16, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x86030238 [60.172000 -14.160000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

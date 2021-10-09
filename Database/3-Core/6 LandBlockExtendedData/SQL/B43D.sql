@@ -1,12 +1,12 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB43D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B43D001,  1154, 0xB43D0038, 163.5555, 169.7282, 57.49561, -0.9882813, 0, 0, -0.1526439, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B43D001,  1154, 0xB43D0038, 163.5555, 169.7282, 57.49561, -0.988281, 0, 0, -0.152644, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB43D0038 [163.555500 169.728200 57.495610] -0.988281 0.000000 0.000000 -0.152644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7B43D001, 0x7B43D002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B43D002, 11528, 0xB43D0038, 163.5555, 169.7282, 57.49561, -0.9882813, 0, 0, -0.1526439,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
+VALUES (0x7B43D002, 11528, 0xB43D0038, 163.5555, 169.7282, 57.49561, -0.988281, 0, 0, -0.152644,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
 /* @teleloc 0xB43D0038 [163.555500 169.728200 57.495610] -0.988281 0.000000 0.000000 -0.152644 */

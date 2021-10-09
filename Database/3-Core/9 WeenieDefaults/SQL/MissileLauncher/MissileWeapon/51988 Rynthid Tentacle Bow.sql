@@ -52,19 +52,19 @@ VALUES (51988,   1, 'Rynthid Tentacle Bow') /* Name */
      , (51988,  16, 'A bow crafted from enchanted obsidian and Rynthid tentacles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51988,   1,   33561601) /* Setup */
-     , (51988,   3,  536870932) /* SoundTable */
-     , (51988,   6,   67111919) /* PaletteBase */
-     , (51988,   8,  100693229) /* Icon */
-     , (51988,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51988,   1, 0x02001C01) /* Setup */
+     , (51988,   3, 0x20000014) /* SoundTable */
+     , (51988,   6, 0x04000BEF) /* PaletteBase */
+     , (51988,   8, 0x060074ED) /* Icon */
+     , (51988,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51988, 8040, 23855445, 8.248782, -62.91285, -0.0685, 0.920222, 0, 0, -0.3913967) /* PCAPRecordedLocation */
+VALUES (51988, 8040, 0x016C0155, 8.248782, -62.91285, -0.0685, 0.920222, 0, 0, -0.391397) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0155 [8.248782 -62.912850 -0.068500] 0.920222 0.000000 0.000000 -0.391397 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51988,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (51988,  4019,      2)  /* CANTRIPQUICKNESS3 */
+VALUES (51988,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
      , (51988,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51988,  4400,      2)  /* DefenderSelf8 */
-     , (51988,  6044,      2)  /* CantripMissileWeaponsAptitude4 */;
+     , (51988,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (51988,  3963,      2)  /* CANTRIPCOORDINATION3 */;

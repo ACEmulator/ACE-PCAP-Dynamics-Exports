@@ -48,14 +48,14 @@ VALUES (24558,   1, 'Renegade Bow') /* Name */
      , (24558,  16, 'A bow from a defeated Tumerok Renegade Commander') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24558,   1,   33558376) /* Setup */
-     , (24558,   3,  536870932) /* SoundTable */
-     , (24558,   8,  100674387) /* Icon */
-     , (24558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24558,   1, 0x02000F68) /* Setup */
+     , (24558,   3, 0x20000014) /* SoundTable */
+     , (24558,   8, 0x06002B53) /* Icon */
+     , (24558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24558,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24558, 8040, 23855555, 64.06312, -42.4776, 0.4424986, -0.9414667, 0, 0, -0.337106) /* PCAPRecordedLocation */
+VALUES (24558, 8040, 0x016C01C3, 64.06312, -42.4776, 0.442499, -0.941467, 0, 0, -0.337106) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [64.063120 -42.477600 0.442499] -0.941467 0.000000 0.000000 -0.337106 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

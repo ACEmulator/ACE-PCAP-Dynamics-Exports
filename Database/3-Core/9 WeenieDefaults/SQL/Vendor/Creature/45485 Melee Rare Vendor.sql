@@ -32,15 +32,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45485,   1, 'Melee Rare Vendor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45485,   1,   33560279) /* Setup */
-     , (45485,   2,  150995334) /* MotionTable */
-     , (45485,   3,  536870933) /* SoundTable */
-     , (45485,   8,  100674350) /* Icon */
-     , (45485,  22,  872415269) /* PhysicsEffectTable */
+VALUES (45485,   1, 0x020016D7) /* Setup */
+     , (45485,   2, 0x09000186) /* MotionTable */
+     , (45485,   3, 0x20000015) /* SoundTable */
+     , (45485,   8, 0x06002B2E) /* Icon */
+     , (45485,  22, 0x34000025) /* PhysicsEffectTable */
      , (45485,  57,      45493) /* AlternateCurrency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45485, 8040, 3332964727, 116.489, 91.5306, 46.8065, -0.2804481, 0, 0, -0.9598692) /* PCAPRecordedLocation */
+VALUES (45485, 8040, 0xC6A90177, 116.489, 91.5306, 46.8065, -0.280448, 0, 0, -0.959869) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90177 [116.489000 91.530600 46.806500] -0.280448 0.000000 0.000000 -0.959869 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

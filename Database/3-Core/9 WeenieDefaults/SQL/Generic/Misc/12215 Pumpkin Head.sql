@@ -19,7 +19,7 @@ VALUES (12215,   1, 'Pumpkin Head') /* Name */
      , (12215,  16, 'An odd looking, faintly sour pumpkin head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12215,   1,   33557361) /* Setup */
-     , (12215,   3,  536870932) /* SoundTable */
-     , (12215,   8,  100672168) /* Icon */
-     , (12215,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12215,   1, 0x02000B71) /* Setup */
+     , (12215,   3, 0x20000014) /* SoundTable */
+     , (12215,   8, 0x060022A8) /* Icon */
+     , (12215,  22, 0x3400002B) /* PhysicsEffectTable */;

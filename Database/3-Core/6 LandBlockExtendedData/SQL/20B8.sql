@@ -288,7 +288,7 @@ VALUES (0x720B8022, 11493, 0x20B80001, 22.38978, 7.293259, 90, 1, 0, 0, 0,  True
 /* @teleloc 0x20B80001 [22.389780 7.293259 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720B8023, 11505, 0x20B80009, 38.78419, 0.6806946, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Poacher */
+VALUES (0x720B8023, 11505, 0x20B80009, 38.78419, 0.680695, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Poacher */
 /* @teleloc 0x20B80009 [38.784190 0.680695 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -560,7 +560,7 @@ VALUES (0x720B8066, 11486, 0x20B80011, 54.87434, 15.63187, 89.98801, 1, 0, 0, 0,
 /* @teleloc 0x20B80011 [54.874340 15.631870 89.988010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720B8067, 11526, 0x20B80001, 0.9923553, 1.623856, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+VALUES (0x720B8067, 11526, 0x20B80001, 0.992355, 1.623856, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
 /* @teleloc 0x20B80001 [0.992355 1.623856 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -809,7 +809,7 @@ VALUES (0x720B8099, 11219, 0x20B80011, 49.4302, 17.32992, 89.937, 1, 0, 0, 0,  T
 /* @teleloc 0x20B80011 [49.430200 17.329920 89.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720B809A, 11556, 0x20B80009, 41.18788, 0.9969025, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */
+VALUES (0x720B809A, 11556, 0x20B80009, 41.18788, 0.996903, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */
 /* @teleloc 0x20B80009 [41.187880 0.996903 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

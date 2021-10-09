@@ -19,7 +19,7 @@ VALUES (37360,   1, 'Ink of Conveyance') /* Name */
      , (37360,  20, 'Inks of Conveyance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37360,   1,   33554602) /* Setup */
-     , (37360,   3,  536870932) /* SoundTable */
-     , (37360,   8,  100690186) /* Icon */
-     , (37360,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37360,   1, 0x020000AA) /* Setup */
+     , (37360,   3, 0x20000014) /* SoundTable */
+     , (37360,   8, 0x0600690A) /* Icon */
+     , (37360,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (43817,   1, 'Shadownether Stone') /* Name */
      , (43817,  16, 'A fragile black crystal enshrouded in nether. It looks like it can be fitted into a Perfect Isparian Wand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43817,   1,   33559809) /* Setup */
-     , (43817,   3,  536870932) /* SoundTable */
-     , (43817,   8,  100691696) /* Icon */
-     , (43817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43817,   1, 0x02001501) /* Setup */
+     , (43817,   3, 0x20000014) /* SoundTable */
+     , (43817,   8, 0x06006EF0) /* Icon */
+     , (43817,  22, 0x3400002B) /* PhysicsEffectTable */;

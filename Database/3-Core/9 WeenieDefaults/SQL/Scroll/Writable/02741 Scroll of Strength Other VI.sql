@@ -23,7 +23,7 @@ VALUES (2741,   1, 'Scroll of Strength Other VI') /* Name */
 Increases the target''s Strength by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2741,   1,   33554826) /* Setup */
-     , (2741,   8,  100676474) /* Icon */
-     , (2741,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2741,   1, 0x0200018A) /* Setup */
+     , (2741,   8, 0x0600337A) /* Icon */
+     , (2741,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2741,  28,       1337) /* Spell - StrengthOther6 */;

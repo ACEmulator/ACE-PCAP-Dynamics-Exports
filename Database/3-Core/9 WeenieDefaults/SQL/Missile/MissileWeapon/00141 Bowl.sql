@@ -44,8 +44,8 @@ VALUES (141,   1, 'Bowl') /* Name */
      , (141,  16, 'Bowl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (141,   1,   33554929) /* Setup */
-     , (141,   3,  536871012) /* SoundTable */
-     , (141,   6,   67111092) /* PaletteBase */
-     , (141,   8,  100668612) /* Icon */
-     , (141,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (141,   1, 0x020001F1) /* Setup */
+     , (141,   3, 0x20000064) /* SoundTable */
+     , (141,   6, 0x040008B4) /* PaletteBase */
+     , (141,   8, 0x060014C4) /* Icon */
+     , (141,  22, 0x3400002B) /* PhysicsEffectTable */;

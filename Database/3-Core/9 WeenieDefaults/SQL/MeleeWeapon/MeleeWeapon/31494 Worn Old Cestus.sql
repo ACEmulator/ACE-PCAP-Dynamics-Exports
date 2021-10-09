@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31494,   1, 'Worn Old Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31494,   1,   33559575) /* Setup */
-     , (31494,   3,  536870932) /* SoundTable */
-     , (31494,   8,  100687876) /* Icon */
-     , (31494,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31494,   1, 0x02001417) /* Setup */
+     , (31494,   3, 0x20000014) /* SoundTable */
+     , (31494,   8, 0x06006004) /* Icon */
+     , (31494,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31494,  2096,      2)  /* BloodDrinkerSelf7 */

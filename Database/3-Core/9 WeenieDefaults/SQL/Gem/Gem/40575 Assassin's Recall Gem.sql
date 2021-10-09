@@ -33,9 +33,9 @@ VALUES (40575,   1, 'Assassin''s Recall Gem') /* Name */
      , (40575,  16, 'A gem that will return you directly to the Assassin''s Roost for your next meeting.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40575,   1,   33554809) /* Setup */
-     , (40575,   3,  536870932) /* SoundTable */
-     , (40575,   6,   67111919) /* PaletteBase */
-     , (40575,   8,  100668365) /* Icon */
-     , (40575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40575,   1, 0x02000179) /* Setup */
+     , (40575,   3, 0x20000014) /* SoundTable */
+     , (40575,   6, 0x04000BEF) /* PaletteBase */
+     , (40575,   8, 0x060013CD) /* Icon */
+     , (40575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40575,  28,       4992) /* Spell - PortalSendingAssassinsRoost4 */;

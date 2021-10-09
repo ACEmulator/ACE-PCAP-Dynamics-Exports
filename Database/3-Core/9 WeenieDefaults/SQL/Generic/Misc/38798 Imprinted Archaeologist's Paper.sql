@@ -24,7 +24,7 @@ VALUES (38798,   1, 'Imprinted Archaeologist''s Paper') /* Name */
      , (38798,  16, 'This sheet of paper has been imprinted with the relief of an ancient stone carving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38798,   1,   33554826) /* Setup */
-     , (38798,   3,  536870932) /* SoundTable */
-     , (38798,   8,  100690209) /* Icon */
-     , (38798,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38798,   1, 0x0200018A) /* Setup */
+     , (38798,   3, 0x20000014) /* SoundTable */
+     , (38798,   8, 0x06006921) /* Icon */
+     , (38798,  22, 0x3400002B) /* PhysicsEffectTable */;

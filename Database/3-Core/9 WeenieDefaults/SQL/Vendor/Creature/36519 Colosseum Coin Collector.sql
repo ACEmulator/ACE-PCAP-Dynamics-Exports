@@ -33,14 +33,14 @@ VALUES (36519,   1, 'Colosseum Coin Collector') /* Name */
      , (36519,   5, 'Colosseum Vendor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36519,   1,   33558367) /* Setup */
-     , (36519,   2,  150994945) /* MotionTable */
-     , (36519,   3,  536870933) /* SoundTable */
-     , (36519,   8,  100674350) /* Icon */
+VALUES (36519,   1, 0x02000F5F) /* Setup */
+     , (36519,   2, 0x09000001) /* MotionTable */
+     , (36519,   3, 0x20000015) /* SoundTable */
+     , (36519,   8, 0x06002B2E) /* Icon */
      , (36519,  57,      36518) /* AlternateCurrency - Colosseum Coin */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36519, 8040, 11469113, 53, -10, 0.006500006, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (36519, 8040, 0x00AF0139, 53, -10, 0.0065, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0139 [53.000000 -10.000000 0.006500] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

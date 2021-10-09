@@ -15,10 +15,10 @@ VALUES (34280,   1, 'Explorer''s Journal') /* Name */
      , (34280,  16, 'A small red notebook carried by Explorer Society members.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34280,   1,   33554771) /* Setup */
-     , (34280,   3,  536870932) /* SoundTable */
-     , (34280,   8,  100689271) /* Icon */
-     , (34280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34280,   1, 0x02000153) /* Setup */
+     , (34280,   3, 0x20000014) /* SoundTable */
+     , (34280,   8, 0x06006577) /* Icon */
+     , (34280,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (34280, 5, 1000);

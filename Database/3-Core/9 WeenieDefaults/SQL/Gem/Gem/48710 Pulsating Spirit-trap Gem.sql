@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48710,   1, 'Pulsating Spirit-trap Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48710,   1,   33556932) /* Setup */
-     , (48710,   3,  536870932) /* SoundTable */
-     , (48710,   6,   67111919) /* PaletteBase */
-     , (48710,   8,  100671244) /* Icon */
-     , (48710,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48710,   1, 0x020009C4) /* Setup */
+     , (48710,   3, 0x20000014) /* SoundTable */
+     , (48710,   6, 0x04000BEF) /* PaletteBase */
+     , (48710,   8, 0x06001F0C) /* Icon */
+     , (48710,  22, 0x3400002B) /* PhysicsEffectTable */;

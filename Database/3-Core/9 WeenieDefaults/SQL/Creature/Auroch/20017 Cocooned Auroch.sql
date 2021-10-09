@@ -27,13 +27,13 @@ VALUES (20017,   1, 'Cocooned Auroch') /* Name */
      , (20017,   5, 'Dying') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20017,   1,   33557712) /* Setup */
-     , (20017,   2,  150995194) /* MotionTable */
-     , (20017,   3,  536871058) /* SoundTable */
-     , (20017,   8,  100667936) /* Icon */;
+VALUES (20017,   1, 0x02000CD0) /* Setup */
+     , (20017,   2, 0x090000FA) /* MotionTable */
+     , (20017,   3, 0x20000092) /* SoundTable */
+     , (20017,   8, 0x06001220) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20017, 8040, 13700698, 152.624, -153.415, -5.9915, -0.966925, 0, 0, -0.255061) /* PCAPRecordedLocation */
+VALUES (20017, 8040, 0x00D10E5A, 152.624, -153.415, -5.9915, -0.966925, 0, 0, -0.255061) /* PCAPRecordedLocation */
 /* @teleloc 0x00D10E5A [152.624000 -153.415000 -5.991500] -0.966925 0.000000 0.000000 -0.255061 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

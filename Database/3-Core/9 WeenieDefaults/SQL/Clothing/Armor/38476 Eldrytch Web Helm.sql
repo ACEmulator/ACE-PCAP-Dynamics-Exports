@@ -49,14 +49,14 @@ VALUES (38476,   1, 'Eldrytch Web Helm') /* Name */
      , (38476,  16, 'Eldrytch Web Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38476,   1,   33560112) /* Setup */
-     , (38476,   3,  536870932) /* SoundTable */
-     , (38476,   8,  100690248) /* Icon */
-     , (38476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38476,   1, 0x02001630) /* Setup */
+     , (38476,   3, 0x20000014) /* SoundTable */
+     , (38476,   8, 0x06006948) /* Icon */
+     , (38476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38476,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38476,  2094,      2)  /* BladeBane7 */
+VALUES (38476,  6084,      2)  /* CantripPiercingWard4 */
+     , (38476,  2094,      2)  /* BladeBane7 */
      , (38476,  2102,      2)  /* FlameBane7 */
-     , (38476,  2108,      2)  /* Impenetrability7 */
-     , (38476,  6084,      2)  /* CantripPiercingWard4 */;
+     , (38476,  2108,      2)  /* Impenetrability7 */;

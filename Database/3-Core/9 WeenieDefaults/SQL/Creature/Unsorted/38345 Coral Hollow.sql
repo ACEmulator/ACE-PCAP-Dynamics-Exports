@@ -28,12 +28,12 @@ VALUES (38345,   1, 'Coral Hollow') /* Name */
      , (38345,  16, 'This hollow is inscribed with coral numbers that read 78.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38345,   1,   33560646) /* Setup */
-     , (38345,   2,  150995429) /* MotionTable */
-     , (38345,   3,  536870932) /* SoundTable */
-     , (38345,   8,  100689606) /* Icon */
-     , (38345,  22,  872415426) /* PhysicsEffectTable */;
+VALUES (38345,   1, 0x02001846) /* Setup */
+     , (38345,   2, 0x090001E5) /* MotionTable */
+     , (38345,   3, 0x20000014) /* SoundTable */
+     , (38345,   8, 0x060066C6) /* Icon */
+     , (38345,  22, 0x340000C2) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38345, 8040, 957415461, 110, 109.5, 10.35, 0.700909, 0, 0, -0.71325) /* PCAPRecordedLocation */
+VALUES (38345, 8040, 0x39110025, 110, 109.5, 10.35, 0.700909, 0, 0, -0.71325) /* PCAPRecordedLocation */
 /* @teleloc 0x39110025 [110.000000 109.500000 10.350000] 0.700909 0.000000 0.000000 -0.713250 */;

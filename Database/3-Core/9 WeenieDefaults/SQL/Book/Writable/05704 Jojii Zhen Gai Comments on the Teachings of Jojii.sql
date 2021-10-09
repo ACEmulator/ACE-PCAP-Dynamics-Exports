@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5704,   1, 'Jojii Zhen Gai Comments on the Teachings of Jojii') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5704,   1,   33556013) /* Setup */
-     , (5704,   3,  536870932) /* SoundTable */
-     , (5704,   8,  100668236) /* Icon */
-     , (5704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5704,   1, 0x0200062D) /* Setup */
+     , (5704,   3, 0x20000014) /* SoundTable */
+     , (5704,   8, 0x0600134C) /* Icon */
+     , (5704,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5704, 8040, 3847094532, 87.2393, 90.0222, 20.4, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (5704, 8040, 0xE54E0104, 87.2393, 90.0222, 20.4, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E0104 [87.239300 90.022200 20.400000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

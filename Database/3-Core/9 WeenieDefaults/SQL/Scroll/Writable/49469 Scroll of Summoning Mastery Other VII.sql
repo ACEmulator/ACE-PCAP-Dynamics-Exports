@@ -23,7 +23,7 @@ VALUES (49469,   1, 'Scroll of Summoning Mastery Other VII') /* Name */
 Increases the target''s Summoning skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49469,   1,   33554826) /* Setup */
-     , (49469,   8,  100693008) /* Icon */
-     , (49469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49469,   1, 0x0200018A) /* Setup */
+     , (49469,   8, 0x06007410) /* Icon */
+     , (49469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49469,  28,       6114) /* Spell - SummoningMasteryOther7 */;

@@ -34,20 +34,20 @@ VALUES (14411,   1, 'Ostentatious Farmer') /* Name */
      , (14411,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14411,   1,   33554433) /* Setup */
-     , (14411,   2,  150994945) /* MotionTable */
-     , (14411,   3,  536870913) /* SoundTable */
-     , (14411,   6,   67108990) /* PaletteBase */
-     , (14411,   8,  100667446) /* Icon */
-     , (14411,   9,   83890439) /* EyesTexture */
-     , (14411,  10,   83890517) /* NoseTexture */
-     , (14411,  11,   83890594) /* MouthTexture */
-     , (14411,  15,   67117068) /* HairPalette */
-     , (14411,  16,   67110062) /* EyesPalette */
-     , (14411,  17,   67110054) /* SkinPalette */;
+VALUES (14411,   1, 0x02000001) /* Setup */
+     , (14411,   2, 0x09000001) /* MotionTable */
+     , (14411,   3, 0x20000001) /* SoundTable */
+     , (14411,   6, 0x0400007E) /* PaletteBase */
+     , (14411,   8, 0x06001036) /* Icon */
+     , (14411,   9, 0x05001107) /* EyesTexture */
+     , (14411,  10, 0x05001155) /* NoseTexture */
+     , (14411,  11, 0x050011A2) /* MouthTexture */
+     , (14411,  15, 0x0400200C) /* HairPalette */
+     , (14411,  16, 0x040004AE) /* EyesPalette */
+     , (14411,  17, 0x040004A6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14411, 8040, 3713007872, 151.275, 128.013, 22.005, 0.8115718, 0, 0, -0.5842527) /* PCAPRecordedLocation */
+VALUES (14411, 8040, 0xDD500100, 151.275, 128.013, 22.005, 0.811572, 0, 0, -0.584253) /* PCAPRecordedLocation */
 /* @teleloc 0xDD500100 [151.275000 128.013000 22.005000] 0.811572 0.000000 0.000000 -0.584253 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

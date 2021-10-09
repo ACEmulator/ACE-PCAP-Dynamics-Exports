@@ -23,7 +23,7 @@ VALUES (9658,   1, 'Scroll of Stamina to Mana Self V') /* Name */
 Drains one-half of the caster''s Stamina and gives 135% of that to his/her Mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9658,   1,   33554826) /* Setup */
-     , (9658,   8,  100676944) /* Icon */
-     , (9658,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9658,   1, 0x0200018A) /* Setup */
+     , (9658,   8, 0x06003550) /* Icon */
+     , (9658,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9658,  28,       1680) /* Spell - StaminaToManaSelf5 */;

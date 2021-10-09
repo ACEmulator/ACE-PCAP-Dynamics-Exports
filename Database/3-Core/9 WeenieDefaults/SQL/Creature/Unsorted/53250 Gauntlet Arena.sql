@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53250,   1, 'Gauntlet Arena') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53250,   1,   33561059) /* Setup */
-     , (53250,   2,  150995429) /* MotionTable */
-     , (53250,   3,  536870932) /* SoundTable */
-     , (53250,   8,  100667499) /* Icon */;
+VALUES (53250,   1, 0x020019E3) /* Setup */
+     , (53250,   2, 0x090001E5) /* MotionTable */
+     , (53250,   3, 0x20000014) /* SoundTable */
+     , (53250,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53250, 8040, 1500184832, 100, 0, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53250, 8040, 0x596B0100, 100, 0, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0100 [100.000000 0.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

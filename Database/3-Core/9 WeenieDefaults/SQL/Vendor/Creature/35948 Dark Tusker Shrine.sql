@@ -54,15 +54,15 @@ VALUES (35948,   1, 'Dark Tusker Shrine') /* Name */
      , (35948,  16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35948,   1,   33560344) /* Setup */
-     , (35948,   2,  150995147) /* MotionTable */
-     , (35948,   3,  536871052) /* SoundTable */
-     , (35948,   8,  100673831) /* Icon */
-     , (35948,  22,  872415274) /* PhysicsEffectTable */
+VALUES (35948,   1, 0x02001718) /* Setup */
+     , (35948,   2, 0x090000CB) /* MotionTable */
+     , (35948,   3, 0x2000008C) /* SoundTable */
+     , (35948,   8, 0x06002927) /* Icon */
+     , (35948,  22, 0x3400002A) /* PhysicsEffectTable */
      , (35948,  57,      35942) /* AlternateCurrency - Dark Tusker Paw */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35948, 8040, 3932946777, 191.644, 151.001, -11.208, 0.5503899, 0, 0, -0.8349078) /* PCAPRecordedLocation */
+VALUES (35948, 8040, 0xEA6C0159, 191.644, 151.001, -11.208, 0.55039, 0, 0, -0.834908) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0159 [191.644000 151.001000 -11.208000] 0.550390 0.000000 0.000000 -0.834908 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41547,   1, 'Mana Siphon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41547,   1,   33559131) /* Setup */
-     , (41547,   2,  150995335) /* MotionTable */
-     , (41547,   3,  536870913) /* SoundTable */
-     , (41547,   8,  100686348) /* Icon */
-     , (41547,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (41547,   1, 0x0200125B) /* Setup */
+     , (41547,   2, 0x09000187) /* MotionTable */
+     , (41547,   3, 0x20000001) /* SoundTable */
+     , (41547,   8, 0x06005A0C) /* Icon */
+     , (41547,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41547, 8040, 561119270, 107.892, 131.933, 170.0305, -0.999975, 0, 0, -0.00703318) /* PCAPRecordedLocation */
+VALUES (41547, 8040, 0x21720026, 107.892, 131.933, 170.0305, -0.999975, 0, 0, -0.007033) /* PCAPRecordedLocation */
 /* @teleloc 0x21720026 [107.892000 131.933000 170.030500] -0.999975 0.000000 0.000000 -0.007033 */;

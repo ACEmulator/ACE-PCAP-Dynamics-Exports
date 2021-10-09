@@ -18,9 +18,9 @@ VALUES (12603,   1, 'Filos'' Font Cottages') /* Name */
      , (12603,  16, 'Welcome to Filos'' Font Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12603,   1,   33557463) /* Setup */
-     , (12603,   8,  100668115) /* Icon */;
+VALUES (12603,   1, 0x02000BD7) /* Setup */
+     , (12603,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12603, 8040, 3465543715, 115.162, 50.2065, 27.63225, 0.939824, 0, 0, 0.341658) /* PCAPRecordedLocation */
+VALUES (12603, 8040, 0xCE900023, 115.162, 50.2065, 27.63225, 0.939824, 0, 0, 0.341658) /* PCAPRecordedLocation */
 /* @teleloc 0xCE900023 [115.162000 50.206500 27.632250] 0.939824 0.000000 0.000000 0.341658 */;

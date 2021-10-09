@@ -38,14 +38,14 @@ VALUES (49251,   1, 'Fire Zombie Essence (150)') /* Name */
      , (49251,  14, 'Use this essence to summon or dismiss your Fire Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49251,   1,   33554817) /* Setup */
-     , (49251,   3,  536870932) /* SoundTable */
-     , (49251,   6,   67111919) /* PaletteBase */
-     , (49251,   8,  100667942) /* Icon */
-     , (49251,  22,  872415275) /* PhysicsEffectTable */
-     , (49251,  50,  100693030) /* IconOverlay */
-     , (49251,  52,  100693024) /* IconUnderlay */;
+VALUES (49251,   1, 0x02000181) /* Setup */
+     , (49251,   3, 0x20000014) /* SoundTable */
+     , (49251,   6, 0x04000BEF) /* PaletteBase */
+     , (49251,   8, 0x06001226) /* Icon */
+     , (49251,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49251,  50, 0x06007426) /* IconOverlay */
+     , (49251,  52, 0x06007420) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49251, 8040, 722534674, 39.99276, 162.0639, 47.999, -0.9787485, 0, 0, -0.2050642) /* PCAPRecordedLocation */
+VALUES (49251, 8040, 0x2B110112, 39.99276, 162.0639, 47.999, -0.978749, 0, 0, -0.205064) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110112 [39.992760 162.063900 47.999000] -0.978749 0.000000 0.000000 -0.205064 */;

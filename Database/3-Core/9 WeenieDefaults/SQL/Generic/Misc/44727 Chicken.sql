@@ -19,5 +19,5 @@ VALUES (44727,   1, 'Chicken') /* Name */
      , (44727,  16, 'A simple creature which can be a good source of food.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44727,   1,   33561327) /* Setup */
-     , (44727,   8,  100668115) /* Icon */;
+VALUES (44727,   1, 0x02001AEF) /* Setup */
+     , (44727,   8, 0x060012D3) /* Icon */;

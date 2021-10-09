@@ -23,7 +23,7 @@ VALUES (2893,   1, 'Scroll of Turn Blade II') /* Name */
 Decreases a weapon''s Attack Skill modifier by 5.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2893,   1,   33554826) /* Setup */
-     , (2893,   8,  100676677) /* Icon */
-     , (2893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2893,   1, 0x0200018A) /* Setup */
+     , (2893,   8, 0x06003445) /* Icon */
+     , (2893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2893,  28,       1594) /* Spell - TurnBlade2 */;

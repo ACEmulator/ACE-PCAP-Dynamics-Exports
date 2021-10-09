@@ -28,8 +28,8 @@ VALUES (34042,   1, 'Black Skull of Xikma') /* Name */
      , (34042,  16, 'A black skull with sockets so dark they seem to be emptier than a mere lack of light can explain. The Skull is empowered to enchant a single weapon against the Undead.  This effect is permanent, but fragile, and therefore cannot be applied to any weapon previously empowered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34042,   1,   33556926) /* Setup */
-     , (34042,   3,  536870932) /* SoundTable */
-     , (34042,   6,   67111919) /* PaletteBase */
-     , (34042,   8,  100689142) /* Icon */
-     , (34042,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34042,   1, 0x020009BE) /* Setup */
+     , (34042,   3, 0x20000014) /* SoundTable */
+     , (34042,   6, 0x04000BEF) /* PaletteBase */
+     , (34042,   8, 0x060064F6) /* Icon */
+     , (34042,  22, 0x3400002B) /* PhysicsEffectTable */;

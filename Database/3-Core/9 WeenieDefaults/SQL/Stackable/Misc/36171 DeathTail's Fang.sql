@@ -25,7 +25,7 @@ VALUES (36171,   1, 'DeathTail''s Fang') /* Name */
      , (36171,  15, 'This translucent fang from the spectral rat Death Tail feels cold to the touch.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36171,   1,   33554817) /* Setup */
-     , (36171,   3,  536870932) /* SoundTable */
-     , (36171,   8,  100671416) /* Icon */
-     , (36171,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36171,   1, 0x02000181) /* Setup */
+     , (36171,   3, 0x20000014) /* SoundTable */
+     , (36171,   8, 0x06001FB8) /* Icon */
+     , (36171,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (33189,   1, 'Diviner Pheraion''s Key') /* Name */
      , (33189,  16, 'A key taken from Diviner Pheraion of the Raven Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33189,   1,   33554784) /* Setup */
-     , (33189,   3,  536870932) /* SoundTable */
-     , (33189,   8,  100668441) /* Icon */
-     , (33189,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33189,   1, 0x02000160) /* Setup */
+     , (33189,   3, 0x20000014) /* SoundTable */
+     , (33189,   8, 0x06001419) /* Icon */
+     , (33189,  22, 0x3400002B) /* PhysicsEffectTable */;

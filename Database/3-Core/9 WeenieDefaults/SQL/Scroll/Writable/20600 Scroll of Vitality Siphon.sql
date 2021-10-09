@@ -23,7 +23,7 @@ VALUES (20600,   1, 'Scroll of Vitality Siphon') /* Name */
 Drains 50% of the target''s Health and gives 50% of it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20600,   1,   33554826) /* Setup */
-     , (20600,   8,  100676934) /* Icon */
-     , (20600,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20600,   1, 0x0200018A) /* Setup */
+     , (20600,   8, 0x06003546) /* Icon */
+     , (20600,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20600,  28,       2328) /* Spell - DrainHealth7 */;

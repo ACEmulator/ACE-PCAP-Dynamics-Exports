@@ -46,10 +46,10 @@ VALUES (24559,   1, 'Renegade Crossbow') /* Name */
      , (24559,  16, 'Picked up from a defeated Renegade Tumerok Commander') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24559,   1,   33558377) /* Setup */
-     , (24559,   3,  536870932) /* SoundTable */
-     , (24559,   8,  100674394) /* Icon */
-     , (24559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24559,   1, 0x02000F69) /* Setup */
+     , (24559,   3, 0x20000014) /* SoundTable */
+     , (24559,   8, 0x06002B5A) /* Icon */
+     , (24559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24559,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

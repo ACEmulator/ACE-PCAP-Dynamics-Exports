@@ -53,13 +53,13 @@ VALUES (76,   1, 'Qafiya') /* Name */
      , (76,  39, 'Rydia') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (76,   1,   33554652) /* Setup */
-     , (76,   3,  536870932) /* SoundTable */
-     , (76,   6,   67108990) /* PaletteBase */
-     , (76,   8,  100669446) /* Icon */
-     , (76,  22,  872415275) /* PhysicsEffectTable */
+VALUES (76,   1, 0x020000DC) /* Setup */
+     , (76,   3, 0x20000014) /* SoundTable */
+     , (76,   6, 0x0400007E) /* PaletteBase */
+     , (76,   8, 0x06001806) /* Icon */
+     , (76,  22, 0x3400002B) /* PhysicsEffectTable */
      , (76,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (76,  4407,      2)  /* Impenetrability8 */
-     , (76,  6060,      2)  /* CantripLifeMagicAptitude4 */;
+VALUES (76,  6060,      2)  /* CantripLifeMagicAptitude4 */
+     , (76,  4407,      2)  /* Impenetrability8 */;

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7270,   1, 'Flame Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7270,   1,   33556609) /* Setup */
-     , (7270,   3,  536870967) /* SoundTable */
-     , (7270,   8,  100667494) /* Icon */
+VALUES (7270,   1, 0x02000881) /* Setup */
+     , (7270,   3, 0x20000037) /* SoundTable */
+     , (7270,   8, 0x06001066) /* Icon */
      , (7270,  28,         27) /* Spell - FlameBolt1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7270, 8040, 43058056, 210.6865, -120.8234, 7.201849, -0.9047743, 0, 0, -0.4258913) /* PCAPRecordedLocation */
+VALUES (7270, 8040, 0x02910388, 210.6865, -120.8234, 7.201849, -0.904774, 0, 0, -0.425891) /* PCAPRecordedLocation */
 /* @teleloc 0x02910388 [210.686500 -120.823400 7.201849] -0.904774 0.000000 0.000000 -0.425891 */;

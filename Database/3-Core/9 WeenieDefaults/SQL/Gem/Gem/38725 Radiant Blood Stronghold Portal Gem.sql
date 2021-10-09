@@ -36,9 +36,9 @@ VALUES (38725,   1, 'Radiant Blood Stronghold Portal Gem') /* Name */
      , (38725,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38725,   1,   33556769) /* Setup */
-     , (38725,   3,  536870932) /* SoundTable */
-     , (38725,   6,   67111919) /* PaletteBase */
-     , (38725,   8,  100672464) /* Icon */
-     , (38725,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38725,   1, 0x02000921) /* Setup */
+     , (38725,   3, 0x20000014) /* SoundTable */
+     , (38725,   6, 0x04000BEF) /* PaletteBase */
+     , (38725,   8, 0x060023D0) /* Icon */
+     , (38725,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38725,  28,        157) /* Spell - SummonPortal1 */;

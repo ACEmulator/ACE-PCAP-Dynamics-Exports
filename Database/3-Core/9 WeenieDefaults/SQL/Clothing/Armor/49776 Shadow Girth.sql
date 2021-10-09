@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49776,   1, 'Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49776,   1,   33554647) /* Setup */
-     , (49776,   3,  536870932) /* SoundTable */
-     , (49776,   6,   67108990) /* PaletteBase */
-     , (49776,   8,  100693082) /* Icon */
-     , (49776,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49776,   1, 0x020000D7) /* Setup */
+     , (49776,   3, 0x20000014) /* SoundTable */
+     , (49776,   6, 0x0400007E) /* PaletteBase */
+     , (49776,   8, 0x0600745A) /* Icon */
+     , (49776,  22, 0x3400002B) /* PhysicsEffectTable */;

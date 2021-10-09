@@ -20,10 +20,10 @@ VALUES (33192,   1, 'Pheraion''s Notes') /* Name */
      , (33192,  15, 'A set of notes belonging to the Raven Hand Diviner, Pheraion.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33192,   1,   33554773) /* Setup */
-     , (33192,   3,  536870932) /* SoundTable */
-     , (33192,   8,  100674008) /* Icon */
-     , (33192,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33192,   1, 0x02000155) /* Setup */
+     , (33192,   3, 0x20000014) /* SoundTable */
+     , (33192,   8, 0x060029D8) /* Icon */
+     , (33192,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (33192, 3, 1000);

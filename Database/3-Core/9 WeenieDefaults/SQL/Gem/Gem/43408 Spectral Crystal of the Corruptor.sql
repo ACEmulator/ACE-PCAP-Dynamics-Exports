@@ -34,10 +34,10 @@ VALUES (43408,   1, 'Spectral Crystal of the Corruptor') /* Name */
      , (43408,  20, 'Spectral Crystals of the Corruptor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43408,   1,   33554809) /* Setup */
-     , (43408,   3,  536870932) /* SoundTable */
-     , (43408,   8,  100686697) /* Icon */
-     , (43408,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43408,   1, 0x02000179) /* Setup */
+     , (43408,   3, 0x20000014) /* SoundTable */
+     , (43408,   8, 0x06005B69) /* Icon */
+     , (43408,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43408,  28,       5435) /* Spell - VoidMagicMasterySpectral */
-     , (43408,  50,  100691567) /* IconOverlay */
-     , (43408,  52,  100686604) /* IconUnderlay */;
+     , (43408,  50, 0x06006E6F) /* IconOverlay */
+     , (43408,  52, 0x06005B0C) /* IconUnderlay */;

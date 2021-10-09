@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41237,   1, 'Gearknight Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41237,   1,   33560846) /* Setup */
-     , (41237,   3,  536870932) /* SoundTable */
-     , (41237,   8,  100690551) /* Icon */
-     , (41237,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41237,   1, 0x0200190E) /* Setup */
+     , (41237,   3, 0x20000014) /* SoundTable */
+     , (41237,   8, 0x06006A77) /* Icon */
+     , (41237,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41237, 8040, 462356520, 109.7361, 172.4152, 98.30167, -0.6815962, -0.6815962, -0.1882198, -0.1882198) /* PCAPRecordedLocation */
+VALUES (41237, 8040, 0x1B8F0028, 109.7361, 172.4152, 98.30167, -0.681596, -0.681596, -0.18822, -0.18822) /* PCAPRecordedLocation */
 /* @teleloc 0x1B8F0028 [109.736100 172.415200 98.301670] -0.681596 -0.681596 -0.188220 -0.188220 */;

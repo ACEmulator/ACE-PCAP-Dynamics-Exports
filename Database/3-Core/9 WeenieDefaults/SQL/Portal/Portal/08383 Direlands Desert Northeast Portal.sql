@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8383,   1, 'Direlands Desert Northeast Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8383,   1,   33555926) /* Setup */
-     , (8383,   2,  150994947) /* MotionTable */
-     , (8383,   8,  100667499) /* Icon */;
+VALUES (8383,   1, 0x020005D6) /* Setup */
+     , (8383,   2, 0x09000003) /* MotionTable */
+     , (8383,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8383, 8040, 1237450803, 145.7531, 60.4939, 13.16358, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (8383, 8040, 0x49C20033, 145.7531, 60.4939, 13.16358, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0x49C20033 [145.753100 60.493900 13.163580] 0.953717 0.000000 0.000000 -0.300706 */;

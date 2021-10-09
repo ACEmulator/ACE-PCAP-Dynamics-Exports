@@ -25,7 +25,7 @@ VALUES (41420,   1, 'Hammer') /* Name */
      , (41420,  16, 'A hammer used in the forming of metals.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41420,   1,   33554817) /* Setup */
-     , (41420,   3,  536870932) /* SoundTable */
-     , (41420,   8,  100690576) /* Icon */
-     , (41420,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41420,   1, 0x02000181) /* Setup */
+     , (41420,   3, 0x20000014) /* SoundTable */
+     , (41420,   8, 0x06006A90) /* Icon */
+     , (41420,  22, 0x3400002B) /* PhysicsEffectTable */;

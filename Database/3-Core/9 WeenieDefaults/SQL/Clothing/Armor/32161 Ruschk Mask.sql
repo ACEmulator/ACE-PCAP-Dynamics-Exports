@@ -32,7 +32,7 @@ VALUES (32161,   1, 'Ruschk Mask') /* Name */
      , (32161,  16, 'A fearsome mask made from the head of a barbaric Ruschk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32161,   1,   33559769) /* Setup */
-     , (32161,   3,  536870932) /* SoundTable */
-     , (32161,   8,  100688435) /* Icon */
-     , (32161,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32161,   1, 0x020014D9) /* Setup */
+     , (32161,   3, 0x20000014) /* SoundTable */
+     , (32161,   8, 0x06006233) /* Icon */
+     , (32161,  22, 0x3400002B) /* PhysicsEffectTable */;

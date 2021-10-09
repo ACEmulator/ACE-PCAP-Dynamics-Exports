@@ -24,8 +24,8 @@ VALUES (38394,   1, 'Radiant Blood Initiate Armor Writ') /* Name */
      , (38394,  16, 'This is an Armor Writ, granted to you as an Initiate of the Radiant Blood.  These writs are normally purchased with Trade Tokens from the Armor Writ Quartermaster in your Stronghold for 25 Tokens, and can only be purchased once a day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38394,   1,   33554776) /* Setup */
-     , (38394,   3,  536870932) /* SoundTable */
-     , (38394,   8,  100667503) /* Icon */
-     , (38394,  22,  872415275) /* PhysicsEffectTable */
-     , (38394,  50,  100690173) /* IconOverlay */;
+VALUES (38394,   1, 0x02000158) /* Setup */
+     , (38394,   3, 0x20000014) /* SoundTable */
+     , (38394,   8, 0x0600106F) /* Icon */
+     , (38394,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38394,  50, 0x060068FD) /* IconOverlay */;

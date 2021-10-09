@@ -23,11 +23,11 @@ VALUES (52367,   1, 'Pack Gurog') /* Name */
      , (52367,  16, 'A Gurog Grump with a bad attitude.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52367,   1,   33561132) /* Setup */
-     , (52367,   2,  150995382) /* MotionTable */
-     , (52367,   8,  100674350) /* Icon */
-     , (52367,  22,  872415437) /* PhysicsEffectTable */;
+VALUES (52367,   1, 0x02001A2C) /* Setup */
+     , (52367,   2, 0x090001B6) /* MotionTable */
+     , (52367,   8, 0x06002B2E) /* Icon */
+     , (52367,  22, 0x340000CD) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52367, 8040, 19005708, 33.29057, -11.10078, 0.002499998, -0.08212787, 0, 0, -0.9966218) /* PCAPRecordedLocation */
+VALUES (52367, 8040, 0x0122010C, 33.29057, -11.10078, 0.0025, -0.082128, 0, 0, -0.996622) /* PCAPRecordedLocation */
 /* @teleloc 0x0122010C [33.290570 -11.100780 0.002500] -0.082128 0.000000 0.000000 -0.996622 */;

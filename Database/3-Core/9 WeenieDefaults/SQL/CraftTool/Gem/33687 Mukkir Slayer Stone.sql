@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33687,   1, 'Mukkir Slayer Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33687,   1,   33556926) /* Setup */
-     , (33687,   3,  536870932) /* SoundTable */
-     , (33687,   6,   67111919) /* PaletteBase */
-     , (33687,   8,  100688998) /* Icon */
-     , (33687,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33687,   1, 0x020009BE) /* Setup */
+     , (33687,   3, 0x20000014) /* SoundTable */
+     , (33687,   6, 0x04000BEF) /* PaletteBase */
+     , (33687,   8, 0x06006466) /* Icon */
+     , (33687,  22, 0x3400002B) /* PhysicsEffectTable */;

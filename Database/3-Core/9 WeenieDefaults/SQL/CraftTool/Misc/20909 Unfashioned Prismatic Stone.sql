@@ -27,7 +27,7 @@ VALUES (20909,   1, 'Unfashioned Prismatic Stone') /* Name */
      , (20909,  16, 'A shimmering stone that houses the power of all elements within. The stone is rough shod, and covered in jutting crystal shards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20909,   1,   33556407) /* Setup */
-     , (20909,   3,  536870932) /* SoundTable */
-     , (20909,   8,  100673212) /* Icon */
-     , (20909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20909,   1, 0x020007B7) /* Setup */
+     , (20909,   3, 0x20000014) /* SoundTable */
+     , (20909,   8, 0x060026BC) /* Icon */
+     , (20909,  22, 0x3400002B) /* PhysicsEffectTable */;

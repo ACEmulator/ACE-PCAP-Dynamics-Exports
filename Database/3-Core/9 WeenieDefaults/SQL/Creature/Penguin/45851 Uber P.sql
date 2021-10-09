@@ -27,15 +27,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45851,   1, 'Uber P') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45851,   1,   33559122) /* Setup */
-     , (45851,   2,  150995323) /* MotionTable */
-     , (45851,   3,  536871098) /* SoundTable */
-     , (45851,   6,   67116355) /* PaletteBase */
-     , (45851,   8,  100677366) /* Icon */
-     , (45851,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (45851,   1, 0x02001252) /* Setup */
+     , (45851,   2, 0x0900017B) /* MotionTable */
+     , (45851,   3, 0x200000BA) /* SoundTable */
+     , (45851,   6, 0x04001D43) /* PaletteBase */
+     , (45851,   8, 0x060036F6) /* Icon */
+     , (45851,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45851, 8040, 1022689342, 173.872, 136.151, -0.09517837, -0.08351466, 0, 0, -0.9965066) /* PCAPRecordedLocation */
+VALUES (45851, 8040, 0x3CF5003E, 173.872, 136.151, -0.095178, -0.083515, 0, 0, -0.996507) /* PCAPRecordedLocation */
 /* @teleloc 0x3CF5003E [173.872000 136.151000 -0.095178] -0.083515 0.000000 0.000000 -0.996507 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

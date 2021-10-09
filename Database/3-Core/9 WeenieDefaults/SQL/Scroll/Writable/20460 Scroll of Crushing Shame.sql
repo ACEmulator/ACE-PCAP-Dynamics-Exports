@@ -23,7 +23,7 @@ VALUES (20460,   1, 'Scroll of Crushing Shame') /* Name */
 Shoots a shock wave at the target. The wave does 115-189 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20460,   1,   33554826) /* Setup */
-     , (20460,   8,  100677008) /* Icon */
-     , (20460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20460,   1, 0x0200018A) /* Setup */
+     , (20460,   8, 0x06003590) /* Icon */
+     , (20460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20460,  28,       2144) /* Spell - ShockWave7 */;

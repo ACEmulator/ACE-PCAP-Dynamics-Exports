@@ -23,10 +23,10 @@ VALUES (33786,   1, 'Shadow-Infested Black Spear Temple') /* Name */
      , (33786,  16, 'A Shadow-infested Ruschk temple, where those who wish to follow the Black Spear prove their worth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33786,   1,   33555925) /* Setup */
-     , (33786,   2,  150994947) /* MotionTable */
-     , (33786,   8,  100667499) /* Icon */;
+VALUES (33786,   1, 0x020005D5) /* Setup */
+     , (33786,   2, 0x09000003) /* MotionTable */
+     , (33786,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33786, 8040, 4095672364, 130.482, 77.251, -0.163, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33786, 8040, 0xF41F002C, 130.482, 77.251, -0.163, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF41F002C [130.482000 77.251000 -0.163000] 1.000000 0.000000 0.000000 0.000000 */;

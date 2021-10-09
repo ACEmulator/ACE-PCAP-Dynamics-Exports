@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42331,   1, 'Eldrytch Web Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42331,   1,   33554654) /* Setup */
-     , (42331,   3,  536870932) /* SoundTable */
-     , (42331,   8,  100690250) /* Icon */
-     , (42331,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42331,   1, 0x020000DE) /* Setup */
+     , (42331,   3, 0x20000014) /* SoundTable */
+     , (42331,   8, 0x0600694A) /* Icon */
+     , (42331,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42331, 8040, 2315452891, 182.0065, -374.5163, -0.0006459951, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42331, 8040, 0x8A0301DB, 182.0065, -374.5163, -0.000646, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0301DB [182.006500 -374.516300 -0.000646] 1.000000 0.000000 0.000000 0.000000 */;

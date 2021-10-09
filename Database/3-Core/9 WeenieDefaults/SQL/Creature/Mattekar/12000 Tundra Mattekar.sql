@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12000,   1, 'Tundra Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12000,   1,   33555590) /* Setup */
-     , (12000,   2,  150995047) /* MotionTable */
-     , (12000,   3,  536870974) /* SoundTable */
-     , (12000,   6,   67111893) /* PaletteBase */
-     , (12000,   8,  100669121) /* Icon */
-     , (12000,  22,  872415278) /* PhysicsEffectTable */
+VALUES (12000,   1, 0x02000486) /* Setup */
+     , (12000,   2, 0x09000067) /* MotionTable */
+     , (12000,   3, 0x2000003E) /* SoundTable */
+     , (12000,   6, 0x04000BD5) /* PaletteBase */
+     , (12000,   8, 0x060016C1) /* Icon */
+     , (12000,  22, 0x3400002E) /* PhysicsEffectTable */
      , (12000,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12000, 8040, 2148794370, 12.8687, 36.81839, 198.9234, -0.9926901, 0, 0, -0.1206912) /* PCAPRecordedLocation */
+VALUES (12000, 8040, 0x80140002, 12.8687, 36.81839, 198.9234, -0.99269, 0, 0, -0.120691) /* PCAPRecordedLocation */
 /* @teleloc 0x80140002 [12.868700 36.818390 198.923400] -0.992690 0.000000 0.000000 -0.120691 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

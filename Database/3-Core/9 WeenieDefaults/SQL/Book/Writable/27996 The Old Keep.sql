@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27996,   1, 'The Old Keep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27996,   1,   33559084) /* Setup */
-     , (27996,   3,  536870932) /* SoundTable */
-     , (27996,   6,   67112626) /* PaletteBase */
-     , (27996,   8,  100675747) /* Icon */
-     , (27996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27996,   1, 0x0200122C) /* Setup */
+     , (27996,   3, 0x20000014) /* SoundTable */
+     , (27996,   6, 0x04000EB2) /* PaletteBase */
+     , (27996,   8, 0x060030A3) /* Icon */
+     , (27996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27996, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

@@ -50,11 +50,11 @@ VALUES (22442,   1, 'Lightning Dirk') /* Name */
      , (22442,  16, 'Lightning Dirk of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22442,   1,   33558090) /* Setup */
-     , (22442,   3,  536870932) /* SoundTable */
-     , (22442,   6,   67111919) /* PaletteBase */
-     , (22442,   8,  100673790) /* Icon */
-     , (22442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22442,   1, 0x02000E4A) /* Setup */
+     , (22442,   3, 0x20000014) /* SoundTable */
+     , (22442,   6, 0x04000BEF) /* PaletteBase */
+     , (22442,   8, 0x060028FE) /* Icon */
+     , (22442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22442,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

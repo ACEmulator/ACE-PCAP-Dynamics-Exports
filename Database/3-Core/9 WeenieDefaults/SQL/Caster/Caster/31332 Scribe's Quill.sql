@@ -35,10 +35,10 @@ VALUES (31332,   1, 'Scribe''s Quill') /* Name */
      , (31332,   8, 'The Green Machine') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31332,   1,   33559614) /* Setup */
-     , (31332,   3,  536870932) /* SoundTable */
-     , (31332,   8,  100687943) /* Icon */
-     , (31332,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31332,   1, 0x0200143E) /* Setup */
+     , (31332,   3, 0x20000014) /* SoundTable */
+     , (31332,   8, 0x06006047) /* Icon */
+     , (31332,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31332,  37,         18) /* ItemSkillLimit - ItemTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -48,11 +48,11 @@ VALUES (3835,   1, 'Lightning Mace') /* Name */
      , (3835,  16, 'Lightning Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3835,   1,   33555744) /* Setup */
-     , (3835,   3,  536870932) /* SoundTable */
-     , (3835,   6,   67111919) /* PaletteBase */
-     , (3835,   8,  100668956) /* Icon */
-     , (3835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3835,   1, 0x02000520) /* Setup */
+     , (3835,   3, 0x20000014) /* SoundTable */
+     , (3835,   6, 0x04000BEF) /* PaletteBase */
+     , (3835,   8, 0x0600161C) /* Icon */
+     , (3835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3835,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

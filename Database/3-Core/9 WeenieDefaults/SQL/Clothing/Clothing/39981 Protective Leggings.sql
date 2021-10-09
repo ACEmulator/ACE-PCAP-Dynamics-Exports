@@ -43,11 +43,11 @@ VALUES (39981,   1, 'Protective Leggings') /* Name */
      , (39981,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39981,   1,   33554653) /* Setup */
-     , (39981,   3,  536870932) /* SoundTable */
-     , (39981,   6,   67108990) /* PaletteBase */
-     , (39981,   8,  100682363) /* Icon */
-     , (39981,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39981,   1, 0x020000DD) /* Setup */
+     , (39981,   3, 0x20000014) /* SoundTable */
+     , (39981,   6, 0x0400007E) /* PaletteBase */
+     , (39981,   8, 0x06004A7B) /* Icon */
+     , (39981,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39981,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;

@@ -43,12 +43,12 @@ VALUES (43140,   1, 'Shield of the Gold Gear') /* Name */
      , (43140,  16, 'A shield forged in the Gear Knight style.  A minor Gearcrafting effect has been added to further protect its wielder.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43140,   1,   33561096) /* Setup */
-     , (43140,   3,  536870932) /* SoundTable */
-     , (43140,   8,  100691464) /* Icon */
-     , (43140,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43140,   1, 0x02001A08) /* Setup */
+     , (43140,   3, 0x20000014) /* SoundTable */
+     , (43140,   8, 0x06006E08) /* Icon */
+     , (43140,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43140,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
-     , (43140,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
-     , (43140,  5141,      2)  /* TrinketDamageReduction1 */;
+VALUES (43140,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
+     , (43140,  5141,      2)  /* TrinketDamageReduction1 */
+     , (43140,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */;

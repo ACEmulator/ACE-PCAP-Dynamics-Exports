@@ -18,7 +18,7 @@ VALUES (31477,   1, 'Second Half of a Worn Staff') /* Name */
      , (31477,  16, 'Half of a worn old staff. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31477,   1,   33554817) /* Setup */
-     , (31477,   3,  536870932) /* SoundTable */
-     , (31477,   8,  100687888) /* Icon */
-     , (31477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31477,   1, 0x02000181) /* Setup */
+     , (31477,   3, 0x20000014) /* SoundTable */
+     , (31477,   8, 0x06006010) /* Icon */
+     , (31477,  22, 0x3400002B) /* PhysicsEffectTable */;

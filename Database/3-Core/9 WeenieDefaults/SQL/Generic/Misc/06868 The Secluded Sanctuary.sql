@@ -18,9 +18,9 @@ VALUES (6868,   1, 'The Secluded Sanctuary') /* Name */
      , (6868,  16, 'The Secluded Sanctuary') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6868,   1,   33555909) /* Setup */
-     , (6868,   8,  100668115) /* Icon */;
+VALUES (6868,   1, 0x020005C5) /* Setup */
+     , (6868,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6868, 8040, 288620588, 129.423, 90.6667, 45.2, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (6868, 8040, 0x1134002C, 129.423, 90.6667, 45.2, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x1134002C [129.423000 90.666700 45.200000] 0.000000 0.000000 0.000000 -1.000000 */;

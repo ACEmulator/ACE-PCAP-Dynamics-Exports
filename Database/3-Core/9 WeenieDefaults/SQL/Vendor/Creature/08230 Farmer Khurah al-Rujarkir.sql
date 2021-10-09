@@ -34,20 +34,20 @@ VALUES (8230,   1, 'Farmer Khurah al-Rujarkir') /* Name */
      , (8230,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8230,   1,   33554510) /* Setup */
-     , (8230,   2,  150994945) /* MotionTable */
-     , (8230,   3,  536870914) /* SoundTable */
-     , (8230,   6,   67108990) /* PaletteBase */
-     , (8230,   8,  100667446) /* Icon */
-     , (8230,   9,   83890261) /* EyesTexture */
-     , (8230,  10,   83890293) /* NoseTexture */
-     , (8230,  11,   83890331) /* MouthTexture */
-     , (8230,  15,   67117080) /* HairPalette */
-     , (8230,  16,   67110063) /* EyesPalette */
-     , (8230,  17,   67109550) /* SkinPalette */;
+VALUES (8230,   1, 0x0200004E) /* Setup */
+     , (8230,   2, 0x09000001) /* MotionTable */
+     , (8230,   3, 0x20000002) /* SoundTable */
+     , (8230,   6, 0x0400007E) /* PaletteBase */
+     , (8230,   8, 0x06001036) /* Icon */
+     , (8230,   9, 0x05001055) /* EyesTexture */
+     , (8230,  10, 0x05001075) /* NoseTexture */
+     , (8230,  11, 0x0500109B) /* MouthTexture */
+     , (8230,  15, 0x04002018) /* HairPalette */
+     , (8230,  16, 0x040004AF) /* EyesPalette */
+     , (8230,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8230, 8040, 2471166603, 145.175, 1.068, -13.595, -0.7909699, 0, 0, -0.6118551) /* PCAPRecordedLocation */
+VALUES (8230, 8040, 0x934B028B, 145.175, 1.068, -13.595, -0.79097, 0, 0, -0.611855) /* PCAPRecordedLocation */
 /* @teleloc 0x934B028B [145.175000 1.068000 -13.595000] -0.790970 0.000000 0.000000 -0.611855 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

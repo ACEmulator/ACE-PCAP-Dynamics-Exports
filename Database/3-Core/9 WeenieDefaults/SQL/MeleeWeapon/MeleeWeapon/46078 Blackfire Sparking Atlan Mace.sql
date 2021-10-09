@@ -50,22 +50,22 @@ VALUES (46078,   1, 'Blackfire Sparking Atlan Mace') /* Name */
      , (46078,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46078,   1,   33556364) /* Setup */
-     , (46078,   3,  536870932) /* SoundTable */
-     , (46078,   6,   67111919) /* PaletteBase */
-     , (46078,   8,  100670541) /* Icon */
-     , (46078,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46078,   1, 0x0200078C) /* Setup */
+     , (46078,   3, 0x20000014) /* SoundTable */
+     , (46078,   6, 0x04000BEF) /* PaletteBase */
+     , (46078,   8, 0x06001C4D) /* Icon */
+     , (46078,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46078, 8040, 3583639609, 176.975, 1.21, 373.4248, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (46078, 8040, 0xD59A0039, 176.975, 1.21, 373.4248, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD59A0039 [176.975000 1.210000 373.424800] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46078,  2061,      2)  /* EnduranceSelf7 */
+VALUES (46078,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46078,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
+     , (46078,  2061,      2)  /* EnduranceSelf7 */
+     , (46078,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (46078,  2159,      2)  /* LightningProtectionSelf7 */
      , (46078,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46078,  2101,      2)  /* DefenderSelf7 */
-     , (46078,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46078,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46078,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46078,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
-     , (46078,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (46078,  2106,      2)  /* HeartSeekerSelf7 */;

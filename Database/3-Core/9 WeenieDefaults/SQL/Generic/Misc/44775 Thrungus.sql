@@ -19,5 +19,5 @@ VALUES (44775,   1, 'Thrungus') /* Name */
      , (44775,  16, 'The Thrungum are another one of those creatures who appeared on this world and little has been discovered about them. They do tend to hide out in dark caves and can be more ferocious then they appear.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44775,   1,   33561375) /* Setup */
-     , (44775,   8,  100668115) /* Icon */;
+VALUES (44775,   1, 0x02001B1F) /* Setup */
+     , (44775,   8, 0x060012D3) /* Icon */;

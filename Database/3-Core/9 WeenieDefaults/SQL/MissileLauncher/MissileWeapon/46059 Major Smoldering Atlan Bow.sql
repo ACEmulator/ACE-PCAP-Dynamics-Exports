@@ -51,20 +51,20 @@ VALUES (46059,   1, 'Major Smoldering Atlan Bow') /* Name */
      , (46059,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46059,   1,   33557759) /* Setup */
-     , (46059,   3,  536870932) /* SoundTable */
-     , (46059,   6,   67111919) /* PaletteBase */
-     , (46059,   8,  100673016) /* Icon */
-     , (46059,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46059,   1, 0x02000CFF) /* Setup */
+     , (46059,   3, 0x20000014) /* SoundTable */
+     , (46059,   6, 0x04000BEF) /* PaletteBase */
+     , (46059,   8, 0x060025F8) /* Icon */
+     , (46059,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46059, 8040, 3583639609, 177.026, 1.206, 373.4258, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (46059, 8040, 0xD59A0039, 177.026, 1.206, 373.4258, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xD59A0039 [177.026000 1.206000 373.425800] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46059,  2087,      2)  /* StrengthSelf7 */
-     , (46059,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46059,  2101,      2)  /* DefenderSelf7 */
-     , (46059,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46059,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46059,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46059,  2087,      2)  /* StrengthSelf7 */
      , (46059,  2157,      2)  /* FireProtectionSelf7 */
-     , (46059,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;
+     , (46059,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46059,  2101,      2)  /* DefenderSelf7 */;

@@ -48,9 +48,9 @@ VALUES (44850,   1, 'Chevron Cloak') /* Name */
      , (44850,  16, 'Chevron Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44850,   1,   33561386) /* Setup */
-     , (44850,   3,  536870932) /* SoundTable */
-     , (44850,   8,  100692125) /* Icon */
-     , (44850,  22,  872415275) /* PhysicsEffectTable */
-     , (44850,  50,  100690997) /* IconOverlay */
+VALUES (44850,   1, 0x02001B2A) /* Setup */
+     , (44850,   3, 0x20000014) /* SoundTable */
+     , (44850,   8, 0x0600709D) /* Icon */
+     , (44850,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44850,  50, 0x06006C35) /* IconOverlay */
      , (44850,  55,       5755) /* ProcSpell - CloakMeleeDLower */;

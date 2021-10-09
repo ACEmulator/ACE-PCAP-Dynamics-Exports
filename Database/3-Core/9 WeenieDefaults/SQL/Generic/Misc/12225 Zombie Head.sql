@@ -19,7 +19,7 @@ VALUES (12225,   1, 'Zombie Head') /* Name */
      , (12225,  16, 'A stinking, smelling, decapitated zombie head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12225,   1,   33557363) /* Setup */
-     , (12225,   3,  536870932) /* SoundTable */
-     , (12225,   8,  100672172) /* Icon */
-     , (12225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12225,   1, 0x02000B73) /* Setup */
+     , (12225,   3, 0x20000014) /* SoundTable */
+     , (12225,   8, 0x060022AC) /* Icon */
+     , (12225,  22, 0x3400002B) /* PhysicsEffectTable */;

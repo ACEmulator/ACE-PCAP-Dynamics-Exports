@@ -38,11 +38,11 @@ VALUES (2366,   1, 'Orb') /* Name */
      , (2366,  16, 'Orb of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2366,   1,   33554669) /* Setup */
-     , (2366,   3,  536870932) /* SoundTable */
-     , (2366,   6,   67111928) /* PaletteBase */
-     , (2366,   8,  100668731) /* Icon */
-     , (2366,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2366,   1, 0x020000ED) /* Setup */
+     , (2366,   3, 0x20000014) /* SoundTable */
+     , (2366,   6, 0x04000BF8) /* PaletteBase */
+     , (2366,   8, 0x0600153B) /* Icon */
+     , (2366,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2366,  28,          1) /* Spell - StrengthOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

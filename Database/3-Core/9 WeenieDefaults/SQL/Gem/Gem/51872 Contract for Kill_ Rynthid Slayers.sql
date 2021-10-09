@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51872,   1, 'Contract for Kill: Rynthid Slayers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51872,   1,   33554773) /* Setup */
-     , (51872,   3,  536870932) /* SoundTable */
-     , (51872,   8,  100691928) /* Icon */
-     , (51872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51872,   1, 0x02000155) /* Setup */
+     , (51872,   3, 0x20000014) /* SoundTable */
+     , (51872,   8, 0x06006FD8) /* Icon */
+     , (51872,  22, 0x3400002B) /* PhysicsEffectTable */;

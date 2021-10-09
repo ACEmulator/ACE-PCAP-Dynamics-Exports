@@ -52,23 +52,23 @@ VALUES (30351,   1, 'Dragonspine Bow') /* Name */
      , (30351,  16, 'The inscription on the bow reads, "Ryu Jou Gai." Nothing more is known about this bow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30351,   1,   33559414) /* Setup */
-     , (30351,   3,  536870932) /* SoundTable */
-     , (30351,   6,   67111919) /* PaletteBase */
-     , (30351,   8,  100686812) /* Icon */
-     , (30351,  22,  872415275) /* PhysicsEffectTable */
-     , (30351,  52,  100686604) /* IconUnderlay */;
+VALUES (30351,   1, 0x02001376) /* Setup */
+     , (30351,   3, 0x20000014) /* SoundTable */
+     , (30351,   6, 0x04000BEF) /* PaletteBase */
+     , (30351,   8, 0x06005BDC) /* Icon */
+     , (30351,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30351,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30351, 8040, 2847146009, 83.97495, 7.108018, 93.93001, 0.9969173, 0, 0, -0.0784591) /* PCAPRecordedLocation */
+VALUES (30351, 8040, 0xA9B40019, 83.97495, 7.108018, 93.93001, 0.996917, 0, 0, -0.078459) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [83.974950 7.108018 93.930010] 0.996917 0.000000 0.000000 -0.078459 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30351,  4297,      2)  /* CoordinationSelf8 */
-     , (30351,  4400,      2)  /* DefenderSelf8 */
-     , (30351,  4417,      2)  /* SwiftKillerSelf8 */
-     , (30351,  4468,      2)  /* FireProtectionSelf8 */
-     , (30351,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+VALUES (30351,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30351,  4297,      2)  /* CoordinationSelf8 */
+     , (30351,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30351,  4560,      2)  /* InvulnerabilitySelf8 */
-     , (30351,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30351,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;
+     , (30351,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (30351,  4400,      2)  /* DefenderSelf8 */
+     , (30351,  4468,      2)  /* FireProtectionSelf8 */
+     , (30351,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;

@@ -52,16 +52,16 @@ VALUES (29247,   1, 'Electric Crossbow') /* Name */
      , (29247,  16, 'Electric Crossbow of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29247,   1,   33559238) /* Setup */
-     , (29247,   3,  536870932) /* SoundTable */
-     , (29247,   6,   67115373) /* PaletteBase */
-     , (29247,   8,  100677439) /* Icon */
-     , (29247,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29247,   1, 0x020012C6) /* Setup */
+     , (29247,   3, 0x20000014) /* SoundTable */
+     , (29247,   6, 0x0400196D) /* PaletteBase */
+     , (29247,   8, 0x0600373F) /* Icon */
+     , (29247,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29247,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29247,  1627,      2)  /* SwiftKillerSelf6 */
-     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
+VALUES (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (29247,  2582,      2)  /* CANTRIPQUICKNESS1 */
-     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
+     , (29247,  1627,      2)  /* SwiftKillerSelf6 */
+     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */
+     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */;

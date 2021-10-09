@@ -24,11 +24,11 @@ VALUES (8510,   1, 'Adja''s Memorial') /* Name */
      , (8510,  15, 'Praying before this memorial will bring one back into the grace of Light, as a Non-Player Killer protected by Asheron''s magic. The supplicant may not have killed anyone for 15 minutes beforehand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8510,   1,   33556908) /* Setup */
-     , (8510,   2,  150994989) /* MotionTable */
-     , (8510,   3,  536870965) /* SoundTable */
-     , (8510,   8,  100671209) /* Icon */;
+VALUES (8510,   1, 0x020009AC) /* Setup */
+     , (8510,   2, 0x0900002D) /* MotionTable */
+     , (8510,   3, 0x20000035) /* SoundTable */
+     , (8510,   8, 0x06001EE9) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8510, 8040, 4095213837, 39.2854, 45.4451, 162.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8510, 8040, 0xF418010D, 39.2854, 45.4451, 162.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF418010D [39.285400 45.445100 162.700000] 1.000000 0.000000 0.000000 0.000000 */;

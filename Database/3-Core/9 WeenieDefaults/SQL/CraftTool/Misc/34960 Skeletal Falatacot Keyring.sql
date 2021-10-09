@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34960,   1, 'Skeletal Falatacot Keyring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34960,   1,   33554790) /* Setup */
-     , (34960,   3,  536870932) /* SoundTable */
-     , (34960,   8,  100689366) /* Icon */
-     , (34960,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34960,   1, 0x02000166) /* Setup */
+     , (34960,   3, 0x20000014) /* SoundTable */
+     , (34960,   8, 0x060065D6) /* Icon */
+     , (34960,  22, 0x3400002B) /* PhysicsEffectTable */;

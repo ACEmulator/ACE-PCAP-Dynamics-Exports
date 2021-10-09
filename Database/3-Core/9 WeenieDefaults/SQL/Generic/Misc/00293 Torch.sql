@@ -36,7 +36,7 @@ VALUES (293,   1, 'Torch') /* Name */
      , (293,   8, 'Havokk') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (293,   1,   33555887) /* Setup */
-     , (293,   3,  536870932) /* SoundTable */
-     , (293,   8,  100667506) /* Icon */
-     , (293,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (293,   1, 0x020005AF) /* Setup */
+     , (293,   3, 0x20000014) /* SoundTable */
+     , (293,   8, 0x06001072) /* Icon */
+     , (293,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -42,15 +42,15 @@ VALUES (28626,   1, 'Diforsa Tassets') /* Name */
      , (28626,  16, 'Diforsa Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28626,   1,   33559335) /* Setup */
-     , (28626,   3,  536870932) /* SoundTable */
-     , (28626,   6,   67108990) /* PaletteBase */
-     , (28626,   8,  100686158) /* Icon */
-     , (28626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28626,   1, 0x02001327) /* Setup */
+     , (28626,   3, 0x20000014) /* SoundTable */
+     , (28626,   6, 0x0400007E) /* PaletteBase */
+     , (28626,   8, 0x0600594E) /* Icon */
+     , (28626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28626,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28626,  1485,      2)  /* Impenetrability5 */
-     , (28626,  1498,      2)  /* AcidBane6 */
+VALUES (28626,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (28626,  1539,      2)  /* LightningBane5 */
-     , (28626,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */;
+     , (28626,  1485,      2)  /* Impenetrability5 */
+     , (28626,  1498,      2)  /* AcidBane6 */;

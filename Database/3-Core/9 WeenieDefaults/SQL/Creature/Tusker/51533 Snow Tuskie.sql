@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51533,   1, 'Snow Tuskie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51533,   1,   33561139) /* Setup */
-     , (51533,   2,  150995225) /* MotionTable */
-     , (51533,   3,  536870929) /* SoundTable */
-     , (51533,   8,  100667443) /* Icon */
-     , (51533,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (51533,   1, 0x02001A33) /* Setup */
+     , (51533,   2, 0x09000119) /* MotionTable */
+     , (51533,   3, 0x20000011) /* SoundTable */
+     , (51533,   8, 0x06001033) /* Icon */
+     , (51533,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51533, 8040, 2011758598, 12.99696, 120.3155, 106.0044, -0.9227303, 0, 0, 0.3854461) /* PCAPRecordedLocation */
+VALUES (51533, 8040, 0x77E90006, 12.99696, 120.3155, 106.0044, -0.92273, 0, 0, 0.385446) /* PCAPRecordedLocation */
 /* @teleloc 0x77E90006 [12.996960 120.315500 106.004400] -0.922730 0.000000 0.000000 0.385446 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

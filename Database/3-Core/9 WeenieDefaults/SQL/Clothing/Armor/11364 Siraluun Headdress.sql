@@ -41,17 +41,17 @@ VALUES (11364,   1, 'Siraluun Headdress') /* Name */
      , (11364,  16, 'A headdress plaited from the plumes of a Kithless Siraluun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11364,   1,   33557288) /* Setup */
-     , (11364,   3,  536870932) /* SoundTable */
-     , (11364,   6,   67108990) /* PaletteBase */
-     , (11364,   8,  100671999) /* Icon */
-     , (11364,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11364,   1, 0x02000B28) /* Setup */
+     , (11364,   3, 0x20000014) /* SoundTable */
+     , (11364,   6, 0x0400007E) /* PaletteBase */
+     , (11364,   8, 0x060021FF) /* Icon */
+     , (11364,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11364,   278,      2)  /* MagicResistanceSelf5 */
-     , (11364,   706,      2)  /* ArmorExpertiseSelf5 */
-     , (11364,   730,      2)  /* ItemExpertiseSelf5 */
-     , (11364,   754,      2)  /* MagicItemExpertiseSelf5 */
+VALUES (11364,   706,      2)  /* ArmorExpertiseSelf5 */
      , (11364,   778,      2)  /* WeaponExpertiseSelf5 */
+     , (11364,   278,      2)  /* MagicResistanceSelf5 */
+     , (11364,   730,      2)  /* ItemExpertiseSelf5 */
      , (11364,   802,      2)  /* MonsterAttunementSelf5 */
+     , (11364,   754,      2)  /* MagicItemExpertiseSelf5 */
      , (11364,   828,      2)  /* PersonAttunementSelf5 */;

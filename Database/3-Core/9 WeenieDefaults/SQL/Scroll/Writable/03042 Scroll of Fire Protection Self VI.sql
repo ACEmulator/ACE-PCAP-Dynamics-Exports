@@ -23,7 +23,7 @@ VALUES (3042,   1, 'Scroll of Fire Protection Self VI') /* Name */
 Reduces damage the caster takes from Fire by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3042,   1,   33554826) /* Setup */
-     , (3042,   8,  100676949) /* Icon */
-     , (3042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3042,   1, 0x0200018A) /* Setup */
+     , (3042,   8, 0x06003555) /* Icon */
+     , (3042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3042,  28,       1094) /* Spell - FireProtectionSelf6 */;

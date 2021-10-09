@@ -22,8 +22,8 @@ VALUES (9261,   1, 'Ursuin Fang') /* Name */
      , (9261,  16, 'The fang of an Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9261,   1,   33554817) /* Setup */
-     , (9261,   3,  536870932) /* SoundTable */
-     , (9261,   6,   67111919) /* PaletteBase */
-     , (9261,   8,  100671416) /* Icon */
-     , (9261,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9261,   1, 0x02000181) /* Setup */
+     , (9261,   3, 0x20000014) /* SoundTable */
+     , (9261,   6, 0x04000BEF) /* PaletteBase */
+     , (9261,   8, 0x06001FB8) /* Icon */
+     , (9261,  22, 0x3400002B) /* PhysicsEffectTable */;

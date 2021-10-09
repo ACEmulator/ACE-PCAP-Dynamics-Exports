@@ -33,8 +33,8 @@ VALUES (37262,   1, 'Deck of Eyes') /* Name */
      , (37262,  16, 'A deck of cards, glowing with inner power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37262,   1,   33560546) /* Setup */
-     , (37262,   3,  536870932) /* SoundTable */
-     , (37262,   8,  100689859) /* Icon */
-     , (37262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37262,   1, 0x020017E2) /* Setup */
+     , (37262,   3, 0x20000014) /* SoundTable */
+     , (37262,   8, 0x060067C3) /* Icon */
+     , (37262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37262,  28,       4281) /* Spell - FocusJesterDeck */;

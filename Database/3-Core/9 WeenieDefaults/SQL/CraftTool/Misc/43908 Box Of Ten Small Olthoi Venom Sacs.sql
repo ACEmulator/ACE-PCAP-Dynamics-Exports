@@ -31,7 +31,7 @@ VALUES (43908,   1, 'Box Of Ten Small Olthoi Venom Sacs') /* Name */
      , (43908,  20, 'Boxes Of Ten Small Olthoi Venom Sacs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43908,   1,   33554718) /* Setup */
-     , (43908,   3,  536870932) /* SoundTable */
-     , (43908,   8,  100691796) /* Icon */
-     , (43908,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43908,   1, 0x0200011E) /* Setup */
+     , (43908,   3, 0x20000014) /* SoundTable */
+     , (43908,   8, 0x06006F54) /* Icon */
+     , (43908,  22, 0x3400002B) /* PhysicsEffectTable */;

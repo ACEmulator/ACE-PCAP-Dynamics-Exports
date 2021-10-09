@@ -52,15 +52,15 @@ VALUES (45412,   1, 'Acid Spada') /* Name */
      , (45412,  16, 'Acid Spada of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45412,   1,   33559463) /* Setup */
-     , (45412,   3,  536870932) /* SoundTable */
-     , (45412,   6,   67115557) /* PaletteBase */
-     , (45412,   8,  100686947) /* Icon */
-     , (45412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45412,   1, 0x020013A7) /* Setup */
+     , (45412,   3, 0x20000014) /* SoundTable */
+     , (45412,   6, 0x04001A25) /* PaletteBase */
+     , (45412,   8, 0x06005C63) /* Icon */
+     , (45412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45412,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45412,  1332,      2)  /* StrengthSelf6 */
+VALUES (45412,  2116,      2)  /* SwiftKillerSelf7 */
      , (45412,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (45412,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45412,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (45412,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (45412,  1332,      2)  /* StrengthSelf6 */;

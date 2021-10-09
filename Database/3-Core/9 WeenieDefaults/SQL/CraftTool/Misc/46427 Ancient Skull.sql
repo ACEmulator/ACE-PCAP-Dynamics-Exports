@@ -29,7 +29,7 @@ VALUES (46427,   1, 'Ancient Skull') /* Name */
      , (46427,  16, 'An ancient skull taken from Ronin Hirachi. You notice two large grooves chiseled inside of the skull. The skull is extremely old and brittle. It clearly will not last for long inside of your packs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46427,   1,   33556825) /* Setup */
-     , (46427,   3,  536870932) /* SoundTable */
-     , (46427,   8,  100671032) /* Icon */
-     , (46427,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46427,   1, 0x02000959) /* Setup */
+     , (46427,   3, 0x20000014) /* SoundTable */
+     , (46427,   8, 0x06001E38) /* Icon */
+     , (46427,  22, 0x3400002B) /* PhysicsEffectTable */;

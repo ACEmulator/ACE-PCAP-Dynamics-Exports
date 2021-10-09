@@ -23,7 +23,7 @@ VALUES (20250,   1, 'Scroll of Replenish') /* Name */
 Restores 100-200 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20250,   1,   33554826) /* Setup */
-     , (20250,   8,  100676930) /* Icon */
-     , (20250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20250,   1, 0x0200018A) /* Setup */
+     , (20250,   8, 0x06003542) /* Icon */
+     , (20250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20250,  28,       2082) /* Spell - RevitalizeOther7 */;

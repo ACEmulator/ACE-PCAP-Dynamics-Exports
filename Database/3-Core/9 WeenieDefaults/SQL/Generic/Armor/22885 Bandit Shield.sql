@@ -40,14 +40,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22885,   1, 'Bandit Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22885,   1,   33554786) /* Setup */
-     , (22885,   3,  536870932) /* SoundTable */
-     , (22885,   6,   67111919) /* PaletteBase */
-     , (22885,   8,  100673878) /* Icon */
-     , (22885,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22885,   1, 0x02000162) /* Setup */
+     , (22885,   3, 0x20000014) /* SoundTable */
+     , (22885,   6, 0x04000BEF) /* PaletteBase */
+     , (22885,   8, 0x06002956) /* Icon */
+     , (22885,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22885,   854,      2)  /* DeceptionMasterySelf5 */
-     , (22885,   926,      2)  /* LockpickMasterySelf5 */
-     , (22885,  1093,      2)  /* FireProtectionSelf5 */
-     , (22885,  1485,      2)  /* Impenetrability5 */;
+VALUES (22885,  1093,      2)  /* FireProtectionSelf5 */
+     , (22885,  1485,      2)  /* Impenetrability5 */
+     , (22885,   854,      2)  /* DeceptionMasterySelf5 */
+     , (22885,   926,      2)  /* LockpickMasterySelf5 */;

@@ -50,14 +50,14 @@ VALUES (41924,   1, 'Enhanced Assault Sword') /* Name */
      , (41924,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41924,   1,   33558209) /* Setup */
-     , (41924,   3,  536870932) /* SoundTable */
-     , (41924,   8,  100671749) /* Icon */
-     , (41924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41924,   1, 0x02000EC1) /* Setup */
+     , (41924,   3, 0x20000014) /* SoundTable */
+     , (41924,   8, 0x06002105) /* Icon */
+     , (41924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41924,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41924, 8040, 18809102, 28.54784, -33.58186, 2.220771, 0.6926227, 0.6926227, -0.1423864, -0.1423864) /* PCAPRecordedLocation */
+VALUES (41924, 8040, 0x011F010E, 28.54784, -33.58186, 2.220771, 0.692623, 0.692623, -0.142386, -0.142386) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [28.547840 -33.581860 2.220771] 0.692623 0.692623 -0.142386 -0.142386 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -21,7 +21,7 @@ VALUES (37589,   1, 'Forge Vault Key') /* Name */
      , (37589,  14, 'This key unlocks the Forge Vault.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37589,   1,   33554784) /* Setup */
-     , (37589,   3,  536870932) /* SoundTable */
-     , (37589,   8,  100667486) /* Icon */
-     , (37589,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37589,   1, 0x02000160) /* Setup */
+     , (37589,   3, 0x20000014) /* SoundTable */
+     , (37589,   8, 0x0600105E) /* Icon */
+     , (37589,  22, 0x3400002B) /* PhysicsEffectTable */;

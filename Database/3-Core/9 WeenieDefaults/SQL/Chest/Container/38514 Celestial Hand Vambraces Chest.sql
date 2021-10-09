@@ -28,12 +28,12 @@ VALUES (38514,   1, 'Celestial Hand Vambraces Chest') /* Name */
      , (38514,  16, 'A Society Reward Chest, containing a randomly enchanted set of Celestial Hand Vambraces.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38514,   1,   33554556) /* Setup */
-     , (38514,   2,  150994948) /* MotionTable */
-     , (38514,   3,  536870945) /* SoundTable */
-     , (38514,   8,  100667426) /* Icon */
-     , (38514,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38514,   1, 0x0200007C) /* Setup */
+     , (38514,   2, 0x09000004) /* MotionTable */
+     , (38514,   3, 0x20000021) /* SoundTable */
+     , (38514,   8, 0x06001022) /* Icon */
+     , (38514,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38514, 8040, 11993349, 56.0053, -42.4058, -24, -0.7110268, 0, 0, -0.7031648) /* PCAPRecordedLocation */
+VALUES (38514, 8040, 0x00B70105, 56.0053, -42.4058, -24, -0.711027, 0, 0, -0.703165) /* PCAPRecordedLocation */
 /* @teleloc 0x00B70105 [56.005300 -42.405800 -24.000000] -0.711027 0.000000 0.000000 -0.703165 */;

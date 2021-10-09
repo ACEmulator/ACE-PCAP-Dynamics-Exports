@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14717,   1, 'Lord Cambarth Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14717,   1,   33557463) /* Setup */
-     , (14717,   8,  100668115) /* Icon */;
+VALUES (14717,   1, 0x02000BD7) /* Setup */
+     , (14717,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14717, 8040, 1910767637, 69.4727, 117.163, 184.8695, -0.28729, 0, 0, -0.957844) /* PCAPRecordedLocation */
+VALUES (14717, 8040, 0x71E40015, 69.4727, 117.163, 184.8695, -0.28729, 0, 0, -0.957844) /* PCAPRecordedLocation */
 /* @teleloc 0x71E40015 [69.472700 117.163000 184.869500] -0.287290 0.000000 0.000000 -0.957844 */;

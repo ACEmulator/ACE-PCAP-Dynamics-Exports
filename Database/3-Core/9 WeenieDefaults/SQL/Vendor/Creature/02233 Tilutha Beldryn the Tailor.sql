@@ -34,20 +34,20 @@ VALUES (2233,   1, 'Tilutha Beldryn the Tailor') /* Name */
      , (2233,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2233,   1,   33554510) /* Setup */
-     , (2233,   2,  150994945) /* MotionTable */
-     , (2233,   3,  536870914) /* SoundTable */
-     , (2233,   6,   67108990) /* PaletteBase */
-     , (2233,   8,  100667446) /* Icon */
-     , (2233,   9,   83890281) /* EyesTexture */
-     , (2233,  10,   83890292) /* NoseTexture */
-     , (2233,  11,   83890350) /* MouthTexture */
-     , (2233,  15,   67117075) /* HairPalette */
-     , (2233,  16,   67109567) /* EyesPalette */
-     , (2233,  17,   67109558) /* SkinPalette */;
+VALUES (2233,   1, 0x0200004E) /* Setup */
+     , (2233,   2, 0x09000001) /* MotionTable */
+     , (2233,   3, 0x20000002) /* SoundTable */
+     , (2233,   6, 0x0400007E) /* PaletteBase */
+     , (2233,   8, 0x06001036) /* Icon */
+     , (2233,   9, 0x05001069) /* EyesTexture */
+     , (2233,  10, 0x05001074) /* NoseTexture */
+     , (2233,  11, 0x050010AE) /* MouthTexture */
+     , (2233,  15, 0x04002013) /* HairPalette */
+     , (2233,  16, 0x040002BF) /* EyesPalette */
+     , (2233,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2233, 8040, 3665101097, 158.221, 112.716, 18.005, -0.139855, 0, 0, -0.990172) /* PCAPRecordedLocation */
+VALUES (2233, 8040, 0xDA750129, 158.221, 112.716, 18.005, -0.139855, 0, 0, -0.990172) /* PCAPRecordedLocation */
 /* @teleloc 0xDA750129 [158.221000 112.716000 18.005000] -0.139855 0.000000 0.000000 -0.990172 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

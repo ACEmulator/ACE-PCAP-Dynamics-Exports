@@ -23,5 +23,5 @@ VALUES (19218,   1, 'Bronze Gear from a Statue') /* Name */
      , (19218,  15, 'A bronze gear taken from the ruins of a living Bronze Statue of a Reedshark. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19218,   1,   33557681) /* Setup */
-     , (19218,   8,  100672956) /* Icon */;
+VALUES (19218,   1, 0x02000CB1) /* Setup */
+     , (19218,   8, 0x060025BC) /* Icon */;

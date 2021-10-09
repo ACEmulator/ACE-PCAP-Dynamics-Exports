@@ -29,20 +29,20 @@ VALUES (32693,   1, 'Garmasi') /* Name */
      , (32693,   5, 'Royal Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32693,   1,   33554433) /* Setup */
-     , (32693,   2,  150994945) /* MotionTable */
-     , (32693,   3,  536870913) /* SoundTable */
-     , (32693,   6,   67108990) /* PaletteBase */
-     , (32693,   8,  100667446) /* Icon */
-     , (32693,   9,   83890448) /* EyesTexture */
-     , (32693,  10,   83890547) /* NoseTexture */
-     , (32693,  11,   83890658) /* MouthTexture */
-     , (32693,  15,   67117103) /* HairPalette */
-     , (32693,  16,   67109564) /* EyesPalette */
-     , (32693,  17,   67115905) /* SkinPalette */;
+VALUES (32693,   1, 0x02000001) /* Setup */
+     , (32693,   2, 0x09000001) /* MotionTable */
+     , (32693,   3, 0x20000001) /* SoundTable */
+     , (32693,   6, 0x0400007E) /* PaletteBase */
+     , (32693,   8, 0x06001036) /* Icon */
+     , (32693,   9, 0x05001110) /* EyesTexture */
+     , (32693,  10, 0x05001173) /* NoseTexture */
+     , (32693,  11, 0x050011E2) /* MouthTexture */
+     , (32693,  15, 0x0400202F) /* HairPalette */
+     , (32693,  16, 0x040002BC) /* EyesPalette */
+     , (32693,  17, 0x04001B81) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32693, 8040, 836108589, 51.0098, 122.72, 80.105, -0.999986, 0, 0, -0.00528809) /* PCAPRecordedLocation */
+VALUES (32693, 8040, 0x31D6012D, 51.0098, 122.72, 80.105, -0.999986, 0, 0, -0.005288) /* PCAPRecordedLocation */
 /* @teleloc 0x31D6012D [51.009800 122.720000 80.105000] -0.999986 0.000000 0.000000 -0.005288 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

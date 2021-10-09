@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23883,   1, 'Ulgrim''s Island') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23883,   1,   33556189) /* Setup */
-     , (23883,   8,  100668115) /* Icon */;
+VALUES (23883,   1, 0x020006DD) /* Setup */
+     , (23883,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23883, 8040, 1929904151, 70.8269, 164.452, 12, 0.0461788, 0, 0, -0.998933) /* PCAPRecordedLocation */
+VALUES (23883, 8040, 0x73080017, 70.8269, 164.452, 12, 0.046179, 0, 0, -0.998933) /* PCAPRecordedLocation */
 /* @teleloc 0x73080017 [70.826900 164.452000 12.000000] 0.046179 0.000000 0.000000 -0.998933 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

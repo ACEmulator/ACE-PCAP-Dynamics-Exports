@@ -9,7 +9,7 @@ VALUES (0x700DA016, 27562, 0x00DA0135, 184.5, -40, -12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x00DA0135 [184.500000 -40.000000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA02C, 27562, 0x00DA0192, 100, -56.5, 0, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x700DA02C, 27562, 0x00DA0192, 100, -56.5, 0, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x00DA0192 [100.000000 -56.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,7 +41,7 @@ VALUES (0x700DA04E, 27562, 0x00DA0250, 215.5, -40, 24, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x00DA0250 [215.500000 -40.000000 24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA04F,  1154, 0x00DA019E, 110, -50, 0.02899998, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x700DA04F,  1154, 0x00DA019E, 110, -50, 0.029, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x00DA019E [110.000000 -50.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -114,7 +114,7 @@ VALUES (0x700DA04F, 0x700DA050, '2019-02-10 00:00:00') /* Doomed Spirit (31948) 
      , (0x700DA04F, 0x700DA092, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA050, 31948, 0x00DA019E, 110, -50, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
+VALUES (0x700DA050, 31948, 0x00DA019E, 110, -50, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
 /* @teleloc 0x00DA019E [110.000000 -50.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -122,7 +122,7 @@ VALUES (0x700DA051, 34044, 0x00DA01B3, 120, -60, 0, 1, 0, 0, 0,  True, '2019-02-
 /* @teleloc 0x00DA01B3 [120.000000 -60.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA052, 33285, 0x00DA0193, 100, -60, 0.009750009, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
+VALUES (0x700DA052, 33285, 0x00DA0193, 100, -60, 0.00975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
 /* @teleloc 0x00DA0193 [100.000000 -60.000000 0.009750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -134,35 +134,35 @@ VALUES (0x700DA054, 34980, 0x00DA0188, 90, -50, 0, 1, 0, 0, 0,  True, '2019-02-1
 /* @teleloc 0x00DA0188 [90.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA055, 33286, 0x00DA01D1, 150, -50, 0.01362395, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
+VALUES (0x700DA055, 33286, 0x00DA01D1, 150, -50, 0.013624, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
 /* @teleloc 0x00DA01D1 [150.000000 -50.000000 0.013624] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA056, 31948, 0x00DA01CD, 150, -30, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
+VALUES (0x700DA056, 31948, 0x00DA01CD, 150, -30, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
 /* @teleloc 0x00DA01CD [150.000000 -30.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA057, 33286, 0x00DA0183, 90, -10, 0.01362395, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
+VALUES (0x700DA057, 33286, 0x00DA0183, 90, -10, 0.013624, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
 /* @teleloc 0x00DA0183 [90.000000 -10.000000 0.013624] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA058, 34977, 0x00DA0186, 90, -30, 0.00999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infused Blood Golem */
+VALUES (0x700DA058, 34977, 0x00DA0186, 90, -30, 0.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infused Blood Golem */
 /* @teleloc 0x00DA0186 [90.000000 -30.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA059, 33285, 0x00DA0199, 110, -10, 0.009750009, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
+VALUES (0x700DA059, 33285, 0x00DA0199, 110, -10, 0.00975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
 /* @teleloc 0x00DA0199 [110.000000 -10.000000 0.009750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA05A, 34972, 0x00DA01B8, 130, -10, 0.009750009, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Falatacot Blood Elder */
+VALUES (0x700DA05A, 34972, 0x00DA01B8, 130, -10, 0.00975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Falatacot Blood Elder */
 /* @teleloc 0x00DA01B8 [130.000000 -10.000000 0.009750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA05B, 31948, 0x00DA01BB, 140, 0, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
+VALUES (0x700DA05B, 31948, 0x00DA01BB, 140, 0, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
 /* @teleloc 0x00DA01BB [140.000000 0.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA05C, 33286, 0x00DA01D7, 160, 0, 0.01362395, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
+VALUES (0x700DA05C, 33286, 0x00DA01D7, 160, 0, 0.013624, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Imperial Consort */
 /* @teleloc 0x00DA01D7 [160.000000 0.000000 0.013624] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -170,7 +170,7 @@ VALUES (0x700DA05D, 33286, 0x00DA0171, 150, -20, -5.986376, 1, 0, 0, 0,  True, '
 /* @teleloc 0x00DA0171 [150.000000 -20.000000 -5.986376] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA05E, 34977, 0x00DA01DB, 160, -20, 0.00999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infused Blood Golem */
+VALUES (0x700DA05E, 34977, 0x00DA01DB, 160, -20, 0.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infused Blood Golem */
 /* @teleloc 0x00DA01DB [160.000000 -20.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -198,7 +198,7 @@ VALUES (0x700DA064, 33286, 0x00DA017E, 220, -50, -5.986376, 1, 0, 0, 0,  True, '
 /* @teleloc 0x00DA017E [220.000000 -50.000000 -5.986376] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA065, 33285, 0x00DA01DE, 200, -60, 0.009750009, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
+VALUES (0x700DA065, 33285, 0x00DA01DE, 200, -60, 0.00975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Enraged Ancient Soul */
 /* @teleloc 0x00DA01DE [200.000000 -60.000000 0.009750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -238,19 +238,19 @@ VALUES (0x700DA06E, 33285, 0x00DA024F, 220, -40, 24.00975, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x00DA024F [220.000000 -40.000000 24.009750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA06F, 37180, 0x00DA024A, 212.0912, -42.88373, 24.00825, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Imperial Archivist */
+VALUES (0x700DA06F, 37180, 0x00DA024A, 212.0912, -42.88373, 24.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Imperial Archivist */
 /* @teleloc 0x00DA024A [212.091200 -42.883730 24.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA070, 37179, 0x00DA024A, 213.5178, -43.34726, 24.00825, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Imperial Guard */
+VALUES (0x700DA070, 37179, 0x00DA024A, 213.5178, -43.34726, 24.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Imperial Guard */
 /* @teleloc 0x00DA024A [213.517800 -43.347260 24.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA071, 38036, 0x00DA0241, 185, -40, 24, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Falatacot Warden Statue */
+VALUES (0x700DA071, 38036, 0x00DA0241, 185, -40, 24, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Falatacot Warden Statue */
 /* @teleloc 0x00DA0241 [185.000000 -40.000000 24.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA072, 37179, 0x00DA024A, 211.1163, -42.66121, 24.00825, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Imperial Guard */
+VALUES (0x700DA072, 37179, 0x00DA024A, 211.1163, -42.66121, 24.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Imperial Guard */
 /* @teleloc 0x00DA024A [211.116300 -42.661210 24.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -322,7 +322,7 @@ VALUES (0x700DA083, 31948, 0x00DA0103, 20, -200, -23.971, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x00DA0103 [20.000000 -200.000000 -23.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA084, 38029, 0x00DA0106, 29.3, -200, -23.995, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Elite Zharalim Agent */
+VALUES (0x700DA084, 38029, 0x00DA0106, 29.3, -200, -23.995, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Elite Zharalim Agent */
 /* @teleloc 0x00DA0106 [29.300000 -200.000000 -23.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -330,23 +330,23 @@ VALUES (0x700DA085, 37177, 0x00DA0106, 26.5, -203, -23.995, 1, 0, 0, 0,  True, '
 /* @teleloc 0x00DA0106 [26.500000 -203.000000 -23.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA086, 37177, 0x00DA0106, 26.5, -197, -23.995, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
+VALUES (0x700DA086, 37177, 0x00DA0106, 26.5, -197, -23.995, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
 /* @teleloc 0x00DA0106 [26.500000 -197.000000 -23.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA087, 37177, 0x00DA0106, 29, -203, -23.995, -0.9396926, 0, 0, -0.3420202,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
+VALUES (0x700DA087, 37177, 0x00DA0106, 29, -203, -23.995, -0.939693, 0, 0, -0.34202,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
 /* @teleloc 0x00DA0106 [29.000000 -203.000000 -23.995000] -0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA088, 37177, 0x00DA0106, 29, -197, -23.995, -0.3420201, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
+VALUES (0x700DA088, 37177, 0x00DA0106, 29, -197, -23.995, -0.34202, 0, 0, -0.939693,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
 /* @teleloc 0x00DA0106 [29.000000 -197.000000 -23.995000] -0.342020 0.000000 0.000000 -0.939693 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA089, 37177, 0x00DA0106, 31, -200, -23.995, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
+VALUES (0x700DA089, 37177, 0x00DA0106, 31, -200, -23.995, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Blood Priestess */
 /* @teleloc 0x00DA0106 [31.000000 -200.000000 -23.995000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA08A, 38037, 0x00DA0111, 55, -200, -24, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Falatacot Warden Statue */
+VALUES (0x700DA08A, 38037, 0x00DA0111, 55, -200, -24, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Falatacot Warden Statue */
 /* @teleloc 0x00DA0111 [55.000000 -200.000000 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -382,7 +382,7 @@ VALUES (0x700DA092, 34977, 0x00DA0227, 274.45, -119.0314, 12.01, -0.714424, 0, 0
 /* @teleloc 0x00DA0227 [274.450000 -119.031400 12.010000] -0.714424 0.000000 0.000000 -0.699713 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA093,  1154, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.5720666, 0, 0, -0.8202072, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x700DA093,  1154, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.572067, 0, 0, -0.820207, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x00DA0114 [2.854480 -200.158900 -17.995000] -0.572067 0.000000 0.000000 -0.820207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -390,7 +390,7 @@ VALUES (0x700DA093, 0x700DA094, '2019-02-10 00:00:00') /* Corpse of Elite Zharal
      , (0x700DA093, 0x700DA095, '2019-02-10 00:00:00') /* Falatacot Herald (38035) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700DA094, 38038, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.5720666, 0, 0, -0.8202072,  True, '2019-02-10 00:00:00'); /* Corpse of Elite Zharalim Agent */
+VALUES (0x700DA094, 38038, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.572067, 0, 0, -0.820207,  True, '2019-02-10 00:00:00'); /* Corpse of Elite Zharalim Agent */
 /* @teleloc 0x00DA0114 [2.854480 -200.158900 -17.995000] -0.572067 0.000000 0.000000 -0.820207 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

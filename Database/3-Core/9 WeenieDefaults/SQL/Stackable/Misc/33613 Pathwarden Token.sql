@@ -27,7 +27,7 @@ VALUES (33613,   1, 'Pathwarden Token') /* Name */
      , (33613,  16, 'Turn this token into one of the Pathwarden Greeters at Holtburg, Yaraq, Shoushi, or Sanamar to receive a key to the Pathwarden Supply Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33613,   1,   33557006) /* Setup */
-     , (33613,   3,  536870932) /* SoundTable */
-     , (33613,   8,  100689045) /* Icon */
-     , (33613,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33613,   1, 0x02000A0E) /* Setup */
+     , (33613,   3, 0x20000014) /* SoundTable */
+     , (33613,   8, 0x06006495) /* Icon */
+     , (33613,  22, 0x3400002B) /* PhysicsEffectTable */;

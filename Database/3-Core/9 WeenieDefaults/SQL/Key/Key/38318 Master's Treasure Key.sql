@@ -27,6 +27,6 @@ VALUES (38318,   1, 'Master''s Treasure Key') /* Name */
      , (38318,  16, 'A key, rewarded to you for achieving the Rank of Master within your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38318,   1,   33554784) /* Setup */
-     , (38318,   8,  100668441) /* Icon */
-     , (38318,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38318,   1, 0x02000160) /* Setup */
+     , (38318,   8, 0x06001419) /* Icon */
+     , (38318,  22, 0x3400002B) /* PhysicsEffectTable */;

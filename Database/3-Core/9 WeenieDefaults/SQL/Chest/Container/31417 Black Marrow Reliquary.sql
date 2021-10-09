@@ -26,14 +26,14 @@ VALUES (31417,   1, 'Black Marrow Reliquary') /* Name */
      , (31417,  16, 'A disturbing reliquary, charred black by the devastation of the Singularity Caul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31417,   1,   33559268) /* Setup */
-     , (31417,   2,  150995333) /* MotionTable */
-     , (31417,   3,  536870950) /* SoundTable */
-     , (31417,   8,  100677492) /* Icon */
-     , (31417,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31417,   1, 0x020012E4) /* Setup */
+     , (31417,   2, 0x09000185) /* MotionTable */
+     , (31417,   3, 0x20000026) /* SoundTable */
+     , (31417,   8, 0x06003774) /* Icon */
+     , (31417,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31417, 8040, 15794477, 90, -152.943, -71.98215, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (31417, 8040, 0x00F1012D, 90, -152.943, -71.98215, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00F1012D [90.000000 -152.943000 -71.982150] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

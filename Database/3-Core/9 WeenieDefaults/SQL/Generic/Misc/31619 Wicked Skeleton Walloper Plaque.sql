@@ -23,9 +23,9 @@ VALUES (31619,   1, 'Wicked Skeleton Walloper Plaque') /* Name */
      , (31619,  15, 'The owner of this plaque is a verified "Wicked Skeleton Walloper"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31619,   1,   33559570) /* Setup */
-     , (31619,   3,  536870932) /* SoundTable */
-     , (31619,   6,   67111919) /* PaletteBase */
-     , (31619,   8,  100669124) /* Icon */
-     , (31619,  22,  872415275) /* PhysicsEffectTable */
-     , (31619,  52,  100687683) /* IconUnderlay */;
+VALUES (31619,   1, 0x02001412) /* Setup */
+     , (31619,   3, 0x20000014) /* SoundTable */
+     , (31619,   6, 0x04000BEF) /* PaletteBase */
+     , (31619,   8, 0x060016C4) /* Icon */
+     , (31619,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31619,  52, 0x06005F43) /* IconUnderlay */;

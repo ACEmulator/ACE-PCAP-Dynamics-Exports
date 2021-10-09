@@ -28,8 +28,8 @@ VALUES (53484,   1, 'Viridian Key of the Sixth Portal') /* Name */
      , (53484,  20, 'Viridian Keys of the Sixth Portal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53484,   1,   33554784) /* Setup */
-     , (53484,   3,  536870932) /* SoundTable */
-     , (53484,   8,  100667486) /* Icon */
-     , (53484,  22,  872415275) /* PhysicsEffectTable */
-     , (53484,  52,  100689826) /* IconUnderlay */;
+VALUES (53484,   1, 0x02000160) /* Setup */
+     , (53484,   3, 0x20000014) /* SoundTable */
+     , (53484,   8, 0x0600105E) /* Icon */
+     , (53484,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53484,  52, 0x060067A2) /* IconUnderlay */;

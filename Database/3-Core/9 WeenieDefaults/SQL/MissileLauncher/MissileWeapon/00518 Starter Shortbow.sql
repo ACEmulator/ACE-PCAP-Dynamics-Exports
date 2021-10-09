@@ -35,11 +35,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (518,   1, 'Starter Shortbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (518,   1,   33554729) /* Setup */
-     , (518,   3,  536870932) /* SoundTable */
-     , (518,   8,  100667583) /* Icon */
-     , (518,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (518,   1, 0x02000129) /* Setup */
+     , (518,   3, 0x20000014) /* SoundTable */
+     , (518,   8, 0x060010BF) /* Icon */
+     , (518,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (518, 8040, 3332964718, 102.5417, 85.97041, 46.73, -0.3710155, 0, 0, -0.9286267) /* PCAPRecordedLocation */
+VALUES (518, 8040, 0xC6A9016E, 102.5417, 85.97041, 46.73, -0.371016, 0, 0, -0.928627) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9016E [102.541700 85.970410 46.730000] -0.371016 0.000000 0.000000 -0.928627 */;

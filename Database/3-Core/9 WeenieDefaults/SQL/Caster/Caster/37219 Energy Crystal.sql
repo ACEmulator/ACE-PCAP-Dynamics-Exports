@@ -50,21 +50,21 @@ VALUES (37219,   1, 'Energy Crystal') /* Name */
      , (37219,  40, 'Photo II') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37219,   1,   33557374) /* Setup */
-     , (37219,   3,  536870932) /* SoundTable */
-     , (37219,   8,  100672184) /* Icon */
-     , (37219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37219,   1, 0x02000B7E) /* Setup */
+     , (37219,   3, 0x20000014) /* SoundTable */
+     , (37219,   8, 0x060022B8) /* Icon */
+     , (37219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37219,  28,       2146) /* Spell - WhirlingBlade7 */
-     , (37219,  50,  100689143) /* IconOverlay */
-     , (37219,  52,  100676440) /* IconUnderlay */;
+     , (37219,  50, 0x060064F7) /* IconOverlay */
+     , (37219,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37219, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (37219, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37219,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37219,  2287,      2)  /* ManaMasterySelf7 */
      , (37219,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (37219,  2287,      2)  /* ManaMasterySelf7 */
      , (37219,  3259,      2)  /* SpiritDrinkerSelf7 */
      , (37219,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */;

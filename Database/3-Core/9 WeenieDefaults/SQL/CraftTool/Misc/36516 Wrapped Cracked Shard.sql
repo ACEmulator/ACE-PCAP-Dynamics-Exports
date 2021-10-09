@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36516,   1, 'Wrapped Cracked Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36516,   1,   33558400) /* Setup */
-     , (36516,   3,  536870932) /* SoundTable */
-     , (36516,   8,  100670633) /* Icon */
-     , (36516,  22,  872415275) /* PhysicsEffectTable */
-     , (36516,  52,  100689632) /* IconUnderlay */;
+VALUES (36516,   1, 0x02000F80) /* Setup */
+     , (36516,   3, 0x20000014) /* SoundTable */
+     , (36516,   8, 0x06001CA9) /* Icon */
+     , (36516,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36516,  52, 0x060066E0) /* IconUnderlay */;

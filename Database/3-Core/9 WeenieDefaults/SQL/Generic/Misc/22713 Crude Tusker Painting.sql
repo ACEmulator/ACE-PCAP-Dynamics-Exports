@@ -18,9 +18,9 @@ VALUES (22713,   1, 'Crude Tusker Painting') /* Name */
      , (22713,  16, 'A picture of a Tusker wearing a crown and munching on Chittick.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22713,   1,   33558139) /* Setup */
-     , (22713,   8,  100668115) /* Icon */;
+VALUES (22713,   1, 0x02000E7B) /* Setup */
+     , (22713,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22713, 8040, 1598226854, 27.1061, -58.2148, -18, 0.683154, 0, 0, -0.730274) /* PCAPRecordedLocation */
+VALUES (22713, 8040, 0x5F4301A6, 27.1061, -58.2148, -18, 0.683154, 0, 0, -0.730274) /* PCAPRecordedLocation */
 /* @teleloc 0x5F4301A6 [27.106100 -58.214800 -18.000000] 0.683154 0.000000 0.000000 -0.730274 */;

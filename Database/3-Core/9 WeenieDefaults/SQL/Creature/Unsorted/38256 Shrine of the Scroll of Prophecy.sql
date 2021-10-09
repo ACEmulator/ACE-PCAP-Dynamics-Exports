@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38256,   1, 'Shrine of the Scroll of Prophecy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38256,   1,   33558607) /* Setup */
-     , (38256,   2,  150995279) /* MotionTable */
-     , (38256,   3,  536871052) /* SoundTable */
-     , (38256,   8,  100675788) /* Icon */
-     , (38256,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38256,   1, 0x0200104F) /* Setup */
+     , (38256,   2, 0x0900014F) /* MotionTable */
+     , (38256,   3, 0x2000008C) /* SoundTable */
+     , (38256,   8, 0x060030CC) /* Icon */
+     , (38256,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38256, 8040, 1024065558, 60, 132, 2.94674, 0.999903, 0, 0, -0.0139447) /* PCAPRecordedLocation */
+VALUES (38256, 8040, 0x3D0A0016, 60, 132, 2.94674, 0.999903, 0, 0, -0.013945) /* PCAPRecordedLocation */
 /* @teleloc 0x3D0A0016 [60.000000 132.000000 2.946740] 0.999903 0.000000 0.000000 -0.013945 */;

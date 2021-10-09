@@ -35,20 +35,20 @@ VALUES (2294,   1, 'Son Jaiken the Armorer') /* Name */
      , (2294,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2294,   1,   33554510) /* Setup */
-     , (2294,   2,  150994945) /* MotionTable */
-     , (2294,   3,  536870914) /* SoundTable */
-     , (2294,   6,   67108990) /* PaletteBase */
-     , (2294,   8,  100667446) /* Icon */
-     , (2294,   9,   83890235) /* EyesTexture */
-     , (2294,  10,   83890290) /* NoseTexture */
-     , (2294,  11,   83890331) /* MouthTexture */
-     , (2294,  15,   67117000) /* HairPalette */
-     , (2294,  16,   67109565) /* EyesPalette */
-     , (2294,  17,   67110049) /* SkinPalette */;
+VALUES (2294,   1, 0x0200004E) /* Setup */
+     , (2294,   2, 0x09000001) /* MotionTable */
+     , (2294,   3, 0x20000002) /* SoundTable */
+     , (2294,   6, 0x0400007E) /* PaletteBase */
+     , (2294,   8, 0x06001036) /* Icon */
+     , (2294,   9, 0x0500103B) /* EyesTexture */
+     , (2294,  10, 0x05001072) /* NoseTexture */
+     , (2294,  11, 0x0500109B) /* MouthTexture */
+     , (2294,  15, 0x04001FC8) /* HairPalette */
+     , (2294,  16, 0x040002BD) /* EyesPalette */
+     , (2294,  17, 0x040004A1) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2294, 8040, 3378184483, 111.867, 67.5011, 12.005, -0.9962036, 0, 0, -0.08705422) /* PCAPRecordedLocation */
+VALUES (2294, 8040, 0xC95B0123, 111.867, 67.5011, 12.005, -0.996204, 0, 0, -0.087054) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0123 [111.867000 67.501100 12.005000] -0.996204 0.000000 0.000000 -0.087054 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

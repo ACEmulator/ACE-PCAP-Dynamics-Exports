@@ -40,16 +40,16 @@ VALUES (27088,   1, 'Helm of the Crag') /* Name */
      , (27088,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27088,   1,   33557002) /* Setup */
-     , (27088,   3,  536870932) /* SoundTable */
-     , (27088,   6,   67108990) /* PaletteBase */
-     , (27088,   8,  100671467) /* Icon */
-     , (27088,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27088,   1, 0x02000A0A) /* Setup */
+     , (27088,   3, 0x20000014) /* SoundTable */
+     , (27088,   6, 0x0400007E) /* PaletteBase */
+     , (27088,   8, 0x06001FEB) /* Icon */
+     , (27088,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27088,   883,      2)  /* HealingMasteryOther4 */
+VALUES (27088,  1538,      2)  /* LightningBane4 */
      , (27088,  1027,      2)  /* BludgeonProtectionOther4 */
+     , (27088,  1550,      2)  /* FlameBane4 */
      , (27088,  1496,      2)  /* AcidBane4 */
-     , (27088,  1526,      2)  /* FrostBane4 */
-     , (27088,  1538,      2)  /* LightningBane4 */
-     , (27088,  1550,      2)  /* FlameBane4 */;
+     , (27088,   883,      2)  /* HealingMasteryOther4 */
+     , (27088,  1526,      2)  /* FrostBane4 */;

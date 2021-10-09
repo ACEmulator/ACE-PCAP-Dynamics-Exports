@@ -19,6 +19,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33827,   1, 'Old Footlocker Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33827,   1,   33554784) /* Setup */
-     , (33827,   8,  100668441) /* Icon */
-     , (33827,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33827,   1, 0x02000160) /* Setup */
+     , (33827,   8, 0x06001419) /* Icon */
+     , (33827,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,8 +21,8 @@ VALUES (25995,   1, 'Lucky Rabbit''s Foot') /* Name */
      , (25995,  16, 'A pastel and rather disgusting rabbit''s foot - apparently from a truly enormous rabbit. Give this foot to Larry the Rabbit Master at his farm northeast of Lytelthorpe and he will give you the title of "Bunny Master". ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25995,   1,   33554817) /* Setup */
-     , (25995,   3,  536870932) /* SoundTable */
-     , (25995,   6,   67111919) /* PaletteBase */
-     , (25995,   8,  100675689) /* Icon */
-     , (25995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25995,   1, 0x02000181) /* Setup */
+     , (25995,   3, 0x20000014) /* SoundTable */
+     , (25995,   6, 0x04000BEF) /* PaletteBase */
+     , (25995,   8, 0x06003069) /* Icon */
+     , (25995,  22, 0x3400002B) /* PhysicsEffectTable */;

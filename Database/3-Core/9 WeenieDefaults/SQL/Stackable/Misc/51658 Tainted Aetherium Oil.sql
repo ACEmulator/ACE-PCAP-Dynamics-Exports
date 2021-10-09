@@ -32,8 +32,8 @@ VALUES (51658,   1, 'Tainted Aetherium Oil') /* Name */
      , (51658,  20, 'Tainted Aetherium Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51658,   1,   33554817) /* Setup */
-     , (51658,   3,  536870932) /* SoundTable */
-     , (51658,   6,   67111919) /* PaletteBase */
-     , (51658,   8,  100669997) /* Icon */
-     , (51658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51658,   1, 0x02000181) /* Setup */
+     , (51658,   3, 0x20000014) /* SoundTable */
+     , (51658,   6, 0x04000BEF) /* PaletteBase */
+     , (51658,   8, 0x06001A2D) /* Icon */
+     , (51658,  22, 0x3400002B) /* PhysicsEffectTable */;

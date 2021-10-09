@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53015,   1, 'Thunder Turkey') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53015,   1,   33561616) /* Setup */
-     , (53015,   2,  150995399) /* MotionTable */
-     , (53015,   3,  536871130) /* SoundTable */
-     , (53015,   8,  100674625) /* Icon */
-     , (53015,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (53015,   1, 0x02001C10) /* Setup */
+     , (53015,   2, 0x090001C7) /* MotionTable */
+     , (53015,   3, 0x200000DA) /* SoundTable */
+     , (53015,   8, 0x06002C41) /* Icon */
+     , (53015,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53015, 8040, 1500119298, 12.0935, -20, -0.02800012, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
+VALUES (53015, 8040, 0x596A0102, 12.0935, -20, -0.028, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x596A0102 [12.093500 -20.000000 -0.028000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

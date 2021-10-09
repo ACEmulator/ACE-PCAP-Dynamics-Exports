@@ -30,7 +30,7 @@ VALUES (43905,   1, 'Boxed Ornate Gear Marker') /* Name */
      , (43905,  16, 'A box containing an Ornate Gear Marker.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43905,   1,   33554718) /* Setup */
-     , (43905,   3,  536870932) /* SoundTable */
-     , (43905,   8,  100691793) /* Icon */
-     , (43905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43905,   1, 0x0200011E) /* Setup */
+     , (43905,   3, 0x20000014) /* SoundTable */
+     , (43905,   8, 0x06006F51) /* Icon */
+     , (43905,  22, 0x3400002B) /* PhysicsEffectTable */;

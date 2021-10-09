@@ -22,8 +22,8 @@ VALUES (36729,   1, 'Enchanted Copper Phial Pea') /* Name */
      , (36729,  20, 'Enchanted Copper Phial Peas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36729,   1,   33560312) /* Setup */
-     , (36729,   3,  536870932) /* SoundTable */
-     , (36729,   6,   67111919) /* PaletteBase */
-     , (36729,   8,  100689705) /* Icon */
-     , (36729,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36729,   1, 0x020016F8) /* Setup */
+     , (36729,   3, 0x20000014) /* SoundTable */
+     , (36729,   6, 0x04000BEF) /* PaletteBase */
+     , (36729,   8, 0x06006729) /* Icon */
+     , (36729,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xC5AD;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5AD001,  1154, 0xC5AD003D, 189.2371, 101.7815, 133.3969, -0.2927537, 0, 0, -0.9561879, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7C5AD001,  1154, 0xC5AD003D, 189.2371, 101.7815, 133.3969, -0.292754, 0, 0, -0.956188, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xC5AD003D [189.237100 101.781500 133.396900] -0.292754 0.000000 0.000000 -0.956188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,19 +11,19 @@ VALUES (0x7C5AD001, 0x7C5AD002, '2019-02-10 00:00:00') /* Olthoi Servant (22010)
      , (0x7C5AD001, 0x7C5AD005, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5AD002, 22010, 0xC5AD003D, 189.2371, 101.7815, 133.3969, -0.2927537, 0, 0, -0.9561879,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
+VALUES (0x7C5AD002, 22010, 0xC5AD003D, 189.2371, 101.7815, 133.3969, -0.292754, 0, 0, -0.956188,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
 /* @teleloc 0xC5AD003D [189.237100 101.781500 133.396900] -0.292754 0.000000 0.000000 -0.956188 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5AD003,  1756, 0xC5AD0012, 56.17747, 40.82825, 109.9755, -0.3063123, 0, 0, -0.9519311,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+VALUES (0x7C5AD003,  1756, 0xC5AD0012, 56.17747, 40.82825, 109.9755, -0.306312, 0, 0, -0.951931,  True, '2019-02-10 00:00:00'); /* Shadow Child */
 /* @teleloc 0xC5AD0012 [56.177470 40.828250 109.975500] -0.306312 0.000000 0.000000 -0.951931 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5AD004,  1608, 0xC5AD000D, 41.41096, 106.4544, 103.3185, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
+VALUES (0x7C5AD004,  1608, 0xC5AD000D, 41.41096, 106.4544, 103.3185, -0.642788, 0, 0, -0.766044,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
 /* @teleloc 0xC5AD000D [41.410960 106.454400 103.318500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5AD005, 28878, 0xC5AD0008, 23.47745, 175.1741, 96.51324, -0.3755912, 0, 0, -0.9267854,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
+VALUES (0x7C5AD005, 28878, 0xC5AD0008, 23.47745, 175.1741, 96.51324, -0.375591, 0, 0, -0.926785,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
 /* @teleloc 0xC5AD0008 [23.477450 175.174100 96.513240] -0.375591 0.000000 0.000000 -0.926785 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

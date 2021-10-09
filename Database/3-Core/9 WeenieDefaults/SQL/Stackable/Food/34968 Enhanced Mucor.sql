@@ -33,8 +33,8 @@ VALUES (34968,   1, 'Enhanced Mucor') /* Name */
      , (34968,  20, 'Enhanced Mucor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34968,   1,   33558849) /* Setup */
-     , (34968,   3,  536870932) /* SoundTable */
-     , (34968,   8,  100689391) /* Icon */
-     , (34968,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34968,   1, 0x02001141) /* Setup */
+     , (34968,   3, 0x20000014) /* SoundTable */
+     , (34968,   8, 0x060065EF) /* Icon */
+     , (34968,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34968,  28,       4068) /* Spell - MucorManaWell */;

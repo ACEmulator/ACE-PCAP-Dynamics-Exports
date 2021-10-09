@@ -29,8 +29,8 @@ VALUES (38230,   1, 'Radiant Blood Commendation Ribbon') /* Name */
      , (38230,  16, 'A commendation ribbon, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38230,   1,   33554817) /* Setup */
-     , (38230,   3,  536870932) /* SoundTable */
-     , (38230,   6,   67111919) /* PaletteBase */
-     , (38230,   8,  100690176) /* Icon */
-     , (38230,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38230,   1, 0x02000181) /* Setup */
+     , (38230,   3, 0x20000014) /* SoundTable */
+     , (38230,   6, 0x04000BEF) /* PaletteBase */
+     , (38230,   8, 0x06006900) /* Icon */
+     , (38230,  22, 0x3400002B) /* PhysicsEffectTable */;

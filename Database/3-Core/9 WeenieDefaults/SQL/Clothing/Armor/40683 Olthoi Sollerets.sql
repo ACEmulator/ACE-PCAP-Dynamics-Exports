@@ -49,15 +49,15 @@ VALUES (40683,   1, 'Olthoi Sollerets') /* Name */
      , (40683,  16, 'Olthoi Sollerets of Two Handed Combat Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40683,   1,   33554654) /* Setup */
-     , (40683,   3,  536870932) /* SoundTable */
-     , (40683,   6,   67108990) /* PaletteBase */
-     , (40683,   8,  100674535) /* Icon */
-     , (40683,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40683,   1, 0x020000DE) /* Setup */
+     , (40683,   3, 0x20000014) /* SoundTable */
+     , (40683,   6, 0x0400007E) /* PaletteBase */
+     , (40683,   8, 0x06002BE7) /* Icon */
+     , (40683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40683,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40683,  2102,      2)  /* FlameBane7 */
-     , (40683,  2108,      2)  /* Impenetrability7 */
-     , (40683,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
-     , (40683,  5098,      2)  /* TwoHandedMasteryOther8 */;
+VALUES (40683,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
+     , (40683,  5098,      2)  /* TwoHandedMasteryOther8 */
+     , (40683,  2102,      2)  /* FlameBane7 */
+     , (40683,  2108,      2)  /* Impenetrability7 */;

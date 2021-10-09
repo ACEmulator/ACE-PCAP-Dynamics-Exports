@@ -25,7 +25,7 @@ VALUES (8233,   1, 'Cooked Pumpkin') /* Name */
      , (8233,  20, 'Bowls of Cooked Pumpkin') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8233,   1,   33555968) /* Setup */
-     , (8233,   3,  536870932) /* SoundTable */
-     , (8233,   8,  100671011) /* Icon */
-     , (8233,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8233,   1, 0x02000600) /* Setup */
+     , (8233,   3, 0x20000014) /* SoundTable */
+     , (8233,   8, 0x06001E23) /* Icon */
+     , (8233,  22, 0x3400002B) /* PhysicsEffectTable */;

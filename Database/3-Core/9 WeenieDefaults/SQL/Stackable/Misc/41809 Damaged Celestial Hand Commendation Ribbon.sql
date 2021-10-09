@@ -29,8 +29,8 @@ VALUES (41809,   1, 'Damaged Celestial Hand Commendation Ribbon') /* Name */
      , (41809,  16, 'A damaged commendation ribbon lost by a Celestial Hand agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41809,   1,   33554817) /* Setup */
-     , (41809,   3,  536870932) /* SoundTable */
-     , (41809,   6,   67111919) /* PaletteBase */
-     , (41809,   8,  100690845) /* Icon */
-     , (41809,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41809,   1, 0x02000181) /* Setup */
+     , (41809,   3, 0x20000014) /* SoundTable */
+     , (41809,   6, 0x04000BEF) /* PaletteBase */
+     , (41809,   8, 0x06006B9D) /* Icon */
+     , (41809,  22, 0x3400002B) /* PhysicsEffectTable */;

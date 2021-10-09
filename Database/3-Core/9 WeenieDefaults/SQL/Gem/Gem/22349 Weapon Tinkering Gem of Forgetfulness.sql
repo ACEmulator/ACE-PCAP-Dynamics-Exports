@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22349,   1, 'Weapon Tinkering Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22349,   1,   33558087) /* Setup */
-     , (22349,   6,   67111919) /* PaletteBase */
-     , (22349,   8,  100673789) /* Icon */
-     , (22349,  50,  100673787) /* IconOverlay */;
+VALUES (22349,   1, 0x02000E47) /* Setup */
+     , (22349,   6, 0x04000BEF) /* PaletteBase */
+     , (22349,   8, 0x060028FD) /* Icon */
+     , (22349,  50, 0x060028FB) /* IconOverlay */;

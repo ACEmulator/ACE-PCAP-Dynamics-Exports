@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35135,   1, 'War Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35135,   1,   33555590) /* Setup */
-     , (35135,   2,  150995283) /* MotionTable */
-     , (35135,   3,  536870974) /* SoundTable */
-     , (35135,   6,   67111893) /* PaletteBase */
-     , (35135,   8,  100669121) /* Icon */
-     , (35135,  22,  872415278) /* PhysicsEffectTable */
+VALUES (35135,   1, 0x02000486) /* Setup */
+     , (35135,   2, 0x09000153) /* MotionTable */
+     , (35135,   3, 0x2000003E) /* SoundTable */
+     , (35135,   6, 0x04000BD5) /* PaletteBase */
+     , (35135,   8, 0x060016C1) /* Icon */
+     , (35135,  22, 0x3400002E) /* PhysicsEffectTable */
      , (35135,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35135, 8040, 11600219, 28.75479, -1112.105, 0.105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35135, 8040, 0x00B1015B, 28.75479, -1112.105, 0.105, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1015B [28.754790 -1112.105000 0.105000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

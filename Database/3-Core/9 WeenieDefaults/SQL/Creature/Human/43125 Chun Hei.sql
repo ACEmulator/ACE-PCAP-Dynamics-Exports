@@ -31,20 +31,20 @@ VALUES (43125,   1, 'Chun Hei') /* Name */
      , (43125,   5, 'Forgotten Tunnels Investigator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43125,   1,   33554510) /* Setup */
-     , (43125,   2,  150994945) /* MotionTable */
-     , (43125,   3,  536870914) /* SoundTable */
-     , (43125,   6,   67108990) /* PaletteBase */
-     , (43125,   8,  100667446) /* Icon */
-     , (43125,   9,   83890242) /* EyesTexture */
-     , (43125,  10,   83890294) /* NoseTexture */
-     , (43125,  11,   83890342) /* MouthTexture */
-     , (43125,  15,   67117077) /* HairPalette */
-     , (43125,  16,   67110063) /* EyesPalette */
-     , (43125,  17,   67110049) /* SkinPalette */;
+VALUES (43125,   1, 0x0200004E) /* Setup */
+     , (43125,   2, 0x09000001) /* MotionTable */
+     , (43125,   3, 0x20000002) /* SoundTable */
+     , (43125,   6, 0x0400007E) /* PaletteBase */
+     , (43125,   8, 0x06001036) /* Icon */
+     , (43125,   9, 0x05001042) /* EyesTexture */
+     , (43125,  10, 0x05001076) /* NoseTexture */
+     , (43125,  11, 0x050010A6) /* MouthTexture */
+     , (43125,  15, 0x04002015) /* HairPalette */
+     , (43125,  16, 0x040004AF) /* EyesPalette */
+     , (43125,  17, 0x040004A1) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43125, 8040, 1007484946, 49.0592, 32.7517, 0.004999995, -0.147165, 0, 0, -0.989112) /* PCAPRecordedLocation */
+VALUES (43125, 8040, 0x3C0D0012, 49.0592, 32.7517, 0.005, -0.147165, 0, 0, -0.989112) /* PCAPRecordedLocation */
 /* @teleloc 0x3C0D0012 [49.059200 32.751700 0.005000] -0.147165 0.000000 0.000000 -0.989112 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

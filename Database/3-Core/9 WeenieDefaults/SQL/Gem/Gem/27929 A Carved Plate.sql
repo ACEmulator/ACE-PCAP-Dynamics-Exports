@@ -22,11 +22,11 @@ VALUES (27929,   1, 'A Carved Plate') /* Name */
      , (27929,  15, 'A plate with a relief carved into the face. The relief is of a triangle turned on its side with a small dot located along the longest side.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27929,   1,   33558775) /* Setup */
-     , (27929,   3,  536870932) /* SoundTable */
-     , (27929,   8,  100676563) /* Icon */
-     , (27929,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27929,   1, 0x020010F7) /* Setup */
+     , (27929,   3, 0x20000014) /* SoundTable */
+     , (27929,   8, 0x060033D3) /* Icon */
+     , (27929,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27929, 8040, 708771874, 100.683, 29.0966, 12.633, -0.416748, 0, 0, 0.909022) /* PCAPRecordedLocation */
+VALUES (27929, 8040, 0x2A3F0022, 100.683, 29.0966, 12.633, -0.416748, 0, 0, 0.909022) /* PCAPRecordedLocation */
 /* @teleloc 0x2A3F0022 [100.683000 29.096600 12.633000] -0.416748 0.000000 0.000000 0.909022 */;

@@ -32,9 +32,9 @@ VALUES (2396,   1, 'Gem') /* Name */
      , (2396,  16, 'Gem of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2396,   1,   33554809) /* Setup */
-     , (2396,   3,  536870932) /* SoundTable */
-     , (2396,   6,   67111919) /* PaletteBase */
-     , (2396,   8,  100674744) /* Icon */
-     , (2396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2396,   1, 0x02000179) /* Setup */
+     , (2396,   3, 0x20000014) /* SoundTable */
+     , (2396,   6, 0x04000BEF) /* PaletteBase */
+     , (2396,   8, 0x06002CB8) /* Icon */
+     , (2396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2396,  28,       1378) /* Spell - CoordinationSelf6 */;

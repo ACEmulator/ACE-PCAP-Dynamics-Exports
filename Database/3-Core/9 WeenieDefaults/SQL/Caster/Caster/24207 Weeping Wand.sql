@@ -45,19 +45,19 @@ VALUES (24207,   1, 'Weeping Wand') /* Name */
      , (24207,  15, 'A wand infused with the Heart of the Innocent.The wand appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24207,   1,   33558300) /* Setup */
-     , (24207,   3,  536870932) /* SoundTable */
-     , (24207,   8,  100674265) /* Icon */
-     , (24207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24207,   1, 0x02000F1C) /* Setup */
+     , (24207,   3, 0x20000014) /* SoundTable */
+     , (24207,   8, 0x06002AD9) /* Icon */
+     , (24207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24207,  28,       2970) /* Spell - HuntersLash */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24207, 8040, 23855549, 52.69782, -36.91693, -0.071, -0.4161197, -0.4161197, -0.5717031, -0.5717031) /* PCAPRecordedLocation */
+VALUES (24207, 8040, 0x016C01BD, 52.69782, -36.91693, -0.071, -0.41612, -0.41612, -0.571703, -0.571703) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.697820 -36.916930 -0.071000] -0.416120 -0.416120 -0.571703 -0.571703 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24207,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (24207,   640,      2)  /* WarMagicMasteryOther6 */
+VALUES (24207,   640,      2)  /* WarMagicMasteryOther6 */
+     , (24207,  2691,      2)  /* ModerateManaConversionProwess */
      , (24207,  1426,      2)  /* FocusSelf6 */
-     , (24207,  1450,      2)  /* WillpowerSelf6 */
-     , (24207,  2691,      2)  /* ModerateManaConversionProwess */;
+     , (24207,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (24207,  1450,      2)  /* WillpowerSelf6 */;

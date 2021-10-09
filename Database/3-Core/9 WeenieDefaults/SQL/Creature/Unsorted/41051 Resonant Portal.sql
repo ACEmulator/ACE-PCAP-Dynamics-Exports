@@ -27,11 +27,11 @@ VALUES (41051,   1, 'Resonant Portal') /* Name */
      , (41051,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41051,   1,   33556212) /* Setup */
-     , (41051,   2,  150994947) /* MotionTable */
-     , (41051,   3,  536870932) /* SoundTable */
-     , (41051,   8,  100667499) /* Icon */;
+VALUES (41051,   1, 0x020006F4) /* Setup */
+     , (41051,   2, 0x09000003) /* MotionTable */
+     , (41051,   3, 0x20000014) /* SoundTable */
+     , (41051,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41051, 8040, 2490499122, 150.82, 44.1934, 77.48759, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41051, 8040, 0x94720032, 150.82, 44.1934, 77.48759, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x94720032 [150.820000 44.193400 77.487590] 1.000000 0.000000 0.000000 0.000000 */;

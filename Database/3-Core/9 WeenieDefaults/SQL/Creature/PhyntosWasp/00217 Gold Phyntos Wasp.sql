@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (217,   1, 'Gold Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (217,   1,   33558817) /* Setup */
-     , (217,   2,  150995303) /* MotionTable */
-     , (217,   3,  536870926) /* SoundTable */
-     , (217,   6,   67115262) /* PaletteBase */
-     , (217,   8,  100667450) /* Icon */
-     , (217,  22,  872415266) /* PhysicsEffectTable */;
+VALUES (217,   1, 0x02001121) /* Setup */
+     , (217,   2, 0x09000167) /* MotionTable */
+     , (217,   3, 0x2000000E) /* SoundTable */
+     , (217,   6, 0x040018FE) /* PaletteBase */
+     , (217,   8, 0x0600103A) /* Icon */
+     , (217,  22, 0x34000022) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (217, 8040, 2519400501, 152.3868, 115.6109, 45.11027, -0.9689017, 0, 0, -0.2474459) /* PCAPRecordedLocation */
+VALUES (217, 8040, 0x962B0035, 152.3868, 115.6109, 45.11027, -0.968902, 0, 0, -0.247446) /* PCAPRecordedLocation */
 /* @teleloc 0x962B0035 [152.386800 115.610900 45.110270] -0.968902 0.000000 0.000000 -0.247446 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

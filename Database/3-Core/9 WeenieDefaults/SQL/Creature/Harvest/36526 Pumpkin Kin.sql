@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36526,   1, 'Pumpkin Kin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36526,   1,   33559776) /* Setup */
-     , (36526,   2,  150994994) /* MotionTable */
-     , (36526,   3,  536871014) /* SoundTable */
-     , (36526,   8,  100671017) /* Icon */
-     , (36526,  22,  872415344) /* PhysicsEffectTable */;
+VALUES (36526,   1, 0x020014E0) /* Setup */
+     , (36526,   2, 0x09000032) /* MotionTable */
+     , (36526,   3, 0x20000066) /* SoundTable */
+     , (36526,   8, 0x06001E29) /* Icon */
+     , (36526,  22, 0x34000070) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36526, 8040, 11469167, 377.1917, -49.26476, 0.07460004, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36526, 8040, 0x00AF016F, 377.1917, -49.26476, 0.0746, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF016F [377.191700 -49.264760 0.074600] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

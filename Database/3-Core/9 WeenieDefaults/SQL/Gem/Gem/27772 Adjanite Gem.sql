@@ -35,8 +35,8 @@ VALUES (27772,   1, 'Adjanite Gem') /* Name */
      , (27772,  15, 'A green portal gem.  ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27772,   1,   33558808) /* Setup */
-     , (27772,   3,  536870932) /* SoundTable */
-     , (27772,   8,  100676632) /* Icon */
-     , (27772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27772,   1, 0x02001118) /* Setup */
+     , (27772,   3, 0x20000014) /* SoundTable */
+     , (27772,   8, 0x06003418) /* Icon */
+     , (27772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27772,  28,        157) /* Spell - SummonPortal1 */;

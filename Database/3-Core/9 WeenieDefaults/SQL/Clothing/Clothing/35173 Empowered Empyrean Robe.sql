@@ -42,31 +42,31 @@ VALUES (35173,   1, 'Empowered Empyrean Robe') /* Name */
      , (35173,  16, 'A blue Empyrean robe, like the one worn by Asheron.  Embedded in the fabric are small threads of Thaumaturgic Crystal which radiate an almost palpable power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35173,   1,   33554854) /* Setup */
-     , (35173,   3,  536870932) /* SoundTable */
-     , (35173,   6,   67108990) /* PaletteBase */
-     , (35173,   8,  100689362) /* Icon */
-     , (35173,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35173,   1, 0x020001A6) /* Setup */
+     , (35173,   3, 0x20000014) /* SoundTable */
+     , (35173,   6, 0x0400007E) /* PaletteBase */
+     , (35173,   8, 0x060065D2) /* Icon */
+     , (35173,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35173,  2350,      2)  /* DecayDurance */
-     , (35173,  2351,      2)  /* ConsumptionDurance */
-     , (35173,  2352,      2)  /* StasisDurance */
-     , (35173,  2353,      2)  /* StimulationDurance */
-     , (35173,  2377,      2)  /* AnnihilationVision */
-     , (35173,  2378,      2)  /* BeastMurmur */
-     , (35173,  2380,      2)  /* InstrumentalityGrip */
-     , (35173,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
-     , (35173,  2624,      2)  /* CANTRIPMANAGAIN2 */
+VALUES (35173,  2624,      2)  /* CANTRIPMANAGAIN2 */
      , (35173,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
+     , (35173,  3977,      2)  /* CoordinationOtherIncantation */
+     , (35173,  2377,      2)  /* AnnihilationVision */
+     , (35173,  3978,      2)  /* FocusOtherIncantation */
+     , (35173,  2378,      2)  /* BeastMurmur */
+     , (35173,  3979,      2)  /* StrengthOtherIncantation */
+     , (35173,  2380,      2)  /* InstrumentalityGrip */
      , (35173,  2959,      2)  /* MarkofthePriestess */
      , (35173,  2960,      2)  /* BludgeoningDurance */
      , (35173,  2961,      2)  /* PiercingDurance */
      , (35173,  2962,      2)  /* SlashingDurance */
-     , (35173,  3977,      2)  /* CoordinationOtherIncantation */
-     , (35173,  3978,      2)  /* FocusOtherIncantation */
-     , (35173,  3979,      2)  /* StrengthOtherIncantation */
      , (35173,  4059,      2)  /* EnduranceOtherIncantation */
      , (35173,  4060,      2)  /* QuicknessOtherIncantation */
      , (35173,  4061,      2)  /* WillpowerOtherIncantation */
-     , (35173,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (35173,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (35173,  2350,      2)  /* DecayDurance */
+     , (35173,  2351,      2)  /* ConsumptionDurance */
+     , (35173,  2352,      2)  /* StasisDurance */
+     , (35173,  2353,      2)  /* StimulationDurance */
+     , (35173,  2623,      2)  /* CANTRIPHEALTHGAIN2 */;

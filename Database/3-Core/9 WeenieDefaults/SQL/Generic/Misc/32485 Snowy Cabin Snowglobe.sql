@@ -20,5 +20,5 @@ VALUES (32485,   1, 'Snowy Cabin Snowglobe') /* Name */
      , (32485,  16, 'A snow globe of a cabin in the woods.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32485,   1,   33559800) /* Setup */
-     , (32485,   8,  100673882) /* Icon */;
+VALUES (32485,   1, 0x020014F8) /* Setup */
+     , (32485,   8, 0x0600295A) /* Icon */;

@@ -27,14 +27,14 @@ VALUES (34951,   1, 'Kuurak') /* Name */
      , (34951,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34951,   1,   33558582) /* Setup */
-     , (34951,   2,  150995272) /* MotionTable */
-     , (34951,   3,  536871083) /* SoundTable */
-     , (34951,   6,   67114919) /* PaletteBase */
-     , (34951,   8,  100675761) /* Icon */;
+VALUES (34951,   1, 0x02001036) /* Setup */
+     , (34951,   2, 0x09000148) /* MotionTable */
+     , (34951,   3, 0x200000AB) /* SoundTable */
+     , (34951,   6, 0x040017A7) /* PaletteBase */
+     , (34951,   8, 0x060030B1) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34951, 8040, 10223917, 238.48, -99.3276, -29.96795, -0.5961788, 0, 0, 0.8028517) /* PCAPRecordedLocation */
+VALUES (34951, 8040, 0x009C012D, 238.48, -99.3276, -29.96795, -0.596179, 0, 0, 0.802852) /* PCAPRecordedLocation */
 /* @teleloc 0x009C012D [238.480000 -99.327600 -29.967950] -0.596179 0.000000 0.000000 0.802852 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

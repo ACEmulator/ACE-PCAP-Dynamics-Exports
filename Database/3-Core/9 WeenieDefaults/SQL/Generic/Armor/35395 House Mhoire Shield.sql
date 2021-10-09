@@ -32,11 +32,11 @@ VALUES (35395,   1, 'House Mhoire Shield') /* Name */
      , (35395,  15, 'This shield was crafted for the Lords of House Mhoire.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35395,   1,   33560569) /* Setup */
-     , (35395,   3,  536870932) /* SoundTable */
-     , (35395,   8,  100689895) /* Icon */
-     , (35395,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35395,   1, 0x020017F9) /* Setup */
+     , (35395,   3, 0x20000014) /* SoundTable */
+     , (35395,   8, 0x060067E7) /* Icon */
+     , (35395,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35395, 8040, 9765133, 20.6505, -30.0325, -0.07575, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (35395, 8040, 0x0095010D, 20.6505, -30.0325, -0.07575, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x0095010D [20.650500 -30.032500 -0.075750] 0.403672 0.649030 -0.537349 0.356462 */;

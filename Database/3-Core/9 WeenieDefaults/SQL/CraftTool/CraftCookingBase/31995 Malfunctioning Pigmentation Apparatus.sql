@@ -20,8 +20,8 @@ VALUES (31995,   1, 'Malfunctioning Pigmentation Apparatus') /* Name */
      , (31995,  20, 'Malfunctioning Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31995,   1,   33556753) /* Setup */
-     , (31995,   3,  536870932) /* SoundTable */
-     , (31995,   6,   67111919) /* PaletteBase */
-     , (31995,   8,  100688321) /* Icon */
-     , (31995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31995,   1, 0x02000911) /* Setup */
+     , (31995,   3, 0x20000014) /* SoundTable */
+     , (31995,   6, 0x04000BEF) /* PaletteBase */
+     , (31995,   8, 0x060061C1) /* Icon */
+     , (31995,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,20 +22,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37098,   1, 'Shroud Cabal Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37098,   1,   33554433) /* Setup */
-     , (37098,   2,  150994945) /* MotionTable */
-     , (37098,   3,  536870913) /* SoundTable */
-     , (37098,   8,  100667446) /* Icon */
-     , (37098,   9,   83890457) /* EyesTexture */
-     , (37098,  10,   83890520) /* NoseTexture */
-     , (37098,  11,   83890606) /* MouthTexture */
-     , (37098,  15,   67117028) /* HairPalette */
-     , (37098,  16,   67109565) /* EyesPalette */
-     , (37098,  17,   67110055) /* SkinPalette */
-     , (37098,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (37098,   1, 0x02000001) /* Setup */
+     , (37098,   2, 0x09000001) /* MotionTable */
+     , (37098,   3, 0x20000001) /* SoundTable */
+     , (37098,   8, 0x06001036) /* Icon */
+     , (37098,   9, 0x05001119) /* EyesTexture */
+     , (37098,  10, 0x05001158) /* NoseTexture */
+     , (37098,  11, 0x050011AE) /* MouthTexture */
+     , (37098,  15, 0x04001FE4) /* HairPalette */
+     , (37098,  16, 0x040002BD) /* EyesPalette */
+     , (37098,  17, 0x040004A7) /* SkinPalette */
+     , (37098,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37098, 8040, 1121845279, 93.80128, 152.8432, 0.004999995, 0.9396926, 0, 0, -0.3420201) /* PCAPRecordedLocation */
+VALUES (37098, 8040, 0x42DE001F, 93.80128, 152.8432, 0.005, 0.939693, 0, 0, -0.34202) /* PCAPRecordedLocation */
 /* @teleloc 0x42DE001F [93.801280 152.843200 0.005000] 0.939693 0.000000 0.000000 -0.342020 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

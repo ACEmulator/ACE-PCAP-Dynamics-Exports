@@ -23,7 +23,7 @@ VALUES (45337,   1, 'Scroll of Sneak Attack Ineptitude Other VI') /* Name */
 Decreases the target''s Sneak Attack skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45337,   1,   33554826) /* Setup */
-     , (45337,   8,  100692253) /* Icon */
-     , (45337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45337,   1, 0x0200018A) /* Setup */
+     , (45337,   8, 0x0600711D) /* Icon */
+     , (45337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45337,  28,       5864) /* Spell - SneakAttackIneptitudeOther6 */;

@@ -30,8 +30,8 @@ VALUES (33621,   1, 'Salvage') /* Name */
      , (33621,  16, 'A bag of steel material salvaged from old items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33621,   1,   33554817) /* Setup */
-     , (33621,   3,  536870932) /* SoundTable */
-     , (33621,   6,   67111919) /* PaletteBase */
-     , (33621,   8,  100677145) /* Icon */
-     , (33621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33621,   1, 0x02000181) /* Setup */
+     , (33621,   3, 0x20000014) /* SoundTable */
+     , (33621,   6, 0x04000BEF) /* PaletteBase */
+     , (33621,   8, 0x06003619) /* Icon */
+     , (33621,  22, 0x3400002B) /* PhysicsEffectTable */;

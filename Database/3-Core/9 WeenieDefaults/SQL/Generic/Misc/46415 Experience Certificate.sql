@@ -21,11 +21,11 @@ VALUES (46415,   1, 'Experience Certificate') /* Name */
      , (46415,  15, 'A certificate that grants the bearer a full level of experience. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46415,   1,   33554659) /* Setup */
-     , (46415,   3,  536870932) /* SoundTable */
-     , (46415,   8,  100692711) /* Icon */
-     , (46415,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46415,   1, 0x020000E3) /* Setup */
+     , (46415,   3, 0x20000014) /* SoundTable */
+     , (46415,   8, 0x060072E7) /* Icon */
+     , (46415,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46415, 8040, 3332964380, 80.81792, 94.07034, 42.024, 0.9548541, 0, 0, -0.2970752) /* PCAPRecordedLocation */
+VALUES (46415, 8040, 0xC6A9001C, 80.81792, 94.07034, 42.024, 0.954854, 0, 0, -0.297075) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.817920 94.070340 42.024000] 0.954854 0.000000 0.000000 -0.297075 */;

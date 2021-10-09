@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36790,   1, 'Elysa Strathelar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36790,   1,   33554510) /* Setup */
-     , (36790,   2,  150994945) /* MotionTable */
-     , (36790,   3,  536870914) /* SoundTable */
-     , (36790,   6,   67108990) /* PaletteBase */
-     , (36790,   8,  100667446) /* Icon */
-     , (36790,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (36790,   1, 0x0200004E) /* Setup */
+     , (36790,   2, 0x09000001) /* MotionTable */
+     , (36790,   3, 0x20000002) /* SoundTable */
+     , (36790,   6, 0x0400007E) /* PaletteBase */
+     , (36790,   8, 0x06001036) /* Icon */
+     , (36790,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36790, 8040, 32047365, 67.58803, -161.9228, -17.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (36790, 8040, 0x01E90105, 67.58803, -161.9228, -17.995, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01E90105 [67.588030 -161.922800 -17.995000] -0.707107 0.000000 0.000000 -0.707107 */;

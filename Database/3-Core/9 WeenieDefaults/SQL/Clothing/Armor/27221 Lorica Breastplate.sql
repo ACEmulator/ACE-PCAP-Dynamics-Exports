@@ -48,14 +48,14 @@ VALUES (27221,   1, 'Lorica Breastplate') /* Name */
      , (27221,  16, 'Lorica Breastplate of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27221,   1,   33554642) /* Setup */
-     , (27221,   3,  536870932) /* SoundTable */
-     , (27221,   6,   67108990) /* PaletteBase */
-     , (27221,   8,  100676040) /* Icon */
-     , (27221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27221,   1, 0x020000D2) /* Setup */
+     , (27221,   3, 0x20000014) /* SoundTable */
+     , (27221,   6, 0x0400007E) /* PaletteBase */
+     , (27221,   8, 0x060031C8) /* Icon */
+     , (27221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27221,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27221,  3963,      2)  /* CANTRIPCOORDINATION3 */
+VALUES (27221,  6123,      2)  /* SummoningMasterySelf8 */
      , (27221,  4407,      2)  /* Impenetrability8 */
-     , (27221,  6123,      2)  /* SummoningMasterySelf8 */;
+     , (27221,  3963,      2)  /* CANTRIPCOORDINATION3 */;

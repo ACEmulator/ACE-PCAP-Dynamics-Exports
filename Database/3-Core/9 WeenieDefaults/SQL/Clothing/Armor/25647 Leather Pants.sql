@@ -42,11 +42,11 @@ VALUES (25647,   1, 'Leather Pants') /* Name */
      , (25647,  16, 'Leather Pants') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25647,   1,   33554856) /* Setup */
-     , (25647,   3,  536870932) /* SoundTable */
-     , (25647,   6,   67108990) /* PaletteBase */
-     , (25647,   8,  100675299) /* Icon */
-     , (25647,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25647,   1, 0x020001A8) /* Setup */
+     , (25647,   3, 0x20000014) /* SoundTable */
+     , (25647,   6, 0x0400007E) /* PaletteBase */
+     , (25647,   8, 0x06002EE3) /* Icon */
+     , (25647,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25647,  1484,      2)  /* Impenetrability4 */

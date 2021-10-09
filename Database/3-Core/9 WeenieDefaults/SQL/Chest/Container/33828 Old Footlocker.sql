@@ -29,12 +29,12 @@ VALUES (33828,   1, 'Old Footlocker') /* Name */
      , (33828,  16, 'An old footlocker intrusted to Sergeant Huang of Sawato.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33828,   1,   33554556) /* Setup */
-     , (33828,   2,  150994948) /* MotionTable */
-     , (33828,   3,  536870945) /* SoundTable */
-     , (33828,   8,  100667424) /* Icon */
-     , (33828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33828,   1, 0x0200007C) /* Setup */
+     , (33828,   2, 0x09000004) /* MotionTable */
+     , (33828,   3, 0x20000021) /* SoundTable */
+     , (33828,   8, 0x06001020) /* Icon */
+     , (33828,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33828, 8040, 3378184497, 116.491, 56.7709, 13.2, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33828, 8040, 0xC95B0131, 116.491, 56.7709, 13.2, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0131 [116.491000 56.770900 13.200000] 1.000000 0.000000 0.000000 0.000000 */;

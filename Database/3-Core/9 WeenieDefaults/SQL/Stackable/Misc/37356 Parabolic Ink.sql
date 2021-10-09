@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37356,   1, 'Parabolic Ink') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37356,   1,   33554602) /* Setup */
-     , (37356,   3,  536870932) /* SoundTable */
-     , (37356,   8,  100690184) /* Icon */
-     , (37356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37356,   1, 0x020000AA) /* Setup */
+     , (37356,   3, 0x20000014) /* SoundTable */
+     , (37356,   8, 0x06006908) /* Icon */
+     , (37356,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (1552,   1, 'Scroll of Blade Bane') /* Name */
 Increases a shield or piece of armor''s resistance to slashing damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1552,   1,   33554826) /* Setup */
-     , (1552,   8,  100676649) /* Icon */
-     , (1552,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1552,   1, 0x0200018A) /* Setup */
+     , (1552,   8, 0x06003429) /* Icon */
+     , (1552,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1552,  28,         37) /* Spell - BladeBane1 */;

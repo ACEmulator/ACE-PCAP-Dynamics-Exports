@@ -23,5 +23,5 @@ VALUES (31380,   1, 'Iniquitous Fragment') /* Name */
      , (31380,  16, 'A fragment of an unknown artifact protected by a Greater Penumbral Horror. Its shape is oddly familiar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31380,   1,   33556743) /* Setup */
-     , (31380,   8,  100687955) /* Icon */;
+VALUES (31380,   1, 0x02000907) /* Setup */
+     , (31380,   8, 0x06006053) /* Icon */;

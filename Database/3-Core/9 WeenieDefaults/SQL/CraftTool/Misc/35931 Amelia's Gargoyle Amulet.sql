@@ -23,7 +23,7 @@ VALUES (35931,   1, 'Amelia''s Gargoyle Amulet') /* Name */
      , (35931,  14, 'Grasp this amulet to summon or dismiss Amelia''s ghostly gargoyle.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35931,   1,   33554680) /* Setup */
-     , (35931,   3,  536870932) /* SoundTable */
-     , (35931,   6,   67111919) /* PaletteBase */
-     , (35931,   8,  100668602) /* Icon */;
+VALUES (35931,   1, 0x020000F8) /* Setup */
+     , (35931,   3, 0x20000014) /* SoundTable */
+     , (35931,   6, 0x04000BEF) /* PaletteBase */
+     , (35931,   8, 0x060014BA) /* Icon */;

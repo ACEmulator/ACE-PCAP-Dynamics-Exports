@@ -25,7 +25,7 @@ VALUES (12257,   1, 'Sliver of Singular Obsidian') /* Name */
      , (12257,  16, 'A sliver of incredibly dense Singular Obsidian, imbued with Virindi magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12257,   1,   33557380) /* Setup */
-     , (12257,   3,  536870932) /* SoundTable */
-     , (12257,   8,  100672201) /* Icon */
-     , (12257,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12257,   1, 0x02000B84) /* Setup */
+     , (12257,   3, 0x20000014) /* SoundTable */
+     , (12257,   8, 0x060022C9) /* Icon */
+     , (12257,  22, 0x3400002B) /* PhysicsEffectTable */;

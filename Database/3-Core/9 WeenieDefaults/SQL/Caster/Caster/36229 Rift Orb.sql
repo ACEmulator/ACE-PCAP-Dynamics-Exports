@@ -36,15 +36,15 @@ VALUES (36229,   1, 'Rift Orb') /* Name */
      , (36229,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36229,   1,   33560377) /* Setup */
-     , (36229,   3,  536870932) /* SoundTable */
-     , (36229,   8,  100689612) /* Icon */
-     , (36229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36229,   1, 0x02001739) /* Setup */
+     , (36229,   3, 0x20000014) /* SoundTable */
+     , (36229,   8, 0x060066CC) /* Icon */
+     , (36229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36229,  28,       2100) /* Spell - Brittlemail7 */
      , (36229,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36229,  2014,      2)  /* WizardsUltimateIntellect */
-     , (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
-     , (36229,  2286,      2)  /* ManaMasteryOther7 */
-     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */;
+VALUES (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */
+     , (36229,  2014,      2)  /* WizardsUltimateIntellect */
+     , (36229,  2286,      2)  /* ManaMasteryOther7 */;

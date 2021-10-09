@@ -20,10 +20,10 @@ VALUES (4572,   1, 'Destroyed Portal to Khayyaban') /* Name */
      , (4572,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4572,   1,   33561060) /* Setup */
-     , (4572,   2,  150995314) /* MotionTable */
-     , (4572,   8,  100667499) /* Icon */;
+VALUES (4572,   1, 0x020019E4) /* Setup */
+     , (4572,   2, 0x09000172) /* MotionTable */
+     , (4572,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4572, 8040, 3661234231, 156.446, 157.145, 0.6947529, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4572, 8040, 0xDA3A0037, 156.446, 157.145, 0.694753, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3A0037 [156.446000 157.145000 0.694753] 0.000000 0.000000 0.000000 -1.000000 */;

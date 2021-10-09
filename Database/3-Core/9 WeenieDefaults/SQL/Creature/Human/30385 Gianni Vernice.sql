@@ -29,20 +29,20 @@ VALUES (30385,   1, 'Gianni Vernice') /* Name */
      , (30385,   5, 'Explorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30385,   1,   33554433) /* Setup */
-     , (30385,   2,  150994945) /* MotionTable */
-     , (30385,   3,  536870913) /* SoundTable */
-     , (30385,   6,   67108990) /* PaletteBase */
-     , (30385,   8,  100667446) /* Icon */
-     , (30385,   9,   83890507) /* EyesTexture */
-     , (30385,  10,   83890559) /* NoseTexture */
-     , (30385,  11,   83890589) /* MouthTexture */
-     , (30385,  15,   67117101) /* HairPalette */
-     , (30385,  16,   67109564) /* EyesPalette */
-     , (30385,  17,   67115903) /* SkinPalette */;
+VALUES (30385,   1, 0x02000001) /* Setup */
+     , (30385,   2, 0x09000001) /* MotionTable */
+     , (30385,   3, 0x20000001) /* SoundTable */
+     , (30385,   6, 0x0400007E) /* PaletteBase */
+     , (30385,   8, 0x06001036) /* Icon */
+     , (30385,   9, 0x0500114B) /* EyesTexture */
+     , (30385,  10, 0x0500117F) /* NoseTexture */
+     , (30385,  11, 0x0500119D) /* MouthTexture */
+     , (30385,  15, 0x0400202D) /* HairPalette */
+     , (30385,  16, 0x040002BC) /* EyesPalette */
+     , (30385,  17, 0x04001B7F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30385, 8040, 955711522, 109.617, 26.1024, 1.8298, -0.870382, 0, 0, -0.492378) /* PCAPRecordedLocation */
+VALUES (30385, 8040, 0x38F70022, 109.617, 26.1024, 1.8298, -0.870382, 0, 0, -0.492378) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70022 [109.617000 26.102400 1.829800] -0.870382 0.000000 0.000000 -0.492378 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25804,   1, 'Armored Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25804,   1,   33558396) /* Setup */
-     , (25804,   2,  150994981) /* MotionTable */
-     , (25804,   3,  536870942) /* SoundTable */
-     , (25804,   6,   67116522) /* PaletteBase */
-     , (25804,   8,  100669124) /* Icon */
-     , (25804,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (25804,   1, 0x02000F7C) /* Setup */
+     , (25804,   2, 0x09000025) /* MotionTable */
+     , (25804,   3, 0x2000001E) /* SoundTable */
+     , (25804,   6, 0x04001DEA) /* PaletteBase */
+     , (25804,   8, 0x060016C4) /* Icon */
+     , (25804,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25804, 8040, 1089404938, 42.84951, 30.34627, 14.03116, 0.9475691, 0, 0, -0.319551) /* PCAPRecordedLocation */
+VALUES (25804, 8040, 0x40EF000A, 42.84951, 30.34627, 14.03116, 0.947569, 0, 0, -0.319551) /* PCAPRecordedLocation */
 /* @teleloc 0x40EF000A [42.849510 30.346270 14.031160] 0.947569 0.000000 0.000000 -0.319551 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

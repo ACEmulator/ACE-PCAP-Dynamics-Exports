@@ -29,13 +29,13 @@ VALUES (42945,   1, 'Royal Guard') /* Name */
      , (42945,   5, 'Borelean''s Royal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42945,   1,   33561393) /* Setup */
-     , (42945,   2,  150995368) /* MotionTable */
-     , (42945,   3,  536870933) /* SoundTable */
-     , (42945,   8,  100674350) /* Icon */;
+VALUES (42945,   1, 0x02001B31) /* Setup */
+     , (42945,   2, 0x090001A8) /* MotionTable */
+     , (42945,   3, 0x20000015) /* SoundTable */
+     , (42945,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42945, 8040, 2271412238, 36.174, 131.127, 8.006001, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42945, 8040, 0x8763000E, 36.174, 131.127, 8.006001, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8763000E [36.174000 131.127000 8.006001] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

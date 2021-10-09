@@ -44,12 +44,12 @@ VALUES (357,   1, 'Tungi') /* Name */
      , (357,  16, 'Tungi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (357,   1,   33554938) /* Setup */
-     , (357,   3,  536870932) /* SoundTable */
-     , (357,   6,   67111919) /* PaletteBase */
-     , (357,   8,  100669056) /* Icon */
-     , (357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (357,   1, 0x020001FA) /* Setup */
+     , (357,   3, 0x20000014) /* SoundTable */
+     , (357,   6, 0x04000BEF) /* PaletteBase */
+     , (357,   8, 0x06001680) /* Icon */
+     , (357,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (357, 8040, 3398828071, 111.6117, 156.712, 31.5687, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (357, 8040, 0xCA960027, 111.6117, 156.712, 31.5687, 0.653282, 0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0xCA960027 [111.611700 156.712000 31.568700] 0.653282 0.653282 -0.270598 -0.270598 */;

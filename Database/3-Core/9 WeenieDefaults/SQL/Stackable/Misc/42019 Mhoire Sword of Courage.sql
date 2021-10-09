@@ -27,7 +27,7 @@ VALUES (42019,   1, 'Mhoire Sword of Courage') /* Name */
      , (42019,  15, 'This ancient ornamental sword bears the symbol of House Mhoire.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42019,   1,   33559585) /* Setup */
-     , (42019,   3,  536870932) /* SoundTable */
-     , (42019,   8,  100672953) /* Icon */
-     , (42019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42019,   1, 0x02001421) /* Setup */
+     , (42019,   3, 0x20000014) /* SoundTable */
+     , (42019,   8, 0x060025B9) /* Icon */
+     , (42019,  22, 0x3400002B) /* PhysicsEffectTable */;

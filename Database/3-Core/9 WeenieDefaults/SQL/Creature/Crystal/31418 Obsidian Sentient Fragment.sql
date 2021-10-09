@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31418,   1, 'Obsidian Sentient Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31418,   1,   33559677) /* Setup */
-     , (31418,   2,  150995107) /* MotionTable */
-     , (31418,   3,  536871001) /* SoundTable */
-     , (31418,   8,  100670283) /* Icon */
-     , (31418,  22,  872415347) /* PhysicsEffectTable */;
+VALUES (31418,   1, 0x0200147D) /* Setup */
+     , (31418,   2, 0x090000A3) /* MotionTable */
+     , (31418,   3, 0x20000059) /* SoundTable */
+     , (31418,   8, 0x06001B4B) /* Icon */
+     , (31418,  22, 0x34000073) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31418, 8040, 15795286, 110, -96.7539, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31418, 8040, 0x00F10456, 110, -96.7539, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00F10456 [110.000000 -96.753900 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

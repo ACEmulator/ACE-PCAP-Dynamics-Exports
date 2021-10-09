@@ -44,17 +44,17 @@ VALUES (24598,   1, 'Sword of Lost Light') /* Name */
      , (24598,  16, 'A glittering blade, shining with the power of the Light, set into a slate grey hilt. This sword has a razor-sharp edge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24598,   1,   33558416) /* Setup */
-     , (24598,   3,  536870932) /* SoundTable */
-     , (24598,   8,  100674513) /* Icon */
-     , (24598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24598,   1, 0x02000F90) /* Setup */
+     , (24598,   3, 0x20000014) /* SoundTable */
+     , (24598,   8, 0x06002BD1) /* Icon */
+     , (24598,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24598, 8040, 23855549, 50.87645, -35.37355, -0.071, 0.3204017, 0.3204017, -0.6303513, -0.6303513) /* PCAPRecordedLocation */
+VALUES (24598, 8040, 0x016C01BD, 50.87645, -35.37355, -0.071, 0.320402, 0.320402, -0.630351, -0.630351) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [50.876450 -35.373550 -0.071000] 0.320402 0.320402 -0.630351 -0.630351 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24598,  1590,      2)  /* HeartSeekerSelf4 */
-     , (24598,  1603,      2)  /* DefenderSelf4 */
+VALUES (24598,  1603,      2)  /* DefenderSelf4 */
      , (24598,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (24598,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (24598,  1624,      2)  /* SwiftKillerSelf3 */
+     , (24598,  1590,      2)  /* HeartSeekerSelf4 */;

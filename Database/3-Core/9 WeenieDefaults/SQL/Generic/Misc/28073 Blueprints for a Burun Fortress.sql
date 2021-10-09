@@ -22,7 +22,7 @@ VALUES (28073,   1, 'Blueprints for a Burun Fortress') /* Name */
      , (28073,  16, 'These blueprints have been drawn up by Lugian hands and detail the buildings that will be built up around the swamp temple outside of Yanshi. The buildings are not Lugian or Tumerok in design. Likely, these were plans drawn from a dictation from the Burun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28073,   1,   33558825) /* Setup */
-     , (28073,   3,  536870932) /* SoundTable */
-     , (28073,   8,  100676719) /* Icon */
-     , (28073,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28073,   1, 0x02001129) /* Setup */
+     , (28073,   3, 0x20000014) /* SoundTable */
+     , (28073,   8, 0x0600346F) /* Icon */
+     , (28073,  22, 0x3400002B) /* PhysicsEffectTable */;

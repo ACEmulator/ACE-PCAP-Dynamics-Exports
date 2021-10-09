@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (251,   1, 'Platter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (251,   1,   33556223) /* Setup */
-     , (251,   3,  536870932) /* SoundTable */
-     , (251,   6,   67111928) /* PaletteBase */
-     , (251,   8,  100668119) /* Icon */
-     , (251,  22,  872415275) /* PhysicsEffectTable */
+VALUES (251,   1, 0x020006FF) /* Setup */
+     , (251,   3, 0x20000014) /* SoundTable */
+     , (251,   6, 0x04000BF8) /* PaletteBase */
+     , (251,   8, 0x060012D7) /* Icon */
+     , (251,  22, 0x3400002B) /* PhysicsEffectTable */
      , (251, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;

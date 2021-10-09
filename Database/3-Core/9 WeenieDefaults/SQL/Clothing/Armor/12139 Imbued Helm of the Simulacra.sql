@@ -48,17 +48,17 @@ VALUES (12139,   1, 'Imbued Helm of the Simulacra') /* Name */
      , (12139,  25, 'Triumph') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12139,   1,   33556883) /* Setup */
-     , (12139,   3,  536870932) /* SoundTable */
-     , (12139,   6,   67108990) /* PaletteBase */
-     , (12139,   8,  100672133) /* Icon */
-     , (12139,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12139,   1, 0x02000993) /* Setup */
+     , (12139,   3, 0x20000014) /* SoundTable */
+     , (12139,   6, 0x0400007E) /* PaletteBase */
+     , (12139,   8, 0x06002285) /* Icon */
+     , (12139,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12139,  2108,      2)  /* Impenetrability7 */
-     , (12139,  2226,      2)  /* DeceptionMasteryOther7 */
-     , (12139,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (12139,  2243,      2)  /* ImpregnabilitySelf7 */
      , (12139,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (12139,  2281,      2)  /* MagicResistanceSelf7 */
      , (12139,  2510,      2)  /* CANTRIPDECEPTIONPROWESS2 */
-     , (12139,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
+     , (12139,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (12139,  2281,      2)  /* MagicResistanceSelf7 */
+     , (12139,  2226,      2)  /* DeceptionMasteryOther7 */
+     , (12139,  2108,      2)  /* Impenetrability7 */;

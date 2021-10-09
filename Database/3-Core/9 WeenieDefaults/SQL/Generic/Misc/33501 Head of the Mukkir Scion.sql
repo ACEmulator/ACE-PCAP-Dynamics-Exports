@@ -21,7 +21,7 @@ VALUES (33501,   1, 'Head of the Mukkir Scion') /* Name */
      , (33501,  16, 'This is the head of the Mukkir known as Vargol the Scion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33501,   1,   33556824) /* Setup */
-     , (33501,   3,  536870932) /* SoundTable */
-     , (33501,   8,  100688977) /* Icon */
-     , (33501,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33501,   1, 0x02000958) /* Setup */
+     , (33501,   3, 0x20000014) /* SoundTable */
+     , (33501,   8, 0x06006451) /* Icon */
+     , (33501,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -38,10 +38,10 @@ VALUES (49355,   1, 'Fire Moar Essence (125)') /* Name */
      , (49355,  14, 'Use this essence to summon or dismiss your Fire Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49355,   1,   33554817) /* Setup */
-     , (49355,   3,  536870932) /* SoundTable */
-     , (49355,   6,   67111919) /* PaletteBase */
-     , (49355,   8,  100693034) /* Icon */
-     , (49355,  22,  872415275) /* PhysicsEffectTable */
-     , (49355,  50,  100693029) /* IconOverlay */
-     , (49355,  52,  100693024) /* IconUnderlay */;
+VALUES (49355,   1, 0x02000181) /* Setup */
+     , (49355,   3, 0x20000014) /* SoundTable */
+     , (49355,   6, 0x04000BEF) /* PaletteBase */
+     , (49355,   8, 0x0600742A) /* Icon */
+     , (49355,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49355,  50, 0x06007425) /* IconOverlay */
+     , (49355,  52, 0x06007420) /* IconUnderlay */;

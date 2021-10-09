@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4971,   1, 'Darkened Halls Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4971,   1,   33555923) /* Setup */
-     , (4971,   2,  150994947) /* MotionTable */
-     , (4971,   8,  100667499) /* Icon */;
+VALUES (4971,   1, 0x020005D3) /* Setup */
+     , (4971,   2, 0x09000003) /* MotionTable */
+     , (4971,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4971, 8040, 2154103040, 54, 125.2, 74.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4971, 8040, 0x80650100, 54, 125.2, 74.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x80650100 [54.000000 125.200000 74.737000] 1.000000 0.000000 0.000000 0.000000 */;

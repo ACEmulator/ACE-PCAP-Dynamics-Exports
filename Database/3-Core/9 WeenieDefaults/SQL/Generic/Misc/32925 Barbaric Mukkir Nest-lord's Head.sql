@@ -21,7 +21,7 @@ VALUES (32925,   1, 'Barbaric Mukkir Nest-lord''s Head') /* Name */
      , (32925,  16, 'The decapitated head of the Barbaric Mukkir Nest-lord.  Qath al-Haddash in Qalaba''r may find this specimen of great interest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32925,   1,   33559761) /* Setup */
-     , (32925,   3,  536870932) /* SoundTable */
-     , (32925,   8,  100688412) /* Icon */
-     , (32925,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32925,   1, 0x020014D1) /* Setup */
+     , (32925,   3, 0x20000014) /* SoundTable */
+     , (32925,   8, 0x0600621C) /* Icon */
+     , (32925,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36544,   1, 'The Master Pass') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36544,   1,   33556750) /* Setup */
-     , (36544,   3,  536870932) /* SoundTable */
-     , (36544,   6,   67111919) /* PaletteBase */
-     , (36544,   8,  100689631) /* Icon */
-     , (36544,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36544,   1, 0x0200090E) /* Setup */
+     , (36544,   3, 0x20000014) /* SoundTable */
+     , (36544,   6, 0x04000BEF) /* PaletteBase */
+     , (36544,   8, 0x060066DF) /* Icon */
+     , (36544,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36544, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

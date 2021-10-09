@@ -50,14 +50,14 @@ VALUES (43828,   1, 'Sedgemail Leather Vest') /* Name */
      , (43828,  16, 'Sedgemail Leather Vest') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43828,   1,   33554642) /* Setup */
-     , (43828,   3,  536870932) /* SoundTable */
-     , (43828,   6,   67108990) /* PaletteBase */
-     , (43828,   8,  100691712) /* Icon */
-     , (43828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43828,   1, 0x020000D2) /* Setup */
+     , (43828,   3, 0x20000014) /* SoundTable */
+     , (43828,   6, 0x0400007E) /* PaletteBase */
+     , (43828,   8, 0x06006F00) /* Icon */
+     , (43828,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43828,  1552,      2)  /* FlameBane6 */
+     , (43828,  2594,      2)  /* CANTRIPSLASHINGBANE2 */
      , (43828,  2104,      2)  /* FrostBane7 */
-     , (43828,  2108,      2)  /* Impenetrability7 */
-     , (43828,  2594,      2)  /* CANTRIPSLASHINGBANE2 */;
+     , (43828,  2108,      2)  /* Impenetrability7 */;

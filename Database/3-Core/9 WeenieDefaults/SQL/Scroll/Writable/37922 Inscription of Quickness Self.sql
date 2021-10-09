@@ -23,7 +23,7 @@ VALUES (37922,   1, 'Inscription of Quickness Self') /* Name */
 Increases the caster''s Quickness by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37922,   1,   33554826) /* Setup */
-     , (37922,   8,  100676469) /* Icon */
-     , (37922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37922,   1, 0x0200018A) /* Setup */
+     , (37922,   8, 0x06003375) /* Icon */
+     , (37922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37922,  28,       4319) /* Spell - QuicknessSelf8 */;

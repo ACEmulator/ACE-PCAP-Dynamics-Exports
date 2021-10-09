@@ -30,7 +30,7 @@ VALUES (35920,   1, 'Amelia''s Snowman Doll') /* Name */
      , (35920,  15, 'A snowman doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35920,   1,   33557444) /* Setup */
-     , (35920,   3,  536870932) /* SoundTable */
-     , (35920,   8,  100672418) /* Icon */
-     , (35920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35920,   1, 0x02000BC4) /* Setup */
+     , (35920,   3, 0x20000014) /* SoundTable */
+     , (35920,   8, 0x060023A2) /* Icon */
+     , (35920,  22, 0x3400002B) /* PhysicsEffectTable */;

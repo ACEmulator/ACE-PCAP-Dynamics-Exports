@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35478,   1, 'Kresovus'' Lockbox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35478,   1,   33558692) /* Setup */
-     , (35478,   2,  150995261) /* MotionTable */
-     , (35478,   3,  536870933) /* SoundTable */
-     , (35478,   8,  100689072) /* Icon */;
+VALUES (35478,   1, 0x020010A4) /* Setup */
+     , (35478,   2, 0x0900013D) /* MotionTable */
+     , (35478,   3, 0x20000015) /* SoundTable */
+     , (35478,   8, 0x060064B0) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35478, 8040, 2719875100, 76.0134, 84, 610, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35478, 8040, 0xA21E001C, 76.0134, 84, 610, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E001C [76.013400 84.000000 610.000000] 1.000000 0.000000 0.000000 0.000000 */;

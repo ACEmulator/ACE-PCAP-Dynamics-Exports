@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23996,   1, 'Bookshelf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23996,   1,   33558270) /* Setup */
-     , (23996,   2,  150995197) /* MotionTable */
-     , (23996,   3,  536871052) /* SoundTable */
-     , (23996,   8,  100674153) /* Icon */
-     , (23996,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (23996,   1, 0x02000EFE) /* Setup */
+     , (23996,   2, 0x090000FD) /* MotionTable */
+     , (23996,   3, 0x2000008C) /* SoundTable */
+     , (23996,   8, 0x06002A69) /* Icon */
+     , (23996,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23996, 8040, 1682178913, 64.575, -36.35, 18, 0.705952, 0, 0, -0.70826) /* PCAPRecordedLocation */
+VALUES (23996, 8040, 0x64440361, 64.575, -36.35, 18, 0.705952, 0, 0, -0.70826) /* PCAPRecordedLocation */
 /* @teleloc 0x64440361 [64.575000 -36.350000 18.000000] 0.705952 0.000000 0.000000 -0.708260 */;

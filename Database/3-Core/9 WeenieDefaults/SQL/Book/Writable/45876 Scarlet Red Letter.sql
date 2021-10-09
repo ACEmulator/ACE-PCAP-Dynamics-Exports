@@ -21,10 +21,10 @@ VALUES (45876,   1, 'Scarlet Red Letter') /* Name */
      , (45876,  15, 'A bright red piece of paper with some writing on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45876,   1,   33556920) /* Setup */
-     , (45876,   3,  536870932) /* SoundTable */
-     , (45876,   8,  100671217) /* Icon */
-     , (45876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45876,   1, 0x020009B8) /* Setup */
+     , (45876,   3, 0x20000014) /* SoundTable */
+     , (45876,   8, 0x06001EF1) /* Icon */
+     , (45876,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (45876, 1, 1000);

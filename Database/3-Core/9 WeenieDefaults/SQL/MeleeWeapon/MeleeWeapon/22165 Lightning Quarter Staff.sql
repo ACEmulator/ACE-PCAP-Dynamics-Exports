@@ -42,8 +42,8 @@ VALUES (22165,   1, 'Lightning Quarter Staff') /* Name */
      , (22165,  16, 'Lightning Quarter Staff') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22165,   1,   33558068) /* Setup */
-     , (22165,   3,  536870932) /* SoundTable */
-     , (22165,   6,   67111919) /* PaletteBase */
-     , (22165,   8,  100673599) /* Icon */
-     , (22165,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22165,   1, 0x02000E34) /* Setup */
+     , (22165,   3, 0x20000014) /* SoundTable */
+     , (22165,   6, 0x04000BEF) /* PaletteBase */
+     , (22165,   8, 0x0600283F) /* Icon */
+     , (22165,  22, 0x3400002B) /* PhysicsEffectTable */;

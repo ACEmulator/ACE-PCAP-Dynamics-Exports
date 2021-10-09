@@ -34,13 +34,13 @@ VALUES (51848,   1, 'Spirited Envy Guard') /* Name */
      , (51848,  15, 'A necklace crafted by Rinne Gorber fused with a powerful crystal from deep within the Spirited Halls.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51848,   1,   33554689) /* Setup */
-     , (51848,   3,  536870932) /* SoundTable */
-     , (51848,   6,   67111919) /* PaletteBase */
-     , (51848,   8,  100693213) /* Icon */
-     , (51848,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51848,   1, 0x02000101) /* Setup */
+     , (51848,   3, 0x20000014) /* SoundTable */
+     , (51848,   6, 0x04000BEF) /* PaletteBase */
+     , (51848,   8, 0x060074DD) /* Icon */
+     , (51848,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51848,  2665,      2)  /* EssenceSluice */
-     , (51848,  4459,      2)  /* AcidProtectionOther8 */
-     , (51848,  6054,      2)  /* CantripImpregnability4 */;
+VALUES (51848,  6054,      2)  /* CantripImpregnability4 */
+     , (51848,  2665,      2)  /* EssenceSluice */
+     , (51848,  4459,      2)  /* AcidProtectionOther8 */;

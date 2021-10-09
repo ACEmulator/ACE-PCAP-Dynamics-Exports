@@ -49,10 +49,10 @@ VALUES (3846,   1, 'Acid Quarter Staff') /* Name */
      , (3846,  16, 'Finely crafted Teak Acid Quarter Staff , set with 3 Amethysts') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3846,   1,   33555770) /* Setup */
-     , (3846,   3,  536870932) /* SoundTable */
-     , (3846,   8,  100667602) /* Icon */
-     , (3846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3846,   1, 0x0200053A) /* Setup */
+     , (3846,   3, 0x20000014) /* SoundTable */
+     , (3846,   8, 0x060010D2) /* Icon */
+     , (3846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3846,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

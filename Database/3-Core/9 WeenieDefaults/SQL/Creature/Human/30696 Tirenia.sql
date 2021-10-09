@@ -29,20 +29,20 @@ VALUES (30696,   1, 'Tirenia') /* Name */
      , (30696,   5, 'Royal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30696,   1,   33554510) /* Setup */
-     , (30696,   2,  150994945) /* MotionTable */
-     , (30696,   3,  536870914) /* SoundTable */
-     , (30696,   6,   67108990) /* PaletteBase */
-     , (30696,   8,  100667377) /* Icon */
-     , (30696,   9,   83890278) /* EyesTexture */
-     , (30696,  10,   83890306) /* NoseTexture */
-     , (30696,  11,   83890339) /* MouthTexture */
-     , (30696,  15,   67117068) /* HairPalette */
-     , (30696,  16,   67110063) /* EyesPalette */
-     , (30696,  17,   67109559) /* SkinPalette */;
+VALUES (30696,   1, 0x0200004E) /* Setup */
+     , (30696,   2, 0x09000001) /* MotionTable */
+     , (30696,   3, 0x20000002) /* SoundTable */
+     , (30696,   6, 0x0400007E) /* PaletteBase */
+     , (30696,   8, 0x06000FF1) /* Icon */
+     , (30696,   9, 0x05001066) /* EyesTexture */
+     , (30696,  10, 0x05001082) /* NoseTexture */
+     , (30696,  11, 0x050010A3) /* MouthTexture */
+     , (30696,  15, 0x0400200C) /* HairPalette */
+     , (30696,  16, 0x040004AF) /* EyesPalette */
+     , (30696,  17, 0x040002B7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30696, 8040, 2847146017, 101.926, 20.4117, 94.005, 0.5781386, 0, 0, -0.8159386) /* PCAPRecordedLocation */
+VALUES (30696, 8040, 0xA9B40021, 101.926, 20.4117, 94.005, 0.578139, 0, 0, -0.815939) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40021 [101.926000 20.411700 94.005000] 0.578139 0.000000 0.000000 -0.815939 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -26,5 +26,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13226,   1, 'Two Headed Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13226,   1,   33557451) /* Setup */
-     , (13226,   8,  100672435) /* Icon */;
+VALUES (13226,   1, 0x02000BCB) /* Setup */
+     , (13226,   8, 0x060023B3) /* Icon */;

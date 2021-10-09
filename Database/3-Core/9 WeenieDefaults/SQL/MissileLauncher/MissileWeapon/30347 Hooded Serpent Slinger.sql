@@ -52,24 +52,24 @@ VALUES (30347,   1, 'Hooded Serpent Slinger') /* Name */
      , (30347,  16, 'One of the more eccentric Maliks in the long history of Gharu''n was Qorsh the Cold, who had an unhealthy fascination with snakes.  One day, one of his young nephews was surprised in the great gardens of Nishadina by a large snake.  Thinking quickly, the youth killed the snake with a quick shot from his atlatl.  The snake turned out to be the favorite pet of Qorsh, the youth''s uncle.  Enraged, Qorsh had the child put to death, and the offending atlatl was given over to craftsmen to remake in the image of the Malik''s much-mourned pet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30347,   1,   33559410) /* Setup */
-     , (30347,   3,  536870932) /* SoundTable */
-     , (30347,   6,   67111919) /* PaletteBase */
-     , (30347,   8,  100686804) /* Icon */
-     , (30347,  22,  872415275) /* PhysicsEffectTable */
-     , (30347,  52,  100686604) /* IconUnderlay */;
+VALUES (30347,   1, 0x02001372) /* Setup */
+     , (30347,   3, 0x20000014) /* SoundTable */
+     , (30347,   6, 0x04000BEF) /* PaletteBase */
+     , (30347,   8, 0x06005BD4) /* Icon */
+     , (30347,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30347,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30347, 8040, 23855555, 58.34725, -42.47028, -0.071, -0.6808578, -0.6808578, -0.1908734, -0.1908734) /* PCAPRecordedLocation */
+VALUES (30347, 8040, 0x016C01C3, 58.34725, -42.47028, -0.071, -0.680858, -0.680858, -0.190873, -0.190873) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.347250 -42.470280 -0.071000] -0.680858 -0.680858 -0.190873 -0.190873 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30347,  3963,      2)  /* CANTRIPCOORDINATION3 */
+VALUES (30347,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30347,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
      , (30347,  4299,      2)  /* EnduranceSelf8 */
+     , (30347,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
+     , (30347,  4522,      2)  /* MissileWeaponsMasterySelf8 */
      , (30347,  4395,      2)  /* BloodDrinkerSelf8 */
      , (30347,  4400,      2)  /* DefenderSelf8 */
-     , (30347,  4417,      2)  /* SwiftKillerSelf8 */
      , (30347,  4472,      2)  /* PiercingProtectionSelf8 */
-     , (30347,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (30347,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (30347,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;
+     , (30347,  3963,      2)  /* CANTRIPCOORDINATION3 */;

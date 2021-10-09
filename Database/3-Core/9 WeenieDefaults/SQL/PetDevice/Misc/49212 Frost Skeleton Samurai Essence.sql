@@ -39,10 +39,10 @@ VALUES (49212,   1, 'Frost Skeleton Samurai Essence') /* Name */
      , (49212,  14, 'Use this essence to summon or dismiss your Frost Skeleton Samurai.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49212,   1,   33554817) /* Setup */
-     , (49212,   3,  536870932) /* SoundTable */
-     , (49212,   6,   67111919) /* PaletteBase */
-     , (49212,   8,  100669124) /* Icon */
-     , (49212,  22,  872415275) /* PhysicsEffectTable */
-     , (49212,  50,  100693032) /* IconOverlay */
-     , (49212,  52,  100693024) /* IconUnderlay */;
+VALUES (49212,   1, 0x02000181) /* Setup */
+     , (49212,   3, 0x20000014) /* SoundTable */
+     , (49212,   6, 0x04000BEF) /* PaletteBase */
+     , (49212,   8, 0x060016C4) /* Icon */
+     , (49212,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49212,  50, 0x06007428) /* IconOverlay */
+     , (49212,  52, 0x06007420) /* IconUnderlay */;

@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34584,   1, 'Guruk Fist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34584,   1,   33560185) /* Setup */
-     , (34584,   3,  536870932) /* SoundTable */
-     , (34584,   8,  100689318) /* Icon */
-     , (34584,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34584,   1, 0x02001679) /* Setup */
+     , (34584,   3, 0x20000014) /* SoundTable */
+     , (34584,   8, 0x060065A6) /* Icon */
+     , (34584,  22, 0x3400002B) /* PhysicsEffectTable */;

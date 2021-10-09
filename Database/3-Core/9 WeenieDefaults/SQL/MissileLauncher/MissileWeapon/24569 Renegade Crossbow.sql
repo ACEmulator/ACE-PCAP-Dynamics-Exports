@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24569,   1, 'Renegade Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24569,   1,   33558377) /* Setup */
-     , (24569,   3,  536870932) /* SoundTable */
-     , (24569,   8,  100674394) /* Icon */
-     , (24569,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24569,   1, 0x02000F69) /* Setup */
+     , (24569,   3, 0x20000014) /* SoundTable */
+     , (24569,   8, 0x06002B5A) /* Icon */
+     , (24569,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24569,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24569, 8040, 595656962, 106.1073, 113.5596, 219.9325, -0.08835719, 0, 0, 0.9960889) /* PCAPRecordedLocation */
+VALUES (24569, 8040, 0x23810102, 106.1073, 113.5596, 219.9325, -0.088357, 0, 0, 0.996089) /* PCAPRecordedLocation */
 /* @teleloc 0x23810102 [106.107300 113.559600 219.932500] -0.088357 0.000000 0.000000 0.996089 */;

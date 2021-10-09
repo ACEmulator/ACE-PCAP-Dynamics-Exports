@@ -38,8 +38,8 @@ VALUES (7788,   1, 'Fire Spiked Club') /* Name */
      , (7788,  16, 'Fire Spiked Club') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7788,   1,   33556672) /* Setup */
-     , (7788,   3,  536870932) /* SoundTable */
-     , (7788,   6,   67111919) /* PaletteBase */
-     , (7788,   8,  100670780) /* Icon */
-     , (7788,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7788,   1, 0x020008C0) /* Setup */
+     , (7788,   3, 0x20000014) /* SoundTable */
+     , (7788,   6, 0x04000BEF) /* PaletteBase */
+     , (7788,   8, 0x06001D3C) /* Icon */
+     , (7788,  22, 0x3400002B) /* PhysicsEffectTable */;

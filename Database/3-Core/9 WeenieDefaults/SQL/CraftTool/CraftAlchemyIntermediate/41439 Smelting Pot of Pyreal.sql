@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41439,   1, 'Smelting Pot of Pyreal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41439,   1,   33555972) /* Setup */
-     , (41439,   3,  536870932) /* SoundTable */
-     , (41439,   8,  100690560) /* Icon */
-     , (41439,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41439,   1, 0x02000604) /* Setup */
+     , (41439,   3, 0x20000014) /* SoundTable */
+     , (41439,   8, 0x06006A80) /* Icon */
+     , (41439,  22, 0x3400002B) /* PhysicsEffectTable */;

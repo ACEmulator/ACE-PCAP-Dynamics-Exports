@@ -51,15 +51,15 @@ VALUES (45107,   1, 'Frost Rapier') /* Name */
      , (45107,  16, 'Frost Rapier of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45107,   1,   33561419) /* Setup */
-     , (45107,   3,  536870932) /* SoundTable */
-     , (45107,   6,   67111919) /* PaletteBase */
-     , (45107,   8,  100670661) /* Icon */
-     , (45107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45107,   1, 0x02001B4B) /* Setup */
+     , (45107,   3, 0x20000014) /* SoundTable */
+     , (45107,   6, 0x04000BEF) /* PaletteBase */
+     , (45107,   8, 0x06001CC5) /* Icon */
+     , (45107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45107,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45107,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45107,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (45107,  2116,      2)  /* SwiftKillerSelf7 */
      , (45107,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
-     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */;
+     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (45107,  2096,      2)  /* BloodDrinkerSelf7 */;

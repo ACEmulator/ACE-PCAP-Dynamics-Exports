@@ -29,13 +29,13 @@ VALUES (9288,   1, 'Singularity Trove') /* Name */
      , (9288,  16, 'A Virindi trove lies here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9288,   1,   33557001) /* Setup */
-     , (9288,   2,  150995121) /* MotionTable */
-     , (9288,   3,  536871023) /* SoundTable */
-     , (9288,   6,   67111346) /* PaletteBase */
-     , (9288,   8,  100671465) /* Icon */
-     , (9288,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9288,   1, 0x02000A09) /* Setup */
+     , (9288,   2, 0x090000B1) /* MotionTable */
+     , (9288,   3, 0x2000006F) /* SoundTable */
+     , (9288,   6, 0x040009B2) /* PaletteBase */
+     , (9288,   8, 0x06001FE9) /* Icon */
+     , (9288,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9288, 8040, 357695502, 36.8125, 125.2154, 13.01372, 0.2556833, 0, 0, -0.9667606) /* PCAPRecordedLocation */
+VALUES (9288, 8040, 0x1552000E, 36.8125, 125.2154, 13.01372, 0.255683, 0, 0, -0.966761) /* PCAPRecordedLocation */
 /* @teleloc 0x1552000E [36.812500 125.215400 13.013720] 0.255683 0.000000 0.000000 -0.966761 */;

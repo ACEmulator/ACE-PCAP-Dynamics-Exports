@@ -23,7 +23,7 @@ VALUES (2809,   1, 'Aura of Defender Self IV') /* Name */
 Increases the Melee Defense skill modifier of a weapon or magic caster by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2809,   1,   33554826) /* Setup */
-     , (2809,   8,  100676658) /* Icon */
-     , (2809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2809,   1, 0x0200018A) /* Setup */
+     , (2809,   8, 0x06003432) /* Icon */
+     , (2809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2809,  28,       1603) /* Spell - DefenderSelf4 */;

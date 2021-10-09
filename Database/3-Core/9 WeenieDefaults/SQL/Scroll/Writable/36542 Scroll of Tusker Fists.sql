@@ -23,8 +23,8 @@ VALUES (36542,   1, 'Scroll of Tusker Fists') /* Name */
 A hail of tusker fists pummels a clear path ahead of the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36542,   1,   33554826) /* Setup */
-     , (36542,   8,  100671419) /* Icon */
-     , (36542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36542,   1, 0x0200018A) /* Setup */
+     , (36542,   8, 0x06001FBB) /* Icon */
+     , (36542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36542,  28,       2934) /* Spell - TuskerFists */
-     , (36542,  50,  100689646) /* IconOverlay */;
+     , (36542,  50, 0x060066EE) /* IconOverlay */;

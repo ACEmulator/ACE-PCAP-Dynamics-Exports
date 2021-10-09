@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43607,   1, 'Soldier Tibia Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43607,   1,   33554653) /* Setup */
-     , (43607,   3,  536870932) /* SoundTable */
-     , (43607,   6,   67108990) /* PaletteBase */
-     , (43607,   8,  100691618) /* Icon */
-     , (43607,  22,  872415275) /* PhysicsEffectTable */
-     , (43607,  52,  100691613) /* IconUnderlay */
+VALUES (43607,   1, 0x020000DD) /* Setup */
+     , (43607,   3, 0x20000014) /* SoundTable */
+     , (43607,   6, 0x0400007E) /* PaletteBase */
+     , (43607,   8, 0x06006EA2) /* Icon */
+     , (43607,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43607,  52, 0x06006E9D) /* IconUnderlay */
      , (43607, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

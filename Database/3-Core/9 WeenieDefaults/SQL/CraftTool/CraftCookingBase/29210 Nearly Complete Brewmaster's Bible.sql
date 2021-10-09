@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29210,   1, 'Nearly Complete Brewmaster''s Bible') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29210,   1,   33555969) /* Setup */
-     , (29210,   3,  536870932) /* SoundTable */
-     , (29210,   8,  100686471) /* Icon */
-     , (29210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29210,   1, 0x02000601) /* Setup */
+     , (29210,   3, 0x20000014) /* SoundTable */
+     , (29210,   8, 0x06005A87) /* Icon */
+     , (29210,  22, 0x3400002B) /* PhysicsEffectTable */;

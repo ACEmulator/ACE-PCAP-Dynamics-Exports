@@ -33,10 +33,10 @@ VALUES (48884,   1, 'Iron Golem Essence') /* Name */
      , (48884,  14, 'Use this essence to summon or dismiss your Iron Golem.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48884,   1,   33554817) /* Setup */
-     , (48884,   3,  536870932) /* SoundTable */
-     , (48884,   6,   67111919) /* PaletteBase */
-     , (48884,   8,  100693023) /* Icon */
-     , (48884,  22,  872415275) /* PhysicsEffectTable */
-     , (48884,  50,  100693030) /* IconOverlay */
-     , (48884,  52,  100693024) /* IconUnderlay */;
+VALUES (48884,   1, 0x02000181) /* Setup */
+     , (48884,   3, 0x20000014) /* SoundTable */
+     , (48884,   6, 0x04000BEF) /* PaletteBase */
+     , (48884,   8, 0x0600741F) /* Icon */
+     , (48884,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48884,  50, 0x06007426) /* IconOverlay */
+     , (48884,  52, 0x06007420) /* IconUnderlay */;

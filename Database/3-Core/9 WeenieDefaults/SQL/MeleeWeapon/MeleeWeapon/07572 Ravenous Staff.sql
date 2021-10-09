@@ -46,7 +46,7 @@ VALUES (7572,   1, 'Ravenous Staff') /* Name */
      , (7572,  16, 'A staff crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7572,   1,   33556652) /* Setup */
-     , (7572,   3,  536870932) /* SoundTable */
-     , (7572,   8,  100669105) /* Icon */
-     , (7572,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7572,   1, 0x020008AC) /* Setup */
+     , (7572,   3, 0x20000014) /* SoundTable */
+     , (7572,   8, 0x060016B1) /* Icon */
+     , (7572,  22, 0x3400002B) /* PhysicsEffectTable */;

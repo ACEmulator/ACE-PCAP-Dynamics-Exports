@@ -22,10 +22,10 @@ VALUES (42839,   1, 'Portal to Eastwatch') /* Name */
      , (42839,  16, 'This portal is tied to the Viamontian outpost of Eastwatch. This outpost is a good place for characters above level 80.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42839,   1,   33555925) /* Setup */
-     , (42839,   2,  150994947) /* MotionTable */
-     , (42839,   8,  100667499) /* Icon */;
+VALUES (42839,   1, 0x020005D5) /* Setup */
+     , (42839,   2, 0x09000003) /* MotionTable */
+     , (42839,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42839, 8040, 459115, 86.513, -170.055, -0.06299996, -0.7071068, 0, 0, 0.7071068) /* PCAPRecordedLocation */
+VALUES (42839, 8040, 0x0007016B, 86.513, -170.055, -0.063, -0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016B [86.513000 -170.055000 -0.063000] -0.707107 0.000000 0.000000 0.707107 */;

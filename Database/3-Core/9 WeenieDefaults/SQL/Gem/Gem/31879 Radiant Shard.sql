@@ -26,8 +26,8 @@ VALUES (31879,   1, 'Radiant Shard') /* Name */
      , (31879,  16, 'Give this gem to the Gatekeeper Lurza to prove your worth.  Should you need a quick return to the Gatekeeper''s Plateau, present this gem to the Devastated Watcher or Ruined Watcher on Aerlinthe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31879,   1,   33556769) /* Setup */
-     , (31879,   3,  536870932) /* SoundTable */
-     , (31879,   6,   67111919) /* PaletteBase */
-     , (31879,   8,  100670634) /* Icon */
-     , (31879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31879,   1, 0x02000921) /* Setup */
+     , (31879,   3, 0x20000014) /* SoundTable */
+     , (31879,   6, 0x04000BEF) /* PaletteBase */
+     , (31879,   8, 0x06001CAA) /* Icon */
+     , (31879,  22, 0x3400002B) /* PhysicsEffectTable */;

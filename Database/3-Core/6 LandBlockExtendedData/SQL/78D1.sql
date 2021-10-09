@@ -35,13 +35,13 @@ VALUES (0x778D1006, 36918, 0x78D10013, 63.48452, 67.35643, 244.5949, 1, 0, 0, 0,
 /* @teleloc 0x78D10013 [63.484520 67.356430 244.594900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x778D1007,  4216, 0x78D1002E, 140.0562, 132.3978, 225.75, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+VALUES (0x778D1007,  4216, 0x78D1002E, 140.0562, 132.3978, 225.75, 0.92388, 0, 0, -0.382684,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x78D1002E [140.056200 132.397800 225.750000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x778D1008,  4216, 0x78D1002E, 134.1562, 130.8978, 225.75, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+VALUES (0x778D1008,  4216, 0x78D1002E, 134.1562, 130.8978, 225.75, 0.5, 0, 0, -0.866025,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x78D1002E [134.156200 130.897800 225.750000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x778D1009,  7980, 0x78D1003D, 168.0795, 113.7431, 207.9651, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
+VALUES (0x778D1009,  7980, 0x78D1003D, 168.0795, 113.7431, 207.9651, 0.906308, 0, 0, -0.422618,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
 /* @teleloc 0x78D1003D [168.079500 113.743100 207.965100] 0.906308 0.000000 0.000000 -0.422618 */

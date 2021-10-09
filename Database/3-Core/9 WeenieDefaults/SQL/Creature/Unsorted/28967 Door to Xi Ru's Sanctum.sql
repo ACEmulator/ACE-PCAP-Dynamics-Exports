@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28967,   1, 'Door to Xi Ru''s Sanctum') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28967,   1,   33558981) /* Setup */
-     , (28967,   2,  150995078) /* MotionTable */
-     , (28967,   3,  536870947) /* SoundTable */
-     , (28967,   8,  100677070) /* Icon */
-     , (28967,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28967,   1, 0x020011C5) /* Setup */
+     , (28967,   2, 0x09000086) /* MotionTable */
+     , (28967,   3, 0x20000023) /* SoundTable */
+     , (28967,   8, 0x060035CE) /* Icon */
+     , (28967,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28967, 8040, 26543311, 230, -195.1, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (28967, 8040, 0x019504CF, 230, -195.1, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x019504CF [230.000000 -195.100000 6.000000] 1.000000 0.000000 0.000000 0.000000 */;

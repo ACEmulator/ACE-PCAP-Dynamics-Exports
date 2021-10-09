@@ -25,8 +25,8 @@ VALUES (45494,   1, 'Imbue Swap Coin') /* Name */
      , (45494,  20, 'Imbue Swap Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45494,   1,   33560329) /* Setup */
-     , (45494,   3,  536870932) /* SoundTable */
-     , (45494,   8,  100689461) /* Icon */
-     , (45494,  22,  872415275) /* PhysicsEffectTable */
-     , (45494,  50,  100690192) /* IconOverlay */;
+VALUES (45494,   1, 0x02001709) /* Setup */
+     , (45494,   3, 0x20000014) /* SoundTable */
+     , (45494,   8, 0x06006635) /* Icon */
+     , (45494,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45494,  50, 0x06006910) /* IconOverlay */;

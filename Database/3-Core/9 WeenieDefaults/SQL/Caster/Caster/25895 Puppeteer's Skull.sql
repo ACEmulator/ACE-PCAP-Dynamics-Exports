@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25895,   1, 'Puppeteer''s Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25895,   1,   33558558) /* Setup */
-     , (25895,   3,  536870932) /* SoundTable */
-     , (25895,   8,  100675627) /* Icon */
-     , (25895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25895,   1, 0x0200101E) /* Setup */
+     , (25895,   3, 0x20000014) /* SoundTable */
+     , (25895,   8, 0x0600302B) /* Icon */
+     , (25895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25895,  28,       2998) /* Spell - WrathPuppeteer */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25895, 8040, 3847094301, 138.3217, 161.8873, 19.96383, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (25895, 8040, 0xE54E001D, 138.3217, 161.8873, 19.96383, 0.653282, 0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E001D [138.321700 161.887300 19.963830] 0.653282 0.653282 -0.270598 -0.270598 */;

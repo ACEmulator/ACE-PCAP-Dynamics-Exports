@@ -45,17 +45,17 @@ VALUES (46260,   1, 'Enhanced Flaming Isparian Wand') /* Name */
      , (46260,  25, 'Beale') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46260,   1,   33557788) /* Setup */
-     , (46260,   3,  536870932) /* SoundTable */
-     , (46260,   6,   67111919) /* PaletteBase */
-     , (46260,   8,  100672996) /* Icon */
-     , (46260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46260,   1, 0x02000D1C) /* Setup */
+     , (46260,   3, 0x20000014) /* SoundTable */
+     , (46260,   6, 0x04000BEF) /* PaletteBase */
+     , (46260,   8, 0x060025E4) /* Icon */
+     , (46260,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46260,  2091,      2)  /* WillpowerSelf7 */
-     , (46260,  2101,      2)  /* DefenderSelf7 */
+VALUES (46260,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46260,  2091,      2)  /* WillpowerSelf7 */
      , (46260,  2157,      2)  /* FireProtectionSelf7 */
      , (46260,  2287,      2)  /* ManaMasterySelf7 */
-     , (46260,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (46260,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46260,  2101,      2)  /* DefenderSelf7 */
      , (46260,  3259,      2)  /* SpiritDrinkerSelf7 */;

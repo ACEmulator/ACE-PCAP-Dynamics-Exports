@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7569,   1, 'Hollow Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7569,   1,   33556649) /* Setup */
-     , (7569,   3,  536870932) /* SoundTable */
-     , (7569,   8,  100668955) /* Icon */
-     , (7569,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7569,   1, 0x020008A9) /* Setup */
+     , (7569,   3, 0x20000014) /* SoundTable */
+     , (7569,   8, 0x0600161B) /* Icon */
+     , (7569,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7569, 8040, 23855548, 54.34718, -27.73827, -0.071, 0.034787, 0.034787, -0.7062505, -0.7062505) /* PCAPRecordedLocation */
+VALUES (7569, 8040, 0x016C01BC, 54.34718, -27.73827, -0.071, 0.034787, 0.034787, -0.706251, -0.706251) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.347180 -27.738270 -0.071000] 0.034787 0.034787 -0.706251 -0.706251 */;

@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41389,   1, 'Carved Pyreal Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41389,   1,   33560887) /* Setup */
-     , (41389,   3,  536870932) /* SoundTable */
-     , (41389,   6,   67116700) /* PaletteBase */
-     , (41389,   8,  100690716) /* Icon */
-     , (41389,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41389,   1, 0x02001937) /* Setup */
+     , (41389,   3, 0x20000014) /* SoundTable */
+     , (41389,   6, 0x04001E9C) /* PaletteBase */
+     , (41389,   8, 0x06006B1C) /* Icon */
+     , (41389,  22, 0x3400002B) /* PhysicsEffectTable */;

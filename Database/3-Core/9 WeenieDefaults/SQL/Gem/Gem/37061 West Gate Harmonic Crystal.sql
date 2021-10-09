@@ -23,8 +23,8 @@ VALUES (37061,   1, 'West Gate Harmonic Crystal') /* Name */
      , (37061,  16, 'A crystal with intricate imperfections in it''s core. It hums quietly in your hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37061,   1,   33554809) /* Setup */
-     , (37061,   3,  536870932) /* SoundTable */
-     , (37061,   6,   67111919) /* PaletteBase */
-     , (37061,   8,  100670080) /* Icon */
-     , (37061,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37061,   1, 0x02000179) /* Setup */
+     , (37061,   3, 0x20000014) /* SoundTable */
+     , (37061,   6, 0x04000BEF) /* PaletteBase */
+     , (37061,   8, 0x06001A80) /* Icon */
+     , (37061,  22, 0x3400002B) /* PhysicsEffectTable */;

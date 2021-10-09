@@ -27,11 +27,11 @@ VALUES (0x70D05003, 25881, 0x0D05000C, 44.73364, 84.62847, 156.0656, 1, 0, 0, 0,
 /* @teleloc 0x0D05000C [44.733640 84.628470 156.065600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70D05004, 25858, 0x0D050011, 61.96047, 0.1622009, 214.172, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Soiled Doll */
+VALUES (0x70D05004, 25858, 0x0D050011, 61.96047, 0.162201, 214.172, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Soiled Doll */
 /* @teleloc 0x0D050011 [61.960470 0.162201 214.172000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70D05005, 25858, 0x0D050011, 68.15105, 0.9376984, 244.3595, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Soiled Doll */
+VALUES (0x70D05005, 25858, 0x0D050011, 68.15105, 0.937698, 244.3595, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Soiled Doll */
 /* @teleloc 0x0D050011 [68.151050 0.937698 244.359500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

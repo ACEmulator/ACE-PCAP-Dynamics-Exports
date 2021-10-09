@@ -25,7 +25,7 @@ VALUES (12709,   1, 'Academy Token') /* Name */
      , (12709,  15, 'A brass token stamped with the sigil of the Explorer Society''s Training Academy. Return this item to the Training Master in the Practice Area.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12709,   1,   33557280) /* Setup */
-     , (12709,   3,  536870932) /* SoundTable */
-     , (12709,   8,  100672371) /* Icon */
-     , (12709,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12709,   1, 0x02000B20) /* Setup */
+     , (12709,   3, 0x20000014) /* SoundTable */
+     , (12709,   8, 0x06002373) /* Icon */
+     , (12709,  22, 0x3400002B) /* PhysicsEffectTable */;

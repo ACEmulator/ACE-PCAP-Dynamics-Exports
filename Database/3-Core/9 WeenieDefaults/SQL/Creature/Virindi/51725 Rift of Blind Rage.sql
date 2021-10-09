@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51725,   1, 'Rift of Blind Rage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51725,   1,   33561565) /* Setup */
-     , (51725,   2,  150995087) /* MotionTable */
-     , (51725,   3,  536871001) /* SoundTable */
-     , (51725,   8,  100671702) /* Icon */
-     , (51725,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (51725,   1, 0x02001BDD) /* Setup */
+     , (51725,   2, 0x0900008F) /* MotionTable */
+     , (51725,   3, 0x20000059) /* SoundTable */
+     , (51725,   8, 0x060020D6) /* Icon */
+     , (51725,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51725, 8040, 758185991, 10.71881, 144.9674, 97.63273, 0.6245938, 0, 0, -0.7809498) /* PCAPRecordedLocation */
+VALUES (51725, 8040, 0x2D310007, 10.71881, 144.9674, 97.63273, 0.624594, 0, 0, -0.78095) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310007 [10.718810 144.967400 97.632730] 0.624594 0.000000 0.000000 -0.780950 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

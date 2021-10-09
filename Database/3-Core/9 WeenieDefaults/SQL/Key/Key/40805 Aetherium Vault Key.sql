@@ -22,7 +22,7 @@ VALUES (40805,   1, 'Aetherium Vault Key') /* Name */
      , (40805,  16, 'A key to the Aetherium Vault within the Apostate Nexus dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40805,   1,   33554784) /* Setup */
-     , (40805,   3,  536870932) /* SoundTable */
-     , (40805,   8,  100668441) /* Icon */
-     , (40805,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40805,   1, 0x02000160) /* Setup */
+     , (40805,   3, 0x20000014) /* SoundTable */
+     , (40805,   8, 0x06001419) /* Icon */
+     , (40805,  22, 0x3400002B) /* PhysicsEffectTable */;

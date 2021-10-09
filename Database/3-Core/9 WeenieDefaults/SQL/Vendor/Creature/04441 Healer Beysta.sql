@@ -34,20 +34,20 @@ VALUES (4441,   1, 'Healer Beysta') /* Name */
      , (4441,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4441,   1,   33554510) /* Setup */
-     , (4441,   2,  150994945) /* MotionTable */
-     , (4441,   3,  536870914) /* SoundTable */
-     , (4441,   6,   67108990) /* PaletteBase */
-     , (4441,   8,  100667377) /* Icon */
-     , (4441,   9,   83890281) /* EyesTexture */
-     , (4441,  10,   83890311) /* NoseTexture */
-     , (4441,  11,   83890348) /* MouthTexture */
-     , (4441,  15,   67116995) /* HairPalette */
-     , (4441,  16,   67110064) /* EyesPalette */
-     , (4441,  17,   67109560) /* SkinPalette */;
+VALUES (4441,   1, 0x0200004E) /* Setup */
+     , (4441,   2, 0x09000001) /* MotionTable */
+     , (4441,   3, 0x20000002) /* SoundTable */
+     , (4441,   6, 0x0400007E) /* PaletteBase */
+     , (4441,   8, 0x06000FF1) /* Icon */
+     , (4441,   9, 0x05001069) /* EyesTexture */
+     , (4441,  10, 0x05001087) /* NoseTexture */
+     , (4441,  11, 0x050010AC) /* MouthTexture */
+     , (4441,  15, 0x04001FC3) /* HairPalette */
+     , (4441,  16, 0x040004B0) /* EyesPalette */
+     , (4441,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4441, 8040, 3212837170, 136.341, 55.7759, 34.005, 0.3638729, 0, 0, -0.9314486) /* PCAPRecordedLocation */
+VALUES (4441, 8040, 0xBF800132, 136.341, 55.7759, 34.005, 0.363873, 0, 0, -0.931449) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800132 [136.341000 55.775900 34.005000] 0.363873 0.000000 0.000000 -0.931449 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -39,23 +39,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31304,   1, 'Dho Vest and Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31304,   1,   33554854) /* Setup */
-     , (31304,   3,  536870932) /* SoundTable */
-     , (31304,   6,   67108990) /* PaletteBase */
-     , (31304,   8,  100670370) /* Icon */
-     , (31304,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31304,   1, 0x020001A6) /* Setup */
+     , (31304,   3, 0x20000014) /* SoundTable */
+     , (31304,   6, 0x0400007E) /* PaletteBase */
+     , (31304,   8, 0x06001BA2) /* Icon */
+     , (31304,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31304,   217,      2)  /* ManaRenewalSelf6 */
-     , (31304,   261,      2)  /* ImpregnabilitySelf6 */
-     , (31304,   279,      2)  /* MagicResistanceSelf6 */
-     , (31304,  1035,      2)  /* ColdProtectionSelf6 */
-     , (31304,  2094,      2)  /* BladeBane7 */
-     , (31304,  2098,      2)  /* BludgeonBane7 */
-     , (31304,  2104,      2)  /* FrostBane7 */
+VALUES (31304,  2624,      2)  /* CANTRIPMANAGAIN2 */
      , (31304,  2113,      2)  /* PiercingBane7 */
      , (31304,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (31304,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (31304,   261,      2)  /* ImpregnabilitySelf6 */
+     , (31304,  1035,      2)  /* ColdProtectionSelf6 */
+     , (31304,   279,      2)  /* MagicResistanceSelf6 */
+     , (31304,   217,      2)  /* ManaRenewalSelf6 */
      , (31304,  2661,      2)  /* ModerateFocus */
      , (31304,  2664,      2)  /* ModerateWillpower */
-     , (31304,  3827,      2)  /* ImpenetrabilityLunnumsPyre */;
+     , (31304,  2094,      2)  /* BladeBane7 */
+     , (31304,  2098,      2)  /* BludgeonBane7 */
+     , (31304,  3827,      2)  /* ImpenetrabilityLunnumsPyre */
+     , (31304,  2104,      2)  /* FrostBane7 */;

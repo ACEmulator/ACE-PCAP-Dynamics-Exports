@@ -24,11 +24,11 @@ VALUES (2418,   1, 'Gem') /* Name */
      , (2418,  16, 'Gem') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2418,   1,   33554809) /* Setup */
-     , (2418,   3,  536870932) /* SoundTable */
-     , (2418,   8,  100674718) /* Icon */
-     , (2418,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2418,   1, 0x02000179) /* Setup */
+     , (2418,   3, 0x20000014) /* SoundTable */
+     , (2418,   8, 0x06002C9E) /* Icon */
+     , (2418,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2418, 8040, 2471755814, 107.403, 137.215, 16.02252, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2418, 8040, 0x93540026, 107.403, 137.215, 16.02252, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x93540026 [107.403000 137.215000 16.022520] 1.000000 0.000000 0.000000 0.000000 */;

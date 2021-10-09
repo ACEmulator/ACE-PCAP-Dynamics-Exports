@@ -18,9 +18,9 @@ VALUES (1002,   1, 'House of Fathlan') /* Name */
      , (1002,  16, 'House of Fathlan') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1002,   1,   33555909) /* Setup */
-     , (1002,   8,  100668115) /* Icon */;
+VALUES (1002,   1, 0x020005C5) /* Setup */
+     , (1002,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1002, 8040, 2541420600, 157.534, 179.306, 3.4965, -0.9998994, 0, 0, -0.01417959) /* PCAPRecordedLocation */
+VALUES (1002, 8040, 0x977B0038, 157.534, 179.306, 3.4965, -0.999899, 0, 0, -0.01418) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0038 [157.534000 179.306000 3.496500] -0.999899 0.000000 0.000000 -0.014180 */;

@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42004,   1, 'Flames of Patience') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42004,   1,   33560900) /* Setup */
-     , (42004,   2,  150995355) /* MotionTable */
-     , (42004,   3,  536870913) /* SoundTable */
-     , (42004,   8,  100667494) /* Icon */;
+VALUES (42004,   1, 0x02001944) /* Setup */
+     , (42004,   2, 0x0900019B) /* MotionTable */
+     , (42004,   3, 0x20000001) /* SoundTable */
+     , (42004,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42004, 8040, 2349008828, 28, -218, 24, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42004, 8040, 0x8C0307BC, 28, -218, 24, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307BC [28.000000 -218.000000 24.000000] 0.707107 0.000000 0.000000 -0.707107 */;

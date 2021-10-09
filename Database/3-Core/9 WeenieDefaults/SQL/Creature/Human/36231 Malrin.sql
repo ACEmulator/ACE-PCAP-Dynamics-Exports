@@ -29,20 +29,20 @@ VALUES (36231,   1, 'Malrin') /* Name */
      , (36231,   5, 'Reef Builder') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36231,   1,   33554433) /* Setup */
-     , (36231,   2,  150994945) /* MotionTable */
-     , (36231,   3,  536870913) /* SoundTable */
-     , (36231,   6,   67108990) /* PaletteBase */
-     , (36231,   8,  100667446) /* Icon */
-     , (36231,   9,   83890509) /* EyesTexture */
-     , (36231,  10,   83890548) /* NoseTexture */
-     , (36231,  11,   83890575) /* MouthTexture */
-     , (36231,  15,   67116982) /* HairPalette */
-     , (36231,  16,   67110065) /* EyesPalette */
-     , (36231,  17,   67115906) /* SkinPalette */;
+VALUES (36231,   1, 0x02000001) /* Setup */
+     , (36231,   2, 0x09000001) /* MotionTable */
+     , (36231,   3, 0x20000001) /* SoundTable */
+     , (36231,   6, 0x0400007E) /* PaletteBase */
+     , (36231,   8, 0x06001036) /* Icon */
+     , (36231,   9, 0x0500114D) /* EyesTexture */
+     , (36231,  10, 0x05001174) /* NoseTexture */
+     , (36231,  11, 0x0500118F) /* MouthTexture */
+     , (36231,  15, 0x04001FB6) /* HairPalette */
+     , (36231,  16, 0x040004B1) /* EyesPalette */
+     , (36231,  17, 0x04001B82) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36231, 8040, 869859595, 90.0708, 34.1475, 55.195, 0.533095, 0, 0, -0.846055) /* PCAPRecordedLocation */
+VALUES (36231, 8040, 0x33D9010B, 90.0708, 34.1475, 55.195, 0.533095, 0, 0, -0.846055) /* PCAPRecordedLocation */
 /* @teleloc 0x33D9010B [90.070800 34.147500 55.195000] 0.533095 0.000000 0.000000 -0.846055 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

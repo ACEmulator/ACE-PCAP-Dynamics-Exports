@@ -24,7 +24,7 @@ VALUES (44014,   1, 'Broken Shield') /* Name */
      , (44014,  16, 'A broken shield, bearing the heraldry of Prince Borelean.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44014,   1,   33560949) /* Setup */
-     , (44014,   3,  536870932) /* SoundTable */
-     , (44014,   8,  100690971) /* Icon */
-     , (44014,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44014,   1, 0x02001975) /* Setup */
+     , (44014,   3, 0x20000014) /* SoundTable */
+     , (44014,   8, 0x06006C1B) /* Icon */
+     , (44014,  22, 0x3400002B) /* PhysicsEffectTable */;

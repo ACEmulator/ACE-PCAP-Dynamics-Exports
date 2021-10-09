@@ -22,8 +22,8 @@ VALUES (777,   1, 'Myrrh') /* Name */
      , (777,  20, 'Sacks of Myrrh') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (777,   1,   33554817) /* Setup */
-     , (777,   3,  536870932) /* SoundTable */
-     , (777,   6,   67111919) /* PaletteBase */
-     , (777,   8,  100668429) /* Icon */
-     , (777,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (777,   1, 0x02000181) /* Setup */
+     , (777,   3, 0x20000014) /* SoundTable */
+     , (777,   6, 0x04000BEF) /* PaletteBase */
+     , (777,   8, 0x0600140D) /* Icon */
+     , (777,  22, 0x3400002B) /* PhysicsEffectTable */;

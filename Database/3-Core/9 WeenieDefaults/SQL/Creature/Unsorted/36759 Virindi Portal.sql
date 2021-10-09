@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36759,   1, 'Virindi Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36759,   1,   33555925) /* Setup */
-     , (36759,   2,  150994947) /* MotionTable */
-     , (36759,   3,  536870932) /* SoundTable */
-     , (36759,   8,  100667499) /* Icon */;
+VALUES (36759,   1, 0x020005D5) /* Setup */
+     , (36759,   2, 0x09000003) /* MotionTable */
+     , (36759,   3, 0x20000014) /* SoundTable */
+     , (36759,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36759, 8040, 14025869, 52.7257, -23.6488, 83.937, 0.5, 0, 0, -0.8660254) /* PCAPRecordedLocation */
+VALUES (36759, 8040, 0x00D6048D, 52.7257, -23.6488, 83.937, 0.5, 0, 0, -0.866025) /* PCAPRecordedLocation */
 /* @teleloc 0x00D6048D [52.725700 -23.648800 83.937000] 0.500000 0.000000 0.000000 -0.866025 */;

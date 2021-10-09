@@ -35,9 +35,9 @@ VALUES (39107,   1, 'Caramel Kukuur') /* Name */
      , (39107,  16, 'A festival treat. A caramel treat made with love and thaumaturgy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39107,   1,   33560400) /* Setup */
-     , (39107,   3,  536870932) /* SoundTable */
-     , (39107,   6,   67115354) /* PaletteBase */
-     , (39107,   8,  100689667) /* Icon */
-     , (39107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39107,   1, 0x02001750) /* Setup */
+     , (39107,   3, 0x20000014) /* SoundTable */
+     , (39107,   6, 0x0400195A) /* PaletteBase */
+     , (39107,   8, 0x06006703) /* Icon */
+     , (39107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39107,  28,       4212) /* Spell - StickyMelee */;

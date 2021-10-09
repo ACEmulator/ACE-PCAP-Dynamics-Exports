@@ -47,14 +47,14 @@ VALUES (3909,   1, 'Acid Yaoji') /* Name */
      , (3909,  16, 'Acid Yaoji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3909,   1,   33555804) /* Setup */
-     , (3909,   3,  536870932) /* SoundTable */
-     , (3909,   8,  100667621) /* Icon */
-     , (3909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3909,   1, 0x0200055C) /* Setup */
+     , (3909,   3, 0x20000014) /* SoundTable */
+     , (3909,   8, 0x060010E5) /* Icon */
+     , (3909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3909,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3909, 8040, 23855554, 62.31036, -28.60695, -0.071, -0.4200381, -0.4200381, -0.5688304, -0.5688304) /* PCAPRecordedLocation */
+VALUES (3909, 8040, 0x016C01C2, 62.31036, -28.60695, -0.071, -0.420038, -0.420038, -0.56883, -0.56883) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [62.310360 -28.606950 -0.071000] -0.420038 -0.420038 -0.568830 -0.568830 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

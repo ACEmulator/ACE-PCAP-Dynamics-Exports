@@ -22,11 +22,11 @@ VALUES (34731,   1, 'Magical Orb') /* Name */
      , (34731,  16, 'This large violet orb crackles with energy. It is sealed to the pedestal upon which it rests.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34731,   1,   33560199) /* Setup */
-     , (34731,   3,  536870932) /* SoundTable */
-     , (34731,   8,  100668728) /* Icon */
-     , (34731,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34731,   1, 0x02001687) /* Setup */
+     , (34731,   3, 0x20000014) /* SoundTable */
+     , (34731,   8, 0x06001538) /* Icon */
+     , (34731,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34731, 8040, 2782068774, 107.5, 141, 405.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34731, 8040, 0xA5D30026, 107.5, 141, 405.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA5D30026 [107.500000 141.000000 405.600000] 1.000000 0.000000 0.000000 0.000000 */;

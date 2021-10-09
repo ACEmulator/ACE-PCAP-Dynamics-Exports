@@ -40,19 +40,19 @@ VALUES (21395,   1, 'Taulandoi') /* Name */
      , (21395,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21395,   1,   33557963) /* Setup */
-     , (21395,   3,  536870932) /* SoundTable */
-     , (21395,   8,  100673490) /* Icon */
-     , (21395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21395,   1, 0x02000DCB) /* Setup */
+     , (21395,   3, 0x20000014) /* SoundTable */
+     , (21395,   8, 0x060027D2) /* Icon */
+     , (21395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21395,  28,       2784) /* Spell - LesserElementalFuryLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21395, 8040, 23855548, 47.29964, -32.21876, -0.071, 0.4975332, 0.4975332, -0.5024546, -0.5024546) /* PCAPRecordedLocation */
+VALUES (21395, 8040, 0x016C01BC, 47.29964, -32.21876, -0.071, 0.497533, 0.497533, -0.502455, -0.502455) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [47.299640 -32.218760 -0.071000] 0.497533 0.497533 -0.502455 -0.502455 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21395,   640,      2)  /* WarMagicMasteryOther6 */
-     , (21395,   664,      2)  /* ManaMasteryOther6 */
      , (21395,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21395,   664,      2)  /* ManaMasteryOther6 */
      , (21395,  2584,      2)  /* CANTRIPWILLPOWER1 */
      , (21395,  2812,      2)  /* ModerateWarMagicAptitude */;

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1CBE;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71CBE000, 11231, 0x1CBE0028, 108.213, 180.188, 99.937, -0.9999987, 0, 0, 0.00162417, False, '2019-02-10 00:00:00'); /* Wasteland Hive Portal */
+VALUES (0x71CBE000, 11231, 0x1CBE0028, 108.213, 180.188, 99.937, -0.999999, 0, 0, 0.001624, False, '2019-02-10 00:00:00'); /* Wasteland Hive Portal */
 /* @teleloc 0x1CBE0028 [108.213000 180.188000 99.937000] -0.999999 0.000000 0.000000 0.001624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,7 +41,7 @@ VALUES (0x71CBE005, 11486, 0x1CBE0037, 152.416, 147.3869, 101.6776, 1, 0, 0, 0, 
 /* @teleloc 0x1CBE0037 [152.416000 147.386900 101.677600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71CBE006, 21170, 0x1CBE0006, 0.2742462, 132.5958, 108.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Voltarc */
+VALUES (0x71CBE006, 21170, 0x1CBE0006, 0.274246, 132.5958, 108.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Voltarc */
 /* @teleloc 0x1CBE0006 [0.274246 132.595800 108.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

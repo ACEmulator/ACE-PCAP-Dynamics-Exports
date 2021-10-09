@@ -36,10 +36,10 @@ VALUES (49442,   1, 'Frost Spectre Essence (50)') /* Name */
      , (49442,  14, 'Use this essence to summon or dismiss your Frost Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49442,   1,   33554817) /* Setup */
-     , (49442,   3,  536870932) /* SoundTable */
-     , (49442,   6,   67111919) /* PaletteBase */
-     , (49442,   8,  100676679) /* Icon */
-     , (49442,  22,  872415275) /* PhysicsEffectTable */
-     , (49442,  50,  100693026) /* IconOverlay */
-     , (49442,  52,  100693024) /* IconUnderlay */;
+VALUES (49442,   1, 0x02000181) /* Setup */
+     , (49442,   3, 0x20000014) /* SoundTable */
+     , (49442,   6, 0x04000BEF) /* PaletteBase */
+     , (49442,   8, 0x06003447) /* Icon */
+     , (49442,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49442,  50, 0x06007422) /* IconOverlay */
+     , (49442,  52, 0x06007420) /* IconUnderlay */;

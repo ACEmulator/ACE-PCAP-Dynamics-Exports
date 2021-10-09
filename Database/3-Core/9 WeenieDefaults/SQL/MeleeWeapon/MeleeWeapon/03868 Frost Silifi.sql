@@ -51,14 +51,14 @@ VALUES (3868,   1, 'Frost Silifi') /* Name */
      , (3868,  16, 'Frost Silifi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3868,   1,   33555779) /* Setup */
-     , (3868,   3,  536870932) /* SoundTable */
-     , (3868,   8,  100668994) /* Icon */
-     , (3868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3868,   1, 0x02000543) /* Setup */
+     , (3868,   3, 0x20000014) /* SoundTable */
+     , (3868,   8, 0x06001642) /* Icon */
+     , (3868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3868,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3868,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3868,  2580,      2)  /* CANTRIPENDURANCE1 */
      , (3868,  1627,      2)  /* SwiftKillerSelf6 */
-     , (3868,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */
-     , (3868,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (3868,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */;

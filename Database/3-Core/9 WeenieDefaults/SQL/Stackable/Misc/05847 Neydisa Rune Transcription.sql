@@ -25,7 +25,7 @@ VALUES (5847,   1, 'Neydisa Rune Transcription') /* Name */
      , (5847,  16, 'Written transcription of Dericostian runes discovered on a Standing Stone near Neydisa Castle. The runes appear to be cut off, as if most of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5847,   1,   33554773) /* Setup */
-     , (5847,   3,  536870932) /* SoundTable */
-     , (5847,   8,  100667493) /* Icon */
-     , (5847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5847,   1, 0x02000155) /* Setup */
+     , (5847,   3, 0x20000014) /* SoundTable */
+     , (5847,   8, 0x06001065) /* Icon */
+     , (5847,  22, 0x3400002B) /* PhysicsEffectTable */;

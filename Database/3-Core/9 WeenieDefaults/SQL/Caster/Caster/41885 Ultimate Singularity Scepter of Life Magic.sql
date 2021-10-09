@@ -43,17 +43,17 @@ VALUES (41885,   1, 'Ultimate Singularity Scepter of Life Magic') /* Name */
      , (41885,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41885,   1,   33558796) /* Setup */
-     , (41885,   6,   67111919) /* PaletteBase */
-     , (41885,   8,  100676589) /* Icon */
-     , (41885,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41885,   1, 0x0200110C) /* Setup */
+     , (41885,   6, 0x04000BEF) /* PaletteBase */
+     , (41885,   8, 0x060033ED) /* Icon */
+     , (41885,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41885, 8040, 3465871674, 157.2323, 95.9995, 19.929, 0.2566817, 0.2566817, -0.6588737, -0.6588737) /* PCAPRecordedLocation */
+VALUES (41885, 8040, 0xCE95013A, 157.2323, 95.9995, 19.929, 0.256682, 0.256682, -0.658874, -0.658874) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013A [157.232300 95.999500 19.929000] 0.256682 0.256682 -0.658874 -0.658874 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41885,  2066,      2)  /* FocusOther7 */
-     , (41885,  2182,      2)  /* ManaRenewalOther7 */
-     , (41885,  2286,      2)  /* ManaMasteryOther7 */
-     , (41885,  2574,      2)  /* CANTRIPFOCUS2 */;
+VALUES (41885,  2182,      2)  /* ManaRenewalOther7 */
+     , (41885,  2574,      2)  /* CANTRIPFOCUS2 */
+     , (41885,  2066,      2)  /* FocusOther7 */
+     , (41885,  2286,      2)  /* ManaMasteryOther7 */;

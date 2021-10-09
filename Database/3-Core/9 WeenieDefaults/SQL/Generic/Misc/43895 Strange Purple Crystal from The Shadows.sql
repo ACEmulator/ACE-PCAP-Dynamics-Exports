@@ -22,7 +22,7 @@ VALUES (43895,   1, 'Strange Purple Crystal from The Shadows') /* Name */
      , (43895,  20, 'Strange Purple Crystals from The Shadows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43895,   1,   33561091) /* Setup */
-     , (43895,   3,  536870932) /* SoundTable */
-     , (43895,   8,  100690568) /* Icon */
-     , (43895,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43895,   1, 0x02001A03) /* Setup */
+     , (43895,   3, 0x20000014) /* SoundTable */
+     , (43895,   8, 0x06006A88) /* Icon */
+     , (43895,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,12 +23,12 @@ VALUES (29329,   1, 'Training Area') /* Name */
      , (29329,  14, 'This door leads to the Practice Area. Make sure you have found all three pieces of your armor before you enter these doors.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29329,   1,   33555930) /* Setup */
-     , (29329,   2,  150995078) /* MotionTable */
-     , (29329,   3,  536870946) /* SoundTable */
-     , (29329,   8,  100668183) /* Icon */
-     , (29329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29329,   1, 0x020005DA) /* Setup */
+     , (29329,   2, 0x09000086) /* MotionTable */
+     , (29329,   3, 0x20000022) /* SoundTable */
+     , (29329,   8, 0x06001317) /* Icon */
+     , (29329,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29329, 8040, 2248343986, 24.8041, -29.9963, -7.450581E-09, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (29329, 8040, 0x860301B2, 24.8041, -29.9963, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x860301B2 [24.804100 -29.996300 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;

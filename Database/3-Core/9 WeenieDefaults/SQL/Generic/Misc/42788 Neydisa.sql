@@ -19,9 +19,9 @@ VALUES (42788,   1, 'Neydisa') /* Name */
      , (42788,  16, 'Long ago, this place was called Foster''s Fort, an abandoned Empyrean structure found by a man named Foster in the years of the Olthoi enslavement. Foster, then a new arrival, had been fleeing the Olthoi for days when he glimpsed these spires in the distance. Initially elated, his joy turned to deep disappointment when he found the walls undefended and no one within. He spent years hiding here in the towers until the liberation came, and thereafter vowed to never return to such a forsaken place.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42788,   1,   33560984) /* Setup */
-     , (42788,   8,  100668115) /* Icon */;
+VALUES (42788,   1, 0x02001998) /* Setup */
+     , (42788,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42788, 8040, 459065, 55.1026, -150.008, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42788, 8040, 0x00070139, 55.1026, -150.008, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070139 [55.102600 -150.008000 3.014000] 0.707107 0.000000 0.000000 -0.707107 */;

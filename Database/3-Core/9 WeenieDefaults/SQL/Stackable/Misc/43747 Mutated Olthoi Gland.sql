@@ -29,12 +29,12 @@ VALUES (43747,   1, 'Mutated Olthoi Gland') /* Name */
      , (43747,  15, 'A small, mutated gland from one of the self-aware Olthoi Soldiers or Spitters.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43747,   1,   33554817) /* Setup */
-     , (43747,   3,  536870932) /* SoundTable */
-     , (43747,   6,   67111919) /* PaletteBase */
-     , (43747,   8,  100674711) /* Icon */
-     , (43747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43747,   1, 0x02000181) /* Setup */
+     , (43747,   3, 0x20000014) /* SoundTable */
+     , (43747,   6, 0x04000BEF) /* PaletteBase */
+     , (43747,   8, 0x06002C97) /* Icon */
+     , (43747,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43747, 8040, 2847146018, 99.06889, 41.68376, 97.499, 0.8933309, 0, 0, -0.4493995) /* PCAPRecordedLocation */
+VALUES (43747, 8040, 0xA9B40022, 99.06889, 41.68376, 97.499, 0.893331, 0, 0, -0.4494) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40022 [99.068890 41.683760 97.499000] 0.893331 0.000000 0.000000 -0.449400 */;

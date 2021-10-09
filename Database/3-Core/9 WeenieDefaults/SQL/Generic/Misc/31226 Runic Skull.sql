@@ -25,7 +25,7 @@ VALUES (31226,   1, 'Runic Skull') /* Name */
      , (31226,  16, 'An unusually large skull. Runes are inscribed on the surface of the skull. The only decipherable runes read, "Undead Temple". Perhaps it''s a key of some sort? ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31226,   1,   33556825) /* Setup */
-     , (31226,   3,  536870932) /* SoundTable */
-     , (31226,   8,  100671032) /* Icon */
-     , (31226,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31226,   1, 0x02000959) /* Setup */
+     , (31226,   3, 0x20000014) /* SoundTable */
+     , (31226,   8, 0x06001E38) /* Icon */
+     , (31226,  22, 0x3400002B) /* PhysicsEffectTable */;

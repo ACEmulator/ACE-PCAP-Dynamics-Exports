@@ -24,8 +24,8 @@ VALUES (38046,   1, 'Green Mire Yoroi Cuirass') /* Name */
      , (38046,  16, 'An old and timeworn Yoroi Cuirass, that once belonged to the famous Green Mire Warrior.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38046,   1,   33554854) /* Setup */
-     , (38046,   3,  536870932) /* SoundTable */
-     , (38046,   6,   67108990) /* PaletteBase */
-     , (38046,   8,  100671319) /* Icon */
-     , (38046,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38046,   1, 0x020001A6) /* Setup */
+     , (38046,   3, 0x20000014) /* SoundTable */
+     , (38046,   6, 0x0400007E) /* PaletteBase */
+     , (38046,   8, 0x06001F57) /* Icon */
+     , (38046,  22, 0x3400002B) /* PhysicsEffectTable */;

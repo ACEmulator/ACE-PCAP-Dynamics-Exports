@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47153,   1, 'Tainted Dust Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47153,   1,   33561253) /* Setup */
-     , (47153,   2,  150995073) /* MotionTable */
-     , (47153,   3,  536871066) /* SoundTable */
-     , (47153,   8,  100667940) /* Icon */
-     , (47153,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (47153,   1, 0x02001AA5) /* Setup */
+     , (47153,   2, 0x09000081) /* MotionTable */
+     , (47153,   3, 0x2000009A) /* SoundTable */
+     , (47153,   8, 0x06001224) /* Icon */
+     , (47153,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47153, 8040, 1482031488, 72.4627, -110, -23.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (47153, 8040, 0x58560180, 72.4627, -110, -23.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58560180 [72.462700 -110.000000 -23.990000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

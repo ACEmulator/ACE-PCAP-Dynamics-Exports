@@ -28,15 +28,15 @@ VALUES (35338,   1, 'Banderling Guard Champion') /* Name */
      , (35338,   5, 'Chief''s Personal Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35338,   1,   33558024) /* Setup */
-     , (35338,   2,  150994951) /* MotionTable */
-     , (35338,   3,  536870917) /* SoundTable */
-     , (35338,   6,   67114021) /* PaletteBase */
-     , (35338,   8,  100667453) /* Icon */
-     , (35338,  22,  872415255) /* PhysicsEffectTable */;
+VALUES (35338,   1, 0x02000E08) /* Setup */
+     , (35338,   2, 0x09000007) /* MotionTable */
+     , (35338,   3, 0x20000005) /* SoundTable */
+     , (35338,   6, 0x04001425) /* PaletteBase */
+     , (35338,   8, 0x0600103D) /* Icon */
+     , (35338,  22, 0x34000017) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35338, 8040, 422838274, 2.96324, 41.4414, 0.008249998, 0.439671, 0, 0, -0.8981589) /* PCAPRecordedLocation */
+VALUES (35338, 8040, 0x19340002, 2.96324, 41.4414, 0.00825, 0.439671, 0, 0, -0.898159) /* PCAPRecordedLocation */
 /* @teleloc 0x19340002 [2.963240 41.441400 0.008250] 0.439671 0.000000 0.000000 -0.898159 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

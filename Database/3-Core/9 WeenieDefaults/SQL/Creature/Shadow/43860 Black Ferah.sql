@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43860,   1, 'Black Ferah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43860,   1,   33556251) /* Setup */
-     , (43860,   2,  150995091) /* MotionTable */
-     , (43860,   3,  536870914) /* SoundTable */
-     , (43860,   6,   67108990) /* PaletteBase */
-     , (43860,   8,  100670398) /* Icon */;
+VALUES (43860,   1, 0x0200071B) /* Setup */
+     , (43860,   2, 0x09000093) /* MotionTable */
+     , (43860,   3, 0x20000002) /* SoundTable */
+     , (43860,   6, 0x0400007E) /* PaletteBase */
+     , (43860,   8, 0x06001BBE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43860, 8040, 4149870608, 28.1385, 182.845, 20.006, 0.7059764, 0, 0, 0.7082354) /* PCAPRecordedLocation */
+VALUES (43860, 8040, 0xF75A0010, 28.1385, 182.845, 20.006, 0.705976, 0, 0, 0.708235) /* PCAPRecordedLocation */
 /* @teleloc 0xF75A0010 [28.138500 182.845000 20.006000] 0.705976 0.000000 0.000000 0.708235 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -29,8 +29,8 @@ VALUES (46122,   1, 'Atlan Wand') /* Name */
      , (46122,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46122,   1,   33557782) /* Setup */
-     , (46122,   3,  536870932) /* SoundTable */
-     , (46122,   6,   67111919) /* PaletteBase */
-     , (46122,   8,  100672989) /* Icon */
-     , (46122,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46122,   1, 0x02000D16) /* Setup */
+     , (46122,   3, 0x20000014) /* SoundTable */
+     , (46122,   6, 0x04000BEF) /* PaletteBase */
+     , (46122,   8, 0x060025DD) /* Icon */
+     , (46122,  22, 0x3400002B) /* PhysicsEffectTable */;

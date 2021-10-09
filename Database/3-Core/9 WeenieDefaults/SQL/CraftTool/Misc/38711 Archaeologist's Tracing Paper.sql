@@ -29,7 +29,7 @@ VALUES (38711,   1, 'Archaeologist''s Tracing Paper') /* Name */
      , (38711,  16, 'This thin sheet of paper is useful for tracing solid objects.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38711,   1,   33554826) /* Setup */
-     , (38711,   3,  536870932) /* SoundTable */
-     , (38711,   8,  100690208) /* Icon */
-     , (38711,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38711,   1, 0x0200018A) /* Setup */
+     , (38711,   3, 0x20000014) /* SoundTable */
+     , (38711,   8, 0x06006920) /* Icon */
+     , (38711,  22, 0x3400002B) /* PhysicsEffectTable */;

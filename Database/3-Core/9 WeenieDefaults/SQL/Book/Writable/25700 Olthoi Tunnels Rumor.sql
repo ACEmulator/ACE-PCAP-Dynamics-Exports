@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25700,   1, 'Olthoi Tunnels Rumor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25700,   1,   33559084) /* Setup */
-     , (25700,   3,  536870932) /* SoundTable */
-     , (25700,   6,   67112626) /* PaletteBase */
-     , (25700,   8,  100668176) /* Icon */
-     , (25700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25700,   1, 0x0200122C) /* Setup */
+     , (25700,   3, 0x20000014) /* SoundTable */
+     , (25700,   6, 0x04000EB2) /* PaletteBase */
+     , (25700,   8, 0x06001310) /* Icon */
+     , (25700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25700, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

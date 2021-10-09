@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9603,   1, 'Stave of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9603,   1,   33557107) /* Setup */
-     , (9603,   3,  536870932) /* SoundTable */
-     , (9603,   8,  100671699) /* Icon */
-     , (9603,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9603,   1, 0x02000A73) /* Setup */
+     , (9603,   3, 0x20000014) /* SoundTable */
+     , (9603,   8, 0x060020D3) /* Icon */
+     , (9603,  22, 0x3400002B) /* PhysicsEffectTable */;

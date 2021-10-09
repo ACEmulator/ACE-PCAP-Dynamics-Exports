@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44144,   1, 'Contract for Glenden Wood Invasion (Mid)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44144,   1,   33557625) /* Setup */
-     , (44144,   3,  536870932) /* SoundTable */
-     , (44144,   8,  100691932) /* Icon */
-     , (44144,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44144,   1, 0x02000C79) /* Setup */
+     , (44144,   3, 0x20000014) /* SoundTable */
+     , (44144,   8, 0x06006FDC) /* Icon */
+     , (44144,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44144, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

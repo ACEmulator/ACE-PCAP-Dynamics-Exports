@@ -33,10 +33,10 @@ VALUES (30216,   1, 'Vaulter''s Crystal') /* Name */
      , (30216,  20, 'Vaulter''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30216,   1,   33554809) /* Setup */
-     , (30216,   3,  536870932) /* SoundTable */
-     , (30216,   8,  100686697) /* Icon */
-     , (30216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30216,   1, 0x02000179) /* Setup */
+     , (30216,   3, 0x20000014) /* SoundTable */
+     , (30216,   8, 0x06005B69) /* Icon */
+     , (30216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30216,  28,       3715) /* Spell - JumpMasteryRare */
-     , (30216,  50,  100686662) /* IconOverlay */
-     , (30216,  52,  100686604) /* IconUnderlay */;
+     , (30216,  50, 0x06005B46) /* IconOverlay */
+     , (30216,  52, 0x06005B0C) /* IconUnderlay */;

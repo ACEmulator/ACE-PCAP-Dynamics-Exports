@@ -27,6 +27,6 @@ VALUES (30250,   1, 'Medicated Health Kit') /* Name */
      , (30250,  16, 'This Medicated Health Kit does not last long, but it is very powerful!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30250,   1,   33555194) /* Setup */
-     , (30250,   8,  100686702) /* Icon */
-     , (30250,  52,  100686604) /* IconUnderlay */;
+VALUES (30250,   1, 0x020002FA) /* Setup */
+     , (30250,   8, 0x06005B6E) /* Icon */
+     , (30250,  52, 0x06005B0C) /* IconUnderlay */;

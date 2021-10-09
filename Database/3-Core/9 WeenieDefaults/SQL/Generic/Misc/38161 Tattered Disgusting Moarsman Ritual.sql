@@ -21,7 +21,7 @@ VALUES (38161,   1, 'Tattered Disgusting Moarsman Ritual') /* Name */
      , (38161,  16, 'This tattered piece of paper is mostly written in a strange language, but at the top, in Roulean, are the words, "Procedures By Which a Disgusting Moarsman May Be Converted To The Creeping Blight."  It is far too damaged to utilize in any fashion except as proof of a deed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38161,   1,   33554773) /* Setup */
-     , (38161,   3,  536870932) /* SoundTable */
-     , (38161,   8,  100668176) /* Icon */
-     , (38161,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38161,   1, 0x02000155) /* Setup */
+     , (38161,   3, 0x20000014) /* SoundTable */
+     , (38161,   8, 0x06001310) /* Icon */
+     , (38161,  22, 0x3400002B) /* PhysicsEffectTable */;

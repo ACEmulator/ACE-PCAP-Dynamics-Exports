@@ -20,7 +20,7 @@ VALUES (1077,   1, 'Welcome Letter') /* Name */
      , (1077,  15, 'This is a letter that all newcomers arrive with.  Save this letter for a little while.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1077,   1,   33554773) /* Setup */
-     , (1077,   3,  536870932) /* SoundTable */
-     , (1077,   8,  100672431) /* Icon */
-     , (1077,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1077,   1, 0x02000155) /* Setup */
+     , (1077,   3, 0x20000014) /* SoundTable */
+     , (1077,   8, 0x060023AF) /* Icon */
+     , (1077,  22, 0x3400002B) /* PhysicsEffectTable */;

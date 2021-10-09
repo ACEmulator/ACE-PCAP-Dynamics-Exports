@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51215,   1, 'Olthoi Hive Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51215,   1,   33558451) /* Setup */
-     , (51215,   2,  150995253) /* MotionTable */
-     , (51215,   3,  536871073) /* SoundTable */
-     , (51215,   6,   67114502) /* PaletteBase */
-     , (51215,   8,  100674878) /* Icon */
-     , (51215,  22,  872415400) /* PhysicsEffectTable */
+VALUES (51215,   1, 0x02000FB3) /* Setup */
+     , (51215,   2, 0x09000135) /* MotionTable */
+     , (51215,   3, 0x200000A1) /* SoundTable */
+     , (51215,   6, 0x04001606) /* PaletteBase */
+     , (51215,   8, 0x06002D3E) /* Icon */
+     , (51215,  22, 0x340000A8) /* PhysicsEffectTable */
      , (51215,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51215, 8040, 1483605045, 90, -70, -0.00455004, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51215, 8040, 0x586E0435, 90, -70, -0.00455, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x586E0435 [90.000000 -70.000000 -0.004550] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

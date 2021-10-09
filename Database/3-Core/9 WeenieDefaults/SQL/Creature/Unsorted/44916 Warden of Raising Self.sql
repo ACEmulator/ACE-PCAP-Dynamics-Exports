@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44916,   1, 'Warden of Raising Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44916,   1,   33555352) /* Setup */
-     , (44916,   2,  150995147) /* MotionTable */
-     , (44916,   3,  536871052) /* SoundTable */
-     , (44916,   8,  100667624) /* Icon */
-     , (44916,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (44916,   1, 0x02000398) /* Setup */
+     , (44916,   2, 0x090000CB) /* MotionTable */
+     , (44916,   3, 0x2000008C) /* SoundTable */
+     , (44916,   8, 0x060010E8) /* Icon */
+     , (44916,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44916, 8040, 3583574080, 185.957, 175.961, 374, -0.999391, 0, 0, 0.0348964) /* PCAPRecordedLocation */
+VALUES (44916, 8040, 0xD5990040, 185.957, 175.961, 374, -0.999391, 0, 0, 0.034896) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [185.957000 175.961000 374.000000] -0.999391 0.000000 0.000000 0.034896 */;

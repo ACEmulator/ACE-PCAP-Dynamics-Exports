@@ -34,20 +34,20 @@ VALUES (14930,   1, 'Wedding Planner') /* Name */
      , (14930,   5, 'Planner of Weddings') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14930,   1,   33554510) /* Setup */
-     , (14930,   2,  150994945) /* MotionTable */
-     , (14930,   3,  536870914) /* SoundTable */
-     , (14930,   6,   67108990) /* PaletteBase */
-     , (14930,   8,  100667446) /* Icon */
-     , (14930,   9,   83890243) /* EyesTexture */
-     , (14930,  10,   83890296) /* NoseTexture */
-     , (14930,  11,   83890348) /* MouthTexture */
-     , (14930,  15,   67117002) /* HairPalette */
-     , (14930,  16,   67109565) /* EyesPalette */
-     , (14930,  17,   67110045) /* SkinPalette */;
+VALUES (14930,   1, 0x0200004E) /* Setup */
+     , (14930,   2, 0x09000001) /* MotionTable */
+     , (14930,   3, 0x20000002) /* SoundTable */
+     , (14930,   6, 0x0400007E) /* PaletteBase */
+     , (14930,   8, 0x06001036) /* Icon */
+     , (14930,   9, 0x05001043) /* EyesTexture */
+     , (14930,  10, 0x05001078) /* NoseTexture */
+     , (14930,  11, 0x050010AC) /* MouthTexture */
+     , (14930,  15, 0x04001FCA) /* HairPalette */
+     , (14930,  16, 0x040002BD) /* EyesPalette */
+     , (14930,  17, 0x0400049D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14930, 8040, 3862757708, 108.591, 62.4213, 86.005, -0.2525769, 0, 0, -0.9675768) /* PCAPRecordedLocation */
+VALUES (14930, 8040, 0xE63D014C, 108.591, 62.4213, 86.005, -0.252577, 0, 0, -0.967577) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D014C [108.591000 62.421300 86.005000] -0.252577 0.000000 0.000000 -0.967577 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

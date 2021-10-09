@@ -19,9 +19,9 @@ This game board can be used to play Chess.
 ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14341,   1,   33558037) /* Setup */
-     , (14341,   8,  100673558) /* Icon */;
+VALUES (14341,   1, 0x02000E15) /* Setup */
+     , (14341,   8, 0x06002816) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14341, 8040, 3043950596, 12, 84, 22.44472, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (14341, 8040, 0xB56F0004, 12, 84, 22.44472, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB56F0004 [12.000000 84.000000 22.444720] 1.000000 0.000000 0.000000 0.000000 */;

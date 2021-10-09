@@ -51,15 +51,15 @@ VALUES (11315,   1, 'Kalindan of Palenqual') /* Name */
      , (11315,  25, 'Crog') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11315,   1,   33557238) /* Setup */
-     , (11315,   3,  536870932) /* SoundTable */
-     , (11315,   8,  100671872) /* Icon */
-     , (11315,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11315,   1, 0x02000AF6) /* Setup */
+     , (11315,   3, 0x20000014) /* SoundTable */
+     , (11315,   8, 0x06002180) /* Icon */
+     , (11315,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11315,   170,      2)  /* RegenerationSelf6 */
-     , (11315,   496,      2)  /* CrossbowMasterySelf6 */
-     , (11315,  1605,      2)  /* DefenderSelf6 */
+VALUES (11315,  1605,      2)  /* DefenderSelf6 */
      , (11315,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (11315,  2450,      2)  /* HuntersAcumenLesser */
+     , (11315,   170,      2)  /* RegenerationSelf6 */
      , (11315,  2415,      2)  /* EyeHunter */
-     , (11315,  2450,      2)  /* HuntersAcumenLesser */;
+     , (11315,   496,      2)  /* CrossbowMasterySelf6 */;

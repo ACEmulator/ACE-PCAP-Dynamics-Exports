@@ -48,22 +48,22 @@ VALUES (37585,   1, 'Energy Crystal') /* Name */
      , (37585,  25, 'Trunk Slamchest') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37585,   1,   33557374) /* Setup */
-     , (37585,   3,  536870932) /* SoundTable */
-     , (37585,   6,   67111919) /* PaletteBase */
-     , (37585,   8,  100672184) /* Icon */
-     , (37585,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37585,   1, 0x02000B7E) /* Setup */
+     , (37585,   3, 0x20000014) /* SoundTable */
+     , (37585,   6, 0x04000BEF) /* PaletteBase */
+     , (37585,   8, 0x060022B8) /* Icon */
+     , (37585,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37585,  28,       2132) /* Spell - ForceBolt7 */
-     , (37585,  52,  100689896) /* IconUnderlay */;
+     , (37585,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37585, 8040, 23855559, 71.14764, -51.02144, -0.071, -0.5176283, -0.5176283, -0.4817271, -0.4817271) /* PCAPRecordedLocation */
+VALUES (37585, 8040, 0x016C01C7, 71.14764, -51.02144, -0.071, -0.517628, -0.517628, -0.481727, -0.481727) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C7 [71.147640 -51.021440 -0.071000] -0.517628 -0.517628 -0.481727 -0.481727 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37585,  2101,      2)  /* DefenderSelf7 */
-     , (37585,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37585,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+VALUES (37585,  2117,      2)  /* HermeticLinkSelf7 */
      , (37585,  2581,      2)  /* CANTRIPFOCUS1 */
      , (37585,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37585,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37585,  2101,      2)  /* DefenderSelf7 */
      , (37585,  3259,      2)  /* SpiritDrinkerSelf7 */;

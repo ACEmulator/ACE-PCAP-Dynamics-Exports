@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13104,   1, 'Far Claw Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13104,   1,   33554867) /* Setup */
-     , (13104,   2,  150994947) /* MotionTable */
-     , (13104,   8,  100667499) /* Icon */;
+VALUES (13104,   1, 0x020001B3) /* Setup */
+     , (13104,   2, 0x09000003) /* MotionTable */
+     , (13104,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13104, 8040, 3383230509, 140.282, 100.378, 49.57217, -0.377945, 0, 0, 0.925828) /* PCAPRecordedLocation */
+VALUES (13104, 8040, 0xC9A8002D, 140.282, 100.378, 49.57217, -0.377945, 0, 0, 0.925828) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A8002D [140.282000 100.378000 49.572170] -0.377945 0.000000 0.000000 0.925828 */;

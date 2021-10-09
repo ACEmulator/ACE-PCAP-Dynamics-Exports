@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xA5C7;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5C7001,  1154, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.4308687, 0, 0, -0.9024146, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7A5C7001,  1154, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.430869, 0, 0, -0.902415, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xA5C70002 [16.037280 28.054860 87.677280] -0.430869 0.000000 0.000000 -0.902415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,11 +12,11 @@ VALUES (0x7A5C7001, 0x7A5C7002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
      , (0x7A5C7001, 0x7A5C7006, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5C7002,   213, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.4308687, 0, 0, -0.9024146,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+VALUES (0x7A5C7002,   213, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.430869, 0, 0, -0.902415,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
 /* @teleloc 0xA5C70002 [16.037280 28.054860 87.677280] -0.430869 0.000000 0.000000 -0.902415 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5C7003,  7978, 0xA5C70028, 110.2424, 169.5309, 162.2447, -0.3582854, 0, 0, -0.9336121,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
+VALUES (0x7A5C7003,  7978, 0xA5C70028, 110.2424, 169.5309, 162.2447, -0.358285, 0, 0, -0.933612,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
 /* @teleloc 0xA5C70028 [110.242400 169.530900 162.244700] -0.358285 0.000000 0.000000 -0.933612 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

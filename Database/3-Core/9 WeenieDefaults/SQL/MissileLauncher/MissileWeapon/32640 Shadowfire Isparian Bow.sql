@@ -49,12 +49,12 @@ VALUES (32640,   1, 'Shadowfire Isparian Bow') /* Name */
      , (32640,  16, 'A Perfect Isparian Bow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32640,   1,   33559818) /* Setup */
-     , (32640,   3,  536870932) /* SoundTable */
-     , (32640,   6,   67111919) /* PaletteBase */
-     , (32640,   8,  100688561) /* Icon */
-     , (32640,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32640,   1, 0x0200150A) /* Setup */
+     , (32640,   3, 0x20000014) /* SoundTable */
+     , (32640,   6, 0x04000BEF) /* PaletteBase */
+     , (32640,   8, 0x060062B1) /* Icon */
+     , (32640,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32640, 8040, 3465871413, 145.2052, 103.027, 19.93, -0.6686643, 0, 0, -0.7435644) /* PCAPRecordedLocation */
+VALUES (32640, 8040, 0xCE950035, 145.2052, 103.027, 19.93, -0.668664, 0, 0, -0.743564) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [145.205200 103.027000 19.930000] -0.668664 0.000000 0.000000 -0.743564 */;

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8FAC;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78FAC001,  1154, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.5651497, 0, 0, -0.8249884, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x78FAC001,  1154, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.56515, 0, 0, -0.824988, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x8FAC001C [82.294620 87.317400 47.010280] 0.565150 0.000000 0.000000 -0.824988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,11 +9,11 @@ VALUES (0x78FAC001, 0x78FAC002, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877
      , (0x78FAC001, 0x78FAC003, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78FAC002, 28877, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.5651497, 0, 0, -0.8249884,  True, '2019-02-10 00:00:00'); /* Nasty Scarecrow */
+VALUES (0x78FAC002, 28877, 0x8FAC001C, 82.29462, 87.3174, 47.01028, 0.56515, 0, 0, -0.824988,  True, '2019-02-10 00:00:00'); /* Nasty Scarecrow */
 /* @teleloc 0x8FAC001C [82.294620 87.317400 47.010280] 0.565150 0.000000 0.000000 -0.824988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78FAC003,  1756, 0x8FAC0014, 66.88934, 90.93755, 48.85428, 0.5651497, 0, 0, -0.8249884,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+VALUES (0x78FAC003,  1756, 0x8FAC0014, 66.88934, 90.93755, 48.85428, 0.56515, 0, 0, -0.824988,  True, '2019-02-10 00:00:00'); /* Shadow Child */
 /* @teleloc 0x8FAC0014 [66.889340 90.937550 48.854280] 0.565150 0.000000 0.000000 -0.824988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

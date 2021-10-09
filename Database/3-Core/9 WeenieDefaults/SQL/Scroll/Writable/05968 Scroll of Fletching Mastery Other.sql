@@ -23,7 +23,7 @@ VALUES (5968,   1, 'Scroll of Fletching Mastery Other') /* Name */
 Increases the target''s Fletching skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5968,   1,   33554826) /* Setup */
-     , (5968,   8,  100676457) /* Icon */
-     , (5968,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5968,   1, 0x0200018A) /* Setup */
+     , (5968,   8, 0x06003369) /* Icon */
+     , (5968,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5968,  28,       1733) /* Spell - FletchingMasteryOther1 */;

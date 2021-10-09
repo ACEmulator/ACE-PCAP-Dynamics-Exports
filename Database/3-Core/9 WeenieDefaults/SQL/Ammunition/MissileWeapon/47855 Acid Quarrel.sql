@@ -41,12 +41,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47855,   1, 'Acid Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47855,   1,   33555696) /* Setup */
-     , (47855,   3,  536870932) /* SoundTable */
-     , (47855,   6,   67111919) /* PaletteBase */
-     , (47855,   8,  100670233) /* Icon */
-     , (47855,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47855,   1, 0x020004F0) /* Setup */
+     , (47855,   3, 0x20000014) /* SoundTable */
+     , (47855,   6, 0x04000BEF) /* PaletteBase */
+     , (47855,   8, 0x06001B19) /* Icon */
+     , (47855,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47855, 8040, 22479144, 36.97895, -30.82077, -6.0685, 0.2448137, 0.2448137, -0.6633749, -0.6633749) /* PCAPRecordedLocation */
+VALUES (47855, 8040, 0x01570128, 36.97895, -30.82077, -6.0685, 0.244814, 0.244814, -0.663375, -0.663375) /* PCAPRecordedLocation */
 /* @teleloc 0x01570128 [36.978950 -30.820770 -6.068500] 0.244814 0.244814 -0.663375 -0.663375 */;

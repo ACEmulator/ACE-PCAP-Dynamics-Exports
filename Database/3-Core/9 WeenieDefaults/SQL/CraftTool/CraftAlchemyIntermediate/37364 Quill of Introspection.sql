@@ -20,5 +20,5 @@ VALUES (37364,   1, 'Quill of Introspection') /* Name */
      , (37364,  20, 'Quills of Introspection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37364,   1,   33559616) /* Setup */
-     , (37364,   8,  100690197) /* Icon */;
+VALUES (37364,   1, 0x02001440) /* Setup */
+     , (37364,   8, 0x06006915) /* Icon */;

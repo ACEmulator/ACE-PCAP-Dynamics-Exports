@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3EF4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73EF4001,  1154, 0x3EF40101, 129.595, 54.9454, 106.727, 0.000617045, 0, 0, 1, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x73EF4001,  1154, 0x3EF40101, 129.595, 54.9454, 106.727, 0.000617, 0, 0, 1, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x3EF40101 [129.595000 54.945400 106.727000] 0.000617 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -12,7 +12,7 @@ VALUES (0x73EF4001, 0x73EF4002, '2019-02-10 00:00:00') /* Alchemy Table (34038) 
      , (0x73EF4001, 0x73EF4006, '2019-02-10 00:00:00') /* Royal Inquisitor (32295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73EF4002, 34038, 0x3EF40101, 129.595, 54.9454, 106.727, 0.000617045, 0, 0, 1,  True, '2019-02-10 00:00:00'); /* Alchemy Table */
+VALUES (0x73EF4002, 34038, 0x3EF40101, 129.595, 54.9454, 106.727, 0.000617, 0, 0, 1,  True, '2019-02-10 00:00:00'); /* Alchemy Table */
 /* @teleloc 0x3EF40101 [129.595000 54.945400 106.727000] 0.000617 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

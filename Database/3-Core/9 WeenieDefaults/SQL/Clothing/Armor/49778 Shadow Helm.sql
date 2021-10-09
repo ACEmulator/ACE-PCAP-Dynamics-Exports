@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49778,   1, 'Shadow Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49778,   1,   33555048) /* Setup */
-     , (49778,   3,  536870932) /* SoundTable */
-     , (49778,   6,   67108990) /* PaletteBase */
-     , (49778,   8,  100691725) /* Icon */
-     , (49778,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49778,   1, 0x02000268) /* Setup */
+     , (49778,   3, 0x20000014) /* SoundTable */
+     , (49778,   6, 0x0400007E) /* PaletteBase */
+     , (49778,   8, 0x06006F0D) /* Icon */
+     , (49778,  22, 0x3400002B) /* PhysicsEffectTable */;

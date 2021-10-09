@@ -45,11 +45,11 @@ VALUES (30592,   1, 'Flaming Partizan') /* Name */
      , (30592,  16, 'Flaming Partizan of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30592,   1,   33559479) /* Setup */
-     , (30592,   3,  536870932) /* SoundTable */
-     , (30592,   6,   67115560) /* PaletteBase */
-     , (30592,   8,  100686993) /* Icon */
-     , (30592,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30592,   1, 0x020013B7) /* Setup */
+     , (30592,   3, 0x20000014) /* SoundTable */
+     , (30592,   6, 0x04001A28) /* PaletteBase */
+     , (30592,   8, 0x06005C91) /* Icon */
+     , (30592,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30592,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22353,   1, 'Light Weapons Gem of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22353,   1,   33558088) /* Setup */
-     , (22353,   6,   67111919) /* PaletteBase */
-     , (22353,   8,  100673788) /* Icon */
-     , (22353,  50,  100692239) /* IconOverlay */;
+VALUES (22353,   1, 0x02000E48) /* Setup */
+     , (22353,   6, 0x04000BEF) /* PaletteBase */
+     , (22353,   8, 0x060028FC) /* Icon */
+     , (22353,  50, 0x0600710F) /* IconOverlay */;

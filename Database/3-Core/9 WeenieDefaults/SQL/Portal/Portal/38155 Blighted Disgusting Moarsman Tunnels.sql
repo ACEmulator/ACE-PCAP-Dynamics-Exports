@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38155,   1, 'Blighted Disgusting Moarsman Tunnels') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38155,   1,   33555926) /* Setup */
-     , (38155,   2,  150994947) /* MotionTable */
-     , (38155,   8,  100667499) /* Icon */;
+VALUES (38155,   1, 0x020005D6) /* Setup */
+     , (38155,   2, 0x09000003) /* MotionTable */
+     , (38155,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38155, 8040, 3878879245, 25.9916, 108.179, -0.163, 0.696304, 0, 0, -0.717747) /* PCAPRecordedLocation */
+VALUES (38155, 8040, 0xE733000D, 25.9916, 108.179, -0.163, 0.696304, 0, 0, -0.717747) /* PCAPRecordedLocation */
 /* @teleloc 0xE733000D [25.991600 108.179000 -0.163000] 0.696304 0.000000 0.000000 -0.717747 */;

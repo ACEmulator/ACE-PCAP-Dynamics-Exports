@@ -21,7 +21,7 @@ VALUES (28725,   1, 'Engorged Eater Jaw') /* Name */
      , (28725,  16, 'An engorged eater jaw. Large slabs of flesh hang loosely from the jaw. This eater has been feeding well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28725,   1,   33554769) /* Setup */
-     , (28725,   3,  536870932) /* SoundTable */
-     , (28725,   8,  100686353) /* Icon */
-     , (28725,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28725,   1, 0x02000151) /* Setup */
+     , (28725,   3, 0x20000014) /* SoundTable */
+     , (28725,   8, 0x06005A11) /* Icon */
+     , (28725,  22, 0x3400002B) /* PhysicsEffectTable */;

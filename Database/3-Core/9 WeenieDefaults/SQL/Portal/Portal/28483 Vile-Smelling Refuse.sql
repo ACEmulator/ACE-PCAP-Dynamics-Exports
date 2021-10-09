@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28483,   1, 'Vile-Smelling Refuse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28483,   1,   33558852) /* Setup */
-     , (28483,   8,  100667499) /* Icon */;
+VALUES (28483,   1, 0x02001144) /* Setup */
+     , (28483,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28483, 8040, 3110011146, 33.9346, 108.523, 4.597062, -0.7075337, 0, 0, -0.7066796) /* PCAPRecordedLocation */
+VALUES (28483, 8040, 0xB95F010A, 33.9346, 108.523, 4.597062, -0.707534, 0, 0, -0.70668) /* PCAPRecordedLocation */
 /* @teleloc 0xB95F010A [33.934600 108.523000 4.597062] -0.707534 0.000000 0.000000 -0.706680 */;

@@ -27,7 +27,7 @@ VALUES (33981,   1, 'Pet Penguin Igloo') /* Name */
      , (33981,  16, 'A small igloo that an equally small pet penguin lives in.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33981,   1,   33560149) /* Setup */
-     , (33981,   3,  536870932) /* SoundTable */
-     , (33981,   8,  100689285) /* Icon */
-     , (33981,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33981,   1, 0x02001655) /* Setup */
+     , (33981,   3, 0x20000014) /* SoundTable */
+     , (33981,   8, 0x06006585) /* Icon */
+     , (33981,  22, 0x3400002B) /* PhysicsEffectTable */;

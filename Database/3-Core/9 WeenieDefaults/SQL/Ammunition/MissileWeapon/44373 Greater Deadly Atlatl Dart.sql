@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44373,   1, 'Greater Deadly Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44373,   1,   33557434) /* Setup */
-     , (44373,   3,  536870932) /* SoundTable */
-     , (44373,   6,   67111919) /* PaletteBase */
-     , (44373,   8,  100672686) /* Icon */
-     , (44373,  22,  872415275) /* PhysicsEffectTable */
-     , (44373,  50,  100689661) /* IconOverlay */;
+VALUES (44373,   1, 0x02000BBA) /* Setup */
+     , (44373,   3, 0x20000014) /* SoundTable */
+     , (44373,   6, 0x04000BEF) /* PaletteBase */
+     , (44373,   8, 0x060024AE) /* Icon */
+     , (44373,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44373,  50, 0x060066FD) /* IconOverlay */;

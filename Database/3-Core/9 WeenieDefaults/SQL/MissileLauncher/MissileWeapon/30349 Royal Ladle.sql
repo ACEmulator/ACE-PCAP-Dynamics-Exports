@@ -51,22 +51,22 @@ VALUES (30349,   1, 'Royal Ladle') /* Name */
      , (30349,  16, 'Oddly enough, this was used as a kitchen ladle before it was pressed into service as an atlatl.  Apparently due to the ladle''s resemblance to a serpent it was deemed inappropriate for use in the kitchen. After all, serpents are synonymous with poison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30349,   1,   33559412) /* Setup */
-     , (30349,   3,  536870932) /* SoundTable */
-     , (30349,   6,   67111919) /* PaletteBase */
-     , (30349,   8,  100686808) /* Icon */
-     , (30349,  22,  872415275) /* PhysicsEffectTable */
-     , (30349,  52,  100686604) /* IconUnderlay */;
+VALUES (30349,   1, 0x02001374) /* Setup */
+     , (30349,   3, 0x20000014) /* SoundTable */
+     , (30349,   6, 0x04000BEF) /* PaletteBase */
+     , (30349,   8, 0x06005BD8) /* Icon */
+     , (30349,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30349,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30349, 8040, 2749825341, 106.5877, 36.59145, 61.93, 0.2834048, 0.2834048, -0.6478285, -0.6478285) /* PCAPRecordedLocation */
+VALUES (30349, 8040, 0xA3E7013D, 106.5877, 36.59145, 61.93, 0.283405, 0.283405, -0.647829, -0.647829) /* PCAPRecordedLocation */
 /* @teleloc 0xA3E7013D [106.587700 36.591450 61.930000] 0.283405 0.283405 -0.647829 -0.647829 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30349,  4400,      2)  /* DefenderSelf8 */
-     , (30349,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (30349,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30349,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
+     , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */
      , (30349,  4460,      2)  /* AcidProtectionSelf8 */
      , (30349,  4526,      2)  /* CookingMasterySelf8 */
-     , (30349,  4596,      2)  /* MagicResistanceSelf8 */
-     , (30349,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
-     , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */;
+     , (30349,  4400,      2)  /* DefenderSelf8 */
+     , (30349,  4596,      2)  /* MagicResistanceSelf8 */;

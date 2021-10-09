@@ -27,11 +27,11 @@ VALUES (52514,   1, 'Painter''s Palette') /* Name */
      , (52514,   8, '+Tolero') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52514,   1,   33561635) /* Setup */
-     , (52514,   3,  536870932) /* SoundTable */
-     , (52514,   8,  100693286) /* Icon */
-     , (52514,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52514,   1, 0x02001C23) /* Setup */
+     , (52514,   3, 0x20000014) /* SoundTable */
+     , (52514,   8, 0x06007526) /* Icon */
+     , (52514,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52514, 8040, 18809103, 29.80511, -36.31062, 3.619908, -0.7069644, -0.7069644, -0.01419151, -0.01419151) /* PCAPRecordedLocation */
+VALUES (52514, 8040, 0x011F010F, 29.80511, -36.31062, 3.619908, -0.706964, -0.706964, -0.014192, -0.014192) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010F [29.805110 -36.310620 3.619908] -0.706964 -0.706964 -0.014192 -0.014192 */;

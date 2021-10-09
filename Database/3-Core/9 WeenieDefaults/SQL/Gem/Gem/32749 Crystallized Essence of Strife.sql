@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32749,   1, 'Crystallized Essence of Strife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32749,   1,   33559841) /* Setup */
-     , (32749,   3,  536870932) /* SoundTable */
-     , (32749,   8,  100688603) /* Icon */
-     , (32749,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32749,   1, 0x02001521) /* Setup */
+     , (32749,   3, 0x20000014) /* SoundTable */
+     , (32749,   8, 0x060062DB) /* Icon */
+     , (32749,  22, 0x3400002B) /* PhysicsEffectTable */;

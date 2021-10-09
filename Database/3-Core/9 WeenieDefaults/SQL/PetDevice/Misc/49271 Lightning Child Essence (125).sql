@@ -37,10 +37,10 @@ VALUES (49271,   1, 'Lightning Child Essence (125)') /* Name */
      , (49271,  14, 'Use this essence to summon or dismiss your Lightning Child.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49271,   1,   33554817) /* Setup */
-     , (49271,   3,  536870932) /* SoundTable */
-     , (49271,   6,   67111919) /* PaletteBase */
-     , (49271,   8,  100670581) /* Icon */
-     , (49271,  22,  872415275) /* PhysicsEffectTable */
-     , (49271,  50,  100693029) /* IconOverlay */
-     , (49271,  52,  100693024) /* IconUnderlay */;
+VALUES (49271,   1, 0x02000181) /* Setup */
+     , (49271,   3, 0x20000014) /* SoundTable */
+     , (49271,   6, 0x04000BEF) /* PaletteBase */
+     , (49271,   8, 0x06001C75) /* Icon */
+     , (49271,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49271,  50, 0x06007425) /* IconOverlay */
+     , (49271,  52, 0x06007420) /* IconUnderlay */;

@@ -19,7 +19,7 @@ VALUES (37243,   1, 'Ten of Hands') /* Name */
      , (37243,  20, 'Tens of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37243,   1,   33560548) /* Setup */
-     , (37243,   3,  536870932) /* SoundTable */
-     , (37243,   8,  100689856) /* Icon */
-     , (37243,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37243,   1, 0x020017E4) /* Setup */
+     , (37243,   3, 0x20000014) /* SoundTable */
+     , (37243,   8, 0x060067C0) /* Icon */
+     , (37243,  22, 0x3400002B) /* PhysicsEffectTable */;

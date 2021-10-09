@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10,   1, 'Mite Scamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10,   1,   33558656) /* Setup */
-     , (10,   2,  150994955) /* MotionTable */
-     , (10,   3,  536870923) /* SoundTable */
-     , (10,   6,   67115137) /* PaletteBase */
-     , (10,   8,  100667448) /* Icon */
-     , (10,  22,  872415263) /* PhysicsEffectTable */;
+VALUES (10,   1, 0x02001080) /* Setup */
+     , (10,   2, 0x0900000B) /* MotionTable */
+     , (10,   3, 0x2000000B) /* SoundTable */
+     , (10,   6, 0x04001881) /* PaletteBase */
+     , (10,   8, 0x06001038) /* Icon */
+     , (10,  22, 0x3400001F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10, 8040, 3331915820, 131.8017, 92.73347, 6.005, 0.8182386, 0, 0, -0.5748787) /* PCAPRecordedLocation */
+VALUES (10, 8040, 0xC699002C, 131.8017, 92.73347, 6.005, 0.818239, 0, 0, -0.574879) /* PCAPRecordedLocation */
 /* @teleloc 0xC699002C [131.801700 92.733470 6.005000] 0.818239 0.000000 0.000000 -0.574879 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

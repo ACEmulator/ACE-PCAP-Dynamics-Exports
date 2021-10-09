@@ -30,14 +30,14 @@ VALUES (32928,   1, 'Rabbit Hutch') /* Name */
      , (32928,  16, 'A mound of straw and fluff. Oddly a small door set in the side seems locked.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32928,   1,   33555471) /* Setup */
-     , (32928,   2,  150994980) /* MotionTable */
-     , (32928,   3,  536870945) /* SoundTable */
-     , (32928,   8,  100688868) /* Icon */
-     , (32928,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32928,   1, 0x0200040F) /* Setup */
+     , (32928,   2, 0x09000024) /* MotionTable */
+     , (32928,   3, 0x20000021) /* SoundTable */
+     , (32928,   8, 0x060063E4) /* Icon */
+     , (32928,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32928, 8040, 9896193, 163.545, -120, -48, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (32928, 8040, 0x00970101, 163.545, -120, -48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00970101 [163.545000 -120.000000 -48.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -52,17 +52,17 @@ VALUES (37580,   1, 'Soul Bound Dagger') /* Name */
      , (37580,  25, 'Ogg Cave-Man') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37580,   1,   33560572) /* Setup */
-     , (37580,   3,  536870932) /* SoundTable */
-     , (37580,   8,  100673206) /* Icon */
-     , (37580,  22,  872415275) /* PhysicsEffectTable */
-     , (37580,  52,  100689896) /* IconUnderlay */;
+VALUES (37580,   1, 0x020017FC) /* Setup */
+     , (37580,   3, 0x20000014) /* SoundTable */
+     , (37580,   8, 0x060026B6) /* Icon */
+     , (37580,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37580,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37580,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (37580,  2101,      2)  /* DefenderSelf7 */
-     , (37580,  2106,      2)  /* HeartSeekerSelf7 */
-     , (37580,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (37580,  2116,      2)  /* SwiftKillerSelf7 */
      , (37580,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
      , (37580,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (37580,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (37580,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (37580,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37580,  2101,      2)  /* DefenderSelf7 */
+     , (37580,  2106,      2)  /* HeartSeekerSelf7 */;

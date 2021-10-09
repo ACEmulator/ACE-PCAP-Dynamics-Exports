@@ -46,13 +46,13 @@ VALUES (51856,   1, 'Rynthid Berserker''s Mask') /* Name */
      , (51856,  15, 'A mask crafted from the damaged mask of a Rynthid Berserker.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51856,   1,   33561593) /* Setup */
-     , (51856,   3,  536870932) /* SoundTable */
-     , (51856,   8,  100693218) /* Icon */
-     , (51856,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51856,   1, 0x02001BF9) /* Setup */
+     , (51856,   3, 0x20000014) /* SoundTable */
+     , (51856,   8, 0x060074E2) /* Icon */
+     , (51856,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51856,  4407,      2)  /* Impenetrability8 */
+VALUES (51856,  6082,      2)  /* CantripFlameWard4 */
      , (51856,  5895,      2)  /* CantripRecklessnessProwess3 */
      , (51856,  6059,      2)  /* CantripLeadership4 */
-     , (51856,  6082,      2)  /* CantripFlameWard4 */;
+     , (51856,  4407,      2)  /* Impenetrability8 */;

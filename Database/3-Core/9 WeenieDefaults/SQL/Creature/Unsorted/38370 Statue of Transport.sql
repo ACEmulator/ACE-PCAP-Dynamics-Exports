@@ -26,12 +26,12 @@ VALUES (38370,   1, 'Statue of Transport') /* Name */
      , (38370,  16, 'A statue that transports those who are attuned to it to the Catacombs of Tar''Kelyn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38370,   1,   33558954) /* Setup */
-     , (38370,   2,  150995147) /* MotionTable */
-     , (38370,   3,  536871017) /* SoundTable */
-     , (38370,   8,  100675780) /* Icon */
-     , (38370,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (38370,   1, 0x020011AA) /* Setup */
+     , (38370,   2, 0x090000CB) /* MotionTable */
+     , (38370,   3, 0x20000069) /* SoundTable */
+     , (38370,   8, 0x060030C4) /* Icon */
+     , (38370,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38370, 8040, 4181262375, 108.317, 153.149, 127.3845, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (38370, 8040, 0xF9390027, 108.317, 153.149, 127.3845, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xF9390027 [108.317000 153.149000 127.384500] -0.707107 0.000000 0.000000 -0.707107 */;

@@ -38,12 +38,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51384,   1, 'Electric Gearknight Greatsword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51384,   1,   33560853) /* Setup */
-     , (51384,   3,  536870932) /* SoundTable */
-     , (51384,   8,  100690753) /* Icon */
-     , (51384,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51384,   1, 0x02001915) /* Setup */
+     , (51384,   3, 0x20000014) /* SoundTable */
+     , (51384,   8, 0x06006B41) /* Icon */
+     , (51384,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51384,  55,       1788) /* ProcSpell - LightningRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51384, 8040, 1484128794, 270.025, -141.525, 5.9305, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (51384, 8040, 0x5876021A, 270.025, -141.525, 5.9305, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5876021A [270.025000 -141.525000 5.930500] 0.707107 0.707107 0.000000 0.000000 */;

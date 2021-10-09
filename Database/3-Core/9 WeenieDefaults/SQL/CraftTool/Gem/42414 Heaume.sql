@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42414,   1, 'Heaume') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42414,   1,   33555248) /* Setup */
-     , (42414,   3,  536870932) /* SoundTable */
-     , (42414,   6,   67108990) /* PaletteBase */
-     , (42414,   8,  100669411) /* Icon */
-     , (42414,  22,  872415275) /* PhysicsEffectTable */
-     , (42414,  50,  100667895) /* IconOverlay */;
+VALUES (42414,   1, 0x02000330) /* Setup */
+     , (42414,   3, 0x20000014) /* SoundTable */
+     , (42414,   6, 0x0400007E) /* PaletteBase */
+     , (42414,   8, 0x060017E3) /* Icon */
+     , (42414,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42414,  50, 0x060011F7) /* IconOverlay */;

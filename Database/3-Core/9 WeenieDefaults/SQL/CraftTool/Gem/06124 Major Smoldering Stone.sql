@@ -26,8 +26,8 @@ VALUES (6124,   1, 'Major Smoldering Stone') /* Name */
      , (6124,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6124,   1,   33556407) /* Setup */
-     , (6124,   3,  536870932) /* SoundTable */
-     , (6124,   6,   67111919) /* PaletteBase */
-     , (6124,   8,  100670496) /* Icon */
-     , (6124,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6124,   1, 0x020007B7) /* Setup */
+     , (6124,   3, 0x20000014) /* SoundTable */
+     , (6124,   6, 0x04000BEF) /* PaletteBase */
+     , (6124,   8, 0x06001C20) /* Icon */
+     , (6124,  22, 0x3400002B) /* PhysicsEffectTable */;

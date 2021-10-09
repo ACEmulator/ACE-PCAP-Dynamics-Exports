@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11000,   1, 'Gromnie Sinew Bowstring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11000,   1,   33557228) /* Setup */
-     , (11000,   3,  536870932) /* SoundTable */
-     , (11000,   8,  100671863) /* Icon */
-     , (11000,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11000,   1, 0x02000AEC) /* Setup */
+     , (11000,   3, 0x20000014) /* SoundTable */
+     , (11000,   8, 0x06002177) /* Icon */
+     , (11000,  22, 0x3400002B) /* PhysicsEffectTable */;

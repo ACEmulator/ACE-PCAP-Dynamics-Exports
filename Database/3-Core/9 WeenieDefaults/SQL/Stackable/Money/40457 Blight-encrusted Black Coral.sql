@@ -28,11 +28,11 @@ VALUES (40457,   1, 'Blight-encrusted Black Coral') /* Name */
      , (40457,  20, 'Blight-encrusted Black Coral Chunks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40457,   1,   33555427) /* Setup */
-     , (40457,   3,  536870932) /* SoundTable */
-     , (40457,   8,  100690159) /* Icon */
-     , (40457,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40457,   1, 0x020003E3) /* Setup */
+     , (40457,   3, 0x20000014) /* SoundTable */
+     , (40457,   8, 0x060068EF) /* Icon */
+     , (40457,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40457, 8040, 1041039385, 78.76166, 7.152432, -3.72529E-09, -0.9898064, 0, 0, -0.1424195) /* PCAPRecordedLocation */
+VALUES (40457, 8040, 0x3E0D0019, 78.76166, 7.152432, 0, -0.989806, 0, 0, -0.14242) /* PCAPRecordedLocation */
 /* @teleloc 0x3E0D0019 [78.761660 7.152432 0.000000] -0.989806 0.000000 0.000000 -0.142420 */;

@@ -25,7 +25,7 @@ VALUES (9563,   1, 'Axe Skill Puzzle Piece') /* Name */
      , (9563,  16, 'An Axe skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Axe skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9563,   1,   33554669) /* Setup */
-     , (9563,   3,  536870932) /* SoundTable */
-     , (9563,   8,  100671536) /* Icon */
-     , (9563,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9563,   1, 0x020000ED) /* Setup */
+     , (9563,   3, 0x20000014) /* SoundTable */
+     , (9563,   8, 0x06002030) /* Icon */
+     , (9563,  22, 0x3400002B) /* PhysicsEffectTable */;

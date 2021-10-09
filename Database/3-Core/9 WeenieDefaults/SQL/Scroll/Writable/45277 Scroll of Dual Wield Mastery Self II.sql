@@ -23,7 +23,7 @@ VALUES (45277,   1, 'Scroll of Dual Wield Mastery Self II') /* Name */
 Increases the caster''s Dual Wield skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45277,   1,   33554826) /* Setup */
-     , (45277,   8,  100692251) /* Icon */
-     , (45277,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45277,   1, 0x0200018A) /* Setup */
+     , (45277,   8, 0x0600711B) /* Icon */
+     , (45277,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45277,  28,       5804) /* Spell - DualWieldMasterySelf2 */;

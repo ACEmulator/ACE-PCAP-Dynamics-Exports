@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24868,   1, 'Sishalti Tendril') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24868,   1,   33555670) /* Setup */
-     , (24868,   2,  150995067) /* MotionTable */
-     , (24868,   3,  536871015) /* SoundTable */
-     , (24868,   8,  100671186) /* Icon */
-     , (24868,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (24868,   1, 0x020004D6) /* Setup */
+     , (24868,   2, 0x0900007B) /* MotionTable */
+     , (24868,   3, 0x20000067) /* SoundTable */
+     , (24868,   8, 0x06001ED2) /* Icon */
+     , (24868,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24868, 8040, 6161133, 7.588411, -37.66174, -6.008, -0.7335209, 0, 0, -0.6796669) /* PCAPRecordedLocation */
+VALUES (24868, 8040, 0x005E02ED, 7.588411, -37.66174, -6.008, -0.733521, 0, 0, -0.679667) /* PCAPRecordedLocation */
 /* @teleloc 0x005E02ED [7.588411 -37.661740 -6.008000] -0.733521 0.000000 0.000000 -0.679667 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

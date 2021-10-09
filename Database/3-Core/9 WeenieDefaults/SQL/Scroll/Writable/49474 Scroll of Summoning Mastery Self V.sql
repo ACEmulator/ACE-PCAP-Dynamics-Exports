@@ -23,7 +23,7 @@ VALUES (49474,   1, 'Scroll of Summoning Mastery Self V') /* Name */
 Increases the caster''s Summoning skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49474,   1,   33554826) /* Setup */
-     , (49474,   8,  100693008) /* Icon */
-     , (49474,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49474,   1, 0x0200018A) /* Setup */
+     , (49474,   8, 0x06007410) /* Icon */
+     , (49474,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49474,  28,       6120) /* Spell - SummoningMasterySelf5 */;

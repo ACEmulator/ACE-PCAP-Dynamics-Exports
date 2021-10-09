@@ -38,8 +38,8 @@ VALUES (8211,   1, 'Discus') /* Name */
      , (8211,  16, 'A metal ring, with decorative Empyrean inscriptions around the rim. This seems to be a thrown weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8211,   1,   33556852) /* Setup */
-     , (8211,   3,  536871012) /* SoundTable */
-     , (8211,   6,   67111919) /* PaletteBase */
-     , (8211,   8,  100671128) /* Icon */
-     , (8211,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8211,   1, 0x02000974) /* Setup */
+     , (8211,   3, 0x20000064) /* SoundTable */
+     , (8211,   6, 0x04000BEF) /* PaletteBase */
+     , (8211,   8, 0x06001E98) /* Icon */
+     , (8211,  22, 0x3400002B) /* PhysicsEffectTable */;

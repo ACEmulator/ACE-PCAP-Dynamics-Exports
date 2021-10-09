@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34338,   1, 'Thralled Ruuk Seer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34338,   1,   33558582) /* Setup */
-     , (34338,   2,  150995272) /* MotionTable */
-     , (34338,   3,  536871083) /* SoundTable */
-     , (34338,   6,   67114919) /* PaletteBase */
-     , (34338,   8,  100675761) /* Icon */
-     , (34338,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (34338,   1, 0x02001036) /* Setup */
+     , (34338,   2, 0x09000148) /* MotionTable */
+     , (34338,   3, 0x200000AB) /* SoundTable */
+     , (34338,   6, 0x040017A7) /* PaletteBase */
+     , (34338,   8, 0x060030B1) /* Icon */
+     , (34338,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34338, 8040, 1095434265, 88.4986, 19.4444, 4.723289, -0.8915323, 0, 0, 0.4529572) /* PCAPRecordedLocation */
+VALUES (34338, 8040, 0x414B0019, 88.4986, 19.4444, 4.723289, -0.891532, 0, 0, 0.452957) /* PCAPRecordedLocation */
 /* @teleloc 0x414B0019 [88.498600 19.444400 4.723289] -0.891532 0.000000 0.000000 0.452957 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

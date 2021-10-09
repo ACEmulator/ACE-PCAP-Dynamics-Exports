@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41394,   1, 'Framed Lense') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41394,   1,   33554809) /* Setup */
-     , (41394,   3,  536870932) /* SoundTable */
-     , (41394,   8,  100690710) /* Icon */
-     , (41394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41394,   1, 0x02000179) /* Setup */
+     , (41394,   3, 0x20000014) /* SoundTable */
+     , (41394,   8, 0x06006B16) /* Icon */
+     , (41394,  22, 0x3400002B) /* PhysicsEffectTable */;

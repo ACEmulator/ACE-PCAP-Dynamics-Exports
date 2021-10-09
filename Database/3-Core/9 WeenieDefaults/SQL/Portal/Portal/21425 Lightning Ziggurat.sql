@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21425,   1, 'Lightning Ziggurat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21425,   1,   33555923) /* Setup */
-     , (21425,   2,  150994947) /* MotionTable */
-     , (21425,   8,  100667499) /* Icon */;
+VALUES (21425,   1, 0x020005D3) /* Setup */
+     , (21425,   2, 0x09000003) /* MotionTable */
+     , (21425,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21425, 8040, 3465806087, 30.859, 164.333, 13.592, 0.7160189, 0, 0, 0.6980809) /* PCAPRecordedLocation */
+VALUES (21425, 8040, 0xCE940107, 30.859, 164.333, 13.592, 0.716019, 0, 0, 0.698081) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940107 [30.859000 164.333000 13.592000] 0.716019 0.000000 0.000000 0.698081 */;

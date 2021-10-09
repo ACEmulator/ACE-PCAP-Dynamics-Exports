@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19387,   1, 'Ivory Gate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19387,   1,   33557695) /* Setup */
-     , (19387,   8,  100667499) /* Icon */;
+VALUES (19387,   1, 0x02000CBF) /* Setup */
+     , (19387,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19387, 8040, 2030043521, 87.4228, -97.1613, 0, 0.368116, 0, 0, -0.92978) /* PCAPRecordedLocation */
+VALUES (19387, 8040, 0x79000181, 87.4228, -97.1613, 0, 0.368116, 0, 0, -0.92978) /* PCAPRecordedLocation */
 /* @teleloc 0x79000181 [87.422800 -97.161300 0.000000] 0.368116 0.000000 0.000000 -0.929780 */;

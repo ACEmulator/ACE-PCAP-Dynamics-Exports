@@ -18,9 +18,9 @@ VALUES (42772,   1, 'Shoushi') /* Name */
      , (42772,  16, 'Last of the three heritage groups to arrive in Dereth, the Sho made their home south of the Blackmire Swamp, where Mosswart raiders had thwarted settlement by the Aluvians to the north. To provide protection from these and other creatures for the fledgling village of Hebian-To, the warlord Ijiku Tambai built a fortress nearby called Yaosai. In time, once the Sho had successfully pushed back the Mosswarts, the need for a fortress disappeared. Parts of Yaosai''s walls were torn down and used to build huts. The new town, mockingly called Shoushi or "small place" has since outgrown that moniker and is thriving as a waypoint between Hebian-To and the western Sho holdings. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42772,   1,   33560968) /* Setup */
-     , (42772,   8,  100668115) /* Icon */;
+VALUES (42772,   1, 0x02001988) /* Setup */
+     , (42772,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42772, 8040, 459117, 100, -55.113, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42772, 8040, 0x0007016D, 100, -55.113, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016D [100.000000 -55.113000 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -25,7 +25,7 @@ VALUES (42622,   1, 'Armor Main Reduction Tool') /* Name */
      , (42622,  16, 'This tool will reduce Hauberk/Coats/Cuirass to Breastplate coverage. It will reduce Sleeves to Pauldron coverage and Leggings to Girth coverage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42622,   1,   33555677) /* Setup */
-     , (42622,   3,  536870932) /* SoundTable */
-     , (42622,   8,  100692208) /* Icon */
-     , (42622,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42622,   1, 0x020004DD) /* Setup */
+     , (42622,   3, 0x20000014) /* SoundTable */
+     , (42622,   8, 0x060070F0) /* Icon */
+     , (42622,  22, 0x3400002B) /* PhysicsEffectTable */;

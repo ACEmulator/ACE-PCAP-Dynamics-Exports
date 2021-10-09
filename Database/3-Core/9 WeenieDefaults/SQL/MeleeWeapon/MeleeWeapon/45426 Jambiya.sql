@@ -40,8 +40,8 @@ VALUES (45426,   1, 'Jambiya') /* Name */
      , (45426,  16, 'Jambiya') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45426,   1,   33554887) /* Setup */
-     , (45426,   3,  536870932) /* SoundTable */
-     , (45426,   6,   67111919) /* PaletteBase */
-     , (45426,   8,  100668886) /* Icon */
-     , (45426,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45426,   1, 0x020001C7) /* Setup */
+     , (45426,   3, 0x20000014) /* SoundTable */
+     , (45426,   6, 0x04000BEF) /* PaletteBase */
+     , (45426,   8, 0x060015D6) /* Icon */
+     , (45426,  22, 0x3400002B) /* PhysicsEffectTable */;

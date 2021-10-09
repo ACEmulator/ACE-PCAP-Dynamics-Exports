@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22559,   1, 'Melee Defense Tattoo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22559,   1,   33554641) /* Setup */
-     , (22559,   3,  536870932) /* SoundTable */
-     , (22559,   6,   67108990) /* PaletteBase */
-     , (22559,   8,  100673848) /* Icon */
-     , (22559,  22,  872415275) /* PhysicsEffectTable */
-     , (22559,  50,  100673778) /* IconOverlay */;
+VALUES (22559,   1, 0x020000D1) /* Setup */
+     , (22559,   3, 0x20000014) /* SoundTable */
+     , (22559,   6, 0x0400007E) /* PaletteBase */
+     , (22559,   8, 0x06002938) /* Icon */
+     , (22559,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22559,  50, 0x060028F2) /* IconOverlay */;

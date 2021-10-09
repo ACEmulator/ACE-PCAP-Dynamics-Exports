@@ -28,9 +28,9 @@ VALUES (36633,   1, 'Missile Defense Weapon Augmentation') /* Name */
      , (36633,  14, 'Use this gem to add 0.5% more Missile Defense to a Loot Weapon. This will not stack with any other Weapon Augmentations.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36633,   1,   33554809) /* Setup */
-     , (36633,   3,  536870932) /* SoundTable */
-     , (36633,   6,   67111919) /* PaletteBase */
-     , (36633,   8,  100686475) /* Icon */
-     , (36633,  22,  872415275) /* PhysicsEffectTable */
-     , (36633,  50,  100686676) /* IconOverlay */;
+VALUES (36633,   1, 0x02000179) /* Setup */
+     , (36633,   3, 0x20000014) /* SoundTable */
+     , (36633,   6, 0x04000BEF) /* PaletteBase */
+     , (36633,   8, 0x06005A8B) /* Icon */
+     , (36633,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36633,  50, 0x06005B54) /* IconOverlay */;

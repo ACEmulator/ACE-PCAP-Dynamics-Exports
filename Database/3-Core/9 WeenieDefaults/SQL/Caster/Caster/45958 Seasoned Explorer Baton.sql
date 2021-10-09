@@ -43,19 +43,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45958,   1, 'Seasoned Explorer Baton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45958,   1,   33559697) /* Setup */
-     , (45958,   3,  536870932) /* SoundTable */
-     , (45958,   6,   67116700) /* PaletteBase */
-     , (45958,   8,  100688013) /* Icon */
-     , (45958,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45958,   1, 0x02001491) /* Setup */
+     , (45958,   3, 0x20000014) /* SoundTable */
+     , (45958,   6, 0x04001E9C) /* PaletteBase */
+     , (45958,   8, 0x0600608D) /* Icon */
+     , (45958,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45958, 8040, 1436549390, 35.75689, 84.64031, 39.93, 0.04720589, 0.04720589, -0.7055293, -0.7055293) /* PCAPRecordedLocation */
+VALUES (45958, 8040, 0x55A0010E, 35.75689, 84.64031, 39.93, 0.047206, 0.047206, -0.705529, -0.705529) /* PCAPRecordedLocation */
 /* @teleloc 0x55A0010E [35.756890 84.640310 39.930000] 0.047206 0.047206 -0.705529 -0.705529 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45958,   664,      2)  /* ManaMasteryOther6 */
+VALUES (45958,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (45958,  1605,      2)  /* DefenderSelf6 */
-     , (45958,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (45958,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */
+     , (45958,   664,      2)  /* ManaMasteryOther6 */
      , (45958,  3258,      2)  /* SpiritDrinkerSelf6 */;

@@ -52,15 +52,15 @@ VALUES (31812,   1, 'Slashing Slingshot') /* Name */
      , (31812,  16, 'Slashing Slingshot of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31812,   1,   33559694) /* Setup */
-     , (31812,   3,  536870932) /* SoundTable */
-     , (31812,   6,   67116700) /* PaletteBase */
-     , (31812,   8,  100688022) /* Icon */
-     , (31812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31812,   1, 0x0200148E) /* Setup */
+     , (31812,   3, 0x20000014) /* SoundTable */
+     , (31812,   6, 0x04001E9C) /* PaletteBase */
+     , (31812,   8, 0x06006096) /* Icon */
+     , (31812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31812,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (31812,  52,  100676444) /* IconUnderlay */;
+     , (31812,  52, 0x0600335C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31812,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31812,  2523,      2)  /* CANTRIPMAGICITEMEXPERTISE2 */
-     , (31812,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (31812,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (31812,  2523,      2)  /* CANTRIPMAGICITEMEXPERTISE2 */;

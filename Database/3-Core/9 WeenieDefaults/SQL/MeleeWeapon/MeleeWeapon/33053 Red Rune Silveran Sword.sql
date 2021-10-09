@@ -47,20 +47,20 @@ VALUES (33053,   1, 'Red Rune Silveran Sword') /* Name */
      , (33053,  15, 'A fine sword crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33053,   1,   33559891) /* Setup */
-     , (33053,   3,  536870932) /* SoundTable */
-     , (33053,   8,  100688876) /* Icon */
-     , (33053,  22,  872415275) /* PhysicsEffectTable */
-     , (33053,  50,  100688915) /* IconOverlay */;
+VALUES (33053,   1, 0x02001553) /* Setup */
+     , (33053,   3, 0x20000014) /* SoundTable */
+     , (33053,   8, 0x060063EC) /* Icon */
+     , (33053,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33053,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33053, 8040, 459075, 69.975, -60, -0.071, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (33053, 8040, 0x00070143, 69.975, -60, -0.071, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [69.975000 -60.000000 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33053,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33053,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33053,  2059,      2)  /* CoordinationSelf7 */
      , (33053,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33053,  2101,      2)  /* DefenderSelf7 */
      , (33053,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33053,  2116,      2)  /* SwiftKillerSelf7 */
      , (33053,  2686,      2)  /* ModerateAxeAptitude */;

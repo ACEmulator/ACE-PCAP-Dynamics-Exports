@@ -35,20 +35,20 @@ VALUES (4437,   1, 'Sitrath the Smith') /* Name */
      , (4437,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4437,   1,   33554433) /* Setup */
-     , (4437,   2,  150994945) /* MotionTable */
-     , (4437,   3,  536870913) /* SoundTable */
-     , (4437,   6,   67108990) /* PaletteBase */
-     , (4437,   8,  100667446) /* Icon */
-     , (4437,   9,   83890507) /* EyesTexture */
-     , (4437,  10,   83890562) /* NoseTexture */
-     , (4437,  11,   83890651) /* MouthTexture */
-     , (4437,  15,   67117017) /* HairPalette */
-     , (4437,  16,   67110065) /* EyesPalette */
-     , (4437,  17,   67109561) /* SkinPalette */;
+VALUES (4437,   1, 0x02000001) /* Setup */
+     , (4437,   2, 0x09000001) /* MotionTable */
+     , (4437,   3, 0x20000001) /* SoundTable */
+     , (4437,   6, 0x0400007E) /* PaletteBase */
+     , (4437,   8, 0x06001036) /* Icon */
+     , (4437,   9, 0x0500114B) /* EyesTexture */
+     , (4437,  10, 0x05001182) /* NoseTexture */
+     , (4437,  11, 0x050011DB) /* MouthTexture */
+     , (4437,  15, 0x04001FD9) /* HairPalette */
+     , (4437,  16, 0x040004B1) /* EyesPalette */
+     , (4437,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4437, 8040, 3212837153, 157.142, 79.2365, 34.005, -0.4484919, 0, 0, -0.8937869) /* PCAPRecordedLocation */
+VALUES (4437, 8040, 0xBF800121, 157.142, 79.2365, 34.005, -0.448492, 0, 0, -0.893787) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800121 [157.142000 79.236500 34.005000] -0.448492 0.000000 0.000000 -0.893787 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

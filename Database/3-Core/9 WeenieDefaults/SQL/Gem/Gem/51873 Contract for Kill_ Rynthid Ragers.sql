@@ -31,7 +31,7 @@ VALUES (51873,   1, 'Contract for Kill: Rynthid Ragers') /* Name */
      , (51873,  16, 'Kill 15 Rynthid Ragers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51873,   1,   33554773) /* Setup */
-     , (51873,   3,  536870932) /* SoundTable */
-     , (51873,   8,  100691928) /* Icon */
-     , (51873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51873,   1, 0x02000155) /* Setup */
+     , (51873,   3, 0x20000014) /* SoundTable */
+     , (51873,   8, 0x06006FD8) /* Icon */
+     , (51873,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -20,8 +20,8 @@ VALUES (31987,   1, 'Incarnadine Pigmentation Apparatus') /* Name */
      , (31987,  20, 'Incarnadine Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31987,   1,   33556753) /* Setup */
-     , (31987,   3,  536870932) /* SoundTable */
-     , (31987,   6,   67111919) /* PaletteBase */
-     , (31987,   8,  100688314) /* Icon */
-     , (31987,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31987,   1, 0x02000911) /* Setup */
+     , (31987,   3, 0x20000014) /* SoundTable */
+     , (31987,   6, 0x04000BEF) /* PaletteBase */
+     , (31987,   8, 0x060061BA) /* Icon */
+     , (31987,  22, 0x3400002B) /* PhysicsEffectTable */;

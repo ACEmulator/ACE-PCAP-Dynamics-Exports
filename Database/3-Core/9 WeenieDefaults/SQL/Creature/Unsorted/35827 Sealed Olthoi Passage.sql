@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35827,   1, 'Sealed Olthoi Passage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35827,   1,   33555954) /* Setup */
-     , (35827,   2,  150995412) /* MotionTable */
-     , (35827,   3,  536870991) /* SoundTable */
-     , (35827,   8,  100668183) /* Icon */;
+VALUES (35827,   1, 0x020005F2) /* Setup */
+     , (35827,   2, 0x090001D4) /* MotionTable */
+     , (35827,   3, 0x2000004F) /* SoundTable */
+     , (35827,   8, 0x06001317) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35827, 8040, 8913199, 60, -15.1023, -72, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35827, 8040, 0x0088012F, 60, -15.1023, -72, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0088012F [60.000000 -15.102300 -72.000000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51977,   1, 'Suppression Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51977,   1,   33561231) /* Setup */
-     , (51977,   2,  150995087) /* MotionTable */
-     , (51977,   3,  536871001) /* SoundTable */
-     , (51977,   8,  100671702) /* Icon */
-     , (51977,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (51977,   1, 0x02001A8F) /* Setup */
+     , (51977,   2, 0x0900008F) /* MotionTable */
+     , (51977,   3, 0x20000059) /* SoundTable */
+     , (51977,   8, 0x060020D6) /* Icon */
+     , (51977,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51977, 8040, 1498677537, 10, -99.33334, -41.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51977, 8040, 0x59540121, 10, -99.33334, -41.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59540121 [10.000000 -99.333340 -41.992500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -44,14 +44,14 @@ VALUES (116,   1, 'Studded Leather Boots') /* Name */
      , (116,  16, 'Studded Leather Boots of Missile Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (116,   1,   33554640) /* Setup */
-     , (116,   3,  536870932) /* SoundTable */
-     , (116,   6,   67108990) /* PaletteBase */
-     , (116,   8,  100668177) /* Icon */
-     , (116,  22,  872415275) /* PhysicsEffectTable */
+VALUES (116,   1, 0x020000D0) /* Setup */
+     , (116,   3, 0x20000014) /* SoundTable */
+     , (116,   6, 0x0400007E) /* PaletteBase */
+     , (116,   8, 0x06001311) /* Icon */
+     , (116,  22, 0x3400002B) /* PhysicsEffectTable */
      , (116,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (116,   471,      2)  /* MissileWeaponsMasterySelf5 */
-     , (116,  1486,      2)  /* Impenetrability6 */
+VALUES (116,  1486,      2)  /* Impenetrability6 */
+     , (116,   471,      2)  /* MissileWeaponsMasterySelf5 */
      , (116,  1560,      2)  /* BladeBane4 */;

@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5709,   1, 'Ball of fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5709,   1,   33555469) /* Setup */
-     , (5709,   3,  536870967) /* SoundTable */
-     , (5709,   8,  100667590) /* Icon */
-     , (5709,  22,  872415237) /* PhysicsEffectTable */
+VALUES (5709,   1, 0x0200040D) /* Setup */
+     , (5709,   3, 0x20000037) /* SoundTable */
+     , (5709,   8, 0x060010C6) /* Icon */
+     , (5709,  22, 0x34000005) /* PhysicsEffectTable */
      , (5709,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5709, 8040, 2278948925, 174.0093, 105.1479, 165.6734, -0.1675534, -0.1675534, -0.6869686, -0.6869686) /* PCAPRecordedLocation */
+VALUES (5709, 8040, 0x87D6003D, 174.0093, 105.1479, 165.6734, -0.167553, -0.167553, -0.686969, -0.686969) /* PCAPRecordedLocation */
 /* @teleloc 0x87D6003D [174.009300 105.147900 165.673400] -0.167553 -0.167553 -0.686969 -0.686969 */;

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35186,   1, 'Hulking Rabbit Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35186,   1,   33556210) /* Setup */
-     , (35186,   3,  536870932) /* SoundTable */
-     , (35186,   8,  100670267) /* Icon */
-     , (35186,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35186,   1, 0x020006F2) /* Setup */
+     , (35186,   3, 0x20000014) /* SoundTable */
+     , (35186,   8, 0x06001B3B) /* Icon */
+     , (35186,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,11 +22,11 @@ VALUES (45356,   1, 'Spectral Dirty Fighting Mastery Crystal') /* Name */
      , (45356,  20, 'Spectral Dirty Fighting Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45356,   1,   33557625) /* Setup */
-     , (45356,   3,  536870932) /* SoundTable */
-     , (45356,   8,  100686697) /* Icon */
-     , (45356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45356,   1, 0x02000C79) /* Setup */
+     , (45356,   3, 0x20000014) /* SoundTable */
+     , (45356,   8, 0x06005B69) /* Icon */
+     , (45356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45356,  28,       5912) /* Spell - DirtyFightingMasterySpectral */
-     , (45356,  50,  100692244) /* IconOverlay */
-     , (45356,  52,  100686604) /* IconUnderlay */
+     , (45356,  50, 0x06007114) /* IconOverlay */
+     , (45356,  52, 0x06005B0C) /* IconUnderlay */
      , (45356, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

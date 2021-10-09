@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23125,   1, 'Misty Message Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23125,   1,   33555391) /* Setup */
-     , (23125,   3,  536870932) /* SoundTable */
-     , (23125,   8,  100671183) /* Icon */
-     , (23125,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23125,   1, 0x020003BF) /* Setup */
+     , (23125,   3, 0x20000014) /* SoundTable */
+     , (23125,   8, 0x06001ECF) /* Icon */
+     , (23125,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23125, 8040, 1615331776, 76.606, -43.4486, -5.981, 0.287925, 0, 0, 0.957653) /* PCAPRecordedLocation */
+VALUES (23125, 8040, 0x604801C0, 76.606, -43.4486, -5.981, 0.287925, 0, 0, 0.957653) /* PCAPRecordedLocation */
 /* @teleloc 0x604801C0 [76.606000 -43.448600 -5.981000] 0.287925 0.000000 0.000000 0.957653 */;

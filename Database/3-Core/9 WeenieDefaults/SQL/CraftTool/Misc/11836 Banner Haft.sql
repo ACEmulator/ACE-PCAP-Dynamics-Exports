@@ -25,7 +25,7 @@ VALUES (11836,   1, 'Banner Haft') /* Name */
      , (11836,  16, 'A banner haft with a worn handle.  If joined with either a Serpent or Falcon banner, it will raise its value.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11836,   1,   33557244) /* Setup */
-     , (11836,   3,  536870932) /* SoundTable */
-     , (11836,   8,  100671950) /* Icon */
-     , (11836,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11836,   1, 0x02000AFC) /* Setup */
+     , (11836,   3, 0x20000014) /* SoundTable */
+     , (11836,   8, 0x060021CE) /* Icon */
+     , (11836,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,8 +24,8 @@ VALUES (34897,   1, 'Lockpicking Sigil') /* Name */
      , (34897,  16, 'A small stone with a sigil for lockpicking carved into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34897,   1,   33558759) /* Setup */
-     , (34897,   3,  536870932) /* SoundTable */
-     , (34897,   8,  100689348) /* Icon */
-     , (34897,  22,  872415275) /* PhysicsEffectTable */
-     , (34897,  50,  100673772) /* IconOverlay */;
+VALUES (34897,   1, 0x020010E7) /* Setup */
+     , (34897,   3, 0x20000014) /* SoundTable */
+     , (34897,   8, 0x060065C4) /* Icon */
+     , (34897,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34897,  50, 0x060028EC) /* IconOverlay */;

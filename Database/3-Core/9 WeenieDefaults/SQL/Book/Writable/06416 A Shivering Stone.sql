@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6416,   1, 'A Shivering Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6416,   1,   33559084) /* Setup */
-     , (6416,   3,  536870932) /* SoundTable */
-     , (6416,   6,   67112626) /* PaletteBase */
-     , (6416,   8,  100668176) /* Icon */
-     , (6416,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6416,   1, 0x0200122C) /* Setup */
+     , (6416,   3, 0x20000014) /* SoundTable */
+     , (6416,   6, 0x04000EB2) /* PaletteBase */
+     , (6416,   8, 0x06001310) /* Icon */
+     , (6416,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6416, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

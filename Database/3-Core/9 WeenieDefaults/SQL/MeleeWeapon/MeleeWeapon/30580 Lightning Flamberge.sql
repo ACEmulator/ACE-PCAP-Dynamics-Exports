@@ -52,11 +52,11 @@ VALUES (30580,   1, 'Lightning Flamberge') /* Name */
      , (30580,  16, 'Lightning Flamberge of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30580,   1,   33559468) /* Setup */
-     , (30580,   3,  536870932) /* SoundTable */
-     , (30580,   6,   67115557) /* PaletteBase */
-     , (30580,   8,  100686954) /* Icon */
-     , (30580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30580,   1, 0x020013AC) /* Setup */
+     , (30580,   3, 0x20000014) /* SoundTable */
+     , (30580,   6, 0x04001A25) /* PaletteBase */
+     , (30580,   8, 0x06005C6A) /* Icon */
+     , (30580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30580,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

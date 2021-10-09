@@ -30,7 +30,7 @@ VALUES (43904,   1, 'Boxed Colosseum Coin') /* Name */
      , (43904,  16, 'A box containing a Colosseum Coin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43904,   1,   33554718) /* Setup */
-     , (43904,   3,  536870932) /* SoundTable */
-     , (43904,   8,  100691792) /* Icon */
-     , (43904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43904,   1, 0x0200011E) /* Setup */
+     , (43904,   3, 0x20000014) /* SoundTable */
+     , (43904,   8, 0x06006F50) /* Icon */
+     , (43904,  22, 0x3400002B) /* PhysicsEffectTable */;

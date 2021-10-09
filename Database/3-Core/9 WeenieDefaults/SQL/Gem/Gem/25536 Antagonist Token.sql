@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25536,   1, 'Antagonist Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25536,   1,   33557280) /* Setup */
-     , (25536,   3,  536870932) /* SoundTable */
-     , (25536,   8,  100674958) /* Icon */
-     , (25536,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25536,   1, 0x02000B20) /* Setup */
+     , (25536,   3, 0x20000014) /* SoundTable */
+     , (25536,   8, 0x06002D8E) /* Icon */
+     , (25536,  22, 0x3400002B) /* PhysicsEffectTable */;

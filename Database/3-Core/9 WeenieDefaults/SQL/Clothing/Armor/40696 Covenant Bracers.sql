@@ -46,11 +46,11 @@ VALUES (40696,   1, 'Covenant Bracers') /* Name */
      , (40696,  16, 'Covenant Bracers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40696,   1,   33554641) /* Setup */
-     , (40696,   3,  536870932) /* SoundTable */
-     , (40696,   6,   67108990) /* PaletteBase */
-     , (40696,   8,  100673382) /* Icon */
-     , (40696,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40696,   1, 0x020000D1) /* Setup */
+     , (40696,   3, 0x20000014) /* SoundTable */
+     , (40696,   6, 0x0400007E) /* PaletteBase */
+     , (40696,   8, 0x06002766) /* Icon */
+     , (40696,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40696,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

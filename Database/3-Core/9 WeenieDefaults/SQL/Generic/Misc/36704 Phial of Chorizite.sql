@@ -22,8 +22,8 @@ VALUES (36704,   1, 'Phial of Chorizite') /* Name */
      , (36704,  16, 'A Phial filled with an experimental alchemical mixture of Chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36704,   1,   33555965) /* Setup */
-     , (36704,   3,  536870932) /* SoundTable */
-     , (36704,   6,   67111919) /* PaletteBase */
-     , (36704,   8,  100688870) /* Icon */
-     , (36704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36704,   1, 0x020005FD) /* Setup */
+     , (36704,   3, 0x20000014) /* SoundTable */
+     , (36704,   6, 0x04000BEF) /* PaletteBase */
+     , (36704,   8, 0x060063E6) /* Icon */
+     , (36704,  22, 0x3400002B) /* PhysicsEffectTable */;

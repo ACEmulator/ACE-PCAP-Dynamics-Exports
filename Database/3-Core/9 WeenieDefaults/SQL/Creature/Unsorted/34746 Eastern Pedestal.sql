@@ -27,12 +27,12 @@ VALUES (34746,   1, 'Eastern Pedestal') /* Name */
      , (34746,  16, 'This pedestal feels warm to the touch. You see many places where small pieces of stone have been chipped away, as if someone had actively chosen to inflict damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34746,   1,   33560164) /* Setup */
-     , (34746,   2,  150995147) /* MotionTable */
-     , (34746,   3,  536871052) /* SoundTable */
-     , (34746,   8,  100668129) /* Icon */
-     , (34746,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (34746,   1, 0x02001664) /* Setup */
+     , (34746,   2, 0x090000CB) /* MotionTable */
+     , (34746,   3, 0x2000008C) /* SoundTable */
+     , (34746,   8, 0x060012E1) /* Icon */
+     , (34746,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34746, 8040, 2782068774, 114, 132, 404, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34746, 8040, 0xA5D30026, 114, 132, 404, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xA5D30026 [114.000000 132.000000 404.000000] 0.707107 0.000000 0.000000 -0.707107 */;

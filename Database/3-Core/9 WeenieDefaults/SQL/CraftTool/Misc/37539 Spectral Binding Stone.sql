@@ -28,8 +28,8 @@ VALUES (37539,   1, 'Spectral Binding Stone') /* Name */
      , (37539,  16, 'A stone to bind a spectral weapon to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37539,   1,   33554769) /* Setup */
-     , (37539,   3,  536870932) /* SoundTable */
-     , (37539,   8,  100673285) /* Icon */
-     , (37539,  22,  872415275) /* PhysicsEffectTable */
-     , (37539,  52,  100689823) /* IconUnderlay */;
+VALUES (37539,   1, 0x02000151) /* Setup */
+     , (37539,   3, 0x20000014) /* SoundTable */
+     , (37539,   8, 0x06002705) /* Icon */
+     , (37539,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37539,  52, 0x0600679F) /* IconUnderlay */;

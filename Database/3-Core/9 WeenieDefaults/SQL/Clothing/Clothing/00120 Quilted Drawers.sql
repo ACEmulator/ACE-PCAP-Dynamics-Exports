@@ -31,8 +31,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (120,   1, 'Quilted Drawers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (120,   1,   33554653) /* Setup */
-     , (120,   3,  536870932) /* SoundTable */
-     , (120,   6,   67108990) /* PaletteBase */
-     , (120,   8,  100667366) /* Icon */
-     , (120,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (120,   1, 0x020000DD) /* Setup */
+     , (120,   3, 0x20000014) /* SoundTable */
+     , (120,   6, 0x0400007E) /* PaletteBase */
+     , (120,   8, 0x06000FE6) /* Icon */
+     , (120,  22, 0x3400002B) /* PhysicsEffectTable */;

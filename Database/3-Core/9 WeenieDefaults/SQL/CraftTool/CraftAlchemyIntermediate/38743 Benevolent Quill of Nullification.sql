@@ -21,6 +21,6 @@ VALUES (38743,   1, 'Benevolent Quill of Nullification') /* Name */
      , (38743,  20, 'Benevolent Quills of Nullification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38743,   1,   33559616) /* Setup */
-     , (38743,   8,  100690198) /* Icon */
-     , (38743,  52,  100689404) /* IconUnderlay */;
+VALUES (38743,   1, 0x02001440) /* Setup */
+     , (38743,   8, 0x06006916) /* Icon */
+     , (38743,  52, 0x060065FC) /* IconUnderlay */;

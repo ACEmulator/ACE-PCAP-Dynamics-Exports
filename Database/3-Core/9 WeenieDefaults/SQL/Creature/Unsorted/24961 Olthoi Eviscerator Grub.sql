@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24961,   1, 'Olthoi Eviscerator Grub') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24961,   1,   33558333) /* Setup */
-     , (24961,   2,  150995238) /* MotionTable */
-     , (24961,   3,  536871068) /* SoundTable */
-     , (24961,   6,   67114236) /* PaletteBase */
-     , (24961,   8,  100674298) /* Icon */
-     , (24961,  22,  872415396) /* PhysicsEffectTable */
+VALUES (24961,   1, 0x02000F3D) /* Setup */
+     , (24961,   2, 0x09000126) /* MotionTable */
+     , (24961,   3, 0x2000009C) /* SoundTable */
+     , (24961,   6, 0x040014FC) /* PaletteBase */
+     , (24961,   8, 0x06002AFA) /* Icon */
+     , (24961,  22, 0x340000A4) /* PhysicsEffectTable */
      , (24961,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24961, 8040, 1615397122, 660.91, -45.9938, -53.99395, -0.3688929, 0, 0, -0.9294719) /* PCAPRecordedLocation */
+VALUES (24961, 8040, 0x60490102, 660.91, -45.9938, -53.99395, -0.368893, 0, 0, -0.929472) /* PCAPRecordedLocation */
 /* @teleloc 0x60490102 [660.910000 -45.993800 -53.993950] -0.368893 0.000000 0.000000 -0.929472 */;

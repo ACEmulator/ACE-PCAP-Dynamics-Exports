@@ -38,19 +38,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21031,   1, 'Perfect Shimmering Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21031,   1,   33557731) /* Setup */
-     , (21031,   3,  536870932) /* SoundTable */
-     , (21031,   8,  100673203) /* Icon */
-     , (21031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21031,   1, 0x02000CE3) /* Setup */
+     , (21031,   3, 0x20000014) /* SoundTable */
+     , (21031,   8, 0x060026B3) /* Icon */
+     , (21031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21031,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21031, 8040, 310771715, 12.39034, 70.10451, 49.929, -0.688652, -0.688652, 0.1604943, 0.1604943) /* PCAPRecordedLocation */
+VALUES (21031, 8040, 0x12860003, 12.39034, 70.10451, 49.929, -0.688652, -0.688652, 0.160494, 0.160494) /* PCAPRecordedLocation */
 /* @teleloc 0x12860003 [12.390340 70.104510 49.929000] -0.688652 -0.688652 0.160494 0.160494 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21031,   658,      2)  /* ManaMasterySelf6 */
-     , (21031,  1312,      2)  /* ArmorSelf6 */
+VALUES (21031,  2691,      2)  /* ModerateManaConversionProwess */
      , (21031,  1426,      2)  /* FocusSelf6 */
-     , (21031,  1450,      2)  /* WillpowerSelf6 */
-     , (21031,  2691,      2)  /* ModerateManaConversionProwess */;
+     , (21031,   658,      2)  /* ManaMasterySelf6 */
+     , (21031,  1312,      2)  /* ArmorSelf6 */
+     , (21031,  1450,      2)  /* WillpowerSelf6 */;

@@ -35,9 +35,9 @@ VALUES (36446,   1, 'Gummy Golem') /* Name */
      , (36446,  16, 'A festival treat. A gummy candy molded into the shape of a golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36446,   1,   33556426) /* Setup */
-     , (36446,   2,  150995144) /* MotionTable */
-     , (36446,   3,  536870932) /* SoundTable */
-     , (36446,   8,  100689669) /* Icon */
-     , (36446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36446,   1, 0x020007CA) /* Setup */
+     , (36446,   2, 0x090000C8) /* MotionTable */
+     , (36446,   3, 0x20000014) /* SoundTable */
+     , (36446,   8, 0x06006705) /* Icon */
+     , (36446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36446,  28,       4209) /* Spell - GummyShield */;

@@ -37,18 +37,18 @@ VALUES (8024,   1, 'Shendolain Crystal Orb') /* Name */
      , (8024,  16, 'An orb imbued with the power of the Shendolain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8024,   1,   33556767) /* Setup */
-     , (8024,   3,  536870932) /* SoundTable */
-     , (8024,   6,   67111928) /* PaletteBase */
-     , (8024,   8,  100670986) /* Icon */
-     , (8024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8024,   1, 0x0200091F) /* Setup */
+     , (8024,   3, 0x20000014) /* SoundTable */
+     , (8024,   6, 0x04000BF8) /* PaletteBase */
+     , (8024,   8, 0x06001E0A) /* Icon */
+     , (8024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8024,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8024, 8040, 3465871405, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (8024, 8040, 0xCE95002D, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8024,   560,      2)  /* CreatureEnchantmentMasterySelf4 */
-     , (8024,   585,      2)  /* ItemEnchantmentMasterySelf5 */
-     , (8024,  2013,      2)  /* WizardsGreaterIntellect */;
+VALUES (8024,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (8024,  2013,      2)  /* WizardsGreaterIntellect */
+     , (8024,   560,      2)  /* CreatureEnchantmentMasterySelf4 */;

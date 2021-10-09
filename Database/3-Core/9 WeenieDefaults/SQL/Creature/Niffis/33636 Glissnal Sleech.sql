@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33636,   1, 'Glissnal Sleech') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33636,   1,   33559712) /* Setup */
-     , (33636,   2,  150995347) /* MotionTable */
-     , (33636,   3,  536871010) /* SoundTable */
-     , (33636,   6,   67116764) /* PaletteBase */
-     , (33636,   8,  100670961) /* Icon */
-     , (33636,  22,  872415416) /* PhysicsEffectTable */;
+VALUES (33636,   1, 0x020014A0) /* Setup */
+     , (33636,   2, 0x09000193) /* MotionTable */
+     , (33636,   3, 0x20000062) /* SoundTable */
+     , (33636,   6, 0x04001EDC) /* PaletteBase */
+     , (33636,   8, 0x06001DF1) /* Icon */
+     , (33636,  22, 0x340000B8) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33636, 8040, 3303735332, 97.62165, 95.36706, 0, -0.6644267, 0, 0, 0.7473534) /* PCAPRecordedLocation */
+VALUES (33636, 8040, 0xC4EB0024, 97.62165, 95.36706, 0, -0.664427, 0, 0, 0.747353) /* PCAPRecordedLocation */
 /* @teleloc 0xC4EB0024 [97.621650 95.367060 0.000000] -0.664427 0.000000 0.000000 0.747353 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

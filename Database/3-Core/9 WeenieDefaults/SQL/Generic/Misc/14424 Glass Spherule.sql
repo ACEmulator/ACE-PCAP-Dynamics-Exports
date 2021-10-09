@@ -21,5 +21,5 @@ VALUES (14424,   1, 'Glass Spherule') /* Name */
      , (14424,  16, 'A Glass Spherule. A strange substance seems to be swirling inside it. You cannot divine its use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424,   1,   33556768) /* Setup */
-     , (14424,   8,  100672464) /* Icon */;
+VALUES (14424,   1, 0x02000920) /* Setup */
+     , (14424,   8, 0x060023D0) /* Icon */;

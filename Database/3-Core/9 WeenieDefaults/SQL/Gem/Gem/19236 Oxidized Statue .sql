@@ -23,12 +23,12 @@ VALUES (19236,   1, 'Oxidized Statue ') /* Name */
      , (19236,  16, 'A small oxidized statue of a Sclavus crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19236,   1,   33555608) /* Setup */
-     , (19236,   2,  150995209) /* MotionTable */
-     , (19236,   6,   67111936) /* PaletteBase */
-     , (19236,   8,  100669120) /* Icon */
-     , (19236,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (19236,   1, 0x02000498) /* Setup */
+     , (19236,   2, 0x09000109) /* MotionTable */
+     , (19236,   6, 0x04000C00) /* PaletteBase */
+     , (19236,   8, 0x060016C0) /* Icon */
+     , (19236,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19236, 8040, 2103705618, 61.91716, 43.15652, 12, -0.9371815, 0, 0, -0.3488421) /* PCAPRecordedLocation */
+VALUES (19236, 8040, 0x7D640012, 61.91716, 43.15652, 12, -0.937182, 0, 0, -0.348842) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640012 [61.917160 43.156520 12.000000] -0.937182 0.000000 0.000000 -0.348842 */;

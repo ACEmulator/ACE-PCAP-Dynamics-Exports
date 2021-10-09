@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38165,   1, 'Nivinizk''s Sacrificial Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38165,   1,   33560633) /* Setup */
-     , (38165,   3,  536870932) /* SoundTable */
-     , (38165,   6,   67114956) /* PaletteBase */
-     , (38165,   8,  100675921) /* Icon */
-     , (38165,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38165,   1, 0x02001839) /* Setup */
+     , (38165,   3, 0x20000014) /* SoundTable */
+     , (38165,   6, 0x040017CC) /* PaletteBase */
+     , (38165,   8, 0x06003151) /* Icon */
+     , (38165,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38165,  28,       2332) /* Spell - HealthToManaSelf7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38165, 8040, 18809103, 28.69869, -36.34937, 3.63977, -0.7069212, -0.7069212, -0.01620213, -0.01620213) /* PCAPRecordedLocation */
+VALUES (38165, 8040, 0x011F010F, 28.69869, -36.34937, 3.63977, -0.706921, -0.706921, -0.016202, -0.016202) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010F [28.698690 -36.349370 3.639770] -0.706921 -0.706921 -0.016202 -0.016202 */;

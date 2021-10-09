@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10827,   1, 'Edicts of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10827,   1,   33554773) /* Setup */
-     , (10827,   3,  536870932) /* SoundTable */
-     , (10827,   8,  100668176) /* Icon */
-     , (10827,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10827,   1, 0x02000155) /* Setup */
+     , (10827,   3, 0x20000014) /* SoundTable */
+     , (10827,   8, 0x06001310) /* Icon */
+     , (10827,  22, 0x3400002B) /* PhysicsEffectTable */;

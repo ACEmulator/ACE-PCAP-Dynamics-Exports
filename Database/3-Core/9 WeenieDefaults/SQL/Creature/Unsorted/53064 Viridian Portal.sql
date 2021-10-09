@@ -27,12 +27,12 @@ VALUES (53064,   1, 'Viridian Portal') /* Name */
      , (53064,  16, 'A portal leading deeper into the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53064,   1,   33560221) /* Setup */
-     , (53064,   2,  150995314) /* MotionTable */
-     , (53064,   3,  536871052) /* SoundTable */
-     , (53064,   8,  100667499) /* Icon */
-     , (53064,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53064,   1, 0x0200169D) /* Setup */
+     , (53064,   2, 0x09000172) /* MotionTable */
+     , (53064,   3, 0x2000008C) /* SoundTable */
+     , (53064,   8, 0x0600106B) /* Icon */
+     , (53064,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53064, 8040, 3058303040, 183.8858, 184.2858, 115.7902, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53064, 8040, 0xB64A0040, 183.8858, 184.2858, 115.7902, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB64A0040 [183.885800 184.285800 115.790200] 1.000000 0.000000 0.000000 0.000000 */;

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x228E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E000,  2215, 0x228E003B, 180, 66.5, 260, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7228E000,  2215, 0x228E003B, 180, 66.5, 260, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x228E003B [180.000000 66.500000 260.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -62,7 +62,7 @@ VALUES (0x7228E007,   228, 0x228E003F, 181.928, 150.134, 268.805, 0.737145, 0, 0
 /* @teleloc 0x228E003F [181.928000 150.134000 268.805000] 0.737145 0.000000 0.000000 0.675734 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E008,   228, 0x228E003F, 177.202, 156.359, 275.206, 0.0538102, 0, 0, 0.998551,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
+VALUES (0x7228E008,   228, 0x228E003F, 177.202, 156.359, 275.206, 0.05381, 0, 0, 0.998551,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
 /* @teleloc 0x228E003F [177.202000 156.359000 275.206000] 0.053810 0.000000 0.000000 0.998551 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,7 +70,7 @@ VALUES (0x7228E009,   228, 0x228E0035, 153.225, 115.568, 260.006, -0.692566, 0, 
 /* @teleloc 0x228E0035 [153.225000 115.568000 260.006000] -0.692566 0.000000 0.000000 0.721354 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E00A,   228, 0x228E0034, 157.904, 84.6034, 264.006, 0.0162501, 0, 0, -0.999868,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
+VALUES (0x7228E00A,   228, 0x228E0034, 157.904, 84.6034, 264.006, 0.01625, 0, 0, -0.999868,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
 /* @teleloc 0x228E0034 [157.904000 84.603400 264.006000] 0.016250 0.000000 0.000000 -0.999868 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -82,7 +82,7 @@ VALUES (0x7228E00C, 23617, 0x228E003B, 173.872, 62.5503, 264.0065, 0.625535, 0, 
 /* @teleloc 0x228E003B [173.872000 62.550300 264.006500] 0.625535 0.000000 0.000000 -0.780196 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E00D,  7086, 0x228E003B, 186.0646, 49.66687, 260.0071, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
+VALUES (0x7228E00D,  7086, 0x228E003B, 186.0646, 49.66687, 260.0071, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
 /* @teleloc 0x228E003B [186.064600 49.666870 260.007100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -90,7 +90,7 @@ VALUES (0x7228E00E,   228, 0x228E0110, 130.675, 104.877, 261.605, -0.792356, 0, 
 /* @teleloc 0x228E0110 [130.675000 104.877000 261.605000] -0.792356 0.000000 0.000000 0.610059 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E00F,   228, 0x228E003E, 187.328, 130.202, 264.006, 0.0857281, 0, 0, -0.996319,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
+VALUES (0x7228E00F,   228, 0x228E003E, 187.328, 130.202, 264.006, 0.085728, 0, 0, -0.996319,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
 /* @teleloc 0x228E003E [187.328000 130.202000 264.006000] 0.085728 0.000000 0.000000 -0.996319 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

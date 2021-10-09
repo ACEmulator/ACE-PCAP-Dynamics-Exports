@@ -21,7 +21,7 @@ VALUES (24929,   1, 'Brood Queen Elder Crest') /* Name */
      , (24929,  15, 'The crest of a departed Olthoi Brood Queen Elder.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24929,   1,   33556593) /* Setup */
-     , (24929,   3,  536870932) /* SoundTable */
-     , (24929,   8,  100674516) /* Icon */
-     , (24929,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24929,   1, 0x02000871) /* Setup */
+     , (24929,   3, 0x20000014) /* SoundTable */
+     , (24929,   8, 0x06002BD4) /* Icon */
+     , (24929,  22, 0x3400002B) /* PhysicsEffectTable */;

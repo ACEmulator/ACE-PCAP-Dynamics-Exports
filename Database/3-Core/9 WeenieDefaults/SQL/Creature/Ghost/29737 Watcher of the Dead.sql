@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29737,   1, 'Watcher of the Dead') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29737,   1,   33558816) /* Setup */
-     , (29737,   2,  150995302) /* MotionTable */
-     , (29737,   3,  536871094) /* SoundTable */
-     , (29737,   6,   67115251) /* PaletteBase */
-     , (29737,   8,  100676679) /* Icon */;
+VALUES (29737,   1, 0x02001120) /* Setup */
+     , (29737,   2, 0x09000166) /* MotionTable */
+     , (29737,   3, 0x200000B6) /* SoundTable */
+     , (29737,   6, 0x040018F3) /* PaletteBase */
+     , (29737,   8, 0x06003447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29737, 8040, 708772106, 101.86, 42.4885, -11.971, 0.920127, 0, 0, 0.39162) /* PCAPRecordedLocation */
+VALUES (29737, 8040, 0x2A3F010A, 101.86, 42.4885, -11.971, 0.920127, 0, 0, 0.39162) /* PCAPRecordedLocation */
 /* @teleloc 0x2A3F010A [101.860000 42.488500 -11.971000] 0.920127 0.000000 0.000000 0.391620 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -51,14 +51,14 @@ VALUES (41057,   1, 'Great Star Mace') /* Name */
      , (41057,  16, 'Great Star Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41057,   1,   33560829) /* Setup */
-     , (41057,   3,  536870932) /* SoundTable */
-     , (41057,   6,   67115558) /* PaletteBase */
-     , (41057,   8,  100690534) /* Icon */
-     , (41057,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41057,   1, 0x020018FD) /* Setup */
+     , (41057,   3, 0x20000014) /* SoundTable */
+     , (41057,   6, 0x04001A26) /* PaletteBase */
+     , (41057,   8, 0x06006A66) /* Icon */
+     , (41057,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41057,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41057,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (41057,  1627,      2)  /* SwiftKillerSelf6 */
-     , (41057,  5784,      2)  /* DirtyFightingMasterySelf6 */;
+     , (41057,  5784,      2)  /* DirtyFightingMasterySelf6 */
+     , (41057,  1627,      2)  /* SwiftKillerSelf6 */;

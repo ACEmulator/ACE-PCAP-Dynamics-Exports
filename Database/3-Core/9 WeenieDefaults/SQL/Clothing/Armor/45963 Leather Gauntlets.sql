@@ -43,17 +43,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45963,   1, 'Leather Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45963,   1,   33554648) /* Setup */
-     , (45963,   3,  536870932) /* SoundTable */
-     , (45963,   6,   67108990) /* PaletteBase */
-     , (45963,   8,  100675217) /* Icon */
-     , (45963,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45963,   1, 0x020000D8) /* Setup */
+     , (45963,   3, 0x20000014) /* SoundTable */
+     , (45963,   6, 0x0400007E) /* PaletteBase */
+     , (45963,   8, 0x06002E91) /* Icon */
+     , (45963,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45963,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (45963,   885,      2)  /* HealingMasteryOther6 */
-     , (45963,  1029,      2)  /* BludgeonProtectionOther6 */
+VALUES (45963,  1029,      2)  /* BludgeonProtectionOther6 */
      , (45963,  1486,      2)  /* Impenetrability6 */
+     , (45963,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */
+     , (45963,   616,      2)  /* LifeMagicMasteryOther6 */
      , (45963,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
-     , (45963,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */
-     , (45963,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */;
+     , (45963,   885,      2)  /* HealingMasteryOther6 */
+     , (45963,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;

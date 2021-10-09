@@ -18,9 +18,9 @@ VALUES (4673,   1, 'Samsur Outpost') /* Name */
      , (4673,  16, 'This way to Samsur!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4673,   1,   33555985) /* Setup */
-     , (4673,   8,  100668115) /* Icon */;
+VALUES (4673,   1, 0x02000611) /* Setup */
+     , (4673,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4673, 8040, 2474573878, 165.977, 128.263, 32.16858, -0.438581, 0, 0, -0.898692) /* PCAPRecordedLocation */
+VALUES (4673, 8040, 0x937F0036, 165.977, 128.263, 32.16858, -0.438581, 0, 0, -0.898692) /* PCAPRecordedLocation */
 /* @teleloc 0x937F0036 [165.977000 128.263000 32.168580] -0.438581 0.000000 0.000000 -0.898692 */;

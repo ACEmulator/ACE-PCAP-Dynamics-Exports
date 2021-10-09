@@ -45,18 +45,18 @@ VALUES (36489,   1, 'Chilling Ebony Staff') /* Name */
      , (36489,  16, 'An ancient staff made of the darkest of ebony. Its head cradles a gem that possesses a chilling aura that could destroy all but the most magic resistant Humans. One who is skilled in the use of magical items may be able to harness this chilling aura''s power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36489,   1,   33560392) /* Setup */
-     , (36489,   3,  536870932) /* SoundTable */
-     , (36489,   8,  100689642) /* Icon */
-     , (36489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36489,   1, 0x02001748) /* Setup */
+     , (36489,   3, 0x20000014) /* SoundTable */
+     , (36489,   8, 0x060066EA) /* Icon */
+     , (36489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36489,  28,       4216) /* Spell - FrostWaveOrisis */
      , (36489,  37,         30) /* ItemSkillLimit - MagicItemTinkering */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36489, 8040, 3465871413, 157.2323, 95.9995, 19.929, 0.2566817, 0.2566817, -0.6588737, -0.6588737) /* PCAPRecordedLocation */
+VALUES (36489, 8040, 0xCE950035, 157.2323, 95.9995, 19.929, 0.256682, 0.256682, -0.658874, -0.658874) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [157.232300 95.999500 19.929000] 0.256682 0.256682 -0.658874 -0.658874 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36489,  2611,      2)  /* CANTRIPFLAMEWARD2 */
-     , (36489,  4199,      2)  /* FrozenArmor */
-     , (36489,  4201,      2)  /* ColdVulnerabilityNumbing */;
+VALUES (36489,  4199,      2)  /* FrozenArmor */
+     , (36489,  4201,      2)  /* ColdVulnerabilityNumbing */
+     , (36489,  2611,      2)  /* CANTRIPFLAMEWARD2 */;

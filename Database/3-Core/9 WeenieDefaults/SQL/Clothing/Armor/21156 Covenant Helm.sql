@@ -39,8 +39,8 @@ VALUES (21156,   1, 'Covenant Helm') /* Name */
      , (21156,  16, 'Covenant Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21156,   1,   33557884) /* Setup */
-     , (21156,   3,  536870932) /* SoundTable */
-     , (21156,   6,   67108990) /* PaletteBase */
-     , (21156,   8,  100673436) /* Icon */
-     , (21156,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21156,   1, 0x02000D7C) /* Setup */
+     , (21156,   3, 0x20000014) /* SoundTable */
+     , (21156,   6, 0x0400007E) /* PaletteBase */
+     , (21156,   8, 0x0600279C) /* Icon */
+     , (21156,  22, 0x3400002B) /* PhysicsEffectTable */;

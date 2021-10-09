@@ -30,9 +30,9 @@ VALUES (36189,   1, 'Harbinger Blood Infusion') /* Name */
      , (36189,  16, 'A potion of multihued liquid. It glows with a soft white light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36189,   1,   33554603) /* Setup */
-     , (36189,   3,  536870932) /* SoundTable */
-     , (36189,   6,   67111919) /* PaletteBase */
-     , (36189,   8,  100689590) /* Icon */
-     , (36189,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36189,   1, 0x020000AB) /* Setup */
+     , (36189,   3, 0x20000014) /* SoundTable */
+     , (36189,   6, 0x04000BEF) /* PaletteBase */
+     , (36189,   8, 0x060066B6) /* Icon */
+     , (36189,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */;

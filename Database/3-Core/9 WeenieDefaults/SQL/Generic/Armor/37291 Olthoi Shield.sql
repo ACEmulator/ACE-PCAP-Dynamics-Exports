@@ -52,18 +52,18 @@ VALUES (37291,   1, 'Olthoi Shield') /* Name */
      , (37291,  16, 'Olthoi Shield of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37291,   1,   33561268) /* Setup */
-     , (37291,   3,  536870932) /* SoundTable */
-     , (37291,   6,   67111919) /* PaletteBase */
-     , (37291,   8,  100689990) /* Icon */
-     , (37291,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37291,   1, 0x02001AB4) /* Setup */
+     , (37291,   3, 0x20000014) /* SoundTable */
+     , (37291,   6, 0x04000BEF) /* PaletteBase */
+     , (37291,   8, 0x06006846) /* Icon */
+     , (37291,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37291, 8040, 459075, 69.9395, -59.9675, -0.07400001, 0.3564619, -0.5373489, -0.64903, -0.403672) /* PCAPRecordedLocation */
+VALUES (37291, 8040, 0x00070143, 69.9395, -59.9675, -0.074, 0.356462, -0.537349, -0.64903, -0.403672) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [69.939500 -59.967500 -0.074000] 0.356462 -0.537349 -0.649030 -0.403672 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37291,  1574,      2)  /* PiercingBane6 */
-     , (37291,  2108,      2)  /* Impenetrability7 */
-     , (37291,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
-     , (37291,  4325,      2)  /* StrengthSelf8 */;
+VALUES (37291,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (37291,  4325,      2)  /* StrengthSelf8 */
+     , (37291,  1574,      2)  /* PiercingBane6 */
+     , (37291,  2108,      2)  /* Impenetrability7 */;

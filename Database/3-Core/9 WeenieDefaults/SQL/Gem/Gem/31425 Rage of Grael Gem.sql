@@ -28,9 +28,9 @@ VALUES (31425,   1, 'Rage of Grael Gem') /* Name */
      , (31425,  15, 'A gem that seems to pulse with the distilled rage of the ancient gladiator, Grael.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31425,   1,   33554809) /* Setup */
-     , (31425,   3,  536870932) /* SoundTable */
-     , (31425,   6,   67111919) /* PaletteBase */
-     , (31425,   8,  100687889) /* Icon */
-     , (31425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31425,   1, 0x02000179) /* Setup */
+     , (31425,   3, 0x20000014) /* SoundTable */
+     , (31425,   6, 0x04000BEF) /* PaletteBase */
+     , (31425,   8, 0x06006011) /* Icon */
+     , (31425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31425,  28,       3828) /* Spell - CantripRageofGrael */;

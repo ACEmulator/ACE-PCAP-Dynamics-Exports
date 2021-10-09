@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3758,   1, 'Acid Throwing Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3758,   1,   33556223) /* Setup */
-     , (3758,   3,  536870932) /* SoundTable */
-     , (3758,   6,   67111928) /* PaletteBase */
-     , (3758,   8,  100667581) /* Icon */
-     , (3758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3758,   1, 0x020006FF) /* Setup */
+     , (3758,   3, 0x20000014) /* SoundTable */
+     , (3758,   6, 0x04000BF8) /* PaletteBase */
+     , (3758,   8, 0x060010BD) /* Icon */
+     , (3758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3758, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;

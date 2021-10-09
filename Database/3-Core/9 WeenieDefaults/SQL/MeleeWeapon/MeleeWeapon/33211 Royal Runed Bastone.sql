@@ -45,21 +45,21 @@ VALUES (33211,   1, 'Royal Runed Bastone') /* Name */
      , (33211,  15, 'A bastone crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33211,   1,   33559936) /* Setup */
-     , (33211,   3,  536870932) /* SoundTable */
-     , (33211,   6,   67116428) /* PaletteBase */
-     , (33211,   8,  100687017) /* Icon */
-     , (33211,  22,  872415275) /* PhysicsEffectTable */
-     , (33211,  50,  100688914) /* IconOverlay */
+VALUES (33211,   1, 0x02001580) /* Setup */
+     , (33211,   3, 0x20000014) /* SoundTable */
+     , (33211,   6, 0x04001D8C) /* PaletteBase */
+     , (33211,   8, 0x06005CA9) /* Icon */
+     , (33211,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33211,  50, 0x06006412) /* IconOverlay */
      , (33211,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33211, 8040, 8913787, 59.49913, -59.52386, -0.144, -0.6532815, -0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (33211, 8040, 0x0088037B, 59.49913, -59.52386, -0.144, -0.653282, -0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0x0088037B [59.499130 -59.523860 -0.144000] -0.653282 -0.653282 -0.270598 -0.270598 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33211,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33211,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33211,  2694,      2)  /* ModerateSwordAptitude */
+     , (33211,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33211,  2101,      2)  /* DefenderSelf7 */
-     , (33211,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33211,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33211,  2694,      2)  /* ModerateSwordAptitude */;
+     , (33211,  2106,      2)  /* HeartSeekerSelf7 */;

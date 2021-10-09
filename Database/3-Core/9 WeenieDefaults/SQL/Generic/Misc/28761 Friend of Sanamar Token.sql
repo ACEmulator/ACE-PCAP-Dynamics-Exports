@@ -21,7 +21,7 @@ VALUES (28761,   1, 'Friend of Sanamar Token') /* Name */
      , (28761,  16, 'Give this token to the Grand Knight of Sanamar and he will change your title to Friend of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28761,   1,   33554817) /* Setup */
-     , (28761,   3,  536870932) /* SoundTable */
-     , (28761,   8,  100686370) /* Icon */
-     , (28761,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28761,   1, 0x02000181) /* Setup */
+     , (28761,   3, 0x20000014) /* SoundTable */
+     , (28761,   8, 0x06005A22) /* Icon */
+     , (28761,  22, 0x3400002B) /* PhysicsEffectTable */;

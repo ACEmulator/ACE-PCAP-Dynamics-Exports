@@ -39,11 +39,11 @@ VALUES (2472,   1, 'Wand') /* Name */
      , (2472,  16, 'Wand of Force') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2472,   1,   33554812) /* Setup */
-     , (2472,   3,  536870932) /* SoundTable */
-     , (2472,   6,   67111919) /* PaletteBase */
-     , (2472,   8,  100668794) /* Icon */
-     , (2472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2472,   1, 0x0200017C) /* Setup */
+     , (2472,   3, 0x20000014) /* SoundTable */
+     , (2472,   6, 0x04000BEF) /* PaletteBase */
+     , (2472,   8, 0x0600157A) /* Icon */
+     , (2472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2472,  28,         90) /* Spell - ForceBolt5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

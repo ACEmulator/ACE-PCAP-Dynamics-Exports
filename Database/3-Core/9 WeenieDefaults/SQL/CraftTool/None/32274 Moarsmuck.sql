@@ -25,8 +25,8 @@ VALUES (32274,   1, 'Moarsmuck') /* Name */
      , (32274,  20, 'Gobs of Moarsmuck') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32274,   1,   33554817) /* Setup */
-     , (32274,   3,  536870932) /* SoundTable */
-     , (32274,   6,   67111919) /* PaletteBase */
-     , (32274,   8,  100688505) /* Icon */
-     , (32274,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32274,   1, 0x02000181) /* Setup */
+     , (32274,   3, 0x20000014) /* SoundTable */
+     , (32274,   6, 0x04000BEF) /* PaletteBase */
+     , (32274,   8, 0x06006279) /* Icon */
+     , (32274,  22, 0x3400002B) /* PhysicsEffectTable */;

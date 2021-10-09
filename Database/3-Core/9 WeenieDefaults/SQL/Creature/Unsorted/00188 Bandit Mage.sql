@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (188,   1, 'Bandit Mage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (188,   1,   33554433) /* Setup */
-     , (188,   2,  150994945) /* MotionTable */
-     , (188,   3,  536870913) /* SoundTable */
-     , (188,   6,   67108990) /* PaletteBase */
-     , (188,   8,  100667446) /* Icon */
-     , (188,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (188,   1, 0x02000001) /* Setup */
+     , (188,   2, 0x09000001) /* MotionTable */
+     , (188,   3, 0x20000001) /* SoundTable */
+     , (188,   6, 0x0400007E) /* PaletteBase */
+     , (188,   8, 0x06001036) /* Icon */
+     , (188,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (188, 8040, 4849923, 50, -10, -5.995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (188, 8040, 0x004A0103, 50, -10, -5.995, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x004A0103 [50.000000 -10.000000 -5.995000] 0.707107 0.000000 0.000000 -0.707107 */;

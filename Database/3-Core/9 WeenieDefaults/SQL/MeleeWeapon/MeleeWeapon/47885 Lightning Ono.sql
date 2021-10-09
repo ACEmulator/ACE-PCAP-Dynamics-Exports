@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47885,   1, 'Lightning Ono') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47885,   1,   33555704) /* Setup */
-     , (47885,   3,  536870932) /* SoundTable */
-     , (47885,   8,  100668994) /* Icon */
-     , (47885,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47885,   1, 0x020004F8) /* Setup */
+     , (47885,   3, 0x20000014) /* SoundTable */
+     , (47885,   8, 0x06001642) /* Icon */
+     , (47885,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47885, 8040, 2456289321, 124.6307, 11.53021, 9.931499, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (47885, 8040, 0x92680029, 124.6307, 11.53021, 9.931499, 0.653282, 0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0x92680029 [124.630700 11.530210 9.931499] 0.653282 0.653282 -0.270598 -0.270598 */;

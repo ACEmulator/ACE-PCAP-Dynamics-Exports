@@ -18,9 +18,9 @@ VALUES (12585,   1, 'Brigands Bay Settlement') /* Name */
      , (12585,  16, 'Welcome to Brigands Bay Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12585,   1,   33557463) /* Setup */
-     , (12585,   8,  100668115) /* Icon */;
+VALUES (12585,   1, 0x02000BD7) /* Setup */
+     , (12585,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12585, 8040, 2786000931, 111.353, 53.6638, 0.7205836, 0.999999, 0, 0, -0.00127327) /* PCAPRecordedLocation */
+VALUES (12585, 8040, 0xA60F0023, 111.353, 53.6638, 0.720584, 0.999999, 0, 0, -0.001273) /* PCAPRecordedLocation */
 /* @teleloc 0xA60F0023 [111.353000 53.663800 0.720584] 0.999999 0.000000 0.000000 -0.001273 */;

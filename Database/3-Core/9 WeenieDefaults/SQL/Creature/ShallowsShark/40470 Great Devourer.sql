@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40470,   1, 'Great Devourer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40470,   1,   33559680) /* Setup */
-     , (40470,   2,  150994970) /* MotionTable */
-     , (40470,   3,  536870928) /* SoundTable */
-     , (40470,   6,   67116712) /* PaletteBase */
-     , (40470,   8,  100667939) /* Icon */
-     , (40470,  22,  872415268) /* PhysicsEffectTable */;
+VALUES (40470,   1, 0x02001480) /* Setup */
+     , (40470,   2, 0x0900001A) /* MotionTable */
+     , (40470,   3, 0x20000010) /* SoundTable */
+     , (40470,   6, 0x04001EA8) /* PaletteBase */
+     , (40470,   8, 0x06001223) /* Icon */
+     , (40470,  22, 0x34000024) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40470, 8040, 1057620007, 113.644, 155.3466, 0.5308629, -0.7413511, 0, 0, -0.6711174) /* PCAPRecordedLocation */
+VALUES (40470, 8040, 0x3F0A0027, 113.644, 155.3466, 0.530863, -0.741351, 0, 0, -0.671117) /* PCAPRecordedLocation */
 /* @teleloc 0x3F0A0027 [113.644000 155.346600 0.530863] -0.741351 0.000000 0.000000 -0.671117 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -24,7 +24,7 @@ VALUES (42726,   1, 'Armor Layering Tool (Bottom)') /* Name */
      , (42726,  16, 'A tool used to determine the layering of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42726,   1,   33555677) /* Setup */
-     , (42726,   3,  536870932) /* SoundTable */
-     , (42726,   8,  100691005) /* Icon */
-     , (42726,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42726,   1, 0x020004DD) /* Setup */
+     , (42726,   3, 0x20000014) /* SoundTable */
+     , (42726,   8, 0x06006C3D) /* Icon */
+     , (42726,  22, 0x3400002B) /* PhysicsEffectTable */;

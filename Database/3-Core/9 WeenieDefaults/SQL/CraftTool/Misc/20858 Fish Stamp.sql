@@ -26,8 +26,8 @@ VALUES (20858,   1, 'Fish Stamp') /* Name */
      , (20858,  15, 'A stamp with the symbol of a fish.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20858,   1,   33556922) /* Setup */
-     , (20858,   3,  536870932) /* SoundTable */
-     , (20858,   8,  100673243) /* Icon */
-     , (20858,  22,  872415275) /* PhysicsEffectTable */
-     , (20858,  50,  100673137) /* IconOverlay */;
+VALUES (20858,   1, 0x020009BA) /* Setup */
+     , (20858,   3, 0x20000014) /* SoundTable */
+     , (20858,   8, 0x060026DB) /* Icon */
+     , (20858,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20858,  50, 0x06002671) /* IconOverlay */;

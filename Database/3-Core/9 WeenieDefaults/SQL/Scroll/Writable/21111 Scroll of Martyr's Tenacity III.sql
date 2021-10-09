@@ -23,7 +23,7 @@ VALUES (21111,   1, 'Scroll of Martyr''s Tenacity III') /* Name */
 Drains one-quarter of the caster''s stamina into a bolt of energy.  When struck by the bolt, the target''s stamina is reduced by 105% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21111,   1,   33554826) /* Setup */
-     , (21111,   8,  100676936) /* Icon */
-     , (21111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21111,   1, 0x0200018A) /* Setup */
+     , (21111,   8, 0x06003548) /* Icon */
+     , (21111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21111,  28,       2769) /* Spell - StaminaBolt3 */;

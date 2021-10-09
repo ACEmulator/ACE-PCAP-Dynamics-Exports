@@ -23,7 +23,7 @@ VALUES (20529,   1, 'Scroll of Twisted Digits') /* Name */
 Decreases the target''s Fletching skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20529,   1,   33554826) /* Setup */
-     , (20529,   8,  100676457) /* Icon */
-     , (20529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20529,   1, 0x0200018A) /* Setup */
+     , (20529,   8, 0x06003369) /* Icon */
+     , (20529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20529,  28,       2234) /* Spell - FletchingIneptitudeOther7 */;

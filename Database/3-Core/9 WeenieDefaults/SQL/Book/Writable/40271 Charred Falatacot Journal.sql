@@ -23,10 +23,10 @@ VALUES (40271,   1, 'Charred Falatacot Journal') /* Name */
      , (40271,  16, 'A charred Falatacot journal, damaged beyond translation, with some handwritten text on a few less damaged pages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40271,   1,   33558620) /* Setup */
-     , (40271,   3,  536870932) /* SoundTable */
-     , (40271,   8,  100675784) /* Icon */
-     , (40271,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40271,   1, 0x0200105C) /* Setup */
+     , (40271,   3, 0x20000014) /* SoundTable */
+     , (40271,   8, 0x060030C8) /* Icon */
+     , (40271,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (40271, 8, 1000);

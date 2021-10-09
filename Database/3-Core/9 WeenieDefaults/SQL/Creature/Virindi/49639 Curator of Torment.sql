@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49639,   1, 'Curator of Torment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49639,   1,   33561227) /* Setup */
-     , (49639,   2,  150994984) /* MotionTable */
-     , (49639,   3,  536870930) /* SoundTable */
-     , (49639,   6,   67111346) /* PaletteBase */
-     , (49639,   8,  100667943) /* Icon */;
+VALUES (49639,   1, 0x02001A8B) /* Setup */
+     , (49639,   2, 0x09000028) /* MotionTable */
+     , (49639,   3, 0x20000012) /* SoundTable */
+     , (49639,   6, 0x040009B2) /* PaletteBase */
+     , (49639,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49639, 8040, 1483145536, 171.511, -120, -59.971, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (49639, 8040, 0x58670140, 171.511, -120, -59.971, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x58670140 [171.511000 -120.000000 -59.971000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

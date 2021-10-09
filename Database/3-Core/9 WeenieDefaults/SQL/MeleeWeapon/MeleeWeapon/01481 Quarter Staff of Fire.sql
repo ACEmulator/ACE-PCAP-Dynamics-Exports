@@ -43,13 +43,13 @@ VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
      , (1481,  16, 'A flaming staff wrestled from the grasp of a treacherous banderling bandit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1481,   1,   33558066) /* Setup */
-     , (1481,   8,  100667602) /* Icon */
-     , (1481,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1481,   1, 0x02000E32) /* Setup */
+     , (1481,   8, 0x060010D2) /* Icon */
+     , (1481,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1481,   836,      2)  /* FireProtectionOther3 */
-     , (1481,  1589,      2)  /* HeartSeekerSelf3 */
-     , (1481,  1602,      2)  /* DefenderSelf3 */
+VALUES (1481,  1602,      2)  /* DefenderSelf3 */
+     , (1481,   836,      2)  /* FireProtectionOther3 */
      , (1481,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (1481,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (1481,  1624,      2)  /* SwiftKillerSelf3 */
+     , (1481,  1589,      2)  /* HeartSeekerSelf3 */;

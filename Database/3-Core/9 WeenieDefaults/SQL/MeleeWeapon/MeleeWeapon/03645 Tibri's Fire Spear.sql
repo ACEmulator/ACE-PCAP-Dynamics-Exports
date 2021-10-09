@@ -41,13 +41,13 @@ VALUES (3645,   1, 'Tibri''s Fire Spear') /* Name */
      , (3645,  16, 'Tibri''s flaming spear does fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3645,   1,   33555412) /* Setup */
-     , (3645,   8,  100667609) /* Icon */
-     , (3645,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3645,   1, 0x020003D4) /* Setup */
+     , (3645,   8, 0x060010D9) /* Icon */
+     , (3645,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3645,  1091,      2)  /* FireProtectionSelf3 */
-     , (3645,  1589,      2)  /* HeartSeekerSelf3 */
-     , (3645,  1602,      2)  /* DefenderSelf3 */
+VALUES (3645,  1602,      2)  /* DefenderSelf3 */
+     , (3645,  1091,      2)  /* FireProtectionSelf3 */
      , (3645,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (3645,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (3645,  1624,      2)  /* SwiftKillerSelf3 */
+     , (3645,  1589,      2)  /* HeartSeekerSelf3 */;

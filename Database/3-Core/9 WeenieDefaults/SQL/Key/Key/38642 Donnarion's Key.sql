@@ -25,7 +25,7 @@ VALUES (38642,   1, 'Donnarion''s Key') /* Name */
      , (38642,  16, 'This key is made of tarnished silver.  It unlocks a door in the Rogue Delvings.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38642,   1,   33554784) /* Setup */
-     , (38642,   3,  536870932) /* SoundTable */
-     , (38642,   8,  100690201) /* Icon */
-     , (38642,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38642,   1, 0x02000160) /* Setup */
+     , (38642,   3, 0x20000014) /* SoundTable */
+     , (38642,   8, 0x06006919) /* Icon */
+     , (38642,  22, 0x3400002B) /* PhysicsEffectTable */;

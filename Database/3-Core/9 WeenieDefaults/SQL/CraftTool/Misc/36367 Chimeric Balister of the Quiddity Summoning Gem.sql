@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36367,   1, 'Chimeric Balister of the Quiddity Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36367,   1,   33556769) /* Setup */
-     , (36367,   3,  536870932) /* SoundTable */
-     , (36367,   6,   67111919) /* PaletteBase */
-     , (36367,   8,  100670993) /* Icon */
-     , (36367,  22,  872415275) /* PhysicsEffectTable */
-     , (36367,  50,  100673762) /* IconOverlay */
-     , (36367,  52,  100689403) /* IconUnderlay */;
+VALUES (36367,   1, 0x02000921) /* Setup */
+     , (36367,   3, 0x20000014) /* SoundTable */
+     , (36367,   6, 0x04000BEF) /* PaletteBase */
+     , (36367,   8, 0x06001E11) /* Icon */
+     , (36367,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36367,  50, 0x060028E2) /* IconOverlay */
+     , (36367,  52, 0x060065FB) /* IconUnderlay */;

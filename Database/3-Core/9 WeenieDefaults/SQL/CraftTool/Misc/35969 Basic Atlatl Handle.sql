@@ -21,7 +21,7 @@ VALUES (35969,   1, 'Basic Atlatl Handle') /* Name */
      , (35969,  16, 'A basic bone handle carved from an undead thighbone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35969,   1,   33556603) /* Setup */
-     , (35969,   3,  536870932) /* SoundTable */
-     , (35969,   8,  100689587) /* Icon */
-     , (35969,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35969,   1, 0x0200087B) /* Setup */
+     , (35969,   3, 0x20000014) /* SoundTable */
+     , (35969,   8, 0x060066B3) /* Icon */
+     , (35969,  22, 0x3400002B) /* PhysicsEffectTable */;

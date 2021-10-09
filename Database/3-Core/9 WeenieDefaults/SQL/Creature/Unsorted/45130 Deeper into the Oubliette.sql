@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45130,   1, 'Deeper into the Oubliette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45130,   1,   33560901) /* Setup */
-     , (45130,   2,  150995314) /* MotionTable */
-     , (45130,   3,  536871052) /* SoundTable */
-     , (45130,   8,  100667499) /* Icon */
-     , (45130,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (45130,   1, 0x02001945) /* Setup */
+     , (45130,   2, 0x09000172) /* MotionTable */
+     , (45130,   3, 0x2000008C) /* SoundTable */
+     , (45130,   8, 0x0600106B) /* Icon */
+     , (45130,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45130, 8040, 1466171810, 30, -30, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (45130, 8040, 0x576401A2, 30, -30, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x576401A2 [30.000000 -30.000000 -18.209830] 1.000000 0.000000 0.000000 0.000000 */;

@@ -23,7 +23,7 @@ VALUES (20482,   1, 'Scroll of Astyrrian''s Gift') /* Name */
 Increases damage the target takes from Lightning by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20482,   1,   33554826) /* Setup */
-     , (20482,   8,  100676948) /* Icon */
-     , (20482,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20482,   1, 0x0200018A) /* Setup */
+     , (20482,   8, 0x06003554) /* Icon */
+     , (20482,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20482,  28,       2172) /* Spell - LightningVulnerabilityOther7 */;

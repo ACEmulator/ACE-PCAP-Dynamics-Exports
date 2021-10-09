@@ -18,7 +18,7 @@ VALUES (38649,   1, 'Benedino''s Letter') /* Name */
      , (38649,  16, 'A letter from the spy Benedino to his Master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38649,   1,   33554773) /* Setup */
-     , (38649,   3,  536870932) /* SoundTable */
-     , (38649,   8,  100668176) /* Icon */
-     , (38649,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38649,   1, 0x02000155) /* Setup */
+     , (38649,   3, 0x20000014) /* SoundTable */
+     , (38649,   8, 0x06001310) /* Icon */
+     , (38649,  22, 0x3400002B) /* PhysicsEffectTable */;

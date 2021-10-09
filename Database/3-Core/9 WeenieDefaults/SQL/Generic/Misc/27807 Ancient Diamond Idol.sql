@@ -21,10 +21,10 @@ VALUES (27807,   1, 'Ancient Diamond Idol') /* Name */
      , (27807,  16, 'An Ancient Diamond idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27807,   1,   33558780) /* Setup */
-     , (27807,   6,   67112808) /* PaletteBase */
-     , (27807,   8,  100676570) /* Icon */;
+VALUES (27807,   1, 0x020010FC) /* Setup */
+     , (27807,   6, 0x04000F68) /* PaletteBase */
+     , (27807,   8, 0x060033DA) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27807, 8040, 23855548, 51.50005, -29.88544, -0.071, 0.04307021, 0.04307021, -0.7057939, -0.7057939) /* PCAPRecordedLocation */
+VALUES (27807, 8040, 0x016C01BC, 51.50005, -29.88544, -0.071, 0.04307, 0.04307, -0.705794, -0.705794) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.500050 -29.885440 -0.071000] 0.043070 0.043070 -0.705794 -0.705794 */;

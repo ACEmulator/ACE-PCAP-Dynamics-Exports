@@ -33,11 +33,11 @@ VALUES (30185,   1, 'Executor''s Jewel') /* Name */
      , (30185,  20, 'Executor''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30185,   1,   33554809) /* Setup */
-     , (30185,   3,  536870932) /* SoundTable */
-     , (30185,   6,   67111919) /* PaletteBase */
-     , (30185,   8,  100686696) /* Icon */
-     , (30185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30185,   1, 0x02000179) /* Setup */
+     , (30185,   3, 0x20000014) /* SoundTable */
+     , (30185,   6, 0x04000BEF) /* PaletteBase */
+     , (30185,   8, 0x06005B68) /* Icon */
+     , (30185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30185,  28,       3684) /* Spell - ArmorRare */
-     , (30185,  50,  100686629) /* IconOverlay */
-     , (30185,  52,  100686604) /* IconUnderlay */;
+     , (30185,  50, 0x06005B25) /* IconOverlay */
+     , (30185,  52, 0x06005B0C) /* IconUnderlay */;

@@ -25,9 +25,9 @@ VALUES (39129,   1, 'Invoking Stone') /* Name */
      , (39129,  16, 'A faintly glowing stone. Its smooth surface is covered in crudely scratched ancient symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39129,   1,   33554669) /* Setup */
-     , (39129,   3,  536870932) /* SoundTable */
-     , (39129,   6,   67111928) /* PaletteBase */
-     , (39129,   8,  100690313) /* Icon */
-     , (39129,  22,  872415275) /* PhysicsEffectTable */
-     , (39129,  52,  100689825) /* IconUnderlay */;
+VALUES (39129,   1, 0x020000ED) /* Setup */
+     , (39129,   3, 0x20000014) /* SoundTable */
+     , (39129,   6, 0x04000BF8) /* PaletteBase */
+     , (39129,   8, 0x06006989) /* Icon */
+     , (39129,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39129,  52, 0x060067A1) /* IconUnderlay */;

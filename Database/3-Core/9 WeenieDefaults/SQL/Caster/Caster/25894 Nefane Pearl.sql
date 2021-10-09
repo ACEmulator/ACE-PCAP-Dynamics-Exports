@@ -37,12 +37,12 @@ VALUES (25894,   1, 'Nefane Pearl') /* Name */
      , (25894,  16, 'A pearl carefully removed from the corpse of a nefane.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25894,   1,   33558259) /* Setup */
-     , (25894,   3,  536870932) /* SoundTable */
-     , (25894,   6,   67111919) /* PaletteBase */
-     , (25894,   8,  100675628) /* Icon */
-     , (25894,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25894,   1, 0x02000EF3) /* Setup */
+     , (25894,   3, 0x20000014) /* SoundTable */
+     , (25894,   6, 0x04000BEF) /* PaletteBase */
+     , (25894,   8, 0x0600302C) /* Icon */
+     , (25894,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25894,  1478,      2)  /* HermeticLinkSelf4 */
-     , (25894,  2624,      2)  /* CANTRIPMANAGAIN2 */;
+VALUES (25894,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (25894,  1478,      2)  /* HermeticLinkSelf4 */;

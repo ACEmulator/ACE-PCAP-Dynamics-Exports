@@ -51,10 +51,10 @@ VALUES (3767,   1, 'Lightning Club') /* Name */
      , (3767,  16, 'Lightning Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3767,   1,   33555715) /* Setup */
-     , (3767,   3,  536870932) /* SoundTable */
-     , (3767,   8,  100668855) /* Icon */
-     , (3767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3767,   1, 0x02000503) /* Setup */
+     , (3767,   3, 0x20000014) /* SoundTable */
+     , (3767,   8, 0x060015B7) /* Icon */
+     , (3767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3767,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

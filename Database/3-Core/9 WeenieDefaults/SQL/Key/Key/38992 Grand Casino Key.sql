@@ -27,7 +27,7 @@ VALUES (38992,   1, 'Grand Casino Key') /* Name */
      , (38992,  16, 'A large golden key that opens the Grand Casino Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38992,   1,   33557005) /* Setup */
-     , (38992,   3,  536870932) /* SoundTable */
-     , (38992,   8,  100671519) /* Icon */
-     , (38992,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38992,   1, 0x02000A0D) /* Setup */
+     , (38992,   3, 0x20000014) /* SoundTable */
+     , (38992,   8, 0x0600201F) /* Icon */
+     , (38992,  22, 0x3400002B) /* PhysicsEffectTable */;

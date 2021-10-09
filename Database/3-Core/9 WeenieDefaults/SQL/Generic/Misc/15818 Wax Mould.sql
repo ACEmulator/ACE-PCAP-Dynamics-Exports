@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15818,   1, 'Wax Mould') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15818,   1,   33554669) /* Setup */
-     , (15818,   3,  536870932) /* SoundTable */
-     , (15818,   8,  100672826) /* Icon */
-     , (15818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15818,   1, 0x020000ED) /* Setup */
+     , (15818,   3, 0x20000014) /* SoundTable */
+     , (15818,   8, 0x0600253A) /* Icon */
+     , (15818,  22, 0x3400002B) /* PhysicsEffectTable */;

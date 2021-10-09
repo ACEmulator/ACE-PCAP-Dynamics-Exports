@@ -22,7 +22,7 @@ VALUES (34944,   1, 'Empyrean Sun and Moon Stone') /* Name */
      , (34944,  16, 'A partially combined Empyrean stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34944,   1,   33560209) /* Setup */
-     , (34944,   3,  536870932) /* SoundTable */
-     , (34944,   8,  100689346) /* Icon */
-     , (34944,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34944,   1, 0x02001691) /* Setup */
+     , (34944,   3, 0x20000014) /* SoundTable */
+     , (34944,   8, 0x060065C2) /* Icon */
+     , (34944,  22, 0x3400002B) /* PhysicsEffectTable */;

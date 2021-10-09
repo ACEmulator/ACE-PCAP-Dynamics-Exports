@@ -27,13 +27,13 @@ VALUES (9092,   1, 'Lightweight Tome') /* Name */
      , (9092,  16, 'A large, empty tome, bound in what appears to be finely cut amethyst. It is very lightweight. There are fragrant late summer blossoms impressed in its pages. The name Rurinah is written in iridescent ink on the first page.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9092,   1,   33556929) /* Setup */
-     , (9092,   3,  536870932) /* SoundTable */
-     , (9092,   8,  100671237) /* Icon */
-     , (9092,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9092,   1, 0x020009C1) /* Setup */
+     , (9092,   3, 0x20000014) /* SoundTable */
+     , (9092,   8, 0x06001F05) /* Icon */
+     , (9092,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9092,   7, 1342528504) /* Scribe */;
+VALUES (9092,   7, 0x50055BF8) /* Scribe */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9092, 70, 1000);

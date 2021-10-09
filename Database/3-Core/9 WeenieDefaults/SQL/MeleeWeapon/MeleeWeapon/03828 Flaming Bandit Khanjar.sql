@@ -43,7 +43,7 @@ VALUES (3828,   1, 'Flaming Bandit Khanjar') /* Name */
      , (3828,  25, 'Triumph') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3828,   1,   33555769) /* Setup */
-     , (3828,   3,  536870932) /* SoundTable */
-     , (3828,   8,  100667597) /* Icon */
-     , (3828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3828,   1, 0x02000539) /* Setup */
+     , (3828,   3, 0x20000014) /* SoundTable */
+     , (3828,   8, 0x060010CD) /* Icon */
+     , (3828,  22, 0x3400002B) /* PhysicsEffectTable */;

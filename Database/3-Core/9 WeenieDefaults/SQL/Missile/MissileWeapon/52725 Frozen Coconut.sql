@@ -46,13 +46,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52725,   1, 'Frozen Coconut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52725,   1,   33554669) /* Setup */
-     , (52725,   3,  536871061) /* SoundTable */
-     , (52725,   6,   67111928) /* PaletteBase */
-     , (52725,   8,  100673811) /* Icon */
-     , (52725,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52725,   1, 0x020000ED) /* Setup */
+     , (52725,   3, 0x20000095) /* SoundTable */
+     , (52725,   6, 0x04000BF8) /* PaletteBase */
+     , (52725,   8, 0x06002913) /* Icon */
+     , (52725,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52725,  55,       4312) /* ProcSpell - ImperilOther8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52725, 8040, 1499529479, 16.4503, -24.85908, -0.1056, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52725, 8040, 0x59610107, 16.4503, -24.85908, -0.1056, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610107 [16.450300 -24.859080 -0.105600] 1.000000 0.000000 0.000000 0.000000 */;

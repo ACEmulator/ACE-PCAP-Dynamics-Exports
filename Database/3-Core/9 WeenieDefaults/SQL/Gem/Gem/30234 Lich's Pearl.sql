@@ -33,11 +33,11 @@ VALUES (30234,   1, 'Lich''s Pearl') /* Name */
      , (30234,  20, 'Lich''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30234,   1,   33554809) /* Setup */
-     , (30234,   3,  536870932) /* SoundTable */
-     , (30234,   6,   67111919) /* PaletteBase */
-     , (30234,   8,  100686698) /* Icon */
-     , (30234,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30234,   1, 0x02000179) /* Setup */
+     , (30234,   3, 0x20000014) /* SoundTable */
+     , (30234,   6, 0x04000BEF) /* PaletteBase */
+     , (30234,   8, 0x06005B6A) /* Icon */
+     , (30234,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30234,  28,       3733) /* Spell - SelfRare */
-     , (30234,  50,  100686682) /* IconOverlay */
-     , (30234,  52,  100686604) /* IconUnderlay */;
+     , (30234,  50, 0x06005B5A) /* IconOverlay */
+     , (30234,  52, 0x06005B0C) /* IconUnderlay */;

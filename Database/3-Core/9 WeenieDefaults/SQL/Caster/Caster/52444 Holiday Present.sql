@@ -35,11 +35,11 @@ VALUES (52444,   1, 'Holiday Present') /* Name */
      , (52444,  16, 'A beautifully wrapped holiday present. You wonder what''s inside!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52444,   1,   33560155) /* Setup */
-     , (52444,   8,  100673909) /* Icon */;
+VALUES (52444,   1, 0x0200165B) /* Setup */
+     , (52444,   8, 0x06002975) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52444, 8040, 4061528110, 130.992, 132.3609, -0.071, 0.6205619, 0.6205619, -0.3389734, -0.3389734) /* PCAPRecordedLocation */
+VALUES (52444, 8040, 0xF216002E, 130.992, 132.3609, -0.071, 0.620562, 0.620562, -0.338973, -0.338973) /* PCAPRecordedLocation */
 /* @teleloc 0xF216002E [130.992000 132.360900 -0.071000] 0.620562 0.620562 -0.338973 -0.338973 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

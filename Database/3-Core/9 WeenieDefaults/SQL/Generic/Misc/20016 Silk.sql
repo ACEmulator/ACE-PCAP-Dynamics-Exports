@@ -21,7 +21,7 @@ VALUES (20016,   1, 'Silk') /* Name */
      , (20016,  16, 'A fluffy wad of silk taken from a grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20016,   1,   33554669) /* Setup */
-     , (20016,   3,  536870932) /* SoundTable */
-     , (20016,   8,  100672976) /* Icon */
-     , (20016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20016,   1, 0x020000ED) /* Setup */
+     , (20016,   3, 0x20000014) /* SoundTable */
+     , (20016,   8, 0x060025D0) /* Icon */
+     , (20016,  22, 0x3400002B) /* PhysicsEffectTable */;

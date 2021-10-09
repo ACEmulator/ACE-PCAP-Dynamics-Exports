@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14594,   1, 'Helm of the Elements') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14594,   1,   33557509) /* Setup */
-     , (14594,   3,  536870932) /* SoundTable */
-     , (14594,   8,  100672515) /* Icon */
-     , (14594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14594,   1, 0x02000C05) /* Setup */
+     , (14594,   3, 0x20000014) /* SoundTable */
+     , (14594,   8, 0x06002403) /* Icon */
+     , (14594,  22, 0x3400002B) /* PhysicsEffectTable */;

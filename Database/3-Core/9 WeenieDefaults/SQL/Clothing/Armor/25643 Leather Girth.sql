@@ -35,8 +35,8 @@ VALUES (25643,   1, 'Leather Girth') /* Name */
      , (25643,  16, 'Leather Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25643,   1,   33554647) /* Setup */
-     , (25643,   3,  536870932) /* SoundTable */
-     , (25643,   6,   67108990) /* PaletteBase */
-     , (25643,   8,  100675224) /* Icon */
-     , (25643,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25643,   1, 0x020000D7) /* Setup */
+     , (25643,   3, 0x20000014) /* SoundTable */
+     , (25643,   6, 0x0400007E) /* PaletteBase */
+     , (25643,   8, 0x06002E98) /* Icon */
+     , (25643,  22, 0x3400002B) /* PhysicsEffectTable */;

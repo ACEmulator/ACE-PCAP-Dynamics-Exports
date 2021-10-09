@@ -23,7 +23,7 @@ VALUES (3226,   1, 'Scroll of Finesse Weapon Mastery Other V') /* Name */
 Increases the target''s Finesse Weapons skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3226,   1,   33554826) /* Setup */
-     , (3226,   8,  100692250) /* Icon */
-     , (3226,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3226,   1, 0x0200018A) /* Setup */
+     , (3226,   8, 0x0600711A) /* Icon */
+     , (3226,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3226,  28,        320) /* Spell - FinesseWeaponsMasteryOther5 */;

@@ -31,14 +31,14 @@ VALUES (31310,   1, 'Darling''s Collar') /* Name */
      , (31310,  16, 'Darling XIV - Property of Xsao Lann') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31310,   1,   33559602) /* Setup */
-     , (31310,   3,  536870932) /* SoundTable */
-     , (31310,   8,  100687915) /* Icon */
-     , (31310,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31310,   1, 0x02001432) /* Setup */
+     , (31310,   3, 0x20000014) /* SoundTable */
+     , (31310,   8, 0x0600602B) /* Icon */
+     , (31310,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31310,  2059,      2)  /* CoordinationSelf7 */
-     , (31310,  2081,      2)  /* QuicknessSelf7 */
-     , (31310,  2233,      2)  /* FealtySelf7 */
+     , (31310,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (31310,  2511,      2)  /* CANTRIPFEALTY2 */
-     , (31310,  2575,      2)  /* CANTRIPQUICKNESS2 */;
+     , (31310,  2081,      2)  /* QuicknessSelf7 */
+     , (31310,  2233,      2)  /* FealtySelf7 */;

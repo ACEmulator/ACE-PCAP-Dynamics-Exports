@@ -21,6 +21,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38717,   1, 'Celestial Hand Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38717,   1,   33560562) /* Setup */
-     , (38717,   3,  536870932) /* SoundTable */
-     , (38717,   8,  100689888) /* Icon */;
+VALUES (38717,   1, 0x020017F2) /* Setup */
+     , (38717,   3, 0x20000014) /* SoundTable */
+     , (38717,   8, 0x060067E0) /* Icon */;

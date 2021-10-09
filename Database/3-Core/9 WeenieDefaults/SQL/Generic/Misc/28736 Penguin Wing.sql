@@ -23,7 +23,7 @@ VALUES (28736,   1, 'Penguin Wing') /* Name */
      , (28736,  16, 'A penguin wing burned by the stomach acids of the Eater from whence it came.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28736,   1,   33559137) /* Setup */
-     , (28736,   3,  536870932) /* SoundTable */
-     , (28736,   8,  100686363) /* Icon */
-     , (28736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28736,   1, 0x02001261) /* Setup */
+     , (28736,   3, 0x20000014) /* SoundTable */
+     , (28736,   8, 0x06005A1B) /* Icon */
+     , (28736,  22, 0x3400002B) /* PhysicsEffectTable */;

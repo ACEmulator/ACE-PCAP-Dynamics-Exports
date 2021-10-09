@@ -44,16 +44,16 @@ VALUES (25646,   1, 'Long Leather Gauntlets') /* Name */
      , (25646,  16, 'Long Leather Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25646,   1,   33554648) /* Setup */
-     , (25646,   3,  536870932) /* SoundTable */
-     , (25646,   6,   67108990) /* PaletteBase */
-     , (25646,   8,  100675329) /* Icon */
-     , (25646,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25646,   1, 0x020000D8) /* Setup */
+     , (25646,   3, 0x20000014) /* SoundTable */
+     , (25646,   6, 0x0400007E) /* PaletteBase */
+     , (25646,   8, 0x06002F01) /* Icon */
+     , (25646,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25646,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25646,  2059,      2)  /* CoordinationSelf7 */
      , (25646,  2092,      2)  /* AcidBane7 */
      , (25646,  2094,      2)  /* BladeBane7 */
-     , (25646,  2108,      2)  /* Impenetrability7 */
-     , (25646,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */;
+     , (25646,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
+     , (25646,  2108,      2)  /* Impenetrability7 */;

@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35765,   1, 'Eyeslayer (Huge)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35765,   1,   33560325) /* Setup */
-     , (35765,   3,  536870932) /* SoundTable */
-     , (35765,   8,  100673256) /* Icon */
-     , (35765,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35765,   1, 0x02001705) /* Setup */
+     , (35765,   3, 0x20000014) /* SoundTable */
+     , (35765,   8, 0x060026E8) /* Icon */
+     , (35765,  22, 0x3400002B) /* PhysicsEffectTable */;

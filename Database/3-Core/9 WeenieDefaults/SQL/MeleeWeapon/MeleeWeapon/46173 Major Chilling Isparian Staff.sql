@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46173,   1, 'Major Chilling Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46173,   1,   33556384) /* Setup */
-     , (46173,   3,  536870932) /* SoundTable */
-     , (46173,   6,   67111919) /* PaletteBase */
-     , (46173,   8,  100672934) /* Icon */
-     , (46173,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46173,   1, 0x020007A0) /* Setup */
+     , (46173,   3, 0x20000014) /* SoundTable */
+     , (46173,   6, 0x04000BEF) /* PaletteBase */
+     , (46173,   8, 0x060025A6) /* Icon */
+     , (46173,  22, 0x3400002B) /* PhysicsEffectTable */;

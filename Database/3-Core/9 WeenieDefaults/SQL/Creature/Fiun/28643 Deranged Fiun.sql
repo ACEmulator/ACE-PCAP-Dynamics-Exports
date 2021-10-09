@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28643,   1, 'Deranged Fiun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28643,   1,   33559202) /* Setup */
-     , (28643,   2,  150995326) /* MotionTable */
-     , (28643,   3,  536871100) /* SoundTable */
-     , (28643,   6,   67115480) /* PaletteBase */
-     , (28643,   8,  100677372) /* Icon */
-     , (28643,  22,  872415412) /* PhysicsEffectTable */;
+VALUES (28643,   1, 0x020012A2) /* Setup */
+     , (28643,   2, 0x0900017E) /* MotionTable */
+     , (28643,   3, 0x200000BC) /* SoundTable */
+     , (28643,   6, 0x040019D8) /* PaletteBase */
+     , (28643,   8, 0x060036FC) /* Icon */
+     , (28643,  22, 0x340000B4) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28643, 8040, 2097673, 429.859, -182.361, -24.00541, -0.6747277, 0, 0, -0.7380667) /* PCAPRecordedLocation */
+VALUES (28643, 8040, 0x00200209, 429.859, -182.361, -24.00541, -0.674728, 0, 0, -0.738067) /* PCAPRecordedLocation */
 /* @teleloc 0x00200209 [429.859000 -182.361000 -24.005410] -0.674728 0.000000 0.000000 -0.738067 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

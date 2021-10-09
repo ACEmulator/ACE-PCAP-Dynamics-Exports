@@ -34,20 +34,20 @@ VALUES (738,   1, 'Idenne Sulmad the Seamstress') /* Name */
      , (738,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (738,   1,   33554510) /* Setup */
-     , (738,   2,  150994945) /* MotionTable */
-     , (738,   3,  536870914) /* SoundTable */
-     , (738,   6,   67108990) /* PaletteBase */
-     , (738,   8,  100667446) /* Icon */
-     , (738,   9,   83890282) /* EyesTexture */
-     , (738,  10,   83890307) /* NoseTexture */
-     , (738,  11,   83890327) /* MouthTexture */
-     , (738,  15,   67117072) /* HairPalette */
-     , (738,  16,   67109565) /* EyesPalette */
-     , (738,  17,   67109561) /* SkinPalette */;
+VALUES (738,   1, 0x0200004E) /* Setup */
+     , (738,   2, 0x09000001) /* MotionTable */
+     , (738,   3, 0x20000002) /* SoundTable */
+     , (738,   6, 0x0400007E) /* PaletteBase */
+     , (738,   8, 0x06001036) /* Icon */
+     , (738,   9, 0x0500106A) /* EyesTexture */
+     , (738,  10, 0x05001083) /* NoseTexture */
+     , (738,  11, 0x05001097) /* MouthTexture */
+     , (738,  15, 0x04002010) /* HairPalette */
+     , (738,  16, 0x040002BD) /* EyesPalette */
+     , (738,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (738, 8040, 2711880004, 155.187, 91.1396, 50.165, -0.6059884, 0, 0, -0.7954735) /* PCAPRecordedLocation */
+VALUES (738, 8040, 0xA1A40144, 155.187, 91.1396, 50.165, -0.605988, 0, 0, -0.795474) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40144 [155.187000 91.139600 50.165000] -0.605988 0.000000 0.000000 -0.795474 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

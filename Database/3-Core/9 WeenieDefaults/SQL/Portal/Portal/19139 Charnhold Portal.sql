@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19139,   1, 'Charnhold Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19139,   1,   33554867) /* Setup */
-     , (19139,   2,  150994947) /* MotionTable */
-     , (19139,   8,  100667499) /* Icon */;
+VALUES (19139,   1, 0x020001B3) /* Setup */
+     , (19139,   2, 0x09000003) /* MotionTable */
+     , (19139,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19139, 8040, 2541617172, 52.8185, 75.5318, 29.64268, 0.9696866, 0, 0, -0.2443519) /* PCAPRecordedLocation */
+VALUES (19139, 8040, 0x977E0014, 52.8185, 75.5318, 29.64268, 0.969687, 0, 0, -0.244352) /* PCAPRecordedLocation */
 /* @teleloc 0x977E0014 [52.818500 75.531800 29.642680] 0.969687 0.000000 0.000000 -0.244352 */;

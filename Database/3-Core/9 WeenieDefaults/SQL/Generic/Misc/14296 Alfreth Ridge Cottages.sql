@@ -18,9 +18,9 @@ VALUES (14296,   1, 'Alfreth Ridge Cottages') /* Name */
      , (14296,  16, 'Welcome to Alfreth Ridge Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14296,   1,   33557463) /* Setup */
-     , (14296,   8,  100668115) /* Icon */;
+VALUES (14296,   1, 0x02000BD7) /* Setup */
+     , (14296,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14296, 8040, 2358771749, 112.572, 114.773, 124, 0.999981, 0, 0, 0.00617175) /* PCAPRecordedLocation */
+VALUES (14296, 8040, 0x8C980025, 112.572, 114.773, 124, 0.999981, 0, 0, 0.006172) /* PCAPRecordedLocation */
 /* @teleloc 0x8C980025 [112.572000 114.773000 124.000000] 0.999981 0.000000 0.000000 0.006172 */;

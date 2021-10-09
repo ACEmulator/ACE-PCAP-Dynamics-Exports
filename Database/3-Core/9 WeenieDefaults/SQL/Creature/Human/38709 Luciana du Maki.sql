@@ -31,20 +31,20 @@ VALUES (38709,   1, 'Luciana du Maki') /* Name */
      , (38709,   5, 'Inspector of Knights') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38709,   1,   33554510) /* Setup */
-     , (38709,   2,  150994945) /* MotionTable */
-     , (38709,   3,  536870914) /* SoundTable */
-     , (38709,   6,   67108990) /* PaletteBase */
-     , (38709,   8,  100667446) /* Icon */
-     , (38709,   9,   83890263) /* EyesTexture */
-     , (38709,  10,   83890308) /* NoseTexture */
-     , (38709,  11,   83890352) /* MouthTexture */
-     , (38709,  15,   67116977) /* HairPalette */
-     , (38709,  16,   67110064) /* EyesPalette */
-     , (38709,  17,   67115908) /* SkinPalette */;
+VALUES (38709,   1, 0x0200004E) /* Setup */
+     , (38709,   2, 0x09000001) /* MotionTable */
+     , (38709,   3, 0x20000002) /* SoundTable */
+     , (38709,   6, 0x0400007E) /* PaletteBase */
+     , (38709,   8, 0x06001036) /* Icon */
+     , (38709,   9, 0x05001057) /* EyesTexture */
+     , (38709,  10, 0x05001084) /* NoseTexture */
+     , (38709,  11, 0x050010B0) /* MouthTexture */
+     , (38709,  15, 0x04001FB1) /* HairPalette */
+     , (38709,  16, 0x040004B0) /* EyesPalette */
+     , (38709,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38709, 8040, 12059244, 148.232, -26.4511, -17.995, -0.105379, 0, 0, 0.994432) /* PCAPRecordedLocation */
+VALUES (38709, 8040, 0x00B8026C, 148.232, -26.4511, -17.995, -0.105379, 0, 0, 0.994432) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026C [148.232000 -26.451100 -17.995000] -0.105379 0.000000 0.000000 0.994432 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

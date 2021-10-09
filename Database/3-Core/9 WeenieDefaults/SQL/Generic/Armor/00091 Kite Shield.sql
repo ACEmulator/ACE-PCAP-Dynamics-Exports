@@ -42,15 +42,15 @@ VALUES (91,   1, 'Kite Shield') /* Name */
      , (91,  16, 'Kite Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (91,   1,   33554788) /* Setup */
-     , (91,   3,  536870932) /* SoundTable */
-     , (91,   6,   67111919) /* PaletteBase */
-     , (91,   8,  100668582) /* Icon */
-     , (91,  22,  872415275) /* PhysicsEffectTable */
+VALUES (91,   1, 0x02000164) /* Setup */
+     , (91,   3, 0x20000014) /* SoundTable */
+     , (91,   6, 0x04000BEF) /* PaletteBase */
+     , (91,   8, 0x060014A6) /* Icon */
+     , (91,  22, 0x3400002B) /* PhysicsEffectTable */
      , (91,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (91, 8040, 3677946112, 54.97376, 85.56487, 22.7285, 0.4646914, 0.5335704, -0.6521398, 0.272173) /* PCAPRecordedLocation */
+VALUES (91, 8040, 0xDB390100, 54.97376, 85.56487, 22.7285, 0.464691, 0.53357, -0.65214, 0.272173) /* PCAPRecordedLocation */
 /* @teleloc 0xDB390100 [54.973760 85.564870 22.728500] 0.464691 0.533570 -0.652140 0.272173 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

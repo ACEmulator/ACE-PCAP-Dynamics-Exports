@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47043,   1, 'Falatacot Zealot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47043,   1,   33558814) /* Setup */
-     , (47043,   2,  150994967) /* MotionTable */
-     , (47043,   3,  536870934) /* SoundTable */
-     , (47043,   6,   67115246) /* PaletteBase */
-     , (47043,   8,  100676639) /* Icon */
-     , (47043,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (47043,   1, 0x0200111E) /* Setup */
+     , (47043,   2, 0x09000017) /* MotionTable */
+     , (47043,   3, 0x20000016) /* SoundTable */
+     , (47043,   6, 0x040018EE) /* PaletteBase */
+     , (47043,   8, 0x0600341F) /* Icon */
+     , (47043,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47043, 8040, 1482031390, 160.018, -20.243, -29.98847, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (47043, 8040, 0x5856011E, 160.018, -20.243, -29.98847, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5856011E [160.018000 -20.243000 -29.988470] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

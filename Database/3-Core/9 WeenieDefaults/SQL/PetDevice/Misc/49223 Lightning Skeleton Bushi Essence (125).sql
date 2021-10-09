@@ -37,10 +37,10 @@ VALUES (49223,   1, 'Lightning Skeleton Bushi Essence (125)') /* Name */
      , (49223,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49223,   1,   33554817) /* Setup */
-     , (49223,   3,  536870932) /* SoundTable */
-     , (49223,   6,   67111919) /* PaletteBase */
-     , (49223,   8,  100669124) /* Icon */
-     , (49223,  22,  872415275) /* PhysicsEffectTable */
-     , (49223,  50,  100693029) /* IconOverlay */
-     , (49223,  52,  100693024) /* IconUnderlay */;
+VALUES (49223,   1, 0x02000181) /* Setup */
+     , (49223,   3, 0x20000014) /* SoundTable */
+     , (49223,   6, 0x04000BEF) /* PaletteBase */
+     , (49223,   8, 0x060016C4) /* Icon */
+     , (49223,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49223,  50, 0x06007425) /* IconOverlay */
+     , (49223,  52, 0x06007420) /* IconUnderlay */;

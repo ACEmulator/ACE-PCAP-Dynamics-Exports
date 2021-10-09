@@ -44,16 +44,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45969,   1, 'Veil of Darkness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45969,   1,   33557385) /* Setup */
-     , (45969,   3,  536870932) /* SoundTable */
-     , (45969,   8,  100672217) /* Icon */
-     , (45969,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45969,   1, 0x02000B89) /* Setup */
+     , (45969,   3, 0x20000014) /* SoundTable */
+     , (45969,   8, 0x060022D9) /* Icon */
+     , (45969,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45969,   244,      2)  /* InvulnerabilityOther6 */
-     , (45969,   255,      2)  /* ImpregnabilityOther6 */
+VALUES (45969,  1486,      2)  /* Impenetrability6 */
      , (45969,   273,      2)  /* MagicResistanceOther6 */
-     , (45969,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
-     , (45969,  1486,      2)  /* Impenetrability6 */
+     , (45969,   244,      2)  /* InvulnerabilityOther6 */
      , (45969,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
-     , (45969,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
+     , (45969,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (45969,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (45969,   255,      2)  /* ImpregnabilityOther6 */;

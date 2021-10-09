@@ -49,15 +49,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45954,   1, 'Seasoned Explorer Greataxe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45954,   1,   33560802) /* Setup */
-     , (45954,   3,  536870932) /* SoundTable */
-     , (45954,   6,   67115558) /* PaletteBase */
-     , (45954,   8,  100690770) /* Icon */
-     , (45954,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45954,   1, 0x020018E2) /* Setup */
+     , (45954,   3, 0x20000014) /* SoundTable */
+     , (45954,   6, 0x04001A26) /* PaletteBase */
+     , (45954,   8, 0x06006B52) /* Icon */
+     , (45954,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45954,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45954,  1605,      2)  /* DefenderSelf6 */
+VALUES (45954,  1605,      2)  /* DefenderSelf6 */
+     , (45954,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
      , (45954,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45954,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45954,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+     , (45954,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27709,   1, 'Great Elariwood Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27709,   1,   33556428) /* Setup */
-     , (27709,   2,  150995073) /* MotionTable */
-     , (27709,   3,  536870933) /* SoundTable */
-     , (27709,   6,   67112776) /* PaletteBase */
-     , (27709,   8,  100667940) /* Icon */
-     , (27709,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (27709,   1, 0x020007CC) /* Setup */
+     , (27709,   2, 0x09000081) /* MotionTable */
+     , (27709,   3, 0x20000015) /* SoundTable */
+     , (27709,   6, 0x04000F48) /* PaletteBase */
+     , (27709,   8, 0x06001224) /* Icon */
+     , (27709,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27709, 8040, 583204909, 133.325, 117.3456, 54.46019, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (27709, 8040, 0x22C3002D, 133.325, 117.3456, 54.46019, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x22C3002D [133.325000 117.345600 54.460190] 0.965926 0.000000 0.000000 -0.258819 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

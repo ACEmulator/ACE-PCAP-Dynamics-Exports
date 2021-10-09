@@ -25,12 +25,12 @@ VALUES (38637,   1, 'Gold-Locked Door') /* Name */
      , (38637,  14, 'This door has a lock that is gilded with gold.  Find a matching key to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38637,   1,   33555023) /* Setup */
-     , (38637,   2,  150994966) /* MotionTable */
-     , (38637,   3,  536870946) /* SoundTable */
-     , (38637,   8,  100668183) /* Icon */
-     , (38637,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38637,   1, 0x0200024F) /* Setup */
+     , (38637,   2, 0x09000016) /* MotionTable */
+     , (38637,   3, 0x20000022) /* SoundTable */
+     , (38637,   8, 0x06001317) /* Icon */
+     , (38637,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38637, 8040, 14680431, 130, -314.5, -6, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38637, 8040, 0x00E0016F, 130, -314.5, -6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00E0016F [130.000000 -314.500000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -35,20 +35,20 @@ VALUES (11389,   1, 'Greygor Stillwise the Armorer') /* Name */
      , (11389,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11389,   1,   33554433) /* Setup */
-     , (11389,   2,  150994945) /* MotionTable */
-     , (11389,   3,  536870913) /* SoundTable */
-     , (11389,   6,   67108990) /* PaletteBase */
-     , (11389,   8,  100667446) /* Icon */
-     , (11389,   9,   83890481) /* EyesTexture */
-     , (11389,  10,   83890551) /* NoseTexture */
-     , (11389,  11,   83890614) /* MouthTexture */
-     , (11389,  15,   67116989) /* HairPalette */
-     , (11389,  16,   67109566) /* EyesPalette */
-     , (11389,  17,   67109562) /* SkinPalette */;
+VALUES (11389,   1, 0x02000001) /* Setup */
+     , (11389,   2, 0x09000001) /* MotionTable */
+     , (11389,   3, 0x20000001) /* SoundTable */
+     , (11389,   6, 0x0400007E) /* PaletteBase */
+     , (11389,   8, 0x06001036) /* Icon */
+     , (11389,   9, 0x05001131) /* EyesTexture */
+     , (11389,  10, 0x05001177) /* NoseTexture */
+     , (11389,  11, 0x050011B6) /* MouthTexture */
+     , (11389,  15, 0x04001FBD) /* HairPalette */
+     , (11389,  16, 0x040002BE) /* EyesPalette */
+     , (11389,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11389, 8040, 733282570, 155.955, 32.8556, 75.538, -0.0299214, 0, 0, -0.9995522) /* PCAPRecordedLocation */
+VALUES (11389, 8040, 0x2BB5010A, 155.955, 32.8556, 75.538, -0.029921, 0, 0, -0.999552) /* PCAPRecordedLocation */
 /* @teleloc 0x2BB5010A [155.955000 32.855600 75.538000] -0.029921 0.000000 0.000000 -0.999552 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

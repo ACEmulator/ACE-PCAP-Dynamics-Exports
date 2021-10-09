@@ -17,8 +17,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32111,   1, 'Man-At-Arms Thrasher Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32111,   1,   33559570) /* Setup */
-     , (32111,   3,  536870932) /* SoundTable */
-     , (32111,   8,  100688467) /* Icon */
-     , (32111,  22,  872415275) /* PhysicsEffectTable */
-     , (32111,  52,  100687690) /* IconUnderlay */;
+VALUES (32111,   1, 0x02001412) /* Setup */
+     , (32111,   3, 0x20000014) /* SoundTable */
+     , (32111,   8, 0x06006253) /* Icon */
+     , (32111,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32111,  52, 0x06005F4A) /* IconUnderlay */;

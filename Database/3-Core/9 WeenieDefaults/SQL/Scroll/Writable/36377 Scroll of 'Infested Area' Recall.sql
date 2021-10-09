@@ -26,7 +26,7 @@ VALUES (36377,   1, 'Scroll of ''Infested Area'' Recall') /* Name */
 Transports the caster to the area infested by the Paradox-touched Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36377,   1,   33554826) /* Setup */
-     , (36377,   8,  100676673) /* Icon */
-     , (36377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36377,   1, 0x0200018A) /* Setup */
+     , (36377,   8, 0x06003441) /* Icon */
+     , (36377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36377,  28,       4198) /* Spell - InfestedAreaRecall */;

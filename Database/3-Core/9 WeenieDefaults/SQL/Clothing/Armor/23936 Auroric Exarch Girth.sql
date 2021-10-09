@@ -44,21 +44,21 @@ VALUES (23936,   1, 'Auroric Exarch Girth') /* Name */
      , (23936,  25, 'Alistar') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23936,   1,   33554647) /* Setup */
-     , (23936,   3,  536870932) /* SoundTable */
-     , (23936,   6,   67108990) /* PaletteBase */
-     , (23936,   8,  100674131) /* Icon */
-     , (23936,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23936,   1, 0x020000D7) /* Setup */
+     , (23936,   3, 0x20000014) /* SoundTable */
+     , (23936,   6, 0x0400007E) /* PaletteBase */
+     , (23936,   8, 0x06002A53) /* Icon */
+     , (23936,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23936,   211,      2)  /* ManaRenewalOther6 */
+VALUES (23936,  2948,      2)  /* HieroWardGreat */
+     , (23936,  2380,      2)  /* InstrumentalityGrip */
+     , (23936,  2960,      2)  /* BludgeoningDurance */
      , (23936,   273,      2)  /* MagicResistanceOther6 */
+     , (23936,  2961,      2)  /* PiercingDurance */
+     , (23936,  2962,      2)  /* SlashingDurance */
+     , (23936,   211,      2)  /* ManaRenewalOther6 */
      , (23936,  2350,      2)  /* DecayDurance */
      , (23936,  2351,      2)  /* ConsumptionDurance */
      , (23936,  2352,      2)  /* StasisDurance */
-     , (23936,  2353,      2)  /* StimulationDurance */
-     , (23936,  2380,      2)  /* InstrumentalityGrip */
-     , (23936,  2948,      2)  /* HieroWardGreat */
-     , (23936,  2960,      2)  /* BludgeoningDurance */
-     , (23936,  2961,      2)  /* PiercingDurance */
-     , (23936,  2962,      2)  /* SlashingDurance */;
+     , (23936,  2353,      2)  /* StimulationDurance */;

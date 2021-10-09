@@ -21,11 +21,11 @@ VALUES (23618,   1, 'Life Stone') /* Name */
      , (23618,  14, 'Use this item to set your resurrection point.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23618,   1,   33558189) /* Setup */
-     , (23618,   2,  150995232) /* MotionTable */
-     , (23618,   3,  536870932) /* SoundTable */
-     , (23618,   8,  100668245) /* Icon */;
+VALUES (23618,   1, 0x02000EAD) /* Setup */
+     , (23618,   2, 0x09000120) /* MotionTable */
+     , (23618,   3, 0x20000014) /* SoundTable */
+     , (23618,   8, 0x06001355) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23618, 8040, 514981934, 131.594, 131.909, 2, -0.9995194, 0, 0, -0.03099881) /* PCAPRecordedLocation */
+VALUES (23618, 8040, 0x1EB2002E, 131.594, 131.909, 2, -0.999519, 0, 0, -0.030999) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB2002E [131.594000 131.909000 2.000000] -0.999519 0.000000 0.000000 -0.030999 */;

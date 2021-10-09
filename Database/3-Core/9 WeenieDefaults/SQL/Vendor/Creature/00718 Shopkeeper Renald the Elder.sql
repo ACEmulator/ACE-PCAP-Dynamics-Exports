@@ -34,20 +34,20 @@ VALUES (718,   1, 'Shopkeeper Renald the Elder') /* Name */
      , (718,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (718,   1,   33554433) /* Setup */
-     , (718,   2,  150994945) /* MotionTable */
-     , (718,   3,  536870913) /* SoundTable */
-     , (718,   6,   67108990) /* PaletteBase */
-     , (718,   8,  100667446) /* Icon */
-     , (718,   9,   83890445) /* EyesTexture */
-     , (718,  10,   83890560) /* NoseTexture */
-     , (718,  11,   83890632) /* MouthTexture */
-     , (718,  15,   67116995) /* HairPalette */
-     , (718,  16,   67110064) /* EyesPalette */
-     , (718,  17,   67109560) /* SkinPalette */;
+VALUES (718,   1, 0x02000001) /* Setup */
+     , (718,   2, 0x09000001) /* MotionTable */
+     , (718,   3, 0x20000001) /* SoundTable */
+     , (718,   6, 0x0400007E) /* PaletteBase */
+     , (718,   8, 0x06001036) /* Icon */
+     , (718,   9, 0x0500110D) /* EyesTexture */
+     , (718,  10, 0x05001180) /* NoseTexture */
+     , (718,  11, 0x050011C8) /* MouthTexture */
+     , (718,  15, 0x04001FC3) /* HairPalette */
+     , (718,  16, 0x040004B0) /* EyesPalette */
+     , (718,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (718, 8040, 2847146305, 139.234, 18.3293, 94.005, 0.9999834, 0, 0, -0.005766086) /* PCAPRecordedLocation */
+VALUES (718, 8040, 0xA9B40141, 139.234, 18.3293, 94.005, 0.999983, 0, 0, -0.005766) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40141 [139.234000 18.329300 94.005000] 0.999983 0.000000 0.000000 -0.005766 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

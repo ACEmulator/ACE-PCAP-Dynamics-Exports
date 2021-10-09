@@ -27,8 +27,8 @@ VALUES (53072,   1, 'Empowered Amber: Pauldrons of Life') /* Name */
      , (53072,  20, 'Empowered Ambers: Pauldrons of Life') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53072,   1,   33554809) /* Setup */
-     , (53072,   3,  536870932) /* SoundTable */
-     , (53072,   6,   67111919) /* PaletteBase */
-     , (53072,   8,  100693327) /* Icon */
-     , (53072,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (53072,   1, 0x02000179) /* Setup */
+     , (53072,   3, 0x20000014) /* SoundTable */
+     , (53072,   6, 0x04000BEF) /* PaletteBase */
+     , (53072,   8, 0x0600754F) /* Icon */
+     , (53072,  22, 0x3400002B) /* PhysicsEffectTable */;

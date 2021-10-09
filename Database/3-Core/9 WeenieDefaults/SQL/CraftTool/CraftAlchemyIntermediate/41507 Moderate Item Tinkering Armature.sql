@@ -21,8 +21,8 @@ VALUES (41507,   1, 'Moderate Item Tinkering Armature') /* Name */
      , (41507,  15, 'A Moderate Item Tinkering Armature.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41507,   1,   33554817) /* Setup */
-     , (41507,   3,  536870932) /* SoundTable */
-     , (41507,   6,   67111919) /* PaletteBase */
-     , (41507,   8,  100673216) /* Icon */
-     , (41507,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41507,   1, 0x02000181) /* Setup */
+     , (41507,   3, 0x20000014) /* SoundTable */
+     , (41507,   6, 0x04000BEF) /* PaletteBase */
+     , (41507,   8, 0x060026C0) /* Icon */
+     , (41507,  22, 0x3400002B) /* PhysicsEffectTable */;

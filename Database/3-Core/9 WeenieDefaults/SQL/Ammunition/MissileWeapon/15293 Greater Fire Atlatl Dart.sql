@@ -52,12 +52,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15293,   1, 'Greater Fire Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15293,   1,   33557600) /* Setup */
-     , (15293,   3,  536870932) /* SoundTable */
-     , (15293,   6,   67111919) /* PaletteBase */
-     , (15293,   8,  100672592) /* Icon */
-     , (15293,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15293,   1, 0x02000C60) /* Setup */
+     , (15293,   3, 0x20000014) /* SoundTable */
+     , (15293,   6, 0x04000BEF) /* PaletteBase */
+     , (15293,   8, 0x06002450) /* Icon */
+     , (15293,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15293, 8040, 1415119172, 67.90279, -79.7243, -0.0645, -0.4948997, -0.4948997, -0.5050488, -0.5050488) /* PCAPRecordedLocation */
+VALUES (15293, 8040, 0x54590144, 67.90279, -79.7243, -0.0645, -0.4949, -0.4949, -0.505049, -0.505049) /* PCAPRecordedLocation */
 /* @teleloc 0x54590144 [67.902790 -79.724300 -0.064500] -0.494900 -0.494900 -0.505049 -0.505049 */;

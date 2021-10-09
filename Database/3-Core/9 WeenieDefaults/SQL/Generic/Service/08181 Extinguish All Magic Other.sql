@@ -16,9 +16,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8181,   1, 'Extinguish All Magic Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8181,   1,   33554680) /* Setup */
-     , (8181,   3,  536870932) /* SoundTable */
-     , (8181,   8,  100670799) /* Icon */
-     , (8181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8181,   1, 0x020000F8) /* Setup */
+     , (8181,   3, 0x20000014) /* SoundTable */
+     , (8181,   8, 0x06001D4F) /* Icon */
+     , (8181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8181,  28,       1853) /* Spell - DispelAllNeutralOther2 */
      , (8181, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

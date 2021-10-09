@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27115,   1, 'Elysa''s Wondrous Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27115,   1,   33558642) /* Setup */
-     , (27115,   3,  536870932) /* SoundTable */
-     , (27115,   6,   67111919) /* PaletteBase */
-     , (27115,   8,  100675934) /* Icon */
-     , (27115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27115,   1, 0x02001072) /* Setup */
+     , (27115,   3, 0x20000014) /* SoundTable */
+     , (27115,   6, 0x04000BEF) /* PaletteBase */
+     , (27115,   8, 0x0600315E) /* Icon */
+     , (27115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27115,  28,       1280) /* Spell - HealthToManaSelf3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27115, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (27115, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;

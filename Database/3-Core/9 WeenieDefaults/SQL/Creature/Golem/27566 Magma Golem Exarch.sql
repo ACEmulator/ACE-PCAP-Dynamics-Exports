@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27566,   1, 'Magma Golem Exarch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27566,   1,   33556427) /* Setup */
-     , (27566,   2,  150995073) /* MotionTable */
-     , (27566,   3,  536870933) /* SoundTable */
-     , (27566,   8,  100667940) /* Icon */
-     , (27566,  22,  872415325) /* PhysicsEffectTable */;
+VALUES (27566,   1, 0x020007CB) /* Setup */
+     , (27566,   2, 0x09000081) /* MotionTable */
+     , (27566,   3, 0x20000015) /* SoundTable */
+     , (27566,   8, 0x06001224) /* Icon */
+     , (27566,  22, 0x3400005D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27566, 8040, 792723493, 96.73309, 97.93201, 24.30068, -0.8804732, 0, 0, -0.4740959) /* PCAPRecordedLocation */
+VALUES (27566, 8040, 0x2F400025, 96.73309, 97.93201, 24.30068, -0.880473, 0, 0, -0.474096) /* PCAPRecordedLocation */
 /* @teleloc 0x2F400025 [96.733090 97.932010 24.300680] -0.880473 0.000000 0.000000 -0.474096 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

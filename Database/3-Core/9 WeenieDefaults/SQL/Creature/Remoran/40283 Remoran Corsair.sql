@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40283,   1, 'Remoran Corsair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40283,   1,   33559700) /* Setup */
-     , (40283,   2,  150995342) /* MotionTable */
-     , (40283,   3,  536871103) /* SoundTable */
-     , (40283,   6,   67116726) /* PaletteBase */
-     , (40283,   8,  100667937) /* Icon */
-     , (40283,  22,  872415414) /* PhysicsEffectTable */;
+VALUES (40283,   1, 0x02001494) /* Setup */
+     , (40283,   2, 0x0900018E) /* MotionTable */
+     , (40283,   3, 0x200000BF) /* SoundTable */
+     , (40283,   6, 0x04001EB6) /* PaletteBase */
+     , (40283,   8, 0x06001221) /* Icon */
+     , (40283,  22, 0x340000B6) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40283, 8040, 3354066969, 79.39227, 12.27611, 0, 0.6745316, 0, 0, -0.738246) /* PCAPRecordedLocation */
+VALUES (40283, 8040, 0xC7EB0019, 79.39227, 12.27611, 0, 0.674532, 0, 0, -0.738246) /* PCAPRecordedLocation */
 /* @teleloc 0xC7EB0019 [79.392270 12.276110 0.000000] 0.674532 0.000000 0.000000 -0.738246 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

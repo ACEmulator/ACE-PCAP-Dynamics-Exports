@@ -46,14 +46,14 @@ VALUES (30600,   1, 'Acid Poniard') /* Name */
      , (30600,  40, 'Dez''mron Smithy') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30600,   1,   33559486) /* Setup */
-     , (30600,   3,  536870932) /* SoundTable */
-     , (30600,   6,   67116417) /* PaletteBase */
-     , (30600,   8,  100687001) /* Icon */
-     , (30600,  22,  872415275) /* PhysicsEffectTable */
-     , (30600,  50,  100689501) /* IconOverlay */
-     , (30600,  52,  100676437) /* IconUnderlay */;
+VALUES (30600,   1, 0x020013BE) /* Setup */
+     , (30600,   3, 0x20000014) /* SoundTable */
+     , (30600,   6, 0x04001D81) /* PaletteBase */
+     , (30600,   8, 0x06005C99) /* Icon */
+     , (30600,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30600,  50, 0x0600665D) /* IconOverlay */
+     , (30600,  52, 0x06003355) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30600, 8040, 23855555, 59.84364, -38.53862, -0.071, -0.5235263, -0.5235263, -0.4753106, -0.4753106) /* PCAPRecordedLocation */
+VALUES (30600, 8040, 0x016C01C3, 59.84364, -38.53862, -0.071, -0.523526, -0.523526, -0.475311, -0.475311) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [59.843640 -38.538620 -0.071000] -0.523526 -0.523526 -0.475311 -0.475311 */;

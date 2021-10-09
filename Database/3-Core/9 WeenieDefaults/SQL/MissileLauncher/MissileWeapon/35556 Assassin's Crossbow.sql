@@ -51,18 +51,18 @@ VALUES (35556,   1, 'Assassin''s Crossbow') /* Name */
      , (35556,  16, 'This green, intricately carved crossbow bears a striking resemblance to crossbows that were widely used as a devastating first-strike weapon by Rossu Morta assassins in Ispar, but it is filled with an unstable energy that suggests it is not long for this world.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35556,   1,   33559303) /* Setup */
-     , (35556,   3,  536870932) /* SoundTable */
-     , (35556,   6,   67115556) /* PaletteBase */
-     , (35556,   8,  100687039) /* Icon */
-     , (35556,  22,  872415275) /* PhysicsEffectTable */
-     , (35556,  52,  100689403) /* IconUnderlay */;
+VALUES (35556,   1, 0x02001307) /* Setup */
+     , (35556,   3, 0x20000014) /* SoundTable */
+     , (35556,   6, 0x04001A24) /* PaletteBase */
+     , (35556,   8, 0x06005CBF) /* Icon */
+     , (35556,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35556,  52, 0x060065FB) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35556, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35556, 8040, 0x016C01BC, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35556,  2206,      2)  /* MissileWeaponsMasteryOther7 */
-     , (35556,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+VALUES (35556,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (35556,  2206,      2)  /* MissileWeaponsMasteryOther7 */
      , (35556,  4089,      2)  /* DeceptionAssassinsGift */;

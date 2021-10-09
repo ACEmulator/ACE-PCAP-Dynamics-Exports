@@ -23,7 +23,7 @@ VALUES (29204,   1, 'Tusker Spit') /* Name */
      , (29204,  20, 'Vials of Tusker Spit') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29204,   1,   33554603) /* Setup */
-     , (29204,   3,  536870932) /* SoundTable */
-     , (29204,   8,  100686465) /* Icon */
-     , (29204,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29204,   1, 0x020000AB) /* Setup */
+     , (29204,   3, 0x20000014) /* SoundTable */
+     , (29204,   8, 0x06005A81) /* Icon */
+     , (29204,  22, 0x3400002B) /* PhysicsEffectTable */;

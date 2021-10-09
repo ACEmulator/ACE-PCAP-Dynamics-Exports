@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31941,   1, 'Dar Rell') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31941,   1,   33554433) /* Setup */
-     , (31941,   2,  150994945) /* MotionTable */
-     , (31941,   3,  536870913) /* SoundTable */
-     , (31941,   6,   67108990) /* PaletteBase */
-     , (31941,   8,  100667446) /* Icon */;
+VALUES (31941,   1, 0x02000001) /* Setup */
+     , (31941,   2, 0x09000001) /* MotionTable */
+     , (31941,   3, 0x20000001) /* SoundTable */
+     , (31941,   6, 0x0400007E) /* PaletteBase */
+     , (31941,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31941, 8040, 599130423, 43.5682, 38.7086, -3.195, 0.3671161, 0, 0, -0.9301751) /* PCAPRecordedLocation */
+VALUES (31941, 8040, 0x23B60137, 43.5682, 38.7086, -3.195, 0.367116, 0, 0, -0.930175) /* PCAPRecordedLocation */
 /* @teleloc 0x23B60137 [43.568200 38.708600 -3.195000] 0.367116 0.000000 0.000000 -0.930175 */;

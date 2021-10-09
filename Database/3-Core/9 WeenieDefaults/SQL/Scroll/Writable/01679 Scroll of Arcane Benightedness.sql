@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1679,   1, 'Scroll of Arcane Benightedness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1679,   1,   33554826) /* Setup */
-     , (1679,   8,  100676447) /* Icon */
-     , (1679,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1679,   1, 0x0200018A) /* Setup */
+     , (1679,   8, 0x0600335F) /* Icon */
+     , (1679,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1679,  28,        696) /* Spell - ArcaneBenightednessOther1 */;

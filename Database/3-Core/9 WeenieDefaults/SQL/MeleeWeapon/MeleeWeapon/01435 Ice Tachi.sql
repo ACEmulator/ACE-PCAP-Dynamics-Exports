@@ -42,18 +42,18 @@ VALUES (1435,   1, 'Ice Tachi') /* Name */
      , (1435,  15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435,   1,   33555754) /* Setup */
-     , (1435,   6,   67111919) /* PaletteBase */
-     , (1435,   8,  100668916) /* Icon */
-     , (1435,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1435,   1, 0x0200052A) /* Setup */
+     , (1435,   6, 0x04000BEF) /* PaletteBase */
+     , (1435,   8, 0x060015F4) /* Icon */
+     , (1435,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1435, 8040, 23200208, 63.53141, -3.360832, 11.929, -0.02956501, -0.02956501, -0.7064884, -0.7064884) /* PCAPRecordedLocation */
+VALUES (1435, 8040, 0x016201D0, 63.53141, -3.360832, 11.929, -0.029565, -0.029565, -0.706488, -0.706488) /* PCAPRecordedLocation */
 /* @teleloc 0x016201D0 [63.531410 -3.360832 11.929000] -0.029565 -0.029565 -0.706488 -0.706488 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1435,    49,      2)  /* SwiftKillerSelf1 */
+VALUES (1435,  1601,      2)  /* DefenderSelf2 */
      , (1435,  1032,      2)  /* ColdProtectionSelf3 */
-     , (1435,  1588,      2)  /* HeartSeekerSelf2 */
-     , (1435,  1601,      2)  /* DefenderSelf2 */
-     , (1435,  1612,      2)  /* BloodDrinkerSelf2 */;
+     , (1435,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (1435,    49,      2)  /* SwiftKillerSelf1 */
+     , (1435,  1588,      2)  /* HeartSeekerSelf2 */;

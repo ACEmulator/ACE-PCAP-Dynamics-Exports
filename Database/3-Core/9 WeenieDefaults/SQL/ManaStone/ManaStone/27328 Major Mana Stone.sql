@@ -25,5 +25,5 @@ VALUES (27328,   1, 'Major Mana Stone') /* Name */
      , (27328,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27328,   1,   33555641) /* Setup */
-     , (27328,   8,  100676308) /* Icon */;
+VALUES (27328,   1, 0x020004B9) /* Setup */
+     , (27328,   8, 0x060032D4) /* Icon */;

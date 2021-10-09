@@ -21,8 +21,8 @@ VALUES (32670,   1, 'Viamontian Pennant') /* Name */
      , (32670,  15, 'A pennant found upon the corpse of the captain of Bloodstone Company.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32670,   1,   33559833) /* Setup */
-     , (32670,   3,  536870932) /* SoundTable */
-     , (32670,   8,  100672980) /* Icon */
-     , (32670,  22,  872415275) /* PhysicsEffectTable */
-     , (32670,  50,  100688580) /* IconOverlay */;
+VALUES (32670,   1, 0x02001519) /* Setup */
+     , (32670,   3, 0x20000014) /* SoundTable */
+     , (32670,   8, 0x060025D4) /* Icon */
+     , (32670,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32670,  50, 0x060062C4) /* IconOverlay */;

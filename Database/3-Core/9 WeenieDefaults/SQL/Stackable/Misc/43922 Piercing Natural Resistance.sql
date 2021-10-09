@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43922,   1, 'Piercing Natural Resistance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43922,   1,   33556750) /* Setup */
-     , (43922,   3,  536870932) /* SoundTable */
-     , (43922,   6,   67111919) /* PaletteBase */
-     , (43922,   8,  100691810) /* Icon */
-     , (43922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43922,   1, 0x0200090E) /* Setup */
+     , (43922,   3, 0x20000014) /* SoundTable */
+     , (43922,   6, 0x04000BEF) /* PaletteBase */
+     , (43922,   8, 0x06006F62) /* Icon */
+     , (43922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43922, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

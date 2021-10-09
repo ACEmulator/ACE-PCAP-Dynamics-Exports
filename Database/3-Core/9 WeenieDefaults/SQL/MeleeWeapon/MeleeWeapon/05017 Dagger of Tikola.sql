@@ -47,15 +47,15 @@ VALUES (5017,   1, 'Dagger of Tikola') /* Name */
      , (5017,  16, 'A terribly sharp, dangerous dagger that seems to be of unusual Empyrean make.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5017,   1,   33556572) /* Setup */
-     , (5017,   3,  536870932) /* SoundTable */
-     , (5017,   6,   67111919) /* PaletteBase */
-     , (5017,   8,  100668936) /* Icon */
-     , (5017,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5017,   1, 0x0200085C) /* Setup */
+     , (5017,   3, 0x20000014) /* SoundTable */
+     , (5017,   6, 0x04000BEF) /* PaletteBase */
+     , (5017,   8, 0x06001608) /* Icon */
+     , (5017,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5017,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5017,  1589,      2)  /* HeartSeekerSelf3 */
-     , (5017,  1602,      2)  /* DefenderSelf3 */
+VALUES (5017,  1602,      2)  /* DefenderSelf3 */
      , (5017,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (5017,  1623,      2)  /* SwiftKillerSelf2 */;
+     , (5017,  1623,      2)  /* SwiftKillerSelf2 */
+     , (5017,  1589,      2)  /* HeartSeekerSelf3 */;

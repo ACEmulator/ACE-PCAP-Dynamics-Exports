@@ -31,17 +31,17 @@ VALUES (0x7EC0D005, 23483, 0xEC0D0037, 164.799, 152.732, 0, -0.390429, 0, 0, -0.
 /* @teleloc 0xEC0D0037 [164.799000 152.732000 0.000000] -0.390429 0.000000 0.000000 -0.920633 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC0D006, 23483, 0xEC0D0028, 104.194, 185.029, 0, -0.4536771, 0, 0, -0.8911662,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
+VALUES (0x7EC0D006, 23483, 0xEC0D0028, 104.194, 185.029, 0, -0.453677, 0, 0, -0.891166,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
 /* @teleloc 0xEC0D0028 [104.194000 185.029000 0.000000] -0.453677 0.000000 0.000000 -0.891166 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC0D007, 23483, 0xEC0D0038, 158.676, 189.42, 0, 0.315322, 0, 0, -0.9489847,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
+VALUES (0x7EC0D007, 23483, 0xEC0D0038, 158.676, 189.42, 0, 0.315322, 0, 0, -0.948985,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
 /* @teleloc 0xEC0D0038 [158.676000 189.420000 0.000000] 0.315322 0.000000 0.000000 -0.948985 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC0D008, 23485, 0xEC0D0040, 186.944, 175.108, 0, 0.3488721, 0, 0, 0.9371703,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */
+VALUES (0x7EC0D008, 23485, 0xEC0D0040, 186.944, 175.108, 0, 0.348872, 0, 0, 0.93717,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */
 /* @teleloc 0xEC0D0040 [186.944000 175.108000 0.000000] 0.348872 0.000000 0.000000 0.937170 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC0D009, 23483, 0xEC0D002F, 120.1101, 163.7289, 1.862645E-09, 0.3030611, 0, 0, 0.9529712,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
+VALUES (0x7EC0D009, 23483, 0xEC0D002F, 120.1101, 163.7289, 0, 0.303061, 0, 0, 0.952971,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
 /* @teleloc 0xEC0D002F [120.110100 163.728900 0.000000] 0.303061 0.000000 0.000000 0.952971 */

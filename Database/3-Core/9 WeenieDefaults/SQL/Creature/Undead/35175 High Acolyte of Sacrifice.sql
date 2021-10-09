@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35175,   1, 'High Acolyte of Sacrifice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35175,   1,   33558437) /* Setup */
-     , (35175,   2,  150994967) /* MotionTable */
-     , (35175,   3,  536870934) /* SoundTable */
-     , (35175,   6,   67114480) /* PaletteBase */
-     , (35175,   8,  100674805) /* Icon */
-     , (35175,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (35175,   1, 0x02000FA5) /* Setup */
+     , (35175,   2, 0x09000017) /* MotionTable */
+     , (35175,   3, 0x20000016) /* SoundTable */
+     , (35175,   6, 0x040015F0) /* PaletteBase */
+     , (35175,   8, 0x06002CF5) /* Icon */
+     , (35175,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35175, 8040, 14942506, 32.5984, -46.45987, -29.9895, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35175, 8040, 0x00E4012A, 32.5984, -46.45987, -29.9895, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [32.598400 -46.459870 -29.989500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

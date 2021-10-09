@@ -49,11 +49,11 @@ VALUES (342,   1, 'Shou-ono') /* Name */
      , (342,  16, 'Shou-ono of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (342,   1,   33554727) /* Setup */
-     , (342,   3,  536870932) /* SoundTable */
-     , (342,   6,   67111919) /* PaletteBase */
-     , (342,   8,  100670216) /* Icon */
-     , (342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (342,   1, 0x02000127) /* Setup */
+     , (342,   3, 0x20000014) /* SoundTable */
+     , (342,   6, 0x04000BEF) /* PaletteBase */
+     , (342,   8, 0x06001B08) /* Icon */
+     , (342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (342,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

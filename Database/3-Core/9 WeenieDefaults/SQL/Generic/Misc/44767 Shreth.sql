@@ -19,5 +19,5 @@ VALUES (44767,   1, 'Shreth') /* Name */
      , (44767,  16, 'A squat carnivore with bony spikes jutting from its back, it passes through several growth spurts during its life, growing larger and stronger at every stage. Its natural habitat is not yet known, but some have taken to dwelling in dungeons, where they like to feast on carrion and rats. The Shreth attacks with its spikes, hooves, and savage teeth. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44767,   1,   33561367) /* Setup */
-     , (44767,   8,  100668115) /* Icon */;
+VALUES (44767,   1, 0x02001B17) /* Setup */
+     , (44767,   8, 0x060012D3) /* Icon */;

@@ -42,11 +42,11 @@ VALUES (8904,   1, 'Focusing Stone') /* Name */
      , (8904,  25, 'Ripley') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8904,   1,   33556976) /* Setup */
-     , (8904,   3,  536870932) /* SoundTable */
-     , (8904,   6,   67111928) /* PaletteBase */
-     , (8904,   8,  100671374) /* Icon */
-     , (8904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8904,   1, 0x020009F0) /* Setup */
+     , (8904,   3, 0x20000014) /* SoundTable */
+     , (8904,   6, 0x04000BF8) /* PaletteBase */
+     , (8904,   8, 0x06001F8E) /* Icon */
+     , (8904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8904,  28,       2348) /* Spell - BrillianceOther */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

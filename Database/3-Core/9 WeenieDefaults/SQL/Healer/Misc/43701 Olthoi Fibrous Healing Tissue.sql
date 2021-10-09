@@ -29,6 +29,6 @@ VALUES (43701,   1, 'Olthoi Fibrous Healing Tissue') /* Name */
      , (43701,  16, 'Use this item to recover your Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43701,   1,   33555194) /* Setup */
-     , (43701,   8,  100691638) /* Icon */
-     , (43701,  52,  100686604) /* IconUnderlay */;
+VALUES (43701,   1, 0x020002FA) /* Setup */
+     , (43701,   8, 0x06006EB6) /* Icon */
+     , (43701,  52, 0x06005B0C) /* IconUnderlay */;

@@ -31,20 +31,20 @@ VALUES (38243,   1, 'Milos ibn Ashud') /* Name */
      , (38243,   5, 'High Priest Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38243,   1,   33554433) /* Setup */
-     , (38243,   2,  150994945) /* MotionTable */
-     , (38243,   3,  536870913) /* SoundTable */
-     , (38243,   6,   67108990) /* PaletteBase */
-     , (38243,   8,  100667446) /* Icon */
-     , (38243,   9,   83890485) /* EyesTexture */
-     , (38243,  10,   83890543) /* NoseTexture */
-     , (38243,  11,   83890600) /* MouthTexture */
-     , (38243,  15,   67117023) /* HairPalette */
-     , (38243,  16,   67110062) /* EyesPalette */
-     , (38243,  17,   67109554) /* SkinPalette */;
+VALUES (38243,   1, 0x02000001) /* Setup */
+     , (38243,   2, 0x09000001) /* MotionTable */
+     , (38243,   3, 0x20000001) /* SoundTable */
+     , (38243,   6, 0x0400007E) /* PaletteBase */
+     , (38243,   8, 0x06001036) /* Icon */
+     , (38243,   9, 0x05001135) /* EyesTexture */
+     , (38243,  10, 0x0500116F) /* NoseTexture */
+     , (38243,  11, 0x050011A8) /* MouthTexture */
+     , (38243,  15, 0x04001FDF) /* HairPalette */
+     , (38243,  16, 0x040004AE) /* EyesPalette */
+     , (38243,  17, 0x040002B2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38243, 8040, 12059247, 158.402, -39.5452, -17.995, -0.83954, 0, 0, 0.543297) /* PCAPRecordedLocation */
+VALUES (38243, 8040, 0x00B8026F, 158.402, -39.5452, -17.995, -0.83954, 0, 0, 0.543297) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [158.402000 -39.545200 -17.995000] -0.839540 0.000000 0.000000 0.543297 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

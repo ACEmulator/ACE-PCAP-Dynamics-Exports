@@ -18,9 +18,9 @@ VALUES (14728,   1, 'Point Tremblant') /* Name */
      , (14728,  16, 'Welcome to Point Tremblant') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14728,   1,   33557463) /* Setup */
-     , (14728,   8,  100668115) /* Icon */;
+VALUES (14728,   1, 0x02000BD7) /* Setup */
+     , (14728,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14728, 8040, 2297888799, 93.2202, 156.312, 2.74235, 0.674766, 0, 0, -0.738032) /* PCAPRecordedLocation */
+VALUES (14728, 8040, 0x88F7001F, 93.2202, 156.312, 2.74235, 0.674766, 0, 0, -0.738032) /* PCAPRecordedLocation */
 /* @teleloc 0x88F7001F [93.220200 156.312000 2.742350] 0.674766 0.000000 0.000000 -0.738032 */;

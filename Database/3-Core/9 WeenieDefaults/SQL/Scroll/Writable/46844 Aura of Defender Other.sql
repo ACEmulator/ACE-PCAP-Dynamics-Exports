@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46844,   1, 'Aura of Defender Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46844,   1,   33554826) /* Setup */
-     , (46844,   8,  100676658) /* Icon */
-     , (46844,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46844,   1, 0x0200018A) /* Setup */
+     , (46844,   8, 0x06003432) /* Icon */
+     , (46844,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46844,  28,       5999) /* Spell - DefenderOther1 */;

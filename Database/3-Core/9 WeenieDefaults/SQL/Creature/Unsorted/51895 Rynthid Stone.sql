@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51895,   1, 'Rynthid Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51895,   1,   33555863) /* Setup */
-     , (51895,   2,  150995396) /* MotionTable */
-     , (51895,   3,  536870993) /* SoundTable */
-     , (51895,   8,  100675552) /* Icon */
-     , (51895,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (51895,   1, 0x02000597) /* Setup */
+     , (51895,   2, 0x090001C4) /* MotionTable */
+     , (51895,   3, 0x20000051) /* SoundTable */
+     , (51895,   8, 0x06002FE0) /* Icon */
+     , (51895,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51895, 8040, 1498481327, 238, -182, 13.965, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51895, 8040, 0x595102AF, 238, -182, 13.965, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x595102AF [238.000000 -182.000000 13.965000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

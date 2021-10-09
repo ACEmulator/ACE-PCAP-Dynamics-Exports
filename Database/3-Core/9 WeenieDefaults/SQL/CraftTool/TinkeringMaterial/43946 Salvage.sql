@@ -31,9 +31,9 @@ VALUES (43946,   1, 'Salvage') /* Name */
      , (43946,  15, 'A brick of sandstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43946,   1,   33554817) /* Setup */
-     , (43946,   3,  536870932) /* SoundTable */
-     , (43946,   6,   67111919) /* PaletteBase */
-     , (43946,   8,  100673216) /* Icon */
-     , (43946,  22,  872415275) /* PhysicsEffectTable */
-     , (43946,  50,  100673296) /* IconOverlay */;
+VALUES (43946,   1, 0x02000181) /* Setup */
+     , (43946,   3, 0x20000014) /* SoundTable */
+     , (43946,   6, 0x04000BEF) /* PaletteBase */
+     , (43946,   8, 0x060026C0) /* Icon */
+     , (43946,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43946,  50, 0x06002710) /* IconOverlay */;

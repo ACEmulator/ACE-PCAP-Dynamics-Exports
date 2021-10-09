@@ -23,7 +23,7 @@ VALUES (21107,   1, 'Scroll of Martyr''s Blight VI') /* Name */
 Drains one-quarter of the caster''s mana into a bolt of energy.  When struck by the bolt, the target''s mana is reduced by 175% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21107,   1,   33554826) /* Setup */
-     , (21107,   8,  100676937) /* Icon */
-     , (21107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21107,   1, 0x0200018A) /* Setup */
+     , (21107,   8, 0x06003549) /* Icon */
+     , (21107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21107,  28,       2779) /* Spell - ManaBolt6 */;

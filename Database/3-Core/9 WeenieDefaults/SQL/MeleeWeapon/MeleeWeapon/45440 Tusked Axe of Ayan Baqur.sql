@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45440,   1, 'Tusked Axe of Ayan Baqur') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45440,   1,   33559407) /* Setup */
-     , (45440,   3,  536870932) /* SoundTable */
-     , (45440,   6,   67111919) /* PaletteBase */
-     , (45440,   8,  100686798) /* Icon */
-     , (45440,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45440,   1, 0x0200136F) /* Setup */
+     , (45440,   3, 0x20000014) /* SoundTable */
+     , (45440,   6, 0x04000BEF) /* PaletteBase */
+     , (45440,   8, 0x06005BCE) /* Icon */
+     , (45440,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45440,  30,         88) /* PhysicsScript - Create */
-     , (45440,  52,  100686604) /* IconUnderlay */;
+     , (45440,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45440, 8040, 3332964380, 78.87898, 93.37756, 41.929, -0.06351424, -0.06351424, -0.7042485, -0.7042485) /* PCAPRecordedLocation */
+VALUES (45440, 8040, 0xC6A9001C, 78.87898, 93.37756, 41.929, -0.063514, -0.063514, -0.704249, -0.704249) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.878980 93.377560 41.929000] -0.063514 -0.063514 -0.704249 -0.704249 */;

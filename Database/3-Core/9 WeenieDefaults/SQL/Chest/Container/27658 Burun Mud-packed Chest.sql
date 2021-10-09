@@ -27,12 +27,12 @@ VALUES (27658,   1, 'Burun Mud-packed Chest') /* Name */
      , (27658,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27658,   1,   33558743) /* Setup */
-     , (27658,   2,  150995247) /* MotionTable */
-     , (27658,   3,  536870991) /* SoundTable */
-     , (27658,   8,  100676528) /* Icon */
-     , (27658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27658,   1, 0x020010D7) /* Setup */
+     , (27658,   2, 0x0900012F) /* MotionTable */
+     , (27658,   3, 0x2000004F) /* SoundTable */
+     , (27658,   8, 0x060033B0) /* Icon */
+     , (27658,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27658, 8040, 1649017097, 110.388, -127.461, -48.00216, -0.2068589, 0, 0, 0.9783708) /* PCAPRecordedLocation */
+VALUES (27658, 8040, 0x624A0109, 110.388, -127.461, -48.00216, -0.206859, 0, 0, 0.978371) /* PCAPRecordedLocation */
 /* @teleloc 0x624A0109 [110.388000 -127.461000 -48.002160] -0.206859 0.000000 0.000000 0.978371 */;

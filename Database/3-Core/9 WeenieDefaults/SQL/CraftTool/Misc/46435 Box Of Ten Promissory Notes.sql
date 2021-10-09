@@ -30,7 +30,7 @@ VALUES (46435,   1, 'Box Of Ten Promissory Notes') /* Name */
      , (46435,  16, 'A box containing 10 Promissory Notes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46435,   1,   33554718) /* Setup */
-     , (46435,   3,  536870932) /* SoundTable */
-     , (46435,   8,  100692715) /* Icon */
-     , (46435,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46435,   1, 0x0200011E) /* Setup */
+     , (46435,   3, 0x20000014) /* SoundTable */
+     , (46435,   8, 0x060072EB) /* Icon */
+     , (46435,  22, 0x3400002B) /* PhysicsEffectTable */;

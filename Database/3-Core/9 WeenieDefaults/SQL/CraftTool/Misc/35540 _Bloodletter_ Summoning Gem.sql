@@ -28,10 +28,10 @@ VALUES (35540,   1, '"Bloodletter" Summoning Gem') /* Name */
      , (35540,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as, "Bloodletter".  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35540,   1,   33556769) /* Setup */
-     , (35540,   3,  536870932) /* SoundTable */
-     , (35540,   6,   67111919) /* PaletteBase */
-     , (35540,   8,  100673039) /* Icon */
-     , (35540,  22,  872415275) /* PhysicsEffectTable */
-     , (35540,  50,  100673781) /* IconOverlay */
-     , (35540,  52,  100689403) /* IconUnderlay */;
+VALUES (35540,   1, 0x02000921) /* Setup */
+     , (35540,   3, 0x20000014) /* SoundTable */
+     , (35540,   6, 0x04000BEF) /* PaletteBase */
+     , (35540,   8, 0x0600260F) /* Icon */
+     , (35540,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35540,  50, 0x060028F5) /* IconOverlay */
+     , (35540,  52, 0x060065FB) /* IconUnderlay */;

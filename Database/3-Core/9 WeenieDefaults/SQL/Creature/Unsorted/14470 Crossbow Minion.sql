@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14470,   1, 'Crossbow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14470,   1,   33556792) /* Setup */
-     , (14470,   2,  150995101) /* MotionTable */
-     , (14470,   3,  536871013) /* SoundTable */
-     , (14470,   8,  100671140) /* Icon */;
+VALUES (14470,   1, 0x02000938) /* Setup */
+     , (14470,   2, 0x0900009D) /* MotionTable */
+     , (14470,   3, 0x20000065) /* SoundTable */
+     , (14470,   8, 0x06001EA4) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14470, 8040, 44237056, -0.931211, 0.708429, 0.002499998, 0.383827, 0, 0, -0.923405) /* PCAPRecordedLocation */
+VALUES (14470, 8040, 0x02A30100, -0.931211, 0.708429, 0.0025, 0.383827, 0, 0, -0.923405) /* PCAPRecordedLocation */
 /* @teleloc 0x02A30100 [-0.931211 0.708429 0.002500] 0.383827 0.000000 0.000000 -0.923405 */;

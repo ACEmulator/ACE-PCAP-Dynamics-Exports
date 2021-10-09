@@ -21,12 +21,12 @@ VALUES (19194,   1, 'Nullified Statue of a Banderling') /* Name */
      , (19194,  15, 'This nullified shell is all that remains of the living Statue of a Banderling that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19194,   1,   33554481) /* Setup */
-     , (19194,   2,  150995161) /* MotionTable */
-     , (19194,   3,  536871052) /* SoundTable */
-     , (19194,   6,   67109303) /* PaletteBase */
-     , (19194,   8,  100667453) /* Icon */;
+VALUES (19194,   1, 0x02000031) /* Setup */
+     , (19194,   2, 0x090000D9) /* MotionTable */
+     , (19194,   3, 0x2000008C) /* SoundTable */
+     , (19194,   6, 0x040001B7) /* PaletteBase */
+     , (19194,   8, 0x0600103D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19194, 8040, 3465871396, 115.884, 84.1761, 26.81925, -0.6285579, 0, 0, -0.7777628) /* PCAPRecordedLocation */
+VALUES (19194, 8040, 0xCE950024, 115.884, 84.1761, 26.81925, -0.628558, 0, 0, -0.777763) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950024 [115.884000 84.176100 26.819250] -0.628558 0.000000 0.000000 -0.777763 */;

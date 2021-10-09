@@ -25,5 +25,5 @@ VALUES (29103,   1, 'K''nath Lair Portal') /* Name */
      , (29103,  16, 'A small portal lives inside the body of this hibernating K''nath. When used, the portal will send the caster to a K''nath lair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29103,   1,   33559352) /* Setup */
-     , (29103,   8,  100686436) /* Icon */;
+VALUES (29103,   1, 0x02001338) /* Setup */
+     , (29103,   8, 0x06005A64) /* Icon */;

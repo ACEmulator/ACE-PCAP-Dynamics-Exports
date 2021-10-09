@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19534,   1, 'Thin Diamond Oil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19534,   1,   33555965) /* Setup */
-     , (19534,   3,  536870932) /* SoundTable */
-     , (19534,   6,   67111919) /* PaletteBase */
-     , (19534,   8,  100672868) /* Icon */
-     , (19534,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19534,   1, 0x020005FD) /* Setup */
+     , (19534,   3, 0x20000014) /* SoundTable */
+     , (19534,   6, 0x04000BEF) /* PaletteBase */
+     , (19534,   8, 0x06002564) /* Icon */
+     , (19534,  22, 0x3400002B) /* PhysicsEffectTable */;

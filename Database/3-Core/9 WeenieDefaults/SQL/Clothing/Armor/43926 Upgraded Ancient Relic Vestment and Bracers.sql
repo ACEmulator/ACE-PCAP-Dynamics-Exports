@@ -40,17 +40,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43926,   1, 'Upgraded Ancient Relic Vestment and Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43926,   1,   33554642) /* Setup */
-     , (43926,   3,  536870932) /* SoundTable */
-     , (43926,   8,  100688323) /* Icon */
-     , (43926,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43926,   1, 0x020000D2) /* Setup */
+     , (43926,   3, 0x20000014) /* SoundTable */
+     , (43926,   8, 0x060061C3) /* Icon */
+     , (43926,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43926, 8040, 3583574079, 173.4758, 153.2433, 373.995, 0.8905933, 0, 0, -0.4548005) /* PCAPRecordedLocation */
+VALUES (43926, 8040, 0xD599003F, 173.4758, 153.2433, 373.995, 0.890593, 0, 0, -0.454801) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [173.475800 153.243300 373.995000] 0.890593 0.000000 0.000000 -0.454801 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43926,  2571,      2)  /* CANTRIPARMOR2 */
      , (43926,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (43926,  3052,      2)  /* MistsBur */
-     , (43926,  3094,      2)  /* SkinFiazhat */;
+     , (43926,  3094,      2)  /* SkinFiazhat */
+     , (43926,  3052,      2)  /* MistsBur */;

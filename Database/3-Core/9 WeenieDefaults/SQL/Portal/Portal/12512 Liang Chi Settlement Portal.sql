@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12512,   1, 'Liang Chi Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12512,   1,   33554867) /* Setup */
-     , (12512,   2,  150994947) /* MotionTable */
-     , (12512,   8,  100667499) /* Icon */;
+VALUES (12512,   1, 0x020001B3) /* Setup */
+     , (12512,   2, 0x09000003) /* MotionTable */
+     , (12512,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12512, 8040, 3094478884, 115.705, 84.5617, 17.937, 0.156826, 0, 0, -0.9876263) /* PCAPRecordedLocation */
+VALUES (12512, 8040, 0xB8720024, 115.705, 84.5617, 17.937, 0.156826, 0, 0, -0.987626) /* PCAPRecordedLocation */
 /* @teleloc 0xB8720024 [115.705000 84.561700 17.937000] 0.156826 0.000000 0.000000 -0.987626 */;

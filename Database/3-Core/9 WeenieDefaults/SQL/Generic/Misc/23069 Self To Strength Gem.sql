@@ -16,6 +16,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23069,   1, 'Self To Strength Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23069,   1,   33558087) /* Setup */
-     , (23069,   6,   67111919) /* PaletteBase */
-     , (23069,   8,  100673957) /* Icon */;
+VALUES (23069,   1, 0x02000E47) /* Setup */
+     , (23069,   6, 0x04000BEF) /* PaletteBase */
+     , (23069,   8, 0x060029A5) /* Icon */;

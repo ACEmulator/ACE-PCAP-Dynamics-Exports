@@ -49,15 +49,15 @@ VALUES (38478,   1, 'Eldrytch Web Tassets') /* Name */
      , (38478,  39, 'Dragon''s') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38478,   1,   33554656) /* Setup */
-     , (38478,   3,  536870932) /* SoundTable */
-     , (38478,   8,  100690251) /* Icon */
-     , (38478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38478,   1, 0x020000E0) /* Setup */
+     , (38478,   3, 0x20000014) /* SoundTable */
+     , (38478,   8, 0x0600694B) /* Icon */
+     , (38478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38478,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38478,  1516,      2)  /* BludgeonBane6 */
-     , (38478,  1540,      2)  /* LightningBane6 */
-     , (38478,  2108,      2)  /* Impenetrability7 */
+VALUES (38478,  1540,      2)  /* LightningBane6 */
      , (38478,  2572,      2)  /* CANTRIPCOORDINATION2 */
-     , (38478,  2573,      2)  /* CANTRIPENDURANCE2 */;
+     , (38478,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (38478,  1516,      2)  /* BludgeonBane6 */
+     , (38478,  2108,      2)  /* Impenetrability7 */;

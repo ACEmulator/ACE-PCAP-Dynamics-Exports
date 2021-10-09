@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36120,   1, 'Human') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36120,   1,   33554497) /* Setup */
-     , (36120,   2,  150994984) /* MotionTable */
-     , (36120,   3,  536870930) /* SoundTable */
-     , (36120,   8,  100667943) /* Icon */;
+VALUES (36120,   1, 0x02000041) /* Setup */
+     , (36120,   2, 0x09000028) /* MotionTable */
+     , (36120,   3, 0x20000012) /* SoundTable */
+     , (36120,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36120, 8040, 10682773, 228.624, -180.7757, -17.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36120, 8040, 0x00A30195, 228.624, -180.7757, -17.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A30195 [228.624000 -180.775700 -17.971000] 1.000000 0.000000 0.000000 0.000000 */;

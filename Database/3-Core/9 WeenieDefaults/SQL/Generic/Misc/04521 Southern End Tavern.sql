@@ -18,9 +18,9 @@ VALUES (4521,   1, 'Southern End Tavern') /* Name */
      , (4521,  16, 'Southern End Tavern') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4521,   1,   33555594) /* Setup */
-     , (4521,   8,  100668115) /* Icon */;
+VALUES (4521,   1, 0x0200048A) /* Setup */
+     , (4521,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4521, 8040, 3845980224, 189.758, 177.559, 98.4263, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4521, 8040, 0xE53D0040, 189.758, 177.559, 98.4263, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xE53D0040 [189.758000 177.559000 98.426300] 1.000000 0.000000 0.000000 0.000000 */;

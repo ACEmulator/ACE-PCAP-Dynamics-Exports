@@ -29,14 +29,14 @@ VALUES (22577,   1, 'Sarcophagus') /* Name */
      , (22577,  16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22577,   1,   33554638) /* Setup */
-     , (22577,   2,  150994980) /* MotionTable */
-     , (22577,   3,  536870949) /* SoundTable */
-     , (22577,   8,  100668103) /* Icon */
-     , (22577,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22577,   1, 0x020000CE) /* Setup */
+     , (22577,   2, 0x09000024) /* MotionTable */
+     , (22577,   3, 0x20000025) /* SoundTable */
+     , (22577,   8, 0x060012C7) /* Icon */
+     , (22577,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22577, 8040, 32899375, 108.494, -213.265, -18, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (22577, 8040, 0x01F6012F, 108.494, -213.265, -18, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01F6012F [108.494000 -213.265000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

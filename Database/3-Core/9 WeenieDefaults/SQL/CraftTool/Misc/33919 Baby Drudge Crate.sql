@@ -25,7 +25,7 @@ VALUES (33919,   1, 'Baby Drudge Crate') /* Name */
      , (33919,  14, 'Use this crate to summon or dismiss your Pet Baby Drudge.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33919,   1,   33554718) /* Setup */
-     , (33919,   3,  536870932) /* SoundTable */
-     , (33919,   8,  100668152) /* Icon */
-     , (33919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33919,   1, 0x0200011E) /* Setup */
+     , (33919,   3, 0x20000014) /* SoundTable */
+     , (33919,   8, 0x060012F8) /* Icon */
+     , (33919,  22, 0x3400002B) /* PhysicsEffectTable */;

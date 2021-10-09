@@ -51,13 +51,13 @@ VALUES (3779,   1, 'Lightning Bandit Dagger') /* Name */
      , (3779,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3779,   1,   33555707) /* Setup */
-     , (3779,   3,  536870932) /* SoundTable */
-     , (3779,   8,  100667589) /* Icon */
-     , (3779,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3779,   1, 0x020004FB) /* Setup */
+     , (3779,   3, 0x20000014) /* SoundTable */
+     , (3779,   8, 0x060010C5) /* Icon */
+     , (3779,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3779,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3779,  1330,      2)  /* StrengthSelf4 */
-     , (3779,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3779,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+VALUES (3779,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3779,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (3779,  1330,      2)  /* StrengthSelf4 */;

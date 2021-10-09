@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34962,   1, 'Infused Blood Golem Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34962,   1,   33554817) /* Setup */
-     , (34962,   3,  536870932) /* SoundTable */
-     , (34962,   6,   67111919) /* PaletteBase */
-     , (34962,   8,  100689364) /* Icon */
-     , (34962,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34962,   1, 0x02000181) /* Setup */
+     , (34962,   3, 0x20000014) /* SoundTable */
+     , (34962,   6, 0x04000BEF) /* PaletteBase */
+     , (34962,   8, 0x060065D4) /* Icon */
+     , (34962,  22, 0x3400002B) /* PhysicsEffectTable */;

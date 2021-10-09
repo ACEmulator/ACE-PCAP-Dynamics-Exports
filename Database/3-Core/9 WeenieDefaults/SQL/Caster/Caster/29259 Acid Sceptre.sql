@@ -49,20 +49,20 @@ VALUES (29259,   1, 'Acid Sceptre') /* Name */
      , (29259,  40, 'C U R S E') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29259,   1,   33559229) /* Setup */
-     , (29259,   3,  536870932) /* SoundTable */
-     , (29259,   6,   67115357) /* PaletteBase */
-     , (29259,   8,  100677435) /* Icon */
-     , (29259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29259,   1, 0x020012BD) /* Setup */
+     , (29259,   3, 0x20000014) /* SoundTable */
+     , (29259,   6, 0x0400195D) /* PaletteBase */
+     , (29259,   8, 0x0600373B) /* Icon */
+     , (29259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29259,  28,       4439) /* Spell - FlameBolt8 */
-     , (29259,  52,  100676440) /* IconUnderlay */;
+     , (29259,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29259, 8040, 23855548, 51.75484, -29.63478, -0.071, 0.3295095, 0.3295095, -0.6256384, -0.6256384) /* PCAPRecordedLocation */
+VALUES (29259, 8040, 0x016C01BC, 51.75484, -29.63478, -0.071, 0.32951, 0.32951, -0.625638, -0.625638) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.754840 -29.634780 -0.071000] 0.329510 0.329510 -0.625638 -0.625638 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29259,  3259,      2)  /* SpiritDrinkerSelf7 */
-     , (29259,  4418,      2)  /* HermeticLinkSelf8 */
+VALUES (29259,  4418,      2)  /* HermeticLinkSelf8 */
+     , (29259,  6098,      2)  /* CantripSpiritThirst4 */
      , (29259,  4638,      2)  /* WarMagicMasterySelf8 */
-     , (29259,  6098,      2)  /* CantripSpiritThirst4 */;
+     , (29259,  3259,      2)  /* SpiritDrinkerSelf7 */;

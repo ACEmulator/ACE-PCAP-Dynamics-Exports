@@ -23,7 +23,7 @@ VALUES (2848,   1, 'Scroll of Leaden Weapon III') /* Name */
 Worsens a weapon''s speed by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2848,   1,   33554826) /* Setup */
-     , (2848,   8,  100676662) /* Icon */
-     , (2848,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2848,   1, 0x0200018A) /* Setup */
+     , (2848,   8, 0x06003436) /* Icon */
+     , (2848,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2848,  28,       1630) /* Spell - LeadenWeapon3 */;

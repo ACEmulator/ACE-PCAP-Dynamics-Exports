@@ -25,8 +25,8 @@ VALUES (40432,   1, 'Large Aggregate Crystalline Shard') /* Name */
      , (40432,  16, 'A crystalline shard condensed from the remains of an aggregate crystalline wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40432,   1,   33557506) /* Setup */
-     , (40432,   3,  536870932) /* SoundTable */
-     , (40432,   6,   67112808) /* PaletteBase */
-     , (40432,   8,  100690348) /* Icon */
-     , (40432,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40432,   1, 0x02000C02) /* Setup */
+     , (40432,   3, 0x20000014) /* SoundTable */
+     , (40432,   6, 0x04000F68) /* PaletteBase */
+     , (40432,   8, 0x060069AC) /* Icon */
+     , (40432,  22, 0x3400002B) /* PhysicsEffectTable */;

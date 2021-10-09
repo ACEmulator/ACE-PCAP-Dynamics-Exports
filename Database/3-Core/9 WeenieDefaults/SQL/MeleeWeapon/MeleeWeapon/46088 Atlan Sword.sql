@@ -36,12 +36,12 @@ VALUES (46088,   1, 'Atlan Sword') /* Name */
      , (46088,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46088,   1,   33556262) /* Setup */
-     , (46088,   3,  536870932) /* SoundTable */
-     , (46088,   6,   67111919) /* PaletteBase */
-     , (46088,   8,  100670569) /* Icon */
-     , (46088,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46088,   1, 0x02000726) /* Setup */
+     , (46088,   3, 0x20000014) /* SoundTable */
+     , (46088,   6, 0x04000BEF) /* PaletteBase */
+     , (46088,   8, 0x06001C69) /* Icon */
+     , (46088,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46088, 8040, 23855555, 60.02431, -38.06775, -0.071, 0.4668549, 0.4668549, -0.5310805, -0.5310805) /* PCAPRecordedLocation */
+VALUES (46088, 8040, 0x016C01C3, 60.02431, -38.06775, -0.071, 0.466855, 0.466855, -0.531081, -0.531081) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [60.024310 -38.067750 -0.071000] 0.466855 0.466855 -0.531081 -0.531081 */;

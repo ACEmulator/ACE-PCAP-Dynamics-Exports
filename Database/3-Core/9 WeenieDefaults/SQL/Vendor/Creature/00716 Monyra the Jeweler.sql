@@ -34,20 +34,20 @@ VALUES (716,   1, 'Monyra the Jeweler') /* Name */
      , (716,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (716,   1,   33554510) /* Setup */
-     , (716,   2,  150994945) /* MotionTable */
-     , (716,   3,  536870914) /* SoundTable */
-     , (716,   6,   67108990) /* PaletteBase */
-     , (716,   8,  100667446) /* Icon */
-     , (716,   9,   83890278) /* EyesTexture */
-     , (716,  10,   83890316) /* NoseTexture */
-     , (716,  11,   83890331) /* MouthTexture */
-     , (716,  15,   67116988) /* HairPalette */
-     , (716,  16,   67109565) /* EyesPalette */
-     , (716,  17,   67109560) /* SkinPalette */;
+VALUES (716,   1, 0x0200004E) /* Setup */
+     , (716,   2, 0x09000001) /* MotionTable */
+     , (716,   3, 0x20000002) /* SoundTable */
+     , (716,   6, 0x0400007E) /* PaletteBase */
+     , (716,   8, 0x06001036) /* Icon */
+     , (716,   9, 0x05001066) /* EyesTexture */
+     , (716,  10, 0x0500108C) /* NoseTexture */
+     , (716,  11, 0x0500109B) /* MouthTexture */
+     , (716,  15, 0x04001FBC) /* HairPalette */
+     , (716,  16, 0x040002BD) /* EyesPalette */
+     , (716,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (716, 8040, 2847146263, 157.19, 135.298, 66.005, -0.9729777, 0, 0, -0.2308991) /* PCAPRecordedLocation */
+VALUES (716, 8040, 0xA9B40117, 157.19, 135.298, 66.005, -0.972978, 0, 0, -0.230899) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40117 [157.190000 135.298000 66.005000] -0.972978 0.000000 0.000000 -0.230899 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

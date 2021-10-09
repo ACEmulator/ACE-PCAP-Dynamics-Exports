@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31007,   1, 'Olthoi Slasher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31007,   1,   33557164) /* Setup */
-     , (31007,   2,  150994946) /* MotionTable */
-     , (31007,   3,  536870925) /* SoundTable */
-     , (31007,   6,   67113236) /* PaletteBase */
-     , (31007,   8,  100667623) /* Icon */
-     , (31007,  22,  872415265) /* PhysicsEffectTable */
+VALUES (31007,   1, 0x02000AAC) /* Setup */
+     , (31007,   2, 0x09000002) /* MotionTable */
+     , (31007,   3, 0x2000000D) /* SoundTable */
+     , (31007,   6, 0x04001114) /* PaletteBase */
+     , (31007,   8, 0x060010E7) /* Icon */
+     , (31007,  22, 0x34000021) /* PhysicsEffectTable */
      , (31007,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31007, 8040, 1631978273, 171.6741, -178.9268, -6, 0.6820412, 0, 0, -0.7313138) /* PCAPRecordedLocation */
+VALUES (31007, 8040, 0x61460321, 171.6741, -178.9268, -6, 0.682041, 0, 0, -0.731314) /* PCAPRecordedLocation */
 /* @teleloc 0x61460321 [171.674100 -178.926800 -6.000000] 0.682041 0.000000 0.000000 -0.731314 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

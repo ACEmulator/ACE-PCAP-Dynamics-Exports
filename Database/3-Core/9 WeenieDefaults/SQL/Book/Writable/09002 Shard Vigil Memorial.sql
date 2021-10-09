@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9002,   1, 'Shard Vigil Memorial') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002,   1,   33556953) /* Setup */
-     , (9002,   8,  100671330) /* Icon */;
+VALUES (9002,   1, 0x020009D9) /* Setup */
+     , (9002,   8, 0x06001F62) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9002, 8040, 4095213581, 36, 108, 160, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (9002, 8040, 0xF418000D, 36, 108, 160, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.000000 108.000000 160.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

@@ -24,7 +24,7 @@ VALUES (41472,   1, 'Infused Creature Magic') /* Name */
      , (41472,  16, 'Using this gem will remove your need to use a focus for Creature Enchantment. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41472,   1,   33554809) /* Setup */
-     , (41472,   3,  536870932) /* SoundTable */
-     , (41472,   8,  100686474) /* Icon */
-     , (41472,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41472,   1, 0x02000179) /* Setup */
+     , (41472,   3, 0x20000014) /* SoundTable */
+     , (41472,   8, 0x06005A8A) /* Icon */
+     , (41472,  22, 0x3400002B) /* PhysicsEffectTable */;

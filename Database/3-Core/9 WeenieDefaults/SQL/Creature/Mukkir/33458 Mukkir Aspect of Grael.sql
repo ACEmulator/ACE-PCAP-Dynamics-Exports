@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33458,   1, 'Mukkir Aspect of Grael') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33458,   1,   33559979) /* Setup */
-     , (33458,   2,  150995367) /* MotionTable */
-     , (33458,   3,  536871107) /* SoundTable */
-     , (33458,   8,  100688542) /* Icon */
-     , (33458,  22,  872415419) /* PhysicsEffectTable */
+VALUES (33458,   1, 0x020015AB) /* Setup */
+     , (33458,   2, 0x090001A7) /* MotionTable */
+     , (33458,   3, 0x200000C3) /* SoundTable */
+     , (33458,   8, 0x0600629E) /* Icon */
+     , (33458,  22, 0x340000BB) /* PhysicsEffectTable */
      , (33458,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33458, 8040, 7734442, 240, -180, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (33458, 8040, 0x007604AA, 240, -180, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x007604AA [240.000000 -180.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

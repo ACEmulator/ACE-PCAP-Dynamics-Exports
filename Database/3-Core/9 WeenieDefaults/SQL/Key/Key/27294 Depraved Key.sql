@@ -22,11 +22,11 @@ VALUES (27294,   1, 'Depraved Key') /* Name */
      , (27294,  16, 'This key appears to be used to open a door in the Orphanage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27294,   1,   33554784) /* Setup */
-     , (27294,   3,  536870932) /* SoundTable */
-     , (27294,   8,  100675676) /* Icon */
-     , (27294,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27294,   1, 0x02000160) /* Setup */
+     , (27294,   3, 0x20000014) /* SoundTable */
+     , (27294,   8, 0x0600305C) /* Icon */
+     , (27294,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27294, 8040, 1699218285, 110, -40, 12.024, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (27294, 8040, 0x6548036D, 110, -40, 12.024, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x6548036D [110.000000 -40.000000 12.024000] 1.000000 0.000000 0.000000 0.000000 */;

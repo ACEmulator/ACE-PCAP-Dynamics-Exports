@@ -27,7 +27,7 @@ VALUES (41979,   1, 'Shattered Mana Forge Key') /* Name */
      , (41979,  16, 'A severely damaged and cracked Mana Forge Key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41979,   1,   33554784) /* Setup */
-     , (41979,   3,  536870932) /* SoundTable */
-     , (41979,   8,  100690861) /* Icon */
-     , (41979,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41979,   1, 0x02000160) /* Setup */
+     , (41979,   3, 0x20000014) /* SoundTable */
+     , (41979,   8, 0x06006BAD) /* Icon */
+     , (41979,  22, 0x3400002B) /* PhysicsEffectTable */;

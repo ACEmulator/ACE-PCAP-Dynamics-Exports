@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29297,   1, 'Truffle Thrungus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29297,   1,   33559123) /* Setup */
-     , (29297,   2,  150995324) /* MotionTable */
-     , (29297,   3,  536871099) /* SoundTable */
-     , (29297,   6,   67116365) /* PaletteBase */
-     , (29297,   8,  100677367) /* Icon */
-     , (29297,  22,  872415411) /* PhysicsEffectTable */;
+VALUES (29297,   1, 0x02001253) /* Setup */
+     , (29297,   2, 0x0900017C) /* MotionTable */
+     , (29297,   3, 0x200000BB) /* SoundTable */
+     , (29297,   6, 0x04001D4D) /* PaletteBase */
+     , (29297,   8, 0x060036F7) /* Icon */
+     , (29297,  22, 0x340000B3) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29297, 8040, 669843467, 27.01996, 67.71764, 47.07059, -0.5681689, 0, 0, -0.822912) /* PCAPRecordedLocation */
+VALUES (29297, 8040, 0x27ED000B, 27.01996, 67.71764, 47.07059, -0.568169, 0, 0, -0.822912) /* PCAPRecordedLocation */
 /* @teleloc 0x27ED000B [27.019960 67.717640 47.070590] -0.568169 0.000000 0.000000 -0.822912 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

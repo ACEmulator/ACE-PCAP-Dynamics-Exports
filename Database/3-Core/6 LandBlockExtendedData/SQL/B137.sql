@@ -13,11 +13,11 @@ VALUES (0x7B137002,   720, 0xB137001A, 84, 28.45, 185, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0xB137001A [84.000000 28.450000 185.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B137003,   720, 0xB137001A, 91.55, 36, 185, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Sliding Door */
+VALUES (0x7B137003,   720, 0xB137001A, 91.55, 36, 185, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Sliding Door */
 /* @teleloc 0xB137001A [91.550000 36.000000 185.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B137004,   720, 0xB137001A, 76.45, 36, 185, 0.7071068, 0, 0, 0.7071068, False, '2019-02-10 00:00:00'); /* Sliding Door */
+VALUES (0x7B137004,   720, 0xB137001A, 76.45, 36, 185, 0.707107, 0, 0, 0.707107, False, '2019-02-10 00:00:00'); /* Sliding Door */
 /* @teleloc 0xB137001A [76.450000 36.000000 185.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,19 +70,19 @@ VALUES (0x7B13700E,   226, 0xB137000C, 38.63995, 82.10321, 170.7382, 1, 0, 0, 0,
 /* @teleloc 0xB137000C [38.639950 82.103210 170.738200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B13700F,  9401, 0xB137000A, 41.57821, 36.29243, 180, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
+VALUES (0x7B13700F,  9401, 0xB137000A, 41.57821, 36.29243, 180, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
 /* @teleloc 0xB137000A [41.578210 36.292430 180.000000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B137010,  9401, 0xB1370012, 51.04228, 33.84472, 180, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
+VALUES (0x7B137010,  9401, 0xB1370012, 51.04228, 33.84472, 180, -0.766044, 0, 0, -0.642788,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
 /* @teleloc 0xB1370012 [51.042280 33.844720 180.000000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B137011,  9400, 0xB137000A, 47.18297, 24.95283, 180, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
+VALUES (0x7B137011,  9400, 0xB137000A, 47.18297, 24.95283, 180, -0.087156, 0, 0, -0.996195,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
 /* @teleloc 0xB137000A [47.182970 24.952830 180.000000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B137012,  2576, 0xB137002E, 137.8623, 135.8913, 120.9327, -0.7709171, 0, 0, -0.6369355,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
+VALUES (0x7B137012,  2576, 0xB137002E, 137.8623, 135.8913, 120.9327, -0.770917, 0, 0, -0.636936,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
 /* @teleloc 0xB137002E [137.862300 135.891300 120.932700] -0.770917 0.000000 0.000000 -0.636936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

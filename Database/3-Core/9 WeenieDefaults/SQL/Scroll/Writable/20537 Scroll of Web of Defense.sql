@@ -23,7 +23,7 @@ VALUES (20537,   1, 'Scroll of Web of Defense') /* Name */
 Increases the target''s Melee Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20537,   1,   33554826) /* Setup */
-     , (20537,   8,  100676467) /* Icon */
-     , (20537,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20537,   1, 0x0200018A) /* Setup */
+     , (20537,   8, 0x06003373) /* Icon */
+     , (20537,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20537,  28,       2244) /* Spell - InvulnerabilityOther7 */;

@@ -50,11 +50,11 @@ VALUES (30599,   1, 'Frost Poniard') /* Name */
      , (30599,  16, 'Frost Poniard of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30599,   1,   33559485) /* Setup */
-     , (30599,   3,  536870932) /* SoundTable */
-     , (30599,   6,   67116417) /* PaletteBase */
-     , (30599,   8,  100686995) /* Icon */
-     , (30599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30599,   1, 0x020013BD) /* Setup */
+     , (30599,   3, 0x20000014) /* SoundTable */
+     , (30599,   6, 0x04001D81) /* PaletteBase */
+     , (30599,   8, 0x06005C93) /* Icon */
+     , (30599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30599,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

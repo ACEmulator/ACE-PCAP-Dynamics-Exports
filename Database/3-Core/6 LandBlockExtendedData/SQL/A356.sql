@@ -23,7 +23,7 @@ VALUES (0x7A356004,   226, 0xA3560009, 44.26798, 3.874099, 71.70684, 1, 0, 0, 0,
 /* @teleloc 0xA3560009 [44.267980 3.874099 71.706840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A356005,  9244, 0xA3560019, 88.34422, 6.469928, 78.17288, -0.847876, 0, 0, -0.5301947,  True, '2019-02-10 00:00:00'); /* Pristine Doll */
+VALUES (0x7A356005,  9244, 0xA3560019, 88.34422, 6.469928, 78.17288, -0.847876, 0, 0, -0.530195,  True, '2019-02-10 00:00:00'); /* Pristine Doll */
 /* @teleloc 0xA3560019 [88.344220 6.469928 78.172880] -0.847876 0.000000 0.000000 -0.530195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

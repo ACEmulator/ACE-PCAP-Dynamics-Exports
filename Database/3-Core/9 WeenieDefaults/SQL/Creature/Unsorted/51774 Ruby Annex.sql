@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51774,   1, 'Ruby Annex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51774,   1,   33559841) /* Setup */
-     , (51774,   2,  150995147) /* MotionTable */
-     , (51774,   3,  536871001) /* SoundTable */
-     , (51774,   8,  100671324) /* Icon */
-     , (51774,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51774,   1, 0x02001521) /* Setup */
+     , (51774,   2, 0x090000CB) /* MotionTable */
+     , (51774,   3, 0x20000059) /* SoundTable */
+     , (51774,   8, 0x06001F5C) /* Icon */
+     , (51774,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51774, 8040, 1484259669, 290, -320, -59.9, -0.6758329, 0, 0, -0.7370549) /* PCAPRecordedLocation */
+VALUES (51774, 8040, 0x58780155, 290, -320, -59.9, -0.675833, 0, 0, -0.737055) /* PCAPRecordedLocation */
 /* @teleloc 0x58780155 [290.000000 -320.000000 -59.900000] -0.675833 0.000000 0.000000 -0.737055 */;

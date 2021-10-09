@@ -52,15 +52,15 @@ VALUES (38469,   1, 'Celestial Hand Tassets') /* Name */
      , (38469,  39, 'Straharik') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38469,   1,   33554656) /* Setup */
-     , (38469,   3,  536870932) /* SoundTable */
-     , (38469,   8,  100690170) /* Icon */
-     , (38469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38469,   1, 0x020000E0) /* Setup */
+     , (38469,   3, 0x20000014) /* SoundTable */
+     , (38469,   8, 0x060068FA) /* Icon */
+     , (38469,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38469,  1332,      2)  /* StrengthSelf6 */
+VALUES (38469,  4226,      2)  /* CANTRIPENDURANCE3 */
      , (38469,  1552,      2)  /* FlameBane6 */
-     , (38469,  2108,      2)  /* Impenetrability7 */
-     , (38469,  2110,      2)  /* LightningBane7 */
      , (38469,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
-     , (38469,  4226,      2)  /* CANTRIPENDURANCE3 */;
+     , (38469,  1332,      2)  /* StrengthSelf6 */
+     , (38469,  2108,      2)  /* Impenetrability7 */
+     , (38469,  2110,      2)  /* LightningBane7 */;

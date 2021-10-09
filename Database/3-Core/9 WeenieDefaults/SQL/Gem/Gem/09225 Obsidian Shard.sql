@@ -26,11 +26,11 @@ VALUES (9225,   1, 'Obsidian Shard') /* Name */
      , (9225,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9225,   1,   33555391) /* Setup */
-     , (9225,   3,  536870932) /* SoundTable */
-     , (9225,   8,  100671395) /* Icon */
-     , (9225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9225,   1, 0x020003BF) /* Setup */
+     , (9225,   3, 0x20000014) /* SoundTable */
+     , (9225,   8, 0x06001FA3) /* Icon */
+     , (9225,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9225, 8040, 2103705618, 68.59282, 46.31908, 12.019, -0.9992406, 0, 0, 0.0389655) /* PCAPRecordedLocation */
+VALUES (9225, 8040, 0x7D640012, 68.59282, 46.31908, 12.019, -0.999241, 0, 0, 0.038966) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640012 [68.592820 46.319080 12.019000] -0.999241 0.000000 0.000000 0.038966 */;

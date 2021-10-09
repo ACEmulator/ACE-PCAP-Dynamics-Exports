@@ -50,8 +50,8 @@ VALUES (3840,   1, 'Flaming Nabut') /* Name */
      , (3840,  40, 'Tinker'' Belle') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3840,   1,   33555407) /* Setup */
-     , (3840,   3,  536870932) /* SoundTable */
-     , (3840,   8,  100667602) /* Icon */
-     , (3840,  22,  872415275) /* PhysicsEffectTable */
-     , (3840,  52,  100676440) /* IconUnderlay */;
+VALUES (3840,   1, 0x020003CF) /* Setup */
+     , (3840,   3, 0x20000014) /* SoundTable */
+     , (3840,   8, 0x060010D2) /* Icon */
+     , (3840,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3840,  52, 0x06003358) /* IconUnderlay */;

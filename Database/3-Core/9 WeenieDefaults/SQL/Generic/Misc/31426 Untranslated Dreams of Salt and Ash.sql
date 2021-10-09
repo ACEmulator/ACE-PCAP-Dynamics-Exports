@@ -24,11 +24,11 @@ VALUES (31426,   1, 'Untranslated Dreams of Salt and Ash') /* Name */
      , (31426,  16, 'An ancient book written in unknown runes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31426,   1,   33559593) /* Setup */
-     , (31426,   3,  536870932) /* SoundTable */
-     , (31426,   8,  100687890) /* Icon */
-     , (31426,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31426,   1, 0x02001429) /* Setup */
+     , (31426,   3, 0x20000014) /* SoundTable */
+     , (31426,   8, 0x06006012) /* Icon */
+     , (31426,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31426, 8040, 3605479, 431.15, -349.675, 42.03819, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31426, 8040, 0x003703E7, 431.15, -349.675, 42.03819, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x003703E7 [431.150000 -349.675000 42.038190] 1.000000 0.000000 0.000000 0.000000 */;

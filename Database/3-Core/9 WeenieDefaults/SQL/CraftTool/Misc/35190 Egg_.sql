@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35190,   1, 'Egg?') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35190,   1,   33554673) /* Setup */
-     , (35190,   3,  536870932) /* SoundTable */
-     , (35190,   8,  100667460) /* Icon */
-     , (35190,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35190,   1, 0x020000F1) /* Setup */
+     , (35190,   3, 0x20000014) /* SoundTable */
+     , (35190,   8, 0x06001044) /* Icon */
+     , (35190,  22, 0x3400002B) /* PhysicsEffectTable */;

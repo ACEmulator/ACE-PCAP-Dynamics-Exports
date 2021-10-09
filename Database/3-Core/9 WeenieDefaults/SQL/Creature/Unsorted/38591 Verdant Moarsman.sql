@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38591,   1, 'Verdant Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38591,   1,   33556882) /* Setup */
-     , (38591,   2,  150995104) /* MotionTable */
-     , (38591,   3,  536871018) /* SoundTable */
-     , (38591,   6,   67112872) /* PaletteBase */
-     , (38591,   8,  100671185) /* Icon */
-     , (38591,  22,  872415337) /* PhysicsEffectTable */
+VALUES (38591,   1, 0x02000992) /* Setup */
+     , (38591,   2, 0x090000A0) /* MotionTable */
+     , (38591,   3, 0x2000006A) /* SoundTable */
+     , (38591,   6, 0x04000FA8) /* PaletteBase */
+     , (38591,   8, 0x06001ED1) /* Icon */
+     , (38591,  22, 0x34000069) /* PhysicsEffectTable */
      , (38591,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38591, 8040, 15401690, 105.873, -120.745, -5.9934, 0.9373289, 0, 0, 0.348446) /* PCAPRecordedLocation */
+VALUES (38591, 8040, 0x00EB02DA, 105.873, -120.745, -5.9934, 0.937329, 0, 0, 0.348446) /* PCAPRecordedLocation */
 /* @teleloc 0x00EB02DA [105.873000 -120.745000 -5.993400] 0.937329 0.000000 0.000000 0.348446 */;

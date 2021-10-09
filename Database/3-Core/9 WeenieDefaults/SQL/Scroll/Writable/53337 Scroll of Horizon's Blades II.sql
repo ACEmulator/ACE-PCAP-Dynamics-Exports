@@ -23,7 +23,7 @@ VALUES (53337,   1, 'Scroll of Horizon''s Blades II') /* Name */
 Shoots eight blades outward from the caster. Each blade does 49-98 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53337,   1,   33554826) /* Setup */
-     , (53337,   8,  100677024) /* Icon */
-     , (53337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53337,   1, 0x0200018A) /* Setup */
+     , (53337,   8, 0x060035A0) /* Icon */
+     , (53337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53337,  28,       6190) /* Spell - HorizonsBladesII */;

@@ -45,16 +45,16 @@ VALUES (37192,   1, 'Olthoi Celdon Girth') /* Name */
      , (37192,  16, 'Olthoi Celdon Girth of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37192,   1,   33554647) /* Setup */
-     , (37192,   3,  536870932) /* SoundTable */
-     , (37192,   6,   67108990) /* PaletteBase */
-     , (37192,   8,  100674647) /* Icon */
-     , (37192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37192,   1, 0x020000D7) /* Setup */
+     , (37192,   3, 0x20000014) /* SoundTable */
+     , (37192,   6, 0x0400007E) /* PaletteBase */
+     , (37192,   8, 0x06002C57) /* Icon */
+     , (37192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37192,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37192,  2092,      2)  /* AcidBane7 */
+VALUES (37192,  4299,      2)  /* EnduranceSelf8 */
+     , (37192,  6095,      2)  /* CantripImpenetrability4 */
      , (37192,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
-     , (37192,  4299,      2)  /* EnduranceSelf8 */
-     , (37192,  4407,      2)  /* Impenetrability8 */
-     , (37192,  6095,      2)  /* CantripImpenetrability4 */;
+     , (37192,  2092,      2)  /* AcidBane7 */
+     , (37192,  4407,      2)  /* Impenetrability8 */;

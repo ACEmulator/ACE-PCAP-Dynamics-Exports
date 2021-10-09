@@ -49,11 +49,11 @@ VALUES (10875,   1, 'Singularity Dagger') /* Name */
      , (10875,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10875,   1,   33557314) /* Setup */
-     , (10875,   3,  536870932) /* SoundTable */
-     , (10875,   6,   67111919) /* PaletteBase */
-     , (10875,   8,  100672043) /* Icon */
-     , (10875,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10875,   1, 0x02000B42) /* Setup */
+     , (10875,   3, 0x20000014) /* SoundTable */
+     , (10875,   6, 0x04000BEF) /* PaletteBase */
+     , (10875,   8, 0x0600222B) /* Icon */
+     , (10875,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10875,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

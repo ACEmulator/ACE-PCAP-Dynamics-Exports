@@ -34,9 +34,9 @@ VALUES (51216,   1, 'Hive Gem of Dispelling') /* Name */
      , (51216,  20, 'Hive Gems of Dispelling') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51216,   1,   33554809) /* Setup */
-     , (51216,   3,  536870932) /* SoundTable */
-     , (51216,   6,   67111919) /* PaletteBase */
-     , (51216,   8,  100671405) /* Icon */
-     , (51216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51216,   1, 0x02000179) /* Setup */
+     , (51216,   3, 0x20000014) /* SoundTable */
+     , (51216,   6, 0x04000BEF) /* PaletteBase */
+     , (51216,   8, 0x06001FAD) /* Icon */
+     , (51216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51216,  28,       4331) /* Spell - DispelAllBadSelf8 */;

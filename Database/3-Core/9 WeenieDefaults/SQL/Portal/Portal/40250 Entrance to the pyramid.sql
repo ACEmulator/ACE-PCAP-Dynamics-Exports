@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40250,   1, 'Entrance to the pyramid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40250,   1,   33560216) /* Setup */
-     , (40250,   2,  150995314) /* MotionTable */
-     , (40250,   8,  100667499) /* Icon */;
+VALUES (40250,   1, 0x02001698) /* Setup */
+     , (40250,   2, 0x09000172) /* MotionTable */
+     , (40250,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40250, 8040, 1942487076, 102.306, 90.3356, 95.79017, 0.3728199, 0, 0, -0.9279037) /* PCAPRecordedLocation */
+VALUES (40250, 8040, 0x73C80024, 102.306, 90.3356, 95.79017, 0.37282, 0, 0, -0.927904) /* PCAPRecordedLocation */
 /* @teleloc 0x73C80024 [102.306000 90.335600 95.790170] 0.372820 0.000000 0.000000 -0.927904 */;

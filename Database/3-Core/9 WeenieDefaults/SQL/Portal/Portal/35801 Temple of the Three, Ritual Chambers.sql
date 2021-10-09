@@ -21,10 +21,10 @@ VALUES (35801,   1, 'Temple of the Three, Ritual Chambers') /* Name */
      , (35801,  16, 'A bypass portal, created by Asheron for those who are helping defend him from the Ritual of the Three Matriarchs.  This portal seems to be warded against those who are not attuned to its destination.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35801,   1,   33555925) /* Setup */
-     , (35801,   2,  150994947) /* MotionTable */
-     , (35801,   8,  100667499) /* Icon */;
+VALUES (35801,   1, 0x020005D5) /* Setup */
+     , (35801,   2, 0x09000003) /* MotionTable */
+     , (35801,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35801, 8040, 13895183, 228.617, -81.2211, -12.063, -0.9254113, 0, 0, 0.3789642) /* PCAPRecordedLocation */
+VALUES (35801, 8040, 0x00D4060F, 228.617, -81.2211, -12.063, -0.925411, 0, 0, 0.378964) /* PCAPRecordedLocation */
 /* @teleloc 0x00D4060F [228.617000 -81.221100 -12.063000] -0.925411 0.000000 0.000000 0.378964 */;

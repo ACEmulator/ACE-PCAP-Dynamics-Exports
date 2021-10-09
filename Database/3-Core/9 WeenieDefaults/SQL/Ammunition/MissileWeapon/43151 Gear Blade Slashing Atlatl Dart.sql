@@ -57,13 +57,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43151,   1, 'Gear Blade Slashing Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43151,   1,   33557434) /* Setup */
-     , (43151,   3,  536870932) /* SoundTable */
-     , (43151,   6,   67111919) /* PaletteBase */
-     , (43151,   8,  100672683) /* Icon */
-     , (43151,  22,  872415275) /* PhysicsEffectTable */
-     , (43151,  50,  100691312) /* IconOverlay */;
+VALUES (43151,   1, 0x02000BBA) /* Setup */
+     , (43151,   3, 0x20000014) /* SoundTable */
+     , (43151,   6, 0x04000BEF) /* PaletteBase */
+     , (43151,   8, 0x060024AB) /* Icon */
+     , (43151,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43151,  50, 0x06006D70) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43151, 8040, 3111059486, 83.67838, 134.3052, 8.903898, 0.214502, 0.214502, 0.6737869, 0.6737869) /* PCAPRecordedLocation */
+VALUES (43151, 8040, 0xB96F001E, 83.67838, 134.3052, 8.903898, 0.214502, 0.214502, 0.673787, 0.673787) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001E [83.678380 134.305200 8.903898] 0.214502 0.214502 0.673787 0.673787 */;

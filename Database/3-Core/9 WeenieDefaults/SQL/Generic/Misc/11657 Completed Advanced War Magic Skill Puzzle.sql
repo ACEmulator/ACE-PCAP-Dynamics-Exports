@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11657,   1, 'Completed Advanced War Magic Skill Puzzle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11657,   1,   33557028) /* Setup */
-     , (11657,   3,  536870932) /* SoundTable */
-     , (11657,   8,  100671738) /* Icon */
-     , (11657,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11657,   1, 0x02000A24) /* Setup */
+     , (11657,   3, 0x20000014) /* SoundTable */
+     , (11657,   8, 0x060020FA) /* Icon */
+     , (11657,  22, 0x3400002B) /* PhysicsEffectTable */;

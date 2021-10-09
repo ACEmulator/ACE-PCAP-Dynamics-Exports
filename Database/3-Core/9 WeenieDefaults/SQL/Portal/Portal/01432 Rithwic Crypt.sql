@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1432,   1, 'Rithwic Crypt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1432,   1,   33554867) /* Setup */
-     , (1432,   2,  150994947) /* MotionTable */
-     , (1432,   8,  100667499) /* Icon */;
+VALUES (1432,   1, 0x020001B3) /* Setup */
+     , (1432,   2, 0x09000003) /* MotionTable */
+     , (1432,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1432, 8040, 3381657624, 62.423, 186.288, 13.937, -0.5371981, 0, 0, -0.8434561) /* PCAPRecordedLocation */
+VALUES (1432, 8040, 0xC9900018, 62.423, 186.288, 13.937, -0.537198, 0, 0, -0.843456) /* PCAPRecordedLocation */
 /* @teleloc 0xC9900018 [62.423000 186.288000 13.937000] -0.537198 0.000000 0.000000 -0.843456 */;

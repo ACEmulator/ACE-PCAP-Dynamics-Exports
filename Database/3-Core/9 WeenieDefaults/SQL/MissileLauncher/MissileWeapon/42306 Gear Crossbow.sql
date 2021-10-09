@@ -48,14 +48,14 @@ VALUES (42306,   1, 'Gear Crossbow') /* Name */
      , (42306,  16, 'An extremely accurate crossbow of Gearknight make. The action of firing this crossbow builds an electrical charge that occasionally discharges into the surrounding area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42306,   1,   33560920) /* Setup */
-     , (42306,   3,  536870932) /* SoundTable */
-     , (42306,   8,  100690886) /* Icon */
-     , (42306,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42306,   1, 0x02001958) /* Setup */
+     , (42306,   3, 0x20000014) /* SoundTable */
+     , (42306,   8, 0x06006BC6) /* Icon */
+     , (42306,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42306,  55,       1788) /* ProcSpell - LightningRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42306,  2060,      2)  /* EnduranceOther7 */
+VALUES (42306,  2116,      2)  /* SwiftKillerSelf7 */
+     , (42306,  2060,      2)  /* EnduranceOther7 */
      , (42306,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (42306,  2101,      2)  /* DefenderSelf7 */
-     , (42306,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (42306,  2101,      2)  /* DefenderSelf7 */;

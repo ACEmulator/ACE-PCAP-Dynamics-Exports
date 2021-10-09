@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24134,   1, 'Reedshark Slasher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24134,   1,   33554489) /* Setup */
-     , (24134,   2,  150994970) /* MotionTable */
-     , (24134,   3,  536870928) /* SoundTable */
-     , (24134,   6,   67109313) /* PaletteBase */
-     , (24134,   8,  100667939) /* Icon */
-     , (24134,  22,  872415268) /* PhysicsEffectTable */;
+VALUES (24134,   1, 0x02000039) /* Setup */
+     , (24134,   2, 0x0900001A) /* MotionTable */
+     , (24134,   3, 0x20000010) /* SoundTable */
+     , (24134,   6, 0x040001C1) /* PaletteBase */
+     , (24134,   8, 0x06001223) /* Icon */
+     , (24134,  22, 0x34000024) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24134, 8040, 772800514, 3.701934, 32.84097, 15.47579, 0.661372, 0, 0, -0.7500581) /* PCAPRecordedLocation */
+VALUES (24134, 8040, 0x2E100002, 3.701934, 32.84097, 15.47579, 0.661372, 0, 0, -0.750058) /* PCAPRecordedLocation */
 /* @teleloc 0x2E100002 [3.701934 32.840970 15.475790] 0.661372 0.000000 0.000000 -0.750058 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

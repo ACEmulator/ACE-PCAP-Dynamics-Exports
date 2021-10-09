@@ -26,12 +26,12 @@ VALUES (40527,   1, 'Encrusted Scroll Case') /* Name */
      , (40527,  15, 'A scroll case.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40527,   1,   33554776) /* Setup */
-     , (40527,   2,  150995147) /* MotionTable */
-     , (40527,   3,  536870932) /* SoundTable */
-     , (40527,   8,  100676928) /* Icon */
-     , (40527,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40527,   1, 0x02000158) /* Setup */
+     , (40527,   2, 0x090000CB) /* MotionTable */
+     , (40527,   3, 0x20000014) /* SoundTable */
+     , (40527,   8, 0x06003540) /* Icon */
+     , (40527,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40527, 8040, 1060241705, 15.6124, 11.7693, 7.857, 0.7181143, 0, 0, -0.6959252) /* PCAPRecordedLocation */
+VALUES (40527, 8040, 0x3F320129, 15.6124, 11.7693, 7.857, 0.718114, 0, 0, -0.695925) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320129 [15.612400 11.769300 7.857000] 0.718114 0.000000 0.000000 -0.695925 */;

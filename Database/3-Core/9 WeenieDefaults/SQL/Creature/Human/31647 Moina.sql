@@ -29,20 +29,20 @@ VALUES (31647,   1, 'Moina') /* Name */
      , (31647,   5, 'Violator Grievver Vetoer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31647,   1,   33554510) /* Setup */
-     , (31647,   2,  150994945) /* MotionTable */
-     , (31647,   3,  536870914) /* SoundTable */
-     , (31647,   6,   67108990) /* PaletteBase */
-     , (31647,   8,  100667377) /* Icon */
-     , (31647,   9,   83890283) /* EyesTexture */
-     , (31647,  10,   83890315) /* NoseTexture */
-     , (31647,  11,   83890355) /* MouthTexture */
-     , (31647,  15,   67117078) /* HairPalette */
-     , (31647,  16,   67110062) /* EyesPalette */
-     , (31647,  17,   67109562) /* SkinPalette */;
+VALUES (31647,   1, 0x0200004E) /* Setup */
+     , (31647,   2, 0x09000001) /* MotionTable */
+     , (31647,   3, 0x20000002) /* SoundTable */
+     , (31647,   6, 0x0400007E) /* PaletteBase */
+     , (31647,   8, 0x06000FF1) /* Icon */
+     , (31647,   9, 0x0500106B) /* EyesTexture */
+     , (31647,  10, 0x0500108B) /* NoseTexture */
+     , (31647,  11, 0x050010B3) /* MouthTexture */
+     , (31647,  15, 0x04002016) /* HairPalette */
+     , (31647,  16, 0x040004AE) /* EyesPalette */
+     , (31647,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31647, 8040, 1240465444, 100.839, 87.4448, 170.005, 0.587867, 0, 0, 0.808958) /* PCAPRecordedLocation */
+VALUES (31647, 8040, 0x49F00024, 100.839, 87.4448, 170.005, 0.587867, 0, 0, 0.808958) /* PCAPRecordedLocation */
 /* @teleloc 0x49F00024 [100.839000 87.444800 170.005000] 0.587867 0.000000 0.000000 0.808958 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

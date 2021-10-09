@@ -50,10 +50,10 @@ VALUES (3811,   1, 'Lightning Kaskara') /* Name */
      , (3811,  16, 'Lightning Kaskara of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3811,   1,   33555795) /* Setup */
-     , (3811,   3,  536870932) /* SoundTable */
-     , (3811,   8,  100669032) /* Icon */
-     , (3811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3811,   1, 0x02000553) /* Setup */
+     , (3811,   3, 0x20000014) /* SoundTable */
+     , (3811,   8, 0x06001668) /* Icon */
+     , (3811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3811,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

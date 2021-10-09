@@ -18,10 +18,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4179,   1, 'Bonfire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4179,   1,   33555886) /* Setup */
-     , (4179,   3,  536870994) /* SoundTable */
-     , (4179,   8,  100669743) /* Icon */;
+VALUES (4179,   1, 0x020005AE) /* Setup */
+     , (4179,   3, 0x20000052) /* SoundTable */
+     , (4179,   8, 0x0600192F) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4179, 8040, 2400976923, 92.26361, 63.59641, 326.7545, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4179, 8040, 0x8F1C001B, 92.26361, 63.59641, 326.7545, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1C001B [92.263610 63.596410 326.754500] 1.000000 0.000000 0.000000 0.000000 */;

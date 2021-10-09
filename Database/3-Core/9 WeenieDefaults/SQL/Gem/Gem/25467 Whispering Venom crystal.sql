@@ -17,5 +17,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25467,   1, 'Whispering Venom crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25467,   1,   33554809) /* Setup */
-     , (25467,   8,  100674804) /* Icon */;
+VALUES (25467,   1, 0x02000179) /* Setup */
+     , (25467,   8, 0x06002CF4) /* Icon */;

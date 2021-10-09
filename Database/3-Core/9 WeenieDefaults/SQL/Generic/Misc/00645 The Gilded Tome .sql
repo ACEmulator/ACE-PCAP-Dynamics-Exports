@@ -18,9 +18,9 @@ VALUES (645,   1, 'The Gilded Tome ') /* Name */
      , (645,  16, 'The Gilded Tome') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (645,   1,   33555088) /* Setup */
-     , (645,   8,  100668115) /* Icon */;
+VALUES (645,   1, 0x02000290) /* Setup */
+     , (645,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (645, 8040, 3364618270, 75.06, 134.482, 22, 0.677918, 0, 0, -0.735137) /* PCAPRecordedLocation */
+VALUES (645, 8040, 0xC88C001E, 75.06, 134.482, 22, 0.677918, 0, 0, -0.735137) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C001E [75.060000 134.482000 22.000000] 0.677918 0.000000 0.000000 -0.735137 */;

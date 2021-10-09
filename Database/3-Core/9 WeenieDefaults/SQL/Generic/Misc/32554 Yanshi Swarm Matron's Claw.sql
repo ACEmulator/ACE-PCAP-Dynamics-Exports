@@ -24,7 +24,7 @@ VALUES (32554,   1, 'Yanshi Swarm Matron''s Claw') /* Name */
      , (32554,  16, 'A claw from the fearsome Olthoi Swarm Matron that once lurked beneath the rebuilt town of Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32554,   1,   33557721) /* Setup */
-     , (32554,   3,  536870932) /* SoundTable */
-     , (32554,   8,  100670056) /* Icon */
-     , (32554,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32554,   1, 0x02000CD9) /* Setup */
+     , (32554,   3, 0x20000014) /* SoundTable */
+     , (32554,   8, 0x06001A68) /* Icon */
+     , (32554,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,14 +29,14 @@ VALUES (27281,   1, 'Yaruldi''s Hoard') /* Name */
      , (27281,  16, 'The treasure hoard of the Margul guardian, Yaruldi. Who knows what bounty lies behind its lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27281,   1,   33558675) /* Setup */
-     , (27281,   2,  150995247) /* MotionTable */
-     , (27281,   3,  536870950) /* SoundTable */
-     , (27281,   8,  100676401) /* Icon */
-     , (27281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27281,   1, 0x02001093) /* Setup */
+     , (27281,   2, 0x0900012F) /* MotionTable */
+     , (27281,   3, 0x20000026) /* SoundTable */
+     , (27281,   8, 0x06003331) /* Icon */
+     , (27281,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27281, 8040, 1699217695, 89.9331, -156.207, -84.00216, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (27281, 8040, 0x6548011F, 89.9331, -156.207, -84.00216, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x6548011F [89.933100 -156.207000 -84.002160] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

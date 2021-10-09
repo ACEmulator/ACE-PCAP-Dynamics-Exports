@@ -21,10 +21,10 @@ VALUES (42822,   1, 'Portal to Khayyaban') /* Name */
      , (42822,  16, 'This portal goes to the town of Khayyaban on the Yushad Ridge. This is a good town for characters over level 20.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42822,   1,   33555923) /* Setup */
-     , (42822,   2,  150994947) /* MotionTable */
-     , (42822,   8,  100667499) /* Icon */;
+VALUES (42822,   1, 0x020005D3) /* Setup */
+     , (42822,   2, 0x09000003) /* MotionTable */
+     , (42822,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42822, 8040, 459030, 19.982, -86.444, -0.06299996, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42822, 8040, 0x00070116, 19.982, -86.444, -0.063, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070116 [19.982000 -86.444000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */;

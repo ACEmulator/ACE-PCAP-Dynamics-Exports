@@ -37,10 +37,10 @@ VALUES (49217,   1, 'Acid Skeleton Bushi Essence (150)') /* Name */
      , (49217,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49217,   1,   33554817) /* Setup */
-     , (49217,   3,  536870932) /* SoundTable */
-     , (49217,   6,   67111919) /* PaletteBase */
-     , (49217,   8,  100669124) /* Icon */
-     , (49217,  22,  872415275) /* PhysicsEffectTable */
-     , (49217,  50,  100693030) /* IconOverlay */
-     , (49217,  52,  100693024) /* IconUnderlay */;
+VALUES (49217,   1, 0x02000181) /* Setup */
+     , (49217,   3, 0x20000014) /* SoundTable */
+     , (49217,   6, 0x04000BEF) /* PaletteBase */
+     , (49217,   8, 0x060016C4) /* Icon */
+     , (49217,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49217,  50, 0x06007426) /* IconOverlay */
+     , (49217,  52, 0x06007420) /* IconUnderlay */;

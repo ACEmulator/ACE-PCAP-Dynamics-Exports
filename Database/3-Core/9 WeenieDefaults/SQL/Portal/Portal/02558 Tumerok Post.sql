@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2558,   1, 'Tumerok Post') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2558,   1,   33554867) /* Setup */
-     , (2558,   2,  150994947) /* MotionTable */
-     , (2558,   8,  100667499) /* Icon */;
+VALUES (2558,   1, 0x020001B3) /* Setup */
+     , (2558,   2, 0x09000003) /* MotionTable */
+     , (2558,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2558, 8040, 713949206, 56.5986, 129.798, 64.67099, 0.002930609, 0, 0, -0.9999957) /* PCAPRecordedLocation */
+VALUES (2558, 8040, 0x2A8E0016, 56.5986, 129.798, 64.67099, 0.002931, 0, 0, -0.999996) /* PCAPRecordedLocation */
 /* @teleloc 0x2A8E0016 [56.598600 129.798000 64.670990] 0.002931 0.000000 0.000000 -0.999996 */;

@@ -26,8 +26,8 @@ VALUES (8042,   1, 'Crushed Berimphur Plant') /* Name */
      , (8042,  20, 'Crushed Berimphur Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8042,   1,   33556752) /* Setup */
-     , (8042,   3,  536870932) /* SoundTable */
-     , (8042,   6,   67111919) /* PaletteBase */
-     , (8042,   8,  100670921) /* Icon */
-     , (8042,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8042,   1, 0x02000910) /* Setup */
+     , (8042,   3, 0x20000014) /* SoundTable */
+     , (8042,   6, 0x04000BEF) /* PaletteBase */
+     , (8042,   8, 0x06001DC9) /* Icon */
+     , (8042,  22, 0x3400002B) /* PhysicsEffectTable */;

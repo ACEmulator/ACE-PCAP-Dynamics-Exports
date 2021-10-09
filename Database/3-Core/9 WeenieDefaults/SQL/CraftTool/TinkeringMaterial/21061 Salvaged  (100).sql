@@ -31,9 +31,9 @@ VALUES (21061,   1, 'Salvaged  (100)') /* Name */
      , (21061,  15, 'A brick of marble material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21061,   1,   33554817) /* Setup */
-     , (21061,   3,  536870932) /* SoundTable */
-     , (21061,   6,   67111919) /* PaletteBase */
-     , (21061,   8,  100673219) /* Icon */
-     , (21061,  22,  872415275) /* PhysicsEffectTable */
-     , (21061,  50,  100673233) /* IconOverlay */;
+VALUES (21061,   1, 0x02000181) /* Setup */
+     , (21061,   3, 0x20000014) /* SoundTable */
+     , (21061,   6, 0x04000BEF) /* PaletteBase */
+     , (21061,   8, 0x060026C3) /* Icon */
+     , (21061,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21061,  50, 0x060026D1) /* IconOverlay */;

@@ -34,10 +34,10 @@ VALUES (36024,   1, 'Spectral Crystal of the Hieromancer') /* Name */
      , (36024,  20, 'Spectral Crystals of the Hieromancer') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36024,   1,   33554809) /* Setup */
-     , (36024,   3,  536870932) /* SoundTable */
-     , (36024,   8,  100686697) /* Icon */
-     , (36024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36024,   1, 0x02000179) /* Setup */
+     , (36024,   3, 0x20000014) /* SoundTable */
+     , (36024,   8, 0x06005B69) /* Icon */
+     , (36024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36024,  28,       4142) /* Spell - WarMagicMasterySpectral */
-     , (36024,  50,  100686693) /* IconOverlay */
-     , (36024,  52,  100686604) /* IconUnderlay */;
+     , (36024,  50, 0x06005B65) /* IconOverlay */
+     , (36024,  52, 0x06005B0C) /* IconUnderlay */;

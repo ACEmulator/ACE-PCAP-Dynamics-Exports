@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1363,   1, 'Base of Mt. Zabool') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1363,   1,   33554867) /* Setup */
-     , (1363,   2,  150994947) /* MotionTable */
-     , (1363,   8,  100667499) /* Icon */;
+VALUES (1363,   1, 0x020001B3) /* Setup */
+     , (1363,   2, 0x09000003) /* MotionTable */
+     , (1363,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1363, 8040, 30605580, 10, -20, -0.06299996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1363, 8040, 0x01D3010C, 10, -20, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01D3010C [10.000000 -20.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;

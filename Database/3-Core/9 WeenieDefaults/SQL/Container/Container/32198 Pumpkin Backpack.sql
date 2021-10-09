@@ -25,8 +25,8 @@ VALUES (32198,   1, 'Pumpkin Backpack') /* Name */
      , (32198,  16, 'A hollowed out pumpkin with some straps so it can be used to carry things.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32198,   1,   33556809) /* Setup */
-     , (32198,   3,  536870932) /* SoundTable */
-     , (32198,   6,   67112968) /* PaletteBase */
-     , (32198,   8,  100671019) /* Icon */
-     , (32198,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32198,   1, 0x02000949) /* Setup */
+     , (32198,   3, 0x20000014) /* SoundTable */
+     , (32198,   6, 0x04001008) /* PaletteBase */
+     , (32198,   8, 0x06001E2B) /* Icon */
+     , (32198,  22, 0x3400002B) /* PhysicsEffectTable */;

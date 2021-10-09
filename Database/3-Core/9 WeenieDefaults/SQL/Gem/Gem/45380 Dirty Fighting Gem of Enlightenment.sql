@@ -21,7 +21,7 @@ VALUES (45380,   1, 'Dirty Fighting Gem of Enlightenment') /* Name */
      , (45380,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Dirty Fighting skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45380,   1,   33558088) /* Setup */
-     , (45380,   6,   67111919) /* PaletteBase */
-     , (45380,   8,  100673788) /* Icon */
-     , (45380,  50,  100692235) /* IconOverlay */;
+VALUES (45380,   1, 0x02000E48) /* Setup */
+     , (45380,   6, 0x04000BEF) /* PaletteBase */
+     , (45380,   8, 0x060028FC) /* Icon */
+     , (45380,  50, 0x0600710B) /* IconOverlay */;

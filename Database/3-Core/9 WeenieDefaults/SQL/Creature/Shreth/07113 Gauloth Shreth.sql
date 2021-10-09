@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7113,   1, 'Gauloth Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7113,   1,   33555879) /* Setup */
-     , (7113,   2,  150995072) /* MotionTable */
-     , (7113,   3,  536870986) /* SoundTable */
-     , (7113,   6,   67112444) /* PaletteBase */
-     , (7113,   8,  100669720) /* Icon */
-     , (7113,  22,  872415333) /* PhysicsEffectTable */;
+VALUES (7113,   1, 0x020005A7) /* Setup */
+     , (7113,   2, 0x09000080) /* MotionTable */
+     , (7113,   3, 0x2000004A) /* SoundTable */
+     , (7113,   6, 0x04000DFC) /* PaletteBase */
+     , (7113,   8, 0x06001918) /* Icon */
+     , (7113,  22, 0x34000065) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7113, 8040, 1155334183, 117.8672, 149.3844, 27.53255, 0.7372774, 0, 0, -0.6755902) /* PCAPRecordedLocation */
+VALUES (7113, 8040, 0x44DD0027, 117.8672, 149.3844, 27.53255, 0.737277, 0, 0, -0.67559) /* PCAPRecordedLocation */
 /* @teleloc 0x44DD0027 [117.867200 149.384400 27.532550] 0.737277 0.000000 0.000000 -0.675590 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -47,10 +47,10 @@ VALUES (3899,   1, 'Flaming Tofun') /* Name */
      , (3899,  16, 'Flaming Tofun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3899,   1,   33555756) /* Setup */
-     , (3899,   3,  536870932) /* SoundTable */
-     , (3899,   8,  100667599) /* Icon */
-     , (3899,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3899,   1, 0x0200052C) /* Setup */
+     , (3899,   3, 0x20000014) /* SoundTable */
+     , (3899,   8, 0x060010CF) /* Icon */
+     , (3899,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3899,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

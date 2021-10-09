@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28242,   1, 'Directions to the Lugian Citadels') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28242,   1,   33559084) /* Setup */
-     , (28242,   3,  536870932) /* SoundTable */
-     , (28242,   6,   67112626) /* PaletteBase */
-     , (28242,   8,  100668176) /* Icon */
-     , (28242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28242,   1, 0x0200122C) /* Setup */
+     , (28242,   3, 0x20000014) /* SoundTable */
+     , (28242,   6, 0x04000EB2) /* PaletteBase */
+     , (28242,   8, 0x06001310) /* Icon */
+     , (28242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28242, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

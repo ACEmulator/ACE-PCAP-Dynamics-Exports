@@ -29,8 +29,8 @@ VALUES (38229,   1, 'Eldrytch Web Commendation Ribbon') /* Name */
      , (38229,  16, 'A commendation ribbon, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38229,   1,   33554817) /* Setup */
-     , (38229,   3,  536870932) /* SoundTable */
-     , (38229,   6,   67111919) /* PaletteBase */
-     , (38229,   8,  100690175) /* Icon */
-     , (38229,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38229,   1, 0x02000181) /* Setup */
+     , (38229,   3, 0x20000014) /* SoundTable */
+     , (38229,   6, 0x04000BEF) /* PaletteBase */
+     , (38229,   8, 0x060068FF) /* Icon */
+     , (38229,  22, 0x3400002B) /* PhysicsEffectTable */;

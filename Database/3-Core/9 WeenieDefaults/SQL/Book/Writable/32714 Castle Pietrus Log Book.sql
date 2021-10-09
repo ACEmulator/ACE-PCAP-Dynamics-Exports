@@ -25,11 +25,11 @@ VALUES (32714,   1, 'Castle Pietrus Log Book') /* Name */
      , (32714,  16, 'A log book found in one of the buildings of Castle Pietrus') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32714,   1,   33559593) /* Setup */
-     , (32714,   3,  536870932) /* SoundTable */
-     , (32714,   8,  100687891) /* Icon */
-     , (32714,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32714,   1, 0x02001429) /* Setup */
+     , (32714,   3, 0x20000014) /* SoundTable */
+     , (32714,   8, 0x06006013) /* Icon */
+     , (32714,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32714, 8040, 1100480797, 152.124, 81.9055, 140.0695, 0.221268, 0, 0, -0.975213) /* PCAPRecordedLocation */
+VALUES (32714, 8040, 0x4198011D, 152.124, 81.9055, 140.0695, 0.221268, 0, 0, -0.975213) /* PCAPRecordedLocation */
 /* @teleloc 0x4198011D [152.124000 81.905500 140.069500] 0.221268 0.000000 0.000000 -0.975213 */;

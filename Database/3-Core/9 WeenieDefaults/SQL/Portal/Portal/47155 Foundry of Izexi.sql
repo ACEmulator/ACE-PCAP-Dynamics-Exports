@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47155,   1, 'Foundry of Izexi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47155,   1,   33555925) /* Setup */
-     , (47155,   2,  150994947) /* MotionTable */
-     , (47155,   8,  100667499) /* Icon */;
+VALUES (47155,   1, 0x020005D5) /* Setup */
+     , (47155,   2, 0x09000003) /* MotionTable */
+     , (47155,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47155, 8040, 2271674418, 159.404, 35.5373, 16.89844, 0.0888629, 0, 0, -0.9960439) /* PCAPRecordedLocation */
+VALUES (47155, 8040, 0x87670032, 159.404, 35.5373, 16.89844, 0.088863, 0, 0, -0.996044) /* PCAPRecordedLocation */
 /* @teleloc 0x87670032 [159.404000 35.537300 16.898440] 0.088863 0.000000 0.000000 -0.996044 */;

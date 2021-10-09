@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30350,   1, 'Corsair''s Arc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30350,   1,   33559413) /* Setup */
-     , (30350,   3,  536870932) /* SoundTable */
-     , (30350,   8,  100686810) /* Icon */
-     , (30350,  22,  872415275) /* PhysicsEffectTable */
-     , (30350,  52,  100686604) /* IconUnderlay */;
+VALUES (30350,   1, 0x02001375) /* Setup */
+     , (30350,   3, 0x20000014) /* SoundTable */
+     , (30350,   8, 0x06005BDA) /* Icon */
+     , (30350,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30350,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30350, 8040, 3111059485, 86, 108.6246, 17.94626, -0.5003489, 0, 0, -0.8658239) /* PCAPRecordedLocation */
+VALUES (30350, 8040, 0xB96F001D, 86, 108.6246, 17.94626, -0.500349, 0, 0, -0.865824) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F001D [86.000000 108.624600 17.946260] -0.500349 0.000000 0.000000 -0.865824 */;

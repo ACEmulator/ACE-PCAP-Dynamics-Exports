@@ -25,7 +25,7 @@ VALUES (51918,   1, 'Treasury Key') /* Name */
      , (51918,  16, 'A bright gold key to Commander Presk''s Treasury.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51918,   1,   33554784) /* Setup */
-     , (51918,   3,  536870932) /* SoundTable */
-     , (51918,   8,  100676957) /* Icon */
-     , (51918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51918,   1, 0x02000160) /* Setup */
+     , (51918,   3, 0x20000014) /* SoundTable */
+     , (51918,   8, 0x0600355D) /* Icon */
+     , (51918,  22, 0x3400002B) /* PhysicsEffectTable */;

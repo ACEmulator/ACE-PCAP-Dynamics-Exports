@@ -21,10 +21,10 @@ VALUES (42833,   1, 'Qalaba''r Portal') /* Name */
      , (42833,  16, 'This portal leads to Qalaba''r, the Gharu''ndim village on the edge of the Linvak Mountain Range. This is a good town for characters over level 30.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42833,   1,   33554867) /* Setup */
-     , (42833,   2,  150994947) /* MotionTable */
-     , (42833,   8,  100667499) /* Icon */;
+VALUES (42833,   1, 0x020001B3) /* Setup */
+     , (42833,   2, 0x09000003) /* MotionTable */
+     , (42833,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42833, 8040, 459031, 30.011, -53.7, -0.06299996, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (42833, 8040, 0x00070117, 30.011, -53.7, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070117 [30.011000 -53.700000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;

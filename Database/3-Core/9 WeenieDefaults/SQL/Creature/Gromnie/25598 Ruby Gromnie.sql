@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25598,   1, 'Ruby Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25598,   1,   33554487) /* Setup */
-     , (25598,   2,  150994971) /* MotionTable */
-     , (25598,   3,  536870921) /* SoundTable */
-     , (25598,   6,   67109307) /* PaletteBase */
-     , (25598,   8,  100667938) /* Icon */
-     , (25598,  22,  872415260) /* PhysicsEffectTable */
+VALUES (25598,   1, 0x02000037) /* Setup */
+     , (25598,   2, 0x0900001B) /* MotionTable */
+     , (25598,   3, 0x20000009) /* SoundTable */
+     , (25598,   6, 0x040001BB) /* PaletteBase */
+     , (25598,   8, 0x06001222) /* Icon */
+     , (25598,  22, 0x3400001C) /* PhysicsEffectTable */
      , (25598,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25598, 8040, 3035496510, 171.431, 127.887, 300.003, -0.9903494, 0, 0, 0.1385931) /* PCAPRecordedLocation */
+VALUES (25598, 8040, 0xB4EE003E, 171.431, 127.887, 300.003, -0.990349, 0, 0, 0.138593) /* PCAPRecordedLocation */
 /* @teleloc 0xB4EE003E [171.431000 127.887000 300.003000] -0.990349 0.000000 0.000000 0.138593 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

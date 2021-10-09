@@ -39,10 +39,10 @@ VALUES (52175,   1, 'Thunder Turkey Leg') /* Name */
      , (52175,  16, 'A golden brown turkey leg with a crispy skin. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52175,   1,   33561614) /* Setup */
-     , (52175,   3,  536870932) /* SoundTable */
-     , (52175,   8,  100669950) /* Icon */
-     , (52175,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52175,   1, 0x02001C0E) /* Setup */
+     , (52175,   3, 0x20000014) /* SoundTable */
+     , (52175,   8, 0x060019FE) /* Icon */
+     , (52175,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52175,  6153,      2)  /* TryptophanComa */;

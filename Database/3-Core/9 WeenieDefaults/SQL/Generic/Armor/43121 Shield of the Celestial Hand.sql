@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43121,   1, 'Shield of the Celestial Hand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43121,   1,   33560663) /* Setup */
-     , (43121,   3,  536870932) /* SoundTable */
-     , (43121,   8,  100690259) /* Icon */
-     , (43121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43121,   1, 0x02001857) /* Setup */
+     , (43121,   3, 0x20000014) /* SoundTable */
+     , (43121,   8, 0x06006953) /* Icon */
+     , (43121,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43121,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
+VALUES (43121,  5896,      2)  /* CantripShieldAptitude3 */
      , (43121,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
      , (43121,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
      , (43121,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
-     , (43121,  5896,      2)  /* CantripShieldAptitude3 */;
+     , (43121,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */;

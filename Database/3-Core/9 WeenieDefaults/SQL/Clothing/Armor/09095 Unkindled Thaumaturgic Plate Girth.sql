@@ -33,8 +33,8 @@ VALUES (9095,   1, 'Unkindled Thaumaturgic Plate Girth') /* Name */
      , (9095,  16, 'A thaumaturgic plate girth. A Kindling Stone must be applied to it before it may be worn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9095,   1,   33554647) /* Setup */
-     , (9095,   3,  536870932) /* SoundTable */
-     , (9095,   6,   67108990) /* PaletteBase */
-     , (9095,   8,  100671353) /* Icon */
-     , (9095,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9095,   1, 0x020000D7) /* Setup */
+     , (9095,   3, 0x20000014) /* SoundTable */
+     , (9095,   6, 0x0400007E) /* PaletteBase */
+     , (9095,   8, 0x06001F79) /* Icon */
+     , (9095,  22, 0x3400002B) /* PhysicsEffectTable */;

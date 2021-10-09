@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33264,   1, 'Whirlwind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33264,   1,   33559965) /* Setup */
-     , (33264,   3,  536871110) /* SoundTable */
-     , (33264,   8,  100668442) /* Icon */
+VALUES (33264,   1, 0x0200159D) /* Setup */
+     , (33264,   3, 0x200000C6) /* SoundTable */
+     , (33264,   8, 0x0600141A) /* Icon */
      , (33264,  28,       3903) /* Spell - WhirlwindRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33264, 8040, 3932946695, 204.3792, 244.519, -46.6644, -0.8674287, 0, 0, 0.4975615) /* PCAPRecordedLocation */
+VALUES (33264, 8040, 0xEA6C0107, 204.3792, 244.519, -46.6644, -0.867429, 0, 0, 0.497562) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0107 [204.379200 244.519000 -46.664400] -0.867429 0.000000 0.000000 0.497562 */;

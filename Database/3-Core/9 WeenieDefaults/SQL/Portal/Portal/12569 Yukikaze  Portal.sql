@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12569,   1, 'Yukikaze  Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12569,   1,   33554867) /* Setup */
-     , (12569,   2,  150994947) /* MotionTable */
-     , (12569,   8,  100667499) /* Icon */;
+VALUES (12569,   1, 0x020001B3) /* Setup */
+     , (12569,   2, 0x09000003) /* MotionTable */
+     , (12569,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12569, 8040, 3138846760, 100.557, 172.413, 131.42, 0.9732114, 0, 0, 0.2299121) /* PCAPRecordedLocation */
+VALUES (12569, 8040, 0xBB170028, 100.557, 172.413, 131.42, 0.973211, 0, 0, 0.229912) /* PCAPRecordedLocation */
 /* @teleloc 0xBB170028 [100.557000 172.413000 131.420000] 0.973211 0.000000 0.000000 0.229912 */;

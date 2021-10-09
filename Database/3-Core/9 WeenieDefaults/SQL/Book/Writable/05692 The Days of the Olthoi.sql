@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5692,   1, 'The Days of the Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5692,   1,   33556013) /* Setup */
-     , (5692,   3,  536870932) /* SoundTable */
-     , (5692,   8,  100668236) /* Icon */
-     , (5692,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5692,   1, 0x0200062D) /* Setup */
+     , (5692,   3, 0x20000014) /* SoundTable */
+     , (5692,   8, 0x0600134C) /* Icon */
+     , (5692,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5692, 8040, 3130982668, 35, 183, 59, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (5692, 8040, 0xBA9F010C, 35, 183, 59, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xBA9F010C [35.000000 183.000000 59.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

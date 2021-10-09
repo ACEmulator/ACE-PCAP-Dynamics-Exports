@@ -51,16 +51,16 @@ VALUES (27342,   1, 'Volkama''s Panaq of the Rivers') /* Name */
      , (27342,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27342,   1,   33558662) /* Setup */
-     , (27342,   3,  536870932) /* SoundTable */
-     , (27342,   8,  100676376) /* Icon */
-     , (27342,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27342,   1, 0x02001086) /* Setup */
+     , (27342,   3, 0x20000014) /* SoundTable */
+     , (27342,   8, 0x06003318) /* Icon */
+     , (27342,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27342, 8040, 3482648578, 18.48532, 27.36357, 17.93, -0.9423787, 0, 0, 0.3345481) /* PCAPRecordedLocation */
+VALUES (27342, 8040, 0xCF950002, 18.48532, 27.36357, 17.93, -0.942379, 0, 0, 0.334548) /* PCAPRecordedLocation */
 /* @teleloc 0xCF950002 [18.485320 27.363570 17.930000] -0.942379 0.000000 0.000000 0.334548 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27342,  2470,      2)  /* StillWaterGreater */
-     , (27342,  2473,      2)  /* TorrentGreater */
-     , (27342,  3221,      2)  /* CascadeBowGreater */;
+VALUES (27342,  3221,      2)  /* CascadeBowGreater */
+     , (27342,  2470,      2)  /* StillWaterGreater */
+     , (27342,  2473,      2)  /* TorrentGreater */;

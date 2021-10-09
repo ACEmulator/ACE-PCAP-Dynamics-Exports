@@ -41,10 +41,10 @@ VALUES (29494,   1, 'Breastplate of Karlun') /* Name */
      , (29494,  15, 'A breastplate commonly worn by the Knights of Karlun.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29494,   1,   33559358) /* Setup */
-     , (29494,   3,  536870932) /* SoundTable */
-     , (29494,   8,  100686511) /* Icon */
-     , (29494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29494,   1, 0x0200133E) /* Setup */
+     , (29494,   3, 0x20000014) /* SoundTable */
+     , (29494,   8, 0x06005AAF) /* Icon */
+     , (29494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29494,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

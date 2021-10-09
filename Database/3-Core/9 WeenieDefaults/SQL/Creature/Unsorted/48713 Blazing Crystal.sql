@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48713,   1, 'Blazing Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48713,   1,   33556226) /* Setup */
-     , (48713,   2,  150995097) /* MotionTable */
-     , (48713,   3,  536871001) /* SoundTable */
-     , (48713,   6,   67111919) /* PaletteBase */
-     , (48713,   8,  100670395) /* Icon */
-     , (48713,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (48713,   1, 0x02000702) /* Setup */
+     , (48713,   2, 0x09000099) /* MotionTable */
+     , (48713,   3, 0x20000059) /* SoundTable */
+     , (48713,   6, 0x04000BEF) /* PaletteBase */
+     , (48713,   8, 0x06001BBB) /* Icon */
+     , (48713,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48713, 8040, 1482752333, 71.30726, -6.737144, 0.005190015, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (48713, 8040, 0x5861014D, 71.30726, -6.737144, 0.00519, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5861014D [71.307260 -6.737144 0.005190] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

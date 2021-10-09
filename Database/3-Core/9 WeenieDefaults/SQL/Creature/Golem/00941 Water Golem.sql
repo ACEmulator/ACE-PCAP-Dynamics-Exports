@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (941,   1, 'Water Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (941,   1,   33556454) /* Setup */
-     , (941,   2,  150995073) /* MotionTable */
-     , (941,   3,  536871067) /* SoundTable */
-     , (941,   8,  100667940) /* Icon */
-     , (941,  22,  872415330) /* PhysicsEffectTable */;
+VALUES (941,   1, 0x020007E6) /* Setup */
+     , (941,   2, 0x09000081) /* MotionTable */
+     , (941,   3, 0x2000009B) /* SoundTable */
+     , (941,   8, 0x06001224) /* Icon */
+     , (941,  22, 0x34000062) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (941, 8040, 3863806003, 157.4544, 52.86083, 32.01, -0.7928095, 0, 0, -0.6094696) /* PCAPRecordedLocation */
+VALUES (941, 8040, 0xE64D0033, 157.4544, 52.86083, 32.01, -0.79281, 0, 0, -0.60947) /* PCAPRecordedLocation */
 /* @teleloc 0xE64D0033 [157.454400 52.860830 32.010000] -0.792810 0.000000 0.000000 -0.609470 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

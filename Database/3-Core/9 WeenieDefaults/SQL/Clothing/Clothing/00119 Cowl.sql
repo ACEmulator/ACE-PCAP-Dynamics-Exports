@@ -43,13 +43,13 @@ VALUES (119,   1, 'Cowl') /* Name */
      , (119,  16, 'Cowl of Mana Renewal') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (119,   1,   33555048) /* Setup */
-     , (119,   3,  536870932) /* SoundTable */
-     , (119,   6,   67108990) /* PaletteBase */
-     , (119,   8,  100669190) /* Icon */
-     , (119,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (119,   1, 0x02000268) /* Setup */
+     , (119,   3, 0x20000014) /* SoundTable */
+     , (119,   6, 0x0400007E) /* PaletteBase */
+     , (119,   8, 0x06001706) /* Icon */
+     , (119,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (119,   216,      2)  /* ManaRenewalSelf5 */
+VALUES (119,  1539,      2)  /* LightningBane5 */
      , (119,  1486,      2)  /* Impenetrability6 */
-     , (119,  1539,      2)  /* LightningBane5 */;
+     , (119,   216,      2)  /* ManaRenewalSelf5 */;

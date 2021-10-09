@@ -20,5 +20,5 @@ VALUES (36910,   1, 'Jubilee Rug') /* Name */
      , (36910,  16, 'A holiday rug imbedded with tiny jewels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36910,   1,   33560430) /* Setup */
-     , (36910,   8,  100689761) /* Icon */;
+VALUES (36910,   1, 0x0200176E) /* Setup */
+     , (36910,   8, 0x06006761) /* Icon */;

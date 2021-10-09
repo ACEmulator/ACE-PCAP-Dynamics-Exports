@@ -40,13 +40,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46007,   1, 'Trousers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46007,   1,   33554653) /* Setup */
-     , (46007,   3,  536870932) /* SoundTable */
-     , (46007,   6,   67108990) /* PaletteBase */
-     , (46007,   8,  100667366) /* Icon */
-     , (46007,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46007,   1, 0x020000DD) /* Setup */
+     , (46007,   3, 0x20000014) /* SoundTable */
+     , (46007,   6, 0x0400007E) /* PaletteBase */
+     , (46007,   8, 0x06000FE6) /* Icon */
+     , (46007,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46007,   164,      2)  /* RegenerationOther6 */
-     , (46007,   188,      2)  /* RejuvenationOther6 */
-     , (46007,   211,      2)  /* ManaRenewalOther6 */;
+VALUES (46007,   211,      2)  /* ManaRenewalOther6 */
+     , (46007,   164,      2)  /* RegenerationOther6 */
+     , (46007,   188,      2)  /* RejuvenationOther6 */;

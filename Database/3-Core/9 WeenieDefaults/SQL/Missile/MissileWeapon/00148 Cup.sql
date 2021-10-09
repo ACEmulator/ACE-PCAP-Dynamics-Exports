@@ -46,11 +46,11 @@ VALUES (148,   1, 'Cup') /* Name */
      , (148,  16, 'Cup of Lockpicking') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (148,   1,   33554662) /* Setup */
-     , (148,   3,  536871012) /* SoundTable */
-     , (148,   6,   67111919) /* PaletteBase */
-     , (148,   8,  100668642) /* Icon */
-     , (148,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (148,   1, 0x020000E6) /* Setup */
+     , (148,   3, 0x20000064) /* SoundTable */
+     , (148,   6, 0x04000BEF) /* PaletteBase */
+     , (148,   8, 0x060014E2) /* Icon */
+     , (148,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (148,   924,      2)  /* LockpickMasterySelf3 */

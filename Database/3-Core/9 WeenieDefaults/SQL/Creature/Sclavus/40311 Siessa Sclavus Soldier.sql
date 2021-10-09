@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40311,   1, 'Siessa Sclavus Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40311,   1,   33560595) /* Setup */
-     , (40311,   2,  150995048) /* MotionTable */
-     , (40311,   3,  536870977) /* SoundTable */
-     , (40311,   6,   67111936) /* PaletteBase */
-     , (40311,   8,  100669120) /* Icon */
-     , (40311,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (40311,   1, 0x02001813) /* Setup */
+     , (40311,   2, 0x09000068) /* MotionTable */
+     , (40311,   3, 0x20000041) /* SoundTable */
+     , (40311,   6, 0x04000C00) /* PaletteBase */
+     , (40311,   8, 0x060016C0) /* Icon */
+     , (40311,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40311, 8040, 4163960869, 101.4581, 114.6558, 56.44535, -0.593882, 0, 0, -0.8045521) /* PCAPRecordedLocation */
+VALUES (40311, 8040, 0xF8310025, 101.4581, 114.6558, 56.44535, -0.593882, 0, 0, -0.804552) /* PCAPRecordedLocation */
 /* @teleloc 0xF8310025 [101.458100 114.655800 56.445350] -0.593882 0.000000 0.000000 -0.804552 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

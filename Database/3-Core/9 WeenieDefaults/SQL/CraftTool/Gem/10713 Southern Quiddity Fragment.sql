@@ -25,8 +25,8 @@ VALUES (10713,   1, 'Southern Quiddity Fragment') /* Name */
      , (10713,  16, 'A strange purple fragment, alive with otherworldly energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10713,   1,   33557049) /* Setup */
-     , (10713,   3,  536870932) /* SoundTable */
-     , (10713,   6,   67111928) /* PaletteBase */
-     , (10713,   8,  100671666) /* Icon */
-     , (10713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10713,   1, 0x02000A39) /* Setup */
+     , (10713,   3, 0x20000014) /* SoundTable */
+     , (10713,   6, 0x04000BF8) /* PaletteBase */
+     , (10713,   8, 0x060020B2) /* Icon */
+     , (10713,  22, 0x3400002B) /* PhysicsEffectTable */;

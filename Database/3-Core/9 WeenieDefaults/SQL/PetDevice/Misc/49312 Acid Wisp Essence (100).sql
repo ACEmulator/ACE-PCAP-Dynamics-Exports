@@ -39,10 +39,10 @@ VALUES (49312,   1, 'Acid Wisp Essence (100)') /* Name */
      , (49312,  14, 'Use this essence to summon or dismiss your Acid Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49312,   1,   33554817) /* Setup */
-     , (49312,   3,  536870932) /* SoundTable */
-     , (49312,   6,   67111919) /* PaletteBase */
-     , (49312,   8,  100693035) /* Icon */
-     , (49312,  22,  872415275) /* PhysicsEffectTable */
-     , (49312,  50,  100693028) /* IconOverlay */
-     , (49312,  52,  100693024) /* IconUnderlay */;
+VALUES (49312,   1, 0x02000181) /* Setup */
+     , (49312,   3, 0x20000014) /* SoundTable */
+     , (49312,   6, 0x04000BEF) /* PaletteBase */
+     , (49312,   8, 0x0600742B) /* Icon */
+     , (49312,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49312,  50, 0x06007424) /* IconOverlay */
+     , (49312,  52, 0x06007420) /* IconUnderlay */;

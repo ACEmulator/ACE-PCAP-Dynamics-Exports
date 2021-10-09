@@ -44,8 +44,8 @@ VALUES (3774,   1, 'Acid Dabus') /* Name */
      , (3774,  16, 'Acid Dabus') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3774,   1,   33555742) /* Setup */
-     , (3774,   3,  536870932) /* SoundTable */
-     , (3774,   8,  100668873) /* Icon */
-     , (3774,  22,  872415275) /* PhysicsEffectTable */
-     , (3774,  52,  100676437) /* IconUnderlay */;
+VALUES (3774,   1, 0x0200051E) /* Setup */
+     , (3774,   3, 0x20000014) /* SoundTable */
+     , (3774,   8, 0x060015C9) /* Icon */
+     , (3774,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3774,  52, 0x06003355) /* IconUnderlay */;

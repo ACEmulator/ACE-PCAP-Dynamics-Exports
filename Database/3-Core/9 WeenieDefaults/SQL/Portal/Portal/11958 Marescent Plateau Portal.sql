@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11958,   1, 'Marescent Plateau Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11958,   1,   33555926) /* Setup */
-     , (11958,   2,  150994947) /* MotionTable */
-     , (11958,   8,  100667499) /* Icon */;
+VALUES (11958,   1, 0x020005D6) /* Setup */
+     , (11958,   2, 0x09000003) /* MotionTable */
+     , (11958,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11958, 8040, 515047682, 83.9429, 189.375, 5.18659, -0.9996462, 0, 0, -0.0266) /* PCAPRecordedLocation */
+VALUES (11958, 8040, 0x1EB30102, 83.9429, 189.375, 5.18659, -0.999646, 0, 0, -0.0266) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB30102 [83.942900 189.375000 5.186590] -0.999646 0.000000 0.000000 -0.026600 */;

@@ -40,13 +40,13 @@ VALUES (24374,   1, 'Asheron''s Raiment') /* Name */
      , (24374,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24374,   1,   33554854) /* Setup */
-     , (24374,   3,  536870932) /* SoundTable */
-     , (24374,   6,   67108990) /* PaletteBase */
-     , (24374,   8,  100674398) /* Icon */
-     , (24374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24374,   1, 0x020001A6) /* Setup */
+     , (24374,   3, 0x20000014) /* SoundTable */
+     , (24374,   6, 0x0400007E) /* PaletteBase */
+     , (24374,   8, 0x06002B5E) /* Icon */
+     , (24374,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24374,  1120,      2)  /* BladeProtectionOther6 */
-     , (24374,  1337,      2)  /* StrengthOther6 */
-     , (24374,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+VALUES (24374,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (24374,  1120,      2)  /* BladeProtectionOther6 */
+     , (24374,  1337,      2)  /* StrengthOther6 */;

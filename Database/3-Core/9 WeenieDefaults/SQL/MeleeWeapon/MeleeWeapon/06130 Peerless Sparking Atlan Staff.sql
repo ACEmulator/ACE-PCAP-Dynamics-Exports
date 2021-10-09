@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6130,   1, 'Peerless Sparking Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6130,   1,   33556372) /* Setup */
-     , (6130,   3,  536870932) /* SoundTable */
-     , (6130,   8,  100670561) /* Icon */
-     , (6130,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6130,   1, 0x02000794) /* Setup */
+     , (6130,   3, 0x20000014) /* SoundTable */
+     , (6130,   8, 0x06001C61) /* Icon */
+     , (6130,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6130, 8040, 3332964380, 76.3209, 73.47973, 41.929, -0.6799324, -0.6799324, -0.1941441, -0.1941441) /* PCAPRecordedLocation */
+VALUES (6130, 8040, 0xC6A9001C, 76.3209, 73.47973, 41.929, -0.679932, -0.679932, -0.194144, -0.194144) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.320900 73.479730 41.929000] -0.679932 -0.679932 -0.194144 -0.194144 */;

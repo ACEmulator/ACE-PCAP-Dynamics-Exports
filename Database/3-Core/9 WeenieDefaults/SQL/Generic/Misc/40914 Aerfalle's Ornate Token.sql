@@ -24,8 +24,8 @@ VALUES (40914,   1, 'Aerfalle''s Ornate Token') /* Name */
      , (40914,  16, 'An ornate, ancient token, carved in the artistic fashion of the Dericost Nobility.  The edge of the token is inscribed with tiny Dericost runes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40914,   1,   33554689) /* Setup */
-     , (40914,   3,  536870932) /* SoundTable */
-     , (40914,   6,   67111919) /* PaletteBase */
-     , (40914,   8,  100670319) /* Icon */
-     , (40914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40914,   1, 0x02000101) /* Setup */
+     , (40914,   3, 0x20000014) /* SoundTable */
+     , (40914,   6, 0x04000BEF) /* PaletteBase */
+     , (40914,   8, 0x06001B6F) /* Icon */
+     , (40914,  22, 0x3400002B) /* PhysicsEffectTable */;

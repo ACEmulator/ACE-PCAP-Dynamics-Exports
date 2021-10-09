@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35662,   1, 'Demon Swarm Clawbearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35662,   1,   33557046) /* Setup */
-     , (35662,   2,  150995445) /* MotionTable */
-     , (35662,   3,  536871036) /* SoundTable */
-     , (35662,   6,   67113194) /* PaletteBase */
-     , (35662,   8,  100667623) /* Icon */
-     , (35662,  22,  872415378) /* PhysicsEffectTable */
+VALUES (35662,   1, 0x02000A36) /* Setup */
+     , (35662,   2, 0x090001F5) /* MotionTable */
+     , (35662,   3, 0x2000007C) /* SoundTable */
+     , (35662,   6, 0x040010EA) /* PaletteBase */
+     , (35662,   8, 0x060010E7) /* Icon */
+     , (35662,  22, 0x34000092) /* PhysicsEffectTable */
      , (35662,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35662, 8040, 11927848, 217.0812, -176.4449, -11.9078, 0.4308205, 0, 0, -0.9024377) /* PCAPRecordedLocation */
+VALUES (35662, 8040, 0x00B60128, 217.0812, -176.4449, -11.9078, 0.430821, 0, 0, -0.902438) /* PCAPRecordedLocation */
 /* @teleloc 0x00B60128 [217.081200 -176.444900 -11.907800] 0.430821 0.000000 0.000000 -0.902438 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

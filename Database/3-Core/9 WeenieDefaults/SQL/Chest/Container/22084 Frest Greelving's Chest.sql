@@ -26,14 +26,14 @@ VALUES (22084,   1, 'Frest Greelving''s Chest') /* Name */
      , (22084,  16, 'A chest belonging to Frest Greelving') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22084,   1,   33554556) /* Setup */
-     , (22084,   2,  150994948) /* MotionTable */
-     , (22084,   3,  536870945) /* SoundTable */
-     , (22084,   8,  100667424) /* Icon */
-     , (22084,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22084,   1, 0x0200007C) /* Setup */
+     , (22084,   2, 0x09000004) /* MotionTable */
+     , (22084,   3, 0x20000021) /* SoundTable */
+     , (22084,   8, 0x06001020) /* Icon */
+     , (22084,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22084, 8040, 3062300990, 56.2522, 139.068, 95.2, 0.7498818, 0, 0, 0.6615718) /* PCAPRecordedLocation */
+VALUES (22084, 8040, 0xB687013E, 56.2522, 139.068, 95.2, 0.749882, 0, 0, 0.661572) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013E [56.252200 139.068000 95.200000] 0.749882 0.000000 0.000000 0.661572 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

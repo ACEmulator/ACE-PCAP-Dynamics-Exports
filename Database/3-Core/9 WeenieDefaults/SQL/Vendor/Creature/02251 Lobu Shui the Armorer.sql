@@ -34,20 +34,20 @@ VALUES (2251,   1, 'Lobu Shui the Armorer') /* Name */
      , (2251,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2251,   1,   33554433) /* Setup */
-     , (2251,   2,  150994945) /* MotionTable */
-     , (2251,   3,  536870913) /* SoundTable */
-     , (2251,   6,   67108990) /* PaletteBase */
-     , (2251,   8,  100667446) /* Icon */
-     , (2251,   9,   83890450) /* EyesTexture */
-     , (2251,  10,   83890523) /* NoseTexture */
-     , (2251,  11,   83890658) /* MouthTexture */
-     , (2251,  15,   67117023) /* HairPalette */
-     , (2251,  16,   67110063) /* EyesPalette */
-     , (2251,  17,   67110047) /* SkinPalette */;
+VALUES (2251,   1, 0x02000001) /* Setup */
+     , (2251,   2, 0x09000001) /* MotionTable */
+     , (2251,   3, 0x20000001) /* SoundTable */
+     , (2251,   6, 0x0400007E) /* PaletteBase */
+     , (2251,   8, 0x06001036) /* Icon */
+     , (2251,   9, 0x05001112) /* EyesTexture */
+     , (2251,  10, 0x0500115B) /* NoseTexture */
+     , (2251,  11, 0x050011E2) /* MouthTexture */
+     , (2251,  15, 0x04001FDF) /* HairPalette */
+     , (2251,  16, 0x040004AF) /* EyesPalette */
+     , (2251,  17, 0x0400049F) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2251, 8040, 3443589482, 67.7673, 152.535, 54.005, 0.7315662, 0, 0, -0.6817704) /* PCAPRecordedLocation */
+VALUES (2251, 8040, 0xCD41016A, 67.7673, 152.535, 54.005, 0.731566, 0, 0, -0.68177) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41016A [67.767300 152.535000 54.005000] 0.731566 0.000000 0.000000 -0.681770 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

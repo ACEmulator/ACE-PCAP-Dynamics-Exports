@@ -21,7 +21,7 @@ VALUES (28718,   1, 'Ravenous Eater Jaw') /* Name */
      , (28718,  16, 'This eater jaw has rows of long sharp teeth. Bile continues to drip from it as if it were still alive.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28718,   1,   33554769) /* Setup */
-     , (28718,   3,  536870932) /* SoundTable */
-     , (28718,   8,  100686350) /* Icon */
-     , (28718,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28718,   1, 0x02000151) /* Setup */
+     , (28718,   3, 0x20000014) /* SoundTable */
+     , (28718,   8, 0x06005A0E) /* Icon */
+     , (28718,  22, 0x3400002B) /* PhysicsEffectTable */;

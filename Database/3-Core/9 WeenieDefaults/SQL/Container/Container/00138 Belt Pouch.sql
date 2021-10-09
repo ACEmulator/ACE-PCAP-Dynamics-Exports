@@ -26,7 +26,7 @@ VALUES (138,   1, 'Belt Pouch') /* Name */
      , (138,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (138,   1,   33554770) /* Setup */
-     , (138,   3,  536870932) /* SoundTable */
-     , (138,   8,  100675529) /* Icon */
-     , (138,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (138,   1, 0x02000152) /* Setup */
+     , (138,   3, 0x20000014) /* SoundTable */
+     , (138,   8, 0x06002FC9) /* Icon */
+     , (138,  22, 0x3400002B) /* PhysicsEffectTable */;

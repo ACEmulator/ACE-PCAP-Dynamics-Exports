@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47542,   1, 'Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47542,   1,   33554738) /* Setup */
-     , (47542,   3,  536870932) /* SoundTable */
-     , (47542,   8,  100667593) /* Icon */
-     , (47542,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47542,   1, 0x02000132) /* Setup */
+     , (47542,   3, 0x20000014) /* SoundTable */
+     , (47542,   8, 0x060010C9) /* Icon */
+     , (47542,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47542, 8040, 3764256772, 13.16008, 76.90836, 10.30079, 0.3641869, 0.3641869, -0.6061088, -0.6061088) /* PCAPRecordedLocation */
+VALUES (47542, 8040, 0xE05E0004, 13.16008, 76.90836, 10.30079, 0.364187, 0.364187, -0.606109, -0.606109) /* PCAPRecordedLocation */
 /* @teleloc 0xE05E0004 [13.160080 76.908360 10.300790] 0.364187 0.364187 -0.606109 -0.606109 */;

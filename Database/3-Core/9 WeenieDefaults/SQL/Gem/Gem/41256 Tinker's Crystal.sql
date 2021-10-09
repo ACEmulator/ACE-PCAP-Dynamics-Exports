@@ -32,10 +32,10 @@ VALUES (41256,   1, 'Tinker''s Crystal') /* Name */
      , (41256,  20, 'Tinker''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41256,   1,   33554809) /* Setup */
-     , (41256,   3,  536870932) /* SoundTable */
-     , (41256,   8,  100686697) /* Icon */
-     , (41256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41256,   1, 0x02000179) /* Setup */
+     , (41256,   3, 0x20000014) /* SoundTable */
+     , (41256,   8, 0x06005B69) /* Icon */
+     , (41256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41256,  28,       3714) /* Spell - ItemExpertiseRare */
-     , (41256,  50,  100686661) /* IconOverlay */
-     , (41256,  52,  100686604) /* IconUnderlay */;
+     , (41256,  50, 0x06005B45) /* IconOverlay */
+     , (41256,  52, 0x06005B0C) /* IconUnderlay */;

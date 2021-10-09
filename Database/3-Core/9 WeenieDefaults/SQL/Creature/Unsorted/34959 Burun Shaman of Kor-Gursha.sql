@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34959,   1, 'Burun Shaman of Kor-Gursha') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34959,   1,   33558747) /* Setup */
-     , (34959,   2,  150995272) /* MotionTable */
-     , (34959,   3,  536871083) /* SoundTable */
-     , (34959,   6,   67114919) /* PaletteBase */
-     , (34959,   8,  100675761) /* Icon */;
+VALUES (34959,   1, 0x020010DB) /* Setup */
+     , (34959,   2, 0x09000148) /* MotionTable */
+     , (34959,   3, 0x200000AB) /* SoundTable */
+     , (34959,   6, 0x040017A7) /* PaletteBase */
+     , (34959,   8, 0x060030B1) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34959, 8040, 7078298, 110, -300, -17.96795, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34959, 8040, 0x006C019A, 110, -300, -17.96795, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x006C019A [110.000000 -300.000000 -17.967950] 1.000000 0.000000 0.000000 0.000000 */;

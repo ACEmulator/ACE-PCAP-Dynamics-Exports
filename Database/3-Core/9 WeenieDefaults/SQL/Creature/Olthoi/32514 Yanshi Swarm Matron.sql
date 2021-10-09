@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32514,   1, 'Yanshi Swarm Matron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32514,   1,   33557165) /* Setup */
-     , (32514,   2,  150995135) /* MotionTable */
-     , (32514,   3,  536871037) /* SoundTable */
-     , (32514,   8,  100667623) /* Icon */
-     , (32514,  22,  872415379) /* PhysicsEffectTable */
+VALUES (32514,   1, 0x02000AAD) /* Setup */
+     , (32514,   2, 0x090000BF) /* MotionTable */
+     , (32514,   3, 0x2000007D) /* SoundTable */
+     , (32514,   8, 0x060010E7) /* Icon */
+     , (32514,  22, 0x34000093) /* PhysicsEffectTable */
      , (32514,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32514, 8040, 4588500, 549.93, -36.9689, 42, -0.004204, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (32514, 8040, 0x004603D4, 549.93, -36.9689, 42, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x004603D4 [549.930000 -36.968900 42.000000] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

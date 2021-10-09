@@ -25,11 +25,11 @@ VALUES (33987,   1, 'Ancient Bone') /* Name */
      , (33987,  16, 'An ancient bone with many nicks and cuts. It resembles a gromnie leg bone in its size and shape.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33987,   1,   33560097) /* Setup */
-     , (33987,   3,  536870932) /* SoundTable */
-     , (33987,   8,  100689105) /* Icon */
-     , (33987,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33987,   1, 0x02001621) /* Setup */
+     , (33987,   3, 0x20000014) /* SoundTable */
+     , (33987,   8, 0x060064D1) /* Icon */
+     , (33987,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33987, 8040, 13701206, 247.568, -197.265, -6, 0.7455607, 0, 0, -0.6664377) /* PCAPRecordedLocation */
+VALUES (33987, 8040, 0x00D11056, 247.568, -197.265, -6, 0.745561, 0, 0, -0.666438) /* PCAPRecordedLocation */
 /* @teleloc 0x00D11056 [247.568000 -197.265000 -6.000000] 0.745561 0.000000 0.000000 -0.666438 */;

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7D77;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D77001,  1154, 0x7D77000E, 26.20214, 124.1631, 10.0025, -0.9961, 0, 0, -0.08823127, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x77D77001,  1154, 0x7D77000E, 26.20214, 124.1631, 10.0025, -0.9961, 0, 0, -0.088231, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x7D77000E [26.202140 124.163100 10.002500] -0.996100 0.000000 0.000000 -0.088231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -10,7 +10,7 @@ VALUES (0x77D77001, 0x77D77002, '2019-02-10 00:00:00') /* Skeleton Captain (1761
      , (0x77D77001, 0x77D77004, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D77002,  1761, 0x7D77000E, 26.20214, 124.1631, 10.0025, -0.9961, 0, 0, -0.08823127,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
+VALUES (0x77D77002,  1761, 0x7D77000E, 26.20214, 124.1631, 10.0025, -0.9961, 0, 0, -0.088231,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
 /* @teleloc 0x7D77000E [26.202140 124.163100 10.002500] -0.996100 0.000000 0.000000 -0.088231 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

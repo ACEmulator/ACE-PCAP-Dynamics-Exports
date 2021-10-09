@@ -22,12 +22,12 @@ VALUES (14467,   1, 'Fireplace') /* Name */
      , (14467,  15, 'Just an ordinary fireplace.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14467,   1,   33557470) /* Setup */
-     , (14467,   2,  150995148) /* MotionTable */
-     , (14467,   3,  536871044) /* SoundTable */
-     , (14467,   8,  100672429) /* Icon */
-     , (14467,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14467,   1, 0x02000BDE) /* Setup */
+     , (14467,   2, 0x090000CC) /* MotionTable */
+     , (14467,   3, 0x20000084) /* SoundTable */
+     , (14467,   8, 0x060023AD) /* Icon */
+     , (14467,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14467, 8040, 1383399700, 14.995, -9.525, 0.0475003, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (14467, 8040, 0x52750114, 14.995, -9.525, 0.0475, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x52750114 [14.995000 -9.525000 0.047500] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -34,14 +34,14 @@ VALUES (24591,   1, 'Aun Gunditealuan the Marksman') /* Name */
      , (24591,   5, 'Master Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24591,   1,   33557117) /* Setup */
-     , (24591,   2,  150994954) /* MotionTable */
-     , (24591,   3,  536870931) /* SoundTable */
-     , (24591,   6,   67113280) /* PaletteBase */
-     , (24591,   8,  100671756) /* Icon */;
+VALUES (24591,   1, 0x02000A7D) /* Setup */
+     , (24591,   2, 0x0900000A) /* MotionTable */
+     , (24591,   3, 0x20000013) /* SoundTable */
+     , (24591,   6, 0x04001140) /* PaletteBase */
+     , (24591,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24591, 8040, 722600234, 149.886, 6.8133, 48.007, 0.9990788, 0, 0, -0.04291499) /* PCAPRecordedLocation */
+VALUES (24591, 8040, 0x2B12012A, 149.886, 6.8133, 48.007, 0.999079, 0, 0, -0.042915) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12012A [149.886000 6.813300 48.007000] 0.999079 0.000000 0.000000 -0.042915 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

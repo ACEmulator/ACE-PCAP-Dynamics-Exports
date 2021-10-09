@@ -25,7 +25,7 @@ VALUES (14530,   1, 'Craftable Prism Fragment of Acid') /* Name */
      , (14530,  16, 'A fragment taken from an acid prism.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14530,   1,   33557506) /* Setup */
-     , (14530,   3,  536870932) /* SoundTable */
-     , (14530,   8,  100672509) /* Icon */
-     , (14530,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14530,   1, 0x02000C02) /* Setup */
+     , (14530,   3, 0x20000014) /* SoundTable */
+     , (14530,   8, 0x060023FD) /* Icon */
+     , (14530,  22, 0x3400002B) /* PhysicsEffectTable */;

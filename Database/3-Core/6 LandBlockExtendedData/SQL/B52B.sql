@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB52B;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B52B001,  1154, 0xB52B0017, 69.50832, 158.6769, 197.3562, 0.8337611, 0, 0, -0.5521254, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B52B001,  1154, 0xB52B0017, 69.50832, 158.6769, 197.3562, 0.833761, 0, 0, -0.552125, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB52B0017 [69.508320 158.676900 197.356200] 0.833761 0.000000 0.000000 -0.552125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,11 +9,11 @@ VALUES (0x7B52B001, 0x7B52B002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
      , (0x7B52B001, 0x7B52B003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B52B002, 14559, 0xB52B0017, 69.50832, 158.6769, 197.3562, 0.8337611, 0, 0, -0.5521254,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+VALUES (0x7B52B002, 14559, 0xB52B0017, 69.50832, 158.6769, 197.3562, 0.833761, 0, 0, -0.552125,  True, '2019-02-10 00:00:00'); /* Oak Golem */
 /* @teleloc 0xB52B0017 [69.508320 158.676900 197.356200] 0.833761 0.000000 0.000000 -0.552125 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B52B003,  7088, 0xB52B0019, 73.01202, 2.482777, 296.9265, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+VALUES (0x7B52B003,  7088, 0xB52B0019, 73.01202, 2.482777, 296.9265, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
 /* @teleloc 0xB52B0019 [73.012020 2.482777 296.926500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

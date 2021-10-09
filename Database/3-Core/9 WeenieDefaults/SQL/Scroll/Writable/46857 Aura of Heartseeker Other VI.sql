@@ -23,7 +23,7 @@ VALUES (46857,   1, 'Aura of Heartseeker Other VI') /* Name */
 Increases a weapon''s Attack Skill modifier by 15.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46857,   1,   33554826) /* Setup */
-     , (46857,   8,  100676660) /* Icon */
-     , (46857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46857,   1, 0x0200018A) /* Setup */
+     , (46857,   8, 0x06003434) /* Icon */
+     , (46857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46857,  28,       6012) /* Spell - HeartSeekerOther6 */;

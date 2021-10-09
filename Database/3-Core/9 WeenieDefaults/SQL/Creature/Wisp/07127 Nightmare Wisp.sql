@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7127,   1, 'Nightmare Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7127,   1,   33556634) /* Setup */
-     , (7127,   2,  150994993) /* MotionTable */
-     , (7127,   3,  536870985) /* SoundTable */
-     , (7127,   8,  100668442) /* Icon */
-     , (7127,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (7127,   1, 0x0200089A) /* Setup */
+     , (7127,   2, 0x09000031) /* MotionTable */
+     , (7127,   3, 0x20000049) /* SoundTable */
+     , (7127,   8, 0x0600141A) /* Icon */
+     , (7127,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7127, 8040, 1089470466, 8.573638, 43.30489, 3.217484, -0.8876575, 0, 0, -0.4605043) /* PCAPRecordedLocation */
+VALUES (7127, 8040, 0x40F00002, 8.573638, 43.30489, 3.217484, -0.887658, 0, 0, -0.460504) /* PCAPRecordedLocation */
 /* @teleloc 0x40F00002 [8.573638 43.304890 3.217484] -0.887658 0.000000 0.000000 -0.460504 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

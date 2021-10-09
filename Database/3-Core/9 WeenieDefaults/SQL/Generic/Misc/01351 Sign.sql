@@ -18,9 +18,9 @@ VALUES (1351,   1, 'Sign') /* Name */
      , (1351,  16, 'Warning! One-Way Travel!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1351,   1,   33555088) /* Setup */
-     , (1351,   8,  100668115) /* Icon */;
+VALUES (1351,   1, 0x02000290) /* Setup */
+     , (1351,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1351, 8040, 3122069521, 66.844, 9.35452, 133.2205, 0.0701175, 0, 0, -0.997539) /* PCAPRecordedLocation */
+VALUES (1351, 8040, 0xBA170011, 66.844, 9.35452, 133.2205, 0.070118, 0, 0, -0.997539) /* PCAPRecordedLocation */
 /* @teleloc 0xBA170011 [66.844000 9.354520 133.220500] 0.070118 0.000000 0.000000 -0.997539 */;

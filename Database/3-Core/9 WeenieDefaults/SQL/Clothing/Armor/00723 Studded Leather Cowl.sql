@@ -43,11 +43,11 @@ VALUES (723,   1, 'Studded Leather Cowl') /* Name */
      , (723,  16, 'Studded Leather Cowl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (723,   1,   33555048) /* Setup */
-     , (723,   3,  536870932) /* SoundTable */
-     , (723,   6,   67108990) /* PaletteBase */
-     , (723,   8,  100669192) /* Icon */
-     , (723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (723,   1, 0x02000268) /* Setup */
+     , (723,   3, 0x20000014) /* SoundTable */
+     , (723,   6, 0x0400007E) /* PaletteBase */
+     , (723,   8, 0x06001708) /* Icon */
+     , (723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (723,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

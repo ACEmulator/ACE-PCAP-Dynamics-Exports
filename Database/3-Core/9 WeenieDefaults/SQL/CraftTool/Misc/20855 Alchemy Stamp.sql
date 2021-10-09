@@ -26,8 +26,8 @@ VALUES (20855,   1, 'Alchemy Stamp') /* Name */
      , (20855,  15, 'A stamp with the symbol of Alchemy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20855,   1,   33556922) /* Setup */
-     , (20855,   3,  536870932) /* SoundTable */
-     , (20855,   8,  100673243) /* Icon */
-     , (20855,  22,  872415275) /* PhysicsEffectTable */
-     , (20855,  50,  100673104) /* IconOverlay */;
+VALUES (20855,   1, 0x020009BA) /* Setup */
+     , (20855,   3, 0x20000014) /* SoundTable */
+     , (20855,   8, 0x060026DB) /* Icon */
+     , (20855,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20855,  50, 0x06002650) /* IconOverlay */;

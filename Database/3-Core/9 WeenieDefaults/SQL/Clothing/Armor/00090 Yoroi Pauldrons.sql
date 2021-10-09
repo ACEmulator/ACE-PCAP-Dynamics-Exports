@@ -43,15 +43,15 @@ VALUES (90,   1, 'Yoroi Pauldrons') /* Name */
      , (90,  16, 'Yoroi Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (90,   1,   33554641) /* Setup */
-     , (90,   3,  536870932) /* SoundTable */
-     , (90,   6,   67108990) /* PaletteBase */
-     , (90,   8,  100668175) /* Icon */
-     , (90,  22,  872415275) /* PhysicsEffectTable */
+VALUES (90,   1, 0x020000D1) /* Setup */
+     , (90,   3, 0x20000014) /* SoundTable */
+     , (90,   6, 0x0400007E) /* PaletteBase */
+     , (90,   8, 0x0600130F) /* Icon */
+     , (90,  22, 0x3400002B) /* PhysicsEffectTable */
      , (90,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (90,  1485,      2)  /* Impenetrability5 */
-     , (90,  1528,      2)  /* FrostBane6 */
+     , (90,  2597,      2)  /* CANTRIPACIDBANE1 */
      , (90,  1573,      2)  /* PiercingBane5 */
-     , (90,  2597,      2)  /* CANTRIPACIDBANE1 */;
+     , (90,  1528,      2)  /* FrostBane6 */;

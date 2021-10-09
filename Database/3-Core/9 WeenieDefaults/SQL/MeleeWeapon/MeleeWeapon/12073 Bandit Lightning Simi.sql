@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12073,   1, 'Bandit Lightning Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12073,   1,   33555778) /* Setup */
-     , (12073,   3,  536870932) /* SoundTable */
-     , (12073,   8,  100668996) /* Icon */
-     , (12073,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12073,   1, 0x02000542) /* Setup */
+     , (12073,   3, 0x20000014) /* SoundTable */
+     , (12073,   8, 0x06001644) /* Icon */
+     , (12073,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12073, 8040, 548470832, 140.03, 170.6833, 6.041101, -0.6643578, -0.6643578, -0.2421336, -0.2421336) /* PCAPRecordedLocation */
+VALUES (12073, 8040, 0x20B10030, 140.03, 170.6833, 6.041101, -0.664358, -0.664358, -0.242134, -0.242134) /* PCAPRecordedLocation */
 /* @teleloc 0x20B10030 [140.030000 170.683300 6.041101] -0.664358 -0.664358 -0.242134 -0.242134 */;

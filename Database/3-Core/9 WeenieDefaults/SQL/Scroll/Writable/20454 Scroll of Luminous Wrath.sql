@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20454,   1, 'Scroll of Luminous Wrath') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20454,   1,   33554826) /* Setup */
-     , (20454,   8,  100677013) /* Icon */
-     , (20454,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20454,   1, 0x0200018A) /* Setup */
+     , (20454,   8, 0x06003595) /* Icon */
+     , (20454,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20454,  28,       2139) /* Spell - LightningBlast7 */;

@@ -49,13 +49,13 @@ VALUES (40627,   1, 'Frost Quadrelle') /* Name */
      , (40627,  16, 'Frost Quadrelle of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40627,   1,   33560724) /* Setup */
-     , (40627,   3,  536870932) /* SoundTable */
-     , (40627,   6,   67116833) /* PaletteBase */
-     , (40627,   8,  100690786) /* Icon */
-     , (40627,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40627,   1, 0x02001894) /* Setup */
+     , (40627,   3, 0x20000014) /* SoundTable */
+     , (40627,   6, 0x04001F21) /* PaletteBase */
+     , (40627,   8, 0x06006B62) /* Icon */
+     , (40627,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40627,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40627,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (40627,  5831,      2)  /* RecklessnessMasterySelf5 */;
+VALUES (40627,  5831,      2)  /* RecklessnessMasterySelf5 */
+     , (40627,  1616,      2)  /* BloodDrinkerSelf6 */;

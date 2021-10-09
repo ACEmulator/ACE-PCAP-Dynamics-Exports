@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29346,   1, 'Polar Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29346,   1,   33556773) /* Setup */
-     , (29346,   2,  150995100) /* MotionTable */
-     , (29346,   3,  536871011) /* SoundTable */
-     , (29346,   6,   67112944) /* PaletteBase */
-     , (29346,   8,  100670959) /* Icon */
-     , (29346,  22,  872415366) /* PhysicsEffectTable */;
+VALUES (29346,   1, 0x02000925) /* Setup */
+     , (29346,   2, 0x0900009C) /* MotionTable */
+     , (29346,   3, 0x20000063) /* SoundTable */
+     , (29346,   6, 0x04000FF0) /* PaletteBase */
+     , (29346,   8, 0x06001DEF) /* Icon */
+     , (29346,  22, 0x34000086) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29346, 8040, 888602660, 110.118, 92.45003, -0.4474001, -0.7843198, 0, 0, -0.6203567) /* PCAPRecordedLocation */
+VALUES (29346, 8040, 0x34F70024, 110.118, 92.45003, -0.4474, -0.78432, 0, 0, -0.620357) /* PCAPRecordedLocation */
 /* @teleloc 0x34F70024 [110.118000 92.450030 -0.447400] -0.784320 0.000000 0.000000 -0.620357 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

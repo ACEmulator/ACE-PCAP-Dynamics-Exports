@@ -40,12 +40,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28853,   1, 'Kam''shir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28853,   1,   33559349) /* Setup */
-     , (28853,   3,  536870932) /* SoundTable */
-     , (28853,   8,  100686400) /* Icon */
-     , (28853,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28853,   1, 0x02001335) /* Setup */
+     , (28853,   3, 0x20000014) /* SoundTable */
+     , (28853,   8, 0x06005A40) /* Icon */
+     , (28853,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28853,   246,      2)  /* InvulnerabilitySelf3 */
-     , (28853,  1032,      2)  /* ColdProtectionSelf3 */
-     , (28853,  1483,      2)  /* Impenetrability3 */;
+VALUES (28853,  1032,      2)  /* ColdProtectionSelf3 */
+     , (28853,  1483,      2)  /* Impenetrability3 */
+     , (28853,   246,      2)  /* InvulnerabilitySelf3 */;

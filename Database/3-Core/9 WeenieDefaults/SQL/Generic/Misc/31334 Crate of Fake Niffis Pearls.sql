@@ -22,7 +22,7 @@ VALUES (31334,   1, 'Crate of Fake Niffis Pearls') /* Name */
      , (31334,  16, 'A crate of Fake Niffis Pearls. Return this to an Agent of the Arcanum as evidence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31334,   1,   33554817) /* Setup */
-     , (31334,   3,  536870932) /* SoundTable */
-     , (31334,   8,  100674799) /* Icon */
-     , (31334,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31334,   1, 0x02000181) /* Setup */
+     , (31334,   3, 0x20000014) /* SoundTable */
+     , (31334,   8, 0x06002CEF) /* Icon */
+     , (31334,  22, 0x3400002B) /* PhysicsEffectTable */;

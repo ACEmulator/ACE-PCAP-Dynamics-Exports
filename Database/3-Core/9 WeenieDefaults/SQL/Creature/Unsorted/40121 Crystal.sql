@@ -26,12 +26,12 @@ VALUES (40121,   1, 'Crystal') /* Name */
      , (40121,  14, 'A crystal marking a special location.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40121,   1,   33558563) /* Setup */
-     , (40121,   2,  150995264) /* MotionTable */
-     , (40121,   3,  536871001) /* SoundTable */
-     , (40121,   8,  100667386) /* Icon */
-     , (40121,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (40121,   1, 0x02001023) /* Setup */
+     , (40121,   2, 0x09000140) /* MotionTable */
+     , (40121,   3, 0x20000059) /* SoundTable */
+     , (40121,   8, 0x06000FFA) /* Icon */
+     , (40121,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40121, 8040, 778830133, -270.38, 129.081, -35.6, -0.385432, 0, 0, -0.922736) /* PCAPRecordedLocation */
+VALUES (40121, 8040, 0x2E6C0135, -270.38, 129.081, -35.6, -0.385432, 0, 0, -0.922736) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C0135 [-270.380000 129.081000 -35.600000] -0.385432 0.000000 0.000000 -0.922736 */;

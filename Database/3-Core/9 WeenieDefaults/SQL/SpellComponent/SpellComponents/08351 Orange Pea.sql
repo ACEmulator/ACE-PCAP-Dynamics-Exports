@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8351,   1, 'Orange Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8351,   1,   33555445) /* Setup */
-     , (8351,   3,  536870932) /* SoundTable */
-     , (8351,   8,  100671107) /* Icon */
-     , (8351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8351,   1, 0x020003F5) /* Setup */
+     , (8351,   3, 0x20000014) /* SoundTable */
+     , (8351,   8, 0x06001E83) /* Icon */
+     , (8351,  22, 0x3400002B) /* PhysicsEffectTable */;

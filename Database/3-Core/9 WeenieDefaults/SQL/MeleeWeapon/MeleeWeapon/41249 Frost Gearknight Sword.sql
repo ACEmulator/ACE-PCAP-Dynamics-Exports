@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41249,   1, 'Frost Gearknight Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41249,   1,   33560851) /* Setup */
-     , (41249,   3,  536870932) /* SoundTable */
-     , (41249,   8,  100690551) /* Icon */
-     , (41249,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41249,   1, 0x02001913) /* Setup */
+     , (41249,   3, 0x20000014) /* SoundTable */
+     , (41249,   8, 0x06006A77) /* Icon */
+     , (41249,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41249, 8040, 462356520, 111.9134, 183.6015, 92.50961, -0.6815962, -0.6815962, -0.1882198, -0.1882198) /* PCAPRecordedLocation */
+VALUES (41249, 8040, 0x1B8F0028, 111.9134, 183.6015, 92.50961, -0.681596, -0.681596, -0.18822, -0.18822) /* PCAPRecordedLocation */
 /* @teleloc 0x1B8F0028 [111.913400 183.601500 92.509610] -0.681596 -0.681596 -0.188220 -0.188220 */;

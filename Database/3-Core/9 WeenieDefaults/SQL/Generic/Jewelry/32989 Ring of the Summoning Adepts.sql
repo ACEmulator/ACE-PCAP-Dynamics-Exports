@@ -25,7 +25,7 @@ VALUES (32989,   1, 'Ring of the Summoning Adepts') /* Name */
      , (32989,  16, 'This ring belonged to a Summoning Adept in the service of Count Dardante.  It served to grant them access to Dardante''s Summoning Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32989,   1,   33554690) /* Setup */
-     , (32989,   3,  536870932) /* SoundTable */
-     , (32989,   8,  100688859) /* Icon */
-     , (32989,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32989,   1, 0x02000102) /* Setup */
+     , (32989,   3, 0x20000014) /* SoundTable */
+     , (32989,   8, 0x060063DB) /* Icon */
+     , (32989,  22, 0x3400002B) /* PhysicsEffectTable */;

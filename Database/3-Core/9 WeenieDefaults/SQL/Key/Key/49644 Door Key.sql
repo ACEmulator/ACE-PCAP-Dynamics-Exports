@@ -25,7 +25,7 @@ VALUES (49644,   1, 'Door Key') /* Name */
      , (49644,  16, 'A key to the door the Simulacrum Shifter was guarding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49644,   1,   33554784) /* Setup */
-     , (49644,   3,  536870932) /* SoundTable */
-     , (49644,   8,  100671245) /* Icon */
-     , (49644,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49644,   1, 0x02000160) /* Setup */
+     , (49644,   3, 0x20000014) /* SoundTable */
+     , (49644,   8, 0x06001F0D) /* Icon */
+     , (49644,  22, 0x3400002B) /* PhysicsEffectTable */;

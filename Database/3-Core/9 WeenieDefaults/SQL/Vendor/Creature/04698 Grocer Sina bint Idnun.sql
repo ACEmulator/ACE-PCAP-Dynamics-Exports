@@ -34,20 +34,20 @@ VALUES (4698,   1, 'Grocer Sina bint Idnun') /* Name */
      , (4698,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4698,   1,   33554510) /* Setup */
-     , (4698,   2,  150994945) /* MotionTable */
-     , (4698,   3,  536870914) /* SoundTable */
-     , (4698,   6,   67108990) /* PaletteBase */
-     , (4698,   8,  100667446) /* Icon */
-     , (4698,   9,   83890260) /* EyesTexture */
-     , (4698,  10,   83890306) /* NoseTexture */
-     , (4698,  11,   83890338) /* MouthTexture */
-     , (4698,  15,   67116997) /* HairPalette */
-     , (4698,  16,   67110063) /* EyesPalette */
-     , (4698,  17,   67109557) /* SkinPalette */;
+VALUES (4698,   1, 0x0200004E) /* Setup */
+     , (4698,   2, 0x09000001) /* MotionTable */
+     , (4698,   3, 0x20000002) /* SoundTable */
+     , (4698,   6, 0x0400007E) /* PaletteBase */
+     , (4698,   8, 0x06001036) /* Icon */
+     , (4698,   9, 0x05001054) /* EyesTexture */
+     , (4698,  10, 0x05001082) /* NoseTexture */
+     , (4698,  11, 0x050010A2) /* MouthTexture */
+     , (4698,  15, 0x04001FC5) /* HairPalette */
+     , (4698,  16, 0x040004AF) /* EyesPalette */
+     , (4698,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4698, 8040, 2655191330, 31.4793, 125.946, 56.005, 0.9892784, 0, 0, -0.1460421) /* PCAPRecordedLocation */
+VALUES (4698, 8040, 0x9E430122, 31.4793, 125.946, 56.005, 0.989278, 0, 0, -0.146042) /* PCAPRecordedLocation */
 /* @teleloc 0x9E430122 [31.479300 125.946000 56.005000] 0.989278 0.000000 0.000000 -0.146042 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

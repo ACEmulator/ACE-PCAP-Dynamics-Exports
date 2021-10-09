@@ -22,7 +22,7 @@ VALUES (34592,   1, 'Prince''s Medal of Bravery') /* Name */
      , (34592,  16, 'This medal is etched with the arms of the Strathelar family. On the back is inscribed, "In thanks to service rendered to New Aluvia and all of Dereth."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34592,   1,   33560168) /* Setup */
-     , (34592,   3,  536870932) /* SoundTable */
-     , (34592,   8,  100689313) /* Icon */
-     , (34592,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34592,   1, 0x02001668) /* Setup */
+     , (34592,   3, 0x20000014) /* SoundTable */
+     , (34592,   8, 0x060065A1) /* Icon */
+     , (34592,  22, 0x3400002B) /* PhysicsEffectTable */;

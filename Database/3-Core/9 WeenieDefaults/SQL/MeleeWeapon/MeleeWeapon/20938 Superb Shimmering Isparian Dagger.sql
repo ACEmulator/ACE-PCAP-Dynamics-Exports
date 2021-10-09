@@ -46,10 +46,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20938,   1, 'Superb Shimmering Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20938,   1,   33557746) /* Setup */
-     , (20938,   3,  536870932) /* SoundTable */
-     , (20938,   8,  100673206) /* Icon */
-     , (20938,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20938,   1, 0x02000CF2) /* Setup */
+     , (20938,   3, 0x20000014) /* SoundTable */
+     , (20938,   8, 0x060026B6) /* Icon */
+     , (20938,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20938,  1312,      2)  /* ArmorSelf6 */

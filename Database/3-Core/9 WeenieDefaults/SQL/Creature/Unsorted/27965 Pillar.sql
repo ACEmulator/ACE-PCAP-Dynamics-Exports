@@ -26,12 +26,12 @@ VALUES (27965,   1, 'Pillar') /* Name */
      , (27965,  15, 'An ancient pillar with a setting for a square shaped plate. Currently a plate bearing a strange symbol rests in the depression. Other pillars about the room clearly display similar plates. Perhaps this is some sort of puzzle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27965,   1,   33558764) /* Setup */
-     , (27965,   2,  150995300) /* MotionTable */
-     , (27965,   3,  536871052) /* SoundTable */
-     , (27965,   8,  100676565) /* Icon */
-     , (27965,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27965,   1, 0x020010EC) /* Setup */
+     , (27965,   2, 0x09000164) /* MotionTable */
+     , (27965,   3, 0x2000008C) /* SoundTable */
+     , (27965,   8, 0x060033D5) /* Icon */
+     , (27965,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27965, 8040, 708772106, 108, 45, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (27965, 8040, 0x2A3F010A, 108, 45, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2A3F010A [108.000000 45.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;

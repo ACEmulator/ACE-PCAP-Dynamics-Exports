@@ -41,12 +41,12 @@ VALUES (32647,   1, 'Shadowfire Isparian Wand') /* Name */
      , (32647,  16, 'A Perfect Isparian Wand, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32647,   1,   33559826) /* Setup */
-     , (32647,   3,  536870932) /* SoundTable */
-     , (32647,   6,   67111919) /* PaletteBase */
-     , (32647,   8,  100688568) /* Icon */
-     , (32647,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32647,   1, 0x02001512) /* Setup */
+     , (32647,   3, 0x20000014) /* SoundTable */
+     , (32647,   6, 0x04000BEF) /* PaletteBase */
+     , (32647,   8, 0x060062B8) /* Icon */
+     , (32647,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32647, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (32647, 8040, 0xF418000D, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;

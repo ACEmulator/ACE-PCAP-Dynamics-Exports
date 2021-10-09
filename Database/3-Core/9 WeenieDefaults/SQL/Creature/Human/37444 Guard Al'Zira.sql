@@ -29,20 +29,20 @@ VALUES (37444,   1, 'Guard Al''Zira') /* Name */
      , (37444,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37444,   1,   33554510) /* Setup */
-     , (37444,   2,  150994945) /* MotionTable */
-     , (37444,   3,  536870913) /* SoundTable */
-     , (37444,   6,   67108990) /* PaletteBase */
-     , (37444,   8,  100667446) /* Icon */
-     , (37444,   9,   83890261) /* EyesTexture */
-     , (37444,  10,   83890303) /* NoseTexture */
-     , (37444,  11,   83890331) /* MouthTexture */
-     , (37444,  15,   67117016) /* HairPalette */
-     , (37444,  16,   67110063) /* EyesPalette */
-     , (37444,  17,   67109554) /* SkinPalette */;
+VALUES (37444,   1, 0x0200004E) /* Setup */
+     , (37444,   2, 0x09000001) /* MotionTable */
+     , (37444,   3, 0x20000001) /* SoundTable */
+     , (37444,   6, 0x0400007E) /* PaletteBase */
+     , (37444,   8, 0x06001036) /* Icon */
+     , (37444,   9, 0x05001055) /* EyesTexture */
+     , (37444,  10, 0x0500107F) /* NoseTexture */
+     , (37444,  11, 0x0500109B) /* MouthTexture */
+     , (37444,  15, 0x04001FD8) /* HairPalette */
+     , (37444,  16, 0x040004AF) /* EyesPalette */
+     , (37444,  17, 0x040002B2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37444, 8040, 1121845251, 12.8107, 69.4846, 4.005, 0.425166, 0, 0, 0.905115) /* PCAPRecordedLocation */
+VALUES (37444, 8040, 0x42DE0003, 12.8107, 69.4846, 4.005, 0.425166, 0, 0, 0.905115) /* PCAPRecordedLocation */
 /* @teleloc 0x42DE0003 [12.810700 69.484600 4.005000] 0.425166 0.000000 0.000000 0.905115 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

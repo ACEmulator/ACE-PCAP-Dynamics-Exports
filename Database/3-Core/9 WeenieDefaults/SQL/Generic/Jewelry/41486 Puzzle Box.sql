@@ -34,11 +34,11 @@ VALUES (41486,   1, 'Puzzle Box') /* Name */
      , (41486,  16, 'Puzzle Box of Deception') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41486,   1,   33554817) /* Setup */
-     , (41486,   3,  536870932) /* SoundTable */
-     , (41486,   6,   67111919) /* PaletteBase */
-     , (41486,   8,  100690665) /* Icon */
-     , (41486,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41486,   1, 0x02000181) /* Setup */
+     , (41486,   3, 0x20000014) /* SoundTable */
+     , (41486,   6, 0x04000BEF) /* PaletteBase */
+     , (41486,   8, 0x06006AE9) /* Icon */
+     , (41486,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41486,   853,      2)  /* DeceptionMasterySelf4 */;

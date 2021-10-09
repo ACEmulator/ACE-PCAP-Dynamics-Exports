@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38852,   1, 'Eldrytch Web Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38852,   1,   33560664) /* Setup */
-     , (38852,   3,  536870932) /* SoundTable */
-     , (38852,   8,  100690260) /* Icon */
-     , (38852,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38852,   1, 0x02001858) /* Setup */
+     , (38852,   3, 0x20000014) /* SoundTable */
+     , (38852,   8, 0x06006954) /* Icon */
+     , (38852,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38852, 8040, 1007484946, 49.1806, 26.50741, -0.07400001, -0.4952362, 0.2066963, 0.8168601, 0.2115592) /* PCAPRecordedLocation */
+VALUES (38852, 8040, 0x3C0D0012, 49.1806, 26.50741, -0.074, -0.495236, 0.206696, 0.81686, 0.211559) /* PCAPRecordedLocation */
 /* @teleloc 0x3C0D0012 [49.180600 26.507410 -0.074000] -0.495236 0.206696 0.816860 0.211559 */;

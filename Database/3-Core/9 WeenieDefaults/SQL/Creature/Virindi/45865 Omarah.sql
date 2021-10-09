@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45865,   1, 'Omarah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45865,   1,   33554497) /* Setup */
-     , (45865,   2,  150994984) /* MotionTable */
-     , (45865,   3,  536870930) /* SoundTable */
-     , (45865,   6,   67111346) /* PaletteBase */
-     , (45865,   8,  100667943) /* Icon */;
+VALUES (45865,   1, 0x02000041) /* Setup */
+     , (45865,   2, 0x09000028) /* MotionTable */
+     , (45865,   3, 0x20000012) /* SoundTable */
+     , (45865,   6, 0x040009B2) /* PaletteBase */
+     , (45865,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45865, 8040, 1236664615, 87.8275, 139.088, 236, -0.349938, 0, 0, -0.936773) /* PCAPRecordedLocation */
+VALUES (45865, 8040, 0x49B60127, 87.8275, 139.088, 236, -0.349938, 0, 0, -0.936773) /* PCAPRecordedLocation */
 /* @teleloc 0x49B60127 [87.827500 139.088000 236.000000] -0.349938 0.000000 0.000000 -0.936773 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

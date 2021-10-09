@@ -36,8 +36,8 @@ VALUES (96,   1, 'Chainmail Shirt') /* Name */
      , (96,  16, 'Chainmail Shirt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (96,   1,   33554883) /* Setup */
-     , (96,   3,  536870932) /* SoundTable */
-     , (96,   6,   67108990) /* PaletteBase */
-     , (96,   8,  100669212) /* Icon */
-     , (96,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (96,   1, 0x020001C3) /* Setup */
+     , (96,   3, 0x20000014) /* SoundTable */
+     , (96,   6, 0x0400007E) /* PaletteBase */
+     , (96,   8, 0x0600171C) /* Icon */
+     , (96,  22, 0x3400002B) /* PhysicsEffectTable */;

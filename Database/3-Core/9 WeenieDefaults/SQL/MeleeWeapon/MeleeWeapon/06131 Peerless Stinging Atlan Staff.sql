@@ -46,16 +46,16 @@ VALUES (6131,   1, 'Peerless Stinging Atlan Staff') /* Name */
      , (6131,   8, 'I Don''t Like Your Face') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6131,   1,   33556371) /* Setup */
-     , (6131,   3,  536870932) /* SoundTable */
-     , (6131,   6,   67111919) /* PaletteBase */
-     , (6131,   8,  100670564) /* Icon */
-     , (6131,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6131,   1, 0x02000793) /* Setup */
+     , (6131,   3, 0x20000014) /* SoundTable */
+     , (6131,   6, 0x04000BEF) /* PaletteBase */
+     , (6131,   8, 0x06001C64) /* Icon */
+     , (6131,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6131,   518,      2)  /* AcidProtectionSelf4 */
-     , (6131,  1376,      2)  /* CoordinationSelf4 */
-     , (6131,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6131,  1603,      2)  /* DefenderSelf4 */
+VALUES (6131,  1603,      2)  /* DefenderSelf4 */
+     , (6131,   518,      2)  /* AcidProtectionSelf4 */
      , (6131,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6131,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6131,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6131,  1376,      2)  /* CoordinationSelf4 */
+     , (6131,  1590,      2)  /* HeartSeekerSelf4 */;

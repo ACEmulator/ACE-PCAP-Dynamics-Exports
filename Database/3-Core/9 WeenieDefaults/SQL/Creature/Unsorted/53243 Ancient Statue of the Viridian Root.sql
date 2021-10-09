@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53243,   1, 'Ancient Statue of the Viridian Root') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53243,   1,   33558954) /* Setup */
-     , (53243,   2,  150995147) /* MotionTable */
-     , (53243,   3,  536871052) /* SoundTable */
-     , (53243,   8,  100688311) /* Icon */
-     , (53243,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53243,   1, 0x020011AA) /* Setup */
+     , (53243,   2, 0x090000CB) /* MotionTable */
+     , (53243,   3, 0x2000008C) /* SoundTable */
+     , (53243,   8, 0x060061B7) /* Icon */
+     , (53243,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53243, 8040, 1499857262, 30, -135, 0.1, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (53243, 8040, 0x5966016E, 30, -135, 0.1, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5966016E [30.000000 -135.000000 0.100000] 0.707107 0.000000 0.000000 -0.707107 */;

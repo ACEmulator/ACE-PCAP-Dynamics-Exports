@@ -45,16 +45,16 @@ VALUES (32980,   1, 'Princely Runed Partizan') /* Name */
      , (32980,  15, 'A partizan crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32980,   1,   33559865) /* Setup */
-     , (32980,   3,  536870932) /* SoundTable */
-     , (32980,   6,   67115560) /* PaletteBase */
-     , (32980,   8,  100686985) /* Icon */
-     , (32980,  22,  872415275) /* PhysicsEffectTable */
-     , (32980,  50,  100688913) /* IconOverlay */
+VALUES (32980,   1, 0x02001539) /* Setup */
+     , (32980,   3, 0x20000014) /* SoundTable */
+     , (32980,   6, 0x04001A28) /* PaletteBase */
+     , (32980,   8, 0x06005C89) /* Icon */
+     , (32980,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32980,  50, 0x06006411) /* IconOverlay */
      , (32980,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32980,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32980,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32980,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32980,  2101,      2)  /* DefenderSelf7 */
-     , (32980,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32980,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32980,  2106,      2)  /* HeartSeekerSelf7 */;

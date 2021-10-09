@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5687,   1, 'Alfrega the Reedshark') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5687,   1,   33554489) /* Setup */
-     , (5687,   2,  150994970) /* MotionTable */
-     , (5687,   3,  536870928) /* SoundTable */
-     , (5687,   8,  100667939) /* Icon */
-     , (5687,  22,  872415268) /* PhysicsEffectTable */;
+VALUES (5687,   1, 0x02000039) /* Setup */
+     , (5687,   2, 0x0900001A) /* MotionTable */
+     , (5687,   3, 0x20000010) /* SoundTable */
+     , (5687,   8, 0x06001223) /* Icon */
+     , (5687,  22, 0x34000024) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5687, 8040, 33031057, 96.9792, -39.7254, 6.0014, 0.679441, 0, 0, -0.7337301) /* PCAPRecordedLocation */
+VALUES (5687, 8040, 0x01F80391, 96.9792, -39.7254, 6.0014, 0.679441, 0, 0, -0.73373) /* PCAPRecordedLocation */
 /* @teleloc 0x01F80391 [96.979200 -39.725400 6.001400] 0.679441 0.000000 0.000000 -0.733730 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

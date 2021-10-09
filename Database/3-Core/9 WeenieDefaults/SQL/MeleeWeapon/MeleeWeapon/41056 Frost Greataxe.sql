@@ -49,11 +49,11 @@ VALUES (41056,   1, 'Frost Greataxe') /* Name */
      , (41056,  16, 'Frost Greataxe of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41056,   1,   33560806) /* Setup */
-     , (41056,   3,  536870932) /* SoundTable */
-     , (41056,   6,   67115558) /* PaletteBase */
-     , (41056,   8,  100690776) /* Icon */
-     , (41056,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41056,   1, 0x020018E6) /* Setup */
+     , (41056,   3, 0x20000014) /* SoundTable */
+     , (41056,   6, 0x04001A26) /* PaletteBase */
+     , (41056,   8, 0x06006B58) /* Icon */
+     , (41056,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41056,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

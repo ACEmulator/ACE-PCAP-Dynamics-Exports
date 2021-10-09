@@ -33,8 +33,8 @@ VALUES (43207,   1, 'Sparkling Apostate Shard') /* Name */
      , (43207,  16, 'A shard of congealed energy, attuned to one of the Apostate Nexi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43207,   1,   33554809) /* Setup */
-     , (43207,   3,  536870932) /* SoundTable */
-     , (43207,   6,   67111919) /* PaletteBase */
-     , (43207,   8,  100691482) /* Icon */
-     , (43207,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43207,   1, 0x02000179) /* Setup */
+     , (43207,   3, 0x20000014) /* SoundTable */
+     , (43207,   6, 0x04000BEF) /* PaletteBase */
+     , (43207,   8, 0x06006E1A) /* Icon */
+     , (43207,  22, 0x3400002B) /* PhysicsEffectTable */;

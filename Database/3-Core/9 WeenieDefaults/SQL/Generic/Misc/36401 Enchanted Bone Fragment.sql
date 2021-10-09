@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36401,   1, 'Enchanted Bone Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36401,   1,   33556593) /* Setup */
-     , (36401,   3,  536870932) /* SoundTable */
-     , (36401,   8,  100670681) /* Icon */
-     , (36401,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36401,   1, 0x02000871) /* Setup */
+     , (36401,   3, 0x20000014) /* SoundTable */
+     , (36401,   8, 0x06001CD9) /* Icon */
+     , (36401,  22, 0x3400002B) /* PhysicsEffectTable */;

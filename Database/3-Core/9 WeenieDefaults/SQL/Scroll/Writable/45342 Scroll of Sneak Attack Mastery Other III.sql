@@ -23,7 +23,7 @@ VALUES (45342,   1, 'Scroll of Sneak Attack Mastery Other III') /* Name */
 Increases the target''s Sneak Attack skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45342,   1,   33554826) /* Setup */
-     , (45342,   8,  100692253) /* Icon */
-     , (45342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45342,   1, 0x0200018A) /* Setup */
+     , (45342,   8, 0x0600711D) /* Icon */
+     , (45342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45342,  28,       5869) /* Spell - SneakAttackMasteryOther3 */;

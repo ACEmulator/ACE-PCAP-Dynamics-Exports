@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15703,   1, 'Mountain Retreat Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15703,   1,   33557463) /* Setup */
-     , (15703,   8,  100668115) /* Icon */;
+VALUES (15703,   1, 0x02000BD7) /* Setup */
+     , (15703,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15703, 8040, 2127036445, 89.0513, 102.786, 95.9, -0.863441, 0, 0, -0.50445) /* PCAPRecordedLocation */
+VALUES (15703, 8040, 0x7EC8001D, 89.0513, 102.786, 95.9, -0.863441, 0, 0, -0.50445) /* PCAPRecordedLocation */
 /* @teleloc 0x7EC8001D [89.051300 102.786000 95.900000] -0.863441 0.000000 0.000000 -0.504450 */;

@@ -47,14 +47,14 @@ VALUES (38465,   1, 'Celestial Hand Girth') /* Name */
      , (38465,  16, 'Celestial Hand Girth of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38465,   1,   33554647) /* Setup */
-     , (38465,   3,  536870932) /* SoundTable */
-     , (38465,   8,  100690165) /* Icon */
-     , (38465,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38465,   1, 0x020000D7) /* Setup */
+     , (38465,   3, 0x20000014) /* SoundTable */
+     , (38465,   8, 0x060068F5) /* Icon */
+     , (38465,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38465,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38465,  2108,      2)  /* Impenetrability7 */
-     , (38465,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+VALUES (38465,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (38465,  4496,      2)  /* RegenerationSelf8 */
      , (38465,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
-     , (38465,  4496,      2)  /* RegenerationSelf8 */;
+     , (38465,  2108,      2)  /* Impenetrability7 */;

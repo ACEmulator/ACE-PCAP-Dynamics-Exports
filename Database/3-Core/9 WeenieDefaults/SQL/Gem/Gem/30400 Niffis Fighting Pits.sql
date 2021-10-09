@@ -34,10 +34,10 @@ VALUES (30400,   1, 'Niffis Fighting Pits') /* Name */
      , (30400,  16, 'Banderling brothers! Come one, come all to the most excitable, tentaclicacal, fighttastical, Nifficacal, underground fight of the year! Bring your well-trained Niffis fighter to the Niffis Fighting Pits! It''s Niffis versus Niffis in the brutalest bloodsport of the Dires! Owned and operated by Grikflap the Uf-bringer!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30400,   1,   33556769) /* Setup */
-     , (30400,   3,  536870932) /* SoundTable */
-     , (30400,   6,   67111919) /* PaletteBase */
-     , (30400,   8,  100668364) /* Icon */
-     , (30400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30400,   1, 0x02000921) /* Setup */
+     , (30400,   3, 0x20000014) /* SoundTable */
+     , (30400,   6, 0x04000BEF) /* PaletteBase */
+     , (30400,   8, 0x060013CC) /* Icon */
+     , (30400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30400,  28,        157) /* Spell - SummonPortal1 */
-     , (30400,  50,  100676404) /* IconOverlay */;
+     , (30400,  50, 0x06003334) /* IconOverlay */;

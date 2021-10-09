@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9309,   1, 'Saelar''s Apprentice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9309,   1,   33554839) /* Setup */
-     , (9309,   2,  150994967) /* MotionTable */
-     , (9309,   3,  536870934) /* SoundTable */
-     , (9309,   6,   67110722) /* PaletteBase */
-     , (9309,   8,  100667942) /* Icon */;
+VALUES (9309,   1, 0x02000197) /* Setup */
+     , (9309,   2, 0x09000017) /* MotionTable */
+     , (9309,   3, 0x20000016) /* SoundTable */
+     , (9309,   6, 0x04000742) /* PaletteBase */
+     , (9309,   8, 0x06001226) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9309, 8040, 43843844, 9.33585, -8.65844, 0.007499993, -0.663095, 0, 0, -0.748535) /* PCAPRecordedLocation */
+VALUES (9309, 8040, 0x029D0104, 9.33585, -8.65844, 0.0075, -0.663095, 0, 0, -0.748535) /* PCAPRecordedLocation */
 /* @teleloc 0x029D0104 [9.335850 -8.658440 0.007500] -0.663095 0.000000 0.000000 -0.748535 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

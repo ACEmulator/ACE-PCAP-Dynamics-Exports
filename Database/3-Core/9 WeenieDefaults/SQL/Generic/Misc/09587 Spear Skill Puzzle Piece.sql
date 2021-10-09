@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9587,   1, 'Spear Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9587,   1,   33554680) /* Setup */
-     , (9587,   3,  536870932) /* SoundTable */
-     , (9587,   8,  100671547) /* Icon */
-     , (9587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9587,   1, 0x020000F8) /* Setup */
+     , (9587,   3, 0x20000014) /* SoundTable */
+     , (9587,   8, 0x0600203B) /* Icon */
+     , (9587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9587, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

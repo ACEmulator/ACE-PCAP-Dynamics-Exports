@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51438,   1, 'Contract for Olthoi Hive Eviscerator Pincer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51438,   1,   33557625) /* Setup */
-     , (51438,   3,  536870932) /* SoundTable */
-     , (51438,   8,  100691928) /* Icon */
-     , (51438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51438,   1, 0x02000C79) /* Setup */
+     , (51438,   3, 0x20000014) /* SoundTable */
+     , (51438,   8, 0x06006FD8) /* Icon */
+     , (51438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51438, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

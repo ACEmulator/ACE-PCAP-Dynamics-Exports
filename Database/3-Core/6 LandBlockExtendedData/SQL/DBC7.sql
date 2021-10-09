@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xDBC7;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DBC7001,  1154, 0xDBC7002B, 140.2944, 70.11382, 130.7516, -0.836614, 0, 0, -0.5477929, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7DBC7001,  1154, 0xDBC7002B, 140.2944, 70.11382, 130.7516, -0.836614, 0, 0, -0.547793, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xDBC7002B [140.294400 70.113820 130.751600] -0.836614 0.000000 0.000000 -0.547793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,11 +11,11 @@ VALUES (0x7DBC7001, 0x7DBC7002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11
      , (0x7DBC7001, 0x7DBC7005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DBC7002, 11478, 0xDBC7002B, 140.2944, 70.11382, 130.7516, -0.836614, 0, 0, -0.5477929,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+VALUES (0x7DBC7002, 11478, 0xDBC7002B, 140.2944, 70.11382, 130.7516, -0.836614, 0, 0, -0.547793,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
 /* @teleloc 0xDBC7002B [140.294400 70.113820 130.751600] -0.836614 0.000000 0.000000 -0.547793 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DBC7003, 14874, 0xDBC70035, 163.8023, 105.6297, 122.5967, -0.9929259, 0, 0, -0.1187358,  True, '2019-02-10 00:00:00'); /* Augmented Olthoi */
+VALUES (0x7DBC7003, 14874, 0xDBC70035, 163.8023, 105.6297, 122.5967, -0.992926, 0, 0, -0.118736,  True, '2019-02-10 00:00:00'); /* Augmented Olthoi */
 /* @teleloc 0xDBC70035 [163.802300 105.629700 122.596700] -0.992926 0.000000 0.000000 -0.118736 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

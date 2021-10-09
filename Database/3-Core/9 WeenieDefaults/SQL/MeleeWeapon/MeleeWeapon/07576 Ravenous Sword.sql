@@ -45,11 +45,11 @@ VALUES (7576,   1, 'Ravenous Sword') /* Name */
      , (7576,  16, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7576,   1,   33556658) /* Setup */
-     , (7576,   3,  536870932) /* SoundTable */
-     , (7576,   8,  100668915) /* Icon */
-     , (7576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7576,   1, 0x020008B2) /* Setup */
+     , (7576,   3, 0x20000014) /* SoundTable */
+     , (7576,   8, 0x060015F3) /* Icon */
+     , (7576,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7576, 8040, 3583574079, 189.1439, 159.5337, 373.929, -0.4906826, -0.4906826, -0.5091469, -0.5091469) /* PCAPRecordedLocation */
+VALUES (7576, 8040, 0xD599003F, 189.1439, 159.5337, 373.929, -0.490683, -0.490683, -0.509147, -0.509147) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [189.143900 159.533700 373.929000] -0.490683 -0.490683 -0.509147 -0.509147 */;

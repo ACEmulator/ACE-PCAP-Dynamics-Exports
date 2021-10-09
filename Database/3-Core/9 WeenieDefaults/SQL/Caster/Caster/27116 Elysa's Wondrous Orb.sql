@@ -36,12 +36,12 @@ VALUES (27116,   1, 'Elysa''s Wondrous Orb') /* Name */
      , (27116,  16, 'A magical orb infused with strange power of a most wondrous nature. This was a gift from the High Queen for furnishing information on the new creatures that have come to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27116,   1,   33558643) /* Setup */
-     , (27116,   3,  536870932) /* SoundTable */
-     , (27116,   8,  100675935) /* Icon */
-     , (27116,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27116,   1, 0x02001073) /* Setup */
+     , (27116,   3, 0x20000014) /* SoundTable */
+     , (27116,   8, 0x0600315F) /* Icon */
+     , (27116,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27116,  28,       1702) /* Spell - HealthToManaSelf4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27116, 8040, 3332964770, 103.1366, 65.78875, 41.929, -0.3702519, -0.3702519, -0.602423, -0.602423) /* PCAPRecordedLocation */
+VALUES (27116, 8040, 0xC6A901A2, 103.1366, 65.78875, 41.929, -0.370252, -0.370252, -0.602423, -0.602423) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A901A2 [103.136600 65.788750 41.929000] -0.370252 -0.370252 -0.602423 -0.602423 */;

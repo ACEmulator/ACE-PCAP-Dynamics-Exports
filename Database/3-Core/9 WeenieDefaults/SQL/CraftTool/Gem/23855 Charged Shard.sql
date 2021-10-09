@@ -28,7 +28,7 @@ VALUES (23855,   1, 'Charged Shard') /* Name */
      , (23855,  16, 'A charged shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23855,   1,   33558202) /* Setup */
-     , (23855,   3,  536870932) /* SoundTable */
-     , (23855,   8,  100674042) /* Icon */
-     , (23855,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23855,   1, 0x02000EBA) /* Setup */
+     , (23855,   3, 0x20000014) /* SoundTable */
+     , (23855,   8, 0x060029FA) /* Icon */
+     , (23855,  22, 0x3400002B) /* PhysicsEffectTable */;

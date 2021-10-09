@@ -47,8 +47,8 @@ VALUES (21353,   1, 'Phantom Axe') /* Name */
      , (21353,  16, 'An axe with a ghostly blade crafted from pure chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21353,   1,   33556657) /* Setup */
-     , (21353,   3,  536870932) /* SoundTable */
-     , (21353,   8,  100668985) /* Icon */
-     , (21353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21353,   1, 0x020008B1) /* Setup */
+     , (21353,   3, 0x20000014) /* SoundTable */
+     , (21353,   8, 0x06001639) /* Icon */
+     , (21353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21353,  30,         88) /* PhysicsScript - Create */;

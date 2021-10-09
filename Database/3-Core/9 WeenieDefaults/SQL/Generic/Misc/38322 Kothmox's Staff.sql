@@ -28,8 +28,8 @@ VALUES (38322,   1, 'Kothmox''s Staff') /* Name */
      , (38322,  16, 'A staff smoothed by years of ocean and sand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38322,   1,   33558596) /* Setup */
-     , (38322,   3,  536870932) /* SoundTable */
-     , (38322,   6,   67114956) /* PaletteBase */
-     , (38322,   8,  100675776) /* Icon */
-     , (38322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38322,   1, 0x02001044) /* Setup */
+     , (38322,   3, 0x20000014) /* SoundTable */
+     , (38322,   6, 0x040017CC) /* PaletteBase */
+     , (38322,   8, 0x060030C0) /* Icon */
+     , (38322,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,12 +26,12 @@ VALUES (43896,   1, 'Strange Crystal') /* Name */
      , (43896,  15, 'This crystal seems to radiate dark energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43896,   1,   33561222) /* Setup */
-     , (43896,   2,  150995147) /* MotionTable */
-     , (43896,   3,  536870932) /* SoundTable */
-     , (43896,   8,  100690568) /* Icon */
-     , (43896,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (43896,   1, 0x02001A86) /* Setup */
+     , (43896,   2, 0x090000CB) /* MotionTable */
+     , (43896,   3, 0x20000014) /* SoundTable */
+     , (43896,   8, 0x06006A88) /* Icon */
+     , (43896,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43896, 8040, 2114060638, 9.733, -112.183, 6.187614, 0.9999702, 0, 0, -0.007723032) /* PCAPRecordedLocation */
+VALUES (43896, 8040, 0x7E02015E, 9.733, -112.183, 6.187614, 0.99997, 0, 0, -0.007723) /* PCAPRecordedLocation */
 /* @teleloc 0x7E02015E [9.733000 -112.183000 6.187614] 0.999970 0.000000 0.000000 -0.007723 */;

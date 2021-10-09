@@ -23,7 +23,7 @@ VALUES (21327,   1, 'Scroll of Lightning Arc V') /* Name */
 Shoots a bolt of lighting at the target. The bolt does 68-136 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21327,   1,   33554826) /* Setup */
-     , (21327,   8,  100677013) /* Icon */
-     , (21327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21327,   1, 0x0200018A) /* Setup */
+     , (21327,   8, 0x06003595) /* Icon */
+     , (21327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21327,  28,       2736) /* Spell - LightningArc5 */;

@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49905,   1, 'Prismatic Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49905,   1,   33554642) /* Setup */
-     , (49905,   3,  536870932) /* SoundTable */
-     , (49905,   8,  100693095) /* Icon */
-     , (49905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49905,   1, 0x020000D2) /* Setup */
+     , (49905,   3, 0x20000014) /* SoundTable */
+     , (49905,   8, 0x06007467) /* Icon */
+     , (49905,  22, 0x3400002B) /* PhysicsEffectTable */;

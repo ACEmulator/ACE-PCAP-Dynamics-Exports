@@ -21,7 +21,7 @@ VALUES (22367,   1, 'Life Magic Gem of Enlightenment') /* Name */
      , (22367,  14, 'Use this gem to specialize a trained skill. It will cost you eight skill credits to specialize the Life Magic skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22367,   1,   33558088) /* Setup */
-     , (22367,   6,   67111919) /* PaletteBase */
-     , (22367,   8,  100673788) /* Icon */
-     , (22367,  50,  100673771) /* IconOverlay */;
+VALUES (22367,   1, 0x02000E48) /* Setup */
+     , (22367,   6, 0x04000BEF) /* PaletteBase */
+     , (22367,   8, 0x060028FC) /* Icon */
+     , (22367,  50, 0x060028EB) /* IconOverlay */;

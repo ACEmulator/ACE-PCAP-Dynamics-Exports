@@ -21,7 +21,7 @@ VALUES (28726,   1, 'Voracious Eater Jaw') /* Name */
      , (28726,  16, 'This eater jaw has rows of long sharp teeth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28726,   1,   33554769) /* Setup */
-     , (28726,   3,  536870932) /* SoundTable */
-     , (28726,   8,  100686354) /* Icon */
-     , (28726,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28726,   1, 0x02000151) /* Setup */
+     , (28726,   3, 0x20000014) /* SoundTable */
+     , (28726,   8, 0x06005A12) /* Icon */
+     , (28726,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -47,20 +47,20 @@ VALUES (33205,   1, 'Royal Runed War Bow') /* Name */
      , (33205,  15, 'A war bow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33205,   1,   33559928) /* Setup */
-     , (33205,   3,  536870932) /* SoundTable */
-     , (33205,   6,   67115555) /* PaletteBase */
-     , (33205,   8,  100687047) /* Icon */
-     , (33205,  22,  872415275) /* PhysicsEffectTable */
-     , (33205,  50,  100688914) /* IconOverlay */
+VALUES (33205,   1, 0x02001578) /* Setup */
+     , (33205,   3, 0x20000014) /* SoundTable */
+     , (33205,   6, 0x04001A23) /* PaletteBase */
+     , (33205,   8, 0x06005CC7) /* Icon */
+     , (33205,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33205,  50, 0x06006412) /* IconOverlay */
      , (33205,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33205, 8040, 23855554, 55.07979, -27.75857, -0.07000001, -0.9926327, 0, 0, 0.1211626) /* PCAPRecordedLocation */
+VALUES (33205, 8040, 0x016C01C2, 55.07979, -27.75857, -0.07, -0.992633, 0, 0, 0.121163) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.079790 -27.758570 -0.070000] -0.992633 0.000000 0.000000 0.121163 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33205,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33205,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33205,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33205,  2101,      2)  /* DefenderSelf7 */
-     , (33205,  2116,      2)  /* SwiftKillerSelf7 */
      , (33205,  2687,      2)  /* ModerateBowAptitude */;

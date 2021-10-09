@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38259,   1, 'Shrine of the Skull of Mishfain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38259,   1,   33558607) /* Setup */
-     , (38259,   2,  150995279) /* MotionTable */
-     , (38259,   3,  536871052) /* SoundTable */
-     , (38259,   8,  100675788) /* Icon */
-     , (38259,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38259,   1, 0x0200104F) /* Setup */
+     , (38259,   2, 0x0900014F) /* MotionTable */
+     , (38259,   3, 0x2000008C) /* SoundTable */
+     , (38259,   8, 0x060030CC) /* Icon */
+     , (38259,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38259, 8040, 1108017199, 132, 156, 2.94674, -0.577523, 0, 0, -0.816375) /* PCAPRecordedLocation */
+VALUES (38259, 8040, 0x420B002F, 132, 156, 2.94674, -0.577523, 0, 0, -0.816375) /* PCAPRecordedLocation */
 /* @teleloc 0x420B002F [132.000000 156.000000 2.946740] -0.577523 0.000000 0.000000 -0.816375 */;

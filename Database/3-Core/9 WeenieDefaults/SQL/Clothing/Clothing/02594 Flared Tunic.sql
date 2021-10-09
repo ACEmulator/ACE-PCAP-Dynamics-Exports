@@ -42,11 +42,11 @@ VALUES (2594,   1, 'Flared Tunic') /* Name */
      , (2594,  16, 'Flared Tunic of Acid Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2594,   1,   33554883) /* Setup */
-     , (2594,   3,  536870932) /* SoundTable */
-     , (2594,   6,   67108990) /* PaletteBase */
-     , (2594,   8,  100667377) /* Icon */
-     , (2594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2594,   1, 0x020001C3) /* Setup */
+     , (2594,   3, 0x20000014) /* SoundTable */
+     , (2594,   6, 0x0400007E) /* PaletteBase */
+     , (2594,   8, 0x06000FF1) /* Icon */
+     , (2594,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2594,   519,      2)  /* AcidProtectionSelf5 */;

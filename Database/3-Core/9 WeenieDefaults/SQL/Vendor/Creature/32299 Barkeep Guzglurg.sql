@@ -32,14 +32,14 @@ VALUES (32299,   1, 'Barkeep Guzglurg') /* Name */
      , (32299,   5, 'Barkeep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32299,   1,   33554490) /* Setup */
-     , (32299,   2,  150994953) /* MotionTable */
-     , (32299,   3,  536870959) /* SoundTable */
-     , (32299,   6,   67109310) /* PaletteBase */
-     , (32299,   8,  100667449) /* Icon */;
+VALUES (32299,   1, 0x0200003A) /* Setup */
+     , (32299,   2, 0x09000009) /* MotionTable */
+     , (32299,   3, 0x2000002F) /* SoundTable */
+     , (32299,   6, 0x040001BE) /* PaletteBase */
+     , (32299,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32299, 8040, 3387097099, 28.8817, 53.9639, 14.0055, 0.704002, 0, 0, -0.710198) /* PCAPRecordedLocation */
+VALUES (32299, 8040, 0xC9E3000B, 28.8817, 53.9639, 14.0055, 0.704002, 0, 0, -0.710198) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E3000B [28.881700 53.963900 14.005500] 0.704002 0.000000 0.000000 -0.710198 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

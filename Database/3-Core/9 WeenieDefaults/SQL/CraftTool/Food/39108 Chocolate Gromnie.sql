@@ -35,9 +35,9 @@ VALUES (39108,   1, 'Chocolate Gromnie') /* Name */
      , (39108,  16, 'A festival treat. A little chocolate gromnie that runs in circles. Five second rule applies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39108,   1,   33560398) /* Setup */
-     , (39108,   3,  536870932) /* SoundTable */
-     , (39108,   6,   67109307) /* PaletteBase */
-     , (39108,   8,  100689668) /* Icon */
-     , (39108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39108,   1, 0x0200174E) /* Setup */
+     , (39108,   3, 0x20000014) /* SoundTable */
+     , (39108,   6, 0x040001BB) /* PaletteBase */
+     , (39108,   8, 0x06006704) /* Icon */
+     , (39108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39108,  28,       4206) /* Spell - ChewyCenter */;

@@ -22,7 +22,7 @@ VALUES (7817,   1, 'Skull of High Acolyte') /* Name */
      , (7817,  16, 'The skull of the High Acolyte is covered with moss and green slime. Even so, it looks pretty unique and is probably  worth something to someone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7817,   1,   33556825) /* Setup */
-     , (7817,   3,  536870932) /* SoundTable */
-     , (7817,   8,  100671032) /* Icon */
-     , (7817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7817,   1, 0x02000959) /* Setup */
+     , (7817,   3, 0x20000014) /* SoundTable */
+     , (7817,   8, 0x06001E38) /* Icon */
+     , (7817,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (37991,   1, 'Inscription of Willpower Self') /* Name */
 Increases the caster''s Self by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37991,   1,   33554826) /* Setup */
-     , (37991,   8,  100676471) /* Icon */
-     , (37991,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37991,   1, 0x0200018A) /* Setup */
+     , (37991,   8, 0x06003377) /* Icon */
+     , (37991,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37991,  28,       4329) /* Spell - WillpowerSelf8 */;

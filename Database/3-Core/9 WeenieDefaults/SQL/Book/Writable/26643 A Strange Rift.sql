@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26643,   1, 'A Strange Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26643,   1,   33559084) /* Setup */
-     , (26643,   3,  536870932) /* SoundTable */
-     , (26643,   6,   67112626) /* PaletteBase */
-     , (26643,   8,  100675748) /* Icon */
-     , (26643,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26643,   1, 0x0200122C) /* Setup */
+     , (26643,   3, 0x20000014) /* SoundTable */
+     , (26643,   6, 0x04000EB2) /* PaletteBase */
+     , (26643,   8, 0x060030A4) /* Icon */
+     , (26643,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26643, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

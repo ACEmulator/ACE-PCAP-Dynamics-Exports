@@ -30,11 +30,11 @@ VALUES (3723,   1, 'Obsidian Ring') /* Name */
      , (3723,  16, 'Obsidian Ring of Regeneration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3723,   1,   33554691) /* Setup */
-     , (3723,   3,  536870932) /* SoundTable */
-     , (3723,   6,   67111919) /* PaletteBase */
-     , (3723,   8,  100668670) /* Icon */
-     , (3723,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3723,   1, 0x02000103) /* Setup */
+     , (3723,   3, 0x20000014) /* SoundTable */
+     , (3723,   6, 0x04000BEF) /* PaletteBase */
+     , (3723,   8, 0x060014FE) /* Icon */
+     , (3723,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3723,   163,      2)  /* RegenerationOther5 */;

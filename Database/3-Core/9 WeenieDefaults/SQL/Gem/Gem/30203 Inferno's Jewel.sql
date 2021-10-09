@@ -33,11 +33,11 @@ VALUES (30203,   1, 'Inferno''s Jewel') /* Name */
      , (30203,  20, 'Inferno''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30203,   1,   33554809) /* Setup */
-     , (30203,   3,  536870932) /* SoundTable */
-     , (30203,   6,   67111919) /* PaletteBase */
-     , (30203,   8,  100686696) /* Icon */
-     , (30203,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30203,   1, 0x02000179) /* Setup */
+     , (30203,   3, 0x20000014) /* SoundTable */
+     , (30203,   6, 0x04000BEF) /* PaletteBase */
+     , (30203,   8, 0x06005B68) /* Icon */
+     , (30203,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30203,  28,       3702) /* Spell - FireProtectionRare */
-     , (30203,  50,  100686649) /* IconOverlay */
-     , (30203,  52,  100686604) /* IconUnderlay */;
+     , (30203,  50, 0x06005B39) /* IconOverlay */
+     , (30203,  52, 0x06005B0C) /* IconUnderlay */;

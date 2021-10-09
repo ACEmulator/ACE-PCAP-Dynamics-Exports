@@ -19,8 +19,8 @@ VALUES (4727,   1, 'Flat Bread') /* Name */
      , (4727,  20, 'Loaves of Flat Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4727,   1,   33556220) /* Setup */
-     , (4727,   3,  536870932) /* SoundTable */
-     , (4727,   8,  100670179) /* Icon */
-     , (4727,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4727,   1, 0x020006FC) /* Setup */
+     , (4727,   3, 0x20000014) /* SoundTable */
+     , (4727,   8, 0x06001AE3) /* Icon */
+     , (4727,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4727, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

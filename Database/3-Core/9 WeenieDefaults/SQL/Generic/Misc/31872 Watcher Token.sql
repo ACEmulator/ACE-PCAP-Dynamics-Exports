@@ -20,7 +20,7 @@ VALUES (31872,   1, 'Watcher Token') /* Name */
      , (31872,  16, 'Give this token to one of the Watchers on Aerlinthe in exchange for passage to the Ruined or Devastated Falatacot Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31872,   1,   33554817) /* Setup */
-     , (31872,   3,  536870932) /* SoundTable */
-     , (31872,   8,  100687773) /* Icon */
-     , (31872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31872,   1, 0x02000181) /* Setup */
+     , (31872,   3, 0x20000014) /* SoundTable */
+     , (31872,   8, 0x06005F9D) /* Icon */
+     , (31872,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43233,   1, 'Nether Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43233,   1,   33561127) /* Setup */
-     , (43233,   3,  536870968) /* SoundTable */
-     , (43233,   8,  100667494) /* Icon */
+VALUES (43233,   1, 0x02001A27) /* Setup */
+     , (43233,   3, 0x20000038) /* SoundTable */
+     , (43233,   8, 0x06001066) /* Icon */
      , (43233,  28,       5331) /* Spell - BaelzharonsNetherRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43233, 8040, 2847146017, 97.42845, 8.990114, 95.22834, -0.509742, 0, 0, 0.8603273) /* PCAPRecordedLocation */
+VALUES (43233, 8040, 0xA9B40021, 97.42845, 8.990114, 95.22834, -0.509742, 0, 0, 0.860327) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40021 [97.428450 8.990114 95.228340] -0.509742 0.000000 0.000000 0.860327 */;

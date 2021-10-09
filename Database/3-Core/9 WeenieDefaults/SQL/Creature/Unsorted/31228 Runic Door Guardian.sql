@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31228,   1, 'Runic Door Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31228,   1,   33558613) /* Setup */
-     , (31228,   2,  150995105) /* MotionTable */
-     , (31228,   3,  536871017) /* SoundTable */
-     , (31228,   8,  100674805) /* Icon */
-     , (31228,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (31228,   1, 0x02001055) /* Setup */
+     , (31228,   2, 0x090000A1) /* MotionTable */
+     , (31228,   3, 0x20000069) /* SoundTable */
+     , (31228,   8, 0x06002CF5) /* Icon */
+     , (31228,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31228, 8040, 61145418, 48.7971, -22.1886, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31228, 8040, 0x03A5014A, 48.7971, -22.1886, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x03A5014A [48.797100 -22.188600 -42.000000] 1.000000 0.000000 0.000000 0.000000 */;

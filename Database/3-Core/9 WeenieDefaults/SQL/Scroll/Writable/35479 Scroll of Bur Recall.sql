@@ -26,7 +26,7 @@ VALUES (35479,   1, 'Scroll of Bur Recall') /* Name */
 Sends the caster to Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35479,   1,   33554826) /* Setup */
-     , (35479,   8,  100676673) /* Icon */
-     , (35479,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35479,   1, 0x0200018A) /* Setup */
+     , (35479,   8, 0x06003441) /* Icon */
+     , (35479,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35479,  28,       4084) /* Spell - RecallBur */;

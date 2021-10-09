@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36694,   1, 'Lord Kresovus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36694,   1,   33557003) /* Setup */
-     , (36694,   2,  150995423) /* MotionTable */
-     , (36694,   3,  536870922) /* SoundTable */
-     , (36694,   6,   67113158) /* PaletteBase */
-     , (36694,   8,  100667447) /* Icon */;
+VALUES (36694,   1, 0x02000A0B) /* Setup */
+     , (36694,   2, 0x090001DF) /* MotionTable */
+     , (36694,   3, 0x2000000A) /* SoundTable */
+     , (36694,   6, 0x040010C6) /* PaletteBase */
+     , (36694,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36694, 8040, 10420762, 70, -287, -5.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36694, 8040, 0x009F021A, 70, -287, -5.99, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x009F021A [70.000000 -287.000000 -5.990000] 1.000000 0.000000 0.000000 0.000000 */;

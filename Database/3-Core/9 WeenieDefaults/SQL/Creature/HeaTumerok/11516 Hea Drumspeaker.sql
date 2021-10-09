@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11516,   1, 'Hea Drumspeaker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11516,   1,   33559553) /* Setup */
-     , (11516,   2,  150994954) /* MotionTable */
-     , (11516,   3,  536870931) /* SoundTable */
-     , (11516,   6,   67116625) /* PaletteBase */
-     , (11516,   8,  100667452) /* Icon */
-     , (11516,  22,  872415270) /* PhysicsEffectTable */;
+VALUES (11516,   1, 0x02001401) /* Setup */
+     , (11516,   2, 0x0900000A) /* MotionTable */
+     , (11516,   3, 0x20000013) /* SoundTable */
+     , (11516,   6, 0x04001E51) /* PaletteBase */
+     , (11516,   8, 0x0600103C) /* Icon */
+     , (11516,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11516, 8040, 347275325, 183.6063, 105.1353, 13.36783, -0.5303265, 0, 0, -0.8477935) /* PCAPRecordedLocation */
+VALUES (11516, 8040, 0x14B3003D, 183.6063, 105.1353, 13.36783, -0.530327, 0, 0, -0.847794) /* PCAPRecordedLocation */
 /* @teleloc 0x14B3003D [183.606300 105.135300 13.367830] -0.530327 0.000000 0.000000 -0.847794 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

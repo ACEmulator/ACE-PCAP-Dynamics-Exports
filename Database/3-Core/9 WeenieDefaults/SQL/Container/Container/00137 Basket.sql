@@ -24,7 +24,7 @@ VALUES (137,   1, 'Basket') /* Name */
      , (137,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (137,   1,   33554927) /* Setup */
-     , (137,   3,  536870932) /* SoundTable */
-     , (137,   8,  100675534) /* Icon */
-     , (137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (137,   1, 0x020001EF) /* Setup */
+     , (137,   3, 0x20000014) /* SoundTable */
+     , (137,   8, 0x06002FCE) /* Icon */
+     , (137,  22, 0x3400002B) /* PhysicsEffectTable */;

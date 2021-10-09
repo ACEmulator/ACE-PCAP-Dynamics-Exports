@@ -48,11 +48,11 @@ VALUES (46990,   1, 'Iasparailaun') /* Name */
      , (46990,  15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46990,   1,   33557926) /* Setup */
-     , (46990,   3,  536870932) /* SoundTable */
-     , (46990,   8,  100673479) /* Icon */
-     , (46990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46990,   1, 0x02000DA6) /* Setup */
+     , (46990,   3, 0x20000014) /* SoundTable */
+     , (46990,   8, 0x060027C7) /* Icon */
+     , (46990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46990, 8040, 1481834852, 53.73056, -176.9367, 5.90775, -0.02674752, -0.02674752, 0.7066007, 0.7066007) /* PCAPRecordedLocation */
+VALUES (46990, 8040, 0x58530164, 53.73056, -176.9367, 5.90775, -0.026748, -0.026748, 0.706601, 0.706601) /* PCAPRecordedLocation */
 /* @teleloc 0x58530164 [53.730560 -176.936700 5.907750] -0.026748 -0.026748 0.706601 0.706601 */;

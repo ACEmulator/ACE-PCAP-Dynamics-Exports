@@ -39,11 +39,11 @@ VALUES (19584,   1, 'Nuhmudira''s Bestowment of Endurance and Fire Defense') /* 
      , (19584,  25, 'Sofia') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19584,   1,   33554687) /* Setup */
-     , (19584,   3,  536870932) /* SoundTable */
-     , (19584,   6,   67111919) /* PaletteBase */
-     , (19584,   8,  100672963) /* Icon */
-     , (19584,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19584,   1, 0x020000FF) /* Setup */
+     , (19584,   3, 0x20000014) /* SoundTable */
+     , (19584,   6, 0x04000BEF) /* PaletteBase */
+     , (19584,   8, 0x060025C3) /* Icon */
+     , (19584,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19584,  1095,      2)  /* FireProtectionOther5 */

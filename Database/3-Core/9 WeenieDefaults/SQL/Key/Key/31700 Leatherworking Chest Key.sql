@@ -23,7 +23,7 @@ VALUES (31700,   1, 'Leatherworking Chest Key') /* Name */
      , (31700,  16, 'This icy key appears to open some sort of personal chest or storage device.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31700,   1,   33554784) /* Setup */
-     , (31700,   3,  536870932) /* SoundTable */
-     , (31700,   8,  100667469) /* Icon */
-     , (31700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31700,   1, 0x02000160) /* Setup */
+     , (31700,   3, 0x20000014) /* SoundTable */
+     , (31700,   8, 0x0600104D) /* Icon */
+     , (31700,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -50,13 +50,13 @@ VALUES (7790,   1, 'Electric Spiked Club') /* Name */
      , (7790,  16, 'Electric Spiked Club of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7790,   1,   33556659) /* Setup */
-     , (7790,   3,  536870932) /* SoundTable */
-     , (7790,   6,   67111919) /* PaletteBase */
-     , (7790,   8,  100670774) /* Icon */
-     , (7790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7790,   1, 0x020008B3) /* Setup */
+     , (7790,   3, 0x20000014) /* SoundTable */
+     , (7790,   6, 0x04000BEF) /* PaletteBase */
+     , (7790,   8, 0x06001D36) /* Icon */
+     , (7790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7790,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7790,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (7790,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
+VALUES (7790,  2603,      2)  /* CANTRIPHEARTTHIRST1 */
+     , (7790,  2096,      2)  /* BloodDrinkerSelf7 */;

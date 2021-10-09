@@ -48,18 +48,18 @@ VALUES (30561,   1, 'Dolabra') /* Name */
      , (30561,  16, 'Dolabra of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30561,   1,   33559318) /* Setup */
-     , (30561,   3,  536870932) /* SoundTable */
-     , (30561,   6,   67115558) /* PaletteBase */
-     , (30561,   8,  100686924) /* Icon */
-     , (30561,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30561,   1, 0x02001316) /* Setup */
+     , (30561,   3, 0x20000014) /* SoundTable */
+     , (30561,   6, 0x04001A26) /* PaletteBase */
+     , (30561,   8, 0x06005C4C) /* Icon */
+     , (30561,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30561,  30,         88) /* PhysicsScript - Create */
      , (30561,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30561, 8040, 669777939, 56.21616, 65.62837, 79.92901, -0.70539, -0.70539, -0.04924337, -0.04924337) /* PCAPRecordedLocation */
+VALUES (30561, 8040, 0x27EC0013, 56.21616, 65.62837, 79.92901, -0.70539, -0.70539, -0.049243, -0.049243) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0013 [56.216160 65.628370 79.929010] -0.705390 -0.705390 -0.049243 -0.049243 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30561,  1590,      2)  /* HeartSeekerSelf4 */
-     , (30561,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (30561,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (30561,  1590,      2)  /* HeartSeekerSelf4 */;

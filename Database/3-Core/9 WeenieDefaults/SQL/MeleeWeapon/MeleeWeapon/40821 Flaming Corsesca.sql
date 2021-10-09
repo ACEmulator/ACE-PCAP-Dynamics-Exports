@@ -49,11 +49,11 @@ VALUES (40821,   1, 'Flaming Corsesca') /* Name */
      , (40821,  16, 'Flaming Corsesca of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40821,   1,   33560789) /* Setup */
-     , (40821,   3,  536870932) /* SoundTable */
-     , (40821,   6,   67115560) /* PaletteBase */
-     , (40821,   8,  100690788) /* Icon */
-     , (40821,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40821,   1, 0x020018D5) /* Setup */
+     , (40821,   3, 0x20000014) /* SoundTable */
+     , (40821,   6, 0x04001A28) /* PaletteBase */
+     , (40821,   8, 0x06006B64) /* Icon */
+     , (40821,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40821,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

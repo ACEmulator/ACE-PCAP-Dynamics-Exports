@@ -19,7 +19,7 @@ VALUES (31757,   1, 'Fertilized Pitcher Plant') /* Name */
      , (31757,  15, 'A *MONSTER* Pitcher Plant. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31757,   1,   33559604) /* Setup */
-     , (31757,   3,  536870932) /* SoundTable */
-     , (31757,   8,  100687922) /* Icon */
-     , (31757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31757,   1, 0x02001434) /* Setup */
+     , (31757,   3, 0x20000014) /* SoundTable */
+     , (31757,   8, 0x06006032) /* Icon */
+     , (31757,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -49,15 +49,15 @@ VALUES (3897,   1, 'Acid Tofun') /* Name */
      , (3897,  16, 'Acid Tofun of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3897,   1,   33555759) /* Setup */
-     , (3897,   3,  536870932) /* SoundTable */
-     , (3897,   6,   67111919) /* PaletteBase */
-     , (3897,   8,  100668964) /* Icon */
-     , (3897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3897,   1, 0x0200052F) /* Setup */
+     , (3897,   3, 0x20000014) /* SoundTable */
+     , (3897,   6, 0x04000BEF) /* PaletteBase */
+     , (3897,   8, 0x06001624) /* Icon */
+     , (3897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3897,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3897,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3897,  1604,      2)  /* DefenderSelf5 */
+VALUES (3897,  1604,      2)  /* DefenderSelf5 */
      , (3897,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3897,  1627,      2)  /* SwiftKillerSelf6 */;
+     , (3897,  1627,      2)  /* SwiftKillerSelf6 */
+     , (3897,  1591,      2)  /* HeartSeekerSelf5 */;

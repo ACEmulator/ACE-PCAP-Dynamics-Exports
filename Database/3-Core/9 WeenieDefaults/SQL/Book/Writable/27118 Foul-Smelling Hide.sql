@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27118,   1, 'Foul-Smelling Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27118,   1,   33558644) /* Setup */
-     , (27118,   3,  536870932) /* SoundTable */
-     , (27118,   8,  100675924) /* Icon */
-     , (27118,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27118,   1, 0x02001074) /* Setup */
+     , (27118,   3, 0x20000014) /* SoundTable */
+     , (27118,   8, 0x06003154) /* Icon */
+     , (27118,  22, 0x3400002B) /* PhysicsEffectTable */;

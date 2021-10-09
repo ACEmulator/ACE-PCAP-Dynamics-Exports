@@ -27,8 +27,8 @@ VALUES (40605,   1, 'Armor Upgrade Kit Containment Gem') /* Name */
      , (40605,  16, 'A magical gem containing an armor upgrade kit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40605,   1,   33556769) /* Setup */
-     , (40605,   3,  536870932) /* SoundTable */
-     , (40605,   6,   67111919) /* PaletteBase */
-     , (40605,   8,  100673039) /* Icon */
-     , (40605,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40605,   1, 0x02000921) /* Setup */
+     , (40605,   3, 0x20000014) /* SoundTable */
+     , (40605,   6, 0x04000BEF) /* PaletteBase */
+     , (40605,   8, 0x0600260F) /* Icon */
+     , (40605,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,12 +28,12 @@ VALUES (33451,   1, 'Crystal of Life Protections') /* Name */
      , (33451,  15, 'Although this crystal was first created from smaller pieces, the crystal has grown swiftly to its current size. You suspect Geomancy was involved in its construction, but you cannot be sure.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33451,   1,   33556226) /* Setup */
-     , (33451,   2,  150995107) /* MotionTable */
-     , (33451,   3,  536871001) /* SoundTable */
-     , (33451,   6,   67111919) /* PaletteBase */
-     , (33451,   8,  100670395) /* Icon */;
+VALUES (33451,   1, 0x02000702) /* Setup */
+     , (33451,   2, 0x090000A3) /* MotionTable */
+     , (33451,   3, 0x20000059) /* SoundTable */
+     , (33451,   6, 0x04000BEF) /* PaletteBase */
+     , (33451,   8, 0x06001BBB) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33451, 8040, 8454418, 16.5, -73.5, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33451, 8040, 0x00810112, 16.5, -73.5, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00810112 [16.500000 -73.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

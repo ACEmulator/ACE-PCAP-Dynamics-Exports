@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51730,   1, 'Discorporate Rynthid of Rage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51730,   1,   33561550) /* Setup */
-     , (51730,   2,  150995487) /* MotionTable */
-     , (51730,   3,  536870930) /* SoundTable */
-     , (51730,   6,   67111346) /* PaletteBase */
-     , (51730,   8,  100667943) /* Icon */
-     , (51730,  22,  872415443) /* PhysicsEffectTable */
+VALUES (51730,   1, 0x02001BCE) /* Setup */
+     , (51730,   2, 0x0900021F) /* MotionTable */
+     , (51730,   3, 0x20000012) /* SoundTable */
+     , (51730,   6, 0x040009B2) /* PaletteBase */
+     , (51730,   8, 0x06001227) /* Icon */
+     , (51730,  22, 0x340000D3) /* PhysicsEffectTable */
      , (51730,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51730, 8040, 1498679261, 300.2435, -161.3591, 0.02899998, -0.6667635, 0, 0, -0.7452694) /* PCAPRecordedLocation */
+VALUES (51730, 8040, 0x595407DD, 300.2435, -161.3591, 0.029, -0.666764, 0, 0, -0.745269) /* PCAPRecordedLocation */
 /* @teleloc 0x595407DD [300.243500 -161.359100 0.029000] -0.666764 0.000000 0.000000 -0.745269 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

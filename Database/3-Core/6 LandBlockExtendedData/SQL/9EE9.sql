@@ -57,7 +57,7 @@ VALUES (0x79EE900A, 24959, 0x9EE90006, 1.96994, 137.4531, 226.2869, 1, 0, 0, 0, 
 /* @teleloc 0x9EE90006 [1.969940 137.453100 226.286900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE900B,  7994, 0x9EE9000F, 25.59813, 152.3841, 215.8105, 0.6755902, 0, 0, -0.7372773,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
+VALUES (0x79EE900B,  7994, 0x9EE9000F, 25.59813, 152.3841, 215.8105, 0.67559, 0, 0, -0.737277,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
 /* @teleloc 0x9EE9000F [25.598130 152.384100 215.810500] 0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,12 +77,12 @@ VALUES (0x79EE900F,     3, 0x9EE9000E, 30.25011, 126.1145, 227.4523, 1, 0, 0, 0,
 /* @teleloc 0x9EE9000E [30.250110 126.114500 227.452300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE9010,  1542, 0x9EE9000F, 24.59813, 151.1841, 216.4079, 0.6755902, 0, 0, -0.7372773, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79EE9010,  1542, 0x9EE9000F, 24.59813, 151.1841, 216.4079, 0.67559, 0, 0, -0.737277, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9EE9000F [24.598130 151.184100 216.407900] 0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x79EE9010, 0x79EE9011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EE9011,  4380, 0x9EE9000F, 24.59813, 151.1841, 216.4079, 0.6755902, 0, 0, -0.7372773,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x79EE9011,  4380, 0x9EE9000F, 24.59813, 151.1841, 216.4079, 0.67559, 0, 0, -0.737277,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x9EE9000F [24.598130 151.184100 216.407900] 0.675590 0.000000 0.000000 -0.737277 */

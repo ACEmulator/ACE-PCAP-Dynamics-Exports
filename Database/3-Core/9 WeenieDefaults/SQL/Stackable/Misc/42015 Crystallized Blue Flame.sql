@@ -25,7 +25,7 @@ VALUES (42015,   1, 'Crystallized Blue Flame') /* Name */
      , (42015,  15, 'The crystallized flames from the southeast tower of Mhoire Castle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42015,   1,   33560191) /* Setup */
-     , (42015,   3,  536870932) /* SoundTable */
-     , (42015,   8,  100677383) /* Icon */
-     , (42015,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42015,   1, 0x0200167F) /* Setup */
+     , (42015,   3, 0x20000014) /* SoundTable */
+     , (42015,   8, 0x06003707) /* Icon */
+     , (42015,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,13 +23,13 @@ VALUES (40879,   1, 'Scrap of Paper') /* Name */
      , (40879,  16, 'A scrap of paper with a hastily written note on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40879,   1,   33554773) /* Setup */
-     , (40879,   3,  536870932) /* SoundTable */
-     , (40879,   8,  100668176) /* Icon */
-     , (40879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40879,   1, 0x02000155) /* Setup */
+     , (40879,   3, 0x20000014) /* SoundTable */
+     , (40879,   8, 0x06001310) /* Icon */
+     , (40879,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40879, 8040, 13238659, 16.9549, -12.5576, 0.079, 0.13703, 0, 0, -0.9905669) /* PCAPRecordedLocation */
+VALUES (40879, 8040, 0x00CA0183, 16.9549, -12.5576, 0.079, 0.13703, 0, 0, -0.990567) /* PCAPRecordedLocation */
 /* @teleloc 0x00CA0183 [16.954900 -12.557600 0.079000] 0.137030 0.000000 0.000000 -0.990567 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

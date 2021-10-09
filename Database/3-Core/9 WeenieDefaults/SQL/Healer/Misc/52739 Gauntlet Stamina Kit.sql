@@ -27,9 +27,9 @@ VALUES (52739,   1, 'Gauntlet Stamina Kit') /* Name */
      , (52739,  15, 'A stamina kit created by the highly skilled healers of the Societies.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52739,   1,   33555194) /* Setup */
-     , (52739,   8,  100693309) /* Icon */;
+VALUES (52739,   1, 0x020002FA) /* Setup */
+     , (52739,   8, 0x0600753D) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52739, 8040, 23855548, 54.31911, -29.97488, 0.0315, -0.07279671, 0, 0, -0.9973468) /* PCAPRecordedLocation */
+VALUES (52739, 8040, 0x016C01BC, 54.31911, -29.97488, 0.0315, -0.072797, 0, 0, -0.997347) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.319110 -29.974880 0.031500] -0.072797 0.000000 0.000000 -0.997347 */;

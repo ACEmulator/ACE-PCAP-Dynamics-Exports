@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14668,   1, 'South Uziz Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14668,   1,   33554867) /* Setup */
-     , (14668,   2,  150994947) /* MotionTable */
-     , (14668,   8,  100667499) /* Icon */;
+VALUES (14668,   1, 0x020001B3) /* Setup */
+     , (14668,   2, 0x09000003) /* MotionTable */
+     , (14668,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14668, 8040, 2757754908, 76.0776, 74.9517, 24.6166, 0.9764798, 0, 0, 0.215609) /* PCAPRecordedLocation */
+VALUES (14668, 8040, 0xA460001C, 76.0776, 74.9517, 24.6166, 0.97648, 0, 0, 0.215609) /* PCAPRecordedLocation */
 /* @teleloc 0xA460001C [76.077600 74.951700 24.616600] 0.976480 0.000000 0.000000 0.215609 */;

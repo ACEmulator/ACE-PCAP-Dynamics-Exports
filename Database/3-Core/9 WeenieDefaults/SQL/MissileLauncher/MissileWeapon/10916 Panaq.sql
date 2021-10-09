@@ -47,18 +47,18 @@ VALUES (10916,   1, 'Panaq') /* Name */
      , (10916,  25, 'Smokin'' Joe') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10916,   1,   33557225) /* Setup */
-     , (10916,   3,  536870932) /* SoundTable */
-     , (10916,   8,  100674303) /* Icon */
-     , (10916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10916,   1, 0x02000AE9) /* Setup */
+     , (10916,   3, 0x20000014) /* SoundTable */
+     , (10916,   8, 0x06002AFF) /* Icon */
+     , (10916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10916,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10916, 8040, 3332964369, 48.48837, 0.6000614, 41.93, 0.9985388, 0, 0, -0.05403996) /* PCAPRecordedLocation */
+VALUES (10916, 8040, 0xC6A90011, 48.48837, 0.600061, 41.93, 0.998539, 0, 0, -0.05404) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90011 [48.488370 0.600061 41.930000] 0.998539 0.000000 0.000000 -0.054040 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10916,  1310,      2)  /* ArmorSelf4 */
-     , (10916,  1376,      2)  /* CoordinationSelf4 */
-     , (10916,  1603,      2)  /* DefenderSelf4 */
-     , (10916,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (10916,  1603,      2)  /* DefenderSelf4 */
+     , (10916,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (10916,  1310,      2)  /* ArmorSelf4 */
+     , (10916,  1376,      2)  /* CoordinationSelf4 */;

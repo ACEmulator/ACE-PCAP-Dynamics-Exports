@@ -23,5 +23,5 @@ VALUES (36913,   1, 'Grand Bed') /* Name */
      , (36913,  16, 'A large luxurious bed with a canopy. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36913,   1,   33560423) /* Setup */
-     , (36913,   8,  100689743) /* Icon */;
+VALUES (36913,   1, 0x02001767) /* Setup */
+     , (36913,   8, 0x0600674F) /* Icon */;

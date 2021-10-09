@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8754,   1, 'An Explorer Yumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8754,   1,   33554728) /* Setup */
-     , (8754,   3,  536870932) /* SoundTable */
-     , (8754,   6,   67111919) /* PaletteBase */
-     , (8754,   8,  100668816) /* Icon */
-     , (8754,  22,  872415275) /* PhysicsEffectTable */
-     , (8754,  50,  100675462) /* IconOverlay */;
+VALUES (8754,   1, 0x02000128) /* Setup */
+     , (8754,   3, 0x20000014) /* SoundTable */
+     , (8754,   6, 0x04000BEF) /* PaletteBase */
+     , (8754,   8, 0x06001590) /* Icon */
+     , (8754,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8754,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8754,   463,      2)  /* MissileWeaponsMasteryOther3 */
-     , (8754,  1613,      2)  /* BloodDrinkerSelf3 */;
+VALUES (8754,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (8754,   463,      2)  /* MissileWeaponsMasteryOther3 */;

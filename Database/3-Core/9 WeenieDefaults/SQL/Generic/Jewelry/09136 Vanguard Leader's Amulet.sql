@@ -29,13 +29,13 @@ VALUES (9136,   1, 'Vanguard Leader''s Amulet') /* Name */
      , (9136,  16, 'A ceremonial amulet, glowing with strange magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9136,   1,   33554680) /* Setup */
-     , (9136,   3,  536870932) /* SoundTable */
-     , (9136,   6,   67111919) /* PaletteBase */
-     , (9136,   8,  100671247) /* Icon */
-     , (9136,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9136,   1, 0x020000F8) /* Setup */
+     , (9136,   3, 0x20000014) /* SoundTable */
+     , (9136,   6, 0x04000BEF) /* PaletteBase */
+     , (9136,   8, 0x06001F0F) /* Icon */
+     , (9136,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9136,   909,      2)  /* LeadershipMasteryOther6 */
-     , (9136,   957,      2)  /* FealtyOther6 */
-     , (9136,  1432,      2)  /* FocusOther6 */;
+     , (9136,  1432,      2)  /* FocusOther6 */
+     , (9136,   957,      2)  /* FealtyOther6 */;

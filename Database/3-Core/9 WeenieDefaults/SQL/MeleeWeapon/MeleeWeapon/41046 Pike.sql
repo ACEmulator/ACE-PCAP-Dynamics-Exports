@@ -50,11 +50,11 @@ VALUES (41046,   1, 'Pike') /* Name */
      , (41046,  16, 'Pike of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41046,   1,   33560875) /* Setup */
-     , (41046,   3,  536870932) /* SoundTable */
-     , (41046,   6,   67115558) /* PaletteBase */
-     , (41046,   8,  100690640) /* Icon */
-     , (41046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41046,   1, 0x0200192B) /* Setup */
+     , (41046,   3, 0x20000014) /* SoundTable */
+     , (41046,   6, 0x04001A26) /* PaletteBase */
+     , (41046,   8, 0x06006AD0) /* Icon */
+     , (41046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41046,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

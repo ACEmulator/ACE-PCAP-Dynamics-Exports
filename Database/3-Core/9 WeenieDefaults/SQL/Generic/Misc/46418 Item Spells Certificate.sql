@@ -21,7 +21,7 @@ VALUES (46418,   1, 'Item Spells Certificate') /* Name */
      , (46418,  15, 'A certificate that grants the bearer all level 8 item spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46418,   1,   33554659) /* Setup */
-     , (46418,   3,  536870932) /* SoundTable */
-     , (46418,   8,  100692711) /* Icon */
-     , (46418,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46418,   1, 0x020000E3) /* Setup */
+     , (46418,   3, 0x20000014) /* SoundTable */
+     , (46418,   8, 0x060072E7) /* Icon */
+     , (46418,  22, 0x3400002B) /* PhysicsEffectTable */;

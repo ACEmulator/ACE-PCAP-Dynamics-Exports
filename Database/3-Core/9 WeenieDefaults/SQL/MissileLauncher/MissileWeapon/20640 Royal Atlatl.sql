@@ -51,11 +51,11 @@ VALUES (20640,   1, 'Royal Atlatl') /* Name */
      , (20640,  16, 'Royal Atlatl of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20640,   1,   33557857) /* Setup */
-     , (20640,   3,  536870932) /* SoundTable */
-     , (20640,   6,   67111919) /* PaletteBase */
-     , (20640,   8,  100673251) /* Icon */
-     , (20640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20640,   1, 0x02000D61) /* Setup */
+     , (20640,   3, 0x20000014) /* SoundTable */
+     , (20640,   6, 0x04000BEF) /* PaletteBase */
+     , (20640,   8, 0x060026E3) /* Icon */
+     , (20640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20640,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

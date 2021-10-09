@@ -31,10 +31,10 @@ VALUES (41456,   1, 'Virindi Inquisitor Essence') /* Name */
      , (41456,  16, 'This essence is eternal. Use this essence to increase your Arcane Lore by 32.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41456,   1,   33554809) /* Setup */
-     , (41456,   3,  536870932) /* SoundTable */
-     , (41456,   6,   67111919) /* PaletteBase */
-     , (41456,   8,  100690696) /* Icon */
-     , (41456,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41456,   1, 0x02000179) /* Setup */
+     , (41456,   3, 0x20000014) /* SoundTable */
+     , (41456,   6, 0x04000BEF) /* PaletteBase */
+     , (41456,   8, 0x06006B08) /* Icon */
+     , (41456,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41456,  28,       5155) /* Spell - DeceptionArcane4 */
      , (41456,  37,         20) /* ItemSkillLimit - Deception */;

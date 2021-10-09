@@ -39,19 +39,19 @@ VALUES (27650,   1, 'Head of the Homunculus') /* Name */
      , (27650,  16, 'A small stone head. It appears to be staring at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27650,   1,   33558746) /* Setup */
-     , (27650,   3,  536870932) /* SoundTable */
-     , (27650,   8,  100676535) /* Icon */
-     , (27650,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27650,   1, 0x020010DA) /* Setup */
+     , (27650,   3, 0x20000014) /* SoundTable */
+     , (27650,   8, 0x060033B7) /* Icon */
+     , (27650,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27650,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27650, 8040, 23855554, 55.85811, -33.74102, -0.071, -0.1173266, -0.1173266, -0.6973051, -0.6973051) /* PCAPRecordedLocation */
+VALUES (27650, 8040, 0x016C01C2, 55.85811, -33.74102, -0.071, -0.117327, -0.117327, -0.697305, -0.697305) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.858110 -33.741020 -0.071000] -0.117327 -0.117327 -0.697305 -0.697305 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27650,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
-     , (27650,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (27650,   664,      2)  /* ManaMasteryOther6 */
+VALUES (27650,   664,      2)  /* ManaMasteryOther6 */
      , (27650,  3237,      2)  /* Fanaticism */
-     , (27650,  3243,      2)  /* Consecration */;
+     , (27650,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (27650,  3243,      2)  /* Consecration */
+     , (27650,   568,      2)  /* CreatureEnchantmentMasteryOther6 */;

@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34868,   1, 'Baby Thrungus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34868,   1,   33559123) /* Setup */
-     , (34868,   2,  150995324) /* MotionTable */
-     , (34868,   3,  536871099) /* SoundTable */
-     , (34868,   6,   67116365) /* PaletteBase */
-     , (34868,   8,  100677367) /* Icon */
-     , (34868,  22,  872415411) /* PhysicsEffectTable */;
+VALUES (34868,   1, 0x02001253) /* Setup */
+     , (34868,   2, 0x0900017C) /* MotionTable */
+     , (34868,   3, 0x200000BB) /* SoundTable */
+     , (34868,   6, 0x04001D4D) /* PaletteBase */
+     , (34868,   8, 0x060036F7) /* Icon */
+     , (34868,  22, 0x340000B3) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34868, 8040, 10224237, 214.027, -86.7504, -18, 0.999242, 0, 0, -0.038928) /* PCAPRecordedLocation */
+VALUES (34868, 8040, 0x009C026D, 214.027, -86.7504, -18, 0.999242, 0, 0, -0.038928) /* PCAPRecordedLocation */
 /* @teleloc 0x009C026D [214.027000 -86.750400 -18.000000] 0.999242 0.000000 0.000000 -0.038928 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -51,15 +51,15 @@ VALUES (40689,   1, 'Olthoi Pauldrons') /* Name */
      , (40689,  16, 'Olthoi Pauldrons of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40689,   1,   33554641) /* Setup */
-     , (40689,   3,  536870932) /* SoundTable */
-     , (40689,   6,   67108990) /* PaletteBase */
-     , (40689,   8,  100674581) /* Icon */
-     , (40689,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40689,   1, 0x020000D1) /* Setup */
+     , (40689,   3, 0x20000014) /* SoundTable */
+     , (40689,   6, 0x0400007E) /* PaletteBase */
+     , (40689,   8, 0x06002C15) /* Icon */
+     , (40689,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40689,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40689,  1354,      2)  /* EnduranceSelf6 */
+     , (40689,  2574,      2)  /* CANTRIPFOCUS2 */
      , (40689,  2104,      2)  /* FrostBane7 */
-     , (40689,  2108,      2)  /* Impenetrability7 */
-     , (40689,  2574,      2)  /* CANTRIPFOCUS2 */;
+     , (40689,  2108,      2)  /* Impenetrability7 */;

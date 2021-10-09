@@ -47,21 +47,21 @@ VALUES (30375,   1, 'Wand of the Frore Crystal') /* Name */
      , (30375,  16, 'A mage who wandered through the northern mountains, researching ley lines, found a piece of unnaturally cold crystal in the middle of a set of standing stones.  He affixed the crystal to his wand, and found that the wand suddenly became unbearably cold to touch.  Rather than drop the wand, he held on for dear life.  He finally mastered the wand well enough to wield it, but not before it had frozen his hand so thoroughly as to render it permanently useless.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30375,   1,   33559423) /* Setup */
-     , (30375,   3,  536870932) /* SoundTable */
-     , (30375,   6,   67111919) /* PaletteBase */
-     , (30375,   8,  100686849) /* Icon */
-     , (30375,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30375,   1, 0x0200137F) /* Setup */
+     , (30375,   3, 0x20000014) /* SoundTable */
+     , (30375,   6, 0x04000BEF) /* PaletteBase */
+     , (30375,   8, 0x06005C01) /* Icon */
+     , (30375,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30375,  28,       2136) /* Spell - FrostBolt7 */
-     , (30375,  52,  100686604) /* IconUnderlay */;
+     , (30375,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30375, 8040, 3135766557, 83.975, 105, 25.929, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (30375, 8040, 0xBAE8001D, 83.975, 105, 25.929, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBAE8001D [83.975000 105.000000 25.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30375,  4468,      2)  /* FireProtectionSelf8 */
+VALUES (30375,  4675,      2)  /* CANTRIPFLAMEWARD3 */
      , (30375,  4494,      2)  /* ManaRenewalSelf8 */
-     , (30375,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
-     , (30375,  4675,      2)  /* CANTRIPFLAMEWARD3 */
-     , (30375,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+     , (30375,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (30375,  4468,      2)  /* FireProtectionSelf8 */
+     , (30375,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */;

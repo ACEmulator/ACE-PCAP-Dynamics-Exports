@@ -50,13 +50,13 @@ VALUES (32121,   1, 'Remoran Fist') /* Name */
      , (32121,  15, 'A hand weapon crafted from the maw of a Bloodmouth Remoran.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32121,   1,   33559743) /* Setup */
-     , (32121,   3,  536870932) /* SoundTable */
-     , (32121,   6,   67116726) /* PaletteBase */
-     , (32121,   8,  100688309) /* Icon */
-     , (32121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32121,   1, 0x020014BF) /* Setup */
+     , (32121,   3, 0x20000014) /* SoundTable */
+     , (32121,   6, 0x04001EB6) /* PaletteBase */
+     , (32121,   8, 0x060061B5) /* Icon */
+     , (32121,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32121,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (32121,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32121,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */;
+VALUES (32121,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */
+     , (32121,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32121,  2106,      2)  /* HeartSeekerSelf7 */;

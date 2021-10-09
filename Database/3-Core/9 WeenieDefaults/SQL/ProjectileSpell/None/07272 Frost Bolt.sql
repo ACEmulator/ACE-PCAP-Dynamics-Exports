@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7272,   1, 'Frost Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7272,   1,   33556611) /* Setup */
-     , (7272,   3,  536870966) /* SoundTable */
-     , (7272,   8,  100667494) /* Icon */
+VALUES (7272,   1, 0x02000883) /* Setup */
+     , (7272,   3, 0x20000036) /* SoundTable */
+     , (7272,   8, 0x06001066) /* Icon */
      , (7272,  28,         28) /* Spell - FrostBolt1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7272, 8040, 1615201014, 109.4725, -49.22186, 19.22833, 0.1203089, 0, 0, 0.9927365) /* PCAPRecordedLocation */
+VALUES (7272, 8040, 0x604602F6, 109.4725, -49.22186, 19.22833, 0.120309, 0, 0, 0.992737) /* PCAPRecordedLocation */
 /* @teleloc 0x604602F6 [109.472500 -49.221860 19.228330] 0.120309 0.000000 0.000000 0.992737 */;

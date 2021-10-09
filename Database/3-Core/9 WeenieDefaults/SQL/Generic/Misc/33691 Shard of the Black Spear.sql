@@ -22,7 +22,7 @@ VALUES (33691,   1, 'Shard of the Black Spear') /* Name */
      , (33691,  16, 'A piece of the broken remains of the Black Spear, carried by the Mukkir Aspect of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33691,   1,   33559878) /* Setup */
-     , (33691,   3,  536870932) /* SoundTable */
-     , (33691,   8,  100688902) /* Icon */
-     , (33691,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33691,   1, 0x02001546) /* Setup */
+     , (33691,   3, 0x20000014) /* SoundTable */
+     , (33691,   8, 0x06006406) /* Icon */
+     , (33691,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,20 +34,20 @@ VALUES (1812,   1, 'Archmage Dakila bint Ma''liz') /* Name */
      , (1812,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1812,   1,   33554510) /* Setup */
-     , (1812,   2,  150994945) /* MotionTable */
-     , (1812,   3,  536870914) /* SoundTable */
-     , (1812,   6,   67108990) /* PaletteBase */
-     , (1812,   8,  100667446) /* Icon */
-     , (1812,   9,   83890281) /* EyesTexture */
-     , (1812,  10,   83890306) /* NoseTexture */
-     , (1812,  11,   83890351) /* MouthTexture */
-     , (1812,  15,   67117077) /* HairPalette */
-     , (1812,  16,   67110062) /* EyesPalette */
-     , (1812,  17,   67109556) /* SkinPalette */;
+VALUES (1812,   1, 0x0200004E) /* Setup */
+     , (1812,   2, 0x09000001) /* MotionTable */
+     , (1812,   3, 0x20000002) /* SoundTable */
+     , (1812,   6, 0x0400007E) /* PaletteBase */
+     , (1812,   8, 0x06001036) /* Icon */
+     , (1812,   9, 0x05001069) /* EyesTexture */
+     , (1812,  10, 0x05001082) /* NoseTexture */
+     , (1812,  11, 0x050010AF) /* MouthTexture */
+     , (1812,  15, 0x04002015) /* HairPalette */
+     , (1812,  16, 0x040004AE) /* EyesPalette */
+     , (1812,  17, 0x040002B4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1812, 8040, 2255225094, 33.2486, 62.4313, 9.705, 0.5777997, 0, 0, -0.8161786) /* PCAPRecordedLocation */
+VALUES (1812, 8040, 0x866C0106, 33.2486, 62.4313, 9.705, 0.5778, 0, 0, -0.816179) /* PCAPRecordedLocation */
 /* @teleloc 0x866C0106 [33.248600 62.431300 9.705000] 0.577800 0.000000 0.000000 -0.816179 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

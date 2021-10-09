@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29438,   1, 'Exit Platinum Legion Keep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29438,   1,   33554867) /* Setup */
-     , (29438,   2,  150994947) /* MotionTable */
-     , (29438,   8,  100667499) /* Icon */;
+VALUES (29438,   1, 0x020001B3) /* Setup */
+     , (29438,   2, 0x09000003) /* MotionTable */
+     , (29438,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29438, 8040, 1704329, 210, -80, -0.06299996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (29438, 8040, 0x001A0189, 210, -80, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x001A0189 [210.000000 -80.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;

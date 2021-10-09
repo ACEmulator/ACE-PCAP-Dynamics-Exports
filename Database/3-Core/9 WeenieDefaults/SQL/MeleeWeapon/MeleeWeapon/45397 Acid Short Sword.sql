@@ -58,12 +58,12 @@ VALUES (45397,   1, 'Acid Short Sword') /* Name */
      , (45397,  40, 'Trader Dagger') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45397,   1,   33555793) /* Setup */
-     , (45397,   3,  536870932) /* SoundTable */
-     , (45397,   8,  100669036) /* Icon */
-     , (45397,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45397,   1, 0x02000551) /* Setup */
+     , (45397,   3, 0x20000014) /* SoundTable */
+     , (45397,   8, 0x0600166C) /* Icon */
+     , (45397,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45397,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45397,  52,  100676437) /* IconUnderlay */;
+     , (45397,  52, 0x06003355) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45397,  4395,      2)  /* BloodDrinkerSelf8 */

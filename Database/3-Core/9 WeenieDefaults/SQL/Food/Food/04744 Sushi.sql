@@ -25,11 +25,11 @@ VALUES (4744,   1, 'Sushi') /* Name */
      , (4744,  20, 'Pieces of Sushi') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4744,   1,   33555982) /* Setup */
-     , (4744,   3,  536870932) /* SoundTable */
-     , (4744,   8,  100669971) /* Icon */
-     , (4744,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4744,   1, 0x0200060E) /* Setup */
+     , (4744,   3, 0x20000014) /* SoundTable */
+     , (4744,   8, 0x06001A13) /* Icon */
+     , (4744,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4744, 8040, 20185350, 22.70259, -23.92816, 0, 0.8299625, 0, 0, -0.5578192) /* PCAPRecordedLocation */
+VALUES (4744, 8040, 0x01340106, 22.70259, -23.92816, 0, 0.829963, 0, 0, -0.557819) /* PCAPRecordedLocation */
 /* @teleloc 0x01340106 [22.702590 -23.928160 0.000000] 0.829963 0.000000 0.000000 -0.557819 */;

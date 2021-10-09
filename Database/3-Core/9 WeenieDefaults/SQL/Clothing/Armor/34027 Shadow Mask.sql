@@ -32,7 +32,7 @@ VALUES (34027,   1, 'Shadow Mask') /* Name */
      , (34027,  16, 'A translucent mask, crafted from the head of a powerful Shadow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34027,   1,   33559845) /* Setup */
-     , (34027,   3,  536870932) /* SoundTable */
-     , (34027,   8,  100689123) /* Icon */
-     , (34027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34027,   1, 0x02001525) /* Setup */
+     , (34027,   3, 0x20000014) /* SoundTable */
+     , (34027,   8, 0x060064E3) /* Icon */
+     , (34027,  22, 0x3400002B) /* PhysicsEffectTable */;

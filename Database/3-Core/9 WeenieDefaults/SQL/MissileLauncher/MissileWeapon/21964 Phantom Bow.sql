@@ -47,9 +47,9 @@ VALUES (21964,   1, 'Phantom Bow') /* Name */
      , (21964,  25, 'Fenn') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21964,   1,   33554728) /* Setup */
-     , (21964,   3,  536870932) /* SoundTable */
-     , (21964,   6,   67111919) /* PaletteBase */
-     , (21964,   8,  100668821) /* Icon */
-     , (21964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21964,   1, 0x02000128) /* Setup */
+     , (21964,   3, 0x20000014) /* SoundTable */
+     , (21964,   6, 0x04000BEF) /* PaletteBase */
+     , (21964,   8, 0x06001595) /* Icon */
+     , (21964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21964,  30,         88) /* PhysicsScript - Create */;

@@ -47,10 +47,10 @@ VALUES (32497,   1, 'Spear of Winter Flame') /* Name */
      , (32497,  16, 'A spear once wielded by the ancient slave Baranaith, and touched by the seething energies of his brother Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32497,   1,   33559804) /* Setup */
-     , (32497,   3,  536870932) /* SoundTable */
-     , (32497,   8,  100688524) /* Icon */
-     , (32497,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32497,   1, 0x020014FC) /* Setup */
+     , (32497,   3, 0x20000014) /* SoundTable */
+     , (32497,   8, 0x0600628C) /* Icon */
+     , (32497,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32497,  1616,      2)  /* BloodDrinkerSelf6 */

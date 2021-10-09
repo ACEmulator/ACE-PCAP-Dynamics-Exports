@@ -22,11 +22,11 @@ VALUES (43502,   1, 'Token of the Aura of Mana Infusion') /* Name */
      , (43502,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43502,   1,   33557280) /* Setup */
-     , (43502,   3,  536870932) /* SoundTable */
-     , (43502,   8,  100691592) /* Icon */
-     , (43502,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43502,   1, 0x02000B20) /* Setup */
+     , (43502,   3, 0x20000014) /* SoundTable */
+     , (43502,   8, 0x06006E88) /* Icon */
+     , (43502,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43502, 8040, 3600351239, 7.98519, 144.082, 375.653, -0.711158, 0, 0, 0.703032) /* PCAPRecordedLocation */
+VALUES (43502, 8040, 0xD6990007, 7.98519, 144.082, 375.653, -0.711158, 0, 0, 0.703032) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [7.985190 144.082000 375.653000] -0.711158 0.000000 0.000000 0.703032 */;

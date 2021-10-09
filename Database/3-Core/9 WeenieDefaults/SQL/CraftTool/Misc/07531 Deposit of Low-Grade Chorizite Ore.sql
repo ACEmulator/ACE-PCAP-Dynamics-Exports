@@ -22,11 +22,11 @@ VALUES (7531,   1, 'Deposit of Low-Grade Chorizite Ore') /* Name */
      , (7531,  14, 'Mine this for chorizite ore.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7531,   1,   33556172) /* Setup */
-     , (7531,   3,  536870932) /* SoundTable */
-     , (7531,   8,  100670767) /* Icon */
-     , (7531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7531,   1, 0x020006CC) /* Setup */
+     , (7531,   3, 0x20000014) /* SoundTable */
+     , (7531,   8, 0x06001D2F) /* Icon */
+     , (7531,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7531, 8040, 48824624, 140.716, -463.135, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (7531, 8040, 0x02E90130, 140.716, -463.135, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02E90130 [140.716000 -463.135000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;

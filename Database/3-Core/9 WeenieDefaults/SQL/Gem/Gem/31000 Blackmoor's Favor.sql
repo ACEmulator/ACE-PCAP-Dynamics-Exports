@@ -33,8 +33,8 @@ VALUES (31000,   1, 'Blackmoor''s Favor') /* Name */
      , (31000,  16, 'A gift from the late Antius Blackmoor and his Page in Arwic. This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000,   1,   33554809) /* Setup */
-     , (31000,   3,  536870932) /* SoundTable */
-     , (31000,   8,  100683149) /* Icon */
-     , (31000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31000,   1, 0x02000179) /* Setup */
+     , (31000,   3, 0x20000014) /* SoundTable */
+     , (31000,   8, 0x06004D8D) /* Icon */
+     , (31000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31000,  28,       3811) /* Spell - BlackmoorsFavor */;

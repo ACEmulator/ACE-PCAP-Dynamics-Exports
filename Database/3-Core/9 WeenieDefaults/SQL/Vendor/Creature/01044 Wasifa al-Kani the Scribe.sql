@@ -34,20 +34,20 @@ VALUES (1044,   1, 'Wasifa al-Kani the Scribe') /* Name */
      , (1044,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1044,   1,   33554510) /* Setup */
-     , (1044,   2,  150994945) /* MotionTable */
-     , (1044,   3,  536870914) /* SoundTable */
-     , (1044,   6,   67108990) /* PaletteBase */
-     , (1044,   8,  100667446) /* Icon */
-     , (1044,   9,   83890279) /* EyesTexture */
-     , (1044,  10,   83890303) /* NoseTexture */
-     , (1044,  11,   83890348) /* MouthTexture */
-     , (1044,  15,   67117077) /* HairPalette */
-     , (1044,  16,   67110063) /* EyesPalette */
-     , (1044,  17,   67109555) /* SkinPalette */;
+VALUES (1044,   1, 0x0200004E) /* Setup */
+     , (1044,   2, 0x09000001) /* MotionTable */
+     , (1044,   3, 0x20000002) /* SoundTable */
+     , (1044,   6, 0x0400007E) /* PaletteBase */
+     , (1044,   8, 0x06001036) /* Icon */
+     , (1044,   9, 0x05001067) /* EyesTexture */
+     , (1044,  10, 0x0500107F) /* NoseTexture */
+     , (1044,  11, 0x050010AC) /* MouthTexture */
+     , (1044,  15, 0x04002015) /* HairPalette */
+     , (1044,  16, 0x040004AF) /* EyesPalette */
+     , (1044,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1044, 8040, 2103705911, 91.48, 84.84, 12.005, -0.5948229, 0, 0, -0.8038568) /* PCAPRecordedLocation */
+VALUES (1044, 8040, 0x7D640137, 91.48, 84.84, 12.005, -0.594823, 0, 0, -0.803857) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640137 [91.480000 84.840000 12.005000] -0.594823 0.000000 0.000000 -0.803857 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

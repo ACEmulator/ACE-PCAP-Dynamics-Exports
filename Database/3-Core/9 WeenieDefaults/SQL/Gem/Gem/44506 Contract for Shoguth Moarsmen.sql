@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44506,   1, 'Contract for Shoguth Moarsmen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44506,   1,   33557625) /* Setup */
-     , (44506,   3,  536870932) /* SoundTable */
-     , (44506,   8,  100691930) /* Icon */
-     , (44506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44506,   1, 0x02000C79) /* Setup */
+     , (44506,   3, 0x20000014) /* SoundTable */
+     , (44506,   8, 0x06006FDA) /* Icon */
+     , (44506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44506, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

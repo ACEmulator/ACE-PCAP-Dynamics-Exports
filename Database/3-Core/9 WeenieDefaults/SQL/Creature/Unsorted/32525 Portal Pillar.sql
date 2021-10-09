@@ -18,12 +18,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32525,   1, 'Portal Pillar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32525,   1,   33559803) /* Setup */
-     , (32525,   2,  150995355) /* MotionTable */
-     , (32525,   3,  536871052) /* SoundTable */
-     , (32525,   8,  100673507) /* Icon */
-     , (32525,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (32525,   1, 0x020014FB) /* Setup */
+     , (32525,   2, 0x0900019B) /* MotionTable */
+     , (32525,   3, 0x2000008C) /* SoundTable */
+     , (32525,   8, 0x060027E3) /* Icon */
+     , (32525,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32525, 8040, 2678456366, 132.85, 130.5278, 65.45, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32525, 8040, 0x9FA6002E, 132.85, 130.5278, 65.45, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9FA6002E [132.850000 130.527800 65.450000] 1.000000 0.000000 0.000000 0.000000 */;

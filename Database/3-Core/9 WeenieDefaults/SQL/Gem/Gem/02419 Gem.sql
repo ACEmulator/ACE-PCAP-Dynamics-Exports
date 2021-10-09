@@ -32,9 +32,9 @@ VALUES (2419,   1, 'Gem') /* Name */
      , (2419,  16, 'Gem of Fire Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2419,   1,   33554809) /* Setup */
-     , (2419,   3,  536870932) /* SoundTable */
-     , (2419,   6,   67111919) /* PaletteBase */
-     , (2419,   8,  100674720) /* Icon */
-     , (2419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2419,   1, 0x02000179) /* Setup */
+     , (2419,   3, 0x20000014) /* SoundTable */
+     , (2419,   6, 0x04000BEF) /* PaletteBase */
+     , (2419,   8, 0x06002CA0) /* Icon */
+     , (2419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2419,  28,       1093) /* Spell - FireProtectionSelf5 */;

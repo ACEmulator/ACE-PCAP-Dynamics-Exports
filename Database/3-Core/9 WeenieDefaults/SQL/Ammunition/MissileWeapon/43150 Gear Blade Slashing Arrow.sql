@@ -43,13 +43,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43150,   1, 'Gear Blade Slashing Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43150,   1,   33554724) /* Setup */
-     , (43150,   3,  536870932) /* SoundTable */
-     , (43150,   6,   67111919) /* PaletteBase */
-     , (43150,   8,  100672664) /* Icon */
-     , (43150,  22,  872415275) /* PhysicsEffectTable */
-     , (43150,  50,  100691312) /* IconOverlay */;
+VALUES (43150,   1, 0x02000124) /* Setup */
+     , (43150,   3, 0x20000014) /* SoundTable */
+     , (43150,   6, 0x04000BEF) /* PaletteBase */
+     , (43150,   8, 0x06002498) /* Icon */
+     , (43150,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43150,  50, 0x06006D70) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43150, 8040, 23855673, 96.06776, -55.53689, -0.071, -0.6598296, -0.6598296, -0.2542144, -0.2542144) /* PCAPRecordedLocation */
+VALUES (43150, 8040, 0x016C0239, 96.06776, -55.53689, -0.071, -0.65983, -0.65983, -0.254214, -0.254214) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0239 [96.067760 -55.536890 -0.071000] -0.659830 -0.659830 -0.254214 -0.254214 */;

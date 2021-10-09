@@ -26,9 +26,9 @@ VALUES (43173,   1, 'Foci of Shadow') /* Name */
      , (43173,  15, 'A foci used to cast spells from the School of the Shadow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43173,   1,   33554769) /* Setup */
-     , (43173,   3,  536870932) /* SoundTable */
-     , (43173,   6,   67111919) /* PaletteBase */
-     , (43173,   8,  100671332) /* Icon */
-     , (43173,  22,  872415275) /* PhysicsEffectTable */
-     , (43173,  50,  100691578) /* IconOverlay */;
+VALUES (43173,   1, 0x02000151) /* Setup */
+     , (43173,   3, 0x20000014) /* SoundTable */
+     , (43173,   6, 0x04000BEF) /* PaletteBase */
+     , (43173,   8, 0x06001F64) /* Icon */
+     , (43173,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43173,  50, 0x06006E7A) /* IconOverlay */;

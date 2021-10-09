@@ -45,8 +45,8 @@ VALUES (29258,   1, 'Slashing Atlatl') /* Name */
      , (29258,  16, 'Slashing Atlatl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29258,   1,   33559241) /* Setup */
-     , (29258,   3,  536870932) /* SoundTable */
-     , (29258,   6,   67115373) /* PaletteBase */
-     , (29258,   8,  100677457) /* Icon */
-     , (29258,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29258,   1, 0x020012C9) /* Setup */
+     , (29258,   3, 0x20000014) /* SoundTable */
+     , (29258,   6, 0x0400196D) /* PaletteBase */
+     , (29258,   8, 0x06003751) /* Icon */
+     , (29258,  22, 0x3400002B) /* PhysicsEffectTable */;

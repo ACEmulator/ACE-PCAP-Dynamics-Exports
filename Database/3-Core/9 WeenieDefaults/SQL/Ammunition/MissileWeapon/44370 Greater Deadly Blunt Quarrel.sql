@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44370,   1, 'Greater Deadly Blunt Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44370,   1,   33554730) /* Setup */
-     , (44370,   3,  536870932) /* SoundTable */
-     , (44370,   6,   67111919) /* PaletteBase */
-     , (44370,   8,  100672651) /* Icon */
-     , (44370,  22,  872415275) /* PhysicsEffectTable */
-     , (44370,  50,  100689661) /* IconOverlay */;
+VALUES (44370,   1, 0x0200012A) /* Setup */
+     , (44370,   3, 0x20000014) /* SoundTable */
+     , (44370,   6, 0x04000BEF) /* PaletteBase */
+     , (44370,   8, 0x0600248B) /* Icon */
+     , (44370,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44370,  50, 0x060066FD) /* IconOverlay */;

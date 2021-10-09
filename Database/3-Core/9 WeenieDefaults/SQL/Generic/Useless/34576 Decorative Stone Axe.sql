@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34576,   1, 'Decorative Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34576,   1,   33560179) /* Setup */
-     , (34576,   3,  536870932) /* SoundTable */
-     , (34576,   8,  100676578) /* Icon */
-     , (34576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34576,   1, 0x02001673) /* Setup */
+     , (34576,   3, 0x20000014) /* SoundTable */
+     , (34576,   8, 0x060033E2) /* Icon */
+     , (34576,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -33,12 +33,12 @@ VALUES (34198,   1, 'Gummy Ghoul') /* Name */
      , (34198,  16, 'A festival treat. A gummy candy molded into the shape of a zombie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34198,   1,   33554817) /* Setup */
-     , (34198,   3,  536870932) /* SoundTable */
-     , (34198,   8,  100667942) /* Icon */
-     , (34198,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34198,   1, 0x02000181) /* Setup */
+     , (34198,   3, 0x20000014) /* SoundTable */
+     , (34198,   8, 0x06001226) /* Icon */
+     , (34198,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34198,  28,       4022) /* Spell - ZombiesPersistence */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34198, 8040, 23855555, 56.57001, -40.72089, -0.001249999, -0.3153024, 0, 0, -0.9489912) /* PCAPRecordedLocation */
+VALUES (34198, 8040, 0x016C01C3, 56.57001, -40.72089, -0.00125, -0.315302, 0, 0, -0.948991) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.570010 -40.720890 -0.001250] -0.315302 0.000000 0.000000 -0.948991 */;

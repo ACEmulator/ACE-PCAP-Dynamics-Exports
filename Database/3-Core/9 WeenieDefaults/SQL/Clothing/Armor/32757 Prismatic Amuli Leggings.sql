@@ -41,14 +41,14 @@ VALUES (32757,   1, 'Prismatic Amuli Leggings') /* Name */
      , (32757,  16, 'A set of Amuli Leggings infused with the power of the Elements. A soft glow surrounds the leggings and storms can be seen waxing and waning within the crystal surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32757,   1,   33554856) /* Setup */
-     , (32757,   3,  536870932) /* SoundTable */
-     , (32757,   8,  100688616) /* Icon */
-     , (32757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32757,   1, 0x020001A8) /* Setup */
+     , (32757,   3, 0x20000014) /* SoundTable */
+     , (32757,   8, 0x060062E8) /* Icon */
+     , (32757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32757,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32757,  2108,      2)  /* Impenetrability7 */
-     , (32757,  2244,      2)  /* InvulnerabilityOther7 */
+VALUES (32757,  2244,      2)  /* InvulnerabilityOther7 */
      , (32757,  2609,      2)  /* CANTRIPACIDWARD2 */
-     , (32757,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
+     , (32757,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (32757,  2108,      2)  /* Impenetrability7 */;

@@ -50,11 +50,11 @@ VALUES (7796,   1, 'Fire Naginata') /* Name */
      , (7796,  16, 'Fire Naginata of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7796,   1,   33556665) /* Setup */
-     , (7796,   3,  536870932) /* SoundTable */
-     , (7796,   6,   67111919) /* PaletteBase */
-     , (7796,   8,  100670761) /* Icon */
-     , (7796,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7796,   1, 0x020008B9) /* Setup */
+     , (7796,   3, 0x20000014) /* SoundTable */
+     , (7796,   6, 0x04000BEF) /* PaletteBase */
+     , (7796,   8, 0x06001D29) /* Icon */
+     , (7796,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7796,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -23,7 +23,7 @@ VALUES (21293,   1, 'Scroll of Acid Arc VI') /* Name */
 Shoots a stream of acid at the target. The stream does 84-168 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21293,   1,   33554826) /* Setup */
-     , (21293,   8,  100677026) /* Icon */
-     , (21293,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21293,   1, 0x0200018A) /* Setup */
+     , (21293,   8, 0x060035A2) /* Icon */
+     , (21293,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21293,  28,       2716) /* Spell - AcidArc6 */;

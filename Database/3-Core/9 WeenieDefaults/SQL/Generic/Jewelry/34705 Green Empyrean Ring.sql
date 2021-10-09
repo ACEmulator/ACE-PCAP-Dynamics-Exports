@@ -37,14 +37,14 @@ VALUES (34705,   1, 'Green Empyrean Ring') /* Name */
      , (34705,  16, 'A ring of pyreal fitted with a band of glowing green metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34705,   1,   33554691) /* Setup */
-     , (34705,   3,  536870932) /* SoundTable */
-     , (34705,   6,   67111919) /* PaletteBase */
-     , (34705,   8,  100689374) /* Icon */
-     , (34705,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34705,   1, 0x02000103) /* Setup */
+     , (34705,   3, 0x20000014) /* SoundTable */
+     , (34705,   6, 0x04000BEF) /* PaletteBase */
+     , (34705,   8, 0x060065DE) /* Icon */
+     , (34705,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34705,  3955,      2)  /* BludgeonWard */
-     , (34705,  4073,      2)  /* CantripRegenEmpyrean */
+VALUES (34705,  4073,      2)  /* CantripRegenEmpyrean */
      , (34705,  4074,      2)  /* CantripRejuvEmpyrean */
-     , (34705,  4075,      2)  /* CantripRenewEmpyrean */;
+     , (34705,  4075,      2)  /* CantripRenewEmpyrean */
+     , (34705,  3955,      2)  /* BludgeonWard */;

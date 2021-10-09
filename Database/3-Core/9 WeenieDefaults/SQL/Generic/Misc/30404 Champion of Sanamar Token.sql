@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30404,   1, 'Champion of Sanamar Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30404,   1,   33554769) /* Setup */
-     , (30404,   3,  536870932) /* SoundTable */
-     , (30404,   8,  100686370) /* Icon */
-     , (30404,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30404,   1, 0x02000151) /* Setup */
+     , (30404,   3, 0x20000014) /* SoundTable */
+     , (30404,   8, 0x06005A22) /* Icon */
+     , (30404,  22, 0x3400002B) /* PhysicsEffectTable */;

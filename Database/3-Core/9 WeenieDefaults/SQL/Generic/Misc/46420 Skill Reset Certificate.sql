@@ -21,7 +21,7 @@ VALUES (46420,   1, 'Skill Reset Certificate') /* Name */
      , (46420,  15, 'A certificate accepted by Fianhe for a free skill reset. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46420,   1,   33554659) /* Setup */
-     , (46420,   3,  536870932) /* SoundTable */
-     , (46420,   8,  100692711) /* Icon */
-     , (46420,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46420,   1, 0x020000E3) /* Setup */
+     , (46420,   3, 0x20000014) /* SoundTable */
+     , (46420,   8, 0x060072E7) /* Icon */
+     , (46420,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -52,17 +52,17 @@ VALUES (46069,   1, 'Enhanced Blackfire Sparking Atlan Bow') /* Name */
      , (46069,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46069,   1,   33557757) /* Setup */
-     , (46069,   3,  536870932) /* SoundTable */
-     , (46069,   6,   67111919) /* PaletteBase */
-     , (46069,   8,  100673012) /* Icon */
-     , (46069,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46069,   1, 0x02000CFD) /* Setup */
+     , (46069,   3, 0x20000014) /* SoundTable */
+     , (46069,   6, 0x04000BEF) /* PaletteBase */
+     , (46069,   8, 0x060025F4) /* Icon */
+     , (46069,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46069,  2061,      2)  /* EnduranceSelf7 */
-     , (46069,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46069,  2101,      2)  /* DefenderSelf7 */
-     , (46069,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46069,  2159,      2)  /* LightningProtectionSelf7 */
+VALUES (46069,  2116,      2)  /* SwiftKillerSelf7 */
      , (46069,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
-     , (46069,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46069,  2061,      2)  /* EnduranceSelf7 */
+     , (46069,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46069,  2159,      2)  /* LightningProtectionSelf7 */
+     , (46069,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46069,  2101,      2)  /* DefenderSelf7 */;

@@ -23,7 +23,7 @@ VALUES (20242,   1, 'Scroll of Brittle Bones') /* Name */
 Decreases the target''s Endurance by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20242,   1,   33554826) /* Setup */
-     , (20242,   8,  100676456) /* Icon */
-     , (20242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20242,   1, 0x0200018A) /* Setup */
+     , (20242,   8, 0x06003368) /* Icon */
+     , (20242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20242,  28,       2068) /* Spell - FrailtyOther7 */;

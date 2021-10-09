@@ -46,11 +46,11 @@ VALUES (21361,   1, 'Deadly Hollow Dagger') /* Name */
      , (21361,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21361,   1,   33556650) /* Setup */
-     , (21361,   3,  536870932) /* SoundTable */
-     , (21361,   8,  100668876) /* Icon */
-     , (21361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21361,   1, 0x020008AA) /* Setup */
+     , (21361,   3, 0x20000014) /* SoundTable */
+     , (21361,   8, 0x060015CC) /* Icon */
+     , (21361,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21361, 8040, 2847080479, 13.22165, 35.3875, 93.92901, 0.6830127, 0.6830127, -0.1830127, -0.1830127) /* PCAPRecordedLocation */
+VALUES (21361, 8040, 0xA9B3001F, 13.22165, 35.3875, 93.92901, 0.683013, 0.683013, -0.183013, -0.183013) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3001F [13.221650 35.387500 93.929010] 0.683013 0.683013 -0.183013 -0.183013 */;

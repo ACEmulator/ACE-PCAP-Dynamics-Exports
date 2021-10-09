@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36532,   1, 'Arena of the Pumpkin King') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36532,   1,   33560390) /* Setup */
-     , (36532,   2,  150995417) /* MotionTable */
-     , (36532,   3,  536871052) /* SoundTable */
-     , (36532,   8,  100667446) /* Icon */;
+VALUES (36532,   1, 0x02001746) /* Setup */
+     , (36532,   2, 0x090001D9) /* MotionTable */
+     , (36532,   3, 0x2000008C) /* SoundTable */
+     , (36532,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36532, 8040, 11469138, 140, -42.528, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36532, 8040, 0x00AF0152, 140, -42.528, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0152 [140.000000 -42.528000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;

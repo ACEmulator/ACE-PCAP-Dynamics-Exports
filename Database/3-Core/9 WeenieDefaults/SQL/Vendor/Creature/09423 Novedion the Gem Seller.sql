@@ -32,14 +32,14 @@ VALUES (9423,   1, 'Novedion the Gem Seller') /* Name */
      , (9423,   5, 'Gem Seller') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9423,   1,   33557003) /* Setup */
-     , (9423,   2,  150994950) /* MotionTable */
-     , (9423,   3,  536870922) /* SoundTable */
-     , (9423,   6,   67113158) /* PaletteBase */
-     , (9423,   8,  100667447) /* Icon */;
+VALUES (9423,   1, 0x02000A0B) /* Setup */
+     , (9423,   2, 0x09000006) /* MotionTable */
+     , (9423,   3, 0x2000000A) /* SoundTable */
+     , (9423,   6, 0x040010C6) /* PaletteBase */
+     , (9423,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9423, 8040, 2847146026, 124.794, 31.5153, 94.01, 0.4710685, 0, 0, -0.8820966) /* PCAPRecordedLocation */
+VALUES (9423, 8040, 0xA9B4002A, 124.794, 31.5153, 94.01, 0.471069, 0, 0, -0.882097) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [124.794000 31.515300 94.010000] 0.471069 0.000000 0.000000 -0.882097 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -34,20 +34,20 @@ VALUES (2536,   1, 'Shopkeep Kuro of Kara ') /* Name */
      , (2536,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2536,   1,   33554433) /* Setup */
-     , (2536,   2,  150994945) /* MotionTable */
-     , (2536,   3,  536870913) /* SoundTable */
-     , (2536,   6,   67108990) /* PaletteBase */
-     , (2536,   8,  100667446) /* Icon */
-     , (2536,   9,   83890450) /* EyesTexture */
-     , (2536,  10,   83890548) /* NoseTexture */
-     , (2536,  11,   83890587) /* MouthTexture */
-     , (2536,  15,   67117018) /* HairPalette */
-     , (2536,  16,   67109565) /* EyesPalette */
-     , (2536,  17,   67110049) /* SkinPalette */;
+VALUES (2536,   1, 0x02000001) /* Setup */
+     , (2536,   2, 0x09000001) /* MotionTable */
+     , (2536,   3, 0x20000001) /* SoundTable */
+     , (2536,   6, 0x0400007E) /* PaletteBase */
+     , (2536,   8, 0x06001036) /* Icon */
+     , (2536,   9, 0x05001112) /* EyesTexture */
+     , (2536,  10, 0x05001174) /* NoseTexture */
+     , (2536,  11, 0x0500119B) /* MouthTexture */
+     , (2536,  15, 0x04001FDA) /* HairPalette */
+     , (2536,  16, 0x040002BD) /* EyesPalette */
+     , (2536,  17, 0x040004A1) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2536, 8040, 3122069799, 52.6688, 38.7667, 132.005, 0.7191867, 0, 0, -0.6948169) /* PCAPRecordedLocation */
+VALUES (2536, 8040, 0xBA170127, 52.6688, 38.7667, 132.005, 0.719187, 0, 0, -0.694817) /* PCAPRecordedLocation */
 /* @teleloc 0xBA170127 [52.668800 38.766700 132.005000] 0.719187 0.000000 0.000000 -0.694817 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

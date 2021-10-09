@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37614,   1, 'Principles of the Celestial Hand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37614,   1,   33554771) /* Setup */
-     , (37614,   3,  536870932) /* SoundTable */
-     , (37614,   8,  100689902) /* Icon */
-     , (37614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37614,   1, 0x02000153) /* Setup */
+     , (37614,   3, 0x20000014) /* SoundTable */
+     , (37614,   8, 0x060067EE) /* Icon */
+     , (37614,  22, 0x3400002B) /* PhysicsEffectTable */;

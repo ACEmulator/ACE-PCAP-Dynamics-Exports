@@ -50,24 +50,24 @@ VALUES (33996,   1, 'Composite Bow with Exquisite Handle') /* Name */
      , (33996,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33996,   1,   33556600) /* Setup */
-     , (33996,   3,  536870932) /* SoundTable */
-     , (33996,   6,   67112869) /* PaletteBase */
-     , (33996,   8,  100670670) /* Icon */
-     , (33996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33996,   1, 0x02000878) /* Setup */
+     , (33996,   3, 0x20000014) /* SoundTable */
+     , (33996,   6, 0x04000FA5) /* PaletteBase */
+     , (33996,   8, 0x06001CCE) /* Icon */
+     , (33996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33996,  55,       2100) /* ProcSpell - Brittlemail7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33996, 8040, 3465871413, 158.8985, 96.1503, 19.93, -0.293739, 0, 0, -0.9558856) /* PCAPRecordedLocation */
+VALUES (33996, 8040, 0xCE950035, 158.8985, 96.1503, 19.93, -0.293739, 0, 0, -0.955886) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [158.898500 96.150300 19.930000] -0.293739 0.000000 0.000000 -0.955886 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33996,  2058,      2)  /* CoordinationOther7 */
-     , (33996,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33996,  2101,      2)  /* DefenderSelf7 */
-     , (33996,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33996,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+VALUES (33996,  2116,      2)  /* SwiftKillerSelf7 */
      , (33996,  2244,      2)  /* InvulnerabilityOther7 */
-     , (33996,  2280,      2)  /* MagicResistanceOther7 */
      , (33996,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
-     , (33996,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (33996,  2058,      2)  /* CoordinationOther7 */
+     , (33996,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (33996,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+     , (33996,  2280,      2)  /* MagicResistanceOther7 */
+     , (33996,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33996,  2101,      2)  /* DefenderSelf7 */;

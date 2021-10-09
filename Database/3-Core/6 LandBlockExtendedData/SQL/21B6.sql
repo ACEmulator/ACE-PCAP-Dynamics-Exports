@@ -309,11 +309,11 @@ VALUES (0x721B6037, 11510, 0x21B6000B, 24.10117, 65.73942, 90.007, 1, 0, 0, 0,  
 /* @teleloc 0x21B6000B [24.101170 65.739420 90.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x721B6038,  7095, 0x21B6000B, 29.3601, 57.46953, 110, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scathisa */
+VALUES (0x721B6038,  7095, 0x21B6000B, 29.3601, 57.46953, 110, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Scathisa */
 /* @teleloc 0x21B6000B [29.360100 57.469530 110.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x721B6039,  7095, 0x21B6000B, 29.3601, 51.46953, 110, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scathisa */
+VALUES (0x721B6039,  7095, 0x21B6000B, 29.3601, 51.46953, 110, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Scathisa */
 /* @teleloc 0x21B6000B [29.360100 51.469530 110.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -321,7 +321,7 @@ VALUES (0x721B603A,  7094, 0x21B6000B, 26.3601, 54.46953, 110, 1, 0, 0, 0,  True
 /* @teleloc 0x21B6000B [26.360100 54.469530 110.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x721B603B,  7094, 0x21B6000B, 32.3601, 54.46953, 110, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Synnast */
+VALUES (0x721B603B,  7094, 0x21B6000B, 32.3601, 54.46953, 110, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Synnast */
 /* @teleloc 0x21B6000B [32.360100 54.469530 110.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

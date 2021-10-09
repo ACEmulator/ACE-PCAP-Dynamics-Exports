@@ -25,7 +25,7 @@ VALUES (33541,   1, 'Locked Gate Key') /* Name */
      , (33541,  16, 'An ancient key, used to open the locked Gate in the Deep Mukkir Nest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33541,   1,   33554784) /* Setup */
-     , (33541,   3,  536870932) /* SoundTable */
-     , (33541,   8,  100670820) /* Icon */
-     , (33541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33541,   1, 0x02000160) /* Setup */
+     , (33541,   3, 0x20000014) /* SoundTable */
+     , (33541,   8, 0x06001D64) /* Icon */
+     , (33541,  22, 0x3400002B) /* PhysicsEffectTable */;

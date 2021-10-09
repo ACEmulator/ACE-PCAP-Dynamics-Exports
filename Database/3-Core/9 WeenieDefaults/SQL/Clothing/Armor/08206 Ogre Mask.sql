@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8206,   1, 'Ogre Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8206,   1,   33556862) /* Setup */
-     , (8206,   3,  536870932) /* SoundTable */
-     , (8206,   8,  100671134) /* Icon */
-     , (8206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8206,   1, 0x0200097E) /* Setup */
+     , (8206,   3, 0x20000014) /* SoundTable */
+     , (8206,   8, 0x06001E9E) /* Icon */
+     , (8206,  22, 0x3400002B) /* PhysicsEffectTable */;

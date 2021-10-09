@@ -23,7 +23,7 @@ VALUES (1742,   1, 'Scroll of Heavy Weapon Mastery Other') /* Name */
 Increases the target''s Heavy Weapons skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1742,   1,   33554826) /* Setup */
-     , (1742,   8,  100692254) /* Icon */
-     , (1742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1742,   1, 0x0200018A) /* Setup */
+     , (1742,   8, 0x0600711E) /* Icon */
+     , (1742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1742,  28,        412) /* Spell - HeavyWeaponsMasteryOther1 */;

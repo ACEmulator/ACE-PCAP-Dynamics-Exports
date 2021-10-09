@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44034,   1, 'Burning Sands Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44034,   1,   33561254) /* Setup */
-     , (44034,   2,  150995073) /* MotionTable */
-     , (44034,   3,  536870933) /* SoundTable */
-     , (44034,   6,   67112775) /* PaletteBase */
-     , (44034,   8,  100667940) /* Icon */
-     , (44034,  22,  872415329) /* PhysicsEffectTable */;
+VALUES (44034,   1, 0x02001AA6) /* Setup */
+     , (44034,   2, 0x09000081) /* MotionTable */
+     , (44034,   3, 0x20000015) /* SoundTable */
+     , (44034,   6, 0x04000F47) /* PaletteBase */
+     , (44034,   8, 0x06001224) /* Icon */
+     , (44034,  22, 0x34000061) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44034, 8040, 1465909958, 120, -180, -11.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (44034, 8040, 0x576002C6, 120, -180, -11.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x576002C6 [120.000000 -180.000000 -11.985000] 1.000000 0.000000 0.000000 0.000000 */;

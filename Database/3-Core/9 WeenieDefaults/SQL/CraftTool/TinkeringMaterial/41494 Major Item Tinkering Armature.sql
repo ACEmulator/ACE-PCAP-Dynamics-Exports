@@ -30,10 +30,10 @@ VALUES (41494,   1, 'Major Item Tinkering Armature') /* Name */
      , (41494,  40, 'Plumpy') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41494,   1,   33554817) /* Setup */
-     , (41494,   3,  536870932) /* SoundTable */
-     , (41494,   6,   67111919) /* PaletteBase */
-     , (41494,   8,  100673216) /* Icon */
-     , (41494,  22,  872415275) /* PhysicsEffectTable */
-     , (41494,  50,  100673295) /* IconOverlay */
-     , (41494,  52,  100676441) /* IconUnderlay */;
+VALUES (41494,   1, 0x02000181) /* Setup */
+     , (41494,   3, 0x20000014) /* SoundTable */
+     , (41494,   6, 0x04000BEF) /* PaletteBase */
+     , (41494,   8, 0x060026C0) /* Icon */
+     , (41494,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41494,  50, 0x0600270F) /* IconOverlay */
+     , (41494,  52, 0x06003359) /* IconUnderlay */;

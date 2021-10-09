@@ -55,11 +55,11 @@ The Mystic Rogue says, "he lives a lie"') /* Inscription */
      , (25607,  15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25607,   1,   33558471) /* Setup */
-     , (25607,   3,  536870932) /* SoundTable */
-     , (25607,   6,   67114522) /* PaletteBase */
-     , (25607,   8,  100674893) /* Icon */
-     , (25607,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25607,   1, 0x02000FC7) /* Setup */
+     , (25607,   3, 0x20000014) /* SoundTable */
+     , (25607,   6, 0x0400161A) /* PaletteBase */
+     , (25607,   8, 0x06002D4D) /* Icon */
+     , (25607,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25607,  2686,      2)  /* ModerateAxeAptitude */;

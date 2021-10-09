@@ -41,8 +41,8 @@ VALUES (3873,   1, 'Acid Spear') /* Name */
      , (3873,  16, 'Acid Spear') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3873,   1,   33555780) /* Setup */
-     , (3873,   3,  536870932) /* SoundTable */
-     , (3873,   6,   67111919) /* PaletteBase */
-     , (3873,   8,  100669014) /* Icon */
-     , (3873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3873,   1, 0x02000544) /* Setup */
+     , (3873,   3, 0x20000014) /* SoundTable */
+     , (3873,   6, 0x04000BEF) /* PaletteBase */
+     , (3873,   8, 0x06001656) /* Icon */
+     , (3873,  22, 0x3400002B) /* PhysicsEffectTable */;

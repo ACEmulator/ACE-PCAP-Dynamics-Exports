@@ -51,17 +51,17 @@ VALUES (45119,   1, 'Acid Hand Wraps') /* Name */
      , (45119,  16, 'Acid Hand Wraps of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45119,   1,   33561415) /* Setup */
-     , (45119,   3,  536870932) /* SoundTable */
-     , (45119,   6,   67115556) /* PaletteBase */
-     , (45119,   8,  100692308) /* Icon */
-     , (45119,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45119,   1, 0x02001B47) /* Setup */
+     , (45119,   3, 0x20000014) /* SoundTable */
+     , (45119,   6, 0x04001A24) /* PaletteBase */
+     , (45119,   8, 0x06007154) /* Icon */
+     , (45119,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45119,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45119,  2081,      2)  /* QuicknessSelf7 */
-     , (45119,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45119,  2101,      2)  /* DefenderSelf7 */
+VALUES (45119,  4672,      2)  /* CANTRIPSWIFTHUNTER3 */
      , (45119,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45119,  2081,      2)  /* QuicknessSelf7 */
+     , (45119,  2096,      2)  /* BloodDrinkerSelf7 */
      , (45119,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (45119,  4672,      2)  /* CANTRIPSWIFTHUNTER3 */;
+     , (45119,  2101,      2)  /* DefenderSelf7 */;

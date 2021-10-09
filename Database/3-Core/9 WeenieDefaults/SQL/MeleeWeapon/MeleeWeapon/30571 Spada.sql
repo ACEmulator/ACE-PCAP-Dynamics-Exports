@@ -52,15 +52,15 @@ VALUES (30571,   1, 'Spada') /* Name */
      , (30571,  40, 'Lilyiam''s Mage') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30571,   1,   33559317) /* Setup */
-     , (30571,   3,  536870932) /* SoundTable */
-     , (30571,   6,   67115557) /* PaletteBase */
-     , (30571,   8,  100686944) /* Icon */
-     , (30571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30571,   1, 0x02001315) /* Setup */
+     , (30571,   3, 0x20000014) /* SoundTable */
+     , (30571,   6, 0x04001A25) /* PaletteBase */
+     , (30571,   8, 0x06005C60) /* Icon */
+     , (30571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30571,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30571, 8040, 565182751, 31.77688, 61.92346, -0.3710001, -0.7062502, -0.7062502, -0.03479462, -0.03479462) /* PCAPRecordedLocation */
+VALUES (30571, 8040, 0x21B0011F, 31.77688, 61.92346, -0.371, -0.70625, -0.70625, -0.034795, -0.034795) /* PCAPRecordedLocation */
 /* @teleloc 0x21B0011F [31.776880 61.923460 -0.371000] -0.706250 -0.706250 -0.034795 -0.034795 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

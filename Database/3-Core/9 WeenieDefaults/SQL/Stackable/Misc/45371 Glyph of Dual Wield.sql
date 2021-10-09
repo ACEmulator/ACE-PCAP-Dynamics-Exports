@@ -19,9 +19,9 @@ VALUES (45371,   1, 'Glyph of Dual Wield') /* Name */
      , (45371,  20, 'Glyphs of Dual Wield') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45371,   1,   33554809) /* Setup */
-     , (45371,   3,  536870932) /* SoundTable */
-     , (45371,   6,   67111919) /* PaletteBase */
-     , (45371,   8,  100690191) /* Icon */
-     , (45371,  22,  872415275) /* PhysicsEffectTable */
-     , (45371,  50,  100692245) /* IconOverlay */;
+VALUES (45371,   1, 0x02000179) /* Setup */
+     , (45371,   3, 0x20000014) /* SoundTable */
+     , (45371,   6, 0x04000BEF) /* PaletteBase */
+     , (45371,   8, 0x0600690F) /* Icon */
+     , (45371,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45371,  50, 0x06007115) /* IconOverlay */;

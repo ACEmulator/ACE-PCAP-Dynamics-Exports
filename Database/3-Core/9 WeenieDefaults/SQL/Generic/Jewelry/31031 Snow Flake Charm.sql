@@ -33,11 +33,11 @@ VALUES (31031,   1, 'Snow Flake Charm') /* Name */
      , (31031,  16, 'A finely crafted chain necklace with a delicate snow flake hanging from it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31031,   1,   33558516) /* Setup */
-     , (31031,   3,  536870932) /* SoundTable */
-     , (31031,   8,  100675518) /* Icon */
-     , (31031,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31031,   1, 0x02000FF4) /* Setup */
+     , (31031,   3, 0x20000014) /* SoundTable */
+     , (31031,   8, 0x06002FBE) /* Icon */
+     , (31031,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31031,  2155,      2)  /* ColdProtectionSelf7 */
-     , (31031,  2185,      2)  /* RegenerationSelf7 */;
+VALUES (31031,  2185,      2)  /* RegenerationSelf7 */
+     , (31031,  2155,      2)  /* ColdProtectionSelf7 */;

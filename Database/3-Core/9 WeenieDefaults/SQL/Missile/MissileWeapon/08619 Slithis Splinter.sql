@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8619,   1, 'Slithis Splinter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8619,   1,   33556900) /* Setup */
-     , (8619,   3,  536870932) /* SoundTable */
-     , (8619,   8,  100671205) /* Icon */
-     , (8619,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8619,   1, 0x020009A4) /* Setup */
+     , (8619,   3, 0x20000014) /* SoundTable */
+     , (8619,   8, 0x06001EE5) /* Icon */
+     , (8619,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8619, 8040, 4062314537, 136.7137, 7.507936, -0.01800001, -0.3281958, 0, 0, -0.9446097) /* PCAPRecordedLocation */
+VALUES (8619, 8040, 0xF2220029, 136.7137, 7.507936, -0.018, -0.328196, 0, 0, -0.94461) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220029 [136.713700 7.507936 -0.018000] -0.328196 0.000000 0.000000 -0.944610 */;

@@ -23,7 +23,7 @@ VALUES (45263,   1, 'Scroll of Dual Wield Ineptitude Other IV') /* Name */
 Decreases the target''s Dual Wield skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45263,   1,   33554826) /* Setup */
-     , (45263,   8,  100692251) /* Icon */
-     , (45263,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45263,   1, 0x0200018A) /* Setup */
+     , (45263,   8, 0x0600711B) /* Icon */
+     , (45263,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45263,  28,       5790) /* Spell - DualWieldIneptitudeOther4 */;

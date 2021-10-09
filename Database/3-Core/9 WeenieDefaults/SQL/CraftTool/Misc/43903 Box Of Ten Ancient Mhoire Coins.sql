@@ -31,7 +31,7 @@ VALUES (43903,   1, 'Box Of Ten Ancient Mhoire Coins') /* Name */
      , (43903,  20, 'Boxes Of Ten Ancient Mhoire Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43903,   1,   33554718) /* Setup */
-     , (43903,   3,  536870932) /* SoundTable */
-     , (43903,   8,  100691791) /* Icon */
-     , (43903,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43903,   1, 0x0200011E) /* Setup */
+     , (43903,   3, 0x20000014) /* SoundTable */
+     , (43903,   8, 0x06006F4F) /* Icon */
+     , (43903,  22, 0x3400002B) /* PhysicsEffectTable */;

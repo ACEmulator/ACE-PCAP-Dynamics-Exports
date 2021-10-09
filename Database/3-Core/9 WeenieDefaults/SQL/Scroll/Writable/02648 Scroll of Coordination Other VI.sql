@@ -23,7 +23,7 @@ VALUES (2648,   1, 'Scroll of Coordination Other VI') /* Name */
 Increases the target''s Coordination by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2648,   1,   33554826) /* Setup */
-     , (2648,   8,  100676452) /* Icon */
-     , (2648,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2648,   1, 0x0200018A) /* Setup */
+     , (2648,   8, 0x06003364) /* Icon */
+     , (2648,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2648,  28,       1384) /* Spell - CoordinationOther6 */;

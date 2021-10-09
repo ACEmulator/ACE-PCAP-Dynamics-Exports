@@ -26,7 +26,7 @@ VALUES (45193,   1, 'Red Veined Grub') /* Name */
      , (45193,  20, 'Red Veined Grubs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45193,   1,   33558333) /* Setup */
-     , (45193,   3,  536870932) /* SoundTable */
-     , (45193,   8,  100674289) /* Icon */
-     , (45193,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45193,   1, 0x02000F3D) /* Setup */
+     , (45193,   3, 0x20000014) /* SoundTable */
+     , (45193,   8, 0x06002AF1) /* Icon */
+     , (45193,  22, 0x3400002B) /* PhysicsEffectTable */;

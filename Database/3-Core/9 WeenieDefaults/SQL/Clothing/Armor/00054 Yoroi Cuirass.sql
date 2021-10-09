@@ -44,11 +44,11 @@ VALUES (54,   1, 'Yoroi Cuirass') /* Name */
      , (54,  16, 'Yoroi Cuirass') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (54,   1,   33554854) /* Setup */
-     , (54,   3,  536870932) /* SoundTable */
-     , (54,   6,   67108990) /* PaletteBase */
-     , (54,   8,  100671319) /* Icon */
-     , (54,  22,  872415275) /* PhysicsEffectTable */
+VALUES (54,   1, 0x020001A6) /* Setup */
+     , (54,   3, 0x20000014) /* SoundTable */
+     , (54,   6, 0x0400007E) /* PaletteBase */
+     , (54,   8, 0x06001F57) /* Icon */
+     , (54,  22, 0x3400002B) /* PhysicsEffectTable */
      , (54,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

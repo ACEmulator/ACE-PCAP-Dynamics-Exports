@@ -32,18 +32,18 @@ VALUES (9064,   1, 'Hieromancer''s Orb') /* Name */
      , (9064,  16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9064,   1,   33556965) /* Setup */
-     , (9064,   3,  536870932) /* SoundTable */
-     , (9064,   6,   67111919) /* PaletteBase */
-     , (9064,   8,  100671367) /* Icon */
-     , (9064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9064,   1, 0x020009E5) /* Setup */
+     , (9064,   3, 0x20000014) /* SoundTable */
+     , (9064,   6, 0x04000BEF) /* PaletteBase */
+     , (9064,   8, 0x06001F87) /* Icon */
+     , (9064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9064,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9064, 8040, 3583574080, 184.0995, 168.9445, 383.929, -0.06448367, -0.06448367, -0.7041604, -0.7041604) /* PCAPRecordedLocation */
+VALUES (9064, 8040, 0xD5990040, 184.0995, 168.9445, 383.929, -0.064484, -0.064484, -0.70416, -0.70416) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [184.099500 168.944500 383.929000] -0.064484 -0.064484 -0.704160 -0.704160 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9064,   634,      2)  /* WarMagicMasterySelf6 */
-     , (9064,  1426,      2)  /* FocusSelf6 */
-     , (9064,  1450,      2)  /* WillpowerSelf6 */;
+VALUES (9064,  1426,      2)  /* FocusSelf6 */
+     , (9064,  1450,      2)  /* WillpowerSelf6 */
+     , (9064,   634,      2)  /* WarMagicMasterySelf6 */;

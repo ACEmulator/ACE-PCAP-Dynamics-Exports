@@ -22,7 +22,7 @@ VALUES (30972,   1, 'Bag of Life Stone Chips') /* Name */
      , (30972,  16, 'A small bag full of Life Stone Chips.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30972,   1,   33554817) /* Setup */
-     , (30972,   3,  536870932) /* SoundTable */
-     , (30972,   8,  100670082) /* Icon */
-     , (30972,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30972,   1, 0x02000181) /* Setup */
+     , (30972,   3, 0x20000014) /* SoundTable */
+     , (30972,   8, 0x06001A82) /* Icon */
+     , (30972,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,8 +26,8 @@ VALUES (36740,   1, 'Concentrated Piercing Oil') /* Name */
      , (36740,  20, 'Vials of Concentrated Piercing Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36740,   1,   33555967) /* Setup */
-     , (36740,   3,  536870932) /* SoundTable */
-     , (36740,   6,   67111919) /* PaletteBase */
-     , (36740,   8,  100689713) /* Icon */
-     , (36740,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36740,   1, 0x020005FF) /* Setup */
+     , (36740,   3, 0x20000014) /* SoundTable */
+     , (36740,   6, 0x04000BEF) /* PaletteBase */
+     , (36740,   8, 0x06006731) /* Icon */
+     , (36740,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,14 +25,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7370,   1, 'Mount Esper Firestorm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7370,   1,   33556636) /* Setup */
-     , (7370,   2,  150995087) /* MotionTable */
-     , (7370,   3,  536870998) /* SoundTable */
-     , (7370,   8,  100670274) /* Icon */
-     , (7370,  22,  872415363) /* PhysicsEffectTable */;
+VALUES (7370,   1, 0x0200089C) /* Setup */
+     , (7370,   2, 0x0900008F) /* MotionTable */
+     , (7370,   3, 0x20000056) /* SoundTable */
+     , (7370,   8, 0x06001B42) /* Icon */
+     , (7370,  22, 0x34000083) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7370, 8040, 2412838950, 107.3653, 130.1922, 267.0614, 0.7321112, 0, 0, 0.6811852) /* PCAPRecordedLocation */
+VALUES (7370, 8040, 0x8FD10026, 107.3653, 130.1922, 267.0614, 0.732111, 0, 0, 0.681185) /* PCAPRecordedLocation */
 /* @teleloc 0x8FD10026 [107.365300 130.192200 267.061400] 0.732111 0.000000 0.000000 0.681185 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

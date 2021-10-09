@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2341,   1, 'Trialos') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2341,   1,   33554867) /* Setup */
-     , (2341,   2,  150994947) /* MotionTable */
-     , (2341,   8,  100667499) /* Icon */;
+VALUES (2341,   1, 0x020001B3) /* Setup */
+     , (2341,   2, 0x09000003) /* MotionTable */
+     , (2341,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2341, 8040, 3291873313, 111.782, 16.4698, 64.50438, 0.9986479, 0, 0, -0.0519838) /* PCAPRecordedLocation */
+VALUES (2341, 8040, 0xC4360021, 111.782, 16.4698, 64.50438, 0.998648, 0, 0, -0.051984) /* PCAPRecordedLocation */
 /* @teleloc 0xC4360021 [111.782000 16.469800 64.504380] 0.998648 0.000000 0.000000 -0.051984 */;

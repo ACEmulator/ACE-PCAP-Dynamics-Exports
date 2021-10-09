@@ -35,20 +35,20 @@ VALUES (24595,   1, 'Thimrin Woodsetter') /* Name */
      , (24595,   5, 'Tradesman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24595,   1,   33554433) /* Setup */
-     , (24595,   2,  150994945) /* MotionTable */
-     , (24595,   3,  536870913) /* SoundTable */
-     , (24595,   6,   67108990) /* PaletteBase */
-     , (24595,   8,  100667446) /* Icon */
-     , (24595,   9,   83890482) /* EyesTexture */
-     , (24595,  10,   83890544) /* NoseTexture */
-     , (24595,  11,   83890618) /* MouthTexture */
-     , (24595,  15,   67116991) /* HairPalette */
-     , (24595,  16,   67110062) /* EyesPalette */
-     , (24595,  17,   67109557) /* SkinPalette */;
+VALUES (24595,   1, 0x02000001) /* Setup */
+     , (24595,   2, 0x09000001) /* MotionTable */
+     , (24595,   3, 0x20000001) /* SoundTable */
+     , (24595,   6, 0x0400007E) /* PaletteBase */
+     , (24595,   8, 0x06001036) /* Icon */
+     , (24595,   9, 0x05001132) /* EyesTexture */
+     , (24595,  10, 0x05001170) /* NoseTexture */
+     , (24595,  11, 0x050011BA) /* MouthTexture */
+     , (24595,  15, 0x04001FBF) /* HairPalette */
+     , (24595,  16, 0x040004AE) /* EyesPalette */
+     , (24595,  17, 0x040002B5) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24595, 8040, 722599961, 76.7132, 19.2971, 72.9361, 0.1449077, 0, 0, -0.9894451) /* PCAPRecordedLocation */
+VALUES (24595, 8040, 0x2B120019, 76.7132, 19.2971, 72.9361, 0.144908, 0, 0, -0.989445) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [76.713200 19.297100 72.936100] 0.144908 0.000000 0.000000 -0.989445 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

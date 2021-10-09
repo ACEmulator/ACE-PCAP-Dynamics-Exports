@@ -18,9 +18,9 @@ VALUES (635,   1, 'Healer') /* Name */
      , (635,  16, 'Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (635,   1,   33555088) /* Setup */
-     , (635,   8,  100668115) /* Icon */;
+VALUES (635,   1, 0x02000290) /* Setup */
+     , (635,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (635, 8040, 2541420600, 156.925, 172.749, -3.72529E-09, -0.751475, 0, 0, -0.659762) /* PCAPRecordedLocation */
+VALUES (635, 8040, 0x977B0038, 156.925, 172.749, 0, -0.751475, 0, 0, -0.659762) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0038 [156.925000 172.749000 0.000000] -0.751475 0.000000 0.000000 -0.659762 */;

@@ -34,21 +34,21 @@ VALUES (1834,   1, 'Tailor Istima al-Mahat') /* Name */
      , (1834,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1834,   1,   33554510) /* Setup */
-     , (1834,   2,  150995141) /* MotionTable */
-     , (1834,   3,  536871045) /* SoundTable */
-     , (1834,   6,   67108990) /* PaletteBase */
-     , (1834,   8,  100667446) /* Icon */
-     , (1834,   9,   83890276) /* EyesTexture */
-     , (1834,  10,   83890304) /* NoseTexture */
-     , (1834,  11,   83890324) /* MouthTexture */
-     , (1834,  15,   67117074) /* HairPalette */
-     , (1834,  16,   67110063) /* EyesPalette */
-     , (1834,  17,   67109551) /* SkinPalette */
-     , (1834,  22,  872415381) /* PhysicsEffectTable */;
+VALUES (1834,   1, 0x0200004E) /* Setup */
+     , (1834,   2, 0x090000C5) /* MotionTable */
+     , (1834,   3, 0x20000085) /* SoundTable */
+     , (1834,   6, 0x0400007E) /* PaletteBase */
+     , (1834,   8, 0x06001036) /* Icon */
+     , (1834,   9, 0x05001064) /* EyesTexture */
+     , (1834,  10, 0x05001080) /* NoseTexture */
+     , (1834,  11, 0x05001094) /* MouthTexture */
+     , (1834,  15, 0x04002012) /* HairPalette */
+     , (1834,  16, 0x040004AF) /* EyesPalette */
+     , (1834,  17, 0x040002AF) /* SkinPalette */
+     , (1834,  22, 0x34000095) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1834, 8040, 2724135188, 129.191, 102.313, 19.705, 0.9921335, 0, 0, -0.1251843) /* PCAPRecordedLocation */
+VALUES (1834, 8040, 0xA25F0114, 129.191, 102.313, 19.705, 0.992134, 0, 0, -0.125184) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0114 [129.191000 102.313000 19.705000] 0.992134 0.000000 0.000000 -0.125184 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

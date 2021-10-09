@@ -23,7 +23,7 @@ VALUES (3337,   1, 'Scroll of Jumping Mastery Other VI') /* Name */
 Increases the target''s Jump skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3337,   1,   33554826) /* Setup */
-     , (3337,   8,  100676461) /* Icon */
-     , (3337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3337,   1, 0x0200018A) /* Setup */
+     , (3337,   8, 0x0600336D) /* Icon */
+     , (3337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3337,  28,        981) /* Spell - JumpingMasteryOther6 */;

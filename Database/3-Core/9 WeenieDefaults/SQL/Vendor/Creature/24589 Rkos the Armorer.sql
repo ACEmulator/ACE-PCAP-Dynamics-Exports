@@ -33,14 +33,14 @@ VALUES (24589,   1, 'Rkos the Armorer') /* Name */
      , (24589,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24589,   1,   33557003) /* Setup */
-     , (24589,   2,  150994950) /* MotionTable */
-     , (24589,   3,  536870922) /* SoundTable */
-     , (24589,   6,   67113158) /* PaletteBase */
-     , (24589,   8,  100667447) /* Icon */;
+VALUES (24589,   1, 0x02000A0B) /* Setup */
+     , (24589,   2, 0x09000006) /* MotionTable */
+     , (24589,   3, 0x2000000A) /* SoundTable */
+     , (24589,   6, 0x040010C6) /* PaletteBase */
+     , (24589,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24589, 8040, 722600194, 56.7047, 51.8556, 48.21, 0.1051099, 0, 0, -0.9944606) /* PCAPRecordedLocation */
+VALUES (24589, 8040, 0x2B120102, 56.7047, 51.8556, 48.21, 0.10511, 0, 0, -0.994461) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120102 [56.704700 51.855600 48.210000] 0.105110 0.000000 0.000000 -0.994461 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

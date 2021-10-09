@@ -18,9 +18,9 @@ VALUES (999,   1, 'Bow and Goods') /* Name */
      , (999,  16, 'Bows and Goods') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (999,   1,   33555909) /* Setup */
-     , (999,   8,  100668115) /* Icon */;
+VALUES (999,   1, 0x020005C5) /* Setup */
+     , (999,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (999, 8040, 2541420607, 177.599, 163.378, 3.50998, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (999, 8040, 0x977B003F, 177.599, 163.378, 3.50998, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x977B003F [177.599000 163.378000 3.509980] 0.000000 0.000000 0.000000 -1.000000 */;

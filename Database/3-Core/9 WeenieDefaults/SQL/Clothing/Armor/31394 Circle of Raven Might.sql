@@ -39,10 +39,10 @@ VALUES (31394,   1, 'Circle of Raven Might') /* Name */
      , (31394,  15, 'A sinister looking crown previously held by Archon Greis of the Order of the Raven Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31394,   1,   33559620) /* Setup */
-     , (31394,   3,  536870932) /* SoundTable */
-     , (31394,   8,  100687968) /* Icon */
-     , (31394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31394,   1, 0x02001444) /* Setup */
+     , (31394,   3, 0x20000014) /* SoundTable */
+     , (31394,   8, 0x06006060) /* Icon */
+     , (31394,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31394,   279,      2)  /* MagicResistanceSelf6 */

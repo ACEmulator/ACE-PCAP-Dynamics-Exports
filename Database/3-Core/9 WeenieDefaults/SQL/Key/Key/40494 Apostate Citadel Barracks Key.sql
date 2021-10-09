@@ -22,7 +22,7 @@ VALUES (40494,   1, 'Apostate Citadel Barracks Key') /* Name */
      , (40494,  16, 'A key taken from the Gotrok Mining Foreman of the Apostate Citadel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40494,   1,   33554784) /* Setup */
-     , (40494,   3,  536870932) /* SoundTable */
-     , (40494,   8,  100668441) /* Icon */
-     , (40494,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40494,   1, 0x02000160) /* Setup */
+     , (40494,   3, 0x20000014) /* SoundTable */
+     , (40494,   8, 0x06001419) /* Icon */
+     , (40494,  22, 0x3400002B) /* PhysicsEffectTable */;

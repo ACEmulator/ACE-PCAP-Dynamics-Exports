@@ -26,12 +26,12 @@ VALUES (35251,   1, 'Exhumed Bones Piles') /* Name */
      , (35251,  15, 'A pile of blackened and corrupted bones.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35251,   1,   33560270) /* Setup */
-     , (35251,   2,  150995355) /* MotionTable */
-     , (35251,   3,  536870942) /* SoundTable */
-     , (35251,   8,  100669124) /* Icon */
-     , (35251,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (35251,   1, 0x020016CE) /* Setup */
+     , (35251,   2, 0x0900019B) /* MotionTable */
+     , (35251,   3, 0x2000001E) /* SoundTable */
+     , (35251,   8, 0x060016C4) /* Icon */
+     , (35251,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35251, 8040, 1210974465, 69.0868, 66.1499, -0.3999996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35251, 8040, 0x482E0101, 69.0868, 66.1499, -0.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0101 [69.086800 66.149900 -0.400000] 1.000000 0.000000 0.000000 0.000000 */;

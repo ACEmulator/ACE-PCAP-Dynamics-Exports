@@ -24,11 +24,11 @@ VALUES (30544,   1, 'Cove Apple Paring Knife') /* Name */
      , (30544,  16, 'This paring knife was made by Lubziklan al-Luq specifically to cut cove apples for his delicious cove apple pies. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30544,   1,   33555971) /* Setup */
-     , (30544,   3,  536870932) /* SoundTable */
-     , (30544,   8,  100670174) /* Icon */
-     , (30544,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30544,   1, 0x02000603) /* Setup */
+     , (30544,   3, 0x20000014) /* SoundTable */
+     , (30544,   8, 0x06001ADE) /* Icon */
+     , (30544,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30544, 8040, 22413582, 26.8594, -36.298, -18, 0.8713843, 0, 0, 0.4906011) /* PCAPRecordedLocation */
+VALUES (30544, 8040, 0x0156010E, 26.8594, -36.298, -18, 0.871384, 0, 0, 0.490601) /* PCAPRecordedLocation */
 /* @teleloc 0x0156010E [26.859400 -36.298000 -18.000000] 0.871384 0.000000 0.000000 0.490601 */;

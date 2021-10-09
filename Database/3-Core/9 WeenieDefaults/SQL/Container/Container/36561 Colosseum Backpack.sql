@@ -27,9 +27,9 @@ VALUES (36561,   1, 'Colosseum Backpack') /* Name */
      , (36561,  16, 'A backpack with side pouches.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36561,   1,   33554769) /* Setup */
-     , (36561,   3,  536870932) /* SoundTable */
-     , (36561,   6,   67111919) /* PaletteBase */
-     , (36561,   8,  100670384) /* Icon */
-     , (36561,  22,  872415275) /* PhysicsEffectTable */
-     , (36561,  52,  100689664) /* IconUnderlay */;
+VALUES (36561,   1, 0x02000151) /* Setup */
+     , (36561,   3, 0x20000014) /* SoundTable */
+     , (36561,   6, 0x04000BEF) /* PaletteBase */
+     , (36561,   8, 0x06001BB0) /* Icon */
+     , (36561,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36561,  52, 0x06006700) /* IconUnderlay */;

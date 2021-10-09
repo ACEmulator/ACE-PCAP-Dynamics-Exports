@@ -23,7 +23,7 @@ VALUES (37787,   1, 'Inscription of Focus Self') /* Name */
 Increases the caster''s Focus by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37787,   1,   33554826) /* Setup */
-     , (37787,   8,  100676458) /* Icon */
-     , (37787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37787,   1, 0x0200018A) /* Setup */
+     , (37787,   8, 0x0600336A) /* Icon */
+     , (37787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37787,  28,       4305) /* Spell - FocusSelf8 */;

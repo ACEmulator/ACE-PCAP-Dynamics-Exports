@@ -25,14 +25,14 @@ VALUES (35393,   1, 'Lady Tairla Mhoire') /* Name */
      , (35393,   5, 'Tormented Lady of House Mhoire') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35393,   1,   33560297) /* Setup */
-     , (35393,   2,  150995403) /* MotionTable */
-     , (35393,   3,  536871094) /* SoundTable */
-     , (35393,   8,  100669124) /* Icon */
-     , (35393,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (35393,   1, 0x020016E9) /* Setup */
+     , (35393,   2, 0x090001CB) /* MotionTable */
+     , (35393,   3, 0x200000B6) /* SoundTable */
+     , (35393,   8, 0x060016C4) /* Icon */
+     , (35393,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35393, 8040, 1210908704, 88.32336, 190.365, 6.64622, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35393, 8040, 0x482D0020, 88.32336, 190.365, 6.64622, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0020 [88.323360 190.365000 6.646220] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -40,8 +40,8 @@ VALUES (31774,   1, 'Board with Nail') /* Name */
      , (31774,  16, 'Board with Nail') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774,   1,   33559627) /* Setup */
-     , (31774,   3,  536870932) /* SoundTable */
-     , (31774,   6,   67116700) /* PaletteBase */
-     , (31774,   8,  100688088) /* Icon */
-     , (31774,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31774,   1, 0x0200144B) /* Setup */
+     , (31774,   3, 0x20000014) /* SoundTable */
+     , (31774,   6, 0x04001E9C) /* PaletteBase */
+     , (31774,   8, 0x060060D8) /* Icon */
+     , (31774,  22, 0x3400002B) /* PhysicsEffectTable */;

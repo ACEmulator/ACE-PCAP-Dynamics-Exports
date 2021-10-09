@@ -25,7 +25,7 @@ VALUES (42105,   1, 'Glowing Box') /* Name */
      , (42105,  16, 'Upon peeking in this box a bright glow shines upon your eyes, your mind asks "Is that what I think it is?" before closing the box.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42105,   1,   33554665) /* Setup */
-     , (42105,   3,  536870932) /* SoundTable */
-     , (42105,   8,  100690873) /* Icon */
-     , (42105,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42105,   1, 0x020000E9) /* Setup */
+     , (42105,   3, 0x20000014) /* SoundTable */
+     , (42105,   8, 0x06006BB9) /* Icon */
+     , (42105,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14878,   1, 'Sirrocco') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14878,   1,   33557589) /* Setup */
-     , (14878,   2,  150995087) /* MotionTable */
-     , (14878,   3,  536871002) /* SoundTable */
-     , (14878,   8,  100670274) /* Icon */
-     , (14878,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (14878,   1, 0x02000C55) /* Setup */
+     , (14878,   2, 0x0900008F) /* MotionTable */
+     , (14878,   3, 0x2000005A) /* SoundTable */
+     , (14878,   8, 0x06001B42) /* Icon */
+     , (14878,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14878, 8040, 6160827, 228.486, -77.9407, -77.993, 0.8718252, 0, 0, 0.4898171) /* PCAPRecordedLocation */
+VALUES (14878, 8040, 0x005E01BB, 228.486, -77.9407, -77.993, 0.871825, 0, 0, 0.489817) /* PCAPRecordedLocation */
 /* @teleloc 0x005E01BB [228.486000 -77.940700 -77.993000] 0.871825 0.000000 0.000000 0.489817 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -47,8 +47,8 @@ VALUES (44856,   1, 'Trimmed Cloak') /* Name */
      , (44856,  16, 'Trimmed Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44856,   1,   33561386) /* Setup */
-     , (44856,   3,  536870932) /* SoundTable */
-     , (44856,   8,  100692128) /* Icon */
-     , (44856,  22,  872415275) /* PhysicsEffectTable */
-     , (44856,  50,  100691000) /* IconOverlay */;
+VALUES (44856,   1, 0x02001B2A) /* Setup */
+     , (44856,   3, 0x20000014) /* SoundTable */
+     , (44856,   8, 0x060070A0) /* Icon */
+     , (44856,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44856,  50, 0x06006C38) /* IconOverlay */;

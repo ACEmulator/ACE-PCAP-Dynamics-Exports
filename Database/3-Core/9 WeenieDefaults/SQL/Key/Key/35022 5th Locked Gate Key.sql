@@ -25,7 +25,7 @@ VALUES (35022,   1, '5th Locked Gate Key') /* Name */
      , (35022,  16, 'A key to the 5th Locked Gate in the Falatacot Catacombs on Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35022,   1,   33554784) /* Setup */
-     , (35022,   3,  536870932) /* SoundTable */
-     , (35022,   8,  100670820) /* Icon */
-     , (35022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35022,   1, 0x02000160) /* Setup */
+     , (35022,   3, 0x20000014) /* SoundTable */
+     , (35022,   8, 0x06001D64) /* Icon */
+     , (35022,  22, 0x3400002B) /* PhysicsEffectTable */;

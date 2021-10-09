@@ -41,14 +41,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33588,   1, 'Noble Relic Sollerets of Speed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33588,   1,   33554654) /* Setup */
-     , (33588,   3,  536870932) /* SoundTable */
-     , (33588,   8,  100677206) /* Icon */
-     , (33588,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33588,   1, 0x020000DE) /* Setup */
+     , (33588,   3, 0x20000014) /* SoundTable */
+     , (33588,   8, 0x06003656) /* Icon */
+     , (33588,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33588,  2108,      2)  /* Impenetrability7 */
-     , (33588,  2242,      2)  /* ImpregnabilityOther7 */
+VALUES (33588,  2242,      2)  /* ImpregnabilityOther7 */
      , (33588,  2244,      2)  /* InvulnerabilityOther7 */
      , (33588,  2280,      2)  /* MagicResistanceOther7 */
-     , (33588,  3577,      2)  /* PerfectSpeed */;
+     , (33588,  3577,      2)  /* PerfectSpeed */
+     , (33588,  2108,      2)  /* Impenetrability7 */;

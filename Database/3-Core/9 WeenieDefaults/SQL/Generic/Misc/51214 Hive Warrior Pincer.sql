@@ -24,7 +24,7 @@ VALUES (51214,   1, 'Hive Warrior Pincer') /* Name */
      , (51214,  16, 'The pincer off of an Olthoi Hive Warrior, desired by Behdo Yii, in Redspire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51214,   1,   33554817) /* Setup */
-     , (51214,   3,  536870932) /* SoundTable */
-     , (51214,   8,  100672037) /* Icon */
-     , (51214,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51214,   1, 0x02000181) /* Setup */
+     , (51214,   3, 0x20000014) /* SoundTable */
+     , (51214,   8, 0x06002225) /* Icon */
+     , (51214,  22, 0x3400002B) /* PhysicsEffectTable */;

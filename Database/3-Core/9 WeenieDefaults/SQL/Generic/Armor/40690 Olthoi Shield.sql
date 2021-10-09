@@ -52,19 +52,19 @@ VALUES (40690,   1, 'Olthoi Shield') /* Name */
      , (40690,  16, 'Olthoi Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40690,   1,   33561268) /* Setup */
-     , (40690,   3,  536870932) /* SoundTable */
-     , (40690,   6,   67111919) /* PaletteBase */
-     , (40690,   8,  100689995) /* Icon */
-     , (40690,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40690,   1, 0x02001AB4) /* Setup */
+     , (40690,   3, 0x20000014) /* SoundTable */
+     , (40690,   6, 0x04000BEF) /* PaletteBase */
+     , (40690,   8, 0x0600684B) /* Icon */
+     , (40690,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40690, 8040, 459075, 69.9395, -59.9675, -0.07400001, 0.3564619, -0.5373489, -0.64903, -0.403672) /* PCAPRecordedLocation */
+VALUES (40690, 8040, 0x00070143, 69.9395, -59.9675, -0.074, 0.356462, -0.537349, -0.64903, -0.403672) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [69.939500 -59.967500 -0.074000] 0.356462 -0.537349 -0.649030 -0.403672 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40690,  2098,      2)  /* BludgeonBane7 */
-     , (40690,  2104,      2)  /* FrostBane7 */
+VALUES (40690,  6085,      2)  /* CantripSlashingWard4 */
      , (40690,  2585,      2)  /* CANTRIPACIDBANE2 */
+     , (40690,  2098,      2)  /* BludgeonBane7 */
      , (40690,  4407,      2)  /* Impenetrability8 */
-     , (40690,  6085,      2)  /* CantripSlashingWard4 */;
+     , (40690,  2104,      2)  /* FrostBane7 */;

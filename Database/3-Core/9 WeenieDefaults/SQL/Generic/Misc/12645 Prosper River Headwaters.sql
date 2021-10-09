@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12645,   1, 'Prosper River Headwaters') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12645,   1,   33557463) /* Setup */
-     , (12645,   8,  100668115) /* Icon */;
+VALUES (12645,   1, 0x02000BD7) /* Setup */
+     , (12645,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12645, 8040, 2563112995, 119.72, 63.5654, 28, 0.974241, 0, 0, 0.225507) /* PCAPRecordedLocation */
+VALUES (12645, 8040, 0x98C60023, 119.72, 63.5654, 28, 0.974241, 0, 0, 0.225507) /* PCAPRecordedLocation */
 /* @teleloc 0x98C60023 [119.720000 63.565400 28.000000] 0.974241 0.000000 0.000000 0.225507 */;

@@ -26,8 +26,8 @@ VALUES (19234,   1, 'Oxidized Statue ') /* Name */
      , (19234,  16, 'A small oxidized statue of a Reedshark crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19234,   1,   33554489) /* Setup */
-     , (19234,   2,  150995208) /* MotionTable */
-     , (19234,   6,   67109313) /* PaletteBase */
-     , (19234,   8,  100667939) /* Icon */
-     , (19234,  22,  872415386) /* PhysicsEffectTable */;
+VALUES (19234,   1, 0x02000039) /* Setup */
+     , (19234,   2, 0x09000108) /* MotionTable */
+     , (19234,   6, 0x040001C1) /* PaletteBase */
+     , (19234,   8, 0x06001223) /* Icon */
+     , (19234,  22, 0x3400009A) /* PhysicsEffectTable */;

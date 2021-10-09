@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46347,   1, 'Partially Restored Page') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46347,   1,   33554773) /* Setup */
-     , (46347,   3,  536870932) /* SoundTable */
-     , (46347,   8,  100692695) /* Icon */
-     , (46347,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46347,   1, 0x02000155) /* Setup */
+     , (46347,   3, 0x20000014) /* SoundTable */
+     , (46347,   8, 0x060072D7) /* Icon */
+     , (46347,  22, 0x3400002B) /* PhysicsEffectTable */;

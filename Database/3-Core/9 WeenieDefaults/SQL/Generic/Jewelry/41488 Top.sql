@@ -24,8 +24,8 @@ VALUES (41488,   1, 'Top') /* Name */
      , (41488,  16, 'Top') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41488,   1,   33554817) /* Setup */
-     , (41488,   3,  536870932) /* SoundTable */
-     , (41488,   6,   67111919) /* PaletteBase */
-     , (41488,   8,  100690677) /* Icon */
-     , (41488,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41488,   1, 0x02000181) /* Setup */
+     , (41488,   3, 0x20000014) /* SoundTable */
+     , (41488,   6, 0x04000BEF) /* PaletteBase */
+     , (41488,   8, 0x06006AF5) /* Icon */
+     , (41488,  22, 0x3400002B) /* PhysicsEffectTable */;

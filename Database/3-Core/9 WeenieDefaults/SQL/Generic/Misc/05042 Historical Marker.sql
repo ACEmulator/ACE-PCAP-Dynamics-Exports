@@ -18,9 +18,9 @@ VALUES (5042,   1, 'Historical Marker') /* Name */
      , (5042,  16, 'The Old Redoubt. In the 6th year of our freedom from the Olthoi, the people of Holtburg were besieged and slaughtered here by Tumeroks. Only the children were spared, thanks to the heroism of the mage Celcynd. This eternal flame burns in their memory, and their mortal remains have been left interred here in tribute. Disturb not their rest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5042,   1,   33555088) /* Setup */
-     , (5042,   8,  100668115) /* Icon */;
+VALUES (5042,   1, 0x02000290) /* Setup */
+     , (5042,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5042, 8040, 2863726632, 97.26, 184.262, 124, -0.984202, 0, 0, 0.17705) /* PCAPRecordedLocation */
+VALUES (5042, 8040, 0xAAB10028, 97.26, 184.262, 124, -0.984202, 0, 0, 0.17705) /* PCAPRecordedLocation */
 /* @teleloc 0xAAB10028 [97.260000 184.262000 124.000000] -0.984202 0.000000 0.000000 0.177050 */;

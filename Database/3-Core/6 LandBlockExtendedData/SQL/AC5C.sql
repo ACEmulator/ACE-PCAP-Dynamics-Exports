@@ -15,13 +15,13 @@ VALUES (0x7AC5C002,  1630, 0xAC5C0015, 68.23763, 110.0924, 51.18186, 1, 0, 0, 0,
 /* @teleloc 0xAC5C0015 [68.237630 110.092400 51.181860] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC5C003,  5497, 0xAC5C002E, 126.8639, 140.5193, 56.02087, 0.8630072, 0, 0, -0.5051915,  True, '2019-02-10 00:00:00'); /* Virindi Director */
+VALUES (0x7AC5C003,  5497, 0xAC5C002E, 126.8639, 140.5193, 56.02087, 0.863007, 0, 0, -0.505192,  True, '2019-02-10 00:00:00'); /* Virindi Director */
 /* @teleloc 0xAC5C002E [126.863900 140.519300 56.020870] 0.863007 0.000000 0.000000 -0.505192 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC5C004,   195, 0xAC5C0014, 51.38539, 90.92268, 48.74167, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+VALUES (0x7AC5C004,   195, 0xAC5C0014, 51.38539, 90.92268, 48.74167, 0.173648, 0, 0, -0.984808,  True, '2019-02-10 00:00:00'); /* Granite Golem */
 /* @teleloc 0xAC5C0014 [51.385390 90.922680 48.741670] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AC5C005,   195, 0xAC5C0014, 56.36509, 92.58478, 49.15719, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+VALUES (0x7AC5C005,   195, 0xAC5C0014, 56.36509, 92.58478, 49.15719, 0.766045, 0, 0, -0.642788,  True, '2019-02-10 00:00:00'); /* Granite Golem */
 /* @teleloc 0xAC5C0014 [56.365090 92.584780 49.157190] 0.766045 0.000000 0.000000 -0.642788 */

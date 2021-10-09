@@ -15,7 +15,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37536,   1, 'Experience Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37536,   1,   33557387) /* Setup */
-     , (37536,   3,  536870932) /* SoundTable */
-     , (37536,   8,  100689882) /* Icon */
-     , (37536,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37536,   1, 0x02000B8B) /* Setup */
+     , (37536,   3, 0x20000014) /* SoundTable */
+     , (37536,   8, 0x060067DA) /* Icon */
+     , (37536,  22, 0x3400002B) /* PhysicsEffectTable */;

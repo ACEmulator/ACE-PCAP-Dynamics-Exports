@@ -39,13 +39,13 @@ VALUES (35870,   1, 'The Master') /* Name */
      , (35870,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35870,   1,   33560328) /* Setup */
-     , (35870,   2,  150995397) /* MotionTable */
-     , (35870,   3,  536871052) /* SoundTable */
-     , (35870,   8,  100667446) /* Icon */;
+VALUES (35870,   1, 0x02001708) /* Setup */
+     , (35870,   2, 0x090001C5) /* MotionTable */
+     , (35870,   3, 0x2000008C) /* SoundTable */
+     , (35870,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35870, 8040, 11469107, 42.5, -70, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35870, 8040, 0x00AF0133, 42.5, -70, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0133 [42.500000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

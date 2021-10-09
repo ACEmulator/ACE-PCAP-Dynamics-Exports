@@ -23,7 +23,7 @@ VALUES (31668,   1, 'Tome of Blood and Bone') /* Name */
      , (31668,  16, 'This is an ancient book of Falatacot origin.  It casts the spell Master''s Voice, which raises the user''s Focus by 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31668,   1,   33559572) /* Setup */
-     , (31668,   2,  150995339) /* MotionTable */
-     , (31668,   3,  536870932) /* SoundTable */
-     , (31668,   8,  100687849) /* Icon */;
+VALUES (31668,   1, 0x02001414) /* Setup */
+     , (31668,   2, 0x0900018B) /* MotionTable */
+     , (31668,   3, 0x20000014) /* SoundTable */
+     , (31668,   8, 0x06005FE9) /* Icon */;

@@ -28,8 +28,8 @@ VALUES (53480,   1, 'Viridian Key of the Second Portal') /* Name */
      , (53480,  20, 'Viridian Keys of the Second Portal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53480,   1,   33554784) /* Setup */
-     , (53480,   3,  536870932) /* SoundTable */
-     , (53480,   8,  100667486) /* Icon */
-     , (53480,  22,  872415275) /* PhysicsEffectTable */
-     , (53480,  52,  100689826) /* IconUnderlay */;
+VALUES (53480,   1, 0x02000160) /* Setup */
+     , (53480,   3, 0x20000014) /* SoundTable */
+     , (53480,   8, 0x0600105E) /* Icon */
+     , (53480,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53480,  52, 0x060067A2) /* IconUnderlay */;

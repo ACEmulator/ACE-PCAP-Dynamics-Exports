@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14690,   1, 'Djebel al-Nar Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14690,   1,   33557463) /* Setup */
-     , (14690,   8,  100668115) /* Icon */;
+VALUES (14690,   1, 0x02000BD7) /* Setup */
+     , (14690,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14690, 8040, 2590703645, 83.75, 107.441, 60, -0.72226, 0, 0, 0.691621) /* PCAPRecordedLocation */
+VALUES (14690, 8040, 0x9A6B001D, 83.75, 107.441, 60, -0.72226, 0, 0, 0.691621) /* PCAPRecordedLocation */
 /* @teleloc 0x9A6B001D [83.750000 107.441000 60.000000] -0.722260 0.000000 0.000000 0.691621 */;

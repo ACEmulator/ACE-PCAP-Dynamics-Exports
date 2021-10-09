@@ -32,8 +32,8 @@ VALUES (42729,   1, 'Attuned Essence Gem') /* Name */
      , (42729,  16, 'A magically created gem, attuned to the essence of Hoshino Kei''s Haindmaiden, Ayaname Chiyoko.  Using this in an area near where she has been in the recent past will cause it to glow, and if there is an obscured path to her nearby, it will appear.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42729,   1,   33554809) /* Setup */
-     , (42729,   3,  536870932) /* SoundTable */
-     , (42729,   6,   67111919) /* PaletteBase */
-     , (42729,   8,  100674715) /* Icon */
-     , (42729,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42729,   1, 0x02000179) /* Setup */
+     , (42729,   3, 0x20000014) /* SoundTable */
+     , (42729,   6, 0x04000BEF) /* PaletteBase */
+     , (42729,   8, 0x06002C9B) /* Icon */
+     , (42729,  22, 0x3400002B) /* PhysicsEffectTable */;

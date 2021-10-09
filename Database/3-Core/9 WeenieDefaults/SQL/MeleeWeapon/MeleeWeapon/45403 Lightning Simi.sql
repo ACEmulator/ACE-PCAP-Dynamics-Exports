@@ -51,12 +51,12 @@ VALUES (45403,   1, 'Lightning Simi') /* Name */
      , (45403,  16, 'Lightning Simi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45403,   1,   33555778) /* Setup */
-     , (45403,   3,  536870932) /* SoundTable */
-     , (45403,   8,  100668995) /* Icon */
-     , (45403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45403,   1, 0x02000542) /* Setup */
+     , (45403,   3, 0x20000014) /* SoundTable */
+     , (45403,   8, 0x06001643) /* Icon */
+     , (45403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45403,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45403,  52,  100676436) /* IconUnderlay */;
+     , (45403,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45403,  1614,      2)  /* BloodDrinkerSelf4 */;

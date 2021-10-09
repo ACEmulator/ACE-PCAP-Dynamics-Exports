@@ -23,9 +23,9 @@ VALUES (52968,   1, 'Infused Amber Shard') /* Name */
      , (52968,  20, 'Infused Amber Shards') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52968,   1,   33554809) /* Setup */
-     , (52968,   3,  536870932) /* SoundTable */
-     , (52968,   6,   67111919) /* PaletteBase */
-     , (52968,   8,  100693328) /* Icon */
-     , (52968,  22,  872415275) /* PhysicsEffectTable */
-     , (52968,  52,  100689826) /* IconUnderlay */;
+VALUES (52968,   1, 0x02000179) /* Setup */
+     , (52968,   3, 0x20000014) /* SoundTable */
+     , (52968,   6, 0x04000BEF) /* PaletteBase */
+     , (52968,   8, 0x06007550) /* Icon */
+     , (52968,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52968,  52, 0x060067A2) /* IconUnderlay */;

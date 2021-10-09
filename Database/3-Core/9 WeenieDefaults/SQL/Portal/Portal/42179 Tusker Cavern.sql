@@ -23,10 +23,10 @@ VALUES (42179,   1, 'Tusker Cavern') /* Name */
      , (42179,  16, 'A portal leading to Aphus Lassel near the Tusker Cavern where the Goldenback Tusker Tusk may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42179,   1,   33554867) /* Setup */
-     , (42179,   2,  150994947) /* MotionTable */
-     , (42179,   8,  100667499) /* Icon */;
+VALUES (42179,   1, 0x020001B3) /* Setup */
+     , (42179,   2, 0x09000003) /* MotionTable */
+     , (42179,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42179, 8040, 2315387167, 80, -50, -12.0504, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42179, 8040, 0x8A02011F, 80, -50, -12.0504, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8A02011F [80.000000 -50.000000 -12.050400] 1.000000 0.000000 0.000000 0.000000 */;

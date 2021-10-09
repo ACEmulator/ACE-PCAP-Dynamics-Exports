@@ -23,7 +23,7 @@ VALUES (45033,   1, 'Hoory Mattekar Over-robe Crate') /* Name */
      , (45033,  20, 'Hoory Mattekar Over-robe Crates') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45033,   1,   33554718) /* Setup */
-     , (45033,   3,  536870932) /* SoundTable */
-     , (45033,   8,  100668152) /* Icon */
-     , (45033,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45033,   1, 0x0200011E) /* Setup */
+     , (45033,   3, 0x20000014) /* SoundTable */
+     , (45033,   8, 0x060012F8) /* Icon */
+     , (45033,  22, 0x3400002B) /* PhysicsEffectTable */;

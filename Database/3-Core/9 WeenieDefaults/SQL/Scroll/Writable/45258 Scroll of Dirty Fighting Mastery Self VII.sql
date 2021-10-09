@@ -23,7 +23,7 @@ VALUES (45258,   1, 'Scroll of Dirty Fighting Mastery Self VII') /* Name */
 Increases the caster''s Dirty Fighting skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45258,   1,   33554826) /* Setup */
-     , (45258,   8,  100692255) /* Icon */
-     , (45258,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45258,   1, 0x0200018A) /* Setup */
+     , (45258,   8, 0x0600711F) /* Icon */
+     , (45258,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45258,  28,       5785) /* Spell - DirtyFightingMasterySelf7 */;

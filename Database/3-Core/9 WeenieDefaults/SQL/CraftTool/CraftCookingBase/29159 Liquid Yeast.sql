@@ -23,9 +23,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29159,   1, 'Liquid Yeast') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29159,   1,   33556223) /* Setup */
-     , (29159,   3,  536870932) /* SoundTable */
-     , (29159,   6,   67111928) /* PaletteBase */
-     , (29159,   8,  100686459) /* Icon */
-     , (29159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29159,   1, 0x020006FF) /* Setup */
+     , (29159,   3, 0x20000014) /* SoundTable */
+     , (29159,   6, 0x04000BF8) /* PaletteBase */
+     , (29159,   8, 0x06005A7B) /* Icon */
+     , (29159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29159, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

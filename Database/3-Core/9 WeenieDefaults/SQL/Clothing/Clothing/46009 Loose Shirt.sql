@@ -40,12 +40,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46009,   1, 'Loose Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46009,   1,   33554644) /* Setup */
-     , (46009,   3,  536870932) /* SoundTable */
-     , (46009,   6,   67108990) /* PaletteBase */
-     , (46009,   8,  100667379) /* Icon */
-     , (46009,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46009,   1, 0x020000D4) /* Setup */
+     , (46009,   3, 0x20000014) /* SoundTable */
+     , (46009,   6, 0x0400007E) /* PaletteBase */
+     , (46009,   8, 0x06000FF3) /* Icon */
+     , (46009,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46009,  1456,      2)  /* WillpowerOther6 */
-     , (46009,  2584,      2)  /* CANTRIPWILLPOWER1 */;
+VALUES (46009,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (46009,  1456,      2)  /* WillpowerOther6 */;

@@ -32,7 +32,7 @@ VALUES (36357,   1, 'Bandana with Eyepatch') /* Name */
      , (36357,  16, 'A bandana with an attached eyepatch, taken from an Undead Sailor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36357,   1,   33560407) /* Setup */
-     , (36357,   3,  536870932) /* SoundTable */
-     , (36357,   8,  100689694) /* Icon */
-     , (36357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36357,   1, 0x02001757) /* Setup */
+     , (36357,   3, 0x20000014) /* SoundTable */
+     , (36357,   8, 0x0600671E) /* Icon */
+     , (36357,  22, 0x3400002B) /* PhysicsEffectTable */;

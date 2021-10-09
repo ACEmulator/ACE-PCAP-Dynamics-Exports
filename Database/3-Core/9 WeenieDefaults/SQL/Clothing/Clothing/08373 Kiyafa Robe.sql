@@ -35,8 +35,8 @@ in so many ways.                       Love, ') /* Inscription */
      , (8373,   8, 'Chia') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8373,   1,   33554854) /* Setup */
-     , (8373,   3,  536870932) /* SoundTable */
-     , (8373,   6,   67108990) /* PaletteBase */
-     , (8373,   8,  100671160) /* Icon */
-     , (8373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8373,   1, 0x020001A6) /* Setup */
+     , (8373,   3, 0x20000014) /* SoundTable */
+     , (8373,   6, 0x0400007E) /* PaletteBase */
+     , (8373,   8, 0x06001EB8) /* Icon */
+     , (8373,  22, 0x3400002B) /* PhysicsEffectTable */;

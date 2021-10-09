@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46257,   1, 'Blackfire Dissolving Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46257,   1,   33556371) /* Setup */
-     , (46257,   3,  536870932) /* SoundTable */
-     , (46257,   6,   67111919) /* PaletteBase */
-     , (46257,   8,  100672940) /* Icon */
-     , (46257,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46257,   1, 0x02000793) /* Setup */
+     , (46257,   3, 0x20000014) /* SoundTable */
+     , (46257,   6, 0x04000BEF) /* PaletteBase */
+     , (46257,   8, 0x060025AC) /* Icon */
+     , (46257,  22, 0x3400002B) /* PhysicsEffectTable */;

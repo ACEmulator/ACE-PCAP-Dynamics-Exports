@@ -47,11 +47,11 @@ VALUES (40700,   1, 'Covenant Greaves') /* Name */
      , (40700,  16, 'Covenant Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40700,   1,   33554641) /* Setup */
-     , (40700,   3,  536870932) /* SoundTable */
-     , (40700,   6,   67108990) /* PaletteBase */
-     , (40700,   8,  100673419) /* Icon */
-     , (40700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40700,   1, 0x020000D1) /* Setup */
+     , (40700,   3, 0x20000014) /* SoundTable */
+     , (40700,   6, 0x0400007E) /* PaletteBase */
+     , (40700,   8, 0x0600278B) /* Icon */
+     , (40700,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40700,  1485,      2)  /* Impenetrability5 */

@@ -19,8 +19,8 @@ VALUES (52749,   1, 'Gauntlet Gem of Vast Knowledge') /* Name */
      , (52749,  20, 'Gauntlet Gems of Vast Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52749,   1,   33557625) /* Setup */
-     , (52749,   3,  536870932) /* SoundTable */
-     , (52749,   8,  100689653) /* Icon */
-     , (52749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52749,   1, 0x02000C79) /* Setup */
+     , (52749,   3, 0x20000014) /* SoundTable */
+     , (52749,   8, 0x060066F5) /* Icon */
+     , (52749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52749, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

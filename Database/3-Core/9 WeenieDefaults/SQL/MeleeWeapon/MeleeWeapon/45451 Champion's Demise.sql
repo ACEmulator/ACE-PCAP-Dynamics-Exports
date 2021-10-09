@@ -54,22 +54,22 @@ VALUES (45451,   1, 'Champion''s Demise') /* Name */
      , (45451,  16, 'At first glance this would appear to be a normal spear, until you look closely at the plant-like carvings. When striking, the carvings come alive and leak a caustic liquid upon the target.  The first to discover this painful property was Archophon, the greatest gladiator in the history of the Roulean games.  He accepted a challenge from an unknown Silveran.  Archophon died, screaming, at the end of this spear.  After the match, the Silveran was never seen again.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45451,   1,   33559383) /* Setup */
-     , (45451,   3,  536870932) /* SoundTable */
-     , (45451,   6,   67111919) /* PaletteBase */
-     , (45451,   8,  100686749) /* Icon */
-     , (45451,  22,  872415275) /* PhysicsEffectTable */
-     , (45451,  52,  100686604) /* IconUnderlay */;
+VALUES (45451,   1, 0x02001357) /* Setup */
+     , (45451,   3, 0x20000014) /* SoundTable */
+     , (45451,   6, 0x04000BEF) /* PaletteBase */
+     , (45451,   8, 0x06005B9D) /* Icon */
+     , (45451,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45451,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45451, 8040, 23855555, 63.63206, -43.57273, 0.4414949, -0.6491779, -0.6491779, -0.2802999, -0.2802999) /* PCAPRecordedLocation */
+VALUES (45451, 8040, 0x016C01C3, 63.63206, -43.57273, 0.441495, -0.649178, -0.649178, -0.2803, -0.2803) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [63.632060 -43.572730 0.441495] -0.649178 -0.649178 -0.280300 -0.280300 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45451,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (45451,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+     , (45451,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45451,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45451,  4538,      2)  /* FinesseWeaponsMasterySelf8 */
      , (45451,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (45451,  4663,      2)  /* CANTRIPDEFENDER3 */
-     , (45451,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
-     , (45451,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */;
+     , (45451,  4538,      2)  /* FinesseWeaponsMasterySelf8 */
+     , (45451,  4666,      2)  /* CANTRIPHEARTTHIRST3 */;

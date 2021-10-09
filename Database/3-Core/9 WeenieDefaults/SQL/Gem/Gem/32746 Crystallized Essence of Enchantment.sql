@@ -28,11 +28,11 @@ VALUES (32746,   1, 'Crystallized Essence of Enchantment') /* Name */
      , (32746,  16, 'A piece of crystallized Essence of Enchantment. The crystal is cold to the touch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32746,   1,   33559838) /* Setup */
-     , (32746,   3,  536870932) /* SoundTable */
-     , (32746,   8,  100688600) /* Icon */
-     , (32746,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32746,   1, 0x0200151E) /* Setup */
+     , (32746,   3, 0x20000014) /* SoundTable */
+     , (32746,   8, 0x060062D8) /* Icon */
+     , (32746,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32746, 8040, 9175327, 71.78323, -24.74483, -5.985, -0.9282292, 0, 0, -0.3720089) /* PCAPRecordedLocation */
+VALUES (32746, 8040, 0x008C011F, 71.78323, -24.74483, -5.985, -0.928229, 0, 0, -0.372009) /* PCAPRecordedLocation */
 /* @teleloc 0x008C011F [71.783230 -24.744830 -5.985000] -0.928229 0.000000 0.000000 -0.372009 */;

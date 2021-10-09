@@ -49,17 +49,17 @@ VALUES (27178,   1, 'Bladed Bow of Impaling') /* Name */
      , (27178,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27178,   1,   33558633) /* Setup */
-     , (27178,   3,  536870932) /* SoundTable */
-     , (27178,   6,   67114956) /* PaletteBase */
-     , (27178,   8,  100675922) /* Icon */
-     , (27178,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27178,   1, 0x02001069) /* Setup */
+     , (27178,   3, 0x20000014) /* SoundTable */
+     , (27178,   6, 0x040017CC) /* PaletteBase */
+     , (27178,   8, 0x06003152) /* Icon */
+     , (27178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27178,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27178,   244,      2)  /* InvulnerabilityOther6 */
-     , (27178,  1384,      2)  /* CoordinationOther6 */
-     , (27178,  1605,      2)  /* DefenderSelf6 */
+VALUES (27178,  1605,      2)  /* DefenderSelf6 */
      , (27178,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27178,  1627,      2)  /* SwiftKillerSelf6 */
+     , (27178,  1384,      2)  /* CoordinationOther6 */
+     , (27178,   244,      2)  /* InvulnerabilityOther6 */
      , (27178,  2687,      2)  /* ModerateBowAptitude */;

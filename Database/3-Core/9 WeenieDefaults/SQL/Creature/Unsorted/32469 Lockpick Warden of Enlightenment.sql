@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32469,   1, 'Lockpick Warden of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32469,   1,   33555352) /* Setup */
-     , (32469,   2,  150995147) /* MotionTable */
-     , (32469,   3,  536871052) /* SoundTable */
-     , (32469,   8,  100667624) /* Icon */
-     , (32469,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (32469,   1, 0x02000398) /* Setup */
+     , (32469,   2, 0x090000CB) /* MotionTable */
+     , (32469,   3, 0x2000008C) /* SoundTable */
+     , (32469,   8, 0x060010E8) /* Icon */
+     , (32469,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32469, 8040, 3583574078, 180.5, 129, 374, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (32469, 8040, 0xD599003E, 180.5, 129, 374, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003E [180.500000 129.000000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */;

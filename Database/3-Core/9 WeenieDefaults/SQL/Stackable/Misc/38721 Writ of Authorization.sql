@@ -28,7 +28,7 @@ VALUES (38721,   1, 'Writ of Authorization') /* Name */
      , (38721,  20, 'Writs of Authorization') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38721,   1,   33554776) /* Setup */
-     , (38721,   3,  536870932) /* SoundTable */
-     , (38721,   8,  100667503) /* Icon */
-     , (38721,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38721,   1, 0x02000158) /* Setup */
+     , (38721,   3, 0x20000014) /* SoundTable */
+     , (38721,   8, 0x0600106F) /* Icon */
+     , (38721,  22, 0x3400002B) /* PhysicsEffectTable */;

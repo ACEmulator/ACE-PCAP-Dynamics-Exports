@@ -28,12 +28,12 @@ VALUES (36202,   1, 'Hollow') /* Name */
      , (36202,  16, 'A hollow in the wall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36202,   1,   33560360) /* Setup */
-     , (36202,   2,  150995416) /* MotionTable */
-     , (36202,   3,  536870932) /* SoundTable */
-     , (36202,   8,  100689606) /* Icon */
-     , (36202,  22,  872415428) /* PhysicsEffectTable */;
+VALUES (36202,   1, 0x02001728) /* Setup */
+     , (36202,   2, 0x090001D8) /* MotionTable */
+     , (36202,   3, 0x20000014) /* SoundTable */
+     , (36202,   8, 0x060066C6) /* Icon */
+     , (36202,  22, 0x340000C4) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36202, 8040, 9175365, 144.895, -70, -5.95, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (36202, 8040, 0x008C0145, 144.895, -70, -5.95, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x008C0145 [144.895000 -70.000000 -5.950000] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -23,7 +23,7 @@ VALUES (3098,   1, 'Scroll of Mana Renewal Other II') /* Name */
 Increases the target''s natural mana rate by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3098,   1,   33554826) /* Setup */
-     , (3098,   8,  100676939) /* Icon */
-     , (3098,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3098,   1, 0x0200018A) /* Setup */
+     , (3098,   8, 0x0600354B) /* Icon */
+     , (3098,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3098,  28,        207) /* Spell - ManaRenewalOther2 */;

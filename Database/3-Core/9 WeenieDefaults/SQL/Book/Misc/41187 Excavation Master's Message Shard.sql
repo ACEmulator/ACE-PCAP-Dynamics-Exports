@@ -26,7 +26,7 @@ VALUES (41187,   1, 'Excavation Master''s Message Shard') /* Name */
      , (41187,  15, 'A shard of black crystal, recovered from the Apostate Excavation Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41187,   1,   33555391) /* Setup */
-     , (41187,   3,  536870932) /* SoundTable */
-     , (41187,   8,  100671183) /* Icon */
-     , (41187,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41187,   1, 0x020003BF) /* Setup */
+     , (41187,   3, 0x20000014) /* SoundTable */
+     , (41187,   8, 0x06001ECF) /* Icon */
+     , (41187,  22, 0x3400002B) /* PhysicsEffectTable */;

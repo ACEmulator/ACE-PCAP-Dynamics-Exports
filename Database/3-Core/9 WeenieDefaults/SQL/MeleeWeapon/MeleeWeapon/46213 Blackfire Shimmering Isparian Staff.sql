@@ -49,15 +49,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46213,   1, 'Blackfire Shimmering Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46213,   1,   33556261) /* Setup */
-     , (46213,   3,  536870932) /* SoundTable */
-     , (46213,   8,  100673241) /* Icon */
-     , (46213,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46213,   1, 0x02000725) /* Setup */
+     , (46213,   3, 0x20000014) /* SoundTable */
+     , (46213,   8, 0x060026D9) /* Icon */
+     , (46213,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46213,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46213,  2101,      2)  /* DefenderSelf7 */
-     , (46213,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46213,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46213,  2116,      2)  /* SwiftKillerSelf7 */
      , (46213,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
-     , (46213,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (46213,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (46213,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46213,  2101,      2)  /* DefenderSelf7 */
+     , (46213,  2106,      2)  /* HeartSeekerSelf7 */;

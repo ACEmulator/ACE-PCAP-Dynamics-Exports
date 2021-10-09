@@ -34,20 +34,20 @@ VALUES (981,   1, 'Sutaiya bint Yil the Scribe') /* Name */
      , (981,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (981,   1,   33554510) /* Setup */
-     , (981,   2,  150994945) /* MotionTable */
-     , (981,   3,  536870914) /* SoundTable */
-     , (981,   6,   67108990) /* PaletteBase */
-     , (981,   8,  100667446) /* Icon */
-     , (981,   9,   83890260) /* EyesTexture */
-     , (981,  10,   83890297) /* NoseTexture */
-     , (981,  11,   83890343) /* MouthTexture */
-     , (981,  15,   67117002) /* HairPalette */
-     , (981,  16,   67109567) /* EyesPalette */
-     , (981,  17,   67109556) /* SkinPalette */;
+VALUES (981,   1, 0x0200004E) /* Setup */
+     , (981,   2, 0x09000001) /* MotionTable */
+     , (981,   3, 0x20000002) /* SoundTable */
+     , (981,   6, 0x0400007E) /* PaletteBase */
+     , (981,   8, 0x06001036) /* Icon */
+     , (981,   9, 0x05001054) /* EyesTexture */
+     , (981,  10, 0x05001079) /* NoseTexture */
+     , (981,  11, 0x050010A7) /* MouthTexture */
+     , (981,  15, 0x04001FCA) /* HairPalette */
+     , (981,  16, 0x040002BF) /* EyesPalette */
+     , (981,  17, 0x040002B4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (981, 8040, 2541420841, 102.121, 153.799, 0.004999995, 0.9085082, 0, 0, -0.4178671) /* PCAPRecordedLocation */
+VALUES (981, 8040, 0x977B0129, 102.121, 153.799, 0.005, 0.908508, 0, 0, -0.417867) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0129 [102.121000 153.799000 0.005000] 0.908508 0.000000 0.000000 -0.417867 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

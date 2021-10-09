@@ -28,15 +28,15 @@ VALUES (32493,   1, 'Shade of Farelaith') /* Name */
      , (32493,   5, 'Tormented Soul') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32493,   1,   33554433) /* Setup */
-     , (32493,   2,  150994945) /* MotionTable */
-     , (32493,   3,  536871094) /* SoundTable */
-     , (32493,   6,   67115251) /* PaletteBase */
-     , (32493,   8,  100676679) /* Icon */
-     , (32493,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (32493,   1, 0x02000001) /* Setup */
+     , (32493,   2, 0x09000001) /* MotionTable */
+     , (32493,   3, 0x200000B6) /* SoundTable */
+     , (32493,   6, 0x040018F3) /* PaletteBase */
+     , (32493,   8, 0x06003447) /* Icon */
+     , (32493,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32493, 8040, 3369861163, 137.775, 63.3671, 32.006, 0.981126, 0, 0, -0.193367) /* PCAPRecordedLocation */
+VALUES (32493, 8040, 0xC8DC002B, 137.775, 63.3671, 32.006, 0.981126, 0, 0, -0.193367) /* PCAPRecordedLocation */
 /* @teleloc 0xC8DC002B [137.775000 63.367100 32.006000] 0.981126 0.000000 0.000000 -0.193367 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

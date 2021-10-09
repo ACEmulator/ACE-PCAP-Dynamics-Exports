@@ -43,13 +43,13 @@ VALUES (416,   1, 'Chainmail Pauldrons') /* Name */
      , (416,  16, 'Chainmail Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (416,   1,   33554641) /* Setup */
-     , (416,   3,  536870932) /* SoundTable */
-     , (416,   6,   67108990) /* PaletteBase */
-     , (416,   8,  100669530) /* Icon */
-     , (416,  22,  872415275) /* PhysicsEffectTable */
+VALUES (416,   1, 0x020000D1) /* Setup */
+     , (416,   3, 0x20000014) /* SoundTable */
+     , (416,   6, 0x0400007E) /* PaletteBase */
+     , (416,   8, 0x0600185A) /* Icon */
+     , (416,  22, 0x3400002B) /* PhysicsEffectTable */
      , (416,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (416,  1483,      2)  /* Impenetrability3 */
-     , (416,  1538,      2)  /* LightningBane4 */;
+VALUES (416,  1538,      2)  /* LightningBane4 */
+     , (416,  1483,      2)  /* Impenetrability3 */;

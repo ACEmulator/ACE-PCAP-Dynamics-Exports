@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41531,   1, 'Invading Silver Scope Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41531,   1,   33560844) /* Setup */
-     , (41531,   2,  150995368) /* MotionTable */
-     , (41531,   3,  536871123) /* SoundTable */
-     , (41531,   8,  100674350) /* Icon */
-     , (41531,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41531,   1, 0x0200190C) /* Setup */
+     , (41531,   2, 0x090001A8) /* MotionTable */
+     , (41531,   3, 0x200000D3) /* SoundTable */
+     , (41531,   8, 0x06002B2E) /* Icon */
+     , (41531,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41531, 8040, 561053732, 111.7584, 81.50378, 153.3212, 0.9997879, 0, 0, -0.0205944) /* PCAPRecordedLocation */
+VALUES (41531, 8040, 0x21710024, 111.7584, 81.50378, 153.3212, 0.999788, 0, 0, -0.020594) /* PCAPRecordedLocation */
 /* @teleloc 0x21710024 [111.758400 81.503780 153.321200] 0.999788 0.000000 0.000000 -0.020594 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

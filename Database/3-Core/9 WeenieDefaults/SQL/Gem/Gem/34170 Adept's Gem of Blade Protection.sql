@@ -20,9 +20,9 @@ VALUES (34170,   1, 'Adept''s Gem of Blade Protection') /* Name */
      , (34170,  20, 'Adept''s Gems of Blade Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34170,   1,   33554809) /* Setup */
-     , (34170,   3,  536870932) /* SoundTable */
-     , (34170,   6,   67111919) /* PaletteBase */
-     , (34170,   8,  100674443) /* Icon */
-     , (34170,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34170,   1, 0x02000179) /* Setup */
+     , (34170,   3, 0x20000014) /* SoundTable */
+     , (34170,   6, 0x04000BEF) /* PaletteBase */
+     , (34170,   8, 0x06002B8B) /* Icon */
+     , (34170,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34170,  28,       2150) /* Spell - BladeProtectionOther7 */;

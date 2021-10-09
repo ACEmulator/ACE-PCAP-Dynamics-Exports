@@ -9,11 +9,11 @@ VALUES (0x7587903C, 51719, 0x587903B7, 80, -99.9504, -17.86724, 1, 0, 0, 0, Fals
 /* @teleloc 0x587903B7 [80.000000 -99.950400 -17.867240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879041, 51719, 0x587903EC, 230, -126.409, -18.063, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Platforms of Torment */
+VALUES (0x75879041, 51719, 0x587903EC, 230, -126.409, -18.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Platforms of Torment */
 /* @teleloc 0x587903EC [230.000000 -126.409000 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879062, 51822, 0x5879052C, 130, -116.345, -0.06299996, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75879062, 51822, 0x5879052C, 130, -116.345, -0.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x5879052C [130.000000 -116.345000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -335,11 +335,11 @@ VALUES (0x75879067, 51746, 0x587904A0, 60, -60, -5.971, 1, 0, 0, 0,  True, '2019
 /* @teleloc 0x587904A0 [60.000000 -60.000000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879068, 51760, 0x5879051E, 120, -90, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
+VALUES (0x75879068, 51760, 0x5879051E, 120, -90, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
 /* @teleloc 0x5879051E [120.000000 -90.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879069, 51760, 0x58790524, 130, -70, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
+VALUES (0x75879069, 51760, 0x58790524, 130, -70, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
 /* @teleloc 0x58790524 [130.000000 -70.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -395,7 +395,7 @@ VALUES (0x75879076, 51760, 0x587904BD, 73.5697, -130, -5.971, 1, 0, 0, 0,  True,
 /* @teleloc 0x587904BD [73.569700 -130.000000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879077, 51887, 0x587904BE, 70.8813, -138.665, -5.95, 0.9857892, 0, 0, -0.167987,  True, '2019-02-10 00:00:00'); /* Corrupted Crystal of Torments */
+VALUES (0x75879077, 51887, 0x587904BE, 70.8813, -138.665, -5.95, 0.985789, 0, 0, -0.167987,  True, '2019-02-10 00:00:00'); /* Corrupted Crystal of Torments */
 /* @teleloc 0x587904BE [70.881300 -138.665000 -5.950000] 0.985789 0.000000 0.000000 -0.167987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -623,7 +623,7 @@ VALUES (0x758790AF, 51876, 0x587904E0, 100, -90, -5.995, 1, 0, 0, 0,  True, '201
 /* @teleloc 0x587904E0 [100.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758790B0, 51876, 0x58790524, 130, -70, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
+VALUES (0x758790B0, 51876, 0x58790524, 130, -70, 0.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
 /* @teleloc 0x58790524 [130.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -883,7 +883,7 @@ VALUES (0x758790F0, 51748, 0x587902B0, 350, -200, -29.971, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x587902B0 [350.000000 -200.000000 -29.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x758790F1, 51756, 0x5879051E, 120, -90, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
+VALUES (0x758790F1, 51756, 0x5879051E, 120, -90, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
 /* @teleloc 0x5879051E [120.000000 -90.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1191,11 +1191,11 @@ VALUES (0x7587913D, 51748, 0x587902CC, 360, -210, -29.971, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x587902CC [360.000000 -210.000000 -29.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587913E, 51750, 0x5879051E, 120.2144, -90.20296, 0.02899998, 0.8744937, 0, 0, -0.485037,  True, '2019-02-10 00:00:00'); /* Rynthid Minion */
+VALUES (0x7587913E, 51750, 0x5879051E, 120.2144, -90.20296, 0.029, 0.874494, 0, 0, -0.485037,  True, '2019-02-10 00:00:00'); /* Rynthid Minion */
 /* @teleloc 0x5879051E [120.214400 -90.202960 0.029000] 0.874494 0.000000 0.000000 -0.485037 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587913F, 51746, 0x58790524, 130, -70, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Torment */
+VALUES (0x7587913F, 51746, 0x58790524, 130, -70, 0.029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Torment */
 /* @teleloc 0x58790524 [130.000000 -70.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1203,11 +1203,11 @@ VALUES (0x75879140, 51876, 0x587904ED, 110, -60, -5.995, 1, 0, 0, 0,  True, '201
 /* @teleloc 0x587904ED [110.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879141, 51737, 0x587904A0, 60, -60, -5.9925, -0.2343438, 0, 0, -0.9721538,  True, '2019-02-10 00:00:00'); /* Rift of Torment */
+VALUES (0x75879141, 51737, 0x587904A0, 60, -60, -5.9925, -0.234344, 0, 0, -0.972154,  True, '2019-02-10 00:00:00'); /* Rift of Torment */
 /* @teleloc 0x587904A0 [60.000000 -60.000000 -5.992500] -0.234344 0.000000 0.000000 -0.972154 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879142, 51738, 0x587904A0, 60.45287, -57.51971, -5.971, -0.2634292, 0, 0, -0.9646787,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Torment */
+VALUES (0x75879142, 51738, 0x587904A0, 60.45287, -57.51971, -5.971, -0.263429, 0, 0, -0.964679,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Torment */
 /* @teleloc 0x587904A0 [60.452870 -57.519710 -5.971000] -0.263429 0.000000 0.000000 -0.964679 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1215,15 +1215,15 @@ VALUES (0x75879143, 51876, 0x587904F4, 110, -130, -5.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x587904F4 [110.000000 -130.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879144, 51876, 0x587904A5, 60.51936, -90.14915, -5.995, -0.7989057, 0, 0, -0.6014563,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
+VALUES (0x75879144, 51876, 0x587904A5, 60.51936, -90.14915, -5.995, -0.798906, 0, 0, -0.601456,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
 /* @teleloc 0x587904A5 [60.519360 -90.149150 -5.995000] -0.798906 0.000000 0.000000 -0.601456 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879145, 51750, 0x5879049A, 50, -100, -5.971, -0.5202209, 0, 0, -0.8540317,  True, '2019-02-10 00:00:00'); /* Rynthid Minion */
+VALUES (0x75879145, 51750, 0x5879049A, 50, -100, -5.971, -0.520221, 0, 0, -0.854032,  True, '2019-02-10 00:00:00'); /* Rynthid Minion */
 /* @teleloc 0x5879049A [50.000000 -100.000000 -5.971000] -0.520221 0.000000 0.000000 -0.854032 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879146, 51760, 0x587904AA, 60, -110, -5.971, -0.6211116, 0, 0, -0.7837222,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
+VALUES (0x75879146, 51760, 0x587904AA, 60, -110, -5.971, -0.621112, 0, 0, -0.783722,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
 /* @teleloc 0x587904AA [60.000000 -110.000000 -5.971000] -0.621112 0.000000 0.000000 -0.783722 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1247,11 +1247,11 @@ VALUES (0x7587914B, 51738, 0x587904CB, 76.7692, -138.1472, -5.971, 1, 0, 0, 0,  
 /* @teleloc 0x587904CB [76.769200 -138.147200 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587914C, 51760, 0x587904BB, 70.3849, -120.222, -5.971, -0.8465706, 0, 0, -0.5322765,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
+VALUES (0x7587914C, 51760, 0x587904BB, 70.3849, -120.222, -5.971, -0.846571, 0, 0, -0.532277,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
 /* @teleloc 0x587904BB [70.384900 -120.222000 -5.971000] -0.846571 0.000000 0.000000 -0.532277 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587914D, 51876, 0x5879047E, 30.8055, -49.0294, -9.497589, 0.9399073, 0, 0, -0.3414298,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
+VALUES (0x7587914D, 51876, 0x5879047E, 30.8055, -49.0294, -9.497589, 0.939907, 0, 0, -0.34143,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
 /* @teleloc 0x5879047E [30.805500 -49.029400 -9.497589] 0.939907 0.000000 0.000000 -0.341430 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1259,15 +1259,15 @@ VALUES (0x7587914E, 51876, 0x58790480, 30, -69.3732, -5.995, 1, 0, 0, 0,  True, 
 /* @teleloc 0x58790480 [30.000000 -69.373200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587914F, 51756, 0x58790444, 49.82734, -49.60276, -11.971, 0.2035314, 0, 0, -0.9790684,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
+VALUES (0x7587914F, 51756, 0x58790444, 49.82734, -49.60276, -11.971, 0.203531, 0, 0, -0.979068,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
 /* @teleloc 0x58790444 [49.827340 -49.602760 -11.971000] 0.203531 0.000000 0.000000 -0.979068 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879150, 51876, 0x587903A2, 79.84032, -0.5657422, -17.995, -0.9997517, 0, 0, -0.02228162,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
+VALUES (0x75879150, 51876, 0x587903A2, 79.84032, -0.565742, -17.995, -0.999752, 0, 0, -0.022282,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
 /* @teleloc 0x587903A2 [79.840320 -0.565742 -17.995000] -0.999752 0.000000 0.000000 -0.022282 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879151, 51760, 0x58790429, 10, -40, -11.971, 0.8038371, 0, 0, -0.5948495,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
+VALUES (0x75879151, 51760, 0x58790429, 10, -40, -11.971, 0.803837, 0, 0, -0.59485,  True, '2019-02-10 00:00:00'); /* Rynthid Sorcerer */
 /* @teleloc 0x58790429 [10.000000 -40.000000 -11.971000] 0.803837 0.000000 0.000000 -0.594850 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1279,11 +1279,11 @@ VALUES (0x75879153, 51750, 0x587903B3, 80, -70, -17.971, 1, 0, 0, 0,  True, '201
 /* @teleloc 0x587903B3 [80.000000 -70.000000 -17.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879154, 51756, 0x587903A0, 72.4854, -90, -17.971, -0.268009, 0, 0, -0.9634164,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
+VALUES (0x75879154, 51756, 0x587903A0, 72.4854, -90, -17.971, -0.268009, 0, 0, -0.963416,  True, '2019-02-10 00:00:00'); /* Rynthid Slayer */
 /* @teleloc 0x587903A0 [72.485400 -90.000000 -17.971000] -0.268009 0.000000 0.000000 -0.963416 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879155, 51758, 0x587903F5, 250, -90, -17.971, 0.3025598, 0, 0, -0.9531304,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
+VALUES (0x75879155, 51758, 0x587903F5, 250, -90, -17.971, 0.30256, 0, 0, -0.95313,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
 /* @teleloc 0x587903F5 [250.000000 -90.000000 -17.971000] 0.302560 0.000000 0.000000 -0.953130 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1291,23 +1291,23 @@ VALUES (0x75879156, 51877, 0x5879040E, 280, -99.37319, -17.995, 1, 0, 0, 0,  Tru
 /* @teleloc 0x5879040E [280.000000 -99.373190 -17.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879157, 51877, 0x58790310, 290.5438, -140.0985, -23.995, -0.7675998, 0, 0, -0.6409294,  True, '2019-02-10 00:00:00'); /* Enraged Shadow */
+VALUES (0x75879157, 51877, 0x58790310, 290.5438, -140.0985, -23.995, -0.7676, 0, 0, -0.640929,  True, '2019-02-10 00:00:00'); /* Enraged Shadow */
 /* @teleloc 0x58790310 [290.543800 -140.098500 -23.995000] -0.767600 0.000000 0.000000 -0.640929 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879158, 51729, 0x58790324, 302.613, -190.8817, -27.40186, 0.3805937, 0, 0, -0.9247423,  True, '2019-02-10 00:00:00'); /* Rift of Rage */
+VALUES (0x75879158, 51729, 0x58790324, 302.613, -190.8817, -27.40186, 0.380594, 0, 0, -0.924742,  True, '2019-02-10 00:00:00'); /* Rift of Rage */
 /* @teleloc 0x58790324 [302.613000 -190.881700 -27.401860] 0.380594 0.000000 0.000000 -0.924742 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879159, 51758, 0x58790335, 310, -172.266, -23.971, -0.07039423, 0, 0, -0.9975193,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
+VALUES (0x75879159, 51758, 0x58790335, 310, -172.266, -23.971, -0.070394, 0, 0, -0.997519,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
 /* @teleloc 0x58790335 [310.000000 -172.266000 -23.971000] -0.070394 0.000000 0.000000 -0.997519 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587915A, 51730, 0x58790337, 305.3138, -194.0478, -29.31095, -0.9894465, 0, 0, -0.144899,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
+VALUES (0x7587915A, 51730, 0x58790337, 305.3138, -194.0478, -29.31095, -0.989447, 0, 0, -0.144899,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
 /* @teleloc 0x58790337 [305.313800 -194.047800 -29.310950] -0.989447 0.000000 0.000000 -0.144899 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587915B, 51730, 0x58790324, 303.8983, -190.8988, -27.42155, -0.7045965, 0, 0, -0.7096082,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
+VALUES (0x7587915B, 51730, 0x58790324, 303.8983, -190.8988, -27.42155, -0.704597, 0, 0, -0.709608,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
 /* @teleloc 0x58790324 [303.898300 -190.898800 -27.421550] -0.704597 0.000000 0.000000 -0.709608 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1315,11 +1315,11 @@ VALUES (0x7587915C, 51730, 0x58790279, 302.3691, -196.1493, -29.971, 1, 0, 0, 0,
 /* @teleloc 0x58790279 [302.369100 -196.149300 -29.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587915D, 51758, 0x58790284, 309.615, -209.778, -29.971, 0.941043, 0, 0, -0.3382871,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
+VALUES (0x7587915D, 51758, 0x58790284, 309.615, -209.778, -29.971, 0.941043, 0, 0, -0.338287,  True, '2019-02-10 00:00:00'); /* Raging Rynthid Sorcerer */
 /* @teleloc 0x58790284 [309.615000 -209.778000 -29.971000] 0.941043 0.000000 0.000000 -0.338287 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587915E, 51762, 0x5879027A, 299.7246, -209.9102, -29.971, -0.1798316, 0, 0, -0.9836974,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
+VALUES (0x7587915E, 51762, 0x5879027A, 299.7246, -209.9102, -29.971, -0.179832, 0, 0, -0.983697,  True, '2019-02-10 00:00:00'); /* Discorporate Rynthid of Rage */
 /* @teleloc 0x5879027A [299.724600 -209.910200 -29.971000] -0.179832 0.000000 0.000000 -0.983697 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1347,7 +1347,7 @@ VALUES (0x75879164, 51760, 0x587904C6, 80, -80, -5.971, 1, 0, 0, 0,  True, '2019
 /* @teleloc 0x587904C6 [80.000000 -80.000000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75879165, 51876, 0x5879051E, 120, -90, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
+VALUES (0x75879165, 51876, 0x5879051E, 120, -90, 0.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tormented Shadow */
 /* @teleloc 0x5879051E [120.000000 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -1495,7 +1495,7 @@ VALUES (0x75879189, 51726, 0x58790349, 333.5739, -129.8551, -23.971, 1, 0, 0, 0,
 /* @teleloc 0x58790349 [333.573900 -129.855100 -23.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587918A, 51752, 0x58790322, 304.6006, -165.6183, -21.25322, -0.995425, 0, 0, -0.09554562,  True, '2019-02-10 00:00:00'); /* Rynthid Rager */
+VALUES (0x7587918A, 51752, 0x58790322, 304.6006, -165.6183, -21.25322, -0.995425, 0, 0, -0.095546,  True, '2019-02-10 00:00:00'); /* Rynthid Rager */
 /* @teleloc 0x58790322 [304.600600 -165.618300 -21.253220] -0.995425 0.000000 0.000000 -0.095546 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -28,12 +28,12 @@ VALUES (36696,   1, 'Pillar of the Mind') /* Name */
      , (36696,  16, 'To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36696,   1,   33560411) /* Setup */
-     , (36696,   2,  150995147) /* MotionTable */
-     , (36696,   3,  536871052) /* SoundTable */
-     , (36696,   8,  100689716) /* Icon */
-     , (36696,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (36696,   1, 0x0200175B) /* Setup */
+     , (36696,   2, 0x090000CB) /* MotionTable */
+     , (36696,   3, 0x2000008C) /* SoundTable */
+     , (36696,   8, 0x06006734) /* Icon */
+     , (36696,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36696, 8040, 10420577, 90, -230, -42, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
+VALUES (36696, 8040, 0x009F0161, 90, -230, -42, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0161 [90.000000 -230.000000 -42.000000] -0.004204 0.000000 0.000000 0.999991 */;

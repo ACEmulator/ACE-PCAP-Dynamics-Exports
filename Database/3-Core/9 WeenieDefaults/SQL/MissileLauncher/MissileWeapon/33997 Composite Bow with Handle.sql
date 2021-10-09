@@ -48,20 +48,20 @@ VALUES (33997,   1, 'Composite Bow with Handle') /* Name */
      , (33997,   8, 'Morpheus''') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33997,   1,   33556600) /* Setup */
-     , (33997,   3,  536870932) /* SoundTable */
-     , (33997,   6,   67112869) /* PaletteBase */
-     , (33997,   8,  100670670) /* Icon */
-     , (33997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33997,   1, 0x02000878) /* Setup */
+     , (33997,   3, 0x20000014) /* SoundTable */
+     , (33997,   6, 0x04000FA5) /* PaletteBase */
+     , (33997,   8, 0x06001CCE) /* Icon */
+     , (33997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33997,  55,       1492) /* ProcSpell - Brittlemail6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33997, 8040, 2847146009, 83.97495, 7.108018, 93.93001, 0.9969173, 0, 0, -0.0784591) /* PCAPRecordedLocation */
+VALUES (33997, 8040, 0xA9B40019, 83.97495, 7.108018, 93.93001, 0.996917, 0, 0, -0.078459) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [83.974950 7.108018 93.930010] 0.996917 0.000000 0.000000 -0.078459 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33997,  1605,      2)  /* DefenderSelf6 */
-     , (33997,  1627,      2)  /* SwiftKillerSelf6 */
      , (33997,  2058,      2)  /* CoordinationOther7 */
-     , (33997,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33997,  2206,      2)  /* MissileWeaponsMasteryOther7 */;
+     , (33997,  1627,      2)  /* SwiftKillerSelf6 */
+     , (33997,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+     , (33997,  2096,      2)  /* BloodDrinkerSelf7 */;

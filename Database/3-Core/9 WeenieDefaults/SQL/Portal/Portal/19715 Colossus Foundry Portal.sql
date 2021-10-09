@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19715,   1, 'Colossus Foundry Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19715,   1,   33554867) /* Setup */
-     , (19715,   2,  150994947) /* MotionTable */
-     , (19715,   8,  100667499) /* Icon */;
+VALUES (19715,   1, 0x020001B3) /* Setup */
+     , (19715,   2, 0x09000003) /* MotionTable */
+     , (19715,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19715, 8040, 3122069826, 66.2036, 52.9584, 126.737, -0.02681421, 0, 0, -0.9996404) /* PCAPRecordedLocation */
+VALUES (19715, 8040, 0xBA170142, 66.2036, 52.9584, 126.737, -0.026814, 0, 0, -0.99964) /* PCAPRecordedLocation */
 /* @teleloc 0xBA170142 [66.203600 52.958400 126.737000] -0.026814 0.000000 0.000000 -0.999640 */;

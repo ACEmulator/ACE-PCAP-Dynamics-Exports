@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29469,   1, 'Royal Prison Warden') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29469,   1,   33559125) /* Setup */
-     , (29469,   2,  150995334) /* MotionTable */
-     , (29469,   3,  536871102) /* SoundTable */
-     , (29469,   6,   67115468) /* PaletteBase */
-     , (29469,   8,  100677371) /* Icon */
-     , (29469,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (29469,   1, 0x02001255) /* Setup */
+     , (29469,   2, 0x09000186) /* MotionTable */
+     , (29469,   3, 0x200000BE) /* SoundTable */
+     , (29469,   6, 0x040019CC) /* PaletteBase */
+     , (29469,   8, 0x060036FB) /* Icon */
+     , (29469,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29469, 8040, 1966492, 449.026, -108.378, -11.99321, 0.6785839, 0, 0, -0.7345229) /* PCAPRecordedLocation */
+VALUES (29469, 8040, 0x001E019C, 449.026, -108.378, -11.99321, 0.678584, 0, 0, -0.734523) /* PCAPRecordedLocation */
 /* @teleloc 0x001E019C [449.026000 -108.378000 -11.993210] 0.678584 0.000000 0.000000 -0.734523 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -54,12 +54,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15431,   1, 'Deadly Armor Piercing Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15431,   1,   33554724) /* Setup */
-     , (15431,   3,  536870932) /* SoundTable */
-     , (15431,   6,   67111919) /* PaletteBase */
-     , (15431,   8,  100672659) /* Icon */
-     , (15431,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15431,   1, 0x02000124) /* Setup */
+     , (15431,   3, 0x20000014) /* SoundTable */
+     , (15431,   6, 0x04000BEF) /* PaletteBase */
+     , (15431,   8, 0x06002493) /* Icon */
+     , (15431,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15431, 8040, 2295332920, 157.2162, 185.1782, 166.1358, -0.06135266, -0.06135266, -0.7044401, -0.7044401) /* PCAPRecordedLocation */
+VALUES (15431, 8040, 0x88D00038, 157.2162, 185.1782, 166.1358, -0.061353, -0.061353, -0.70444, -0.70444) /* PCAPRecordedLocation */
 /* @teleloc 0x88D00038 [157.216200 185.178200 166.135800] -0.061353 -0.061353 -0.704440 -0.704440 */;

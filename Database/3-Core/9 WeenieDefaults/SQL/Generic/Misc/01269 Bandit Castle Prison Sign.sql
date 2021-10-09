@@ -18,9 +18,9 @@ VALUES (1269,   1, 'Bandit Castle Prison Sign') /* Name */
      , (1269,  16, 'Bandit Castle Prison. Authorized Personnel Only. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1269,   1,   33555088) /* Setup */
-     , (1269,   8,  100668115) /* Icon */;
+VALUES (1269,   1, 0x02000290) /* Setup */
+     , (1269,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1269, 8040, 31588921, 66.4104, -17.6769, 24, -0.70122, 0, 0, -0.712945) /* PCAPRecordedLocation */
+VALUES (1269, 8040, 0x01E20239, 66.4104, -17.6769, 24, -0.70122, 0, 0, -0.712945) /* PCAPRecordedLocation */
 /* @teleloc 0x01E20239 [66.410400 -17.676900 24.000000] -0.701220 0.000000 0.000000 -0.712945 */;

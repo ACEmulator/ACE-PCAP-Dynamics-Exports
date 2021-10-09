@@ -50,21 +50,21 @@ VALUES (46099,   1, 'Major Stinging Atlan Sword') /* Name */
      , (46099,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46099,   1,   33556375) /* Setup */
-     , (46099,   3,  536870932) /* SoundTable */
-     , (46099,   6,   67111919) /* PaletteBase */
-     , (46099,   8,  100670574) /* Icon */
-     , (46099,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46099,   1, 0x02000797) /* Setup */
+     , (46099,   3, 0x20000014) /* SoundTable */
+     , (46099,   6, 0x04000BEF) /* PaletteBase */
+     , (46099,   8, 0x06001C6E) /* Icon */
+     , (46099,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46099, 8040, 1068761098, 28.371, 33.96508, -0.071, 0.3528441, 0.3528441, -0.6127814, -0.6127814) /* PCAPRecordedLocation */
+VALUES (46099, 8040, 0x3FB4000A, 28.371, 33.96508, -0.071, 0.352844, 0.352844, -0.612781, -0.612781) /* PCAPRecordedLocation */
 /* @teleloc 0x3FB4000A [28.371000 33.965080 -0.071000] 0.352844 0.352844 -0.612781 -0.612781 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46099,  2059,      2)  /* CoordinationSelf7 */
+VALUES (46099,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46099,  2059,      2)  /* CoordinationSelf7 */
+     , (46099,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46099,  2149,      2)  /* AcidProtectionSelf7 */
      , (46099,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46099,  2101,      2)  /* DefenderSelf7 */
-     , (46099,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46099,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46099,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46099,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;
+     , (46099,  2106,      2)  /* HeartSeekerSelf7 */;

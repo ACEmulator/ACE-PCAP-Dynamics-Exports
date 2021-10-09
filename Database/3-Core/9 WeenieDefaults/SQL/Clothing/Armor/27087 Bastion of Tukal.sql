@@ -39,12 +39,12 @@ VALUES (27087,   1, 'Bastion of Tukal') /* Name */
      , (27087,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27087,   1,   33554644) /* Setup */
-     , (27087,   3,  536870932) /* SoundTable */
-     , (27087,   6,   67108990) /* PaletteBase */
-     , (27087,   8,  100671501) /* Icon */
-     , (27087,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27087,   1, 0x020000D4) /* Setup */
+     , (27087,   3, 0x20000014) /* SoundTable */
+     , (27087,   6, 0x0400007E) /* PaletteBase */
+     , (27087,   8, 0x0600200D) /* Icon */
+     , (27087,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27087,  1039,      2)  /* ColdProtectionOther4 */
-     , (27087,  1484,      2)  /* Impenetrability4 */;
+VALUES (27087,  1484,      2)  /* Impenetrability4 */
+     , (27087,  1039,      2)  /* ColdProtectionOther4 */;

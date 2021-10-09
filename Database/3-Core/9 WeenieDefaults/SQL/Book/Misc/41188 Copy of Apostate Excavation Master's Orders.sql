@@ -20,13 +20,13 @@ VALUES (41188,   1, 'Copy of Apostate Excavation Master''s Orders') /* Name */
      , (41188,  15, 'A copy of the translation of a Virindi message shard found in the Apostate Excavation.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41188,   1,   33554773) /* Setup */
-     , (41188,   3,  536870932) /* SoundTable */
-     , (41188,   8,  100668176) /* Icon */
-     , (41188,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41188,   1, 0x02000155) /* Setup */
+     , (41188,   3, 0x20000014) /* SoundTable */
+     , (41188,   8, 0x06001310) /* Icon */
+     , (41188,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41188, 8040, 459075, 70, -60.6625, 0.0158, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (41188, 8040, 0x00070143, 70, -60.6625, 0.0158, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.000000 -60.662500 0.015800] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

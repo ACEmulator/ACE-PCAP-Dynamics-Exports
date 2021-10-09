@@ -33,8 +33,8 @@ VALUES (14932,   1, 'Crimped Hat') /* Name */
      , (14932,  15, 'A hat, given as a reward for helping out the Royal Guard''s investigation into the attempt on High Queen Elysa''s life.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14932,   1,   33554643) /* Setup */
-     , (14932,   3,  536870932) /* SoundTable */
-     , (14932,   6,   67108990) /* PaletteBase */
-     , (14932,   8,  100675489) /* Icon */
-     , (14932,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14932,   1, 0x020000D3) /* Setup */
+     , (14932,   3, 0x20000014) /* SoundTable */
+     , (14932,   6, 0x0400007E) /* PaletteBase */
+     , (14932,   8, 0x06002FA1) /* Icon */
+     , (14932,  22, 0x3400002B) /* PhysicsEffectTable */;

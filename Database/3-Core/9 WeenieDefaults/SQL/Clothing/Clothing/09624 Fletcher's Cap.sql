@@ -31,8 +31,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9624,   1, 'Fletcher''s Cap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9624,   1,   33557035) /* Setup */
-     , (9624,   3,  536870932) /* SoundTable */
-     , (9624,   6,   67108990) /* PaletteBase */
-     , (9624,   8,  100671625) /* Icon */
-     , (9624,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9624,   1, 0x02000A2B) /* Setup */
+     , (9624,   3, 0x20000014) /* SoundTable */
+     , (9624,   6, 0x0400007E) /* PaletteBase */
+     , (9624,   8, 0x06002089) /* Icon */
+     , (9624,  22, 0x3400002B) /* PhysicsEffectTable */;

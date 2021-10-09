@@ -32,9 +32,9 @@ VALUES (2403,   1, 'Gem') /* Name */
      , (2403,  16, 'Gem of Bludgeon Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2403,   1,   33554809) /* Setup */
-     , (2403,   3,  536870932) /* SoundTable */
-     , (2403,   6,   67111919) /* PaletteBase */
-     , (2403,   8,  100674732) /* Icon */
-     , (2403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2403,   1, 0x02000179) /* Setup */
+     , (2403,   3, 0x20000014) /* SoundTable */
+     , (2403,   6, 0x04000BEF) /* PaletteBase */
+     , (2403,   8, 0x06002CAC) /* Icon */
+     , (2403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2403,  28,       1022) /* Spell - BludgeonProtectionSelf5 */;

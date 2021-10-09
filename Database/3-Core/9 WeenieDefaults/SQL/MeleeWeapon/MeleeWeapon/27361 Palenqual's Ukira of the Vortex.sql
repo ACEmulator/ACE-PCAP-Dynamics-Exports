@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27361,   1, 'Palenqual''s Ukira of the Vortex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27361,   1,   33558666) /* Setup */
-     , (27361,   3,  536870932) /* SoundTable */
-     , (27361,   8,  100676356) /* Icon */
-     , (27361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27361,   1, 0x0200108A) /* Setup */
+     , (27361,   3, 0x20000014) /* SoundTable */
+     , (27361,   8, 0x06003304) /* Icon */
+     , (27361,  22, 0x3400002B) /* PhysicsEffectTable */;

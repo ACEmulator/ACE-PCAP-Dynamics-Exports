@@ -35,20 +35,20 @@ VALUES (9020,   1, 'Zairente Ra-Yao') /* Name */
      , (9020,   5, 'Wandering Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9020,   1,   33554510) /* Setup */
-     , (9020,   2,  150994945) /* MotionTable */
-     , (9020,   3,  536870914) /* SoundTable */
-     , (9020,   6,   67108990) /* PaletteBase */
-     , (9020,   8,  100667446) /* Icon */
-     , (9020,   9,   83890235) /* EyesTexture */
-     , (9020,  10,   83890301) /* NoseTexture */
-     , (9020,  11,   83890328) /* MouthTexture */
-     , (9020,  15,   67116998) /* HairPalette */
-     , (9020,  16,   67110063) /* EyesPalette */
-     , (9020,  17,   67110059) /* SkinPalette */;
+VALUES (9020,   1, 0x0200004E) /* Setup */
+     , (9020,   2, 0x09000001) /* MotionTable */
+     , (9020,   3, 0x20000002) /* SoundTable */
+     , (9020,   6, 0x0400007E) /* PaletteBase */
+     , (9020,   8, 0x06001036) /* Icon */
+     , (9020,   9, 0x0500103B) /* EyesTexture */
+     , (9020,  10, 0x0500107D) /* NoseTexture */
+     , (9020,  11, 0x05001098) /* MouthTexture */
+     , (9020,  15, 0x04001FC6) /* HairPalette */
+     , (9020,  16, 0x040004AF) /* EyesPalette */
+     , (9020,  17, 0x040004AB) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9020, 8040, 1964310531, 13.34427, 48.56833, 33.22451, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (9020, 8040, 0x75150003, 13.34427, 48.56833, 33.22451, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x75150003 [13.344270 48.568330 33.224510] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

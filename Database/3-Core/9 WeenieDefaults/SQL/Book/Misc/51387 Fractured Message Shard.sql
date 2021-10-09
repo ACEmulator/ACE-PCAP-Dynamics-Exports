@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51387,   1, 'Fractured Message Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51387,   1,   33555391) /* Setup */
-     , (51387,   3,  536870932) /* SoundTable */
-     , (51387,   8,  100671183) /* Icon */
-     , (51387,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51387,   1, 0x020003BF) /* Setup */
+     , (51387,   3, 0x20000014) /* SoundTable */
+     , (51387,   8, 0x06001ECF) /* Icon */
+     , (51387,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51387, 8040, 1483735307, 17.3465, -45.9257, -11.056, -0.9891623, 0, 0, -0.146826) /* PCAPRecordedLocation */
+VALUES (51387, 8040, 0x5870010B, 17.3465, -45.9257, -11.056, -0.989162, 0, 0, -0.146826) /* PCAPRecordedLocation */
 /* @teleloc 0x5870010B [17.346500 -45.925700 -11.056000] -0.989162 0.000000 0.000000 -0.146826 */;

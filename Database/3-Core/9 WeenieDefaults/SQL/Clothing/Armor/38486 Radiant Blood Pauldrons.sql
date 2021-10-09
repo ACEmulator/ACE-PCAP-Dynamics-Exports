@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38486,   1, 'Radiant Blood Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38486,   1,   33554641) /* Setup */
-     , (38486,   3,  536870932) /* SoundTable */
-     , (38486,   8,  100690227) /* Icon */
-     , (38486,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38486,   1, 0x020000D1) /* Setup */
+     , (38486,   3, 0x20000014) /* SoundTable */
+     , (38486,   8, 0x06006933) /* Icon */
+     , (38486,  22, 0x3400002B) /* PhysicsEffectTable */;

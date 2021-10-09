@@ -34,20 +34,20 @@ VALUES (42809,   1, 'Junjie the Barkeeper') /* Name */
      , (42809,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42809,   1,   33554433) /* Setup */
-     , (42809,   2,  150994945) /* MotionTable */
-     , (42809,   3,  536870913) /* SoundTable */
-     , (42809,   6,   67108990) /* PaletteBase */
-     , (42809,   8,  100667446) /* Icon */
-     , (42809,   9,   83890449) /* EyesTexture */
-     , (42809,  10,   83890548) /* NoseTexture */
-     , (42809,  11,   83890613) /* MouthTexture */
-     , (42809,  15,   67117072) /* HairPalette */
-     , (42809,  16,   67110062) /* EyesPalette */
-     , (42809,  17,   67110045) /* SkinPalette */;
+VALUES (42809,   1, 0x02000001) /* Setup */
+     , (42809,   2, 0x09000001) /* MotionTable */
+     , (42809,   3, 0x20000001) /* SoundTable */
+     , (42809,   6, 0x0400007E) /* PaletteBase */
+     , (42809,   8, 0x06001036) /* Icon */
+     , (42809,   9, 0x05001111) /* EyesTexture */
+     , (42809,  10, 0x05001174) /* NoseTexture */
+     , (42809,  11, 0x050011B5) /* MouthTexture */
+     , (42809,  15, 0x04002010) /* HairPalette */
+     , (42809,  16, 0x040004AE) /* EyesPalette */
+     , (42809,  17, 0x0400049D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42809, 8040, 459128, 123.057, -69.343, 0.004999995, -0.6828716, 0, 0, -0.7305384) /* PCAPRecordedLocation */
+VALUES (42809, 8040, 0x00070178, 123.057, -69.343, 0.005, -0.682872, 0, 0, -0.730538) /* PCAPRecordedLocation */
 /* @teleloc 0x00070178 [123.057000 -69.343000 0.005000] -0.682872 0.000000 0.000000 -0.730538 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

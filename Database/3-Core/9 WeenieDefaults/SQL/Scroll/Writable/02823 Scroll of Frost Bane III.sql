@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2823,   1, 'Scroll of Frost Bane III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2823,   1,   33554826) /* Setup */
-     , (2823,   8,  100676652) /* Icon */
-     , (2823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2823,   1, 0x0200018A) /* Setup */
+     , (2823,   8, 0x0600342C) /* Icon */
+     , (2823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2823,  28,       1525) /* Spell - FrostBane3 */;

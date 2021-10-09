@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44369,   1, 'Greater Deadly Blunt Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44369,   1,   33557434) /* Setup */
-     , (44369,   3,  536870932) /* SoundTable */
-     , (44369,   6,   67111919) /* PaletteBase */
-     , (44369,   8,  100672680) /* Icon */
-     , (44369,  22,  872415275) /* PhysicsEffectTable */
-     , (44369,  50,  100689661) /* IconOverlay */;
+VALUES (44369,   1, 0x02000BBA) /* Setup */
+     , (44369,   3, 0x20000014) /* SoundTable */
+     , (44369,   6, 0x04000BEF) /* PaletteBase */
+     , (44369,   8, 0x060024A8) /* Icon */
+     , (44369,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44369,  50, 0x060066FD) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44369, 8040, 23855554, 60.52497, -33.18227, -0.071, -0.3903575, -0.3903575, -0.5895939, -0.5895939) /* PCAPRecordedLocation */
+VALUES (44369, 8040, 0x016C01C2, 60.52497, -33.18227, -0.071, -0.390358, -0.390358, -0.589594, -0.589594) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [60.524970 -33.182270 -0.071000] -0.390358 -0.390358 -0.589594 -0.589594 */;

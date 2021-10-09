@@ -26,8 +26,8 @@ VALUES (9117,   1, 'Tattered Virindi Cloak') /* Name */
      , (9117,  15, 'Remember, no Virindi is immune to destruction.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9117,   1,   33554817) /* Setup */
-     , (9117,   3,  536870932) /* SoundTable */
-     , (9117,   6,   67111919) /* PaletteBase */
-     , (9117,   8,  100671380) /* Icon */
-     , (9117,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9117,   1, 0x02000181) /* Setup */
+     , (9117,   3, 0x20000014) /* SoundTable */
+     , (9117,   6, 0x04000BEF) /* PaletteBase */
+     , (9117,   8, 0x06001F94) /* Icon */
+     , (9117,  22, 0x3400002B) /* PhysicsEffectTable */;

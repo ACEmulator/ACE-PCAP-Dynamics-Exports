@@ -27,12 +27,12 @@ VALUES (53486,   1, 'Brellegia''s Marker') /* Name */
      , (53486,  16, 'An ancient statue infused with the magic of the Viridian Root.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53486,   1,   33558954) /* Setup */
-     , (53486,   2,  150995147) /* MotionTable */
-     , (53486,   3,  536871052) /* SoundTable */
-     , (53486,   8,  100688311) /* Icon */
-     , (53486,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53486,   1, 0x020011AA) /* Setup */
+     , (53486,   2, 0x090000CB) /* MotionTable */
+     , (53486,   3, 0x2000008C) /* SoundTable */
+     , (53486,   8, 0x060061B7) /* Icon */
+     , (53486,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53486, 8040, 3007905852, 171.7, 82, 112.1, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53486, 8040, 0xB349003C, 171.7, 82, 112.1, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB349003C [171.700000 82.000000 112.100000] 1.000000 0.000000 0.000000 0.000000 */;

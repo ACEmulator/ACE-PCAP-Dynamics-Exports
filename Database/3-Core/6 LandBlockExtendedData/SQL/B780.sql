@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB780;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B780002, 25684, 0xB7800013, 63.2432, 59.1481, 23.937, -0.5371859, 0, 0, -0.8434638, False, '2019-02-10 00:00:00'); /* Olthoi Chasm */
+VALUES (0x7B780002, 25684, 0xB7800013, 63.2432, 59.1481, 23.937, -0.537186, 0, 0, -0.843464, False, '2019-02-10 00:00:00'); /* Olthoi Chasm */
 /* @teleloc 0xB7800013 [63.243200 59.148100 23.937000] -0.537186 0.000000 0.000000 -0.843464 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -19,15 +19,15 @@ VALUES (0x7B780004, 39835, 0xB7800013, 58.129, 68.9156, 24, -0.186294, 0, 0, 0.9
 /* @teleloc 0xB7800013 [58.129000 68.915600 24.000000] -0.186294 0.000000 0.000000 0.982494 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B780005,   193, 0xB7800033, 158.9665, 64.99016, 35.96822, -0.8901982, 0, 0, -0.4555734,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+VALUES (0x7B780005,   193, 0xB7800033, 158.9665, 64.99016, 35.96822, -0.890198, 0, 0, -0.455573,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
 /* @teleloc 0xB7800033 [158.966500 64.990160 35.968220] -0.890198 0.000000 0.000000 -0.455573 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B780006,   193, 0xB7800033, 167.3058, 66.68855, 35.00238, -0.8901982, 0, 0, -0.4555734,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+VALUES (0x7B780006,   193, 0xB7800033, 167.3058, 66.68855, 35.00238, -0.890198, 0, 0, -0.455573,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
 /* @teleloc 0xB7800033 [167.305800 66.688550 35.002380] -0.890198 0.000000 0.000000 -0.455573 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B780007,  5766, 0xB7800034, 159.8132, 89.2208, 36.07059, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
+VALUES (0x7B780007,  5766, 0xB7800034, 159.8132, 89.2208, 36.07059, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Snowman */
 /* @teleloc 0xB7800034 [159.813200 89.220800 36.070590] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

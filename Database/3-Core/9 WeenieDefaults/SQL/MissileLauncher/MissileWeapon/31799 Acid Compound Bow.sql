@@ -50,15 +50,15 @@ VALUES (31799,   1, 'Acid Compound Bow') /* Name */
      , (31799,  16, 'Acid Compound Bow of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31799,   1,   33559669) /* Setup */
-     , (31799,   3,  536870932) /* SoundTable */
-     , (31799,   6,   67116700) /* PaletteBase */
-     , (31799,   8,  100688049) /* Icon */
-     , (31799,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31799,   1, 0x02001475) /* Setup */
+     , (31799,   3, 0x20000014) /* SoundTable */
+     , (31799,   6, 0x04001E9C) /* PaletteBase */
+     , (31799,   8, 0x060060B1) /* Icon */
+     , (31799,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31799,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31799,  4299,      2)  /* EnduranceSelf8 */
-     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (31799,  4417,      2)  /* SwiftKillerSelf8 */
-     , (31799,  6107,      2)  /* CantripStrength4 */;
+VALUES (31799,  4417,      2)  /* SwiftKillerSelf8 */
+     , (31799,  4299,      2)  /* EnduranceSelf8 */
+     , (31799,  6107,      2)  /* CantripStrength4 */
+     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */;

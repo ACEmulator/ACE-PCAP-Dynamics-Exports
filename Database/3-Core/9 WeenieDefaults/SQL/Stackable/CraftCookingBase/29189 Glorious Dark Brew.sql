@@ -19,8 +19,8 @@ VALUES (29189,   1, 'Glorious Dark Brew') /* Name */
      , (29189,  20, 'Glorious Dark Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29189,   1,   33559154) /* Setup */
-     , (29189,   3,  536870932) /* SoundTable */
-     , (29189,   8,  100686464) /* Icon */
-     , (29189,  22,  872415275) /* PhysicsEffectTable */
-     , (29189,  50,  100687548) /* IconOverlay */;
+VALUES (29189,   1, 0x02001272) /* Setup */
+     , (29189,   3, 0x20000014) /* SoundTable */
+     , (29189,   8, 0x06005A80) /* Icon */
+     , (29189,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29189,  50, 0x06005EBC) /* IconOverlay */;

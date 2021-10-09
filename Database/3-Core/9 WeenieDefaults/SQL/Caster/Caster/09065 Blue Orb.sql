@@ -27,8 +27,8 @@ VALUES (9065,   1, 'Blue Orb') /* Name */
      , (9065,  16, 'A magical orb. Its surface seems to be composed of many overlaid leaves of metal. On the edge of one leaf, the word "Auberean" is inscribed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9065,   1,   33558239) /* Setup */
-     , (9065,   3,  536870932) /* SoundTable */
-     , (9065,   6,   67111919) /* PaletteBase */
-     , (9065,   8,  100674111) /* Icon */
-     , (9065,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9065,   1, 0x02000EDF) /* Setup */
+     , (9065,   3, 0x20000014) /* SoundTable */
+     , (9065,   6, 0x04000BEF) /* PaletteBase */
+     , (9065,   8, 0x06002A3F) /* Icon */
+     , (9065,  22, 0x3400002B) /* PhysicsEffectTable */;

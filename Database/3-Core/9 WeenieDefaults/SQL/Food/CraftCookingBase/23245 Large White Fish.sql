@@ -26,8 +26,8 @@ VALUES (23245,   1, 'Large White Fish') /* Name */
      , (23245,  20, 'Large White Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23245,   1,   33554674) /* Setup */
-     , (23245,   3,  536870932) /* SoundTable */
-     , (23245,   6,   67114188) /* PaletteBase */
-     , (23245,   8,  100674169) /* Icon */
-     , (23245,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23245,   1, 0x020000F2) /* Setup */
+     , (23245,   3, 0x20000014) /* SoundTable */
+     , (23245,   6, 0x040014CC) /* PaletteBase */
+     , (23245,   8, 0x06002A79) /* Icon */
+     , (23245,  22, 0x3400002B) /* PhysicsEffectTable */;

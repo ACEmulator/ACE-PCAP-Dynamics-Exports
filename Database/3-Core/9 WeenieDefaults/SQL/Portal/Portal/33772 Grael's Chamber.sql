@@ -22,10 +22,10 @@ VALUES (33772,   1, 'Grael''s Chamber') /* Name */
      , (33772,  16, 'This portal is warded against those who have not earned the right to access the chamber of the Mukkir Aspect of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33772,   1,   33555925) /* Setup */
-     , (33772,   2,  150994947) /* MotionTable */
-     , (33772,   8,  100667499) /* Icon */;
+VALUES (33772,   1, 0x020005D5) /* Setup */
+     , (33772,   2, 0x09000003) /* MotionTable */
+     , (33772,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33772, 8040, 7734378, 90.4242, -50.4843, -0.06299996, -0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
+VALUES (33772, 8040, 0x0076046A, 90.4242, -50.4843, -0.063, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x0076046A [90.424200 -50.484300 -0.063000] -0.923880 0.000000 0.000000 -0.382683 */;

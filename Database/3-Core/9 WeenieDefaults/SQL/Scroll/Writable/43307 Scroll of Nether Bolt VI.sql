@@ -23,7 +23,7 @@ VALUES (43307,   1, 'Scroll of Nether Bolt VI') /* Name */
 Shoots a bolt of nether at the target. The bolt does 105-210 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43307,   1,   33554826) /* Setup */
-     , (43307,   8,  100691569) /* Icon */
-     , (43307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43307,   1, 0x0200018A) /* Setup */
+     , (43307,   8, 0x06006E71) /* Icon */
+     , (43307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43307,  28,       5354) /* Spell - NetherBolt6 */;

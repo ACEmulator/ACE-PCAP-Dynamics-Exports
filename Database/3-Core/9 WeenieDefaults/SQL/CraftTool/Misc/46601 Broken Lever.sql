@@ -27,7 +27,7 @@ VALUES (46601,   1, 'Broken Lever') /* Name */
      , (46601,  15, 'The lower and middle portion of a broken key.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46601,   1,   33554784) /* Setup */
-     , (46601,   3,  536870932) /* SoundTable */
-     , (46601,   8,  100670626) /* Icon */
-     , (46601,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46601,   1, 0x02000160) /* Setup */
+     , (46601,   3, 0x20000014) /* SoundTable */
+     , (46601,   8, 0x06001CA2) /* Icon */
+     , (46601,  22, 0x3400002B) /* PhysicsEffectTable */;

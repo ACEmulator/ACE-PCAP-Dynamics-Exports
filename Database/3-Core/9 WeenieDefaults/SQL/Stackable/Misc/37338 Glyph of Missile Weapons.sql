@@ -19,9 +19,9 @@ VALUES (37338,   1, 'Glyph of Missile Weapons') /* Name */
      , (37338,  20, 'Glyphs of Missile Weapons') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37338,   1,   33554809) /* Setup */
-     , (37338,   3,  536870932) /* SoundTable */
-     , (37338,   6,   67111919) /* PaletteBase */
-     , (37338,   8,  100690191) /* Icon */
-     , (37338,  22,  872415275) /* PhysicsEffectTable */
-     , (37338,  50,  100686638) /* IconOverlay */;
+VALUES (37338,   1, 0x02000179) /* Setup */
+     , (37338,   3, 0x20000014) /* SoundTable */
+     , (37338,   6, 0x04000BEF) /* PaletteBase */
+     , (37338,   8, 0x0600690F) /* Icon */
+     , (37338,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37338,  50, 0x06005B2E) /* IconOverlay */;

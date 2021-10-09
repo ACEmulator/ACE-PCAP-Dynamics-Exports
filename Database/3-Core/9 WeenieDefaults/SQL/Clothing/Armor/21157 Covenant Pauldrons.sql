@@ -47,11 +47,11 @@ VALUES (21157,   1, 'Covenant Pauldrons') /* Name */
      , (21157,  16, 'Covenant Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21157,   1,   33554641) /* Setup */
-     , (21157,   3,  536870932) /* SoundTable */
-     , (21157,   6,   67108990) /* PaletteBase */
-     , (21157,   8,  100673447) /* Icon */
-     , (21157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21157,   1, 0x020000D1) /* Setup */
+     , (21157,   3, 0x20000014) /* SoundTable */
+     , (21157,   6, 0x0400007E) /* PaletteBase */
+     , (21157,   8, 0x060027A7) /* Icon */
+     , (21157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21157,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

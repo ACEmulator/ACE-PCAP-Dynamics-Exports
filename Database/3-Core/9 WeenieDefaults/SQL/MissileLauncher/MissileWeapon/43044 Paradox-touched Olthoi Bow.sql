@@ -56,17 +56,17 @@ VALUES (43044,   1, 'Paradox-touched Olthoi Bow') /* Name */
      , (43044,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43044,   1,   33561078) /* Setup */
-     , (43044,   3,  536870932) /* SoundTable */
-     , (43044,   8,  100691348) /* Icon */
-     , (43044,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43044,   1, 0x020019F6) /* Setup */
+     , (43044,   3, 0x20000014) /* SoundTable */
+     , (43044,   8, 0x06006D94) /* Icon */
+     , (43044,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43044,  55,       1789) /* ProcSpell - ShockwaveRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43044, 8040, 3583574079, 172.8036, 156.5304, 373.9305, 0.7217928, 0, 0, -0.6921092) /* PCAPRecordedLocation */
+VALUES (43044, 8040, 0xD599003F, 172.8036, 156.5304, 373.9305, 0.721793, 0, 0, -0.692109) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [172.803600 156.530400 373.930500] 0.721793 0.000000 0.000000 -0.692109 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43044,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (43044,  2101,      2)  /* DefenderSelf7 */
-     , (43044,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (43044,  2116,      2)  /* SwiftKillerSelf7 */
+     , (43044,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (43044,  2101,      2)  /* DefenderSelf7 */;

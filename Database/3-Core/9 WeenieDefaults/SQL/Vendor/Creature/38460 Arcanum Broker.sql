@@ -34,20 +34,20 @@ VALUES (38460,   1, 'Arcanum Broker') /* Name */
      , (38460,   5, 'Mana Forge Vendor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38460,   1,   33554433) /* Setup */
-     , (38460,   2,  150994945) /* MotionTable */
-     , (38460,   3,  536870913) /* SoundTable */
-     , (38460,   6,   67108990) /* PaletteBase */
-     , (38460,   8,  100667446) /* Icon */
-     , (38460,   9,   83890457) /* EyesTexture */
-     , (38460,  10,   83890541) /* NoseTexture */
-     , (38460,  11,   83890654) /* MouthTexture */
-     , (38460,  15,   67116999) /* HairPalette */
-     , (38460,  16,   67110062) /* EyesPalette */
-     , (38460,  17,   67109552) /* SkinPalette */;
+VALUES (38460,   1, 0x02000001) /* Setup */
+     , (38460,   2, 0x09000001) /* MotionTable */
+     , (38460,   3, 0x20000001) /* SoundTable */
+     , (38460,   6, 0x0400007E) /* PaletteBase */
+     , (38460,   8, 0x06001036) /* Icon */
+     , (38460,   9, 0x05001119) /* EyesTexture */
+     , (38460,  10, 0x0500116D) /* NoseTexture */
+     , (38460,  11, 0x050011DE) /* MouthTexture */
+     , (38460,  15, 0x04001FC7) /* HairPalette */
+     , (38460,  16, 0x040004AE) /* EyesPalette */
+     , (38460,  17, 0x040002B0) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38460, 8040, 3147759669, 160.67, 111.026, 70.005, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (38460, 8040, 0xBB9F0035, 160.67, 111.026, 70.005, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0035 [160.670000 111.026000 70.005000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

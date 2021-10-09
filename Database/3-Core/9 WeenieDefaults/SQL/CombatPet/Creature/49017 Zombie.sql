@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49017,   1, 'Zombie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49017,   1,   33561238) /* Setup */
-     , (49017,   2,  150994945) /* MotionTable */
-     , (49017,   3,  536870934) /* SoundTable */
-     , (49017,   6,   67108990) /* PaletteBase */
-     , (49017,   8,  100667942) /* Icon */
-     , (49017,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (49017,   1, 0x02001A96) /* Setup */
+     , (49017,   2, 0x09000001) /* MotionTable */
+     , (49017,   3, 0x20000016) /* SoundTable */
+     , (49017,   6, 0x0400007E) /* PaletteBase */
+     , (49017,   8, 0x06001226) /* Icon */
+     , (49017,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49017, 8040, 9765120, -2.248957, -8.33147, 0.004999995, 0.2403425, 0, 0, -0.9706882) /* PCAPRecordedLocation */
+VALUES (49017, 8040, 0x00950100, -2.248957, -8.33147, 0.005, 0.240343, 0, 0, -0.970688) /* PCAPRecordedLocation */
 /* @teleloc 0x00950100 [-2.248957 -8.331470 0.005000] 0.240343 0.000000 0.000000 -0.970688 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

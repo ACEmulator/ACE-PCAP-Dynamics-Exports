@@ -34,21 +34,21 @@ VALUES (52857,   1, 'Gauntlet Ticket Vendor') /* Name */
      , (52857,   5, 'Ticket Vendor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52857,   1,   33554433) /* Setup */
-     , (52857,   2,  150994945) /* MotionTable */
-     , (52857,   3,  536870913) /* SoundTable */
-     , (52857,   6,   67108990) /* PaletteBase */
-     , (52857,   8,  100667446) /* Icon */
-     , (52857,   9,   83890516) /* EyesTexture */
-     , (52857,  10,   83890546) /* NoseTexture */
-     , (52857,  11,   83890664) /* MouthTexture */
-     , (52857,  15,   67116991) /* HairPalette */
-     , (52857,  16,   67110062) /* EyesPalette */
-     , (52857,  17,   67109561) /* SkinPalette */
+VALUES (52857,   1, 0x02000001) /* Setup */
+     , (52857,   2, 0x09000001) /* MotionTable */
+     , (52857,   3, 0x20000001) /* SoundTable */
+     , (52857,   6, 0x0400007E) /* PaletteBase */
+     , (52857,   8, 0x06001036) /* Icon */
+     , (52857,   9, 0x05001154) /* EyesTexture */
+     , (52857,  10, 0x05001172) /* NoseTexture */
+     , (52857,  11, 0x050011E8) /* MouthTexture */
+     , (52857,  15, 0x04001FBF) /* HairPalette */
+     , (52857,  16, 0x040004AE) /* EyesPalette */
+     , (52857,  17, 0x040002B9) /* SkinPalette */
      , (52857,  57,      20630) /* AlternateCurrency - Trade Note (250,000) */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52857, 8040, 1500184841, 110, -66.4237, 0.004999995, -0.004906559, 0, 0, -0.999988) /* PCAPRecordedLocation */
+VALUES (52857, 8040, 0x596B0109, 110, -66.4237, 0.005, -0.004907, 0, 0, -0.999988) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0109 [110.000000 -66.423700 0.005000] -0.004907 0.000000 0.000000 -0.999988 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

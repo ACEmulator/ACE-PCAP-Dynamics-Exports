@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24482,   1, 'Small Mud Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24482,   1,   33556426) /* Setup */
-     , (24482,   2,  150995073) /* MotionTable */
-     , (24482,   3,  536871065) /* SoundTable */
-     , (24482,   6,   67112774) /* PaletteBase */
-     , (24482,   8,  100667940) /* Icon */
-     , (24482,  22,  872415326) /* PhysicsEffectTable */;
+VALUES (24482,   1, 0x020007CA) /* Setup */
+     , (24482,   2, 0x09000081) /* MotionTable */
+     , (24482,   3, 0x20000099) /* SoundTable */
+     , (24482,   6, 0x04000F46) /* PaletteBase */
+     , (24482,   8, 0x06001224) /* Icon */
+     , (24482,  22, 0x3400005E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24482, 8040, 1913192468, 68.8423, 91.97485, 0.895711, -0.6118939, 0, 0, 0.7909399) /* PCAPRecordedLocation */
+VALUES (24482, 8040, 0x72090014, 68.8423, 91.97485, 0.895711, -0.611894, 0, 0, 0.79094) /* PCAPRecordedLocation */
 /* @teleloc 0x72090014 [68.842300 91.974850 0.895711] -0.611894 0.000000 0.000000 0.790940 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

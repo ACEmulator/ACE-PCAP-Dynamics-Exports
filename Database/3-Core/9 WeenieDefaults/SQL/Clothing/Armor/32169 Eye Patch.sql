@@ -33,8 +33,8 @@ VALUES (32169,   1, 'Eye Patch') /* Name */
      , (32169,  16, 'A dashing right eye patch for the bandit on the go.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32169,   1,   33559792) /* Setup */
-     , (32169,   3,  536870932) /* SoundTable */
-     , (32169,   6,   67108990) /* PaletteBase */
-     , (32169,   8,  100688440) /* Icon */
-     , (32169,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32169,   1, 0x020014F0) /* Setup */
+     , (32169,   3, 0x20000014) /* SoundTable */
+     , (32169,   6, 0x0400007E) /* PaletteBase */
+     , (32169,   8, 0x06006238) /* Icon */
+     , (32169,  22, 0x3400002B) /* PhysicsEffectTable */;

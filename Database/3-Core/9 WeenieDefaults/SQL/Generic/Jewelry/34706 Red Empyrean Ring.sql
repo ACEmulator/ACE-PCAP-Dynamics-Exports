@@ -38,12 +38,12 @@ VALUES (34706,   1, 'Red Empyrean Ring') /* Name */
      , (34706,  25, 'Marcy Playground') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34706,   1,   33554691) /* Setup */
-     , (34706,   3,  536870932) /* SoundTable */
-     , (34706,   6,   67111919) /* PaletteBase */
-     , (34706,   8,  100689375) /* Icon */
-     , (34706,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34706,   1, 0x02000103) /* Setup */
+     , (34706,   3, 0x20000014) /* SoundTable */
+     , (34706,   6, 0x04000BEF) /* PaletteBase */
+     , (34706,   8, 0x060065DF) /* Icon */
+     , (34706,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34706,  2666,      2)  /* EssenceGlutton */
-     , (34706,  3982,      2)  /* RegenerationOtherIncantation */;
+VALUES (34706,  3982,      2)  /* RegenerationOtherIncantation */
+     , (34706,  2666,      2)  /* EssenceGlutton */;

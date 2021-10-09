@@ -36,20 +36,20 @@ VALUES (38688,   1, 'Shopkeeper Polly') /* Name */
      , (38688,   5, 'Society Shopkeep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38688,   1,   33554510) /* Setup */
-     , (38688,   2,  150994945) /* MotionTable */
-     , (38688,   3,  536870914) /* SoundTable */
-     , (38688,   6,   67108990) /* PaletteBase */
-     , (38688,   8,  100667446) /* Icon */
-     , (38688,   9,   83890264) /* EyesTexture */
-     , (38688,  10,   83890295) /* NoseTexture */
-     , (38688,  11,   83890327) /* MouthTexture */
-     , (38688,  15,   67117068) /* HairPalette */
-     , (38688,  16,   67110063) /* EyesPalette */
-     , (38688,  17,   67110052) /* SkinPalette */;
+VALUES (38688,   1, 0x0200004E) /* Setup */
+     , (38688,   2, 0x09000001) /* MotionTable */
+     , (38688,   3, 0x20000002) /* SoundTable */
+     , (38688,   6, 0x0400007E) /* PaletteBase */
+     , (38688,   8, 0x06001036) /* Icon */
+     , (38688,   9, 0x05001058) /* EyesTexture */
+     , (38688,  10, 0x05001077) /* NoseTexture */
+     , (38688,  11, 0x05001097) /* MouthTexture */
+     , (38688,  15, 0x0400200C) /* HairPalette */
+     , (38688,  16, 0x040004AF) /* EyesPalette */
+     , (38688,  17, 0x040004A4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38688, 8040, 11993706, 136.773, -32.6153, -17.995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38688, 8040, 0x00B7026A, 136.773, -32.6153, -17.995, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026A [136.773000 -32.615300 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

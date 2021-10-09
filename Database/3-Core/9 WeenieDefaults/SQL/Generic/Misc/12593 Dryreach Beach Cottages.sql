@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12593,   1, 'Dryreach Beach Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12593,   1,   33557463) /* Setup */
-     , (12593,   8,  100668115) /* Icon */;
+VALUES (12593,   1, 0x02000BD7) /* Setup */
+     , (12593,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12593, 8040, 3748593716, 165.346, 79.5646, 3.72529E-09, 0.672941, 0, 0, 0.739696) /* PCAPRecordedLocation */
+VALUES (12593, 8040, 0xDF6F0034, 165.346, 79.5646, 0, 0.672941, 0, 0, 0.739696) /* PCAPRecordedLocation */
 /* @teleloc 0xDF6F0034 [165.346000 79.564600 0.000000] 0.672941 0.000000 0.000000 0.739696 */;

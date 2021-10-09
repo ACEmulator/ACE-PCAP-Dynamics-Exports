@@ -26,7 +26,7 @@ VALUES (8249,   1, 'Pumpkin Soup') /* Name */
      , (8249,  20, 'Bowls of Pumpkin Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8249,   1,   33554668) /* Setup */
-     , (8249,   3,  536870932) /* SoundTable */
-     , (8249,   8,  100671016) /* Icon */
-     , (8249,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8249,   1, 0x020000EC) /* Setup */
+     , (8249,   3, 0x20000014) /* SoundTable */
+     , (8249,   8, 0x06001E28) /* Icon */
+     , (8249,  22, 0x3400002B) /* PhysicsEffectTable */;

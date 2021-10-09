@@ -22,8 +22,8 @@ VALUES (35943,   1, 'King''s Crown Infusion') /* Name */
      , (35943,  16, 'An infusion, created by Jilna Fullgood, for the Tusker King, Oolutanga.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35943,   1,   33555965) /* Setup */
-     , (35943,   3,  536870932) /* SoundTable */
-     , (35943,   6,   67111919) /* PaletteBase */
-     , (35943,   8,  100670747) /* Icon */
-     , (35943,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35943,   1, 0x020005FD) /* Setup */
+     , (35943,   3, 0x20000014) /* SoundTable */
+     , (35943,   6, 0x04000BEF) /* PaletteBase */
+     , (35943,   8, 0x06001D1B) /* Icon */
+     , (35943,  22, 0x3400002B) /* PhysicsEffectTable */;

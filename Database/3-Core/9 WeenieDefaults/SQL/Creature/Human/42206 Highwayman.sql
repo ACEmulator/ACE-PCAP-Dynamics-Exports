@@ -22,21 +22,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42206,   1, 'Highwayman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42206,   1,   33554433) /* Setup */
-     , (42206,   2,  150994945) /* MotionTable */
-     , (42206,   3,  536870913) /* SoundTable */
-     , (42206,   6,   67108990) /* PaletteBase */
-     , (42206,   8,  100667446) /* Icon */
-     , (42206,   9,   83890514) /* EyesTexture */
-     , (42206,  10,   83890519) /* NoseTexture */
-     , (42206,  11,   83890635) /* MouthTexture */
-     , (42206,  15,   67117077) /* HairPalette */
-     , (42206,  16,   67109565) /* EyesPalette */
-     , (42206,  17,   67110047) /* SkinPalette */
-     , (42206,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (42206,   1, 0x02000001) /* Setup */
+     , (42206,   2, 0x09000001) /* MotionTable */
+     , (42206,   3, 0x20000001) /* SoundTable */
+     , (42206,   6, 0x0400007E) /* PaletteBase */
+     , (42206,   8, 0x06001036) /* Icon */
+     , (42206,   9, 0x05001152) /* EyesTexture */
+     , (42206,  10, 0x05001157) /* NoseTexture */
+     , (42206,  11, 0x050011CB) /* MouthTexture */
+     , (42206,  15, 0x04002015) /* HairPalette */
+     , (42206,  16, 0x040002BD) /* EyesPalette */
+     , (42206,  17, 0x0400049F) /* SkinPalette */
+     , (42206,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42206, 8040, 29753792, 82.6531, 1.59176, 0.004999995, -0.4308789, 0, 0, -0.9024097) /* PCAPRecordedLocation */
+VALUES (42206, 8040, 0x01C601C0, 82.6531, 1.59176, 0.005, -0.430879, 0, 0, -0.90241) /* PCAPRecordedLocation */
 /* @teleloc 0x01C601C0 [82.653100 1.591760 0.005000] -0.430879 0.000000 0.000000 -0.902410 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

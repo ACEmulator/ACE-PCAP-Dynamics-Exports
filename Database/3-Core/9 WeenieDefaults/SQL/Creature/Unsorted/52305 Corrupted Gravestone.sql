@@ -26,12 +26,12 @@ VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
      , (52305,  15, 'An old gravestone that appears to be freshly placed into the ground. An uneasy sense overwhelms you as you approach.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52305,   1,   33560241) /* Setup */
-     , (52305,   2,  150995497) /* MotionTable */
-     , (52305,   3,  536871001) /* SoundTable */
-     , (52305,   8,  100667386) /* Icon */
-     , (52305,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52305,   1, 0x020016B1) /* Setup */
+     , (52305,   2, 0x09000229) /* MotionTable */
+     , (52305,   3, 0x20000059) /* SoundTable */
+     , (52305,   8, 0x06000FFA) /* Icon */
+     , (52305,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52305, 8040, 1210908709, 113.532, 117.735, 6, 0.5891209, 0, 0, 0.8080449) /* PCAPRecordedLocation */
+VALUES (52305, 8040, 0x482D0025, 113.532, 117.735, 6, 0.589121, 0, 0, 0.808045) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0025 [113.532000 117.735000 6.000000] 0.589121 0.000000 0.000000 0.808045 */;

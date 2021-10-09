@@ -22,7 +22,7 @@ VALUES (45784,   1, 'Geraine''s Still Beating Heart') /* Name */
      , (45784,  16, 'A heart which beats slowly in your hands as if the being from which it came still lives.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45784,   1,   33554817) /* Setup */
-     , (45784,   3,  536870932) /* SoundTable */
-     , (45784,   8,  100692629) /* Icon */
-     , (45784,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45784,   1, 0x02000181) /* Setup */
+     , (45784,   3, 0x20000014) /* SoundTable */
+     , (45784,   8, 0x06007295) /* Icon */
+     , (45784,  22, 0x3400002B) /* PhysicsEffectTable */;

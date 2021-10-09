@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7208,   1, 'Setab''s Barracks Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7208,   1,   33554867) /* Setup */
-     , (7208,   2,  150994947) /* MotionTable */
-     , (7208,   8,  100667499) /* Icon */;
+VALUES (7208,   1, 0x020001B3) /* Setup */
+     , (7208,   2, 0x09000003) /* MotionTable */
+     , (7208,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7208, 8040, 3263299607, 57.8179, 162.889, 53.937, -0.8765032, 0, 0, -0.4813961) /* PCAPRecordedLocation */
+VALUES (7208, 8040, 0xC2820017, 57.8179, 162.889, 53.937, -0.876503, 0, 0, -0.481396) /* PCAPRecordedLocation */
 /* @teleloc 0xC2820017 [57.817900 162.889000 53.937000] -0.876503 0.000000 0.000000 -0.481396 */;

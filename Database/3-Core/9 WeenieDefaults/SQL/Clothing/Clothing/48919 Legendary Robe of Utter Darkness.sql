@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48919,   1, 'Legendary Robe of Utter Darkness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48919,   1,   33554854) /* Setup */
-     , (48919,   3,  536870932) /* SoundTable */
-     , (48919,   8,  100692654) /* Icon */
-     , (48919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48919,   1, 0x020001A6) /* Setup */
+     , (48919,   3, 0x20000014) /* SoundTable */
+     , (48919,   8, 0x060072AE) /* Icon */
+     , (48919,  22, 0x3400002B) /* PhysicsEffectTable */;

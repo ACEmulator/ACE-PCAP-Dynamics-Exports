@@ -18,10 +18,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14805,   1, 'Ice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14805,   1,   33557492) /* Setup */
-     , (14805,   3,  536870994) /* SoundTable */
-     , (14805,   8,  100667465) /* Icon */;
+VALUES (14805,   1, 0x02000BF4) /* Setup */
+     , (14805,   3, 0x20000052) /* SoundTable */
+     , (14805,   8, 0x06001049) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14805, 8040, 6160721, 210, -40, -120, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (14805, 8040, 0x005E0151, 210, -40, -120, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x005E0151 [210.000000 -40.000000 -120.000000] 1.000000 0.000000 0.000000 0.000000 */;

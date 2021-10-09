@@ -47,19 +47,19 @@ VALUES (42948,   1, 'Well-Balanced Lugian Greataxe') /* Name */
      , (42948,  16, 'An ancient axe of lugian design. This axe is well balanced, extremely sharp and can easily be used to cut through hoards of monsters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42948,   1,   33558379) /* Setup */
-     , (42948,   3,  536870932) /* SoundTable */
-     , (42948,   8,  100691239) /* Icon */
-     , (42948,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42948,   1, 0x02000F6B) /* Setup */
+     , (42948,   3, 0x20000014) /* SoundTable */
+     , (42948,   8, 0x06006D27) /* Icon */
+     , (42948,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42948, 8040, 2011693119, 168.05, 158.4951, 105.93, -0.4552104, -0.4552104, -0.5410948, -0.5410948) /* PCAPRecordedLocation */
+VALUES (42948, 8040, 0x77E8003F, 168.05, 158.4951, 105.93, -0.45521, -0.45521, -0.541095, -0.541095) /* PCAPRecordedLocation */
 /* @teleloc 0x77E8003F [168.050000 158.495100 105.930000] -0.455210 -0.455210 -0.541095 -0.541095 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42948,  2101,      2)  /* DefenderSelf7 */
-     , (42948,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (42948,  2116,      2)  /* SwiftKillerSelf7 */
+     , (42948,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (42948,  2576,      2)  /* CANTRIPSTRENGTH2 */
      , (42948,  4395,      2)  /* BloodDrinkerSelf8 */
      , (42948,  4405,      2)  /* HeartSeekerSelf8 */
-     , (42948,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (42948,  2101,      2)  /* DefenderSelf7 */;

@@ -28,7 +28,7 @@ VALUES (49583,   1, 'Completed Signet') /* Name */
      , (49583,  16, 'An elaborate signet that glows brightly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49583,   1,   33557973) /* Setup */
-     , (49583,   3,  536870932) /* SoundTable */
-     , (49583,   8,  100693247) /* Icon */
-     , (49583,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49583,   1, 0x02000DD5) /* Setup */
+     , (49583,   3, 0x20000014) /* SoundTable */
+     , (49583,   8, 0x060074FF) /* Icon */
+     , (49583,  22, 0x3400002B) /* PhysicsEffectTable */;

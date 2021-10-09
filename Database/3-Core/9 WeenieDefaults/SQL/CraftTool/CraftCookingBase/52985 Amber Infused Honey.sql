@@ -21,7 +21,7 @@ VALUES (52985,   1, 'Amber Infused Honey') /* Name */
      , (52985,  20, 'Bottles of Amber Infused Honey') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52985,   1,   33555977) /* Setup */
-     , (52985,   3,  536870932) /* SoundTable */
-     , (52985,   8,  100669961) /* Icon */
-     , (52985,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52985,   1, 0x02000609) /* Setup */
+     , (52985,   3, 0x20000014) /* SoundTable */
+     , (52985,   8, 0x06001A09) /* Icon */
+     , (52985,  22, 0x3400002B) /* PhysicsEffectTable */;

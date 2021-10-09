@@ -30,20 +30,20 @@ VALUES (35772,   1, 'Jilna Fullgood') /* Name */
      , (35772,   5, 'Tusker King''s Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35772,   1,   33554510) /* Setup */
-     , (35772,   2,  150994945) /* MotionTable */
-     , (35772,   3,  536870914) /* SoundTable */
-     , (35772,   8,  100667446) /* Icon */
-     , (35772,   9,   83890284) /* EyesTexture */
-     , (35772,  10,   83890286) /* NoseTexture */
-     , (35772,  11,   83890324) /* MouthTexture */
-     , (35772,  15,   67116978) /* HairPalette */
-     , (35772,  16,   67110064) /* EyesPalette */
-     , (35772,  17,   67109558) /* SkinPalette */
-     , (35772,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (35772,   1, 0x0200004E) /* Setup */
+     , (35772,   2, 0x09000001) /* MotionTable */
+     , (35772,   3, 0x20000002) /* SoundTable */
+     , (35772,   8, 0x06001036) /* Icon */
+     , (35772,   9, 0x0500106C) /* EyesTexture */
+     , (35772,  10, 0x0500106E) /* NoseTexture */
+     , (35772,  11, 0x05001094) /* MouthTexture */
+     , (35772,  15, 0x04001FB2) /* HairPalette */
+     , (35772,  16, 0x040004B0) /* EyesPalette */
+     , (35772,  17, 0x040002B6) /* SkinPalette */
+     , (35772,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35772, 8040, 4135649344, 184.684, 174.402, 63.8756, 0.986369, 0, 0, 0.164546) /* PCAPRecordedLocation */
+VALUES (35772, 8040, 0xF6810040, 184.684, 174.402, 63.8756, 0.986369, 0, 0, 0.164546) /* PCAPRecordedLocation */
 /* @teleloc 0xF6810040 [184.684000 174.402000 63.875600] 0.986369 0.000000 0.000000 0.164546 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

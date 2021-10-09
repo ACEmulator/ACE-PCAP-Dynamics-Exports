@@ -47,14 +47,14 @@ VALUES (3804,   1, 'Flaming Jitte') /* Name */
      , (3804,  16, 'Flaming Jitte of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3804,   1,   33555733) /* Setup */
-     , (3804,   3,  536870932) /* SoundTable */
-     , (3804,   8,  100668895) /* Icon */
-     , (3804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3804,   1, 0x02000515) /* Setup */
+     , (3804,   3, 0x20000014) /* SoundTable */
+     , (3804,   8, 0x060015DF) /* Icon */
+     , (3804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3804,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3804,  1590,      2)  /* HeartSeekerSelf4 */
-     , (3804,  1602,      2)  /* DefenderSelf3 */
+VALUES (3804,  1602,      2)  /* DefenderSelf3 */
      , (3804,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (3804,  1626,      2)  /* SwiftKillerSelf5 */;
+     , (3804,  1626,      2)  /* SwiftKillerSelf5 */
+     , (3804,  1590,      2)  /* HeartSeekerSelf4 */;

@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48043,   1, 'Lightning Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48043,   1,   33555991) /* Setup */
-     , (48043,   3,  536870932) /* SoundTable */
-     , (48043,   8,  100670027) /* Icon */
-     , (48043,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48043,   1, 0x02000617) /* Setup */
+     , (48043,   3, 0x20000014) /* SoundTable */
+     , (48043,   8, 0x06001A4B) /* Icon */
+     , (48043,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48043, 8040, 46858554, 33.75181, -79.44435, -0.06775, -0.5611602, -0.5611602, 0.4302316, 0.4302316) /* PCAPRecordedLocation */
+VALUES (48043, 8040, 0x02CB013A, 33.75181, -79.44435, -0.06775, -0.56116, -0.56116, 0.430232, 0.430232) /* PCAPRecordedLocation */
 /* @teleloc 0x02CB013A [33.751810 -79.444350 -0.067750] -0.561160 -0.561160 0.430232 0.430232 */;

@@ -51,10 +51,10 @@ VALUES (45400,   1, 'Frost Short Sword') /* Name */
      , (45400,  16, 'Frost Short Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45400,   1,   33555792) /* Setup */
-     , (45400,   3,  536870932) /* SoundTable */
-     , (45400,   8,  100669036) /* Icon */
-     , (45400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45400,   1, 0x02000550) /* Setup */
+     , (45400,   3, 0x20000014) /* SoundTable */
+     , (45400,   8, 0x0600166C) /* Icon */
+     , (45400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45400,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

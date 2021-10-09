@@ -31,20 +31,20 @@ VALUES (38274,   1, 'Akahana') /* Name */
      , (38274,   5, 'Coral Towers Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38274,   1,   33554510) /* Setup */
-     , (38274,   2,  150994945) /* MotionTable */
-     , (38274,   3,  536870914) /* SoundTable */
-     , (38274,   6,   67108990) /* PaletteBase */
-     , (38274,   8,  100667446) /* Icon */
-     , (38274,   9,   83890278) /* EyesTexture */
-     , (38274,  10,   83890286) /* NoseTexture */
-     , (38274,  11,   83890325) /* MouthTexture */
-     , (38274,  15,   67117076) /* HairPalette */
-     , (38274,  16,   67109565) /* EyesPalette */
-     , (38274,  17,   67110054) /* SkinPalette */;
+VALUES (38274,   1, 0x0200004E) /* Setup */
+     , (38274,   2, 0x09000001) /* MotionTable */
+     , (38274,   3, 0x20000002) /* SoundTable */
+     , (38274,   6, 0x0400007E) /* PaletteBase */
+     , (38274,   8, 0x06001036) /* Icon */
+     , (38274,   9, 0x05001066) /* EyesTexture */
+     , (38274,  10, 0x0500106E) /* NoseTexture */
+     , (38274,  11, 0x05001095) /* MouthTexture */
+     , (38274,  15, 0x04002014) /* HairPalette */
+     , (38274,  16, 0x040002BD) /* EyesPalette */
+     , (38274,  17, 0x040004A6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38274, 8040, 12124783, 157.094, -35.8791, -17.995, -0.6515939, 0, 0, -0.7585679) /* PCAPRecordedLocation */
+VALUES (38274, 8040, 0x00B9026F, 157.094, -35.8791, -17.995, -0.651594, 0, 0, -0.758568) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026F [157.094000 -35.879100 -17.995000] -0.651594 0.000000 0.000000 -0.758568 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

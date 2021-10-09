@@ -22,12 +22,12 @@ VALUES (779,   1, 'Vervain') /* Name */
      , (779,  20, 'Sacks of Vervain') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (779,   1,   33554817) /* Setup */
-     , (779,   3,  536870932) /* SoundTable */
-     , (779,   6,   67111919) /* PaletteBase */
-     , (779,   8,  100668430) /* Icon */
-     , (779,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (779,   1, 0x02000181) /* Setup */
+     , (779,   3, 0x20000014) /* SoundTable */
+     , (779,   6, 0x04000BEF) /* PaletteBase */
+     , (779,   8, 0x0600140E) /* Icon */
+     , (779,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (779, 8040, 3332964361, 47.37967, 4.548641, 41.999, 0.865324, 0, 0, -0.501213) /* PCAPRecordedLocation */
+VALUES (779, 8040, 0xC6A90009, 47.37967, 4.548641, 41.999, 0.865324, 0, 0, -0.501213) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90009 [47.379670 4.548641 41.999000] 0.865324 0.000000 0.000000 -0.501213 */;

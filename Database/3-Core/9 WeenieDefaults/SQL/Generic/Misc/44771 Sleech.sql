@@ -18,5 +18,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44771,   1, 'Sleech') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44771,   1,   33561371) /* Setup */
-     , (44771,   8,  100668115) /* Icon */;
+VALUES (44771,   1, 0x02001B1B) /* Setup */
+     , (44771,   8, 0x060012D3) /* Icon */;

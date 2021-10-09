@@ -42,9 +42,9 @@ VALUES (45120,   1, 'Lightning Hand Wraps') /* Name */
      , (45120,  16, 'Lightning Hand Wraps') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45120,   1,   33561412) /* Setup */
-     , (45120,   3,  536870932) /* SoundTable */
-     , (45120,   6,   67115556) /* PaletteBase */
-     , (45120,   8,  100692315) /* Icon */
-     , (45120,  22,  872415275) /* PhysicsEffectTable */
-     , (45120,  52,  100676438) /* IconUnderlay */;
+VALUES (45120,   1, 0x02001B44) /* Setup */
+     , (45120,   3, 0x20000014) /* SoundTable */
+     , (45120,   6, 0x04001A24) /* PaletteBase */
+     , (45120,   8, 0x0600715B) /* Icon */
+     , (45120,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45120,  52, 0x06003356) /* IconUnderlay */;

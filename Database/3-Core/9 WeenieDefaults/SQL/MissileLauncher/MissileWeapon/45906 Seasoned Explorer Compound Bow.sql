@@ -51,14 +51,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45906,   1, 'Seasoned Explorer Compound Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45906,   1,   33559688) /* Setup */
-     , (45906,   3,  536870932) /* SoundTable */
-     , (45906,   6,   67116700) /* PaletteBase */
-     , (45906,   8,  100688046) /* Icon */
-     , (45906,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45906,   1, 0x02001488) /* Setup */
+     , (45906,   3, 0x20000014) /* SoundTable */
+     , (45906,   6, 0x04001E9C) /* PaletteBase */
+     , (45906,   8, 0x060060AE) /* Icon */
+     , (45906,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45906, 8040, 3583574080, 184.0806, 168.8002, 383.93, 0.1926077, 0, 0, -0.9812759) /* PCAPRecordedLocation */
+VALUES (45906, 8040, 0xD5990040, 184.0806, 168.8002, 383.93, 0.192608, 0, 0, -0.981276) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [184.080600 168.800200 383.930000] 0.192608 0.000000 0.000000 -0.981276 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

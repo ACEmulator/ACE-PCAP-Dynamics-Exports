@@ -26,12 +26,12 @@ VALUES (43248,   1, 'Visible Portalspace Anomaly') /* Name */
      , (43248,  15, 'Empyrean Portal NPC') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43248,   1,   33561060) /* Setup */
-     , (43248,   2,  150995314) /* MotionTable */
-     , (43248,   3,  536870942) /* SoundTable */
-     , (43248,   8,  100669124) /* Icon */
-     , (43248,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (43248,   1, 0x020019E4) /* Setup */
+     , (43248,   2, 0x09000172) /* MotionTable */
+     , (43248,   3, 0x2000001E) /* SoundTable */
+     , (43248,   8, 0x060016C4) /* Icon */
+     , (43248,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43248, 8040, 4181395125, 150.691, 101.74, -28.20983, -0.02027661, 0, 0, -0.9997944) /* PCAPRecordedLocation */
+VALUES (43248, 8040, 0xF93B06B5, 150.691, 101.74, -28.20983, -0.020277, 0, 0, -0.999794) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B06B5 [150.691000 101.740000 -28.209830] -0.020277 0.000000 0.000000 -0.999794 */;

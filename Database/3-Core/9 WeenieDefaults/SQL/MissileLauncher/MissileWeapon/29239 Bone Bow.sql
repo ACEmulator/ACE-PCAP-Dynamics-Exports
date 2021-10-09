@@ -52,20 +52,20 @@ VALUES (29239,   1, 'Bone Bow') /* Name */
      , (29239,  16, 'Blunt Bow of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29239,   1,   33560183) /* Setup */
-     , (29239,   3,  536870932) /* SoundTable */
-     , (29239,   8,  100689316) /* Icon */
-     , (29239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29239,   1, 0x02001677) /* Setup */
+     , (29239,   3, 0x20000014) /* SoundTable */
+     , (29239,   8, 0x060065A4) /* Icon */
+     , (29239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29239,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29239,  52,  100676442) /* IconUnderlay */;
+     , (29239,  52, 0x0600335A) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29239, 8040, 1692860423, 90.20431, 114.1905, 54.96809, 0.9624252, 0, 0, 0.2715469) /* PCAPRecordedLocation */
+VALUES (29239, 8040, 0x64E70007, 90.20431, 114.1905, 54.96809, 0.962425, 0, 0, 0.271547) /* PCAPRecordedLocation */
 /* @teleloc 0x64E70007 [90.204310 114.190500 54.968090] 0.962425 0.000000 0.000000 0.271547 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29239,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29239,  2116,      2)  /* SwiftKillerSelf7 */
-     , (29239,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+VALUES (29239,  2116,      2)  /* SwiftKillerSelf7 */
+     , (29239,  5833,      2)  /* RecklessnessMasterySelf7 */
+     , (29239,  1616,      2)  /* BloodDrinkerSelf6 */
      , (29239,  2600,      2)  /* CANTRIPDEFENDER1 */
-     , (29239,  5833,      2)  /* RecklessnessMasterySelf7 */;
+     , (29239,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;

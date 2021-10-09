@@ -52,14 +52,14 @@ VALUES (31805,   1, 'Slashing Compound Crossbow') /* Name */
      , (31805,  16, 'Slashing Compound Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31805,   1,   33559691) /* Setup */
-     , (31805,   3,  536870932) /* SoundTable */
-     , (31805,   6,   67116700) /* PaletteBase */
-     , (31805,   8,  100688061) /* Icon */
-     , (31805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31805,   1, 0x0200148B) /* Setup */
+     , (31805,   3, 0x20000014) /* SoundTable */
+     , (31805,   6, 0x04001E9C) /* PaletteBase */
+     , (31805,   8, 0x060060BD) /* Icon */
+     , (31805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31805,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31805,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (31805,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (31805,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
-     , (31805,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (31805,  2096,      2)  /* BloodDrinkerSelf7 */;

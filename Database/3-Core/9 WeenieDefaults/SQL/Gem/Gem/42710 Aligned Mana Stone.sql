@@ -31,7 +31,7 @@ VALUES (42710,   1, 'Aligned Mana Stone') /* Name */
      , (42710,  16, 'This mana stone is incapable of holding a charge. Using this stone creates a conduit between the wielder and Dereth''s mana field.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42710,   1,   33555641) /* Setup */
-     , (42710,   3,  536870932) /* SoundTable */
-     , (42710,   8,  100676308) /* Icon */
-     , (42710,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42710,   1, 0x020004B9) /* Setup */
+     , (42710,   3, 0x20000014) /* SoundTable */
+     , (42710,   8, 0x060032D4) /* Icon */
+     , (42710,  22, 0x3400002B) /* PhysicsEffectTable */;

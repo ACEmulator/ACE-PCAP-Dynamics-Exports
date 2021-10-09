@@ -26,12 +26,12 @@ VALUES (27751,   1, 'Expired Health Potion') /* Name */
      , (27751,  16, 'An odorous bottle of brackish red liquid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27751,   1,   33554603) /* Setup */
-     , (27751,   3,  536870932) /* SoundTable */
-     , (27751,   6,   67111919) /* PaletteBase */
-     , (27751,   8,  100676536) /* Icon */
-     , (27751,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27751,   1, 0x020000AB) /* Setup */
+     , (27751,   3, 0x20000014) /* SoundTable */
+     , (27751,   6, 0x04000BEF) /* PaletteBase */
+     , (27751,   8, 0x060033B8) /* Icon */
+     , (27751,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27751, 8040, 23855548, 52.94802, -32.34293, 0.004000001, -0.4554865, 0, 0, -0.8902427) /* PCAPRecordedLocation */
+VALUES (27751, 8040, 0x016C01BC, 52.94802, -32.34293, 0.004, -0.455487, 0, 0, -0.890243) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [52.948020 -32.342930 0.004000] -0.455487 0.000000 0.000000 -0.890243 */;

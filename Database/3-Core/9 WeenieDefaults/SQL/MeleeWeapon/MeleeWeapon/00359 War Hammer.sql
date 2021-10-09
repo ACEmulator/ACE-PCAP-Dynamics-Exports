@@ -49,17 +49,17 @@ VALUES (359,   1, 'War Hammer') /* Name */
      , (359,  16, 'War Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (359,   1,   33554766) /* Setup */
-     , (359,   3,  536870932) /* SoundTable */
-     , (359,   6,   67111919) /* PaletteBase */
-     , (359,   8,  100669066) /* Icon */
-     , (359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (359,   1, 0x0200014E) /* Setup */
+     , (359,   3, 0x20000014) /* SoundTable */
+     , (359,   6, 0x04000BEF) /* PaletteBase */
+     , (359,   8, 0x0600168A) /* Icon */
+     , (359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (359,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (359, 8040, 3332964642, 31.9969, 82.953, 41.929, 0.08975437, 0.08975437, -0.7013873, -0.7013873) /* PCAPRecordedLocation */
+VALUES (359, 8040, 0xC6A90122, 31.9969, 82.953, 41.929, 0.089754, 0.089754, -0.701387, -0.701387) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [31.996900 82.953000 41.929000] 0.089754 0.089754 -0.701387 -0.701387 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (359,  1591,      2)  /* HeartSeekerSelf5 */
-     , (359,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (359,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (359,  1591,      2)  /* HeartSeekerSelf5 */;

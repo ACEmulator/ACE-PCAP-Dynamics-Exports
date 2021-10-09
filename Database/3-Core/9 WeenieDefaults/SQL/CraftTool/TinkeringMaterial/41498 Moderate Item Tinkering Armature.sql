@@ -31,9 +31,9 @@ VALUES (41498,   1, 'Moderate Item Tinkering Armature') /* Name */
      , (41498,  40, 'Ferahgo the assasin') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41498,   1,   33554817) /* Setup */
-     , (41498,   3,  536870932) /* SoundTable */
-     , (41498,   6,   67111919) /* PaletteBase */
-     , (41498,   8,  100673216) /* Icon */
-     , (41498,  22,  872415275) /* PhysicsEffectTable */
-     , (41498,  50,  100673276) /* IconOverlay */;
+VALUES (41498,   1, 0x02000181) /* Setup */
+     , (41498,   3, 0x20000014) /* SoundTable */
+     , (41498,   6, 0x04000BEF) /* PaletteBase */
+     , (41498,   8, 0x060026C0) /* Icon */
+     , (41498,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41498,  50, 0x060026FC) /* IconOverlay */;

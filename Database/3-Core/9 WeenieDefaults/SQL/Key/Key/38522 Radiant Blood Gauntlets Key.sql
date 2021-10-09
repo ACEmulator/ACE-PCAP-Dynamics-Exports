@@ -19,6 +19,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38522,   1, 'Radiant Blood Gauntlets Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38522,   1,   33554784) /* Setup */
-     , (38522,   8,  100668441) /* Icon */
-     , (38522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38522,   1, 0x02000160) /* Setup */
+     , (38522,   8, 0x06001419) /* Icon */
+     , (38522,  22, 0x3400002B) /* PhysicsEffectTable */;

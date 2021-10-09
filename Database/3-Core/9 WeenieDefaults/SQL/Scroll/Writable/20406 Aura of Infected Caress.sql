@@ -23,7 +23,7 @@ VALUES (20406,   1, 'Aura of Infected Caress') /* Name */
 Increases a weapon''s damage value by 22 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20406,   1,   33554826) /* Setup */
-     , (20406,   8,  100676655) /* Icon */
-     , (20406,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20406,   1, 0x0200018A) /* Setup */
+     , (20406,   8, 0x0600342F) /* Icon */
+     , (20406,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20406,  28,       2096) /* Spell - BloodDrinkerSelf7 */;

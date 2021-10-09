@@ -42,17 +42,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31693,   1, 'Squalid Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31693,   1,   33559542) /* Setup */
-     , (31693,   3,  536870932) /* SoundTable */
-     , (31693,   8,  100687771) /* Icon */
-     , (31693,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31693,   1, 0x020013F6) /* Setup */
+     , (31693,   3, 0x20000014) /* SoundTable */
+     , (31693,   8, 0x06005F9B) /* Icon */
+     , (31693,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31693, 8040, 3465805872, 151.12, 112.6252, 17.33825, -0.2531441, -0.7961866, 0.2758093, -0.4753255) /* PCAPRecordedLocation */
+VALUES (31693, 8040, 0xCE940030, 151.12, 112.6252, 17.33825, -0.253144, -0.796187, 0.275809, -0.475326) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940030 [151.120000 112.625200 17.338250] -0.253144 -0.796187 0.275809 -0.475326 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31693,   249,      2)  /* InvulnerabilitySelf6 */
-     , (31693,  1138,      2)  /* PiercingProtectionSelf6 */
+VALUES (31693,  1138,      2)  /* PiercingProtectionSelf6 */
      , (31693,  1528,      2)  /* FrostBane6 */
+     , (31693,   249,      2)  /* InvulnerabilitySelf6 */
      , (31693,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;

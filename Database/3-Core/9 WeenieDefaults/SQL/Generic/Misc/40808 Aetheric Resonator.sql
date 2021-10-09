@@ -24,7 +24,7 @@ VALUES (40808,   1, 'Aetheric Resonator') /* Name */
      , (40808,  15, 'A small piece of purified Aetherium, enchanted by Ned the Clever of the Arcanum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40808,   1,   33559838) /* Setup */
-     , (40808,   3,  536870932) /* SoundTable */
-     , (40808,   8,  100690431) /* Icon */
-     , (40808,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40808,   1, 0x0200151E) /* Setup */
+     , (40808,   3, 0x20000014) /* SoundTable */
+     , (40808,   8, 0x060069FF) /* Icon */
+     , (40808,  22, 0x3400002B) /* PhysicsEffectTable */;

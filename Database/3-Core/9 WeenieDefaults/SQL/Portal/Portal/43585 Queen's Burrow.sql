@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43585,   1, 'Queen''s Burrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43585,   1,   33554867) /* Setup */
-     , (43585,   2,  150994947) /* MotionTable */
-     , (43585,   6,   67109370) /* PaletteBase */
-     , (43585,   8,  100667499) /* Icon */;
+VALUES (43585,   1, 0x020001B3) /* Setup */
+     , (43585,   2, 0x09000003) /* MotionTable */
+     , (43585,   6, 0x040001FA) /* PaletteBase */
+     , (43585,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43585, 8040, 3822256386, 132.078, 188.736, 0.3370001, 0.9997255, 0, 0, 0.02342839) /* PCAPRecordedLocation */
+VALUES (43585, 8040, 0xE3D30102, 132.078, 188.736, 0.337, 0.999726, 0, 0, 0.023428) /* PCAPRecordedLocation */
 /* @teleloc 0xE3D30102 [132.078000 188.736000 0.337000] 0.999726 0.000000 0.000000 0.023428 */;

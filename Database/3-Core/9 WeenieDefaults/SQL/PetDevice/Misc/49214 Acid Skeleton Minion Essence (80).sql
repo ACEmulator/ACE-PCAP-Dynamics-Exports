@@ -34,10 +34,10 @@ VALUES (49214,   1, 'Acid Skeleton Minion Essence (80)') /* Name */
      , (49214,  14, 'Use this essence to summon or dismiss your Acid Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49214,   1,   33554817) /* Setup */
-     , (49214,   3,  536870932) /* SoundTable */
-     , (49214,   6,   67111919) /* PaletteBase */
-     , (49214,   8,  100669124) /* Icon */
-     , (49214,  22,  872415275) /* PhysicsEffectTable */
-     , (49214,  50,  100693027) /* IconOverlay */
-     , (49214,  52,  100693024) /* IconUnderlay */;
+VALUES (49214,   1, 0x02000181) /* Setup */
+     , (49214,   3, 0x20000014) /* SoundTable */
+     , (49214,   6, 0x04000BEF) /* PaletteBase */
+     , (49214,   8, 0x060016C4) /* Icon */
+     , (49214,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49214,  50, 0x06007423) /* IconOverlay */
+     , (49214,  52, 0x06007420) /* IconUnderlay */;

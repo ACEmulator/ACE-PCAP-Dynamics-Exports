@@ -16,5 +16,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34308,   1, 'Sacrificial Goblet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34308,   1,   33554663) /* Setup */
-     , (34308,   8,  100667430) /* Icon */;
+VALUES (34308,   1, 0x020000E7) /* Setup */
+     , (34308,   8, 0x06001026) /* Icon */;

@@ -25,13 +25,13 @@ VALUES (32713,   1, 'Tumerok Record Book') /* Name */
      , (32713,  16, 'A log book found within a Tumerok fortification overrun by the Viamontian Bloodstone Company.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32713,   1,   33559593) /* Setup */
-     , (32713,   3,  536870932) /* SoundTable */
-     , (32713,   8,  100687891) /* Icon */
-     , (32713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32713,   1, 0x02001429) /* Setup */
+     , (32713,   3, 0x20000014) /* SoundTable */
+     , (32713,   8, 0x06006013) /* Icon */
+     , (32713,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32713, 8040, 1083375644, 81.0389, 83.6787, 235.2695, -0.9999775, 0, 0, 0.006707727) /* PCAPRecordedLocation */
+VALUES (32713, 8040, 0x4093001C, 81.0389, 83.6787, 235.2695, -0.999978, 0, 0, 0.006708) /* PCAPRecordedLocation */
 /* @teleloc 0x4093001C [81.038900 83.678700 235.269500] -0.999978 0.000000 0.000000 0.006708 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

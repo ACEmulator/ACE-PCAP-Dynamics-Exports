@@ -23,7 +23,7 @@ VALUES (20535,   1, 'Scroll of Web of Deflection') /* Name */
 Increases the target''s Missile Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20535,   1,   33554826) /* Setup */
-     , (20535,   8,  100676468) /* Icon */
-     , (20535,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20535,   1, 0x0200018A) /* Setup */
+     , (20535,   8, 0x06003374) /* Icon */
+     , (20535,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20535,  28,       2242) /* Spell - ImpregnabilityOther7 */;

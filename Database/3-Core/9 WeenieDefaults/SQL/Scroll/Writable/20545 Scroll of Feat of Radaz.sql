@@ -23,7 +23,7 @@ VALUES (20545,   1, 'Scroll of Feat of Radaz') /* Name */
 Decreases the target''s Jump skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20545,   1,   33554826) /* Setup */
-     , (20545,   8,  100676461) /* Icon */
-     , (20545,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20545,   1, 0x0200018A) /* Setup */
+     , (20545,   8, 0x0600336D) /* Icon */
+     , (20545,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20545,  28,       2254) /* Spell - JumpingIneptitudeOther7 */;

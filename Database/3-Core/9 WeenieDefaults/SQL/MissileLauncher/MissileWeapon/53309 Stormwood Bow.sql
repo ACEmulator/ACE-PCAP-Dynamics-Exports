@@ -48,19 +48,19 @@ VALUES (53309,   1, 'Stormwood Bow') /* Name */
      , (53309,  16, 'A bow imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53309,   1,   33561664) /* Setup */
-     , (53309,   3,  536870932) /* SoundTable */
-     , (53309,   8,  100693335) /* Icon */
-     , (53309,  22,  872415275) /* PhysicsEffectTable */
-     , (53309,  52,  100676436) /* IconUnderlay */;
+VALUES (53309,   1, 0x02001C40) /* Setup */
+     , (53309,   3, 0x20000014) /* SoundTable */
+     , (53309,   8, 0x06007557) /* Icon */
+     , (53309,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53309,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53309, 8040, 19005708, 33.36409, -10.4838, -0.07000001, -0.2370939, 0, 0, -0.9714867) /* PCAPRecordedLocation */
+VALUES (53309, 8040, 0x0122010C, 33.36409, -10.4838, -0.07, -0.237094, 0, 0, -0.971487) /* PCAPRecordedLocation */
 /* @teleloc 0x0122010C [33.364090 -10.483800 -0.070000] -0.237094 0.000000 0.000000 -0.971487 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53309,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (53309,  4400,      2)  /* DefenderSelf8 */
-     , (53309,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (53309,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53309,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
      , (53309,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (53309,  6044,      2)  /* CantripMissileWeaponsAptitude4 */;
+     , (53309,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (53309,  4400,      2)  /* DefenderSelf8 */;

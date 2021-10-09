@@ -42,11 +42,11 @@ VALUES (105,   1, 'Studded Leather Sleeves') /* Name */
      , (105,  16, 'Studded Leather Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (105,   1,   33554655) /* Setup */
-     , (105,   3,  536870932) /* SoundTable */
-     , (105,   6,   67108990) /* PaletteBase */
-     , (105,   8,  100668123) /* Icon */
-     , (105,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (105,   1, 0x020000DF) /* Setup */
+     , (105,   3, 0x20000014) /* SoundTable */
+     , (105,   6, 0x0400007E) /* PaletteBase */
+     , (105,   8, 0x060012DB) /* Icon */
+     , (105,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (105,  1485,      2)  /* Impenetrability5 */

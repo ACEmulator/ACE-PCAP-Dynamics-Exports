@@ -46,17 +46,17 @@ VALUES (33212,   1, 'Royal Runed Flamberge') /* Name */
      , (33212,  15, 'A flamberge crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33212,   1,   33559937) /* Setup */
-     , (33212,   3,  536870932) /* SoundTable */
-     , (33212,   6,   67115557) /* PaletteBase */
-     , (33212,   8,  100686955) /* Icon */
-     , (33212,  22,  872415275) /* PhysicsEffectTable */
-     , (33212,  50,  100688914) /* IconOverlay */
+VALUES (33212,   1, 0x02001581) /* Setup */
+     , (33212,   3, 0x20000014) /* SoundTable */
+     , (33212,   6, 0x04001A25) /* PaletteBase */
+     , (33212,   8, 0x06005C6B) /* Icon */
+     , (33212,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33212,  50, 0x06006412) /* IconOverlay */
      , (33212,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33212,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33212,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33212,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33212,  2101,      2)  /* DefenderSelf7 */
      , (33212,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33212,  2116,      2)  /* SwiftKillerSelf7 */
      , (33212,  2686,      2)  /* ModerateAxeAptitude */;

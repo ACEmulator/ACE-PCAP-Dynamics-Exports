@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37790,   1, 'Inscription of Force Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37790,   1,   33554826) /* Setup */
-     , (37790,   8,  100677019) /* Icon */
-     , (37790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37790,   1, 0x0200018A) /* Setup */
+     , (37790,   8, 0x0600359B) /* Icon */
+     , (37790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37790,  28,       4443) /* Spell - ForceBolt8 */;

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29275,   1, 'Enhancement of the Mace Turner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29275,   1,   33554809) /* Setup */
-     , (29275,   3,  536870932) /* SoundTable */
-     , (29275,   8,  100686474) /* Icon */
-     , (29275,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29275,   1, 0x02000179) /* Setup */
+     , (29275,   3, 0x20000014) /* SoundTable */
+     , (29275,   8, 0x06005A8A) /* Icon */
+     , (29275,  22, 0x3400002B) /* PhysicsEffectTable */;

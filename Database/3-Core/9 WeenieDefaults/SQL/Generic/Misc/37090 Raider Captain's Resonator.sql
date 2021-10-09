@@ -23,7 +23,7 @@ VALUES (37090,   1, 'Raider Captain''s Resonator') /* Name */
      , (37090,  16, 'This piece of crystal hums faintly.  Its odd structure makes it seem like it was broken from a much larger formation of crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37090,   1,   33554809) /* Setup */
-     , (37090,   3,  536870932) /* SoundTable */
-     , (37090,   8,  100689806) /* Icon */
-     , (37090,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37090,   1, 0x02000179) /* Setup */
+     , (37090,   3, 0x20000014) /* SoundTable */
+     , (37090,   8, 0x0600678E) /* Icon */
+     , (37090,  22, 0x3400002B) /* PhysicsEffectTable */;

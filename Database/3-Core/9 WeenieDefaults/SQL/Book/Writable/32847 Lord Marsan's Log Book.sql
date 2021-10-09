@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32847,   1, 'Lord Marsan''s Log Book') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32847,   1,   33554771) /* Setup */
-     , (32847,   3,  536870932) /* SoundTable */
-     , (32847,   8,  100668117) /* Icon */
-     , (32847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32847,   1, 0x02000153) /* Setup */
+     , (32847,   3, 0x20000014) /* SoundTable */
+     , (32847,   8, 0x060012D5) /* Icon */
+     , (32847,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (32847, 10, 1000);

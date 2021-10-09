@@ -23,7 +23,7 @@ VALUES (20513,   1, 'Scroll of Wrath of Adja') /* Name */
 Decreases the target''s Creature Enchantment skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20513,   1,   33554826) /* Setup */
-     , (20513,   8,  100676453) /* Icon */
-     , (20513,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20513,   1, 0x0200018A) /* Setup */
+     , (20513,   8, 0x06003365) /* Icon */
+     , (20513,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20513,  28,       2212) /* Spell - CreatureEnchantmentIneptitudeOther7 */;

@@ -32,9 +32,9 @@ VALUES (36634,   1, 'Foolproof') /* Name */
      , (36634,  15, 'Chips of peridot. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36634,   1,   33554817) /* Setup */
-     , (36634,   3,  536870932) /* SoundTable */
-     , (36634,   6,   67111919) /* PaletteBase */
-     , (36634,   8,  100686618) /* Icon */
-     , (36634,  22,  872415275) /* PhysicsEffectTable */
-     , (36634,  50,  100673289) /* IconOverlay */;
+VALUES (36634,   1, 0x02000181) /* Setup */
+     , (36634,   3, 0x20000014) /* SoundTable */
+     , (36634,   6, 0x04000BEF) /* PaletteBase */
+     , (36634,   8, 0x06005B1A) /* Icon */
+     , (36634,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36634,  50, 0x06002709) /* IconOverlay */;

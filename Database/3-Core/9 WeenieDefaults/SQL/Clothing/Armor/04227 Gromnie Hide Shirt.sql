@@ -31,8 +31,8 @@ VALUES (4227,   1, 'Gromnie Hide Shirt') /* Name */
      , (4227,  15, 'Shirt crafted from the hide of a Gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4227,   1,   33554883) /* Setup */
-     , (4227,   3,  536870932) /* SoundTable */
-     , (4227,   6,   67108990) /* PaletteBase */
-     , (4227,   8,  100667350) /* Icon */
-     , (4227,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4227,   1, 0x020001C3) /* Setup */
+     , (4227,   3, 0x20000014) /* SoundTable */
+     , (4227,   6, 0x0400007E) /* PaletteBase */
+     , (4227,   8, 0x06000FD6) /* Icon */
+     , (4227,  22, 0x3400002B) /* PhysicsEffectTable */;

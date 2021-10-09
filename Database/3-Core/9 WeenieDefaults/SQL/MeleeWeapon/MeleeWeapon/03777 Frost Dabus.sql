@@ -45,10 +45,10 @@ VALUES (3777,   1, 'Frost Dabus') /* Name */
      , (3777,  16, 'Frost Dabus of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3777,   1,   33555750) /* Setup */
-     , (3777,   3,  536870932) /* SoundTable */
-     , (3777,   8,  100668874) /* Icon */
-     , (3777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3777,   1, 0x02000526) /* Setup */
+     , (3777,   3, 0x20000014) /* SoundTable */
+     , (3777,   8, 0x060015CA) /* Icon */
+     , (3777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3777,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -25,12 +25,12 @@ VALUES (51971,   1, 'Sanctum Warding Crystal') /* Name */
      , (51971,  16, 'A tall spire of black crystal, which hums with power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51971,   1,   33560014) /* Setup */
-     , (51971,   2,  150995261) /* MotionTable */
-     , (51971,   3,  536870933) /* SoundTable */
-     , (51971,   8,  100671183) /* Icon */
-     , (51971,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (51971,   1, 0x020015CE) /* Setup */
+     , (51971,   2, 0x0900013D) /* MotionTable */
+     , (51971,   3, 0x20000015) /* SoundTable */
+     , (51971,   8, 0x06001ECF) /* Icon */
+     , (51971,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51971, 8040, 741343296, 185.104, 186.762, 79.9665, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51971, 8040, 0x2C300040, 185.104, 186.762, 79.9665, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2C300040 [185.104000 186.762000 79.966500] 1.000000 0.000000 0.000000 0.000000 */;

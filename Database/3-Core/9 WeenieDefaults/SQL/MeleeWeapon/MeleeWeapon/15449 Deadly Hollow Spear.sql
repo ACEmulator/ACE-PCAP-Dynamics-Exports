@@ -45,11 +45,11 @@ VALUES (15449,   1, 'Deadly Hollow Spear') /* Name */
      , (15449,  16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15449,   1,   33556646) /* Setup */
-     , (15449,   3,  536870932) /* SoundTable */
-     , (15449,   8,  100669006) /* Icon */
-     , (15449,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15449,   1, 0x020008A6) /* Setup */
+     , (15449,   3, 0x20000014) /* SoundTable */
+     , (15449,   8, 0x0600164E) /* Icon */
+     , (15449,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15449, 8040, 2847080478, 95.4414, 120.9517, 105.7035, 0.7023765, 0.7023765, -0.08165342, -0.08165342) /* PCAPRecordedLocation */
+VALUES (15449, 8040, 0xA9B3001E, 95.4414, 120.9517, 105.7035, 0.702377, 0.702377, -0.081653, -0.081653) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3001E [95.441400 120.951700 105.703500] 0.702377 0.702377 -0.081653 -0.081653 */;

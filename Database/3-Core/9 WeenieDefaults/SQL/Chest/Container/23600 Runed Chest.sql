@@ -29,12 +29,12 @@ VALUES (23600,   1, 'Runed Chest') /* Name */
      , (23600,  16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23600,   1,   33558095) /* Setup */
-     , (23600,   2,  150994948) /* MotionTable */
-     , (23600,   3,  536870945) /* SoundTable */
-     , (23600,   8,  100667424) /* Icon */
-     , (23600,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23600,   1, 0x02000E4F) /* Setup */
+     , (23600,   2, 0x09000004) /* MotionTable */
+     , (23600,   3, 0x20000021) /* SoundTable */
+     , (23600,   8, 0x06001020) /* Icon */
+     , (23600,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23600, 8040, 588185619, 63.9091, 53.8311, 70, 0.9681647, 0, 0, -0.2503139) /* PCAPRecordedLocation */
+VALUES (23600, 8040, 0x230F0013, 63.9091, 53.8311, 70, 0.968165, 0, 0, -0.250314) /* PCAPRecordedLocation */
 /* @teleloc 0x230F0013 [63.909100 53.831100 70.000000] 0.968165 0.000000 0.000000 -0.250314 */;

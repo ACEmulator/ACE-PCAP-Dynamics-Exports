@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22480,   1, 'Statue of Artificer''s Wish') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22480,   1,   33558124) /* Setup */
-     , (22480,   2,  150995147) /* MotionTable */
-     , (22480,   3,  536871052) /* SoundTable */
-     , (22480,   8,  100673831) /* Icon */
-     , (22480,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22480,   1, 0x02000E6C) /* Setup */
+     , (22480,   2, 0x090000CB) /* MotionTable */
+     , (22480,   3, 0x2000008C) /* SoundTable */
+     , (22480,   8, 0x06002927) /* Icon */
+     , (22480,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22480, 8040, 1598292297, 30, -30, -0.004999995, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (22480, 8040, 0x5F440149, 30, -30, -0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5F440149 [30.000000 -30.000000 -0.005000] 0.000000 0.000000 0.000000 -1.000000 */;

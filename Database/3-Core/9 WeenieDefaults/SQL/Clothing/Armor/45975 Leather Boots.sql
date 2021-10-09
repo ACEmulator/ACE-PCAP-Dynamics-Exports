@@ -43,17 +43,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45975,   1, 'Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45975,   1,   33556683) /* Setup */
-     , (45975,   3,  536870932) /* SoundTable */
-     , (45975,   6,   67108990) /* PaletteBase */
-     , (45975,   8,  100675071) /* Icon */
-     , (45975,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45975,   1, 0x020008CB) /* Setup */
+     , (45975,   3, 0x20000014) /* SoundTable */
+     , (45975,   6, 0x0400007E) /* PaletteBase */
+     , (45975,   8, 0x06002DFF) /* Icon */
+     , (45975,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45975,   514,      2)  /* AcidProtectionOther6 */
-     , (45975,   689,      2)  /* ArcaneEnlightenmentOther6 */
      , (45975,  1486,      2)  /* Impenetrability6 */
-     , (45975,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
-     , (45975,  2597,      2)  /* CANTRIPACIDBANE1 */
      , (45975,  6113,      2)  /* SummoningMasteryOther6 */
-     , (45975,  6127,      2)  /* CantripSummoningProwess1 */;
+     , (45975,  2597,      2)  /* CANTRIPACIDBANE1 */
+     , (45975,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
+     , (45975,  6127,      2)  /* CantripSummoningProwess1 */
+     , (45975,   689,      2)  /* ArcaneEnlightenmentOther6 */;

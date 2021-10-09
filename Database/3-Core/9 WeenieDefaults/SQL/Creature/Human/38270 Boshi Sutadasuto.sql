@@ -31,20 +31,20 @@ VALUES (38270,   1, 'Boshi Sutadasuto') /* Name */
      , (38270,   5, 'Artifacts Task Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38270,   1,   33554433) /* Setup */
-     , (38270,   2,  150994945) /* MotionTable */
-     , (38270,   3,  536870913) /* SoundTable */
-     , (38270,   6,   67108990) /* PaletteBase */
-     , (38270,   8,  100667446) /* Icon */
-     , (38270,   9,   83890451) /* EyesTexture */
-     , (38270,  10,   83890555) /* NoseTexture */
-     , (38270,  11,   83890660) /* MouthTexture */
-     , (38270,  15,   67116997) /* HairPalette */
-     , (38270,  16,   67110063) /* EyesPalette */
-     , (38270,  17,   67110059) /* SkinPalette */;
+VALUES (38270,   1, 0x02000001) /* Setup */
+     , (38270,   2, 0x09000001) /* MotionTable */
+     , (38270,   3, 0x20000001) /* SoundTable */
+     , (38270,   6, 0x0400007E) /* PaletteBase */
+     , (38270,   8, 0x06001036) /* Icon */
+     , (38270,   9, 0x05001113) /* EyesTexture */
+     , (38270,  10, 0x0500117B) /* NoseTexture */
+     , (38270,  11, 0x050011E4) /* MouthTexture */
+     , (38270,  15, 0x04001FC5) /* HairPalette */
+     , (38270,  16, 0x040004AF) /* EyesPalette */
+     , (38270,  17, 0x040004AB) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38270, 8040, 12059247, 155.673, -36.1426, -17.995, -0.802621, 0, 0, 0.596489) /* PCAPRecordedLocation */
+VALUES (38270, 8040, 0x00B8026F, 155.673, -36.1426, -17.995, -0.802621, 0, 0, 0.596489) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [155.673000 -36.142600 -17.995000] -0.802621 0.000000 0.000000 0.596489 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

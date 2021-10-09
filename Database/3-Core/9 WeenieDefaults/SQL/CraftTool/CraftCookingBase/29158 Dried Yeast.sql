@@ -25,7 +25,7 @@ VALUES (29158,   1, 'Dried Yeast') /* Name */
      , (29158,  16, 'This is a good dried yeast.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29158,   1,   33559178) /* Setup */
-     , (29158,   3,  536870932) /* SoundTable */
-     , (29158,   8,  100686457) /* Icon */
-     , (29158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29158,   1, 0x0200128A) /* Setup */
+     , (29158,   3, 0x20000014) /* SoundTable */
+     , (29158,   8, 0x06005A79) /* Icon */
+     , (29158,  22, 0x3400002B) /* PhysicsEffectTable */;

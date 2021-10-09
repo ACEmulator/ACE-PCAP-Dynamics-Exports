@@ -40,12 +40,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46634,   1, 'Acid Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46634,   1,   33559029) /* Setup */
-     , (46634,   3,  536870932) /* SoundTable */
-     , (46634,   6,   67115373) /* PaletteBase */
-     , (46634,   8,  100677121) /* Icon */
-     , (46634,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46634,   1, 0x020011F5) /* Setup */
+     , (46634,   3, 0x20000014) /* SoundTable */
+     , (46634,   6, 0x0400196D) /* PaletteBase */
+     , (46634,   8, 0x06003601) /* Icon */
+     , (46634,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46634, 8040, 1499529483, 21.69913, -96.55553, -0.07000001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46634, 8040, 0x5961010B, 21.69913, -96.55553, -0.07, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5961010B [21.699130 -96.555530 -0.070000] 1.000000 0.000000 0.000000 0.000000 */;

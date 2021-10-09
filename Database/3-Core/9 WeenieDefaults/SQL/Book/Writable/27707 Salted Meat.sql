@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27707,   1, 'Salted Meat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27707,   1,   33554826) /* Setup */
-     , (27707,   3,  536870932) /* SoundTable */
-     , (27707,   8,  100672101) /* Icon */
-     , (27707,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27707,   1, 0x0200018A) /* Setup */
+     , (27707,   3, 0x20000014) /* SoundTable */
+     , (27707,   8, 0x06002265) /* Icon */
+     , (27707,  22, 0x3400002B) /* PhysicsEffectTable */;

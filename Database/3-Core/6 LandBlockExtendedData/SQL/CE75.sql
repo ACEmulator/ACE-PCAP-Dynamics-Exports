@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCE75;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE75001,  1154, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.9499798, 0, 0, -0.3123114, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7CE75001,  1154, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.94998, 0, 0, -0.312311, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xCE750002 [1.449936 46.118630 26.004600] -0.949980 0.000000 0.000000 -0.312311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x7CE75001, 0x7CE75002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) *
      , (0x7CE75001, 0x7CE75005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE75002,  4246, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.9499798, 0, 0, -0.3123114,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
+VALUES (0x7CE75002,  4246, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.94998, 0, 0, -0.312311,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
 /* @teleloc 0xCE750002 [1.449936 46.118630 26.004600] -0.949980 0.000000 0.000000 -0.312311 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -28,8 +28,8 @@ VALUES (8786,   1, 'Barbed Fletching Tool') /* Name */
      , (8786,  16, 'A fletching tool that can be used to make barbed arrowheads.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8786,   1,   33554734) /* Setup */
-     , (8786,   3,  536870932) /* SoundTable */
-     , (8786,   6,   67111919) /* PaletteBase */
-     , (8786,   8,  100671224) /* Icon */
-     , (8786,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8786,   1, 0x0200012E) /* Setup */
+     , (8786,   3, 0x20000014) /* SoundTable */
+     , (8786,   6, 0x04000BEF) /* PaletteBase */
+     , (8786,   8, 0x06001EF8) /* Icon */
+     , (8786,  22, 0x3400002B) /* PhysicsEffectTable */;

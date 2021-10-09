@@ -48,11 +48,11 @@ VALUES (21153,   1, 'Covenant Gauntlets') /* Name */
      , (21153,  16, 'Covenant Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21153,   1,   33554648) /* Setup */
-     , (21153,   3,  536870932) /* SoundTable */
-     , (21153,   6,   67108990) /* PaletteBase */
-     , (21153,   8,  100673414) /* Icon */
-     , (21153,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21153,   1, 0x020000D8) /* Setup */
+     , (21153,   3, 0x20000014) /* SoundTable */
+     , (21153,   6, 0x0400007E) /* PaletteBase */
+     , (21153,   8, 0x06002786) /* Icon */
+     , (21153,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21153,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51731,   1, 'Rift of Consuming Torment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51731,   1,   33561567) /* Setup */
-     , (51731,   2,  150995087) /* MotionTable */
-     , (51731,   3,  536871001) /* SoundTable */
-     , (51731,   8,  100671702) /* Icon */
-     , (51731,  22,  872415375) /* PhysicsEffectTable */;
+VALUES (51731,   1, 0x02001BDF) /* Setup */
+     , (51731,   2, 0x0900008F) /* MotionTable */
+     , (51731,   3, 0x20000059) /* SoundTable */
+     , (51731,   8, 0x060020D6) /* Icon */
+     , (51731,  22, 0x3400008F) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51731, 8040, 758186017, 109.7777, 11.10317, 132.0075, -0.08827422, 0, 0, -0.9960962) /* PCAPRecordedLocation */
+VALUES (51731, 8040, 0x2D310021, 109.7777, 11.10317, 132.0075, -0.088274, 0, 0, -0.996096) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310021 [109.777700 11.103170 132.007500] -0.088274 0.000000 0.000000 -0.996096 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -54,14 +54,14 @@ VALUES (40694,   1, 'Olthoi Breastplate') /* Name */
      , (40694,  39, 'Misomaniac''s Crafter') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40694,   1,   33554642) /* Setup */
-     , (40694,   3,  536870932) /* SoundTable */
-     , (40694,   6,   67108990) /* PaletteBase */
-     , (40694,   8,  100674602) /* Icon */
-     , (40694,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40694,   1, 0x020000D2) /* Setup */
+     , (40694,   3, 0x20000014) /* SoundTable */
+     , (40694,   6, 0x0400007E) /* PaletteBase */
+     , (40694,   8, 0x06002C2A) /* Icon */
+     , (40694,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40694,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40694,  2108,      2)  /* Impenetrability7 */
+VALUES (40694,  4393,      2)  /* BladeBane8 */
      , (40694,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
-     , (40694,  4393,      2)  /* BladeBane8 */;
+     , (40694,  2108,      2)  /* Impenetrability7 */;

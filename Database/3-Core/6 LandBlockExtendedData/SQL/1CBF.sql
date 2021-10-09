@@ -118,7 +118,7 @@ VALUES (0x71CBF013, 11504, 0x1CBF002C, 125.6031, 86.22495, 97.88573, 1, 0, 0, 0,
 /* @teleloc 0x1CBF002C [125.603100 86.224950 97.885730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71CBF014, 11504, 0x1CBF0021, 119.7137, 0.6269869, 100.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mercenary */
+VALUES (0x71CBF014, 11504, 0x1CBF0021, 119.7137, 0.626987, 100.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mercenary */
 /* @teleloc 0x1CBF0021 [119.713700 0.626987 100.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

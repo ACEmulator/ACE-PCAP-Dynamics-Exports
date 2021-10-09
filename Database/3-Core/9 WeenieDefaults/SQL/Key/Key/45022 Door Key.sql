@@ -21,7 +21,7 @@ VALUES (45022,   1, 'Door Key') /* Name */
      , (45022,  14, 'This key unlocks a door in the Frozen Wight Lair.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45022,   1,   33560581) /* Setup */
-     , (45022,   3,  536870932) /* SoundTable */
-     , (45022,   8,  100672825) /* Icon */
-     , (45022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45022,   1, 0x02001805) /* Setup */
+     , (45022,   3, 0x20000014) /* SoundTable */
+     , (45022,   8, 0x06002539) /* Icon */
+     , (45022,  22, 0x3400002B) /* PhysicsEffectTable */;

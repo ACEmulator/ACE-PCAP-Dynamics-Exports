@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41510,   1, 'Cut White Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41510,   1,   33554809) /* Setup */
-     , (41510,   3,  536870932) /* SoundTable */
-     , (41510,   6,   67111919) /* PaletteBase */
-     , (41510,   8,  100690746) /* Icon */
-     , (41510,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41510,   1, 0x02000179) /* Setup */
+     , (41510,   3, 0x20000014) /* SoundTable */
+     , (41510,   6, 0x04000BEF) /* PaletteBase */
+     , (41510,   8, 0x06006B3A) /* Icon */
+     , (41510,  22, 0x3400002B) /* PhysicsEffectTable */;

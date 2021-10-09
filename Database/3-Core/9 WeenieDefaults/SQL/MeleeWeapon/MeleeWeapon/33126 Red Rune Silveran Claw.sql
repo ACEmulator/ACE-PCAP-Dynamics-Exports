@@ -48,20 +48,20 @@ VALUES (33126,   1, 'Red Rune Silveran Claw') /* Name */
      , (33126,  15, 'A claw crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33126,   1,   33559944) /* Setup */
-     , (33126,   3,  536870932) /* SoundTable */
-     , (33126,   8,  100688926) /* Icon */
-     , (33126,  22,  872415275) /* PhysicsEffectTable */
-     , (33126,  50,  100688915) /* IconOverlay */;
+VALUES (33126,   1, 0x02001588) /* Setup */
+     , (33126,   3, 0x20000014) /* SoundTable */
+     , (33126,   8, 0x0600641E) /* Icon */
+     , (33126,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33126,  50, 0x06006413) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33126, 8040, 3583574079, 173.8046, 146.9759, 373.929, 0.6378029, 0.6378029, -0.3052989, -0.3052989) /* PCAPRecordedLocation */
+VALUES (33126, 8040, 0xD599003F, 173.8046, 146.9759, 373.929, 0.637803, 0.637803, -0.305299, -0.305299) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [173.804600 146.975900 373.929000] 0.637803 0.637803 -0.305299 -0.305299 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33126,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33126,  2689,      2)  /* ModerateDaggerAptitude */
+     , (33126,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33126,  2059,      2)  /* CoordinationSelf7 */
      , (33126,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33126,  2101,      2)  /* DefenderSelf7 */
-     , (33126,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33126,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33126,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (33126,  2106,      2)  /* HeartSeekerSelf7 */;

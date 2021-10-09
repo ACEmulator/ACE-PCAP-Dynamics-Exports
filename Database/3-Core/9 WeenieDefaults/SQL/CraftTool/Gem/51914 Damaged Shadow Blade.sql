@@ -24,9 +24,9 @@ VALUES (51914,   1, 'Damaged Shadow Blade') /* Name */
      , (51914,  16, 'A damaged Shadow Blade, useless for combat, but still intact enough to be used in weapon tailoring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51914,   1,   33559902) /* Setup */
-     , (51914,   3,  536870932) /* SoundTable */
-     , (51914,   6,   67111919) /* PaletteBase */
-     , (51914,   8,  100688904) /* Icon */
-     , (51914,  22,  872415275) /* PhysicsEffectTable */
-     , (51914,  50,  100667895) /* IconOverlay */;
+VALUES (51914,   1, 0x0200155E) /* Setup */
+     , (51914,   3, 0x20000014) /* SoundTable */
+     , (51914,   6, 0x04000BEF) /* PaletteBase */
+     , (51914,   8, 0x06006408) /* Icon */
+     , (51914,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51914,  50, 0x060011F7) /* IconOverlay */;

@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44149,   1, 'Contract for Defense of Zaikhal (Gold)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44149,   1,   33554773) /* Setup */
-     , (44149,   3,  536870932) /* SoundTable */
-     , (44149,   8,  100691926) /* Icon */
-     , (44149,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44149,   1, 0x02000155) /* Setup */
+     , (44149,   3, 0x20000014) /* SoundTable */
+     , (44149,   8, 0x06006FD6) /* Icon */
+     , (44149,  22, 0x3400002B) /* PhysicsEffectTable */;

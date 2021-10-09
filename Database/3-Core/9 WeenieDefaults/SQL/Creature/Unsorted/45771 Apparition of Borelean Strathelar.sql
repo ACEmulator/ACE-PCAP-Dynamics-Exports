@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45771,   1, 'Apparition of Borelean Strathelar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45771,   1,   33554433) /* Setup */
-     , (45771,   2,  150994945) /* MotionTable */
-     , (45771,   3,  536870913) /* SoundTable */
-     , (45771,   6,   67108990) /* PaletteBase */
-     , (45771,   8,  100667446) /* Icon */;
+VALUES (45771,   1, 0x02000001) /* Setup */
+     , (45771,   2, 0x09000001) /* MotionTable */
+     , (45771,   3, 0x20000001) /* SoundTable */
+     , (45771,   6, 0x0400007E) /* PaletteBase */
+     , (45771,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45771, 8040, 1498285475, 49.1075, -126.909, -29.995, 0.7092081, 0, 0, -0.7049991) /* PCAPRecordedLocation */
+VALUES (45771, 8040, 0x594E05A3, 49.1075, -126.909, -29.995, 0.709208, 0, 0, -0.704999) /* PCAPRecordedLocation */
 /* @teleloc 0x594E05A3 [49.107500 -126.909000 -29.995000] 0.709208 0.000000 0.000000 -0.704999 */;

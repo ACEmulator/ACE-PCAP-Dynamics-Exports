@@ -23,7 +23,7 @@ VALUES (3460,   1, 'Scroll of Person Unfamiliarity IV') /* Name */
 Decreases the target''s Assess Person skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3460,   1,   33554826) /* Setup */
-     , (3460,   8,  100676448) /* Icon */
-     , (3460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3460,   1, 0x0200018A) /* Setup */
+     , (3460,   8, 0x06003360) /* Icon */
+     , (3460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3460,  28,        846) /* Spell - PersonUnfamiliarityOther4 */;

@@ -22,10 +22,10 @@ VALUES (37163,   1, 'Radiant Blood Stronghold') /* Name */
      , (37163,  16, 'You must be a member of the Society of the Radiant Blood to enter this Portal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37163,   1,   33555925) /* Setup */
-     , (37163,   2,  150994947) /* MotionTable */
-     , (37163,   8,  100667499) /* Icon */;
+VALUES (37163,   1, 0x020005D5) /* Setup */
+     , (37163,   2, 0x09000003) /* MotionTable */
+     , (37163,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37163, 8040, 2156855316, 55.7513, 79.9544, 123.937, 0.9999996, 0, 0, 0.0008957196) /* PCAPRecordedLocation */
+VALUES (37163, 8040, 0x808F0014, 55.7513, 79.9544, 123.937, 1, 0, 0, 0.000896) /* PCAPRecordedLocation */
 /* @teleloc 0x808F0014 [55.751300 79.954400 123.937000] 1.000000 0.000000 0.000000 0.000896 */;

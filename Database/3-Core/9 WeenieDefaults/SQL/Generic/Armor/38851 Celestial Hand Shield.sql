@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38851,   1, 'Celestial Hand Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38851,   1,   33560663) /* Setup */
-     , (38851,   3,  536870932) /* SoundTable */
-     , (38851,   8,  100690259) /* Icon */
-     , (38851,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38851,   1, 0x02001857) /* Setup */
+     , (38851,   3, 0x20000014) /* SoundTable */
+     , (38851,   8, 0x06006953) /* Icon */
+     , (38851,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38851, 8040, 1074528291, 104.996, 60.5521, -0.07400001, 0.3728008, -0.5101351, -0.6706311, -0.3886332) /* PCAPRecordedLocation */
+VALUES (38851, 8040, 0x400C0023, 104.996, 60.5521, -0.074, 0.372801, -0.510135, -0.670631, -0.388633) /* PCAPRecordedLocation */
 /* @teleloc 0x400C0023 [104.996000 60.552100 -0.074000] 0.372801 -0.510135 -0.670631 -0.388633 */;

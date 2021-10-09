@@ -22,8 +22,8 @@ VALUES (36784,   1, 'Elysa''s Phantasmal Arrow') /* Name */
      , (36784,  16, 'This arrow has a small amount of a black substance dotting its tip. You cannot shoot this arrow - it will not nock in any bow, nor can you throw it away.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36784,   1,   33554724) /* Setup */
-     , (36784,   3,  536870932) /* SoundTable */
-     , (36784,   6,   67111919) /* PaletteBase */
-     , (36784,   8,  100667622) /* Icon */
-     , (36784,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36784,   1, 0x02000124) /* Setup */
+     , (36784,   3, 0x20000014) /* SoundTable */
+     , (36784,   6, 0x04000BEF) /* PaletteBase */
+     , (36784,   8, 0x060010E6) /* Icon */
+     , (36784,  22, 0x3400002B) /* PhysicsEffectTable */;

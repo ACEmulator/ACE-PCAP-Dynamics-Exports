@@ -21,5 +21,5 @@ VALUES (23038,   1, 'Valara Crystal') /* Name */
      , (23038,  15, 'Valara  Crystal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23038,   1,   33554809) /* Setup */
-     , (23038,   8,  100673956) /* Icon */;
+VALUES (23038,   1, 0x02000179) /* Setup */
+     , (23038,   8, 0x060029A4) /* Icon */;

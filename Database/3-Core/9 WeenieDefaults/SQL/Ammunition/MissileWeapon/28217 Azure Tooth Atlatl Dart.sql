@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28217,   1, 'Azure Tooth Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28217,   1,   33557434) /* Setup */
-     , (28217,   3,  536870932) /* SoundTable */
-     , (28217,   8,  100676803) /* Icon */
-     , (28217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28217,   1, 0x02000BBA) /* Setup */
+     , (28217,   3, 0x20000014) /* SoundTable */
+     , (28217,   8, 0x060034C3) /* Icon */
+     , (28217,  22, 0x3400002B) /* PhysicsEffectTable */;

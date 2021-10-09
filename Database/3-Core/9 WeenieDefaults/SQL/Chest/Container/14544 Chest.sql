@@ -27,14 +27,14 @@ VALUES (14544,   1, 'Chest') /* Name */
      , (14544,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14544,   1,   33554556) /* Setup */
-     , (14544,   2,  150994948) /* MotionTable */
-     , (14544,   3,  536870945) /* SoundTable */
-     , (14544,   8,  100672485) /* Icon */
-     , (14544,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14544,   1, 0x0200007C) /* Setup */
+     , (14544,   2, 0x09000004) /* MotionTable */
+     , (14544,   3, 0x20000021) /* SoundTable */
+     , (14544,   8, 0x060023E5) /* Icon */
+     , (14544,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14544, 8040, 1383269245, 76, -118, 42, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (14544, 8040, 0x5273037D, 76, -118, 42, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5273037D [76.000000 -118.000000 42.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

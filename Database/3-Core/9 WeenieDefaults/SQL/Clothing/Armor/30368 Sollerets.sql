@@ -51,14 +51,14 @@ VALUES (30368,   1, 'Sollerets') /* Name */
      , (30368,   8, 'Sneaky Peet') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30368,   1,   33554654) /* Setup */
-     , (30368,   3,  536870932) /* SoundTable */
-     , (30368,   6,   67108990) /* PaletteBase */
-     , (30368,   8,  100669243) /* Icon */
-     , (30368,  22,  872415275) /* PhysicsEffectTable */
-     , (30368,  52,  100686604) /* IconUnderlay */;
+VALUES (30368,   1, 0x020000DE) /* Setup */
+     , (30368,   3, 0x20000014) /* SoundTable */
+     , (30368,   6, 0x0400007E) /* PaletteBase */
+     , (30368,   8, 0x0600173B) /* Icon */
+     , (30368,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30368,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30368,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (30368,  4407,      2)  /* Impenetrability8 */
-     , (30368,  4710,      2)  /* CANTRIPSPRINT3 */;
+VALUES (30368,  4710,      2)  /* CANTRIPSPRINT3 */
+     , (30368,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (30368,  4407,      2)  /* Impenetrability8 */;

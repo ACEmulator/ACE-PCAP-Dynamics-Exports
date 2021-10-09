@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45377,   1, 'Recklessness Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45377,   1,   33558087) /* Setup */
-     , (45377,   6,   67111919) /* PaletteBase */
-     , (45377,   8,  100673789) /* Icon */
-     , (45377,  50,  100673758) /* IconOverlay */;
+VALUES (45377,   1, 0x02000E47) /* Setup */
+     , (45377,   6, 0x04000BEF) /* PaletteBase */
+     , (45377,   8, 0x060028FD) /* Icon */
+     , (45377,  50, 0x060028DE) /* IconOverlay */;

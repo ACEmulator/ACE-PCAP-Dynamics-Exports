@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19514,   1, 'Good Diamond Infused Pyreal Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19514,   1,   33555677) /* Setup */
-     , (19514,   3,  536870932) /* SoundTable */
-     , (19514,   8,  100672971) /* Icon */
-     , (19514,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19514,   1, 0x020004DD) /* Setup */
+     , (19514,   3, 0x20000014) /* SoundTable */
+     , (19514,   8, 0x060025CB) /* Icon */
+     , (19514,  22, 0x3400002B) /* PhysicsEffectTable */;

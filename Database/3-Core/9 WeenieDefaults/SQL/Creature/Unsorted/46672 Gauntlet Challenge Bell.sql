@@ -26,12 +26,12 @@ VALUES (46672,   1, 'Gauntlet Challenge Bell') /* Name */
      , (46672,  14, 'Use this bell to begin this room''s challenge.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46672,   1,   33560214) /* Setup */
-     , (46672,   2,  150995394) /* MotionTable */
-     , (46672,   3,  536871076) /* SoundTable */
-     , (46672,   8,  100671824) /* Icon */
-     , (46672,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46672,   1, 0x02001696) /* Setup */
+     , (46672,   2, 0x090001C2) /* MotionTable */
+     , (46672,   3, 0x200000A4) /* SoundTable */
+     , (46672,   8, 0x06002150) /* Icon */
+     , (46672,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46672, 8040, 1499529479, 20, -20, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46672, 8040, 0x59610107, 20, -20, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610107 [20.000000 -20.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -23,7 +23,7 @@ VALUES (2671,   1, 'Scroll of Feeblemind Other IV') /* Name */
 Decreases the target''s Self by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2671,   1,   33554826) /* Setup */
-     , (2671,   8,  100676471) /* Icon */
-     , (2671,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2671,   1, 0x0200018A) /* Setup */
+     , (2671,   8, 0x06003377) /* Icon */
+     , (2671,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2671,  28,       1466) /* Spell - FeeblemindOther4 */;

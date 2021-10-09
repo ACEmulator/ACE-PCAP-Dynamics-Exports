@@ -28,12 +28,12 @@ VALUES (43788,   1, 'Dark Cavern') /* Name */
      , (43788,  16, 'This portal cannot be recalled, linked nor summoned. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43788,   1,   33554867) /* Setup */
-     , (43788,   2,  150994947) /* MotionTable */
-     , (43788,   3,  536870932) /* SoundTable */
-     , (43788,   6,   67109370) /* PaletteBase */
-     , (43788,   8,  100667499) /* Icon */;
+VALUES (43788,   1, 0x020001B3) /* Setup */
+     , (43788,   2, 0x09000003) /* MotionTable */
+     , (43788,   3, 0x20000014) /* SoundTable */
+     , (43788,   6, 0x040001FA) /* PaletteBase */
+     , (43788,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43788, 8040, 1944912129, 154.909, 47.9009, 70.737, 0.0182167, 0, 0, -0.9998341) /* PCAPRecordedLocation */
+VALUES (43788, 8040, 0x73ED0101, 154.909, 47.9009, 70.737, 0.018217, 0, 0, -0.999834) /* PCAPRecordedLocation */
 /* @teleloc 0x73ED0101 [154.909000 47.900900 70.737000] 0.018217 0.000000 0.000000 -0.999834 */;

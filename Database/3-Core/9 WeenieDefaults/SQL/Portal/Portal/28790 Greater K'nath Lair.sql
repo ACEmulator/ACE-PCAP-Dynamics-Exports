@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28790,   1, 'Greater K''nath Lair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28790,   1,   33555924) /* Setup */
-     , (28790,   2,  150994947) /* MotionTable */
-     , (28790,   8,  100667499) /* Icon */;
+VALUES (28790,   1, 0x020005D4) /* Setup */
+     , (28790,   2, 0x09000003) /* MotionTable */
+     , (28790,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28790, 8040, 26411277, 90, -40, -12.063, -0.004204, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (28790, 8040, 0x0193010D, 90, -40, -12.063, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x0193010D [90.000000 -40.000000 -12.063000] -0.004204 0.000000 0.000000 -0.999991 */;

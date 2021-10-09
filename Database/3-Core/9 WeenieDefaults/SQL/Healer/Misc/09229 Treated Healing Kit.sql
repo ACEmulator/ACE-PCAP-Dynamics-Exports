@@ -25,9 +25,9 @@ VALUES (9229,   1, 'Treated Healing Kit') /* Name */
      , (9229,  16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9229,   1,   33555194) /* Setup */
-     , (9229,   8,  100676325) /* Icon */;
+VALUES (9229,   1, 0x020002FA) /* Setup */
+     , (9229,   8, 0x060032E5) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9229, 8040, 2847146018, 99.06889, 41.68376, 97.5315, 0.8933309, 0, 0, -0.4493995) /* PCAPRecordedLocation */
+VALUES (9229, 8040, 0xA9B40022, 99.06889, 41.68376, 97.5315, 0.893331, 0, 0, -0.4494) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40022 [99.068890 41.683760 97.531500] 0.893331 0.000000 0.000000 -0.449400 */;

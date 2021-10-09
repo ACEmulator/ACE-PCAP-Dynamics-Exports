@@ -28,7 +28,7 @@ VALUES (38375,   1, 'Titanic Dericost Mnemosyne') /* Name */
      , (38375,  16, 'A truly titanic Mnemosyne, which virtually pulses with power and knowledge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38375,   1,   33556998) /* Setup */
-     , (38375,   3,  536870932) /* SoundTable */
-     , (38375,   8,  100671422) /* Icon */
-     , (38375,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38375,   1, 0x02000A06) /* Setup */
+     , (38375,   3, 0x20000014) /* SoundTable */
+     , (38375,   8, 0x06001FBE) /* Icon */
+     , (38375,  22, 0x3400002B) /* PhysicsEffectTable */;

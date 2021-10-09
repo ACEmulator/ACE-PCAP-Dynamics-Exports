@@ -51,13 +51,13 @@ VALUES (21435,   1, 'Shauraloi') /* Name */
      , (21435,  15, 'A warhammer constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21435,   1,   33557958) /* Setup */
-     , (21435,   3,  536870932) /* SoundTable */
-     , (21435,   8,  100673485) /* Icon */
-     , (21435,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21435,   1, 0x02000DC6) /* Setup */
+     , (21435,   3, 0x20000014) /* SoundTable */
+     , (21435,   8, 0x060027CD) /* Icon */
+     , (21435,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21435, 8040, 3300262145, 14.1887, 34.48525, 317.629, -0.2757314, -0.2757314, 0.6511315, 0.6511315) /* PCAPRecordedLocation */
+VALUES (21435, 8040, 0xC4B60101, 14.1887, 34.48525, 317.629, -0.275731, -0.275731, 0.651132, 0.651132) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60101 [14.188700 34.485250 317.629000] -0.275731 -0.275731 0.651132 0.651132 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

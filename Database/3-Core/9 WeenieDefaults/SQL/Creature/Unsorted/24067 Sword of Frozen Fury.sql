@@ -27,11 +27,11 @@ VALUES (24067,   1, 'Sword of Frozen Fury') /* Name */
      , (24067,  16, 'A sword on a glowing dais.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24067,   1,   33558263) /* Setup */
-     , (24067,   2,  150995233) /* MotionTable */
-     , (24067,   3,  536870932) /* SoundTable */
-     , (24067,   8,  100674252) /* Icon */;
+VALUES (24067,   1, 0x02000EF7) /* Setup */
+     , (24067,   2, 0x09000121) /* MotionTable */
+     , (24067,   3, 0x20000014) /* SoundTable */
+     , (24067,   8, 0x06002ACC) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24067, 8040, 2711879724, 133.375, 80.1674, 50, 0.6895869, 0, 0, 0.7242029) /* PCAPRecordedLocation */
+VALUES (24067, 8040, 0xA1A4002C, 133.375, 80.1674, 50, 0.689587, 0, 0, 0.724203) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A4002C [133.375000 80.167400 50.000000] 0.689587 0.000000 0.000000 0.724203 */;

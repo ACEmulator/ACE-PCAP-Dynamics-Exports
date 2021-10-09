@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12137,   1, 'White Bunny Slipper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12137,   1,   33557436) /* Setup */
-     , (12137,   3,  536870932) /* SoundTable */
-     , (12137,   8,  100672403) /* Icon */
-     , (12137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12137,   1, 0x02000BBC) /* Setup */
+     , (12137,   3, 0x20000014) /* SoundTable */
+     , (12137,   8, 0x06002393) /* Icon */
+     , (12137,  22, 0x3400002B) /* PhysicsEffectTable */;

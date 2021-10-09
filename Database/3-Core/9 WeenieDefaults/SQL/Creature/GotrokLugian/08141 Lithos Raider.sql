@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8141,   1, 'Lithos Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8141,   1,   33557003) /* Setup */
-     , (8141,   2,  150994950) /* MotionTable */
-     , (8141,   3,  536870922) /* SoundTable */
-     , (8141,   6,   67113158) /* PaletteBase */
-     , (8141,   8,  100667447) /* Icon */
-     , (8141,  22,  872415262) /* PhysicsEffectTable */;
+VALUES (8141,   1, 0x02000A0B) /* Setup */
+     , (8141,   2, 0x09000006) /* MotionTable */
+     , (8141,   3, 0x2000000A) /* SoundTable */
+     , (8141,   6, 0x040010C6) /* PaletteBase */
+     , (8141,   8, 0x06001037) /* Icon */
+     , (8141,  22, 0x3400001E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8141, 8040, 2383937565, 83.00027, 108.7148, 293.6487, 0.2817848, 0, 0, -0.9594776) /* PCAPRecordedLocation */
+VALUES (8141, 8040, 0x8E18001D, 83.00027, 108.7148, 293.6487, 0.281785, 0, 0, -0.959478) /* PCAPRecordedLocation */
 /* @teleloc 0x8E18001D [83.000270 108.714800 293.648700] 0.281785 0.000000 0.000000 -0.959478 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

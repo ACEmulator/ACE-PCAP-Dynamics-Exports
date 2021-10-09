@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4247,   1, 'Foul Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4247,   1,   33556882) /* Setup */
-     , (4247,   2,  150995104) /* MotionTable */
-     , (4247,   3,  536871018) /* SoundTable */
-     , (4247,   6,   67112872) /* PaletteBase */
-     , (4247,   8,  100671185) /* Icon */
-     , (4247,  22,  872415337) /* PhysicsEffectTable */
+VALUES (4247,   1, 0x02000992) /* Setup */
+     , (4247,   2, 0x090000A0) /* MotionTable */
+     , (4247,   3, 0x2000006A) /* SoundTable */
+     , (4247,   6, 0x04000FA8) /* PaletteBase */
+     , (4247,   8, 0x06001ED1) /* Icon */
+     , (4247,  22, 0x34000069) /* PhysicsEffectTable */
      , (4247,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4247, 8040, 4062445625, 185.2744, 7.430517, -0.09460002, 0.0101799, 0, 0, -0.9999482) /* PCAPRecordedLocation */
+VALUES (4247, 8040, 0xF2240039, 185.2744, 7.430517, -0.0946, 0.01018, 0, 0, -0.999948) /* PCAPRecordedLocation */
 /* @teleloc 0xF2240039 [185.274400 7.430517 -0.094600] 0.010180 0.000000 0.000000 -0.999948 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

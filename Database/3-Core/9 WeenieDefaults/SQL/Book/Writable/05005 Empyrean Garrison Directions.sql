@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5005,   1, 'Empyrean Garrison Directions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5005,   1,   33559084) /* Setup */
-     , (5005,   3,  536870932) /* SoundTable */
-     , (5005,   6,   67112626) /* PaletteBase */
-     , (5005,   8,  100668176) /* Icon */
-     , (5005,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5005,   1, 0x0200122C) /* Setup */
+     , (5005,   3, 0x20000014) /* SoundTable */
+     , (5005,   6, 0x04000EB2) /* PaletteBase */
+     , (5005,   8, 0x06001310) /* Icon */
+     , (5005,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5005, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

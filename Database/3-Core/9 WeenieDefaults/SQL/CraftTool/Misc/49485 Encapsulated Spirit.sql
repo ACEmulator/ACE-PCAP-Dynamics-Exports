@@ -23,8 +23,8 @@ VALUES (49485,   1, 'Encapsulated Spirit') /* Name */
      , (49485,  14, 'This item is used in Summoning.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49485,   1,   33561540) /* Setup */
-     , (49485,   3,  536870932) /* SoundTable */
-     , (49485,   6,   67111919) /* PaletteBase */
-     , (49485,   8,  100693036) /* Icon */
-     , (49485,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49485,   1, 0x02001BC4) /* Setup */
+     , (49485,   3, 0x20000014) /* SoundTable */
+     , (49485,   6, 0x04000BEF) /* PaletteBase */
+     , (49485,   8, 0x0600742C) /* Icon */
+     , (49485,  22, 0x3400002B) /* PhysicsEffectTable */;

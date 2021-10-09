@@ -47,11 +47,11 @@ VALUES (142,   1, 'Chalice') /* Name */
      , (142,  16, 'Chalice of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (142,   1,   33554661) /* Setup */
-     , (142,   3,  536871012) /* SoundTable */
-     , (142,   6,   67111919) /* PaletteBase */
-     , (142,   8,  100668555) /* Icon */
-     , (142,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (142,   1, 0x020000E5) /* Setup */
+     , (142,   3, 0x20000064) /* SoundTable */
+     , (142,   6, 0x04000BEF) /* PaletteBase */
+     , (142,   8, 0x0600148B) /* Icon */
+     , (142,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (142,  1332,      2)  /* StrengthSelf6 */;

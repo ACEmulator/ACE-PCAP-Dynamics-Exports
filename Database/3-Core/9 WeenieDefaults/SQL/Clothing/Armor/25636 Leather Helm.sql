@@ -37,8 +37,8 @@ VALUES (25636,   1, 'Leather Helm') /* Name */
      , (25636,  16, 'Leather Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25636,   1,   33555048) /* Setup */
-     , (25636,   3,  536870932) /* SoundTable */
-     , (25636,   6,   67108990) /* PaletteBase */
-     , (25636,   8,  100675286) /* Icon */
-     , (25636,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25636,   1, 0x02000268) /* Setup */
+     , (25636,   3, 0x20000014) /* SoundTable */
+     , (25636,   6, 0x0400007E) /* PaletteBase */
+     , (25636,   8, 0x06002ED6) /* Icon */
+     , (25636,  22, 0x3400002B) /* PhysicsEffectTable */;

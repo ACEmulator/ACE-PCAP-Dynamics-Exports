@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8138,   1, 'Extas Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8138,   1,   33557003) /* Setup */
-     , (8138,   2,  150994950) /* MotionTable */
-     , (8138,   3,  536870922) /* SoundTable */
-     , (8138,   6,   67113158) /* PaletteBase */
-     , (8138,   8,  100667447) /* Icon */
-     , (8138,  22,  872415262) /* PhysicsEffectTable */;
+VALUES (8138,   1, 0x02000A0B) /* Setup */
+     , (8138,   2, 0x09000006) /* MotionTable */
+     , (8138,   3, 0x2000000A) /* SoundTable */
+     , (8138,   6, 0x040010C6) /* PaletteBase */
+     , (8138,   8, 0x06001037) /* Icon */
+     , (8138,  22, 0x3400001E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8138, 8040, 2736652294, 9.023, 128.421, 532.01, 0.7325785, 0, 0, -0.6806825) /* PCAPRecordedLocation */
+VALUES (8138, 8040, 0xA31E0006, 9.023, 128.421, 532.01, 0.732579, 0, 0, -0.680683) /* PCAPRecordedLocation */
 /* @teleloc 0xA31E0006 [9.023000 128.421000 532.010000] 0.732579 0.000000 0.000000 -0.680683 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

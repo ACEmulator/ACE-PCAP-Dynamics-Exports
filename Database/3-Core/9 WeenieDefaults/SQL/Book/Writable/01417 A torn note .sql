@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1417,   1, 'A torn note ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1417,   1,   33554773) /* Setup */
-     , (1417,   3,  536870932) /* SoundTable */
-     , (1417,   8,  100668176) /* Icon */
-     , (1417,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1417,   1, 0x02000155) /* Setup */
+     , (1417,   3, 0x20000014) /* SoundTable */
+     , (1417,   8, 0x06001310) /* Icon */
+     , (1417,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1417, 8040, 32899692, 69.30967, -52.23201, 0.079, 0.9443762, 0, 0, -0.3288671) /* PCAPRecordedLocation */
+VALUES (1417, 8040, 0x01F6026C, 69.30967, -52.23201, 0.079, 0.944376, 0, 0, -0.328867) /* PCAPRecordedLocation */
 /* @teleloc 0x01F6026C [69.309670 -52.232010 0.079000] 0.944376 0.000000 0.000000 -0.328867 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

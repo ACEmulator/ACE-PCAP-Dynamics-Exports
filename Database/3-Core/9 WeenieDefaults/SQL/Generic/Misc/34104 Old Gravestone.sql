@@ -19,10 +19,10 @@ VALUES (34104,   1, 'Old Gravestone') /* Name */
      , (34104,  16, 'Here lies Drago the Flat. He met a Tremendous Monouga before he found a lifestone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34104,   1,   33560113) /* Setup */
-     , (34104,   2,  150994977) /* MotionTable */
-     , (34104,   8,  100689224) /* Icon */;
+VALUES (34104,   1, 0x02001631) /* Setup */
+     , (34104,   2, 0x09000021) /* MotionTable */
+     , (34104,   8, 0x06006548) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34104, 8040, 2173632570, 170.3839, 42.41631, 124, -0.9541329, 0, 0, -0.2993836) /* PCAPRecordedLocation */
+VALUES (34104, 8040, 0x818F003A, 170.3839, 42.41631, 124, -0.954133, 0, 0, -0.299384) /* PCAPRecordedLocation */
 /* @teleloc 0x818F003A [170.383900 42.416310 124.000000] -0.954133 0.000000 0.000000 -0.299384 */;

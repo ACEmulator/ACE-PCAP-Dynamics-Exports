@@ -49,13 +49,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30534,   1, 'Gauntlets of the Crimson Star ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30534,   1,   33559447) /* Setup */
-     , (30534,   3,  536870932) /* SoundTable */
-     , (30534,   8,  100686911) /* Icon */
-     , (30534,  22,  872415275) /* PhysicsEffectTable */
-     , (30534,  52,  100686604) /* IconUnderlay */;
+VALUES (30534,   1, 0x02001397) /* Setup */
+     , (30534,   3, 0x20000014) /* SoundTable */
+     , (30534,   8, 0x06005C3F) /* Icon */
+     , (30534,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30534,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30534,  3963,      2)  /* CANTRIPCOORDINATION3 */
+VALUES (30534,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */
      , (30534,  4407,      2)  /* Impenetrability8 */
-     , (30534,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;
+     , (30534,  3963,      2)  /* CANTRIPCOORDINATION3 */;

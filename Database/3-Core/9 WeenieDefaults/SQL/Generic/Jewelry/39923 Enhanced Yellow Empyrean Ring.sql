@@ -37,15 +37,15 @@ VALUES (39923,   1, 'Enhanced Yellow Empyrean Ring') /* Name */
      , (39923,  16, 'A ring of pyreal fitted with a band of glowing gold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39923,   1,   33554691) /* Setup */
-     , (39923,   3,  536870932) /* SoundTable */
-     , (39923,   6,   67111919) /* PaletteBase */
-     , (39923,   8,  100689389) /* Icon */
-     , (39923,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39923,   1, 0x02000103) /* Setup */
+     , (39923,   3, 0x20000014) /* SoundTable */
+     , (39923,   6, 0x04000BEF) /* PaletteBase */
+     , (39923,   8, 0x060065ED) /* Icon */
+     , (39923,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39923,  3983,      2)  /* RejuvenationOtherIncantation */
+VALUES (39923,  4678,      2)  /* CANTRIPSLASHINGWARD3 */
+     , (39923,  3983,      2)  /* RejuvenationOtherIncantation */
      , (39923,  4071,      2)  /* EmpyreanStaminaAbsorbtion */
      , (39923,  4072,      2)  /* AurlanaasResolve */
-     , (39923,  4076,      2)  /* EmpyreanEnlightenment */
-     , (39923,  4678,      2)  /* CANTRIPSLASHINGWARD3 */;
+     , (39923,  4076,      2)  /* EmpyreanEnlightenment */;

@@ -46,13 +46,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21023,   1, 'Perfect Shimmering Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21023,   1,   33557729) /* Setup */
-     , (21023,   3,  536870932) /* SoundTable */
-     , (21023,   8,  100673205) /* Icon */
-     , (21023,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21023,   1, 0x02000CE1) /* Setup */
+     , (21023,   3, 0x20000014) /* SoundTable */
+     , (21023,   8, 0x060026B5) /* Icon */
+     , (21023,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21023, 8040, 23855554, 58.12363, -28.59009, -0.07000001, -0.222214, 0, 0, -0.9749979) /* PCAPRecordedLocation */
+VALUES (21023, 8040, 0x016C01C2, 58.12363, -28.59009, -0.07, -0.222214, 0, 0, -0.974998) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.123630 -28.590090 -0.070000] -0.222214 0.000000 0.000000 -0.974998 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29996,   1, 'Glacial Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29996,   1,   33559362) /* Setup */
-     , (29996,   3,  536870932) /* SoundTable */
-     , (29996,   8,  100686575) /* Icon */
-     , (29996,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29996,   1, 0x02001342) /* Setup */
+     , (29996,   3, 0x20000014) /* SoundTable */
+     , (29996,   8, 0x06005AEF) /* Icon */
+     , (29996,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29996, 8040, 1072627754, 134.1362, 44.96766, 13.9466, -0.59659, -0.59659, -0.3795792, -0.3795792) /* PCAPRecordedLocation */
+VALUES (29996, 8040, 0x3FEF002A, 134.1362, 44.96766, 13.9466, -0.59659, -0.59659, -0.379579, -0.379579) /* PCAPRecordedLocation */
 /* @teleloc 0x3FEF002A [134.136200 44.967660 13.946600] -0.596590 -0.596590 -0.379579 -0.379579 */;

@@ -26,12 +26,12 @@ VALUES (52283,   1, 'Frozen Crystal') /* Name */
      , (52283,  15, 'An icy crystal that nearby Frost Golems are drawn to.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52283,   1,   33555523) /* Setup */
-     , (52283,   2,  150995497) /* MotionTable */
-     , (52283,   3,  536871001) /* SoundTable */
-     , (52283,   8,  100667386) /* Icon */
-     , (52283,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52283,   1, 0x02000443) /* Setup */
+     , (52283,   2, 0x09000229) /* MotionTable */
+     , (52283,   3, 0x20000059) /* SoundTable */
+     , (52283,   8, 0x06000FFA) /* Icon */
+     , (52283,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52283, 8040, 2028535827, 54.5175, 61.7302, 106, 0.671468, 0, 0, 0.741033) /* PCAPRecordedLocation */
+VALUES (52283, 8040, 0x78E90013, 54.5175, 61.7302, 106, 0.671468, 0, 0, 0.741033) /* PCAPRecordedLocation */
 /* @teleloc 0x78E90013 [54.517500 61.730200 106.000000] 0.671468 0.000000 0.000000 0.741033 */;

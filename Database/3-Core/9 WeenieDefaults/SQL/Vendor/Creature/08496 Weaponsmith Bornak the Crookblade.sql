@@ -35,20 +35,20 @@ VALUES (8496,   1, 'Weaponsmith Bornak the Crookblade') /* Name */
      , (8496,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8496,   1,   33554433) /* Setup */
-     , (8496,   2,  150994945) /* MotionTable */
-     , (8496,   3,  536870914) /* SoundTable */
-     , (8496,   6,   67108990) /* PaletteBase */
-     , (8496,   8,  100667375) /* Icon */
-     , (8496,   9,   83890495) /* EyesTexture */
-     , (8496,  10,   83890518) /* NoseTexture */
-     , (8496,  11,   83890655) /* MouthTexture */
-     , (8496,  15,   67116990) /* HairPalette */
-     , (8496,  16,   67110062) /* EyesPalette */
-     , (8496,  17,   67109561) /* SkinPalette */;
+VALUES (8496,   1, 0x02000001) /* Setup */
+     , (8496,   2, 0x09000001) /* MotionTable */
+     , (8496,   3, 0x20000002) /* SoundTable */
+     , (8496,   6, 0x0400007E) /* PaletteBase */
+     , (8496,   8, 0x06000FEF) /* Icon */
+     , (8496,   9, 0x0500113F) /* EyesTexture */
+     , (8496,  10, 0x05001156) /* NoseTexture */
+     , (8496,  11, 0x050011DF) /* MouthTexture */
+     , (8496,  15, 0x04001FBE) /* HairPalette */
+     , (8496,  16, 0x040004AE) /* EyesPalette */
+     , (8496,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8496, 8040, 4062314752, 136.117, 138.665, 18.005, 0.9991242, 0, 0, -0.04184171) /* PCAPRecordedLocation */
+VALUES (8496, 8040, 0xF2220100, 136.117, 138.665, 18.005, 0.999124, 0, 0, -0.041842) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220100 [136.117000 138.665000 18.005000] 0.999124 0.000000 0.000000 -0.041842 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

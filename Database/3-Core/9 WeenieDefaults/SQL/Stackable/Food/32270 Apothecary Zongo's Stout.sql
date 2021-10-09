@@ -32,10 +32,10 @@ VALUES (32270,   1, 'Apothecary Zongo''s Stout') /* Name */
      , (32270,  20, 'Bottles of Apothecary Zongo''s Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32270,   1,   33559128) /* Setup */
-     , (32270,   3,  536870932) /* SoundTable */
-     , (32270,   8,  100688499) /* Icon */
-     , (32270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32270,   1, 0x02001258) /* Setup */
+     , (32270,   3, 0x20000014) /* SoundTable */
+     , (32270,   8, 0x06006273) /* Icon */
+     , (32270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32270,  28,       3864) /* Spell - ZongoFist */
-     , (32270,  50,  100687554) /* IconOverlay */
-     , (32270,  52,  100687547) /* IconUnderlay */;
+     , (32270,  50, 0x06005EC2) /* IconOverlay */
+     , (32270,  52, 0x06005EBB) /* IconUnderlay */;

@@ -27,11 +27,11 @@ VALUES (41001,   1, 'Test Portal') /* Name */
      , (41001,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41001,   1,   33556212) /* Setup */
-     , (41001,   2,  150994947) /* MotionTable */
-     , (41001,   3,  536870932) /* SoundTable */
-     , (41001,   8,  100667499) /* Icon */;
+VALUES (41001,   1, 0x020006F4) /* Setup */
+     , (41001,   2, 0x09000003) /* MotionTable */
+     , (41001,   3, 0x20000014) /* SoundTable */
+     , (41001,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41001, 8040, 2281964507, 30.377, -21.563, -0.06299996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41001, 8040, 0x880403DB, 30.377, -21.563, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x880403DB [30.377000 -21.563000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;

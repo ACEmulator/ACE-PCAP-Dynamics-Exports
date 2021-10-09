@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45452,   1, 'Pillar of Fearlessness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45452,   1,   33559384) /* Setup */
-     , (45452,   3,  536870932) /* SoundTable */
-     , (45452,   6,   67111919) /* PaletteBase */
-     , (45452,   8,  100686751) /* Icon */
-     , (45452,  22,  872415275) /* PhysicsEffectTable */
-     , (45452,  52,  100686604) /* IconUnderlay */;
+VALUES (45452,   1, 0x02001358) /* Setup */
+     , (45452,   3, 0x20000014) /* SoundTable */
+     , (45452,   6, 0x04000BEF) /* PaletteBase */
+     , (45452,   8, 0x06005B9F) /* Icon */
+     , (45452,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45452,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45452, 8040, 23855555, 57.65788, -35.85875, -0.071, -0.6852645, -0.6852645, -0.1743922, -0.1743922) /* PCAPRecordedLocation */
+VALUES (45452, 8040, 0x016C01C3, 57.65788, -35.85875, -0.071, -0.685265, -0.685265, -0.174392, -0.174392) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.657880 -35.858750 -0.071000] -0.685265 -0.685265 -0.174392 -0.174392 */;

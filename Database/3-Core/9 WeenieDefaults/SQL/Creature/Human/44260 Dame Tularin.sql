@@ -29,21 +29,21 @@ VALUES (44260,   1, 'Dame Tularin') /* Name */
      , (44260,   5, 'Royal Knight') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44260,   1,   33554510) /* Setup */
-     , (44260,   2,  150994945) /* MotionTable */
-     , (44260,   3,  536870914) /* SoundTable */
-     , (44260,   6,   67108990) /* PaletteBase */
-     , (44260,   8,  100667446) /* Icon */
-     , (44260,   9,   83890264) /* EyesTexture */
-     , (44260,  10,   83890293) /* NoseTexture */
-     , (44260,  11,   83890326) /* MouthTexture */
-     , (44260,  15,   67117024) /* HairPalette */
-     , (44260,  16,   67109567) /* EyesPalette */
-     , (44260,  17,   67109556) /* SkinPalette */
-     , (44260,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (44260,   1, 0x0200004E) /* Setup */
+     , (44260,   2, 0x09000001) /* MotionTable */
+     , (44260,   3, 0x20000002) /* SoundTable */
+     , (44260,   6, 0x0400007E) /* PaletteBase */
+     , (44260,   8, 0x06001036) /* Icon */
+     , (44260,   9, 0x05001058) /* EyesTexture */
+     , (44260,  10, 0x05001075) /* NoseTexture */
+     , (44260,  11, 0x05001096) /* MouthTexture */
+     , (44260,  15, 0x04001FE0) /* HairPalette */
+     , (44260,  16, 0x040002BF) /* EyesPalette */
+     , (44260,  17, 0x040002B4) /* SkinPalette */
+     , (44260,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44260, 8040, 2271412247, 50.9524, 145.589, 8.251033, -0.95416, 0, 0, 0.299298) /* PCAPRecordedLocation */
+VALUES (44260, 8040, 0x87630017, 50.9524, 145.589, 8.251033, -0.95416, 0, 0, 0.299298) /* PCAPRecordedLocation */
 /* @teleloc 0x87630017 [50.952400 145.589000 8.251033] -0.954160 0.000000 0.000000 0.299298 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

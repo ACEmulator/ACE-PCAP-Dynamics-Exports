@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41918,   1, 'Weapon Upgrade Kit Containment Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41918,   1,   33556223) /* Setup */
-     , (41918,   3,  536870932) /* SoundTable */
-     , (41918,   6,   67111928) /* PaletteBase */
-     , (41918,   8,  100673039) /* Icon */
-     , (41918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41918,   1, 0x020006FF) /* Setup */
+     , (41918,   3, 0x20000014) /* SoundTable */
+     , (41918,   6, 0x04000BF8) /* PaletteBase */
+     , (41918,   8, 0x0600260F) /* Icon */
+     , (41918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41918, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

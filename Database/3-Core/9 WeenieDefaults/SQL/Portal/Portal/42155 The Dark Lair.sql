@@ -23,10 +23,10 @@ VALUES (42155,   1, 'The Dark Lair') /* Name */
      , (42155,  16, 'A portal leading to near The Dark Lair outside Greenspire where the Gardener Pincer may be found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42155,   1,   33554867) /* Setup */
-     , (42155,   2,  150994947) /* MotionTable */
-     , (42155,   8,  100667499) /* Icon */;
+VALUES (42155,   1, 0x020001B3) /* Setup */
+     , (42155,   2, 0x09000003) /* MotionTable */
+     , (42155,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42155, 8040, 2315387153, 48.301, -31.73, -12.0504, -0.3826841, 0, 0, -0.9238793) /* PCAPRecordedLocation */
+VALUES (42155, 8040, 0x8A020111, 48.301, -31.73, -12.0504, -0.382684, 0, 0, -0.923879) /* PCAPRecordedLocation */
 /* @teleloc 0x8A020111 [48.301000 -31.730000 -12.050400] -0.382684 0.000000 0.000000 -0.923879 */;

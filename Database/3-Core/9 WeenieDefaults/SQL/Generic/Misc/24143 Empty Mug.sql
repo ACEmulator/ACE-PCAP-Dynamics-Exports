@@ -24,11 +24,11 @@ VALUES (24143,   1, 'Empty Mug') /* Name */
      , (24143,  15, 'An empty mug with the words, "Property of Celcynd" etched into the bottom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24143,   1,   33554665) /* Setup */
-     , (24143,   3,  536870932) /* SoundTable */
-     , (24143,   8,  100667432) /* Icon */
-     , (24143,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24143,   1, 0x020000E9) /* Setup */
+     , (24143,   3, 0x20000014) /* SoundTable */
+     , (24143,   8, 0x06001028) /* Icon */
+     , (24143,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24143, 8040, 288620588, 135.17, 80.2072, 51.737, -0.7601282, 0, 0, -0.6497731) /* PCAPRecordedLocation */
+VALUES (24143, 8040, 0x1134002C, 135.17, 80.2072, 51.737, -0.760128, 0, 0, -0.649773) /* PCAPRecordedLocation */
 /* @teleloc 0x1134002C [135.170000 80.207200 51.737000] -0.760128 0.000000 0.000000 -0.649773 */;

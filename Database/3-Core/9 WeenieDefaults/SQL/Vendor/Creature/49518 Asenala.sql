@@ -33,15 +33,15 @@ VALUES (49518,   1, 'Asenala') /* Name */
      , (49518,   5, 'Geomancer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49518,   1,   33561104) /* Setup */
-     , (49518,   2,  150995463) /* MotionTable */
-     , (49518,   3,  536870914) /* SoundTable */
-     , (49518,   6,   67108990) /* PaletteBase */
-     , (49518,   8,  100691502) /* Icon */
-     , (49518,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (49518,   1, 0x02001A10) /* Setup */
+     , (49518,   2, 0x09000207) /* MotionTable */
+     , (49518,   3, 0x20000002) /* SoundTable */
+     , (49518,   6, 0x0400007E) /* PaletteBase */
+     , (49518,   8, 0x06006E2E) /* Icon */
+     , (49518,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49518, 8040, 2847146267, 155.743, 129.897, 69.00575, -0.9260864, 0, 0, -0.3773115) /* PCAPRecordedLocation */
+VALUES (49518, 8040, 0xA9B4011B, 155.743, 129.897, 69.00575, -0.926086, 0, 0, -0.377312) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4011B [155.743000 129.897000 69.005750] -0.926086 0.000000 0.000000 -0.377312 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

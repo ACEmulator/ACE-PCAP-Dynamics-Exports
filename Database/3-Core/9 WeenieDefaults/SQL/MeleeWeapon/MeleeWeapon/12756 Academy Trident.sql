@@ -37,12 +37,12 @@ VALUES (12756,   1, 'Academy Trident') /* Name */
      , (12756,  15, 'An enhanced trident crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12756,   1,   33556641) /* Setup */
-     , (12756,   3,  536870932) /* SoundTable */
-     , (12756,   6,   67111919) /* PaletteBase */
-     , (12756,   8,  100669007) /* Icon */
-     , (12756,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12756,   1, 0x020008A1) /* Setup */
+     , (12756,   3, 0x20000014) /* SoundTable */
+     , (12756,   6, 0x04000BEF) /* PaletteBase */
+     , (12756,   8, 0x0600164F) /* Icon */
+     , (12756,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12756, 8040, 3729588254, 78.07466, 123.2836, 19.929, -0.6580032, -0.6580032, -0.2589051, -0.2589051) /* PCAPRecordedLocation */
+VALUES (12756, 8040, 0xDE4D001E, 78.07466, 123.2836, 19.929, -0.658003, -0.658003, -0.258905, -0.258905) /* PCAPRecordedLocation */
 /* @teleloc 0xDE4D001E [78.074660 123.283600 19.929000] -0.658003 -0.658003 -0.258905 -0.258905 */;

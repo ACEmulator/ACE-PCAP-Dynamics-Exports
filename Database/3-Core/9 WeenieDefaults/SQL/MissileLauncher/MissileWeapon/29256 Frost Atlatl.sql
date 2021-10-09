@@ -52,15 +52,15 @@ VALUES (29256,   1, 'Frost Atlatl') /* Name */
      , (29256,  16, 'Frost Atlatl of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29256,   1,   33559243) /* Setup */
-     , (29256,   3,  536870932) /* SoundTable */
-     , (29256,   6,   67115373) /* PaletteBase */
-     , (29256,   8,  100677455) /* Icon */
-     , (29256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29256,   1, 0x020012CB) /* Setup */
+     , (29256,   3, 0x20000014) /* SoundTable */
+     , (29256,   6, 0x0400196D) /* PaletteBase */
+     , (29256,   8, 0x0600374F) /* Icon */
+     , (29256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29256,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29256,  2059,      2)  /* CoordinationSelf7 */
-     , (29256,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (29256,  5890,      2)  /* CantripRecklessnessProwess2 */
+     , (29256,  2059,      2)  /* CoordinationSelf7 */
      , (29256,  4400,      2)  /* DefenderSelf8 */
-     , (29256,  5890,      2)  /* CantripRecklessnessProwess2 */;
+     , (29256,  2096,      2)  /* BloodDrinkerSelf7 */;

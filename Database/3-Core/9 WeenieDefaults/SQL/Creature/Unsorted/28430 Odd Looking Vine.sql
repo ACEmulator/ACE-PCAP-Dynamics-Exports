@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28430,   1, 'Odd Looking Vine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28430,   1,   33558617) /* Setup */
-     , (28430,   2,  150995067) /* MotionTable */
-     , (28430,   3,  536871015) /* SoundTable */
-     , (28430,   8,  100675781) /* Icon */
-     , (28430,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (28430,   1, 0x02001059) /* Setup */
+     , (28430,   2, 0x0900007B) /* MotionTable */
+     , (28430,   3, 0x20000067) /* SoundTable */
+     , (28430,   8, 0x060030C5) /* Icon */
+     , (28430,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28430, 8040, 1146028298, 27.5642, 147.482, -22.21, -0.406451, 0, 0, -0.913673) /* PCAPRecordedLocation */
+VALUES (28430, 8040, 0x444F010A, 27.5642, 147.482, -22.21, -0.406451, 0, 0, -0.913673) /* PCAPRecordedLocation */
 /* @teleloc 0x444F010A [27.564200 147.482000 -22.210000] -0.406451 0.000000 0.000000 -0.913673 */;

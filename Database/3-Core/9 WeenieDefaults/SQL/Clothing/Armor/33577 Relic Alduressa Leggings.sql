@@ -39,17 +39,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33577,   1, 'Relic Alduressa Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33577,   1,   33560018) /* Setup */
-     , (33577,   3,  536870932) /* SoundTable */
-     , (33577,   8,  100686043) /* Icon */
-     , (33577,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33577,   1, 0x020015D2) /* Setup */
+     , (33577,   3, 0x20000014) /* SoundTable */
+     , (33577,   8, 0x060058DB) /* Icon */
+     , (33577,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33577, 8040, 3583574079, 183.0709, 144.3857, 374.05, 0.9983903, 0, 0, 0.05671674) /* PCAPRecordedLocation */
+VALUES (33577, 8040, 0xD599003F, 183.0709, 144.3857, 374.05, 0.99839, 0, 0, 0.056717) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [183.070900 144.385700 374.050000] 0.998390 0.000000 0.000000 0.056717 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33577,  2009,      2)  /* WarriorsGreaterVigor */
-     , (33577,  2060,      2)  /* EnduranceOther7 */
-     , (33577,  2108,      2)  /* Impenetrability7 */
-     , (33577,  2659,      2)  /* ModerateCoordination */;
+VALUES (33577,  2060,      2)  /* EnduranceOther7 */
+     , (33577,  2009,      2)  /* WarriorsGreaterVigor */
+     , (33577,  2659,      2)  /* ModerateCoordination */
+     , (33577,  2108,      2)  /* Impenetrability7 */;

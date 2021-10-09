@@ -24,8 +24,8 @@ VALUES (34351,   1, 'Pyreal Mote') /* Name */
      , (34351,  16, 'A pyreal mote found within the Halls of Metos that are nearest to Wai Jhou. There are grooves along its side which make it unsuitable for typical applications.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34351,   1,   33556406) /* Setup */
-     , (34351,   3,  536870932) /* SoundTable */
-     , (34351,   6,   67111919) /* PaletteBase */
-     , (34351,   8,  100670504) /* Icon */
-     , (34351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34351,   1, 0x020007B6) /* Setup */
+     , (34351,   3, 0x20000014) /* SoundTable */
+     , (34351,   6, 0x04000BEF) /* PaletteBase */
+     , (34351,   8, 0x06001C28) /* Icon */
+     , (34351,  22, 0x3400002B) /* PhysicsEffectTable */;

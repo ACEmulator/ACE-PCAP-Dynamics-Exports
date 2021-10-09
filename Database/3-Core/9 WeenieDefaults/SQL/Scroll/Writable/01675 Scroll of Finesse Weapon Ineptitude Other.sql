@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1675,   1, 'Scroll of Finesse Weapon Ineptitude Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1675,   1,   33554826) /* Setup */
-     , (1675,   8,  100692250) /* Icon */
-     , (1675,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1675,   1, 0x0200018A) /* Setup */
+     , (1675,   8, 0x0600711A) /* Icon */
+     , (1675,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1675,  28,        328) /* Spell - FinesseWeaponsIneptitudeOther1 */;

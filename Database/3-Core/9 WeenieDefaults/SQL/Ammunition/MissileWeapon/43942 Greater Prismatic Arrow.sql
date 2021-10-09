@@ -62,12 +62,12 @@ VALUES (43942,   1, 'Greater Prismatic Arrow') /* Name */
      , (43942,  16, 'Magically enhanced crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43942,   1,   33561223) /* Setup */
-     , (43942,   3,  536870932) /* SoundTable */
-     , (43942,   6,   67111919) /* PaletteBase */
-     , (43942,   8,  100691912) /* Icon */
-     , (43942,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43942,   1, 0x02001A87) /* Setup */
+     , (43942,   3, 0x20000014) /* SoundTable */
+     , (43942,   6, 0x04000BEF) /* PaletteBase */
+     , (43942,   8, 0x06006FC8) /* Icon */
+     , (43942,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43942, 8040, 43058012, 209.4225, -158.6144, -0.071, -0.0008454155, -0.0008454155, -0.7071063, -0.7071063) /* PCAPRecordedLocation */
+VALUES (43942, 8040, 0x0291035C, 209.4225, -158.6144, -0.071, -0.000845, -0.000845, -0.707106, -0.707106) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [209.422500 -158.614400 -0.071000] -0.000845 -0.000845 -0.707106 -0.707106 */;

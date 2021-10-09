@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41816,   1, 'Phyntos Queen''s Abdomen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41816,   1,   33560891) /* Setup */
-     , (41816,   3,  536870932) /* SoundTable */
-     , (41816,   8,  100690857) /* Icon */
-     , (41816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41816,   1, 0x0200193B) /* Setup */
+     , (41816,   3, 0x20000014) /* SoundTable */
+     , (41816,   8, 0x06006BA9) /* Icon */
+     , (41816,  22, 0x3400002B) /* PhysicsEffectTable */;

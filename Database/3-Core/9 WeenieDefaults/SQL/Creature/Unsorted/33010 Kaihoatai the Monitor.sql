@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33010,   1, 'Kaihoatai the Monitor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33010,   1,   33559537) /* Setup */
-     , (33010,   2,  150994945) /* MotionTable */
-     , (33010,   3,  536870913) /* SoundTable */
-     , (33010,   8,  100670398) /* Icon */
-     , (33010,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33010,   1, 0x020013F1) /* Setup */
+     , (33010,   2, 0x09000001) /* MotionTable */
+     , (33010,   3, 0x20000001) /* SoundTable */
+     , (33010,   8, 0x06001BBE) /* Icon */
+     , (33010,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33010, 8040, 8257823, 380, -40, -95.99725, 0.04577998, 0, 0, -0.9989516) /* PCAPRecordedLocation */
+VALUES (33010, 8040, 0x007E011F, 380, -40, -95.99725, 0.04578, 0, 0, -0.998952) /* PCAPRecordedLocation */
 /* @teleloc 0x007E011F [380.000000 -40.000000 -95.997250] 0.045780 0.000000 0.000000 -0.998952 */;

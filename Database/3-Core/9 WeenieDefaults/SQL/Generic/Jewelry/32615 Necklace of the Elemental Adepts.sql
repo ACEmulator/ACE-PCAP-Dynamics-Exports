@@ -39,10 +39,10 @@ VALUES (32615,   1, 'Necklace of the Elemental Adepts') /* Name */
      , (32615,  16, 'A necklace enchanted by Royal Guard Qumasha to provide defense against the elements.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32615,   1,   33554680) /* Setup */
-     , (32615,   3,  536870932) /* SoundTable */
-     , (32615,   8,  100688552) /* Icon */
-     , (32615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32615,   1, 0x020000F8) /* Setup */
+     , (32615,   3, 0x20000014) /* SoundTable */
+     , (32615,   8, 0x060062A8) /* Icon */
+     , (32615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32615,  2281,      2)  /* MagicResistanceSelf7 */

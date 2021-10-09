@@ -21,12 +21,12 @@ VALUES (19199,   1, 'Nullified Statue of a Gromnie') /* Name */
      , (19199,  15, 'This nullified shell is all that remains of the living Statue of a Gromnie that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19199,   1,   33554487) /* Setup */
-     , (19199,   2,  150995165) /* MotionTable */
-     , (19199,   3,  536871052) /* SoundTable */
-     , (19199,   6,   67109307) /* PaletteBase */
-     , (19199,   8,  100667938) /* Icon */;
+VALUES (19199,   1, 0x02000037) /* Setup */
+     , (19199,   2, 0x090000DD) /* MotionTable */
+     , (19199,   3, 0x2000008C) /* SoundTable */
+     , (19199,   6, 0x040001BB) /* PaletteBase */
+     , (19199,   8, 0x06001222) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19199, 8040, 2421686308, 114.493, 90.5114, 6.815, 0.7151411, 0, 0, -0.6989801) /* PCAPRecordedLocation */
+VALUES (19199, 8040, 0x90580024, 114.493, 90.5114, 6.815, 0.715141, 0, 0, -0.69898) /* PCAPRecordedLocation */
 /* @teleloc 0x90580024 [114.493000 90.511400 6.815000] 0.715141 0.000000 0.000000 -0.698980 */;

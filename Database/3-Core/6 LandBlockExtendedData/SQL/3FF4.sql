@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3FF4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73FF4001,  1154, 0x3FF40100, 105.602, 157.005, 104.1, -0.000906096, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x73FF4001,  1154, 0x3FF40100, 105.602, 157.005, 104.1, -0.000906, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x3FF40100 [105.602000 157.005000 104.100000] -0.000906 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x73FF4001, 0x73FF4002, '2019-02-10 00:00:00') /* Bloated Eater (31019) 
      , (0x73FF4001, 0x73FF4005, '2019-02-10 00:00:00') /* Bloated Eater (31019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73FF4002, 31019, 0x3FF40100, 105.602, 157.005, 104.1, -0.000906096, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bloated Eater */
+VALUES (0x73FF4002, 31019, 0x3FF40100, 105.602, 157.005, 104.1, -0.000906, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bloated Eater */
 /* @teleloc 0x3FF40100 [105.602000 157.005000 104.100000] -0.000906 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

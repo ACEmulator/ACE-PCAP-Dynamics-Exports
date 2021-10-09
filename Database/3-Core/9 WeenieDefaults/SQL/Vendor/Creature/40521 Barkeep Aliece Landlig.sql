@@ -28,20 +28,20 @@ VALUES (40521,   1, 'Barkeep Aliece Landlig') /* Name */
      , (40521,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40521,   1,   33554510) /* Setup */
-     , (40521,   2,  150994945) /* MotionTable */
-     , (40521,   3,  536870914) /* SoundTable */
-     , (40521,   6,   67108990) /* PaletteBase */
-     , (40521,   8,  100667446) /* Icon */
-     , (40521,   9,   83890280) /* EyesTexture */
-     , (40521,  10,   83890309) /* NoseTexture */
-     , (40521,  11,   83890347) /* MouthTexture */
-     , (40521,  15,   67116994) /* HairPalette */
-     , (40521,  16,   67110064) /* EyesPalette */
-     , (40521,  17,   67109560) /* SkinPalette */;
+VALUES (40521,   1, 0x0200004E) /* Setup */
+     , (40521,   2, 0x09000001) /* MotionTable */
+     , (40521,   3, 0x20000002) /* SoundTable */
+     , (40521,   6, 0x0400007E) /* PaletteBase */
+     , (40521,   8, 0x06001036) /* Icon */
+     , (40521,   9, 0x05001068) /* EyesTexture */
+     , (40521,  10, 0x05001085) /* NoseTexture */
+     , (40521,  11, 0x050010AB) /* MouthTexture */
+     , (40521,  15, 0x04001FC2) /* HairPalette */
+     , (40521,  16, 0x040004B0) /* EyesPalette */
+     , (40521,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40521, 8040, 1536950532, 87.3368, 159.202, 14.005, -0.3142651, 0, 0, -0.9493353) /* PCAPRecordedLocation */
+VALUES (40521, 8040, 0x5B9C0104, 87.3368, 159.202, 14.005, -0.314265, 0, 0, -0.949335) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9C0104 [87.336800 159.202000 14.005000] -0.314265 0.000000 0.000000 -0.949335 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

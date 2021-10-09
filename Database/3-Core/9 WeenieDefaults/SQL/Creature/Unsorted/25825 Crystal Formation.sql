@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25825,   1, 'Crystal Formation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25825,   1,   33558563) /* Setup */
-     , (25825,   2,  150995264) /* MotionTable */
-     , (25825,   3,  536870913) /* SoundTable */
-     , (25825,   8,  100675644) /* Icon */;
+VALUES (25825,   1, 0x02001023) /* Setup */
+     , (25825,   2, 0x09000140) /* MotionTable */
+     , (25825,   3, 0x20000001) /* SoundTable */
+     , (25825,   8, 0x0600303C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25825, 8040, 1682505997, 110.113, -99.821, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25825, 8040, 0x6449010D, 110.113, -99.821, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x6449010D [110.113000 -99.821000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */;

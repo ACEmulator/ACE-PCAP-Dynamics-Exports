@@ -43,14 +43,14 @@ VALUES (29264,   1, 'Piercing Sceptre') /* Name */
      , (29264,  16, 'Piercing Sceptre of Lightning') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29264,   1,   33559232) /* Setup */
-     , (29264,   3,  536870932) /* SoundTable */
-     , (29264,   6,   67115357) /* PaletteBase */
-     , (29264,   8,  100677429) /* Icon */
-     , (29264,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29264,   1, 0x020012C0) /* Setup */
+     , (29264,   3, 0x20000014) /* SoundTable */
+     , (29264,   6, 0x0400195D) /* PaletteBase */
+     , (29264,   8, 0x06003735) /* Icon */
+     , (29264,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29264,  28,         80) /* Spell - LightningBolt6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29264,  4227,      2)  /* CANTRIPWILLPOWER3 */
-     , (29264,  4400,      2)  /* DefenderSelf8 */
-     , (29264,  4418,      2)  /* HermeticLinkSelf8 */;
+VALUES (29264,  4418,      2)  /* HermeticLinkSelf8 */
+     , (29264,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (29264,  4400,      2)  /* DefenderSelf8 */;

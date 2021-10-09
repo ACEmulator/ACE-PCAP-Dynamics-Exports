@@ -49,10 +49,10 @@ VALUES (33622,   1, 'Jitte of Law') /* Name */
      , (33622,  16, 'A jitte used by Sho Peace Officers back in Ispar.  This jitte both binds the officer to following the laws they are sworn to uphold and enhances them to better serve the law. Should the Officer stray from the law this jitte will harm the wielder in order to show them that crime does not pay!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33622,   1,   33560026) /* Setup */
-     , (33622,   3,  536870932) /* SoundTable */
-     , (33622,   8,  100689027) /* Icon */
-     , (33622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33622,   1, 0x020015DA) /* Setup */
+     , (33622,   3, 0x20000014) /* SoundTable */
+     , (33622,   8, 0x06006483) /* Icon */
+     , (33622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33622,  55,       3959) /* ProcSpell - RedirectMotives */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52077,   1, 'Rynthid Assessment Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52077,   1,   33561586) /* Setup */
-     , (52077,   2,  150995495) /* MotionTable */
-     , (52077,   3,  536870932) /* SoundTable */
-     , (52077,   8,  100667386) /* Icon */;
+VALUES (52077,   1, 0x02001BF2) /* Setup */
+     , (52077,   2, 0x09000227) /* MotionTable */
+     , (52077,   3, 0x20000014) /* SoundTable */
+     , (52077,   8, 0x06000FFA) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52077, 8040, 741408813, 135.917, 108.216, 107.5, 0.6963451, 0, 0, -0.7177071) /* PCAPRecordedLocation */
+VALUES (52077, 8040, 0x2C31002D, 135.917, 108.216, 107.5, 0.696345, 0, 0, -0.717707) /* PCAPRecordedLocation */
 /* @teleloc 0x2C31002D [135.917000 108.216000 107.500000] 0.696345 0.000000 0.000000 -0.717707 */;

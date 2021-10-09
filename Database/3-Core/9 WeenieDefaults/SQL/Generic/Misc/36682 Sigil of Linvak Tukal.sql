@@ -25,5 +25,5 @@ VALUES (36682,   1, 'Sigil of Linvak Tukal') /* Name */
      , (36682,  16, 'A stone etched with the familiar design the Lugians use to represent Linvak Tukal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36682,   1,   33556438) /* Setup */
-     , (36682,   8,  100670227) /* Icon */;
+VALUES (36682,   1, 0x020007D6) /* Setup */
+     , (36682,   8, 0x06001B13) /* Icon */;

@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37078,   1, 'Purified Quiddity Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37078,   1,   33555677) /* Setup */
-     , (37078,   3,  536870932) /* SoundTable */
-     , (37078,   6,   67111919) /* PaletteBase */
-     , (37078,   8,  100671703) /* Icon */
-     , (37078,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37078,   1, 0x020004DD) /* Setup */
+     , (37078,   3, 0x20000014) /* SoundTable */
+     , (37078,   6, 0x04000BEF) /* PaletteBase */
+     , (37078,   8, 0x060020D7) /* Icon */
+     , (37078,  22, 0x3400002B) /* PhysicsEffectTable */;

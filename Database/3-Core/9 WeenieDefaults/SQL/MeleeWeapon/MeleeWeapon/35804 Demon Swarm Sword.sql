@@ -52,19 +52,19 @@ VALUES (35804,   1, 'Demon Swarm Sword') /* Name */
      , (35804,  16, 'A sword carved from the razor-sharp pincers of the Colosseum champion, the Olthoi Demon Swarm Matron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35804,   1,   33556589) /* Setup */
-     , (35804,   3,  536870932) /* SoundTable */
-     , (35804,   6,   67109311) /* PaletteBase */
-     , (35804,   8,  100670666) /* Icon */
-     , (35804,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35804,   1, 0x0200086D) /* Setup */
+     , (35804,   3, 0x20000014) /* SoundTable */
+     , (35804,   6, 0x040001BF) /* PaletteBase */
+     , (35804,   8, 0x06001CCA) /* Icon */
+     , (35804,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35804, 8040, 2847146026, 125.2755, 41.85661, 93.92901, 0.7031441, 0.7031441, -0.07475574, -0.07475574) /* PCAPRecordedLocation */
+VALUES (35804, 8040, 0xA9B4002A, 125.2755, 41.85661, 93.92901, 0.703144, 0.703144, -0.074756, -0.074756) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [125.275500 41.856610 93.929010] 0.703144 0.703144 -0.074756 -0.074756 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35804,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (35804,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35804,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
+     , (35804,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35804,  2101,      2)  /* DefenderSelf7 */
-     , (35804,  2106,      2)  /* HeartSeekerSelf7 */
-     , (35804,  2116,      2)  /* SwiftKillerSelf7 */
-     , (35804,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */;
+     , (35804,  2106,      2)  /* HeartSeekerSelf7 */;

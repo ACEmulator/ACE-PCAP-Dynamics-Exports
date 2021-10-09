@@ -19,10 +19,10 @@ VALUES (34130,   1, 'Old Gravestone') /* Name */
      , (34130,  16, 'Bergbottom Hooberstunk. PY.1- P.Y.28. Creator of Dereth''s first automated chopping device. Rest in Pieces.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34130,   1,   33560113) /* Setup */
-     , (34130,   2,  150994977) /* MotionTable */
-     , (34130,   8,  100689224) /* Icon */;
+VALUES (34130,   1, 0x02001631) /* Setup */
+     , (34130,   2, 0x09000021) /* MotionTable */
+     , (34130,   8, 0x06006548) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34130, 8040, 2291990533, 7.932512, 101.0394, 133.8211, 0.5523583, 0, 0, -0.8336068) /* PCAPRecordedLocation */
+VALUES (34130, 8040, 0x889D0005, 7.932512, 101.0394, 133.8211, 0.552358, 0, 0, -0.833607) /* PCAPRecordedLocation */
 /* @teleloc 0x889D0005 [7.932512 101.039400 133.821100] 0.552358 0.000000 0.000000 -0.833607 */;

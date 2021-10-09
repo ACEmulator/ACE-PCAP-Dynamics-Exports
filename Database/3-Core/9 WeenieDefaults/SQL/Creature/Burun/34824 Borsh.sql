@@ -29,15 +29,15 @@ VALUES (34824,   1, 'Borsh') /* Name */
      , (34824,   5, 'Monster Killer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34824,   1,   33558582) /* Setup */
-     , (34824,   2,  150995272) /* MotionTable */
-     , (34824,   3,  536871083) /* SoundTable */
-     , (34824,   6,   67114919) /* PaletteBase */
-     , (34824,   8,  100675761) /* Icon */
-     , (34824,  22,  872415402) /* PhysicsEffectTable */;
+VALUES (34824,   1, 0x02001036) /* Setup */
+     , (34824,   2, 0x09000148) /* MotionTable */
+     , (34824,   3, 0x200000AB) /* SoundTable */
+     , (34824,   6, 0x040017A7) /* PaletteBase */
+     , (34824,   8, 0x060030B1) /* Icon */
+     , (34824,  22, 0x340000AA) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34824, 8040, 10224035, 338.442, -62.8937, -23.96219, -0.5623733, 0, 0, -0.8268835) /* PCAPRecordedLocation */
+VALUES (34824, 8040, 0x009C01A3, 338.442, -62.8937, -23.96219, -0.562373, 0, 0, -0.826884) /* PCAPRecordedLocation */
 /* @teleloc 0x009C01A3 [338.442000 -62.893700 -23.962190] -0.562373 0.000000 0.000000 -0.826884 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -18,7 +18,7 @@ VALUES (37265,   1, 'Four Cards from the Deck of Eyes') /* Name */
      , (37265,  20, 'Sets of Four Cards from the Deck of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37265,   1,   33560546) /* Setup */
-     , (37265,   3,  536870932) /* SoundTable */
-     , (37265,   8,  100689858) /* Icon */
-     , (37265,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37265,   1, 0x020017E2) /* Setup */
+     , (37265,   3, 0x20000014) /* SoundTable */
+     , (37265,   8, 0x060067C2) /* Icon */
+     , (37265,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (43742,   1, 'Snow Tusker Blood Sample') /* Name */
      , (43742,  15, 'A vial of blood taken from a defeated Snow Tusker.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43742,   1,   33554817) /* Setup */
-     , (43742,   3,  536870932) /* SoundTable */
-     , (43742,   8,  100686488) /* Icon */
-     , (43742,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43742,   1, 0x02000181) /* Setup */
+     , (43742,   3, 0x20000014) /* SoundTable */
+     , (43742,   8, 0x06005A98) /* Icon */
+     , (43742,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,11 +29,11 @@ VALUES (28413,   1, 'Backpack') /* Name */
      , (28413,  16, 'A large backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28413,   1,   33558452) /* Setup */
-     , (28413,   2,  150995254) /* MotionTable */
-     , (28413,   3,  536870913) /* SoundTable */
-     , (28413,   8,  100670383) /* Icon */;
+VALUES (28413,   1, 0x02000FB4) /* Setup */
+     , (28413,   2, 0x09000136) /* MotionTable */
+     , (28413,   3, 0x20000001) /* SoundTable */
+     , (28413,   8, 0x06001BAF) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28413, 8040, 1146028288, 36.4547, 151.022, 2.37595, 0.69941, 0, 0, -0.71472) /* PCAPRecordedLocation */
+VALUES (28413, 8040, 0x444F0100, 36.4547, 151.022, 2.37595, 0.69941, 0, 0, -0.71472) /* PCAPRecordedLocation */
 /* @teleloc 0x444F0100 [36.454700 151.022000 2.375950] 0.699410 0.000000 0.000000 -0.714720 */;

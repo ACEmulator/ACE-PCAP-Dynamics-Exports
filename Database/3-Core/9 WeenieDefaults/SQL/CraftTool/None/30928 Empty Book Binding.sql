@@ -24,11 +24,11 @@ VALUES (30928,   1, 'Empty Book Binding') /* Name */
      , (30928,  16, 'An empty book binding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30928,   1,   33554771) /* Setup */
-     , (30928,   3,  536870932) /* SoundTable */
-     , (30928,   8,  100668117) /* Icon */
-     , (30928,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30928,   1, 0x02000153) /* Setup */
+     , (30928,   3, 0x20000014) /* SoundTable */
+     , (30928,   8, 0x060012D5) /* Icon */
+     , (30928,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30928, 8040, 3364618256, 45.5459, 177.025, 22.057, -0.5177089, 0, 0, 0.8555568) /* PCAPRecordedLocation */
+VALUES (30928, 8040, 0xC88C0010, 45.5459, 177.025, 22.057, -0.517709, 0, 0, 0.855557) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C0010 [45.545900 177.025000 22.057000] -0.517709 0.000000 0.000000 0.855557 */;

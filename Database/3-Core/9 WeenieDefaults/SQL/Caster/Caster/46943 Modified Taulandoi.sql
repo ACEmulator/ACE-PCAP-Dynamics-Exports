@@ -46,11 +46,11 @@ VALUES (46943,   1, 'Modified Taulandoi') /* Name */
      , (46943,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46943,   1,   33557963) /* Setup */
-     , (46943,   3,  536870932) /* SoundTable */
-     , (46943,   6,   67111919) /* PaletteBase */
-     , (46943,   8,  100673490) /* Icon */
-     , (46943,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46943,   1, 0x02000DCB) /* Setup */
+     , (46943,   3, 0x20000014) /* SoundTable */
+     , (46943,   6, 0x04000BEF) /* PaletteBase */
+     , (46943,   8, 0x060027D2) /* Icon */
+     , (46943,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46943,  28,       2783) /* Spell - LesserElementalFuryFrost */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

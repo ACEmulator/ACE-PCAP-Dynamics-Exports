@@ -26,11 +26,11 @@ VALUES (36675,   1, 'Chorizite Pea') /* Name */
      , (36675,  16, 'A concentrated chorizite pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36675,   1,   33555208) /* Setup */
-     , (36675,   3,  536870932) /* SoundTable */
-     , (36675,   8,  100671062) /* Icon */
-     , (36675,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36675,   1, 0x02000308) /* Setup */
+     , (36675,   3, 0x20000014) /* SoundTable */
+     , (36675,   8, 0x06001E56) /* Icon */
+     , (36675,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36675, 8040, 10420547, 87.8137, -68.9949, -42, -0.23168, 0, 0, 0.972792) /* PCAPRecordedLocation */
+VALUES (36675, 8040, 0x009F0143, 87.8137, -68.9949, -42, -0.23168, 0, 0, 0.972792) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0143 [87.813700 -68.994900 -42.000000] -0.231680 0.000000 0.000000 0.972792 */;

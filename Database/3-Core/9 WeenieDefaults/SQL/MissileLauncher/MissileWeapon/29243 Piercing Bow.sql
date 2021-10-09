@@ -51,11 +51,11 @@ VALUES (29243,   1, 'Piercing Bow') /* Name */
      , (29243,  16, 'Piercing Bow of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29243,   1,   33559027) /* Setup */
-     , (29243,   3,  536870932) /* SoundTable */
-     , (29243,   6,   67115373) /* PaletteBase */
-     , (29243,   8,  100677125) /* Icon */
-     , (29243,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29243,   1, 0x020011F3) /* Setup */
+     , (29243,   3, 0x20000014) /* SoundTable */
+     , (29243,   6, 0x0400196D) /* PaletteBase */
+     , (29243,   8, 0x06003605) /* Icon */
+     , (29243,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29243,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

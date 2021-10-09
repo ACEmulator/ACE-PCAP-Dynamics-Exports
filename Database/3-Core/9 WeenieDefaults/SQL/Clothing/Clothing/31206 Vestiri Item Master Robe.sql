@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31206,   1, 'Vestiri Item Master Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31206,   1,   33559315) /* Setup */
-     , (31206,   3,  536870932) /* SoundTable */
-     , (31206,   6,   67108990) /* PaletteBase */
-     , (31206,   8,  100685964) /* Icon */
-     , (31206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31206,   1, 0x02001313) /* Setup */
+     , (31206,   3, 0x20000014) /* SoundTable */
+     , (31206,   6, 0x0400007E) /* PaletteBase */
+     , (31206,   8, 0x0600588C) /* Icon */
+     , (31206,  22, 0x3400002B) /* PhysicsEffectTable */;

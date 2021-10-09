@@ -30,12 +30,12 @@ VALUES (44284,   1, 'Bracelet of Focus') /* Name */
      , (44284,  16, 'This bracelet increases focus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44284,   1,   33554683) /* Setup */
-     , (44284,   3,  536870932) /* SoundTable */
-     , (44284,   6,   67111919) /* PaletteBase */
-     , (44284,   8,  100668625) /* Icon */
-     , (44284,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44284,   1, 0x020000FB) /* Setup */
+     , (44284,   3, 0x20000014) /* SoundTable */
+     , (44284,   6, 0x04000BEF) /* PaletteBase */
+     , (44284,   8, 0x060014D1) /* Icon */
+     , (44284,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44284,  3964,      2)  /* CANTRIPFOCUS3 */
-     , (44284,  4304,      2)  /* FocusOther8 */;
+VALUES (44284,  4304,      2)  /* FocusOther8 */
+     , (44284,  3964,      2)  /* CANTRIPFOCUS3 */;

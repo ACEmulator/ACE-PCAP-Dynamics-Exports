@@ -46,19 +46,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28498,   1, 'Noble Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28498,   1,   33558869) /* Setup */
-     , (28498,   3,  536870932) /* SoundTable */
-     , (28498,   8,  100676973) /* Icon */
-     , (28498,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28498,   1, 0x02001155) /* Setup */
+     , (28498,   3, 0x20000014) /* SoundTable */
+     , (28498,   8, 0x0600356D) /* Icon */
+     , (28498,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28498, 8040, 3300262145, 16.12383, 35.21682, 317.629, 0.01727348, 0.01727348, 0.7068958, 0.7068958) /* PCAPRecordedLocation */
+VALUES (28498, 8040, 0xC4B60101, 16.12383, 35.21682, 317.629, 0.017273, 0.017273, 0.706896, 0.706896) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60101 [16.123830 35.216820 317.629000] 0.017273 0.017273 0.706896 0.706896 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28498,   243,      2)  /* InvulnerabilityOther5 */
+VALUES (28498,  1604,      2)  /* DefenderSelf5 */
      , (28498,  1359,      2)  /* EnduranceOther5 */
-     , (28498,  1591,      2)  /* HeartSeekerSelf5 */
-     , (28498,  1604,      2)  /* DefenderSelf5 */
      , (28498,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (28498,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (28498,  1625,      2)  /* SwiftKillerSelf4 */
+     , (28498,   243,      2)  /* InvulnerabilityOther5 */
+     , (28498,  1591,      2)  /* HeartSeekerSelf5 */;

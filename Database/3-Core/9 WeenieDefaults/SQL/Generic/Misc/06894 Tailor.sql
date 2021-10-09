@@ -18,9 +18,9 @@ VALUES (6894,   1, 'Tailor') /* Name */
      , (6894,  16, 'Tailor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6894,   1,   33555909) /* Setup */
-     , (6894,   8,  100668115) /* Icon */;
+VALUES (6894,   1, 0x020005C5) /* Setup */
+     , (6894,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6894, 8040, 2156920847, 38.6383, 148.778, 127.456, 0.9986441, 0, 0, 0.052058) /* PCAPRecordedLocation */
+VALUES (6894, 8040, 0x8090000F, 38.6383, 148.778, 127.456, 0.998644, 0, 0, 0.052058) /* PCAPRecordedLocation */
 /* @teleloc 0x8090000F [38.638300 148.778000 127.456000] 0.998644 0.000000 0.000000 0.052058 */;

@@ -52,15 +52,15 @@ VALUES (41879,   1, 'Singularity Axe') /* Name */
      , (41879,  15, 'An axe imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41879,   1,   33556970) /* Setup */
-     , (41879,   3,  536870932) /* SoundTable */
-     , (41879,   6,   67111919) /* PaletteBase */
-     , (41879,   8,  100671369) /* Icon */
-     , (41879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41879,   1, 0x020009EA) /* Setup */
+     , (41879,   3, 0x20000014) /* SoundTable */
+     , (41879,   6, 0x04000BEF) /* PaletteBase */
+     , (41879,   8, 0x06001F89) /* Icon */
+     , (41879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41879,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41879,  2086,      2)  /* StrengthOther7 */
+VALUES (41879,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (41879,  2086,      2)  /* StrengthOther7 */
      , (41879,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41879,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41879,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (41879,  2106,      2)  /* HeartSeekerSelf7 */;

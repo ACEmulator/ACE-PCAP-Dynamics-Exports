@@ -53,15 +53,15 @@ VALUES (35630,   1, 'Sickle of Azaxis') /* Name */
      , (35630,  16, 'A sickle that once belonged to the Colosseum champion, the Virindi Azaxis.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35630,   1,   33557067) /* Setup */
-     , (35630,   3,  536870932) /* SoundTable */
-     , (35630,   6,   67111919) /* PaletteBase */
-     , (35630,   8,  100671670) /* Icon */
-     , (35630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35630,   1, 0x02000A4B) /* Setup */
+     , (35630,   3, 0x20000014) /* SoundTable */
+     , (35630,   6, 0x04000BEF) /* PaletteBase */
+     , (35630,   8, 0x060020B6) /* Icon */
+     , (35630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35630,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35630,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (35630,  2689,      2)  /* ModerateDaggerAptitude */
      , (35630,  1616,      2)  /* BloodDrinkerSelf6 */
      , (35630,  1627,      2)  /* SwiftKillerSelf6 */
-     , (35630,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (35630,  1592,      2)  /* HeartSeekerSelf6 */;

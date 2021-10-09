@@ -30,12 +30,12 @@ VALUES (44285,   1, 'Bracelet of Quickness') /* Name */
      , (44285,  16, 'This bracelet increase quickness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44285,   1,   33554683) /* Setup */
-     , (44285,   3,  536870932) /* SoundTable */
-     , (44285,   6,   67111919) /* PaletteBase */
-     , (44285,   8,  100668625) /* Icon */
-     , (44285,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44285,   1, 0x020000FB) /* Setup */
+     , (44285,   3, 0x20000014) /* SoundTable */
+     , (44285,   6, 0x04000BEF) /* PaletteBase */
+     , (44285,   8, 0x060014D1) /* Icon */
+     , (44285,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44285,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (44285,  4318,      2)  /* QuicknessOther8 */;
+VALUES (44285,  4318,      2)  /* QuicknessOther8 */
+     , (44285,  4019,      2)  /* CANTRIPQUICKNESS3 */;

@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28782,   1, 'Remote Empyrean Vault') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28782,   1,   33555926) /* Setup */
-     , (28782,   2,  150994947) /* MotionTable */
-     , (28782,   8,  100667499) /* Icon */;
+VALUES (28782,   1, 0x020005D6) /* Setup */
+     , (28782,   2, 0x09000003) /* MotionTable */
+     , (28782,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28782, 8040, 652541980, 86.8363, 94.8453, 15.17336, -0.9687086, 0, 0, -0.2482009) /* PCAPRecordedLocation */
+VALUES (28782, 8040, 0x26E5001C, 86.8363, 94.8453, 15.17336, -0.968709, 0, 0, -0.248201) /* PCAPRecordedLocation */
 /* @teleloc 0x26E5001C [86.836300 94.845300 15.173360] -0.968709 0.000000 0.000000 -0.248201 */;

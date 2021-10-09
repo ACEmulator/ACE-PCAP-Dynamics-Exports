@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25977,   1, 'Crest of the Shagar Zharala') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25977,   1,   33554683) /* Setup */
-     , (25977,   3,  536870932) /* SoundTable */
-     , (25977,   8,  100675674) /* Icon */
-     , (25977,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25977,   1, 0x020000FB) /* Setup */
+     , (25977,   3, 0x20000014) /* SoundTable */
+     , (25977,   8, 0x0600305A) /* Icon */
+     , (25977,  22, 0x3400002B) /* PhysicsEffectTable */;

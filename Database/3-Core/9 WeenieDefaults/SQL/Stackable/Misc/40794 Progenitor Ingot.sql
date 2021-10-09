@@ -30,7 +30,7 @@ VALUES (40794,   1, 'Progenitor Ingot') /* Name */
      , (40794,  15, 'An ingot created from the essences of all six Progenitors.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40794,   1,   33559838) /* Setup */
-     , (40794,   3,  536870932) /* SoundTable */
-     , (40794,   8,  100672516) /* Icon */
-     , (40794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40794,   1, 0x0200151E) /* Setup */
+     , (40794,   3, 0x20000014) /* SoundTable */
+     , (40794,   8, 0x06002404) /* Icon */
+     , (40794,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,7 +36,7 @@ VALUES (36227,   1, 'Coral Shield') /* Name */
      , (36227,  16, 'A shield made of the remnants of many Coral Golems. It appears to be held together by some sort of viscous water that offers protection against most types of damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36227,   1,   33560375) /* Setup */
-     , (36227,   3,  536870932) /* SoundTable */
-     , (36227,   8,  100689610) /* Icon */
-     , (36227,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36227,   1, 0x02001737) /* Setup */
+     , (36227,   3, 0x20000014) /* SoundTable */
+     , (36227,   8, 0x060066CA) /* Icon */
+     , (36227,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -32,9 +32,9 @@ VALUES (51372,   1, 'Frozen Valley Portal Gem') /* Name */
      , (51372,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51372,   1,   33556769) /* Setup */
-     , (51372,   3,  536870932) /* SoundTable */
-     , (51372,   6,   67111919) /* PaletteBase */
-     , (51372,   8,  100693112) /* Icon */
-     , (51372,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51372,   1, 0x02000921) /* Setup */
+     , (51372,   3, 0x20000014) /* SoundTable */
+     , (51372,   6, 0x04000BEF) /* PaletteBase */
+     , (51372,   8, 0x06007478) /* Icon */
+     , (51372,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51372,  28,       6147) /* Spell - PortalSendingIceValley */;

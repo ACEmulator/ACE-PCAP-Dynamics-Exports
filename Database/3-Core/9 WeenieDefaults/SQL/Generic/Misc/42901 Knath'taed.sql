@@ -18,9 +18,9 @@ VALUES (42901,   1, 'Knath''taed') /* Name */
      , (42901,  16, 'Knath''taed appear as translucent slabs of crystal. They remained another inexplicable wonder of Dereth until the opening of the Caverns of Laeraa in Harvestgain of Portal Year 11. While the town of Xarabydun was built in the upper levels of the cave complex, adventurers recovered literature from the old Empyrean archive in the lower levels. This revealed that the Knath are actually the result of "slippage"; that is, the mana released into the environment when a mage fizzles a spell, This "spilled" mana seeps into the ground, occasionally animating certain types of crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42901,   1,   33561034) /* Setup */
-     , (42901,   8,  100668115) /* Icon */;
+VALUES (42901,   1, 0x020019CA) /* Setup */
+     , (42901,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42901, 8040, 459117, 95.1239, -61.5942, 1.436, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42901, 8040, 0x0007016D, 95.1239, -61.5942, 1.436, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016D [95.123900 -61.594200 1.436000] -0.707107 0.000000 0.000000 -0.707107 */;

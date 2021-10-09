@@ -39,12 +39,12 @@ VALUES (32630,   1, 'Whispering Blade Gloves') /* Name */
      , (32630,  16, 'These enchanted gloves bear the blade sigil of the enigmatic Whispering Blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32630,   1,   33559828) /* Setup */
-     , (32630,   3,  536870932) /* SoundTable */
-     , (32630,   8,  100688570) /* Icon */
-     , (32630,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32630,   1, 0x02001514) /* Setup */
+     , (32630,   3, 0x20000014) /* SoundTable */
+     , (32630,   8, 0x060062BA) /* Icon */
+     , (32630,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32630,  1378,      2)  /* CoordinationSelf6 */
-     , (32630,  2108,      2)  /* Impenetrability7 */
-     , (32630,  2659,      2)  /* ModerateCoordination */;
+     , (32630,  2659,      2)  /* ModerateCoordination */
+     , (32630,  2108,      2)  /* Impenetrability7 */;

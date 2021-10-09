@@ -23,8 +23,8 @@ VALUES (52445,   1, 'Pack Pilferer') /* Name */
      , (52445,  16, 'A sneaky, present thieving, little Drudge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52445,   1,   33556445) /* Setup */
-     , (52445,   2,  150995113) /* MotionTable */
-     , (52445,   6,   67112812) /* PaletteBase */
-     , (52445,   8,  100693280) /* Icon */
-     , (52445,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (52445,   1, 0x020007DD) /* Setup */
+     , (52445,   2, 0x090000A9) /* MotionTable */
+     , (52445,   6, 0x04000F6C) /* PaletteBase */
+     , (52445,   8, 0x06007520) /* Icon */
+     , (52445,  22, 0x3400001A) /* PhysicsEffectTable */;

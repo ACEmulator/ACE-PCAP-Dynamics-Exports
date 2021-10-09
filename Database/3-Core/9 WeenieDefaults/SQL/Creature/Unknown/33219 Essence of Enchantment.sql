@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33219,   1, 'Essence of Enchantment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33219,   1,   33557033) /* Setup */
-     , (33219,   2,  150995087) /* MotionTable */
-     , (33219,   3,  536870985) /* SoundTable */
-     , (33219,   8,  100671612) /* Icon */
-     , (33219,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (33219,   1, 0x02000A29) /* Setup */
+     , (33219,   2, 0x0900008F) /* MotionTable */
+     , (33219,   3, 0x20000049) /* SoundTable */
+     , (33219,   8, 0x0600207C) /* Icon */
+     , (33219,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33219, 8040, 7340289, -0.2571974, -6.158775, -35.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33219, 8040, 0x00700101, -0.257197, -6.158775, -35.9925, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00700101 [-0.257197 -6.158775 -35.992500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -37,12 +37,12 @@ VALUES (27217,   1, 'Chiran Helm') /* Name */
      , (27217,  16, 'Chiran Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27217,   1,   33555248) /* Setup */
-     , (27217,   3,  536870932) /* SoundTable */
-     , (27217,   6,   67108990) /* PaletteBase */
-     , (27217,   8,  100675947) /* Icon */
-     , (27217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27217,   1, 0x02000330) /* Setup */
+     , (27217,   3, 0x20000014) /* SoundTable */
+     , (27217,   6, 0x0400007E) /* PaletteBase */
+     , (27217,   8, 0x0600316B) /* Icon */
+     , (27217,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27217, 8040, 8913199, 59.11436, -15.53547, -72.0025, -0.9992737, 0, 0, -0.03810666) /* PCAPRecordedLocation */
+VALUES (27217, 8040, 0x0088012F, 59.11436, -15.53547, -72.0025, -0.999274, 0, 0, -0.038107) /* PCAPRecordedLocation */
 /* @teleloc 0x0088012F [59.114360 -15.535470 -72.002500] -0.999274 0.000000 0.000000 -0.038107 */;

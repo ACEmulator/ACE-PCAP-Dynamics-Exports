@@ -48,16 +48,16 @@ VALUES (30589,   1, 'Flaming Flanged Mace') /* Name */
      , (30589,  16, 'Flaming Flanged Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30589,   1,   33559475) /* Setup */
-     , (30589,   3,  536870932) /* SoundTable */
-     , (30589,   6,   67115559) /* PaletteBase */
-     , (30589,   8,  100686974) /* Icon */
-     , (30589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30589,   1, 0x020013B3) /* Setup */
+     , (30589,   3, 0x20000014) /* SoundTable */
+     , (30589,   6, 0x04001A27) /* PaletteBase */
+     , (30589,   8, 0x06005C7E) /* Icon */
+     , (30589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30589,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (30589,  52,  100676441) /* IconUnderlay */;
+     , (30589,  52, 0x06003359) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30589, 8040, 2045247496, 1.319467, 192.0142, 161.9299, 0.5475391, 0.5475391, 0.4474382, 0.4474382) /* PCAPRecordedLocation */
+VALUES (30589, 8040, 0x79E80008, 1.319467, 192.0142, 161.9299, 0.547539, 0.547539, 0.447438, 0.447438) /* PCAPRecordedLocation */
 /* @teleloc 0x79E80008 [1.319467 192.014200 161.929900] 0.547539 0.547539 0.447438 0.447438 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

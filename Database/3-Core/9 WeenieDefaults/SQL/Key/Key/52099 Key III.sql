@@ -25,7 +25,7 @@ VALUES (52099,   1, 'Key III') /* Name */
      , (52099,  16, 'This is a key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52099,   1,   33554784) /* Setup */
-     , (52099,   3,  536870932) /* SoundTable */
-     , (52099,   8,  100693235) /* Icon */
-     , (52099,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52099,   1, 0x02000160) /* Setup */
+     , (52099,   3, 0x20000014) /* SoundTable */
+     , (52099,   8, 0x060074F3) /* Icon */
+     , (52099,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -35,20 +35,20 @@ VALUES (977,   1, 'Thawasa al-La''ud the Bowyer') /* Name */
      , (977,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (977,   1,   33554510) /* Setup */
-     , (977,   2,  150994945) /* MotionTable */
-     , (977,   3,  536870914) /* SoundTable */
-     , (977,   6,   67108990) /* PaletteBase */
-     , (977,   8,  100667446) /* Icon */
-     , (977,   9,   83890278) /* EyesTexture */
-     , (977,  10,   83890302) /* NoseTexture */
-     , (977,  11,   83890344) /* MouthTexture */
-     , (977,  15,   67117024) /* HairPalette */
-     , (977,  16,   67110062) /* EyesPalette */
-     , (977,  17,   67109555) /* SkinPalette */;
+VALUES (977,   1, 0x0200004E) /* Setup */
+     , (977,   2, 0x09000001) /* MotionTable */
+     , (977,   3, 0x20000002) /* SoundTable */
+     , (977,   6, 0x0400007E) /* PaletteBase */
+     , (977,   8, 0x06001036) /* Icon */
+     , (977,   9, 0x05001066) /* EyesTexture */
+     , (977,  10, 0x0500107E) /* NoseTexture */
+     , (977,  11, 0x050010A8) /* MouthTexture */
+     , (977,  15, 0x04001FE0) /* HairPalette */
+     , (977,  16, 0x040004AE) /* EyesPalette */
+     , (977,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (977, 8040, 2541420873, 185.16, 160.8, 0.004999995, -0.5983249, 0, 0, -0.8012536) /* PCAPRecordedLocation */
+VALUES (977, 8040, 0x977B0149, 185.16, 160.8, 0.005, -0.598325, 0, 0, -0.801254) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0149 [185.160000 160.800000 0.005000] -0.598325 0.000000 0.000000 -0.801254 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

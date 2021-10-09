@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51250,   1, 'West Fork Dam Hive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51250,   1,   33555924) /* Setup */
-     , (51250,   2,  150994947) /* MotionTable */
-     , (51250,   8,  100667499) /* Icon */;
+VALUES (51250,   1, 0x020005D4) /* Setup */
+     , (51250,   2, 0x09000003) /* MotionTable */
+     , (51250,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51250, 8040, 465305623, 71.0945, 149.919, 95.937, -0.6902438, 0, 0, 0.7235768) /* PCAPRecordedLocation */
+VALUES (51250, 8040, 0x1BBC0017, 71.0945, 149.919, 95.937, -0.690244, 0, 0, 0.723577) /* PCAPRecordedLocation */
 /* @teleloc 0x1BBC0017 [71.094500 149.919000 95.937000] -0.690244 0.000000 0.000000 0.723577 */;

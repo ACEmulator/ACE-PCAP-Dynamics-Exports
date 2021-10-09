@@ -52,15 +52,15 @@ VALUES (29254,   1, 'Electric Atlatl') /* Name */
      , (29254,  16, 'Electric Atlatl of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29254,   1,   33559245) /* Setup */
-     , (29254,   3,  536870932) /* SoundTable */
-     , (29254,   6,   67115373) /* PaletteBase */
-     , (29254,   8,  100677455) /* Icon */
-     , (29254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29254,   1, 0x020012CD) /* Setup */
+     , (29254,   3, 0x20000014) /* SoundTable */
+     , (29254,   6, 0x0400196D) /* PaletteBase */
+     , (29254,   8, 0x0600374F) /* Icon */
+     , (29254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29254,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29254,  1615,      2)  /* BloodDrinkerSelf5 */
+VALUES (29254,  2059,      2)  /* CoordinationSelf7 */
+     , (29254,  1615,      2)  /* BloodDrinkerSelf5 */
      , (29254,  1627,      2)  /* SwiftKillerSelf6 */
-     , (29254,  2059,      2)  /* CoordinationSelf7 */
      , (29254,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;

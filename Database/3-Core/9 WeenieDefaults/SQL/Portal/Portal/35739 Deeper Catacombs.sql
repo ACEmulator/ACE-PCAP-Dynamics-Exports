@@ -22,10 +22,10 @@ VALUES (35739,   1, 'Deeper Catacombs') /* Name */
      , (35739,  16, 'This portal seems warded by a strange mix of energies.  You have no idea how to access it directly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35739,   1,   33555925) /* Setup */
-     , (35739,   2,  150994947) /* MotionTable */
-     , (35739,   8,  100667499) /* Icon */;
+VALUES (35739,   1, 0x020005D5) /* Setup */
+     , (35739,   2, 0x09000003) /* MotionTable */
+     , (35739,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35739, 8040, 1581580836, 40, -160, -6.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35739, 8040, 0x5E450224, 40, -160, -6.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5E450224 [40.000000 -160.000000 -6.063000] 1.000000 0.000000 0.000000 0.000000 */;

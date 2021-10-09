@@ -40,13 +40,13 @@ VALUES (33950,   1, 'Enhanced Robe of the Tundra') /* Name */
      , (33950,  16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it stronger and more resistant to damage. This robe has been enhanced by Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33950,   1,   33554854) /* Setup */
-     , (33950,   3,  536870932) /* SoundTable */
-     , (33950,   6,   67108990) /* PaletteBase */
-     , (33950,   8,  100674100) /* Icon */
-     , (33950,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33950,   1, 0x020001A6) /* Setup */
+     , (33950,   3, 0x20000014) /* SoundTable */
+     , (33950,   6, 0x0400007E) /* PaletteBase */
+     , (33950,   8, 0x06002A34) /* Icon */
+     , (33950,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33950,  2155,      2)  /* ColdProtectionSelf7 */
-     , (33950,  2619,      2)  /* CANTRIPFROSTWARD1 */
-     , (33950,  4018,      2)  /* Permafrost */;
+     , (33950,  4018,      2)  /* Permafrost */
+     , (33950,  2619,      2)  /* CANTRIPFROSTWARD1 */;

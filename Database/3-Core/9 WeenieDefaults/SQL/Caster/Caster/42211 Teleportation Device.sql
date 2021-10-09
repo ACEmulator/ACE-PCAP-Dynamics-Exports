@@ -41,13 +41,13 @@ VALUES (42211,   1, 'Teleportation Device') /* Name */
      , (42211,  16, 'A simple orb used to cast a portal sending spell on the owner. When you touch the orb you get the sense of a message, it feels like someone wants to meet you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42211,   1,   33554669) /* Setup */
-     , (42211,   3,  536870932) /* SoundTable */
-     , (42211,   6,   67111928) /* PaletteBase */
-     , (42211,   8,  100668722) /* Icon */
-     , (42211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42211,   1, 0x020000ED) /* Setup */
+     , (42211,   3, 0x20000014) /* SoundTable */
+     , (42211,   6, 0x04000BF8) /* PaletteBase */
+     , (42211,   8, 0x06001532) /* Icon */
+     , (42211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42211,  28,       5175) /* Spell - PortalSendHubNPE */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42211, 8040, 3147759892, 142.3663, 108.306, 63.584, 0.5818546, 0.5818546, -0.4018025, -0.4018025) /* PCAPRecordedLocation */
+VALUES (42211, 8040, 0xBB9F0114, 142.3663, 108.306, 63.584, 0.581855, 0.581855, -0.401803, -0.401803) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0114 [142.366300 108.306000 63.584000] 0.581855 0.581855 -0.401803 -0.401803 */;

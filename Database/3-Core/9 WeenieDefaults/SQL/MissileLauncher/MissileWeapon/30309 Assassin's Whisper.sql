@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30309,   1, 'Assassin''s Whisper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30309,   1,   33559373) /* Setup */
-     , (30309,   3,  536870932) /* SoundTable */
-     , (30309,   6,   67111919) /* PaletteBase */
-     , (30309,   8,  100686729) /* Icon */
-     , (30309,  22,  872415275) /* PhysicsEffectTable */
-     , (30309,  52,  100686604) /* IconUnderlay */;
+VALUES (30309,   1, 0x0200134D) /* Setup */
+     , (30309,   3, 0x20000014) /* SoundTable */
+     , (30309,   6, 0x04000BEF) /* PaletteBase */
+     , (30309,   8, 0x06005B89) /* Icon */
+     , (30309,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30309,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30309, 8040, 3332964380, 87.13451, 77.91826, 41.93, -0.8344954, 0, 0, -0.5510148) /* PCAPRecordedLocation */
+VALUES (30309, 8040, 0xC6A9001C, 87.13451, 77.91826, 41.93, -0.834495, 0, 0, -0.551015) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [87.134510 77.918260 41.930000] -0.834495 0.000000 0.000000 -0.551015 */;

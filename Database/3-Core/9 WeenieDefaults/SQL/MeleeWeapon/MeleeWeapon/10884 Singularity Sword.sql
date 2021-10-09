@@ -50,13 +50,13 @@ VALUES (10884,   1, 'Singularity Sword') /* Name */
      , (10884,  25, 'Stargren Dragoon') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10884,   1,   33557319) /* Setup */
-     , (10884,   3,  536870932) /* SoundTable */
-     , (10884,   6,   67111919) /* PaletteBase */
-     , (10884,   8,  100672048) /* Icon */
-     , (10884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10884,   1, 0x02000B47) /* Setup */
+     , (10884,   3, 0x20000014) /* SoundTable */
+     , (10884,   6, 0x04000BEF) /* PaletteBase */
+     , (10884,   8, 0x06002230) /* Icon */
+     , (10884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10884,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10884,  1384,      2)  /* CoordinationOther6 */
-     , (10884,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (10884,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (10884,  1384,      2)  /* CoordinationOther6 */;

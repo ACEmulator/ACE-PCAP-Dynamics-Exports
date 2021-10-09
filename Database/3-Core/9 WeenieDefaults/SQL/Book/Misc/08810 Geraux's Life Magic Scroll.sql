@@ -26,7 +26,7 @@ VALUES (8810,   1, 'Geraux''s Life Magic Scroll') /* Name */
      , (8810,  16, 'A Life Magic spell scroll taken from Geraux the Legate, a Virindi Master.  It may affect health regeneration.  It needs to be translated before the spell can be learned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8810,   1,   33555391) /* Setup */
-     , (8810,   3,  536870932) /* SoundTable */
-     , (8810,   8,  100671183) /* Icon */
-     , (8810,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8810,   1, 0x020003BF) /* Setup */
+     , (8810,   3, 0x20000014) /* SoundTable */
+     , (8810,   8, 0x06001ECF) /* Icon */
+     , (8810,  22, 0x3400002B) /* PhysicsEffectTable */;

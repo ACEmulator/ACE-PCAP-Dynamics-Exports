@@ -20,7 +20,7 @@ VALUES (46288,   1, 'Tiny''s Head') /* Name */
      , (46288,  16, 'The head of the vicious penguin Tiny. The eyes appear to be looking towards the door to the east of Tiny''s lair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46288,   1,   33559768) /* Setup */
-     , (46288,   3,  536870932) /* SoundTable */
-     , (46288,   8,  100688477) /* Icon */
-     , (46288,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46288,   1, 0x020014D8) /* Setup */
+     , (46288,   3, 0x20000014) /* SoundTable */
+     , (46288,   8, 0x0600625D) /* Icon */
+     , (46288,  22, 0x3400002B) /* PhysicsEffectTable */;

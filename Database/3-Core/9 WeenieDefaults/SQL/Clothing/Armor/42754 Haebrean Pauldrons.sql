@@ -38,8 +38,8 @@ VALUES (42754,   1, 'Haebrean Pauldrons') /* Name */
      , (42754,  16, 'Haebrean Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42754,   1,   33554641) /* Setup */
-     , (42754,   3,  536870932) /* SoundTable */
-     , (42754,   6,   67108990) /* PaletteBase */
-     , (42754,   8,  100691113) /* Icon */
-     , (42754,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42754,   1, 0x020000D1) /* Setup */
+     , (42754,   3, 0x20000014) /* SoundTable */
+     , (42754,   6, 0x0400007E) /* PaletteBase */
+     , (42754,   8, 0x06006CA9) /* Icon */
+     , (42754,  22, 0x3400002B) /* PhysicsEffectTable */;

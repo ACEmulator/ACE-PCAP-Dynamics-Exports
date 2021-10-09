@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6356,   1, 'Silencia''s Magma Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6356,   1,   33556427) /* Setup */
-     , (6356,   2,  150995073) /* MotionTable */
-     , (6356,   3,  536870933) /* SoundTable */
-     , (6356,   8,  100667940) /* Icon */
-     , (6356,  22,  872415325) /* PhysicsEffectTable */;
+VALUES (6356,   1, 0x020007CB) /* Setup */
+     , (6356,   2, 0x09000081) /* MotionTable */
+     , (6356,   3, 0x20000015) /* SoundTable */
+     , (6356,   8, 0x06001224) /* Icon */
+     , (6356,  22, 0x3400005D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6356, 8040, 2429550613, 62.1963, 107.7, 297.2095, 0.764914, 0, 0, 0.644132) /* PCAPRecordedLocation */
+VALUES (6356, 8040, 0x90D00015, 62.1963, 107.7, 297.2095, 0.764914, 0, 0, 0.644132) /* PCAPRecordedLocation */
 /* @teleloc 0x90D00015 [62.196300 107.700000 297.209500] 0.764914 0.000000 0.000000 0.644132 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

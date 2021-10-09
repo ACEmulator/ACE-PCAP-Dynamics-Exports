@@ -36,8 +36,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24906,   1, 'Lesser Olthoi Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24906,   1,   33554656) /* Setup */
-     , (24906,   3,  536870932) /* SoundTable */
-     , (24906,   6,   67108990) /* PaletteBase */
-     , (24906,   8,  100674565) /* Icon */
-     , (24906,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24906,   1, 0x020000E0) /* Setup */
+     , (24906,   3, 0x20000014) /* SoundTable */
+     , (24906,   6, 0x0400007E) /* PaletteBase */
+     , (24906,   8, 0x06002C05) /* Icon */
+     , (24906,  22, 0x3400002B) /* PhysicsEffectTable */;

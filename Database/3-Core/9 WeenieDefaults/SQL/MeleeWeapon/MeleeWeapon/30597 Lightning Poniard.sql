@@ -42,8 +42,8 @@ VALUES (30597,   1, 'Lightning Poniard') /* Name */
      , (30597,  16, 'Lightning Poniard') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30597,   1,   33559487) /* Setup */
-     , (30597,   3,  536870932) /* SoundTable */
-     , (30597,   6,   67116417) /* PaletteBase */
-     , (30597,   8,  100686994) /* Icon */
-     , (30597,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30597,   1, 0x020013BF) /* Setup */
+     , (30597,   3, 0x20000014) /* SoundTable */
+     , (30597,   6, 0x04001D81) /* PaletteBase */
+     , (30597,   8, 0x06005C92) /* Icon */
+     , (30597,  22, 0x3400002B) /* PhysicsEffectTable */;

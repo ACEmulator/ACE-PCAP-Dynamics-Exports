@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32844,   1, 'The Dark Spiral') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32844,   1,   33555925) /* Setup */
-     , (32844,   2,  150994947) /* MotionTable */
-     , (32844,   8,  100667499) /* Icon */;
+VALUES (32844,   1, 0x020005D5) /* Setup */
+     , (32844,   2, 0x09000003) /* MotionTable */
+     , (32844,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32844, 8040, 697499683, 105.987, 53.9843, 116.9396, 0.07356583, 0, 0, -0.9972904) /* PCAPRecordedLocation */
+VALUES (32844, 8040, 0x29930023, 105.987, 53.9843, 116.9396, 0.073566, 0, 0, -0.99729) /* PCAPRecordedLocation */
 /* @teleloc 0x29930023 [105.987000 53.984300 116.939600] 0.073566 0.000000 0.000000 -0.997290 */;

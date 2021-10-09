@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31674,   1, 'Orange Monster Sprout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31674,   1,   33559607) /* Setup */
-     , (31674,   3,  536870932) /* SoundTable */
-     , (31674,   6,   67116668) /* PaletteBase */
-     , (31674,   8,  100687924) /* Icon */
-     , (31674,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31674,   1, 0x02001437) /* Setup */
+     , (31674,   3, 0x20000014) /* SoundTable */
+     , (31674,   6, 0x04001E7C) /* PaletteBase */
+     , (31674,   8, 0x06006034) /* Icon */
+     , (31674,  22, 0x3400002B) /* PhysicsEffectTable */;

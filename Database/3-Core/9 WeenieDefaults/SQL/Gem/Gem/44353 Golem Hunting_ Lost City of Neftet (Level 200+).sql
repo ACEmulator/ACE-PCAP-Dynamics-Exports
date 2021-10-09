@@ -34,7 +34,7 @@ VALUES (44353,   1, 'Golem Hunting: Lost City of Neftet (Level 200+)') /* Name *
      , (44353,  16, 'A contract for hunting golems within the Lost City of Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44353,   1,   33554773) /* Setup */
-     , (44353,   3,  536870932) /* SoundTable */
-     , (44353,   8,  100691928) /* Icon */
-     , (44353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44353,   1, 0x02000155) /* Setup */
+     , (44353,   3, 0x20000014) /* SoundTable */
+     , (44353,   8, 0x06006FD8) /* Icon */
+     , (44353,  22, 0x3400002B) /* PhysicsEffectTable */;

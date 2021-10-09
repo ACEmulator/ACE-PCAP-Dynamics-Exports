@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7064,   1, 'Excellent Oiled String') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7064,   1,   33554817) /* Setup */
-     , (7064,   3,  536870932) /* SoundTable */
-     , (7064,   8,  100670730) /* Icon */
-     , (7064,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7064,   1, 0x02000181) /* Setup */
+     , (7064,   3, 0x20000014) /* SoundTable */
+     , (7064,   8, 0x06001D0A) /* Icon */
+     , (7064,  22, 0x3400002B) /* PhysicsEffectTable */;

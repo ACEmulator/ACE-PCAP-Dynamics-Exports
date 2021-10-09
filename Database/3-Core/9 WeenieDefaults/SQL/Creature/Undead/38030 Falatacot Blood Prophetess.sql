@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38030,   1, 'Falatacot Blood Prophetess') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38030,   1,   33558437) /* Setup */
-     , (38030,   2,  150994967) /* MotionTable */
-     , (38030,   3,  536870934) /* SoundTable */
-     , (38030,   6,   67114480) /* PaletteBase */
-     , (38030,   8,  100674805) /* Icon */
-     , (38030,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (38030,   1, 0x02000FA5) /* Setup */
+     , (38030,   2, 0x09000017) /* MotionTable */
+     , (38030,   3, 0x20000016) /* SoundTable */
+     , (38030,   6, 0x040015F0) /* PaletteBase */
+     , (38030,   8, 0x06002CF5) /* Icon */
+     , (38030,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38030, 8040, 14287399, 272.1591, -121.1906, 12.00975, -0.714424, 0, 0, -0.699713) /* PCAPRecordedLocation */
+VALUES (38030, 8040, 0x00DA0227, 272.1591, -121.1906, 12.00975, -0.714424, 0, 0, -0.699713) /* PCAPRecordedLocation */
 /* @teleloc 0x00DA0227 [272.159100 -121.190600 12.009750] -0.714424 0.000000 0.000000 -0.699713 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

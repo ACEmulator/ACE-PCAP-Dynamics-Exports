@@ -51,13 +51,13 @@ VALUES (3866,   1, 'Lightning Silifi') /* Name */
      , (3866,  16, 'Lightning Silifi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3866,   1,   33555781) /* Setup */
-     , (3866,   3,  536870932) /* SoundTable */
-     , (3866,   8,  100668992) /* Icon */
-     , (3866,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3866,   1, 0x02000545) /* Setup */
+     , (3866,   3, 0x20000014) /* SoundTable */
+     , (3866,   8, 0x06001640) /* Icon */
+     , (3866,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3866,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3866,  1590,      2)  /* HeartSeekerSelf4 */
-     , (3866,  1605,      2)  /* DefenderSelf6 */
-     , (3866,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3866,  1605,      2)  /* DefenderSelf6 */
+     , (3866,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3866,  1590,      2)  /* HeartSeekerSelf4 */;

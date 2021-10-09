@@ -30,12 +30,12 @@ VALUES (44281,   1, 'Bracelet of Strength') /* Name */
      , (44281,  16, 'This bracelet increases strength.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44281,   1,   33554683) /* Setup */
-     , (44281,   3,  536870932) /* SoundTable */
-     , (44281,   6,   67111919) /* PaletteBase */
-     , (44281,   8,  100668625) /* Icon */
-     , (44281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44281,   1, 0x020000FB) /* Setup */
+     , (44281,   3, 0x20000014) /* SoundTable */
+     , (44281,   6, 0x04000BEF) /* PaletteBase */
+     , (44281,   8, 0x060014D1) /* Icon */
+     , (44281,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44281,  3965,      2)  /* CANTRIPSTRENGTH3 */
-     , (44281,  4324,      2)  /* StrengthOther8 */;
+VALUES (44281,  4324,      2)  /* StrengthOther8 */
+     , (44281,  3965,      2)  /* CANTRIPSTRENGTH3 */;

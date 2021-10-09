@@ -33,11 +33,11 @@ VALUES (52023,   1, 'Luminous Crystal of Rare Armor Damage Boost V') /* Name */
      , (52023,  20, 'Luminous Crystals of Rare Armor Damage Boost V') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52023,   1,   33554809) /* Setup */
-     , (52023,   3,  536870932) /* SoundTable */
-     , (52023,   6,   67111919) /* PaletteBase */
-     , (52023,   8,  100690568) /* Icon */
-     , (52023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52023,   1, 0x02000179) /* Setup */
+     , (52023,   3, 0x20000014) /* SoundTable */
+     , (52023,   6, 0x04000BEF) /* PaletteBase */
+     , (52023,   8, 0x06006A88) /* Icon */
+     , (52023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52023,  28,       5978) /* Spell - RareArmorDamageBoost5 */
-     , (52023,  50,  100686635) /* IconOverlay */
-     , (52023,  52,  100691593) /* IconUnderlay */;
+     , (52023,  50, 0x06005B2B) /* IconOverlay */
+     , (52023,  52, 0x06006E89) /* IconUnderlay */;

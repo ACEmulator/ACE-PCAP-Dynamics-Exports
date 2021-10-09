@@ -31,9 +31,9 @@ VALUES (41447,   1, 'Platinum Medal of Intellect') /* Name */
      , (41447,  16, 'This medal is eternal. Use this medal to increase the Mana of your Fellowship by 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41447,   1,   33554802) /* Setup */
-     , (41447,   3,  536870932) /* SoundTable */
-     , (41447,   8,  100690741) /* Icon */
-     , (41447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41447,   1, 0x02000172) /* Setup */
+     , (41447,   3, 0x20000014) /* SoundTable */
+     , (41447,   8, 0x06006B35) /* Icon */
+     , (41447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41447,  28,       5127) /* Spell - AnswerOfLoyaltyMana5 */
      , (41447,  37,         36) /* ItemSkillLimit - Loyalty */;

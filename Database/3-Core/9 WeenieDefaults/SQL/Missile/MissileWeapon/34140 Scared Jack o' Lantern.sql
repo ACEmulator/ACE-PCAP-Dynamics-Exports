@@ -37,12 +37,12 @@ VALUES (34140,   1, 'Scared Jack o'' Lantern') /* Name */
      , (34140,  16, 'A superbly crafted jack o'' lantern, made with a carving knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34140,   1,   33556809) /* Setup */
-     , (34140,   3,  536870932) /* SoundTable */
-     , (34140,   6,   67112968) /* PaletteBase */
-     , (34140,   8,  100689206) /* Icon */
-     , (34140,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34140,   1, 0x02000949) /* Setup */
+     , (34140,   3, 0x20000014) /* SoundTable */
+     , (34140,   6, 0x04001008) /* PaletteBase */
+     , (34140,   8, 0x06006536) /* Icon */
+     , (34140,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34140, 8040, 23855549, 49.7606, -35.98905, -0.06949999, 0.4853382, 0.4853382, -0.5142439, -0.5142439) /* PCAPRecordedLocation */
+VALUES (34140, 8040, 0x016C01BD, 49.7606, -35.98905, -0.0695, 0.485338, 0.485338, -0.514244, -0.514244) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [49.760600 -35.989050 -0.069500] 0.485338 0.485338 -0.514244 -0.514244 */;

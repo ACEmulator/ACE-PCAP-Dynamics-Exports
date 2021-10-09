@@ -51,14 +51,14 @@ VALUES (30746,   1, 'Dart Flinger') /* Name */
      , (30746,  16, 'Dart Flinger of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30746,   1,   33559503) /* Setup */
-     , (30746,   3,  536870932) /* SoundTable */
-     , (30746,   6,   67115555) /* PaletteBase */
-     , (30746,   8,  100687089) /* Icon */
-     , (30746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30746,   1, 0x020013CF) /* Setup */
+     , (30746,   3, 0x20000014) /* SoundTable */
+     , (30746,   6, 0x04001A23) /* PaletteBase */
+     , (30746,   8, 0x06005CF1) /* Icon */
+     , (30746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30746,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30746,  1332,      2)  /* StrengthSelf6 */
-     , (30746,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (30746,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;
+VALUES (30746,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30746,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
+     , (30746,  1332,      2)  /* StrengthSelf6 */;

@@ -48,19 +48,19 @@ VALUES (45103,   1, 'Frost Epee') /* Name */
      , (45103,  16, 'Frost Epee of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45103,   1,   33561440) /* Setup */
-     , (45103,   3,  536870932) /* SoundTable */
-     , (45103,   6,   67111919) /* PaletteBase */
-     , (45103,   8,  100692291) /* Icon */
-     , (45103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45103,   1, 0x02001B60) /* Setup */
+     , (45103,   3, 0x20000014) /* SoundTable */
+     , (45103,   6, 0x04000BEF) /* PaletteBase */
+     , (45103,   8, 0x06007143) /* Icon */
+     , (45103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45103,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (45103,  52,  100676435) /* IconUnderlay */;
+     , (45103,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45103, 8040, 3465871405, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (45103, 8040, 0xCE95002D, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45103,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45103,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (45103,  5879,      2)  /* SneakAttackMasterySelf5 */;
+VALUES (45103,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45103,  5879,      2)  /* SneakAttackMasterySelf5 */
+     , (45103,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -42,18 +42,18 @@ VALUES (34040,   1, 'Fiun Crown') /* Name */
      , (34040,  16, 'A delicate golden crown inset with red gems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34040,   1,   33560125) /* Setup */
-     , (34040,   3,  536870932) /* SoundTable */
-     , (34040,   6,   67108990) /* PaletteBase */
-     , (34040,   8,  100689226) /* Icon */
-     , (34040,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34040,   1, 0x0200163D) /* Setup */
+     , (34040,   3, 0x20000014) /* SoundTable */
+     , (34040,   6, 0x0400007E) /* PaletteBase */
+     , (34040,   8, 0x0600654A) /* Icon */
+     , (34040,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34040,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34040,  2108,      2)  /* Impenetrability7 */
+VALUES (34040,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (34040,  2661,      2)  /* ModerateFocus */
      , (34040,  2215,      2)  /* CreatureEnchantmentMasterySelf7 */
+     , (34040,  2664,      2)  /* ModerateWillpower */
      , (34040,  2281,      2)  /* MagicResistanceSelf7 */
      , (34040,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
-     , (34040,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
-     , (34040,  2661,      2)  /* ModerateFocus */
-     , (34040,  2664,      2)  /* ModerateWillpower */;
+     , (34040,  2108,      2)  /* Impenetrability7 */;

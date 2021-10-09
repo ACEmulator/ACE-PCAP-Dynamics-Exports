@@ -27,12 +27,12 @@ VALUES (22754,   1, 'Guardian of the Temple of Forgetfulness') /* Name */
      , (22754,  15, 'A very large empyrean head. It appears to be watching you.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22754,   1,   33555377) /* Setup */
-     , (22754,   2,  150995147) /* MotionTable */
-     , (22754,   3,  536871052) /* SoundTable */
-     , (22754,   8,  100667624) /* Icon */
-     , (22754,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (22754,   1, 0x020003B1) /* Setup */
+     , (22754,   2, 0x090000CB) /* MotionTable */
+     , (22754,   3, 0x2000008C) /* SoundTable */
+     , (22754,   8, 0x060010E8) /* Icon */
+     , (22754,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22754, 8040, 2146304028, 92.293, 93.271, 106.2274, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (22754, 8040, 0x7FEE001C, 92.293, 93.271, 106.2274, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x7FEE001C [92.293000 93.271000 106.227400] 0.000000 0.000000 0.000000 -1.000000 */;

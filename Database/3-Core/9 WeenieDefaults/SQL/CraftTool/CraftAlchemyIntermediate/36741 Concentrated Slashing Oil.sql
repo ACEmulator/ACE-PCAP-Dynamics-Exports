@@ -26,12 +26,12 @@ VALUES (36741,   1, 'Concentrated Slashing Oil') /* Name */
      , (36741,  20, 'Vials of Concentrated Slashing Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36741,   1,   33555967) /* Setup */
-     , (36741,   3,  536870932) /* SoundTable */
-     , (36741,   6,   67111919) /* PaletteBase */
-     , (36741,   8,  100689714) /* Icon */
-     , (36741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36741,   1, 0x020005FF) /* Setup */
+     , (36741,   3, 0x20000014) /* SoundTable */
+     , (36741,   6, 0x04000BEF) /* PaletteBase */
+     , (36741,   8, 0x06006732) /* Icon */
+     , (36741,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36741, 8040, 2103705619, 63.07865, 49.92459, 12, 0.7263915, 0, 0, -0.6872812) /* PCAPRecordedLocation */
+VALUES (36741, 8040, 0x7D640013, 63.07865, 49.92459, 12, 0.726392, 0, 0, -0.687281) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [63.078650 49.924590 12.000000] 0.726392 0.000000 0.000000 -0.687281 */;

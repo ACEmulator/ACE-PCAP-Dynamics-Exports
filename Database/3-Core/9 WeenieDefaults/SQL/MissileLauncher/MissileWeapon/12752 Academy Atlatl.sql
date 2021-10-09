@@ -37,12 +37,12 @@ VALUES (12752,   1, 'Academy Atlatl') /* Name */
      , (12752,  15, 'An enhanced atlatl crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12752,   1,   33557433) /* Setup */
-     , (12752,   3,  536870932) /* SoundTable */
-     , (12752,   6,   67111919) /* PaletteBase */
-     , (12752,   8,  100672412) /* Icon */
-     , (12752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12752,   1, 0x02000BB9) /* Setup */
+     , (12752,   3, 0x20000014) /* SoundTable */
+     , (12752,   6, 0x04000BEF) /* PaletteBase */
+     , (12752,   8, 0x0600239C) /* Icon */
+     , (12752,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12752, 8040, 3829202961, 96.935, 37.722, 74.4985, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (12752, 8040, 0xE43D0011, 96.935, 37.722, 74.4985, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE43D0011 [96.935000 37.722000 74.498500] 0.000000 0.000000 -0.707107 -0.707107 */;

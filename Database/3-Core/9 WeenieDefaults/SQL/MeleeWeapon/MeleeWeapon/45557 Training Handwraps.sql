@@ -37,12 +37,12 @@ VALUES (45557,   1, 'Training Handwraps') /* Name */
      , (45557,  15, 'Basic handwraps forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45557,   1,   33561411) /* Setup */
-     , (45557,   3,  536870932) /* SoundTable */
-     , (45557,   6,   67115556) /* PaletteBase */
-     , (45557,   8,  100692308) /* Icon */
-     , (45557,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45557,   1, 0x02001B43) /* Setup */
+     , (45557,   3, 0x20000014) /* SoundTable */
+     , (45557,   6, 0x04001A24) /* PaletteBase */
+     , (45557,   8, 0x06007154) /* Icon */
+     , (45557,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45557, 8040, 23200210, 59.975, -10, 11.929, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (45557, 8040, 0x016201D2, 59.975, -10, 11.929, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016201D2 [59.975000 -10.000000 11.929000] 0.000000 0.000000 -0.707107 -0.707107 */;

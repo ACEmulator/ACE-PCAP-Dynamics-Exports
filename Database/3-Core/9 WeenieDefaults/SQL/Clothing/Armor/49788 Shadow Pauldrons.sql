@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49788,   1, 'Shadow Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49788,   1,   33554653) /* Setup */
-     , (49788,   3,  536870932) /* SoundTable */
-     , (49788,   6,   67108990) /* PaletteBase */
-     , (49788,   8,  100693063) /* Icon */
-     , (49788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49788,   1, 0x020000DD) /* Setup */
+     , (49788,   3, 0x20000014) /* SoundTable */
+     , (49788,   6, 0x0400007E) /* PaletteBase */
+     , (49788,   8, 0x06007447) /* Icon */
+     , (49788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49788, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

@@ -57,21 +57,21 @@ VALUES (30308,   1, 'Zefir''s Breath') /* Name */
      , (30308,  16, 'This crossbow was commissioned by the great hunter Josya Sunin and made by Master Bowyer Scildith Dyrson. Originally this crossbow was to be used to hunt pesky Zefirs, but due to an oversight by Scildith, the spells to enchant the weapon against Zefirs was reversed. Subsequently any damage dealt to a Zefir was reduced instead of increased. Josya Sunin took the opportunity to complain to the Bowyers'' guild and reduce the price of the crossbow to a fraction of its original cost.  The word ''Master'' was stripped from Scildith''s title.  Josya did not bother to point out that the crossbow worked amazingly well against any other creature...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30308,   1,   33559372) /* Setup */
-     , (30308,   3,  536870932) /* SoundTable */
-     , (30308,   6,   67111919) /* PaletteBase */
-     , (30308,   8,  100686727) /* Icon */
-     , (30308,  22,  872415275) /* PhysicsEffectTable */
-     , (30308,  52,  100686604) /* IconUnderlay */;
+VALUES (30308,   1, 0x0200134C) /* Setup */
+     , (30308,   3, 0x20000014) /* SoundTable */
+     , (30308,   6, 0x04000BEF) /* PaletteBase */
+     , (30308,   8, 0x06005B87) /* Icon */
+     , (30308,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30308,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30308, 8040, 23855548, 49.55912, -29.36897, -0.07000001, 0.4370166, 0, 0, -0.8994535) /* PCAPRecordedLocation */
+VALUES (30308, 8040, 0x016C01BC, 49.55912, -29.36897, -0.07, 0.437017, 0, 0, -0.899454) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.559120 -29.368970 -0.070000] 0.437017 0.000000 0.000000 -0.899454 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30308,  4297,      2)  /* CoordinationSelf8 */
-     , (30308,  4400,      2)  /* DefenderSelf8 */
+     , (30308,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30308,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (30308,  4604,      2)  /* MonsterAttunementSelf8 */
+     , (30308,  4400,      2)  /* DefenderSelf8 */
      , (30308,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30308,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;
+     , (30308,  4604,      2)  /* MonsterAttunementSelf8 */;

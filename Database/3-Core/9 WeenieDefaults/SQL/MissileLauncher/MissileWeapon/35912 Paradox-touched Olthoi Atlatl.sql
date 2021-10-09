@@ -53,18 +53,18 @@ VALUES (35912,   1, 'Paradox-touched Olthoi Atlatl') /* Name */
      , (35912,  16, 'An atlatl, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35912,   1,   33560336) /* Setup */
-     , (35912,   3,  536870932) /* SoundTable */
-     , (35912,   6,   67113236) /* PaletteBase */
-     , (35912,   8,  100689560) /* Icon */
-     , (35912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35912,   1, 0x02001710) /* Setup */
+     , (35912,   3, 0x20000014) /* SoundTable */
+     , (35912,   6, 0x04001114) /* PaletteBase */
+     , (35912,   8, 0x06006698) /* Icon */
+     , (35912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35912,  55,       1789) /* ProcSpell - ShockwaveRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35912, 8040, 3300197245, 16.93629, 143.6832, 216.329, 0.2047901, 0.2047901, -0.676802, -0.676802) /* PCAPRecordedLocation */
+VALUES (35912, 8040, 0xC4B5037D, 16.93629, 143.6832, 216.329, 0.20479, 0.20479, -0.676802, -0.676802) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B5037D [16.936290 143.683200 216.329000] 0.204790 0.204790 -0.676802 -0.676802 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35912,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35912,  2101,      2)  /* DefenderSelf7 */
-     , (35912,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (35912,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35912,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35912,  2101,      2)  /* DefenderSelf7 */;

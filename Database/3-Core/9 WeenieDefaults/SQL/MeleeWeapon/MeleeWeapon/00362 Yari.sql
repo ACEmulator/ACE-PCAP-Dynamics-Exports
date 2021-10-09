@@ -47,15 +47,15 @@ VALUES (362,   1, 'Yari') /* Name */
      , (362,  16, 'Yari of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (362,   1,   33554824) /* Setup */
-     , (362,   3,  536870932) /* SoundTable */
-     , (362,   6,   67111919) /* PaletteBase */
-     , (362,   8,  100669086) /* Icon */
-     , (362,  22,  872415275) /* PhysicsEffectTable */
+VALUES (362,   1, 0x02000188) /* Setup */
+     , (362,   3, 0x20000014) /* SoundTable */
+     , (362,   6, 0x04000BEF) /* PaletteBase */
+     , (362,   8, 0x0600169E) /* Icon */
+     , (362,  22, 0x3400002B) /* PhysicsEffectTable */
      , (362,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (362, 8040, 288555037, 88.59075, 110.837, 65.92901, -0.5054438, -0.5054438, -0.4944963, -0.4944963) /* PCAPRecordedLocation */
+VALUES (362, 8040, 0x1133001D, 88.59075, 110.837, 65.92901, -0.505444, -0.505444, -0.494496, -0.494496) /* PCAPRecordedLocation */
 /* @teleloc 0x1133001D [88.590750 110.837000 65.929010] -0.505444 -0.505444 -0.494496 -0.494496 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

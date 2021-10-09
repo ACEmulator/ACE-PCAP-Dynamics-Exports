@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46041,   1, 'Blackfire Smoldering Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46041,   1,   33556353) /* Setup */
-     , (46041,   3,  536870932) /* SoundTable */
-     , (46041,   6,   67111919) /* PaletteBase */
-     , (46041,   8,  100670515) /* Icon */
-     , (46041,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46041,   1, 0x02000781) /* Setup */
+     , (46041,   3, 0x20000014) /* SoundTable */
+     , (46041,   6, 0x04000BEF) /* PaletteBase */
+     , (46041,   8, 0x06001C33) /* Icon */
+     , (46041,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46041, 8040, 3332964380, 80.04971, 92.00039, 41.929, -0.7037973, -0.7037973, -0.0683327, -0.0683327) /* PCAPRecordedLocation */
+VALUES (46041, 8040, 0xC6A9001C, 80.04971, 92.00039, 41.929, -0.703797, -0.703797, -0.068333, -0.068333) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.049710 92.000390 41.929000] -0.703797 -0.703797 -0.068333 -0.068333 */;

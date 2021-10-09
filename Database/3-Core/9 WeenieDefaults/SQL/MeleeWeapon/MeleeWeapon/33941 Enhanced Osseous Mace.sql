@@ -47,20 +47,20 @@ VALUES (33941,   1, 'Enhanced Osseous Mace') /* Name */
      , (33941,  16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone shines with a ruddy flame and is enhanced by Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33941,   1,   33557329) /* Setup */
-     , (33941,   3,  536870932) /* SoundTable */
-     , (33941,   8,  100674096) /* Icon */
-     , (33941,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33941,   1, 0x02000B51) /* Setup */
+     , (33941,   3, 0x20000014) /* SoundTable */
+     , (33941,   8, 0x06002A30) /* Icon */
+     , (33941,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33941, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (33941, 8040, 0x00070145, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33941,  1312,      2)  /* ArmorSelf6 */
-     , (33941,  1626,      2)  /* SwiftKillerSelf5 */
+VALUES (33941,  1626,      2)  /* SwiftKillerSelf5 */
+     , (33941,  1312,      2)  /* ArmorSelf6 */
+     , (33941,  2155,      2)  /* ColdProtectionSelf7 */
      , (33941,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33941,  2101,      2)  /* DefenderSelf7 */
-     , (33941,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33941,  2155,      2)  /* ColdProtectionSelf7 */
-     , (33941,  2486,      2)  /* BLOODTHIRST */;
+     , (33941,  2486,      2)  /* BLOODTHIRST */
+     , (33941,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -20,8 +20,8 @@ VALUES (31990,   1, 'Ultramarine Pigmentation Apparatus') /* Name */
      , (31990,  20, 'Ultramarine Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31990,   1,   33556753) /* Setup */
-     , (31990,   3,  536870932) /* SoundTable */
-     , (31990,   6,   67111919) /* PaletteBase */
-     , (31990,   8,  100688317) /* Icon */
-     , (31990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31990,   1, 0x02000911) /* Setup */
+     , (31990,   3, 0x20000014) /* SoundTable */
+     , (31990,   6, 0x04000BEF) /* PaletteBase */
+     , (31990,   8, 0x060061BD) /* Icon */
+     , (31990,  22, 0x3400002B) /* PhysicsEffectTable */;

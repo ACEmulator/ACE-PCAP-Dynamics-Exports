@@ -23,11 +23,11 @@ VALUES (4391,   1, 'Scroll of Armor Self III') /* Name */
 Increases the caster''s natural armor by 75 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4391,   1,   33554826) /* Setup */
-     , (4391,   8,  100676928) /* Icon */
-     , (4391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4391,   1, 0x0200018A) /* Setup */
+     , (4391,   8, 0x06003540) /* Icon */
+     , (4391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4391,  28,       1309) /* Spell - ArmorSelf3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4391, 8040, 3562209536, 96.91166, 50.44539, 34.8855, -0.931491, 0, 0, -0.363764) /* PCAPRecordedLocation */
+VALUES (4391, 8040, 0xD4530100, 96.91166, 50.44539, 34.8855, -0.931491, 0, 0, -0.363764) /* PCAPRecordedLocation */
 /* @teleloc 0xD4530100 [96.911660 50.445390 34.885500] -0.931491 0.000000 0.000000 -0.363764 */;

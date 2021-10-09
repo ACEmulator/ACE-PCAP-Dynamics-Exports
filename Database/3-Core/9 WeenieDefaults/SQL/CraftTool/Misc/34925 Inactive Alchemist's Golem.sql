@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34925,   1, 'Inactive Alchemist''s Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34925,   1,   33554718) /* Setup */
-     , (34925,   3,  536870932) /* SoundTable */
-     , (34925,   8,  100689357) /* Icon */
-     , (34925,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34925,   1, 0x0200011E) /* Setup */
+     , (34925,   3, 0x20000014) /* SoundTable */
+     , (34925,   8, 0x060065CD) /* Icon */
+     , (34925,  22, 0x3400002B) /* PhysicsEffectTable */;

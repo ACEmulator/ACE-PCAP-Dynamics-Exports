@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46802,   1, 'Boxed A''nekshay Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46802,   1,   33556223) /* Setup */
-     , (46802,   3,  536870932) /* SoundTable */
-     , (46802,   6,   67111928) /* PaletteBase */
-     , (46802,   8,  100692951) /* Icon */
-     , (46802,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46802,   1, 0x020006FF) /* Setup */
+     , (46802,   3, 0x20000014) /* SoundTable */
+     , (46802,   6, 0x04000BF8) /* PaletteBase */
+     , (46802,   8, 0x060073D7) /* Icon */
+     , (46802,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46802, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

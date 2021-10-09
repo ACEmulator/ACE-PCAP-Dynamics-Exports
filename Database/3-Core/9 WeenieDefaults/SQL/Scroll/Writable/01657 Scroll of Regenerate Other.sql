@@ -23,7 +23,7 @@ VALUES (1657,   1, 'Scroll of Regenerate Other') /* Name */
 Increase target''s natural healing rate by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1657,   1,   33554826) /* Setup */
-     , (1657,   8,  100676941) /* Icon */
-     , (1657,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1657,   1, 0x0200018A) /* Setup */
+     , (1657,   8, 0x0600354D) /* Icon */
+     , (1657,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1657,  28,        159) /* Spell - RegenerationOther1 */;

@@ -43,15 +43,15 @@ VALUES (75,   1, 'Helmet') /* Name */
      , (75,  16, 'Helmet') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (75,   1,   33554650) /* Setup */
-     , (75,   3,  536870932) /* SoundTable */
-     , (75,   6,   67108990) /* PaletteBase */
-     , (75,   8,  100669417) /* Icon */
-     , (75,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (75,   1, 0x020000DA) /* Setup */
+     , (75,   3, 0x20000014) /* SoundTable */
+     , (75,   6, 0x0400007E) /* PaletteBase */
+     , (75,   8, 0x060017E9) /* Icon */
+     , (75,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (75,  1485,      2)  /* Impenetrability5 */
-     , (75,  1515,      2)  /* BludgeonBane5 */
      , (75,  1561,      2)  /* BladeBane5 */
      , (75,  1573,      2)  /* PiercingBane5 */
+     , (75,  1515,      2)  /* BludgeonBane5 */
      , (75,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;

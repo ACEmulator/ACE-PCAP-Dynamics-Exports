@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19190,   1, 'Tusker Notch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19190,   1,   33557463) /* Setup */
-     , (19190,   8,  100668115) /* Icon */;
+VALUES (19190,   1, 0x02000BD7) /* Setup */
+     , (19190,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19190, 8040, 2225864732, 90.5232, 82.2971, 101.5436, 0.559714, 0, 0, 0.828686) /* PCAPRecordedLocation */
+VALUES (19190, 8040, 0x84AC001C, 90.5232, 82.2971, 101.5436, 0.559714, 0, 0, 0.828686) /* PCAPRecordedLocation */
 /* @teleloc 0x84AC001C [90.523200 82.297100 101.543600] 0.559714 0.000000 0.000000 0.828686 */;

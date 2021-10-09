@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45355,   1, 'Inscription of Sneak Attack Mastery Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45355,   1,   33554826) /* Setup */
-     , (45355,   8,  100692253) /* Icon */
-     , (45355,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45355,   1, 0x0200018A) /* Setup */
+     , (45355,   8, 0x0600711D) /* Icon */
+     , (45355,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45355,  28,       5882) /* Spell - SneakAttackMasterySelf8 */;

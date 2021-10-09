@@ -22,7 +22,7 @@ VALUES (34400,   1, 'Holiday Hearth') /* Name */
      , (34400,  15, 'This item can be used on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34400,   1,   33560162) /* Setup */
-     , (34400,   3,  536870932) /* SoundTable */
-     , (34400,   8,  100672429) /* Icon */
-     , (34400,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34400,   1, 0x02001662) /* Setup */
+     , (34400,   3, 0x20000014) /* SoundTable */
+     , (34400,   8, 0x060023AD) /* Icon */
+     , (34400,  22, 0x3400002B) /* PhysicsEffectTable */;

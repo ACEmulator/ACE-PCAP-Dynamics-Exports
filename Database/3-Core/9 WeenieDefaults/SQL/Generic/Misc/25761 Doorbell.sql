@@ -22,6 +22,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25761,   1, 'Doorbell') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25761,   1,   33554714) /* Setup */
-     , (25761,   3,  536871075) /* SoundTable */
-     , (25761,   8,  100675562) /* Icon */;
+VALUES (25761,   1, 0x0200011A) /* Setup */
+     , (25761,   3, 0x200000A3) /* SoundTable */
+     , (25761,   8, 0x06002FEA) /* Icon */;

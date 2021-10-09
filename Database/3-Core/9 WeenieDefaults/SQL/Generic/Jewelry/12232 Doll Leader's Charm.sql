@@ -29,13 +29,13 @@ VALUES (12232,   1, 'Doll Leader''s Charm') /* Name */
      , (12232,  16, 'A Doll''s charm that can be worn as a bracelet.  Taken from the leader of the Singular Pyreal Repository.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12232,   1,   33554683) /* Setup */
-     , (12232,   3,  536870932) /* SoundTable */
-     , (12232,   6,   67111919) /* PaletteBase */
-     , (12232,   8,  100672215) /* Icon */
-     , (12232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12232,   1, 0x020000FB) /* Setup */
+     , (12232,   3, 0x20000014) /* SoundTable */
+     , (12232,   6, 0x04000BEF) /* PaletteBase */
+     , (12232,   8, 0x060022D7) /* Icon */
+     , (12232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12232,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12232,   632,      2)  /* WarMagicMasterySelf4 */
-     , (12232,  1424,      2)  /* FocusSelf4 */;
+VALUES (12232,  1424,      2)  /* FocusSelf4 */
+     , (12232,   632,      2)  /* WarMagicMasterySelf4 */;

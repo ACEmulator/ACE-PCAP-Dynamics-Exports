@@ -35,10 +35,10 @@ VALUES (49439,   1, 'Fire Spectre Essence (150)') /* Name */
      , (49439,  14, 'Use this essence to summon or dismiss your Fire Spectre.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49439,   1,   33554817) /* Setup */
-     , (49439,   3,  536870932) /* SoundTable */
-     , (49439,   6,   67111919) /* PaletteBase */
-     , (49439,   8,  100676679) /* Icon */
-     , (49439,  22,  872415275) /* PhysicsEffectTable */
-     , (49439,  50,  100693030) /* IconOverlay */
-     , (49439,  52,  100693024) /* IconUnderlay */;
+VALUES (49439,   1, 0x02000181) /* Setup */
+     , (49439,   3, 0x20000014) /* SoundTable */
+     , (49439,   6, 0x04000BEF) /* PaletteBase */
+     , (49439,   8, 0x06003447) /* Icon */
+     , (49439,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49439,  50, 0x06007426) /* IconOverlay */
+     , (49439,  52, 0x06007420) /* IconUnderlay */;

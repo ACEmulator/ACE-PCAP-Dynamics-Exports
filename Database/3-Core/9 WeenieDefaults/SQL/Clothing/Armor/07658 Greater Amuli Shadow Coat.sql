@@ -32,8 +32,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7658,   1, 'Greater Amuli Shadow Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7658,   1,   33554854) /* Setup */
-     , (7658,   3,  536870932) /* SoundTable */
-     , (7658,   6,   67108990) /* PaletteBase */
-     , (7658,   8,  100670438) /* Icon */
-     , (7658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7658,   1, 0x020001A6) /* Setup */
+     , (7658,   3, 0x20000014) /* SoundTable */
+     , (7658,   6, 0x0400007E) /* PaletteBase */
+     , (7658,   8, 0x06001BE6) /* Icon */
+     , (7658,  22, 0x3400002B) /* PhysicsEffectTable */;

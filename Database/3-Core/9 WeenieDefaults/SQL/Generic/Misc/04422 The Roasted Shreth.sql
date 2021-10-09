@@ -18,9 +18,9 @@ VALUES (4422,   1, 'The Roasted Shreth') /* Name */
      , (4422,  16, 'The Roasted Shreth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4422,   1,   33555593) /* Setup */
-     , (4422,   8,  100668115) /* Icon */;
+VALUES (4422,   1, 0x02000489) /* Setup */
+     , (4422,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4422, 8040, 3212836897, 119.605, 11.9682, 39.6898, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4422, 8040, 0xBF800021, 119.605, 11.9682, 39.6898, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800021 [119.605000 11.968200 39.689800] 0.707107 0.000000 0.000000 -0.707107 */;

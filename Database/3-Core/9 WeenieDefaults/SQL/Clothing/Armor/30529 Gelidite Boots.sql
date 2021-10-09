@@ -47,13 +47,13 @@ VALUES (30529,   1, 'Gelidite Boots') /* Name */
      , (30529,  16, 'After the destruction of the Great Work, some human mages who followed the  Gelidite agenda returned to Frore in hopes of reviving the project. Finding only shattered fragments of the Great Work, they attempted to rebuild it by using the shards as a foundation. Years later, they had achieved little success, and the project was soon abandoned. Not wanting to waste their efforts, they took the remaining crystals and fashioned great suits of armor. This is one piece of one such suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30529,   1,   33559415) /* Setup */
-     , (30529,   3,  536870932) /* SoundTable */
-     , (30529,   8,  100686829) /* Icon */
-     , (30529,  22,  872415275) /* PhysicsEffectTable */
-     , (30529,  52,  100686604) /* IconUnderlay */;
+VALUES (30529,   1, 0x02001377) /* Setup */
+     , (30529,   3, 0x20000014) /* SoundTable */
+     , (30529,   8, 0x06005BED) /* Icon */
+     , (30529,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30529,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30529,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (30529,  4407,      2)  /* Impenetrability8 */
-     , (30529,  4710,      2)  /* CANTRIPSPRINT3 */;
+VALUES (30529,  4710,      2)  /* CANTRIPSPRINT3 */
+     , (30529,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (30529,  4407,      2)  /* Impenetrability8 */;

@@ -37,15 +37,15 @@ VALUES (52036,   1, 'Purified Crimson Scarab') /* Name */
      , (52036,  15, 'A dark red scarab of Rynthid origin, cleansed by Tumerok magic.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52036,   1,   33555211) /* Setup */
-     , (52036,   3,  536870932) /* SoundTable */
-     , (52036,   6,   67111919) /* PaletteBase */
-     , (52036,   8,  100693226) /* Icon */
-     , (52036,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52036,   1, 0x0200030B) /* Setup */
+     , (52036,   3, 0x20000014) /* SoundTable */
+     , (52036,   6, 0x04000BEF) /* PaletteBase */
+     , (52036,   8, 0x060074EA) /* Icon */
+     , (52036,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52036,  4548,      2)  /* FealtySelf8 */
+     , (52036,  6105,      2)  /* CantripFocus4 */
      , (52036,  5146,      2)  /* TrinketHealth3 */
      , (52036,  5149,      2)  /* TrinketMana3 */
-     , (52036,  5150,      2)  /* TrinketStamina1 */
-     , (52036,  6105,      2)  /* CantripFocus4 */;
+     , (52036,  5150,      2)  /* TrinketStamina1 */;

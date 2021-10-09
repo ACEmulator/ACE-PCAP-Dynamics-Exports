@@ -129,7 +129,7 @@ VALUES (0x70E0D010, 25876, 0x0E0D0029, 140.2961, 0.06298, 94.96312, 1, 0, 0, 0, 
 /* @teleloc 0x0E0D0029 [140.296100 0.062980 94.963120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70E0D011, 25876, 0x0E0D0039, 168.0356, 0.0004028419, 120.2151, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
+VALUES (0x70E0D011, 25876, 0x0E0D0039, 168.0356, 0.000403, 120.2151, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
 /* @teleloc 0x0E0D0039 [168.035600 0.000403 120.215100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

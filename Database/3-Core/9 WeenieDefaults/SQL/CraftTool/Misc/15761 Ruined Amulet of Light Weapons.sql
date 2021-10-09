@@ -30,8 +30,8 @@ VALUES (15761,   1, 'Ruined Amulet of Light Weapons') /* Name */
      , (15761,  16, 'An Amulet crafted in pyreal that bears the symbol of light weapons. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15761,   1,   33554680) /* Setup */
-     , (15761,   3,  536870932) /* SoundTable */
-     , (15761,   6,   67111919) /* PaletteBase */
-     , (15761,   8,  100692284) /* Icon */
-     , (15761,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15761,   1, 0x020000F8) /* Setup */
+     , (15761,   3, 0x20000014) /* SoundTable */
+     , (15761,   6, 0x04000BEF) /* PaletteBase */
+     , (15761,   8, 0x0600713C) /* Icon */
+     , (15761,  22, 0x3400002B) /* PhysicsEffectTable */;

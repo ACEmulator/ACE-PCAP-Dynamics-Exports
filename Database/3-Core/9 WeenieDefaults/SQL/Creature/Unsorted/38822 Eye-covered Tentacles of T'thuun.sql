@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38822,   1, 'Eye-covered Tentacles of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38822,   1,   33560662) /* Setup */
-     , (38822,   2,  150995332) /* MotionTable */
-     , (38822,   3,  536871015) /* SoundTable */
-     , (38822,   8,  100671186) /* Icon */
-     , (38822,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (38822,   1, 0x02001856) /* Setup */
+     , (38822,   2, 0x09000184) /* MotionTable */
+     , (38822,   3, 0x20000067) /* SoundTable */
+     , (38822,   8, 0x06001ED2) /* Icon */
+     , (38822,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38822, 8040, 616562723, 101.691, 52.6297, 135.425, 0.5217862, 0, 0, 0.8530763) /* PCAPRecordedLocation */
+VALUES (38822, 8040, 0x24C00023, 101.691, 52.6297, 135.425, 0.521786, 0, 0, 0.853076) /* PCAPRecordedLocation */
 /* @teleloc 0x24C00023 [101.691000 52.629700 135.425000] 0.521786 0.000000 0.000000 0.853076 */;

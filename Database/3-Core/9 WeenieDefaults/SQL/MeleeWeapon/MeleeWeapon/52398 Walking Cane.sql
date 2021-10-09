@@ -40,8 +40,8 @@ VALUES (52398,   1, 'Walking Cane') /* Name */
      , (52398,  16, 'A walking cane that could double as a weapon to ward off any festive riff-raff.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52398,   1,   33558562) /* Setup */
-     , (52398,   3,  536870932) /* SoundTable */
-     , (52398,   6,  251658377) /* PaletteBase */
-     , (52398,   8,  100675639) /* Icon */
-     , (52398,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52398,   1, 0x02001022) /* Setup */
+     , (52398,   3, 0x20000014) /* SoundTable */
+     , (52398,   6, 0x0F000089) /* PaletteBase */
+     , (52398,   8, 0x06003037) /* Icon */
+     , (52398,  22, 0x3400002B) /* PhysicsEffectTable */;

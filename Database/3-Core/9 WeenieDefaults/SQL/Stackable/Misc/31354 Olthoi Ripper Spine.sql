@@ -24,7 +24,7 @@ VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */
      , (31354,  16, 'A perfectly intact spine from an Olthoi Ripper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31354,   1,   33554817) /* Setup */
-     , (31354,   3,  536870932) /* SoundTable */
-     , (31354,   8,  100687696) /* Icon */
-     , (31354,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31354,   1, 0x02000181) /* Setup */
+     , (31354,   3, 0x20000014) /* SoundTable */
+     , (31354,   8, 0x06005F50) /* Icon */
+     , (31354,  22, 0x3400002B) /* PhysicsEffectTable */;

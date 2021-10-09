@@ -45,14 +45,14 @@ VALUES (8133,   1, 'Aerfalle''s Pallium') /* Name */
      , (8133,  16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8133,   1,   33554854) /* Setup */
-     , (8133,   3,  536870932) /* SoundTable */
-     , (8133,   6,   67108990) /* PaletteBase */
-     , (8133,   8,  100670350) /* Icon */
-     , (8133,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8133,   1, 0x020001A6) /* Setup */
+     , (8133,   3, 0x20000014) /* SoundTable */
+     , (8133,   6, 0x0400007E) /* PaletteBase */
+     , (8133,   8, 0x06001B8E) /* Icon */
+     , (8133,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8133,   689,      2)  /* ArcaneEnlightenmentOther6 */
-     , (8133,  1431,      2)  /* FocusOther5 */
+VALUES (8133,  1431,      2)  /* FocusOther5 */
+     , (8133,  2015,      2)  /* AerfallesWard */
      , (8133,  1455,      2)  /* WillpowerOther5 */
-     , (8133,  2015,      2)  /* AerfallesWard */;
+     , (8133,   689,      2)  /* ArcaneEnlightenmentOther6 */;

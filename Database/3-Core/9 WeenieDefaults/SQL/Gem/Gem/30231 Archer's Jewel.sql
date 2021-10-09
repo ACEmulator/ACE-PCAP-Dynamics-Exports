@@ -33,10 +33,10 @@ VALUES (30231,   1, 'Archer''s Jewel') /* Name */
      , (30231,  20, 'Archer''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30231,   1,   33554809) /* Setup */
-     , (30231,   3,  536870932) /* SoundTable */
-     , (30231,   8,  100686696) /* Icon */
-     , (30231,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30231,   1, 0x02000179) /* Setup */
+     , (30231,   3, 0x20000014) /* SoundTable */
+     , (30231,   8, 0x06005B68) /* Icon */
+     , (30231,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30231,  28,       3729) /* Spell - PiercingProtectionRare */
-     , (30231,  50,  100686678) /* IconOverlay */
-     , (30231,  52,  100686604) /* IconUnderlay */;
+     , (30231,  50, 0x06005B56) /* IconOverlay */
+     , (30231,  52, 0x06005B0C) /* IconUnderlay */;

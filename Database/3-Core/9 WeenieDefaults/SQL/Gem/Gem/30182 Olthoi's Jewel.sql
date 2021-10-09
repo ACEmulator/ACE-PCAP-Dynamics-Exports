@@ -33,11 +33,11 @@ VALUES (30182,   1, 'Olthoi''s Jewel') /* Name */
      , (30182,  20, 'Olthoi''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30182,   1,   33554809) /* Setup */
-     , (30182,   3,  536870932) /* SoundTable */
-     , (30182,   6,   67111919) /* PaletteBase */
-     , (30182,   8,  100686696) /* Icon */
-     , (30182,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30182,   1, 0x02000179) /* Setup */
+     , (30182,   3, 0x20000014) /* SoundTable */
+     , (30182,   6, 0x04000BEF) /* PaletteBase */
+     , (30182,   8, 0x06005B68) /* Icon */
+     , (30182,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30182,  28,       3680) /* Spell - AcidProtectionRare */
-     , (30182,  50,  100686625) /* IconOverlay */
-     , (30182,  52,  100686604) /* IconUnderlay */;
+     , (30182,  50, 0x06005B21) /* IconOverlay */
+     , (30182,  52, 0x06005B0C) /* IconUnderlay */;

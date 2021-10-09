@@ -16,8 +16,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31721,   1, 'Torn Journal Page - Page 2') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31721,   1,   33554680) /* Setup */
-     , (31721,   3,  536870932) /* SoundTable */
-     , (31721,   8,  100674008) /* Icon */
-     , (31721,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31721,   1, 0x020000F8) /* Setup */
+     , (31721,   3, 0x20000014) /* SoundTable */
+     , (31721,   8, 0x060029D8) /* Icon */
+     , (31721,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31721, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

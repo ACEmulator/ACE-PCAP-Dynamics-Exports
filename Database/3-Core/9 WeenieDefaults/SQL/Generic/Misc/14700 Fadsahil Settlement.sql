@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14700,   1, 'Fadsahil Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14700,   1,   33557463) /* Setup */
-     , (14700,   8,  100668115) /* Icon */;
+VALUES (14700,   1, 0x02000BD7) /* Setup */
+     , (14700,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14700, 8040, 1220280356, 107.638, 80.083, 35.70375, 0.139267, 0, 0, -0.990255) /* PCAPRecordedLocation */
+VALUES (14700, 8040, 0x48BC0024, 107.638, 80.083, 35.70375, 0.139267, 0, 0, -0.990255) /* PCAPRecordedLocation */
 /* @teleloc 0x48BC0024 [107.638000 80.083000 35.703750] 0.139267 0.000000 0.000000 -0.990255 */;

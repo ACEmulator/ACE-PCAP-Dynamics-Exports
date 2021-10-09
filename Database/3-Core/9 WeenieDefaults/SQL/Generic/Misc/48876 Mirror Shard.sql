@@ -24,7 +24,7 @@ VALUES (48876,   1, 'Mirror Shard') /* Name */
      , (48876,  16, 'A shard from a shattered silver mirror.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48876,   1,   33559137) /* Setup */
-     , (48876,   3,  536870932) /* SoundTable */
-     , (48876,   8,  100686363) /* Icon */
-     , (48876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48876,   1, 0x02001261) /* Setup */
+     , (48876,   3, 0x20000014) /* SoundTable */
+     , (48876,   8, 0x06005A1B) /* Icon */
+     , (48876,  22, 0x3400002B) /* PhysicsEffectTable */;

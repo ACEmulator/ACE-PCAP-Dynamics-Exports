@@ -18,9 +18,9 @@ VALUES (5069,   1, 'West Holtburg Outpost') /* Name */
      , (5069,  16, 'Welcome to the West Holtburg Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5069,   1,   33555088) /* Setup */
-     , (5069,   8,  100668115) /* Icon */;
+VALUES (5069,   1, 0x02000290) /* Setup */
+     , (5069,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5069, 8040, 2780037180, 179.711, 75.687, 46, 0.998572, 0, 0, -0.0534255) /* PCAPRecordedLocation */
+VALUES (5069, 8040, 0xA5B4003C, 179.711, 75.687, 46, 0.998572, 0, 0, -0.053426) /* PCAPRecordedLocation */
 /* @teleloc 0xA5B4003C [179.711000 75.687000 46.000000] 0.998572 0.000000 0.000000 -0.053426 */;

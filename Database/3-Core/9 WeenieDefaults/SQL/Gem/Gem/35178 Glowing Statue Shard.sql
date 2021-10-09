@@ -32,12 +32,12 @@ VALUES (35178,   1, 'Glowing Statue Shard') /* Name */
      , (35178,  16, 'A stone shard empowered with Asheron''s essence, taken from the Falatacot Ritual Site on Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35178,   1,   33556406) /* Setup */
-     , (35178,   3,  536870932) /* SoundTable */
-     , (35178,   6,   67111919) /* PaletteBase */
-     , (35178,   8,  100689363) /* Icon */
-     , (35178,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35178,   1, 0x020007B6) /* Setup */
+     , (35178,   3, 0x20000014) /* SoundTable */
+     , (35178,   6, 0x04000BEF) /* PaletteBase */
+     , (35178,   8, 0x060065D3) /* Icon */
+     , (35178,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35178, 8040, 14942506, 34.84235, -48.78209, -28.711, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35178, 8040, 0x00E4012A, 34.84235, -48.78209, -28.711, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [34.842350 -48.782090 -28.711000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -18,9 +18,9 @@ VALUES (933,   1, 'Yanshi') /* Name */
      , (933,  16, 'Welcome to the hamlet of Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (933,   1,   33556191) /* Setup */
-     , (933,   8,  100668115) /* Icon */;
+VALUES (933,   1, 0x020006DF) /* Setup */
+     , (933,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (933, 8040, 3111125027, 114.073, 61.0138, 16, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (933, 8040, 0xB9700023, 114.073, 61.0138, 16, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB9700023 [114.073000 61.013800 16.000000] 0.000000 0.000000 0.000000 -1.000000 */;

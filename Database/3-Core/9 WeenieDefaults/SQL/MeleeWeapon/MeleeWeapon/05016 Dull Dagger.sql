@@ -39,8 +39,8 @@ VALUES (5016,   1, 'Dull Dagger') /* Name */
      , (5016,  16, 'A dull dagger. The edge is horribly misshapen, this damaged edge could create vicious wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5016,   1,   33554735) /* Setup */
-     , (5016,   3,  536870932) /* SoundTable */
-     , (5016,   6,   67111919) /* PaletteBase */
-     , (5016,   8,  100668876) /* Icon */
-     , (5016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5016,   1, 0x0200012F) /* Setup */
+     , (5016,   3, 0x20000014) /* SoundTable */
+     , (5016,   6, 0x04000BEF) /* PaletteBase */
+     , (5016,   8, 0x060015CC) /* Icon */
+     , (5016,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -20,8 +20,8 @@ VALUES (36736,   1, 'Concentrated Bludgeoning Infusion') /* Name */
      , (36736,  20, 'Concentrated Bludgeoning Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36736,   1,   33555965) /* Setup */
-     , (36736,   3,  536870932) /* SoundTable */
-     , (36736,   6,   67111919) /* PaletteBase */
-     , (36736,   8,  100689709) /* Icon */
-     , (36736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36736,   1, 0x020005FD) /* Setup */
+     , (36736,   3, 0x20000014) /* SoundTable */
+     , (36736,   6, 0x04000BEF) /* PaletteBase */
+     , (36736,   8, 0x0600672D) /* Icon */
+     , (36736,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3789,   1, 'Throwing Frost Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3789,   1,   33556223) /* Setup */
-     , (3789,   3,  536870932) /* SoundTable */
-     , (3789,   6,   67111928) /* PaletteBase */
-     , (3789,   8,  100667591) /* Icon */
-     , (3789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3789,   1, 0x020006FF) /* Setup */
+     , (3789,   3, 0x20000014) /* SoundTable */
+     , (3789,   6, 0x04000BF8) /* PaletteBase */
+     , (3789,   8, 0x060010C7) /* Icon */
+     , (3789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3789, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;

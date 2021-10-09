@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x2AC1;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72AC1001,  1154, 0x2AC1000C, 31.31664, 92.68437, 22.61472, -0.4484299, 0, 0, -0.893818, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x72AC1001,  1154, 0x2AC1000C, 31.31664, 92.68437, 22.61472, -0.44843, 0, 0, -0.893818, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x2AC1000C [31.316640 92.684370 22.614720] -0.448430 0.000000 0.000000 -0.893818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -9,11 +9,11 @@ VALUES (0x72AC1001, 0x72AC1002, '2019-02-10 00:00:00') /* Assassin (11498) */
      , (0x72AC1001, 0x72AC1003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72AC1002, 11498, 0x2AC1000C, 31.31664, 92.68437, 22.61472, -0.4484299, 0, 0, -0.893818,  True, '2019-02-10 00:00:00'); /* Assassin */
+VALUES (0x72AC1002, 11498, 0x2AC1000C, 31.31664, 92.68437, 22.61472, -0.44843, 0, 0, -0.893818,  True, '2019-02-10 00:00:00'); /* Assassin */
 /* @teleloc 0x2AC1000C [31.316640 92.684370 22.614720] -0.448430 0.000000 0.000000 -0.893818 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72AC1003, 11519, 0x2AC1003A, 186.769, 30.12354, 20.006, 0.9520984, 0, 0, -0.3057917,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
+VALUES (0x72AC1003, 11519, 0x2AC1003A, 186.769, 30.12354, 20.006, 0.952098, 0, 0, -0.305792,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
 /* @teleloc 0x2AC1003A [186.769000 30.123540 20.006000] 0.952098 0.000000 0.000000 -0.305792 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

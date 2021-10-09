@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45083,   1, 'Pet Gumdrop') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45083,   1,   33561404) /* Setup */
-     , (45083,   2,  150994994) /* MotionTable */
-     , (45083,   3,  536870984) /* SoundTable */
-     , (45083,   8,  100668443) /* Icon */
-     , (45083,  22,  872415261) /* PhysicsEffectTable */;
+VALUES (45083,   1, 0x02001B3C) /* Setup */
+     , (45083,   2, 0x09000032) /* MotionTable */
+     , (45083,   3, 0x20000048) /* SoundTable */
+     , (45083,   8, 0x0600141B) /* Icon */
+     , (45083,  22, 0x3400001D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45083, 8040, 19005701, 22.73328, -12.8381, -0.001427568, -0.04351319, 0, 0, -0.9990529) /* PCAPRecordedLocation */
+VALUES (45083, 8040, 0x01220105, 22.73328, -12.8381, -0.001428, -0.043513, 0, 0, -0.999053) /* PCAPRecordedLocation */
 /* @teleloc 0x01220105 [22.733280 -12.838100 -0.001428] -0.043513 0.000000 0.000000 -0.999053 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

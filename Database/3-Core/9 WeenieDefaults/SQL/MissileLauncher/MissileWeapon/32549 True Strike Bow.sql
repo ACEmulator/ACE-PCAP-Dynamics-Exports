@@ -51,19 +51,19 @@ VALUES (32549,   1, 'True Strike Bow') /* Name */
      , (32549,  16, 'One of a set of bows made by Tomo Genza. It is an amazingly well balanced and lovingly crafted weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32549,   1,   33559028) /* Setup */
-     , (32549,   3,  536870932) /* SoundTable */
-     , (32549,   6,   67115373) /* PaletteBase */
-     , (32549,   8,  100677117) /* Icon */
-     , (32549,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32549,   1, 0x020011F4) /* Setup */
+     , (32549,   3, 0x20000014) /* SoundTable */
+     , (32549,   6, 0x0400196D) /* PaletteBase */
+     , (32549,   8, 0x060035FD) /* Icon */
+     , (32549,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32549, 8040, 1481638171, 19.56385, -32.20816, -6.07, -0.2539339, 0, 0, -0.9672216) /* PCAPRecordedLocation */
+VALUES (32549, 8040, 0x5850011B, 19.56385, -32.20816, -6.07, -0.253934, 0, 0, -0.967222) /* PCAPRecordedLocation */
 /* @teleloc 0x5850011B [19.563850 -32.208160 -6.070000] -0.253934 0.000000 0.000000 -0.967222 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32549,  2058,      2)  /* CoordinationOther7 */
+VALUES (32549,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32549,  2058,      2)  /* CoordinationOther7 */
+     , (32549,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (32549,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (32549,  2101,      2)  /* DefenderSelf7 */
-     , (32549,  2116,      2)  /* SwiftKillerSelf7 */
-     , (32549,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (32549,  2101,      2)  /* DefenderSelf7 */;

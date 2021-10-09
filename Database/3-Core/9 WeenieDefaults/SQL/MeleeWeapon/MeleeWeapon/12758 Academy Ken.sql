@@ -37,12 +37,12 @@ VALUES (12758,   1, 'Academy Ken') /* Name */
      , (12758,  15, 'An enhanced ken crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12758,   1,   33554759) /* Setup */
-     , (12758,   3,  536870932) /* SoundTable */
-     , (12758,   6,   67111919) /* PaletteBase */
-     , (12758,   8,  100669017) /* Icon */
-     , (12758,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12758,   1, 0x02000147) /* Setup */
+     , (12758,   3, 0x20000014) /* SoundTable */
+     , (12758,   6, 0x04000BEF) /* PaletteBase */
+     , (12758,   8, 0x06001659) /* Icon */
+     , (12758,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12758, 8040, 3332964372, 69.56441, 95.21053, 41.929, 0.4312598, 0.4312598, -0.5603704, -0.5603704) /* PCAPRecordedLocation */
+VALUES (12758, 8040, 0xC6A90014, 69.56441, 95.21053, 41.929, 0.43126, 0.43126, -0.56037, -0.56037) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90014 [69.564410 95.210530 41.929000] 0.431260 0.431260 -0.560370 -0.560370 */;

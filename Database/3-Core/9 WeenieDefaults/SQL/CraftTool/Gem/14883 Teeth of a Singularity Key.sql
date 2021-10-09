@@ -30,8 +30,8 @@ VALUES (14883,   1, 'Teeth of a Singularity Key') /* Name */
      , (14883,  16, 'The lower half of a green singularity key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14883,   1,   33557000) /* Setup */
-     , (14883,   3,  536870932) /* SoundTable */
-     , (14883,   6,   67111346) /* PaletteBase */
-     , (14883,   8,  100672607) /* Icon */
-     , (14883,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14883,   1, 0x02000A08) /* Setup */
+     , (14883,   3, 0x20000014) /* SoundTable */
+     , (14883,   6, 0x040009B2) /* PaletteBase */
+     , (14883,   8, 0x0600245F) /* Icon */
+     , (14883,  22, 0x3400002B) /* PhysicsEffectTable */;

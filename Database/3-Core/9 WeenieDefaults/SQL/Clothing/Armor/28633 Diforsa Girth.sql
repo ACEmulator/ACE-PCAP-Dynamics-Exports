@@ -34,8 +34,8 @@ VALUES (28633,   1, 'Diforsa Girth') /* Name */
      , (28633,  16, 'Diforsa Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28633,   1,   33559342) /* Setup */
-     , (28633,   3,  536870932) /* SoundTable */
-     , (28633,   6,   67108990) /* PaletteBase */
-     , (28633,   8,  100686292) /* Icon */
-     , (28633,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28633,   1, 0x0200132E) /* Setup */
+     , (28633,   3, 0x20000014) /* SoundTable */
+     , (28633,   6, 0x0400007E) /* PaletteBase */
+     , (28633,   8, 0x060059D4) /* Icon */
+     , (28633,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -42,8 +42,8 @@ VALUES (23360,   1, 'Sanguinary Aegis') /* Name */
      , (23360,  25, 'Ripley') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23360,   1,   33555836) /* Setup */
-     , (23360,   3,  536870932) /* SoundTable */
-     , (23360,   6,   67111919) /* PaletteBase */
-     , (23360,   8,  100669654) /* Icon */
-     , (23360,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23360,   1, 0x0200057C) /* Setup */
+     , (23360,   3, 0x20000014) /* SoundTable */
+     , (23360,   6, 0x04000BEF) /* PaletteBase */
+     , (23360,   8, 0x060018D6) /* Icon */
+     , (23360,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -40,13 +40,13 @@ VALUES (29814,   1, 'Strand Siraluun Dress') /* Name */
      , (29814,  16, 'A formal gown woven from the plumes of a Strand Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29814,   1,   33554854) /* Setup */
-     , (29814,   3,  536870932) /* SoundTable */
-     , (29814,   6,   67108990) /* PaletteBase */
-     , (29814,   8,  100677291) /* Icon */
-     , (29814,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29814,   1, 0x020001A6) /* Setup */
+     , (29814,   3, 0x20000014) /* SoundTable */
+     , (29814,   6, 0x0400007E) /* PaletteBase */
+     , (29814,   8, 0x060036AB) /* Icon */
+     , (29814,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29814,   907,      2)  /* LeadershipMasteryOther4 */
-     , (29814,   955,      2)  /* FealtyOther4 */
-     , (29814,  2011,      2)  /* WizardsLesserIntellect */;
+     , (29814,  2011,      2)  /* WizardsLesserIntellect */
+     , (29814,   955,      2)  /* FealtyOther4 */;

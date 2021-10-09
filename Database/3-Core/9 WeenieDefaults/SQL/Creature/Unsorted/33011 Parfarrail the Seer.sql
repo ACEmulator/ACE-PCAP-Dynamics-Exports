@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33011,   1, 'Parfarrail the Seer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33011,   1,   33559537) /* Setup */
-     , (33011,   2,  150994945) /* MotionTable */
-     , (33011,   3,  536870913) /* SoundTable */
-     , (33011,   8,  100670398) /* Icon */
-     , (33011,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33011,   1, 0x020013F1) /* Setup */
+     , (33011,   2, 0x09000001) /* MotionTable */
+     , (33011,   3, 0x20000001) /* SoundTable */
+     , (33011,   8, 0x06001BBE) /* Icon */
+     , (33011,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33011, 8040, 8257796, 390, -60, -119.9972, -0.104015, 0, 0, -0.9945757) /* PCAPRecordedLocation */
+VALUES (33011, 8040, 0x007E0104, 390, -60, -119.9972, -0.104015, 0, 0, -0.994576) /* PCAPRecordedLocation */
 /* @teleloc 0x007E0104 [390.000000 -60.000000 -119.997200] -0.104015 0.000000 0.000000 -0.994576 */;

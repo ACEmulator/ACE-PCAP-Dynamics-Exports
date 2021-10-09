@@ -21,7 +21,7 @@ VALUES (46271,   1, 'Weeping Mace Cast') /* Name */
      , (46271,  16, 'The cast of a mace which can be transformed into a Weeping Mace with the Heart of the Innocent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46271,   1,   33554769) /* Setup */
-     , (46271,   3,  536870932) /* SoundTable */
-     , (46271,   8,  100674269) /* Icon */
-     , (46271,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46271,   1, 0x02000151) /* Setup */
+     , (46271,   3, 0x20000014) /* SoundTable */
+     , (46271,   8, 0x06002ADD) /* Icon */
+     , (46271,  22, 0x3400002B) /* PhysicsEffectTable */;

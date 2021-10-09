@@ -19,7 +19,7 @@ VALUES (37355,   1, 'Ink of Objectification') /* Name */
      , (37355,  20, 'Inks of Objectification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37355,   1,   33554602) /* Setup */
-     , (37355,   3,  536870932) /* SoundTable */
-     , (37355,   8,  100690188) /* Icon */
-     , (37355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37355,   1, 0x020000AA) /* Setup */
+     , (37355,   3, 0x20000014) /* SoundTable */
+     , (37355,   8, 0x0600690C) /* Icon */
+     , (37355,  22, 0x3400002B) /* PhysicsEffectTable */;

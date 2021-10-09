@@ -37,13 +37,13 @@ VALUES (8785,   1, 'Empyrean Scalemail Shirt') /* Name */
      , (8785,  16, 'A scalemail shirt worn by one of the defenders of the Empyrean Mausoleum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8785,   1,   33554883) /* Setup */
-     , (8785,   3,  536870932) /* SoundTable */
-     , (8785,   6,   67108990) /* PaletteBase */
-     , (8785,   8,  100669692) /* Icon */
-     , (8785,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8785,   1, 0x020001C3) /* Setup */
+     , (8785,   3, 0x20000014) /* SoundTable */
+     , (8785,   6, 0x0400007E) /* PaletteBase */
+     , (8785,   8, 0x060018FC) /* Icon */
+     , (8785,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8785,  1310,      2)  /* ArmorSelf4 */
-     , (8785,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (8785,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+VALUES (8785,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (8785,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (8785,  1310,      2)  /* ArmorSelf4 */;

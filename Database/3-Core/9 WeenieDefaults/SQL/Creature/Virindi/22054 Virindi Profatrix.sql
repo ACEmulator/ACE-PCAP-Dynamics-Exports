@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22054,   1, 'Virindi Profatrix') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22054,   1,   33558343) /* Setup */
-     , (22054,   2,  150994984) /* MotionTable */
-     , (22054,   3,  536870930) /* SoundTable */
-     , (22054,   6,   67114250) /* PaletteBase */
-     , (22054,   8,  100674323) /* Icon */
-     , (22054,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (22054,   1, 0x02000F47) /* Setup */
+     , (22054,   2, 0x09000028) /* MotionTable */
+     , (22054,   3, 0x20000012) /* SoundTable */
+     , (22054,   6, 0x0400150A) /* PaletteBase */
+     , (22054,   8, 0x06002B13) /* Icon */
+     , (22054,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22054, 8040, 43058121, 209.744, -37.564, 18.029, -0.001739001, 0, 0, 0.9999985) /* PCAPRecordedLocation */
+VALUES (22054, 8040, 0x029103C9, 209.744, -37.564, 18.029, -0.001739, 0, 0, 0.999999) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C9 [209.744000 -37.564000 18.029000] -0.001739 0.000000 0.000000 0.999999 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

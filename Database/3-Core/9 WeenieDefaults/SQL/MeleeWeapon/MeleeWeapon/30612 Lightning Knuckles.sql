@@ -49,11 +49,11 @@ VALUES (30612,   1, 'Lightning Knuckles') /* Name */
      , (30612,  16, 'Lightning Knuckles of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30612,   1,   33559502) /* Setup */
-     , (30612,   3,  536870932) /* SoundTable */
-     , (30612,   6,   67115556) /* PaletteBase */
-     , (30612,   8,  100687033) /* Icon */
-     , (30612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30612,   1, 0x020013CE) /* Setup */
+     , (30612,   3, 0x20000014) /* SoundTable */
+     , (30612,   6, 0x04001A24) /* PaletteBase */
+     , (30612,   8, 0x06005CB9) /* Icon */
+     , (30612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30612,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

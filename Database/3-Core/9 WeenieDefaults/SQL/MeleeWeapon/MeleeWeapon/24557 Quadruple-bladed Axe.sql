@@ -48,14 +48,14 @@ VALUES (24557,   1, 'Quadruple-bladed Axe') /* Name */
      , (24557,  16, 'Picked up from General Garsh, a defeated Renegade Lugian') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24557,   1,   33558379) /* Setup */
-     , (24557,   3,  536870932) /* SoundTable */
-     , (24557,   8,  100674408) /* Icon */
-     , (24557,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24557,   1, 0x02000F6B) /* Setup */
+     , (24557,   3, 0x20000014) /* SoundTable */
+     , (24557,   8, 0x06002B68) /* Icon */
+     , (24557,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24557,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24557, 8040, 3332964379, 82.25494, 69.77813, 42, -0.7655073, 0, 0, -0.6434272) /* PCAPRecordedLocation */
+VALUES (24557, 8040, 0xC6A9001B, 82.25494, 69.77813, 42, -0.765507, 0, 0, -0.643427) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [82.254940 69.778130 42.000000] -0.765507 0.000000 0.000000 -0.643427 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -43,13 +43,13 @@ VALUES (24033,   1, 'Mite Queen''s Staff') /* Name */
      , (24033,  16, 'An acidic quarterstaff, wrenched from the dying hands of the beautiful and wise Mite Warrior Queen after she was cruelly and maliciously slain in her own home by a wanton marauder.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24033,   1,   33558284) /* Setup */
-     , (24033,   3,  536870932) /* SoundTable */
-     , (24033,   6,   67111919) /* PaletteBase */
-     , (24033,   8,  100673625) /* Icon */
-     , (24033,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24033,   1, 0x02000F0C) /* Setup */
+     , (24033,   3, 0x20000014) /* SoundTable */
+     , (24033,   6, 0x04000BEF) /* PaletteBase */
+     , (24033,   8, 0x06002859) /* Icon */
+     , (24033,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24033,  1590,      2)  /* HeartSeekerSelf4 */
-     , (24033,  1603,      2)  /* DefenderSelf4 */
-     , (24033,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (24033,  1603,      2)  /* DefenderSelf4 */
+     , (24033,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (24033,  1590,      2)  /* HeartSeekerSelf4 */;

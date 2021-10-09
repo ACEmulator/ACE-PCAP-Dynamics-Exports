@@ -25,7 +25,7 @@ VALUES (44425,   1, 'Door Key') /* Name */
      , (44425,  16, 'This key unlocks doors in this dungeon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44425,   1,   33554784) /* Setup */
-     , (44425,   3,  536870932) /* SoundTable */
-     , (44425,   8,  100667486) /* Icon */
-     , (44425,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44425,   1, 0x02000160) /* Setup */
+     , (44425,   3, 0x20000014) /* SoundTable */
+     , (44425,   8, 0x0600105E) /* Icon */
+     , (44425,  22, 0x3400002B) /* PhysicsEffectTable */;

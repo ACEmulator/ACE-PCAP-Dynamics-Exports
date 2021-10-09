@@ -28,12 +28,12 @@ VALUES (38496,   1, 'Celestial Hand Girth Chest') /* Name */
      , (38496,  16, 'A Society Reward Chest, containing a randomly enchanted Celestial Hand Girth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38496,   1,   33554556) /* Setup */
-     , (38496,   2,  150994948) /* MotionTable */
-     , (38496,   3,  536870945) /* SoundTable */
-     , (38496,   8,  100667426) /* Icon */
-     , (38496,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38496,   1, 0x0200007C) /* Setup */
+     , (38496,   2, 0x09000004) /* MotionTable */
+     , (38496,   3, 0x20000021) /* SoundTable */
+     , (38496,   8, 0x06001022) /* Icon */
+     , (38496,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38496, 8040, 11993350, 55.9529, -47.1152, -24, -0.7110268, 0, 0, -0.7031648) /* PCAPRecordedLocation */
+VALUES (38496, 8040, 0x00B70106, 55.9529, -47.1152, -24, -0.711027, 0, 0, -0.703165) /* PCAPRecordedLocation */
 /* @teleloc 0x00B70106 [55.952900 -47.115200 -24.000000] -0.711027 0.000000 0.000000 -0.703165 */;

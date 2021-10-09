@@ -39,19 +39,19 @@ VALUES (11301,   1, 'Stave of Palenqual') /* Name */
      , (11301,  25, 'Forgotten Ibn God') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11301,   1,   33557232) /* Setup */
-     , (11301,   3,  536870932) /* SoundTable */
-     , (11301,   8,  100671868) /* Icon */
-     , (11301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11301,   1, 0x02000AF0) /* Setup */
+     , (11301,   3, 0x20000014) /* SoundTable */
+     , (11301,   8, 0x0600217C) /* Icon */
+     , (11301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11301,  28,       1836) /* Spell - FrostStrike */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11301, 8040, 3482648630, 149.9071, 134.0867, 19.929, -0.5056589, -0.5056589, -0.4942763, -0.4942763) /* PCAPRecordedLocation */
+VALUES (11301, 8040, 0xCF950036, 149.9071, 134.0867, 19.929, -0.505659, -0.505659, -0.494276, -0.494276) /* PCAPRecordedLocation */
 /* @teleloc 0xCF950036 [149.907100 134.086700 19.929000] -0.505659 -0.505659 -0.494276 -0.494276 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11301,   217,      2)  /* ManaRenewalSelf6 */
-     , (11301,   634,      2)  /* WarMagicMasterySelf6 */
+VALUES (11301,  1480,      2)  /* HermeticLinkSelf6 */
      , (11301,   658,      2)  /* ManaMasterySelf6 */
-     , (11301,  1480,      2)  /* HermeticLinkSelf6 */
+     , (11301,   217,      2)  /* ManaRenewalSelf6 */
+     , (11301,   634,      2)  /* WarMagicMasterySelf6 */
      , (11301,  2428,      2)  /* TimaruShelterMagic */;

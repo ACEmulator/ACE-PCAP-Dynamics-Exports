@@ -35,20 +35,20 @@ VALUES (1078,   1, 'Rushiya bint Anruq') /* Name */
      , (1078,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1078,   1,   33554510) /* Setup */
-     , (1078,   2,  150994945) /* MotionTable */
-     , (1078,   3,  536870914) /* SoundTable */
-     , (1078,   6,   67108990) /* PaletteBase */
-     , (1078,   8,  100667446) /* Icon */
-     , (1078,   9,   83890282) /* EyesTexture */
-     , (1078,  10,   83890311) /* NoseTexture */
-     , (1078,  11,   83890352) /* MouthTexture */
-     , (1078,  15,   67117077) /* HairPalette */
-     , (1078,  16,   67110063) /* EyesPalette */
-     , (1078,  17,   67109556) /* SkinPalette */;
+VALUES (1078,   1, 0x0200004E) /* Setup */
+     , (1078,   2, 0x09000001) /* MotionTable */
+     , (1078,   3, 0x20000002) /* SoundTable */
+     , (1078,   6, 0x0400007E) /* PaletteBase */
+     , (1078,   8, 0x06001036) /* Icon */
+     , (1078,   9, 0x0500106A) /* EyesTexture */
+     , (1078,  10, 0x05001087) /* NoseTexture */
+     , (1078,  11, 0x050010B0) /* MouthTexture */
+     , (1078,  15, 0x04002015) /* HairPalette */
+     , (1078,  16, 0x040004AF) /* EyesPalette */
+     , (1078,  17, 0x040002B4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1078, 8040, 33095938, -0.615152, -135.964, -17.995, 0.9810703, 0, 0, -0.1936521) /* PCAPRecordedLocation */
+VALUES (1078, 8040, 0x01F90102, -0.615152, -135.964, -17.995, 0.98107, 0, 0, -0.193652) /* PCAPRecordedLocation */
 /* @teleloc 0x01F90102 [-0.615152 -135.964000 -17.995000] 0.981070 0.000000 0.000000 -0.193652 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

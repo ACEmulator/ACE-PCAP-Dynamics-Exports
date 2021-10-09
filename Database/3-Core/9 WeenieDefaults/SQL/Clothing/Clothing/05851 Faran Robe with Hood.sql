@@ -31,8 +31,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5851,   1, 'Faran Robe with Hood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5851,   1,   33554854) /* Setup */
-     , (5851,   3,  536870932) /* SoundTable */
-     , (5851,   6,   67108990) /* PaletteBase */
-     , (5851,   8,  100670354) /* Icon */
-     , (5851,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5851,   1, 0x020001A6) /* Setup */
+     , (5851,   3, 0x20000014) /* SoundTable */
+     , (5851,   6, 0x0400007E) /* PaletteBase */
+     , (5851,   8, 0x06001B92) /* Icon */
+     , (5851,  22, 0x3400002B) /* PhysicsEffectTable */;

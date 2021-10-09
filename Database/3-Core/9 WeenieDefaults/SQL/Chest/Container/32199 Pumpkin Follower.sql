@@ -25,11 +25,11 @@ VALUES (32199,   1, 'Pumpkin Follower') /* Name */
      , (32199,  16, 'The corpse of a follower of the Majestic Pumpkin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32199,   1,   33556617) /* Setup */
-     , (32199,   3,  536870932) /* SoundTable */
-     , (32199,   8,  100667504) /* Icon */
-     , (32199,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32199,   1, 0x02000889) /* Setup */
+     , (32199,   3, 0x20000014) /* SoundTable */
+     , (32199,   8, 0x06001070) /* Icon */
+     , (32199,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32199, 8040, 2679439409, 167.2164, 15.6494, 83.36942, -0.9973907, 0, 0, -0.07219172) /* PCAPRecordedLocation */
+VALUES (32199, 8040, 0x9FB50031, 167.2164, 15.6494, 83.36942, -0.997391, 0, 0, -0.072192) /* PCAPRecordedLocation */
 /* @teleloc 0x9FB50031 [167.216400 15.649400 83.369420] -0.997391 0.000000 0.000000 -0.072192 */;

@@ -18,10 +18,10 @@ VALUES (14931,   1, 'Wedding Handbook') /* Name */
      , (14931,  16, 'The Wedding handbook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14931,   1,   33554771) /* Setup */
-     , (14931,   3,  536870932) /* SoundTable */
-     , (14931,   8,  100672708) /* Icon */
-     , (14931,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14931,   1, 0x02000153) /* Setup */
+     , (14931,   3, 0x20000014) /* SoundTable */
+     , (14931,   8, 0x060024C4) /* Icon */
+     , (14931,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14931, 7, 1000);

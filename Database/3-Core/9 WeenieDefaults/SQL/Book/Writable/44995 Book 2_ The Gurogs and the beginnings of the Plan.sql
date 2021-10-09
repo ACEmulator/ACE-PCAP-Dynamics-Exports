@@ -20,7 +20,7 @@ VALUES (44995,   1, 'Book 2: The Gurogs and the beginnings of the Plan') /* Name
      , (44995,  20, 'Book 2s: The Gurogs and the beginnings of the Plan') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44995,   1,   33554771) /* Setup */
-     , (44995,   3,  536870932) /* SoundTable */
-     , (44995,   8,  100668117) /* Icon */
-     , (44995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44995,   1, 0x02000153) /* Setup */
+     , (44995,   3, 0x20000014) /* SoundTable */
+     , (44995,   8, 0x060012D5) /* Icon */
+     , (44995,  22, 0x3400002B) /* PhysicsEffectTable */;

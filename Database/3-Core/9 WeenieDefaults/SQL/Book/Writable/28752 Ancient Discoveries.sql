@@ -20,7 +20,7 @@ VALUES (28752,   1, 'Ancient Discoveries') /* Name */
      , (28752,  16, 'A page from the journal of Sir Binwas Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28752,   1,   33554771) /* Setup */
-     , (28752,   3,  536870932) /* SoundTable */
-     , (28752,   8,  100668117) /* Icon */
-     , (28752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28752,   1, 0x02000153) /* Setup */
+     , (28752,   3, 0x20000014) /* SoundTable */
+     , (28752,   8, 0x060012D5) /* Icon */
+     , (28752,  22, 0x3400002B) /* PhysicsEffectTable */;

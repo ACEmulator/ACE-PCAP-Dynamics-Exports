@@ -52,11 +52,11 @@ VALUES (29250,   1, 'Piercing Crossbow') /* Name */
      , (29250,  16, 'Piercing Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29250,   1,   33559235) /* Setup */
-     , (29250,   3,  536870932) /* SoundTable */
-     , (29250,   6,   67115373) /* PaletteBase */
-     , (29250,   8,  100677446) /* Icon */
-     , (29250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29250,   1, 0x020012C3) /* Setup */
+     , (29250,   3, 0x20000014) /* SoundTable */
+     , (29250,   6, 0x0400196D) /* PaletteBase */
+     , (29250,   8, 0x06003746) /* Icon */
+     , (29250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29250,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

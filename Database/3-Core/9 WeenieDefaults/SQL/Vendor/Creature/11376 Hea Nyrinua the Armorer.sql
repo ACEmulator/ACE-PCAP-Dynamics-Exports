@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11376,   1, 'Hea Nyrinua the Armorer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11376,   1,   33559568) /* Setup */
-     , (11376,   2,  150994954) /* MotionTable */
-     , (11376,   3,  536870931) /* SoundTable */
-     , (11376,   6,   67116625) /* PaletteBase */
-     , (11376,   8,  100667452) /* Icon */;
+VALUES (11376,   1, 0x02001410) /* Setup */
+     , (11376,   2, 0x0900000A) /* MotionTable */
+     , (11376,   3, 0x20000013) /* SoundTable */
+     , (11376,   6, 0x04001E51) /* PaletteBase */
+     , (11376,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11376, 8040, 247070986, 87.0768, 67.8836, 1.705, 0.1243611, 0, 0, -0.992237) /* PCAPRecordedLocation */
+VALUES (11376, 8040, 0x0EBA010A, 87.0768, 67.8836, 1.705, 0.124361, 0, 0, -0.992237) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA010A [87.076800 67.883600 1.705000] 0.124361 0.000000 0.000000 -0.992237 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

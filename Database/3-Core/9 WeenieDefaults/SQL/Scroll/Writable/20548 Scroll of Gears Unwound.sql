@@ -23,7 +23,7 @@ VALUES (20548,   1, 'Scroll of Gears Unwound') /* Name */
 Decreases the target''s Run skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20548,   1,   33554826) /* Setup */
-     , (20548,   8,  100676470) /* Icon */
-     , (20548,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20548,   1, 0x0200018A) /* Setup */
+     , (20548,   8, 0x06003376) /* Icon */
+     , (20548,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20548,  28,       2258) /* Spell - LeadenFeetOther7 */;

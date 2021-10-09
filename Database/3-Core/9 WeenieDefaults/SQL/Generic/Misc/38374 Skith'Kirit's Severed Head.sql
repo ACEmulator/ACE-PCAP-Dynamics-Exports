@@ -25,7 +25,7 @@ VALUES (38374,   1, 'Skith''Kirit''s Severed Head') /* Name */
      , (38374,  16, 'The severed head of T''thuun''s Sclavus servant, Skith''Kirit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38374,   1,   33557362) /* Setup */
-     , (38374,   3,  536870932) /* SoundTable */
-     , (38374,   8,  100672169) /* Icon */
-     , (38374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38374,   1, 0x02000B72) /* Setup */
+     , (38374,   3, 0x20000014) /* SoundTable */
+     , (38374,   8, 0x060022A9) /* Icon */
+     , (38374,  22, 0x3400002B) /* PhysicsEffectTable */;

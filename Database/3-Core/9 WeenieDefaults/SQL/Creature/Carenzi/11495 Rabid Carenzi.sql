@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11495,   1, 'Rabid Carenzi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11495,   1,   33557141) /* Setup */
-     , (11495,   2,  150995133) /* MotionTable */
-     , (11495,   3,  536871035) /* SoundTable */
-     , (11495,   6,   67113270) /* PaletteBase */
-     , (11495,   8,  100671754) /* Icon */
-     , (11495,  22,  872415377) /* PhysicsEffectTable */;
+VALUES (11495,   1, 0x02000A95) /* Setup */
+     , (11495,   2, 0x090000BD) /* MotionTable */
+     , (11495,   3, 0x2000007B) /* SoundTable */
+     , (11495,   6, 0x04001136) /* PaletteBase */
+     , (11495,   8, 0x0600210A) /* Icon */
+     , (11495,  22, 0x34000091) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11495, 8040, 263782419, 69.80699, 55.01036, -0.09999999, 0.859895, 0, 0, -0.5104709) /* PCAPRecordedLocation */
+VALUES (11495, 8040, 0x0FB90013, 69.80699, 55.01036, -0.1, 0.859895, 0, 0, -0.510471) /* PCAPRecordedLocation */
 /* @teleloc 0x0FB90013 [69.806990 55.010360 -0.100000] 0.859895 0.000000 0.000000 -0.510471 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12291,   1, 'Surface Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12291,   1,   33554867) /* Setup */
-     , (12291,   2,  150994947) /* MotionTable */
-     , (12291,   8,  100667499) /* Icon */;
+VALUES (12291,   1, 0x020001B3) /* Setup */
+     , (12291,   2, 0x09000003) /* MotionTable */
+     , (12291,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12291, 8040, 60818048, 90, -552, -0.06299996, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (12291, 8040, 0x03A00280, 90, -552, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x03A00280 [90.000000 -552.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;

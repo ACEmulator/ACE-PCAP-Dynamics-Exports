@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22936,   1, 'Aun Talamura') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22936,   1,   33557175) /* Setup */
-     , (22936,   2,  150995136) /* MotionTable */
-     , (22936,   3,  536871030) /* SoundTable */
-     , (22936,   6,   67113280) /* PaletteBase */
-     , (22936,   8,  100671756) /* Icon */;
+VALUES (22936,   1, 0x02000AB7) /* Setup */
+     , (22936,   2, 0x090000C0) /* MotionTable */
+     , (22936,   3, 0x20000076) /* SoundTable */
+     , (22936,   6, 0x04001140) /* PaletteBase */
+     , (22936,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22936, 8040, 1464467750, 91.6284, -21.3121, 0.006000042, 0.785533, 0, 0, 0.61882) /* PCAPRecordedLocation */
+VALUES (22936, 8040, 0x574A0126, 91.6284, -21.3121, 0.006, 0.785533, 0, 0, 0.61882) /* PCAPRecordedLocation */
 /* @teleloc 0x574A0126 [91.628400 -21.312100 0.006000] 0.785533 0.000000 0.000000 0.618820 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

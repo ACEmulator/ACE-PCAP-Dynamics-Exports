@@ -37,9 +37,9 @@ VALUES (31820,   1, 'Acid Baton') /* Name */
      , (31820,  16, 'Acid Baton') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31820,   1,   33559641) /* Setup */
-     , (31820,   3,  536870932) /* SoundTable */
-     , (31820,   6,   67116700) /* PaletteBase */
-     , (31820,   8,  100688009) /* Icon */
-     , (31820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31820,   1, 0x02001459) /* Setup */
+     , (31820,   3, 0x20000014) /* SoundTable */
+     , (31820,   6, 0x04001E9C) /* PaletteBase */
+     , (31820,   8, 0x06006089) /* Icon */
+     , (31820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31820,  28,       4433) /* Spell - AcidStream8 */;

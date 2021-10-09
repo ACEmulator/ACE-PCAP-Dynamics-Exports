@@ -27,13 +27,13 @@ VALUES (8765,   1, 'Chosen of Asheron') /* Name */
      , (8765,   5, 'Emissary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8765,   1,   33556923) /* Setup */
-     , (8765,   2,  150995087) /* MotionTable */
-     , (8765,   3,  536870998) /* SoundTable */
-     , (8765,   8,  100670274) /* Icon */;
+VALUES (8765,   1, 0x020009BB) /* Setup */
+     , (8765,   2, 0x0900008F) /* MotionTable */
+     , (8765,   3, 0x20000056) /* SoundTable */
+     , (8765,   8, 0x06001B42) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8765, 8040, 3164340280, 152.766, 170.479, 1.905, 0.996677, 0, 0, -0.0814541) /* PCAPRecordedLocation */
+VALUES (8765, 8040, 0xBC9C0038, 152.766, 170.479, 1.905, 0.996677, 0, 0, -0.081454) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9C0038 [152.766000 170.479000 1.905000] 0.996677 0.000000 0.000000 -0.081454 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

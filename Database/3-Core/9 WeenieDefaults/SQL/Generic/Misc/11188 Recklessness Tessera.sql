@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11188,   1, 'Recklessness Tessera') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11188,   1,   33557218) /* Setup */
-     , (11188,   3,  536870932) /* SoundTable */
-     , (11188,   8,  100671788) /* Icon */
-     , (11188,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11188,   1, 0x02000AE2) /* Setup */
+     , (11188,   3, 0x20000014) /* SoundTable */
+     , (11188,   8, 0x0600212C) /* Icon */
+     , (11188,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,9 +19,9 @@ VALUES (37321,   1, 'Glyph of Mana Regeneration') /* Name */
      , (37321,  20, 'Glyphs of Mana Regeneration') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37321,   1,   33554809) /* Setup */
-     , (37321,   3,  536870932) /* SoundTable */
-     , (37321,   6,   67111919) /* PaletteBase */
-     , (37321,   8,  100690191) /* Icon */
-     , (37321,  22,  872415275) /* PhysicsEffectTable */
-     , (37321,  50,  100686674) /* IconOverlay */;
+VALUES (37321,   1, 0x02000179) /* Setup */
+     , (37321,   3, 0x20000014) /* SoundTable */
+     , (37321,   6, 0x04000BEF) /* PaletteBase */
+     , (37321,   8, 0x0600690F) /* Icon */
+     , (37321,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37321,  50, 0x06005B52) /* IconOverlay */;

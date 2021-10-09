@@ -16,7 +16,7 @@ VALUES (0x702CF003, 43227, 0x02CF01A0, 43.2581, -2.12732, 18.029, -0.53426, 0, 0
 /* @teleloc 0x02CF01A0 [43.258100 -2.127320 18.029000] -0.534260 0.000000 0.000000 -0.845320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CF004,  1542, 0x02CF0161, 20, 0, 17.937, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x702CF004,  1542, 0x02CF0161, 20, 0, 17.937, 0.953717, 0, 0, -0.300706, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02CF0161 [20.000000 0.000000 17.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -24,9 +24,9 @@ VALUES (0x702CF004, 0x702CF005, '2019-02-10 00:00:00') /* The Floating City (819
      , (0x702CF004, 0x702CF006, '2019-02-10 00:00:00') /* The Floating City (8195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CF005,  8198, 0x02CF0161, 20, 0, 17.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* The Floating City */
+VALUES (0x702CF005,  8198, 0x02CF0161, 20, 0, 17.937, 0.953717, 0, 0, -0.300706,  True, '2019-02-10 00:00:00'); /* The Floating City */
 /* @teleloc 0x02CF0161 [20.000000 0.000000 17.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CF006,  8195, 0x02CF0161, 20, 0, 17.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* The Floating City */
+VALUES (0x702CF006,  8195, 0x02CF0161, 20, 0, 17.937, 0.953717, 0, 0, -0.300706,  True, '2019-02-10 00:00:00'); /* The Floating City */
 /* @teleloc 0x02CF0161 [20.000000 0.000000 17.937000] 0.953717 0.000000 0.000000 -0.300706 */

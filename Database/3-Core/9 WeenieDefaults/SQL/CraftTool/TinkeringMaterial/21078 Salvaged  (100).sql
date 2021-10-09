@@ -31,9 +31,9 @@ VALUES (21078,   1, 'Salvaged  (100)') /* Name */
      , (21078,  15, 'Chips of smoky quartz material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21078,   1,   33554817) /* Setup */
-     , (21078,   3,  536870932) /* SoundTable */
-     , (21078,   6,   67111919) /* PaletteBase */
-     , (21078,   8,  100673214) /* Icon */
-     , (21078,  22,  872415275) /* PhysicsEffectTable */
-     , (21078,  50,  100673302) /* IconOverlay */;
+VALUES (21078,   1, 0x02000181) /* Setup */
+     , (21078,   3, 0x20000014) /* SoundTable */
+     , (21078,   6, 0x04000BEF) /* PaletteBase */
+     , (21078,   8, 0x060026BE) /* Icon */
+     , (21078,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21078,  50, 0x06002716) /* IconOverlay */;

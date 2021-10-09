@@ -49,11 +49,11 @@ VALUES (31796,   1, 'Lightning Lancet') /* Name */
      , (31796,  16, 'Lightning Lancet of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31796,   1,   33559658) /* Setup */
-     , (31796,   3,  536870932) /* SoundTable */
-     , (31796,   6,   67116700) /* PaletteBase */
-     , (31796,   8,  100688066) /* Icon */
-     , (31796,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31796,   1, 0x0200146A) /* Setup */
+     , (31796,   3, 0x20000014) /* SoundTable */
+     , (31796,   6, 0x04001E9C) /* PaletteBase */
+     , (31796,   8, 0x060060C2) /* Icon */
+     , (31796,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31796,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

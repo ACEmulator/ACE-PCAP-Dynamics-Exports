@@ -50,11 +50,11 @@ VALUES (3938,   1, 'Frost Morning Star') /* Name */
      , (3938,  16, 'Frost Morning Star of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3938,   1,   33555761) /* Setup */
-     , (3938,   3,  536870932) /* SoundTable */
-     , (3938,   6,   67111919) /* PaletteBase */
-     , (3938,   8,  100668974) /* Icon */
-     , (3938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3938,   1, 0x02000531) /* Setup */
+     , (3938,   3, 0x20000014) /* SoundTable */
+     , (3938,   6, 0x04000BEF) /* PaletteBase */
+     , (3938,   8, 0x0600162E) /* Icon */
+     , (3938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3938,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

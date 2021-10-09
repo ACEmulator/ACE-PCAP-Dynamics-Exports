@@ -38,17 +38,17 @@ VALUES (31204,   1, 'Vestiri War Master Robe') /* Name */
      , (31204,  16, 'A finely tailored Viamontian robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31204,   1,   33559315) /* Setup */
-     , (31204,   3,  536870932) /* SoundTable */
-     , (31204,   6,   67108990) /* PaletteBase */
-     , (31204,   8,  100685964) /* Icon */
-     , (31204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31204,   1, 0x02001313) /* Setup */
+     , (31204,   3, 0x20000014) /* SoundTable */
+     , (31204,   6, 0x0400007E) /* PaletteBase */
+     , (31204,   8, 0x0600588C) /* Icon */
+     , (31204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31204,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31204,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+VALUES (31204,  1484,      2)  /* Impenetrability4 */
      , (31204,   595,      2)  /* ItemEnchantmentIneptitudeOther3 */
-     , (31204,   625,      2)  /* LifeMagicIneptitudeOther3 */
-     , (31204,   638,      2)  /* WarMagicMasteryOther4 */
      , (31204,  1453,      2)  /* WillpowerOther3 */
-     , (31204,  1484,      2)  /* Impenetrability4 */;
+     , (31204,   625,      2)  /* LifeMagicIneptitudeOther3 */
+     , (31204,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+     , (31204,   638,      2)  /* WarMagicMasteryOther4 */;

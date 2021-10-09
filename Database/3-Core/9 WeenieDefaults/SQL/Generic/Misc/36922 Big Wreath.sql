@@ -23,10 +23,10 @@ VALUES (36922,   1, 'Big Wreath') /* Name */
      , (36922,  16, 'A Holiday decoration you can hang on your wall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36922,   1,   33557450) /* Setup */
-     , (36922,   8,  100689759) /* Icon */
-     , (36922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36922,   1, 0x02000BCA) /* Setup */
+     , (36922,   8, 0x0600675F) /* Icon */
+     , (36922,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36922, 8040, 23855554, 55.35807, -27.7419, 0.2, 0.06442952, 0, 0, -0.9979222) /* PCAPRecordedLocation */
+VALUES (36922, 8040, 0x016C01C2, 55.35807, -27.7419, 0.2, 0.06443, 0, 0, -0.997922) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.358070 -27.741900 0.200000] 0.064430 0.000000 0.000000 -0.997922 */;

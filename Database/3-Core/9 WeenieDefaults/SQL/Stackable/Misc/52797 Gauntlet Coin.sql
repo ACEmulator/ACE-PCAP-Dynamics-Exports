@@ -25,7 +25,7 @@ VALUES (52797,   1, 'Gauntlet Coin') /* Name */
      , (52797,  16, 'A dark silver coin engraved with the mark of the Gauntlet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52797,   1,   33554802) /* Setup */
-     , (52797,   3,  536870932) /* SoundTable */
-     , (52797,   8,  100693323) /* Icon */
-     , (52797,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52797,   1, 0x02000172) /* Setup */
+     , (52797,   3, 0x20000014) /* SoundTable */
+     , (52797,   8, 0x0600754B) /* Icon */
+     , (52797,  22, 0x3400002B) /* PhysicsEffectTable */;

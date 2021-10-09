@@ -24,8 +24,8 @@ VALUES (38047,   1, 'Green Mire Yari') /* Name */
      , (38047,  16, 'An old and timeworn Yari, that once belonged to the famous Green Mire Warrior.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38047,   1,   33554824) /* Setup */
-     , (38047,   3,  536870932) /* SoundTable */
-     , (38047,   6,   67111919) /* PaletteBase */
-     , (38047,   8,  100669088) /* Icon */
-     , (38047,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38047,   1, 0x02000188) /* Setup */
+     , (38047,   3, 0x20000014) /* SoundTable */
+     , (38047,   6, 0x04000BEF) /* PaletteBase */
+     , (38047,   8, 0x060016A0) /* Icon */
+     , (38047,  22, 0x3400002B) /* PhysicsEffectTable */;

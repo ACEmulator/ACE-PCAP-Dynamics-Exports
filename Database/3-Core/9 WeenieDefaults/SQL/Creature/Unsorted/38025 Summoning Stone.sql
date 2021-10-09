@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38025,   1, 'Summoning Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38025,   1,   33560583) /* Setup */
-     , (38025,   2,  150995438) /* MotionTable */
-     , (38025,   3,  536871117) /* SoundTable */
-     , (38025,   8,  100689909) /* Icon */
-     , (38025,  22,  872415431) /* PhysicsEffectTable */;
+VALUES (38025,   1, 0x02001807) /* Setup */
+     , (38025,   2, 0x090001EE) /* MotionTable */
+     , (38025,   3, 0x200000CD) /* SoundTable */
+     , (38025,   8, 0x060067F5) /* Icon */
+     , (38025,  22, 0x340000C7) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38025, 8040, 1210908714, 133.109, 43.1089, 2.499992, 0.9660009, 0, 0, -0.258539) /* PCAPRecordedLocation */
+VALUES (38025, 8040, 0x482D002A, 133.109, 43.1089, 2.499992, 0.966001, 0, 0, -0.258539) /* PCAPRecordedLocation */
 /* @teleloc 0x482D002A [133.109000 43.108900 2.499992] 0.966001 0.000000 0.000000 -0.258539 */;

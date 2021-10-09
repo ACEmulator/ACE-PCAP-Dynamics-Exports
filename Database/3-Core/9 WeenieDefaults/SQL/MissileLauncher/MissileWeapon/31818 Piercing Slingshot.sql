@@ -52,15 +52,15 @@ VALUES (31818,   1, 'Piercing Slingshot') /* Name */
      , (31818,  16, 'Piercing Slingshot of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31818,   1,   33559695) /* Setup */
-     , (31818,   3,  536870932) /* SoundTable */
-     , (31818,   6,   67116700) /* PaletteBase */
-     , (31818,   8,  100688027) /* Icon */
-     , (31818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31818,   1, 0x0200148F) /* Setup */
+     , (31818,   3, 0x20000014) /* SoundTable */
+     , (31818,   6, 0x04001E9C) /* PaletteBase */
+     , (31818,   8, 0x0600609B) /* Icon */
+     , (31818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31818,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31818,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31818,  2101,      2)  /* DefenderSelf7 */
+VALUES (31818,  5831,      2)  /* RecklessnessMasterySelf5 */
+     , (31818,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31818,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (31818,  5831,      2)  /* RecklessnessMasterySelf5 */;
+     , (31818,  2101,      2)  /* DefenderSelf7 */;

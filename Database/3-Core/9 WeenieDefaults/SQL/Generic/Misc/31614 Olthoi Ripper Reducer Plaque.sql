@@ -23,9 +23,9 @@ VALUES (31614,   1, 'Olthoi Ripper Reducer Plaque') /* Name */
      , (31614,  15, 'The owner of this plaque is a verified "Olthoi Ripper Reducer"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31614,   1,   33559570) /* Setup */
-     , (31614,   3,  536870932) /* SoundTable */
-     , (31614,   6,   67111919) /* PaletteBase */
-     , (31614,   8,  100667623) /* Icon */
-     , (31614,  22,  872415275) /* PhysicsEffectTable */
-     , (31614,  52,  100687683) /* IconUnderlay */;
+VALUES (31614,   1, 0x02001412) /* Setup */
+     , (31614,   3, 0x20000014) /* SoundTable */
+     , (31614,   6, 0x04000BEF) /* PaletteBase */
+     , (31614,   8, 0x060010E7) /* Icon */
+     , (31614,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31614,  52, 0x06005F43) /* IconUnderlay */;

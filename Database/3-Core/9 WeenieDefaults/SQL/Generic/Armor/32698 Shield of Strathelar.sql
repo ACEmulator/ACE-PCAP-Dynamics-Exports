@@ -35,11 +35,11 @@ VALUES (32698,   1, 'Shield of Strathelar') /* Name */
      , (32698,  16, 'A shield, bearing the Strathelar coat of arms.  This is standard issue for those who have joined Queen Elysa''s army, though it has been given on occasion to honor those who have acted in the interests of the kingdom.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32698,   1,   33559815) /* Setup */
-     , (32698,   3,  536870932) /* SoundTable */
-     , (32698,   8,  100688556) /* Icon */
-     , (32698,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32698,   1, 0x02001507) /* Setup */
+     , (32698,   3, 0x20000014) /* SoundTable */
+     , (32698,   8, 0x060062AC) /* Icon */
+     , (32698,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32698, 8040, 3911319565, 31.5873, 100.9003, -0.07400001, -0.2617966, 0.6638168, 0.5189711, 0.4706153) /* PCAPRecordedLocation */
+VALUES (32698, 8040, 0xE922000D, 31.5873, 100.9003, -0.074, -0.261797, 0.663817, 0.518971, 0.470615) /* PCAPRecordedLocation */
 /* @teleloc 0xE922000D [31.587300 100.900300 -0.074000] -0.261797 0.663817 0.518971 0.470615 */;

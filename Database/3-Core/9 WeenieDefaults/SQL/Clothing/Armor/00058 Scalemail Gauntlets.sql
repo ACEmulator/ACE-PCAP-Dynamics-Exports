@@ -41,11 +41,11 @@ VALUES (58,   1, 'Scalemail Gauntlets') /* Name */
      , (58,  16, 'Scalemail Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (58,   1,   33554648) /* Setup */
-     , (58,   3,  536870932) /* SoundTable */
-     , (58,   6,   67108990) /* PaletteBase */
-     , (58,   8,  100669675) /* Icon */
-     , (58,  22,  872415275) /* PhysicsEffectTable */
+VALUES (58,   1, 0x020000D8) /* Setup */
+     , (58,   3, 0x20000014) /* SoundTable */
+     , (58,   6, 0x0400007E) /* PaletteBase */
+     , (58,   8, 0x060018EB) /* Icon */
+     , (58,  22, 0x3400002B) /* PhysicsEffectTable */
      , (58,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

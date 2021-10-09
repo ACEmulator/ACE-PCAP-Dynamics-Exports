@@ -35,20 +35,20 @@ VALUES (835,   1, 'Ven Ounan the Blacksmith') /* Name */
      , (835,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (835,   1,   33554510) /* Setup */
-     , (835,   2,  150994945) /* MotionTable */
-     , (835,   3,  536870914) /* SoundTable */
-     , (835,   6,   67108990) /* PaletteBase */
-     , (835,   8,  100667446) /* Icon */
-     , (835,   9,   83890244) /* EyesTexture */
-     , (835,  10,   83890297) /* NoseTexture */
-     , (835,  11,   83890350) /* MouthTexture */
-     , (835,  15,   67116990) /* HairPalette */
-     , (835,  16,   67110062) /* EyesPalette */
-     , (835,  17,   67110057) /* SkinPalette */;
+VALUES (835,   1, 0x0200004E) /* Setup */
+     , (835,   2, 0x09000001) /* MotionTable */
+     , (835,   3, 0x20000002) /* SoundTable */
+     , (835,   6, 0x0400007E) /* PaletteBase */
+     , (835,   8, 0x06001036) /* Icon */
+     , (835,   9, 0x05001044) /* EyesTexture */
+     , (835,  10, 0x05001079) /* NoseTexture */
+     , (835,  11, 0x050010AE) /* MouthTexture */
+     , (835,  15, 0x04001FBE) /* HairPalette */
+     , (835,  16, 0x040004AE) /* EyesPalette */
+     , (835,  17, 0x040004A9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (835, 8040, 3663003915, 43.89, 104.88, 20.005, 0.653458, 0, 0, -0.7569628) /* PCAPRecordedLocation */
+VALUES (835, 8040, 0xDA55010B, 43.89, 104.88, 20.005, 0.653458, 0, 0, -0.756963) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55010B [43.890000 104.880000 20.005000] 0.653458 0.000000 0.000000 -0.756963 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

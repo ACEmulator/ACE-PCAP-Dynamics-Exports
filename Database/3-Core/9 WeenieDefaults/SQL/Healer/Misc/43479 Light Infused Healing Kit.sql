@@ -30,6 +30,6 @@ VALUES (43479,   1, 'Light Infused Healing Kit') /* Name */
      , (43479,  16, 'A faintly glowing healing kit that smells of hyssop, amaranth and other aromatic herbs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43479,   1,   33555194) /* Setup */
-     , (43479,   8,  100676325) /* Icon */
-     , (43479,  52,  100691593) /* IconUnderlay */;
+VALUES (43479,   1, 0x020002FA) /* Setup */
+     , (43479,   8, 0x060032E5) /* Icon */
+     , (43479,  52, 0x06006E89) /* IconUnderlay */;

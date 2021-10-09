@@ -26,7 +26,7 @@ VALUES (41626,   1, 'Perfect Isparian Two Handed Weapons Ingot') /* Name */
      , (41626,  16, 'A diamond infused ingot, enhanced and stamped with a two handed weaposn glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41626,   1,   33555677) /* Setup */
-     , (41626,   3,  536870932) /* SoundTable */
-     , (41626,   8,  100672972) /* Icon */
-     , (41626,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41626,   1, 0x020004DD) /* Setup */
+     , (41626,   3, 0x20000014) /* SoundTable */
+     , (41626,   8, 0x060025CC) /* Icon */
+     , (41626,  22, 0x3400002B) /* PhysicsEffectTable */;

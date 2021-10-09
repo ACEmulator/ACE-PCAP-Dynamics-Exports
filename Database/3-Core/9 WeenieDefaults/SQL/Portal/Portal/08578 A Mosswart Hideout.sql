@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8578,   1, 'A Mosswart Hideout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8578,   1,   33554867) /* Setup */
-     , (8578,   2,  150994947) /* MotionTable */
-     , (8578,   8,  100667499) /* Icon */;
+VALUES (8578,   1, 0x020001B3) /* Setup */
+     , (8578,   2, 0x09000003) /* MotionTable */
+     , (8578,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8578, 8040, 4028891189, 161.856, 105.417, 21.937, 0.9996146, 0, 0, -0.02776169) /* PCAPRecordedLocation */
+VALUES (8578, 8040, 0xF0240035, 161.856, 105.417, 21.937, 0.999615, 0, 0, -0.027762) /* PCAPRecordedLocation */
 /* @teleloc 0xF0240035 [161.856000 105.417000 21.937000] 0.999615 0.000000 0.000000 -0.027762 */;

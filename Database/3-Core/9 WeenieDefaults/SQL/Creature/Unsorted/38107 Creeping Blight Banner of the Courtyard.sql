@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38107,   1, 'Creeping Blight Banner of the Courtyard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38107,   1,   33560561) /* Setup */
-     , (38107,   2,  150995147) /* MotionTable */
-     , (38107,   3,  536871017) /* SoundTable */
-     , (38107,   8,  100689891) /* Icon */
-     , (38107,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (38107,   1, 0x020017F1) /* Setup */
+     , (38107,   2, 0x090000CB) /* MotionTable */
+     , (38107,   3, 0x20000069) /* SoundTable */
+     , (38107,   8, 0x060067E3) /* Icon */
+     , (38107,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38107, 8040, 2665807908, 99.7531, 76.0542, 82, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38107, 8040, 0x9EE50024, 99.7531, 76.0542, 82, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9EE50024 [99.753100 76.054200 82.000000] 1.000000 0.000000 0.000000 0.000000 */;

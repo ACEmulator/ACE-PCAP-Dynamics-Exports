@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33009,   1, 'Shonossoar the Song-Keeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33009,   1,   33559537) /* Setup */
-     , (33009,   2,  150994945) /* MotionTable */
-     , (33009,   3,  536870913) /* SoundTable */
-     , (33009,   8,  100670398) /* Icon */
-     , (33009,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33009,   1, 0x020013F1) /* Setup */
+     , (33009,   2, 0x09000001) /* MotionTable */
+     , (33009,   3, 0x20000001) /* SoundTable */
+     , (33009,   8, 0x06001BBE) /* Icon */
+     , (33009,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33009, 8040, 8257847, 370, -20, -71.99725, 0.020795, 0, 0, -0.9997838) /* PCAPRecordedLocation */
+VALUES (33009, 8040, 0x007E0137, 370, -20, -71.99725, 0.020795, 0, 0, -0.999784) /* PCAPRecordedLocation */
 /* @teleloc 0x007E0137 [370.000000 -20.000000 -71.997250] 0.020795 0.000000 0.000000 -0.999784 */;

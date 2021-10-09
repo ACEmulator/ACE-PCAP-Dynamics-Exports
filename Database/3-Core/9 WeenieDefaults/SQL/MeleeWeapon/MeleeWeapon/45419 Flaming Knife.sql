@@ -49,10 +49,10 @@ VALUES (45419,   1, 'Flaming Knife') /* Name */
      , (45419,  16, 'Flaming Knife of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45419,   1,   33555751) /* Setup */
-     , (45419,   3,  536870932) /* SoundTable */
-     , (45419,   8,  100668945) /* Icon */
-     , (45419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45419,   1, 0x02000527) /* Setup */
+     , (45419,   3, 0x20000014) /* SoundTable */
+     , (45419,   8, 0x06001611) /* Icon */
+     , (45419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45419,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

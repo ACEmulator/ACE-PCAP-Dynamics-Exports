@@ -19,10 +19,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4150,   1, 'Creepy Chambers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4150,   1,   33555925) /* Setup */
-     , (4150,   2,  150994947) /* MotionTable */
-     , (4150,   8,  100667499) /* Icon */;
+VALUES (4150,   1, 0x020005D5) /* Setup */
+     , (4150,   2, 0x09000003) /* MotionTable */
+     , (4150,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4150, 8040, 874184731, 78.0666, 62.2456, 19.8475, -0.7754254, 0, 0, 0.6314393) /* PCAPRecordedLocation */
+VALUES (4150, 8040, 0x341B001B, 78.0666, 62.2456, 19.8475, -0.775425, 0, 0, 0.631439) /* PCAPRecordedLocation */
 /* @teleloc 0x341B001B [78.066600 62.245600 19.847500] -0.775425 0.000000 0.000000 0.631439 */;

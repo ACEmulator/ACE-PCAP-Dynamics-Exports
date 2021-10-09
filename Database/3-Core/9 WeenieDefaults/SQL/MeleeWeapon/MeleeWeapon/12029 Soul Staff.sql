@@ -40,10 +40,10 @@ VALUES (12029,   1, 'Soul Staff') /* Name */
      , (12029,  16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12029,   1,   33557346) /* Setup */
-     , (12029,   3,  536870932) /* SoundTable */
-     , (12029,   8,  100672132) /* Icon */
-     , (12029,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12029,   1, 0x02000B62) /* Setup */
+     , (12029,   3, 0x20000014) /* SoundTable */
+     , (12029,   8, 0x06002284) /* Icon */
+     , (12029,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12029,  1310,      2)  /* ArmorSelf4 */

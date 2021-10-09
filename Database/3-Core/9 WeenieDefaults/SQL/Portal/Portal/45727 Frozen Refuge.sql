@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45727,   1, 'Frozen Refuge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45727,   1,   33555925) /* Setup */
-     , (45727,   2,  150994947) /* MotionTable */
-     , (45727,   8,  100667499) /* Icon */;
+VALUES (45727,   1, 0x020005D5) /* Setup */
+     , (45727,   2, 0x09000003) /* MotionTable */
+     , (45727,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45727, 8040, 1190395951, 122.801, 164.585, 16.63725, -0.2946111, 0, 0, 0.9556172) /* PCAPRecordedLocation */
+VALUES (45727, 8040, 0x46F4002F, 122.801, 164.585, 16.63725, -0.294611, 0, 0, 0.955617) /* PCAPRecordedLocation */
 /* @teleloc 0x46F4002F [122.801000 164.585000 16.637250] -0.294611 0.000000 0.000000 0.955617 */;

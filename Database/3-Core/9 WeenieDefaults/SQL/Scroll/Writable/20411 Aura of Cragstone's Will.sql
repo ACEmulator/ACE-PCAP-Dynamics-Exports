@@ -23,7 +23,7 @@ VALUES (20411,   1, 'Aura of Cragstone''s Will') /* Name */
 Increases the Melee Defense skill modifier of a weapon or magic caster by 17%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20411,   1,   33554826) /* Setup */
-     , (20411,   8,  100676658) /* Icon */
-     , (20411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20411,   1, 0x0200018A) /* Setup */
+     , (20411,   8, 0x06003432) /* Icon */
+     , (20411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20411,  28,       2101) /* Spell - DefenderSelf7 */;

@@ -30,11 +30,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30457,   1, 'Circlet of Shielding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30457,   1,   33554691) /* Setup */
-     , (30457,   3,  536870932) /* SoundTable */
-     , (30457,   6,   67111919) /* PaletteBase */
-     , (30457,   8,  100668662) /* Icon */
-     , (30457,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30457,   1, 0x02000103) /* Setup */
+     , (30457,   3, 0x20000014) /* SoundTable */
+     , (30457,   6, 0x04000BEF) /* PaletteBase */
+     , (30457,   8, 0x060014F6) /* Icon */
+     , (30457,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30457,   279,      2)  /* MagicResistanceSelf6 */

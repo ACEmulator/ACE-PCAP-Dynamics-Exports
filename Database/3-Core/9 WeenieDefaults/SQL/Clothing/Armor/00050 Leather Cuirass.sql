@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (50,   1, 'Leather Cuirass') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (50,   1,   33554653) /* Setup */
-     , (50,   3,  536870932) /* SoundTable */
-     , (50,   6,   67108990) /* PaletteBase */
-     , (50,   8,  100667351) /* Icon */
-     , (50,  22,  872415275) /* PhysicsEffectTable */
+VALUES (50,   1, 0x020000DD) /* Setup */
+     , (50,   3, 0x20000014) /* SoundTable */
+     , (50,   6, 0x0400007E) /* PaletteBase */
+     , (50,   8, 0x06000FD7) /* Icon */
+     , (50,  22, 0x3400002B) /* PhysicsEffectTable */
      , (50, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

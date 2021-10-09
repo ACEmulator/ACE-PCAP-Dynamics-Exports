@@ -29,8 +29,8 @@ VALUES (32255,   1, 'Gem of Arcane Corruption') /* Name */
      , (32255,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Focus Spell that will affect the wearer, but in turn sap a small amount of the wearer''s health. The armor will then only be wearable by the crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32255,   1,   33554809) /* Setup */
-     , (32255,   3,  536870932) /* SoundTable */
-     , (32255,   6,   67111919) /* PaletteBase */
-     , (32255,   8,  100688416) /* Icon */
-     , (32255,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32255,   1, 0x02000179) /* Setup */
+     , (32255,   3, 0x20000014) /* SoundTable */
+     , (32255,   6, 0x04000BEF) /* PaletteBase */
+     , (32255,   8, 0x06006220) /* Icon */
+     , (32255,  22, 0x3400002B) /* PhysicsEffectTable */;

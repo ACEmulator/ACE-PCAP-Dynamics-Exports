@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46694,   1, 'Tumerok Savage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46694,   1,   33559568) /* Setup */
-     , (46694,   2,  150994954) /* MotionTable */
-     , (46694,   3,  536870931) /* SoundTable */
-     , (46694,   6,   67116625) /* PaletteBase */
-     , (46694,   8,  100667452) /* Icon */
-     , (46694,  22,  872415270) /* PhysicsEffectTable */;
+VALUES (46694,   1, 0x02001410) /* Setup */
+     , (46694,   2, 0x0900000A) /* MotionTable */
+     , (46694,   3, 0x20000013) /* SoundTable */
+     , (46694,   6, 0x04001E51) /* PaletteBase */
+     , (46694,   8, 0x0600103C) /* Icon */
+     , (46694,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46694, 8040, 1499529483, 20.63282, -97.51895, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46694, 8040, 0x5961010B, 20.63282, -97.51895, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5961010B [20.632820 -97.518950 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

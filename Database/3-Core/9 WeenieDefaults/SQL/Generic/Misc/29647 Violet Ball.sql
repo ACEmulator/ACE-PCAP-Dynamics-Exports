@@ -24,6 +24,6 @@ VALUES (29647,   1, 'Violet Ball') /* Name */
      , (29647,  16, 'A large violet ball.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29647,   1,   33554669) /* Setup */
-     , (29647,   6,   67111928) /* PaletteBase */
-     , (29647,   8,  100668728) /* Icon */;
+VALUES (29647,   1, 0x020000ED) /* Setup */
+     , (29647,   6, 0x04000BF8) /* PaletteBase */
+     , (29647,   8, 0x06001538) /* Icon */;

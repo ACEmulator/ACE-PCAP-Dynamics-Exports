@@ -28,14 +28,14 @@ VALUES (36866,   1, 'Aun Javhalrea, the Game Warden') /* Name */
      , (36866,   5, 'Game Warden') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36866,   1,   33557117) /* Setup */
-     , (36866,   2,  150994945) /* MotionTable */
-     , (36866,   3,  536870931) /* SoundTable */
-     , (36866,   6,   67113280) /* PaletteBase */
-     , (36866,   8,  100671756) /* Icon */;
+VALUES (36866,   1, 0x02000A7D) /* Setup */
+     , (36866,   2, 0x09000001) /* MotionTable */
+     , (36866,   3, 0x20000013) /* SoundTable */
+     , (36866,   6, 0x04001140) /* PaletteBase */
+     , (36866,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36866, 8040, 288555037, 90.8618, 101.34, 66.0065, 0.728529, 0, 0, 0.685015) /* PCAPRecordedLocation */
+VALUES (36866, 8040, 0x1133001D, 90.8618, 101.34, 66.0065, 0.728529, 0, 0, 0.685015) /* PCAPRecordedLocation */
 /* @teleloc 0x1133001D [90.861800 101.340000 66.006500] 0.728529 0.000000 0.000000 0.685015 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

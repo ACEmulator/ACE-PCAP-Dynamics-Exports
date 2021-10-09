@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47325,   1, 'Acid Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47325,   1,   33555727) /* Setup */
-     , (47325,   3,  536870932) /* SoundTable */
-     , (47325,   8,  100668855) /* Icon */
-     , (47325,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47325,   1, 0x0200050F) /* Setup */
+     , (47325,   3, 0x20000014) /* SoundTable */
+     , (47325,   8, 0x060015B7) /* Icon */
+     , (47325,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47325, 8040, 3398828071, 113.4707, 159.0503, 31.19172, 0.8029755, 0.5353079, -0.1459411, -0.2176624) /* PCAPRecordedLocation */
+VALUES (47325, 8040, 0xCA960027, 113.4707, 159.0503, 31.19172, 0.802976, 0.535308, -0.145941, -0.217662) /* PCAPRecordedLocation */
 /* @teleloc 0xCA960027 [113.470700 159.050300 31.191720] 0.802976 0.535308 -0.145941 -0.217662 */;

@@ -49,14 +49,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46214,   1, 'Shimmering Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46214,   1,   33556261) /* Setup */
-     , (46214,   3,  536870932) /* SoundTable */
-     , (46214,   8,  100673241) /* Icon */
-     , (46214,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46214,   1, 0x02000725) /* Setup */
+     , (46214,   3, 0x20000014) /* SoundTable */
+     , (46214,   8, 0x060026D9) /* Icon */
+     , (46214,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46214,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (46214,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46214,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46214,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46214,  2101,      2)  /* DefenderSelf7 */
-     , (46214,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46214,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46214,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;
+     , (46214,  2106,      2)  /* HeartSeekerSelf7 */;

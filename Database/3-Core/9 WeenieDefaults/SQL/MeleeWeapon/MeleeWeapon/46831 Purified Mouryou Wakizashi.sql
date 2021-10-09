@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46831,   1, 'Purified Mouryou Wakizashi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46831,   1,   33561505) /* Setup */
-     , (46831,   3,  536870932) /* SoundTable */
-     , (46831,   8,  100692959) /* Icon */
-     , (46831,  22,  872415275) /* PhysicsEffectTable */
-     , (46831,  52,  100689896) /* IconUnderlay */;
+VALUES (46831,   1, 0x02001BA1) /* Setup */
+     , (46831,   3, 0x20000014) /* SoundTable */
+     , (46831,   8, 0x060073DF) /* Icon */
+     , (46831,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (46831,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46831, 8040, 1415184700, 7.943641, -49.58646, 5.929, 0.4532532, 0.4532532, -0.5427352, -0.5427352) /* PCAPRecordedLocation */
+VALUES (46831, 8040, 0x545A013C, 7.943641, -49.58646, 5.929, 0.453253, 0.453253, -0.542735, -0.542735) /* PCAPRecordedLocation */
 /* @teleloc 0x545A013C [7.943641 -49.586460 5.929000] 0.453253 0.453253 -0.542735 -0.542735 */;

@@ -26,8 +26,8 @@ VALUES (42875,   1, 'Chunk of Ore') /* Name */
      , (42875,  20, 'Chunks of Ore') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42875,   1,   33554817) /* Setup */
-     , (42875,   3,  536870932) /* SoundTable */
-     , (42875,   6,   67111919) /* PaletteBase */
-     , (42875,   8,  100670767) /* Icon */
-     , (42875,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (42875,   1, 0x02000181) /* Setup */
+     , (42875,   3, 0x20000014) /* SoundTable */
+     , (42875,   6, 0x04000BEF) /* PaletteBase */
+     , (42875,   8, 0x06001D2F) /* Icon */
+     , (42875,  22, 0x3400002B) /* PhysicsEffectTable */;

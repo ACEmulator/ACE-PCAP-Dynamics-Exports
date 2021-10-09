@@ -27,11 +27,11 @@ VALUES (34193,   1, 'Orange Anniversary Sparkler') /* Name */
      , (34193,  16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34193,   1,   33560117) /* Setup */
-     , (34193,   3,  536870932) /* SoundTable */
-     , (34193,   8,  100689219) /* Icon */
-     , (34193,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34193,   1, 0x02001635) /* Setup */
+     , (34193,   3, 0x20000014) /* SoundTable */
+     , (34193,   8, 0x06006543) /* Icon */
+     , (34193,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34193, 8040, 2749825077, 151.708, 104.7327, 55.929, -0.536693, -0.536693, -0.4603918, -0.4603918) /* PCAPRecordedLocation */
+VALUES (34193, 8040, 0xA3E70035, 151.708, 104.7327, 55.929, -0.536693, -0.536693, -0.460392, -0.460392) /* PCAPRecordedLocation */
 /* @teleloc 0xA3E70035 [151.708000 104.732700 55.929000] -0.536693 -0.536693 -0.460392 -0.460392 */;

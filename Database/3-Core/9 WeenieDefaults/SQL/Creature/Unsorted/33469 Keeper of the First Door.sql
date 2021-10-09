@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33469,   1, 'Keeper of the First Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33469,   1,   33559125) /* Setup */
-     , (33469,   2,  150995334) /* MotionTable */
-     , (33469,   3,  536871102) /* SoundTable */
-     , (33469,   6,   67115468) /* PaletteBase */
-     , (33469,   8,  100677371) /* Icon */
-     , (33469,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (33469,   1, 0x02001255) /* Setup */
+     , (33469,   2, 0x09000186) /* MotionTable */
+     , (33469,   3, 0x200000BE) /* SoundTable */
+     , (33469,   6, 0x040019CC) /* PaletteBase */
+     , (33469,   8, 0x060036FB) /* Icon */
+     , (33469,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33469, 8040, 8651437, 188.59, -20, 0.006789923, 0.696707, 0, 0, 0.717356) /* PCAPRecordedLocation */
+VALUES (33469, 8040, 0x008402AD, 188.59, -20, 0.00679, 0.696707, 0, 0, 0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x008402AD [188.590000 -20.000000 0.006790] 0.696707 0.000000 0.000000 0.717356 */;

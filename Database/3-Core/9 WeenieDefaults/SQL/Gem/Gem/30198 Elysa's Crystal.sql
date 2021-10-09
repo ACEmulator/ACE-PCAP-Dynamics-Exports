@@ -32,10 +32,10 @@ VALUES (30198,   1, 'Elysa''s Crystal') /* Name */
      , (30198,  20, 'Elysa''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30198,   1,   33554809) /* Setup */
-     , (30198,   3,  536870932) /* SoundTable */
-     , (30198,   8,  100686697) /* Icon */
-     , (30198,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30198,   1, 0x02000179) /* Setup */
+     , (30198,   3, 0x20000014) /* SoundTable */
+     , (30198,   8, 0x06005B69) /* Icon */
+     , (30198,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30198,  28,       3691) /* Spell - BowMasteryRare */
-     , (30198,  50,  100686638) /* IconOverlay */
-     , (30198,  52,  100686604) /* IconUnderlay */;
+     , (30198,  50, 0x06005B2E) /* IconOverlay */
+     , (30198,  52, 0x06005B0C) /* IconUnderlay */;

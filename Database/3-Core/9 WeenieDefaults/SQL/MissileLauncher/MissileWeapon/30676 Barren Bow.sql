@@ -47,13 +47,13 @@ VALUES (30676,   1, 'Barren Bow') /* Name */
      , (30676,  16, 'This bow appears to be made from the withered flesh of some sort of creature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30676,   1,   33559216) /* Setup */
-     , (30676,   3,  536870932) /* SoundTable */
-     , (30676,   8,  100677401) /* Icon */
-     , (30676,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30676,   1, 0x020012B0) /* Setup */
+     , (30676,   3, 0x20000014) /* SoundTable */
+     , (30676,   8, 0x06003719) /* Icon */
+     , (30676,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30676, 8040, 437452861, 181.9755, 100.6879, -0.07000001, 0.9568624, 0, 0, -0.2905415) /* PCAPRecordedLocation */
+VALUES (30676, 8040, 0x1A13003D, 181.9755, 100.6879, -0.07, 0.956862, 0, 0, -0.290542) /* PCAPRecordedLocation */
 /* @teleloc 0x1A13003D [181.975500 100.687900 -0.070000] 0.956862 0.000000 0.000000 -0.290542 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

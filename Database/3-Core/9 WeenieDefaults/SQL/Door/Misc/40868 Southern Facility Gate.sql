@@ -25,12 +25,12 @@ VALUES (40868,   1, 'Southern Facility Gate') /* Name */
      , (40868,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40868,   1,   33555953) /* Setup */
-     , (40868,   2,  150995078) /* MotionTable */
-     , (40868,   3,  536870947) /* SoundTable */
-     , (40868,   8,  100668183) /* Icon */
-     , (40868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40868,   1, 0x020005F1) /* Setup */
+     , (40868,   2, 0x09000086) /* MotionTable */
+     , (40868,   3, 0x20000023) /* SoundTable */
+     , (40868,   8, 0x06001317) /* Icon */
+     , (40868,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40868, 8040, 761987782, 146, 149, 38.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (40868, 8040, 0x2D6B02C6, 146, 149, 38.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D6B02C6 [146.000000 149.000000 38.400000] 1.000000 0.000000 0.000000 0.000000 */;

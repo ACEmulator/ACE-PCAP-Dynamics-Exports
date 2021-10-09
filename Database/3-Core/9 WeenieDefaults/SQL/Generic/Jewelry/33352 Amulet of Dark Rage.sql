@@ -22,8 +22,8 @@ VALUES (33352,   1, 'Amulet of Dark Rage') /* Name */
      , (33352,  16, 'A dark gem that pulses with an ancient rage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33352,   1,   33554680) /* Setup */
-     , (33352,   3,  536870932) /* SoundTable */
-     , (33352,   6,   67111919) /* PaletteBase */
-     , (33352,   8,  100668602) /* Icon */
-     , (33352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33352,   1, 0x020000F8) /* Setup */
+     , (33352,   3, 0x20000014) /* SoundTable */
+     , (33352,   6, 0x04000BEF) /* PaletteBase */
+     , (33352,   8, 0x060014BA) /* Icon */
+     , (33352,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (44435,   1, 'Message from Ler Rhan to Ter Shen.') /* Name */
      , (44435,  15, 'An encoded message intended only for the eyes of Ter Shen.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44435,   1,   33556232) /* Setup */
-     , (44435,   3,  536870932) /* SoundTable */
-     , (44435,   8,  100670890) /* Icon */
-     , (44435,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44435,   1, 0x02000708) /* Setup */
+     , (44435,   3, 0x20000014) /* SoundTable */
+     , (44435,   8, 0x06001DAA) /* Icon */
+     , (44435,  22, 0x3400002B) /* PhysicsEffectTable */;

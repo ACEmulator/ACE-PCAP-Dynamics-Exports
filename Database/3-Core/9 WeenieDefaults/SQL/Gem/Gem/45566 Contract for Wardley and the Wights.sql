@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45566,   1, 'Contract for Wardley and the Wights') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45566,   1,   33554773) /* Setup */
-     , (45566,   3,  536870932) /* SoundTable */
-     , (45566,   8,  100691930) /* Icon */
-     , (45566,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45566,   1, 0x02000155) /* Setup */
+     , (45566,   3, 0x20000014) /* SoundTable */
+     , (45566,   8, 0x06006FDA) /* Icon */
+     , (45566,  22, 0x3400002B) /* PhysicsEffectTable */;

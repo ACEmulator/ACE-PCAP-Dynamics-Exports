@@ -23,7 +23,7 @@ VALUES (3390,   1, 'Scroll of Lockpick Mastery Self IV') /* Name */
 Increases the caster''s Lockpick skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3390,   1,   33554826) /* Setup */
-     , (3390,   8,  100676463) /* Icon */
-     , (3390,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3390,   1, 0x0200018A) /* Setup */
+     , (3390,   8, 0x0600336F) /* Icon */
+     , (3390,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3390,  28,        925) /* Spell - LockpickMasterySelf4 */;

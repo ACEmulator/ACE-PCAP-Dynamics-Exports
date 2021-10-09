@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9407,   1, 'Master Ulkas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9407,   1,   33557003) /* Setup */
-     , (9407,   2,  150994950) /* MotionTable */
-     , (9407,   3,  536870922) /* SoundTable */
-     , (9407,   6,   67113158) /* PaletteBase */
-     , (9407,   8,  100667447) /* Icon */;
+VALUES (9407,   1, 0x02000A0B) /* Setup */
+     , (9407,   2, 0x09000006) /* MotionTable */
+     , (9407,   3, 0x2000000A) /* SoundTable */
+     , (9407,   6, 0x040010C6) /* PaletteBase */
+     , (9407,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9407, 8040, 2719875407, 28.1064, 28.8197, 561.01, -0.96581, 0, 0, 0.25925) /* PCAPRecordedLocation */
+VALUES (9407, 8040, 0xA21E014F, 28.1064, 28.8197, 561.01, -0.96581, 0, 0, 0.25925) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E014F [28.106400 28.819700 561.010000] -0.965810 0.000000 0.000000 0.259250 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -51,11 +51,11 @@ VALUES (30614,   1, 'Frost Knuckles') /* Name */
      , (30614,  16, 'Frost Knuckles of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30614,   1,   33559500) /* Setup */
-     , (30614,   3,  536870932) /* SoundTable */
-     , (30614,   6,   67115556) /* PaletteBase */
-     , (30614,   8,  100687035) /* Icon */
-     , (30614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30614,   1, 0x020013CC) /* Setup */
+     , (30614,   3, 0x20000014) /* SoundTable */
+     , (30614,   6, 0x04001A24) /* PaletteBase */
+     , (30614,   8, 0x06005CBB) /* Icon */
+     , (30614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30614,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

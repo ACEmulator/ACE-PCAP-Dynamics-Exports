@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47191,   1, 'Neelic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47191,   1,   33557003) /* Setup */
-     , (47191,   2,  150994950) /* MotionTable */
-     , (47191,   3,  536870922) /* SoundTable */
-     , (47191,   6,   67113158) /* PaletteBase */
-     , (47191,   8,  100667447) /* Icon */;
+VALUES (47191,   1, 0x02000A0B) /* Setup */
+     , (47191,   2, 0x09000006) /* MotionTable */
+     , (47191,   3, 0x2000000A) /* SoundTable */
+     , (47191,   6, 0x040010C6) /* PaletteBase */
+     , (47191,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47191, 8040, 2719875110, 99.3527, 132.981, 569.01, -0.0385828, 0, 0, -0.999255) /* PCAPRecordedLocation */
+VALUES (47191, 8040, 0xA21E0026, 99.3527, 132.981, 569.01, -0.038583, 0, 0, -0.999255) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0026 [99.352700 132.981000 569.010000] -0.038583 0.000000 0.000000 -0.999255 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

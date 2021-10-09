@@ -29,7 +29,7 @@ VALUES (49580,   1, 'Signet Fragment') /* Name */
      , (49580,  15, 'A signet fragment that looks extremely corroded.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49580,   1,   33557977) /* Setup */
-     , (49580,   3,  536870932) /* SoundTable */
-     , (49580,   8,  100693244) /* Icon */
-     , (49580,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (49580,   1, 0x02000DD9) /* Setup */
+     , (49580,   3, 0x20000014) /* SoundTable */
+     , (49580,   8, 0x060074FC) /* Icon */
+     , (49580,  22, 0x3400002B) /* PhysicsEffectTable */;

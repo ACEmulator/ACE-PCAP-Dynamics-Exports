@@ -22,11 +22,11 @@ VALUES (34511,   1, 'Azaxis') /* Name */
      , (34511,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34511,   1,   33554497) /* Setup */
-     , (34511,   2,  150995173) /* MotionTable */
-     , (34511,   3,  536871052) /* SoundTable */
-     , (34511,   8,  100667943) /* Icon */;
+VALUES (34511,   1, 0x02000041) /* Setup */
+     , (34511,   2, 0x090000E5) /* MotionTable */
+     , (34511,   3, 0x2000008C) /* SoundTable */
+     , (34511,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34511, 8040, 11469087, 42.5, -30, 0.05799997, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34511, 8040, 0x00AF011F, 42.5, -30, 0.058, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF011F [42.500000 -30.000000 0.058000] -0.707107 0.000000 0.000000 -0.707107 */;

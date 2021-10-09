@@ -20,8 +20,8 @@ VALUES (31988,   1, 'Ochre Pigmentation Apparatus') /* Name */
      , (31988,  20, 'Ochre Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31988,   1,   33556753) /* Setup */
-     , (31988,   3,  536870932) /* SoundTable */
-     , (31988,   6,   67111919) /* PaletteBase */
-     , (31988,   8,  100688312) /* Icon */
-     , (31988,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31988,   1, 0x02000911) /* Setup */
+     , (31988,   3, 0x20000014) /* SoundTable */
+     , (31988,   6, 0x04000BEF) /* PaletteBase */
+     , (31988,   8, 0x060061B8) /* Icon */
+     , (31988,  22, 0x3400002B) /* PhysicsEffectTable */;

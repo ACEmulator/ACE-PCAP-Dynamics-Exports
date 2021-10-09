@@ -23,21 +23,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25964,   1, 'Demented Zharalim') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25964,   1,   33554510) /* Setup */
-     , (25964,   2,  150994945) /* MotionTable */
-     , (25964,   3,  536870914) /* SoundTable */
-     , (25964,   6,   67108990) /* PaletteBase */
-     , (25964,   8,  100667446) /* Icon */
-     , (25964,   9,   83890280) /* EyesTexture */
-     , (25964,  10,   83890288) /* NoseTexture */
-     , (25964,  11,   83890339) /* MouthTexture */
-     , (25964,  15,   67117017) /* HairPalette */
-     , (25964,  16,   67110063) /* EyesPalette */
-     , (25964,  17,   67109556) /* SkinPalette */
-     , (25964,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (25964,   1, 0x0200004E) /* Setup */
+     , (25964,   2, 0x09000001) /* MotionTable */
+     , (25964,   3, 0x20000002) /* SoundTable */
+     , (25964,   6, 0x0400007E) /* PaletteBase */
+     , (25964,   8, 0x06001036) /* Icon */
+     , (25964,   9, 0x05001068) /* EyesTexture */
+     , (25964,  10, 0x05001070) /* NoseTexture */
+     , (25964,  11, 0x050010A3) /* MouthTexture */
+     , (25964,  15, 0x04001FD9) /* HairPalette */
+     , (25964,  16, 0x040004AF) /* EyesPalette */
+     , (25964,  17, 0x040002B4) /* SkinPalette */
+     , (25964,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25964, 8040, 1682571683, 152.53, -50, -35.995, 0.7316888, 0, 0, -0.6816388) /* PCAPRecordedLocation */
+VALUES (25964, 8040, 0x644A01A3, 152.53, -50, -35.995, 0.731689, 0, 0, -0.681639) /* PCAPRecordedLocation */
 /* @teleloc 0x644A01A3 [152.530000 -50.000000 -35.995000] 0.731689 0.000000 0.000000 -0.681639 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

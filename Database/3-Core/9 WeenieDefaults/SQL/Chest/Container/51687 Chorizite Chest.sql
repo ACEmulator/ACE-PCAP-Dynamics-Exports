@@ -29,12 +29,12 @@ VALUES (51687,   1, 'Chorizite Chest') /* Name */
      , (51687,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51687,   1,   33554556) /* Setup */
-     , (51687,   2,  150994948) /* MotionTable */
-     , (51687,   3,  536870945) /* SoundTable */
-     , (51687,   8,  100672485) /* Icon */
-     , (51687,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51687,   1, 0x0200007C) /* Setup */
+     , (51687,   2, 0x09000004) /* MotionTable */
+     , (51687,   3, 0x20000021) /* SoundTable */
+     , (51687,   8, 0x060023E5) /* Icon */
+     , (51687,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51687, 8040, 1484194581, 368.1014, -114.098, 0, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (51687, 8040, 0x58770315, 368.1014, -114.098, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x58770315 [368.101400 -114.098000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;

@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40816,   1, 'Family Necklace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40816,   1,   33554688) /* Setup */
-     , (40816,   3,  536870932) /* SoundTable */
-     , (40816,   6,   67111919) /* PaletteBase */
-     , (40816,   8,  100668752) /* Icon */
-     , (40816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40816,   1, 0x02000100) /* Setup */
+     , (40816,   3, 0x20000014) /* SoundTable */
+     , (40816,   6, 0x04000BEF) /* PaletteBase */
+     , (40816,   8, 0x06001550) /* Icon */
+     , (40816,  22, 0x3400002B) /* PhysicsEffectTable */;

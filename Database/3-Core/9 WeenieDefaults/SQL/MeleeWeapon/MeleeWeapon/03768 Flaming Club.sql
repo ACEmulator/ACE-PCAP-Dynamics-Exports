@@ -46,8 +46,8 @@ VALUES (3768,   1, 'Flaming Club') /* Name */
      , (3768,  16, 'Flaming Club') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3768,   1,   33555698) /* Setup */
-     , (3768,   3,  536870932) /* SoundTable */
-     , (3768,   8,  100668855) /* Icon */
-     , (3768,  22,  872415289) /* PhysicsEffectTable */
+VALUES (3768,   1, 0x020004F2) /* Setup */
+     , (3768,   3, 0x20000014) /* SoundTable */
+     , (3768,   8, 0x060015B7) /* Icon */
+     , (3768,  22, 0x34000039) /* PhysicsEffectTable */
      , (3768,  30,         84) /* PhysicsScript - BreatheFlame */;

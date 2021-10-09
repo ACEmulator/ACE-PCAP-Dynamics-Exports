@@ -34,12 +34,12 @@ VALUES (9391,   1, 'Lugian Crest') /* Name */
      , (9391,  16, 'A large scuffed crest, with what seems to be a mattekar on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9391,   1,   33557014) /* Setup */
-     , (9391,   3,  536870932) /* SoundTable */
-     , (9391,   6,   67113180) /* PaletteBase */
-     , (9391,   8,  100671512) /* Icon */
-     , (9391,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9391,   1, 0x02000A16) /* Setup */
+     , (9391,   3, 0x20000014) /* SoundTable */
+     , (9391,   6, 0x040010DC) /* PaletteBase */
+     , (9391,   8, 0x06002018) /* Icon */
+     , (9391,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9391, 8040, 310771716, 12.85849, 74.91634, 49.926, 0.1890473, -0.7334912, -0.4146981, -0.5042592) /* PCAPRecordedLocation */
+VALUES (9391, 8040, 0x12860004, 12.85849, 74.91634, 49.926, 0.189047, -0.733491, -0.414698, -0.504259) /* PCAPRecordedLocation */
 /* @teleloc 0x12860004 [12.858490 74.916340 49.926000] 0.189047 -0.733491 -0.414698 -0.504259 */;

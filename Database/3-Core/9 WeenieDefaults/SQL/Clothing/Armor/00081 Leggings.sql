@@ -36,8 +36,8 @@ VALUES (81,   1, 'Leggings') /* Name */
      , (81,  16, '  Leather Leggings ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (81,   1,   33554856) /* Setup */
-     , (81,   3,  536870932) /* SoundTable */
-     , (81,   6,   67108990) /* PaletteBase */
-     , (81,   8,  100669500) /* Icon */
-     , (81,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (81,   1, 0x020001A8) /* Setup */
+     , (81,   3, 0x20000014) /* SoundTable */
+     , (81,   6, 0x0400007E) /* PaletteBase */
+     , (81,   8, 0x0600183C) /* Icon */
+     , (81,  22, 0x3400002B) /* PhysicsEffectTable */;

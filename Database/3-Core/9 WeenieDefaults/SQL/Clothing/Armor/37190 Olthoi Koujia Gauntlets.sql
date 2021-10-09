@@ -49,16 +49,16 @@ VALUES (37190,   1, 'Olthoi Koujia Gauntlets') /* Name */
      , (37190,  16, 'Olthoi Koujia Gauntlets of Two Handed Combat Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37190,   1,   33554648) /* Setup */
-     , (37190,   3,  536870932) /* SoundTable */
-     , (37190,   6,   67108990) /* PaletteBase */
-     , (37190,   8,  100674652) /* Icon */
-     , (37190,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37190,   1, 0x020000D8) /* Setup */
+     , (37190,   3, 0x20000014) /* SoundTable */
+     , (37190,   6, 0x0400007E) /* PaletteBase */
+     , (37190,   8, 0x06002C5C) /* Icon */
+     , (37190,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37190,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37190,  2092,      2)  /* AcidBane7 */
+VALUES (37190,  5098,      2)  /* TwoHandedMasteryOther8 */
+     , (37190,  2092,      2)  /* AcidBane7 */
      , (37190,  4407,      2)  /* Impenetrability8 */
-     , (37190,  4412,      2)  /* PiercingBane8 */
-     , (37190,  5098,      2)  /* TwoHandedMasteryOther8 */
-     , (37190,  6074,      2)  /* CantripVoidMagicAptitude4 */;
+     , (37190,  6074,      2)  /* CantripVoidMagicAptitude4 */
+     , (37190,  4412,      2)  /* PiercingBane8 */;

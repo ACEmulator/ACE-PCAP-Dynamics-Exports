@@ -22,12 +22,12 @@ VALUES (34879,   1, 'Superb Imprinting Mote') /* Name */
      , (34879,  16, 'You will need a skill of 604 or higher to have a good chance of using a Skill Sigil to imprint your knowledge on this mote succesfully.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34879,   1,   33556406) /* Setup */
-     , (34879,   3,  536870932) /* SoundTable */
-     , (34879,   6,   67111919) /* PaletteBase */
-     , (34879,   8,  100689349) /* Icon */
-     , (34879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34879,   1, 0x020007B6) /* Setup */
+     , (34879,   3, 0x20000014) /* SoundTable */
+     , (34879,   6, 0x04000BEF) /* PaletteBase */
+     , (34879,   8, 0x060065C5) /* Icon */
+     , (34879,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34879, 8040, 9109972, 163.319, -106.704, 0.0132008, -0.2073369, 0, 0, -0.9782696) /* PCAPRecordedLocation */
+VALUES (34879, 8040, 0x008B01D4, 163.319, -106.704, 0.013201, -0.207337, 0, 0, -0.97827) /* PCAPRecordedLocation */
 /* @teleloc 0x008B01D4 [163.319000 -106.704000 0.013201] -0.207337 0.000000 0.000000 -0.978270 */;

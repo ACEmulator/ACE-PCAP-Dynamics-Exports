@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7616,   1, 'Krau Li''s Labyrinth Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7616,   1,   33555923) /* Setup */
-     , (7616,   2,  150994947) /* MotionTable */
-     , (7616,   8,  100667499) /* Icon */;
+VALUES (7616,   1, 0x020005D3) /* Setup */
+     , (7616,   2, 0x09000003) /* MotionTable */
+     , (7616,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7616, 8040, 2639462412, 28.8964, 95.3367, 119.937, 0.7396113, 0, 0, -0.6730343) /* PCAPRecordedLocation */
+VALUES (7616, 8040, 0x9D53000C, 28.8964, 95.3367, 119.937, 0.739611, 0, 0, -0.673034) /* PCAPRecordedLocation */
 /* @teleloc 0x9D53000C [28.896400 95.336700 119.937000] 0.739611 0.000000 0.000000 -0.673034 */;

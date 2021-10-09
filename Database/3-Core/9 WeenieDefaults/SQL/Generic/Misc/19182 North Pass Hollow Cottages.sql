@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19182,   1, 'North Pass Hollow Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19182,   1,   33557463) /* Setup */
-     , (19182,   8,  100668115) /* Icon */;
+VALUES (19182,   1, 0x02000BD7) /* Setup */
+     , (19182,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19182, 8040, 2244214812, 83.6086, 83.3531, 74, 0.00410963, 0, 0, -0.999992) /* PCAPRecordedLocation */
+VALUES (19182, 8040, 0x85C4001C, 83.6086, 83.3531, 74, 0.00411, 0, 0, -0.999992) /* PCAPRecordedLocation */
 /* @teleloc 0x85C4001C [83.608600 83.353100 74.000000] 0.004110 0.000000 0.000000 -0.999992 */;

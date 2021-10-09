@@ -28,14 +28,14 @@ VALUES (32122,   1, 'Merwart Pelagurg') /* Name */
      , (32122,   5, 'Maw Crafter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32122,   1,   33554490) /* Setup */
-     , (32122,   2,  150994953) /* MotionTable */
-     , (32122,   3,  536870959) /* SoundTable */
-     , (32122,   6,   67109310) /* PaletteBase */
-     , (32122,   8,  100667449) /* Icon */;
+VALUES (32122,   1, 0x0200003A) /* Setup */
+     , (32122,   2, 0x09000009) /* MotionTable */
+     , (32122,   3, 0x2000002F) /* SoundTable */
+     , (32122,   6, 0x040001BE) /* PaletteBase */
+     , (32122,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32122, 8040, 3387031559, 14.7864, 163.016, 4.0055, 0.716103, 0, 0, -0.697995) /* PCAPRecordedLocation */
+VALUES (32122, 8040, 0xC9E20007, 14.7864, 163.016, 4.0055, 0.716103, 0, 0, -0.697995) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E20007 [14.786400 163.016000 4.005500] 0.716103 0.000000 0.000000 -0.697995 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -50,9 +50,9 @@ VALUES (51868,   1, 'Rynthid Energy Tentacles') /* Name */
      , (51868,   8, 'Crog') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51868,   1,   33561386) /* Setup */
-     , (51868,   3,  536870932) /* SoundTable */
-     , (51868,   8,  100693225) /* Icon */
-     , (51868,  22,  872415275) /* PhysicsEffectTable */
-     , (51868,  50,  100690999) /* IconOverlay */
+VALUES (51868,   1, 0x02001B2A) /* Setup */
+     , (51868,   3, 0x20000014) /* SoundTable */
+     , (51868,   8, 0x060074E9) /* Icon */
+     , (51868,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51868,  50, 0x06006C37) /* IconOverlay */
      , (51868,  55,       6151) /* ProcSpell - LightningRingRed */;

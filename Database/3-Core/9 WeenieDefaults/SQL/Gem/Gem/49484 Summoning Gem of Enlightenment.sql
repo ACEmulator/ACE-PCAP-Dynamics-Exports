@@ -21,7 +21,7 @@ VALUES (49484,   1, 'Summoning Gem of Enlightenment') /* Name */
      , (49484,  14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to specialize the Summoning skill.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49484,   1,   33558088) /* Setup */
-     , (49484,   6,   67111919) /* PaletteBase */
-     , (49484,   8,  100673788) /* Icon */
-     , (49484,  50,  100693010) /* IconOverlay */;
+VALUES (49484,   1, 0x02000E48) /* Setup */
+     , (49484,   6, 0x04000BEF) /* PaletteBase */
+     , (49484,   8, 0x060028FC) /* Icon */
+     , (49484,  50, 0x06007412) /* IconOverlay */;

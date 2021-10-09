@@ -25,10 +25,10 @@ VALUES (43807,   1, 'Bloodstone Report') /* Name */
      , (43807,  16, 'A translation of the report written by Lord Kastellar to Battle Lord Gregor, detailing his progress on the creation of the Bloodstones.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43807,   1,   33554776) /* Setup */
-     , (43807,   3,  536870932) /* SoundTable */
-     , (43807,   8,  100668176) /* Icon */
-     , (43807,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43807,   1, 0x02000158) /* Setup */
+     , (43807,   3, 0x20000014) /* SoundTable */
+     , (43807,   8, 0x06001310) /* Icon */
+     , (43807,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (43807, 1, 1000);

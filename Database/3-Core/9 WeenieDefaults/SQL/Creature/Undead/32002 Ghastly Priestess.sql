@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32002,   1, 'Ghastly Priestess') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32002,   1,   33559744) /* Setup */
-     , (32002,   2,  150994967) /* MotionTable */
-     , (32002,   3,  536870934) /* SoundTable */
-     , (32002,   6,   67108990) /* PaletteBase */
-     , (32002,   8,  100667942) /* Icon */
-     , (32002,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (32002,   1, 0x020014C0) /* Setup */
+     , (32002,   2, 0x09000017) /* MotionTable */
+     , (32002,   3, 0x20000016) /* SoundTable */
+     , (32002,   6, 0x0400007E) /* PaletteBase */
+     , (32002,   8, 0x06001226) /* Icon */
+     , (32002,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32002, 8040, 3587834190, 181.583, 177.099, 0.007499993, -0.932999, 0, 0, -0.359879) /* PCAPRecordedLocation */
+VALUES (32002, 8040, 0xD5DA014E, 181.583, 177.099, 0.0075, -0.932999, 0, 0, -0.359879) /* PCAPRecordedLocation */
 /* @teleloc 0xD5DA014E [181.583000 177.099000 0.007500] -0.932999 0.000000 0.000000 -0.359879 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

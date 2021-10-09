@@ -55,20 +55,20 @@ VALUES (37577,   1, 'Soul Bound Bow') /* Name */
      , (37577,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37577,   1,   33560579) /* Setup */
-     , (37577,   3,  536870932) /* SoundTable */
-     , (37577,   8,  100673205) /* Icon */
-     , (37577,  22,  872415275) /* PhysicsEffectTable */
-     , (37577,  52,  100689896) /* IconUnderlay */;
+VALUES (37577,   1, 0x02001803) /* Setup */
+     , (37577,   3, 0x20000014) /* SoundTable */
+     , (37577,   8, 0x060026B5) /* Icon */
+     , (37577,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37577,  52, 0x060067E8) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37577, 8040, 23855549, 48.54798, -38.42783, -0.07000001, 0.6097922, 0, 0, -0.7925613) /* PCAPRecordedLocation */
+VALUES (37577, 8040, 0x016C01BD, 48.54798, -38.42783, -0.07, 0.609792, 0, 0, -0.792561) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [48.547980 -38.427830 -0.070000] 0.609792 0.000000 0.000000 -0.792561 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37577,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (37577,  2101,      2)  /* DefenderSelf7 */
-     , (37577,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (37577,  2116,      2)  /* SwiftKillerSelf7 */
      , (37577,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
      , (37577,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (37577,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (37577,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (37577,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37577,  2101,      2)  /* DefenderSelf7 */;

@@ -21,7 +21,7 @@ VALUES (45379,   1, 'Sneak Attack Gem of Forgetfulness') /* Name */
      , (45379,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits to untrain the Sneak Attack skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45379,   1,   33558087) /* Setup */
-     , (45379,   6,   67111919) /* PaletteBase */
-     , (45379,   8,  100673789) /* Icon */
-     , (45379,  50,  100692241) /* IconOverlay */;
+VALUES (45379,   1, 0x02000E47) /* Setup */
+     , (45379,   6, 0x04000BEF) /* PaletteBase */
+     , (45379,   8, 0x060028FD) /* Icon */
+     , (45379,  50, 0x06007111) /* IconOverlay */;

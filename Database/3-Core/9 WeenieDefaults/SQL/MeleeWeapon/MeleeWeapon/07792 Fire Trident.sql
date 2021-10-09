@@ -51,15 +51,15 @@ VALUES (7792,   1, 'Fire Trident') /* Name */
      , (7792,  16, 'Fire Trident of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7792,   1,   33556661) /* Setup */
-     , (7792,   3,  536870932) /* SoundTable */
-     , (7792,   6,   67111919) /* PaletteBase */
-     , (7792,   8,  100670797) /* Icon */
-     , (7792,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7792,   1, 0x020008B5) /* Setup */
+     , (7792,   3, 0x20000014) /* SoundTable */
+     , (7792,   6, 0x04000BEF) /* PaletteBase */
+     , (7792,   8, 0x06001D4D) /* Icon */
+     , (7792,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7792,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7792,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (7792,  2106,      2)  /* HeartSeekerSelf7 */
-     , (7792,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
-     , (7792,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+VALUES (7792,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (7792,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (7792,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (7792,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -24,16 +24,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7106,   1, 'Sewer Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7106,   1,   33554493) /* Setup */
-     , (7106,   2,  150994958) /* MotionTable */
-     , (7106,   3,  536870927) /* SoundTable */
-     , (7106,   6,   67109300) /* PaletteBase */
-     , (7106,   8,  100667451) /* Icon */
-     , (7106,  22,  872415267) /* PhysicsEffectTable */
+VALUES (7106,   1, 0x0200003D) /* Setup */
+     , (7106,   2, 0x0900000E) /* MotionTable */
+     , (7106,   3, 0x2000000F) /* SoundTable */
+     , (7106,   6, 0x040001B4) /* PaletteBase */
+     , (7106,   8, 0x0600103B) /* Icon */
+     , (7106,  22, 0x34000023) /* PhysicsEffectTable */
      , (7106,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7106, 8040, 3052011778, 132.436, 62.1387, 34.812, -0.203965, 0, 0, -0.9789782) /* PCAPRecordedLocation */
+VALUES (7106, 8040, 0xB5EA0102, 132.436, 62.1387, 34.812, -0.203965, 0, 0, -0.978978) /* PCAPRecordedLocation */
 /* @teleloc 0xB5EA0102 [132.436000 62.138700 34.812000] -0.203965 0.000000 0.000000 -0.978978 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

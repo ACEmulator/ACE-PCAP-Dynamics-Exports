@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45684,   1, 'Left-hand Tether Remover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45684,   1,   33554817) /* Setup */
-     , (45684,   3,  536870932) /* SoundTable */
-     , (45684,   6,   67111919) /* PaletteBase */
-     , (45684,   8,  100692360) /* Icon */
-     , (45684,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45684,   1, 0x02000181) /* Setup */
+     , (45684,   3, 0x20000014) /* SoundTable */
+     , (45684,   6, 0x04000BEF) /* PaletteBase */
+     , (45684,   8, 0x06007188) /* Icon */
+     , (45684,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,8 +28,8 @@ VALUES (36376,   1, 'Small Olthoi Venom Sac') /* Name */
      , (36376,  15, 'A small, intact venom sac, removed from one of the more powerful Paradox-touched Olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36376,   1,   33554817) /* Setup */
-     , (36376,   3,  536870932) /* SoundTable */
-     , (36376,   6,   67111919) /* PaletteBase */
-     , (36376,   8,  100674711) /* Icon */
-     , (36376,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36376,   1, 0x02000181) /* Setup */
+     , (36376,   3, 0x20000014) /* SoundTable */
+     , (36376,   6, 0x04000BEF) /* PaletteBase */
+     , (36376,   8, 0x06002C97) /* Icon */
+     , (36376,  22, 0x3400002B) /* PhysicsEffectTable */;

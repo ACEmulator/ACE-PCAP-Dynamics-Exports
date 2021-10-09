@@ -47,10 +47,10 @@ VALUES (21158,   1, 'Covenant Shield') /* Name */
      , (21158,  16, 'Covenant Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21158,   1,   33557878) /* Setup */
-     , (21158,   3,  536870932) /* SoundTable */
-     , (21158,   8,  100673427) /* Icon */
-     , (21158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21158,   1, 0x02000D76) /* Setup */
+     , (21158,   3, 0x20000014) /* SoundTable */
+     , (21158,   8, 0x06002793) /* Icon */
+     , (21158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21158,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

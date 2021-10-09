@@ -58,18 +58,18 @@ VALUES (31790,   1, 'Lightning Stick') /* Name */
      , (31790,  39, 'Newcastle') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31790,   1,   33559646) /* Setup */
-     , (31790,   3,  536870932) /* SoundTable */
-     , (31790,   6,   67116700) /* PaletteBase */
-     , (31790,   8,  100687989) /* Icon */
-     , (31790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31790,   1, 0x0200145E) /* Setup */
+     , (31790,   3, 0x20000014) /* SoundTable */
+     , (31790,   6, 0x04001E9C) /* PaletteBase */
+     , (31790,   8, 0x06006075) /* Icon */
+     , (31790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31790,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31790, 8040, 23855548, 48.32817, -33.53548, -0.071, 0.5809366, 0.5809366, -0.4031287, -0.4031287) /* PCAPRecordedLocation */
+VALUES (31790, 8040, 0x016C01BC, 48.32817, -33.53548, -0.071, 0.580937, 0.580937, -0.403129, -0.403129) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.328170 -33.535480 -0.071000] 0.580937 0.580937 -0.403129 -0.403129 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31790,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31790,  5809,      2)  /* DualWieldMasterySelf7 */
-     , (31790,  6091,      2)  /* CantripDefender4 */;
+VALUES (31790,  6091,      2)  /* CantripDefender4 */
+     , (31790,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31790,  5809,      2)  /* DualWieldMasterySelf7 */;

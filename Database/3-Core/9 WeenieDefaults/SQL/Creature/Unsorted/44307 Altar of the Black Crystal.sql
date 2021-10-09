@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44307,   1, 'Altar of the Black Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44307,   1,   33560418) /* Setup */
-     , (44307,   2,  150995355) /* MotionTable */
-     , (44307,   3,  536870913) /* SoundTable */
-     , (44307,   8,  100668239) /* Icon */;
+VALUES (44307,   1, 0x02001762) /* Setup */
+     , (44307,   2, 0x0900019B) /* MotionTable */
+     , (44307,   3, 0x20000001) /* SoundTable */
+     , (44307,   8, 0x0600134F) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44307, 8040, 1465123520, 110, -130, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (44307, 8040, 0x575402C0, 110, -130, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x575402C0 [110.000000 -130.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;

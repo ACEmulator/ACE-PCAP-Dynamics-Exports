@@ -23,7 +23,7 @@ VALUES (46864,   1, 'Aura of Hermetic Link Other III') /* Name */
 Increases a magic casting implement''s mana conversion bonus by 30%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46864,   1,   33554826) /* Setup */
-     , (46864,   8,  100676672) /* Icon */
-     , (46864,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46864,   1, 0x0200018A) /* Setup */
+     , (46864,   8, 0x06003440) /* Icon */
+     , (46864,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46864,  28,       5984) /* Spell - HermeticLinkOther3 */;

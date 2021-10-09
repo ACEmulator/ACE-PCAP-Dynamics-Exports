@@ -21,7 +21,7 @@ VALUES (36212,   1, 'Message to the Elemental Artifex') /* Name */
      , (36212,  15, 'This Virindi message shard was taken from the Artifex of the Elements.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36212,   1,   33555391) /* Setup */
-     , (36212,   3,  536870932) /* SoundTable */
-     , (36212,   8,  100671183) /* Icon */
-     , (36212,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36212,   1, 0x020003BF) /* Setup */
+     , (36212,   3, 0x20000014) /* SoundTable */
+     , (36212,   8, 0x06001ECF) /* Icon */
+     , (36212,  22, 0x3400002B) /* PhysicsEffectTable */;

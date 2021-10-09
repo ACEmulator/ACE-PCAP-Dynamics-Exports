@@ -50,8 +50,8 @@ VALUES (32642,   1, 'Shadowfire Isparian Crossbow') /* Name */
      , (32642,  16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32642,   1,   33559820) /* Setup */
-     , (32642,   3,  536870932) /* SoundTable */
-     , (32642,   6,   67111919) /* PaletteBase */
-     , (32642,   8,  100688563) /* Icon */
-     , (32642,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32642,   1, 0x0200150C) /* Setup */
+     , (32642,   3, 0x20000014) /* SoundTable */
+     , (32642,   6, 0x04000BEF) /* PaletteBase */
+     , (32642,   8, 0x060062B3) /* Icon */
+     , (32642,  22, 0x3400002B) /* PhysicsEffectTable */;

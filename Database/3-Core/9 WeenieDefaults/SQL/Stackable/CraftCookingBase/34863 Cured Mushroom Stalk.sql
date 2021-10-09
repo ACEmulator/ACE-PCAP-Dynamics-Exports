@@ -24,7 +24,7 @@ VALUES (34863,   1, 'Cured Mushroom Stalk') /* Name */
      , (34863,  20, 'Cured Tiriun Stalks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34863,   1,   33558400) /* Setup */
-     , (34863,   3,  536870932) /* SoundTable */
-     , (34863,   8,  100689328) /* Icon */
-     , (34863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34863,   1, 0x02000F80) /* Setup */
+     , (34863,   3, 0x20000014) /* SoundTable */
+     , (34863,   8, 0x060065B0) /* Icon */
+     , (34863,  22, 0x3400002B) /* PhysicsEffectTable */;

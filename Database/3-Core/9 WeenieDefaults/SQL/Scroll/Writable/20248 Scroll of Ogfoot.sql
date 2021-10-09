@@ -23,7 +23,7 @@ VALUES (20248,   1, 'Scroll of Ogfoot') /* Name */
 Increases the target''s Quickness by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20248,   1,   33554826) /* Setup */
-     , (20248,   8,  100676469) /* Icon */
-     , (20248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20248,   1, 0x0200018A) /* Setup */
+     , (20248,   8, 0x06003375) /* Icon */
+     , (20248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20248,  28,       2080) /* Spell - QuicknessOther7 */;

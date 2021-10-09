@@ -48,15 +48,15 @@ VALUES (3837,   1, 'Frost Mace') /* Name */
      , (3837,  16, 'Frost Mace of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3837,   1,   33555741) /* Setup */
-     , (3837,   3,  536870932) /* SoundTable */
-     , (3837,   6,   67111919) /* PaletteBase */
-     , (3837,   8,  100668964) /* Icon */
-     , (3837,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3837,   1, 0x0200051D) /* Setup */
+     , (3837,   3, 0x20000014) /* SoundTable */
+     , (3837,   6, 0x04000BEF) /* PaletteBase */
+     , (3837,   8, 0x06001624) /* Icon */
+     , (3837,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3837,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3837,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3837,  1604,      2)  /* DefenderSelf5 */
+VALUES (3837,  1604,      2)  /* DefenderSelf5 */
      , (3837,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3837,  1626,      2)  /* SwiftKillerSelf5 */;
+     , (3837,  1626,      2)  /* SwiftKillerSelf5 */
+     , (3837,  1591,      2)  /* HeartSeekerSelf5 */;

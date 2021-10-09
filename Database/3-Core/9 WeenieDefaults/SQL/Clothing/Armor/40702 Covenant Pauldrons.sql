@@ -39,8 +39,8 @@ VALUES (40702,   1, 'Covenant Pauldrons') /* Name */
      , (40702,  16, 'Covenant Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40702,   1,   33554641) /* Setup */
-     , (40702,   3,  536870932) /* SoundTable */
-     , (40702,   6,   67108990) /* PaletteBase */
-     , (40702,   8,  100673445) /* Icon */
-     , (40702,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40702,   1, 0x020000D1) /* Setup */
+     , (40702,   3, 0x20000014) /* SoundTable */
+     , (40702,   6, 0x0400007E) /* PaletteBase */
+     , (40702,   8, 0x060027A5) /* Icon */
+     , (40702,  22, 0x3400002B) /* PhysicsEffectTable */;

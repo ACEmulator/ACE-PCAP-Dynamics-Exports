@@ -21,9 +21,9 @@ VALUES (24877,   1, 'Town Mason and Storage') /* Name */
      , (24877,  16, 'Town materials stored below. Stonework and masonry sold in the blacksmith''s basement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24877,   1,   33555229) /* Setup */
-     , (24877,   8,  100670227) /* Icon */;
+VALUES (24877,   1, 0x0200031D) /* Setup */
+     , (24877,   8, 0x06001B13) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24877, 8040, 722599955, 68.6345, 63.9572, 48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (24877, 8040, 0x2B120013, 68.6345, 63.9572, 48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120013 [68.634500 63.957200 48.000000] -0.707107 0.000000 0.000000 -0.707107 */;

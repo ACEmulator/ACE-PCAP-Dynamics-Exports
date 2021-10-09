@@ -33,11 +33,11 @@ VALUES (52025,   1, 'Luminous Crystal of Rare Damage Reduction V') /* Name */
      , (52025,  20, 'Luminous Crystals of Rare Damage Reduction V') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52025,   1,   33554809) /* Setup */
-     , (52025,   3,  536870932) /* SoundTable */
-     , (52025,   6,   67111919) /* PaletteBase */
-     , (52025,   8,  100690568) /* Icon */
-     , (52025,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52025,   1, 0x02000179) /* Setup */
+     , (52025,   3, 0x20000014) /* SoundTable */
+     , (52025,   6, 0x04000BEF) /* PaletteBase */
+     , (52025,   8, 0x06006A88) /* Icon */
+     , (52025,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52025,  28,       5192) /* Spell - RareDamageReduction5 */
-     , (52025,  50,  100686629) /* IconOverlay */
-     , (52025,  52,  100691593) /* IconUnderlay */;
+     , (52025,  50, 0x06005B25) /* IconOverlay */
+     , (52025,  52, 0x06006E89) /* IconUnderlay */;

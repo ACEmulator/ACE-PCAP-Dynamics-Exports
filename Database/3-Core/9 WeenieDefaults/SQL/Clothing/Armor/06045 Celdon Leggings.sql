@@ -42,14 +42,14 @@ VALUES (6045,   1, 'Celdon Leggings') /* Name */
      , (6045,  16, 'Celdon Leggings of Quickness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6045,   1,   33554856) /* Setup */
-     , (6045,   3,  536870932) /* SoundTable */
-     , (6045,   6,   67108990) /* PaletteBase */
-     , (6045,   8,  100670417) /* Icon */
-     , (6045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6045,   1, 0x020001A8) /* Setup */
+     , (6045,   3, 0x20000014) /* SoundTable */
+     , (6045,   6, 0x0400007E) /* PaletteBase */
+     , (6045,   8, 0x06001BD1) /* Icon */
+     , (6045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6045,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6045,  1401,      2)  /* QuicknessSelf5 */
-     , (6045,  1485,      2)  /* Impenetrability5 */
+VALUES (6045,  1485,      2)  /* Impenetrability5 */
+     , (6045,  1401,      2)  /* QuicknessSelf5 */
      , (6045,  2622,      2)  /* CANTRIPSTORMWARD1 */;

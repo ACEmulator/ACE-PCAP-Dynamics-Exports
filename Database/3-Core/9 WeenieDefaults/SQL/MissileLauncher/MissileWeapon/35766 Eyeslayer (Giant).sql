@@ -48,13 +48,13 @@ VALUES (35766,   1, 'Eyeslayer (Giant)') /* Name */
      , (35766,  16, 'This atlatl was carved from the giant rib of a monouga, and this origin has given the atlatl an attunement against other monougas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35766,   1,   33560325) /* Setup */
-     , (35766,   3,  536870932) /* SoundTable */
-     , (35766,   8,  100673256) /* Icon */
-     , (35766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35766,   1, 0x02001705) /* Setup */
+     , (35766,   3, 0x20000014) /* SoundTable */
+     , (35766,   8, 0x060026E8) /* Icon */
+     , (35766,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35766,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35766,  2101,      2)  /* DefenderSelf7 */
-     , (35766,  2116,      2)  /* SwiftKillerSelf7 */
-     , (35766,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;
+VALUES (35766,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35766,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
+     , (35766,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35766,  2101,      2)  /* DefenderSelf7 */;

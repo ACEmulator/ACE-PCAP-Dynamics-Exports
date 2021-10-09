@@ -56,7 +56,7 @@ VALUES (0x719B8005, 11495, 0x19B80021, 103.7554, 5.636479, 101.4121, 1, 0, 0, 0,
 /* @teleloc 0x19B80021 [103.755400 5.636479 101.412100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x719B8006, 11493, 0x19B80001, 11.6676, 0.5940622, 101.9069, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
+VALUES (0x719B8006, 11493, 0x19B80001, 11.6676, 0.594062, 101.9069, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
 /* @teleloc 0x19B80001 [11.667600 0.594062 101.906900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -18,7 +18,7 @@ VALUES (37284,   1, 'Seven Cards from the Deck of Hands') /* Name */
      , (37284,  20, 'Sets of Seven Cards from the Deck of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37284,   1,   33560546) /* Setup */
-     , (37284,   3,  536870932) /* SoundTable */
-     , (37284,   8,  100689860) /* Icon */
-     , (37284,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37284,   1, 0x020017E2) /* Setup */
+     , (37284,   3, 0x20000014) /* SoundTable */
+     , (37284,   8, 0x060067C4) /* Icon */
+     , (37284,  22, 0x3400002B) /* PhysicsEffectTable */;

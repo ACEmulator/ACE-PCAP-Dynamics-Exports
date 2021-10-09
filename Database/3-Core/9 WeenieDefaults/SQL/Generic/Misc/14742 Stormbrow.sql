@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14742,   1, 'Stormbrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14742,   1,   33557463) /* Setup */
-     , (14742,   8,  100668115) /* Icon */;
+VALUES (14742,   1, 0x02000BD7) /* Setup */
+     , (14742,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14742, 8040, 2484338724, 108.122, 90.7558, 286.7379, -0.996702, 0, 0, -0.081145) /* PCAPRecordedLocation */
+VALUES (14742, 8040, 0x94140024, 108.122, 90.7558, 286.7379, -0.996702, 0, 0, -0.081145) /* PCAPRecordedLocation */
 /* @teleloc 0x94140024 [108.122000 90.755800 286.737900] -0.996702 0.000000 0.000000 -0.081145 */;

@@ -23,7 +23,7 @@ VALUES (20354,   1, 'Scroll of Evaporate Item Magic') /* Name */
 Dispels 3-6 negative Item Magic enchantments of level 1 from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20354,   1,   33554826) /* Setup */
-     , (20354,   8,  100676659) /* Icon */
-     , (20354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20354,   1, 0x0200018A) /* Setup */
+     , (20354,   8, 0x06003433) /* Icon */
+     , (20354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20354,  28,       1921) /* Spell - DispelItemBadOther1 */;

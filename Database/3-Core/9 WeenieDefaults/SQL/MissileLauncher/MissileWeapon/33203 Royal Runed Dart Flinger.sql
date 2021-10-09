@@ -46,16 +46,16 @@ VALUES (33203,   1, 'Royal Runed Dart Flinger') /* Name */
      , (33203,  15, 'A dart flinger crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33203,   1,   33559927) /* Setup */
-     , (33203,   3,  536870932) /* SoundTable */
-     , (33203,   6,   67115555) /* PaletteBase */
-     , (33203,   8,  100687081) /* Icon */
-     , (33203,  22,  872415275) /* PhysicsEffectTable */
-     , (33203,  50,  100688914) /* IconOverlay */
+VALUES (33203,   1, 0x02001577) /* Setup */
+     , (33203,   3, 0x20000014) /* SoundTable */
+     , (33203,   6, 0x04001A23) /* PaletteBase */
+     , (33203,   8, 0x06005CE9) /* Icon */
+     , (33203,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33203,  50, 0x06006412) /* IconOverlay */
      , (33203,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33203,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33203,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33203,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33203,  2101,      2)  /* DefenderSelf7 */
-     , (33203,  2116,      2)  /* SwiftKillerSelf7 */
      , (33203,  2687,      2)  /* ModerateBowAptitude */;

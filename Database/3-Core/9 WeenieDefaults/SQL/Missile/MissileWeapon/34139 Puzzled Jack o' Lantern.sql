@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34139,   1, 'Puzzled Jack o'' Lantern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34139,   1,   33556809) /* Setup */
-     , (34139,   3,  536870932) /* SoundTable */
-     , (34139,   6,   67112968) /* PaletteBase */
-     , (34139,   8,  100689205) /* Icon */
-     , (34139,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34139,   1, 0x02000949) /* Setup */
+     , (34139,   3, 0x20000014) /* SoundTable */
+     , (34139,   6, 0x04001008) /* PaletteBase */
+     , (34139,   8, 0x06006535) /* Icon */
+     , (34139,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,13 +34,13 @@ VALUES (12759,   1, 'Academy Wand') /* Name */
      , (12759,  15, 'An enhanced wand crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12759,   1,   33558231) /* Setup */
-     , (12759,   3,  536870932) /* SoundTable */
-     , (12759,   8,  100674109) /* Icon */
-     , (12759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12759,   1, 0x02000ED7) /* Setup */
+     , (12759,   3, 0x20000014) /* SoundTable */
+     , (12759,   8, 0x06002A3D) /* Icon */
+     , (12759,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12759, 8040, 459059, 60, -70.025, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (12759, 8040, 0x00070133, 60, -70.025, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [60.000000 -70.025000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

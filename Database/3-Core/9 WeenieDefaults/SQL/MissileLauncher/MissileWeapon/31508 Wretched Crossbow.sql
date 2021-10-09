@@ -49,10 +49,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31508,   1, 'Wretched Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31508,   1,   33559544) /* Setup */
-     , (31508,   3,  536870932) /* SoundTable */
-     , (31508,   8,  100687781) /* Icon */
-     , (31508,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31508,   1, 0x020013F8) /* Setup */
+     , (31508,   3, 0x20000014) /* SoundTable */
+     , (31508,   8, 0x06005FA5) /* Icon */
+     , (31508,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31508,  1616,      2)  /* BloodDrinkerSelf6 */;

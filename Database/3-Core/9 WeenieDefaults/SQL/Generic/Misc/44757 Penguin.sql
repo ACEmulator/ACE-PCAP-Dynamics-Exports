@@ -19,5 +19,5 @@ VALUES (44757,   1, 'Penguin') /* Name */
      , (44757,  16, 'Small flightless birds, these creatures are found mostly in the colder snow covered Halaetan Island. Do not be fooled by their cute nature, these birds can quicly attack an unsuspecting traveller with their belly slide. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44757,   1,   33561357) /* Setup */
-     , (44757,   8,  100668115) /* Icon */;
+VALUES (44757,   1, 0x02001B0D) /* Setup */
+     , (44757,   8, 0x060012D3) /* Icon */;

@@ -23,7 +23,7 @@ VALUES (20490,   1, 'Scroll of Battlemage''s Blessing') /* Name */
 Increases the caster''s natural mana rate by 115%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20490,   1,   33554826) /* Setup */
-     , (20490,   8,  100676939) /* Icon */
-     , (20490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20490,   1, 0x0200018A) /* Setup */
+     , (20490,   8, 0x0600354B) /* Icon */
+     , (20490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20490,  28,       2183) /* Spell - ManaRenewalSelf7 */;

@@ -39,17 +39,17 @@ VALUES (1518,   1, 'Superior Helmet') /* Name */
      , (1518,  16, 'A superior helm from the Halls of Helm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1518,   1,   33554650) /* Setup */
-     , (1518,   6,   67108990) /* PaletteBase */
-     , (1518,   8,  100667343) /* Icon */
-     , (1518,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1518,   1, 0x020000DA) /* Setup */
+     , (1518,   6, 0x0400007E) /* PaletteBase */
+     , (1518,   8, 0x06000FCF) /* Icon */
+     , (1518,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1518,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1518, 8040, 2847146009, 93.71061, 15.43525, 93.9975, -0.3151959, 0, 0, -0.9490266) /* PCAPRecordedLocation */
+VALUES (1518, 8040, 0xA9B40019, 93.71061, 15.43525, 93.9975, -0.315196, 0, 0, -0.949027) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [93.710610 15.435250 93.997500] -0.315196 0.000000 0.000000 -0.949027 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1518,   242,      2)  /* InvulnerabilityOther4 */
-     , (1518,  1483,      2)  /* Impenetrability3 */
-     , (1518,  1549,      2)  /* FlameBane3 */;
+VALUES (1518,  1483,      2)  /* Impenetrability3 */
+     , (1518,  1549,      2)  /* FlameBane3 */
+     , (1518,   242,      2)  /* InvulnerabilityOther4 */;

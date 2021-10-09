@@ -25,7 +25,7 @@ VALUES (34110,   1, 'T-Mon BackPack') /* Name */
      , (34110,  16, 'A Tremendous Monouga skull connected to a series of straps so that it can be used to hold things as a backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34110,   1,   33560122) /* Setup */
-     , (34110,   3,  536870932) /* SoundTable */
-     , (34110,   8,  100689223) /* Icon */
-     , (34110,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34110,   1, 0x0200163A) /* Setup */
+     , (34110,   3, 0x20000014) /* SoundTable */
+     , (34110,   8, 0x06006547) /* Icon */
+     , (34110,  22, 0x3400002B) /* PhysicsEffectTable */;

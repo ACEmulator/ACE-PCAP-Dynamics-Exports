@@ -49,13 +49,13 @@ VALUES (41052,   1, 'Greataxe') /* Name */
      , (41052,  16, 'Greataxe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41052,   1,   33560802) /* Setup */
-     , (41052,   3,  536870932) /* SoundTable */
-     , (41052,   6,   67115558) /* PaletteBase */
-     , (41052,   8,  100690774) /* Icon */
-     , (41052,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41052,   1, 0x020018E2) /* Setup */
+     , (41052,   3, 0x20000014) /* SoundTable */
+     , (41052,   6, 0x04001A26) /* PaletteBase */
+     , (41052,   8, 0x06006B56) /* Icon */
+     , (41052,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41052,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41052,  1591,      2)  /* HeartSeekerSelf5 */
-     , (41052,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (41052,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41052,  1591,      2)  /* HeartSeekerSelf5 */;

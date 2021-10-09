@@ -18,8 +18,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12202,   1, 'Small Tusker Backpack') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12202,   1,   33556826) /* Setup */
-     , (12202,   3,  536870932) /* SoundTable */
-     , (12202,   6,   67113007) /* PaletteBase */
-     , (12202,   8,  100672176) /* Icon */
-     , (12202,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12202,   1, 0x0200095A) /* Setup */
+     , (12202,   3, 0x20000014) /* SoundTable */
+     , (12202,   6, 0x0400102F) /* PaletteBase */
+     , (12202,   8, 0x060022B0) /* Icon */
+     , (12202,  22, 0x3400002B) /* PhysicsEffectTable */;

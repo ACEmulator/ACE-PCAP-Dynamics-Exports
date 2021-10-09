@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36940,   1, 'Planar Academy Headmaster''s Rooms') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36940,   1,   33558268) /* Setup */
-     , (36940,   3,  536871008) /* SoundTable */
-     , (36940,   8,  100674152) /* Icon */;
+VALUES (36940,   1, 0x02000EFC) /* Setup */
+     , (36940,   3, 0x20000060) /* SoundTable */
+     , (36940,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36940, 8040, 14025714, 60, -70, 48, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (36940, 8040, 0x00D603F2, 60, -70, 48, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00D603F2 [60.000000 -70.000000 48.000000] 1.000000 0.000000 0.000000 0.000000 */;

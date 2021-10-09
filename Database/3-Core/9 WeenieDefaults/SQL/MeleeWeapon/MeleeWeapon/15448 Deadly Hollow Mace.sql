@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15448,   1, 'Deadly Hollow Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15448,   1,   33556649) /* Setup */
-     , (15448,   3,  536870932) /* SoundTable */
-     , (15448,   8,  100668956) /* Icon */
-     , (15448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15448,   1, 0x020008A9) /* Setup */
+     , (15448,   3, 0x20000014) /* SoundTable */
+     , (15448,   8, 0x0600161C) /* Icon */
+     , (15448,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (12689,   1, 'Diamond Powder') /* Name */
      , (12689,  15, 'A fine sparkling powder lies here, the residue of the mighty Diamond Golem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12689,   1,   33554817) /* Setup */
-     , (12689,   3,  536870932) /* SoundTable */
-     , (12689,   8,  100672347) /* Icon */
-     , (12689,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12689,   1, 0x02000181) /* Setup */
+     , (12689,   3, 0x20000014) /* SoundTable */
+     , (12689,   8, 0x0600235B) /* Icon */
+     , (12689,  22, 0x3400002B) /* PhysicsEffectTable */;

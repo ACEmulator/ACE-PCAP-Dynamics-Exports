@@ -24,7 +24,7 @@ VALUES (34088,   1, 'Scarecrow Stand') /* Name */
      , (34088,  16, 'An almost complete Scarecrow used to scare monsters away from your house.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34088,   1,   33559001) /* Setup */
-     , (34088,   3,  536870932) /* SoundTable */
-     , (34088,   8,  100689202) /* Icon */
-     , (34088,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34088,   1, 0x020011D9) /* Setup */
+     , (34088,   3, 0x20000014) /* SoundTable */
+     , (34088,   8, 0x06006532) /* Icon */
+     , (34088,  22, 0x3400002B) /* PhysicsEffectTable */;

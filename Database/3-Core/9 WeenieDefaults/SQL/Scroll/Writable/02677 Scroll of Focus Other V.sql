@@ -23,7 +23,7 @@ VALUES (2677,   1, 'Scroll of Focus Other V') /* Name */
 Increases the target''s Focus by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2677,   1,   33554826) /* Setup */
-     , (2677,   8,  100676458) /* Icon */
-     , (2677,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2677,   1, 0x0200018A) /* Setup */
+     , (2677,   8, 0x0600336A) /* Icon */
+     , (2677,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2677,  28,       1431) /* Spell - FocusOther5 */;

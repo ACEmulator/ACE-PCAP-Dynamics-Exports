@@ -32,7 +32,7 @@ VALUES (25556,   1, 'Scary Minion Mask') /* Name */
      , (25556,  16, 'A cross between a Scarecrow Mask and a Hollow Minion''s visage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25556,   1,   33556823) /* Setup */
-     , (25556,   3,  536870932) /* SoundTable */
-     , (25556,   8,  100674948) /* Icon */
-     , (25556,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25556,   1, 0x02000957) /* Setup */
+     , (25556,   3, 0x20000014) /* SoundTable */
+     , (25556,   8, 0x06002D84) /* Icon */
+     , (25556,  22, 0x3400002B) /* PhysicsEffectTable */;

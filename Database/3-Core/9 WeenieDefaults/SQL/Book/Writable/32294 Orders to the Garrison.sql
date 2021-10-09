@@ -15,13 +15,13 @@ VALUES (32294,   1, 'Orders to the Garrison') /* Name */
      , (32294,  16, 'A note from Varicci to the garrison of this outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32294,   1,   33554773) /* Setup */
-     , (32294,   3,  536870932) /* SoundTable */
-     , (32294,   8,  100668176) /* Icon */
-     , (32294,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32294,   1, 0x02000155) /* Setup */
+     , (32294,   3, 0x20000014) /* SoundTable */
+     , (32294,   8, 0x06001310) /* Icon */
+     , (32294,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32294, 8040, 31719691, 36.63674, -29.70921, -23.921, -0.5520819, 0, 0, -0.8337899) /* PCAPRecordedLocation */
+VALUES (32294, 8040, 0x01E4010B, 36.63674, -29.70921, -23.921, -0.552082, 0, 0, -0.83379) /* PCAPRecordedLocation */
 /* @teleloc 0x01E4010B [36.636740 -29.709210 -23.921000] -0.552082 0.000000 0.000000 -0.833790 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

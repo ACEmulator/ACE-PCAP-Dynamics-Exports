@@ -25,8 +25,8 @@ VALUES (8113,   1, 'Fenmalain Gem') /* Name */
      , (8113,  16, 'The heart of the Fenmalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8113,   1,   33554809) /* Setup */
-     , (8113,   3,  536870932) /* SoundTable */
-     , (8113,   6,   67111919) /* PaletteBase */
-     , (8113,   8,  100670990) /* Icon */
-     , (8113,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8113,   1, 0x02000179) /* Setup */
+     , (8113,   3, 0x20000014) /* SoundTable */
+     , (8113,   6, 0x04000BEF) /* PaletteBase */
+     , (8113,   8, 0x06001E0E) /* Icon */
+     , (8113,  22, 0x3400002B) /* PhysicsEffectTable */;

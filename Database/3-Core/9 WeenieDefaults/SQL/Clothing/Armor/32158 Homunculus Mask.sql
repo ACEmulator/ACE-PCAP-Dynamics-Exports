@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32158,   1, 'Homunculus Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32158,   1,   33559766) /* Setup */
-     , (32158,   3,  536870932) /* SoundTable */
-     , (32158,   8,  100688434) /* Icon */
-     , (32158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32158,   1, 0x020014D6) /* Setup */
+     , (32158,   3, 0x20000014) /* SoundTable */
+     , (32158,   8, 0x06006232) /* Icon */
+     , (32158,  22, 0x3400002B) /* PhysicsEffectTable */;

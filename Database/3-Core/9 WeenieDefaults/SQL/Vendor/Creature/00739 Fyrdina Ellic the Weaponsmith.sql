@@ -35,20 +35,20 @@ VALUES (739,   1, 'Fyrdina Ellic the Weaponsmith') /* Name */
      , (739,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (739,   1,   33554510) /* Setup */
-     , (739,   2,  150994945) /* MotionTable */
-     , (739,   3,  536870914) /* SoundTable */
-     , (739,   6,   67108990) /* PaletteBase */
-     , (739,   8,  100667446) /* Icon */
-     , (739,   9,   83890275) /* EyesTexture */
-     , (739,  10,   83890313) /* NoseTexture */
-     , (739,  11,   83890328) /* MouthTexture */
-     , (739,  15,   67116988) /* HairPalette */
-     , (739,  16,   67109565) /* EyesPalette */
-     , (739,  17,   67109560) /* SkinPalette */;
+VALUES (739,   1, 0x0200004E) /* Setup */
+     , (739,   2, 0x09000001) /* MotionTable */
+     , (739,   3, 0x20000002) /* SoundTable */
+     , (739,   6, 0x0400007E) /* PaletteBase */
+     , (739,   8, 0x06001036) /* Icon */
+     , (739,   9, 0x05001063) /* EyesTexture */
+     , (739,  10, 0x05001089) /* NoseTexture */
+     , (739,  11, 0x05001098) /* MouthTexture */
+     , (739,  15, 0x04001FBC) /* HairPalette */
+     , (739,  16, 0x040002BD) /* EyesPalette */
+     , (739,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (739, 8040, 2711879940, 66.4332, 155.387, 49.925, 0.6616669, 0, 0, -0.7497979) /* PCAPRecordedLocation */
+VALUES (739, 8040, 0xA1A40104, 66.4332, 155.387, 49.925, 0.661667, 0, 0, -0.749798) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40104 [66.433200 155.387000 49.925000] 0.661667 0.000000 0.000000 -0.749798 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

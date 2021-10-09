@@ -33,11 +33,11 @@ VALUES (30220,   1, 'Astyrrian''s Jewel') /* Name */
      , (30220,  20, 'Astyrrian''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30220,   1,   33554809) /* Setup */
-     , (30220,   3,  536870932) /* SoundTable */
-     , (30220,   6,   67111919) /* PaletteBase */
-     , (30220,   8,  100686696) /* Icon */
-     , (30220,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30220,   1, 0x02000179) /* Setup */
+     , (30220,   3, 0x20000014) /* SoundTable */
+     , (30220,   6, 0x04000BEF) /* PaletteBase */
+     , (30220,   8, 0x06005B68) /* Icon */
+     , (30220,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30220,  28,       3719) /* Spell - LightningProtectionRare */
-     , (30220,  50,  100686667) /* IconOverlay */
-     , (30220,  52,  100686604) /* IconUnderlay */;
+     , (30220,  50, 0x06005B4B) /* IconOverlay */
+     , (30220,  52, 0x06005B0C) /* IconUnderlay */;

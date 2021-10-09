@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22663,   1, 'Tusker Burrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22663,   1,   33554867) /* Setup */
-     , (22663,   2,  150994947) /* MotionTable */
-     , (22663,   8,  100667499) /* Icon */;
+VALUES (22663,   1, 0x020001B3) /* Setup */
+     , (22663,   2, 0x09000003) /* MotionTable */
+     , (22663,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22663, 8040, 4185980992, 176.323, 186.044, 12.43333, 0.783702, 0, 0, -0.621137) /* PCAPRecordedLocation */
+VALUES (22663, 8040, 0xF9810040, 176.323, 186.044, 12.43333, 0.783702, 0, 0, -0.621137) /* PCAPRecordedLocation */
 /* @teleloc 0xF9810040 [176.323000 186.044000 12.433330] 0.783702 0.000000 0.000000 -0.621137 */;

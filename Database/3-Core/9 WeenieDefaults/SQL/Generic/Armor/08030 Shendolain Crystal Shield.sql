@@ -48,18 +48,18 @@ VALUES (8030,   1, 'Shendolain Crystal Shield') /* Name */
      , (8030,  25, 'Ua-King') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8030,   1,   33554786) /* Setup */
-     , (8030,   3,  536870932) /* SoundTable */
-     , (8030,   6,   67111919) /* PaletteBase */
-     , (8030,   8,  100670978) /* Icon */
-     , (8030,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8030,   1, 0x02000162) /* Setup */
+     , (8030,   3, 0x20000014) /* SoundTable */
+     , (8030,   6, 0x04000BEF) /* PaletteBase */
+     , (8030,   8, 0x06001E02) /* Icon */
+     , (8030,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8030,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8030, 8040, 2238578958, 153.7327, 157.0543, 9.625999, 0.3324405, -0.5741004, -0.6167598, -0.4236738) /* PCAPRecordedLocation */
+VALUES (8030, 8040, 0x856E010E, 153.7327, 157.0543, 9.625999, 0.332441, -0.5741, -0.61676, -0.423674) /* PCAPRecordedLocation */
 /* @teleloc 0x856E010E [153.732700 157.054300 9.625999] 0.332441 -0.574100 -0.616760 -0.423674 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8030,   248,      2)  /* InvulnerabilitySelf5 */
-     , (8030,  2005,      2)  /* WarriorsGreaterVitality */
-     , (8030,  2009,      2)  /* WarriorsGreaterVigor */;
+VALUES (8030,  2005,      2)  /* WarriorsGreaterVitality */
+     , (8030,  2009,      2)  /* WarriorsGreaterVigor */
+     , (8030,   248,      2)  /* InvulnerabilitySelf5 */;

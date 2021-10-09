@@ -23,7 +23,7 @@ VALUES (53340,   1, 'Scroll of Halo of Frost II') /* Name */
 Shoots eight waves of frost outward from the caster. Each wave does 49-98 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53340,   1,   33554826) /* Setup */
-     , (53340,   8,  100677015) /* Icon */
-     , (53340,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53340,   1, 0x0200018A) /* Setup */
+     , (53340,   8, 0x06003597) /* Icon */
+     , (53340,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53340,  28,       6193) /* Spell - HaloOfFrostII */;

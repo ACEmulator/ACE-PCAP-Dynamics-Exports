@@ -39,10 +39,10 @@ VALUES (49281,   1, 'K''nath R''ajed Essence') /* Name */
      , (49281,  14, 'Use this essence to summon or dismiss your K''nath R''ajed.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49281,   1,   33554817) /* Setup */
-     , (49281,   3,  536870932) /* SoundTable */
-     , (49281,   6,   67111919) /* PaletteBase */
-     , (49281,   8,  100693042) /* Icon */
-     , (49281,  22,  872415275) /* PhysicsEffectTable */
-     , (49281,  50,  100693032) /* IconOverlay */
-     , (49281,  52,  100693024) /* IconUnderlay */;
+VALUES (49281,   1, 0x02000181) /* Setup */
+     , (49281,   3, 0x20000014) /* SoundTable */
+     , (49281,   6, 0x04000BEF) /* PaletteBase */
+     , (49281,   8, 0x06007432) /* Icon */
+     , (49281,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49281,  50, 0x06007428) /* IconOverlay */
+     , (49281,  52, 0x06007420) /* IconUnderlay */;

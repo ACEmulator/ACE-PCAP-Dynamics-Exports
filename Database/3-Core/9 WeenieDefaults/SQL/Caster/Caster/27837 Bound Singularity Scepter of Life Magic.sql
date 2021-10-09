@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27837,   1, 'Bound Singularity Scepter of Life Magic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27837,   1,   33558795) /* Setup */
-     , (27837,   6,   67111919) /* PaletteBase */
-     , (27837,   8,  100676590) /* Icon */
-     , (27837,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27837,   1, 0x0200110B) /* Setup */
+     , (27837,   6, 0x04000BEF) /* PaletteBase */
+     , (27837,   8, 0x060033EE) /* Icon */
+     , (27837,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27837, 8040, 23855555, 61.29158, -39.29916, -0.071, -0.5533056, -0.5533056, -0.4402873, -0.4402873) /* PCAPRecordedLocation */
+VALUES (27837, 8040, 0x016C01C3, 61.29158, -39.29916, -0.071, -0.553306, -0.553306, -0.440287, -0.440287) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [61.291580 -39.299160 -0.071000] -0.553306 -0.553306 -0.440287 -0.440287 */;

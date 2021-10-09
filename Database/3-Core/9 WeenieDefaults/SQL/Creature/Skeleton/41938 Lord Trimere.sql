@@ -24,15 +24,15 @@ VALUES (41938,   1, 'Lord Trimere') /* Name */
      , (41938,   5, 'Champion of House Mhoire') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41938,   1,   33560229) /* Setup */
-     , (41938,   2,  150994981) /* MotionTable */
-     , (41938,   3,  536870942) /* SoundTable */
-     , (41938,   6,   67116522) /* PaletteBase */
-     , (41938,   8,  100669124) /* Icon */
-     , (41938,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (41938,   1, 0x020016A5) /* Setup */
+     , (41938,   2, 0x09000025) /* MotionTable */
+     , (41938,   3, 0x2000001E) /* SoundTable */
+     , (41938,   6, 0x04001DEA) /* PaletteBase */
+     , (41938,   8, 0x060016C4) /* Icon */
+     , (41938,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41938, 8040, 1177419818, 120.441, 26.1376, 0.03950012, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41938, 8040, 0x462E002A, 120.441, 26.1376, 0.0395, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x462E002A [120.441000 26.137600 0.039500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

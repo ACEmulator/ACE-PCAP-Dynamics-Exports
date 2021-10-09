@@ -18,9 +18,9 @@ VALUES (14731,   1, 'Rhynntal Cottages') /* Name */
      , (14731,  16, 'Welcome to Rhynntal Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14731,   1,   33557463) /* Setup */
-     , (14731,   8,  100668115) /* Icon */;
+VALUES (14731,   1, 0x02000BD7) /* Setup */
+     , (14731,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14731, 8040, 1320812555, 45.0343, 65.1992, 44, -0.559034, 0, 0, -0.829145) /* PCAPRecordedLocation */
+VALUES (14731, 8040, 0x4EBA000B, 45.0343, 65.1992, 44, -0.559034, 0, 0, -0.829145) /* PCAPRecordedLocation */
 /* @teleloc 0x4EBA000B [45.034300 65.199200 44.000000] -0.559034 0.000000 0.000000 -0.829145 */;

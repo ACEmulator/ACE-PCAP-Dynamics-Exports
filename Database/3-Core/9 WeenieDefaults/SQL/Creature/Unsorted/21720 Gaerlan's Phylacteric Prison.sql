@@ -26,12 +26,12 @@ VALUES (21720,   1, 'Gaerlan''s Phylacteric Prison') /* Name */
      , (21720,  15, 'A crystal prison containing Gaerlan''s life essence.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21720,   1,   33557978) /* Setup */
-     , (21720,   2,  150995223) /* MotionTable */
-     , (21720,   3,  536871001) /* SoundTable */
-     , (21720,   8,  100673073) /* Icon */
-     , (21720,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (21720,   1, 0x02000DDA) /* Setup */
+     , (21720,   2, 0x09000117) /* MotionTable */
+     , (21720,   3, 0x20000059) /* SoundTable */
+     , (21720,   8, 0x06002631) /* Icon */
+     , (21720,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21720, 8040, 1448345897, 20, -20, 24, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (21720, 8040, 0x56540129, 20, -20, 24, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x56540129 [20.000000 -20.000000 24.000000] 1.000000 0.000000 0.000000 0.000000 */;

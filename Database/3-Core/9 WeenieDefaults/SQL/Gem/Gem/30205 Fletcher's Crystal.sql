@@ -33,11 +33,11 @@ VALUES (30205,   1, 'Fletcher''s Crystal') /* Name */
      , (30205,  20, 'Fletcher''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30205,   1,   33554809) /* Setup */
-     , (30205,   3,  536870932) /* SoundTable */
-     , (30205,   6,   67111919) /* PaletteBase */
-     , (30205,   8,  100686697) /* Icon */
-     , (30205,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30205,   1, 0x02000179) /* Setup */
+     , (30205,   3, 0x20000014) /* SoundTable */
+     , (30205,   6, 0x04000BEF) /* PaletteBase */
+     , (30205,   8, 0x06005B69) /* Icon */
+     , (30205,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30205,  28,       3704) /* Spell - FletchingMasteryRare */
-     , (30205,  50,  100686651) /* IconOverlay */
-     , (30205,  52,  100686604) /* IconUnderlay */;
+     , (30205,  50, 0x06005B3B) /* IconOverlay */
+     , (30205,  52, 0x06005B0C) /* IconUnderlay */;

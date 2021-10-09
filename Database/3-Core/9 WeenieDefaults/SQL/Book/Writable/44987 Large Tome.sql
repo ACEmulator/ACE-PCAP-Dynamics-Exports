@@ -25,7 +25,7 @@ VALUES (44987,   1, 'Large Tome') /* Name */
      , (44987,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44987,   1,   33554771) /* Setup */
-     , (44987,   3,  536870932) /* SoundTable */
-     , (44987,   8,  100668117) /* Icon */
-     , (44987,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44987,   1, 0x02000153) /* Setup */
+     , (44987,   3, 0x20000014) /* SoundTable */
+     , (44987,   8, 0x060012D5) /* Icon */
+     , (44987,  22, 0x3400002B) /* PhysicsEffectTable */;

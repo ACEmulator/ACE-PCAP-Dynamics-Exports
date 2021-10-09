@@ -19,7 +19,7 @@ VALUES (37259,   1, 'King of Eyes') /* Name */
      , (37259,  20, 'Kings of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37259,   1,   33560547) /* Setup */
-     , (37259,   3,  536870932) /* SoundTable */
-     , (37259,   8,  100689855) /* Icon */
-     , (37259,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37259,   1, 0x020017E3) /* Setup */
+     , (37259,   3, 0x20000014) /* SoundTable */
+     , (37259,   8, 0x060067BF) /* Icon */
+     , (37259,  22, 0x3400002B) /* PhysicsEffectTable */;

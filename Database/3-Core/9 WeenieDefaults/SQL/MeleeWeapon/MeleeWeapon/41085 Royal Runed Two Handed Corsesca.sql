@@ -45,17 +45,17 @@ VALUES (41085,   1, 'Royal Runed Two Handed Corsesca') /* Name */
      , (41085,  15, 'A corsesca crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41085,   1,   33560794) /* Setup */
-     , (41085,   3,  536870932) /* SoundTable */
-     , (41085,   6,   67115560) /* PaletteBase */
-     , (41085,   8,  100690788) /* Icon */
-     , (41085,  22,  872415275) /* PhysicsEffectTable */
-     , (41085,  50,  100688914) /* IconOverlay */
+VALUES (41085,   1, 0x020018DA) /* Setup */
+     , (41085,   3, 0x20000014) /* SoundTable */
+     , (41085,   6, 0x04001A28) /* PaletteBase */
+     , (41085,   8, 0x06006B64) /* Icon */
+     , (41085,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41085,  50, 0x06006412) /* IconOverlay */
      , (41085,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41085,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (41085,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41085,  5074,      2)  /* ModerateTwoHandedAptitude */
+     , (41085,  2096,      2)  /* BloodDrinkerSelf7 */
      , (41085,  2101,      2)  /* DefenderSelf7 */
-     , (41085,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41085,  2116,      2)  /* SwiftKillerSelf7 */
-     , (41085,  5074,      2)  /* ModerateTwoHandedAptitude */;
+     , (41085,  2106,      2)  /* HeartSeekerSelf7 */;

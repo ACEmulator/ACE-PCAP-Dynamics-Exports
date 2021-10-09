@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41618,   1, 'Two Handed Spear Glyph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41618,   1,   33556223) /* Setup */
-     , (41618,   3,  536870932) /* SoundTable */
-     , (41618,   6,   67111928) /* PaletteBase */
-     , (41618,   8,  100670480) /* Icon */
-     , (41618,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41618,   1, 0x020006FF) /* Setup */
+     , (41618,   3, 0x20000014) /* SoundTable */
+     , (41618,   6, 0x04000BF8) /* PaletteBase */
+     , (41618,   8, 0x06001C10) /* Icon */
+     , (41618,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41618, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

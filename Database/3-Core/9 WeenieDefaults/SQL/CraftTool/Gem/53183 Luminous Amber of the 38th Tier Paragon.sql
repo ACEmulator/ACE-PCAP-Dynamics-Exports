@@ -28,9 +28,9 @@ VALUES (53183,   1, 'Luminous Amber of the 38th Tier Paragon') /* Name */
      , (53183,  20, 'Luminous Ambers of the 38th Tier Paragon') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53183,   1,   33554809) /* Setup */
-     , (53183,   3,  536870932) /* SoundTable */
-     , (53183,   6,   67111919) /* PaletteBase */
-     , (53183,   8,  100693327) /* Icon */
-     , (53183,  22,  872415275) /* PhysicsEffectTable */
-     , (53183,  52,  100691593) /* IconUnderlay */;
+VALUES (53183,   1, 0x02000179) /* Setup */
+     , (53183,   3, 0x20000014) /* SoundTable */
+     , (53183,   6, 0x04000BEF) /* PaletteBase */
+     , (53183,   8, 0x0600754F) /* Icon */
+     , (53183,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53183,  52, 0x06006E89) /* IconUnderlay */;

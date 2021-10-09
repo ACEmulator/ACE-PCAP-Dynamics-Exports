@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14642,   1, 'Land Bridge Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14642,   1,   33554867) /* Setup */
-     , (14642,   2,  150994947) /* MotionTable */
-     , (14642,   8,  100667499) /* Icon */;
+VALUES (14642,   1, 0x020001B3) /* Setup */
+     , (14642,   2, 0x09000003) /* MotionTable */
+     , (14642,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14642, 8040, 2501967927, 150.378, 160.839, 124.2588, 0.2787609, 0, 0, -0.9603605) /* PCAPRecordedLocation */
+VALUES (14642, 8040, 0x95210037, 150.378, 160.839, 124.2588, 0.278761, 0, 0, -0.960361) /* PCAPRecordedLocation */
 /* @teleloc 0x95210037 [150.378000 160.839000 124.258800] 0.278761 0.000000 0.000000 -0.960361 */;

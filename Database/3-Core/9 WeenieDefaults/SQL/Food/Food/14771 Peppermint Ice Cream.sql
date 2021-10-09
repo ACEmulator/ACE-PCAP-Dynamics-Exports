@@ -26,11 +26,11 @@ VALUES (14771,   1, 'Peppermint Ice Cream') /* Name */
      , (14771,  20, 'Bowls of Peppermint Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14771,   1,   33554668) /* Setup */
-     , (14771,   3,  536870932) /* SoundTable */
-     , (14771,   8,  100672559) /* Icon */
-     , (14771,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14771,   1, 0x020000EC) /* Setup */
+     , (14771,   3, 0x20000014) /* SoundTable */
+     , (14771,   8, 0x0600242F) /* Icon */
+     , (14771,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14771, 8040, 23855548, 53.62029, -34.96757, 0.0215, 0.8411043, 0, 0, -0.5408731) /* PCAPRecordedLocation */
+VALUES (14771, 8040, 0x016C01BC, 53.62029, -34.96757, 0.0215, 0.841104, 0, 0, -0.540873) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.620290 -34.967570 0.021500] 0.841104 0.000000 0.000000 -0.540873 */;

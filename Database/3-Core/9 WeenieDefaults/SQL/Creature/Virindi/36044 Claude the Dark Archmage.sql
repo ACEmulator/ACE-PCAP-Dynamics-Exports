@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36044,   1, 'Claude the Dark Archmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36044,   1,   33560380) /* Setup */
-     , (36044,   2,  150995192) /* MotionTable */
-     , (36044,   3,  536870930) /* SoundTable */
-     , (36044,   6,   67111346) /* PaletteBase */
-     , (36044,   8,  100667943) /* Icon */
-     , (36044,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (36044,   1, 0x0200173C) /* Setup */
+     , (36044,   2, 0x090000F8) /* MotionTable */
+     , (36044,   3, 0x20000012) /* SoundTable */
+     , (36044,   6, 0x040009B2) /* PaletteBase */
+     , (36044,   8, 0x06001227) /* Icon */
+     , (36044,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36044, 8040, 10682669, 420.8711, -179.7073, -35.942, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36044, 8040, 0x00A3012D, 420.8711, -179.7073, -35.942, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3012D [420.871100 -179.707300 -35.942000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

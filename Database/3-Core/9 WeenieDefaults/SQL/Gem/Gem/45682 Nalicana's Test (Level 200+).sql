@@ -34,7 +34,7 @@ VALUES (45682,   1, 'Nalicana''s Test (Level 200+)') /* Name */
      , (45682,  16, 'A contract for collecting the Mnemosyne of Battle Lord Gregor, to prove to Nalicana your worth to earn Luminance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45682,   1,   33554773) /* Setup */
-     , (45682,   3,  536870932) /* SoundTable */
-     , (45682,   8,  100691928) /* Icon */
-     , (45682,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45682,   1, 0x02000155) /* Setup */
+     , (45682,   3, 0x20000014) /* SoundTable */
+     , (45682,   8, 0x06006FD8) /* Icon */
+     , (45682,  22, 0x3400002B) /* PhysicsEffectTable */;

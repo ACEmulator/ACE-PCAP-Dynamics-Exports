@@ -22,10 +22,10 @@ VALUES (32546,   1, 'Viamont Staging Area Portal') /* Name */
      , (32546,  16, 'This dungeon is quest restricted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32546,   1,   33556212) /* Setup */
-     , (32546,   2,  150994947) /* MotionTable */
-     , (32546,   8,  100667499) /* Icon */;
+VALUES (32546,   1, 0x020006F4) /* Setup */
+     , (32546,   2, 0x09000003) /* MotionTable */
+     , (32546,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32546, 8040, 2728460308, 59.9461, 83.3932, 194.45, 0.9999252, 0, 0, -0.0122292) /* PCAPRecordedLocation */
+VALUES (32546, 8040, 0xA2A10014, 59.9461, 83.3932, 194.45, 0.999925, 0, 0, -0.012229) /* PCAPRecordedLocation */
 /* @teleloc 0xA2A10014 [59.946100 83.393200 194.450000] 0.999925 0.000000 0.000000 -0.012229 */;

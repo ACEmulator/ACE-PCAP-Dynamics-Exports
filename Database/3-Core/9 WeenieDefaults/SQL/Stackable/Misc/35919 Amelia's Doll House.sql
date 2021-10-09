@@ -30,7 +30,7 @@ VALUES (35919,   1, 'Amelia''s Doll House') /* Name */
      , (35919,  15, 'A doll house. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35919,   1,   33560158) /* Setup */
-     , (35919,   3,  536870932) /* SoundTable */
-     , (35919,   8,  100689310) /* Icon */
-     , (35919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35919,   1, 0x0200165E) /* Setup */
+     , (35919,   3, 0x20000014) /* SoundTable */
+     , (35919,   8, 0x0600659E) /* Icon */
+     , (35919,  22, 0x3400002B) /* PhysicsEffectTable */;

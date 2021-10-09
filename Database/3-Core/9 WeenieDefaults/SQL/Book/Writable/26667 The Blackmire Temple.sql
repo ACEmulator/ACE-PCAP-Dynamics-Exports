@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26667,   1, 'The Blackmire Temple') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26667,   1,   33559084) /* Setup */
-     , (26667,   3,  536870932) /* SoundTable */
-     , (26667,   6,   67112626) /* PaletteBase */
-     , (26667,   8,  100675749) /* Icon */
-     , (26667,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26667,   1, 0x0200122C) /* Setup */
+     , (26667,   3, 0x20000014) /* SoundTable */
+     , (26667,   6, 0x04000EB2) /* PaletteBase */
+     , (26667,   8, 0x060030A5) /* Icon */
+     , (26667,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26667, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

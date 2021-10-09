@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28267,   1, 'Banderling Hovel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28267,   1,   33555922) /* Setup */
-     , (28267,   2,  150994947) /* MotionTable */
-     , (28267,   8,  100667499) /* Icon */;
+VALUES (28267,   1, 0x020005D2) /* Setup */
+     , (28267,   2, 0x09000003) /* MotionTable */
+     , (28267,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28267, 8040, 3663134748, 87.3035, 88.1266, 13.937, 0.9807073, 0, 0, -0.1954821) /* PCAPRecordedLocation */
+VALUES (28267, 8040, 0xDA57001C, 87.3035, 88.1266, 13.937, 0.980707, 0, 0, -0.195482) /* PCAPRecordedLocation */
 /* @teleloc 0xDA57001C [87.303500 88.126600 13.937000] 0.980707 0.000000 0.000000 -0.195482 */;

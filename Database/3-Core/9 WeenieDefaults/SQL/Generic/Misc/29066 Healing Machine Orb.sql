@@ -21,7 +21,7 @@ VALUES (29066,   1, 'Healing Machine Orb') /* Name */
      , (29066,  16, 'A component of some alien machine. It appears to be of Empyrean make. Consult Fiun Scorus for more information.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29066,   1,   33554769) /* Setup */
-     , (29066,   3,  536870932) /* SoundTable */
-     , (29066,   8,  100686426) /* Icon */
-     , (29066,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29066,   1, 0x02000151) /* Setup */
+     , (29066,   3, 0x20000014) /* SoundTable */
+     , (29066,   8, 0x06005A5A) /* Icon */
+     , (29066,  22, 0x3400002B) /* PhysicsEffectTable */;

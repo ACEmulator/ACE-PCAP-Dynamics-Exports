@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27431,   1, 'Homunculus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27431,   1,   33558680) /* Setup */
-     , (27431,   2,  150994953) /* MotionTable */
-     , (27431,   3,  536871092) /* SoundTable */
-     , (27431,   8,  100676411) /* Icon */
-     , (27431,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (27431,   1, 0x02001098) /* Setup */
+     , (27431,   2, 0x09000009) /* MotionTable */
+     , (27431,   3, 0x200000B4) /* SoundTable */
+     , (27431,   8, 0x0600333B) /* Icon */
+     , (27431,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27431, 8040, 1665794338, 110, -90, -41.9965, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (27431, 8040, 0x634A0122, 110, -90, -41.9965, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x634A0122 [110.000000 -90.000000 -41.996500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

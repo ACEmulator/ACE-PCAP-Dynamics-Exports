@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3208,   1, 'Scroll of Missile Weapon Mastery Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3208,   1,   33554826) /* Setup */
-     , (3208,   8,  100676450) /* Icon */
-     , (3208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3208,   1, 0x0200018A) /* Setup */
+     , (3208,   8, 0x06003362) /* Icon */
+     , (3208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3208,  28,        462) /* Spell - MissileWeaponsMasteryOther2 */;

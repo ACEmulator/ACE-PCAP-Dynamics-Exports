@@ -51,13 +51,13 @@ VALUES (24202,   1, 'Weeping Dagger') /* Name */
      , (24202,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24202,   1,   33558293) /* Setup */
-     , (24202,   3,  536870932) /* SoundTable */
-     , (24202,   8,  100674267) /* Icon */
-     , (24202,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24202,   1, 0x02000F15) /* Setup */
+     , (24202,   3, 0x20000014) /* SoundTable */
+     , (24202,   8, 0x06002ADB) /* Icon */
+     , (24202,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24202, 8040, 4095213581, 27.166, 102.5381, 159.929, 0.4826304, 0.4826304, -0.5167862, -0.5167862) /* PCAPRecordedLocation */
+VALUES (24202, 8040, 0xF418000D, 27.166, 102.5381, 159.929, 0.48263, 0.48263, -0.516786, -0.516786) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [27.166000 102.538100 159.929000] 0.482630 0.482630 -0.516786 -0.516786 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

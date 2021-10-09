@@ -20,7 +20,7 @@ VALUES (29091,   1, 'Stolen Platter') /* Name */
      , (29091,  16, 'A Viamontian platter stolen by a mischievous Thrungus. Return this item to the Portal Guardian at 72.1N 60.9W.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29091,   1,   33554930) /* Setup */
-     , (29091,   3,  536870932) /* SoundTable */
-     , (29091,   8,  100668119) /* Icon */
-     , (29091,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29091,   1, 0x020001F2) /* Setup */
+     , (29091,   3, 0x20000014) /* SoundTable */
+     , (29091,   8, 0x060012D7) /* Icon */
+     , (29091,  22, 0x3400002B) /* PhysicsEffectTable */;

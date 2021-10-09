@@ -23,7 +23,7 @@ VALUES (3129,   1, 'Scroll of Arcane Benightedness III') /* Name */
 Decreases the target''s Arcane Lore skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3129,   1,   33554826) /* Setup */
-     , (3129,   8,  100676447) /* Icon */
-     , (3129,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3129,   1, 0x0200018A) /* Setup */
+     , (3129,   8, 0x0600335F) /* Icon */
+     , (3129,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3129,  28,        698) /* Spell - ArcaneBenightednessOther3 */;

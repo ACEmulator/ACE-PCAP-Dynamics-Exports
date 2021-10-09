@@ -24,9 +24,9 @@ VALUES (31621,   1, 'Polar Ursuin Pounder Plaque') /* Name */
      , (31621,  25, 'Little Noid') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31621,   1,   33559570) /* Setup */
-     , (31621,   3,  536870932) /* SoundTable */
-     , (31621,   6,   67111919) /* PaletteBase */
-     , (31621,   8,  100670959) /* Icon */
-     , (31621,  22,  872415275) /* PhysicsEffectTable */
-     , (31621,  52,  100687690) /* IconUnderlay */;
+VALUES (31621,   1, 0x02001412) /* Setup */
+     , (31621,   3, 0x20000014) /* SoundTable */
+     , (31621,   6, 0x04000BEF) /* PaletteBase */
+     , (31621,   8, 0x06001DEF) /* Icon */
+     , (31621,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31621,  52, 0x06005F4A) /* IconUnderlay */;

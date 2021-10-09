@@ -30,21 +30,21 @@ VALUES (46682,   1, 'Griffon') /* Name */
      , (46682,   5, 'Agent of the Whispering Blade') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46682,   1,   33560942) /* Setup */
-     , (46682,   2,  150994945) /* MotionTable */
-     , (46682,   3,  536870913) /* SoundTable */
-     , (46682,   6,   67108990) /* PaletteBase */
-     , (46682,   8,  100667446) /* Icon */
-     , (46682,   9,   83890485) /* EyesTexture */
-     , (46682,  10,   83890555) /* NoseTexture */
-     , (46682,  11,   83890636) /* MouthTexture */
-     , (46682,  15,   67117055) /* HairPalette */
-     , (46682,  16,   67116855) /* EyesPalette */
-     , (46682,  17,   67116851) /* SkinPalette */
-     , (46682,  22,  872415433) /* PhysicsEffectTable */;
+VALUES (46682,   1, 0x0200196E) /* Setup */
+     , (46682,   2, 0x09000001) /* MotionTable */
+     , (46682,   3, 0x20000001) /* SoundTable */
+     , (46682,   6, 0x0400007E) /* PaletteBase */
+     , (46682,   8, 0x06001036) /* Icon */
+     , (46682,   9, 0x05001135) /* EyesTexture */
+     , (46682,  10, 0x0500117B) /* NoseTexture */
+     , (46682,  11, 0x050011CC) /* MouthTexture */
+     , (46682,  15, 0x04001FFF) /* HairPalette */
+     , (46682,  16, 0x04001F37) /* EyesPalette */
+     , (46682,  17, 0x04001F33) /* SkinPalette */
+     , (46682,  22, 0x340000C9) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46682, 8040, 1239679233, 133.248, 57.4213, 11.705, -0.970958, 0, 0, 0.239248) /* PCAPRecordedLocation */
+VALUES (46682, 8040, 0x49E40101, 133.248, 57.4213, 11.705, -0.970958, 0, 0, 0.239248) /* PCAPRecordedLocation */
 /* @teleloc 0x49E40101 [133.248000 57.421300 11.705000] -0.970958 0.000000 0.000000 0.239248 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29089,   1, 'Stolen Ewer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29089,   1,   33554803) /* Setup */
-     , (29089,   3,  536870932) /* SoundTable */
-     , (29089,   8,  100668732) /* Icon */
-     , (29089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29089,   1, 0x02000173) /* Setup */
+     , (29089,   3, 0x20000014) /* SoundTable */
+     , (29089,   8, 0x0600153C) /* Icon */
+     , (29089,  22, 0x3400002B) /* PhysicsEffectTable */;

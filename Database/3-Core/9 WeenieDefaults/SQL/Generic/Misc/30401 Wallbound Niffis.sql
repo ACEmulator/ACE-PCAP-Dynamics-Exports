@@ -26,6 +26,6 @@ VALUES (30401,   1, 'Wallbound Niffis') /* Name */
      , (30401,  16, 'A reward granted by the kindly Niffis Reijiri.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30401,   1,   33559117) /* Setup */
-     , (30401,   3,  536871010) /* SoundTable */
-     , (30401,   8,  100670961) /* Icon */;
+VALUES (30401,   1, 0x0200124D) /* Setup */
+     , (30401,   3, 0x20000062) /* SoundTable */
+     , (30401,   8, 0x06001DF1) /* Icon */;

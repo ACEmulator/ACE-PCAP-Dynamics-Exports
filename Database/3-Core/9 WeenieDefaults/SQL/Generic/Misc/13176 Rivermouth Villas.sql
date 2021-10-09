@@ -18,9 +18,9 @@ VALUES (13176,   1, 'Rivermouth Villas') /* Name */
      , (13176,  16, 'Welcome to Rivermouth Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13176,   1,   33557463) /* Setup */
-     , (13176,   8,  100668115) /* Icon */;
+VALUES (13176,   1, 0x02000BD7) /* Setup */
+     , (13176,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13176, 8040, 1086259237, 108.494, 98.277, 8, -0.0139557, 0, 0, -0.999903) /* PCAPRecordedLocation */
+VALUES (13176, 8040, 0x40BF0025, 108.494, 98.277, 8, -0.013956, 0, 0, -0.999903) /* PCAPRecordedLocation */
 /* @teleloc 0x40BF0025 [108.494000 98.277000 8.000000] -0.013956 0.000000 0.000000 -0.999903 */;

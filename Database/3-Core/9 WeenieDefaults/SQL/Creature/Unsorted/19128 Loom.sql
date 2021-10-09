@@ -28,11 +28,11 @@ VALUES (19128,   1, 'Loom') /* Name */
      , (19128,  16, 'An ornate loom etched with ancient symbols. It seems to be in perfect working order despite its obvious age.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19128,   1,   33557823) /* Setup */
-     , (19128,   2,  150995197) /* MotionTable */
-     , (19128,   3,  536871055) /* SoundTable */
-     , (19128,   8,  100673041) /* Icon */;
+VALUES (19128,   1, 0x02000D3F) /* Setup */
+     , (19128,   2, 0x090000FD) /* MotionTable */
+     , (19128,   3, 0x2000008F) /* SoundTable */
+     , (19128,   8, 0x06002611) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19128, 8040, 2513830154, 92.7036, 66.9635, 110, 0.783219, 0, 0, -0.621746) /* PCAPRecordedLocation */
+VALUES (19128, 8040, 0x95D6010A, 92.7036, 66.9635, 110, 0.783219, 0, 0, -0.621746) /* PCAPRecordedLocation */
 /* @teleloc 0x95D6010A [92.703600 66.963500 110.000000] 0.783219 0.000000 0.000000 -0.621746 */;

@@ -34,11 +34,11 @@ VALUES (2367,   1, 'Gorget') /* Name */
      , (2367,  16, 'Gorget of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2367,   1,   33554687) /* Setup */
-     , (2367,   3,  536870932) /* SoundTable */
-     , (2367,   6,   67111919) /* PaletteBase */
-     , (2367,   8,  100668633) /* Icon */
-     , (2367,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2367,   1, 0x020000FF) /* Setup */
+     , (2367,   3, 0x20000014) /* SoundTable */
+     , (2367,   6, 0x04000BEF) /* PaletteBase */
+     , (2367,   8, 0x060014D9) /* Icon */
+     , (2367,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2367,   278,      2)  /* MagicResistanceSelf5 */

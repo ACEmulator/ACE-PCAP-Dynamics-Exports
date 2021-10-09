@@ -23,7 +23,7 @@ VALUES (3569,   1, 'Scroll of War Magic Mastery Other III') /* Name */
 Increases the target''s War Magic skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3569,   1,   33554826) /* Setup */
-     , (3569,   8,  100676479) /* Icon */
-     , (3569,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3569,   1, 0x0200018A) /* Setup */
+     , (3569,   8, 0x0600337F) /* Icon */
+     , (3569,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3569,  28,        637) /* Spell - WarMagicMasteryOther3 */;

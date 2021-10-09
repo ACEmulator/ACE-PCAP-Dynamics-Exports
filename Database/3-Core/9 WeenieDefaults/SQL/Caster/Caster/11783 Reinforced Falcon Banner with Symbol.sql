@@ -20,6 +20,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11783,   1, 'Reinforced Falcon Banner with Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11783,   1,   33557258) /* Setup */
-     , (11783,   8,  100671936) /* Icon */
-     , (11783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11783,   1, 0x02000B0A) /* Setup */
+     , (11783,   8, 0x060021C0) /* Icon */
+     , (11783,  22, 0x3400002B) /* PhysicsEffectTable */;

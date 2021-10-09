@@ -25,10 +25,10 @@ VALUES (41720,   1, 'Bow Stamped Silveran Ingot') /* Name */
      , (41720,  16, 'A spectral ingot that summons a Silveran Bow when used. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41720,   1,   33556769) /* Setup */
-     , (41720,   3,  536870932) /* SoundTable */
-     , (41720,   6,   67111919) /* PaletteBase */
-     , (41720,   8,  100689897) /* Icon */
-     , (41720,  22,  872415275) /* PhysicsEffectTable */
-     , (41720,  50,  100673759) /* IconOverlay */
-     , (41720,  52,  100689404) /* IconUnderlay */;
+VALUES (41720,   1, 0x02000921) /* Setup */
+     , (41720,   3, 0x20000014) /* SoundTable */
+     , (41720,   6, 0x04000BEF) /* PaletteBase */
+     , (41720,   8, 0x060067E9) /* Icon */
+     , (41720,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41720,  50, 0x060028DF) /* IconOverlay */
+     , (41720,  52, 0x060065FC) /* IconUnderlay */;

@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44918,   1, 'Warden of Lowering Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44918,   1,   33555352) /* Setup */
-     , (44918,   2,  150995147) /* MotionTable */
-     , (44918,   3,  536871052) /* SoundTable */
-     , (44918,   8,  100667624) /* Icon */
-     , (44918,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (44918,   1, 0x02000398) /* Setup */
+     , (44918,   2, 0x090000CB) /* MotionTable */
+     , (44918,   3, 0x2000008C) /* SoundTable */
+     , (44918,   8, 0x060010E8) /* Icon */
+     , (44918,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44918, 8040, 3600351239, 8.347, 167.776, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (44918, 8040, 0xD6990007, 8.347, 167.776, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [8.347000 167.776000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */;

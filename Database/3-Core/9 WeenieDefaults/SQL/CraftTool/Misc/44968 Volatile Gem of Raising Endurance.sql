@@ -28,7 +28,7 @@ VALUES (44968,   1, 'Volatile Gem of Raising Endurance') /* Name */
      , (44968,  14, 'Combine this gem with an attribute lowering gem to transfer up to 10 points of another attribute to your endurance. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44968,   1,   33558088) /* Setup */
-     , (44968,   6,   67111919) /* PaletteBase */
-     , (44968,   8,  100673788) /* Icon */
-     , (44968,  50,  100673963) /* IconOverlay */;
+VALUES (44968,   1, 0x02000E48) /* Setup */
+     , (44968,   6, 0x04000BEF) /* PaletteBase */
+     , (44968,   8, 0x060028FC) /* Icon */
+     , (44968,  50, 0x060029AB) /* IconOverlay */;

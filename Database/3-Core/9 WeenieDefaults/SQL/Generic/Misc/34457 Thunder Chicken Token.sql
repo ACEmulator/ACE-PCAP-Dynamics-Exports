@@ -21,7 +21,7 @@ VALUES (34457,   1, 'Thunder Chicken Token') /* Name */
      , (34457,  16, 'Give this to the Master Arbitor for a new Title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34457,   1,   33554817) /* Setup */
-     , (34457,   3,  536870932) /* SoundTable */
-     , (34457,   8,  100689380) /* Icon */
-     , (34457,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34457,   1, 0x02000181) /* Setup */
+     , (34457,   3, 0x20000014) /* SoundTable */
+     , (34457,   8, 0x060065E4) /* Icon */
+     , (34457,  22, 0x3400002B) /* PhysicsEffectTable */;

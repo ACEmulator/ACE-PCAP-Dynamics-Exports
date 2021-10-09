@@ -18,9 +18,9 @@ VALUES (21475,   1, 'Dulok Court') /* Name */
      , (21475,  16, 'Dulok Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21475,   1,   33557904) /* Setup */
-     , (21475,   8,  100667499) /* Icon */;
+VALUES (21475,   1, 0x02000D90) /* Setup */
+     , (21475,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21475, 8040, 1448477060, 87.078, -29.986, 0, 0.72167, 0, 0, -0.692238) /* PCAPRecordedLocation */
+VALUES (21475, 8040, 0x56560184, 87.078, -29.986, 0, 0.72167, 0, 0, -0.692238) /* PCAPRecordedLocation */
 /* @teleloc 0x56560184 [87.078000 -29.986000 0.000000] 0.721670 0.000000 0.000000 -0.692238 */;

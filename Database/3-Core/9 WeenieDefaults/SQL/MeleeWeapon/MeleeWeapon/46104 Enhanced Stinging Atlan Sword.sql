@@ -50,22 +50,22 @@ VALUES (46104,   1, 'Enhanced Stinging Atlan Sword') /* Name */
      , (46104,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46104,   1,   33556375) /* Setup */
-     , (46104,   3,  536870932) /* SoundTable */
-     , (46104,   6,   67111919) /* PaletteBase */
-     , (46104,   8,  100670574) /* Icon */
-     , (46104,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46104,   1, 0x02000797) /* Setup */
+     , (46104,   3, 0x20000014) /* SoundTable */
+     , (46104,   6, 0x04000BEF) /* PaletteBase */
+     , (46104,   8, 0x06001C6E) /* Icon */
+     , (46104,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46104, 8040, 1682309695, 49.97301, -59.81116, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (46104, 8040, 0x6446023F, 49.97301, -59.81116, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x6446023F [49.973010 -59.811160 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46104,  2059,      2)  /* CoordinationSelf7 */
+VALUES (46104,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46104,  2059,      2)  /* CoordinationSelf7 */
+     , (46104,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46104,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46104,  2149,      2)  /* AcidProtectionSelf7 */
      , (46104,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46104,  2101,      2)  /* DefenderSelf7 */
-     , (46104,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46104,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46104,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46104,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
-     , (46104,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46104,  2106,      2)  /* HeartSeekerSelf7 */;

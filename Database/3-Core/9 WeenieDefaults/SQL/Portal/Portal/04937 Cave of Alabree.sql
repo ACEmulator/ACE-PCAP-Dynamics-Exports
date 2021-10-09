@@ -23,10 +23,10 @@ VALUES (4937,   1, 'Cave of Alabree') /* Name */
      , (4937,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4937,   1,   33555922) /* Setup */
-     , (4937,   2,  150994947) /* MotionTable */
-     , (4937,   8,  100667499) /* Icon */;
+VALUES (4937,   1, 0x020005D2) /* Setup */
+     , (4937,   2, 0x09000003) /* MotionTable */
+     , (4937,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4937, 8040, 2813526272, 117.574, 134.945, 24.737, -0.6754478, 0, 0, 0.7374078) /* PCAPRecordedLocation */
+VALUES (4937, 8040, 0xA7B30100, 117.574, 134.945, 24.737, -0.675448, 0, 0, 0.737408) /* PCAPRecordedLocation */
 /* @teleloc 0xA7B30100 [117.574000 134.945000 24.737000] -0.675448 0.000000 0.000000 0.737408 */;

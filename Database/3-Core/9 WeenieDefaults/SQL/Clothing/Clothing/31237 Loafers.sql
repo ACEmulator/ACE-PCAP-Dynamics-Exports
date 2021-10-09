@@ -31,8 +31,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31237,   1, 'Loafers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31237,   1,   33559324) /* Setup */
-     , (31237,   3,  536870932) /* SoundTable */
-     , (31237,   6,   67108990) /* PaletteBase */
-     , (31237,   8,  100682418) /* Icon */
-     , (31237,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31237,   1, 0x0200131C) /* Setup */
+     , (31237,   3, 0x20000014) /* SoundTable */
+     , (31237,   6, 0x0400007E) /* PaletteBase */
+     , (31237,   8, 0x06004AB2) /* Icon */
+     , (31237,  22, 0x3400002B) /* PhysicsEffectTable */;

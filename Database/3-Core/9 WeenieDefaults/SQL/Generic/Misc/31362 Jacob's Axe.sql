@@ -23,7 +23,7 @@ VALUES (31362,   1, 'Jacob''s Axe') /* Name */
      , (31362,  16, 'A well-used axe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31362,   1,   33554817) /* Setup */
-     , (31362,   3,  536870932) /* SoundTable */
-     , (31362,   8,  100667606) /* Icon */
-     , (31362,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31362,   1, 0x02000181) /* Setup */
+     , (31362,   3, 0x20000014) /* SoundTable */
+     , (31362,   8, 0x060010D6) /* Icon */
+     , (31362,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (47190,   1, 'Orders for Zrikux') /* Name */
      , (47190,  16, 'Bring this text to Fanzen San the Translator near Hebian-To.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47190,   1,   33558620) /* Setup */
-     , (47190,   3,  536870932) /* SoundTable */
-     , (47190,   8,  100674847) /* Icon */
-     , (47190,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47190,   1, 0x0200105C) /* Setup */
+     , (47190,   3, 0x20000014) /* SoundTable */
+     , (47190,   8, 0x06002D1F) /* Icon */
+     , (47190,  22, 0x3400002B) /* PhysicsEffectTable */;

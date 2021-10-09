@@ -34,20 +34,20 @@ VALUES (8224,   1, 'Archmage Zarri ibn Khaybi') /* Name */
      , (8224,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8224,   1,   33554433) /* Setup */
-     , (8224,   2,  150994945) /* MotionTable */
-     , (8224,   3,  536870913) /* SoundTable */
-     , (8224,   6,   67108990) /* PaletteBase */
-     , (8224,   8,  100667446) /* Icon */
-     , (8224,   9,   83890457) /* EyesTexture */
-     , (8224,  10,   83890540) /* NoseTexture */
-     , (8224,  11,   83890618) /* MouthTexture */
-     , (8224,  15,   67117073) /* HairPalette */
-     , (8224,  16,   67109567) /* EyesPalette */
-     , (8224,  17,   67109550) /* SkinPalette */;
+VALUES (8224,   1, 0x02000001) /* Setup */
+     , (8224,   2, 0x09000001) /* MotionTable */
+     , (8224,   3, 0x20000001) /* SoundTable */
+     , (8224,   6, 0x0400007E) /* PaletteBase */
+     , (8224,   8, 0x06001036) /* Icon */
+     , (8224,   9, 0x05001119) /* EyesTexture */
+     , (8224,  10, 0x0500116C) /* NoseTexture */
+     , (8224,  11, 0x050011BA) /* MouthTexture */
+     , (8224,  15, 0x04002011) /* HairPalette */
+     , (8224,  16, 0x040002BF) /* EyesPalette */
+     , (8224,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8224, 8040, 2471166514, 98.7925, 2.32, -13.595, -0.9528311, 0, 0, -0.303501) /* PCAPRecordedLocation */
+VALUES (8224, 8040, 0x934B0232, 98.7925, 2.32, -13.595, -0.952831, 0, 0, -0.303501) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0232 [98.792500 2.320000 -13.595000] -0.952831 0.000000 0.000000 -0.303501 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51833,   1, 'Corrosive Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51833,   1,   33558114) /* Setup */
-     , (51833,   3,  536870932) /* SoundTable */
-     , (51833,   8,  100671205) /* Icon */
-     , (51833,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51833,   1, 0x02000E62) /* Setup */
+     , (51833,   3, 0x20000014) /* SoundTable */
+     , (51833,   8, 0x06001EE5) /* Icon */
+     , (51833,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51833, 8040, 1484259844, 280.6065, -257, -36.012, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51833, 8040, 0x58780204, 280.6065, -257, -36.012, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58780204 [280.606500 -257.000000 -36.012000] 1.000000 0.000000 0.000000 0.000000 */;

@@ -30,14 +30,14 @@ VALUES (52791,   1, 'Gauntlet Armor Chest') /* Name */
      , (52791,  16, 'A chest containing the highest quality armor. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52791,   1,   33558324) /* Setup */
-     , (52791,   2,  150995235) /* MotionTable */
-     , (52791,   3,  536870945) /* SoundTable */
-     , (52791,   8,  100674256) /* Icon */
-     , (52791,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52791,   1, 0x02000F34) /* Setup */
+     , (52791,   2, 0x09000123) /* MotionTable */
+     , (52791,   3, 0x20000021) /* SoundTable */
+     , (52791,   8, 0x06002AD0) /* Icon */
+     , (52791,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52791, 8040, 1500184834, 96.5433, -22.978, -2.793968E-09, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52791, 8040, 0x596B0102, 96.5433, -22.978, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0102 [96.543300 -22.978000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

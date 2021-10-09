@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51808,   1, 'Empowered Sorrow Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51808,   1,   33557033) /* Setup */
-     , (51808,   2,  150995087) /* MotionTable */
-     , (51808,   3,  536870985) /* SoundTable */
-     , (51808,   8,  100671612) /* Icon */;
+VALUES (51808,   1, 0x02000A29) /* Setup */
+     , (51808,   2, 0x0900008F) /* MotionTable */
+     , (51808,   3, 0x20000049) /* SoundTable */
+     , (51808,   8, 0x0600207C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51808, 8040, 758185988, 19.69254, 89.02366, 102.9296, -0.9999136, 0, 0, -0.0131445) /* PCAPRecordedLocation */
+VALUES (51808, 8040, 0x2D310004, 19.69254, 89.02366, 102.9296, -0.999914, 0, 0, -0.013145) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310004 [19.692540 89.023660 102.929600] -0.999914 0.000000 0.000000 -0.013145 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

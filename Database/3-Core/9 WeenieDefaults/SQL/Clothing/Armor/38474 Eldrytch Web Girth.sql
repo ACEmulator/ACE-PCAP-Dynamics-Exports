@@ -46,15 +46,15 @@ VALUES (38474,   1, 'Eldrytch Web Girth') /* Name */
      , (38474,  16, 'Eldrytch Web Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38474,   1,   33554647) /* Setup */
-     , (38474,   3,  536870932) /* SoundTable */
-     , (38474,   8,  100690246) /* Icon */
-     , (38474,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38474,   1, 0x020000D7) /* Setup */
+     , (38474,   3, 0x20000014) /* SoundTable */
+     , (38474,   8, 0x06006946) /* Icon */
+     , (38474,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38474,  2104,      2)  /* FrostBane7 */
-     , (38474,  2110,      2)  /* LightningBane7 */
-     , (38474,  2572,      2)  /* CANTRIPCOORDINATION2 */
+VALUES (38474,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (38474,  4407,      2)  /* Impenetrability8 */
+     , (38474,  2104,      2)  /* FrostBane7 */
      , (38474,  4412,      2)  /* PiercingBane8 */
+     , (38474,  2110,      2)  /* LightningBane7 */
      , (38474,  6079,      2)  /* CantripStormWard4 */;

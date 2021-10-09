@@ -44,20 +44,20 @@ VALUES (53330,   1, 'Stormwood Wand') /* Name */
      , (53330,  16, 'A wand imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53330,   1,   33561675) /* Setup */
-     , (53330,   3,  536870932) /* SoundTable */
-     , (53330,   8,  100693344) /* Icon */
-     , (53330,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53330,   1, 0x02001C4B) /* Setup */
+     , (53330,   3, 0x20000014) /* SoundTable */
+     , (53330,   8, 0x06007560) /* Icon */
+     , (53330,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53330,  28,       6198) /* Spell - IncantationOfLightningBolt */
-     , (53330,  52,  100676439) /* IconUnderlay */;
+     , (53330,  52, 0x06003357) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53330, 8040, 3332964380, 80.4887, 83.85165, 41.929, -0.7070963, -0.7070963, 0.003842928, 0.003842928) /* PCAPRecordedLocation */
+VALUES (53330, 8040, 0xC6A9001C, 80.4887, 83.85165, 41.929, -0.707096, -0.707096, 0.003843, 0.003843) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.488700 83.851650 41.929000] -0.707096 -0.707096 0.003843 0.003843 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53330,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (53330,  6087,      2)  /* CantripHermeticLink4 */
+     , (53330,  6091,      2)  /* CantripDefender4 */
      , (53330,  4638,      2)  /* WarMagicMasterySelf8 */
-     , (53330,  6075,      2)  /* CantripWarMagicAptitude4 */
-     , (53330,  6087,      2)  /* CantripHermeticLink4 */
-     , (53330,  6091,      2)  /* CantripDefender4 */;
+     , (53330,  4602,      2)  /* ManaMasterySelf8 */
+     , (53330,  6075,      2)  /* CantripWarMagicAptitude4 */;

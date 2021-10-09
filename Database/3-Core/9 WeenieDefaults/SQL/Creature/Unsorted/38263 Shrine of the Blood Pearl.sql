@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38263,   1, 'Shrine of the Blood Pearl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38263,   1,   33558607) /* Setup */
-     , (38263,   2,  150995279) /* MotionTable */
-     , (38263,   3,  536871052) /* SoundTable */
-     , (38263,   8,  100675788) /* Icon */
-     , (38263,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (38263,   1, 0x0200104F) /* Setup */
+     , (38263,   2, 0x0900014F) /* MotionTable */
+     , (38263,   3, 0x2000008C) /* SoundTable */
+     , (38263,   8, 0x060030CC) /* Icon */
+     , (38263,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38263, 8040, 923402285, 132, 108, 2.94674, -0.703159, 0, 0, -0.711033) /* PCAPRecordedLocation */
+VALUES (38263, 8040, 0x370A002D, 132, 108, 2.94674, -0.703159, 0, 0, -0.711033) /* PCAPRecordedLocation */
 /* @teleloc 0x370A002D [132.000000 108.000000 2.946740] -0.703159 0.000000 0.000000 -0.711033 */;

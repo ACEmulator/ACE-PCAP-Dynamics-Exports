@@ -18,9 +18,9 @@ VALUES (42780,   1, 'Sawato') /* Name */
      , (42780,  16, 'Sawato is a Sho village hidden away in the Blackmire Swamp. In the early days, the Sho warlord Ijiku Tambai built the fortress Yaosai on the edge of the swamp to protect Hebian-To from Mosswarts. Eventually, the Sho were successful in pushing back the Mosswarts into the swamps. So Yaosai became the town of Shoushi, and the frontier moved northwest where, in clearing on the border of Blackmire Swamp, bold settlers established Sawato. Much to the delight of their neighbors to the north, with the expansion came the road connecting the long isolated town of Yanshi with the the rest of the Sho lands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42780,   1,   33560976) /* Setup */
-     , (42780,   8,  100668115) /* Icon */;
+VALUES (42780,   1, 0x02001990) /* Setup */
+     , (42780,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42780, 8040, 459139, 139.959, -84.8881, 3.014, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (42780, 8040, 0x00070183, 139.959, -84.8881, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070183 [139.959000 -84.888100 3.014000] 1.000000 0.000000 0.000000 0.000000 */;

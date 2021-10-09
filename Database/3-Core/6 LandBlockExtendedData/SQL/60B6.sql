@@ -13,5 +13,5 @@ VALUES (0x760B6002, 24294, 0x60B60010, 45.17507, 191.9768, 7.998311, 0.804685, 0
 /* @teleloc 0x60B60010 [45.175070 191.976800 7.998311] 0.804685 0.000000 0.000000 -0.593702 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x760B6003,  7105, 0x60B6002E, 130.2132, 123.8513, 18.19807, -0.5642871, 0, 0, -0.8255786,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+VALUES (0x760B6003,  7105, 0x60B6002E, 130.2132, 123.8513, 18.19807, -0.564287, 0, 0, -0.825579,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
 /* @teleloc 0x60B6002E [130.213200 123.851300 18.198070] -0.564287 0.000000 0.000000 -0.825579 */

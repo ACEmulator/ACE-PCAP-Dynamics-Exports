@@ -28,7 +28,7 @@ VALUES (38405,   1, 'Glowing Moar Gland') /* Name */
      , (38405,  20, 'Glowing Moar Glands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38405,   1,   33560134) /* Setup */
-     , (38405,   3,  536870932) /* SoundTable */
-     , (38405,   8,  100689267) /* Icon */
-     , (38405,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38405,   1, 0x02001646) /* Setup */
+     , (38405,   3, 0x20000014) /* SoundTable */
+     , (38405,   8, 0x06006573) /* Icon */
+     , (38405,  22, 0x3400002B) /* PhysicsEffectTable */;

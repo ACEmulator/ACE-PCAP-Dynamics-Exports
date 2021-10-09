@@ -19,8 +19,8 @@ VALUES (35852,   1, 'Monouga Laboratory Portal Attunement Gem') /* Name */
      , (35852,  16, 'This small gem, originally created by Prince Borelean, was given to you by Corporal Liao Chen. He has asked you to attempt to attune this gem to the bells within the Monouga Feeding Pit') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35852,   1,   33556769) /* Setup */
-     , (35852,   3,  536870932) /* SoundTable */
-     , (35852,   6,   67111919) /* PaletteBase */
-     , (35852,   8,  100674856) /* Icon */
-     , (35852,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35852,   1, 0x02000921) /* Setup */
+     , (35852,   3, 0x20000014) /* SoundTable */
+     , (35852,   6, 0x04000BEF) /* PaletteBase */
+     , (35852,   8, 0x06002D28) /* Icon */
+     , (35852,  22, 0x3400002B) /* PhysicsEffectTable */;

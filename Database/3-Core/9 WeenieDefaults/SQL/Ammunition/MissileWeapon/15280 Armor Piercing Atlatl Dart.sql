@@ -40,12 +40,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15280,   1, 'Armor Piercing Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15280,   1,   33557434) /* Setup */
-     , (15280,   3,  536870932) /* SoundTable */
-     , (15280,   6,   67111919) /* PaletteBase */
-     , (15280,   8,  100672580) /* Icon */
-     , (15280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15280,   1, 0x02000BBA) /* Setup */
+     , (15280,   3, 0x20000014) /* SoundTable */
+     , (15280,   6, 0x04000BEF) /* PaletteBase */
+     , (15280,   8, 0x06002444) /* Icon */
+     , (15280,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15280, 8040, 1415119312, 40.67255, -95.17803, 5.9355, 0.5836558, 0.5836558, 0.3991815, 0.3991815) /* PCAPRecordedLocation */
+VALUES (15280, 8040, 0x545901D0, 40.67255, -95.17803, 5.9355, 0.583656, 0.583656, 0.399182, 0.399182) /* PCAPRecordedLocation */
 /* @teleloc 0x545901D0 [40.672550 -95.178030 5.935500] 0.583656 0.583656 0.399182 0.399182 */;

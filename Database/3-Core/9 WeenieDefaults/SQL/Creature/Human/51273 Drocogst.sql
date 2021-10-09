@@ -32,20 +32,20 @@ VALUES (51273,   1, 'Drocogst') /* Name */
      , (51273,   5, 'Gearknight Parts Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51273,   1,   33561112) /* Setup */
-     , (51273,   2,  150995478) /* MotionTable */
-     , (51273,   3,  536871128) /* SoundTable */
-     , (51273,   6,   67108990) /* PaletteBase */
-     , (51273,   8,  100667446) /* Icon */
-     , (51273,   9,   83898739) /* EyesTexture */
-     , (51273,  10,   83898985) /* NoseTexture */
-     , (51273,  11,   83898753) /* MouthTexture */
-     , (51273,  15,   67117024) /* HairPalette */
-     , (51273,  16,   67116954) /* EyesPalette */
-     , (51273,  17,   67117109) /* SkinPalette */;
+VALUES (51273,   1, 0x02001A18) /* Setup */
+     , (51273,   2, 0x09000216) /* MotionTable */
+     , (51273,   3, 0x200000D8) /* SoundTable */
+     , (51273,   6, 0x0400007E) /* PaletteBase */
+     , (51273,   8, 0x06001036) /* Icon */
+     , (51273,   9, 0x05003173) /* EyesTexture */
+     , (51273,  10, 0x05003269) /* NoseTexture */
+     , (51273,  11, 0x05003181) /* MouthTexture */
+     , (51273,  15, 0x04001FE0) /* HairPalette */
+     , (51273,  16, 0x04001F9A) /* EyesPalette */
+     , (51273,  17, 0x04002035) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51273, 8040, 12124783, 157.161, -43.1699, -17.9935, 0.4144801, 0, 0, 0.9100584) /* PCAPRecordedLocation */
+VALUES (51273, 8040, 0x00B9026F, 157.161, -43.1699, -17.9935, 0.41448, 0, 0, 0.910058) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026F [157.161000 -43.169900 -17.993500] 0.414480 0.000000 0.000000 0.910058 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

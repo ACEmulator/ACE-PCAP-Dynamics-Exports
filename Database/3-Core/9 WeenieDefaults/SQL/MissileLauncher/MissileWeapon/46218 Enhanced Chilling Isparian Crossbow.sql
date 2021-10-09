@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46218,   1, 'Enhanced Chilling Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46218,   1,   33557767) /* Setup */
-     , (46218,   3,  536870932) /* SoundTable */
-     , (46218,   6,   67111919) /* PaletteBase */
-     , (46218,   8,  100673019) /* Icon */
-     , (46218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46218,   1, 0x02000D07) /* Setup */
+     , (46218,   3, 0x20000014) /* SoundTable */
+     , (46218,   6, 0x04000BEF) /* PaletteBase */
+     , (46218,   8, 0x060025FB) /* Icon */
+     , (46218,  22, 0x3400002B) /* PhysicsEffectTable */;

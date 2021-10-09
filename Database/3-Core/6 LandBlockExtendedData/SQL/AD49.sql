@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xAD49;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AD49001,  1154, 0xAD49003D, 174.1394, 111.6655, 9.908197, -0.9922018, 0, 0, -0.1246418, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7AD49001,  1154, 0xAD49003D, 174.1394, 111.6655, 9.908197, -0.992202, 0, 0, -0.124642, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xAD49003D [174.139400 111.665500 9.908197] -0.992202 0.000000 0.000000 -0.124642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x7AD49001, 0x7AD49002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
      , (0x7AD49001, 0x7AD49005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AD49002, 10799, 0xAD49003D, 174.1394, 111.6655, 9.908197, -0.9922018, 0, 0, -0.1246418,  True, '2019-02-10 00:00:00'); /* Narrow Rift */
+VALUES (0x7AD49002, 10799, 0xAD49003D, 174.1394, 111.6655, 9.908197, -0.992202, 0, 0, -0.124642,  True, '2019-02-10 00:00:00'); /* Narrow Rift */
 /* @teleloc 0xAD49003D [174.139400 111.665500 9.908197] -0.992202 0.000000 0.000000 -0.124642 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -23,5 +23,5 @@ VALUES (19213,   1, 'Bronze Coil from a Statue') /* Name */
      , (19213,  15, 'A bronze coil taken from the ruins of a living Bronze Statue of Thorsten Cragstone. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19213,   1,   33557680) /* Setup */
-     , (19213,   8,  100672955) /* Icon */;
+VALUES (19213,   1, 0x02000CB0) /* Setup */
+     , (19213,   8, 0x060025BB) /* Icon */;

@@ -49,10 +49,10 @@ VALUES (41894,   1, 'Enhanced Assault Cestus') /* Name */
      , (41894,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41894,   1,   33558207) /* Setup */
-     , (41894,   3,  536870932) /* SoundTable */
-     , (41894,   8,  100671744) /* Icon */
-     , (41894,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41894,   1, 0x02000EBF) /* Setup */
+     , (41894,   3, 0x20000014) /* SoundTable */
+     , (41894,   8, 0x06002100) /* Icon */
+     , (41894,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41894,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

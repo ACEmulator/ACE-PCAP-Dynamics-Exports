@@ -23,7 +23,7 @@ VALUES (20446,   1, 'Scroll of Outlander''s Insolence') /* Name */
 Sends a bolt of force streaking towards the target. The bolt does 42-84 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20446,   1,   33554826) /* Setup */
-     , (20446,   8,  100677019) /* Icon */
-     , (20446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20446,   1, 0x0200018A) /* Setup */
+     , (20446,   8, 0x0600359B) /* Icon */
+     , (20446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20446,  28,       2133) /* Spell - ForceStreak7 */;

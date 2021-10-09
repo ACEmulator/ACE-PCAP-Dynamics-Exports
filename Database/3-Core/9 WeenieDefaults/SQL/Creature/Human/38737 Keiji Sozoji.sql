@@ -31,20 +31,20 @@ VALUES (38737,   1, 'Keiji Sozoji') /* Name */
      , (38737,   5, 'Ruschk Boss Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38737,   1,   33554433) /* Setup */
-     , (38737,   2,  150994945) /* MotionTable */
-     , (38737,   3,  536870913) /* SoundTable */
-     , (38737,   6,   67108990) /* PaletteBase */
-     , (38737,   8,  100667377) /* Icon */
-     , (38737,   9,   83890514) /* EyesTexture */
-     , (38737,  10,   83890544) /* NoseTexture */
-     , (38737,  11,   83890641) /* MouthTexture */
-     , (38737,  15,   67117025) /* HairPalette */
-     , (38737,  16,   67109565) /* EyesPalette */
-     , (38737,  17,   67110059) /* SkinPalette */;
+VALUES (38737,   1, 0x02000001) /* Setup */
+     , (38737,   2, 0x09000001) /* MotionTable */
+     , (38737,   3, 0x20000001) /* SoundTable */
+     , (38737,   6, 0x0400007E) /* PaletteBase */
+     , (38737,   8, 0x06000FF1) /* Icon */
+     , (38737,   9, 0x05001152) /* EyesTexture */
+     , (38737,  10, 0x05001170) /* NoseTexture */
+     , (38737,  11, 0x050011D1) /* MouthTexture */
+     , (38737,  15, 0x04001FE1) /* HairPalette */
+     , (38737,  16, 0x040002BD) /* EyesPalette */
+     , (38737,  17, 0x040004AB) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38737, 8040, 12059247, 161.53, -44.2552, -17.995, -0.715673, 0, 0, 0.698436) /* PCAPRecordedLocation */
+VALUES (38737, 8040, 0x00B8026F, 161.53, -44.2552, -17.995, -0.715673, 0, 0, 0.698436) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [161.530000 -44.255200 -17.995000] -0.715673 0.000000 0.000000 0.698436 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

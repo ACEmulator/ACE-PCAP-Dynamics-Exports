@@ -27,12 +27,12 @@ VALUES (25718,   1, 'Key Ring') /* Name */
      , (25718,  15, 'A key ring.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25718,   1,   33554790) /* Setup */
-     , (25718,   2,  150995147) /* MotionTable */
-     , (25718,   3,  536871052) /* SoundTable */
-     , (25718,   8,  100670830) /* Icon */
-     , (25718,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (25718,   1, 0x02000166) /* Setup */
+     , (25718,   2, 0x090000CB) /* MotionTable */
+     , (25718,   3, 0x2000008C) /* SoundTable */
+     , (25718,   8, 0x06001D6E) /* Icon */
+     , (25718,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25718, 8040, 1582105020, 160.865, -86.264, 2.265, -0.939693, 0, 0, -0.34202) /* PCAPRecordedLocation */
+VALUES (25718, 8040, 0x5E4D01BC, 160.865, -86.264, 2.265, -0.939693, 0, 0, -0.34202) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4D01BC [160.865000 -86.264000 2.265000] -0.939693 0.000000 0.000000 -0.342020 */;

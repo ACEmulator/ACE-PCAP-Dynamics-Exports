@@ -23,7 +23,7 @@ VALUES (2641,   1, 'Scroll of Clumsiness Other IV') /* Name */
 Decreases the target''s Coordination by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2641,   1,   33554826) /* Setup */
-     , (2641,   8,  100676452) /* Icon */
-     , (2641,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2641,   1, 0x0200018A) /* Setup */
+     , (2641,   8, 0x06003364) /* Icon */
+     , (2641,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2641,  28,       1394) /* Spell - ClumsinessOther4 */;

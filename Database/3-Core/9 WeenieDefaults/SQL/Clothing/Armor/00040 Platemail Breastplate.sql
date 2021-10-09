@@ -42,12 +42,12 @@ VALUES (40,   1, 'Platemail Breastplate') /* Name */
      , (40,  16, 'Platemail Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40,   1,   33554642) /* Setup */
-     , (40,   3,  536870932) /* SoundTable */
-     , (40,   6,   67108990) /* PaletteBase */
-     , (40,   8,  100669568) /* Icon */
-     , (40,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40,   1, 0x020000D2) /* Setup */
+     , (40,   3, 0x20000014) /* SoundTable */
+     , (40,   6, 0x0400007E) /* PaletteBase */
+     , (40,   8, 0x06001880) /* Icon */
+     , (40,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40,  1485,      2)  /* Impenetrability5 */
-     , (40,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */;
+VALUES (40,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (40,  1485,      2)  /* Impenetrability5 */;

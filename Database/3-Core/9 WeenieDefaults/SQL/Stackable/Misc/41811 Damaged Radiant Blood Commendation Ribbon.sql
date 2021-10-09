@@ -29,8 +29,8 @@ VALUES (41811,   1, 'Damaged Radiant Blood Commendation Ribbon') /* Name */
      , (41811,  16, 'A damaged commendation ribbon lost by a Radiant Blood agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41811,   1,   33554817) /* Setup */
-     , (41811,   3,  536870932) /* SoundTable */
-     , (41811,   6,   67111919) /* PaletteBase */
-     , (41811,   8,  100690847) /* Icon */
-     , (41811,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41811,   1, 0x02000181) /* Setup */
+     , (41811,   3, 0x20000014) /* SoundTable */
+     , (41811,   6, 0x04000BEF) /* PaletteBase */
+     , (41811,   8, 0x06006B9F) /* Icon */
+     , (41811,  22, 0x3400002B) /* PhysicsEffectTable */;

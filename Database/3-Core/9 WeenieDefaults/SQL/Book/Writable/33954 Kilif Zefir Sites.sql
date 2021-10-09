@@ -18,7 +18,7 @@ VALUES (33954,   1, 'Kilif Zefir Sites') /* Name */
      , (33954,  16, 'A list of some of the places where Kilif Zefirs are found.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33954,   1,   33554773) /* Setup */
-     , (33954,   3,  536870932) /* SoundTable */
-     , (33954,   8,  100668176) /* Icon */
-     , (33954,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33954,   1, 0x02000155) /* Setup */
+     , (33954,   3, 0x20000014) /* SoundTable */
+     , (33954,   8, 0x06001310) /* Icon */
+     , (33954,  22, 0x3400002B) /* PhysicsEffectTable */;

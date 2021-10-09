@@ -43,11 +43,11 @@ VALUES (112,   1, 'Studded Leather Tassets') /* Name */
      , (112,  16, 'Studded Leather Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (112,   1,   33554656) /* Setup */
-     , (112,   3,  536870932) /* SoundTable */
-     , (112,   6,   67108990) /* PaletteBase */
-     , (112,   8,  100673353) /* Icon */
-     , (112,  22,  872415275) /* PhysicsEffectTable */
+VALUES (112,   1, 0x020000E0) /* Setup */
+     , (112,   3, 0x20000014) /* SoundTable */
+     , (112,   6, 0x0400007E) /* PaletteBase */
+     , (112,   8, 0x06002749) /* Icon */
+     , (112,  22, 0x3400002B) /* PhysicsEffectTable */
      , (112,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

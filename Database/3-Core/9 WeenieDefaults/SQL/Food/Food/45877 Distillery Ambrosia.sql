@@ -21,7 +21,7 @@ VALUES (45877,   1, 'Distillery Ambrosia') /* Name */
      , (45877,  20, 'Bottles of Distillery Ambrosia') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45877,   1,   33554602) /* Setup */
-     , (45877,   3,  536870932) /* SoundTable */
-     , (45877,   8,  100667410) /* Icon */
-     , (45877,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45877,   1, 0x020000AA) /* Setup */
+     , (45877,   3, 0x20000014) /* SoundTable */
+     , (45877,   8, 0x06001012) /* Icon */
+     , (45877,  22, 0x3400002B) /* PhysicsEffectTable */;

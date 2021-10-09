@@ -19,9 +19,9 @@ VALUES (37304,   1, 'Glyph of Healing') /* Name */
      , (37304,  20, 'Glyphs of Healing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37304,   1,   33554809) /* Setup */
-     , (37304,   3,  536870932) /* SoundTable */
-     , (37304,   6,   67111919) /* PaletteBase */
-     , (37304,   8,  100690191) /* Icon */
-     , (37304,  22,  872415275) /* PhysicsEffectTable */
-     , (37304,  50,  100686655) /* IconOverlay */;
+VALUES (37304,   1, 0x02000179) /* Setup */
+     , (37304,   3, 0x20000014) /* SoundTable */
+     , (37304,   6, 0x04000BEF) /* PaletteBase */
+     , (37304,   8, 0x0600690F) /* Icon */
+     , (37304,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37304,  50, 0x06005B3F) /* IconOverlay */;

@@ -23,7 +23,7 @@ VALUES (37740,   1, 'Inscription of Endurance Self') /* Name */
 Increases the caster''s Endurance by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37740,   1,   33554826) /* Setup */
-     , (37740,   8,  100676456) /* Icon */
-     , (37740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37740,   1, 0x0200018A) /* Setup */
+     , (37740,   8, 0x06003368) /* Icon */
+     , (37740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37740,  28,       4299) /* Spell - EnduranceSelf8 */;

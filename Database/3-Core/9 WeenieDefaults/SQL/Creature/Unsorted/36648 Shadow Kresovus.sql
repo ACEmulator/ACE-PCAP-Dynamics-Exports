@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36648,   1, 'Shadow Kresovus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36648,   1,   33560413) /* Setup */
-     , (36648,   2,  150995423) /* MotionTable */
-     , (36648,   3,  536870922) /* SoundTable */
-     , (36648,   6,   67113158) /* PaletteBase */
-     , (36648,   8,  100677374) /* Icon */;
+VALUES (36648,   1, 0x0200175D) /* Setup */
+     , (36648,   2, 0x090001DF) /* MotionTable */
+     , (36648,   3, 0x2000000A) /* SoundTable */
+     , (36648,   6, 0x040010C6) /* PaletteBase */
+     , (36648,   8, 0x060036FE) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36648, 8040, 10420493, 100, -60, -53.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36648, 8040, 0x009F010D, 100, -60, -53.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x009F010D [100.000000 -60.000000 -53.990000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

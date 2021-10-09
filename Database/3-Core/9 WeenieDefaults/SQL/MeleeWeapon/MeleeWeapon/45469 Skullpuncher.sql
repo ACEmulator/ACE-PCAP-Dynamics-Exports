@@ -20,9 +20,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45469,   1, 'Skullpuncher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45469,   1,   33559401) /* Setup */
-     , (45469,   3,  536870932) /* SoundTable */
-     , (45469,   6,   67111919) /* PaletteBase */
-     , (45469,   8,  100686785) /* Icon */
-     , (45469,  22,  872415275) /* PhysicsEffectTable */
-     , (45469,  52,  100686604) /* IconUnderlay */;
+VALUES (45469,   1, 0x02001369) /* Setup */
+     , (45469,   3, 0x20000014) /* SoundTable */
+     , (45469,   6, 0x04000BEF) /* PaletteBase */
+     , (45469,   8, 0x06005BC1) /* Icon */
+     , (45469,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45469,  52, 0x06005B0C) /* IconUnderlay */;

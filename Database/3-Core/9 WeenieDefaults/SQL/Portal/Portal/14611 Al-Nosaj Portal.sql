@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14611,   1, 'Al-Nosaj Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14611,   1,   33554867) /* Setup */
-     , (14611,   2,  150994947) /* MotionTable */
-     , (14611,   8,  100667499) /* Icon */;
+VALUES (14611,   1, 0x020001B3) /* Setup */
+     , (14611,   2, 0x09000003) /* MotionTable */
+     , (14611,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14611, 8040, 2404712502, 157.51, 140.944, 17.68233, -0.9724218, 0, 0, 0.233229) /* PCAPRecordedLocation */
+VALUES (14611, 8040, 0x8F550036, 157.51, 140.944, 17.68233, -0.972422, 0, 0, 0.233229) /* PCAPRecordedLocation */
 /* @teleloc 0x8F550036 [157.510000 140.944000 17.682330] -0.972422 0.000000 0.000000 0.233229 */;

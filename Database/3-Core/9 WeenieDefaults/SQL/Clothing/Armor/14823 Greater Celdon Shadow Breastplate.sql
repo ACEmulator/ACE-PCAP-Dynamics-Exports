@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14823,   1, 'Greater Celdon Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14823,   1,   33554642) /* Setup */
-     , (14823,   3,  536870932) /* SoundTable */
-     , (14823,   6,   67108990) /* PaletteBase */
-     , (14823,   8,  100670403) /* Icon */
-     , (14823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14823,   1, 0x020000D2) /* Setup */
+     , (14823,   3, 0x20000014) /* SoundTable */
+     , (14823,   6, 0x0400007E) /* PaletteBase */
+     , (14823,   8, 0x06001BC3) /* Icon */
+     , (14823,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14823, 8040, 23855548, 53.80782, -34.5222, -0.004999995, 0.613602, 0, 0, -0.7896155) /* PCAPRecordedLocation */
+VALUES (14823, 8040, 0x016C01BC, 53.80782, -34.5222, -0.005, 0.613602, 0, 0, -0.789616) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.807820 -34.522200 -0.005000] 0.613602 0.000000 0.000000 -0.789616 */;

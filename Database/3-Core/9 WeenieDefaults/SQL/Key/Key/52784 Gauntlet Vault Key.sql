@@ -27,6 +27,6 @@ VALUES (52784,   1, 'Gauntlet Vault Key') /* Name */
      , (52784,  16, 'A dark silver Empyrean key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52784,   1,   33554784) /* Setup */
-     , (52784,   8,  100693320) /* Icon */
-     , (52784,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (52784,   1, 0x02000160) /* Setup */
+     , (52784,   8, 0x06007548) /* Icon */
+     , (52784,  22, 0x3400002B) /* PhysicsEffectTable */;

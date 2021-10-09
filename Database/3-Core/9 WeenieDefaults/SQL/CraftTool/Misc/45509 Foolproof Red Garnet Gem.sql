@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45509,   1, 'Foolproof Red Garnet Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45509,   1,   33556769) /* Setup */
-     , (45509,   3,  536870932) /* SoundTable */
-     , (45509,   6,   67111919) /* PaletteBase */
-     , (45509,   8,  100673039) /* Icon */
-     , (45509,  22,  872415275) /* PhysicsEffectTable */
-     , (45509,  50,  100674752) /* IconOverlay */;
+VALUES (45509,   1, 0x02000921) /* Setup */
+     , (45509,   3, 0x20000014) /* SoundTable */
+     , (45509,   6, 0x04000BEF) /* PaletteBase */
+     , (45509,   8, 0x0600260F) /* Icon */
+     , (45509,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45509,  50, 0x06002CC0) /* IconOverlay */;

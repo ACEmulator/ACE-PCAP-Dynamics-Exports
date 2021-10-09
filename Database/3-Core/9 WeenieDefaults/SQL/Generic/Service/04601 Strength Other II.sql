@@ -16,9 +16,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4601,   1, 'Strength Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4601,   1,   33554680) /* Setup */
-     , (4601,   3,  536870932) /* SoundTable */
-     , (4601,   8,  100668300) /* Icon */
-     , (4601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4601,   1, 0x020000F8) /* Setup */
+     , (4601,   3, 0x20000014) /* SoundTable */
+     , (4601,   8, 0x0600138C) /* Icon */
+     , (4601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4601,  28,       1333) /* Spell - StrengthOther2 */
      , (4601, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

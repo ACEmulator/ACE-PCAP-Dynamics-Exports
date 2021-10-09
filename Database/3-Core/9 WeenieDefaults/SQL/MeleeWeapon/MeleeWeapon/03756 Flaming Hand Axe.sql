@@ -51,12 +51,12 @@ VALUES (3756,   1, 'Flaming Hand Axe') /* Name */
      , (3756,  16, 'Flaming Hand Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3756,   1,   33555714) /* Setup */
-     , (3756,   3,  536870932) /* SoundTable */
-     , (3756,   8,  100670216) /* Icon */
-     , (3756,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3756,   1, 0x02000502) /* Setup */
+     , (3756,   3, 0x20000014) /* SoundTable */
+     , (3756,   8, 0x06001B08) /* Icon */
+     , (3756,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3756,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3756,  1402,      2)  /* QuicknessSelf6 */
-     , (3756,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (3756,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3756,  1402,      2)  /* QuicknessSelf6 */;

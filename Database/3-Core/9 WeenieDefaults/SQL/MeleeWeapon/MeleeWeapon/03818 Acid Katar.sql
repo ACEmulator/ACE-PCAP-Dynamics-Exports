@@ -50,12 +50,12 @@ VALUES (3818,   1, 'Acid Katar') /* Name */
      , (3818,  16, 'Acid Katar of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3818,   1,   33555739) /* Setup */
-     , (3818,   3,  536870932) /* SoundTable */
-     , (3818,   8,  100668925) /* Icon */
-     , (3818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3818,   1, 0x0200051B) /* Setup */
+     , (3818,   3, 0x20000014) /* SoundTable */
+     , (3818,   8, 0x060015FD) /* Icon */
+     , (3818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3818,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (3818,  52,  100676437) /* IconUnderlay */;
+     , (3818,  52, 0x06003355) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3818,  1626,      2)  /* SwiftKillerSelf5 */

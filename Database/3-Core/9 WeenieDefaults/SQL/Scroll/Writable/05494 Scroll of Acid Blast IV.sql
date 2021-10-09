@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5494,   1, 'Scroll of Acid Blast IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5494,   1,   33554826) /* Setup */
-     , (5494,   8,  100677026) /* Icon */
-     , (5494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5494,   1, 0x0200018A) /* Setup */
+     , (5494,   8, 0x060035A2) /* Icon */
+     , (5494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5494,  28,        100) /* Spell - AcidBlast4 */
      , (5494, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

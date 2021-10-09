@@ -23,7 +23,7 @@ VALUES (3292,   1, 'Scroll of Impregnability Self VI') /* Name */
 Increases the caster''s Missile Defense skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3292,   1,   33554826) /* Setup */
-     , (3292,   8,  100676468) /* Icon */
-     , (3292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3292,   1, 0x0200018A) /* Setup */
+     , (3292,   8, 0x06003374) /* Icon */
+     , (3292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3292,  28,        261) /* Spell - ImpregnabilitySelf6 */;

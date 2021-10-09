@@ -37,15 +37,15 @@ VALUES (39919,   1, 'Enhanced Blue Empyrean Ring') /* Name */
      , (39919,  16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39919,   1,   33554691) /* Setup */
-     , (39919,   3,  536870932) /* SoundTable */
-     , (39919,   6,   67111919) /* PaletteBase */
-     , (39919,   8,  100689373) /* Icon */
-     , (39919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39919,   1, 0x02000103) /* Setup */
+     , (39919,   3, 0x20000014) /* SoundTable */
+     , (39919,   6, 0x04000BEF) /* PaletteBase */
+     , (39919,   8, 0x060065DD) /* Icon */
+     , (39919,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+VALUES (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (39919,  3981,      2)  /* ManarenewalOtherIncantation */
      , (39919,  4070,      2)  /* EmpyreanManaAbsorbtion */
      , (39919,  4077,      2)  /* ManaConvertMasteryIncantation */
-     , (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */;
+     , (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;

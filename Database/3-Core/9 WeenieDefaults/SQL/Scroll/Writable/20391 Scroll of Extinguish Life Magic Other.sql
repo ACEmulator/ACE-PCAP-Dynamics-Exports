@@ -23,7 +23,7 @@ VALUES (20391,   1, 'Scroll of Extinguish Life Magic Other') /* Name */
 Dispels 3-6 negative Life Magic enchantments of level 2 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20391,   1,   33554826) /* Setup */
-     , (20391,   8,  100676935) /* Icon */
-     , (20391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20391,   1, 0x0200018A) /* Setup */
+     , (20391,   8, 0x06003547) /* Icon */
+     , (20391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20391,  28,       1963) /* Spell - DispelLifeBadOther2 */;

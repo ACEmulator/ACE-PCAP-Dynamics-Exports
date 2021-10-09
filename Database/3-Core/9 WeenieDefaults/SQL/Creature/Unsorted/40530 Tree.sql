@@ -27,12 +27,12 @@ VALUES (40530,   1, 'Tree') /* Name */
      , (40530,  15, 'A tree.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40530,   1,   33560727) /* Setup */
-     , (40530,   2,  150995336) /* MotionTable */
-     , (40530,   3,  536871052) /* SoundTable */
-     , (40530,   8,  100672642) /* Icon */
-     , (40530,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (40530,   1, 0x02001897) /* Setup */
+     , (40530,   2, 0x09000188) /* MotionTable */
+     , (40530,   3, 0x2000008C) /* SoundTable */
+     , (40530,   8, 0x06002482) /* Icon */
+     , (40530,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40530, 8040, 3184590870, 63.2564, 123.108, 146.5675, -0.234129, 0, 0, -0.972206) /* PCAPRecordedLocation */
+VALUES (40530, 8040, 0xBDD10016, 63.2564, 123.108, 146.5675, -0.234129, 0, 0, -0.972206) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD10016 [63.256400 123.108000 146.567500] -0.234129 0.000000 0.000000 -0.972206 */;

@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45912,   1, 'Seasoned Explorer Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45912,   1,   33554745) /* Setup */
-     , (45912,   3,  536870932) /* SoundTable */
-     , (45912,   6,   67111919) /* PaletteBase */
-     , (45912,   8,  100668948) /* Icon */
-     , (45912,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45912,   1, 0x02000139) /* Setup */
+     , (45912,   3, 0x20000014) /* SoundTable */
+     , (45912,   6, 0x04000BEF) /* PaletteBase */
+     , (45912,   8, 0x06001614) /* Icon */
+     , (45912,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45912, 8040, 2103705613, 31.89165, 104.5764, 11.87067, 0.4081033, 0.4081033, -0.5774528, -0.5774528) /* PCAPRecordedLocation */
+VALUES (45912, 8040, 0x7D64000D, 31.89165, 104.5764, 11.87067, 0.408103, 0.408103, -0.577453, -0.577453) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [31.891650 104.576400 11.870670] 0.408103 0.408103 -0.577453 -0.577453 */;

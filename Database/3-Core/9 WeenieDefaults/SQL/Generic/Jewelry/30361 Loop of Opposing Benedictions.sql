@@ -22,9 +22,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30361,   1, 'Loop of Opposing Benedictions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30361,   1,   33554691) /* Setup */
-     , (30361,   3,  536870932) /* SoundTable */
-     , (30361,   6,   67111919) /* PaletteBase */
-     , (30361,   8,  100686823) /* Icon */
-     , (30361,  22,  872415275) /* PhysicsEffectTable */
-     , (30361,  52,  100686604) /* IconUnderlay */;
+VALUES (30361,   1, 0x02000103) /* Setup */
+     , (30361,   3, 0x20000014) /* SoundTable */
+     , (30361,   6, 0x04000BEF) /* PaletteBase */
+     , (30361,   8, 0x06005BE7) /* Icon */
+     , (30361,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30361,  52, 0x06005B0C) /* IconUnderlay */;

@@ -50,11 +50,11 @@ VALUES (30560,   1, 'Frost Hatchet') /* Name */
      , (30560,  16, 'Frost Hatchet of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30560,   1,   33559450) /* Setup */
-     , (30560,   3,  536870932) /* SoundTable */
-     , (30560,   6,   67115558) /* PaletteBase */
-     , (30560,   8,  100686923) /* Icon */
-     , (30560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30560,   1, 0x0200139A) /* Setup */
+     , (30560,   3, 0x20000014) /* SoundTable */
+     , (30560,   6, 0x04001A26) /* PaletteBase */
+     , (30560,   8, 0x06005C4B) /* Icon */
+     , (30560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30560,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

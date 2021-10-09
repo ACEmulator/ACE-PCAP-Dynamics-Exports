@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xC25B;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C25B001,  1154, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 0, 0.0512473, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7C25B001,  1154, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 0, 0.051247, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xC25B0100 [29.963630 29.617920 6.406600] 0.998686 0.000000 0.000000 0.051247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -11,7 +11,7 @@ VALUES (0x7C25B001, 0x7C25B002, '2019-02-10 00:00:00') /* Mosswart Chief (210) *
      , (0x7C25B001, 0x7C25B005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C25B002,   210, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 0, 0.0512473,  True, '2019-02-10 00:00:00'); /* Mosswart Chief */
+VALUES (0x7C25B002,   210, 0xC25B0100, 29.96363, 29.61792, 6.4066, 0.998686, 0, 0, 0.051247,  True, '2019-02-10 00:00:00'); /* Mosswart Chief */
 /* @teleloc 0xC25B0100 [29.963630 29.617920 6.406600] 0.998686 0.000000 0.000000 0.051247 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -54,5 +54,5 @@ VALUES (0x7C25B00A, 31443, 0xC25B0036, 153.0709, 136.7299, 5.997839, 1, 0, 0, 0,
 /* @teleloc 0xC25B0036 [153.070900 136.729900 5.997839] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C25B00B, 11554, 0xC25B0038, 148.561, 180.1689, 6, 0.9619815, 0, 0, -0.2731145,  True, '2019-02-10 00:00:00'); /* Colban Plant */
+VALUES (0x7C25B00B, 11554, 0xC25B0038, 148.561, 180.1689, 6, 0.961982, 0, 0, -0.273115,  True, '2019-02-10 00:00:00'); /* Colban Plant */
 /* @teleloc 0xC25B0038 [148.561000 180.168900 6.000000] 0.961982 0.000000 0.000000 -0.273115 */

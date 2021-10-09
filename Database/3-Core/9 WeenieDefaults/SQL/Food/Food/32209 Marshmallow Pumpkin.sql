@@ -22,11 +22,11 @@ VALUES (32209,   1, 'Marshmallow Pumpkin') /* Name */
      , (32209,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32209,   1,   33559794) /* Setup */
-     , (32209,   3,  536870932) /* SoundTable */
-     , (32209,   8,  100688420) /* Icon */
-     , (32209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32209,   1, 0x020014F2) /* Setup */
+     , (32209,   3, 0x20000014) /* SoundTable */
+     , (32209,   8, 0x06006224) /* Icon */
+     , (32209,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32209, 8040, 23855554, 56.38741, -32.11477, 0, -0.5731334, 0, 0, 0.8194621) /* PCAPRecordedLocation */
+VALUES (32209, 8040, 0x016C01C2, 56.38741, -32.11477, 0, -0.573133, 0, 0, 0.819462) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.387410 -32.114770 0.000000] -0.573133 0.000000 0.000000 0.819462 */;

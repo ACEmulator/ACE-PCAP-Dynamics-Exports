@@ -55,21 +55,21 @@ VALUES (30306,   1, 'Feathered Razor') /* Name */
      , (30306,  16, 'An exquisitely crafted crossbow adorned with a metal relief of the Firebird of Splendor. Originally this crossbow was crafted by a follower of the Washui Iiwah Jou Gai as a piece of art. The intent of the artist is open for great discussion and debate, but it is widely believed that the artist meant to express his disdain for war by depicting a weapon of destruction as something beautiful to behold. After all, how can something so beautiful be used to kill? Regretfully, due to the artist''s perfectionism and great attention to detail, he ended up creating a superb weapon. Use of this weapon is an affront to the Washui Iiwah Jou Gai.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30306,   1,   33559370) /* Setup */
-     , (30306,   3,  536870932) /* SoundTable */
-     , (30306,   8,  100686723) /* Icon */
-     , (30306,  22,  872415275) /* PhysicsEffectTable */
-     , (30306,  52,  100686604) /* IconUnderlay */;
+VALUES (30306,   1, 0x0200134A) /* Setup */
+     , (30306,   3, 0x20000014) /* SoundTable */
+     , (30306,   8, 0x06005B83) /* Icon */
+     , (30306,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30306,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30306, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (30306, 8040, 0x016C01BC, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30306,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (30306,  4400,      2)  /* DefenderSelf8 */
+VALUES (30306,  4558,      2)  /* ImpregnabilitySelf8 */
+     , (30306,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30306,  4498,      2)  /* RejuvenationSelf8 */
      , (30306,  4522,      2)  /* MissileWeaponsMasterySelf8 */
-     , (30306,  4558,      2)  /* ImpregnabilitySelf8 */
-     , (30306,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30306,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;
+     , (30306,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (30306,  4400,      2)  /* DefenderSelf8 */
+     , (30306,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;

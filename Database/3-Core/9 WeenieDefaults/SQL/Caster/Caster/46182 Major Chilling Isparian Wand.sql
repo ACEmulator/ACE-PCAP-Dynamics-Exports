@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46182,   1, 'Major Chilling Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46182,   1,   33557781) /* Setup */
-     , (46182,   3,  536870932) /* SoundTable */
-     , (46182,   6,   67111919) /* PaletteBase */
-     , (46182,   8,  100672989) /* Icon */
-     , (46182,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46182,   1, 0x02000D15) /* Setup */
+     , (46182,   3, 0x20000014) /* SoundTable */
+     , (46182,   6, 0x04000BEF) /* PaletteBase */
+     , (46182,   8, 0x060025DD) /* Icon */
+     , (46182,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46182, 8040, 23855549, 60.35365, -35.58473, -0.071, -0.4063613, -0.4063613, -0.57868, -0.57868) /* PCAPRecordedLocation */
+VALUES (46182, 8040, 0x016C01BD, 60.35365, -35.58473, -0.071, -0.406361, -0.406361, -0.57868, -0.57868) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [60.353650 -35.584730 -0.071000] -0.406361 -0.406361 -0.578680 -0.578680 */;

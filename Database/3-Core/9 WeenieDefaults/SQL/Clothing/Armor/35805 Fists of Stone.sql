@@ -41,20 +41,20 @@ VALUES (35805,   1, 'Fists of Stone') /* Name */
      , (35805,  16, 'A pair of enchanted gauntlets granted as a reward for defeating the Champion Stone Fists in the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35805,   1,   33560324) /* Setup */
-     , (35805,   3,  536870932) /* SoundTable */
-     , (35805,   8,  100686273) /* Icon */
-     , (35805,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35805,   1, 0x02001704) /* Setup */
+     , (35805,   3, 0x20000014) /* SoundTable */
+     , (35805,   8, 0x060059C1) /* Icon */
+     , (35805,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35805,   248,      2)  /* InvulnerabilitySelf5 */
-     , (35805,  1331,      2)  /* StrengthSelf5 */
+VALUES (35805,  2689,      2)  /* ModerateDaggerAptitude */
+     , (35805,  2694,      2)  /* ModerateSwordAptitude */
      , (35805,  1353,      2)  /* EnduranceSelf5 */
      , (35805,  1485,      2)  /* Impenetrability5 */
-     , (35805,  2686,      2)  /* ModerateAxeAptitude */
-     , (35805,  2687,      2)  /* ModerateBowAptitude */
-     , (35805,  2689,      2)  /* ModerateDaggerAptitude */
-     , (35805,  2694,      2)  /* ModerateSwordAptitude */
-     , (35805,  2812,      2)  /* ModerateWarMagicAptitude */
      , (35805,  5074,      2)  /* ModerateTwoHandedAptitude */
-     , (35805,  5430,      2)  /* ModerateVoidMagicAptitude */;
+     , (35805,  1331,      2)  /* StrengthSelf5 */
+     , (35805,  5430,      2)  /* ModerateVoidMagicAptitude */
+     , (35805,   248,      2)  /* InvulnerabilitySelf5 */
+     , (35805,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (35805,  2686,      2)  /* ModerateAxeAptitude */
+     , (35805,  2687,      2)  /* ModerateBowAptitude */;

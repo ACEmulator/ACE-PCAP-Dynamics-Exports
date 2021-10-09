@@ -20,7 +20,7 @@ VALUES (43185,   1, 'Gem of Knowledge') /* Name */
      , (43185,  20, 'Gems of Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43185,   1,   33554809) /* Setup */
-     , (43185,   3,  536870932) /* SoundTable */
-     , (43185,   8,  100689653) /* Icon */
-     , (43185,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43185,   1, 0x02000179) /* Setup */
+     , (43185,   3, 0x20000014) /* SoundTable */
+     , (43185,   8, 0x060066F5) /* Icon */
+     , (43185,  22, 0x3400002B) /* PhysicsEffectTable */;

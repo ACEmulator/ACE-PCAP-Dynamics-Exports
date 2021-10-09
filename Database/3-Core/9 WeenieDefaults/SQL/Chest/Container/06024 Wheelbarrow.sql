@@ -24,13 +24,13 @@ VALUES (6024,   1, 'Wheelbarrow') /* Name */
      , (6024,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6024,   1,   33556240) /* Setup */
-     , (6024,   3,  536870932) /* SoundTable */
-     , (6024,   8,  100670393) /* Icon */
-     , (6024,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6024,   1, 0x02000710) /* Setup */
+     , (6024,   3, 0x20000014) /* SoundTable */
+     , (6024,   8, 0x06001BB9) /* Icon */
+     , (6024,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6024, 8040, 28180970, 86.491, -47.6442, -12.005, 0.116454, 0, 0, -0.9931961) /* PCAPRecordedLocation */
+VALUES (6024, 8040, 0x01AE01EA, 86.491, -47.6442, -12.005, 0.116454, 0, 0, -0.993196) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE01EA [86.491000 -47.644200 -12.005000] 0.116454 0.000000 0.000000 -0.993196 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46953,   1, 'Proving Grounds Uber') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46953,   1,   33555925) /* Setup */
-     , (46953,   2,  150994947) /* MotionTable */
-     , (46953,   8,  100667499) /* Icon */;
+VALUES (46953,   1, 0x020005D5) /* Setup */
+     , (46953,   2, 0x09000003) /* MotionTable */
+     , (46953,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46953, 8040, 1481769447, 120, -180.05, 0.1325186, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46953, 8040, 0x585201E7, 120, -180.05, 0.132519, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x585201E7 [120.000000 -180.050000 0.132519] 1.000000 0.000000 0.000000 0.000000 */;

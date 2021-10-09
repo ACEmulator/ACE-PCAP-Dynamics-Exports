@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8220,   1, 'Uninhabited Area Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8220,   1,   33554867) /* Setup */
-     , (8220,   2,  150994947) /* MotionTable */
-     , (8220,   8,  100667499) /* Icon */;
+VALUES (8220,   1, 0x020001B3) /* Setup */
+     , (8220,   2, 0x09000003) /* MotionTable */
+     , (8220,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8220, 8040, 2471166259, 154.812, 84.995, -31.663, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (8220, 8040, 0x934B0133, 154.812, 84.995, -31.663, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0133 [154.812000 84.995000 -31.663000] 0.707107 0.000000 0.000000 -0.707107 */;

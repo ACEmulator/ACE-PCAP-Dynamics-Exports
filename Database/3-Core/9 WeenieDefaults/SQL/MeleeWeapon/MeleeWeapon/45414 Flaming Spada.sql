@@ -51,15 +51,15 @@ VALUES (45414,   1, 'Flaming Spada') /* Name */
      , (45414,  16, 'Flaming Spada of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45414,   1,   33559461) /* Setup */
-     , (45414,   3,  536870932) /* SoundTable */
-     , (45414,   6,   67115557) /* PaletteBase */
-     , (45414,   8,  100686953) /* Icon */
-     , (45414,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45414,   1, 0x020013A5) /* Setup */
+     , (45414,   3, 0x20000014) /* SoundTable */
+     , (45414,   6, 0x04001A25) /* PaletteBase */
+     , (45414,   8, 0x06005C69) /* Icon */
+     , (45414,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45414,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45414,  2059,      2)  /* CoordinationSelf7 */
-     , (45414,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (45414,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45414,  2059,      2)  /* CoordinationSelf7 */
      , (45414,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
      , (45414,  4395,      2)  /* BloodDrinkerSelf8 */;

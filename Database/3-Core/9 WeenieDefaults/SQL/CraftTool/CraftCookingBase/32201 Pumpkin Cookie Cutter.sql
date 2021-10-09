@@ -25,7 +25,7 @@ VALUES (32201,   1, 'Pumpkin Cookie Cutter') /* Name */
      , (32201,  15, 'A pumpkin shaped cookie cutter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32201,   1,   33559779) /* Setup */
-     , (32201,   3,  536870932) /* SoundTable */
-     , (32201,   8,  100688418) /* Icon */
-     , (32201,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32201,   1, 0x020014E3) /* Setup */
+     , (32201,   3, 0x20000014) /* SoundTable */
+     , (32201,   8, 0x06006222) /* Icon */
+     , (32201,  22, 0x3400002B) /* PhysicsEffectTable */;

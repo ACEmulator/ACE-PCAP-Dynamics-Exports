@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46085,   1, 'Enhanced Smoldering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46085,   1,   33556365) /* Setup */
-     , (46085,   3,  536870932) /* SoundTable */
-     , (46085,   6,   67111919) /* PaletteBase */
-     , (46085,   8,  100670545) /* Icon */
-     , (46085,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46085,   1, 0x0200078D) /* Setup */
+     , (46085,   3, 0x20000014) /* SoundTable */
+     , (46085,   6, 0x04000BEF) /* PaletteBase */
+     , (46085,   8, 0x06001C51) /* Icon */
+     , (46085,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43083,   1, 'Apostate Virindi Aggressor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43083,   1,   33554497) /* Setup */
-     , (43083,   2,  150994984) /* MotionTable */
-     , (43083,   3,  536870930) /* SoundTable */
-     , (43083,   6,   67111346) /* PaletteBase */
-     , (43083,   8,  100667943) /* Icon */
-     , (43083,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (43083,   1, 0x02000041) /* Setup */
+     , (43083,   2, 0x09000028) /* MotionTable */
+     , (43083,   3, 0x20000012) /* SoundTable */
+     , (43083,   6, 0x040009B2) /* PaletteBase */
+     , (43083,   8, 0x06001227) /* Icon */
+     , (43083,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43083, 8040, 355270673, 53.7577, 17.7899, 28.90785, 0.9392363, 0, 0, -0.3432711) /* PCAPRecordedLocation */
+VALUES (43083, 8040, 0x152D0011, 53.7577, 17.7899, 28.90785, 0.939236, 0, 0, -0.343271) /* PCAPRecordedLocation */
 /* @teleloc 0x152D0011 [53.757700 17.789900 28.907850] 0.939236 0.000000 0.000000 -0.343271 */;

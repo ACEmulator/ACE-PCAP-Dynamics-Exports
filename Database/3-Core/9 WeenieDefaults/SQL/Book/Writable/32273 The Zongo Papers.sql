@@ -20,10 +20,10 @@ VALUES (32273,   1, 'The Zongo Papers') /* Name */
      , (32273,  16, 'A book about new brewing recipes by Duke Raoul the Brewmaster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32273,   1,   33559593) /* Setup */
-     , (32273,   3,  536870932) /* SoundTable */
-     , (32273,   8,  100688501) /* Icon */
-     , (32273,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32273,   1, 0x02001429) /* Setup */
+     , (32273,   3, 0x20000014) /* SoundTable */
+     , (32273,   8, 0x06006275) /* Icon */
+     , (32273,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (32273, 4, 1000);

@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45907,   1, 'Amateur Explorer Compound Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45907,   1,   33559688) /* Setup */
-     , (45907,   3,  536870932) /* SoundTable */
-     , (45907,   6,   67116700) /* PaletteBase */
-     , (45907,   8,  100688042) /* Icon */
-     , (45907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45907,   1, 0x02001488) /* Setup */
+     , (45907,   3, 0x20000014) /* SoundTable */
+     , (45907,   6, 0x04001E9C) /* PaletteBase */
+     , (45907,   8, 0x060060AA) /* Icon */
+     , (45907,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45907, 8040, 19005708, 34.72946, -7.824718, -0.07000001, -0.2765771, 0, 0, -0.9609917) /* PCAPRecordedLocation */
+VALUES (45907, 8040, 0x0122010C, 34.72946, -7.824718, -0.07, -0.276577, 0, 0, -0.960992) /* PCAPRecordedLocation */
 /* @teleloc 0x0122010C [34.729460 -7.824718 -0.070000] -0.276577 0.000000 0.000000 -0.960992 */;

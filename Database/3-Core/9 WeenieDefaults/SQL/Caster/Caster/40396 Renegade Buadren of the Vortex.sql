@@ -48,16 +48,16 @@ VALUES (40396,   1, 'Renegade Buadren of the Vortex') /* Name */
      , (40396,  25, 'Jakka') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40396,   1,   33558670) /* Setup */
-     , (40396,   3,  536870932) /* SoundTable */
-     , (40396,   8,  100676364) /* Icon */
-     , (40396,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40396,   1, 0x0200108E) /* Setup */
+     , (40396,   3, 0x20000014) /* SoundTable */
+     , (40396,   8, 0x0600330C) /* Icon */
+     , (40396,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40396,  2441,      2)  /* StoneCliffsLesser */
      , (40396,  2444,      2)  /* StrengthofEarthLesser */
      , (40396,  2447,      2)  /* GrowthLesser */
      , (40396,  2450,      2)  /* HuntersAcumenLesser */
+     , (40396,  3223,      2)  /* CascadeManaC */
      , (40396,  2472,      2)  /* StillWater */
-     , (40396,  2475,      2)  /* Torrent */
-     , (40396,  3223,      2)  /* CascadeManaC */;
+     , (40396,  2475,      2)  /* Torrent */;

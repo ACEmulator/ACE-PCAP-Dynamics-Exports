@@ -44,9 +44,9 @@ VALUES (22157,   1, 'Frost Jo') /* Name */
      , (22157,  16, 'Frost Jo') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22157,   1,   33558078) /* Setup */
-     , (22157,   3,  536870932) /* SoundTable */
-     , (22157,   6,   67111919) /* PaletteBase */
-     , (22157,   8,  100673624) /* Icon */
-     , (22157,  22,  872415275) /* PhysicsEffectTable */
-     , (22157,  52,  100676435) /* IconUnderlay */;
+VALUES (22157,   1, 0x02000E3E) /* Setup */
+     , (22157,   3, 0x20000014) /* SoundTable */
+     , (22157,   6, 0x04000BEF) /* PaletteBase */
+     , (22157,   8, 0x06002858) /* Icon */
+     , (22157,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22157,  52, 0x06003353) /* IconUnderlay */;

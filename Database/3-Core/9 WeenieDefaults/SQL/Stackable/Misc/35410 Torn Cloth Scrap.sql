@@ -26,7 +26,7 @@ VALUES (35410,   1, 'Torn Cloth Scrap') /* Name */
      , (35410,  16, 'A scrap of cloth that looks like it belonged to a bigger piece. Child like scrawling cover the cloth, but they have no apparent meaning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35410,   1,   33554773) /* Setup */
-     , (35410,   3,  536870932) /* SoundTable */
-     , (35410,   8,  100689489) /* Icon */
-     , (35410,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35410,   1, 0x02000155) /* Setup */
+     , (35410,   3, 0x20000014) /* SoundTable */
+     , (35410,   8, 0x06006651) /* Icon */
+     , (35410,  22, 0x3400002B) /* PhysicsEffectTable */;

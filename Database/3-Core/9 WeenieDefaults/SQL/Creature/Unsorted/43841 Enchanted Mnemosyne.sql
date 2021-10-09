@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43841,   1, 'Enchanted Mnemosyne') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43841,   1,   33561170) /* Setup */
-     , (43841,   2,  150995464) /* MotionTable */
-     , (43841,   3,  536870932) /* SoundTable */
-     , (43841,   8,  100671423) /* Icon */
-     , (43841,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43841,   1, 0x02001A52) /* Setup */
+     , (43841,   2, 0x09000208) /* MotionTable */
+     , (43841,   3, 0x20000014) /* SoundTable */
+     , (43841,   8, 0x06001FBF) /* Icon */
+     , (43841,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43841, 8040, 3534225460, 152.994, 81.0113, 35.2, 0.3817208, 0, 0, 0.9242777) /* PCAPRecordedLocation */
+VALUES (43841, 8040, 0xD2A80034, 152.994, 81.0113, 35.2, 0.381721, 0, 0, 0.924278) /* PCAPRecordedLocation */
 /* @teleloc 0xD2A80034 [152.994000 81.011300 35.200000] 0.381721 0.000000 0.000000 0.924278 */;

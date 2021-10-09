@@ -31,8 +31,8 @@ VALUES (9240,   1, 'Snake Skin Boots') /* Name */
      , (9240,  16, 'Boots made out of the hide of a Sclavus.  They are faintly iridescent, and shimmer when you walk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9240,   1,   33556683) /* Setup */
-     , (9240,   3,  536870932) /* SoundTable */
-     , (9240,   6,   67108990) /* PaletteBase */
-     , (9240,   8,  100671408) /* Icon */
-     , (9240,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9240,   1, 0x020008CB) /* Setup */
+     , (9240,   3, 0x20000014) /* SoundTable */
+     , (9240,   6, 0x0400007E) /* PaletteBase */
+     , (9240,   8, 0x06001FB0) /* Icon */
+     , (9240,  22, 0x3400002B) /* PhysicsEffectTable */;

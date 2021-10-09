@@ -49,12 +49,12 @@ VALUES (7026,   1, 'Composite Crossbow with Handle') /* Name */
      , (7026,  25, 'Eridyn of the Dark') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7026,   1,   33556596) /* Setup */
-     , (7026,   3,  536870932) /* SoundTable */
-     , (7026,   6,   67112869) /* PaletteBase */
-     , (7026,   8,  100670691) /* Icon */
-     , (7026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7026,   1, 0x02000874) /* Setup */
+     , (7026,   3, 0x20000014) /* SoundTable */
+     , (7026,   6, 0x04000FA5) /* PaletteBase */
+     , (7026,   8, 0x06001CE3) /* Icon */
+     , (7026,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7026,   465,      2)  /* MissileWeaponsMasteryOther5 */
-     , (7026,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (7026,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (7026,   465,      2)  /* MissileWeaponsMasteryOther5 */;

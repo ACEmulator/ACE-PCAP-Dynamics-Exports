@@ -19,12 +19,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7705,   1, 'Greater Celdon Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7705,   1,   33554856) /* Setup */
-     , (7705,   3,  536870932) /* SoundTable */
-     , (7705,   6,   67108990) /* PaletteBase */
-     , (7705,   8,  100670422) /* Icon */
-     , (7705,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7705,   1, 0x020001A8) /* Setup */
+     , (7705,   3, 0x20000014) /* SoundTable */
+     , (7705,   6, 0x0400007E) /* PaletteBase */
+     , (7705,   8, 0x06001BD6) /* Icon */
+     , (7705,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7705, 8040, 30277919, 48.1123, -52.26658, -18.0025, -0.3129154, 0, 0, -0.949781) /* PCAPRecordedLocation */
+VALUES (7705, 8040, 0x01CE011F, 48.1123, -52.26658, -18.0025, -0.312915, 0, 0, -0.949781) /* PCAPRecordedLocation */
 /* @teleloc 0x01CE011F [48.112300 -52.266580 -18.002500] -0.312915 0.000000 0.000000 -0.949781 */;

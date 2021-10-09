@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8719,   1, 'Old Stamped Holtburg Lucky Gold Letter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8719,   1,   33556919) /* Setup */
-     , (8719,   3,  536870932) /* SoundTable */
-     , (8719,   8,  100671214) /* Icon */
-     , (8719,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8719,   1, 0x020009B7) /* Setup */
+     , (8719,   3, 0x20000014) /* SoundTable */
+     , (8719,   8, 0x06001EEE) /* Icon */
+     , (8719,  22, 0x3400002B) /* PhysicsEffectTable */;

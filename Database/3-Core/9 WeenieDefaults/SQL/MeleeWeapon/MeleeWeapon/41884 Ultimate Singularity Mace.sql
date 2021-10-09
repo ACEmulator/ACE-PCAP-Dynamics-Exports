@@ -52,14 +52,14 @@ VALUES (41884,   1, 'Ultimate Singularity Mace') /* Name */
      , (41884,  15, 'A mace imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41884,   1,   33557316) /* Setup */
-     , (41884,   3,  536870932) /* SoundTable */
-     , (41884,   6,   67111919) /* PaletteBase */
-     , (41884,   8,  100672045) /* Icon */
-     , (41884,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41884,   1, 0x02000B44) /* Setup */
+     , (41884,   3, 0x20000014) /* SoundTable */
+     , (41884,   6, 0x04000BEF) /* PaletteBase */
+     , (41884,   8, 0x0600222D) /* Icon */
+     , (41884,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41884,  2086,      2)  /* StrengthOther7 */
+VALUES (41884,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (41884,  2086,      2)  /* StrengthOther7 */
      , (41884,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41884,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41884,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (41884,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36801,   1, 'Aluvian Rebel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36801,   1,   33554433) /* Setup */
-     , (36801,   2,  150994945) /* MotionTable */
-     , (36801,   3,  536870913) /* SoundTable */
-     , (36801,   8,  100667446) /* Icon */
-     , (36801,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (36801,   1, 0x02000001) /* Setup */
+     , (36801,   2, 0x09000001) /* MotionTable */
+     , (36801,   3, 0x20000001) /* SoundTable */
+     , (36801,   8, 0x06001036) /* Icon */
+     , (36801,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36801, 8040, 32048069, 121.8355, -71.20668, 0.004999995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36801, 8040, 0x01E903C5, 121.8355, -71.20668, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01E903C5 [121.835500 -71.206680 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;

@@ -25,10 +25,10 @@ VALUES (11935,   1, 'A Horn of Vigilance') /* Name */
      , (11935,  16, 'A Horn of Vigilance! Another fine product from Telk the Addlepated. This item can be used on a floor hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11935,   1,   33557153) /* Setup */
-     , (11935,   3,  536871077) /* SoundTable */
-     , (11935,   8,  100671780) /* Icon */;
+VALUES (11935,   1, 0x02000AA1) /* Setup */
+     , (11935,   3, 0x200000A5) /* SoundTable */
+     , (11935,   8, 0x06002124) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11935, 8040, 18809102, 33.4607, -33.58654, 4.74154, -0.9003226, 0, 0, -0.4352233) /* PCAPRecordedLocation */
+VALUES (11935, 8040, 0x011F010E, 33.4607, -33.58654, 4.74154, -0.900323, 0, 0, -0.435223) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [33.460700 -33.586540 4.741540] -0.900323 0.000000 0.000000 -0.435223 */;

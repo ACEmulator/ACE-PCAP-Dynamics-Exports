@@ -46,10 +46,10 @@ VALUES (3871,   1, 'Flaming Simi') /* Name */
      , (3871,  16, 'Flaming Simi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3871,   1,   33555777) /* Setup */
-     , (3871,   3,  536870932) /* SoundTable */
-     , (3871,   8,  100668164) /* Icon */
-     , (3871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3871,   1, 0x02000541) /* Setup */
+     , (3871,   3, 0x20000014) /* SoundTable */
+     , (3871,   8, 0x06001304) /* Icon */
+     , (3871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3871,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

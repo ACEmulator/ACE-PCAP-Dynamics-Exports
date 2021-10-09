@@ -26,7 +26,7 @@ VALUES (34421,   1, 'Magic Hat') /* Name */
      , (34421,  16, 'A simple old snowman hat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34421,   1,   33560167) /* Setup */
-     , (34421,   3,  536870932) /* SoundTable */
-     , (34421,   8,  100689308) /* Icon */
-     , (34421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34421,   1, 0x02001667) /* Setup */
+     , (34421,   3, 0x20000014) /* SoundTable */
+     , (34421,   8, 0x0600659C) /* Icon */
+     , (34421,  22, 0x3400002B) /* PhysicsEffectTable */;

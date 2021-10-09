@@ -55,21 +55,21 @@ VALUES (30302,   1, 'Ebonwood Shortbow') /* Name */
      , (30302,  16, 'At first glance this would be a fairly unremarkable shortbow, except that it is made of ebonwood. This wood hails from the perilous Forest of Shades in Ispar and is prized by bowyers for its exceptional qualities.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30302,   1,   33559366) /* Setup */
-     , (30302,   3,  536870932) /* SoundTable */
-     , (30302,   6,   67111919) /* PaletteBase */
-     , (30302,   8,  100686715) /* Icon */
-     , (30302,  22,  872415275) /* PhysicsEffectTable */
-     , (30302,  52,  100686604) /* IconUnderlay */;
+VALUES (30302,   1, 0x02001346) /* Setup */
+     , (30302,   3, 0x20000014) /* SoundTable */
+     , (30302,   6, 0x04000BEF) /* PaletteBase */
+     , (30302,   8, 0x06005B7B) /* Icon */
+     , (30302,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30302,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30302, 8040, 23855554, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (30302, 8040, 0x016C01C2, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30302,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (30302,  4400,      2)  /* DefenderSelf8 */
-     , (30302,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+VALUES (30302,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30302,  4560,      2)  /* InvulnerabilitySelf8 */
-     , (30302,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30302,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;
+     , (30302,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (30302,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (30302,  4400,      2)  /* DefenderSelf8 */
+     , (30302,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;

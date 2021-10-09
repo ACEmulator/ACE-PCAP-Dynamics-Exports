@@ -33,10 +33,10 @@ VALUES (30230,   1, 'Pearl of Pierce Baning') /* Name */
      , (30230,  20, 'Pearls of Pierce Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30230,   1,   33554809) /* Setup */
-     , (30230,   3,  536870932) /* SoundTable */
-     , (30230,   8,  100686695) /* Icon */
-     , (30230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30230,   1, 0x02000179) /* Setup */
+     , (30230,   3, 0x20000014) /* SoundTable */
+     , (30230,   8, 0x06005B67) /* Icon */
+     , (30230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30230,  28,       3728) /* Spell - PiercingBaneRare */
-     , (30230,  50,  100686677) /* IconOverlay */
-     , (30230,  52,  100686604) /* IconUnderlay */;
+     , (30230,  50, 0x06005B55) /* IconOverlay */
+     , (30230,  52, 0x06005B0C) /* IconUnderlay */;

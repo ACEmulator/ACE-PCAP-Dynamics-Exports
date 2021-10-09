@@ -21,7 +21,7 @@ VALUES (24924,   1, 'Brood Matron Nymph Tibia') /* Name */
      , (24924,  15, 'The tibia of a departed Olthoi Brood Matron Nymph.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24924,   1,   33556593) /* Setup */
-     , (24924,   3,  536870932) /* SoundTable */
-     , (24924,   8,  100674519) /* Icon */
-     , (24924,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24924,   1, 0x02000871) /* Setup */
+     , (24924,   3, 0x20000014) /* SoundTable */
+     , (24924,   8, 0x06002BD7) /* Icon */
+     , (24924,  22, 0x3400002B) /* PhysicsEffectTable */;

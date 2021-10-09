@@ -32,8 +32,8 @@ VALUES (9241,   1, 'Ursuin Boots') /* Name */
      , (9241,  16, 'A pair of shaggy boots, sewn and laced with the cured hide of an Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9241,   1,   33556683) /* Setup */
-     , (9241,   3,  536870932) /* SoundTable */
-     , (9241,   6,   67108990) /* PaletteBase */
-     , (9241,   8,  100671393) /* Icon */
-     , (9241,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9241,   1, 0x020008CB) /* Setup */
+     , (9241,   3, 0x20000014) /* SoundTable */
+     , (9241,   6, 0x0400007E) /* PaletteBase */
+     , (9241,   8, 0x06001FA1) /* Icon */
+     , (9241,  22, 0x3400002B) /* PhysicsEffectTable */;

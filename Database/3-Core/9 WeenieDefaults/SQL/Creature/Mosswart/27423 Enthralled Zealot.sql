@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27423,   1, 'Enthralled Zealot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27423,   1,   33557327) /* Setup */
-     , (27423,   2,  150994953) /* MotionTable */
-     , (27423,   3,  536870959) /* SoundTable */
-     , (27423,   6,   67113400) /* PaletteBase */
-     , (27423,   8,  100667449) /* Icon */
-     , (27423,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (27423,   1, 0x02000B4F) /* Setup */
+     , (27423,   2, 0x09000009) /* MotionTable */
+     , (27423,   3, 0x2000002F) /* SoundTable */
+     , (27423,   6, 0x040011B8) /* PaletteBase */
+     , (27423,   8, 0x06001039) /* Icon */
+     , (27423,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27423, 8040, 977993742, 25.25491, 134.8757, 17.84105, -0.8408478, 0, 0, -0.5412716) /* PCAPRecordedLocation */
+VALUES (27423, 8040, 0x3A4B000E, 25.25491, 134.8757, 17.84105, -0.840848, 0, 0, -0.541272) /* PCAPRecordedLocation */
 /* @teleloc 0x3A4B000E [25.254910 134.875700 17.841050] -0.840848 0.000000 0.000000 -0.541272 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

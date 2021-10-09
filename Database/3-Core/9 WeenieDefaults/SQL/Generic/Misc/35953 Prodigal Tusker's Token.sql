@@ -23,7 +23,7 @@ VALUES (35953,   1, 'Prodigal Tusker''s Token') /* Name */
      , (35953,  16, 'A small token proving your contribution in the defeat of Dark Bobo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35953,   1,   33558119) /* Setup */
-     , (35953,   3,  536870932) /* SoundTable */
-     , (35953,   8,  100673828) /* Icon */
-     , (35953,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35953,   1, 0x02000E67) /* Setup */
+     , (35953,   3, 0x20000014) /* SoundTable */
+     , (35953,   8, 0x06002924) /* Icon */
+     , (35953,  22, 0x3400002B) /* PhysicsEffectTable */;

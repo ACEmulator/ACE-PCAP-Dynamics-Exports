@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7200,   1, 'Black Dominion Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7200,   1,   33555926) /* Setup */
-     , (7200,   2,  150994947) /* MotionTable */
-     , (7200,   8,  100667499) /* Icon */;
+VALUES (7200,   1, 0x020005D6) /* Setup */
+     , (7200,   2, 0x09000003) /* MotionTable */
+     , (7200,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7200, 8040, 1594884102, 8.95292, 124.792, -0.06299996, 0.9859592, 0, 0, -0.166986) /* PCAPRecordedLocation */
+VALUES (7200, 8040, 0x5F100006, 8.95292, 124.792, -0.063, 0.985959, 0, 0, -0.166986) /* PCAPRecordedLocation */
 /* @teleloc 0x5F100006 [8.952920 124.792000 -0.063000] 0.985959 0.000000 0.000000 -0.166986 */;

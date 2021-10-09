@@ -92,7 +92,7 @@ VALUES (0x722BC012, 11493, 0x22BC0013, 52.54966, 65.80739, 142.8952, 1, 0, 0, 0,
 /* @teleloc 0x22BC0013 [52.549660 65.807390 142.895200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722BC013,  1542, 0x22BC0010, 36.0852, 187.3843, 160, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x722BC013,  1542, 0x22BC0010, 36.0852, 187.3843, 160, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x22BC0010 [36.085200 187.384300 160.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -110,7 +110,7 @@ VALUES (0x722BC013, 0x722BC014, '2019-02-10 00:00:00') /* Menhir Stone (12097) *
      , (0x722BC013, 0x722BC01F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722BC014, 12097, 0x22BC0010, 36.0852, 187.3843, 160, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Menhir Stone */
+VALUES (0x722BC014, 12097, 0x22BC0010, 36.0852, 187.3843, 160, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Menhir Stone */
 /* @teleloc 0x22BC0010 [36.085200 187.384300 160.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -146,7 +146,7 @@ VALUES (0x722BC01C, 11556, 0x22BC0011, 70.4352, 3.256032, 129.7576, 1, 0, 0, 0, 
 /* @teleloc 0x22BC0011 [70.435200 3.256032 129.757600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722BC01D,  1955, 0x22BC0010, 26.39208, 186.7445, 159.937, 0.925781, 0, 0, 0.3780604,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x722BC01D,  1955, 0x22BC0010, 26.39208, 186.7445, 159.937, 0.925781, 0, 0, 0.37806,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x22BC0010 [26.392080 186.744500 159.937000] 0.925781 0.000000 0.000000 0.378060 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

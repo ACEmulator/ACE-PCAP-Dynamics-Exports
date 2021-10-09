@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11952,   1, 'Northern Ahurenga Plains Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11952,   1,   33554867) /* Setup */
-     , (11952,   2,  150994947) /* MotionTable */
-     , (11952,   8,  100667499) /* Icon */;
+VALUES (11952,   1, 0x020001B3) /* Setup */
+     , (11952,   2, 0x09000003) /* MotionTable */
+     , (11952,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11952, 8040, 380764222, 189.115, 122.392, 43.69659, -0.9847623, 0, 0, -0.173906) /* PCAPRecordedLocation */
+VALUES (11952, 8040, 0x16B2003E, 189.115, 122.392, 43.69659, -0.984762, 0, 0, -0.173906) /* PCAPRecordedLocation */
 /* @teleloc 0x16B2003E [189.115000 122.392000 43.696590] -0.984762 0.000000 0.000000 -0.173906 */;

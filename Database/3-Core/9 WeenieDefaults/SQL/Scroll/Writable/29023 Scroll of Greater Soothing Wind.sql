@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29023,   1, 'Scroll of Greater Soothing Wind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29023,   1,   33554826) /* Setup */
-     , (29023,   8,  100676941) /* Icon */
-     , (29023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29023,   1, 0x0200018A) /* Setup */
+     , (29023,   8, 0x0600354D) /* Icon */
+     , (29023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29023,  28,       3476) /* Spell - RegenerationFellowship6 */;

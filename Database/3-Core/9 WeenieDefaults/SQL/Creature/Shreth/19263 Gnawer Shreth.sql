@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19263,   1, 'Gnawer Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19263,   1,   33555908) /* Setup */
-     , (19263,   2,  150995072) /* MotionTable */
-     , (19263,   3,  536870986) /* SoundTable */
-     , (19263,   6,   67112444) /* PaletteBase */
-     , (19263,   8,  100669720) /* Icon */
-     , (19263,  22,  872415333) /* PhysicsEffectTable */;
+VALUES (19263,   1, 0x020005C4) /* Setup */
+     , (19263,   2, 0x09000080) /* MotionTable */
+     , (19263,   3, 0x2000004A) /* SoundTable */
+     , (19263,   6, 0x04000DFC) /* PaletteBase */
+     , (19263,   8, 0x06001918) /* Icon */
+     , (19263,  22, 0x34000065) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19263, 8040, 3713269779, 53.2374, 67.94697, 8.334752, -0.09558646, 0, 0, -0.9954211) /* PCAPRecordedLocation */
+VALUES (19263, 8040, 0xDD540013, 53.2374, 67.94697, 8.334752, -0.095586, 0, 0, -0.995421) /* PCAPRecordedLocation */
 /* @teleloc 0xDD540013 [53.237400 67.946970 8.334752] -0.095586 0.000000 0.000000 -0.995421 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

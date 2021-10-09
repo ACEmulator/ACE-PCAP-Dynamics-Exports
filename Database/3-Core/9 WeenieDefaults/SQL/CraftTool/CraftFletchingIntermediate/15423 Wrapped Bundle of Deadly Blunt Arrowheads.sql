@@ -25,11 +25,11 @@ VALUES (15423,   1, 'Wrapped Bundle of Deadly Blunt Arrowheads') /* Name */
      , (15423,  20, 'Wrapped Bundles of Deadly Blunt Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15423,   1,   33557030) /* Setup */
-     , (15423,   3,  536870932) /* SoundTable */
-     , (15423,   8,  100672689) /* Icon */
-     , (15423,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15423,   1, 0x02000A26) /* Setup */
+     , (15423,   3, 0x20000014) /* SoundTable */
+     , (15423,   8, 0x060024B1) /* Icon */
+     , (15423,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15423, 8040, 23855555, 57.38048, -35.31297, 0, 0.008558244, 0, 0, -0.9999634) /* PCAPRecordedLocation */
+VALUES (15423, 8040, 0x016C01C3, 57.38048, -35.31297, 0, 0.008558, 0, 0, -0.999963) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.380480 -35.312970 0.000000] 0.008558 0.000000 0.000000 -0.999963 */;

@@ -28,8 +28,8 @@ VALUES (53483,   1, 'Viridian Key of the Fifth Portal') /* Name */
      , (53483,  20, 'Viridian Keys of the Fifth Portal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53483,   1,   33554784) /* Setup */
-     , (53483,   3,  536870932) /* SoundTable */
-     , (53483,   8,  100667486) /* Icon */
-     , (53483,  22,  872415275) /* PhysicsEffectTable */
-     , (53483,  52,  100689826) /* IconUnderlay */;
+VALUES (53483,   1, 0x02000160) /* Setup */
+     , (53483,   3, 0x20000014) /* SoundTable */
+     , (53483,   8, 0x0600105E) /* Icon */
+     , (53483,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53483,  52, 0x060067A2) /* IconUnderlay */;

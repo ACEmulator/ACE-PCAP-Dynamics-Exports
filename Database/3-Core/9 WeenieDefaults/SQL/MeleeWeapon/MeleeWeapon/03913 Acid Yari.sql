@@ -43,9 +43,9 @@ VALUES (3913,   1, 'Acid Yari') /* Name */
      , (3913,  16, 'Acid Yari') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3913,   1,   33555825) /* Setup */
-     , (3913,   3,  536870932) /* SoundTable */
-     , (3913,   6,   67111919) /* PaletteBase */
-     , (3913,   8,  100669085) /* Icon */
-     , (3913,  22,  872415275) /* PhysicsEffectTable */
-     , (3913,  52,  100676437) /* IconUnderlay */;
+VALUES (3913,   1, 0x02000571) /* Setup */
+     , (3913,   3, 0x20000014) /* SoundTable */
+     , (3913,   6, 0x04000BEF) /* PaletteBase */
+     , (3913,   8, 0x0600169D) /* Icon */
+     , (3913,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3913,  52, 0x06003355) /* IconUnderlay */;

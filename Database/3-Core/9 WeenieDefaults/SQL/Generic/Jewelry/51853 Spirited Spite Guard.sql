@@ -34,13 +34,13 @@ VALUES (51853,   1, 'Spirited Spite Guard') /* Name */
      , (51853,  15, 'A necklace crafted by Rinne Gorber fused with a powerful crystal from deep within the Spirited Halls.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51853,   1,   33554689) /* Setup */
-     , (51853,   3,  536870932) /* SoundTable */
-     , (51853,   6,   67111919) /* PaletteBase */
-     , (51853,   8,  100693215) /* Icon */
-     , (51853,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51853,   1, 0x02000101) /* Setup */
+     , (51853,   3, 0x20000014) /* SoundTable */
+     , (51853,   6, 0x04000BEF) /* PaletteBase */
+     , (51853,   8, 0x060074DF) /* Icon */
+     , (51853,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51853,  2665,      2)  /* EssenceSluice */
-     , (51853,  4469,      2)  /* LightningProtectionOther8 */
-     , (51853,  6063,      2)  /* CantripMagicResistance4 */;
+     , (51853,  6063,      2)  /* CantripMagicResistance4 */
+     , (51853,  4469,      2)  /* LightningProtectionOther8 */;

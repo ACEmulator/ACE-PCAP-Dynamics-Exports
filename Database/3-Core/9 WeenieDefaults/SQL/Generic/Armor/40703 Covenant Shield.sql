@@ -48,16 +48,16 @@ VALUES (40703,   1, 'Covenant Shield') /* Name */
      , (40703,  16, 'Covenant Shield of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40703,   1,   33557878) /* Setup */
-     , (40703,   3,  536870932) /* SoundTable */
-     , (40703,   8,  100673427) /* Icon */
-     , (40703,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40703,   1, 0x02000D76) /* Setup */
+     , (40703,   3, 0x20000014) /* SoundTable */
+     , (40703,   8, 0x06002793) /* Icon */
+     , (40703,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40703,  1354,      2)  /* EnduranceSelf6 */
-     , (40703,  2098,      2)  /* BludgeonBane7 */
-     , (40703,  2108,      2)  /* Impenetrability7 */
-     , (40703,  2113,      2)  /* PiercingBane7 */
-     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+VALUES (40703,  2113,      2)  /* PiercingBane7 */
+     , (40703,  1354,      2)  /* EnduranceSelf6 */
      , (40703,  2580,      2)  /* CANTRIPENDURANCE1 */
-     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */;
+     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */
+     , (40703,  2098,      2)  /* BludgeonBane7 */
+     , (40703,  2108,      2)  /* Impenetrability7 */;

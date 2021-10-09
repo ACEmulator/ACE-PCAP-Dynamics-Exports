@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x02D7;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D702B,  7952, 0x02D7024F, 42.124, -59.065, -42.063, -0.3826841, 0, 0, -0.9238793, False, '2019-02-10 00:00:00'); /* Surface Portal */
+VALUES (0x702D702B,  7952, 0x02D7024F, 42.124, -59.065, -42.063, -0.382684, 0, 0, -0.923879, False, '2019-02-10 00:00:00'); /* Surface Portal */
 /* @teleloc 0x02D7024F [42.124000 -59.065000 -42.063000] -0.382684 0.000000 0.000000 -0.923879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -19,7 +19,7 @@ VALUES (0x702D702D, 24326, 0x02D70231, 60, -30, -53.9925, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x02D70231 [60.000000 -30.000000 -53.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D702E, 24326, 0x02D70215, 40, -20, -53.9925, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Risen Lord */
+VALUES (0x702D702E, 24326, 0x02D70215, 40, -20, -53.9925, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Risen Lord */
 /* @teleloc 0x02D70215 [40.000000 -20.000000 -53.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

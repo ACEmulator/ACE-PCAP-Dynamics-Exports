@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33641,   1, 'Sodden Ruschk Chieftain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33641,   1,   33559507) /* Setup */
-     , (33641,   2,  150994951) /* MotionTable */
-     , (33641,   3,  536871101) /* SoundTable */
-     , (33641,   8,  100677373) /* Icon */
-     , (33641,  22,  872415364) /* PhysicsEffectTable */;
+VALUES (33641,   1, 0x020013D3) /* Setup */
+     , (33641,   2, 0x09000007) /* MotionTable */
+     , (33641,   3, 0x200000BD) /* SoundTable */
+     , (33641,   8, 0x060036FD) /* Icon */
+     , (33641,  22, 0x34000084) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33641, 8040, 3404398616, 50.52831, 170.9108, 95.19627, -0.7221748, 0, 0, -0.6917106) /* PCAPRecordedLocation */
+VALUES (33641, 8040, 0xCAEB0018, 50.52831, 170.9108, 95.19627, -0.722175, 0, 0, -0.691711) /* PCAPRecordedLocation */
 /* @teleloc 0xCAEB0018 [50.528310 170.910800 95.196270] -0.722175 0.000000 0.000000 -0.691711 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -18,9 +18,9 @@ VALUES (876,   1, 'The Shining Shield') /* Name */
      , (876,  16, 'The Shining Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (876,   1,   33555594) /* Setup */
-     , (876,   8,  100668115) /* Icon */;
+VALUES (876,   1, 0x0200048A) /* Setup */
+     , (876,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (876, 8040, 3880648749, 122.375, 108.22, 35.698, -0.00305442, 0, 0, -0.999995) /* PCAPRecordedLocation */
+VALUES (876, 8040, 0xE74E002D, 122.375, 108.22, 35.698, -0.003054, 0, 0, -0.999995) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E002D [122.375000 108.220000 35.698000] -0.003054 0.000000 0.000000 -0.999995 */;

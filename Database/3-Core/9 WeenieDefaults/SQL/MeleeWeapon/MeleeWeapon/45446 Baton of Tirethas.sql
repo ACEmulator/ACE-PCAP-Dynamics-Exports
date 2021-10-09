@@ -53,19 +53,19 @@ VALUES (45446,   1, 'Baton of Tirethas') /* Name */
      , (45446,  16, 'Tirethas, the City of Lore and site of the Imperial Academy of Magic, was once home to the greatest concentration of mages and scholars in all of Ispar.  It seems the many students at the school were often unruly, causing havoc throughout the city. Unable to deal with the magical mayhem, the local guards petitioned the academy council for help. The result was the creation of these batons, given out to the guards of the city.  After many a bruised ego, order was once again restored to Tirethas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45446,   1,   33559376) /* Setup */
-     , (45446,   3,  536870932) /* SoundTable */
-     , (45446,   8,  100686735) /* Icon */
-     , (45446,  22,  872415275) /* PhysicsEffectTable */
-     , (45446,  52,  100686604) /* IconUnderlay */;
+VALUES (45446,   1, 0x02001350) /* Setup */
+     , (45446,   3, 0x20000014) /* SoundTable */
+     , (45446,   8, 0x06005B8F) /* Icon */
+     , (45446,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45446,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45446, 8040, 4095213587, 51.04229, 71.14573, 164.9822, -0.6798319, -0.6798319, 0.1944957, 0.1944957) /* PCAPRecordedLocation */
+VALUES (45446, 8040, 0xF4180013, 51.04229, 71.14573, 164.9822, -0.679832, -0.679832, 0.194496, 0.194496) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180013 [51.042290 71.145730 164.982200] -0.679832 -0.679832 0.194496 0.194496 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45446,  4400,      2)  /* DefenderSelf8 */
+VALUES (45446,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
      , (45446,  4518,      2)  /* LightWeaponsMasterySelf8 */
+     , (45446,  4400,      2)  /* DefenderSelf8 */
      , (45446,  4596,      2)  /* MagicResistanceSelf8 */
-     , (45446,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45446,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;
+     , (45446,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;

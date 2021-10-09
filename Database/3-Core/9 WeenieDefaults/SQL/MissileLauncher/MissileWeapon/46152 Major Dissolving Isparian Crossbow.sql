@@ -52,16 +52,16 @@ VALUES (46152,   1, 'Major Dissolving Isparian Crossbow') /* Name */
      , (46152,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46152,   1,   33557769) /* Setup */
-     , (46152,   3,  536870932) /* SoundTable */
-     , (46152,   6,   67111919) /* PaletteBase */
-     , (46152,   8,  100673025) /* Icon */
-     , (46152,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46152,   1, 0x02000D09) /* Setup */
+     , (46152,   3, 0x20000014) /* SoundTable */
+     , (46152,   6, 0x04000BEF) /* PaletteBase */
+     , (46152,   8, 0x06002601) /* Icon */
+     , (46152,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46152,  2059,      2)  /* CoordinationSelf7 */
-     , (46152,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46152,  2101,      2)  /* DefenderSelf7 */
-     , (46152,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46152,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46152,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46152,  2059,      2)  /* CoordinationSelf7 */
      , (46152,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46152,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;
+     , (46152,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46152,  2101,      2)  /* DefenderSelf7 */;

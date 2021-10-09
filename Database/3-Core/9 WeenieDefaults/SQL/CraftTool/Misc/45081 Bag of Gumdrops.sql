@@ -24,7 +24,7 @@ VALUES (45081,   1, 'Bag of Gumdrops') /* Name */
      , (45081,  16, 'A bag of delicious gumdrops') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45081,   1,   33561405) /* Setup */
-     , (45081,   3,  536870932) /* SoundTable */
-     , (45081,   8,  100692220) /* Icon */
-     , (45081,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45081,   1, 0x02001B3D) /* Setup */
+     , (45081,   3, 0x20000014) /* SoundTable */
+     , (45081,   8, 0x060070FC) /* Icon */
+     , (45081,  22, 0x3400002B) /* PhysicsEffectTable */;

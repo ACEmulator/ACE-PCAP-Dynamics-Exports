@@ -43,7 +43,7 @@ VALUES (33363,   1, 'Grael''s Claw') /* Name */
      , (33363,  16, 'A claw infused with the rage of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33363,   1,   33560012) /* Setup */
-     , (33363,   3,  536870932) /* SoundTable */
-     , (33363,   8,  100688983) /* Icon */
-     , (33363,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33363,   1, 0x020015CC) /* Setup */
+     , (33363,   3, 0x20000014) /* SoundTable */
+     , (33363,   8, 0x06006457) /* Icon */
+     , (33363,  22, 0x3400002B) /* PhysicsEffectTable */;

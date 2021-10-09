@@ -55,13 +55,13 @@ VALUES (23022,   1, 'Silifi of Crimson Night') /* Name */
      , (23022,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Shajar, Mahwan, and Yujazik.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23022,   1,   33556553) /* Setup */
-     , (23022,   3,  536870932) /* SoundTable */
-     , (23022,   6,   67111919) /* PaletteBase */
-     , (23022,   8,  100670613) /* Icon */
-     , (23022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23022,   1, 0x02000849) /* Setup */
+     , (23022,   3, 0x20000014) /* SoundTable */
+     , (23022,   6, 0x04000BEF) /* PaletteBase */
+     , (23022,   8, 0x06001C95) /* Icon */
+     , (23022,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23022,  1077,      2)  /* LightningProtectionOther6 */
+VALUES (23022,  1605,      2)  /* DefenderSelf6 */
      , (23022,  1096,      2)  /* FireProtectionOther6 */
-     , (23022,  1605,      2)  /* DefenderSelf6 */;
+     , (23022,  1077,      2)  /* LightningProtectionOther6 */;

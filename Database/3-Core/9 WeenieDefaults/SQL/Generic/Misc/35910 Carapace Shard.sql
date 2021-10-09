@@ -27,8 +27,8 @@ VALUES (35910,   1, 'Carapace Shard') /* Name */
      , (35910,  16, 'A shard of the Paradox-touched Olthoi Queen''s Carapace.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35910,   1,   33554817) /* Setup */
-     , (35910,   3,  536870932) /* SoundTable */
-     , (35910,   6,   67111919) /* PaletteBase */
-     , (35910,   8,  100674809) /* Icon */
-     , (35910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35910,   1, 0x02000181) /* Setup */
+     , (35910,   3, 0x20000014) /* SoundTable */
+     , (35910,   6, 0x04000BEF) /* PaletteBase */
+     , (35910,   8, 0x06002CF9) /* Icon */
+     , (35910,  22, 0x3400002B) /* PhysicsEffectTable */;

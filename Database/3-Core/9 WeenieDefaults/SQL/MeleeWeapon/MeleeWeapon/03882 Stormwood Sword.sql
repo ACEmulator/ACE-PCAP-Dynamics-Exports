@@ -51,16 +51,16 @@ VALUES (3882,   1, 'Stormwood Sword') /* Name */
      , (3882,  16, 'Lightning Long Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3882,   1,   33561671) /* Setup */
-     , (3882,   3,  536870932) /* SoundTable */
-     , (3882,   8,  100693342) /* Icon */
-     , (3882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3882,   1, 0x02001C47) /* Setup */
+     , (3882,   3, 0x20000014) /* SoundTable */
+     , (3882,   8, 0x0600755E) /* Icon */
+     , (3882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3882,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3882,  50,  100688854) /* IconOverlay */
-     , (3882,  52,  100676436) /* IconUnderlay */;
+     , (3882,  50, 0x060063D6) /* IconOverlay */
+     , (3882,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3882, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (3882, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -42,12 +42,12 @@ VALUES (7563,   1, 'Hollow Axe') /* Name */
      , (7563,  16, 'An axe crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7563,   1,   33556651) /* Setup */
-     , (7563,   3,  536870932) /* SoundTable */
-     , (7563,   8,  100668986) /* Icon */
-     , (7563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7563,   1, 0x020008AB) /* Setup */
+     , (7563,   3, 0x20000014) /* SoundTable */
+     , (7563,   8, 0x0600163A) /* Icon */
+     , (7563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7563,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7563, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (7563, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;

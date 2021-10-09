@@ -22,8 +22,8 @@ VALUES (36943,   1, 'Quiddity Ingot') /* Name */
      , (36943,  16, 'An ingot of some strange metal.  It glows with a deep red light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36943,   1,   33555677) /* Setup */
-     , (36943,   3,  536870932) /* SoundTable */
-     , (36943,   6,   67111919) /* PaletteBase */
-     , (36943,   8,  100671703) /* Icon */
-     , (36943,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (36943,   1, 0x020004DD) /* Setup */
+     , (36943,   3, 0x20000014) /* SoundTable */
+     , (36943,   6, 0x04000BEF) /* PaletteBase */
+     , (36943,   8, 0x060020D7) /* Icon */
+     , (36943,  22, 0x3400002B) /* PhysicsEffectTable */;

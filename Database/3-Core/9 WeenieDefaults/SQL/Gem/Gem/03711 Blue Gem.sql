@@ -28,9 +28,9 @@ VALUES (3711,   1, 'Blue Gem') /* Name */
      , (3711,  16, 'Blue Virindi Gem of Willpower.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3711,   1,   33554809) /* Setup */
-     , (3711,   3,  536870932) /* SoundTable */
-     , (3711,   6,   67111919) /* PaletteBase */
-     , (3711,   8,  100668360) /* Icon */
-     , (3711,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3711,   1, 0x02000179) /* Setup */
+     , (3711,   3, 0x20000014) /* SoundTable */
+     , (3711,   6, 0x04000BEF) /* PaletteBase */
+     , (3711,   8, 0x060013C8) /* Icon */
+     , (3711,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3711,  28,       1455) /* Spell - WillpowerOther5 */;

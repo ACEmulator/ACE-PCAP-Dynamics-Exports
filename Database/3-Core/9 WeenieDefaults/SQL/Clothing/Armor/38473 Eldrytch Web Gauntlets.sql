@@ -49,14 +49,14 @@ VALUES (38473,   1, 'Eldrytch Web Gauntlets') /* Name */
      , (38473,  16, 'Eldrytch Web Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38473,   1,   33554648) /* Setup */
-     , (38473,   3,  536870932) /* SoundTable */
-     , (38473,   8,  100688353) /* Icon */
-     , (38473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38473,   1, 0x020000D8) /* Setup */
+     , (38473,   3, 0x20000014) /* SoundTable */
+     , (38473,   8, 0x060061E1) /* Icon */
+     , (38473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38473,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38473,  2113,      2)  /* PiercingBane7 */
+     , (38473,  4678,      2)  /* CANTRIPSLASHINGWARD3 */
      , (38473,  4297,      2)  /* CoordinationSelf8 */
-     , (38473,  4407,      2)  /* Impenetrability8 */
-     , (38473,  4678,      2)  /* CANTRIPSLASHINGWARD3 */;
+     , (38473,  4407,      2)  /* Impenetrability8 */;

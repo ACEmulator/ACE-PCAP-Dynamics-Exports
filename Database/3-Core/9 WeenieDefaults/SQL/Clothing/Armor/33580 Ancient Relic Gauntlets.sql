@@ -40,13 +40,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33580,   1, 'Ancient Relic Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33580,   1,   33554648) /* Setup */
-     , (33580,   3,  536870932) /* SoundTable */
-     , (33580,   8,  100688353) /* Icon */
-     , (33580,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33580,   1, 0x020000D8) /* Setup */
+     , (33580,   3, 0x20000014) /* SoundTable */
+     , (33580,   8, 0x060061E1) /* Icon */
+     , (33580,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33580,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */
+VALUES (33580,  3094,      2)  /* SkinFiazhat */
      , (33580,  2663,      2)  /* ModerateStrength */
-     , (33580,  3094,      2)  /* SkinFiazhat */
-     , (33580,  3308,      2)  /* FlangeAegis */;
+     , (33580,  3308,      2)  /* FlangeAegis */
+     , (33580,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;

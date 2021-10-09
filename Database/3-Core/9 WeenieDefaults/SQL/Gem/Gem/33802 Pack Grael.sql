@@ -24,11 +24,11 @@ VALUES (33802,   1, 'Pack Grael') /* Name */
      , (33802,  16, 'A miniature doll of Grael, the Heart-Render, Black Spear of the Kemeroi, Scourge of Haebrous, and Rage of Shadow.  You can turn this doll in to one of the Emissaries of Ulgrim, who will advance you one character level in exchange.  You can only turn in one doll.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33802,   1,   33560062) /* Setup */
-     , (33802,   2,  150995369) /* MotionTable */
-     , (33802,   8,  100689082) /* Icon */
-     , (33802,  22,  872415419) /* PhysicsEffectTable */;
+VALUES (33802,   1, 0x020015FE) /* Setup */
+     , (33802,   2, 0x090001A9) /* MotionTable */
+     , (33802,   8, 0x060064BA) /* Icon */
+     , (33802,  22, 0x340000BB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33802, 8040, 1676148780, 121.4025, 86.49016, 132, 0.7089556, 0, 0, -0.7052532) /* PCAPRecordedLocation */
+VALUES (33802, 8040, 0x63E8002C, 121.4025, 86.49016, 132, 0.708956, 0, 0, -0.705253) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002C [121.402500 86.490160 132.000000] 0.708956 0.000000 0.000000 -0.705253 */;

@@ -24,7 +24,7 @@ VALUES (34307,   1, 'Sacrificial Knife') /* Name */
      , (34307,  16, 'This heavy bronze knife is a tool used in the dark practices of the Falatacot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34307,   1,   33558634) /* Setup */
-     , (34307,   3,  536870932) /* SoundTable */
-     , (34307,   8,  100675921) /* Icon */
-     , (34307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34307,   1, 0x0200106A) /* Setup */
+     , (34307,   3, 0x20000014) /* SoundTable */
+     , (34307,   8, 0x06003151) /* Icon */
+     , (34307,  22, 0x3400002B) /* PhysicsEffectTable */;

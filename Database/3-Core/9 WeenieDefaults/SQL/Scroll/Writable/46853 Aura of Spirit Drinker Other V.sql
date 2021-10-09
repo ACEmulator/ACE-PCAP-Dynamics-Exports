@@ -23,7 +23,7 @@ VALUES (46853,   1, 'Aura of Spirit Drinker Other V') /* Name */
 Increases the elemental damage bonus of an elemental magic caster by 5%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46853,   1,   33554826) /* Setup */
-     , (46853,   8,  100676674) /* Icon */
-     , (46853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46853,   1, 0x0200018A) /* Setup */
+     , (46853,   8, 0x06003442) /* Icon */
+     , (46853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46853,  28,       6019) /* Spell - SpiritDrinkerOther5 */;

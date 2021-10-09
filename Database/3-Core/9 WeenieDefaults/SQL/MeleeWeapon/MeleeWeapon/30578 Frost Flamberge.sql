@@ -57,19 +57,19 @@ VALUES (30578,   1, 'Frost Flamberge') /* Name */
      , (30578,  40, 'Mosswart Enforcer') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30578,   1,   33559466) /* Setup */
-     , (30578,   3,  536870932) /* SoundTable */
-     , (30578,   6,   67115557) /* PaletteBase */
-     , (30578,   8,  100686955) /* Icon */
-     , (30578,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30578,   1, 0x020013AA) /* Setup */
+     , (30578,   3, 0x20000014) /* SoundTable */
+     , (30578,   6, 0x04001A25) /* PaletteBase */
+     , (30578,   8, 0x06005C6B) /* Icon */
+     , (30578,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30578,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (30578,  52,  100676440) /* IconUnderlay */;
+     , (30578,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30578, 8040, 1481834872, 55.72513, -210.5297, 5.929, -0.4880189, -0.4880189, -0.5117007, -0.5117007) /* PCAPRecordedLocation */
+VALUES (30578, 8040, 0x58530178, 55.72513, -210.5297, 5.929, -0.488019, -0.488019, -0.511701, -0.511701) /* PCAPRecordedLocation */
 /* @teleloc 0x58530178 [55.725130 -210.529700 5.929000] -0.488019 -0.488019 -0.511701 -0.511701 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30578,  2059,      2)  /* CoordinationSelf7 */
-     , (30578,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (30578,  6049,      2)  /* CantripDirtyFightingProwess4 */;
+     , (30578,  6049,      2)  /* CantripDirtyFightingProwess4 */
+     , (30578,  2096,      2)  /* BloodDrinkerSelf7 */;

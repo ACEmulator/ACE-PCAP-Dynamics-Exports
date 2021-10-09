@@ -39,17 +39,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33575,   1, 'Relic Alduressa Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33575,   1,   33560016) /* Setup */
-     , (33575,   3,  536870932) /* SoundTable */
-     , (33575,   8,  100687134) /* Icon */
-     , (33575,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33575,   1, 0x020015D0) /* Setup */
+     , (33575,   3, 0x20000014) /* SoundTable */
+     , (33575,   8, 0x06005D1E) /* Icon */
+     , (33575,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33575, 8040, 3583574079, 182.0727, 144.2719, 374.007, 0.9983903, 0, 0, 0.05671674) /* PCAPRecordedLocation */
+VALUES (33575, 8040, 0xD599003F, 182.0727, 144.2719, 374.007, 0.99839, 0, 0, 0.056717) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [182.072700 144.271900 374.007000] 0.998390 0.000000 0.000000 0.056717 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33575,  2108,      2)  /* Impenetrability7 */
-     , (33575,  2184,      2)  /* RegenerationOther7 */
-     , (33575,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
-     , (33575,  2663,      2)  /* ModerateStrength */;
+VALUES (33575,  2184,      2)  /* RegenerationOther7 */
+     , (33575,  2663,      2)  /* ModerateStrength */
+     , (33575,  2108,      2)  /* Impenetrability7 */
+     , (33575,  2623,      2)  /* CANTRIPHEALTHGAIN2 */;

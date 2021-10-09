@@ -30,8 +30,8 @@ VALUES (43421,   1, 'Ruined Amulet of the Void') /* Name */
      , (43421,  16, 'An Amulet crafted in pyreal that bears the symbol of void magic. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43421,   1,   33554680) /* Setup */
-     , (43421,   3,  536870932) /* SoundTable */
-     , (43421,   6,   67111919) /* PaletteBase */
-     , (43421,   8,  100691580) /* Icon */
-     , (43421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43421,   1, 0x020000F8) /* Setup */
+     , (43421,   3, 0x20000014) /* SoundTable */
+     , (43421,   6, 0x04000BEF) /* PaletteBase */
+     , (43421,   8, 0x06006E7C) /* Icon */
+     , (43421,  22, 0x3400002B) /* PhysicsEffectTable */;

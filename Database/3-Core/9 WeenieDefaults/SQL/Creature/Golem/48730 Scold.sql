@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48730,   1, 'Scold') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48730,   1,   33556427) /* Setup */
-     , (48730,   2,  150995073) /* MotionTable */
-     , (48730,   3,  536870933) /* SoundTable */
-     , (48730,   8,  100667940) /* Icon */;
+VALUES (48730,   1, 0x020007CB) /* Setup */
+     , (48730,   2, 0x09000081) /* MotionTable */
+     , (48730,   3, 0x20000015) /* SoundTable */
+     , (48730,   8, 0x06001224) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48730, 8040, 1482752332, 69.61565, -0.7503052, 0.01800001, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (48730, 8040, 0x5861014C, 69.61565, -0.750305, 0.018, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5861014C [69.615650 -0.750305 0.018000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

@@ -32,9 +32,9 @@ VALUES (36635,   1, 'Foolproof Yellow Topaz') /* Name */
      , (36635,  15, 'Chips of yellow topaz. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36635,   1,   33554817) /* Setup */
-     , (36635,   3,  536870932) /* SoundTable */
-     , (36635,   6,   67111919) /* PaletteBase */
-     , (36635,   8,  100686618) /* Icon */
-     , (36635,  22,  872415275) /* PhysicsEffectTable */
-     , (36635,  50,  100673312) /* IconOverlay */;
+VALUES (36635,   1, 0x02000181) /* Setup */
+     , (36635,   3, 0x20000014) /* SoundTable */
+     , (36635,   6, 0x04000BEF) /* PaletteBase */
+     , (36635,   8, 0x06005B1A) /* Icon */
+     , (36635,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36635,  50, 0x06002720) /* IconOverlay */;

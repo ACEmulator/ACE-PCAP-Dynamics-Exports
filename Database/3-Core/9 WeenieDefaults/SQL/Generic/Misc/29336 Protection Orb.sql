@@ -21,7 +21,7 @@ VALUES (29336,   1, 'Protection Orb') /* Name */
      , (29336,  16, 'The Dereth Exploration Society uses these Protection Orbs to hide their Training Academies from aggressive creatures such as the Olthoi. Return this orb to the Sentry so that he may re-cast the Protection spell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29336,   1,   33554669) /* Setup */
-     , (29336,   3,  536870932) /* SoundTable */
-     , (29336,   8,  100668722) /* Icon */
-     , (29336,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29336,   1, 0x020000ED) /* Setup */
+     , (29336,   3, 0x20000014) /* SoundTable */
+     , (29336,   8, 0x06001532) /* Icon */
+     , (29336,  22, 0x3400002B) /* PhysicsEffectTable */;

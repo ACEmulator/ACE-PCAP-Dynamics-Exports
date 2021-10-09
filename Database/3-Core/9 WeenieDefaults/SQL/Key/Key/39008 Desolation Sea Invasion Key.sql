@@ -25,6 +25,6 @@ VALUES (39008,   1, 'Desolation Sea Invasion Key') /* Name */
      , (39008,  16, 'An ancient silver key rusted and overgrown with coral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39008,   1,   33554784) /* Setup */
-     , (39008,   8,  100667485) /* Icon */
-     , (39008,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39008,   1, 0x02000160) /* Setup */
+     , (39008,   8, 0x0600105D) /* Icon */
+     , (39008,  22, 0x3400002B) /* PhysicsEffectTable */;

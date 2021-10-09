@@ -30,7 +30,7 @@ VALUES (48749,   1, 'Legendary Key') /* Name */
      , (48749,  16, 'A key only heard about in whispers and myths.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48749,   1,   33554784) /* Setup */
-     , (48749,   3,  536870932) /* SoundTable */
-     , (48749,   8,  100693001) /* Icon */
-     , (48749,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48749,   1, 0x02000160) /* Setup */
+     , (48749,   3, 0x20000014) /* SoundTable */
+     , (48749,   8, 0x06007409) /* Icon */
+     , (48749,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,6 +27,6 @@ VALUES (30252,   1, 'Medicated Stamina Kit') /* Name */
      , (30252,  16, 'This Medicated Stamina Kit does not last long, but it is very powerful!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30252,   1,   33555194) /* Setup */
-     , (30252,   8,  100686704) /* Icon */
-     , (30252,  52,  100686604) /* IconUnderlay */;
+VALUES (30252,   1, 0x020002FA) /* Setup */
+     , (30252,   8, 0x06005B70) /* Icon */
+     , (30252,  52, 0x06005B0C) /* IconUnderlay */;

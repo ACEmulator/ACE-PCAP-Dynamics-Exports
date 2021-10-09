@@ -23,7 +23,7 @@ VALUES (3188,   1, 'Scroll of Creature Enchantment Ineptitude II') /* Name */
 Decreases the target''s Creature Enchantment skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3188,   1,   33554826) /* Setup */
-     , (3188,   8,  100676453) /* Icon */
-     , (3188,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3188,   1, 0x0200018A) /* Setup */
+     , (3188,   8, 0x06003365) /* Icon */
+     , (3188,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3188,  28,        570) /* Spell - CreatureEnchantmentIneptitudeOther2 */;

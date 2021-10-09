@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35591,   1, 'Cave Door Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35591,   1,   33554784) /* Setup */
-     , (35591,   3,  536870932) /* SoundTable */
-     , (35591,   8,  100667485) /* Icon */
-     , (35591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35591,   1, 0x02000160) /* Setup */
+     , (35591,   3, 0x20000014) /* SoundTable */
+     , (35591,   8, 0x0600105D) /* Icon */
+     , (35591,  22, 0x3400002B) /* PhysicsEffectTable */;

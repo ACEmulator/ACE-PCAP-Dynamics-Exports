@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1776,   1, 'Scroll of Focus Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1776,   1,   33554826) /* Setup */
-     , (1776,   8,  100676458) /* Icon */
-     , (1776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1776,   1, 0x0200018A) /* Setup */
+     , (1776,   8, 0x0600336A) /* Icon */
+     , (1776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1776,  28,       1421) /* Spell - FocusSelf1 */
      , (1776, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

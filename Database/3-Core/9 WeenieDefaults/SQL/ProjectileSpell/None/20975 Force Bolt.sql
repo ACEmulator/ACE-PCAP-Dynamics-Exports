@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20975,   1, 'Force Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20975,   1,   33555443) /* Setup */
-     , (20975,   3,  536870971) /* SoundTable */
-     , (20975,   8,  100667494) /* Icon */
-     , (20975,  22,  872415241) /* PhysicsEffectTable */
+VALUES (20975,   1, 0x020003F3) /* Setup */
+     , (20975,   3, 0x2000003B) /* SoundTable */
+     , (20975,   8, 0x06001066) /* Icon */
+     , (20975,  22, 0x34000009) /* PhysicsEffectTable */
      , (20975,  28,         86) /* Spell - ForceBolt1 */
      , (20975,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20975, 8040, 151715893, 146.8979, 111.796, 13.86127, 0.8072373, 0, 0, -0.5902271) /* PCAPRecordedLocation */
+VALUES (20975, 8040, 0x090B0035, 146.8979, 111.796, 13.86127, 0.807237, 0, 0, -0.590227) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0035 [146.897900 111.796000 13.861270] 0.807237 0.000000 0.000000 -0.590227 */;

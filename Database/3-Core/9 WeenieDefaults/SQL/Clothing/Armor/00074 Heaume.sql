@@ -46,14 +46,14 @@ Worth 8,317') /* Inscription */
      , (74,  16, 'Exquisitely crafted Silver Heaume of Rejuvenation, set with 1 Red Jade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (74,   1,   33555248) /* Setup */
-     , (74,   3,  536870932) /* SoundTable */
-     , (74,   6,   67108990) /* PaletteBase */
-     , (74,   8,  100669663) /* Icon */
-     , (74,  22,  872415275) /* PhysicsEffectTable */
+VALUES (74,   1, 0x02000330) /* Setup */
+     , (74,   3, 0x20000014) /* SoundTable */
+     , (74,   6, 0x0400007E) /* PaletteBase */
+     , (74,   8, 0x060018DF) /* Icon */
+     , (74,  22, 0x3400002B) /* PhysicsEffectTable */
      , (74,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (74,   191,      2)  /* RejuvenationSelf4 */
-     , (74,  1484,      2)  /* Impenetrability4 */
-     , (74,  1548,      2)  /* FlameBane2 */;
+VALUES (74,  1484,      2)  /* Impenetrability4 */
+     , (74,  1548,      2)  /* FlameBane2 */
+     , (74,   191,      2)  /* RejuvenationSelf4 */;

@@ -23,7 +23,7 @@ VALUES (3453,   1, 'Scroll of Person Attunement Self II') /* Name */
 Increases the caster''s Assess Person skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3453,   1,   33554826) /* Setup */
-     , (3453,   8,  100676448) /* Icon */
-     , (3453,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3453,   1, 0x0200018A) /* Setup */
+     , (3453,   8, 0x06003360) /* Icon */
+     , (3453,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3453,  28,        825) /* Spell - PersonAttunementSelf2 */;

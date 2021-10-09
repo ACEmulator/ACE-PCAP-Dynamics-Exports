@@ -29,20 +29,20 @@ VALUES (32992,   1, 'Eddred the Wolf') /* Name */
      , (32992,   5, 'Chapterhouse Chamberlain') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32992,   1,   33554433) /* Setup */
-     , (32992,   2,  150994945) /* MotionTable */
-     , (32992,   3,  536870913) /* SoundTable */
-     , (32992,   6,   67108990) /* PaletteBase */
-     , (32992,   8,  100667377) /* Icon */
-     , (32992,   9,   83890510) /* EyesTexture */
-     , (32992,  10,   83890520) /* NoseTexture */
-     , (32992,  11,   83890664) /* MouthTexture */
-     , (32992,  15,   67117020) /* HairPalette */
-     , (32992,  16,   67110064) /* EyesPalette */
-     , (32992,  17,   67109562) /* SkinPalette */;
+VALUES (32992,   1, 0x02000001) /* Setup */
+     , (32992,   2, 0x09000001) /* MotionTable */
+     , (32992,   3, 0x20000001) /* SoundTable */
+     , (32992,   6, 0x0400007E) /* PaletteBase */
+     , (32992,   8, 0x06000FF1) /* Icon */
+     , (32992,   9, 0x0500114E) /* EyesTexture */
+     , (32992,  10, 0x05001158) /* NoseTexture */
+     , (32992,  11, 0x050011E8) /* MouthTexture */
+     , (32992,  15, 0x04001FDC) /* HairPalette */
+     , (32992,  16, 0x040004B0) /* EyesPalette */
+     , (32992,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32992, 8040, 8454441, 76.2302, -23.1587, 0.004999995, 0.999645, 0, 0, -0.026658) /* PCAPRecordedLocation */
+VALUES (32992, 8040, 0x00810129, 76.2302, -23.1587, 0.005, 0.999645, 0, 0, -0.026658) /* PCAPRecordedLocation */
 /* @teleloc 0x00810129 [76.230200 -23.158700 0.005000] 0.999645 0.000000 0.000000 -0.026658 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

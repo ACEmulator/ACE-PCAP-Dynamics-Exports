@@ -34,8 +34,8 @@ VALUES (2598,   1, 'Baggy Pants') /* Name */
      , (2598,  16, 'Baggy Pants') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2598,   1,   33554653) /* Setup */
-     , (2598,   3,  536870932) /* SoundTable */
-     , (2598,   6,   67108990) /* PaletteBase */
-     , (2598,   8,  100667370) /* Icon */
-     , (2598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2598,   1, 0x020000DD) /* Setup */
+     , (2598,   3, 0x20000014) /* SoundTable */
+     , (2598,   6, 0x0400007E) /* PaletteBase */
+     , (2598,   8, 0x06000FEA) /* Icon */
+     , (2598,  22, 0x3400002B) /* PhysicsEffectTable */;

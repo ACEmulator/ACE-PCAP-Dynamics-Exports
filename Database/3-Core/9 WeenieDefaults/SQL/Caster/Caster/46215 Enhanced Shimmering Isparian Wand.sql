@@ -44,15 +44,15 @@ VALUES (46215,   1, 'Enhanced Shimmering Isparian Wand') /* Name */
      , (46215,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46215,   1,   33557731) /* Setup */
-     , (46215,   3,  536870932) /* SoundTable */
-     , (46215,   6,   67111919) /* PaletteBase */
-     , (46215,   8,  100673203) /* Icon */
-     , (46215,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46215,   1, 0x02000CE3) /* Setup */
+     , (46215,   3, 0x20000014) /* SoundTable */
+     , (46215,   6, 0x04000BEF) /* PaletteBase */
+     , (46215,   8, 0x060026B3) /* Icon */
+     , (46215,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46215,  2101,      2)  /* DefenderSelf7 */
+VALUES (46215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (46215,  2287,      2)  /* ManaMasterySelf7 */
-     , (46215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (46215,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46215,  2101,      2)  /* DefenderSelf7 */
      , (46215,  3259,      2)  /* SpiritDrinkerSelf7 */;

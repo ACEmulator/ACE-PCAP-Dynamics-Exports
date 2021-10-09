@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43691,   1, 'Frozen Wight Sorcerer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43691,   1,   33561142) /* Setup */
-     , (43691,   2,  150994967) /* MotionTable */
-     , (43691,   3,  536870934) /* SoundTable */
-     , (43691,   6,   67110722) /* PaletteBase */
-     , (43691,   8,  100667942) /* Icon */
-     , (43691,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (43691,   1, 0x02001A36) /* Setup */
+     , (43691,   2, 0x09000017) /* MotionTable */
+     , (43691,   3, 0x20000016) /* SoundTable */
+     , (43691,   6, 0x04000742) /* PaletteBase */
+     , (43691,   8, 0x06001226) /* Icon */
+     , (43691,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43691, 8040, 2028535825, 53.01333, 18.72661, 106.0082, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43691, 8040, 0x78E90011, 53.01333, 18.72661, 106.0082, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x78E90011 [53.013330 18.726610 106.008200] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

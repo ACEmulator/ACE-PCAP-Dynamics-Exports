@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52740,   1, 'Gem of Brilliance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52740,   1,   33554809) /* Setup */
-     , (52740,   3,  536870932) /* SoundTable */
-     , (52740,   6,   67111919) /* PaletteBase */
-     , (52740,   8,  100668277) /* Icon */
-     , (52740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52740,   1, 0x02000179) /* Setup */
+     , (52740,   3, 0x20000014) /* SoundTable */
+     , (52740,   6, 0x04000BEF) /* PaletteBase */
+     , (52740,   8, 0x06001375) /* Icon */
+     , (52740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52740,  28,       6176) /* Spell - Genius */;

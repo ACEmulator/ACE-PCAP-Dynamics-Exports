@@ -22,7 +22,7 @@ VALUES (16904,   1, 'A List of Raiding Creatures') /* Name */
      , (16904,  16, 'A note hastily written by Nuhmudira. A strange symbol is scribbled at the bottom.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16904,   1,   33554773) /* Setup */
-     , (16904,   3,  536870932) /* SoundTable */
-     , (16904,   8,  100668176) /* Icon */
-     , (16904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16904,   1, 0x02000155) /* Setup */
+     , (16904,   3, 0x20000014) /* SoundTable */
+     , (16904,   8, 0x06001310) /* Icon */
+     , (16904,  22, 0x3400002B) /* PhysicsEffectTable */;

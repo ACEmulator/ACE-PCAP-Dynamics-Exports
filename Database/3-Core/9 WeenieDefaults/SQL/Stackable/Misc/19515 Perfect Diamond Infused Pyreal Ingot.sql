@@ -23,7 +23,7 @@ VALUES (19515,   1, 'Perfect Diamond Infused Pyreal Ingot') /* Name */
      , (19515,  16, 'A pyreal ingot infused with diamond oil. You can turn this ingot into a weapon for levels 50+.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19515,   1,   33555677) /* Setup */
-     , (19515,   3,  536870932) /* SoundTable */
-     , (19515,   8,  100672972) /* Icon */
-     , (19515,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19515,   1, 0x020004DD) /* Setup */
+     , (19515,   3, 0x20000014) /* SoundTable */
+     , (19515,   8, 0x060025CC) /* Icon */
+     , (19515,  22, 0x3400002B) /* PhysicsEffectTable */;

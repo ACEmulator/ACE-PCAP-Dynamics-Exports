@@ -18,9 +18,9 @@ VALUES (22238,   1, 'Meditation Gardens') /* Name */
      , (22238,  16, 'Meditation Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22238,   1,   33558052) /* Setup */
-     , (22238,   8,  100667499) /* Icon */;
+VALUES (22238,   1, 0x02000E24) /* Setup */
+     , (22238,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22238, 8040, 1448083738, 20.105, -37.694, 0, -0.00485148, 0, 0, -0.999988) /* PCAPRecordedLocation */
+VALUES (22238, 8040, 0x5650011A, 20.105, -37.694, 0, -0.004851, 0, 0, -0.999988) /* PCAPRecordedLocation */
 /* @teleloc 0x5650011A [20.105000 -37.694000 0.000000] -0.004851 0.000000 0.000000 -0.999988 */;

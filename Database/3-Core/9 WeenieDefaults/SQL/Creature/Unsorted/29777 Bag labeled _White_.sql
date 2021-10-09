@@ -27,12 +27,12 @@ VALUES (29777,   1, 'Bag labeled "White"') /* Name */
      , (29777,  16, 'A bag that is tied shut and has a label on it that says: "White"') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29777,   1,   33559067) /* Setup */
-     , (29777,   2,  150995147) /* MotionTable */
-     , (29777,   3,  536871052) /* SoundTable */
-     , (29777,   8,  100677177) /* Icon */
-     , (29777,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29777,   1, 0x0200121B) /* Setup */
+     , (29777,   2, 0x090000CB) /* MotionTable */
+     , (29777,   3, 0x2000008C) /* SoundTable */
+     , (29777,   8, 0x06003639) /* Icon */
+     , (29777,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29777, 8040, 23069250, 73.2099, -30.0205, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (29777, 8040, 0x01600242, 73.2099, -30.0205, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01600242 [73.209900 -30.020500 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;

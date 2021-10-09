@@ -32,10 +32,10 @@ VALUES (48886,   1, 'Mud Golem Essence') /* Name */
      , (48886,  14, 'Use this essence to summon or dismiss your Mud Golem.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48886,   1,   33554817) /* Setup */
-     , (48886,   3,  536870932) /* SoundTable */
-     , (48886,   6,   67111919) /* PaletteBase */
-     , (48886,   8,  100693023) /* Icon */
-     , (48886,  22,  872415275) /* PhysicsEffectTable */
-     , (48886,  50,  100693037) /* IconOverlay */
-     , (48886,  52,  100693024) /* IconUnderlay */;
+VALUES (48886,   1, 0x02000181) /* Setup */
+     , (48886,   3, 0x20000014) /* SoundTable */
+     , (48886,   6, 0x04000BEF) /* PaletteBase */
+     , (48886,   8, 0x0600741F) /* Icon */
+     , (48886,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48886,  50, 0x0600742D) /* IconOverlay */
+     , (48886,  52, 0x06007420) /* IconUnderlay */;

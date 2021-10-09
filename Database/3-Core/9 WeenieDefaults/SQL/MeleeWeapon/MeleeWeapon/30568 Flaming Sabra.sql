@@ -52,14 +52,14 @@ VALUES (30568,   1, 'Flaming Sabra') /* Name */
      , (30568,  16, 'Flaming Sabra of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30568,   1,   33559457) /* Setup */
-     , (30568,   3,  536870932) /* SoundTable */
-     , (30568,   6,   67115557) /* PaletteBase */
-     , (30568,   8,  100686934) /* Icon */
-     , (30568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30568,   1, 0x020013A1) /* Setup */
+     , (30568,   3, 0x20000014) /* SoundTable */
+     , (30568,   6, 0x04001A25) /* PaletteBase */
+     , (30568,   8, 0x06005C56) /* Icon */
+     , (30568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30568,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30568,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (30568,  1627,      2)  /* SwiftKillerSelf6 */
-     , (30568,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (30568,  2578,      2)  /* CANTRIPARMOR1 */
+     , (30568,  1627,      2)  /* SwiftKillerSelf6 */;

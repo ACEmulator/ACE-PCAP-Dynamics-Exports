@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43848,   1, 'Heart of Darkest Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43848,   1,   33561171) /* Setup */
-     , (43848,   3,  536870932) /* SoundTable */
-     , (43848,   6,   67111919) /* PaletteBase */
-     , (43848,   8,  100691783) /* Icon */
-     , (43848,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43848,   1, 0x02001A53) /* Setup */
+     , (43848,   3, 0x20000014) /* SoundTable */
+     , (43848,   6, 0x04000BEF) /* PaletteBase */
+     , (43848,   8, 0x06006F47) /* Icon */
+     , (43848,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43848,  28,       5355) /* Spell - NetherBolt7 */
-     , (43848,  52,  100686604) /* IconUnderlay */;
+     , (43848,  52, 0x06005B0C) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43848, 8040, 2847146009, 93.60461, 7.61775, 93.92901, 0.05414372, 0.05414372, -0.7050308, -0.7050308) /* PCAPRecordedLocation */
+VALUES (43848, 8040, 0xA9B40019, 93.60461, 7.61775, 93.92901, 0.054144, 0.054144, -0.705031, -0.705031) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [93.604610 7.617750 93.929010] 0.054144 0.054144 -0.705031 -0.705031 */;

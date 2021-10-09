@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36036,   1, 'Aerbax') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36036,   1,   33560393) /* Setup */
-     , (36036,   2,  150995409) /* MotionTable */
-     , (36036,   3,  536870930) /* SoundTable */
-     , (36036,   8,  100667943) /* Icon */
-     , (36036,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (36036,   1, 0x02001749) /* Setup */
+     , (36036,   2, 0x090001D1) /* MotionTable */
+     , (36036,   3, 0x20000012) /* SoundTable */
+     , (36036,   8, 0x06001227) /* Icon */
+     , (36036,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36036, 8040, 10682857, 348.7802, -139.8865, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36036, 8040, 0x00A301E9, 348.7802, -139.8865, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301E9 [348.780200 -139.886500 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

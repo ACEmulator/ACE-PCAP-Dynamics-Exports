@@ -46,16 +46,16 @@ VALUES (40705,   1, 'Covenant Sollerets') /* Name */
      , (40705,  16, 'Covenant Sollerets of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40705,   1,   33554654) /* Setup */
-     , (40705,   3,  536870932) /* SoundTable */
-     , (40705,   6,   67108990) /* PaletteBase */
-     , (40705,   8,  100673457) /* Icon */
-     , (40705,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40705,   1, 0x020000DE) /* Setup */
+     , (40705,   3, 0x20000014) /* SoundTable */
+     , (40705,   6, 0x0400007E) /* PaletteBase */
+     , (40705,   8, 0x060027B1) /* Icon */
+     , (40705,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40705,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40705,   879,      2)  /* HealingMasterySelf6 */
-     , (40705,  1486,      2)  /* Impenetrability6 */
+VALUES (40705,  1486,      2)  /* Impenetrability6 */
      , (40705,  1574,      2)  /* PiercingBane6 */
+     , (40705,   879,      2)  /* HealingMasterySelf6 */
      , (40705,  2098,      2)  /* BludgeonBane7 */
      , (40705,  2102,      2)  /* FlameBane7 */;

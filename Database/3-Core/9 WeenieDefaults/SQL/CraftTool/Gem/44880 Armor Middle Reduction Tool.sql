@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44880,   1, 'Armor Middle Reduction Tool') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44880,   1,   33555677) /* Setup */
-     , (44880,   3,  536870932) /* SoundTable */
-     , (44880,   8,  100692210) /* Icon */
-     , (44880,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (44880,   1, 0x020004DD) /* Setup */
+     , (44880,   3, 0x20000014) /* SoundTable */
+     , (44880,   8, 0x060070F2) /* Icon */
+     , (44880,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,8 +27,8 @@ VALUES (25477,   1, 'Renegade Pendant') /* Name */
      , (25477,  16, 'A large green gem hung from a silver necklace. The pendant marks you as a Renegade ally.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25477,   1,   33554680) /* Setup */
-     , (25477,   3,  536870932) /* SoundTable */
-     , (25477,   6,   67111919) /* PaletteBase */
-     , (25477,   8,  100674797) /* Icon */
-     , (25477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25477,   1, 0x020000F8) /* Setup */
+     , (25477,   3, 0x20000014) /* SoundTable */
+     , (25477,   6, 0x04000BEF) /* PaletteBase */
+     , (25477,   8, 0x06002CED) /* Icon */
+     , (25477,  22, 0x3400002B) /* PhysicsEffectTable */;

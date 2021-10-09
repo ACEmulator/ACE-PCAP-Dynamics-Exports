@@ -29,8 +29,8 @@ VALUES (40512,   1, 'Empowered Shadowfire Infusion') /* Name */
      , (40512,  20, 'Empowered Shadowfire Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40512,   1,   33555965) /* Setup */
-     , (40512,   3,  536870932) /* SoundTable */
-     , (40512,   6,   67111919) /* PaletteBase */
-     , (40512,   8,  100690380) /* Icon */
-     , (40512,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40512,   1, 0x020005FD) /* Setup */
+     , (40512,   3, 0x20000014) /* SoundTable */
+     , (40512,   6, 0x04000BEF) /* PaletteBase */
+     , (40512,   8, 0x060069CC) /* Icon */
+     , (40512,  22, 0x3400002B) /* PhysicsEffectTable */;

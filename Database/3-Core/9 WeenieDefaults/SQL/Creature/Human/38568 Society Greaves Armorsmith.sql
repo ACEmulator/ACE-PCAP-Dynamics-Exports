@@ -31,20 +31,20 @@ VALUES (38568,   1, 'Society Greaves Armorsmith') /* Name */
      , (38568,   5, 'Society Armorsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38568,   1,   33554433) /* Setup */
-     , (38568,   2,  150994945) /* MotionTable */
-     , (38568,   3,  536870913) /* SoundTable */
-     , (38568,   6,   67108990) /* PaletteBase */
-     , (38568,   8,  100667377) /* Icon */
-     , (38568,   9,   83890434) /* EyesTexture */
-     , (38568,  10,   83890549) /* NoseTexture */
-     , (38568,  11,   83890614) /* MouthTexture */
-     , (38568,  15,   67117070) /* HairPalette */
-     , (38568,  16,   67110065) /* EyesPalette */
-     , (38568,  17,   67115908) /* SkinPalette */;
+VALUES (38568,   1, 0x02000001) /* Setup */
+     , (38568,   2, 0x09000001) /* MotionTable */
+     , (38568,   3, 0x20000001) /* SoundTable */
+     , (38568,   6, 0x0400007E) /* PaletteBase */
+     , (38568,   8, 0x06000FF1) /* Icon */
+     , (38568,   9, 0x05001102) /* EyesTexture */
+     , (38568,  10, 0x05001175) /* NoseTexture */
+     , (38568,  11, 0x050011B6) /* MouthTexture */
+     , (38568,  15, 0x0400200E) /* HairPalette */
+     , (38568,  16, 0x040004B1) /* EyesPalette */
+     , (38568,  17, 0x04001B84) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38568, 8040, 12124421, 57.718, -38.821, -23.995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38568, 8040, 0x00B90105, 57.718, -38.821, -23.995, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00B90105 [57.718000 -38.821000 -23.995000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -18,9 +18,9 @@ VALUES (14327,   1, 'Siege Road Villas') /* Name */
      , (14327,  16, 'Welcome to Siege Road Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14327,   1,   33557463) /* Setup */
-     , (14327,   8,  100668115) /* Icon */;
+VALUES (14327,   1, 0x02000BD7) /* Setup */
+     , (14327,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14327, 8040, 3515023386, 92.4773, 43.6869, 24.06587, 0.905744, 0, 0, 0.423826) /* PCAPRecordedLocation */
+VALUES (14327, 8040, 0xD183001A, 92.4773, 43.6869, 24.06587, 0.905744, 0, 0, 0.423826) /* PCAPRecordedLocation */
 /* @teleloc 0xD183001A [92.477300 43.686900 24.065870] 0.905744 0.000000 0.000000 0.423826 */;

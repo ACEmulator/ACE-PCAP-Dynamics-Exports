@@ -55,17 +55,17 @@ VALUES (22974,   1, 'Silifi of Crimson Night') /* Name */
      , (22974,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Hoary Armoredillo. It is fitted with the rubies Al-Khur, Mahwan, and Sulmada.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22974,   1,   33556553) /* Setup */
-     , (22974,   3,  536870932) /* SoundTable */
-     , (22974,   6,   67111919) /* PaletteBase */
-     , (22974,   8,  100670613) /* Icon */
-     , (22974,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22974,   1, 0x02000849) /* Setup */
+     , (22974,   3, 0x20000014) /* SoundTable */
+     , (22974,   6, 0x04000BEF) /* PaletteBase */
+     , (22974,   8, 0x06001C95) /* Icon */
+     , (22974,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22974, 8040, 2847146009, 89.48349, 2.671451, 93.92901, 0.1955348, 0.1955348, -0.6795338, -0.6795338) /* PCAPRecordedLocation */
+VALUES (22974, 8040, 0xA9B40019, 89.48349, 2.671451, 93.92901, 0.195535, 0.195535, -0.679534, -0.679534) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [89.483490 2.671451 93.929010] 0.195535 0.195535 -0.679534 -0.679534 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22974,  1384,      2)  /* CoordinationOther6 */
-     , (22974,  1605,      2)  /* DefenderSelf6 */
-     , (22974,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (22974,  1605,      2)  /* DefenderSelf6 */
+     , (22974,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (22974,  1384,      2)  /* CoordinationOther6 */;

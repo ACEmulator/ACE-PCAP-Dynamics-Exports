@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35946,   1, 'Whispering Caverns') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35946,   1,   33555925) /* Setup */
-     , (35946,   2,  150994947) /* MotionTable */
-     , (35946,   8,  100667499) /* Icon */;
+VALUES (35946,   1, 0x020005D5) /* Setup */
+     , (35946,   2, 0x09000003) /* MotionTable */
+     , (35946,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35946, 8040, 3932946779, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.2164396) /* PCAPRecordedLocation */
+VALUES (35946, 8040, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.21644) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C015B [192.236000 143.991000 -11.263000] 0.976296 0.000000 0.000000 -0.216440 */;

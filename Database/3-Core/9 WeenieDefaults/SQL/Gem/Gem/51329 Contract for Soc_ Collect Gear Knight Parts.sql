@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51329,   1, 'Contract for Soc: Collect Gear Knight Parts') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51329,   1,   33557625) /* Setup */
-     , (51329,   3,  536870932) /* SoundTable */
-     , (51329,   8,  100691930) /* Icon */
-     , (51329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51329,   1, 0x02000C79) /* Setup */
+     , (51329,   3, 0x20000014) /* SoundTable */
+     , (51329,   8, 0x06006FDA) /* Icon */
+     , (51329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51329, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

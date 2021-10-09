@@ -23,12 +23,12 @@ VALUES (19241,   1, 'Decorative Bronze Statue ') /* Name */
      , (19241,  16, 'A small decorative statue of Thorsten Cragstone crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19241,   1,   33554433) /* Setup */
-     , (19241,   2,  150995205) /* MotionTable */
-     , (19241,   6,   67108990) /* PaletteBase */
-     , (19241,   8,  100667446) /* Icon */
-     , (19241,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (19241,   1, 0x02000001) /* Setup */
+     , (19241,   2, 0x09000105) /* MotionTable */
+     , (19241,   6, 0x0400007E) /* PaletteBase */
+     , (19241,   8, 0x06001036) /* Icon */
+     , (19241,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19241, 8040, 23855555, 59.14829, -37.35219, 0.003499985, 0.9889063, 0, 0, 0.1485409) /* PCAPRecordedLocation */
+VALUES (19241, 8040, 0x016C01C3, 59.14829, -37.35219, 0.0035, 0.988906, 0, 0, 0.148541) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [59.148290 -37.352190 0.003500] 0.988906 0.000000 0.000000 0.148541 */;

@@ -21,13 +21,13 @@ VALUES (5888,   1, 'Brief Note') /* Name */
      , (5888,  16, 'A sheet of parchment, apparently torn from a bound book.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5888,   1,   33554773) /* Setup */
-     , (5888,   3,  536870932) /* SoundTable */
-     , (5888,   8,  100668176) /* Icon */
-     , (5888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5888,   1, 0x02000155) /* Setup */
+     , (5888,   3, 0x20000014) /* SoundTable */
+     , (5888,   8, 0x06001310) /* Icon */
+     , (5888,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5888, 8040, 2463432744, 104.115, 184.878, 300.7154, -0.6761031, 0, 0, -0.736807) /* PCAPRecordedLocation */
+VALUES (5888, 8040, 0x92D50028, 104.115, 184.878, 300.7154, -0.676103, 0, 0, -0.736807) /* PCAPRecordedLocation */
 /* @teleloc 0x92D50028 [104.115000 184.878000 300.715400] -0.676103 0.000000 0.000000 -0.736807 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

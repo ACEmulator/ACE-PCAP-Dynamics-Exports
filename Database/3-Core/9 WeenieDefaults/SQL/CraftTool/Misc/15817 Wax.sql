@@ -30,7 +30,7 @@ VALUES (15817,   1, 'Wax') /* Name */
      , (15817,  15, 'A big lump of soft wax.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15817,   1,   33554669) /* Setup */
-     , (15817,   3,  536870932) /* SoundTable */
-     , (15817,   8,  100672828) /* Icon */
-     , (15817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15817,   1, 0x020000ED) /* Setup */
+     , (15817,   3, 0x20000014) /* SoundTable */
+     , (15817,   8, 0x0600253C) /* Icon */
+     , (15817,  22, 0x3400002B) /* PhysicsEffectTable */;

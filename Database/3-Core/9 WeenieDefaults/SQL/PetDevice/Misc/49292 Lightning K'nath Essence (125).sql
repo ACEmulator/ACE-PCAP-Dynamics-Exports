@@ -39,10 +39,10 @@ VALUES (49292,   1, 'Lightning K''nath Essence (125)') /* Name */
      , (49292,  14, 'Use this essence to summon or dismiss your Lightning K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49292,   1,   33554817) /* Setup */
-     , (49292,   3,  536870932) /* SoundTable */
-     , (49292,   6,   67111919) /* PaletteBase */
-     , (49292,   8,  100693040) /* Icon */
-     , (49292,  22,  872415275) /* PhysicsEffectTable */
-     , (49292,  50,  100693029) /* IconOverlay */
-     , (49292,  52,  100693024) /* IconUnderlay */;
+VALUES (49292,   1, 0x02000181) /* Setup */
+     , (49292,   3, 0x20000014) /* SoundTable */
+     , (49292,   6, 0x04000BEF) /* PaletteBase */
+     , (49292,   8, 0x06007430) /* Icon */
+     , (49292,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49292,  50, 0x06007425) /* IconOverlay */
+     , (49292,  52, 0x06007420) /* IconUnderlay */;

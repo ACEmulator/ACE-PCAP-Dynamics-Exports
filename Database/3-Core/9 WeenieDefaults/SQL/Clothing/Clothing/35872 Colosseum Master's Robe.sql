@@ -44,18 +44,18 @@ VALUES (35872,   1, 'Colosseum Master''s Robe') /* Name */
      , (35872,  16, 'The elegant silken robes that once belonged to the fearsome Master of the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35872,   1,   33554854) /* Setup */
-     , (35872,   3,  536870932) /* SoundTable */
-     , (35872,   6,   67108990) /* PaletteBase */
-     , (35872,   8,  100672450) /* Icon */
-     , (35872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35872,   1, 0x020001A6) /* Setup */
+     , (35872,   3, 0x20000014) /* SoundTable */
+     , (35872,   6, 0x0400007E) /* PaletteBase */
+     , (35872,   8, 0x060023C2) /* Icon */
+     , (35872,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35872,  2053,      2)  /* ArmorSelf7 */
-     , (35872,  2108,      2)  /* Impenetrability7 */
-     , (35872,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (35872,  2243,      2)  /* ImpregnabilitySelf7 */
      , (35872,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (35872,  2053,      2)  /* ArmorSelf7 */
      , (35872,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (35872,  2573,      2)  /* CANTRIPENDURANCE2 */
      , (35872,  2574,      2)  /* CANTRIPFOCUS2 */
-     , (35872,  2575,      2)  /* CANTRIPQUICKNESS2 */;
+     , (35872,  2575,      2)  /* CANTRIPQUICKNESS2 */
+     , (35872,  2108,      2)  /* Impenetrability7 */;

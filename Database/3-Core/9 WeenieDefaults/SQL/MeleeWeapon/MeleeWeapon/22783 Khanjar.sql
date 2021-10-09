@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22783,   1, 'Khanjar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22783,   1,   33554744) /* Setup */
-     , (22783,   3,  536870932) /* SoundTable */
-     , (22783,   6,   67111919) /* PaletteBase */
-     , (22783,   8,  100668936) /* Icon */
-     , (22783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22783,   1, 0x02000138) /* Setup */
+     , (22783,   3, 0x20000014) /* SoundTable */
+     , (22783,   6, 0x04000BEF) /* PaletteBase */
+     , (22783,   8, 0x06001608) /* Icon */
+     , (22783,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22783, 8040, 4051697665, 7.228945, 22.05834, 12.09272, -0.3906148, -0.3906148, -0.5894235, -0.5894235) /* PCAPRecordedLocation */
+VALUES (22783, 8040, 0xF1800001, 7.228945, 22.05834, 12.09272, -0.390615, -0.390615, -0.589424, -0.589424) /* PCAPRecordedLocation */
 /* @teleloc 0xF1800001 [7.228945 22.058340 12.092720] -0.390615 -0.390615 -0.589424 -0.589424 */;

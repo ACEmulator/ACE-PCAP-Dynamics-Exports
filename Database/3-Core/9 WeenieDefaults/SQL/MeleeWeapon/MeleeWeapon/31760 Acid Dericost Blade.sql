@@ -51,15 +51,15 @@ VALUES (31760,   1, 'Acid Dericost Blade') /* Name */
      , (31760,  16, 'Acid Dericost Blade of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31760,   1,   33559636) /* Setup */
-     , (31760,   3,  536870932) /* SoundTable */
-     , (31760,   6,   67116700) /* PaletteBase */
-     , (31760,   8,  100688005) /* Icon */
-     , (31760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31760,   1, 0x02001454) /* Setup */
+     , (31760,   3, 0x20000014) /* SoundTable */
+     , (31760,   6, 0x04001E9C) /* PaletteBase */
+     , (31760,   8, 0x06006085) /* Icon */
+     , (31760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31760,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31760,  1604,      2)  /* DefenderSelf5 */
      , (31760,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31760,  1626,      2)  /* SwiftKillerSelf5 */
-     , (31760,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (31760,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (31760,  1626,      2)  /* SwiftKillerSelf5 */;

@@ -49,12 +49,12 @@ VALUES (3815,   1, 'Lightning Kasrullah') /* Name */
      , (3815,  16, 'Lightning Kasrullah of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3815,   1,   33555749) /* Setup */
-     , (3815,   3,  536870932) /* SoundTable */
-     , (3815,   8,  100668914) /* Icon */
-     , (3815,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3815,   1, 0x02000525) /* Setup */
+     , (3815,   3, 0x20000014) /* SoundTable */
+     , (3815,   8, 0x060015F2) /* Icon */
+     , (3815,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3815,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3815,  1378,      2)  /* CoordinationSelf6 */
-     , (3815,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3815,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3815,  1378,      2)  /* CoordinationSelf6 */;

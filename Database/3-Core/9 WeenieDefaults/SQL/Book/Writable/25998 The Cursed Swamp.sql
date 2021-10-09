@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25998,   1, 'The Cursed Swamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25998,   1,   33559084) /* Setup */
-     , (25998,   3,  536870932) /* SoundTable */
-     , (25998,   6,   67112626) /* PaletteBase */
-     , (25998,   8,  100675770) /* Icon */
-     , (25998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25998,   1, 0x0200122C) /* Setup */
+     , (25998,   3, 0x20000014) /* SoundTable */
+     , (25998,   6, 0x04000EB2) /* PaletteBase */
+     , (25998,   8, 0x060030BA) /* Icon */
+     , (25998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25998, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

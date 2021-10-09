@@ -21,11 +21,11 @@ VALUES (37254,   1, 'Eight of Eyes') /* Name */
      , (37254,  20, 'Eights of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37254,   1,   33560547) /* Setup */
-     , (37254,   3,  536870932) /* SoundTable */
-     , (37254,   8,  100689855) /* Icon */
-     , (37254,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (37254,   1, 0x020017E3) /* Setup */
+     , (37254,   3, 0x20000014) /* SoundTable */
+     , (37254,   8, 0x060067BF) /* Icon */
+     , (37254,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37254, 8040, 23855554, 56.36537, -33.01735, -9.313226E-10, -0.3129411, 0, 0, -0.9497725) /* PCAPRecordedLocation */
+VALUES (37254, 8040, 0x016C01C2, 56.36537, -33.01735, 0, -0.312941, 0, 0, -0.949773) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.365370 -33.017350 0.000000] -0.312941 0.000000 0.000000 -0.949773 */;

@@ -15,7 +15,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32658,   1, 'Damaged Stone Infuser') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32658,   1,   33554769) /* Setup */
-     , (32658,   3,  536870932) /* SoundTable */
-     , (32658,   8,  100686432) /* Icon */
-     , (32658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32658,   1, 0x02000151) /* Setup */
+     , (32658,   3, 0x20000014) /* SoundTable */
+     , (32658,   8, 0x06005A60) /* Icon */
+     , (32658,  22, 0x3400002B) /* PhysicsEffectTable */;

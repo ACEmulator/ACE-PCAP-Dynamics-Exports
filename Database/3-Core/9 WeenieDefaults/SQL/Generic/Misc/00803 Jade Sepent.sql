@@ -18,9 +18,9 @@ VALUES (803,   1, 'Jade Sepent') /* Name */
      , (803,  16, 'Jade Serpent') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (803,   1,   33555088) /* Setup */
-     , (803,   8,  100668115) /* Icon */;
+VALUES (803,   1, 0x02000290) /* Setup */
+     , (803,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (803, 8040, 3862036487, 5.88001, 156.96, 28, -0.842452, 0, 0, -0.538771) /* PCAPRecordedLocation */
+VALUES (803, 8040, 0xE6320007, 5.88001, 156.96, 28, -0.842452, 0, 0, -0.538771) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320007 [5.880010 156.960000 28.000000] -0.842452 0.000000 0.000000 -0.538771 */;

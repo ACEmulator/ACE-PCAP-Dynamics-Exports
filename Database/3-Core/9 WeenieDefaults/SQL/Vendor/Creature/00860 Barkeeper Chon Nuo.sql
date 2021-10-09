@@ -34,20 +34,20 @@ VALUES (860,   1, 'Barkeeper Chon Nuo') /* Name */
      , (860,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (860,   1,   33554510) /* Setup */
-     , (860,   2,  150994945) /* MotionTable */
-     , (860,   3,  536870914) /* SoundTable */
-     , (860,   6,   67108990) /* PaletteBase */
-     , (860,   8,  100667446) /* Icon */
-     , (860,   9,   83890235) /* EyesTexture */
-     , (860,  10,   83890294) /* NoseTexture */
-     , (860,  11,   83890352) /* MouthTexture */
-     , (860,  15,   67117075) /* HairPalette */
-     , (860,  16,   67109565) /* EyesPalette */
-     , (860,  17,   67110052) /* SkinPalette */;
+VALUES (860,   1, 0x0200004E) /* Setup */
+     , (860,   2, 0x09000001) /* MotionTable */
+     , (860,   3, 0x20000002) /* SoundTable */
+     , (860,   6, 0x0400007E) /* PaletteBase */
+     , (860,   8, 0x06001036) /* Icon */
+     , (860,   9, 0x0500103B) /* EyesTexture */
+     , (860,  10, 0x05001076) /* NoseTexture */
+     , (860,  11, 0x050010B0) /* MouthTexture */
+     , (860,  15, 0x04002013) /* HairPalette */
+     , (860,  16, 0x040002BD) /* EyesPalette */
+     , (860,  17, 0x040004A4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (860, 8040, 3880649080, 132.713, 76.8281, 36.805, -0.9894781, 0, 0, -0.1446829) /* PCAPRecordedLocation */
+VALUES (860, 8040, 0xE74E0178, 132.713, 76.8281, 36.805, -0.989478, 0, 0, -0.144683) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0178 [132.713000 76.828100 36.805000] -0.989478 0.000000 0.000000 -0.144683 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

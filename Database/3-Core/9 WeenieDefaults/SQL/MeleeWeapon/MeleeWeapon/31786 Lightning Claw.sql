@@ -46,11 +46,11 @@ VALUES (31786,   1, 'Lightning Claw') /* Name */
      , (31786,  16, 'Lightning Claw of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31786,   1,   33559642) /* Setup */
-     , (31786,   3,  536870932) /* SoundTable */
-     , (31786,   6,   67116700) /* PaletteBase */
-     , (31786,   8,  100688077) /* Icon */
-     , (31786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31786,   1, 0x0200145A) /* Setup */
+     , (31786,   3, 0x20000014) /* SoundTable */
+     , (31786,   6, 0x04001E9C) /* PaletteBase */
+     , (31786,   8, 0x060060CD) /* Icon */
+     , (31786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31786,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

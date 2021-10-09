@@ -50,11 +50,11 @@ VALUES (45401,   1, 'Simi') /* Name */
      , (45401,  16, 'Simi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45401,   1,   33554751) /* Setup */
-     , (45401,   3,  536870932) /* SoundTable */
-     , (45401,   6,   67111919) /* PaletteBase */
-     , (45401,   8,  100668995) /* Icon */
-     , (45401,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45401,   1, 0x0200013F) /* Setup */
+     , (45401,   3, 0x20000014) /* SoundTable */
+     , (45401,   6, 0x04000BEF) /* PaletteBase */
+     , (45401,   8, 0x06001643) /* Icon */
+     , (45401,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45401,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

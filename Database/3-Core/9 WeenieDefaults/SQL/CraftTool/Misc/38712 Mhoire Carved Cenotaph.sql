@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38712,   1, 'Mhoire Carved Cenotaph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38712,   1,   33555479) /* Setup */
-     , (38712,   3,  536870932) /* SoundTable */
-     , (38712,   8,  100690207) /* Icon */
-     , (38712,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38712,   1, 0x02000417) /* Setup */
+     , (38712,   3, 0x20000014) /* SoundTable */
+     , (38712,   8, 0x0600691F) /* Icon */
+     , (38712,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38712, 8040, 1194131831, 182, 127, -13.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38712, 8040, 0x472D0177, 182, 127, -13.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x472D0177 [182.000000 127.000000 -13.600000] 1.000000 0.000000 0.000000 0.000000 */;

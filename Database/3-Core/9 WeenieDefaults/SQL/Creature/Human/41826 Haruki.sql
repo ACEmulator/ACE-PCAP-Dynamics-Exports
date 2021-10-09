@@ -31,20 +31,20 @@ VALUES (41826,   1, 'Haruki') /* Name */
      , (41826,   5, 'Society Contractor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41826,   1,   33554433) /* Setup */
-     , (41826,   2,  150994945) /* MotionTable */
-     , (41826,   3,  536870913) /* SoundTable */
-     , (41826,   6,   67108990) /* PaletteBase */
-     , (41826,   8,  100667377) /* Icon */
-     , (41826,   9,   83890488) /* EyesTexture */
-     , (41826,  10,   83890517) /* NoseTexture */
-     , (41826,  11,   83890589) /* MouthTexture */
-     , (41826,  15,   67117076) /* HairPalette */
-     , (41826,  16,   67109565) /* EyesPalette */
-     , (41826,  17,   67110054) /* SkinPalette */;
+VALUES (41826,   1, 0x02000001) /* Setup */
+     , (41826,   2, 0x09000001) /* MotionTable */
+     , (41826,   3, 0x20000001) /* SoundTable */
+     , (41826,   6, 0x0400007E) /* PaletteBase */
+     , (41826,   8, 0x06000FF1) /* Icon */
+     , (41826,   9, 0x05001138) /* EyesTexture */
+     , (41826,  10, 0x05001155) /* NoseTexture */
+     , (41826,  11, 0x0500119D) /* MouthTexture */
+     , (41826,  15, 0x04002014) /* HairPalette */
+     , (41826,  16, 0x040002BD) /* EyesPalette */
+     , (41826,  17, 0x040004A6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41826, 8040, 12059244, 153.65, -31.8735, -17.995, 0.743697, 0, 0, -0.668516) /* PCAPRecordedLocation */
+VALUES (41826, 8040, 0x00B8026C, 153.65, -31.8735, -17.995, 0.743697, 0, 0, -0.668516) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026C [153.650000 -31.873500 -17.995000] 0.743697 0.000000 0.000000 -0.668516 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

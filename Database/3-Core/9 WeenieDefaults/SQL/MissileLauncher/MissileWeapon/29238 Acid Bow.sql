@@ -43,13 +43,13 @@ VALUES (29238,   1, 'Acid Bow') /* Name */
      , (29238,  16, 'Acid Bow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29238,   1,   33559029) /* Setup */
-     , (29238,   3,  536870932) /* SoundTable */
-     , (29238,   6,   67115373) /* PaletteBase */
-     , (29238,   8,  100677124) /* Icon */
-     , (29238,  22,  872415275) /* PhysicsEffectTable */
-     , (29238,  52,  100676440) /* IconUnderlay */;
+VALUES (29238,   1, 0x020011F5) /* Setup */
+     , (29238,   3, 0x20000014) /* SoundTable */
+     , (29238,   6, 0x0400196D) /* PaletteBase */
+     , (29238,   8, 0x06003604) /* Icon */
+     , (29238,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29238,  52, 0x06003358) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29238, 8040, 23855548, 53.04711, -26.29948, -0.07000001, -0.1507412, 0, 0, 0.9885733) /* PCAPRecordedLocation */
+VALUES (29238, 8040, 0x016C01BC, 53.04711, -26.29948, -0.07, -0.150741, 0, 0, 0.988573) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.047110 -26.299480 -0.070000] -0.150741 0.000000 0.000000 0.988573 */;

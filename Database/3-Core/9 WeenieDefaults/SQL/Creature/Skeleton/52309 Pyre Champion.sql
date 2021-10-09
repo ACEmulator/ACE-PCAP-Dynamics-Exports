@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52309,   1, 'Pyre Champion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52309,   1,   33560229) /* Setup */
-     , (52309,   2,  150994981) /* MotionTable */
-     , (52309,   3,  536870942) /* SoundTable */
-     , (52309,   6,   67116522) /* PaletteBase */
-     , (52309,   8,  100669124) /* Icon */
-     , (52309,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (52309,   1, 0x020016A5) /* Setup */
+     , (52309,   2, 0x09000025) /* MotionTable */
+     , (52309,   3, 0x2000001E) /* SoundTable */
+     , (52309,   6, 0x04001DEA) /* PaletteBase */
+     , (52309,   8, 0x060016C4) /* Icon */
+     , (52309,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52309, 8040, 1210908684, 24.02069, 80.09135, 6.677029, -0.980121, 0, 0, -0.1984007) /* PCAPRecordedLocation */
+VALUES (52309, 8040, 0x482D000C, 24.02069, 80.09135, 6.677029, -0.980121, 0, 0, -0.198401) /* PCAPRecordedLocation */
 /* @teleloc 0x482D000C [24.020690 80.091350 6.677029] -0.980121 0.000000 0.000000 -0.198401 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

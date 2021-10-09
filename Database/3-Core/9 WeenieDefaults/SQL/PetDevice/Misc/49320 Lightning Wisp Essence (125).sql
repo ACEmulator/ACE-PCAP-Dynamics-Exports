@@ -34,10 +34,10 @@ VALUES (49320,   1, 'Lightning Wisp Essence (125)') /* Name */
      , (49320,  14, 'Use this essence to summon or dismiss your Lightning Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49320,   1,   33554817) /* Setup */
-     , (49320,   3,  536870932) /* SoundTable */
-     , (49320,   6,   67111919) /* PaletteBase */
-     , (49320,   8,  100693035) /* Icon */
-     , (49320,  22,  872415275) /* PhysicsEffectTable */
-     , (49320,  50,  100693029) /* IconOverlay */
-     , (49320,  52,  100693024) /* IconUnderlay */;
+VALUES (49320,   1, 0x02000181) /* Setup */
+     , (49320,   3, 0x20000014) /* SoundTable */
+     , (49320,   6, 0x04000BEF) /* PaletteBase */
+     , (49320,   8, 0x0600742B) /* Icon */
+     , (49320,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49320,  50, 0x06007425) /* IconOverlay */
+     , (49320,  52, 0x06007420) /* IconUnderlay */;

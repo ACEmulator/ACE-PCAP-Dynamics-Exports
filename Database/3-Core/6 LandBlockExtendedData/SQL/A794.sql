@@ -22,7 +22,7 @@ VALUES (0x7A794004,   221, 0xA794000F, 25.50161, 165.7095, 40.09742, 1, 0, 0, 0,
 /* @teleloc 0xA794000F [25.501610 165.709500 40.097420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A794005,  1542, 0xA7940020, 73.16183, 185.2531, 32.94328, 0.8433914, 0, 0, -0.5372996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7A794005,  1542, 0xA7940020, 73.16183, 185.2531, 32.94328, 0.843391, 0, 0, -0.5373, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xA7940020 [73.161830 185.253100 32.943280] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -30,7 +30,7 @@ VALUES (0x7A794005, 0x7A794006, '2019-02-10 00:00:00') /* The Floating City (819
      , (0x7A794005, 0x7A794007, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A794006,  8190, 0xA7940020, 73.16183, 185.2531, 32.94328, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */
+VALUES (0x7A794006,  8190, 0xA7940020, 73.16183, 185.2531, 32.94328, 0.843391, 0, 0, -0.5373,  True, '2019-02-10 00:00:00'); /* The Floating City */
 /* @teleloc 0xA7940020 [73.161830 185.253100 32.943280] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

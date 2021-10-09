@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35464,   1, 'Drudge Bonfire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35464,   1,   33556218) /* Setup */
-     , (35464,   3,  536870994) /* SoundTable */
-     , (35464,   8,  100669743) /* Icon */;
+VALUES (35464,   1, 0x020006FA) /* Setup */
+     , (35464,   3, 0x20000052) /* SoundTable */
+     , (35464,   8, 0x0600192F) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35464, 8040, 3097428025, 172.458, 3.54228, 84, -0.9039732, 0, 0, -0.4275891) /* PCAPRecordedLocation */
+VALUES (35464, 8040, 0xB89F0039, 172.458, 3.54228, 84, -0.903973, 0, 0, -0.427589) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [172.458000 3.542280 84.000000] -0.903973 0.000000 0.000000 -0.427589 */;

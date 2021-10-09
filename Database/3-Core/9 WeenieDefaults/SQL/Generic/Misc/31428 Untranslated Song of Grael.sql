@@ -24,11 +24,11 @@ VALUES (31428,   1, 'Untranslated Song of Grael') /* Name */
      , (31428,  16, 'An ancient book written in unknown runes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31428,   1,   33559593) /* Setup */
-     , (31428,   3,  536870932) /* SoundTable */
-     , (31428,   8,  100687891) /* Icon */
-     , (31428,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31428,   1, 0x02001429) /* Setup */
+     , (31428,   3, 0x20000014) /* SoundTable */
+     , (31428,   8, 0x06006013) /* Icon */
+     , (31428,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31428, 8040, 3473689, 340, -230, -23.96181, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31428, 8040, 0x00350119, 340, -230, -23.96181, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00350119 [340.000000 -230.000000 -23.961810] 1.000000 0.000000 0.000000 0.000000 */;

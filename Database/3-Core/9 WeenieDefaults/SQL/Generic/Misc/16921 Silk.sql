@@ -21,11 +21,11 @@ VALUES (16921,   1, 'Silk') /* Name */
      , (16921,  16, 'A fluffy wad of silk taken from a grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16921,   1,   33554669) /* Setup */
-     , (16921,   3,  536870932) /* SoundTable */
-     , (16921,   8,  100672976) /* Icon */
-     , (16921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16921,   1, 0x020000ED) /* Setup */
+     , (16921,   3, 0x20000014) /* SoundTable */
+     , (16921,   8, 0x060025D0) /* Icon */
+     , (16921,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16921, 8040, 18809102, 26.89909, -27.04956, 0, 0.2470478, 0, 0, -0.9690033) /* PCAPRecordedLocation */
+VALUES (16921, 8040, 0x011F010E, 26.89909, -27.04956, 0, 0.247048, 0, 0, -0.969003) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [26.899090 -27.049560 0.000000] 0.247048 0.000000 0.000000 -0.969003 */;

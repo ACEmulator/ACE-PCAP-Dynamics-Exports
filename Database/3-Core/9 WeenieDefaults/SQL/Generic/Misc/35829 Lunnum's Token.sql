@@ -24,7 +24,7 @@ VALUES (35829,   1, 'Lunnum''s Token') /* Name */
      , (35829,  16, 'An odd token found in Lunnum''s chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35829,   1,   33554769) /* Setup */
-     , (35829,   3,  536870932) /* SoundTable */
-     , (35829,   8,  100689556) /* Icon */
-     , (35829,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35829,   1, 0x02000151) /* Setup */
+     , (35829,   3, 0x20000014) /* SoundTable */
+     , (35829,   8, 0x06006694) /* Icon */
+     , (35829,  22, 0x3400002B) /* PhysicsEffectTable */;

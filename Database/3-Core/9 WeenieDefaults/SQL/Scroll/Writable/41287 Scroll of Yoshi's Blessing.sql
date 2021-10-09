@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41287,   1, 'Scroll of Yoshi''s Blessing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41287,   1,   33554826) /* Setup */
-     , (41287,   8,  100676477) /* Icon */
-     , (41287,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41287,   1, 0x0200018A) /* Setup */
+     , (41287,   8, 0x0600337D) /* Icon */
+     , (41287,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41287,  28,       2251) /* Spell - ItemExpertiseSelf7 */;

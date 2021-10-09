@@ -50,13 +50,13 @@ VALUES (45122,   1, 'Frost Hand Wraps') /* Name */
      , (45122,  16, 'Frost Hand Wraps of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45122,   1,   33561414) /* Setup */
-     , (45122,   3,  536870932) /* SoundTable */
-     , (45122,   6,   67115556) /* PaletteBase */
-     , (45122,   8,  100692315) /* Icon */
-     , (45122,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45122,   1, 0x02001B46) /* Setup */
+     , (45122,   3, 0x20000014) /* SoundTable */
+     , (45122,   6, 0x04001A24) /* PaletteBase */
+     , (45122,   8, 0x0600715B) /* Icon */
+     , (45122,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45122,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45122,  52,  100676435) /* IconUnderlay */;
+     , (45122,  52, 0x06003353) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45122,  1614,      2)  /* BloodDrinkerSelf4 */

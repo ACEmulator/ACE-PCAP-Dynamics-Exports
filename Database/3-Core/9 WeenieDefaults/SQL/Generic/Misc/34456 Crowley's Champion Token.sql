@@ -21,7 +21,7 @@ VALUES (34456,   1, 'Crowley''s Champion Token') /* Name */
      , (34456,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34456,   1,   33554817) /* Setup */
-     , (34456,   3,  536870932) /* SoundTable */
-     , (34456,   8,  100689383) /* Icon */
-     , (34456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34456,   1, 0x02000181) /* Setup */
+     , (34456,   3, 0x20000014) /* SoundTable */
+     , (34456,   8, 0x060065E7) /* Icon */
+     , (34456,  22, 0x3400002B) /* PhysicsEffectTable */;

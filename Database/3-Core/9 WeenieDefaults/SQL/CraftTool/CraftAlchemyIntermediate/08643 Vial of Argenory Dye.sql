@@ -26,8 +26,8 @@ VALUES (8643,   1, 'Vial of Argenory Dye') /* Name */
      , (8643,  20, 'Vials of Argenory Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8643,   1,   33556751) /* Setup */
-     , (8643,   3,  536870932) /* SoundTable */
-     , (8643,   6,   67111919) /* PaletteBase */
-     , (8643,   8,  100670957) /* Icon */
-     , (8643,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8643,   1, 0x0200090F) /* Setup */
+     , (8643,   3, 0x20000014) /* SoundTable */
+     , (8643,   6, 0x04000BEF) /* PaletteBase */
+     , (8643,   8, 0x06001DED) /* Icon */
+     , (8643,  22, 0x3400002B) /* PhysicsEffectTable */;

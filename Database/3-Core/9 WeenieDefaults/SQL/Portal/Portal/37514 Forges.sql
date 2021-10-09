@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37514,   1, 'Forges') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37514,   1,   33558268) /* Setup */
-     , (37514,   3,  536871008) /* SoundTable */
-     , (37514,   8,  100674152) /* Icon */;
+VALUES (37514,   1, 0x02000EFC) /* Setup */
+     , (37514,   3, 0x20000060) /* SoundTable */
+     , (37514,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37514, 8040, 15336195, 90, -90, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37514, 8040, 0x00EA0303, 90, -90, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00EA0303 [90.000000 -90.000000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */;

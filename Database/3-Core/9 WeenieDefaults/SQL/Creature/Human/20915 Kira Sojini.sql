@@ -29,20 +29,20 @@ VALUES (20915,   1, 'Kira Sojini') /* Name */
      , (20915,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20915,   1,   33554510) /* Setup */
-     , (20915,   2,  150994945) /* MotionTable */
-     , (20915,   3,  536870914) /* SoundTable */
-     , (20915,   6,   67108990) /* PaletteBase */
-     , (20915,   8,  100667446) /* Icon */
-     , (20915,   9,   83890241) /* EyesTexture */
-     , (20915,  10,   83890290) /* NoseTexture */
-     , (20915,  11,   83890321) /* MouthTexture */
-     , (20915,  15,   67116990) /* HairPalette */
-     , (20915,  16,   67110063) /* EyesPalette */
-     , (20915,  17,   67110061) /* SkinPalette */;
+VALUES (20915,   1, 0x0200004E) /* Setup */
+     , (20915,   2, 0x09000001) /* MotionTable */
+     , (20915,   3, 0x20000002) /* SoundTable */
+     , (20915,   6, 0x0400007E) /* PaletteBase */
+     , (20915,   8, 0x06001036) /* Icon */
+     , (20915,   9, 0x05001041) /* EyesTexture */
+     , (20915,  10, 0x05001072) /* NoseTexture */
+     , (20915,  11, 0x05001091) /* MouthTexture */
+     , (20915,  15, 0x04001FBE) /* HairPalette */
+     , (20915,  16, 0x040004AF) /* EyesPalette */
+     , (20915,  17, 0x040004AD) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20915, 8040, 1449132422, 137.81, -38.01494, 0.004999995, -0.542031, 0, 0, -0.840359) /* PCAPRecordedLocation */
+VALUES (20915, 8040, 0x56600186, 137.81, -38.01494, 0.005, -0.542031, 0, 0, -0.840359) /* PCAPRecordedLocation */
 /* @teleloc 0x56600186 [137.810000 -38.014940 0.005000] -0.542031 0.000000 0.000000 -0.840359 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

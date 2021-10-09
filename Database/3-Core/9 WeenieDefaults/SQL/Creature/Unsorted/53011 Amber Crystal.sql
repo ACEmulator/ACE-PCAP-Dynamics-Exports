@@ -30,12 +30,12 @@ VALUES (53011,   1, 'Amber Crystal') /* Name */
      , (53011,  16, 'Fallen shards of amber imbedded in the ground. You will need to infuse the shards with Viridian Essence to harvest the infused amber within.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53011,   1,   33558201) /* Setup */
-     , (53011,   2,  150995147) /* MotionTable */
-     , (53011,   3,  536871052) /* SoundTable */
-     , (53011,   8,  100693328) /* Icon */
-     , (53011,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (53011,   1, 0x02000EB9) /* Setup */
+     , (53011,   2, 0x090000CB) /* MotionTable */
+     , (53011,   3, 0x2000008C) /* SoundTable */
+     , (53011,   8, 0x06007550) /* Icon */
+     , (53011,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53011, 8040, 3024617533, 179.0353, 101.8426, 112.1828, 0.986889, 0, 0, -0.161403) /* PCAPRecordedLocation */
+VALUES (53011, 8040, 0xB448003D, 179.0353, 101.8426, 112.1828, 0.986889, 0, 0, -0.161403) /* PCAPRecordedLocation */
 /* @teleloc 0xB448003D [179.035300 101.842600 112.182800] 0.986889 0.000000 0.000000 -0.161403 */;

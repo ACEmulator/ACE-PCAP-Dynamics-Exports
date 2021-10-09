@@ -23,7 +23,7 @@ VALUES (20456,   1, 'Scroll of Lhen''s Flare') /* Name */
 Sends a bolt of lighting streaking towards the target. The bolt does 42-84 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20456,   1,   33554826) /* Setup */
-     , (20456,   8,  100677013) /* Icon */
-     , (20456,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20456,   1, 0x0200018A) /* Setup */
+     , (20456,   8, 0x06003595) /* Icon */
+     , (20456,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20456,  28,       2141) /* Spell - LightningStreak7 */;

@@ -44,14 +44,14 @@ VALUES (48939,   1, 'Legendary Seed of Harvests') /* Name */
      , (48939,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Harvests, underneath the Valley of Death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48939,   1,   33561509) /* Setup */
-     , (48939,   3,  536870932) /* SoundTable */
-     , (48939,   8,  100692975) /* Icon */
-     , (48939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48939,   1, 0x02001BA5) /* Setup */
+     , (48939,   3, 0x20000014) /* SoundTable */
+     , (48939,   8, 0x060073EF) /* Icon */
+     , (48939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48939,  28,       2128) /* Spell - FlameBolt7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48939,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (48939,  4638,      2)  /* WarMagicMasterySelf8 */
+VALUES (48939,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */
      , (48939,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
-     , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */;
+     , (48939,  4414,      2)  /* SpiritDrinkerSelf8 */;

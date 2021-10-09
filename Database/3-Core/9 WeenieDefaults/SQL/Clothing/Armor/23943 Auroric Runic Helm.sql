@@ -46,21 +46,21 @@ VALUES (23943,   1, 'Auroric Runic Helm') /* Name */
      , (23943,  25, 'Kricket') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23943,   1,   33558266) /* Setup */
-     , (23943,   3,  536870932) /* SoundTable */
-     , (23943,   6,   67108990) /* PaletteBase */
-     , (23943,   8,  100674140) /* Icon */
-     , (23943,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23943,   1, 0x02000EFA) /* Setup */
+     , (23943,   3, 0x20000014) /* SoundTable */
+     , (23943,   6, 0x0400007E) /* PaletteBase */
+     , (23943,   8, 0x06002A5C) /* Icon */
+     , (23943,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23943,   885,      2)  /* HealingMasteryOther6 */
+VALUES (23943,  2948,      2)  /* HieroWardGreat */
+     , (23943,  2959,      2)  /* MarkofthePriestess */
      , (23943,  1360,      2)  /* EnduranceOther6 */
+     , (23943,  2960,      2)  /* BludgeoningDurance */
+     , (23943,  2961,      2)  /* PiercingDurance */
+     , (23943,  2962,      2)  /* SlashingDurance */
      , (23943,  2350,      2)  /* DecayDurance */
      , (23943,  2351,      2)  /* ConsumptionDurance */
      , (23943,  2352,      2)  /* StasisDurance */
      , (23943,  2353,      2)  /* StimulationDurance */
-     , (23943,  2948,      2)  /* HieroWardGreat */
-     , (23943,  2959,      2)  /* MarkofthePriestess */
-     , (23943,  2960,      2)  /* BludgeoningDurance */
-     , (23943,  2961,      2)  /* PiercingDurance */
-     , (23943,  2962,      2)  /* SlashingDurance */;
+     , (23943,   885,      2)  /* HealingMasteryOther6 */;

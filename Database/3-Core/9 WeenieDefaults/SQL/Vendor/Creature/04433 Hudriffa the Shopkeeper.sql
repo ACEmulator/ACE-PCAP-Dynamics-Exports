@@ -34,20 +34,20 @@ VALUES (4433,   1, 'Hudriffa the Shopkeeper') /* Name */
      , (4433,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4433,   1,   33554510) /* Setup */
-     , (4433,   2,  150994945) /* MotionTable */
-     , (4433,   3,  536870914) /* SoundTable */
-     , (4433,   6,   67108990) /* PaletteBase */
-     , (4433,   8,  100667446) /* Icon */
-     , (4433,   9,   83890263) /* EyesTexture */
-     , (4433,  10,   83890294) /* NoseTexture */
-     , (4433,  11,   83890328) /* MouthTexture */
-     , (4433,  15,   67117068) /* HairPalette */
-     , (4433,  16,   67110063) /* EyesPalette */
-     , (4433,  17,   67109558) /* SkinPalette */;
+VALUES (4433,   1, 0x0200004E) /* Setup */
+     , (4433,   2, 0x09000001) /* MotionTable */
+     , (4433,   3, 0x20000002) /* SoundTable */
+     , (4433,   6, 0x0400007E) /* PaletteBase */
+     , (4433,   8, 0x06001036) /* Icon */
+     , (4433,   9, 0x05001057) /* EyesTexture */
+     , (4433,  10, 0x05001076) /* NoseTexture */
+     , (4433,  11, 0x05001098) /* MouthTexture */
+     , (4433,  15, 0x0400200C) /* HairPalette */
+     , (4433,  16, 0x040004AF) /* EyesPalette */
+     , (4433,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4433, 8040, 2846884098, 37.5406, 152.008, 58.005, -0.309567, 0, 0, -0.9508777) /* PCAPRecordedLocation */
+VALUES (4433, 8040, 0xA9B00102, 37.5406, 152.008, 58.005, -0.309567, 0, 0, -0.950878) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B00102 [37.540600 152.008000 58.005000] -0.309567 0.000000 0.000000 -0.950878 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

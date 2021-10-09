@@ -21,10 +21,10 @@ VALUES (11980,   1, 'Villa') /* Name */
 ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11980,   1,   33557167) /* Setup */
-     , (11980,   2,  150995128) /* MotionTable */
-     , (11980,   8,  100671884) /* Icon */;
+VALUES (11980,   1, 0x02000AAF) /* Setup */
+     , (11980,   2, 0x090000B8) /* MotionTable */
+     , (11980,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11980, 8040, 2761883703, 150.774, 145.494, 126, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11980, 8040, 0xA49F0037, 150.774, 145.494, 126, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA49F0037 [150.774000 145.494000 126.000000] 1.000000 0.000000 0.000000 0.000000 */;

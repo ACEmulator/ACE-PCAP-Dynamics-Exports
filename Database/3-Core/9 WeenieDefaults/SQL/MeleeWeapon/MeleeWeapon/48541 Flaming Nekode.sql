@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48541,   1, 'Flaming Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48541,   1,   33555989) /* Setup */
-     , (48541,   3,  536870932) /* SoundTable */
-     , (48541,   8,  100670027) /* Icon */
-     , (48541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48541,   1, 0x02000615) /* Setup */
+     , (48541,   3, 0x20000014) /* SoundTable */
+     , (48541,   8, 0x06001A4B) /* Icon */
+     , (48541,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48541, 8040, 4111925286, 96.97192, 130.9578, 188.4259, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (48541, 8040, 0xF5170026, 96.97192, 130.9578, 188.4259, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0xF5170026 [96.971920 130.957800 188.425900] 0.500000 0.500000 -0.500000 -0.500000 */;

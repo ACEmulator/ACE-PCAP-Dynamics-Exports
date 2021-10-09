@@ -28,14 +28,14 @@ VALUES (24578,   1, 'Sentry') /* Name */
      , (24578,   5, 'Candeth Keep Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24578,   1,   33557117) /* Setup */
-     , (24578,   2,  150994945) /* MotionTable */
-     , (24578,   3,  536870931) /* SoundTable */
-     , (24578,   6,   67113280) /* PaletteBase */
-     , (24578,   8,  100671756) /* Icon */;
+VALUES (24578,   1, 0x02000A7D) /* Setup */
+     , (24578,   2, 0x09000001) /* MotionTable */
+     , (24578,   3, 0x20000013) /* SoundTable */
+     , (24578,   6, 0x04001140) /* PaletteBase */
+     , (24578,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24578, 8040, 722599964, 84.3083, 86.6441, 63.81, 0.9983541, 0, 0, 0.0573511) /* PCAPRecordedLocation */
+VALUES (24578, 8040, 0x2B12001C, 84.3083, 86.6441, 63.81, 0.998354, 0, 0, 0.057351) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12001C [84.308300 86.644100 63.810000] 0.998354 0.000000 0.000000 0.057351 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

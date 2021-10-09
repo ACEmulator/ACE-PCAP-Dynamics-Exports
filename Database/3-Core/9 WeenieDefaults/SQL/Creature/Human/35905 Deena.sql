@@ -30,20 +30,20 @@ VALUES (35905,   1, 'Deena') /* Name */
      , (35905,   5, 'Olthoi Katar Crafter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35905,   1,   33554510) /* Setup */
-     , (35905,   2,  150994945) /* MotionTable */
-     , (35905,   3,  536870914) /* SoundTable */
-     , (35905,   6,   67108990) /* PaletteBase */
-     , (35905,   8,  100667446) /* Icon */
-     , (35905,   9,   83890243) /* EyesTexture */
-     , (35905,  10,   83890304) /* NoseTexture */
-     , (35905,  11,   83890326) /* MouthTexture */
-     , (35905,  15,   67117071) /* HairPalette */
-     , (35905,  16,   67109565) /* EyesPalette */
-     , (35905,  17,   67110050) /* SkinPalette */;
+VALUES (35905,   1, 0x0200004E) /* Setup */
+     , (35905,   2, 0x09000001) /* MotionTable */
+     , (35905,   3, 0x20000002) /* SoundTable */
+     , (35905,   6, 0x0400007E) /* PaletteBase */
+     , (35905,   8, 0x06001036) /* Icon */
+     , (35905,   9, 0x05001043) /* EyesTexture */
+     , (35905,  10, 0x05001080) /* NoseTexture */
+     , (35905,  11, 0x05001096) /* MouthTexture */
+     , (35905,  15, 0x0400200F) /* HairPalette */
+     , (35905,  16, 0x040002BD) /* EyesPalette */
+     , (35905,  17, 0x040004A2) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35905, 8040, 3300197245, 21.0451, 136.848, 216.405, 0.684799, 0, 0, -0.728732) /* PCAPRecordedLocation */
+VALUES (35905, 8040, 0xC4B5037D, 21.0451, 136.848, 216.405, 0.684799, 0, 0, -0.728732) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B5037D [21.045100 136.848000 216.405000] 0.684799 0.000000 0.000000 -0.728732 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

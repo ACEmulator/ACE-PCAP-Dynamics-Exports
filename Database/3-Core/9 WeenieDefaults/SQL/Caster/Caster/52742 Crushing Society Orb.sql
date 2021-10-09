@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52742,   1, 'Crushing Society Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52742,   1,   33554669) /* Setup */
-     , (52742,   3,  536870932) /* SoundTable */
-     , (52742,   6,   67111928) /* PaletteBase */
-     , (52742,   8,  100677116) /* Icon */
-     , (52742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52742,   1, 0x020000ED) /* Setup */
+     , (52742,   3, 0x20000014) /* SoundTable */
+     , (52742,   6, 0x04000BF8) /* PaletteBase */
+     , (52742,   8, 0x060035FC) /* Icon */
+     , (52742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52742, 8044,       2366) /* PCAPPhysicsDIDDataTemplatedFrom - Orb */;

@@ -33,11 +33,11 @@ VALUES (30192,   1, 'Pearl of Bludgeon Baning') /* Name */
      , (30192,  20, 'Pearls of Bludgeon Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30192,   1,   33554809) /* Setup */
-     , (30192,   3,  536870932) /* SoundTable */
-     , (30192,   6,   67111919) /* PaletteBase */
-     , (30192,   8,  100686695) /* Icon */
-     , (30192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30192,   1, 0x02000179) /* Setup */
+     , (30192,   3, 0x20000014) /* SoundTable */
+     , (30192,   6, 0x04000BEF) /* PaletteBase */
+     , (30192,   8, 0x06005B67) /* Icon */
+     , (30192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30192,  28,       3689) /* Spell - BludgeonBaneRare */
-     , (30192,  50,  100686636) /* IconOverlay */
-     , (30192,  52,  100686604) /* IconUnderlay */;
+     , (30192,  50, 0x06005B2C) /* IconOverlay */
+     , (30192,  52, 0x06005B0C) /* IconUnderlay */;

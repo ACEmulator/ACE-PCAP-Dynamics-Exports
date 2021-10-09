@@ -23,7 +23,7 @@ VALUES (20236,   1, 'Scroll of Temeritous Touch') /* Name */
 Increases the target''s Endurance by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20236,   1,   33554826) /* Setup */
-     , (20236,   8,  100676456) /* Icon */
-     , (20236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20236,   1, 0x0200018A) /* Setup */
+     , (20236,   8, 0x06003368) /* Icon */
+     , (20236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20236,  28,       2060) /* Spell - EnduranceOther7 */;

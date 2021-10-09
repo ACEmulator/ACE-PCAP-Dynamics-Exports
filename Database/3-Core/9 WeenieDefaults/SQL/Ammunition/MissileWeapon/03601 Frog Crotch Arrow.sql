@@ -39,12 +39,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3601,   1, 'Frog Crotch Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3601,   1,   33554724) /* Setup */
-     , (3601,   3,  536870932) /* SoundTable */
-     , (3601,   6,   67111919) /* PaletteBase */
-     , (3601,   8,  100670196) /* Icon */
-     , (3601,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3601,   1, 0x02000124) /* Setup */
+     , (3601,   3, 0x20000014) /* SoundTable */
+     , (3601,   6, 0x04000BEF) /* PaletteBase */
+     , (3601,   8, 0x06001AF4) /* Icon */
+     , (3601,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3601, 8040, 2309029889, 17.5833, 8.78472, 95.36794, 0.828489, 0, 0, -0.560006) /* PCAPRecordedLocation */
+VALUES (3601, 8040, 0x89A10001, 17.5833, 8.78472, 95.36794, 0.828489, 0, 0, -0.560006) /* PCAPRecordedLocation */
 /* @teleloc 0x89A10001 [17.583300 8.784720 95.367940] 0.828489 0.000000 0.000000 -0.560006 */;

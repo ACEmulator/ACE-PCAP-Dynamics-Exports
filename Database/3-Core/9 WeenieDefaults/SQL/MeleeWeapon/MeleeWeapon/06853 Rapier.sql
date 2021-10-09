@@ -41,12 +41,12 @@ VALUES (6853,   1, 'Rapier') /* Name */
      , (6853,  16, 'Magnificently crafted Aquamarine Rapier , set with 6 Rubies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6853,   1,   33556588) /* Setup */
-     , (6853,   3,  536870932) /* SoundTable */
-     , (6853,   6,   67111919) /* PaletteBase */
-     , (6853,   8,  100670665) /* Icon */
-     , (6853,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6853,   1, 0x0200086C) /* Setup */
+     , (6853,   3, 0x20000014) /* SoundTable */
+     , (6853,   6, 0x04000BEF) /* PaletteBase */
+     , (6853,   8, 0x06001CC9) /* Icon */
+     , (6853,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6853, 8040, 23855555, 57.02671, -37.33385, -0.071, -0.5961157, -0.5961157, -0.3803237, -0.3803237) /* PCAPRecordedLocation */
+VALUES (6853, 8040, 0x016C01C3, 57.02671, -37.33385, -0.071, -0.596116, -0.596116, -0.380324, -0.380324) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.026710 -37.333850 -0.071000] -0.596116 -0.596116 -0.380324 -0.380324 */;

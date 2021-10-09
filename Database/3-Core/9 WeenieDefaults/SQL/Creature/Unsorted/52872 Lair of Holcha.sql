@@ -24,12 +24,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52872,   1, 'Lair of Holcha') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52872,   1,   33556891) /* Setup */
-     , (52872,   2,  150995504) /* MotionTable */
-     , (52872,   3,  536870932) /* SoundTable */
-     , (52872,   6,   67113068) /* PaletteBase */
-     , (52872,   8,  100671204) /* Icon */;
+VALUES (52872,   1, 0x0200099B) /* Setup */
+     , (52872,   2, 0x09000230) /* MotionTable */
+     , (52872,   3, 0x20000014) /* SoundTable */
+     , (52872,   6, 0x0400106C) /* PaletteBase */
+     , (52872,   8, 0x06001EE4) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52872, 8040, 1500184862, 140, -166.286, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52872, 8040, 0x596B011E, 140, -166.286, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B011E [140.000000 -166.286000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

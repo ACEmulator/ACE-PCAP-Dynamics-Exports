@@ -21,7 +21,7 @@ VALUES (41713,   1, 'Whispering Blade Token') /* Name */
      , (41713,  16, 'This token represents a Silveran weapon. Use this token to purchase a Silveran weapon from the Whispering Blade Quatermaster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41713,   1,   33559991) /* Setup */
-     , (41713,   3,  536870932) /* SoundTable */
-     , (41713,   8,  100686367) /* Icon */
-     , (41713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (41713,   1, 0x020015B7) /* Setup */
+     , (41713,   3, 0x20000014) /* SoundTable */
+     , (41713,   8, 0x06005A1F) /* Icon */
+     , (41713,  22, 0x3400002B) /* PhysicsEffectTable */;

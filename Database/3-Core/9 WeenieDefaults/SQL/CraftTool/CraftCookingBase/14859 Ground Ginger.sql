@@ -27,8 +27,8 @@ VALUES (14859,   1, 'Ground Ginger') /* Name */
      , (14859,  20, 'Bottles of Ground Ginger') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14859,   1,   33555208) /* Setup */
-     , (14859,   3,  536870932) /* SoundTable */
-     , (14859,   6,   67111919) /* PaletteBase */
-     , (14859,   8,  100672573) /* Icon */
-     , (14859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14859,   1, 0x02000308) /* Setup */
+     , (14859,   3, 0x20000014) /* SoundTable */
+     , (14859,   6, 0x04000BEF) /* PaletteBase */
+     , (14859,   8, 0x0600243D) /* Icon */
+     , (14859,  22, 0x3400002B) /* PhysicsEffectTable */;

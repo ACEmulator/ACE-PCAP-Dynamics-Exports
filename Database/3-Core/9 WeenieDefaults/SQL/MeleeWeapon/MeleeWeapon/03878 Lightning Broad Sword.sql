@@ -56,17 +56,17 @@ VALUES (3878,   1, 'Lightning Broad Sword') /* Name */
      , (3878,  40, 'Tiesto') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3878,   1,   33555807) /* Setup */
-     , (3878,   3,  536870932) /* SoundTable */
-     , (3878,   8,  100667610) /* Icon */
-     , (3878,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3878,   1, 0x0200055F) /* Setup */
+     , (3878,   3, 0x20000014) /* SoundTable */
+     , (3878,   8, 0x060010DA) /* Icon */
+     , (3878,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3878,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3878,  52,  100676436) /* IconUnderlay */;
+     , (3878,  52, 0x06003354) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3878, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (3878, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3878,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3878,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;
+VALUES (3878,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (3878,  2096,      2)  /* BloodDrinkerSelf7 */;

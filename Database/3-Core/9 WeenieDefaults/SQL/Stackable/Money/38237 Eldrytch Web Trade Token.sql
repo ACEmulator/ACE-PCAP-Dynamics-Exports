@@ -26,6 +26,6 @@ VALUES (38237,   1, 'Eldrytch Web Trade Token') /* Name */
      , (38237,  16, 'A token, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38237,   1,   33554802) /* Setup */
-     , (38237,   8,  100689461) /* Icon */
-     , (38237,  50,  100690178) /* IconOverlay */;
+VALUES (38237,   1, 0x02000172) /* Setup */
+     , (38237,   8, 0x06006635) /* Icon */
+     , (38237,  50, 0x06006902) /* IconOverlay */;

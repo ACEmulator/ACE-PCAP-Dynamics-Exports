@@ -27,7 +27,7 @@ VALUES (9125,   1, 'Virindi Essence') /* Name */
      , (9125,  16, 'This is the soul of a Virindi who thought he owned me.  Do not make the same mistake.  Martine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9125,   1,   33556975) /* Setup */
-     , (9125,   3,  536870932) /* SoundTable */
-     , (9125,   8,  100671373) /* Icon */
-     , (9125,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9125,   1, 0x020009EF) /* Setup */
+     , (9125,   3, 0x20000014) /* SoundTable */
+     , (9125,   8, 0x06001F8D) /* Icon */
+     , (9125,  22, 0x3400002B) /* PhysicsEffectTable */;

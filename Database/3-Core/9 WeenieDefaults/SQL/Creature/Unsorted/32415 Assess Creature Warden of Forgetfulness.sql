@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32415,   1, 'Assess Creature Warden of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32415,   1,   33555352) /* Setup */
-     , (32415,   2,  150995147) /* MotionTable */
-     , (32415,   3,  536871052) /* SoundTable */
-     , (32415,   8,  100667624) /* Icon */
-     , (32415,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (32415,   1, 0x02000398) /* Setup */
+     , (32415,   2, 0x090000CB) /* MotionTable */
+     , (32415,   3, 0x2000008C) /* SoundTable */
+     , (32415,   8, 0x060010E8) /* Icon */
+     , (32415,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32415, 8040, 1565000082, 74.4654, -32.9304, 18, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32415, 8040, 0x5D480192, 74.4654, -32.9304, 18, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5D480192 [74.465400 -32.930400 18.000000] -0.707107 0.000000 0.000000 -0.707107 */;

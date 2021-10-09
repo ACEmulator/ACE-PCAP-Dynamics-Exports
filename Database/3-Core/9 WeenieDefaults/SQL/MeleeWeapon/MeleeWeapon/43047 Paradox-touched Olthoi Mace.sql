@@ -54,18 +54,18 @@ VALUES (43047,   1, 'Paradox-touched Olthoi Mace') /* Name */
      , (43047,  25, 'Micke') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43047,   1,   33561084) /* Setup */
-     , (43047,   3,  536870932) /* SoundTable */
-     , (43047,   8,  100691351) /* Icon */
-     , (43047,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43047,   1, 0x020019FC) /* Setup */
+     , (43047,   3, 0x20000014) /* SoundTable */
+     , (43047,   8, 0x06006D97) /* Icon */
+     , (43047,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43047,  55,         67) /* ProcSpell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43047, 8040, 3300197244, 15.59751, 133.4388, 216.329, -0.30019, -0.30019, 0.6402234, 0.6402234) /* PCAPRecordedLocation */
+VALUES (43047, 8040, 0xC4B5037C, 15.59751, 133.4388, 216.329, -0.30019, -0.30019, 0.640223, 0.640223) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B5037C [15.597510 133.438800 216.329000] -0.300190 -0.300190 0.640223 0.640223 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43047,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (43047,  2116,      2)  /* SwiftKillerSelf7 */
+     , (43047,  2096,      2)  /* BloodDrinkerSelf7 */
      , (43047,  2101,      2)  /* DefenderSelf7 */
-     , (43047,  2106,      2)  /* HeartSeekerSelf7 */
-     , (43047,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (43047,  2106,      2)  /* HeartSeekerSelf7 */;

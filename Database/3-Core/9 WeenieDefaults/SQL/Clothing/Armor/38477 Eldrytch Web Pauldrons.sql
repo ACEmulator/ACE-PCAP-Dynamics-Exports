@@ -48,13 +48,13 @@ VALUES (38477,   1, 'Eldrytch Web Pauldrons') /* Name */
      , (38477,  16, 'Eldrytch Web Pauldrons of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38477,   1,   33554641) /* Setup */
-     , (38477,   3,  536870932) /* SoundTable */
-     , (38477,   8,  100690249) /* Icon */
-     , (38477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38477,   1, 0x020000D1) /* Setup */
+     , (38477,   3, 0x20000014) /* SoundTable */
+     , (38477,   8, 0x06006949) /* Icon */
+     , (38477,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38477,  2113,      2)  /* PiercingBane7 */
-     , (38477,  4407,      2)  /* Impenetrability8 */
+     , (38477,  6122,      2)  /* SummoningMasterySelf7 */
      , (38477,  4911,      2)  /* CANTRIPARMOR3 */
-     , (38477,  6122,      2)  /* SummoningMasterySelf7 */;
+     , (38477,  4407,      2)  /* Impenetrability8 */;

@@ -21,6 +21,6 @@ VALUES (38744,   1, 'Benevolent Quill of Objectification') /* Name */
      , (38744,  20, 'Benevolent Quills of Objectification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38744,   1,   33559616) /* Setup */
-     , (38744,   8,  100690198) /* Icon */
-     , (38744,  52,  100676442) /* IconUnderlay */;
+VALUES (38744,   1, 0x02001440) /* Setup */
+     , (38744,   8, 0x06006916) /* Icon */
+     , (38744,  52, 0x0600335A) /* IconUnderlay */;

@@ -51,11 +51,11 @@ VALUES (40624,   1, 'Acid Quadrelle') /* Name */
      , (40624,  16, 'Acid Quadrelle of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40624,   1,   33560725) /* Setup */
-     , (40624,   3,  536870932) /* SoundTable */
-     , (40624,   6,   67116833) /* PaletteBase */
-     , (40624,   8,  100690784) /* Icon */
-     , (40624,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40624,   1, 0x02001895) /* Setup */
+     , (40624,   3, 0x20000014) /* SoundTable */
+     , (40624,   6, 0x04001F21) /* PaletteBase */
+     , (40624,   8, 0x06006B60) /* Icon */
+     , (40624,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40624,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

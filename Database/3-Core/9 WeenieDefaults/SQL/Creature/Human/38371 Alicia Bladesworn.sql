@@ -31,20 +31,20 @@ VALUES (38371,   1, 'Alicia Bladesworn') /* Name */
      , (38371,   5, 'Inspector of Masters') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38371,   1,   33554510) /* Setup */
-     , (38371,   2,  150994945) /* MotionTable */
-     , (38371,   3,  536870914) /* SoundTable */
-     , (38371,   6,   67108990) /* PaletteBase */
-     , (38371,   8,  100667377) /* Icon */
-     , (38371,   9,   83890284) /* EyesTexture */
-     , (38371,  10,   83890311) /* NoseTexture */
-     , (38371,  11,   83890342) /* MouthTexture */
-     , (38371,  15,   67117026) /* HairPalette */
-     , (38371,  16,   67109566) /* EyesPalette */
-     , (38371,  17,   67109558) /* SkinPalette */;
+VALUES (38371,   1, 0x0200004E) /* Setup */
+     , (38371,   2, 0x09000001) /* MotionTable */
+     , (38371,   3, 0x20000002) /* SoundTable */
+     , (38371,   6, 0x0400007E) /* PaletteBase */
+     , (38371,   8, 0x06000FF1) /* Icon */
+     , (38371,   9, 0x0500106C) /* EyesTexture */
+     , (38371,  10, 0x05001087) /* NoseTexture */
+     , (38371,  11, 0x050010A6) /* MouthTexture */
+     , (38371,  15, 0x04001FE2) /* HairPalette */
+     , (38371,  16, 0x040002BE) /* EyesPalette */
+     , (38371,  17, 0x040002B6) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38371, 8040, 11993709, 149.227, -43.1402, -17.995, -1, 0, 0, 0.00057914) /* PCAPRecordedLocation */
+VALUES (38371, 8040, 0x00B7026D, 149.227, -43.1402, -17.995, -1, 0, 0, 0.000579) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026D [149.227000 -43.140200 -17.995000] -1.000000 0.000000 0.000000 0.000579 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

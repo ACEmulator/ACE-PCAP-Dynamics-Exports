@@ -16,11 +16,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38854,   1, 'Celestial Hand Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38854,   1,   33560150) /* Setup */
-     , (38854,   3,  536870932) /* SoundTable */
-     , (38854,   8,  100689290) /* Icon */
-     , (38854,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38854,   1, 0x02001656) /* Setup */
+     , (38854,   3, 0x20000014) /* SoundTable */
+     , (38854,   8, 0x0600658A) /* Icon */
+     , (38854,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38854, 8040, 1074528291, 105.0341, 60.52264, -0.071, 0.02915132, 0.02915132, -0.7065057, -0.7065057) /* PCAPRecordedLocation */
+VALUES (38854, 8040, 0x400C0023, 105.0341, 60.52264, -0.071, 0.029151, 0.029151, -0.706506, -0.706506) /* PCAPRecordedLocation */
 /* @teleloc 0x400C0023 [105.034100 60.522640 -0.071000] 0.029151 0.029151 -0.706506 -0.706506 */;

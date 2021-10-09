@@ -20,8 +20,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44622,   1, 'Scroll of Nether Blast IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44622,   1,   33554826) /* Setup */
-     , (44622,   8,  100691569) /* Icon */
-     , (44622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44622,   1, 0x0200018A) /* Setup */
+     , (44622,   8, 0x06006E71) /* Icon */
+     , (44622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44622,  28,       5547) /* Spell - NetherBlast4 */
      , (44622, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

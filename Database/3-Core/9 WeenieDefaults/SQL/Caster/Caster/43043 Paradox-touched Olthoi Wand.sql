@@ -49,14 +49,14 @@ VALUES (43043,   1, 'Paradox-touched Olthoi Wand') /* Name */
      , (43043,  25, 'Buckingham') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43043,   1,   33561081) /* Setup */
-     , (43043,   3,  536870932) /* SoundTable */
-     , (43043,   8,  100691347) /* Icon */
-     , (43043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43043,   1, 0x020019F9) /* Setup */
+     , (43043,   3, 0x20000014) /* SoundTable */
+     , (43043,   8, 0x06006D93) /* Icon */
+     , (43043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43043,  28,         67) /* Spell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43043, 8040, 23855554, 62.49383, -29.91756, -0.07025, -0.6734836, -0.6734836, -0.2154528, -0.2154528) /* PCAPRecordedLocation */
+VALUES (43043, 8040, 0x016C01C2, 62.49383, -29.91756, -0.07025, -0.673484, -0.673484, -0.215453, -0.215453) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [62.493830 -29.917560 -0.070250] -0.673484 -0.673484 -0.215453 -0.215453 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

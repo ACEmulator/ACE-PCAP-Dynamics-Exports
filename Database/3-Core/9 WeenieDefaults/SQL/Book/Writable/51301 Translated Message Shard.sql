@@ -22,10 +22,10 @@ VALUES (51301,   1, 'Translated Message Shard') /* Name */
      , (51301,  16, 'A letter containing the translated text from the Virindi Sentinel''s message shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51301,   1,   33554773) /* Setup */
-     , (51301,   3,  536870932) /* SoundTable */
-     , (51301,   8,  100668176) /* Icon */
-     , (51301,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51301,   1, 0x02000155) /* Setup */
+     , (51301,   3, 0x20000014) /* SoundTable */
+     , (51301,   8, 0x06001310) /* Icon */
+     , (51301,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (51301, 1, 1000);

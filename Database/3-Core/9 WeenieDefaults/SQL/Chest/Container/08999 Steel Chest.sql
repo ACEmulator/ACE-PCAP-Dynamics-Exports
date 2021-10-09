@@ -28,14 +28,14 @@ VALUES (8999,   1, 'Steel Chest') /* Name */
      , (8999,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8999,   1,   33554556) /* Setup */
-     , (8999,   2,  150994948) /* MotionTable */
-     , (8999,   3,  536870945) /* SoundTable */
-     , (8999,   8,  100667424) /* Icon */
-     , (8999,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8999,   1, 0x0200007C) /* Setup */
+     , (8999,   2, 0x09000004) /* MotionTable */
+     , (8999,   3, 0x20000021) /* SoundTable */
+     , (8999,   8, 0x06001020) /* Icon */
+     , (8999,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8999, 8040, 2977431564, 40.54576, 85.56056, 22.84017, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8999, 8040, 0xB178000C, 40.54576, 85.56056, 22.84017, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB178000C [40.545760 85.560560 22.840170] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

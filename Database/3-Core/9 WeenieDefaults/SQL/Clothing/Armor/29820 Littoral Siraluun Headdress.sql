@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29820,   1, 'Littoral Siraluun Headdress') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29820,   1,   33557288) /* Setup */
-     , (29820,   3,  536870932) /* SoundTable */
-     , (29820,   6,   67108990) /* PaletteBase */
-     , (29820,   8,  100677286) /* Icon */
-     , (29820,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29820,   1, 0x02000B28) /* Setup */
+     , (29820,   3, 0x20000014) /* SoundTable */
+     , (29820,   6, 0x0400007E) /* PaletteBase */
+     , (29820,   8, 0x060036A6) /* Icon */
+     , (29820,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,20 +34,20 @@ VALUES (975,   1, 'Armorer Talam ibn Tarish') /* Name */
      , (975,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (975,   1,   33554433) /* Setup */
-     , (975,   2,  150994945) /* MotionTable */
-     , (975,   3,  536870913) /* SoundTable */
-     , (975,   6,   67108990) /* PaletteBase */
-     , (975,   8,  100667446) /* Icon */
-     , (975,   9,   83890516) /* EyesTexture */
-     , (975,  10,   83890544) /* NoseTexture */
-     , (975,  11,   83890635) /* MouthTexture */
-     , (975,  15,   67117025) /* HairPalette */
-     , (975,  16,   67109567) /* EyesPalette */
-     , (975,  17,   67109550) /* SkinPalette */;
+VALUES (975,   1, 0x02000001) /* Setup */
+     , (975,   2, 0x09000001) /* MotionTable */
+     , (975,   3, 0x20000001) /* SoundTable */
+     , (975,   6, 0x0400007E) /* PaletteBase */
+     , (975,   8, 0x06001036) /* Icon */
+     , (975,   9, 0x05001154) /* EyesTexture */
+     , (975,  10, 0x05001170) /* NoseTexture */
+     , (975,  11, 0x050011CB) /* MouthTexture */
+     , (975,  15, 0x04001FE1) /* HairPalette */
+     , (975,  16, 0x040002BF) /* EyesPalette */
+     , (975,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (975, 8040, 2541420845, 156.563, 150.776, 0.004999995, 0.6990398, 0, 0, -0.7150828) /* PCAPRecordedLocation */
+VALUES (975, 8040, 0x977B012D, 156.563, 150.776, 0.005, 0.69904, 0, 0, -0.715083) /* PCAPRecordedLocation */
 /* @teleloc 0x977B012D [156.563000 150.776000 0.005000] 0.699040 0.000000 0.000000 -0.715083 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

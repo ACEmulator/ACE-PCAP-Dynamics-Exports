@@ -53,15 +53,15 @@ VALUES (40688,   1, 'Olthoi Helm') /* Name */
      , (40688,  16, 'Olthoi Helm of Invulnerability') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40688,   1,   33558419) /* Setup */
-     , (40688,   3,  536870932) /* SoundTable */
-     , (40688,   6,   67108990) /* PaletteBase */
-     , (40688,   8,  100674618) /* Icon */
-     , (40688,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40688,   1, 0x02000F93) /* Setup */
+     , (40688,   3, 0x20000014) /* SoundTable */
+     , (40688,   6, 0x0400007E) /* PaletteBase */
+     , (40688,   8, 0x06002C3A) /* Icon */
+     , (40688,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40688,  2094,      2)  /* BladeBane7 */
-     , (40688,  2104,      2)  /* FrostBane7 */
-     , (40688,  2108,      2)  /* Impenetrability7 */
+VALUES (40688,  4560,      2)  /* InvulnerabilitySelf8 */
      , (40688,  2526,      2)  /* CANTRIPMONSTERATTUNEMENT2 */
-     , (40688,  4560,      2)  /* InvulnerabilitySelf8 */;
+     , (40688,  2094,      2)  /* BladeBane7 */
+     , (40688,  2104,      2)  /* FrostBane7 */
+     , (40688,  2108,      2)  /* Impenetrability7 */;

@@ -35,20 +35,20 @@ VALUES (649,   1, 'Getram the Armorer') /* Name */
      , (649,   5, 'Armor Smith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (649,   1,   33554433) /* Setup */
-     , (649,   2,  150994945) /* MotionTable */
-     , (649,   3,  536870913) /* SoundTable */
-     , (649,   6,   67108990) /* PaletteBase */
-     , (649,   8,  100667446) /* Icon */
-     , (649,   9,   83890506) /* EyesTexture */
-     , (649,  10,   83890555) /* NoseTexture */
-     , (649,  11,   83890638) /* MouthTexture */
-     , (649,  15,   67116978) /* HairPalette */
-     , (649,  16,   67109566) /* EyesPalette */
-     , (649,  17,   67109562) /* SkinPalette */;
+VALUES (649,   1, 0x02000001) /* Setup */
+     , (649,   2, 0x09000001) /* MotionTable */
+     , (649,   3, 0x20000001) /* SoundTable */
+     , (649,   6, 0x0400007E) /* PaletteBase */
+     , (649,   8, 0x06001036) /* Icon */
+     , (649,   9, 0x0500114A) /* EyesTexture */
+     , (649,  10, 0x0500117B) /* NoseTexture */
+     , (649,  11, 0x050011CE) /* MouthTexture */
+     , (649,  15, 0x04001FB2) /* HairPalette */
+     , (649,  16, 0x040002BE) /* EyesPalette */
+     , (649,  17, 0x040002BA) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (649, 8040, 3465871678, 156, 39, 20.005, -0.6018381, 0, 0, -0.7986181) /* PCAPRecordedLocation */
+VALUES (649, 8040, 0xCE95013E, 156, 39, 20.005, -0.601838, 0, 0, -0.798618) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013E [156.000000 39.000000 20.005000] -0.601838 0.000000 0.000000 -0.798618 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

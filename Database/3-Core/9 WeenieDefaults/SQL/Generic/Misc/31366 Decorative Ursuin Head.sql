@@ -25,7 +25,7 @@ VALUES (31366,   1, 'Decorative Ursuin Head') /* Name */
      , (31366,  16, 'This is the head of the Fazenda Terror. It has been crafted by Farmer Kao to make a lovely wall decoration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31366,   1,   33559598) /* Setup */
-     , (31366,   3,  536870932) /* SoundTable */
-     , (31366,   8,  100687908) /* Icon */
-     , (31366,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31366,   1, 0x0200142E) /* Setup */
+     , (31366,   3, 0x20000014) /* SoundTable */
+     , (31366,   8, 0x06006024) /* Icon */
+     , (31366,  22, 0x3400002B) /* PhysicsEffectTable */;

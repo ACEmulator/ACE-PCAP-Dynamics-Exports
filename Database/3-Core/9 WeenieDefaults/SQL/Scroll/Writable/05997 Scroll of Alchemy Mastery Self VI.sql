@@ -23,7 +23,7 @@ VALUES (5997,   1, 'Scroll of Alchemy Mastery Self VI') /* Name */
 Increases the caster''s Alchemy skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5997,   1,   33554826) /* Setup */
-     , (5997,   8,  100676480) /* Icon */
-     , (5997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5997,   1, 0x0200018A) /* Setup */
+     , (5997,   8, 0x06003380) /* Icon */
+     , (5997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5997,  28,       1768) /* Spell - AlchemyMasterySelf6 */;

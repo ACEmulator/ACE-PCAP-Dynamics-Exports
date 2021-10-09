@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3512,   1, 'Scroll of Light Weapon Mastery Self VI') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3512,   1,   33554826) /* Setup */
-     , (3512,   8,  100692249) /* Icon */
-     , (3512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3512,   1, 0x0200018A) /* Setup */
+     , (3512,   8, 0x06007119) /* Icon */
+     , (3512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3512,  28,        303) /* Spell - LightWeaponsMasterySelf6 */;

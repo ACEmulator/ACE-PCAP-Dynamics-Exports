@@ -29,12 +29,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46631,   1, 'Greater Deadly Fire Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46631,   1,   33555406) /* Setup */
-     , (46631,   3,  536870932) /* SoundTable */
-     , (46631,   6,   67111919) /* PaletteBase */
-     , (46631,   8,  100672663) /* Icon */
-     , (46631,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46631,   1, 0x020003CE) /* Setup */
+     , (46631,   3, 0x20000014) /* SoundTable */
+     , (46631,   6, 0x04000BEF) /* PaletteBase */
+     , (46631,   8, 0x06002497) /* Icon */
+     , (46631,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46631, 8040, 1289945117, 79.23936, 108.1325, 58.51483, -0.3369389, -0.3369389, -0.6216689, -0.6216689) /* PCAPRecordedLocation */
+VALUES (46631, 8040, 0x4CE3001D, 79.23936, 108.1325, 58.51483, -0.336939, -0.336939, -0.621669, -0.621669) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE3001D [79.239360 108.132500 58.514830] -0.336939 -0.336939 -0.621669 -0.621669 */;

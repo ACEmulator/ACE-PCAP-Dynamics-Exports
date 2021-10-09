@@ -19,8 +19,8 @@ VALUES (33956,   1, 'Crystal of Acidic Elemental Essence') /* Name */
      , (33956,  16, 'A crystal of Acidic Elemental Essence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33956,   1,   33556407) /* Setup */
-     , (33956,   3,  536870932) /* SoundTable */
-     , (33956,   6,   67111919) /* PaletteBase */
-     , (33956,   8,  100670495) /* Icon */
-     , (33956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33956,   1, 0x020007B7) /* Setup */
+     , (33956,   3, 0x20000014) /* SoundTable */
+     , (33956,   6, 0x04000BEF) /* PaletteBase */
+     , (33956,   8, 0x06001C1F) /* Icon */
+     , (33956,  22, 0x3400002B) /* PhysicsEffectTable */;

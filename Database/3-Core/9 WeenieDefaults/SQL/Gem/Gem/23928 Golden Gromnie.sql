@@ -24,7 +24,7 @@ VALUES (23928,   1, 'Golden Gromnie') /* Name */
      , (23928,  16, 'One of a limited number of Golden Gromnies "borrowed" from Ulgrim.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23928,   1,   33554487) /* Setup */
-     , (23928,   2,  150995122) /* MotionTable */
-     , (23928,   8,  100671514) /* Icon */
-     , (23928,  22,  872415260) /* PhysicsEffectTable */;
+VALUES (23928,   1, 0x02000037) /* Setup */
+     , (23928,   2, 0x090000B2) /* MotionTable */
+     , (23928,   8, 0x0600201A) /* Icon */
+     , (23928,  22, 0x3400001C) /* PhysicsEffectTable */;

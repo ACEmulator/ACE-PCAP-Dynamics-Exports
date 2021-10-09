@@ -23,7 +23,7 @@ VALUES (20512,   1, 'Scroll of Morimoto''s Blessing') /* Name */
 Increases the caster''s Cooking skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20512,   1,   33554826) /* Setup */
-     , (20512,   8,  100676451) /* Icon */
-     , (20512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20512,   1, 0x0200018A) /* Setup */
+     , (20512,   8, 0x06003363) /* Icon */
+     , (20512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20512,  28,       2211) /* Spell - CookingMasterySelf7 */;

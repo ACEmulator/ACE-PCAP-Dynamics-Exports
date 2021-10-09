@@ -22,8 +22,8 @@ VALUES (2470,   1, 'Stamina Elixir') /* Name */
      , (2470,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2470,   1,   33554603) /* Setup */
-     , (2470,   3,  536870932) /* SoundTable */
-     , (2470,   6,   67111919) /* PaletteBase */
-     , (2470,   8,  100676317) /* Icon */
-     , (2470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2470,   1, 0x020000AB) /* Setup */
+     , (2470,   3, 0x20000014) /* SoundTable */
+     , (2470,   6, 0x04000BEF) /* PaletteBase */
+     , (2470,   8, 0x060032DD) /* Icon */
+     , (2470,  22, 0x3400002B) /* PhysicsEffectTable */;

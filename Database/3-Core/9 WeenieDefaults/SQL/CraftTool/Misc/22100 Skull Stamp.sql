@@ -26,8 +26,8 @@ VALUES (22100,   1, 'Skull Stamp') /* Name */
      , (22100,  15, 'A stamp with the symbol of a Skull and Crossbones.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22100,   1,   33556922) /* Setup */
-     , (22100,   3,  536870932) /* SoundTable */
-     , (22100,   8,  100673243) /* Icon */
-     , (22100,  22,  872415275) /* PhysicsEffectTable */
-     , (22100,  50,  100673639) /* IconOverlay */;
+VALUES (22100,   1, 0x020009BA) /* Setup */
+     , (22100,   3, 0x20000014) /* SoundTable */
+     , (22100,   8, 0x060026DB) /* Icon */
+     , (22100,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22100,  50, 0x06002867) /* IconOverlay */;

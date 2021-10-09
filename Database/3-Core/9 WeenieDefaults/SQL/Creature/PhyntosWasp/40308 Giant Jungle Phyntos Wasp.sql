@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40308,   1, 'Giant Jungle Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40308,   1,   33558817) /* Setup */
-     , (40308,   2,  150995303) /* MotionTable */
-     , (40308,   3,  536870926) /* SoundTable */
-     , (40308,   6,   67115262) /* PaletteBase */
-     , (40308,   8,  100667450) /* Icon */
-     , (40308,  22,  872415266) /* PhysicsEffectTable */;
+VALUES (40308,   1, 0x02001121) /* Setup */
+     , (40308,   2, 0x09000167) /* MotionTable */
+     , (40308,   3, 0x2000000E) /* SoundTable */
+     , (40308,   6, 0x040018FE) /* PaletteBase */
+     , (40308,   8, 0x0600103A) /* Icon */
+     , (40308,  22, 0x34000022) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40308, 8040, 4163960838, 9.762073, 135.5719, 66.45652, 0.907259, 0, 0, -0.4205723) /* PCAPRecordedLocation */
+VALUES (40308, 8040, 0xF8310006, 9.762073, 135.5719, 66.45652, 0.907259, 0, 0, -0.420572) /* PCAPRecordedLocation */
 /* @teleloc 0xF8310006 [9.762073 135.571900 66.456520] 0.907259 0.000000 0.000000 -0.420572 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

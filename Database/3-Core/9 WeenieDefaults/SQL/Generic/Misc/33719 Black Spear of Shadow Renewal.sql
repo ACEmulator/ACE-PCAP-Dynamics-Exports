@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33719,   1, 'Black Spear of Shadow Renewal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33719,   1,   33560035) /* Setup */
-     , (33719,   3,  536870932) /* SoundTable */
-     , (33719,   8,  100688902) /* Icon */
-     , (33719,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33719,   1, 0x020015E3) /* Setup */
+     , (33719,   3, 0x20000014) /* SoundTable */
+     , (33719,   8, 0x06006406) /* Icon */
+     , (33719,  22, 0x3400002B) /* PhysicsEffectTable */;

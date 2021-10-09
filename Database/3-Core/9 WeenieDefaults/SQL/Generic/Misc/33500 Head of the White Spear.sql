@@ -21,7 +21,7 @@ VALUES (33500,   1, 'Head of the White Spear') /* Name */
      , (33500,  16, 'This is the head of the fearsome Ruschk elder, Harrak the White Spear.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33500,   1,   33556824) /* Setup */
-     , (33500,   3,  536870932) /* SoundTable */
-     , (33500,   8,  100688978) /* Icon */
-     , (33500,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33500,   1, 0x02000958) /* Setup */
+     , (33500,   3, 0x20000014) /* SoundTable */
+     , (33500,   8, 0x06006452) /* Icon */
+     , (33500,  22, 0x3400002B) /* PhysicsEffectTable */;

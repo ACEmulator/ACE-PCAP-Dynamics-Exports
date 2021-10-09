@@ -20,7 +20,7 @@ VALUES (28738,   1, 'Half-Digested Virindi Mask') /* Name */
      , (28738,  16, 'This mask appears to have been severely corroded by the Eater''s stomach acids. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28738,   1,   33558415) /* Setup */
-     , (28738,   3,  536870932) /* SoundTable */
-     , (28738,   8,  100686365) /* Icon */
-     , (28738,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28738,   1, 0x02000F8F) /* Setup */
+     , (28738,   3, 0x20000014) /* SoundTable */
+     , (28738,   8, 0x06005A1D) /* Icon */
+     , (28738,  22, 0x3400002B) /* PhysicsEffectTable */;

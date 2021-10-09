@@ -25,14 +25,14 @@ VALUES (31445,   1, 'Dirty Old Crate') /* Name */
      , (31445,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31445,   1,   33558433) /* Setup */
-     , (31445,   2,  150995247) /* MotionTable */
-     , (31445,   3,  536870945) /* SoundTable */
-     , (31445,   8,  100674799) /* Icon */
-     , (31445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31445,   1, 0x02000FA1) /* Setup */
+     , (31445,   2, 0x0900012F) /* MotionTable */
+     , (31445,   3, 0x20000021) /* SoundTable */
+     , (31445,   8, 0x06002CEF) /* Icon */
+     , (31445,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31445, 8040, 629407755, 35.70035, 56.15377, 326.0208, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31445, 8040, 0x2584000B, 35.70035, 56.15377, 326.0208, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2584000B [35.700350 56.153770 326.020800] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -40,13 +40,13 @@ VALUES (5027,   1, 'Brogord''s Axe') /* Name */
      , (5027,  16, 'A rough-hewn forestry axe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5027,   1,   33554725) /* Setup */
-     , (5027,   3,  536870932) /* SoundTable */
-     , (5027,   6,   67111919) /* PaletteBase */
-     , (5027,   8,  100668986) /* Icon */
-     , (5027,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5027,   1, 0x02000125) /* Setup */
+     , (5027,   3, 0x20000014) /* SoundTable */
+     , (5027,   6, 0x04000BEF) /* PaletteBase */
+     , (5027,   8, 0x0600163A) /* Icon */
+     , (5027,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5027,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5027, 8040, 23200163, 38.16216, -109.9341, 5.929, -0.6616191, -0.6616191, 0.2495199, 0.2495199) /* PCAPRecordedLocation */
+VALUES (5027, 8040, 0x016201A3, 38.16216, -109.9341, 5.929, -0.661619, -0.661619, 0.24952, 0.24952) /* PCAPRecordedLocation */
 /* @teleloc 0x016201A3 [38.162160 -109.934100 5.929000] -0.661619 -0.661619 0.249520 0.249520 */;

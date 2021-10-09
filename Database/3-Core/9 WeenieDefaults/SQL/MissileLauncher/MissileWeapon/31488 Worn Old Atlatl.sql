@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31488,   1, 'Worn Old Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31488,   1,   33559584) /* Setup */
-     , (31488,   3,  536870932) /* SoundTable */
-     , (31488,   8,  100687884) /* Icon */
-     , (31488,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31488,   1, 0x02001420) /* Setup */
+     , (31488,   3, 0x20000014) /* SoundTable */
+     , (31488,   8, 0x0600600C) /* Icon */
+     , (31488,  22, 0x3400002B) /* PhysicsEffectTable */;

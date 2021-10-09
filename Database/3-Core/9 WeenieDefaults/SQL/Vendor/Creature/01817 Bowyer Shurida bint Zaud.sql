@@ -34,20 +34,20 @@ VALUES (1817,   1, 'Bowyer Shurida bint Zaud') /* Name */
      , (1817,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1817,   1,   33554510) /* Setup */
-     , (1817,   2,  150994945) /* MotionTable */
-     , (1817,   3,  536870914) /* SoundTable */
-     , (1817,   6,   67108990) /* PaletteBase */
-     , (1817,   8,  100667446) /* Icon */
-     , (1817,   9,   83890281) /* EyesTexture */
-     , (1817,  10,   83890293) /* NoseTexture */
-     , (1817,  11,   83890343) /* MouthTexture */
-     , (1817,  15,   67117073) /* HairPalette */
-     , (1817,  16,   67109567) /* EyesPalette */
-     , (1817,  17,   67109550) /* SkinPalette */;
+VALUES (1817,   1, 0x0200004E) /* Setup */
+     , (1817,   2, 0x09000001) /* MotionTable */
+     , (1817,   3, 0x20000002) /* SoundTable */
+     , (1817,   6, 0x0400007E) /* PaletteBase */
+     , (1817,   8, 0x06001036) /* Icon */
+     , (1817,   9, 0x05001069) /* EyesTexture */
+     , (1817,  10, 0x05001075) /* NoseTexture */
+     , (1817,  11, 0x050010A7) /* MouthTexture */
+     , (1817,  15, 0x04002011) /* HairPalette */
+     , (1817,  16, 0x040002BF) /* EyesPalette */
+     , (1817,  17, 0x040002AE) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1817, 8040, 2255290625, 53.0046, 173.51, -0.2950001, -0.9999069, 0, 0, -0.01364633) /* PCAPRecordedLocation */
+VALUES (1817, 8040, 0x866D0101, 53.0046, 173.51, -0.295, -0.999907, 0, 0, -0.013646) /* PCAPRecordedLocation */
 /* @teleloc 0x866D0101 [53.004600 173.510000 -0.295000] -0.999907 0.000000 0.000000 -0.013646 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

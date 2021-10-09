@@ -38,16 +38,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30702,   1, 'Royal Color') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30702,   1,   33554641) /* Setup */
-     , (30702,   3,  536870932) /* SoundTable */
-     , (30702,   6,   67108990) /* PaletteBase */
-     , (30702,   8,  100677375) /* Icon */
-     , (30702,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30702,   1, 0x020000D1) /* Setup */
+     , (30702,   3, 0x20000014) /* SoundTable */
+     , (30702,   6, 0x0400007E) /* PaletteBase */
+     , (30702,   8, 0x060036FF) /* Icon */
+     , (30702,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30702,   210,      2)  /* ManaRenewalOther5 */
-     , (30702,  1137,      2)  /* PiercingProtectionSelf5 */
-     , (30702,  1425,      2)  /* FocusSelf5 */
-     , (30702,  1449,      2)  /* WillpowerSelf5 */
+VALUES (30702,  1425,      2)  /* FocusSelf5 */
+     , (30702,   210,      2)  /* ManaRenewalOther5 */
      , (30702,  2584,      2)  /* CANTRIPWILLPOWER1 */
-     , (30702,  2661,      2)  /* ModerateFocus */;
+     , (30702,  2661,      2)  /* ModerateFocus */
+     , (30702,  1449,      2)  /* WillpowerSelf5 */
+     , (30702,  1137,      2)  /* PiercingProtectionSelf5 */;

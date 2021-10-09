@@ -18,9 +18,9 @@ VALUES (4655,   1, 'Al-Jalima Bows') /* Name */
      , (4655,  16, 'Al-Jalima Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4655,   1,   33555909) /* Setup */
-     , (4655,   8,  100668115) /* Icon */;
+VALUES (4655,   1, 0x020005C5) /* Setup */
+     , (4655,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4655, 8040, 2240282672, 126.115, 187.075, 89.054, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4655, 8040, 0x85880030, 126.115, 187.075, 89.054, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x85880030 [126.115000 187.075000 89.054000] 0.000000 0.000000 0.000000 -1.000000 */;

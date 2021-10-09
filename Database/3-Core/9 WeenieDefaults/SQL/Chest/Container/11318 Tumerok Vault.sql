@@ -30,12 +30,12 @@ VALUES (11318,   1, 'Tumerok Vault') /* Name */
      , (11318,  15, 'A beautifully decorated Tumerok vault containing a figurine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11318,   1,   33557303) /* Setup */
-     , (11318,   2,  150995137) /* MotionTable */
-     , (11318,   3,  536871042) /* SoundTable */
-     , (11318,   8,  100667424) /* Icon */
-     , (11318,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11318,   1, 0x02000B37) /* Setup */
+     , (11318,   2, 0x090000C1) /* MotionTable */
+     , (11318,   3, 0x20000082) /* SoundTable */
+     , (11318,   8, 0x06001020) /* Icon */
+     , (11318,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11318, 8040, 42336513, 120.977, -20.1223, -30.0384, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11318, 8040, 0x02860101, 120.977, -20.1223, -30.0384, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02860101 [120.977000 -20.122300 -30.038400] 1.000000 0.000000 0.000000 0.000000 */;

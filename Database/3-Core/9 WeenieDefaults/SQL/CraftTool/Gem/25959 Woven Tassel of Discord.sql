@@ -30,7 +30,7 @@ VALUES (25959,   1, 'Woven Tassel of Discord') /* Name */
      , (25959,  16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Tiyol Ibn Yufaj. The tassel is woven of strong coarse fibers but is light and oddly fluid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25959,   1,   33554784) /* Setup */
-     , (25959,   3,  536870932) /* SoundTable */
-     , (25959,   8,  100675675) /* Icon */
-     , (25959,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25959,   1, 0x02000160) /* Setup */
+     , (25959,   3, 0x20000014) /* SoundTable */
+     , (25959,   8, 0x0600305B) /* Icon */
+     , (25959,  22, 0x3400002B) /* PhysicsEffectTable */;

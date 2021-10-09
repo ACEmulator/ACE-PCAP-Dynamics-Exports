@@ -18,9 +18,9 @@ VALUES (1804,   1, 'Bows and Arrows') /* Name */
      , (1804,  16, 'Bows and Arrows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1804,   1,   33555909) /* Setup */
-     , (1804,   8,  100668115) /* Icon */;
+VALUES (1804,   1, 0x020005C5) /* Setup */
+     , (1804,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1804, 8040, 2724134967, 151.074, 151.381, 22.9984, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1804, 8040, 0xA25F0037, 151.074, 151.381, 22.9984, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0037 [151.074000 151.381000 22.998400] 0.000000 0.000000 0.000000 -1.000000 */;

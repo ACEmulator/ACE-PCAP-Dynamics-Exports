@@ -23,7 +23,7 @@ VALUES (33697,   1, 'Experimental Shadow Stone') /* Name */
      , (33697,  16, 'An experimental Shadow Stone, created by Black Ferah, to capture and contain the essence of a single entity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33697,   1,   33559809) /* Setup */
-     , (33697,   3,  536870932) /* SoundTable */
-     , (33697,   8,  100670494) /* Icon */
-     , (33697,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33697,   1, 0x02001501) /* Setup */
+     , (33697,   3, 0x20000014) /* SoundTable */
+     , (33697,   8, 0x06001C1E) /* Icon */
+     , (33697,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,7 +31,7 @@ VALUES (40798,   1, 'Combined Progenitor Crystal') /* Name */
      , (40798,  15, 'A thermal Progenitor crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40798,   1,   33559841) /* Setup */
-     , (40798,   3,  536870932) /* SoundTable */
-     , (40798,   8,  100672510) /* Icon */
-     , (40798,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (40798,   1, 0x02001521) /* Setup */
+     , (40798,   3, 0x20000014) /* SoundTable */
+     , (40798,   8, 0x060023FE) /* Icon */
+     , (40798,  22, 0x3400002B) /* PhysicsEffectTable */;

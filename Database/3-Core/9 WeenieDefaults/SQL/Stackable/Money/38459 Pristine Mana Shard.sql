@@ -30,5 +30,5 @@ VALUES (38459,   1, 'Pristine Mana Shard') /* Name */
      , (38459,  16, 'A pristine shard of congealed Mana, which tingles with barely contained power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38459,   1,   33555641) /* Setup */
-     , (38459,   8,  100690180) /* Icon */;
+VALUES (38459,   1, 0x020004B9) /* Setup */
+     , (38459,   8, 0x06006904) /* Icon */;

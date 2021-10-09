@@ -29,7 +29,7 @@ VALUES (43142,   1, 'Ornate Gear Marker') /* Name */
      , (43142,  20, 'Ornate Gear Markers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43142,   1,   33557681) /* Setup */
-     , (43142,   3,  536870932) /* SoundTable */
-     , (43142,   8,  100691466) /* Icon */
-     , (43142,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43142,   1, 0x02000CB1) /* Setup */
+     , (43142,   3, 0x20000014) /* SoundTable */
+     , (43142,   8, 0x06006E0A) /* Icon */
+     , (43142,  22, 0x3400002B) /* PhysicsEffectTable */;

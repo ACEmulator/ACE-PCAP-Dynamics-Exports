@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28814,   1, 'Lorca Sammel''s Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28814,   1,   33559346) /* Setup */
-     , (28814,   3,  536870932) /* SoundTable */
-     , (28814,   8,  100686384) /* Icon */
-     , (28814,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28814,   1, 0x02001332) /* Setup */
+     , (28814,   3, 0x20000014) /* SoundTable */
+     , (28814,   8, 0x06005A30) /* Icon */
+     , (28814,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28814,   165,      2)  /* RegenerationSelf1 */
-     , (28814,  1030,      2)  /* ColdProtectionSelf1 */;
+VALUES (28814,  1030,      2)  /* ColdProtectionSelf1 */
+     , (28814,   165,      2)  /* RegenerationSelf1 */;

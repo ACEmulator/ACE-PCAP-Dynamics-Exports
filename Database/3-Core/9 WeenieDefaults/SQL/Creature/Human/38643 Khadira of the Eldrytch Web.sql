@@ -31,20 +31,20 @@ VALUES (38643,   1, 'Khadira of the Eldrytch Web') /* Name */
      , (38643,   5, 'Inspector of Adepts') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38643,   1,   33554510) /* Setup */
-     , (38643,   2,  150994945) /* MotionTable */
-     , (38643,   3,  536870914) /* SoundTable */
-     , (38643,   6,   67108990) /* PaletteBase */
-     , (38643,   8,  100667446) /* Icon */
-     , (38643,   9,   83890276) /* EyesTexture */
-     , (38643,  10,   83890317) /* NoseTexture */
-     , (38643,  11,   83890337) /* MouthTexture */
-     , (38643,  15,   67117017) /* HairPalette */
-     , (38643,  16,   67110063) /* EyesPalette */
-     , (38643,  17,   67109555) /* SkinPalette */;
+VALUES (38643,   1, 0x0200004E) /* Setup */
+     , (38643,   2, 0x09000001) /* MotionTable */
+     , (38643,   3, 0x20000002) /* SoundTable */
+     , (38643,   6, 0x0400007E) /* PaletteBase */
+     , (38643,   8, 0x06001036) /* Icon */
+     , (38643,   9, 0x05001064) /* EyesTexture */
+     , (38643,  10, 0x0500108D) /* NoseTexture */
+     , (38643,  11, 0x050010A1) /* MouthTexture */
+     , (38643,  15, 0x04001FD9) /* HairPalette */
+     , (38643,  16, 0x040004AF) /* EyesPalette */
+     , (38643,  17, 0x040002B3) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38643, 8040, 12059244, 152.198, -26.7307, -17.995, 0.0140318, 0, 0, -0.999902) /* PCAPRecordedLocation */
+VALUES (38643, 8040, 0x00B8026C, 152.198, -26.7307, -17.995, 0.014032, 0, 0, -0.999902) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026C [152.198000 -26.730700 -17.995000] 0.014032 0.000000 0.000000 -0.999902 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

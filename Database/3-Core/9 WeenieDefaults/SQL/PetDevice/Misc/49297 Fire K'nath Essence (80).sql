@@ -36,10 +36,10 @@ VALUES (49297,   1, 'Fire K''nath Essence (80)') /* Name */
      , (49297,  14, 'Use this essence to summon or dismiss your Fire K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49297,   1,   33554817) /* Setup */
-     , (49297,   3,  536870932) /* SoundTable */
-     , (49297,   6,   67111919) /* PaletteBase */
-     , (49297,   8,  100693041) /* Icon */
-     , (49297,  22,  872415275) /* PhysicsEffectTable */
-     , (49297,  50,  100693027) /* IconOverlay */
-     , (49297,  52,  100693024) /* IconUnderlay */;
+VALUES (49297,   1, 0x02000181) /* Setup */
+     , (49297,   3, 0x20000014) /* SoundTable */
+     , (49297,   6, 0x04000BEF) /* PaletteBase */
+     , (49297,   8, 0x06007431) /* Icon */
+     , (49297,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49297,  50, 0x06007423) /* IconOverlay */
+     , (49297,  52, 0x06007420) /* IconUnderlay */;

@@ -29,8 +29,8 @@ VALUES (35360,   1, 'Milk Chocolate Bunny') /* Name */
      , (35360,  20, 'Milk Chocolate Bunnies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35360,   1,   33558659) /* Setup */
-     , (35360,   3,  536870932) /* SoundTable */
-     , (35360,   6,   67109300) /* PaletteBase */
-     , (35360,   8,  100669116) /* Icon */
-     , (35360,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35360,   1, 0x02001083) /* Setup */
+     , (35360,   3, 0x20000014) /* SoundTable */
+     , (35360,   6, 0x040001B4) /* PaletteBase */
+     , (35360,   8, 0x060016BC) /* Icon */
+     , (35360,  22, 0x3400002B) /* PhysicsEffectTable */;

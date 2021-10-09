@@ -43,18 +43,18 @@ VALUES (92,   1, 'Large Kite Shield') /* Name */
      , (92,  16, 'Large Kite Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (92,   1,   33554788) /* Setup */
-     , (92,   3,  536870932) /* SoundTable */
-     , (92,   6,   67111919) /* PaletteBase */
-     , (92,   8,  100668573) /* Icon */
-     , (92,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (92,   1, 0x02000164) /* Setup */
+     , (92,   3, 0x20000014) /* SoundTable */
+     , (92,   6, 0x04000BEF) /* PaletteBase */
+     , (92,   8, 0x0600149D) /* Icon */
+     , (92,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (92, 8040, 853082368, 129.2943, 87.25675, 51.926, 0.4978088, -0.1966019, -0.8193482, -0.2054327) /* PCAPRecordedLocation */
+VALUES (92, 8040, 0x32D90100, 129.2943, 87.25675, 51.926, 0.497809, -0.196602, -0.819348, -0.205433) /* PCAPRecordedLocation */
 /* @teleloc 0x32D90100 [129.294300 87.256750 51.926000] 0.497809 -0.196602 -0.819348 -0.205433 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (92,  1486,      2)  /* Impenetrability6 */
+     , (92,  2578,      2)  /* CANTRIPARMOR1 */
      , (92,  2092,      2)  /* AcidBane7 */
-     , (92,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
-     , (92,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (92,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */;

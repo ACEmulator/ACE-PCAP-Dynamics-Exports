@@ -29,20 +29,20 @@ VALUES (43030,   1, 'Esmond Fielding') /* Name */
      , (43030,   5, 'Explorer Society Outreach Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43030,   1,   33554433) /* Setup */
-     , (43030,   2,  150994945) /* MotionTable */
-     , (43030,   3,  536870913) /* SoundTable */
-     , (43030,   6,   67108990) /* PaletteBase */
-     , (43030,   8,  100667377) /* Icon */
-     , (43030,   9,   83890480) /* EyesTexture */
-     , (43030,  10,   83890549) /* NoseTexture */
-     , (43030,  11,   83890657) /* MouthTexture */
-     , (43030,  15,   67117022) /* HairPalette */
-     , (43030,  16,   67109565) /* EyesPalette */
-     , (43030,  17,   67109560) /* SkinPalette */;
+VALUES (43030,   1, 0x02000001) /* Setup */
+     , (43030,   2, 0x09000001) /* MotionTable */
+     , (43030,   3, 0x20000001) /* SoundTable */
+     , (43030,   6, 0x0400007E) /* PaletteBase */
+     , (43030,   8, 0x06000FF1) /* Icon */
+     , (43030,   9, 0x05001130) /* EyesTexture */
+     , (43030,  10, 0x05001175) /* NoseTexture */
+     , (43030,  11, 0x050011E1) /* MouthTexture */
+     , (43030,  15, 0x04001FDE) /* HairPalette */
+     , (43030,  16, 0x040002BD) /* EyesPalette */
+     , (43030,  17, 0x040002B8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43030, 8040, 3122069788, 88.9983, 84.2855, 136.805, 0.689521, 0, 0, 0.724266) /* PCAPRecordedLocation */
+VALUES (43030, 8040, 0xBA17011C, 88.9983, 84.2855, 136.805, 0.689521, 0, 0, 0.724266) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17011C [88.998300 84.285500 136.805000] 0.689521 0.000000 0.000000 0.724266 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

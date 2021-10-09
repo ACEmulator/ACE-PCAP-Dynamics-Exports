@@ -31,20 +31,20 @@ VALUES (38710,   1, 'Viviana Fortiore') /* Name */
      , (38710,   5, 'Inspector of Knights') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38710,   1,   33554510) /* Setup */
-     , (38710,   2,  150994945) /* MotionTable */
-     , (38710,   3,  536870914) /* SoundTable */
-     , (38710,   6,   67108990) /* PaletteBase */
-     , (38710,   8,  100667446) /* Icon */
-     , (38710,   9,   83890278) /* EyesTexture */
-     , (38710,  10,   83890302) /* NoseTexture */
-     , (38710,  11,   83890330) /* MouthTexture */
-     , (38710,  15,   67117078) /* HairPalette */
-     , (38710,  16,   67110064) /* EyesPalette */
-     , (38710,  17,   67115901) /* SkinPalette */;
+VALUES (38710,   1, 0x0200004E) /* Setup */
+     , (38710,   2, 0x09000001) /* MotionTable */
+     , (38710,   3, 0x20000002) /* SoundTable */
+     , (38710,   6, 0x0400007E) /* PaletteBase */
+     , (38710,   8, 0x06001036) /* Icon */
+     , (38710,   9, 0x05001066) /* EyesTexture */
+     , (38710,  10, 0x0500107E) /* NoseTexture */
+     , (38710,  11, 0x0500109A) /* MouthTexture */
+     , (38710,  15, 0x04002016) /* HairPalette */
+     , (38710,  16, 0x040004B0) /* EyesPalette */
+     , (38710,  17, 0x04001B7D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38710, 8040, 12124780, 148.246, -26.5573, -17.995, -0.105379, 0, 0, 0.9944322) /* PCAPRecordedLocation */
+VALUES (38710, 8040, 0x00B9026C, 148.246, -26.5573, -17.995, -0.105379, 0, 0, 0.994432) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026C [148.246000 -26.557300 -17.995000] -0.105379 0.000000 0.000000 0.994432 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

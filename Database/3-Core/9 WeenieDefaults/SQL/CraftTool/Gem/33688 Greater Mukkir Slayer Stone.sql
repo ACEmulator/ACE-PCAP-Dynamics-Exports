@@ -29,8 +29,8 @@ VALUES (33688,   1, 'Greater Mukkir Slayer Stone') /* Name */
      , (33688,  16, 'A gem, empowered to enchant a single weapon against the Mukkir.  This effect is permanent, but fragile, and therefore cannot be applied to any weapon enhanced by either the Lucky Rabbit''s Foot or the Dark Idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33688,   1,   33556926) /* Setup */
-     , (33688,   3,  536870932) /* SoundTable */
-     , (33688,   6,   67111919) /* PaletteBase */
-     , (33688,   8,  100689081) /* Icon */
-     , (33688,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33688,   1, 0x020009BE) /* Setup */
+     , (33688,   3, 0x20000014) /* SoundTable */
+     , (33688,   6, 0x04000BEF) /* PaletteBase */
+     , (33688,   8, 0x060064B9) /* Icon */
+     , (33688,  22, 0x3400002B) /* PhysicsEffectTable */;

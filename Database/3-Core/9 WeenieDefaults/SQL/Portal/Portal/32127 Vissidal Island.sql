@@ -22,10 +22,10 @@ VALUES (32127,   1, 'Vissidal Island') /* Name */
      , (32127,  16, 'You must obtain the blessing of the Watcher of the Deep before you may use this portal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32127,   1,   33555925) /* Setup */
-     , (32127,   2,  150994947) /* MotionTable */
-     , (32127,   8,  100667499) /* Icon */;
+VALUES (32127,   1, 0x020005D5) /* Setup */
+     , (32127,   2, 0x09000003) /* MotionTable */
+     , (32127,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32127, 8040, 3353935895, 68.1729, 162.705, -0.163, 0.819412, 0, 0, -0.573205) /* PCAPRecordedLocation */
+VALUES (32127, 8040, 0xC7E90017, 68.1729, 162.705, -0.163, 0.819412, 0, 0, -0.573205) /* PCAPRecordedLocation */
 /* @teleloc 0xC7E90017 [68.172900 162.705000 -0.163000] 0.819412 0.000000 0.000000 -0.573205 */;

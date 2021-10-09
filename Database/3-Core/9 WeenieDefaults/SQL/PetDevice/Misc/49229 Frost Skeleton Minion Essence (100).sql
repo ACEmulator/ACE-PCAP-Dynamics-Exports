@@ -37,14 +37,14 @@ VALUES (49229,   1, 'Frost Skeleton Minion Essence (100)') /* Name */
      , (49229,  14, 'Use this essence to summon or dismiss your Frost Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49229,   1,   33554817) /* Setup */
-     , (49229,   3,  536870932) /* SoundTable */
-     , (49229,   6,   67111919) /* PaletteBase */
-     , (49229,   8,  100669124) /* Icon */
-     , (49229,  22,  872415275) /* PhysicsEffectTable */
-     , (49229,  50,  100693028) /* IconOverlay */
-     , (49229,  52,  100693024) /* IconUnderlay */;
+VALUES (49229,   1, 0x02000181) /* Setup */
+     , (49229,   3, 0x20000014) /* SoundTable */
+     , (49229,   6, 0x04000BEF) /* PaletteBase */
+     , (49229,   8, 0x060016C4) /* Icon */
+     , (49229,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49229,  50, 0x06007424) /* IconOverlay */
+     , (49229,  52, 0x06007420) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49229, 8040, 23855554, 55.26773, -34.33495, -0.0009999946, -0.8215929, 0, 0, -0.5700747) /* PCAPRecordedLocation */
+VALUES (49229, 8040, 0x016C01C2, 55.26773, -34.33495, -0.001, -0.821593, 0, 0, -0.570075) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.267730 -34.334950 -0.001000] -0.821593 0.000000 0.000000 -0.570075 */;

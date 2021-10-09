@@ -26,7 +26,7 @@ VALUES (0x794D3004,  7333, 0x94D30013, 71.26851, 64.17942, 276.4794, 1, 0, 0, 0,
 /* @teleloc 0x94D30013 [71.268510 64.179420 276.479400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x794D3005,  9252, 0x94D30030, 131.9413, 190.0047, 187.573, -0.4193285, 0, 0, -0.9078345,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
+VALUES (0x794D3005,  9252, 0x94D30030, 131.9413, 190.0047, 187.573, -0.419329, 0, 0, -0.907835,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
 /* @teleloc 0x94D30030 [131.941300 190.004700 187.573000] -0.419329 0.000000 0.000000 -0.907835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

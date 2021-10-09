@@ -30,20 +30,20 @@ VALUES (32709,   1, 'Sho Swordsman') /* Name */
      , (32709,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32709,   1,   33554433) /* Setup */
-     , (32709,   2,  150994945) /* MotionTable */
-     , (32709,   3,  536870913) /* SoundTable */
-     , (32709,   6,   67108990) /* PaletteBase */
-     , (32709,   8,  100667446) /* Icon */
-     , (32709,   9,   83890487) /* EyesTexture */
-     , (32709,  10,   83890530) /* NoseTexture */
-     , (32709,  11,   83890657) /* MouthTexture */
-     , (32709,  15,   67117068) /* HairPalette */
-     , (32709,  16,   67110062) /* EyesPalette */
-     , (32709,  17,   67110052) /* SkinPalette */;
+VALUES (32709,   1, 0x02000001) /* Setup */
+     , (32709,   2, 0x09000001) /* MotionTable */
+     , (32709,   3, 0x20000001) /* SoundTable */
+     , (32709,   6, 0x0400007E) /* PaletteBase */
+     , (32709,   8, 0x06001036) /* Icon */
+     , (32709,   9, 0x05001137) /* EyesTexture */
+     , (32709,  10, 0x05001162) /* NoseTexture */
+     , (32709,  11, 0x050011E1) /* MouthTexture */
+     , (32709,  15, 0x0400200C) /* HairPalette */
+     , (32709,  16, 0x040004AE) /* EyesPalette */
+     , (32709,  17, 0x040004A4) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32709, 8040, 3911319564, 34.6528, 80.0514, 0.004999995, 0.051325, 0, 0, -0.998682) /* PCAPRecordedLocation */
+VALUES (32709, 8040, 0xE922000C, 34.6528, 80.0514, 0.005, 0.051325, 0, 0, -0.998682) /* PCAPRecordedLocation */
 /* @teleloc 0xE922000C [34.652800 80.051400 0.005000] 0.051325 0.000000 0.000000 -0.998682 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

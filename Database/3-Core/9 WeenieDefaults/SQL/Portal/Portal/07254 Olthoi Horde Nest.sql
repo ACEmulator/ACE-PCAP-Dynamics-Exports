@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7254,   1, 'Olthoi Horde Nest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7254,   1,   33555923) /* Setup */
-     , (7254,   2,  150994947) /* MotionTable */
-     , (7254,   8,  100667499) /* Icon */;
+VALUES (7254,   1, 0x020005D3) /* Setup */
+     , (7254,   2, 0x09000003) /* MotionTable */
+     , (7254,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7254, 8040, 3251568671, 76.8862, 165.883, 278.1134, -0.6782293, 0, 0, -0.7348503) /* PCAPRecordedLocation */
+VALUES (7254, 8040, 0xC1CF001F, 76.8862, 165.883, 278.1134, -0.678229, 0, 0, -0.73485) /* PCAPRecordedLocation */
 /* @teleloc 0xC1CF001F [76.886200 165.883000 278.113400] -0.678229 0.000000 0.000000 -0.734850 */;

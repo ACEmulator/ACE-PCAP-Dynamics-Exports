@@ -29,11 +29,11 @@ VALUES (46284,   1, 'Bloodroot Vine') /* Name */
      , (46284,  15, 'A small, spiky vine with blood-red roots, found only in the Valley of Death.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46284,   1,   33561457) /* Setup */
-     , (46284,   3,  536870932) /* SoundTable */
-     , (46284,   8,  100692656) /* Icon */
-     , (46284,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46284,   1, 0x02001B71) /* Setup */
+     , (46284,   3, 0x20000014) /* SoundTable */
+     , (46284,   8, 0x060072B0) /* Icon */
+     , (46284,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46284, 8040, 675872794, 90.37565, 28.09184, 0.3409864, 0.2057558, 0, 0, -0.9786034) /* PCAPRecordedLocation */
+VALUES (46284, 8040, 0x2849001A, 90.37565, 28.09184, 0.340986, 0.205756, 0, 0, -0.978603) /* PCAPRecordedLocation */
 /* @teleloc 0x2849001A [90.375650 28.091840 0.340986] 0.205756 0.000000 0.000000 -0.978603 */;

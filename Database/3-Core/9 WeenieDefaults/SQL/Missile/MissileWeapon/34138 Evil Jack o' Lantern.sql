@@ -40,8 +40,8 @@ VALUES (34138,   1, 'Evil Jack o'' Lantern') /* Name */
      , (34138,  16, 'An exquisitely crafted jack o'' lantern, made with a carving knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34138,   1,   33556809) /* Setup */
-     , (34138,   3,  536870932) /* SoundTable */
-     , (34138,   6,   67112968) /* PaletteBase */
-     , (34138,   8,  100689204) /* Icon */
-     , (34138,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34138,   1, 0x02000949) /* Setup */
+     , (34138,   3, 0x20000014) /* SoundTable */
+     , (34138,   6, 0x04001008) /* PaletteBase */
+     , (34138,   8, 0x06006534) /* Icon */
+     , (34138,  22, 0x3400002B) /* PhysicsEffectTable */;

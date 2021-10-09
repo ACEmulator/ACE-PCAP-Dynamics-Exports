@@ -48,15 +48,15 @@ VALUES (32976,   1, 'Princely Runed War Bow') /* Name */
      , (32976,  15, 'A war bow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32976,   1,   33559870) /* Setup */
-     , (32976,   3,  536870932) /* SoundTable */
-     , (32976,   6,   67115555) /* PaletteBase */
-     , (32976,   8,  100687047) /* Icon */
-     , (32976,  22,  872415275) /* PhysicsEffectTable */
-     , (32976,  50,  100688913) /* IconOverlay */
+VALUES (32976,   1, 0x0200153E) /* Setup */
+     , (32976,   3, 0x20000014) /* SoundTable */
+     , (32976,   6, 0x04001A23) /* PaletteBase */
+     , (32976,   8, 0x06005CC7) /* Icon */
+     , (32976,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32976,  50, 0x06006411) /* IconOverlay */
      , (32976,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32976,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (32976,  2101,      2)  /* DefenderSelf7 */
-     , (32976,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (32976,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32976,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32976,  2101,      2)  /* DefenderSelf7 */;

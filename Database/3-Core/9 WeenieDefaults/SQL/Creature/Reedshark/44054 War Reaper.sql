@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44054,   1, 'War Reaper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44054,   1,   33554489) /* Setup */
-     , (44054,   2,  150994970) /* MotionTable */
-     , (44054,   3,  536870928) /* SoundTable */
-     , (44054,   6,   67109313) /* PaletteBase */
-     , (44054,   8,  100667939) /* Icon */
-     , (44054,  22,  872415268) /* PhysicsEffectTable */;
+VALUES (44054,   1, 0x02000039) /* Setup */
+     , (44054,   2, 0x0900001A) /* MotionTable */
+     , (44054,   3, 0x20000010) /* SoundTable */
+     , (44054,   6, 0x040001C1) /* PaletteBase */
+     , (44054,   8, 0x06001223) /* Icon */
+     , (44054,  22, 0x34000024) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44054, 8040, 2271477761, 13.58524, 18.78693, 14.86945, -0.161047, 0, 0, 0.9869468) /* PCAPRecordedLocation */
+VALUES (44054, 8040, 0x87640001, 13.58524, 18.78693, 14.86945, -0.161047, 0, 0, 0.986947) /* PCAPRecordedLocation */
 /* @teleloc 0x87640001 [13.585240 18.786930 14.869450] -0.161047 0.000000 0.000000 0.986947 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

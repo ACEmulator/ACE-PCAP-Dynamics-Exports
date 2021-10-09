@@ -18,9 +18,9 @@ VALUES (14738,   1, 'South Uzis Villas') /* Name */
      , (14738,  16, 'Welcome to South Uziz Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14738,   1,   33557463) /* Setup */
-     , (14738,   8,  100668115) /* Icon */;
+VALUES (14738,   1, 0x02000BD7) /* Setup */
+     , (14738,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14738, 8040, 2756968460, 28.8186, 78.2862, 54.9254, 0.696518, 0, 0, -0.717539) /* PCAPRecordedLocation */
+VALUES (14738, 8040, 0xA454000C, 28.8186, 78.2862, 54.9254, 0.696518, 0, 0, -0.717539) /* PCAPRecordedLocation */
 /* @teleloc 0xA454000C [28.818600 78.286200 54.925400] 0.696518 0.000000 0.000000 -0.717539 */;

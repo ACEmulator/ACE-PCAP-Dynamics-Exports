@@ -55,15 +55,15 @@ VALUES (22154,   1, 'Acid Jo') /* Name */
      , (22154,  40, 'Olthoi king''s mage') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22154,   1,   33558077) /* Setup */
-     , (22154,   3,  536870932) /* SoundTable */
-     , (22154,   6,   67111919) /* PaletteBase */
-     , (22154,   8,  100673620) /* Icon */
-     , (22154,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22154,   1, 0x02000E3D) /* Setup */
+     , (22154,   3, 0x20000014) /* SoundTable */
+     , (22154,   6, 0x04000BEF) /* PaletteBase */
+     , (22154,   8, 0x06002854) /* Icon */
+     , (22154,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22154,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22154,  2087,      2)  /* StrengthSelf7 */
+VALUES (22154,  6091,      2)  /* CantripDefender4 */
+     , (22154,  2087,      2)  /* StrengthSelf7 */
      , (22154,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (22154,  2101,      2)  /* DefenderSelf7 */
-     , (22154,  6091,      2)  /* CantripDefender4 */;
+     , (22154,  2101,      2)  /* DefenderSelf7 */;

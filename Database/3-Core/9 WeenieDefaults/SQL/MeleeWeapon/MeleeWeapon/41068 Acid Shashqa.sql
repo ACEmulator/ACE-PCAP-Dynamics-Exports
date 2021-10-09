@@ -52,11 +52,11 @@ VALUES (41068,   1, 'Acid Shashqa') /* Name */
      , (41068,  16, 'Acid Shashqa of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41068,   1,   33560827) /* Setup */
-     , (41068,   3,  536870932) /* SoundTable */
-     , (41068,   6,   67115557) /* PaletteBase */
-     , (41068,   8,  100690524) /* Icon */
-     , (41068,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41068,   1, 0x020018FB) /* Setup */
+     , (41068,   3, 0x20000014) /* SoundTable */
+     , (41068,   6, 0x04001A25) /* PaletteBase */
+     , (41068,   8, 0x06006A5C) /* Icon */
+     , (41068,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41068,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -27,15 +27,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36086,   1, 'Talaagran Sarian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36086,   1,   33559744) /* Setup */
-     , (36086,   2,  150994945) /* MotionTable */
-     , (36086,   3,  536870934) /* SoundTable */
-     , (36086,   6,   67108990) /* PaletteBase */
-     , (36086,   8,  100669122) /* Icon */
-     , (36086,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (36086,   1, 0x020014C0) /* Setup */
+     , (36086,   2, 0x09000001) /* MotionTable */
+     , (36086,   3, 0x20000016) /* SoundTable */
+     , (36086,   6, 0x0400007E) /* PaletteBase */
+     , (36086,   8, 0x060016C2) /* Icon */
+     , (36086,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36086, 8040, 10682636, 249.5, -186.432, -35.9925, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36086, 8040, 0x00A3010C, 249.5, -186.432, -35.9925, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3010C [249.500000 -186.432000 -35.992500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

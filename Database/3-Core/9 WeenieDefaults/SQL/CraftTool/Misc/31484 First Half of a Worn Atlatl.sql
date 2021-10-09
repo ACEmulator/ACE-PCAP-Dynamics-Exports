@@ -23,7 +23,7 @@ VALUES (31484,   1, 'First Half of a Worn Atlatl') /* Name */
      , (31484,  16, 'Half of a worn old atlatl. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31484,   1,   33554817) /* Setup */
-     , (31484,   3,  536870932) /* SoundTable */
-     , (31484,   8,  100687883) /* Icon */
-     , (31484,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31484,   1, 0x02000181) /* Setup */
+     , (31484,   3, 0x20000014) /* SoundTable */
+     , (31484,   8, 0x0600600B) /* Icon */
+     , (31484,  22, 0x3400002B) /* PhysicsEffectTable */;

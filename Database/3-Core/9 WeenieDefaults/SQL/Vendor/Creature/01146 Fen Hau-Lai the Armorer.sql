@@ -35,20 +35,20 @@ VALUES (1146,   1, 'Fen Hau-Lai the Armorer') /* Name */
      , (1146,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1146,   1,   33554433) /* Setup */
-     , (1146,   2,  150994945) /* MotionTable */
-     , (1146,   3,  536870913) /* SoundTable */
-     , (1146,   6,   67108990) /* PaletteBase */
-     , (1146,   8,  100667446) /* Icon */
-     , (1146,   9,   83890453) /* EyesTexture */
-     , (1146,  10,   83890562) /* NoseTexture */
-     , (1146,  11,   83890582) /* MouthTexture */
-     , (1146,  15,   67117027) /* HairPalette */
-     , (1146,  16,   67109565) /* EyesPalette */
-     , (1146,  17,   67110056) /* SkinPalette */;
+VALUES (1146,   1, 0x02000001) /* Setup */
+     , (1146,   2, 0x09000001) /* MotionTable */
+     , (1146,   3, 0x20000001) /* SoundTable */
+     , (1146,   6, 0x0400007E) /* PaletteBase */
+     , (1146,   8, 0x06001036) /* Icon */
+     , (1146,   9, 0x05001115) /* EyesTexture */
+     , (1146,  10, 0x05001182) /* NoseTexture */
+     , (1146,  11, 0x05001196) /* MouthTexture */
+     , (1146,  15, 0x04001FE3) /* HairPalette */
+     , (1146,  16, 0x040002BD) /* EyesPalette */
+     , (1146,  17, 0x040004A8) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1146, 8040, 3862036760, 32.4947, 28.4304, 28.005, 0.06313968, 0, 0, -0.9980047) /* PCAPRecordedLocation */
+VALUES (1146, 8040, 0xE6320118, 32.4947, 28.4304, 28.005, 0.06314, 0, 0, -0.998005) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320118 [32.494700 28.430400 28.005000] 0.063140 0.000000 0.000000 -0.998005 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

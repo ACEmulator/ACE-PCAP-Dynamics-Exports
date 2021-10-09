@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41265,   1, 'Scroll of Item Tinkering Ignorance II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41265,   1,   33554826) /* Setup */
-     , (41265,   8,  100676477) /* Icon */
-     , (41265,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41265,   1, 0x0200018A) /* Setup */
+     , (41265,   8, 0x0600337D) /* Icon */
+     , (41265,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41265,  28,        745) /* Spell - ItemIgnoranceOther2 */;

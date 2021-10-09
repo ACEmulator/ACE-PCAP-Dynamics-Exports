@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46234,   1, 'Enhanced Chilling Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46234,   1,   33556383) /* Setup */
-     , (46234,   3,  536870932) /* SoundTable */
-     , (46234,   6,   67111919) /* PaletteBase */
-     , (46234,   8,  100672924) /* Icon */
-     , (46234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46234,   1, 0x0200079F) /* Setup */
+     , (46234,   3, 0x20000014) /* SoundTable */
+     , (46234,   6, 0x04000BEF) /* PaletteBase */
+     , (46234,   8, 0x0600259C) /* Icon */
+     , (46234,  22, 0x3400002B) /* PhysicsEffectTable */;

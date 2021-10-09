@@ -34,20 +34,20 @@ VALUES (8438,   1, 'Kamira Mohonoko the Provisioner') /* Name */
      , (8438,   5, 'Provisioner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8438,   1,   33554510) /* Setup */
-     , (8438,   2,  150994945) /* MotionTable */
-     , (8438,   3,  536870914) /* SoundTable */
-     , (8438,   6,   67108990) /* PaletteBase */
-     , (8438,   8,  100667446) /* Icon */
-     , (8438,   9,   83890277) /* EyesTexture */
-     , (8438,  10,   83890300) /* NoseTexture */
-     , (8438,  11,   83890336) /* MouthTexture */
-     , (8438,  15,   67116992) /* HairPalette */
-     , (8438,  16,   67110063) /* EyesPalette */
-     , (8438,  17,   67110055) /* SkinPalette */;
+VALUES (8438,   1, 0x0200004E) /* Setup */
+     , (8438,   2, 0x09000001) /* MotionTable */
+     , (8438,   3, 0x20000002) /* SoundTable */
+     , (8438,   6, 0x0400007E) /* PaletteBase */
+     , (8438,   8, 0x06001036) /* Icon */
+     , (8438,   9, 0x05001065) /* EyesTexture */
+     , (8438,  10, 0x0500107C) /* NoseTexture */
+     , (8438,  11, 0x050010A0) /* MouthTexture */
+     , (8438,  15, 0x04001FC0) /* HairPalette */
+     , (8438,  16, 0x040004AF) /* EyesPalette */
+     , (8438,  17, 0x040004A7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8438, 8040, 3894542621, 149.586, 112.169, -1.195, 0.285405, 0, 0, -0.958407) /* PCAPRecordedLocation */
+VALUES (8438, 8040, 0xE822011D, 149.586, 112.169, -1.195, 0.285405, 0, 0, -0.958407) /* PCAPRecordedLocation */
 /* @teleloc 0xE822011D [149.586000 112.169000 -1.195000] 0.285405 0.000000 0.000000 -0.958407 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

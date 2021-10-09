@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33183,   1, 'Isin Dule''s Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33183,   1,   33554773) /* Setup */
-     , (33183,   3,  536870932) /* SoundTable */
-     , (33183,   8,  100668176) /* Icon */
-     , (33183,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33183,   1, 0x02000155) /* Setup */
+     , (33183,   3, 0x20000014) /* SoundTable */
+     , (33183,   8, 0x06001310) /* Icon */
+     , (33183,  22, 0x3400002B) /* PhysicsEffectTable */;

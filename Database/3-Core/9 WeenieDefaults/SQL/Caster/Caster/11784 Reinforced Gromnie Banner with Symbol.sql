@@ -35,9 +35,9 @@ VALUES (11784,   1, 'Reinforced Gromnie Banner with Symbol') /* Name */
      , (11784,  16, 'A reinforced, symbol tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11784,   1,   33557255) /* Setup */
-     , (11784,   8,  100671937) /* Icon */
-     , (11784,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11784,   1, 0x02000B07) /* Setup */
+     , (11784,   8, 0x060021C1) /* Icon */
+     , (11784,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11784,   657,      2)  /* ManaMasterySelf5 */

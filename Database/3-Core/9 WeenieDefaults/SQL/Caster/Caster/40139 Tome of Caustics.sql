@@ -38,19 +38,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40139,   1, 'Tome of Caustics') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40139,   1,   33560705) /* Setup */
-     , (40139,   3,  536870932) /* SoundTable */
-     , (40139,   6,   67115357) /* PaletteBase */
-     , (40139,   8,  100690363) /* Icon */
-     , (40139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40139,   1, 0x02001881) /* Setup */
+     , (40139,   3, 0x20000014) /* SoundTable */
+     , (40139,   6, 0x0400195D) /* PaletteBase */
+     , (40139,   8, 0x060069BB) /* Icon */
+     , (40139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40139,  28,       4315) /* Spell - ManaBoostSelf8 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40139, 8040, 2847146034, 157.7887, 30.10039, 102.7985, -0.3930089, -0.3930089, -0.5878299, -0.5878299) /* PCAPRecordedLocation */
+VALUES (40139, 8040, 0xA9B40032, 157.7887, 30.10039, 102.7985, -0.393009, -0.393009, -0.58783, -0.58783) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [157.788700 30.100390 102.798500] -0.393009 -0.393009 -0.587830 -0.587830 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40139,  2014,      2)  /* WizardsUltimateIntellect */
-     , (40139,  4493,      2)  /* ManaRenewalOther8 */
-     , (40139,  4601,      2)  /* ManaMasteryOther8 */
-     , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+VALUES (40139,  4493,      2)  /* ManaRenewalOther8 */
+     , (40139,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (40139,  4601,      2)  /* ManaMasteryOther8 */;

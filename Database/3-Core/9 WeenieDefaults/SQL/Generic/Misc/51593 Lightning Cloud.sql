@@ -20,11 +20,11 @@ VALUES (51593,   1, 'Lightning Cloud') /* Name */
      , (51593,  15, 'A cloud swirling with electric energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51593,   1,   33561570) /* Setup */
-     , (51593,   3,  536870932) /* SoundTable */
-     , (51593,   8,  100670715) /* Icon */
-     , (51593,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (51593,   1, 0x02001BE2) /* Setup */
+     , (51593,   3, 0x20000014) /* SoundTable */
+     , (51593,   8, 0x06001CFB) /* Icon */
+     , (51593,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51593, 8040, 3583574079, 185.907, 156.8778, 373.6675, 0.7876397, 0, 0, -0.6161361) /* PCAPRecordedLocation */
+VALUES (51593, 8040, 0xD599003F, 185.907, 156.8778, 373.6675, 0.78764, 0, 0, -0.616136) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [185.907000 156.877800 373.667500] 0.787640 0.000000 0.000000 -0.616136 */;

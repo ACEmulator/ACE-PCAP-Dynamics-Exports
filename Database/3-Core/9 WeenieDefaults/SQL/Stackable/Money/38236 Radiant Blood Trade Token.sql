@@ -26,6 +26,6 @@ VALUES (38236,   1, 'Radiant Blood Trade Token') /* Name */
      , (38236,  16, 'A token, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38236,   1,   33554802) /* Setup */
-     , (38236,   8,  100689461) /* Icon */
-     , (38236,  50,  100690179) /* IconOverlay */;
+VALUES (38236,   1, 0x02000172) /* Setup */
+     , (38236,   8, 0x06006635) /* Icon */
+     , (38236,  50, 0x06006903) /* IconOverlay */;

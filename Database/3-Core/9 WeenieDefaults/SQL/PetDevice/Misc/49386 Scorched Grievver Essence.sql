@@ -40,10 +40,10 @@ VALUES (49386,   1, 'Scorched Grievver Essence') /* Name */
      , (49386,  14, 'Use this essence to summon or dismiss your Scorched Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49386,   1,   33554817) /* Setup */
-     , (49386,   3,  536870932) /* SoundTable */
-     , (49386,   6,   67111919) /* PaletteBase */
-     , (49386,   8,  100670960) /* Icon */
-     , (49386,  22,  872415275) /* PhysicsEffectTable */
-     , (49386,  50,  100693032) /* IconOverlay */
-     , (49386,  52,  100693024) /* IconUnderlay */;
+VALUES (49386,   1, 0x02000181) /* Setup */
+     , (49386,   3, 0x20000014) /* SoundTable */
+     , (49386,   6, 0x04000BEF) /* PaletteBase */
+     , (49386,   8, 0x06001DF0) /* Icon */
+     , (49386,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49386,  50, 0x06007428) /* IconOverlay */
+     , (49386,  52, 0x06007420) /* IconUnderlay */;

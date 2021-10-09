@@ -46,7 +46,7 @@ VALUES (46959,   1, 'Modified Iasparailaun') /* Name */
      , (46959,  15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46959,   1,   33557926) /* Setup */
-     , (46959,   3,  536870932) /* SoundTable */
-     , (46959,   8,  100673479) /* Icon */
-     , (46959,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46959,   1, 0x02000DA6) /* Setup */
+     , (46959,   3, 0x20000014) /* SoundTable */
+     , (46959,   8, 0x060027C7) /* Icon */
+     , (46959,  22, 0x3400002B) /* PhysicsEffectTable */;

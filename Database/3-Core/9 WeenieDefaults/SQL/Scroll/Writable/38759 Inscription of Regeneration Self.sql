@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38759,   1, 'Inscription of Regeneration Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38759,   1,   33554826) /* Setup */
-     , (38759,   8,  100676941) /* Icon */
-     , (38759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38759,   1, 0x0200018A) /* Setup */
+     , (38759,   8, 0x0600354D) /* Icon */
+     , (38759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38759,  28,       4496) /* Spell - RegenerationSelf8 */;

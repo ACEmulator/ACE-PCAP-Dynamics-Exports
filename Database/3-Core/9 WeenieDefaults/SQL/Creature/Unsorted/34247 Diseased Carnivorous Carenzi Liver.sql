@@ -28,12 +28,12 @@ VALUES (34247,   1, 'Diseased Carnivorous Carenzi Liver') /* Name */
      , (34247,  15, 'This is the liver from a now-deceased carenzi.  You can use it to more closely examine it, but you can''t bring yourself to put it into your pack - you have no idea how healthy it is.  Aun Teriona, near the town of Bluespire, is said to concern himself with the carenzi population.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34247,   1,   33560137) /* Setup */
-     , (34247,   2,  150994980) /* MotionTable */
-     , (34247,   3,  536870932) /* SoundTable */
-     , (34247,   8,  100689684) /* Icon */
-     , (34247,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34247,   1, 0x02001649) /* Setup */
+     , (34247,   2, 0x09000024) /* MotionTable */
+     , (34247,   3, 0x20000014) /* SoundTable */
+     , (34247,   8, 0x06006714) /* Icon */
+     , (34247,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34247, 8040, 533004324, 120.0371, 89.74165, 59.4993, -0.05295586, 0, 0, -0.9985968) /* PCAPRecordedLocation */
+VALUES (34247, 8040, 0x1FC50024, 120.0371, 89.74165, 59.4993, -0.052956, 0, 0, -0.998597) /* PCAPRecordedLocation */
 /* @teleloc 0x1FC50024 [120.037100 89.741650 59.499300] -0.052956 0.000000 0.000000 -0.998597 */;

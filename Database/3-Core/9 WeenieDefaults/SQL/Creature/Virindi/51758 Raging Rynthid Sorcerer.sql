@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51758,   1, 'Raging Rynthid Sorcerer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51758,   1,   33561563) /* Setup */
-     , (51758,   2,  150995487) /* MotionTable */
-     , (51758,   3,  536870930) /* SoundTable */
-     , (51758,   6,   67111346) /* PaletteBase */
-     , (51758,   8,  100667943) /* Icon */
-     , (51758,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (51758,   1, 0x02001BDB) /* Setup */
+     , (51758,   2, 0x0900021F) /* MotionTable */
+     , (51758,   3, 0x20000012) /* SoundTable */
+     , (51758,   6, 0x040009B2) /* PaletteBase */
+     , (51758,   8, 0x06001227) /* Icon */
+     , (51758,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51758, 8040, 791871524, 101.2674, 95.94027, 31.00611, -0.3427335, 0, 0, -0.9394327) /* PCAPRecordedLocation */
+VALUES (51758, 8040, 0x2F330024, 101.2674, 95.94027, 31.00611, -0.342734, 0, 0, -0.939433) /* PCAPRecordedLocation */
 /* @teleloc 0x2F330024 [101.267400 95.940270 31.006110] -0.342734 0.000000 0.000000 -0.939433 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

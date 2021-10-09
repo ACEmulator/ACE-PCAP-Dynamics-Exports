@@ -27,9 +27,9 @@ VALUES (53305,   1, 'Gem of Verdant Force') /* Name */
      , (53305,  20, 'Gems of Verdant Force') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53305,   1,   33554809) /* Setup */
-     , (53305,   3,  536870932) /* SoundTable */
-     , (53305,   6,   67111919) /* PaletteBase */
-     , (53305,   8,  100693327) /* Icon */
-     , (53305,  22,  872415275) /* PhysicsEffectTable */
-     , (53305,  50,  100693329) /* IconOverlay */;
+VALUES (53305,   1, 0x02000179) /* Setup */
+     , (53305,   3, 0x20000014) /* SoundTable */
+     , (53305,   6, 0x04000BEF) /* PaletteBase */
+     , (53305,   8, 0x0600754F) /* Icon */
+     , (53305,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53305,  50, 0x06007551) /* IconOverlay */;

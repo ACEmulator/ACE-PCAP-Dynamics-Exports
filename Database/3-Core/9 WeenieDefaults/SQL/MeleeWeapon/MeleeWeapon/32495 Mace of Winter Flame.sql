@@ -47,11 +47,11 @@ VALUES (32495,   1, 'Mace of Winter Flame') /* Name */
      , (32495,  16, 'A mace once wielded by the ancient slave Hiranaith, and touched by the seething energies of his brother Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32495,   1,   33559806) /* Setup */
-     , (32495,   3,  536870932) /* SoundTable */
-     , (32495,   6,   67111919) /* PaletteBase */
-     , (32495,   8,  100688526) /* Icon */
-     , (32495,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32495,   1, 0x020014FE) /* Setup */
+     , (32495,   3, 0x20000014) /* SoundTable */
+     , (32495,   6, 0x04000BEF) /* PaletteBase */
+     , (32495,   8, 0x0600628E) /* Icon */
+     , (32495,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32495,  1616,      2)  /* BloodDrinkerSelf6 */

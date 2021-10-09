@@ -17,9 +17,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32722,   1, 'Nymph Maniac Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32722,   1,   33559570) /* Setup */
-     , (32722,   3,  536870932) /* SoundTable */
-     , (32722,   6,   67111919) /* PaletteBase */
-     , (32722,   8,  100667623) /* Icon */
-     , (32722,  22,  872415275) /* PhysicsEffectTable */
-     , (32722,  52,  100687686) /* IconUnderlay */;
+VALUES (32722,   1, 0x02001412) /* Setup */
+     , (32722,   3, 0x20000014) /* SoundTable */
+     , (32722,   6, 0x04000BEF) /* PaletteBase */
+     , (32722,   8, 0x060010E7) /* Icon */
+     , (32722,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32722,  52, 0x06005F46) /* IconUnderlay */;

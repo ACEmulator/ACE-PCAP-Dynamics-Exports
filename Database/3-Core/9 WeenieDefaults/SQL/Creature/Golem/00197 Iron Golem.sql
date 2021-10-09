@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (197,   1, 'Iron Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (197,   1,   33556426) /* Setup */
-     , (197,   2,  150995073) /* MotionTable */
-     , (197,   3,  536870933) /* SoundTable */
-     , (197,   6,   67112809) /* PaletteBase */
-     , (197,   8,  100667940) /* Icon */
-     , (197,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (197,   1, 0x020007CA) /* Setup */
+     , (197,   2, 0x09000081) /* MotionTable */
+     , (197,   3, 0x20000015) /* SoundTable */
+     , (197,   6, 0x04000F69) /* PaletteBase */
+     , (197,   8, 0x06001224) /* Icon */
+     , (197,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (197, 8040, 1447625122, 107.496, -39.7463, 0.00999999, 0.271829, 0, 0, -0.962346) /* PCAPRecordedLocation */
+VALUES (197, 8040, 0x564901A2, 107.496, -39.7463, 0.01, 0.271829, 0, 0, -0.962346) /* PCAPRecordedLocation */
 /* @teleloc 0x564901A2 [107.496000 -39.746300 0.010000] 0.271829 0.000000 0.000000 -0.962346 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

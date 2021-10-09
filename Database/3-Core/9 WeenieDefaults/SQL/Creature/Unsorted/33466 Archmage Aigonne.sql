@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33466,   1, 'Archmage Aigonne') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33466,   1,   33554433) /* Setup */
-     , (33466,   2,  150994945) /* MotionTable */
-     , (33466,   3,  536870913) /* SoundTable */
-     , (33466,   6,   67108990) /* PaletteBase */
-     , (33466,   8,  100670397) /* Icon */
-     , (33466,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (33466,   1, 0x02000001) /* Setup */
+     , (33466,   2, 0x09000001) /* MotionTable */
+     , (33466,   3, 0x20000001) /* SoundTable */
+     , (33466,   6, 0x0400007E) /* PaletteBase */
+     , (33466,   8, 0x06001BBD) /* Icon */
+     , (33466,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33466, 8040, 8651081, 242.7962, -230.1609, -11.995, 0.4067216, 0, 0, -0.9135522) /* PCAPRecordedLocation */
+VALUES (33466, 8040, 0x00840149, 242.7962, -230.1609, -11.995, 0.406722, 0, 0, -0.913552) /* PCAPRecordedLocation */
 /* @teleloc 0x00840149 [242.796200 -230.160900 -11.995000] 0.406722 0.000000 0.000000 -0.913552 */;

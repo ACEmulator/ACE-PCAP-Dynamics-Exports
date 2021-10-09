@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10700,   1, 'Book of Seasons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10700,   1,   33554771) /* Setup */
-     , (10700,   3,  536870932) /* SoundTable */
-     , (10700,   8,  100668117) /* Icon */
-     , (10700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10700,   1, 0x02000153) /* Setup */
+     , (10700,   3, 0x20000014) /* SoundTable */
+     , (10700,   8, 0x060012D5) /* Icon */
+     , (10700,  22, 0x3400002B) /* PhysicsEffectTable */;

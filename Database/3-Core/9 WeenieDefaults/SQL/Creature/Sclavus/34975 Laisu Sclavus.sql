@@ -23,15 +23,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34975,   1, 'Laisu Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34975,   1,   33555608) /* Setup */
-     , (34975,   2,  150995048) /* MotionTable */
-     , (34975,   3,  536870977) /* SoundTable */
-     , (34975,   6,   67111936) /* PaletteBase */
-     , (34975,   8,  100669120) /* Icon */
-     , (34975,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (34975,   1, 0x02000498) /* Setup */
+     , (34975,   2, 0x09000068) /* MotionTable */
+     , (34975,   3, 0x20000041) /* SoundTable */
+     , (34975,   6, 0x04000C00) /* PaletteBase */
+     , (34975,   8, 0x060016C0) /* Icon */
+     , (34975,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34975, 8040, 974192939, 92.02128, 100.0194, -40, 0.4019706, 0, 0, -0.9156526) /* PCAPRecordedLocation */
+VALUES (34975, 8040, 0x3A11012B, 92.02128, 100.0194, -40, 0.401971, 0, 0, -0.915653) /* PCAPRecordedLocation */
 /* @teleloc 0x3A11012B [92.021280 100.019400 -40.000000] 0.401971 0.000000 0.000000 -0.915653 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

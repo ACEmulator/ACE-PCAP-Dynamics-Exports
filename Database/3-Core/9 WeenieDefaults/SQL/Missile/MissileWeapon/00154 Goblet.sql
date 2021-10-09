@@ -48,11 +48,11 @@ VALUES (154,   1, 'Goblet') /* Name */
      , (154,  16, 'Goblet of Item Tinkering') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (154,   1,   33554663) /* Setup */
-     , (154,   3,  536871012) /* SoundTable */
-     , (154,   6,   67111919) /* PaletteBase */
-     , (154,   8,  100668677) /* Icon */
-     , (154,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (154,   1, 0x020000E7) /* Setup */
+     , (154,   3, 0x20000064) /* SoundTable */
+     , (154,   6, 0x04000BEF) /* PaletteBase */
+     , (154,   8, 0x06001505) /* Icon */
+     , (154,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (154,   731,      2)  /* ItemExpertiseSelf6 */;

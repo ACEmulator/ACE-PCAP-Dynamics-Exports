@@ -29,14 +29,14 @@ VALUES (29470,   1, 'Prison Warden''s Chest') /* Name */
      , (29470,  15, 'A chest in the Prison Warden''s quarters, presumably meant to contain items confiscated from prisoners.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29470,   1,   33554556) /* Setup */
-     , (29470,   2,  150994948) /* MotionTable */
-     , (29470,   3,  536870945) /* SoundTable */
-     , (29470,   8,  100667424) /* Icon */
-     , (29470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29470,   1, 0x0200007C) /* Setup */
+     , (29470,   2, 0x09000004) /* MotionTable */
+     , (29470,   3, 0x20000021) /* SoundTable */
+     , (29470,   8, 0x06001020) /* Icon */
+     , (29470,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29470, 8040, 1966492, 445.95, -107.168, -12, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (29470, 8040, 0x001E019C, 445.95, -107.168, -12, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x001E019C [445.950000 -107.168000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

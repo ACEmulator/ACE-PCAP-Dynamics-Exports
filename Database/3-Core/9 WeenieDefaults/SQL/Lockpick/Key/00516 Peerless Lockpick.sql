@@ -24,9 +24,9 @@ VALUES (516,   1, 'Peerless Lockpick') /* Name */
      , (516,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (516,   1,   33554790) /* Setup */
-     , (516,   8,  100670827) /* Icon */;
+VALUES (516,   1, 0x02000166) /* Setup */
+     , (516,   8, 0x06001D6B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (516, 8040, 26149150, 38.9795, -51.6703, -17.912, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (516, 8040, 0x018F011E, 38.9795, -51.6703, -17.912, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x018F011E [38.979500 -51.670300 -17.912000] -0.707107 0.000000 0.000000 -0.707107 */;

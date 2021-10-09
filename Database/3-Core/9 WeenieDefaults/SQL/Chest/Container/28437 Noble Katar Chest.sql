@@ -29,14 +29,14 @@ VALUES (28437,   1, 'Noble Katar Chest') /* Name */
      , (28437,  16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28437,   1,   33558857) /* Setup */
-     , (28437,   2,  150994948) /* MotionTable */
-     , (28437,   3,  536870945) /* SoundTable */
-     , (28437,   8,  100676961) /* Icon */
-     , (28437,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28437,   1, 0x02001149) /* Setup */
+     , (28437,   2, 0x09000004) /* MotionTable */
+     , (28437,   3, 0x20000021) /* SoundTable */
+     , (28437,   8, 0x06003561) /* Icon */
+     , (28437,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28437, 8040, 42008832, -3.7, -10, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (28437, 8040, 0x02810100, -3.7, -10, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x02810100 [-3.700000 -10.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

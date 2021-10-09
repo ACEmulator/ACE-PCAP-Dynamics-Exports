@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14570,   1, 'Spirit of Aun Tanua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14570,   1,   33557502) /* Setup */
-     , (14570,   3,  536871048) /* SoundTable */
-     , (14570,   6,   67113280) /* PaletteBase */
-     , (14570,   8,  100672508) /* Icon */
-     , (14570,  22,  872415382) /* PhysicsEffectTable */
+VALUES (14570,   1, 0x02000BFE) /* Setup */
+     , (14570,   3, 0x20000088) /* SoundTable */
+     , (14570,   6, 0x04001140) /* PaletteBase */
+     , (14570,   8, 0x060023FC) /* Icon */
+     , (14570,  22, 0x34000096) /* PhysicsEffectTable */
      , (14570,  28,       2637) /* Spell - InvokingAunTanua */
      , (14570,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14570, 8040, 4135714859, 140.4933, 51.69341, 59.31085, 0.4252755, 0, 0, -0.9050639) /* PCAPRecordedLocation */
+VALUES (14570, 8040, 0xF682002B, 140.4933, 51.69341, 59.31085, 0.425276, 0, 0, -0.905064) /* PCAPRecordedLocation */
 /* @teleloc 0xF682002B [140.493300 51.693410 59.310850] 0.425276 0.000000 0.000000 -0.905064 */;

@@ -31,7 +31,7 @@ VALUES (43909,   1, 'Box Of Ten Colosseum Coins') /* Name */
      , (43909,  20, 'Boxes Of Ten Colosseum Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43909,   1,   33554718) /* Setup */
-     , (43909,   3,  536870932) /* SoundTable */
-     , (43909,   8,  100691797) /* Icon */
-     , (43909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (43909,   1, 0x0200011E) /* Setup */
+     , (43909,   3, 0x20000014) /* SoundTable */
+     , (43909,   8, 0x06006F55) /* Icon */
+     , (43909,  22, 0x3400002B) /* PhysicsEffectTable */;

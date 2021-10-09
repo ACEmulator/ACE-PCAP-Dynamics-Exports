@@ -34,13 +34,13 @@ VALUES (28324,   1, 'Caulnalain Crystal Orb') /* Name */
      , (28324,  15, 'An orb imbued with the power of the Caulnalain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28324,   1,   33556767) /* Setup */
-     , (28324,   3,  536870932) /* SoundTable */
-     , (28324,   6,   67111928) /* PaletteBase */
-     , (28324,   8,  100670982) /* Icon */
-     , (28324,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28324,   1, 0x0200091F) /* Setup */
+     , (28324,   3, 0x20000014) /* SoundTable */
+     , (28324,   6, 0x04000BF8) /* PaletteBase */
+     , (28324,   8, 0x06001E06) /* Icon */
+     , (28324,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28324,   560,      2)  /* CreatureEnchantmentMasterySelf4 */
-     , (28324,   584,      2)  /* ItemEnchantmentMasterySelf4 */
-     , (28324,  2012,      2)  /* WizardsIntellect */;
+VALUES (28324,   584,      2)  /* ItemEnchantmentMasterySelf4 */
+     , (28324,  2012,      2)  /* WizardsIntellect */
+     , (28324,   560,      2)  /* CreatureEnchantmentMasterySelf4 */;

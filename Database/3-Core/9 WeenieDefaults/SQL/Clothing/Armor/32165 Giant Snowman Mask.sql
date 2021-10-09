@@ -34,7 +34,7 @@ VALUES (32165,   1, 'Giant Snowman Mask') /* Name */
      , (32165,  16, 'A mask crafted from the hollowed-out head of a Giant Snowman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32165,   1,   33559773) /* Setup */
-     , (32165,   3,  536870932) /* SoundTable */
-     , (32165,   8,  100688439) /* Icon */
-     , (32165,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (32165,   1, 0x020014DD) /* Setup */
+     , (32165,   3, 0x20000014) /* SoundTable */
+     , (32165,   8, 0x06006237) /* Icon */
+     , (32165,  22, 0x3400002B) /* PhysicsEffectTable */;

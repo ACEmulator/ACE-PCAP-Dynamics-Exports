@@ -26,11 +26,11 @@ VALUES (5183,   1, 'Stone of Compassion') /* Name */
      , (5183,  16, 'A small grey stone, smoothed by thousands of years of gently flowing water. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5183,   1,   33556947) /* Setup */
-     , (5183,   3,  536870932) /* SoundTable */
-     , (5183,   8,  100671336) /* Icon */
-     , (5183,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5183,   1, 0x020009D3) /* Setup */
+     , (5183,   3, 0x20000014) /* SoundTable */
+     , (5183,   8, 0x06001F68) /* Icon */
+     , (5183,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5183, 8040, 22217520, 1.72869, -28.0476, 0, 0.6409972, 0, 0, -0.7675433) /* PCAPRecordedLocation */
+VALUES (5183, 8040, 0x01530330, 1.72869, -28.0476, 0, 0.640997, 0, 0, -0.767543) /* PCAPRecordedLocation */
 /* @teleloc 0x01530330 [1.728690 -28.047600 0.000000] 0.640997 0.000000 0.000000 -0.767543 */;

@@ -34,8 +34,8 @@ VALUES (109,   1, 'Olthoi Tassets') /* Name */
      , (109,   8, 'Spqr') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (109,   1,   33554656) /* Setup */
-     , (109,   3,  536870932) /* SoundTable */
-     , (109,   6,   67108990) /* PaletteBase */
-     , (109,   8,  100674564) /* Icon */
-     , (109,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (109,   1, 0x020000E0) /* Setup */
+     , (109,   3, 0x20000014) /* SoundTable */
+     , (109,   6, 0x0400007E) /* PaletteBase */
+     , (109,   8, 0x06002C04) /* Icon */
+     , (109,  22, 0x3400002B) /* PhysicsEffectTable */;

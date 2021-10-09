@@ -41,11 +41,11 @@ VALUES (7575,   1, 'Hollow Sword') /* Name */
      , (7575,  16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7575,   1,   33556645) /* Setup */
-     , (7575,   3,  536870932) /* SoundTable */
-     , (7575,   8,  100668915) /* Icon */
-     , (7575,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7575,   1, 0x020008A5) /* Setup */
+     , (7575,   3, 0x20000014) /* SoundTable */
+     , (7575,   8, 0x060015F3) /* Icon */
+     , (7575,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7575, 8040, 1925775389, 94.17503, 97.59402, 79.64699, -0.212059, -0.212059, -0.6745598, -0.6745598) /* PCAPRecordedLocation */
+VALUES (7575, 8040, 0x72C9001D, 94.17503, 97.59402, 79.64699, -0.212059, -0.212059, -0.67456, -0.67456) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001D [94.175030 97.594020 79.646990] -0.212059 -0.212059 -0.674560 -0.674560 */;

@@ -47,20 +47,20 @@ VALUES (27186,   1, 'Fist of Massacre') /* Name */
      , (27186,  16, 'Crafted by the Falatacot, this stunning and sharp blade looks as though it could easily pierce flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27186,   1,   33558635) /* Setup */
-     , (27186,   3,  536870932) /* SoundTable */
-     , (27186,   6,   67114956) /* PaletteBase */
-     , (27186,   8,  100675920) /* Icon */
-     , (27186,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27186,   1, 0x0200106B) /* Setup */
+     , (27186,   3, 0x20000014) /* SoundTable */
+     , (27186,   6, 0x040017CC) /* PaletteBase */
+     , (27186,   8, 0x06003150) /* Icon */
+     , (27186,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27186, 8040, 2847146026, 139.2297, 47.4034, 93.92901, -0.04170667, -0.04170667, -0.7058758, -0.7058758) /* PCAPRecordedLocation */
+VALUES (27186, 8040, 0xA9B4002A, 139.2297, 47.4034, 93.92901, -0.041707, -0.041707, -0.705876, -0.705876) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [139.229700 47.403400 93.929010] -0.041707 -0.041707 -0.705876 -0.705876 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27186,  1144,      2)  /* PiercingProtectionOther6 */
-     , (27186,  1337,      2)  /* StrengthOther6 */
-     , (27186,  1605,      2)  /* DefenderSelf6 */
+VALUES (27186,  1605,      2)  /* DefenderSelf6 */
      , (27186,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27186,  1625,      2)  /* SwiftKillerSelf4 */
+     , (27186,  1144,      2)  /* PiercingProtectionOther6 */
+     , (27186,  1337,      2)  /* StrengthOther6 */
      , (27186,  2686,      2)  /* ModerateAxeAptitude */;

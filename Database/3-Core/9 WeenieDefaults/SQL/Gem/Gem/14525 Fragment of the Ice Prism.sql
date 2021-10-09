@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14525,   1, 'Fragment of the Ice Prism') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14525,   1,   33557506) /* Setup */
-     , (14525,   3,  536870932) /* SoundTable */
-     , (14525,   8,  100672511) /* Icon */
-     , (14525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14525,   1, 0x02000C02) /* Setup */
+     , (14525,   3, 0x20000014) /* SoundTable */
+     , (14525,   8, 0x060023FF) /* Icon */
+     , (14525,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11379,   1, 'Hea Nyrenauri the Healer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11379,   1,   33559553) /* Setup */
-     , (11379,   2,  150994954) /* MotionTable */
-     , (11379,   3,  536870931) /* SoundTable */
-     , (11379,   6,   67116625) /* PaletteBase */
-     , (11379,   8,  100667452) /* Icon */;
+VALUES (11379,   1, 0x02001401) /* Setup */
+     , (11379,   2, 0x0900000A) /* MotionTable */
+     , (11379,   3, 0x20000013) /* SoundTable */
+     , (11379,   6, 0x04001E51) /* PaletteBase */
+     , (11379,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11379, 8040, 247070748, 77.5784, 85.7573, 2.005, 0.8929938, 0, 0, -0.4500689) /* PCAPRecordedLocation */
+VALUES (11379, 8040, 0x0EBA001C, 77.5784, 85.7573, 2.005, 0.892994, 0, 0, -0.450069) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA001C [77.578400 85.757300 2.005000] 0.892994 0.000000 0.000000 -0.450069 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

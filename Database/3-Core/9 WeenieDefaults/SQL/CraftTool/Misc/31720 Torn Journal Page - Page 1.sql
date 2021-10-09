@@ -29,7 +29,7 @@ VALUES (31720,   1, 'Torn Journal Page - Page 1') /* Name */
      , (31720,  16, 'This is a torn page from an old journal. The text on this page is indecipherable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31720,   1,   33554773) /* Setup */
-     , (31720,   3,  536870932) /* SoundTable */
-     , (31720,   8,  100674008) /* Icon */
-     , (31720,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31720,   1, 0x02000155) /* Setup */
+     , (31720,   3, 0x20000014) /* SoundTable */
+     , (31720,   8, 0x060029D8) /* Icon */
+     , (31720,  22, 0x3400002B) /* PhysicsEffectTable */;

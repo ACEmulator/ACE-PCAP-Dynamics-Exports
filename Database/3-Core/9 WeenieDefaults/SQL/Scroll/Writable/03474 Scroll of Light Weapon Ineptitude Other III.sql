@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3474,   1, 'Scroll of Light Weapon Ineptitude Other III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3474,   1,   33554826) /* Setup */
-     , (3474,   8,  100692249) /* Icon */
-     , (3474,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3474,   1, 0x0200018A) /* Setup */
+     , (3474,   8, 0x06007119) /* Icon */
+     , (3474,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3474,  28,        306) /* Spell - LightWeaponsIneptitudeOther3 */;

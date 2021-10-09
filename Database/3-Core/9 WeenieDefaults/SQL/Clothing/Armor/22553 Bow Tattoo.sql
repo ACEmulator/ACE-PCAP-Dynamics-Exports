@@ -19,9 +19,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22553,   1, 'Bow Tattoo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22553,   1,   33554641) /* Setup */
-     , (22553,   3,  536870932) /* SoundTable */
-     , (22553,   6,   67108990) /* PaletteBase */
-     , (22553,   8,  100673867) /* Icon */
-     , (22553,  22,  872415275) /* PhysicsEffectTable */
-     , (22553,  50,  100673759) /* IconOverlay */;
+VALUES (22553,   1, 0x020000D1) /* Setup */
+     , (22553,   3, 0x20000014) /* SoundTable */
+     , (22553,   6, 0x0400007E) /* PaletteBase */
+     , (22553,   8, 0x0600294B) /* Icon */
+     , (22553,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22553,  50, 0x060028DF) /* IconOverlay */;

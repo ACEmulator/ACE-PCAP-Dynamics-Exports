@@ -42,13 +42,13 @@ VALUES (6003,   1, 'Koujia Breastplate') /* Name */
      , (6003,  16, 'Koujia Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6003,   1,   33554642) /* Setup */
-     , (6003,   3,  536870932) /* SoundTable */
-     , (6003,   6,   67108990) /* PaletteBase */
-     , (6003,   8,  100670449) /* Icon */
-     , (6003,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6003,   1, 0x020000D2) /* Setup */
+     , (6003,   3, 0x20000014) /* SoundTable */
+     , (6003,   6, 0x0400007E) /* PaletteBase */
+     , (6003,   8, 0x06001BF1) /* Icon */
+     , (6003,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6003,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6003,  1485,      2)  /* Impenetrability5 */
-     , (6003,  1540,      2)  /* LightningBane6 */;
+VALUES (6003,  1540,      2)  /* LightningBane6 */
+     , (6003,  1485,      2)  /* Impenetrability5 */;

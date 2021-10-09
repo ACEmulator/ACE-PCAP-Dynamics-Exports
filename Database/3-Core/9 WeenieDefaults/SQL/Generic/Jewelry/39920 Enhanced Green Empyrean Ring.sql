@@ -40,17 +40,17 @@ VALUES (39920,   1, 'Enhanced Green Empyrean Ring') /* Name */
      , (39920,  16, 'A ring of pyreal fitted with a band of glowing green metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39920,   1,   33554691) /* Setup */
-     , (39920,   3,  536870932) /* SoundTable */
-     , (39920,   6,   67111919) /* PaletteBase */
-     , (39920,   8,  100689374) /* Icon */
-     , (39920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (39920,   1, 0x02000103) /* Setup */
+     , (39920,   3, 0x20000014) /* SoundTable */
+     , (39920,   6, 0x04000BEF) /* PaletteBase */
+     , (39920,   8, 0x060065DE) /* Icon */
+     , (39920,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39920,  3955,      2)  /* BludgeonWard */
-     , (39920,  3981,      2)  /* ManarenewalOtherIncantation */
+VALUES (39920,  3981,      2)  /* ManarenewalOtherIncantation */
      , (39920,  3982,      2)  /* RegenerationOtherIncantation */
      , (39920,  3983,      2)  /* RejuvenationOtherIncantation */
      , (39920,  4073,      2)  /* CantripRegenEmpyrean */
      , (39920,  4074,      2)  /* CantripRejuvEmpyrean */
-     , (39920,  4075,      2)  /* CantripRenewEmpyrean */;
+     , (39920,  4075,      2)  /* CantripRenewEmpyrean */
+     , (39920,  3955,      2)  /* BludgeonWard */;

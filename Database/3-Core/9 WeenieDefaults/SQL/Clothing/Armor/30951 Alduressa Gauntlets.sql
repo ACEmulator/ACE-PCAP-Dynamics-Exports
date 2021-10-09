@@ -51,17 +51,17 @@ VALUES (30951,   1, 'Alduressa Gauntlets') /* Name */
      , (30951,  39, 'Tint''s Tinkers') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30951,   1,   33559505) /* Setup */
-     , (30951,   3,  536870932) /* SoundTable */
-     , (30951,   6,   67108990) /* PaletteBase */
-     , (30951,   8,  100687145) /* Icon */
-     , (30951,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30951,   1, 0x020013D1) /* Setup */
+     , (30951,   3, 0x20000014) /* SoundTable */
+     , (30951,   6, 0x0400007E) /* PaletteBase */
+     , (30951,   8, 0x06005D29) /* Icon */
+     , (30951,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30951,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30951,  1516,      2)  /* BludgeonBane6 */
-     , (30951,  1528,      2)  /* FrostBane6 */
+VALUES (30951,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
+     , (30951,  6105,      2)  /* CantripFocus4 */
+     , (30951,  1516,      2)  /* BludgeonBane6 */
      , (30951,  2102,      2)  /* FlameBane7 */
-     , (30951,  2108,      2)  /* Impenetrability7 */
-     , (30951,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
-     , (30951,  6105,      2)  /* CantripFocus4 */;
+     , (30951,  1528,      2)  /* FrostBane6 */
+     , (30951,  2108,      2)  /* Impenetrability7 */;

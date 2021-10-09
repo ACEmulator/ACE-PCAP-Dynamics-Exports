@@ -43,8 +43,8 @@ VALUES (30594,   1, 'Acid Partizan') /* Name */
      , (30594,  16, 'Acid Partizan') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30594,   1,   33559481) /* Setup */
-     , (30594,   3,  536870932) /* SoundTable */
-     , (30594,   6,   67115560) /* PaletteBase */
-     , (30594,   8,  100686991) /* Icon */
-     , (30594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30594,   1, 0x020013B9) /* Setup */
+     , (30594,   3, 0x20000014) /* SoundTable */
+     , (30594,   6, 0x04001A28) /* PaletteBase */
+     , (30594,   8, 0x06005C8F) /* Icon */
+     , (30594,  22, 0x3400002B) /* PhysicsEffectTable */;

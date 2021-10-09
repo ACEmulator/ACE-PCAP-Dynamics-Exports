@@ -35,20 +35,20 @@ VALUES (9679,   1, 'Weaponsmith Hideo Sasaki') /* Name */
      , (9679,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9679,   1,   33554433) /* Setup */
-     , (9679,   2,  150994945) /* MotionTable */
-     , (9679,   3,  536870913) /* SoundTable */
-     , (9679,   6,   67108990) /* PaletteBase */
-     , (9679,   8,  100667446) /* Icon */
-     , (9679,   9,   83890446) /* EyesTexture */
-     , (9679,  10,   83890519) /* NoseTexture */
-     , (9679,  11,   83890589) /* MouthTexture */
-     , (9679,  15,   67117021) /* HairPalette */
-     , (9679,  16,   67110062) /* EyesPalette */
-     , (9679,  17,   67110055) /* SkinPalette */;
+VALUES (9679,   1, 0x02000001) /* Setup */
+     , (9679,   2, 0x09000001) /* MotionTable */
+     , (9679,   3, 0x20000001) /* SoundTable */
+     , (9679,   6, 0x0400007E) /* PaletteBase */
+     , (9679,   8, 0x06001036) /* Icon */
+     , (9679,   9, 0x0500110E) /* EyesTexture */
+     , (9679,  10, 0x05001157) /* NoseTexture */
+     , (9679,  11, 0x0500119D) /* MouthTexture */
+     , (9679,  15, 0x04001FDD) /* HairPalette */
+     , (9679,  16, 0x040004AE) /* EyesPalette */
+     , (9679,  17, 0x040004A7) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9679, 8040, 1536950303, 84.0402, 159.153, 29.205, 0.2511571, 0, 0, -0.9679464) /* PCAPRecordedLocation */
+VALUES (9679, 8040, 0x5B9C001F, 84.0402, 159.153, 29.205, 0.251157, 0, 0, -0.967946) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9C001F [84.040200 159.153000 29.205000] 0.251157 0.000000 0.000000 -0.967946 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

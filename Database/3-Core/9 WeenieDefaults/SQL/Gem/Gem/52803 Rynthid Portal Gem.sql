@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52803,   1, 'Rynthid Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52803,   1,   33557625) /* Setup */
-     , (52803,   3,  536870932) /* SoundTable */
-     , (52803,   8,  100693311) /* Icon */
-     , (52803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52803,   1, 0x02000C79) /* Setup */
+     , (52803,   3, 0x20000014) /* SoundTable */
+     , (52803,   8, 0x0600753F) /* Icon */
+     , (52803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52803,  28,        157) /* Spell - SummonPortal1 */
      , (52803, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

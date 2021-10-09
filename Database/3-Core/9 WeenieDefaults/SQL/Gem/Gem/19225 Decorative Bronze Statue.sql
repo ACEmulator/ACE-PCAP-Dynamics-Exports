@@ -23,8 +23,8 @@ VALUES (19225,   1, 'Decorative Bronze Statue') /* Name */
      , (19225,  16, 'A small decorative statue  of a Golem crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19225,   1,   33556426) /* Setup */
-     , (19225,   2,  150995201) /* MotionTable */
-     , (19225,   6,   67112775) /* PaletteBase */
-     , (19225,   8,  100667940) /* Icon */
-     , (19225,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (19225,   1, 0x020007CA) /* Setup */
+     , (19225,   2, 0x09000101) /* MotionTable */
+     , (19225,   6, 0x04000F47) /* PaletteBase */
+     , (19225,   8, 0x06001224) /* Icon */
+     , (19225,  22, 0x34000060) /* PhysicsEffectTable */;

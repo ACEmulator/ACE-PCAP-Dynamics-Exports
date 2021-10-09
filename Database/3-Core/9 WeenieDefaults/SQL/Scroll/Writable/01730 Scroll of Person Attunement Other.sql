@@ -23,7 +23,7 @@ VALUES (1730,   1, 'Scroll of Person Attunement Other') /* Name */
 Increases the target''s Assess Person skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1730,   1,   33554826) /* Setup */
-     , (1730,   8,  100676448) /* Icon */
-     , (1730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1730,   1, 0x0200018A) /* Setup */
+     , (1730,   8, 0x06003360) /* Icon */
+     , (1730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1730,  28,        830) /* Spell - PersonAttunementOther1 */;

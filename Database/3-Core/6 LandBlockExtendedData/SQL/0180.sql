@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0180;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018003D, 28103, 0x0180019F, 39.933, -268.2897, -0.06299996, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Underway */
+VALUES (0x7018003D, 28103, 0x0180019F, 39.933, -268.2897, -0.063, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Underway */
 /* @teleloc 0x0180019F [39.933000 -268.289700 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x70180054, 23617, 0x018001F5, 43.8325, -200.378, 12.0065, 0.155822, 0, 
 /* @teleloc 0x018001F5 [43.832500 -200.378000 12.006500] 0.155822 0.000000 0.000000 0.987785 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70180055, 23617, 0x018001F5, 36.2509, -199.556, 12.0065, -0.0965293, 0, 0, 0.99533,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
+VALUES (0x70180055, 23617, 0x018001F5, 36.2509, -199.556, 12.0065, -0.096529, 0, 0, 0.99533,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
 /* @teleloc 0x018001F5 [36.250900 -199.556000 12.006500] -0.096529 0.000000 0.000000 0.995330 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

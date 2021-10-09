@@ -26,7 +26,7 @@ VALUES (22617,   1, 'Nanner Bread') /* Name */
      , (22617,  20, 'Loaves of Nanner Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22617,   1,   33554806) /* Setup */
-     , (22617,   3,  536870932) /* SoundTable */
-     , (22617,   8,  100673805) /* Icon */
-     , (22617,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22617,   1, 0x02000176) /* Setup */
+     , (22617,   3, 0x20000014) /* SoundTable */
+     , (22617,   8, 0x0600290D) /* Icon */
+     , (22617,  22, 0x3400002B) /* PhysicsEffectTable */;

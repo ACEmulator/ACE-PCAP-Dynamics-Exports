@@ -21,6 +21,6 @@ VALUES (38752,   1, 'Alacritous Quill of Infliction') /* Name */
      , (38752,  20, 'Alacritous Quills of Infliction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38752,   1,   33559616) /* Setup */
-     , (38752,   8,  100690196) /* Icon */
-     , (38752,  52,  100676440) /* IconUnderlay */;
+VALUES (38752,   1, 0x02001440) /* Setup */
+     , (38752,   8, 0x06006914) /* Icon */
+     , (38752,  52, 0x06003358) /* IconUnderlay */;

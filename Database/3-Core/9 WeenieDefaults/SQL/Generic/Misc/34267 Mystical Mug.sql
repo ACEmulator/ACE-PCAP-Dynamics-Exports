@@ -20,7 +20,7 @@ VALUES (34267,   1, 'Mystical Mug') /* Name */
      , (34267,  16, 'A huge mug of eternally frothy stout honoring the owner as having beaten Ulgrim in a Drinking Contest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34267,   1,   33560130) /* Setup */
-     , (34267,   3,  536870932) /* SoundTable */
-     , (34267,   8,  100689277) /* Icon */
-     , (34267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34267,   1, 0x02001642) /* Setup */
+     , (34267,   3, 0x20000014) /* SoundTable */
+     , (34267,   8, 0x0600657D) /* Icon */
+     , (34267,  22, 0x3400002B) /* PhysicsEffectTable */;

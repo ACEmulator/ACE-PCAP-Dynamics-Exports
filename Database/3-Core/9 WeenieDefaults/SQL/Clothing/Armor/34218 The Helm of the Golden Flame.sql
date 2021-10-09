@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34218,   1, 'The Helm of the Golden Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34218,   1,   33560127) /* Setup */
-     , (34218,   3,  536870932) /* SoundTable */
-     , (34218,   8,  100689238) /* Icon */
-     , (34218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (34218,   1, 0x0200163F) /* Setup */
+     , (34218,   3, 0x20000014) /* SoundTable */
+     , (34218,   8, 0x06006556) /* Icon */
+     , (34218,  22, 0x3400002B) /* PhysicsEffectTable */;

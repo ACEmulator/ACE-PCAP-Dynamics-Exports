@@ -35,7 +35,7 @@ VALUES (0x79F1500D,   204, 0x9F150100, 82.25858, 183.093, 122.4075, -0.586269, 0
 /* @teleloc 0x9F150100 [82.258580 183.093000 122.407500] -0.586269 0.000000 0.000000 0.810116 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F1500E,   204, 0x9F150100, 84.60104, 181.9492, 121.6075, -0.0389359, 0, 0, 0.999242,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F1500E,   204, 0x9F150100, 84.60104, 181.9492, 121.6075, -0.038936, 0, 0, 0.999242,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150100 [84.601040 181.949200 121.607500] -0.038936 0.000000 0.000000 0.999242 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -43,23 +43,23 @@ VALUES (0x79F1500F,   204, 0x9F150100, 82.268, 178.797, 120.0075, 0.505997, 0, 0
 /* @teleloc 0x9F150100 [82.268000 178.797000 120.007500] 0.505997 0.000000 0.000000 -0.862535 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15010,   204, 0x9F150020, 81.1038, 185.5574, 128.8075, 0.6680702, 0, 0, -0.7440982,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15010,   204, 0x9F150020, 81.1038, 185.5574, 128.8075, 0.66807, 0, 0, -0.744098,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150020 [81.103800 185.557400 128.807500] 0.668070 0.000000 0.000000 -0.744098 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15011,   204, 0x9F150020, 89.1161, 185.7864, 128.7148, 0.2779049, 0, 0, -0.9606086,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15011,   204, 0x9F150020, 89.1161, 185.7864, 128.7148, 0.277905, 0, 0, -0.960609,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150020 [89.116100 185.786400 128.714800] 0.277905 0.000000 0.000000 -0.960609 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15012,   204, 0x9F150020, 79.32244, 174.4182, 128.8075, 0.8045869, 0, 0, 0.5938349,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15012,   204, 0x9F150020, 79.32244, 174.4182, 128.8075, 0.804587, 0, 0, 0.593835,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150020 [79.322440 174.418200 128.807500] 0.804587 0.000000 0.000000 0.593835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15013,   204, 0x9F150020, 87.4879, 175.233, 128.8075, 0.01900761, 0, 0, 0.9998193,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15013,   204, 0x9F150020, 87.4879, 175.233, 128.8075, 0.019008, 0, 0, 0.999819,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150020 [87.487900 175.233000 128.807500] 0.019008 0.000000 0.000000 0.999819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15014,   204, 0x9F150020, 84.9764, 171.228, 120.0075, 0.3342999, 0, 0, -0.9424667,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15014,   204, 0x9F150020, 84.9764, 171.228, 120.0075, 0.3343, 0, 0, -0.942467,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F150020 [84.976400 171.228000 120.007500] 0.334300 0.000000 0.000000 -0.942467 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -67,16 +67,16 @@ VALUES (0x79F15015,   204, 0x9F150020, 78.1763, 187.199, 120.0075, -0.977927, 0,
 /* @teleloc 0x9F150020 [78.176300 187.199000 120.007500] -0.977927 0.000000 0.000000 0.208946 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15016,   204, 0x9F15001F, 81.1875, 166.223, 120.0075, -0.2694279, 0, 0, 0.9630206,  True, '2019-02-10 00:00:00'); /* Lich */
+VALUES (0x79F15016,   204, 0x9F15001F, 81.1875, 166.223, 120.0075, -0.269428, 0, 0, 0.963021,  True, '2019-02-10 00:00:00'); /* Lich */
 /* @teleloc 0x9F15001F [81.187500 166.223000 120.007500] -0.269428 0.000000 0.000000 0.963021 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15017,  1542, 0x9F150020, 82.6594, 177.429, 135.2097, -0.03004662, 0, 0, -0.9995485, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79F15017,  1542, 0x9F150020, 82.6594, 177.429, 135.2097, -0.030047, 0, 0, -0.999549, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9F150020 [82.659400 177.429000 135.209700] -0.030047 0.000000 0.000000 -0.999549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x79F15017, 0x79F15018, '2019-02-10 00:00:00') /* Lich Archmage (2540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F15018,  2540, 0x9F150020, 82.6594, 177.429, 135.2097, -0.03004662, 0, 0, -0.9995485,  True, '2019-02-10 00:00:00'); /* Lich Archmage */
+VALUES (0x79F15018,  2540, 0x9F150020, 82.6594, 177.429, 135.2097, -0.030047, 0, 0, -0.999549,  True, '2019-02-10 00:00:00'); /* Lich Archmage */
 /* @teleloc 0x9F150020 [82.659400 177.429000 135.209700] -0.030047 0.000000 0.000000 -0.999549 */

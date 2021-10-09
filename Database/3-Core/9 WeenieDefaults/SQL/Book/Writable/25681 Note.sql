@@ -18,13 +18,13 @@ VALUES (25681,   1, 'Note') /* Name */
      , (25681,  16, 'A pamphlet that appears to be made of day lily petals.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25681,   1,   33554773) /* Setup */
-     , (25681,   3,  536870932) /* SoundTable */
-     , (25681,   8,  100675475) /* Icon */
-     , (25681,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25681,   1, 0x02000155) /* Setup */
+     , (25681,   3, 0x20000014) /* SoundTable */
+     , (25681,   8, 0x06002F93) /* Icon */
+     , (25681,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25681, 8040, 4135714876, 172.948, 74.3958, 58.079, 0.634377, 0, 0, -0.773024) /* PCAPRecordedLocation */
+VALUES (25681, 8040, 0xF682003C, 172.948, 74.3958, 58.079, 0.634377, 0, 0, -0.773024) /* PCAPRecordedLocation */
 /* @teleloc 0xF682003C [172.948000 74.395800 58.079000] 0.634377 0.000000 0.000000 -0.773024 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)

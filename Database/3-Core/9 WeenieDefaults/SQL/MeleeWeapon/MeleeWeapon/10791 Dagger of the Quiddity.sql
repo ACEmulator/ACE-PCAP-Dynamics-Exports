@@ -43,13 +43,13 @@ VALUES (10791,   1, 'Dagger of the Quiddity') /* Name */
      , (10791,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10791,   1,   33557105) /* Setup */
-     , (10791,   3,  536870932) /* SoundTable */
-     , (10791,   8,  100671696) /* Icon */
-     , (10791,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10791,   1, 0x02000A71) /* Setup */
+     , (10791,   3, 0x20000014) /* SoundTable */
+     , (10791,   8, 0x060020D0) /* Icon */
+     , (10791,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10791,  1590,      2)  /* HeartSeekerSelf4 */
-     , (10791,  1603,      2)  /* DefenderSelf4 */
+VALUES (10791,  1603,      2)  /* DefenderSelf4 */
      , (10791,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (10791,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (10791,  1625,      2)  /* SwiftKillerSelf4 */
+     , (10791,  1590,      2)  /* HeartSeekerSelf4 */;

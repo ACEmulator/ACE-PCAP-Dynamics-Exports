@@ -46,7 +46,7 @@ VALUES (21356,   1, 'Phantom Mace') /* Name */
      , (21356,  16, 'A mace with a ghostly head crafted from pure chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21356,   1,   33556654) /* Setup */
-     , (21356,   3,  536870932) /* SoundTable */
-     , (21356,   8,  100668955) /* Icon */
-     , (21356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21356,   1, 0x020008AE) /* Setup */
+     , (21356,   3, 0x20000014) /* SoundTable */
+     , (21356,   8, 0x0600161B) /* Icon */
+     , (21356,  22, 0x3400002B) /* PhysicsEffectTable */;

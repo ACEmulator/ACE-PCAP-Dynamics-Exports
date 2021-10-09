@@ -27,12 +27,12 @@ VALUES (42955,   1, 'Wedding Fireworks Launcher') /* Name */
      , (42955,  16, 'A fireworks launcher designed to help celebrate the wedding of Borelean Strathelar and Hoshino Kei.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42955,   1,   33559221) /* Setup */
-     , (42955,   2,  150995328) /* MotionTable */
-     , (42955,   3,  536871001) /* SoundTable */
-     , (42955,   8,  100677402) /* Icon */
-     , (42955,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (42955,   1, 0x020012B5) /* Setup */
+     , (42955,   2, 0x09000180) /* MotionTable */
+     , (42955,   3, 0x20000059) /* SoundTable */
+     , (42955,   8, 0x0600371A) /* Icon */
+     , (42955,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42955, 8040, 3010396196, 110.831, 90.3977, 20, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42955, 8040, 0xB36F0024, 110.831, 90.3977, 20, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB36F0024 [110.831000 90.397700 20.000000] 1.000000 0.000000 0.000000 0.000000 */;

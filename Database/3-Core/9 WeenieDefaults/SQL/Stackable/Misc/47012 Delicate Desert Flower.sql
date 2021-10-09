@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47012,   1, 'Delicate Desert Flower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47012,   1,   33561458) /* Setup */
-     , (47012,   3,  536870932) /* SoundTable */
-     , (47012,   8,  100692657) /* Icon */
-     , (47012,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (47012,   1, 0x02001B72) /* Setup */
+     , (47012,   3, 0x20000014) /* SoundTable */
+     , (47012,   8, 0x060072B1) /* Icon */
+     , (47012,  22, 0x3400002B) /* PhysicsEffectTable */;

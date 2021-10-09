@@ -46,16 +46,16 @@ VALUES (33207,   1, 'Royal Runed Arbalest') /* Name */
      , (33207,  15, 'An arbalest crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33207,   1,   33559929) /* Setup */
-     , (33207,   3,  536870932) /* SoundTable */
-     , (33207,   6,   67115556) /* PaletteBase */
-     , (33207,   8,  100687037) /* Icon */
-     , (33207,  22,  872415275) /* PhysicsEffectTable */
-     , (33207,  50,  100688914) /* IconOverlay */
+VALUES (33207,   1, 0x02001579) /* Setup */
+     , (33207,   3, 0x20000014) /* SoundTable */
+     , (33207,   6, 0x04001A24) /* PaletteBase */
+     , (33207,   8, 0x06005CBD) /* Icon */
+     , (33207,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33207,  50, 0x06006412) /* IconOverlay */
      , (33207,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33207,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33207,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33207,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33207,  2101,      2)  /* DefenderSelf7 */
-     , (33207,  2116,      2)  /* SwiftKillerSelf7 */
      , (33207,  2687,      2)  /* ModerateBowAptitude */;

@@ -23,11 +23,11 @@ VALUES (43357,   1, 'Scroll of Void Magic Mastery Self') /* Name */
 Increases the caster''s Void Magic skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43357,   1,   33554826) /* Setup */
-     , (43357,   8,  100691548) /* Icon */
-     , (43357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43357,   1, 0x0200018A) /* Setup */
+     , (43357,   8, 0x06006E5C) /* Icon */
+     , (43357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43357,  28,       5411) /* Spell - VoidMagicMasterySelf1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43357, 8040, 2305818682, 190.8796, 35.98489, 21.27, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43357, 8040, 0x8970003A, 190.8796, 35.98489, 21.27, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8970003A [190.879600 35.984890 21.270000] 1.000000 0.000000 0.000000 0.000000 */;

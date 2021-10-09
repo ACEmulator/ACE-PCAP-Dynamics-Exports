@@ -25,5 +25,5 @@ VALUES (41542,   1, 'Unstable Mana Stone') /* Name */
      , (41542,  16, 'A dangerously unstable Mana Stone, created by the Arcanum Tinkerer, Al-Shashqa.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41542,   1,   33555641) /* Setup */
-     , (41542,   8,  100676402) /* Icon */;
+VALUES (41542,   1, 0x020004B9) /* Setup */
+     , (41542,   8, 0x06003332) /* Icon */;

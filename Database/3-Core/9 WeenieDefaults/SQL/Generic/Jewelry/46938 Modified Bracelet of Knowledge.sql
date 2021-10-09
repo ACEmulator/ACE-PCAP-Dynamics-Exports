@@ -32,12 +32,12 @@ VALUES (46938,   1, 'Modified Bracelet of Knowledge') /* Name */
      , (46938,  15, 'An obsidian bracelet set with three sapphires.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46938,   1,   33554682) /* Setup */
-     , (46938,   3,  536870932) /* SoundTable */
-     , (46938,   6,   67111919) /* PaletteBase */
-     , (46938,   8,  100673497) /* Icon */
-     , (46938,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46938,   1, 0x020000FA) /* Setup */
+     , (46938,   3, 0x20000014) /* SoundTable */
+     , (46938,   6, 0x04000BEF) /* PaletteBase */
+     , (46938,   8, 0x060027D9) /* Icon */
+     , (46938,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */
-     , (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
+VALUES (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */
+     , (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */;

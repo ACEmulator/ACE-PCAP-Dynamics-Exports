@@ -23,14 +23,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32804,   1, 'The Black Breath') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32804,   1,   33556913) /* Setup */
-     , (32804,   2,  150994968) /* MotionTable */
-     , (32804,   3,  536870985) /* SoundTable */
-     , (32804,   8,  100670397) /* Icon */
-     , (32804,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (32804,   1, 0x020009B1) /* Setup */
+     , (32804,   2, 0x09000018) /* MotionTable */
+     , (32804,   3, 0x20000049) /* SoundTable */
+     , (32804,   8, 0x06001BBD) /* Icon */
+     , (32804,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32804, 8040, 1896415270, 117.4119, 143.2124, 3.859957, 0.513486, 0, 0, 0.858098) /* PCAPRecordedLocation */
+VALUES (32804, 8040, 0x71090026, 117.4119, 143.2124, 3.859957, 0.513486, 0, 0, 0.858098) /* PCAPRecordedLocation */
 /* @teleloc 0x71090026 [117.411900 143.212400 3.859957] 0.513486 0.000000 0.000000 0.858098 */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)

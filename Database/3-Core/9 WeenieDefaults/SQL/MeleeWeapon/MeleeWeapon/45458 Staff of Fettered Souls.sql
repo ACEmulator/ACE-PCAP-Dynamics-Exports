@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45458,   1, 'Staff of Fettered Souls') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45458,   1,   33557067) /* Setup */
-     , (45458,   3,  536870932) /* SoundTable */
-     , (45458,   6,   67111919) /* PaletteBase */
-     , (45458,   8,  100686763) /* Icon */
-     , (45458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45458,   1, 0x02000A4B) /* Setup */
+     , (45458,   3, 0x20000014) /* SoundTable */
+     , (45458,   6, 0x04000BEF) /* PaletteBase */
+     , (45458,   8, 0x06005BAB) /* Icon */
+     , (45458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45458,  30,         88) /* PhysicsScript - Create */
-     , (45458,  52,  100686604) /* IconUnderlay */
+     , (45458,  52, 0x06005B0C) /* IconUnderlay */
      , (45458, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;

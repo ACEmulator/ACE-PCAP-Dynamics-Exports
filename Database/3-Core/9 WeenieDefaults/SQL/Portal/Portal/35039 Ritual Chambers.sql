@@ -21,10 +21,10 @@ VALUES (35039,   1, 'Ritual Chambers') /* Name */
      , (35039,  16, 'This portal seems to be warded against those who are not attuned to its destination.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35039,   1,   33560216) /* Setup */
-     , (35039,   2,  150995314) /* MotionTable */
-     , (35039,   8,  100667499) /* Icon */;
+VALUES (35039,   1, 0x02001698) /* Setup */
+     , (35039,   2, 0x09000172) /* MotionTable */
+     , (35039,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35039, 8040, 15009492, 67.6808, -277.741, -6.20983, 0.9210611, 0, 0, 0.3894181) /* PCAPRecordedLocation */
+VALUES (35039, 8040, 0x00E506D4, 67.6808, -277.741, -6.20983, 0.921061, 0, 0, 0.389418) /* PCAPRecordedLocation */
 /* @teleloc 0x00E506D4 [67.680800 -277.741000 -6.209830] 0.921061 0.000000 0.000000 0.389418 */;

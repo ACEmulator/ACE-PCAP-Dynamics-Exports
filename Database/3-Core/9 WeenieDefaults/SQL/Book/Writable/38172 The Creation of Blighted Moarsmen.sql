@@ -15,10 +15,10 @@ VALUES (38172,   1, 'The Creation of Blighted Moarsmen') /* Name */
      , (38172,  16, 'This tome is bound in a strange substance - possibly the skin of a moarsman or some other reptilian creature. Intricate rust red runes are drawn upon the front cover') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38172,   1,   33554771) /* Setup */
-     , (38172,   3,  536870932) /* SoundTable */
-     , (38172,   8,  100689271) /* Icon */
-     , (38172,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (38172,   1, 0x02000153) /* Setup */
+     , (38172,   3, 0x20000014) /* SoundTable */
+     , (38172,   8, 0x06006577) /* Icon */
+     , (38172,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (38172, 3, 1000);

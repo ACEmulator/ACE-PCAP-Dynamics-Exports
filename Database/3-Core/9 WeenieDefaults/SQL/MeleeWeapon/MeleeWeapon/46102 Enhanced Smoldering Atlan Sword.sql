@@ -50,22 +50,22 @@ VALUES (46102,   1, 'Enhanced Smoldering Atlan Sword') /* Name */
      , (46102,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46102,   1,   33556377) /* Setup */
-     , (46102,   3,  536870932) /* SoundTable */
-     , (46102,   6,   67111919) /* PaletteBase */
-     , (46102,   8,  100670575) /* Icon */
-     , (46102,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46102,   1, 0x02000799) /* Setup */
+     , (46102,   3, 0x20000014) /* SoundTable */
+     , (46102,   6, 0x04000BEF) /* PaletteBase */
+     , (46102,   8, 0x06001C6F) /* Icon */
+     , (46102,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46102, 8040, 9896396, 159.9664, -111.7673, -21.00696, -0.4199725, -0.4199725, -0.5688788, -0.5688788) /* PCAPRecordedLocation */
+VALUES (46102, 8040, 0x009701CC, 159.9664, -111.7673, -21.00696, -0.419973, -0.419973, -0.568879, -0.568879) /* PCAPRecordedLocation */
 /* @teleloc 0x009701CC [159.966400 -111.767300 -21.006960] -0.419973 -0.419973 -0.568879 -0.568879 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46102,  2087,      2)  /* StrengthSelf7 */
+VALUES (46102,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46102,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46102,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46102,  2087,      2)  /* StrengthSelf7 */
+     , (46102,  2157,      2)  /* FireProtectionSelf7 */
      , (46102,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46102,  2101,      2)  /* DefenderSelf7 */
-     , (46102,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46102,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46102,  2157,      2)  /* FireProtectionSelf7 */
-     , (46102,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
-     , (46102,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46102,  2106,      2)  /* HeartSeekerSelf7 */;

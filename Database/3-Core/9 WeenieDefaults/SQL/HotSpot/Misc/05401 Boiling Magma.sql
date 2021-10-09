@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5401,   1, 'Boiling Magma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5401,   1,   33555589) /* Setup */
-     , (5401,   3,  536870994) /* SoundTable */
-     , (5401,   8,  100667465) /* Icon */;
+VALUES (5401,   1, 0x02000485) /* Setup */
+     , (5401,   3, 0x20000052) /* SoundTable */
+     , (5401,   8, 0x06001049) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5401, 8040, 669777942, 62.0522, 122.11, 86.0458, -0.85505, 0, 0, 0.518545) /* PCAPRecordedLocation */
+VALUES (5401, 8040, 0x27EC0016, 62.0522, 122.11, 86.0458, -0.85505, 0, 0, 0.518545) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0016 [62.052200 122.110000 86.045800] -0.855050 0.000000 0.000000 0.518545 */;

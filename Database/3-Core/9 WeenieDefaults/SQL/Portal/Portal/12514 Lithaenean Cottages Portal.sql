@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12514,   1, 'Lithaenean Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12514,   1,   33554867) /* Setup */
-     , (12514,   2,  150994947) /* MotionTable */
-     , (12514,   8,  100667499) /* Icon */;
+VALUES (12514,   1, 0x020001B3) /* Setup */
+     , (12514,   2, 0x09000003) /* MotionTable */
+     , (12514,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12514, 8040, 1253572642, 117.527, 36.0704, 239.937, 0.7281838, 0, 0, -0.6853819) /* PCAPRecordedLocation */
+VALUES (12514, 8040, 0x4AB80022, 117.527, 36.0704, 239.937, 0.728184, 0, 0, -0.685382) /* PCAPRecordedLocation */
 /* @teleloc 0x4AB80022 [117.527000 36.070400 239.937000] 0.728184 0.000000 0.000000 -0.685382 */;

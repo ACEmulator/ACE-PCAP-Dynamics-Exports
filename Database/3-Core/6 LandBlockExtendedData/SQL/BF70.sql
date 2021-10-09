@@ -1,12 +1,12 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xBF70;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF70001,  1154, 0xBF700018, 49.99248, 169.0102, 16.50252, -0.9999793, 0, 0, -0.006433355, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7BF70001,  1154, 0xBF700018, 49.99248, 169.0102, 16.50252, -0.999979, 0, 0, -0.006433, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xBF700018 [49.992480 169.010200 16.502520] -0.999979 0.000000 0.000000 -0.006433 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7BF70001, 0x7BF70002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF70002,  4249, 0xBF700018, 49.99248, 169.0102, 16.50252, -0.9999793, 0, 0, -0.006433355,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+VALUES (0x7BF70002,  4249, 0xBF700018, 49.99248, 169.0102, 16.50252, -0.999979, 0, 0, -0.006433,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
 /* @teleloc 0xBF700018 [49.992480 169.010200 16.502520] -0.999979 0.000000 0.000000 -0.006433 */

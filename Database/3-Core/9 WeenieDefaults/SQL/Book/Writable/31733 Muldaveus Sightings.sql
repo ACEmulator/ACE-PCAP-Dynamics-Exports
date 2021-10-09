@@ -23,10 +23,10 @@ VALUES (31733,   1, 'Muldaveus Sightings') /* Name */
      , (31733,  16, 'This book describes the latest rumored sightings of Muldaveus') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31733,   1,   33554771) /* Setup */
-     , (31733,   3,  536870932) /* SoundTable */
-     , (31733,   8,  100668117) /* Icon */
-     , (31733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31733,   1, 0x02000153) /* Setup */
+     , (31733,   3, 0x20000014) /* SoundTable */
+     , (31733,   8, 0x060012D5) /* Icon */
+     , (31733,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31733, 5, 1000);

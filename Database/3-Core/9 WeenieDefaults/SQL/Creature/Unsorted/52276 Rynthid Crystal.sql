@@ -26,13 +26,13 @@ VALUES (52276,   1, 'Rynthid Crystal') /* Name */
      , (52276,  15, 'A bright red crystal that seems to attract the nearby Rynthid.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52276,   1,   33556732) /* Setup */
-     , (52276,   2,  150995497) /* MotionTable */
-     , (52276,   3,  536871001) /* SoundTable */
-     , (52276,   6,   67111919) /* PaletteBase */
-     , (52276,   8,  100670283) /* Icon */
-     , (52276,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (52276,   1, 0x020008FC) /* Setup */
+     , (52276,   2, 0x09000229) /* MotionTable */
+     , (52276,   3, 0x20000059) /* SoundTable */
+     , (52276,   6, 0x04000BEF) /* PaletteBase */
+     , (52276,   8, 0x06001B4B) /* Icon */
+     , (52276,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52276, 8040, 758186039, 160.04, 153.961, 132, 0.9999145, 0, 0, -0.01307439) /* PCAPRecordedLocation */
+VALUES (52276, 8040, 0x2D310037, 160.04, 153.961, 132, 0.999915, 0, 0, -0.013074) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310037 [160.040000 153.961000 132.000000] 0.999915 0.000000 0.000000 -0.013074 */;

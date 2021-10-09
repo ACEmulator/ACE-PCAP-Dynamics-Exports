@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35598,   1, 'Bonecrunch''s Hammer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35598,   1,   33554766) /* Setup */
-     , (35598,   3,  536870932) /* SoundTable */
-     , (35598,   6,   67111919) /* PaletteBase */
-     , (35598,   8,  100669067) /* Icon */
-     , (35598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (35598,   1, 0x0200014E) /* Setup */
+     , (35598,   3, 0x20000014) /* SoundTable */
+     , (35598,   6, 0x04000BEF) /* PaletteBase */
+     , (35598,   8, 0x0600168B) /* Icon */
+     , (35598,  22, 0x3400002B) /* PhysicsEffectTable */;

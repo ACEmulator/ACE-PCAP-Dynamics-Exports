@@ -20,10 +20,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14628,   1, 'Eotensfang Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14628,   1,   33554867) /* Setup */
-     , (14628,   2,  150994947) /* MotionTable */
-     , (14628,   8,  100667499) /* Icon */;
+VALUES (14628,   1, 0x020001B3) /* Setup */
+     , (14628,   2, 0x09000003) /* MotionTable */
+     , (14628,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14628, 8040, 3383230517, 155.914, 100.114, 48.94417, -0.01768139, 0, 0, 0.9998437) /* PCAPRecordedLocation */
+VALUES (14628, 8040, 0xC9A80035, 155.914, 100.114, 48.94417, -0.017681, 0, 0, 0.999844) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A80035 [155.914000 100.114000 48.944170] -0.017681 0.000000 0.000000 0.999844 */;

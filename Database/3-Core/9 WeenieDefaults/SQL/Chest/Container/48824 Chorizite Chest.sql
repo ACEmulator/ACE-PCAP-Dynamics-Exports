@@ -28,14 +28,14 @@ VALUES (48824,   1, 'Chorizite Chest') /* Name */
      , (48824,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48824,   1,   33554556) /* Setup */
-     , (48824,   2,  150994948) /* MotionTable */
-     , (48824,   3,  536870945) /* SoundTable */
-     , (48824,   8,  100672485) /* Icon */
-     , (48824,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (48824,   1, 0x0200007C) /* Setup */
+     , (48824,   2, 0x09000004) /* MotionTable */
+     , (48824,   3, 0x20000021) /* SoundTable */
+     , (48824,   8, 0x060023E5) /* Icon */
+     , (48824,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48824, 8040, 1482883395, 251.514, -110, -114, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
+VALUES (48824, 8040, 0x58630143, 251.514, -110, -114, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x58630143 [251.514000 -110.000000 -114.000000] 0.714421 0.000000 0.000000 0.699716 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

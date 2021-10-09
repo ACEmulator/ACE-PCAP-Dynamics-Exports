@@ -22,8 +22,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45968,   1, 'Amateur Explorer Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45968,   1,   33554641) /* Setup */
-     , (45968,   3,  536870932) /* SoundTable */
-     , (45968,   6,   67108990) /* PaletteBase */
-     , (45968,   8,  100691092) /* Icon */
-     , (45968,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (45968,   1, 0x020000D1) /* Setup */
+     , (45968,   3, 0x20000014) /* SoundTable */
+     , (45968,   6, 0x0400007E) /* PaletteBase */
+     , (45968,   8, 0x06006C94) /* Icon */
+     , (45968,  22, 0x3400002B) /* PhysicsEffectTable */;

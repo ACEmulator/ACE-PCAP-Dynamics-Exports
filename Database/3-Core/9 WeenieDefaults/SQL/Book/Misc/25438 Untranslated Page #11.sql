@@ -16,7 +16,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25438,   1, 'Untranslated Page #11') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25438,   1,   33554773) /* Setup */
-     , (25438,   3,  536870932) /* SoundTable */
-     , (25438,   8,  100668176) /* Icon */
-     , (25438,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25438,   1, 0x02000155) /* Setup */
+     , (25438,   3, 0x20000014) /* SoundTable */
+     , (25438,   8, 0x06001310) /* Icon */
+     , (25438,  22, 0x3400002B) /* PhysicsEffectTable */;

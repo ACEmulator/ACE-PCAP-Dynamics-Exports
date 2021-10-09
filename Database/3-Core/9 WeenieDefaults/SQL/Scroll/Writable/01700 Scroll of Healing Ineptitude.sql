@@ -23,7 +23,7 @@ VALUES (1700,   1, 'Scroll of Healing Ineptitude') /* Name */
 Decreases the target''s Healing skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1700,   1,   33554826) /* Setup */
-     , (1700,   8,  100676459) /* Icon */
-     , (1700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1700,   1, 0x0200018A) /* Setup */
+     , (1700,   8, 0x0600336B) /* Icon */
+     , (1700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1700,  28,        892) /* Spell - HealingIneptitudeOther1 */;

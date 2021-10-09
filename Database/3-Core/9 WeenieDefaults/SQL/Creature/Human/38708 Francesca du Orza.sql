@@ -31,20 +31,20 @@ VALUES (38708,   1, 'Francesca du Orza') /* Name */
      , (38708,   5, 'Inspector of Knights') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38708,   1,   33554510) /* Setup */
-     , (38708,   2,  150994945) /* MotionTable */
-     , (38708,   3,  536870914) /* SoundTable */
-     , (38708,   6,   67108990) /* PaletteBase */
-     , (38708,   8,  100667446) /* Icon */
-     , (38708,   9,   83890255) /* EyesTexture */
-     , (38708,  10,   83890311) /* NoseTexture */
-     , (38708,  11,   83890342) /* MouthTexture */
-     , (38708,  15,   67117026) /* HairPalette */
-     , (38708,  16,   67109564) /* EyesPalette */
-     , (38708,  17,   67115901) /* SkinPalette */;
+VALUES (38708,   1, 0x0200004E) /* Setup */
+     , (38708,   2, 0x09000001) /* MotionTable */
+     , (38708,   3, 0x20000002) /* SoundTable */
+     , (38708,   6, 0x0400007E) /* PaletteBase */
+     , (38708,   8, 0x06001036) /* Icon */
+     , (38708,   9, 0x0500104F) /* EyesTexture */
+     , (38708,  10, 0x05001087) /* NoseTexture */
+     , (38708,  11, 0x050010A6) /* MouthTexture */
+     , (38708,  15, 0x04001FE2) /* HairPalette */
+     , (38708,  16, 0x040002BC) /* EyesPalette */
+     , (38708,  17, 0x04001B7D) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38708, 8040, 11993708, 148.246, -26.5573, -17.995, -0.105379, 0, 0, 0.994432) /* PCAPRecordedLocation */
+VALUES (38708, 8040, 0x00B7026C, 148.246, -26.5573, -17.995, -0.105379, 0, 0, 0.994432) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026C [148.246000 -26.557300 -17.995000] -0.105379 0.000000 0.000000 0.994432 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

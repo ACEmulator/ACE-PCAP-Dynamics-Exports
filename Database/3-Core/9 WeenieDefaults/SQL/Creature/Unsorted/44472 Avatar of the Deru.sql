@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44472,   1, 'Avatar of the Deru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44472,   1,   33556428) /* Setup */
-     , (44472,   2,  150995073) /* MotionTable */
-     , (44472,   3,  536870933) /* SoundTable */
-     , (44472,   8,  100667940) /* Icon */;
+VALUES (44472,   1, 0x020007CC) /* Setup */
+     , (44472,   2, 0x09000081) /* MotionTable */
+     , (44472,   3, 0x20000015) /* SoundTable */
+     , (44472,   8, 0x06001224) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44472, 8040, 1498284292, 90, -20, -101.99, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (44472, 8040, 0x594E0104, 90, -20, -101.99, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x594E0104 [90.000000 -20.000000 -101.990000] 0.696707 0.000000 0.000000 -0.717356 */;

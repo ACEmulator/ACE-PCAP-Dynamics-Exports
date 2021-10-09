@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30695,   1, 'Ravaged Cathedral') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30695,   1,   33555925) /* Setup */
-     , (30695,   2,  150994947) /* MotionTable */
-     , (30695,   8,  100667499) /* Icon */;
+VALUES (30695,   1, 0x020005D5) /* Setup */
+     , (30695,   2, 0x09000003) /* MotionTable */
+     , (30695,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30695, 8040, 471007278, 130.771, 129.602, 69.937, -0.4613961, 0, 0, -0.8871942) /* PCAPRecordedLocation */
+VALUES (30695, 8040, 0x1C13002E, 130.771, 129.602, 69.937, -0.461396, 0, 0, -0.887194) /* PCAPRecordedLocation */
 /* @teleloc 0x1C13002E [130.771000 129.602000 69.937000] -0.461396 0.000000 0.000000 -0.887194 */;

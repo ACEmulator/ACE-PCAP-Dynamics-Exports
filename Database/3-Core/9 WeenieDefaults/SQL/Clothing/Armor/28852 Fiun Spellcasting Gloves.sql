@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28852,   1, 'Fiun Spellcasting Gloves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28852,   1,   33559348) /* Setup */
-     , (28852,   3,  536870932) /* SoundTable */
-     , (28852,   8,  100686398) /* Icon */
-     , (28852,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28852,   1, 0x02001334) /* Setup */
+     , (28852,   3, 0x20000014) /* SoundTable */
+     , (28852,   8, 0x06005A3E) /* Icon */
+     , (28852,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28852,  2067,      2)  /* FocusSelf7 */

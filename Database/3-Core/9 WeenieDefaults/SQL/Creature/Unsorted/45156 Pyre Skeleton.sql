@@ -18,15 +18,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45156,   1, 'Pyre Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45156,   1,   33560230) /* Setup */
-     , (45156,   2,  150994981) /* MotionTable */
-     , (45156,   3,  536870942) /* SoundTable */
-     , (45156,   6,   67116522) /* PaletteBase */
-     , (45156,   8,  100669124) /* Icon */
-     , (45156,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (45156,   1, 0x020016A6) /* Setup */
+     , (45156,   2, 0x09000025) /* MotionTable */
+     , (45156,   3, 0x2000001E) /* SoundTable */
+     , (45156,   6, 0x04001DEA) /* PaletteBase */
+     , (45156,   8, 0x060016C4) /* Icon */
+     , (45156,  22, 0x34000025) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45156, 8040, 1466171992, 2.4, 2.4, 6.0025, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (45156, 8040, 0x57640258, 2.4, 2.4, 6.0025, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57640258 [2.400000 2.400000 6.002500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

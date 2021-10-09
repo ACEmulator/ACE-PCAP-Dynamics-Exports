@@ -22,12 +22,12 @@ VALUES (27462,   1, 'Door') /* Name */
      , (27462,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27462,   1,   33558696) /* Setup */
-     , (27462,   2,  150995295) /* MotionTable */
-     , (27462,   3,  536871001) /* SoundTable */
-     , (27462,   8,  100673480) /* Icon */
-     , (27462,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (27462,   1, 0x020010A8) /* Setup */
+     , (27462,   2, 0x0900015F) /* MotionTable */
+     , (27462,   3, 0x20000059) /* SoundTable */
+     , (27462,   8, 0x060027C8) /* Icon */
+     , (27462,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27462, 8040, 9044550, 170, -174.494, 0, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (27462, 8040, 0x008A0246, 170, -174.494, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x008A0246 [170.000000 -174.494000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;

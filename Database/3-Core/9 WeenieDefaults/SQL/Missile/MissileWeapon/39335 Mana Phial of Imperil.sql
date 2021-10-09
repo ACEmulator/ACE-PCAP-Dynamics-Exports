@@ -47,16 +47,16 @@ VALUES (39335,   1, 'Mana Phial of Imperil') /* Name */
      , (39335,  20, 'Mana Phials of Imperil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39335,   1,   33560312) /* Setup */
-     , (39335,   3,  536870932) /* SoundTable */
-     , (39335,   6,   67111919) /* PaletteBase */
-     , (39335,   8,  100690318) /* Icon */
-     , (39335,  22,  872415275) /* PhysicsEffectTable */
-     , (39335,  50,  100689523) /* IconOverlay */
+VALUES (39335,   1, 0x020016F8) /* Setup */
+     , (39335,   3, 0x20000014) /* SoundTable */
+     , (39335,   6, 0x04000BEF) /* PaletteBase */
+     , (39335,   8, 0x0600698E) /* Icon */
+     , (39335,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39335,  50, 0x06006673) /* IconOverlay */
      , (39335,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39335, 8040, 808583188, 50.39036, 76.56087, 131.93, -0.4739742, -0.4739742, -0.5247366, -0.5247366) /* PCAPRecordedLocation */
+VALUES (39335, 8040, 0x30320014, 50.39036, 76.56087, 131.93, -0.473974, -0.473974, -0.524737, -0.524737) /* PCAPRecordedLocation */
 /* @teleloc 0x30320014 [50.390360 76.560870 131.930000] -0.473974 -0.473974 -0.524737 -0.524737 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -23,11 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33014,   1, 'Broken Seal of the Elder Spirits') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33014,   1,   33555402) /* Setup */
-     , (33014,   2,  150995261) /* MotionTable */
-     , (33014,   3,  536870933) /* SoundTable */
-     , (33014,   8,  100688623) /* Icon */;
+VALUES (33014,   1, 0x020003CA) /* Setup */
+     , (33014,   2, 0x0900013D) /* MotionTable */
+     , (33014,   3, 0x20000015) /* SoundTable */
+     , (33014,   8, 0x060062EF) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33014, 8040, 8258114, 200, -320, -24, 0.999687, 0, 0, 0.024997) /* PCAPRecordedLocation */
+VALUES (33014, 8040, 0x007E0242, 200, -320, -24, 0.999687, 0, 0, 0.024997) /* PCAPRecordedLocation */
 /* @teleloc 0x007E0242 [200.000000 -320.000000 -24.000000] 0.999687 0.000000 0.000000 0.024997 */;

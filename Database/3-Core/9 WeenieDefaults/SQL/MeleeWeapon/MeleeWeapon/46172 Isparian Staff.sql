@@ -37,8 +37,8 @@ VALUES (46172,   1, 'Isparian Staff') /* Name */
      , (46172,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46172,   1,   33556261) /* Setup */
-     , (46172,   3,  536870932) /* SoundTable */
-     , (46172,   6,   67111919) /* PaletteBase */
-     , (46172,   8,  100672935) /* Icon */
-     , (46172,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (46172,   1, 0x02000725) /* Setup */
+     , (46172,   3, 0x20000014) /* SoundTable */
+     , (46172,   6, 0x04000BEF) /* PaletteBase */
+     , (46172,   8, 0x060025A7) /* Icon */
+     , (46172,  22, 0x3400002B) /* PhysicsEffectTable */;

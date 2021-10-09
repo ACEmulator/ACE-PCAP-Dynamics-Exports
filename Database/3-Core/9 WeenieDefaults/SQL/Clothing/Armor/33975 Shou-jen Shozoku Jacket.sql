@@ -42,20 +42,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33975,   1, 'Shou-jen Shozoku Jacket') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33975,   1,   33554854) /* Setup */
-     , (33975,   3,  536870932) /* SoundTable */
-     , (33975,   8,  100689122) /* Icon */
-     , (33975,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (33975,   1, 0x020001A6) /* Setup */
+     , (33975,   3, 0x20000014) /* SoundTable */
+     , (33975,   8, 0x060064E2) /* Icon */
+     , (33975,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33975,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33975,  2113,      2)  /* PiercingBane7 */
+     , (33975,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (33975,  2059,      2)  /* CoordinationSelf7 */
+     , (33975,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
      , (33975,  2092,      2)  /* AcidBane7 */
      , (33975,  2094,      2)  /* BladeBane7 */
      , (33975,  2098,      2)  /* BludgeonBane7 */
      , (33975,  2102,      2)  /* FlameBane7 */
      , (33975,  2104,      2)  /* FrostBane7 */
      , (33975,  2108,      2)  /* Impenetrability7 */
-     , (33975,  2110,      2)  /* LightningBane7 */
-     , (33975,  2113,      2)  /* PiercingBane7 */
-     , (33975,  2243,      2)  /* ImpregnabilitySelf7 */
-     , (33975,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */;
+     , (33975,  2110,      2)  /* LightningBane7 */;

@@ -26,21 +26,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22911,   1, 'Paroxysm Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22911,   1,   33558345) /* Setup */
-     , (22911,   2,  150995091) /* MotionTable */
-     , (22911,   3,  536870914) /* SoundTable */
-     , (22911,   6,   67108990) /* PaletteBase */
-     , (22911,   8,  100674327) /* Icon */
-     , (22911,   9,   83890281) /* EyesTexture */
-     , (22911,  10,   83890315) /* NoseTexture */
-     , (22911,  11,   83890358) /* MouthTexture */
-     , (22911,  15,   67116992) /* HairPalette */
-     , (22911,  16,   67109567) /* EyesPalette */
-     , (22911,  17,   67109558) /* SkinPalette */
-     , (22911,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (22911,   1, 0x02000F49) /* Setup */
+     , (22911,   2, 0x09000093) /* MotionTable */
+     , (22911,   3, 0x20000002) /* SoundTable */
+     , (22911,   6, 0x0400007E) /* PaletteBase */
+     , (22911,   8, 0x06002B17) /* Icon */
+     , (22911,   9, 0x05001069) /* EyesTexture */
+     , (22911,  10, 0x0500108B) /* NoseTexture */
+     , (22911,  11, 0x050010B6) /* MouthTexture */
+     , (22911,  15, 0x04001FC0) /* HairPalette */
+     , (22911,  16, 0x040002BF) /* EyesPalette */
+     , (22911,  17, 0x040002B6) /* SkinPalette */
+     , (22911,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22911, 8040, 720240673, 100.6118, 11.74064, 45.11622, 0.3848037, 0, 0, -0.9229984) /* PCAPRecordedLocation */
+VALUES (22911, 8040, 0x2AEE0021, 100.6118, 11.74064, 45.11622, 0.384804, 0, 0, -0.922998) /* PCAPRecordedLocation */
 /* @teleloc 0x2AEE0021 [100.611800 11.740640 45.116220] 0.384804 0.000000 0.000000 -0.922998 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

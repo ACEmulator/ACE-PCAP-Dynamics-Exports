@@ -34,10 +34,10 @@ VALUES (48944,   1, 'Fire Skeleton Minion Essence (80)') /* Name */
      , (48944,  14, 'Use this essence to summon or dismiss your Fire Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48944,   1,   33554817) /* Setup */
-     , (48944,   3,  536870932) /* SoundTable */
-     , (48944,   6,   67111919) /* PaletteBase */
-     , (48944,   8,  100669124) /* Icon */
-     , (48944,  22,  872415275) /* PhysicsEffectTable */
-     , (48944,  50,  100693027) /* IconOverlay */
-     , (48944,  52,  100693024) /* IconUnderlay */;
+VALUES (48944,   1, 0x02000181) /* Setup */
+     , (48944,   3, 0x20000014) /* SoundTable */
+     , (48944,   6, 0x04000BEF) /* PaletteBase */
+     , (48944,   8, 0x060016C4) /* Icon */
+     , (48944,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48944,  50, 0x06007423) /* IconOverlay */
+     , (48944,  52, 0x06007420) /* IconUnderlay */;

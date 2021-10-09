@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5312,   1, 'Greater Frog Crotch Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5312,   1,   33554724) /* Setup */
-     , (5312,   3,  536870932) /* SoundTable */
-     , (5312,   6,   67111919) /* PaletteBase */
-     , (5312,   8,  100670172) /* Icon */
-     , (5312,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5312,   1, 0x02000124) /* Setup */
+     , (5312,   3, 0x20000014) /* SoundTable */
+     , (5312,   6, 0x04000BEF) /* PaletteBase */
+     , (5312,   8, 0x06001ADC) /* Icon */
+     , (5312,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5312, 8040, 1415119322, 49.94229, -97.59929, 5.924, 0.7069923, 0.7069923, -0.01272651, -0.01272651) /* PCAPRecordedLocation */
+VALUES (5312, 8040, 0x545901DA, 49.94229, -97.59929, 5.924, 0.706992, 0.706992, -0.012727, -0.012727) /* PCAPRecordedLocation */
 /* @teleloc 0x545901DA [49.942290 -97.599290 5.924000] 0.706992 0.706992 -0.012727 -0.012727 */;

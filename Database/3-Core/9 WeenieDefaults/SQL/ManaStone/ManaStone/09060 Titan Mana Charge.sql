@@ -26,9 +26,9 @@ VALUES (9060,   1, 'Titan Mana Charge') /* Name */
      , (9060,  14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9060,   1,   33555641) /* Setup */
-     , (9060,   8,  100676402) /* Icon */;
+VALUES (9060,   1, 0x020004B9) /* Setup */
+     , (9060,   8, 0x06003332) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9060, 8040, 3583574079, 171.4812, 149.6451, 374, 0.9834927, 0, 0, -0.1809478) /* PCAPRecordedLocation */
+VALUES (9060, 8040, 0xD599003F, 171.4812, 149.6451, 374, 0.983493, 0, 0, -0.180948) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [171.481200 149.645100 374.000000] 0.983493 0.000000 0.000000 -0.180948 */;

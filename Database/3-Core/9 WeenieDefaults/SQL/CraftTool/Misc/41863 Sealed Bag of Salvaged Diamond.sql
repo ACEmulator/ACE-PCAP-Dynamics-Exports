@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41863,   1, 'Sealed Bag of Salvaged Diamond') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41863,   1,   33556223) /* Setup */
-     , (41863,   3,  536870932) /* SoundTable */
-     , (41863,   6,   67111928) /* PaletteBase */
-     , (41863,   8,  100667436) /* Icon */
-     , (41863,  22,  872415275) /* PhysicsEffectTable */
-     , (41863,  50,  100673270) /* IconOverlay */
+VALUES (41863,   1, 0x020006FF) /* Setup */
+     , (41863,   3, 0x20000014) /* SoundTable */
+     , (41863,   6, 0x04000BF8) /* PaletteBase */
+     , (41863,   8, 0x0600102C) /* Icon */
+     , (41863,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41863,  50, 0x060026F6) /* IconOverlay */
      , (41863, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

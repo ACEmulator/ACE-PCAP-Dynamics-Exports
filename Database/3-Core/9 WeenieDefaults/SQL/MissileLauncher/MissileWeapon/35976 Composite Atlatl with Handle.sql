@@ -49,16 +49,16 @@ VALUES (35976,   1, 'Composite Atlatl with Handle') /* Name */
      , (35976,   8, 'Mitosis') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35976,   1,   33560354) /* Setup */
-     , (35976,   3,  536870932) /* SoundTable */
-     , (35976,   6,   67112869) /* PaletteBase */
-     , (35976,   8,  100689578) /* Icon */
-     , (35976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35976,   1, 0x02001722) /* Setup */
+     , (35976,   3, 0x20000014) /* SoundTable */
+     , (35976,   6, 0x04000FA5) /* PaletteBase */
+     , (35976,   8, 0x060066AA) /* Icon */
+     , (35976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35976,  55,       1492) /* ProcSpell - Brittlemail6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35976,  1605,      2)  /* DefenderSelf6 */
-     , (35976,  1627,      2)  /* SwiftKillerSelf6 */
      , (35976,  2059,      2)  /* CoordinationSelf7 */
-     , (35976,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35976,  2207,      2)  /* MissileWeaponsMasterySelf7 */;
+     , (35976,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35976,  2207,      2)  /* MissileWeaponsMasterySelf7 */
+     , (35976,  2096,      2)  /* BloodDrinkerSelf7 */;

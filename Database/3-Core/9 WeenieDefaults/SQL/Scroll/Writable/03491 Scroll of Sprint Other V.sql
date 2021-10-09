@@ -23,7 +23,7 @@ VALUES (3491,   1, 'Scroll of Sprint Other V') /* Name */
 Increases the target''s Run skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3491,   1,   33554826) /* Setup */
-     , (3491,   8,  100676470) /* Icon */
-     , (3491,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3491,   1, 0x0200018A) /* Setup */
+     , (3491,   8, 0x06003376) /* Icon */
+     , (3491,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3491,  28,        992) /* Spell - SprintOther5 */;

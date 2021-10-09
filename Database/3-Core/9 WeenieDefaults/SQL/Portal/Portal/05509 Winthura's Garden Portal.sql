@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5509,   1, 'Winthura''s Garden Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5509,   1,   33555922) /* Setup */
-     , (5509,   2,  150994947) /* MotionTable */
-     , (5509,   8,  100667499) /* Icon */;
+VALUES (5509,   1, 0x020005D2) /* Setup */
+     , (5509,   2, 0x09000003) /* MotionTable */
+     , (5509,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5509, 8040, 2655584277, 55.6501, 110.607, 84.57451, -0.7940506, 0, 0, -0.6078517) /* PCAPRecordedLocation */
+VALUES (5509, 8040, 0x9E490015, 55.6501, 110.607, 84.57451, -0.794051, 0, 0, -0.607852) /* PCAPRecordedLocation */
 /* @teleloc 0x9E490015 [55.650100 110.607000 84.574510] -0.794051 0.000000 0.000000 -0.607852 */;

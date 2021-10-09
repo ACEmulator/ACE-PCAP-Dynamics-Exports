@@ -29,20 +29,20 @@ VALUES (3930,   1, 'Olthoi Hunter') /* Name */
      , (3930,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3930,   1,   33554510) /* Setup */
-     , (3930,   2,  150994945) /* MotionTable */
-     , (3930,   3,  536870914) /* SoundTable */
-     , (3930,   6,   67108990) /* PaletteBase */
-     , (3930,   8,  100667446) /* Icon */
-     , (3930,   9,   83890276) /* EyesTexture */
-     , (3930,  10,   83890309) /* NoseTexture */
-     , (3930,  11,   83890351) /* MouthTexture */
-     , (3930,  15,   67117079) /* HairPalette */
-     , (3930,  16,   67109564) /* EyesPalette */
-     , (3930,  17,   67109561) /* SkinPalette */;
+VALUES (3930,   1, 0x0200004E) /* Setup */
+     , (3930,   2, 0x09000001) /* MotionTable */
+     , (3930,   3, 0x20000002) /* SoundTable */
+     , (3930,   6, 0x0400007E) /* PaletteBase */
+     , (3930,   8, 0x06001036) /* Icon */
+     , (3930,   9, 0x05001064) /* EyesTexture */
+     , (3930,  10, 0x05001085) /* NoseTexture */
+     , (3930,  11, 0x050010AF) /* MouthTexture */
+     , (3930,  15, 0x04002017) /* HairPalette */
+     , (3930,  16, 0x040002BC) /* EyesPalette */
+     , (3930,  17, 0x040002B9) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3930, 8040, 3315990796, 153.959, 12.0098, 38.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (3930, 8040, 0xC5A6010C, 153.959, 12.0098, 38.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A6010C [153.959000 12.009800 38.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51887,   1, 'Corrupted Crystal of Torments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51887,   1,   33559841) /* Setup */
-     , (51887,   2,  150995147) /* MotionTable */
-     , (51887,   3,  536871001) /* SoundTable */
-     , (51887,   8,  100673955) /* Icon */
-     , (51887,  22,  872415347) /* PhysicsEffectTable */;
+VALUES (51887,   1, 0x02001521) /* Setup */
+     , (51887,   2, 0x090000CB) /* MotionTable */
+     , (51887,   3, 0x20000059) /* SoundTable */
+     , (51887,   8, 0x060029A3) /* Icon */
+     , (51887,  22, 0x34000073) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51887, 8040, 1484326078, 70.8813, -138.665, -5.95, 0.9857892, 0, 0, -0.167987) /* PCAPRecordedLocation */
+VALUES (51887, 8040, 0x587904BE, 70.8813, -138.665, -5.95, 0.985789, 0, 0, -0.167987) /* PCAPRecordedLocation */
 /* @teleloc 0x587904BE [70.881300 -138.665000 -5.950000] 0.985789 0.000000 0.000000 -0.167987 */;

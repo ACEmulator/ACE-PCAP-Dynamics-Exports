@@ -45,15 +45,15 @@ VALUES (33944,   1, 'Enhanced Soul Staff') /* Name */
      , (33944,  16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat. Lightning crackles among the mouths and eyes of the carved faces. This weapon has been enhanced by Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33944,   1,   33557346) /* Setup */
-     , (33944,   3,  536870932) /* SoundTable */
-     , (33944,   6,   67111919) /* PaletteBase */
-     , (33944,   8,  100674098) /* Icon */
-     , (33944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33944,   1, 0x02000B62) /* Setup */
+     , (33944,   3, 0x20000014) /* SoundTable */
+     , (33944,   6, 0x04000BEF) /* PaletteBase */
+     , (33944,   8, 0x06002A32) /* Icon */
+     , (33944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33944,  55,       1788) /* ProcSpell - LightningRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33944,  1312,      2)  /* ArmorSelf6 */
-     , (33944,  1592,      2)  /* HeartSeekerSelf6 */
-     , (33944,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (33944,  2487,      2)  /* SPIRITSTRIKE */;
+VALUES (33944,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (33944,  1312,      2)  /* ArmorSelf6 */
+     , (33944,  2487,      2)  /* SPIRITSTRIKE */
+     , (33944,  1592,      2)  /* HeartSeekerSelf6 */;
