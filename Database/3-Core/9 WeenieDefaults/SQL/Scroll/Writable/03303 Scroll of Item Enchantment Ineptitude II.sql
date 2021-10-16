@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3303,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3303,   1, 'Scroll of Item Enchantment Ineptitude II') /* Name */;
+VALUES (3303,   1, 'Scroll of Item Enchantment Ineptitude II') /* Name */
+     , (3303,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (3303,  16, 'Inscribed spell: Item Enchantment Ineptitude Other II
+Decreases the target''s Item Enchantment skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3303,   1, 0x0200018A) /* Setup */

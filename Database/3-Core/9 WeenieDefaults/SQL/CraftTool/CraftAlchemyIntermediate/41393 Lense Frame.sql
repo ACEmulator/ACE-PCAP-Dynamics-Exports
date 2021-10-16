@@ -17,7 +17,9 @@ VALUES (41393,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41393, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41393,   1, 'Lense Frame') /* Name */;
+VALUES (41393,   1, 'Lense Frame') /* Name */
+     , (41393,  14, 'This item is used in Item Tinkering.') /* Use */
+     , (41393,  16, 'A frame used to fasten a lense to a handle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41393,   1, 0x02000B20) /* Setup */

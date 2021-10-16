@@ -14,13 +14,19 @@ VALUES (9429,   1,       2048) /* ItemType - Gem */
      , (9429,  18,          1) /* UiEffects - Magical */
      , (9429,  19,        200) /* Value */
      , (9429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9429,  94,         16) /* TargetType - Creature */;
+     , (9429,  94,         16) /* TargetType - Creature */
+     , (9429, 106,        210) /* ItemSpellcraft */
+     , (9429, 107,        100) /* ItemCurMana */
+     , (9429, 108,        200) /* ItemMaxMana */
+     , (9429, 109,          0) /* ItemDifficulty */
+     , (9429, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9429,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9429,   1, 'Fire Ruby') /* Name */;
+VALUES (9429,   1, 'Fire Ruby') /* Name */
+     , (9429,  15, 'A gem of fire protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9429,   1, 0x02000179) /* Setup */

@@ -12,14 +12,22 @@ VALUES (45033,   1,        128) /* ItemType - Misc */
      , (45033,  15,     250000) /* StackUnitValue */
      , (45033,  16,          8) /* ItemUseable - Contained */
      , (45033,  19,     250000) /* Value */
+     , (45033,  33,          1) /* Bonded - Bonded */
      , (45033,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45033,  94,         16) /* TargetType - Creature */;
+     , (45033,  94,         16) /* TargetType - Creature */
+     , (45033, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45033,  23, True ) /* DestroyOnSell */
+     , (45033,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45033,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45033,   1, 'Hoory Mattekar Over-robe Crate') /* Name */
+     , (45033,  14, 'Use this crate to retrieve its contents.') /* Use */
+     , (45033,  16, 'A crate packed with a new-and-improved, genuine Hoory Mattekar Over-robe.') /* LongDesc */
      , (45033,  20, 'Hoory Mattekar Over-robe Crates') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

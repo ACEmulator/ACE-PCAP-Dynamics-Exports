@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45253,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45253,   1, 'Scroll of Dirty Fighting Mastery Self II') /* Name */;
+VALUES (45253,   1, 'Scroll of Dirty Fighting Mastery Self II') /* Name */
+     , (45253,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (45253,  16, 'Inscribed spell: Dirty Fighting Mastery Self II
+Increases the caster''s Dirty Fighting skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45253,   1, 0x0200018A) /* Setup */

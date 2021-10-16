@@ -22,7 +22,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41403,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41403,   1, 'Jeweler''s Saw Frame') /* Name */;
+VALUES (41403,   1, 'Jeweler''s Saw Frame') /* Name */
+     , (41403,  14, 'This item is used in Item Tinkering.') /* Use */
+     , (41403,  16, 'A saw frame that needs a blade before it can be used to cut metals.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41403,   1, 0x0200090E) /* Setup */

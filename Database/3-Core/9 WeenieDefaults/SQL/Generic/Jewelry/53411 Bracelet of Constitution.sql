@@ -10,16 +10,25 @@ VALUES (53411,   1,          8) /* ItemType - Jewelry */
      , (53411,  16,          1) /* ItemUseable - No */
      , (53411,  18,          1) /* UiEffects - Magical */
      , (53411,  19,         15) /* Value */
-     , (53411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (53411,  33,          1) /* Bonded - Bonded */
+     , (53411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (53411, 114,          1) /* Attuned - Attuned */
+     , (53411, 158,          7) /* WieldRequirements - Level */
+     , (53411, 159,          1) /* WieldSkillType - Axe */
+     , (53411, 160,        180) /* WieldDifficulty */
+     , (53411, 379,          5) /* GearMaxHealth */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53411,  22, True ) /* Inscribable */;
+VALUES (53411,  22, True ) /* Inscribable */
+     , (53411,  23, True ) /* DestroyOnSell */
+     , (53411,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53411,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53411,   1, 'Bracelet of Constitution') /* Name */;
+VALUES (53411,   1, 'Bracelet of Constitution') /* Name */
+     , (53411,  15, 'A thick silver bracelet crafted by the master jewelers of the Societies.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53411,   1, 0x020000F8) /* Setup */

@@ -12,17 +12,23 @@ VALUES (35535,   1,        128) /* ItemType - Misc */
      , (35535,  15,          1) /* StackUnitValue */
      , (35535,  16,          8) /* ItemUseable - Contained */
      , (35535,  19,          1) /* Value */
+     , (35535,  33,         -1) /* Bonded - Slippery */
      , (35535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35535,  94,         16) /* TargetType - Creature */;
+     , (35535,  94,         16) /* TargetType - Creature */
+     , (35535, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35535,  22, True ) /* Inscribable */;
+VALUES (35535,  22, True ) /* Inscribable */
+     , (35535,  69, False) /* IsSellable */
+     , (35535,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35535,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35535,   1, '"Doom Hammer" Summoning Gem') /* Name */;
+VALUES (35535,   1, '"Doom Hammer" Summoning Gem') /* Name */
+     , (35535,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
+     , (35535,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as the "Doom Hammer".  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35535,   1, 0x020006FF) /* Setup */

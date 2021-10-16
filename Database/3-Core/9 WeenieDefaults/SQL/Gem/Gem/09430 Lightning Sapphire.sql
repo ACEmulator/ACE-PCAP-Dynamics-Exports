@@ -14,13 +14,19 @@ VALUES (9430,   1,       2048) /* ItemType - Gem */
      , (9430,  18,          1) /* UiEffects - Magical */
      , (9430,  19,        200) /* Value */
      , (9430,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9430,  94,         16) /* TargetType - Creature */;
+     , (9430,  94,         16) /* TargetType - Creature */
+     , (9430, 106,        210) /* ItemSpellcraft */
+     , (9430, 107,        100) /* ItemCurMana */
+     , (9430, 108,        200) /* ItemMaxMana */
+     , (9430, 109,          0) /* ItemDifficulty */
+     , (9430, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9430,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9430,   1, 'Lightning Sapphire') /* Name */;
+VALUES (9430,   1, 'Lightning Sapphire') /* Name */
+     , (9430,  15, 'A gem of lightning protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9430,   1, 0x02000179) /* Setup */

@@ -12,14 +12,22 @@ VALUES (46802,   1,        128) /* ItemType - Misc */
      , (46802,  15,          1) /* StackUnitValue */
      , (46802,  16,          8) /* ItemUseable - Contained */
      , (46802,  19,          1) /* Value */
+     , (46802,  33,          1) /* Bonded - Bonded */
      , (46802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46802,  94,         16) /* TargetType - Creature */;
+     , (46802,  94,         16) /* TargetType - Creature */
+     , (46802, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46802,  23, True ) /* DestroyOnSell */
+     , (46802,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46802,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46802,   1, 'Boxed A''nekshay Token') /* Name */;
+VALUES (46802,   1, 'Boxed A''nekshay Token') /* Name */
+     , (46802,  14, 'Use this crate to retrieve its contents.') /* Use */
+     , (46802,  16, 'A box containing an A''nekshay Token.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46802,   1, 0x020006FF) /* Setup */

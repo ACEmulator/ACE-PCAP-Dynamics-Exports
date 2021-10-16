@@ -22,7 +22,8 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36515,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36515,   1, 'Wrapped Pyreal Sliver') /* Name */;
+VALUES (36515,   1, 'Wrapped Pyreal Sliver') /* Name */
+     , (36515,  16, 'A wrapped item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36515,   1, 0x020006FF) /* Setup */

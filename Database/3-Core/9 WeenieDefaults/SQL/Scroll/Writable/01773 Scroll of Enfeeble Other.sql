@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1773,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1773,   1, 'Scroll of Enfeeble Other') /* Name */;
+VALUES (1773,   1, 'Scroll of Enfeeble Other') /* Name */
+     , (1773,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (1773,  16, 'Inscribed spell: Enfeeble Other I
+Drains 7-12 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1773,   1, 0x0200018A) /* Setup */

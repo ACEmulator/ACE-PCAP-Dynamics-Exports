@@ -16,6 +16,7 @@ VALUES (52749,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52749,   1, 'Gauntlet Gem of Vast Knowledge') /* Name */
+     , (52749,  14, 'Turn this gem into an Agent of the Arcanum to be granted one hundred million experience.') /* Use */
      , (52749,  20, 'Gauntlet Gems of Vast Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

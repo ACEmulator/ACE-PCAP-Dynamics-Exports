@@ -8,16 +8,22 @@ VALUES (36537,   1,       8192) /* ItemType - Writable */
      , (36537,   5,         30) /* EncumbranceVal */
      , (36537,  16,          8) /* ItemUseable - Contained */
      , (36537,  19,          5) /* Value */
-     , (36537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (36537,  33,          1) /* Bonded - Bonded */
+     , (36537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (36537, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36537,  22, True ) /* Inscribable */;
+VALUES (36537,  22, True ) /* Inscribable */
+     , (36537,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36537,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36537,   1, 'Scroll of Colosseum Recall') /* Name */;
+VALUES (36537,   1, 'Scroll of Colosseum Recall') /* Name */
+     , (36537,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (36537,  16, 'Inscribed spell: Colosseum Recall
+Sends the caster to the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36537,   1, 0x0200018A) /* Setup */

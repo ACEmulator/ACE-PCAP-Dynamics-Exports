@@ -5,6 +5,7 @@ VALUES (4587, 'servicehealother2', 1, '2019-02-10 00:00:00') /* Generic */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4587,   1,    1048576) /* ItemType - Service */
+     , (4587,   5,          0) /* EncumbranceVal */
      , (4587,  16,          1) /* ItemUseable - No */
      , (4587,  19,         50) /* Value */
      , (4587,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

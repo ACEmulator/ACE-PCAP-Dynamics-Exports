@@ -10,13 +10,30 @@ VALUES (43685,   1,          4) /* ItemType - Clothing */
      , (43685,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (43685,  16,          1) /* ItemUseable - No */
      , (43685,  19,       2000) /* Value */
-     , (43685,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43685,  28,          0) /* ArmorLevel */
+     , (43685,  33,          1) /* Bonded - Bonded */
+     , (43685,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43685, 114,          1) /* Attuned - Attuned */
+     , (43685, 265,         43) /* EquipmentSetId - OlthoiArmorCRat */
+     , (43685, 324,         12) /* HeritageSpecificArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43685,  22, True ) /* Inscribable */;
+VALUES (43685,  22, True ) /* Inscribable */
+     , (43685,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (43685,  13,       1) /* ArmorModVsSlash */
+     , (43685,  14,       1) /* ArmorModVsPierce */
+     , (43685,  15,       1) /* ArmorModVsBludgeon */
+     , (43685,  16,       1) /* ArmorModVsCold */
+     , (43685,  17,       1) /* ArmorModVsFire */
+     , (43685,  18,       1) /* ArmorModVsAcid */
+     , (43685,  19,       1) /* ArmorModVsElectric */
+     , (43685, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43685,   1, 'Lower Exoskeleton Metamorphi') /* Name */;
+VALUES (43685,   1, 'Lower Exoskeleton Metamorphi') /* Name */
+     , (43685,  16, 'When equipped, this Metamorphi will increase the Ripper''s Critical Damage Rating') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43685,   1, 0x020000DD) /* Setup */

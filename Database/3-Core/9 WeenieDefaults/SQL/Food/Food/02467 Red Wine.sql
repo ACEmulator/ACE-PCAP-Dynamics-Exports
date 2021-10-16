@@ -12,10 +12,13 @@ VALUES (2467,   1,         32) /* ItemType - Food */
      , (2467,  15,         15) /* StackUnitValue */
      , (2467,  16,          8) /* ItemUseable - Contained */
      , (2467,  19,         15) /* Value */
+     , (2467,  89,          4) /* BoosterEnum - Stamina */
+     , (2467,  90,          8) /* BoostValue */
      , (2467,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2467,   1, 'Red Wine') /* Name */
+     , (2467,  14, 'Use this item to drink it.') /* Use */
      , (2467,  20, 'Cups of Red Wine') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

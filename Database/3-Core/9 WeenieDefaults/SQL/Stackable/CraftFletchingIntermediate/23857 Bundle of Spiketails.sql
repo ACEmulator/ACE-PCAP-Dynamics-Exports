@@ -5,12 +5,16 @@ VALUES (23857, 'spiketail', 51, '2019-02-10 00:00:00') /* Stackable */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23857,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
+     , (23857,   5,          0) /* EncumbranceVal */
      , (23857,  11,        100) /* MaxStackSize */
      , (23857,  12,          1) /* StackSize */
      , (23857,  13,          0) /* StackUnitEncumbrance */
      , (23857,  15,         25) /* StackUnitValue */
      , (23857,  19,         25) /* Value */
      , (23857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23857,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23857,   1, 'Bundle of Spiketails') /* Name */

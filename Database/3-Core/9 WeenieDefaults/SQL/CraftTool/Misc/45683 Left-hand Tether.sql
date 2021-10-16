@@ -13,14 +13,21 @@ VALUES (45683,   1,        128) /* ItemType - Misc */
      , (45683,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (45683,  18,          1) /* UiEffects - Magical */
      , (45683,  19,         10) /* Value */
+     , (45683,  33,          1) /* Bonded - Bonded */
      , (45683,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45683,  94,          1) /* TargetType - MeleeWeapon */;
+     , (45683,  94,          1) /* TargetType - MeleeWeapon */
+     , (45683, 114,          0) /* Attuned - Normal */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (45683,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45683,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45683,   1, 'Left-hand Tether') /* Name */;
+VALUES (45683,   1, 'Left-hand Tether') /* Name */
+     , (45683,  14, 'Use this tether on any one-handed weapon to set that weapon to wield in the offhand, for the purposes of Dual Wielding weapons.') /* Use */
+     , (45683,  16, 'An enchanted tether, created for Dual Wield fighters and designed to draw a weapon to the left hand when the weapon is wielded.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45683,   1, 0x020006FF) /* Setup */

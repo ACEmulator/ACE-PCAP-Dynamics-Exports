@@ -17,7 +17,9 @@ VALUES (41402,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41402, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41402,   1, 'Jeweler''s Saw Blade') /* Name */;
+VALUES (41402,   1, 'Jeweler''s Saw Blade') /* Name */
+     , (41402,  14, 'This item is used in Item Tinkering.') /* Use */
+     , (41402,  16, 'A blade that when added to a Jewelers Saw Frame can be used to cut metals.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41402,   1, 0x02000181) /* Setup */

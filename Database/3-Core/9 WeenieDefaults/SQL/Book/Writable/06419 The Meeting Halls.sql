@@ -15,7 +15,8 @@ VALUES (6419,  39,     0.4) /* DefaultScale */
      , (6419,  54,     0.3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6419,   1, 'The Meeting Halls') /* Name */;
+VALUES (6419,   1, 'The Meeting Halls') /* Name */
+     , (6419,  16, 'A list of the Meeting Halls in the settled lands of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6419,   1, 0x0200122C) /* Setup */

@@ -12,14 +12,19 @@ VALUES (45500,   1,        128) /* ItemType - Misc */
      , (45500,  15,          1) /* StackUnitValue */
      , (45500,  16,          8) /* ItemUseable - Contained */
      , (45500,  19,          1) /* Value */
+     , (45500,  33,          0) /* Bonded - Normal */
      , (45500,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45500,  94,         16) /* TargetType - Creature */;
+     , (45500,  94,         16) /* TargetType - Creature */
+     , (45500, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45500,  22, True ) /* Inscribable */;
+VALUES (45500,  22, True ) /* Inscribable */
+     , (45500,  69, False) /* IsSellable */
+     , (45500,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45500,   1, 'Missile Defense Weapon Augmentation Gem') /* Name */;
+VALUES (45500,   1, 'Missile Defense Weapon Augmentation Gem') /* Name */
+     , (45500,  16, 'A magical gem containing a Missile Defense Weapon Augmentation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45500,   1, 0x02000921) /* Setup */

@@ -23,7 +23,9 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19401,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19401,   1, 'Light Weapons Glyph') /* Name */;
+VALUES (19401,   1, 'Light Weapons Glyph') /* Name */
+     , (19401,  14, 'Use this on a Pyreal Ingot or a Diamond Infused Pyreal Ingot.') /* Use */
+     , (19401,  16, 'A glyph used in the construction of Atlan and Isparian weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19401,   1, 0x020006FF) /* Setup */

@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1856,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1856,   1, 'Scroll of Exhaustion Other') /* Name */;
+VALUES (1856,   1, 'Scroll of Exhaustion Other') /* Name */
+     , (1856,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (1856,  16, 'Inscribed spell: Exhaustion Other I
+Decreases the rate at which the target regains Stamina by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1856,   1, 0x0200018A) /* Setup */

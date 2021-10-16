@@ -10,10 +10,28 @@ VALUES (49782,   1,          2) /* ItemType - Armor */
      , (49782,   9,       4096) /* ValidLocations - LowerArmArmor */
      , (49782,  16,          1) /* ItemUseable - No */
      , (49782,  19,       1000) /* Value */
-     , (49782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (49782,  28,        460) /* ArmorLevel */
+     , (49782,  33,          1) /* Bonded - Bonded */
+     , (49782,  36,       9999) /* ResistMagic */
+     , (49782,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (49782, 158,          7) /* WieldRequirements - Level */
+     , (49782, 159,          1) /* WieldSkillType - Axe */
+     , (49782, 160,         50) /* WieldDifficulty */
+     , (49782, 265,         93) /* EquipmentSetId - CloudedSpirit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49782,  22, True ) /* Inscribable */;
+VALUES (49782,  22, True ) /* Inscribable */
+     , (49782, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (49782,  13,     1.2) /* ArmorModVsSlash */
+     , (49782,  14,     1.2) /* ArmorModVsPierce */
+     , (49782,  15,     1.2) /* ArmorModVsBludgeon */
+     , (49782,  16,     1.2) /* ArmorModVsCold */
+     , (49782,  17,     1.2) /* ArmorModVsFire */
+     , (49782,  18,     1.2) /* ArmorModVsAcid */
+     , (49782,  19,     1.2) /* ArmorModVsElectric */
+     , (49782, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49782,   1, 'Shadow Bracers') /* Name */;

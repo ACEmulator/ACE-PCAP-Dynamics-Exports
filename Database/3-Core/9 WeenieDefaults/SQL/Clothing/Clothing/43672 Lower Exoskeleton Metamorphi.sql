@@ -10,13 +10,30 @@ VALUES (43672,   1,          4) /* ItemType - Clothing */
      , (43672,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
      , (43672,  16,          1) /* ItemUseable - No */
      , (43672,  19,       2000) /* Value */
-     , (43672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (43672,  28,          0) /* ArmorLevel */
+     , (43672,  33,          1) /* Bonded - Bonded */
+     , (43672,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (43672, 114,          1) /* Attuned - Attuned */
+     , (43672, 265,         42) /* EquipmentSetId - OlthoiArmorDRed */
+     , (43672, 324,         12) /* HeritageSpecificArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43672,  22, True ) /* Inscribable */;
+VALUES (43672,  22, True ) /* Inscribable */
+     , (43672,  23, True ) /* DestroyOnSell */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (43672,  13,       1) /* ArmorModVsSlash */
+     , (43672,  14,       1) /* ArmorModVsPierce */
+     , (43672,  15,       1) /* ArmorModVsBludgeon */
+     , (43672,  16,       1) /* ArmorModVsCold */
+     , (43672,  17,       1) /* ArmorModVsFire */
+     , (43672,  18,       1) /* ArmorModVsAcid */
+     , (43672,  19,       1) /* ArmorModVsElectric */
+     , (43672, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43672,   1, 'Lower Exoskeleton Metamorphi') /* Name */;
+VALUES (43672,   1, 'Lower Exoskeleton Metamorphi') /* Name */
+     , (43672,  16, 'When equipped, this Metamorphi will decrease incoming damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43672,   1, 0x020000DD) /* Setup */

@@ -15,8 +15,13 @@ VALUES (42724,   1,       2048) /* ItemType - Gem */
      , (42724,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42724,  94,          6) /* TargetType - Vestements */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (42724,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */;
+VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */
+     , (42724,  14, 'Use this tool on any loot generated piece of armor to make it show on top of other armor visually covering the same locations.') /* Use */
+     , (42724,  16, 'A tool used to determine the layering of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42724,   1, 0x020004DD) /* Setup */

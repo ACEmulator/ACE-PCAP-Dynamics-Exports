@@ -5,6 +5,7 @@ VALUES (45559, 'ace45559-contractforaetheriumorecollection', 38, '2019-02-10 00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45559,   1,       2048) /* ItemType - Gem */
+     , (45559,   5,          0) /* EncumbranceVal */
      , (45559,  11,          1) /* MaxStackSize */
      , (45559,  12,          1) /* StackSize */
      , (45559,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (45559,   1,       2048) /* ItemType - Gem */
      , (45559,  16,          8) /* ItemUseable - Contained */
      , (45559,  18,          2) /* UiEffects - Poisoned */
      , (45559,  19,        100) /* Value */
+     , (45559,  33,          1) /* Bonded - Bonded */
      , (45559,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45559,  94,         16) /* TargetType - Creature */
      , (45559, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45559,  22, True ) /* Inscribable */;
+VALUES (45559,  22, True ) /* Inscribable */
+     , (45559,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45559, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45559,   1, 'Contract for Aetherium Ore Collection') /* Name */;
+VALUES (45559,   1, 'Contract for Aetherium Ore Collection') /* Name */
+     , (45559,  14, 'Recommended Level: 150') /* Use */
+     , (45559,  16, 'T''ing Douzen is collecting Aetherium Ore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45559,   1, 0x02000C79) /* Setup */

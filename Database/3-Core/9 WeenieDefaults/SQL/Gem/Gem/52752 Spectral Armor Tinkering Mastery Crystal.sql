@@ -15,10 +15,19 @@ VALUES (52752,   1,       2048) /* ItemType - Gem */
      , (52752,  19,         10) /* Value */
      , (52752,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52752,  94,         16) /* TargetType - Creature */
+     , (52752, 106,        325) /* ItemSpellcraft */
+     , (52752, 107,      10000) /* ItemCurMana */
+     , (52752, 108,      10000) /* ItemMaxMana */
+     , (52752, 109,          0) /* ItemDifficulty */
      , (52752, 151,         11) /* HookType - Floor, Wall, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (52752,  69, False) /* IsSellable */
+     , (52752, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52752,   1, 'Spectral Armor Tinkering Mastery Crystal') /* Name */
+     , (52752,  16, 'Using this gem will increase your Armor Tinkering skill by 150 for 10 minutes.') /* LongDesc */
      , (52752,  20, 'Spectral Armor Tinkering Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

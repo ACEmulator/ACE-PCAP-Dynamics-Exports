@@ -8,16 +8,20 @@ VALUES (52745,   1,      16384) /* ItemType - Key */
      , (52745,   5,        500) /* EncumbranceVal */
      , (52745,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (52745,  19,         15) /* Value */
+     , (52745,  33,          1) /* Bonded - Bonded */
      , (52745,  91,          1) /* MaxStructure */
      , (52745,  92,          1) /* Structure */
      , (52745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52745,  94,        640) /* TargetType - LockableMagicTarget */;
+     , (52745,  94,        640) /* TargetType - LockableMagicTarget */
+     , (52745, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52745,  22, True ) /* Inscribable */;
+VALUES (52745,  22, True ) /* Inscribable */
+     , (52745,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52745,   1, 'Exquisite Casino Key') /* Name */;
+VALUES (52745,   1, 'Exquisite Casino Key') /* Name */
+     , (52745,  16, 'A large golden key that opens the Exquisite Casino Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52745,   1, 0x02000160) /* Setup */
