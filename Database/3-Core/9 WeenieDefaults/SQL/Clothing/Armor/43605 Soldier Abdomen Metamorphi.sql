@@ -15,7 +15,7 @@ VALUES (43605,   1,          2) /* ItemType - Armor */
      , (43605,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43605, 114,          1) /* Attuned - Attuned */
      , (43605, 265,         45) /* EquipmentSetId - OlthoiArmorDRat */
-     , (43605, 324,         12) /* HeritageSpecificArmor */;
+     , (43605, 324,         12) /* HeritageSpecificArmor - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43605,  22, True ) /* Inscribable */

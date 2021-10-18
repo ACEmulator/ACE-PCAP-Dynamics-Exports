@@ -15,7 +15,7 @@ VALUES (43674,   1,          4) /* ItemType - Clothing */
      , (43674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43674, 114,          1) /* Attuned - Attuned */
      , (43674, 265,         44) /* EquipmentSetId - OlthoiArmorCRed */
-     , (43674, 324,         13) /* HeritageSpecificArmor */;
+     , (43674, 324,         13) /* HeritageSpecificArmor - OlthoiAcid */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43674,  22, True ) /* Inscribable */

@@ -22,7 +22,7 @@ VALUES (30527,   1,          2) /* ItemType - Armor */
      , (30527, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30527, 319,         50) /* ItemMaxLevel */
      , (30527, 320,          1) /* ItemXpStyle - Fixed */
-     , (30527, 324,          6) /* HeritageSpecificArmor */;
+     , (30527, 324,          6) /* HeritageSpecificArmor - Gearknight */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30527,   4, 100000000000) /* ItemTotalXp */

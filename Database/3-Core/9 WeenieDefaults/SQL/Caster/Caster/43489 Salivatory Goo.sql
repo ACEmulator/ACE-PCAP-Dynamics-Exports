@@ -16,7 +16,7 @@ VALUES (43489,   1,      32768) /* ItemType - Caster */
      , (43489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43489,  94,         16) /* TargetType - Creature */
      , (43489, 114,          1) /* Attuned - Attuned */
-     , (43489, 324,         13) /* HeritageSpecificArmor */;
+     , (43489, 324,         13) /* HeritageSpecificArmor - OlthoiAcid */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43489,  22, True ) /* Inscribable */
