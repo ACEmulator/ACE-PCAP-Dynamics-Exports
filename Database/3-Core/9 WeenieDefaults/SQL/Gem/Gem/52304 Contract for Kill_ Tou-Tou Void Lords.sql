@@ -5,6 +5,7 @@ VALUES (52304, 'ace52304-contractforkilltoutouvoidlords', 38, '2019-02-10 00:00:
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52304,   1,       2048) /* ItemType - Gem */
+     , (52304,   5,          0) /* EncumbranceVal */
      , (52304,  11,          1) /* MaxStackSize */
      , (52304,  12,          1) /* StackSize */
      , (52304,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (52304,   1,       2048) /* ItemType - Gem */
      , (52304,  16,          8) /* ItemUseable - Contained */
      , (52304,  18,          2) /* UiEffects - Poisoned */
      , (52304,  19,        100) /* Value */
+     , (52304,  33,          1) /* Bonded - Bonded */
      , (52304,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52304,  94,         16) /* TargetType - Creature */
      , (52304, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52304,  22, True ) /* Inscribable */;
+VALUES (52304,  22, True ) /* Inscribable */
+     , (52304,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52304, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52304,   1, 'Contract for Kill: Tou-Tou Void Lords') /* Name */;
+VALUES (52304,   1, 'Contract for Kill: Tou-Tou Void Lords') /* Name */
+     , (52304,  14, 'Recommended Level: 200') /* Use */
+     , (52304,  16, 'Kill 15 Void Lords.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52304,   1, 0x02000C79) /* Setup */

@@ -17,7 +17,9 @@ VALUES (41397,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41397, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41397,   1, 'Abrasive Polish') /* Name */;
+VALUES (41397,   1, 'Abrasive Polish') /* Name */
+     , (41397,  14, 'This item is used in Item Tinkering.') /* Use */
+     , (41397,  16, 'A fine abrasive used to polish glass.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41397,   1, 0x020000A6) /* Setup */

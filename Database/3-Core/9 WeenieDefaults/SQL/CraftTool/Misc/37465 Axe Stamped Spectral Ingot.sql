@@ -12,14 +12,18 @@ VALUES (37465,   1,        128) /* ItemType - Misc */
      , (37465,  15,          1) /* StackUnitValue */
      , (37465,  16,          8) /* ItemUseable - Contained */
      , (37465,  19,          1) /* Value */
+     , (37465,  33,         -1) /* Bonded - Slippery */
      , (37465,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37465,  94,         16) /* TargetType - Creature */;
+     , (37465,  94,         16) /* TargetType - Creature */
+     , (37465, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37465,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37465,   1, 'Axe Stamped Spectral Ingot') /* Name */;
+VALUES (37465,   1, 'Axe Stamped Spectral Ingot') /* Name */
+     , (37465,  14, '( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* Use */
+     , (37465,  16, 'A spectral ingot that summons a Spectral Axe when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37465,   1, 0x02000921) /* Setup */

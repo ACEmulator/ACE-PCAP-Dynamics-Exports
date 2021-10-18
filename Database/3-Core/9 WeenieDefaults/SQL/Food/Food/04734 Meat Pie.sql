@@ -12,10 +12,16 @@ VALUES (4734,   1,         32) /* ItemType - Food */
      , (4734,  15,         10) /* StackUnitValue */
      , (4734,  16,          8) /* ItemUseable - Contained */
      , (4734,  19,         10) /* Value */
+     , (4734,  89,          4) /* BoosterEnum - Stamina */
+     , (4734,  90,         15) /* BoostValue */
      , (4734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (4734,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4734,   1, 'Meat Pie') /* Name */
+     , (4734,  14, 'Use this item to eat it.') /* Use */
      , (4734,  20, 'Meat Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)

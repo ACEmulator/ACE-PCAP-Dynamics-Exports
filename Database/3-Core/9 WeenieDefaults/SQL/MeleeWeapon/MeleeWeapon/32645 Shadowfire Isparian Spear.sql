@@ -10,15 +10,42 @@ VALUES (32645,   1,          1) /* ItemType - MeleeWeapon */
      , (32645,  16,          1) /* ItemUseable - No */
      , (32645,  18,          1) /* UiEffects - Magical */
      , (32645,  19,      10000) /* Value */
+     , (32645,  33,          1) /* Bonded - Bonded */
+     , (32645,  36,       9999) /* ResistMagic */
+     , (32645,  44,         72) /* Damage */
+     , (32645,  45,         16) /* DamageType - Fire */
+     , (32645,  47,          2) /* AttackType - Thrust */
+     , (32645,  48,         46) /* WeaponSkill - FinesseWeapons */
+     , (32645,  49,          1) /* WeaponTime */
      , (32645,  51,          1) /* CombatUse - Melee */
      , (32645,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32645, 151,          2) /* HookType - Wall */;
+     , (32645, 114,          1) /* Attuned - Attuned */
+     , (32645, 151,          2) /* HookType - Wall */
+     , (32645, 158,          2) /* WieldRequirements - RawSkill */
+     , (32645, 159,         46) /* WieldSkillType - FinesseWeapons */
+     , (32645, 160,        400) /* WieldDifficulty */
+     , (32645, 166,         22) /* SlayerCreatureType - Shadow */
+     , (32645, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32645,  22, True ) /* Inscribable */;
+VALUES (32645,  22, True ) /* Inscribable */
+     , (32645,  23, True ) /* DestroyOnSell */
+     , (32645,  69, False) /* IsSellable */
+     , (32645,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (32645,  21,       0) /* WeaponLength */
+     , (32645,  22,    0.55) /* DamageVariance */
+     , (32645,  26,       0) /* MaximumVelocity */
+     , (32645,  29,    1.25) /* WeaponDefense */
+     , (32645,  62,    1.33) /* WeaponOffense */
+     , (32645,  63,       1) /* DamageMod */
+     , (32645, 136,       1) /* CriticalMultiplier */
+     , (32645, 147,       1) /* CriticalFrequency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32645,   1, 'Shadowfire Isparian Spear') /* Name */;
+VALUES (32645,   1, 'Shadowfire Isparian Spear') /* Name */
+     , (32645,  16, 'A Perfect Isparian Spear, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32645,   1, 0x0200150F) /* Setup */

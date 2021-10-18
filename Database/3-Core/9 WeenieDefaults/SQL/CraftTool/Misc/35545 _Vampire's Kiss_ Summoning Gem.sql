@@ -12,17 +12,23 @@ VALUES (35545,   1,        128) /* ItemType - Misc */
      , (35545,  15,          1) /* StackUnitValue */
      , (35545,  16,          8) /* ItemUseable - Contained */
      , (35545,  19,          1) /* Value */
+     , (35545,  33,         -1) /* Bonded - Slippery */
      , (35545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35545,  94,         16) /* TargetType - Creature */;
+     , (35545,  94,         16) /* TargetType - Creature */
+     , (35545, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35545,  22, True ) /* Inscribable */;
+VALUES (35545,  22, True ) /* Inscribable */
+     , (35545,  69, False) /* IsSellable */
+     , (35545,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35545,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35545,   1, '"Vampire''s Kiss" Summoning Gem') /* Name */;
+VALUES (35545,   1, '"Vampire''s Kiss" Summoning Gem') /* Name */
+     , (35545,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
+     , (35545,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as, "Vampire''s Kiss".  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35545,   1, 0x020006FF) /* Setup */

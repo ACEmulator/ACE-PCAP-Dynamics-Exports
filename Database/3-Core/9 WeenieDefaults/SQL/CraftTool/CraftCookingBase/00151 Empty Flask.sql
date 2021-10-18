@@ -17,7 +17,8 @@ VALUES (151,   1,    4194304) /* ItemType - CraftCookingBase */
      , (151, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (151,   1, 'Empty Flask') /* Name */;
+VALUES (151,   1, 'Empty Flask') /* Name */
+     , (151,  14, 'Use this item on a well.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (151,   1, 0x020000AB) /* Setup */

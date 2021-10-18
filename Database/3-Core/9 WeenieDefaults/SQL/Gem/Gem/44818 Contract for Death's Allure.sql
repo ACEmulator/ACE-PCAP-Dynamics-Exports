@@ -5,6 +5,7 @@ VALUES (44818, 'ace44818-contractfordeathsallure', 38, '2019-02-10 00:00:00') /*
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44818,   1,       2048) /* ItemType - Gem */
+     , (44818,   5,          0) /* EncumbranceVal */
      , (44818,  11,          1) /* MaxStackSize */
      , (44818,  12,          1) /* StackSize */
      , (44818,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (44818,   1,       2048) /* ItemType - Gem */
      , (44818,  16,          8) /* ItemUseable - Contained */
      , (44818,  18,          2) /* UiEffects - Poisoned */
      , (44818,  19,        100) /* Value */
+     , (44818,  33,          1) /* Bonded - Bonded */
      , (44818,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44818,  94,         16) /* TargetType - Creature */
      , (44818, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44818,  22, True ) /* Inscribable */;
+VALUES (44818,  22, True ) /* Inscribable */
+     , (44818,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44818, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44818,   1, 'Contract for Death''s Allure') /* Name */;
+VALUES (44818,   1, 'Contract for Death''s Allure') /* Name */
+     , (44818,  14, 'Recommended Level: 200') /* Use */
+     , (44818,  16, 'The Hermit needs your help in hopes of finding a cure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44818,   1, 0x02000C79) /* Setup */

@@ -5,6 +5,7 @@ VALUES (44393, 'ace44393-contractforauggemsirbellas', 38, '2019-02-10 00:00:00')
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44393,   1,       2048) /* ItemType - Gem */
+     , (44393,   5,          0) /* EncumbranceVal */
      , (44393,  11,          1) /* MaxStackSize */
      , (44393,  12,          1) /* StackSize */
      , (44393,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (44393,   1,       2048) /* ItemType - Gem */
      , (44393,  16,          8) /* ItemUseable - Contained */
      , (44393,  18,          2) /* UiEffects - Poisoned */
      , (44393,  19,        100) /* Value */
+     , (44393,  33,          1) /* Bonded - Bonded */
      , (44393,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44393,  94,         16) /* TargetType - Creature */
      , (44393, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44393,  22, True ) /* Inscribable */;
+VALUES (44393,  22, True ) /* Inscribable */
+     , (44393,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44393, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44393,   1, 'Contract for Aug Gem: Sir Bellas') /* Name */;
+VALUES (44393,   1, 'Contract for Aug Gem: Sir Bellas') /* Name */
+     , (44393,  14, 'Recommended Level: 125') /* Use */
+     , (44393,  16, 'Retrieve an Augmentation Gem from Sir Bellas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44393,   1, 0x02000C79) /* Setup */

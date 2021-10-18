@@ -13,13 +13,26 @@ VALUES (3602,   1,        256) /* ItemType - MissileWeapon */
      , (3602,  15,          4) /* StackUnitValue */
      , (3602,  16,          1) /* ItemUseable - No */
      , (3602,  19,          4) /* Value */
+     , (3602,  44,         14) /* Damage */
+     , (3602,  45,          2) /* DamageType - Pierce */
+     , (3602,  48,          0) /* WeaponSkill - None */
+     , (3602,  49,         -1) /* WeaponTime */
      , (3602,  50,          2) /* AmmoType - Bolt */
      , (3602,  51,          3) /* CombatUse - Ammo */
      , (3602,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3602, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (3602,  69, False) /* IsSellable */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3602,  78,       1) /* Friction */
+VALUES (3602,  21,       0) /* WeaponLength */
+     , (3602,  22,     0.2) /* DamageVariance */
+     , (3602,  26,       0) /* MaximumVelocity */
+     , (3602,  29,       1) /* WeaponDefense */
+     , (3602,  62,       1) /* WeaponOffense */
+     , (3602,  63,       1) /* DamageMod */
+     , (3602,  78,       1) /* Friction */
      , (3602,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

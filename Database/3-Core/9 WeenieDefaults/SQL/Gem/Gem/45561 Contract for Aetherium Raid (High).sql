@@ -5,6 +5,7 @@ VALUES (45561, 'ace45561-contractforaetheriumraidhigh', 38, '2019-02-10 00:00:00
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45561,   1,       2048) /* ItemType - Gem */
+     , (45561,   5,          0) /* EncumbranceVal */
      , (45561,  11,          1) /* MaxStackSize */
      , (45561,  12,          1) /* StackSize */
      , (45561,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (45561,   1,       2048) /* ItemType - Gem */
      , (45561,  16,          8) /* ItemUseable - Contained */
      , (45561,  18,          2) /* UiEffects - Poisoned */
      , (45561,  19,        100) /* Value */
+     , (45561,  33,          1) /* Bonded - Bonded */
      , (45561,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (45561,  94,         16) /* TargetType - Creature */
      , (45561, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45561,  22, True ) /* Inscribable */;
+VALUES (45561,  22, True ) /* Inscribable */
+     , (45561,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45561, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45561,   1, 'Contract for Aetherium Raid (High)') /* Name */;
+VALUES (45561,   1, 'Contract for Aetherium Raid (High)') /* Name */
+     , (45561,  14, 'Recommended Level: 150') /* Use */
+     , (45561,  16, 'Sir Durnstad needs assistance in destroying the Aetherium Stockpile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45561,   1, 0x02000C79) /* Setup */

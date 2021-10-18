@@ -18,6 +18,10 @@ VALUES (5540,   1,      32768) /* ItemType - Caster */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5540,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5540,  29,       1) /* WeaponDefense */
+     , (5540, 144,       0) /* ManaConversionMod */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5540,   1, 'Wand') /* Name */;
 

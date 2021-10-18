@@ -12,14 +12,18 @@ VALUES (37470,   1,        128) /* ItemType - Misc */
      , (37470,  15,          1) /* StackUnitValue */
      , (37470,  16,          8) /* ItemUseable - Contained */
      , (37470,  19,          1) /* Value */
+     , (37470,  33,         -1) /* Bonded - Slippery */
      , (37470,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37470,  94,         16) /* TargetType - Creature */;
+     , (37470,  94,         16) /* TargetType - Creature */
+     , (37470, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37470,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (37470,   1, 'Crossbow Stamped Spectral Ingot') /* Name */;
+VALUES (37470,   1, 'Crossbow Stamped Spectral Ingot') /* Name */
+     , (37470,  14, '( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem.)') /* Use */
+     , (37470,  16, 'A spectral ingot that summons a Spectral Crossbow when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37470,   1, 0x02000921) /* Setup */

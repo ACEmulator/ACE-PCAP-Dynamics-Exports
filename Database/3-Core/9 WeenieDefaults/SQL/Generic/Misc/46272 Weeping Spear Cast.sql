@@ -8,16 +8,20 @@ VALUES (46272,   1,        128) /* ItemType - Misc */
      , (46272,   5,         50) /* EncumbranceVal */
      , (46272,  16,          1) /* ItemUseable - No */
      , (46272,  19,       5000) /* Value */
-     , (46272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (46272,  33,          1) /* Bonded - Bonded */
+     , (46272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (46272, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46272,  22, True ) /* Inscribable */;
+VALUES (46272,  22, True ) /* Inscribable */
+     , (46272,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46272,  39,    0.37) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46272,   1, 'Weeping Spear Cast') /* Name */;
+VALUES (46272,   1, 'Weeping Spear Cast') /* Name */
+     , (46272,  16, 'The cast of a spear which can be transformed into a Weeping Spear with the Heart of the Innocent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46272,   1, 0x020000F8) /* Setup */

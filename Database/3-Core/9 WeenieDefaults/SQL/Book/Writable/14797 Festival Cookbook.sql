@@ -18,7 +18,8 @@ VALUES (14797,  39,     0.4) /* DefaultScale */
      , (14797,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14797,   1, 'Festival Cookbook') /* Name */;
+VALUES (14797,   1, 'Festival Cookbook') /* Name */
+     , (14797,  16, 'A collection of recipes created during the Festival Season, PY 13.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14797,   1, 0x0200122C) /* Setup */

@@ -12,13 +12,21 @@ VALUES (53410,   1,        128) /* ItemType - Misc */
      , (53410,  15,         10) /* StackUnitValue */
      , (53410,  16,          1) /* ItemUseable - No */
      , (53410,  19,         10) /* Value */
-     , (53410,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (53410,  33,          1) /* Bonded - Bonded */
+     , (53410,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (53410, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (53410,  23, True ) /* DestroyOnSell */
+     , (53410,  69, False) /* IsSellable */
+     , (53410,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53410,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53410,   1, 'Radiant Blood Gauntlet Writ') /* Name */;
+VALUES (53410,   1, 'Radiant Blood Gauntlet Writ') /* Name */
+     , (53410,  14, 'Turn this into an Agent of the Arcanum to be granted one Radiant Blood Armor Writ.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53410,   1, 0x0200090E) /* Setup */

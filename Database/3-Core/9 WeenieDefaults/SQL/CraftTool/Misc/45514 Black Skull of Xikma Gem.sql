@@ -12,14 +12,19 @@ VALUES (45514,   1,        128) /* ItemType - Misc */
      , (45514,  15,          1) /* StackUnitValue */
      , (45514,  16,          8) /* ItemUseable - Contained */
      , (45514,  19,          1) /* Value */
+     , (45514,  33,          0) /* Bonded - Normal */
      , (45514,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (45514,  94,         16) /* TargetType - Creature */;
+     , (45514,  94,         16) /* TargetType - Creature */
+     , (45514, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45514,  22, True ) /* Inscribable */;
+VALUES (45514,  22, True ) /* Inscribable */
+     , (45514,  69, False) /* IsSellable */
+     , (45514,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45514,   1, 'Black Skull of Xikma Gem') /* Name */;
+VALUES (45514,   1, 'Black Skull of Xikma Gem') /* Name */
+     , (45514,  16, 'A magical gem containing a Black Skull of Xikma.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45514,   1, 0x02000921) /* Setup */

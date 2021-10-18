@@ -15,7 +15,8 @@ VALUES (9517,  39,     0.4) /* DefaultScale */
      , (9517,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9517,   1, 'A Guide to Gan-Zo''s Den of Iniquity') /* Name */;
+VALUES (9517,   1, 'A Guide to Gan-Zo''s Den of Iniquity') /* Name */
+     , (9517,  16, 'A book of rules from Gan-Zo''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9517,   1, 0x0200122C) /* Setup */

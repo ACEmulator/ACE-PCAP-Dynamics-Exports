@@ -14,13 +14,19 @@ VALUES (9428,   1,       2048) /* ItemType - Gem */
      , (9428,  18,          1) /* UiEffects - Magical */
      , (9428,  19,        200) /* Value */
      , (9428,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9428,  94,         16) /* TargetType - Creature */;
+     , (9428,  94,         16) /* TargetType - Creature */
+     , (9428, 106,        210) /* ItemSpellcraft */
+     , (9428, 107,        100) /* ItemCurMana */
+     , (9428, 108,        200) /* ItemMaxMana */
+     , (9428, 109,          0) /* ItemDifficulty */
+     , (9428, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9428,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9428,   1, 'Cold Moonstone') /* Name */;
+VALUES (9428,   1, 'Cold Moonstone') /* Name */
+     , (9428,  15, 'A gem of cold protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9428,   1, 0x02000179) /* Setup */

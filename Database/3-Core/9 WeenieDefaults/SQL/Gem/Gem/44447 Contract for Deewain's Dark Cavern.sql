@@ -5,6 +5,7 @@ VALUES (44447, 'ace44447-contractfordeewainsdarkcavern', 38, '2019-02-10 00:00:0
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44447,   1,       2048) /* ItemType - Gem */
+     , (44447,   5,          0) /* EncumbranceVal */
      , (44447,  11,          1) /* MaxStackSize */
      , (44447,  12,          1) /* StackSize */
      , (44447,  13,          0) /* StackUnitEncumbrance */
@@ -12,18 +13,22 @@ VALUES (44447,   1,       2048) /* ItemType - Gem */
      , (44447,  16,          8) /* ItemUseable - Contained */
      , (44447,  18,          2) /* UiEffects - Poisoned */
      , (44447,  19,        100) /* Value */
+     , (44447,  33,          1) /* Bonded - Bonded */
      , (44447,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44447,  94,         16) /* TargetType - Creature */
      , (44447, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44447,  22, True ) /* Inscribable */;
+VALUES (44447,  22, True ) /* Inscribable */
+     , (44447,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44447, 167,       2) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44447,   1, 'Contract for Deewain''s Dark Cavern') /* Name */;
+VALUES (44447,   1, 'Contract for Deewain''s Dark Cavern') /* Name */
+     , (44447,  14, 'Recommended Level: 200') /* Use */
+     , (44447,  16, 'Fayza is interested in the Energy Infused Rocks from Deewain''s Dark Cavern.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44447,   1, 0x02000C79) /* Setup */

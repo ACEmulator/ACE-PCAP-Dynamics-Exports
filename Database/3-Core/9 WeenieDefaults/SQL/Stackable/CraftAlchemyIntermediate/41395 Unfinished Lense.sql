@@ -16,7 +16,9 @@ VALUES (41395,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41395, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41395,   1, 'Unfinished Lense') /* Name */;
+VALUES (41395,   1, 'Unfinished Lense') /* Name */
+     , (41395,  14, 'This item is used in Item Tinkering.') /* Use */
+     , (41395,  16, 'An unpolished lense.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41395,   1, 0x02000179) /* Setup */
