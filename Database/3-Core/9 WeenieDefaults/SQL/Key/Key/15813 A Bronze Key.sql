@@ -7,7 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15813,   1,      16384) /* ItemType - Key */
      , (15813,   5,         50) /* EncumbranceVal */
      , (15813,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
-     , (15813,  19,         66) /* Value */
+     , (15813,  19,        100) /* Value */
      , (15813,  91,          3) /* MaxStructure */
      , (15813,  92,          3) /* Structure */
      , (15813,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
